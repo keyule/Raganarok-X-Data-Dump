@@ -1,0 +1,63 @@
+TextAsset Base
+	string m_Name = "data_activity_Vitality"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["box_id"]= 10003,
+  ["id"]= 2,
+  ["prize_num"]= {
+    200
+  },
+  ["vitality"]= 40
+},
+[3] = {
+  ["box_id"]= 10004,
+  ["id"]= 3,
+  ["prize_num"]= {
+    300
+  },
+  ["vitality"]= 60
+},
+[4] = {
+  ["box_id"]= 10005,
+  ["id"]= 4,
+  ["prize_num"]= {
+    400
+  },
+  ["vitality"]= 80
+},
+[5] = {
+  ["box_id"]= 10006,
+  ["id"]= 5,
+  ["prize_num"]= {
+    500
+  },
+  ["vitality"]= 100
+}
+}
+local baseTable={
+  ["activityDrop"]= {
+    {
+      ["activityId"]= 8,
+      ["dropId"]= {
+        5520214
+      },
+      ["prizeId"]= {
+        10202070
+      }
+    }
+  },
+  ["box_id"]= 10002,
+  ["id"]= 1,
+  ["prize_id"]= {
+    1003
+  },
+  ["prize_num"]= {
+    100
+  },
+  ["vitality"]= 20
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

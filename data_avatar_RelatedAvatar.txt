@@ -1,0 +1,12 @@
+TextAsset Base
+	string m_Name = "data_avatar_RelatedAvatar"
+	string m_Script = "return {
+	[1] = {
+		["Id"] = 1,
+		["Res"] = {
+			{["Route"] = "",["X"] = 0.1,["Y"] = 0.1,["Z"] = 0.1,["RotationX"] = 0.1,["RotationY"] = 0.1,["RotationZ"] = 0.1}
+		},
+		["Job"] = 1000
+	}
+}
+"

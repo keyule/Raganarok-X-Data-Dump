@@ -1,0 +1,139 @@
+TextAsset Base
+	string m_Name = "data_dynamicActivities_ShootActivityBase"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["AnnouncementId"]= 40,
+  ["BigNpcGenerator"]= 1020320,
+  ["BigNpcRefreshLine"]= 1,
+  ["BigNpcStaticId"]= 25121,
+  ["bulletItemDropId"]= {
+    {
+      ["bodilyValue"]= 2,
+      ["dropId"]= 5520211
+    },
+    {
+      ["bodilyValue"]= 1,
+      ["dropId"]= 5520212
+    },
+    {
+      ["bodilyValue"]= 0,
+      ["dropId"]= 5520213
+    }
+  },
+  ["cannonPermissionMaxH"]= 22.5,
+  ["carrierBulletId"]= {
+    1107
+  },
+  ["carrierBulletItemId"]= {
+    10202072
+  },
+  ["carrierRange"]= 100,
+  ["CarrierSkillId"]= 199994,
+  ["carrierType"]= 2,
+  ["catapultBulletId"]= {
+    1105,
+    1106
+  },
+  ["catapultBulletItemId"]= {
+    10202070,
+    10202071
+  },
+  ["catapultEquipId"]= 1999996,
+  ["catapultRange"]= 100,
+  ["CatapultSkillId"]= 199995,
+  ["DefaultNpcGenerator"]= 1020310,
+  ["DefaultTimes"]= 60,
+  ["hitBigNpcDropId"]= 5520203,
+  ["id"]= 2,
+  ["posDistanceVerification"]= 7,
+  ["sceneId"]= 1020,
+  ["slingshotPermissionMaxH"]= 35,
+  ["Times"]= {
+    "12:00",
+    "13:00",
+    "14:00",
+    "15:00",
+    "16:00",
+    "17:00",
+    "18:00",
+    "19:00",
+    "20:00",
+    "21:00",
+    "22:00",
+    "23:00"
+  }
+}
+}
+local baseTable={
+  ["AnnouncementId"]= 33,
+  ["BigNpcGenerator"]= 1210320,
+  ["BigNpcRefreshLine"]= 3,
+  ["BigNpcStaticId"]= 25030,
+  ["bulletItemDropId"]= {
+    {
+      ["bodilyValue"]= 2,
+      ["dropId"]= 5520001
+    },
+    {
+      ["bodilyValue"]= 1,
+      ["dropId"]= 5520002
+    },
+    {
+      ["bodilyValue"]= 0,
+      ["dropId"]= 5520003
+    }
+  },
+  ["cannonPermissionMaxH"]= 7.5,
+  ["carrierBulletId"]= {
+    1103
+  },
+  ["carrierBulletItemId"]= {
+    10202053
+  },
+  ["carrierRange"]= 60,
+  ["CarrierShotCd"]= 0.2,
+  ["CarrierSkillId"]= 199996,
+  ["carrierType"]= 1,
+  ["catapultBulletId"]= {
+    1100,
+    1101,
+    1102
+  },
+  ["catapultBulletItemId"]= {
+    10202050,
+    10202051,
+    10202052
+  },
+  ["catapultEquipId"]= 1999997,
+  ["catapultRange"]= 40,
+  ["catapultShotCd"]= 1.2,
+  ["CatapultSkillId"]= 199997,
+  ["DefaultNpcGenerator"]= 1210301,
+  ["DefaultTimes"]= 180,
+  ["hitBigNpcDropId"]= 5520063,
+  ["id"]= 1,
+  ["posDistanceVerification"]= 6,
+  ["rotateSpeed"]= 4,
+  ["sceneId"]= 1210,
+  ["slingshotPermissionMaxH"]= 3,
+  ["Times"]= {
+    "12:00",
+    "13:00",
+    "14:00",
+    "15:00",
+    "16:00",
+    "17:00",
+    "18:00",
+    "19:00",
+    "20:00",
+    "21:00",
+    "22:00",
+    "23:00",
+    "00:00"
+  }
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

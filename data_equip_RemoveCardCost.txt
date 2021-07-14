@@ -1,0 +1,27 @@
+TextAsset Base
+	string m_Name = "data_equip_RemoveCardCost"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["currencyValue"]= 1000,
+  ["quality"]= 2
+},
+[3] = {
+  ["currencyValue"]= 2000,
+  ["quality"]= 3
+},
+[4] = {
+  ["currencyValue"]= 5000,
+  ["quality"]= 4
+}
+}
+local baseTable={
+  ["currencyType"]= 3,
+  ["currencyValue"]= 500,
+  ["material"]= {},
+  ["quality"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

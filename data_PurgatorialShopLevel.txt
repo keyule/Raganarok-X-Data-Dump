@@ -1,0 +1,37 @@
+TextAsset Base
+	string m_Name = "data_PurgatorialShopLevel"
+	string m_Script = "local table= {
+[1] = {}
+}
+local baseTable={
+  ["conditionId"]= {
+    6200,
+    6201,
+    6202,
+    6203
+  },
+  ["NeedItemId"]= {
+    10217036,
+    10217036,
+    10217036,
+    10217036
+  },
+  ["NeedItemNum"]= {
+    0,
+    50,
+    100,
+    200
+  },
+  ["refreshNum"]= 50,
+  ["ShopId"]= 1,
+  ["ShopLevel"]= {
+    1,
+    2,
+    3,
+    4
+  }
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

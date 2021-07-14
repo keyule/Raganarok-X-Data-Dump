@@ -1,0 +1,845 @@
+TextAsset Base
+	string m_Name = "data_activity_Activity"
+	string m_Script = "local table= {
+[100001] = {
+  ["ActivityRule"]= "ActivityRule_100001",
+  ["Desc"]= "Activity_desc_100001",
+  ["IfFindBack"]= 1,
+  ["jion_NpcID"]= {
+    10101013,
+    11101014,
+    13101009
+  },
+  ["Level"]= 22,
+  ["main_icon"]= "Activity_9",
+  ["ModeText"]= "ModeText1",
+  ["Name"]= "Activity_name_100001",
+  ["NameLocalized"]= "委托板",
+  ["NotOpenDayTips"]= "NotOpenDayTips_100001",
+  ["prize_id"]= {
+    1005,
+    1006,
+    1007
+  },
+  ["Template"]= "QuestBoard",
+  ["times"]= 10,
+  ["vitality"]= 4
+},
+[100002] = {
+  ["Desc"]= "Activity_desc_100002",
+  ["id"]= 100002,
+  ["IsUnlimitJion"]= 1,
+  ["jion_NpcID"]= {
+    10201005
+  },
+  ["Level"]= 12,
+  ["main_icon"]= "Activity_13",
+  ["ModeText"]= "ModeText2",
+  ["Name"]= "Activity_name_100002",
+  ["NameLocalized"]= "旋转木马",
+  ["NotOpenDayTips"]= "NotOpenDayTips_100002",
+  ["prize_num"]= {},
+  ["reset_time"]= "0:00"
+},
+[100003] = {
+  ["Desc"]= "Activity_desc_100003",
+  ["id"]= 100003,
+  ["IsGuild"]= 1,
+  ["IsHide"]= 1,
+  ["jion_type"]= 2,
+  ["jion_UI"]= "UI_GVE",
+  ["Level"]= 18,
+  ["main_icon"]= "Activity_1",
+  ["Name"]= "Activity_name_100003",
+  ["NameLocalized"]= "异界之门",
+  ["NotOpenDayTips"]= "NotOpenDayTips_100003",
+  ["prize_id"]= {
+    1011
+  },
+  ["prize_num"]= {
+    0
+  },
+  ["reset_time"]= "0:00"
+},
+[100004] = {
+  ["ActivityRule"]= "ActivityRule_100004",
+  ["beginTime"]= {
+    "11:00",
+    "17:30",
+    "21:00"
+  },
+  ["Desc"]= "Activity_desc_100004",
+  ["endTime"]= {
+    "13:00",
+    "19:30",
+    "23:00"
+  },
+  ["id"]= 100004,
+  ["IfFindBack"]= 1,
+  ["IsLimitTime"]= 1,
+  ["jion_NpcID"]= {
+    10101021
+  },
+  ["Level"]= 21,
+  ["main_icon"]= "Activity_10",
+  ["ModeText"]= "ModeText1",
+  ["Name"]= "Activity_name_100004",
+  ["NameLocalized"]= "OX问答",
+  ["NotOpenDayTips"]= "NotOpenDayTips_100004",
+  ["prize_id"]= {
+    1001,
+    1005,
+    1006,
+    10204029,
+    10204028,
+    10204027,
+    10204026
+  },
+  ["prize_num"]= {
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  },
+  ["Template"]= "OXInterlocution",
+  ["times"]= 1,
+  ["vitality"]= 10
+},
+[100005] = {
+  ["ActivityRule"]= "ActivityRule_100005",
+  ["Desc"]= "Activity_desc_100005",
+  ["id"]= 100005,
+  ["IfFindBack"]= 1,
+  ["jion_NpcID"]= {
+    11709999
+  },
+  ["Level"]= 21,
+  ["main_icon"]= "Activity_8",
+  ["Name"]= "Activity_name_100005",
+  ["NameLocalized"]= "日常副本",
+  ["NotOpenDayTips"]= "NotOpenDayTips_100005",
+  ["prize_id"]= {
+    2101006,
+    2101005,
+    1201014,
+    1102013,
+    10204048,
+    1005,
+    1006,
+    10413160,
+    10413177
+  },
+  ["prize_num"]= {
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  },
+  ["Template"]= "NormalDailyInstance",
+  ["times"]= 3,
+  ["vitality"]= 15
+},
+[100006] = {
+  ["ActivityRule"]= "ActivityRule_100006",
+  ["Desc"]= "Activity_desc_100006",
+  ["id"]= 100006,
+  ["jion_NpcID"]= {
+    10101010
+  },
+  ["Level"]= 25,
+  ["main_icon"]= "Activity_12",
+  ["ModeText"]= "ModeText1",
+  ["Name"]= "Activity_name_100006",
+  ["NameLocalized"]= "商会委托",
+  ["NotOpenDayTips"]= "NotOpenDayTips_100006",
+  ["prize_id"]= {
+    10204043,
+    10204044,
+    10204045
+  },
+  ["reset_daysofweek"]= {
+    1
+  },
+  ["ResetVitality"]= 1,
+  ["Template"]= "RingTask",
+  ["times"]= 10,
+  ["vitality"]= 2
+},
+[100007] = {
+  ["Desc"]= "Activity_desc_100007",
+  ["id"]= 100007,
+  ["IfFindBack"]= 1,
+  ["IsUnlimitJion"]= 1,
+  ["jion_type"]= 2,
+  ["jion_UI"]= "UI_OdinBlessing",
+  ["Level"]= 23,
+  ["main_icon"]= "Activity_11",
+  ["ModeText"]= "ModeText1",
+  ["Name"]= "Activity_name_100007",
+  ["NameLocalized"]= "奥丁祝福",
+  ["NotOpenDayTips"]= "NotOpenDayTips_100007",
+  ["prize_id"]= {
+    1005,
+    1006,
+    1007,
+    1001
+  },
+  ["prize_num"]= {
+    0,
+    0,
+    0,
+    0
+  },
+  ["Template"]= "OdinBless"
+},
+[100008] = {
+  ["beginTime"]= {
+    "19:30"
+  },
+  ["Desc"]= "Activity_desc_100008",
+  ["endTime"]= {
+    "20:30"
+  },
+  ["id"]= 100008,
+  ["IsGuild"]= 1,
+  ["IsLimitTime"]= 1,
+  ["jion_type"]= 2,
+  ["jion_UI"]= "UI_Guild",
+  ["Level"]= 99,
+  ["main_icon"]= "Activity_17",
+  ["Name"]= "Activity_name_100008",
+  ["NameLocalized"]= "公会宴会",
+  ["NotOpenDayTips"]= "NotOpenDayTips_100008",
+  ["prize_id"]= {
+    1001,
+    1011,
+    1012
+  },
+  ["reset_time"]= "0:00"
+},
+[100009] = {
+  ["ActivityRule"]= "ActivityRule_100009",
+  ["Desc"]= "Activity_desc_100009",
+  ["id"]= 100009,
+  ["IsGuild"]= 1,
+  ["jion_type"]= 2,
+  ["jion_UI"]= "UI_Guild",
+  ["Level"]= 20,
+  ["main_icon"]= "Activity_6",
+  ["ModeText"]= "ModeText1",
+  ["Name"]= "Activity_name_100009",
+  ["NameLocalized"]= "公会订单",
+  ["NotOpenDayTips"]= "NotOpenDayTips_100009",
+  ["prize_id"]= {
+    1001,
+    1011,
+    1012
+  },
+  ["Template"]= "GuildOrder",
+  ["times"]= 8,
+  ["vitality"]= 2
+},
+[100010] = {
+  ["ActivityRule"]= "ActivityRule_100010",
+  ["id"]= 100010,
+  ["jion_NpcID"]= {
+    11401001
+  },
+  ["Level"]= 35,
+  ["Name"]= "Activity_name_100010",
+  ["NameLocalized"]= "恩德勒斯塔",
+  ["prize_id"]= {
+    1005,
+    1006,
+    2101043,
+    2101124,
+    10204174,
+    10204175
+  },
+  ["prize_num"]= {
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  },
+  ["reset_daysofweek"]= {
+    1
+  },
+  ["Template"]= "Tower"
+},
+[100014] = {
+  ["ActivityRule"]= "ActivityRule_100014",
+  ["beginTime"]= {
+    "00:00"
+  },
+  ["Desc"]= "Activity_desc_100014",
+  ["id"]= 100014,
+  ["IsUnlimitJion"]= 1,
+  ["jion_NpcID"]= {
+    10101029
+  },
+  ["Level"]= 40,
+  ["main_icon"]= "Activity_16",
+  ["Name"]= "Activity_name_100014",
+  ["NameLocalized"]= "自由竞技场",
+  ["NotOpenDayTips"]= "NotOpenDayTips_100014",
+  ["prize_num"]= {},
+  ["reset_time"]= "0:00"
+},
+[100016] = {
+  ["AvailableDaysOfWeek"]= {
+    2,
+    4,
+    7
+  },
+  ["beginTime"]= {
+    "21:30"
+  },
+  ["Desc"]= "Activity_desc_100016",
+  ["endTime"]= {
+    "23:00"
+  },
+  ["id"]= 100016,
+  ["IsGuild"]= 1,
+  ["IsLimitTime"]= 1,
+  ["jion_NpcID"]= {
+    61018
+  },
+  ["Level"]= 40,
+  ["main_icon"]= "Activity_16",
+  ["Name"]= "Activity_name_100016",
+  ["NameLocalized"]= "公会KVM",
+  ["NotOpenDayTips"]= "NotOpenDayTips_100016",
+  ["prize_id"]= {
+    1011
+  },
+  ["prize_num"]= {
+    0
+  },
+  ["Template"]= "GuildPvp"
+},
+[100017] = {
+  ["AvailableDaysOfWeek"]= {
+    6
+  },
+  ["beginTime"]= {
+    "21:00"
+  },
+  ["Desc"]= "Activity_desc_100017",
+  ["endTime"]= {
+    "21:45"
+  },
+  ["id"]= 100017,
+  ["IsGuild"]= 1,
+  ["IsLimitTime"]= 1,
+  ["IsUnlimitJion"]= 1,
+  ["jion_type"]= 2,
+  ["jion_UI"]= "UI_GVGReport",
+  ["Level"]= 35,
+  ["main_icon"]= "Activity_17",
+  ["Name"]= "Activity_name_100017",
+  ["NameLocalized"]= "GVG公会战",
+  ["NotOpenDayTips"]= "NotOpenDayTips_100017",
+  ["prize_id"]= {
+    10204189,
+    10204190
+  },
+  ["prize_num"]= {
+    0,
+    0
+  },
+  ["reset_time"]= "0:00",
+  ["Template"]= "Gvg",
+  ["worldLevel"]= 55
+},
+[100019] = {
+  ["beginTime"]= {
+    "9:00"
+  },
+  ["Desc"]= "Activity_desc_100019",
+  ["endTime"]= {
+    "21:00"
+  },
+  ["id"]= 100019,
+  ["IsHide"]= 1,
+  ["IsLimitTime"]= 1,
+  ["IsUnlimitJion"]= 1,
+  ["jion_NpcID"]= {
+    10101029
+  },
+  ["jion_UI"]= 0,
+  ["LastLongDays"]= 1,
+  ["Level"]= 40,
+  ["main_icon"]= "Activity_19",
+  ["NotOpenDayTips"]= "NotOpenDayTips_100019",
+  ["prize_id"]= {
+    10217011,
+    10217010,
+    10217009,
+    10217008,
+    10217007,
+    10217006,
+    10217005
+  },
+  ["prize_num"]= {
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  },
+  ["Template"]= "MvpArena",
+  ["vitality"]= 5
+},
+[100020] = {
+  ["Desc"]= "Activity_desc_100020",
+  ["id"]= 100020,
+  ["IsHide"]= 1,
+  ["jion_type"]= 0,
+  ["main_icon"]= "Activity_2",
+  ["ModeText"]= "",
+  ["Name"]= "Activity_name_100020",
+  ["NameLocalized"]= "连续登录(隐藏)",
+  ["NotOpenDayTips"]= "NotOpenDayTips_100020",
+  ["prize_id"]= {
+    1001,
+    1005,
+    1006
+  },
+  ["reset_time"]= "0:00",
+  ["Template"]= "AccumulativeLogin"
+},
+[100021] = {
+  ["Desc"]= "Activity_desc_100021",
+  ["id"]= 100021,
+  ["IsHide"]= 1,
+  ["IsUnlimitJion"]= 1,
+  ["jion_NpcID"]= {
+    15307001,
+    15709107,
+    15809108
+  },
+  ["jion_type"]= 3,
+  ["Level"]= 25,
+  ["main_icon"]= "Activity_2",
+  ["ModeText"]= "ModeText2",
+  ["Name"]= "Activity_name_100021",
+  ["NameLocalized"]= "酒馆小游戏",
+  ["NotOpenDayTips"]= "NotOpenDayTips_100021",
+  ["prize_id"]= {
+    10201040
+  },
+  ["prize_num"]= {
+    0
+  },
+  ["Template"]= "MiniGame",
+  ["times"]= 2
+},
+[100022] = {
+  ["id"]= 100022,
+  ["jion_NpcID"]= {
+    11401001
+  },
+  ["Name"]= "Activity_name_100022",
+  ["NameLocalized"]= "王国竞猜{周}",
+  ["prize_id"]= {
+    10407027,
+    10407002,
+    10407034,
+    10412529,
+    10412518,
+    10412522
+  },
+  ["prize_num"]= {
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  },
+  ["reset_daysofweek"]= {
+    1
+  },
+  ["Template"]= "Lottery"
+},
+[100023] = {
+  ["id"]= 100023,
+  ["jion_NpcID"]= {
+    11401001
+  },
+  ["Name"]= "Activity_name_100023",
+  ["NameLocalized"]= "宠物挂机{隐藏}",
+  ["prize_id"]= {
+    10407027,
+    10407002,
+    10407034,
+    10412529,
+    10412518,
+    10412522
+  },
+  ["prize_num"]= {
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  }
+},
+[100024] = {
+  ["id"]= 100024,
+  ["jion_NpcID"]= {
+    11401001
+  },
+  ["Name"]= "Activity_name_100024",
+  ["NameLocalized"]= "王国竞猜邮件",
+  ["prize_id"]= {
+    10407027,
+    10407002,
+    10407034,
+    10412529,
+    10412518,
+    10412522
+  },
+  ["prize_num"]= {
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  },
+  ["Template"]= "LotteryPraise"
+},
+[100025] = {
+  ["Desc"]= "Activity_desc_100025",
+  ["id"]= 100025,
+  ["jion_NpcID"]= {
+    10206006
+  },
+  ["Level"]= 26,
+  ["ModeText"]= "ModeText1",
+  ["Name"]= "Activity_name_100025",
+  ["NameLocalized"]= "钓鱼大赛",
+  ["prize_id"]= {
+    10206008,
+    10204123,
+    4101184,
+    4101019,
+    4101128,
+    4101129
+  },
+  ["prize_num"]= {
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  },
+  ["Template"]= "FishContest"
+},
+[100026] = {
+  ["ActivityRule"]= "",
+  ["beginTime"]= {
+    "00:15",
+    "01:30",
+    "03:00",
+    "04:30",
+    "06:00",
+    "07:30",
+    "09:00",
+    "10:30",
+    "12:00",
+    "13:30",
+    "15:00",
+    "16:30",
+    "18:00",
+    "19:30",
+    "21:00",
+    "22:30"
+  },
+  ["Desc"]= "Activity_desc_100026",
+  ["endTime"]= {
+    "01:15",
+    "02:30",
+    "04:00",
+    "05:30",
+    "07:00",
+    "08:30",
+    "10:00",
+    "11:30",
+    "13:00",
+    "14:30",
+    "16:00",
+    "17:30",
+    "19:00",
+    "20:59",
+    "22:00",
+    "23:30"
+  },
+  ["id"]= 100026,
+  ["IsHide"]= 1,
+  ["IsLimitTime"]= 1,
+  ["IsUnlimitJion"]= 1,
+  ["jion_NpcID"]= {
+    10101056
+  },
+  ["LastLongDays"]= 15,
+  ["Level"]= 35,
+  ["main_icon"]= "Activity_26",
+  ["Name"]= "Activity_name_100026",
+  ["NameLocalized"]= "万圣狂欢派对",
+  ["prize_num"]= {},
+  ["reset_daysofweek"]= {
+    1,
+    2,
+    3,
+    4,
+    6,
+    7
+  },
+  ["StartDate"]= "11-01 00:00",
+  ["Template"]= "Halloween"
+},
+[100027] = {
+  ["ActivityRule"]= "",
+  ["beginTime"]= {
+    "00:00"
+  },
+  ["Desc"]= "Activity_desc_100026",
+  ["id"]= 100027,
+  ["IsLimitTime"]= 1,
+  ["IsUnlimitJion"]= 1,
+  ["jion_NpcID"]= {
+    12109003
+  },
+  ["LastLongDays"]= 1,
+  ["main_icon"]= "Activity_27",
+  ["Name"]= "Activity_name_100027",
+  ["NameLocalized"]= "耶诞魔力球盛典",
+  ["prize_num"]= {},
+  ["reset_daysofweek"]= {
+    1,
+    2,
+    3,
+    4,
+    6,
+    7
+  },
+  ["StartDate"]= "12-17 05:00",
+  ["Template"]= "Christmas"
+},
+[100029] = {
+  ["AvailableDaysOfWeek"]= {},
+  ["beginTime"]= {
+    "9:00"
+  },
+  ["Desc"]= "Activity_desc_100029",
+  ["endTime"]= {
+    "23:00"
+  },
+  ["id"]= 100029,
+  ["IsHide"]= 1,
+  ["jion_NpcID"]= {
+    10101061
+  },
+  ["jion_UI"]= "UI_FreeArena",
+  ["LastLongDays"]= 1,
+  ["Level"]= 30,
+  ["main_icon"]= "Activity_29",
+  ["NotOpenDayTips"]= "NotOpenDayTips_100019",
+  ["prize_id"]= {
+    10424063,
+    10424005,
+    10424013,
+    10424009,
+    10424017,
+    10424021
+  },
+  ["prize_num"]= {
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  },
+  ["reset_daysofweek"]= {
+    1
+  },
+  ["ResetVitality"]= 1,
+  ["Template"]= "MvpArenaV2",
+  ["times"]= 10
+},
+[100030] = {
+  ["ActivityRule"]= "ActivityRule_100030",
+  ["Desc"]= "Activity_desc_100030",
+  ["id"]= 100030,
+  ["instanceGroupId"]= {
+    101
+  },
+  ["jion_type"]= 4,
+  ["Level"]= 80,
+  ["main_icon"]= "Activity_8",
+  ["Name"]= "Activity_name_100030",
+  ["NameLocalized"]= "团队副本",
+  ["NotOpenDayTips"]= "NotOpenDayTips_100005",
+  ["prize_id"]= {
+    2101006,
+    2101005,
+    1201014,
+    1102013,
+    10204048,
+    1005,
+    1006,
+    10413160,
+    10413177
+  },
+  ["prize_num"]= {
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  },
+  ["reset_daysofweek"]= {
+    1
+  },
+  ["Template"]= "WeeklyInstance"
+},
+[200001] = {
+  ["Desc"]= "Activity_desc_200001",
+  ["id"]= 200001,
+  ["IsHide"]= 1,
+  ["jion_type"]= 0,
+  ["main_icon"]= "Activity_2",
+  ["ModeText"]= "",
+  ["Name"]= "Activity_name_200001",
+  ["NameLocalized"]= "MVP参与{隐藏}",
+  ["NotOpenDayTips"]= "NotOpenDayTips_200001",
+  ["prize_id"]= {
+    1001,
+    1005,
+    1006
+  },
+  ["Template"]= "MvpDrop"
+},
+[300001] = {
+  ["Desc"]= "Activity_desc_300001",
+  ["id"]= 300001,
+  ["IsHide"]= 1,
+  ["jion_type"]= 0,
+  ["main_icon"]= "Activity_1",
+  ["ModeText"]= "",
+  ["Name"]= "Activity_name_300001",
+  ["NameLocalized"]= "好感度",
+  ["NotOpenDayTips"]= "",
+  ["prize_id"]= {
+    10201040
+  },
+  ["prize_num"]= {
+    0
+  }
+},
+[400001] = {
+  ["Desc"]= "Activity_desc_400001",
+  ["id"]= 400001,
+  ["IsHide"]= 1,
+  ["jion_type"]= 0,
+  ["main_icon"]= "Activity_1",
+  ["ModeText"]= "",
+  ["Name"]= "Activity_name_400001",
+  ["NameLocalized"]= "奖励找回",
+  ["NotOpenDayTips"]= "",
+  ["prize_id"]= {
+    10201040
+  },
+  ["prize_num"]= {
+    0
+  },
+  ["reset_daysofweek"]= {
+    1
+  },
+  ["Template"]= "TakingBackReward"
+}
+}
+local baseTable={
+  ["ActivityRule"]= 0,
+  ["AvailableDaysOfWeek"]= {
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  },
+  ["beginTime"]= {
+    "0:00"
+  },
+  ["Desc"]= "Activity_desc_100010",
+  ["endTime"]= {
+    "23:59"
+  },
+  ["id"]= 100001,
+  ["IfFindBack"]= 0,
+  ["instanceGroupId"]= {},
+  ["IsGuild"]= 0,
+  ["IsHide"]= 0,
+  ["IsLimitTime"]= 0,
+  ["IsUnlimitJion"]= 0,
+  ["jion_NpcID"]= {},
+  ["jion_type"]= 1,
+  ["jion_UI"]= "",
+  ["LastLongDays"]= 0,
+  ["Level"]= 1,
+  ["main_icon"]= "Activity_5",
+  ["ModeText"]= "ModeText3",
+  ["Name"]= "Activity_name_100019",
+  ["NameLocalized"]= "王牌斗士争霸赛",
+  ["NotOpenDayTips"]= "NotOpenDayTips_100010",
+  ["prize_id"]= {},
+  ["prize_num"]= {
+    0,
+    0,
+    0
+  },
+  ["reset_daysofweek"]= {
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  },
+  ["reset_time"]= "5:00",
+  ["ResetVitality"]= 0,
+  ["StartDate"]= "",
+  ["Template"]= "",
+  ["times"]= 0,
+  ["vitality"]= 0,
+  ["worldLevel"]= 0
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

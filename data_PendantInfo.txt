@@ -1,0 +1,6 @@
+TextAsset Base
+	string m_Name = "data_PendantInfo"
+	string m_Script = "
+�����\
+��a 
+ÈÈ��a "

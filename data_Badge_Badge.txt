@@ -1,0 +1,220 @@
+TextAsset Base
+	string m_Name = "data_Badge_Badge"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["BadgeDes"]= "BadgeDes10902002",
+  ["ID"]= 2,
+  ["IsShowInList"]= 0,
+  ["ItemID"]= 10902002,
+  ["LockTips"]= "UnlockTips10902002",
+  ["Name"]= "BadgeName2",
+  ["Order"]= 2,
+  ["ResID"]= 10902002,
+  ["SourceDes"]= "SourceDes10902002"
+},
+[3] = {
+  ["BadgeDes"]= "BadgeDes10902003",
+  ["ID"]= 3,
+  ["IsShowInList"]= 0,
+  ["ItemID"]= 10902003,
+  ["LockTips"]= "UnlockTips10902003",
+  ["Name"]= "BadgeName3",
+  ["Order"]= 3,
+  ["ResID"]= 10902003,
+  ["SourceDes"]= "SourceDes10902003"
+},
+[4] = {
+  ["BadgeDes"]= "BadgeDes10902004",
+  ["ID"]= 4,
+  ["ItemID"]= 10902004,
+  ["LockTips"]= "UnlockTips10902004",
+  ["Name"]= "BadgeName4",
+  ["Order"]= 4,
+  ["ResID"]= 10902004,
+  ["SourceDes"]= "SourceDes10902004"
+},
+[5] = {
+  ["BadgeDes"]= "BadgeDes10902005",
+  ["ID"]= 5,
+  ["ItemID"]= 10902005,
+  ["LockTips"]= "UnlockTips10902005",
+  ["Name"]= "BadgeName5",
+  ["Order"]= 5,
+  ["ResID"]= 10902005,
+  ["SourceDes"]= "SourceDes10902005"
+},
+[6] = {
+  ["BadgeDes"]= "BadgeDes10902006",
+  ["ID"]= 6,
+  ["ItemID"]= 10902006,
+  ["LockTips"]= "UnlockTips10902006",
+  ["Name"]= "BadgeName6",
+  ["Order"]= 6,
+  ["ResID"]= 10902006,
+  ["SourceDes"]= "SourceDes10902006"
+},
+[7] = {
+  ["BadgeDes"]= "BadgeDes10902007",
+  ["ID"]= 7,
+  ["ItemID"]= 10902007,
+  ["LockTips"]= "UnlockTips10902007",
+  ["Name"]= "BadgeName7",
+  ["Order"]= 7,
+  ["ResID"]= 10902007,
+  ["SourceDes"]= "SourceDes10902007"
+},
+[8] = {
+  ["BadgeDes"]= "BadgeDes10902008",
+  ["ID"]= 8,
+  ["ItemID"]= 10902008,
+  ["LockTips"]= "UnlockTips10902008",
+  ["Name"]= "BadgeName8",
+  ["Order"]= 8,
+  ["ResID"]= 10902008,
+  ["SourceDes"]= "SourceDes10902008"
+},
+[9] = {
+  ["BadgeDes"]= "BadgeDes10902009",
+  ["ID"]= 9,
+  ["ItemID"]= 10902009,
+  ["LockTips"]= "UnlockTips10902009",
+  ["Name"]= "BadgeName9",
+  ["Order"]= 9,
+  ["ResID"]= 10902009,
+  ["SourceDes"]= "SourceDes10902009"
+},
+[10] = {
+  ["BadgeDes"]= "BadgeDes10902010",
+  ["ID"]= 10,
+  ["IsShowInList"]= 0,
+  ["ItemID"]= 10902010,
+  ["LockTips"]= "UnlockTips10902010",
+  ["Name"]= "BadgeName10",
+  ["Order"]= 10,
+  ["ResID"]= 10902010,
+  ["SourceDes"]= "SourceDes10902010"
+},
+[11] = {
+  ["BadgeDes"]= "BadgeDes10902011",
+  ["ID"]= 11,
+  ["IsShowInList"]= 0,
+  ["ItemID"]= 10902011,
+  ["LockTips"]= "UnlockTips10902011",
+  ["Name"]= "BadgeName11",
+  ["Order"]= 11,
+  ["ResID"]= 10902011,
+  ["SourceDes"]= "SourceDes10902011"
+},
+[12] = {
+  ["BadgeDes"]= "BadgeDes10902012",
+  ["ID"]= 12,
+  ["IsShowInList"]= 0,
+  ["ItemID"]= 10902012,
+  ["LockTips"]= "UnlockTips10902012",
+  ["Name"]= "BadgeName12",
+  ["Order"]= 12,
+  ["ResID"]= 10902012,
+  ["SourceDes"]= "SourceDes10902012"
+},
+[13] = {
+  ["BadgeDes"]= "BadgeDes10902013",
+  ["ID"]= 13,
+  ["IsShowInList"]= 0,
+  ["ItemID"]= 10902013,
+  ["LockTips"]= "UnlockTips10902013",
+  ["Name"]= "BadgeName13",
+  ["Order"]= 13,
+  ["ResID"]= 10902013,
+  ["SourceDes"]= "SourceDes10902013"
+},
+[14] = {
+  ["BadgeDes"]= "BadgeDes10902014",
+  ["ID"]= 14,
+  ["IsShowInList"]= 0,
+  ["ItemID"]= 10902014,
+  ["LockTips"]= "UnlockTips10902014",
+  ["Name"]= "BadgeName14",
+  ["Order"]= 14,
+  ["ResID"]= 10902014,
+  ["SourceDes"]= "SourceDes10902014"
+},
+[15] = {
+  ["BadgeDes"]= "BadgeDes10902015",
+  ["ID"]= 15,
+  ["IsShowInList"]= 0,
+  ["ItemID"]= 10902015,
+  ["LockTips"]= "UnlockTips10902015",
+  ["Name"]= "BadgeName15",
+  ["Order"]= 15,
+  ["ResID"]= 10902015,
+  ["SourceDes"]= "SourceDes10902015"
+},
+[16] = {
+  ["BadgeDes"]= "BadgeDes10902016",
+  ["ID"]= 16,
+  ["ItemID"]= 10902016,
+  ["LockTips"]= "UnlockTips10902016",
+  ["Name"]= "BadgeName16",
+  ["Order"]= 16,
+  ["ResID"]= 10902016,
+  ["SourceDes"]= "SourceDes10902016"
+},
+[17] = {
+  ["BadgeDes"]= "BadgeDes10902017",
+  ["ID"]= 17,
+  ["IsShowInList"]= 0,
+  ["ItemID"]= 10902017,
+  ["LockTips"]= "UnlockTips10902017",
+  ["Name"]= "BadgeName17",
+  ["Order"]= 17,
+  ["ResID"]= 10902017,
+  ["SourceDes"]= "SourceDes10902017"
+},
+[18] = {
+  ["BadgeDes"]= "BadgeDes10902018",
+  ["ID"]= 18,
+  ["ItemID"]= 10902018,
+  ["LockTips"]= "UnlockTips10902018",
+  ["Name"]= "BadgeName18",
+  ["Order"]= 18,
+  ["ResID"]= 10902018,
+  ["SourceDes"]= "SourceDes10902018"
+},
+[19] = {
+  ["BadgeDes"]= "BadgeDes10902019",
+  ["ID"]= 19,
+  ["IsShowInList"]= 0,
+  ["ItemID"]= 10902019,
+  ["LockTips"]= "UnlockTips10902019",
+  ["Name"]= "BadgeName19",
+  ["Order"]= 19,
+  ["ResID"]= 10902019,
+  ["SourceDes"]= "SourceDes10902019"
+},
+[20] = {
+  ["BadgeDes"]= "BadgeDes10902020",
+  ["ID"]= 20,
+  ["ItemID"]= 10902020,
+  ["LockTips"]= "UnlockTips10902020",
+  ["Name"]= "BadgeName20",
+  ["Order"]= 20,
+  ["ResID"]= 10902020,
+  ["SourceDes"]= "SourceDes10902020"
+}
+}
+local baseTable={
+  ["BadgeDes"]= "BadgeDes10902001",
+  ["ID"]= 1,
+  ["IsShowInList"]= 1,
+  ["ItemID"]= 10902001,
+  ["LockTips"]= "UnlockTips10902001",
+  ["Name"]= "BadgeName1",
+  ["Order"]= 1,
+  ["ResID"]= 10902001,
+  ["SourceDes"]= "SourceDes10902001"
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

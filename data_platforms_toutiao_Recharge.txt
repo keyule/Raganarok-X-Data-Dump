@@ -1,0 +1,212 @@
+TextAsset Base
+	string m_Name = "data_platforms_toutiao_Recharge"
+	string m_Script = "return {
+[1] = {
+  ["Desc"]= "RechargeDesc_1",
+  ["goodPriceDes"]= "goodPriceDes_1",
+  ["Id"]= 1,
+  ["Key"]= "TheDream.cc_rommo_ios_1_60.00",
+  ["MailTemplate"]= 2001,
+  ["Name"]= "月卡",
+  ["Price"]= 60,
+  ["Recharge"]= {
+    ["type"]= 2
+  }
+},
+[2] = {
+  ["Desc"]= "RechargeDesc_2",
+  ["goodPriceDes"]= "goodPriceDes_2",
+  ["Id"]= 2,
+  ["Key"]= "TheDream.cc_rommo_ios_2_6.00",
+  ["MailTemplate"]= 2001,
+  ["Name"]= "600钻石",
+  ["Price"]= 6,
+  ["Recharge"]= {
+    ["Diamond"]= 600,
+    ["DiamondBonus"]= 600,
+    ["IfHasBonus"]= 1,
+    ["type"]= 1
+  }
+},
+[3] = {
+  ["Desc"]= "RechargeDesc_3",
+  ["goodPriceDes"]= "goodPriceDes_3",
+  ["Id"]= 3,
+  ["Key"]= "TheDream.cc_rommo_ios_3_30.00",
+  ["MailTemplate"]= 2001,
+  ["Name"]= "3000钻石",
+  ["Price"]= 30,
+  ["Recharge"]= {
+    ["Diamond"]= 3000,
+    ["DiamondBonus"]= 3000,
+    ["IfHasBonus"]= 1,
+    ["type"]= 1
+  }
+},
+[4] = {
+  ["Desc"]= "RechargeDesc_4",
+  ["goodPriceDes"]= "goodPriceDes_4",
+  ["Id"]= 4,
+  ["Key"]= "TheDream.cc_rommo_ios_4_68.00",
+  ["MailTemplate"]= 2001,
+  ["Name"]= "6800钻石",
+  ["Price"]= 68,
+  ["Recharge"]= {
+    ["Diamond"]= 6800,
+    ["DiamondBonus"]= 6800,
+    ["IfHasBonus"]= 1,
+    ["type"]= 1
+  }
+},
+[5] = {
+  ["Desc"]= "RechargeDesc_5",
+  ["goodPriceDes"]= "goodPriceDes_5",
+  ["Id"]= 5,
+  ["Key"]= "TheDream.cc_rommo_ios_5_128.00",
+  ["MailTemplate"]= 2001,
+  ["Name"]= "12800钻石",
+  ["Price"]= 128,
+  ["Recharge"]= {
+    ["Diamond"]= 12800,
+    ["DiamondBonus"]= 12800,
+    ["IfHasBonus"]= 1,
+    ["type"]= 1
+  }
+},
+[6] = {
+  ["Desc"]= "RechargeDesc_6",
+  ["goodPriceDes"]= "goodPriceDes_6",
+  ["Id"]= 6,
+  ["Key"]= "TheDream.cc_rommo_ios_6_328.00",
+  ["MailTemplate"]= 2001,
+  ["Name"]= "32800钻石",
+  ["Price"]= 328,
+  ["Recharge"]= {
+    ["Diamond"]= 32800,
+    ["DiamondBonus"]= 32800,
+    ["IfHasBonus"]= 1,
+    ["type"]= 1
+  }
+},
+[7] = {
+  ["Desc"]= "RechargeDesc_7",
+  ["goodPriceDes"]= "goodPriceDes_7",
+  ["Id"]= 7,
+  ["Key"]= "TheDream.cc_rommo_ios_7_648.00",
+  ["MailTemplate"]= 2001,
+  ["Name"]= "64800钻石",
+  ["Price"]= 648,
+  ["Recharge"]= {
+    ["Diamond"]= 64800,
+    ["DiamondBonus"]= 64800,
+    ["IfHasBonus"]= 1,
+    ["type"]= 1
+  }
+},
+[8] = {
+  ["Desc"]= "RechargeDesc_8",
+  ["goodPriceDes"]= "goodPriceDes_8",
+  ["Id"]= 8,
+  ["Key"]= "TheDream.cc_rommo_ios_8_6.00",
+  ["MailTemplate"]= 2001,
+  ["Name"]= "月卡600钻石",
+  ["Price"]= 6,
+  ["Recharge"]= {
+    ["Diamond"]= 600,
+    ["DiamondBonus"]= 600,
+    ["RelatedProductId"]= 2,
+    ["type"]= 4
+  }
+},
+[9] = {
+  ["Desc"]= "RechargeDesc_9",
+  ["goodPriceDes"]= "goodPriceDes_9",
+  ["Id"]= 9,
+  ["Key"]= "TheDream.cc_rommo_ios_9_30.00",
+  ["MailTemplate"]= 2001,
+  ["Name"]= "月卡3000钻石",
+  ["Price"]= 30,
+  ["Recharge"]= {
+    ["Diamond"]= 3000,
+    ["DiamondBonus"]= 3000,
+    ["RelatedProductId"]= 3,
+    ["type"]= 4
+  }
+},
+[10] = {
+  ["Desc"]= "RechargeDesc_10",
+  ["goodPriceDes"]= "goodPriceDes_10",
+  ["Id"]= 10,
+  ["Key"]= "TheDream.cc_rommo_ios_10_68.00",
+  ["MailTemplate"]= 2001,
+  ["Name"]= "月卡6800钻石",
+  ["Price"]= 68,
+  ["Recharge"]= {
+    ["Diamond"]= 6800,
+    ["DiamondBonus"]= 6800,
+    ["RelatedProductId"]= 4,
+    ["type"]= 4
+  }
+},
+[11] = {
+  ["Desc"]= "RechargeDesc_11",
+  ["goodPriceDes"]= "goodPriceDes_11",
+  ["Id"]= 11,
+  ["Key"]= "TheDream.cc_rommo_ios_11_128.00",
+  ["MailTemplate"]= 2001,
+  ["Name"]= "月卡12800钻石",
+  ["Price"]= 128,
+  ["Recharge"]= {
+    ["Diamond"]= 12800,
+    ["DiamondBonus"]= 12800,
+    ["RelatedProductId"]= 5,
+    ["type"]= 4
+  }
+},
+[12] = {
+  ["Desc"]= "RechargeDesc_12",
+  ["goodPriceDes"]= "goodPriceDes_12",
+  ["Id"]= 12,
+  ["Key"]= "TheDream.cc_rommo_ios_12_328.00",
+  ["MailTemplate"]= 2001,
+  ["Name"]= "月卡32800钻石",
+  ["Price"]= 328,
+  ["Recharge"]= {
+    ["Diamond"]= 32800,
+    ["DiamondBonus"]= 32800,
+    ["RelatedProductId"]= 6,
+    ["type"]= 4
+  }
+},
+[13] = {
+  ["Desc"]= "RechargeDesc_13",
+  ["goodPriceDes"]= "goodPriceDes_13",
+  ["Id"]= 13,
+  ["Key"]= "TheDream.cc_rommo_ios_13_648.00",
+  ["MailTemplate"]= 2001,
+  ["Name"]= "月卡64800钻石",
+  ["Price"]= 648,
+  ["Recharge"]= {
+    ["Diamond"]= 64800,
+    ["DiamondBonus"]= 64800,
+    ["RelatedProductId"]= 7,
+    ["type"]= 4
+  }
+},
+[14] = {
+  ["Desc"]= 0,
+  ["goodPriceDes"]= "goodPriceDes_14",
+  ["Id"]= 14,
+  ["Key"]= "TheDream.cc_rommo_ios_14_1.00",
+  ["MailTemplate"]= 2001,
+  ["Name"]= "充值测试",
+  ["Price"]= "0.01",
+  ["Recharge"]= {
+    ["Diamond"]= 10,
+    ["DiamondBonus"]= 10,
+    ["IfHasBonus"]= 0,
+    ["type"]= 5
+  }
+}
+}
+"

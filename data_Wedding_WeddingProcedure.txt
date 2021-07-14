@@ -1,0 +1,19 @@
+TextAsset Base
+	string m_Name = "data_Wedding_WeddingProcedure"
+	string m_Script = "local table= {
+[1] = {}
+}
+local baseTable={
+  ["AnnouncementTime"]= 15,
+  ["CheeringGroupsChooseTime"]= 60,
+  ["FirstPartyTime"]= 300,
+  ["OpenTeleportTime"]= 120,
+  ["ParadaStartTime"]= 150,
+  ["SecondPartyTime"]= 300,
+  ["WeddingTimelineTime"]= 200,
+  ["WeddingType"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

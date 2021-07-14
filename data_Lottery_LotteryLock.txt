@@ -1,0 +1,35 @@
+TextAsset Base
+	string m_Name = "data_Lottery_LotteryLock"
+	string m_Script = "local table= {
+[1] = {
+  ["CurrencyNum"]= 5000,
+  ["CurrencyType"]= 1
+},
+[2] = {
+  ["CurrencyNum"]= 10000,
+  ["CurrencyType"]= 1,
+  ["Id"]= 2,
+  ["IsMonthCard"]= 1
+},
+[3] = {
+  ["CurrencyNum"]= 500,
+  ["Id"]= 3
+},
+[4] = {
+  ["Id"]= 4
+},
+[5] = {
+  ["Id"]= 5,
+  ["IsMonthCard"]= 1
+}
+}
+local baseTable={
+  ["CurrencyNum"]= 1000,
+  ["CurrencyType"]= 3,
+  ["Id"]= 1,
+  ["IsMonthCard"]= 0
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

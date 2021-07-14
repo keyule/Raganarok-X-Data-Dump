@@ -1,0 +1,198 @@
+TextAsset Base
+	string m_Name = "data_businessTask_ringTaskStepAward"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["coefficient"]= 6,
+  ["Id"]= 2,
+  ["step"]= 2
+},
+[3] = {
+  ["coefficient"]= 7,
+  ["Id"]= 3,
+  ["step"]= 3
+},
+[4] = {
+  ["coefficient"]= 8,
+  ["Id"]= 4,
+  ["step"]= 4
+},
+[5] = {
+  ["coefficient"]= 9,
+  ["Id"]= 5,
+  ["step"]= 5
+},
+[6] = {
+  ["coefficient"]= 10,
+  ["Id"]= 6,
+  ["step"]= 6
+},
+[7] = {
+  ["coefficient"]= 11,
+  ["Id"]= 7,
+  ["step"]= 7
+},
+[8] = {
+  ["coefficient"]= 12,
+  ["Id"]= 8,
+  ["step"]= 8
+},
+[9] = {
+  ["coefficient"]= 15,
+  ["Id"]= 9,
+  ["step"]= 9
+},
+[10] = {
+  ["coefficient"]= 17,
+  ["Id"]= 10,
+  ["step"]= 10
+},
+[11] = {
+  ["chamberType"]= 2,
+  ["dropID"]= 10057,
+  ["Id"]= 11
+},
+[12] = {
+  ["chamberType"]= 2,
+  ["coefficient"]= 6,
+  ["dropID"]= 10057,
+  ["Id"]= 12,
+  ["step"]= 2
+},
+[13] = {
+  ["chamberType"]= 2,
+  ["coefficient"]= 7,
+  ["dropID"]= 10057,
+  ["Id"]= 13,
+  ["step"]= 3
+},
+[14] = {
+  ["chamberType"]= 2,
+  ["coefficient"]= 8,
+  ["dropID"]= 10057,
+  ["Id"]= 14,
+  ["step"]= 4
+},
+[15] = {
+  ["chamberType"]= 2,
+  ["coefficient"]= 9,
+  ["dropID"]= 10057,
+  ["Id"]= 15,
+  ["step"]= 5
+},
+[16] = {
+  ["chamberType"]= 2,
+  ["coefficient"]= 10,
+  ["dropID"]= 10057,
+  ["Id"]= 16,
+  ["step"]= 6
+},
+[17] = {
+  ["chamberType"]= 2,
+  ["coefficient"]= 11,
+  ["dropID"]= 10057,
+  ["Id"]= 17,
+  ["step"]= 7
+},
+[18] = {
+  ["chamberType"]= 2,
+  ["coefficient"]= 12,
+  ["dropID"]= 10057,
+  ["Id"]= 18,
+  ["step"]= 8
+},
+[19] = {
+  ["chamberType"]= 2,
+  ["coefficient"]= 15,
+  ["dropID"]= 10057,
+  ["Id"]= 19,
+  ["step"]= 9
+},
+[20] = {
+  ["chamberType"]= 2,
+  ["coefficient"]= 17,
+  ["dropID"]= 10057,
+  ["Id"]= 20,
+  ["step"]= 10
+},
+[21] = {
+  ["chamberType"]= 3,
+  ["dropID"]= 10058,
+  ["Id"]= 21
+},
+[22] = {
+  ["chamberType"]= 3,
+  ["coefficient"]= 6,
+  ["dropID"]= 10058,
+  ["Id"]= 22,
+  ["step"]= 2
+},
+[23] = {
+  ["chamberType"]= 3,
+  ["coefficient"]= 7,
+  ["dropID"]= 10058,
+  ["Id"]= 23,
+  ["step"]= 3
+},
+[24] = {
+  ["chamberType"]= 3,
+  ["coefficient"]= 8,
+  ["dropID"]= 10058,
+  ["Id"]= 24,
+  ["step"]= 4
+},
+[25] = {
+  ["chamberType"]= 3,
+  ["coefficient"]= 9,
+  ["dropID"]= 10058,
+  ["Id"]= 25,
+  ["step"]= 5
+},
+[26] = {
+  ["chamberType"]= 3,
+  ["coefficient"]= 10,
+  ["dropID"]= 10058,
+  ["Id"]= 26,
+  ["step"]= 6
+},
+[27] = {
+  ["chamberType"]= 3,
+  ["coefficient"]= 11,
+  ["dropID"]= 10058,
+  ["Id"]= 27,
+  ["step"]= 7
+},
+[28] = {
+  ["chamberType"]= 3,
+  ["coefficient"]= 12,
+  ["dropID"]= 10058,
+  ["Id"]= 28,
+  ["step"]= 8
+},
+[29] = {
+  ["chamberType"]= 3,
+  ["coefficient"]= 15,
+  ["dropID"]= 10058,
+  ["Id"]= 29,
+  ["step"]= 9
+},
+[30] = {
+  ["chamberType"]= 3,
+  ["coefficient"]= 17,
+  ["dropID"]= 10058,
+  ["Id"]= 30,
+  ["step"]= 10
+}
+}
+local baseTable={
+  ["chamberCoin"]= 0,
+  ["chamberType"]= 1,
+  ["coefficient"]= 5,
+  ["dropID"]= 10001,
+  ["Id"]= 1,
+  ["step"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

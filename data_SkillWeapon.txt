@@ -1,0 +1,100 @@
+TextAsset Base
+	string m_Name = "data_SkillWeapon"
+	string m_Script = "local table= {
+[1001] = {
+  ["WeaponType"]= {
+    ["WeaponType1"]= 101,
+    ["WeaponType2"]= 0
+  }
+},
+[1002] = {
+  ["staticId"]= 1002,
+  ["WeaponType"]= {
+    ["WeaponType1"]= 101,
+    ["WeaponType2"]= 204
+  }
+},
+[1003] = {
+  ["staticId"]= 1003,
+  ["WeaponType"]= {
+    ["WeaponType1"]= 102,
+    ["WeaponType2"]= 204
+  }
+},
+[1004] = {
+  ["staticId"]= 1004,
+  ["WeaponType"]= {
+    ["WeaponType1"]= 102,
+    ["WeaponType2"]= 0
+  }
+},
+[1005] = {
+  ["staticId"]= 1005,
+  ["WeaponType"]= {
+    ["WeaponType1"]= 102,
+    ["WeaponType2"]= 201
+  }
+},
+[1006] = {
+  ["staticId"]= 1006,
+  ["WeaponRes"]= {
+    ["WeaponRes1"]= 301,
+    ["WeaponRes2"]= 0
+  },
+  ["WeaponType"]= {
+    ["WeaponType1"]= 302,
+    ["WeaponType2"]= 0
+  }
+},
+[1007] = {
+  ["staticId"]= 1007,
+  ["WeaponRes"]= {
+    ["WeaponRes1"]= 103,
+    ["WeaponRes2"]= 202
+  }
+},
+[1008] = {
+  ["staticId"]= 1008,
+  ["WeaponRes"]= {
+    ["WeaponRes1"]= 306,
+    ["WeaponRes2"]= 0
+  },
+  ["WeaponType"]= {
+    ["WeaponType1"]= 103,
+    ["WeaponType2"]= 0
+  }
+},
+[1009] = {
+  ["staticId"]= 1009,
+  ["WeaponRes"]= {
+    ["WeaponRes1"]= 103,
+    ["WeaponRes2"]= 0
+  },
+  ["WeaponType"]= {
+    ["WeaponType1"]= 103,
+    ["WeaponType2"]= 202
+  }
+},
+[1010] = {
+  ["staticId"]= 1010,
+  ["WeaponRes"]= {
+    ["WeaponRes1"]= 103,
+    ["WeaponRes2"]= 0
+  }
+}
+}
+local baseTable={
+  ["staticId"]= 1001,
+  ["WeaponRes"]= {
+    ["WeaponRes1"]= 101,
+    ["WeaponRes2"]= 201
+  },
+  ["WeaponType"]= {
+    ["WeaponType1"]= 103,
+    ["WeaponType2"]= 203
+  }
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

@@ -1,0 +1,37 @@
+TextAsset Base
+	string m_Name = "data_GmActivityName"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["Name"]= "DynamicActivityDesc_2",
+  ["TypeId"]= 2
+},
+[3] = {
+  ["Name"]= "DynamicActivityDesc_3",
+  ["TypeId"]= 3
+},
+[4] = {
+  ["Name"]= "DynamicActivityDesc_4",
+  ["TypeId"]= 4
+},
+[5] = {
+  ["Name"]= "DynamicActivityDesc_5",
+  ["TypeId"]= 5
+},
+[6] = {
+  ["Name"]= "DynamicActivityDesc_6",
+  ["TypeId"]= 6
+},
+[8] = {
+  ["Name"]= "DynamicActivityDesc_8",
+  ["TypeId"]= 8
+}
+}
+local baseTable={
+  ["Name"]= "DynamicActivityDesc_1",
+  ["TypeId"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

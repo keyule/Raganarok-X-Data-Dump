@@ -1,0 +1,616 @@
+TextAsset Base
+	string m_Name = "data_equip_EquipmentDecomposition"
+	string m_Script = "local table= {
+[1] = {
+  ["materialId"]= {},
+  ["Zeny"]= 100
+},
+[2] = {
+  ["Id"]= 102,
+  ["materialId"]= {},
+  ["Zeny"]= 150
+},
+[3] = {
+  ["Id"]= 103,
+  ["materialId"]= {},
+  ["Zeny"]= 300
+},
+[4] = {
+  ["Id"]= 104,
+  ["materialId"]= {},
+  ["Zeny"]= 200
+},
+[5] = {
+  ["Id"]= 105,
+  ["materialId"]= {},
+  ["Zeny"]= 200
+},
+[6] = {
+  ["Id"]= 106,
+  ["materialId"]= {},
+  ["Zeny"]= 300
+},
+[7] = {
+  ["Id"]= 107,
+  ["materialId"]= {},
+  ["Zeny"]= 600
+},
+[8] = {
+  ["Id"]= 108,
+  ["materialId"]= {},
+  ["Zeny"]= 400
+},
+[9] = {
+  ["Id"]= 9001,
+  ["materialId"]= {
+    10204045
+  },
+  ["materialNum"]= {
+    25
+  }
+},
+[10] = {
+  ["Id"]= 9002,
+  ["materialId"]= {
+    10204045
+  },
+  ["materialNum"]= {
+    50
+  }
+},
+[11] = {
+  ["Id"]= 9003,
+  ["materialId"]= {
+    10204045
+  },
+  ["materialNum"]= {
+    100
+  }
+},
+[12] = {
+  ["Id"]= 9004,
+  ["materialId"]= {
+    10204045
+  },
+  ["materialNum"]= {
+    200
+  }
+},
+[13] = {
+  ["Id"]= 9005,
+  ["materialId"]= {
+    10204045
+  },
+  ["materialNum"]= {
+    1000
+  }
+},
+[14] = {
+  ["Id"]= 9006,
+  ["materialId"]= {
+    10204045
+  },
+  ["materialNum"]= {
+    12
+  }
+},
+[15] = {
+  ["Id"]= 9007,
+  ["materialId"]= {
+    10204045
+  },
+  ["materialNum"]= {
+    50
+  }
+},
+[16] = {
+  ["Id"]= 9008,
+  ["materialId"]= {
+    10204046
+  },
+  ["materialNum"]= {
+    2500
+  }
+},
+[17] = {
+  ["Id"]= 9009,
+  ["materialId"]= {
+    10204047
+  },
+  ["materialNum"]= {
+    1000
+  }
+},
+[18] = {
+  ["Id"]= 9010,
+  ["materialId"]= {
+    10204048
+  },
+  ["materialNum"]= {
+    1000
+  }
+},
+[19] = {
+  ["Id"]= 9011,
+  ["materialId"]= {
+    10204123
+  },
+  ["materialNum"]= {
+    1000
+  }
+},
+[20] = {
+  ["Id"]= 1,
+  ["materialNum"]= {
+    1
+  }
+},
+[21] = {
+  ["Id"]= 2,
+  ["materialNum"]= {
+    3
+  }
+},
+[22] = {
+  ["Id"]= 3,
+  ["materialNum"]= {
+    5
+  }
+},
+[23] = {
+  ["Id"]= 4,
+  ["materialNum"]= {
+    2
+  }
+},
+[24] = {
+  ["Id"]= 5,
+  ["materialNum"]= {
+    7
+  }
+},
+[25] = {
+  ["Id"]= 6,
+  ["materialNum"]= {
+    10
+  }
+},
+[26] = {
+  ["Id"]= 7,
+  ["materialNum"]= {
+    9
+  }
+},
+[27] = {
+  ["Id"]= 8,
+  ["materialNum"]= {
+    18
+  }
+},
+[28] = {
+  ["Id"]= 9,
+  ["materialNum"]= {
+    27
+  }
+},
+[29] = {
+  ["Id"]= 10,
+  ["materialNum"]= {
+    13
+  }
+},
+[30] = {
+  ["Id"]= 11,
+  ["materialNum"]= {
+    36
+  }
+},
+[31] = {
+  ["Id"]= 12,
+  ["materialNum"]= {
+    54
+  }
+},
+[32] = {
+  ["Id"]= 13,
+  ["materialNum"]= {
+    72
+  }
+},
+[33] = {
+  ["Id"]= 14,
+  ["materialNum"]= {
+    108
+  }
+},
+[34] = {
+  ["Id"]= 15,
+  ["materialNum"]= {
+    90
+  }
+},
+[35] = {
+  ["Id"]= 16,
+  ["materialNum"]= {
+    180
+  }
+},
+[36] = {
+  ["Id"]= 17,
+  ["materialNum"]= {
+    270
+  }
+},
+[37] = {
+  ["Id"]= 18,
+  ["materialNum"]= {
+    135
+  }
+},
+[38] = {
+  ["Id"]= 19,
+  ["materialNum"]= {
+    12
+  }
+},
+[39] = {
+  ["Id"]= 20,
+  ["materialNum"]= {
+    6
+  }
+},
+[40] = {
+  ["Id"]= 21,
+  ["materialNum"]= {
+    24
+  }
+},
+[41] = {
+  ["Id"]= 22,
+  ["materialNum"]= {
+    60
+  }
+},
+[42] = {
+  ["Id"]= 23,
+  ["materialNum"]= {
+    45
+  }
+},
+[43] = {
+  ["Id"]= 24,
+  ["materialNum"]= {
+    30
+  }
+},
+[44] = {
+  ["Id"]= 25,
+  ["materialNum"]= {
+    120
+  }
+},
+[45] = {
+  ["Id"]= 26,
+  ["materialNum"]= {
+    240
+  }
+},
+[46] = {
+  ["Id"]= 27,
+  ["materialNum"]= {
+    360
+  }
+},
+[47] = {
+  ["Id"]= 28,
+  ["materialNum"]= {
+    600
+  }
+},
+[48] = {
+  ["Id"]= 29,
+  ["materialNum"]= {
+    900
+  }
+},
+[49] = {
+  ["Id"]= 30,
+  ["materialNum"]= {
+    450
+  }
+},
+[50] = {
+  ["Id"]= 31,
+  ["materialNum"]= {
+    300
+  }
+},
+[51] = {
+  ["Id"]= 32,
+  ["materialId"]= {
+    10204046
+  },
+  ["materialNum"]= {
+    810
+  }
+},
+[52] = {
+  ["Id"]= 33,
+  ["materialId"]= {
+    10204046
+  },
+  ["materialNum"]= {
+    540
+  }
+},
+[53] = {
+  ["Id"]= 34,
+  ["materialId"]= {
+    10204046
+  },
+  ["materialNum"]= {
+    405
+  }
+},
+[54] = {
+  ["Id"]= 35,
+  ["materialId"]= {
+    10204046
+  },
+  ["materialNum"]= {
+    270
+  }
+},
+[55] = {
+  ["Id"]= 36,
+  ["materialId"]= {
+    10204047
+  },
+  ["materialNum"]= {
+    540
+  }
+},
+[56] = {
+  ["Id"]= 37,
+  ["materialId"]= {
+    10204047
+  },
+  ["materialNum"]= {
+    270
+  }
+},
+[57] = {
+  ["Id"]= 38,
+  ["materialId"]= {
+    10204046
+  },
+  ["materialNum"]= {
+    1620
+  }
+},
+[58] = {
+  ["Id"]= 39,
+  ["materialId"]= {
+    10204046
+  },
+  ["materialNum"]= {
+    1080
+  }
+},
+[59] = {
+  ["Id"]= 40,
+  ["materialId"]= {
+    10204047
+  },
+  ["materialNum"]= {
+    1080
+  }
+},
+[60] = {
+  ["Id"]= 41,
+  ["materialId"]= {
+    10204046
+  },
+  ["materialNum"]= {
+    4050
+  }
+},
+[61] = {
+  ["Id"]= 42,
+  ["materialId"]= {
+    10204046
+  },
+  ["materialNum"]= {
+    2700
+  }
+},
+[62] = {
+  ["Id"]= 43,
+  ["materialId"]= {
+    10204046
+  },
+  ["materialNum"]= {
+    2025
+  }
+},
+[63] = {
+  ["Id"]= 44,
+  ["materialId"]= {
+    10204046
+  },
+  ["materialNum"]= {
+    1350
+  }
+},
+[64] = {
+  ["Id"]= 45,
+  ["materialId"]= {
+    10204047
+  },
+  ["materialNum"]= {
+    2700
+  }
+},
+[65] = {
+  ["Id"]= 46,
+  ["materialId"]= {
+    10204047
+  },
+  ["materialNum"]= {
+    1350
+  }
+},
+[66] = {
+  ["Id"]= 47,
+  ["materialId"]= {
+    10204048
+  },
+  ["materialNum"]= {
+    270
+  }
+},
+[67] = {
+  ["Id"]= 48,
+  ["materialId"]= {
+    10204048
+  },
+  ["materialNum"]= {
+    540
+  }
+},
+[68] = {
+  ["Id"]= 49,
+  ["materialId"]= {
+    10204048
+  },
+  ["materialNum"]= {
+    1350
+  }
+},
+[69] = {
+  ["Id"]= 50,
+  ["materialId"]= {
+    10204103
+  },
+  ["materialNum"]= {
+    1350
+  }
+},
+[70] = {
+  ["Id"]= 51,
+  ["materialId"]= {
+    10204049
+  },
+  ["materialNum"]= {
+    1350
+  }
+},
+[71] = {
+  ["Id"]= 52,
+  ["materialId"]= {
+    10204103
+  },
+  ["materialNum"]= {
+    270
+  }
+},
+[72] = {
+  ["Id"]= 53,
+  ["materialId"]= {
+    10204103
+  },
+  ["materialNum"]= {
+    540
+  }
+},
+[73] = {
+  ["Id"]= 54,
+  ["materialId"]= {
+    10204156,
+    10204157,
+    10204158,
+    10204159
+  },
+  ["materialNum"]= {
+    900,
+    540,
+    360,
+    360
+  }
+},
+[74] = {
+  ["Id"]= 55,
+  ["materialNum"]= {
+    1200
+  }
+},
+[75] = {
+  ["Id"]= 56,
+  ["materialNum"]= {
+    1800
+  }
+},
+[76] = {
+  ["Id"]= 57,
+  ["materialId"]= {
+    10204046
+  },
+  ["materialNum"]= {
+    8100
+  }
+},
+[77] = {
+  ["Id"]= 58,
+  ["materialId"]= {
+    10204046
+  },
+  ["materialNum"]= {
+    5400
+  }
+},
+[78] = {
+  ["Id"]= 59,
+  ["materialNum"]= {
+    540
+  }
+},
+[79] = {
+  ["Id"]= 60,
+  ["materialId"]= {
+    10204048
+  },
+  ["materialNum"]= {
+    2700
+  }
+},
+[80] = {
+  ["Id"]= 61,
+  ["materialId"]= {
+    10204103
+  },
+  ["materialNum"]= {
+    2700
+  }
+},
+[81] = {
+  ["Id"]= 62,
+  ["materialId"]= {
+    10204047
+  },
+  ["materialNum"]= {
+    5400
+  }
+}
+}
+local baseTable={
+  ["Id"]= 101,
+  ["materialId"]= {
+    10204044
+  },
+  ["materialNum"]= {},
+  ["Zeny"]= 0
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

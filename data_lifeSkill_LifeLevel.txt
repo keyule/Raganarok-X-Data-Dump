@@ -1,0 +1,105 @@
+TextAsset Base
+	string m_Name = "data_lifeSkill_LifeLevel"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["CatchingPets"]= 2000,
+  ["Cooking"]= 2000,
+  ["Fishing"]= 2000,
+  ["Forge"]= 2000,
+  ["id"]= 2,
+  ["Manufacture"]= 400,
+  ["Mine"]= 2000,
+  ["Plant"]= 2000,
+  ["Produce"]= 400
+},
+[3] = {
+  ["CatchingPets"]= 5000,
+  ["Cooking"]= 5000,
+  ["Fishing"]= 5000,
+  ["Forge"]= 5000,
+  ["id"]= 3,
+  ["Manufacture"]= 1000,
+  ["Mine"]= 5000,
+  ["Plant"]= 5000,
+  ["Produce"]= 1000
+},
+[4] = {
+  ["CatchingPets"]= 10000,
+  ["Cooking"]= 10000,
+  ["Fishing"]= 10000,
+  ["Forge"]= 10000,
+  ["id"]= 4,
+  ["Manufacture"]= 2000,
+  ["Mine"]= 10000,
+  ["Plant"]= 10000,
+  ["Produce"]= 2000
+},
+[5] = {
+  ["CatchingPets"]= 20000,
+  ["Cooking"]= 20000,
+  ["Fishing"]= 20000,
+  ["Forge"]= 20000,
+  ["id"]= 5,
+  ["Manufacture"]= 4000,
+  ["Mine"]= 20000,
+  ["Plant"]= 20000,
+  ["Produce"]= 4000
+},
+[6] = {
+  ["CatchingPets"]= 30000,
+  ["Cooking"]= 30000,
+  ["Fishing"]= 30000,
+  ["Forge"]= 30000,
+  ["id"]= 6,
+  ["Manufacture"]= 6000,
+  ["Mine"]= 30000,
+  ["Plant"]= 30000,
+  ["Produce"]= 6000
+},
+[7] = {
+  ["CatchingPets"]= 40000,
+  ["Cooking"]= 40000,
+  ["Fishing"]= 40000,
+  ["Forge"]= 40000,
+  ["id"]= 7,
+  ["Manufacture"]= 8000,
+  ["Mine"]= 40000,
+  ["Plant"]= 40000,
+  ["Produce"]= 8000
+},
+[8] = {
+  ["CatchingPets"]= 50000,
+  ["Cooking"]= 50000,
+  ["Fishing"]= 50000,
+  ["Forge"]= 50000,
+  ["id"]= 8,
+  ["Manufacture"]= 10000,
+  ["Mine"]= 50000,
+  ["Plant"]= 50000,
+  ["Produce"]= 10000
+}
+}
+local baseTable={
+  ["BaseLimitCook"]= 14,
+  ["BaseLimitFacture"]= 14,
+  ["BaseLimitFish"]= 14,
+  ["BaseLimitForge"]= 14,
+  ["BaseLimitMine"]= 14,
+  ["BaseLimitPet"]= 35,
+  ["BaseLimitPlant"]= 14,
+  ["BaseLimitProduce"]= 14,
+  ["CatchingPets"]= 1000,
+  ["Cooking"]= 1000,
+  ["Fishing"]= 1000,
+  ["Forge"]= 1000,
+  ["id"]= 1,
+  ["Manufacture"]= 200,
+  ["Mine"]= 1000,
+  ["Plant"]= 1000,
+  ["Produce"]= 200
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

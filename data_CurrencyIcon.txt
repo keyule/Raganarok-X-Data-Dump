@@ -1,0 +1,217 @@
+TextAsset Base
+	string m_Name = "data_CurrencyIcon"
+	string m_Script = "local table= {
+[1] = {
+  ["Tips"]= "UI_CurrencyConversion",
+  ["TipsType"]= 2
+},
+[2] = {
+  ["CurrencyId"]= 2,
+  ["ItemId"]= 1002,
+  ["Tips"]= "UI_Recharge",
+  ["TipsType"]= 2
+},
+[3] = {
+  ["CurrencyId"]= 3,
+  ["ItemId"]= 1003,
+  ["Tips"]= "UI_CurrencyConversion",
+  ["TipsType"]= 2
+},
+[4] = {
+  ["CurrencyId"]= 4,
+  ["ItemId"]= 1003
+},
+[5] = {
+  ["CurrencyId"]= 5,
+  ["ItemId"]= 1003
+},
+[6] = {
+  ["CurrencyId"]= 6,
+  ["ItemId"]= 1005
+},
+[7] = {
+  ["CurrencyId"]= 7,
+  ["ItemId"]= 1006
+},
+[8] = {
+  ["CurrencyId"]= 8,
+  ["ItemId"]= 1016
+},
+[9] = {
+  ["CurrencyId"]= 9
+},
+[10] = {
+  ["CurrencyId"]= 10,
+  ["ItemId"]= 1017
+},
+[11] = {
+  ["CurrencyId"]= 11
+},
+[12] = {
+  ["CurrencyId"]= 12,
+  ["ItemId"]= 1008
+},
+[13] = {
+  ["CurrencyId"]= 13,
+  ["ItemId"]= 1009
+},
+[14] = {
+  ["CurrencyId"]= 14,
+  ["ItemId"]= 1010
+},
+[15] = {
+  ["CurrencyId"]= 15,
+  ["ItemId"]= 1011,
+  ["Tips"]= "CurrencyTips034"
+},
+[16] = {
+  ["CurrencyId"]= 16,
+  ["ItemId"]= 1013
+},
+[17] = {
+  ["CurrencyId"]= 17,
+  ["ItemId"]= 10204103,
+  ["ItemType"]= 2,
+  ["Tips"]= "CurrencyTips034"
+},
+[18] = {
+  ["CurrencyId"]= 18,
+  ["ItemId"]= 1018
+},
+[19] = {
+  ["CurrencyId"]= 19,
+  ["ItemId"]= 1014
+},
+[20] = {
+  ["CurrencyId"]= 20,
+  ["ItemId"]= 1008
+},
+[21] = {
+  ["CurrencyId"]= 21,
+  ["ItemId"]= 1009
+},
+[22] = {
+  ["CurrencyId"]= 22,
+  ["ItemId"]= 1010
+},
+[23] = {
+  ["CurrencyId"]= 23,
+  ["ItemId"]= 1022,
+  ["Tips"]= "CurrencyTips033"
+},
+[24] = {
+  ["CurrencyId"]= 24,
+  ["ItemId"]= 1020
+},
+[26] = {
+  ["CurrencyId"]= 26,
+  ["ItemId"]= 1021
+},
+[29] = {
+  ["CurrencyId"]= 29,
+  ["ItemId"]= 1025
+},
+[30] = {
+  ["CurrencyId"]= 30,
+  ["ItemId"]= 1026
+},
+[31] = {
+  ["CurrencyId"]= 31,
+  ["ItemId"]= 1027
+},
+[32] = {
+  ["CurrencyId"]= 32,
+  ["ItemId"]= 1028
+},
+[41] = {
+  ["CurrencyId"]= 41,
+  ["ItemId"]= 10907002
+},
+[50] = {
+  ["CurrencyId"]= 50,
+  ["ItemId"]= 10204016,
+  ["ItemType"]= 2
+},
+[51] = {
+  ["CurrencyId"]= 51,
+  ["ItemId"]= 10204017,
+  ["ItemType"]= 2,
+  ["Tips"]= "CurrencyTips040"
+},
+[52] = {
+  ["CurrencyId"]= 52,
+  ["ItemId"]= 10204046,
+  ["ItemType"]= 2,
+  ["Tips"]= "CurrencyTips035"
+},
+[53] = {
+  ["CurrencyId"]= 53,
+  ["ItemId"]= 10204047,
+  ["ItemType"]= 2,
+  ["Tips"]= "CurrencyTips036"
+},
+[54] = {
+  ["CurrencyId"]= 54,
+  ["ItemId"]= 10204048,
+  ["ItemType"]= 2,
+  ["Tips"]= "CurrencyTips037"
+},
+[55] = {
+  ["CurrencyId"]= 55,
+  ["ItemId"]= 10204049,
+  ["ItemType"]= 2,
+  ["Tips"]= "CurrencyTips038"
+},
+[56] = {
+  ["CurrencyId"]= 56,
+  ["ItemId"]= 10204043,
+  ["ItemType"]= 2,
+  ["Tips"]= "CurrencyTips032"
+},
+[57] = {
+  ["CurrencyId"]= 57,
+  ["ItemId"]= 10204044,
+  ["ItemType"]= 2,
+  ["Tips"]= "CurrencyTips031"
+},
+[58] = {
+  ["CurrencyId"]= 58,
+  ["ItemId"]= 10204045,
+  ["ItemType"]= 2,
+  ["Tips"]= "CurrencyTips030"
+},
+[59] = {
+  ["CurrencyId"]= 59,
+  ["ItemId"]= 1015,
+  ["Tips"]= "CurrencyTips059"
+},
+[60] = {
+  ["CurrencyId"]= 60,
+  ["ItemId"]= 10204050,
+  ["ItemType"]= 2,
+  ["Tips"]= "CurrencyTips038"
+},
+[61] = {
+  ["CurrencyId"]= 61,
+  ["ItemId"]= 10204123,
+  ["ItemType"]= 2,
+  ["Tips"]= "CurrencyTips061"
+},
+[62] = {
+  ["CurrencyId"]= 62,
+  ["ItemId"]= 10217036,
+  ["ItemType"]= 2,
+  ["Tips"]= "CurrencyTips062"
+}
+}
+local baseTable={
+  ["CurrencyId"]= 1,
+  ["ItemId"]= 1001,
+  ["ItemType"]= 1,
+  ["Tips"]= "CurrencyTips039",
+  ["TipsType"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

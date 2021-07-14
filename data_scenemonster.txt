@@ -1,0 +1,9 @@
+TextAsset Base
+	string m_Name = "data_scenemonster"
+	string m_Script = "local scenemonster={
+[1]={["id"]=1,["sceneId"]=11001,["monsterId"]=10001,["posZ"]=24,["posX"]=23,},
+[5]={["id"]=5,["sceneId"]=11001,["monsterId"]=10004,["posZ"]=22,["posX"]=9,},
+[7]={["id"]=7,["sceneId"]=11001,["monsterId"]=30001,["posZ"]=-35,["posX"]=123,},
+[8]={["id"]=8,["sceneId"]=11001,["monsterId"]=30002,["posZ"]=-92,["posX"]=36,},
+}
+return scenemonster"

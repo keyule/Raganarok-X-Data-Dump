@@ -1,0 +1,756 @@
+TextAsset Base
+	string m_Name = "data_lifeSkill_FishingInfo"
+	string m_Script = "local table= {
+[10406001] = {
+  ["Area"]= {
+    10306601
+  },
+  ["FishLevel"]= 2,
+  ["FishLevelLimit"]= 2
+},
+[10406002] = {
+  ["ItemId"]= 10406002,
+  ["Name"]= "鲈鱼",
+  ["Use"]= {
+    10406673
+  }
+},
+[10406003] = {
+  ["Area"]= {
+    10306601
+  },
+  ["FishLevel"]= 2,
+  ["FishLevelLimit"]= 2,
+  ["ItemId"]= 10406003,
+  ["Name"]= "草鱼",
+  ["Use"]= {
+    10406663
+  }
+},
+[10406004] = {
+  ["Area"]= {
+    10206601
+  },
+  ["FishLevel"]= 1,
+  ["FishLevelLimit"]= 1,
+  ["ItemId"]= 10406004,
+  ["Name"]= "草虾",
+  ["Use"]= {
+    10406653
+  }
+},
+[10406005] = {
+  ["ItemId"]= 10406005,
+  ["Name"]= "清水螺",
+  ["Use"]= {
+    10406671
+  }
+},
+[10406006] = {
+  ["Area"]= {
+    10206601
+  },
+  ["FishLevel"]= 1,
+  ["FishLevelLimit"]= 1,
+  ["ItemId"]= 10406006,
+  ["Name"]= "水草",
+  ["Use"]= {
+    10406652
+  }
+},
+[10406007] = {
+  ["Area"]= {
+    10206601
+  },
+  ["FishLevel"]= 1,
+  ["FishLevelLimit"]= 1,
+  ["ItemId"]= 10406007,
+  ["Name"]= "青蛙",
+  ["Use"]= {
+    10406654
+  }
+},
+[10406008] = {
+  ["Area"]= {
+    13206601
+  },
+  ["FishLevel"]= 3,
+  ["FishLevelLimit"]= 3,
+  ["ItemId"]= 10406008,
+  ["MainCityId"]= 1310,
+  ["Name"]= "水蛇",
+  ["Use"]= {
+    10406664
+  }
+},
+[10406010] = {
+  ["Area"]= {
+    11506601
+  },
+  ["FishLevel"]= 5,
+  ["FishLevelLimit"]= 5,
+  ["ItemId"]= 10406010,
+  ["MainCityId"]= 1110,
+  ["Name"]= "金枪鱼",
+  ["Use"]= {
+    10413074
+  }
+},
+[10406011] = {
+  ["Area"]= {
+    11506601
+  },
+  ["FishLevel"]= 5,
+  ["FishLevelLimit"]= 5,
+  ["ItemId"]= 10406011,
+  ["MainCityId"]= 1110,
+  ["Name"]= "鱿鱼",
+  ["Use"]= {
+    10406602
+  }
+},
+[10406012] = {
+  ["Area"]= {
+    14206601
+  },
+  ["FishLevel"]= 6,
+  ["FishLevelLimit"]= 6,
+  ["ItemId"]= 10406012,
+  ["MainCityId"]= 1410,
+  ["Name"]= "河豚",
+  ["Use"]= {
+    10413076
+  }
+},
+[10406013] = {
+  ["Area"]= {
+    11506601
+  },
+  ["FishLevel"]= 5,
+  ["FishLevelLimit"]= 5,
+  ["ItemId"]= 10406013,
+  ["MainCityId"]= 1110,
+  ["Name"]= "带鱼",
+  ["Use"]= {
+    10406679
+  }
+},
+[10406017] = {
+  ["ItemId"]= 10406017,
+  ["Name"]= "星光螺",
+  ["Tool"]= 10413158,
+  ["Use"]= {
+    10402003
+  }
+},
+[10406018] = {
+  ["Area"]= {
+    11506601
+  },
+  ["FishLevel"]= 5,
+  ["FishLevelLimit"]= 5,
+  ["ItemId"]= 10406018,
+  ["MainCityId"]= 1110,
+  ["Name"]= "蝴蝶贝",
+  ["Tool"]= 10406893,
+  ["Use"]= {
+    10211003
+  }
+},
+[10406019] = {
+  ["Area"]= {
+    11506601
+  },
+  ["FishLevel"]= 5,
+  ["FishLevelLimit"]= 5,
+  ["ItemId"]= 10406019,
+  ["MainCityId"]= 1110,
+  ["Name"]= "白羽贝",
+  ["Tool"]= 10406582,
+  ["Use"]= {
+    10211009
+  }
+},
+[10406020] = {
+  ["Area"]= {
+    11506601
+  },
+  ["FishLevel"]= 5,
+  ["FishLevelLimit"]= 5,
+  ["ItemId"]= 10406020,
+  ["MainCityId"]= 1110,
+  ["Name"]= "秘能蚌",
+  ["Tool"]= 10413159,
+  ["Use"]= {
+    10211015
+  }
+},
+[10406021] = {
+  ["Area"]= {
+    14206601
+  },
+  ["FishLevel"]= 6,
+  ["FishLevelLimit"]= 6,
+  ["ItemId"]= 10406021,
+  ["MainCityId"]= 1410,
+  ["Name"]= "鞭尾鱼",
+  ["Tool"]= 10413012,
+  ["Use"]= {
+    10406408,
+    10406406
+  }
+},
+[10406022] = {
+  ["Area"]= {
+    13206601
+  },
+  ["FishLevel"]= 3,
+  ["FishLevelLimit"]= 3,
+  ["ItemId"]= 10406022,
+  ["MainCityId"]= 1310,
+  ["Name"]= "烬鱼",
+  ["Tool"]= 10406832,
+  ["Use"]= {
+    10211014
+  }
+},
+[10406023] = {
+  ["ItemId"]= 10406023,
+  ["Name"]= "浮灯鱼",
+  ["Tool"]= 10406845,
+  ["Use"]= {
+    10402006
+  }
+},
+[10406024] = {
+  ["Area"]= {
+    14206601
+  },
+  ["FishLevel"]= 6,
+  ["FishLevelLimit"]= 6,
+  ["ItemId"]= 10406024,
+  ["MainCityId"]= 1410,
+  ["Name"]= "龙鱼",
+  ["Use"]= {
+    10406603
+  }
+},
+[10406025] = {
+  ["Area"]= {
+    14506637
+  },
+  ["FishLevel"]= 7,
+  ["FishLevelLimit"]= 7,
+  ["ItemId"]= 10406025,
+  ["MainCityId"]= 1410,
+  ["Name"]= "清水明珠",
+  ["Tool"]= 10413017,
+  ["Use"]= {
+    10406410
+  }
+},
+[10406026] = {
+  ["Area"]= {
+    14506637
+  },
+  ["FishLevel"]= 7,
+  ["FishLevelLimit"]= 7,
+  ["ItemId"]= 10406026,
+  ["MainCityId"]= 1410,
+  ["Name"]= "幽灵鱼",
+  ["Tool"]= 10413015,
+  ["Use"]= {
+    10406409
+  }
+},
+[10406027] = {
+  ["Area"]= {
+    14206601
+  },
+  ["FishLevel"]= 6,
+  ["FishLevelLimit"]= 6,
+  ["ItemId"]= 10406027,
+  ["MainCityId"]= 1410,
+  ["Name"]= "锯鳞鱼",
+  ["Tool"]= 10413013,
+  ["Use"]= {
+    10406404,
+    10406411
+  }
+},
+[10406028] = {
+  ["Area"]= {
+    13206601
+  },
+  ["FishLevel"]= 3,
+  ["FishLevelLimit"]= 3,
+  ["ItemId"]= 10406028,
+  ["MainCityId"]= 1310,
+  ["Name"]= "火神鱼",
+  ["Tool"]= 10406886,
+  ["Use"]= {
+    10211002
+  }
+},
+[10406029] = {
+  ["Area"]= {
+    14506637
+  },
+  ["FishLevel"]= 7,
+  ["FishLevelLimit"]= 7,
+  ["ItemId"]= 10406029,
+  ["MainCityId"]= 1410,
+  ["Name"]= "恶鬼鱼",
+  ["Tool"]= 10413016,
+  ["Use"]= {
+    10406407
+  }
+},
+[10406030] = {
+  ["Area"]= {
+    13206601
+  },
+  ["FishLevel"]= 3,
+  ["FishLevelLimit"]= 3,
+  ["ItemId"]= 10406030,
+  ["MainCityId"]= 1310,
+  ["Name"]= "磷光虾",
+  ["Use"]= {
+    10406667
+  }
+},
+[10406031] = {
+  ["Area"]= {
+    14206601
+  },
+  ["FishLevel"]= 6,
+  ["FishLevelLimit"]= 6,
+  ["ItemId"]= 10406031,
+  ["MainCityId"]= 1410,
+  ["Name"]= "巨爬虾",
+  ["Use"]= {
+    10406604
+  }
+},
+[10406032] = {
+  ["Area"]= {
+    13206601
+  },
+  ["FishLevel"]= 3,
+  ["FishLevelLimit"]= 3,
+  ["ItemId"]= 10406032,
+  ["MainCityId"]= 1310,
+  ["Name"]= "坚壳蟹",
+  ["Tool"]= 10406842,
+  ["Use"]= {
+    10211008
+  }
+},
+[10406033] = {
+  ["Area"]= {
+    14206601
+  },
+  ["FishLevel"]= 6,
+  ["FishLevelLimit"]= 6,
+  ["ItemId"]= 10406033,
+  ["MainCityId"]= 1410,
+  ["Name"]= "彩虹珊瑚",
+  ["Tool"]= 10413014,
+  ["Use"]= {
+    10406405,
+    10406412
+  }
+},
+[10406034] = {
+  ["ItemId"]= 10406034,
+  ["Name"]= "夜光珍珠",
+  ["Tool"]= 10206004,
+  ["Use"]= {
+    10406511
+  }
+},
+[10406035] = {
+  ["Area"]= {
+    13206601
+  },
+  ["FishLevel"]= 3,
+  ["FishLevelLimit"]= 3,
+  ["ItemId"]= 10406035,
+  ["MainCityId"]= 1310,
+  ["Name"]= "小龙虾",
+  ["Use"]= {
+    10406666
+  }
+},
+[10406036] = {
+  ["Area"]= {
+    10306601
+  },
+  ["FishLevel"]= 2,
+  ["FishLevelLimit"]= 2,
+  ["ItemId"]= 10406036,
+  ["Name"]= "莲蓬",
+  ["Use"]= {
+    10406658
+  }
+},
+[10406037] = {
+  ["Area"]= {
+    10206601
+  },
+  ["FishLevel"]= 1,
+  ["FishLevelLimit"]= 1,
+  ["ItemId"]= 10406037,
+  ["Name"]= "贝壳",
+  ["Tool"]= 10413001,
+  ["Use"]= {
+    10211001
+  }
+},
+[10406038] = {
+  ["Area"]= {
+    10206601
+  },
+  ["FishLevel"]= 1,
+  ["FishLevelLimit"]= 1,
+  ["ItemId"]= 10406038,
+  ["Name"]= "绿松石",
+  ["Tool"]= 10413004,
+  ["Use"]= {
+    10211007
+  }
+},
+[10406039] = {
+  ["Area"]= {
+    10206601
+  },
+  ["FishLevel"]= 1,
+  ["FishLevelLimit"]= 1,
+  ["ItemId"]= 10406039,
+  ["Name"]= "鹅卵石",
+  ["Tool"]= 10413005,
+  ["Use"]= {
+    10211013
+  }
+},
+[10406040] = {
+  ["Area"]= {
+    13206601
+  },
+  ["FishLevel"]= 3,
+  ["FishLevelLimit"]= 3,
+  ["ItemId"]= 10406040,
+  ["MainCityId"]= 1310,
+  ["Name"]= "鲶鱼",
+  ["Use"]= {
+    10406669
+  }
+},
+[10406041] = {
+  ["Area"]= {
+    10306601
+  },
+  ["FishLevel"]= 2,
+  ["FishLevelLimit"]= 2,
+  ["ItemId"]= 10406041,
+  ["Name"]= "河蟹",
+  ["Use"]= {
+    10406662
+  }
+},
+[10406042] = {
+  ["Area"]= {
+    10306601
+  },
+  ["FishLevel"]= 2,
+  ["FishLevelLimit"]= 2,
+  ["ItemId"]= 10406042,
+  ["Name"]= "卷壳螺",
+  ["Tool"]= 10406567,
+  ["Use"]= {
+    10406418,
+    10406421
+  }
+},
+[10406043] = {
+  ["Area"]= {
+    10306601
+  },
+  ["FishLevel"]= 2,
+  ["FishLevelLimit"]= 2,
+  ["ItemId"]= 10406043,
+  ["Name"]= "白云鱼",
+  ["Tool"]= 10406686,
+  ["Use"]= {
+    10406419,
+    10406422
+  }
+},
+[10406044] = {
+  ["Area"]= {
+    10306601
+  },
+  ["FishLevel"]= 2,
+  ["FishLevelLimit"]= 2,
+  ["ItemId"]= 10406044,
+  ["Name"]= "净水鲟",
+  ["Tool"]= 10413028,
+  ["Use"]= {
+    10406420,
+    10406423
+  }
+},
+[10406045] = {
+  ["Area"]= {
+    14206601
+  },
+  ["FishLevel"]= 6,
+  ["FishLevelLimit"]= 6,
+  ["ItemId"]= 10406045,
+  ["MainCityId"]= 1410,
+  ["Name"]= "鲢鱼",
+  ["Use"]= {
+    10406605
+  }
+},
+[10406046] = {
+  ["ItemId"]= 10406046,
+  ["Name"]= "尖嘴鱼",
+  ["Use"]= {
+    10406675
+  }
+},
+[10406047] = {
+  ["ItemId"]= 10406047,
+  ["Name"]= "纱水母",
+  ["Tool"]= 10406243,
+  ["Use"]= {
+    10406444
+  }
+},
+[10406048] = {
+  ["ItemId"]= 10406048,
+  ["Name"]= "吞砂鱼",
+  ["Tool"]= 10406244,
+  ["Use"]= {
+    10406445
+  }
+},
+[10406049] = {
+  ["ItemId"]= 10406049,
+  ["Name"]= "枫叶鱼",
+  ["Tool"]= 10406245,
+  ["Use"]= {
+    10406446
+  }
+},
+[10406050] = {
+  ["Area"]= {
+    10206601
+  },
+  ["FishLevel"]= 1,
+  ["FishLevelLimit"]= 1,
+  ["ItemId"]= 10406050,
+  ["Name"]= "鲤鱼",
+  ["Use"]= {
+    10406657
+  }
+},
+[10406051] = {
+  ["Area"]= {
+    14506637
+  },
+  ["FishLevel"]= 7,
+  ["FishLevelLimit"]= 7,
+  ["ItemId"]= 10406051,
+  ["MainCityId"]= 1410,
+  ["Name"]= "灰壳蚌",
+  ["Use"]= {
+    10413080
+  }
+},
+[10406052] = {
+  ["Area"]= {
+    14506637
+  },
+  ["FishLevel"]= 7,
+  ["FishLevelLimit"]= 7,
+  ["ItemId"]= 10406052,
+  ["MainCityId"]= 1410,
+  ["Name"]= "鳟鱼",
+  ["Use"]= {
+    10406606
+  }
+},
+[10406053] = {
+  ["Area"]= {
+    14506637
+  },
+  ["FishLevel"]= 7,
+  ["FishLevelLimit"]= 7,
+  ["ItemId"]= 10406053,
+  ["MainCityId"]= 1410,
+  ["Name"]= "河鳗",
+  ["Use"]= {
+    10406607
+  }
+},
+[10406054] = {
+  ["Area"]= {
+    14506637
+  },
+  ["FishLevel"]= 7,
+  ["FishLevelLimit"]= 7,
+  ["ItemId"]= 10406054,
+  ["MainCityId"]= 1410,
+  ["Name"]= "临暮鱼",
+  ["Tool"]= 10406206,
+  ["Use"]= {
+    10406432
+  }
+},
+[10406055] = {
+  ["Area"]= {
+    14506637
+  },
+  ["FishLevel"]= 7,
+  ["FishLevelLimit"]= 7,
+  ["ItemId"]= 10406055,
+  ["MainCityId"]= 1410,
+  ["Name"]= "盔甲蟹",
+  ["Tool"]= 10406216,
+  ["Use"]= {
+    10406433
+  }
+},
+[10406056] = {
+  ["Area"]= {
+    14506637
+  },
+  ["FishLevel"]= 7,
+  ["FishLevelLimit"]= 7,
+  ["ItemId"]= 10406056,
+  ["MainCityId"]= 1410,
+  ["Name"]= "刻纹螺",
+  ["Tool"]= 10406207,
+  ["Use"]= {
+    10406434
+  }
+},
+[10406057] = {
+  ["Area"]= {
+    12706613
+  },
+  ["FishLevel"]= 8,
+  ["FishLevelLimit"]= 8,
+  ["ItemId"]= 10406057,
+  ["MainCityId"]= 1210,
+  ["Name"]= "青背鱼",
+  ["Use"]= {
+    10406609
+  }
+},
+[10406058] = {
+  ["Area"]= {
+    12706613
+  },
+  ["FishLevel"]= 8,
+  ["FishLevelLimit"]= 8,
+  ["ItemId"]= 10406058,
+  ["MainCityId"]= 1210,
+  ["Name"]= "水虎鱼",
+  ["Use"]= {
+    10406610
+  }
+},
+[10406059] = {
+  ["Area"]= {
+    12706613
+  },
+  ["FishLevel"]= 8,
+  ["FishLevelLimit"]= 8,
+  ["ItemId"]= 10406059,
+  ["MainCityId"]= 1210,
+  ["Name"]= "黄虾蛄",
+  ["Use"]= {
+    10406611
+  }
+},
+[10406060] = {
+  ["Area"]= {
+    12706613
+  },
+  ["FishLevel"]= 8,
+  ["FishLevelLimit"]= 8,
+  ["ItemId"]= 10406060,
+  ["MainCityId"]= 1210,
+  ["Name"]= "无目鳅",
+  ["Use"]= {
+    10406612
+  }
+},
+[10406061] = {
+  ["Area"]= {
+    12706613
+  },
+  ["FishLevel"]= 8,
+  ["FishLevelLimit"]= 8,
+  ["ItemId"]= 10406061,
+  ["MainCityId"]= 1210,
+  ["Name"]= "钢刀鱼",
+  ["Tool"]= 10413069,
+  ["Use"]= {
+    10406428
+  }
+},
+[10406062] = {
+  ["Area"]= {
+    12706613
+  },
+  ["FishLevel"]= 8,
+  ["FishLevelLimit"]= 8,
+  ["ItemId"]= 10406062,
+  ["MainCityId"]= 1210,
+  ["Name"]= "凶猎鱼",
+  ["Tool"]= 10413070,
+  ["Use"]= {
+    10406429
+  }
+},
+[10406063] = {
+  ["Area"]= {
+    12706613
+  },
+  ["FishLevel"]= 8,
+  ["FishLevelLimit"]= 8,
+  ["ItemId"]= 10406063,
+  ["MainCityId"]= 1210,
+  ["Name"]= "晶棘鱼",
+  ["Tool"]= 10413123,
+  ["Use"]= {
+    10406430
+  }
+}
+}
+local baseTable={
+  ["Area"]= {
+    10406637
+  },
+  ["FishExp"]= 10,
+  ["FishLevel"]= 4,
+  ["FishLevelLimit"]= 4,
+  ["IsRare"]= 0,
+  ["ItemId"]= 10406001,
+  ["MainCityId"]= 1010,
+  ["Name"]= "鲫鱼",
+  ["Tool"]= 10206001,
+  ["Use"]= {
+    10406660
+  },
+  ["UseWords"]= "",
+  ["Weather"]= 0
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

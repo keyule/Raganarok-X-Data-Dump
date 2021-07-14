@@ -1,0 +1,1783 @@
+TextAsset Base
+	string m_Name = "data_trigger_Trigger"
+	string m_Script = "local table= {
+[45001] = {
+  ["des"]= "吊灯",
+  ["name"]= "吊灯",
+  ["ResId"]= 45001,
+  ["shape"]= {
+    ["Radius"]= 3,
+    ["ShapeType"]= 4
+  },
+  ["TriggerEndSound"]= "Trigger/Trigger30015501"
+},
+[45002] = {
+  ["des"]= "毒气陷阱",
+  ["id"]= 45002,
+  ["name"]= "毒气陷阱",
+  ["ResId"]= 45002,
+  ["shape"]= {
+    ["Radius"]= 3,
+    ["ShapeType"]= 1
+  },
+  ["TriggerSound"]= "Trigger/SceneEffect_Poisongas"
+},
+[45003] = {
+  ["des"]= "爬塔毒气",
+  ["id"]= 45003,
+  ["name"]= "爬塔毒气",
+  ["ResId"]= 45003,
+  ["shape"]= {
+    ["anchorPointOffset"]= 0,
+    ["Length"]= 150,
+    ["ShapeType"]= 3,
+    ["Width"]= 150
+  },
+  ["TriggerSound"]= "Trigger/SceneEffect_Poisongas"
+},
+[45004] = {
+  ["des"]= "吊灯",
+  ["id"]= 45004,
+  ["name"]= "吊灯",
+  ["ResId"]= 45004,
+  ["shape"]= {
+    ["Radius"]= 3,
+    ["ShapeType"]= 4
+  },
+  ["TriggerEndSound"]= "Trigger/SceneEffect_Lampfall"
+},
+[45005] = {
+  ["des"]= "35*7毒云",
+  ["id"]= 45005,
+  ["name"]= "35*7毒云",
+  ["ResId"]= 45005,
+  ["shape"]= {
+    ["anchorPointOffset"]= 0,
+    ["Length"]= 35,
+    ["ShapeType"]= 3,
+    ["Width"]= 7
+  }
+},
+[45006] = {
+  ["des"]= "7*35毒云",
+  ["id"]= 45006,
+  ["name"]= "7*35毒云",
+  ["ResId"]= 45006,
+  ["shape"]= {
+    ["anchorPointOffset"]= 0,
+    ["Length"]= 7,
+    ["ShapeType"]= 3,
+    ["Width"]= 35
+  }
+},
+[45007] = {
+  ["createShake"]= {
+    ["shakeDelay"]= 0,
+    ["shakeId"]= 104,
+    ["shakeLast"]= 2000
+  },
+  ["des"]= "幽灵船",
+  ["id"]= 45007,
+  ["name"]= "幽灵船",
+  ["ResId"]= 45007,
+  ["shape"]= {
+    ["anchorPointOffset"]= 0,
+    ["Length"]= 50,
+    ["ShapeType"]= 3,
+    ["Width"]= 8
+  },
+  ["TriggerEndSound"]= "Trigger/SceneEffect_Ghostship"
+},
+[45008] = {
+  ["des"]= "6直径毒圈",
+  ["id"]= 45008,
+  ["name"]= "6直径毒圈",
+  ["ResId"]= 30013501,
+  ["shape"]= {
+    ["Radius"]= 3,
+    ["ShapeType"]= 4
+  },
+  ["TriggerSound"]= "Trigger/Trigger45008"
+},
+[45009] = {
+  ["des"]= "10*20即死区域",
+  ["id"]= 45009,
+  ["IsHide"]= 1,
+  ["name"]= "10*20即死区域",
+  ["ResId"]= 45005,
+  ["shape"]= {
+    ["anchorPointOffset"]= 0,
+    ["Length"]= 10,
+    ["ShapeType"]= 3,
+    ["Width"]= 20
+  }
+},
+[45010] = {
+  ["des"]= "爬塔回血球",
+  ["id"]= 45010,
+  ["name"]= "爬塔回血球",
+  ["ResId"]= 30005504
+},
+[45011] = {
+  ["des"]= "万圣活动-放大",
+  ["id"]= 45011,
+  ["name"]= "万圣活动-放大",
+  ["ResId"]= 45011
+},
+[45012] = {
+  ["des"]= "万圣活动-缩小",
+  ["id"]= 45012,
+  ["name"]= "万圣活动-缩小",
+  ["ResId"]= 45012
+},
+[45013] = {
+  ["des"]= "万圣活动-幽灵",
+  ["id"]= 45013,
+  ["name"]= "万圣活动-幽灵",
+  ["ResId"]= 45013
+},
+[45014] = {
+  ["des"]= "万圣活动-南瓜",
+  ["id"]= 45014,
+  ["name"]= "万圣活动-南瓜",
+  ["ResId"]= 45014
+},
+[45015] = {
+  ["des"]= "8*3即死区域",
+  ["id"]= 45015,
+  ["IsHide"]= 1,
+  ["name"]= "8*3即死区域",
+  ["ResId"]= 45015,
+  ["shape"]= {
+    ["anchorPointOffset"]= 0,
+    ["Length"]= 2.65,
+    ["ShapeType"]= 3,
+    ["Width"]= 6.35
+  }
+},
+[45016] = {
+  ["des"]= "4*4即死区域",
+  ["id"]= 45016,
+  ["name"]= "4*4即死区域",
+  ["ResId"]= 30010501,
+  ["shape"]= {
+    ["anchorPointOffset"]= 0,
+    ["Length"]= 4,
+    ["ShapeType"]= 3,
+    ["Width"]= 4
+  }
+},
+[45017] = {
+  ["des"]= "3*3即死区域",
+  ["id"]= 45017,
+  ["name"]= "3*3即死区域",
+  ["ResId"]= 30010501,
+  ["shape"]= {
+    ["anchorPointOffset"]= 0,
+    ["Length"]= 3,
+    ["ShapeType"]= 3,
+    ["Width"]= 3
+  }
+},
+[45100] = {
+  ["des"]= "落石",
+  ["id"]= 45100,
+  ["name"]= "落石-晕",
+  ["ResId"]= 45100,
+  ["shape"]= {
+    ["Radius"]= 4,
+    ["ShapeType"]= 4
+  }
+},
+[45101] = {
+  ["des"]= "10*2火墙",
+  ["id"]= 45101,
+  ["name"]= "10*2火墙",
+  ["ResId"]= 45101,
+  ["shape"]= {
+    ["anchorPointOffset"]= 0,
+    ["Length"]= 10,
+    ["ShapeType"]= 3,
+    ["Width"]= 2
+  }
+},
+[45102] = {
+  ["des"]= "落石",
+  ["id"]= 45102,
+  ["name"]= "落石-冰",
+  ["ResId"]= 45102,
+  ["shape"]= {
+    ["Radius"]= 4,
+    ["ShapeType"]= 4
+  }
+},
+[45103] = {
+  ["des"]= "落石",
+  ["id"]= 45103,
+  ["name"]= "落石-火",
+  ["ResId"]= 45103,
+  ["shape"]= {
+    ["Radius"]= 4,
+    ["ShapeType"]= 4
+  }
+},
+[45104] = {
+  ["des"]= "落石",
+  ["id"]= 45104,
+  ["name"]= "落石-毒",
+  ["ResId"]= 45104,
+  ["shape"]= {
+    ["Radius"]= 4,
+    ["ShapeType"]= 4
+  }
+},
+[45200] = {
+  ["des"]= "争霸赛2阶段叉状陷阱1",
+  ["id"]= 45200,
+  ["name"]= "争霸赛2阶段叉状陷阱1",
+  ["ResId"]= 45200,
+  ["shape"]= {
+    ["ShapeType"]= 0
+  }
+},
+[45201] = {
+  ["des"]= "争霸赛2阶段叉状陷阱2",
+  ["id"]= 45201,
+  ["name"]= "争霸赛2阶段叉状陷阱2",
+  ["ResId"]= 45201,
+  ["shape"]= {
+    ["anchorPointOffset"]= 0,
+    ["Length"]= 140,
+    ["ShapeType"]= 3,
+    ["Width"]= 13.5
+  }
+},
+[45202] = {
+  ["des"]= "争霸赛3阶段回形长1",
+  ["id"]= 45202,
+  ["name"]= "争霸赛3阶段中空大三角1",
+  ["ResId"]= 45202,
+  ["shape"]= {
+    ["ShapeType"]= 0
+  }
+},
+[45203] = {
+  ["des"]= "争霸赛3阶段回形长2",
+  ["id"]= 45203,
+  ["name"]= "争霸赛3阶段中空大三角2",
+  ["ResId"]= 45203,
+  ["shape"]= {
+    ["anchorPointOffset"]= 0,
+    ["Length"]= 75,
+    ["ShapeType"]= 3,
+    ["Width"]= 55
+  }
+},
+[45205] = {
+  ["des"]= "争霸赛4阶段三角形1",
+  ["id"]= 45205,
+  ["name"]= "争霸赛4阶段三角形1",
+  ["ResId"]= 45205,
+  ["shape"]= {
+    ["ShapeType"]= 0
+  }
+},
+[45206] = {
+  ["des"]= "争霸赛5阶段全覆盖",
+  ["id"]= 45206,
+  ["name"]= "争霸赛5阶段全覆盖",
+  ["ResId"]= 45206,
+  ["shape"]= {
+    ["anchorPointOffset"]= 0,
+    ["Length"]= 100,
+    ["ShapeType"]= 3,
+    ["Width"]= 100
+  }
+},
+[45300] = {
+  ["des"]= "GVG安全区",
+  ["id"]= 45300,
+  ["IsHide"]= 1,
+  ["name"]= "GVG安全区",
+  ["ResId"]= 45001,
+  ["shape"]= {
+    ["anchorPointOffset"]= 0,
+    ["Length"]= 30,
+    ["ShapeType"]= 3,
+    ["Width"]= 30
+  }
+},
+[45301] = {
+  ["des"]= "GVG安全区",
+  ["id"]= 45301,
+  ["IsHide"]= 1,
+  ["name"]= "GVG安全区",
+  ["ResId"]= 45001,
+  ["shape"]= {
+    ["anchorPointOffset"]= 0,
+    ["Length"]= 18,
+    ["ShapeType"]= 3,
+    ["Width"]= 18
+  }
+},
+[46001] = {
+  ["id"]= 46001,
+  ["name"]= "左路-第一个符文",
+  ["ResId"]= 46001,
+  ["shape"]= {
+    ["ShapeType"]= 0
+  }
+},
+[46002] = {
+  ["id"]= 46002,
+  ["name"]= "左路-第二个符文",
+  ["ResId"]= 46002,
+  ["shape"]= {
+    ["ShapeType"]= 0
+  }
+},
+[46003] = {
+  ["id"]= 46003,
+  ["name"]= "左路-第三个符文",
+  ["ResId"]= 46003,
+  ["shape"]= {
+    ["ShapeType"]= 0
+  }
+},
+[46004] = {
+  ["id"]= 46004,
+  ["name"]= "中路-第一个符文",
+  ["ResId"]= 46004,
+  ["shape"]= {
+    ["ShapeType"]= 0
+  }
+},
+[46005] = {
+  ["id"]= 46005,
+  ["name"]= "中路-第二个符文",
+  ["ResId"]= 46005,
+  ["shape"]= {
+    ["ShapeType"]= 0
+  }
+},
+[46006] = {
+  ["id"]= 46006,
+  ["name"]= "中路-第三个符文",
+  ["ResId"]= 46006,
+  ["shape"]= {
+    ["ShapeType"]= 0
+  }
+},
+[46007] = {
+  ["id"]= 46007,
+  ["name"]= "右路-第一个符文",
+  ["ResId"]= 46007,
+  ["shape"]= {
+    ["ShapeType"]= 0
+  }
+},
+[46008] = {
+  ["id"]= 46008,
+  ["name"]= "右路-第二个符文",
+  ["ResId"]= 46008,
+  ["shape"]= {
+    ["ShapeType"]= 0
+  }
+},
+[46009] = {
+  ["id"]= 46009,
+  ["name"]= "右路-第三个符文",
+  ["ResId"]= 46009,
+  ["shape"]= {
+    ["ShapeType"]= 0
+  }
+},
+[49998] = {
+  ["id"]= 49998,
+  ["IsHide"]= 1,
+  ["name"]= "艾莉儿好感度随机buff",
+  ["shape"]= {
+    ["Radius"]= 5,
+    ["ShapeType"]= 1
+  }
+},
+[49999] = {
+  ["id"]= 49999,
+  ["IsHide"]= 1,
+  ["name"]= "艾莉儿加血区域",
+  ["shape"]= {
+    ["Radius"]= 5,
+    ["ShapeType"]= 1
+  }
+},
+[4001501] = {
+  ["id"]= 4001501,
+  ["shape"]= {
+    ["Radius"]= 3,
+    ["ShapeType"]= 1
+  }
+},
+[4001502] = {
+  ["id"]= 4001502,
+  ["shape"]= {
+    ["Radius"]= 4,
+    ["ShapeType"]= 1
+  }
+},
+[4001503] = {
+  ["id"]= 4001503,
+  ["shape"]= {
+    ["Radius"]= 5,
+    ["ShapeType"]= 1
+  }
+},
+[5020301] = {
+  ["des"]= "陨石术",
+  ["effectShake"]= {
+    ["shakeDelay"]= 0,
+    ["shakeId"]= 103,
+    ["shakeLast"]= 200
+  },
+  ["id"]= 5020301,
+  ["name"]= "陨石术",
+  ["ResId"]= 13115211,
+  ["shape"]= {
+    ["Radius"]= 3.5,
+    ["ShapeType"]= 1
+  },
+  ["TriggerEffectSound"]= "Trigger/TriggerEffect1311121"
+},
+[6610470] = {
+  ["des"]= "金钱风暴",
+  ["id"]= 6610470,
+  ["name"]= "金钱风暴",
+  ["ResId"]= 16113071,
+  ["shape"]= {
+    ["Radius"]= 3,
+    ["ShapeType"]= 1
+  },
+  ["TriggerEffectSound"]= "Trigger/TriggerEffect16113071",
+  ["TriggerSound"]= "Trigger/Trigger16113071"
+},
+[10085501] = {
+  ["hide_time"]= 2000,
+  ["id"]= 10085501,
+  ["name"]= "睡魔陷阱",
+  ["ResId"]= 15115321,
+  ["shape"]= {
+    ["Radius"]= 2,
+    ["ShapeType"]= 1
+  },
+  ["TriggerDelaySound"]= "Trigger/TriggerEffect1511132",
+  ["TriggerEffectSound"]= "Trigger/TriggerDelay1511132",
+  ["TriggerEndSound"]= "Trigger/TriggerDelay1511132",
+  ["TriggerSound"]= "Trigger/Trigger1511132"
+},
+[10118501] = {
+  ["id"]= 10118501,
+  ["name"]= "火焰之壁",
+  ["ResId"]= 13005291,
+  ["shape"]= {
+    ["Radius"]= 2,
+    ["ShapeType"]= 1
+  },
+  ["TriggerEffectSound"]= "Trigger/TriggerEffect13005291",
+  ["TriggerSound"]= "Trigger/Trigger13005291"
+},
+[10126501] = {
+  ["id"]= 10126501,
+  ["name"]= "怪物-箭雨",
+  ["ResId"]= 15005221,
+  ["shape"]= {
+    ["Radius"]= 4,
+    ["ShapeType"]= 1
+  },
+  ["TriggerSound"]= "Trigger/Trigger1500122"
+},
+[10126502] = {
+  ["hide_time"]= 2000,
+  ["id"]= 10126502,
+  ["name"]= "怪物-定位陷阱",
+  ["ResId"]= 15115261,
+  ["shape"]= {
+    ["Radius"]= 2,
+    ["ShapeType"]= 1
+  },
+  ["TriggerDelaySound"]= "Trigger/TriggerDelay1511126",
+  ["TriggerEffectSound"]= "Trigger/TriggerEffect1511126",
+  ["TriggerEndSound"]= "Trigger/TriggerEffect1511126",
+  ["TriggerSound"]= "Trigger/Trigger1511126"
+},
+[10133501] = {
+  ["hide_time"]= 2000,
+  ["id"]= 10133501,
+  ["name"]= "怪物-霜冻陷阱",
+  ["ResId"]= 15105251,
+  ["shape"]= {
+    ["Radius"]= 2,
+    ["ShapeType"]= 1
+  },
+  ["TriggerDelaySound"]= "Trigger/TriggerDelay1510125",
+  ["TriggerEffectSound"]= "Trigger/TriggerEffect1510125",
+  ["TriggerEndSound"]= "Trigger/TriggerEffect1510125",
+  ["TriggerSound"]= "Trigger/Trigger1510125"
+},
+[10163501] = {
+  ["hide_time"]= 2000,
+  ["id"]= 10163501,
+  ["name"]= "怪物-电击陷阱",
+  ["ResId"]= 15105321,
+  ["shape"]= {
+    ["Radius"]= 2,
+    ["ShapeType"]= 1
+  },
+  ["TriggerEffectSound"]= "Trigger/TriggerEffect1510132",
+  ["TriggerEndSound"]= "Trigger/TriggerEffect1510132",
+  ["TriggerSound"]= "Trigger/Trigger1510132"
+},
+[10179501] = {
+  ["id"]= 10179501,
+  ["name"]= "怪物-暗之壁障",
+  ["ResId"]= 12115291,
+  ["TriggerSound"]= "Trigger/Trigger1310132"
+},
+[12105211] = {
+  ["id"]= 12105211,
+  ["name"]= "光耀之堂",
+  ["ResId"]= 12105211,
+  ["shape"]= {
+    ["Radius"]= 4,
+    ["ShapeType"]= 1
+  },
+  ["TriggerEffectSound"]= "Trigger/TriggerEffect1210121",
+  ["TriggerSound"]= "Trigger/Trigger1210121"
+},
+[12105321] = {
+  ["id"]= 12105321,
+  ["IfTriggerSoundLoop"]= 1,
+  ["name"]= "光之壁障",
+  ["ResId"]= 12105321,
+  ["TriggerSound"]= "Trigger/Trigger12105321"
+},
+[12105331] = {
+  ["id"]= 12105331,
+  ["name"]= "霸邪之阵",
+  ["ResId"]= 12105331,
+  ["shape"]= {
+    ["Radius"]= 3,
+    ["ShapeType"]= 1
+  }
+},
+[12115231] = {
+  ["id"]= 12115231,
+  ["name"]= "十字驱魔攻击",
+  ["ResId"]= 12115231,
+  ["shape"]= {
+    ["Radius"]= 4,
+    ["ShapeType"]= 1
+  },
+  ["TriggerEffectSound"]= "Trigger/TriggerEffect1211123",
+  ["TriggerSound"]= "Trigger/Trigger1211123"
+},
+[12115291] = {
+  ["id"]= 12115291,
+  ["name"]= "暗之壁障",
+  ["ResId"]= 12115291,
+  ["TriggerSound"]= "Trigger/Trigger1310132"
+},
+[12115301] = {
+  ["id"]= 12115301,
+  ["name"]= "神圣殿堂",
+  ["ResId"]= 12115301,
+  ["shape"]= {
+    ["anchorPointOffset"]= 0,
+    ["Length"]= 4,
+    ["ShapeType"]= 3,
+    ["Width"]= 0
+  }
+},
+[13005291] = {
+  ["id"]= 13005291,
+  ["name"]= "火焰之壁",
+  ["ResId"]= 13005291,
+  ["shape"]= {
+    ["Radius"]= 2.5,
+    ["ShapeType"]= 1
+  },
+  ["TriggerEffectSound"]= "Trigger/TriggerEffect13005291",
+  ["TriggerSound"]= "Trigger/Trigger13005291"
+},
+[13005292] = {
+  ["id"]= 13005292,
+  ["name"]= "火焰之壁-火焰守护用",
+  ["ResId"]= 13005291,
+  ["shape"]= {
+    ["Radius"]= 2.5,
+    ["ShapeType"]= 1
+  }
+},
+[13105221] = {
+  ["des"]= "暴风雪",
+  ["id"]= 13105221,
+  ["name"]= "暴风雪",
+  ["ResId"]= 13105221,
+  ["shape"]= {
+    ["Radius"]= 4,
+    ["ShapeType"]= 1
+  },
+  ["TriggerSound"]= "Trigger/Trigger1310122"
+},
+[13105281] = {
+  ["id"]= 13105281,
+  ["name"]= "心灵爆破",
+  ["ResId"]= 13105281,
+  ["shape"]= {
+    ["Radius"]= 4,
+    ["ShapeType"]= 1
+  },
+  ["TriggerEffectSound"]= "Skill/SkillEffect1310128"
+},
+[13105341] = {
+  ["id"]= 13105341,
+  ["name"]= "泥沼地",
+  ["ResId"]= 13105341,
+  ["shape"]= {
+    ["Radius"]= 4,
+    ["ShapeType"]= 1
+  },
+  ["TriggerSound"]= "Trigger/Trigger1310134"
+},
+[13115211] = {
+  ["des"]= "陨石术",
+  ["effectShake"]= {
+    ["shakeDelay"]= 0,
+    ["shakeId"]= 103,
+    ["shakeLast"]= 200
+  },
+  ["id"]= 13115211,
+  ["name"]= "陨石术",
+  ["ResId"]= 13115211,
+  ["shape"]= {
+    ["Radius"]= 4,
+    ["ShapeType"]= 1
+  }
+},
+[13115212] = {
+  ["des"]= "陨石术-区域",
+  ["id"]= 13115212,
+  ["IsHide"]= 1,
+  ["name"]= "陨石术-区域",
+  ["shape"]= {
+    ["Radius"]= 3,
+    ["ShapeType"]= 1
+  }
+},
+[13115221] = {
+  ["des"]= "怒雷强击",
+  ["effectShake"]= {
+    ["shakeDelay"]= 0,
+    ["shakeId"]= 105,
+    ["shakeLast"]= 200
+  },
+  ["id"]= 13115221,
+  ["name"]= "怒雷强击",
+  ["ResId"]= 13115221,
+  ["shape"]= {
+    ["Radius"]= 4,
+    ["ShapeType"]= 1
+  },
+  ["TriggerSound"]= "Trigger/Trigger1311122"
+},
+[13115241] = {
+  ["des"]= "重力原野",
+  ["effectShake"]= {
+    ["shakeDelay"]= 0,
+    ["shakeId"]= 105,
+    ["shakeLast"]= 100
+  },
+  ["id"]= 13115241,
+  ["name"]= "重力原野",
+  ["ResId"]= 13115241,
+  ["shape"]= {
+    ["Radius"]= 4,
+    ["ShapeType"]= 1
+  },
+  ["TriggerSound"]= "Trigger/Trigger1311124"
+},
+[13124131] = {
+  ["id"]= 13124131,
+  ["name"]= "火焰路径",
+  ["ResId"]= 13124131,
+  ["shape"]= {
+    ["anchorPointOffset"]= 0,
+    ["Length"]= 6,
+    ["ShapeType"]= 3,
+    ["Width"]= 3
+  }
+},
+[13124132] = {
+  ["id"]= 13124132,
+  ["name"]= "火焰路径-火焰守护用",
+  ["ResId"]= 13124131,
+  ["shape"]= {
+    ["anchorPointOffset"]= 0,
+    ["Length"]= 6,
+    ["ShapeType"]= 3,
+    ["Width"]= 3
+  }
+},
+[14105291] = {
+  ["id"]= 14105291,
+  ["name"]= "病毒散播",
+  ["ResId"]= 14105291,
+  ["shape"]= {
+    ["Radius"]= 3,
+    ["ShapeType"]= 1
+  },
+  ["TriggerSound"]= "Trigger/Trigger45008"
+},
+[14115291] = {
+  ["id"]= 14115291,
+  ["name"]= "毒雷爆散—范围",
+  ["shape"]= {
+    ["Radius"]= 1.5,
+    ["ShapeType"]= 1
+  }
+},
+[14115292] = {
+  ["id"]= 14115292,
+  ["name"]= "毒雷爆散—毒雷",
+  ["ResId"]= 14115292
+},
+[15005221] = {
+  ["id"]= 15005221,
+  ["name"]= "箭雨",
+  ["ResId"]= 15005221,
+  ["shape"]= {
+    ["Radius"]= 4,
+    ["ShapeType"]= 1
+  },
+  ["TriggerSound"]= "Trigger/Trigger1500122"
+},
+[15005222] = {
+  ["id"]= 15005222,
+  ["name"]= "圣箭雨",
+  ["ResId"]= 15005222,
+  ["shape"]= {
+    ["Radius"]= 4,
+    ["ShapeType"]= 1
+  },
+  ["TriggerSound"]= "Trigger/Trigger1500122"
+},
+[15005223] = {
+  ["id"]= 15005223,
+  ["name"]= "火箭雨",
+  ["ResId"]= 15005223,
+  ["shape"]= {
+    ["Radius"]= 4,
+    ["ShapeType"]= 1
+  },
+  ["TriggerSound"]= "Trigger/Trigger1500122"
+},
+[15005224] = {
+  ["id"]= 15005224,
+  ["name"]= "水箭雨",
+  ["ResId"]= 15005224,
+  ["shape"]= {
+    ["Radius"]= 4,
+    ["ShapeType"]= 1
+  },
+  ["TriggerSound"]= "Trigger/Trigger1500122"
+},
+[15005225] = {
+  ["id"]= 15005225,
+  ["name"]= "风箭雨",
+  ["ResId"]= 15005225,
+  ["shape"]= {
+    ["Radius"]= 4,
+    ["ShapeType"]= 1
+  },
+  ["TriggerSound"]= "Trigger/Trigger1500122"
+},
+[15005226] = {
+  ["id"]= 15005226,
+  ["name"]= "地箭雨",
+  ["ResId"]= 15005226,
+  ["shape"]= {
+    ["Radius"]= 4,
+    ["ShapeType"]= 1
+  },
+  ["TriggerSound"]= "Trigger/Trigger1500122"
+},
+[15005271] = {
+  ["effectShake"]= {
+    ["shakeDelay"]= 0,
+    ["shakeId"]= 103,
+    ["shakeLast"]= 200
+  },
+  ["hide_time"]= 2000,
+  ["id"]= 15005271,
+  ["name"]= "爆散陷阱",
+  ["ResId"]= 15005271,
+  ["shape"]= {
+    ["Radius"]= 2,
+    ["ShapeType"]= 1
+  },
+  ["TriggerDelaySound"]= "Trigger/TriggerDelay1500127",
+  ["TriggerEffectSound"]= "Trigger/TriggerEffect1500127",
+  ["TriggerEndSound"]= "Trigger/TriggerEffect1500127",
+  ["TriggerSound"]= "Trigger/Trigger1500127"
+},
+[15105251] = {
+  ["hide_time"]= 2000,
+  ["id"]= 15105251,
+  ["name"]= "霜冻陷阱",
+  ["ResId"]= 15105251,
+  ["shape"]= {
+    ["Radius"]= 2,
+    ["ShapeType"]= 1
+  },
+  ["TriggerDelaySound"]= "Trigger/TriggerDelay1510125",
+  ["TriggerEffectSound"]= "Trigger/TriggerEffect1510125",
+  ["TriggerEndSound"]= "Trigger/TriggerEffect1510125",
+  ["TriggerSound"]= "Trigger/Trigger1510125"
+},
+[15105271] = {
+  ["effectShake"]= {
+    ["shakeDelay"]= 0,
+    ["shakeId"]= 102,
+    ["shakeLast"]= 200
+  },
+  ["hide_time"]= 2000,
+  ["id"]= 15105271,
+  ["name"]= "地雷陷阱",
+  ["ResId"]= 15105271,
+  ["shape"]= {
+    ["Radius"]= 2,
+    ["ShapeType"]= 1
+  },
+  ["TriggerDelaySound"]= "Trigger/TriggerDelay1510127",
+  ["TriggerEffectSound"]= "Trigger/TriggerEffect1510127",
+  ["TriggerEndSound"]= "Trigger/TriggerEffect1510127",
+  ["TriggerSound"]= "Trigger/Trigger1510127"
+},
+[15105321] = {
+  ["effectShake"]= {
+    ["shakeDelay"]= 0,
+    ["shakeId"]= 102,
+    ["shakeLast"]= 200
+  },
+  ["hide_time"]= 2000,
+  ["id"]= 15105321,
+  ["name"]= "电击陷阱",
+  ["ResId"]= 15105321,
+  ["shape"]= {
+    ["Radius"]= 2,
+    ["ShapeType"]= 1
+  },
+  ["TriggerEffectSound"]= "Trigger/TriggerEffect1510132",
+  ["TriggerEndSound"]= "Trigger/TriggerEffect1510132",
+  ["TriggerSound"]= "Trigger/Trigger1510132"
+},
+[15115261] = {
+  ["hide_time"]= 2000,
+  ["id"]= 15115261,
+  ["name"]= "定位陷阱",
+  ["ResId"]= 15115261,
+  ["shape"]= {
+    ["Radius"]= 2,
+    ["ShapeType"]= 1
+  },
+  ["TriggerDelaySound"]= "Trigger/TriggerDelay1511126",
+  ["TriggerEffectSound"]= "Trigger/TriggerEffect1511126",
+  ["TriggerEndSound"]= "Trigger/TriggerEffect1511126",
+  ["TriggerSound"]= "Trigger/Trigger1511126"
+},
+[15115321] = {
+  ["hide_time"]= 2000,
+  ["id"]= 15115321,
+  ["name"]= "睡魔陷阱",
+  ["ResId"]= 15115321,
+  ["shape"]= {
+    ["Radius"]= 2,
+    ["ShapeType"]= 1
+  },
+  ["TriggerDelaySound"]= "Trigger/TriggerEffect1511132",
+  ["TriggerEffectSound"]= "Trigger/TriggerDelay1511132",
+  ["TriggerEndSound"]= "Trigger/TriggerDelay1511132",
+  ["TriggerSound"]= "Trigger/Trigger1511132"
+},
+[16113071] = {
+  ["des"]= "金钱风暴",
+  ["id"]= 16113071,
+  ["name"]= "金钱风暴",
+  ["ResId"]= 16113071,
+  ["shape"]= {
+    ["Radius"]= 3,
+    ["ShapeType"]= 1
+  },
+  ["TriggerEffectSound"]= "Trigger/TriggerEffect16113071",
+  ["TriggerSound"]= "Trigger/Trigger16113071"
+},
+[20109501] = {
+  ["id"]= 20109501,
+  ["name"]= "月夜猫巨石怪地震术",
+  ["ResId"]= 20109501,
+  ["shape"]= {
+    ["Radius"]= 3.25,
+    ["ShapeType"]= 4
+  },
+  ["ShowWaringBoxOnStart"]= 1
+},
+[20230501] = {
+  ["des"]= "陨石术",
+  ["effectShake"]= {
+    ["shakeDelay"]= 0,
+    ["shakeId"]= 103,
+    ["shakeLast"]= 200
+  },
+  ["id"]= 20230501,
+  ["IsForceShow"]= 1,
+  ["name"]= "血腥骑士-陨石术",
+  ["ResId"]= 30011503,
+  ["shape"]= {
+    ["Radius"]= 3,
+    ["ShapeType"]= 4
+  },
+  ["ShowWaringBoxOnStart"]= 1
+},
+[21001501] = {
+  ["des"]= "GVG减速",
+  ["id"]= 21001501,
+  ["name"]= "水箭雨",
+  ["ResId"]= 21001501,
+  ["shape"]= {
+    ["Radius"]= 6,
+    ["ShapeType"]= 4
+  },
+  ["TriggerSound"]= "Trigger/Trigger1500122"
+},
+[21002501] = {
+  ["des"]= "GVG减治疗",
+  ["id"]= 21002501,
+  ["name"]= "十字驱魔攻击",
+  ["ResId"]= 21002501,
+  ["shape"]= {
+    ["Radius"]= 6,
+    ["ShapeType"]= 4
+  },
+  ["TriggerEffectSound"]= "Trigger/TriggerEffect1211123",
+  ["TriggerSound"]= "Trigger/Trigger1211123"
+},
+[21003112] = {
+  ["des"]= "石头人砸地",
+  ["id"]= 21003112,
+  ["name"]= "石头人砸地",
+  ["ResId"]= 21009501,
+  ["shape"]= {
+    ["Radius"]= 15,
+    ["ShapeType"]= 4
+  }
+},
+[21003501] = {
+  ["des"]= "GVG眩晕",
+  ["id"]= 21003501,
+  ["name"]= "兽人酋长地震术",
+  ["ResId"]= 21003501,
+  ["shape"]= {
+    ["Radius"]= 6,
+    ["ShapeType"]= 4
+  },
+  ["TriggerEndSound"]= "Trigger/Trigger30015501"
+},
+[21004111] = {
+  ["des"]= "GVG15*2喷火",
+  ["effectShake"]= {
+    ["shakeDelay"]= 0,
+    ["shakeId"]= 101,
+    ["shakeLast"]= 2000
+  },
+  ["id"]= 21004111,
+  ["name"]= "GVG15*2喷火",
+  ["ResId"]= 21004501,
+  ["shape"]= {
+    ["anchorPointOffset"]= 0,
+    ["Length"]= 15,
+    ["ShapeType"]= 3,
+    ["Width"]= 2
+  }
+},
+[21005111] = {
+  ["des"]= "GVG15*2喷冰",
+  ["id"]= 21005111,
+  ["name"]= "GVG15*2喷冰",
+  ["ResId"]= 21005501,
+  ["shape"]= {
+    ["anchorPointOffset"]= 0,
+    ["Length"]= 15,
+    ["ShapeType"]= 3,
+    ["Width"]= 2
+  }
+},
+[21006111] = {
+  ["des"]= "GVG15*2喷毒",
+  ["id"]= 21006111,
+  ["name"]= "GVG15*2喷毒",
+  ["ResId"]= 21006501,
+  ["shape"]= {
+    ["anchorPointOffset"]= 0,
+    ["Length"]= 15,
+    ["ShapeType"]= 3,
+    ["Width"]= 2
+  }
+},
+[21007111] = {
+  ["des"]= "GVG15*2喷激光",
+  ["effectShake"]= {
+    ["shakeDelay"]= 0,
+    ["shakeId"]= 103,
+    ["shakeLast"]= 2000
+  },
+  ["id"]= 21007111,
+  ["name"]= "GVG15*2喷激光",
+  ["ResId"]= 21007501,
+  ["shape"]= {
+    ["anchorPointOffset"]= 0,
+    ["Length"]= 15,
+    ["ShapeType"]= 3,
+    ["Width"]= 2
+  }
+},
+[30001501] = {
+  ["des"]= "召唤波利",
+  ["id"]= 30001501,
+  ["name"]= "召唤波利",
+  ["ResId"]= 30001501,
+  ["shape"]= {
+    ["Radius"]= 2,
+    ["ShapeType"]= 1
+  }
+},
+[30001502] = {
+  ["des"]= "苹果trigger",
+  ["id"]= 30001502,
+  ["name"]= "苹果trigger",
+  ["ResId"]= 30001502,
+  ["shape"]= {
+    ["Radius"]= 0.5,
+    ["ShapeType"]= 1
+  }
+},
+[30001503] = {
+  ["des"]= "苹果trigger",
+  ["id"]= 30001503,
+  ["name"]= "苹果trigger",
+  ["ResId"]= 30001503,
+  ["shape"]= {
+    ["Radius"]= 0.5,
+    ["ShapeType"]= 1
+  }
+},
+[30001504] = {
+  ["des"]= "苹果trigger",
+  ["id"]= 30001504,
+  ["name"]= "苹果trigger",
+  ["ResId"]= 30001504,
+  ["shape"]= {
+    ["Radius"]= 0.5,
+    ["ShapeType"]= 1
+  }
+},
+[30004501] = {
+  ["des"]= "乌鸦戏水",
+  ["id"]= 30004501,
+  ["name"]= "乌鸦戏水",
+  ["ResId"]= 30004501
+},
+[30005501] = {
+  ["des"]= "雷云怒爆预警trigger1",
+  ["id"]= 30005501,
+  ["name"]= "雷云怒爆预警trigger1",
+  ["ResId"]= 30005501,
+  ["shape"]= {
+    ["Radius"]= 1.5,
+    ["ShapeType"]= 4
+  },
+  ["ShowWaringBoxOnStart"]= 1,
+  ["TriggerEndSound"]= "Trigger/trigger30004501"
+},
+[30005502] = {
+  ["des"]= "雷云怒爆预警trigger2",
+  ["id"]= 30005502,
+  ["name"]= "雷云怒爆预警trigger2",
+  ["ResId"]= 30005502,
+  ["shape"]= {
+    ["Radius"]= 2,
+    ["ShapeType"]= 4
+  },
+  ["ShowWaringBoxOnStart"]= 1,
+  ["TriggerEndSound"]= "Trigger/trigger30004501"
+},
+[30005503] = {
+  ["des"]= "雷云怒爆预警trigger3",
+  ["id"]= 30005503,
+  ["name"]= "雷云怒爆预警trigger3",
+  ["ResId"]= 30005503,
+  ["shape"]= {
+    ["Radius"]= 2.5,
+    ["ShapeType"]= 4
+  },
+  ["ShowWaringBoxOnStart"]= 1,
+  ["TriggerEndSound"]= "Trigger/trigger30004501"
+},
+[30005504] = {
+  ["des"]= "削霜冻层数",
+  ["id"]= 30005504,
+  ["name"]= "能量光球",
+  ["ResId"]= 30005504
+},
+[30006501] = {
+  ["des"]= "召唤图腾trigger",
+  ["id"]= 30006501,
+  ["name"]= "",
+  ["ResId"]= 30006501,
+  ["shape"]= {
+    ["Radius"]= 2,
+    ["ShapeType"]= 1
+  }
+},
+[30007501] = {
+  ["des"]= "",
+  ["id"]= 30007501,
+  ["name"]= "蜂后：陷阱",
+  ["ResId"]= 30007501,
+  ["shape"]= {
+    ["Radius"]= 3,
+    ["ShapeType"]= 4
+  },
+  ["ShowWaringBoxOnStart"]= 1
+},
+[30007502] = {
+  ["des"]= "",
+  ["id"]= 30007502,
+  ["name"]= "蜂后：陷阱2",
+  ["ResId"]= 30007502,
+  ["shape"]= {
+    ["Radius"]= 3,
+    ["ShapeType"]= 4
+  },
+  ["ShowWaringBoxOnStart"]= 1
+},
+[30008501] = {
+  ["des"]= "",
+  ["id"]= 30008501,
+  ["name"]= "",
+  ["ResId"]= 30008501,
+  ["shape"]= {
+    ["Radius"]= 3,
+    ["ShapeType"]= 4
+  },
+  ["ShowWaringBoxOnStart"]= 1,
+  ["TriggerEndSound"]= "Trigger/Trigger30008501"
+},
+[30009501] = {
+  ["des"]= "",
+  ["id"]= 30009501,
+  ["name"]= "",
+  ["ResId"]= 30009501,
+  ["shape"]= {
+    ["Radius"]= 3,
+    ["ShapeType"]= 4
+  },
+  ["ShowWaringBoxOnStart"]= 1
+},
+[30010501] = {
+  ["des"]= "",
+  ["id"]= 30010501,
+  ["name"]= "虎王火焰瓶",
+  ["ResId"]= 30010501,
+  ["shape"]= {
+    ["Radius"]= 3.25,
+    ["ShapeType"]= 4
+  },
+  ["TriggerSound"]= "Trigger/Trigger30010501"
+},
+[30011501] = {
+  ["des"]= "",
+  ["id"]= 30011501,
+  ["name"]= "月夜猫：大地之击",
+  ["ResId"]= 30011501,
+  ["shape"]= {
+    ["Radius"]= 5,
+    ["ShapeType"]= 4
+  },
+  ["ShowWaringBoxOnStart"]= 1,
+  ["TriggerSound"]= "Trigger/Trigger30011501"
+},
+[30011502] = {
+  ["des"]= "",
+  ["id"]= 30011502,
+  ["name"]= "月夜猫：地元素领域",
+  ["ResId"]= 30011502,
+  ["shape"]= {
+    ["Radius"]= 3.5,
+    ["ShapeType"]= 4
+  }
+},
+[30011503] = {
+  ["des"]= "",
+  ["id"]= 30011503,
+  ["IsHide"]= 1,
+  ["name"]= "月夜猫：陨石生成区域",
+  ["ResId"]= 30011503,
+  ["shape"]= {
+    ["Radius"]= 25,
+    ["ShapeType"]= 4
+  },
+  ["TriggerEffectSound"]= "Trigger/Trigger30011501"
+},
+[30011504] = {
+  ["des"]= "",
+  ["id"]= 30011504,
+  ["name"]= "月夜猫：陨石生成区域",
+  ["ResId"]= 30011503,
+  ["shape"]= {
+    ["Radius"]= 6.5,
+    ["ShapeType"]= 4
+  },
+  ["ShowWaringBoxOnStart"]= 1,
+  ["TriggerEffectSound"]= "Trigger/Trigger30011501"
+},
+[30013501] = {
+  ["id"]= 30013501,
+  ["name"]= "病毒沼地",
+  ["ResId"]= 30013501,
+  ["shape"]= {
+    ["Radius"]= 3,
+    ["ShapeType"]= 4
+  }
+},
+[30013502] = {
+  ["id"]= 30013502,
+  ["name"]= "石柱",
+  ["ResId"]= 30013502,
+  ["shape"]= {
+    ["Radius"]= 2,
+    ["ShapeType"]= 1
+  }
+},
+[30014501] = {
+  ["des"]= "",
+  ["id"]= 30014501,
+  ["name"]= "死灵-大地裂隙陷阱",
+  ["ResId"]= 30014501,
+  ["shape"]= {
+    ["anchorPointOffset"]= 0.5,
+    ["Length"]= 20,
+    ["ShapeType"]= 6,
+    ["Width"]= 6
+  }
+},
+[30014502] = {
+  ["des"]= "",
+  ["id"]= 30014502,
+  ["name"]= "死灵-时间领域陷阱",
+  ["ResId"]= 30014502,
+  ["shape"]= {
+    ["Radius"]= 10,
+    ["ShapeType"]= 1
+  }
+},
+[30015501] = {
+  ["id"]= 30015501,
+  ["name"]= "兽人酋长地震术",
+  ["ResId"]= 30015501,
+  ["shape"]= {
+    ["Radius"]= 5.25,
+    ["ShapeType"]= 4
+  },
+  ["ShowWaringBoxOnStart"]= 1,
+  ["TriggerEndSound"]= "Trigger/Trigger30015501"
+},
+[30016501] = {
+  ["id"]= 30016501,
+  ["name"]= "德古拉：血池壁1",
+  ["ResId"]= 30016501,
+  ["shape"]= {
+    ["maxRadius"]= 40,
+    ["minRadius"]= 24,
+    ["ShapeType"]= 7
+  }
+},
+[30016502] = {
+  ["id"]= 30016502,
+  ["name"]= "德古拉：血池壁2",
+  ["ResId"]= 30016501,
+  ["shape"]= {
+    ["maxRadius"]= 25,
+    ["minRadius"]= 20,
+    ["ShapeType"]= 7
+  }
+},
+[30016503] = {
+  ["id"]= 30016503,
+  ["name"]= "德古拉：血池壁3",
+  ["ResId"]= 30016501,
+  ["shape"]= {
+    ["maxRadius"]= 21,
+    ["minRadius"]= 15,
+    ["ShapeType"]= 7
+  }
+},
+[30016504] = {
+  ["id"]= 30016504,
+  ["IsHide"]= 1,
+  ["name"]= "德古拉：血珠发射点",
+  ["ResId"]= 30016504,
+  ["shape"]= {
+    ["Radius"]= 5,
+    ["ShapeType"]= 1
+  }
+},
+[30016505] = {
+  ["id"]= 30016505,
+  ["name"]= "德古拉：血河",
+  ["ResId"]= 30016505,
+  ["shape"]= {
+    ["anchorPointOffset"]= 0,
+    ["Length"]= 50,
+    ["ShapeType"]= 6,
+    ["Width"]= 15
+  },
+  ["TriggerEffectSound"]= "Trigger/Trigger30016505"
+},
+[30016506] = {
+  ["id"]= 30016506,
+  ["name"]= "德古拉：血池1",
+  ["ResId"]= 30016506,
+  ["shape"]= {
+    ["Radius"]= 6,
+    ["ShapeType"]= 4
+  },
+  ["TriggerSound"]= "Trigger/Trigger30016506"
+},
+[30016507] = {
+  ["id"]= 30016507,
+  ["name"]= "德古拉：血池2",
+  ["ResId"]= 30016506,
+  ["shape"]= {
+    ["Radius"]= 6,
+    ["ShapeType"]= 4
+  }
+},
+[30017501] = {
+  ["id"]= 30017501,
+  ["name"]= "法老王:雷暴",
+  ["ResId"]= 30017501,
+  ["shape"]= {
+    ["Radius"]= 5.25,
+    ["ShapeType"]= 4
+  },
+  ["TriggerEndSound"]= "Trigger/Trigger30017501"
+},
+[30020501] = {
+  ["des"]= "",
+  ["id"]= 30020501,
+  ["IsForceShow"]= 1,
+  ["name"]= "古埃及王-火柱陷阱",
+  ["ResId"]= 30020501
+},
+[30021501] = {
+  ["des"]= "",
+  ["id"]= 30021501,
+  ["name"]= "暗黑祭祀-十字黑光陷阱",
+  ["ResId"]= 30021501,
+  ["shape"]= {
+    ["anchorPointOffset"]= 0,
+    ["Length"]= 6,
+    ["ShapeType"]= 3,
+    ["Width"]= 2
+  }
+},
+[30021502] = {
+  ["des"]= "",
+  ["id"]= 30021502,
+  ["name"]= "暗黑祭祀-十字黑光陷阱",
+  ["ResId"]= 30021502,
+  ["shape"]= {
+    ["anchorPointOffset"]= 0,
+    ["Length"]= 6,
+    ["ShapeType"]= 3,
+    ["Width"]= 2
+  }
+},
+[30023501] = {
+  ["des"]= "暴风雪",
+  ["id"]= 30023501,
+  ["name"]= "魔鬼大乌贼-暴风雪",
+  ["ResId"]= 30023501,
+  ["shape"]= {
+    ["Radius"]= 4,
+    ["ShapeType"]= 4
+  },
+  ["ShowWaringBoxOnStart"]= 1,
+  ["TriggerSound"]= "Trigger/Trigger30023501"
+},
+[30023502] = {
+  ["des"]= "负面领域",
+  ["id"]= 30023502,
+  ["IsHide"]= 1,
+  ["name"]= "魔鬼大乌贼-负面领域",
+  ["ResId"]= 30023502,
+  ["shape"]= {
+    ["Radius"]= 5,
+    ["ShapeType"]= 4
+  },
+  ["ShowWaringBoxOnStart"]= 1
+},
+[30023503] = {
+  ["id"]= 30023503,
+  ["name"]= "魔鬼大乌贼-触手攻击",
+  ["ResId"]= 30023503,
+  ["shape"]= {
+    ["anchorPointOffset"]= 0,
+    ["Length"]= 6,
+    ["ShapeType"]= 6,
+    ["Width"]= 2
+  },
+  ["ShowWaringBoxOnStart"]= 1
+},
+[30027501] = {
+  ["id"]= 30027501,
+  ["name"]= "黑暗之王-黑空",
+  ["ResId"]= 30027501,
+  ["shape"]= {
+    ["anchorPointOffset"]= 0,
+    ["Length"]= 20,
+    ["ShapeType"]= 3,
+    ["Width"]= 20
+  }
+},
+[30027502] = {
+  ["id"]= 30027502,
+  ["name"]= "黑暗之王-黑空焚烧",
+  ["ResId"]= 30027502,
+  ["shape"]= {
+    ["anchorPointOffset"]= 0,
+    ["Length"]= 20,
+    ["ShapeType"]= 3,
+    ["Width"]= 20
+  },
+  ["TriggerSound"]= "Trigger/Trigger30027502"
+},
+[30027503] = {
+  ["id"]= 30027503,
+  ["IsHide"]= 1,
+  ["name"]= "黑暗之王-死亡区域",
+  ["ResId"]= 30027502,
+  ["shape"]= {
+    ["anchorPointOffset"]= 0,
+    ["Length"]= 10,
+    ["ShapeType"]= 3,
+    ["Width"]= 50
+  }
+},
+[30027504] = {
+  ["id"]= 30027504,
+  ["name"]= "黑暗之王-黑物质",
+  ["ResId"]= 30027504,
+  ["shape"]= {
+    ["Radius"]= 12,
+    ["ShapeType"]= 1
+  },
+  ["TriggerSound"]= "Trigger/Trigger30027504"
+},
+[30027507] = {
+  ["id"]= 30027507,
+  ["name"]= "黑暗之王-水属性球",
+  ["ResId"]= 30027507
+},
+[30027508] = {
+  ["id"]= 30027508,
+  ["name"]= "黑暗之王-火属性球",
+  ["ResId"]= 30027508
+},
+[30027509] = {
+  ["id"]= 30027509,
+  ["name"]= "黑暗之王-圣属性球",
+  ["ResId"]= 30027509
+},
+[30027510] = {
+  ["id"]= 30027510,
+  ["name"]= "黑暗之王-暗属性球",
+  ["ResId"]= 30027510
+},
+[30027511] = {
+  ["id"]= 30027511,
+  ["name"]= "黑暗之王-自爆特效",
+  ["ResId"]= 30027511,
+  ["shape"]= {
+    ["Radius"]= 22,
+    ["ShapeType"]= 1
+  }
+},
+[30027512] = {
+  ["id"]= 30027512,
+  ["name"]= "黑暗之王：失败全屏爆炸",
+  ["ResId"]= 30027512,
+  ["shape"]= {
+    ["Radius"]= 50,
+    ["ShapeType"]= 1
+  },
+  ["ShowWaringBoxOnStart"]= 1
+},
+[30099501] = {
+  ["des"]= "",
+  ["id"]= 30099501,
+  ["IsForceShow"]= 1,
+  ["name"]= "年兽-火柱陷阱",
+  ["ResId"]= 30099501,
+  ["shape"]= {
+    ["Radius"]= 4,
+    ["ShapeType"]= 4
+  },
+  ["ShowWaringBoxOnStart"]= 1,
+  ["TriggerEndSound"]= "Trigger/Trigger30099501"
+},
+[30099530] = {
+  ["id"]= 30099530,
+  ["name"]= "年兽-爆竹",
+  ["ResId"]= 30099530,
+  ["shape"]= {
+    ["Radius"]= 3,
+    ["ShapeType"]= 1
+  },
+  ["TriggerEndSound"]= "Trigger/Trigger30099530"
+},
+[30099531] = {
+  ["id"]= 30099531,
+  ["name"]= "年兽-鞭炮",
+  ["ResId"]= 30099531,
+  ["shape"]= {
+    ["Radius"]= 3,
+    ["ShapeType"]= 1
+  },
+  ["TriggerEndSound"]= "Trigger/Trigger30099531"
+},
+[31004501] = {
+  ["des"]= "怒雷强击",
+  ["id"]= 31004501,
+  ["name"]= "怒雷强击",
+  ["ResId"]= 13115221,
+  ["shape"]= {
+    ["Radius"]= 4,
+    ["ShapeType"]= 1
+  },
+  ["TriggerSound"]= "Trigger/Trigger1311122"
+},
+[31008501] = {
+  ["des"]= "",
+  ["id"]= 31008501,
+  ["name"]= "幽灵波利：圣灵召唤",
+  ["ResId"]= 31008501,
+  ["shape"]= {
+    ["Radius"]= 3,
+    ["ShapeType"]= 4
+  }
+},
+[55118501] = {
+  ["createShake"]= {
+    ["shakeDelay"]= 0,
+    ["shakeId"]= 104,
+    ["shakeLast"]= 2000
+  },
+  ["id"]= 55118501,
+  ["name"]= "地火爆发trigger",
+  ["ResId"]= 55118501,
+  ["shape"]= {
+    ["Radius"]= 3,
+    ["ShapeType"]= 1
+  }
+},
+[55118502] = {
+  ["id"]= 55118502,
+  ["name"]= "地狱审判 AOEtrigger1",
+  ["ResId"]= 55118502,
+  ["shape"]= {
+    ["Angle"]= 90,
+    ["Radius"]= 30,
+    ["ShapeType"]= 2
+  }
+},
+[55118503] = {
+  ["id"]= 55118503,
+  ["name"]= "地狱审判 AOEtrigger2",
+  ["ResId"]= 55118503,
+  ["shape"]= {
+    ["Angle"]= 90,
+    ["Radius"]= 30,
+    ["ShapeType"]= 2
+  }
+},
+[55118504] = {
+  ["id"]= 55118504,
+  ["name"]= "地狱审判 AOEtrigger3",
+  ["ResId"]= 55118504,
+  ["shape"]= {
+    ["Angle"]= 90,
+    ["Radius"]= 30,
+    ["ShapeType"]= 2
+  }
+},
+[55118505] = {
+  ["id"]= 55118505,
+  ["name"]= "地狱审判 AOEtrigger4",
+  ["ResId"]= 55118505,
+  ["shape"]= {
+    ["Angle"]= 90,
+    ["Radius"]= 30,
+    ["ShapeType"]= 2
+  }
+},
+[55118506] = {
+  ["id"]= 55118506,
+  ["name"]= "地狱审判 预警trigger1",
+  ["ResId"]= 55118506,
+  ["shape"]= {
+    ["Radius"]= 5,
+    ["ShapeType"]= 1
+  }
+},
+[55118507] = {
+  ["id"]= 55118507,
+  ["name"]= "地狱审判 预警trigger2",
+  ["ResId"]= 55118507,
+  ["shape"]= {
+    ["Radius"]= 5,
+    ["ShapeType"]= 1
+  }
+},
+[55118508] = {
+  ["id"]= 55118508,
+  ["name"]= "地狱审判 预警trigger3",
+  ["ResId"]= 55118508,
+  ["shape"]= {
+    ["Radius"]= 5,
+    ["ShapeType"]= 1
+  }
+},
+[55118509] = {
+  ["id"]= 55118509,
+  ["name"]= "地狱审判 预警trigger4",
+  ["ResId"]= 55118509,
+  ["shape"]= {
+    ["Radius"]= 5,
+    ["ShapeType"]= 1
+  }
+},
+[55118510] = {
+  ["id"]= 55118510,
+  ["name"]= "地狱审判 中央AOEtrigger",
+  ["ResId"]= 55118509,
+  ["shape"]= {
+    ["Radius"]= 5,
+    ["ShapeType"]= 1
+  }
+},
+[55118511] = {
+  ["id"]= 55118511,
+  ["name"]= "恶魔标记1 场地显示trigger",
+  ["ResId"]= 55118511,
+  ["shape"]= {
+    ["Angle"]= 90,
+    ["Radius"]= 30,
+    ["ShapeType"]= 2
+  }
+},
+[55118512] = {
+  ["id"]= 55118512,
+  ["name"]= "恶魔标记2 场地显示trigger",
+  ["ResId"]= 55118512,
+  ["shape"]= {
+    ["Angle"]= 90,
+    ["Radius"]= 30,
+    ["ShapeType"]= 2
+  }
+},
+[55118513] = {
+  ["id"]= 55118513,
+  ["name"]= "恶魔标记3 场地显示trigger",
+  ["ResId"]= 55118513,
+  ["shape"]= {
+    ["Angle"]= 90,
+    ["Radius"]= 30,
+    ["ShapeType"]= 2
+  }
+},
+[55118514] = {
+  ["id"]= 55118514,
+  ["name"]= "恶魔标记4 场地显示trigger",
+  ["ResId"]= 55118514,
+  ["shape"]= {
+    ["Angle"]= 90,
+    ["Radius"]= 30,
+    ["ShapeType"]= 2
+  }
+},
+[71096501] = {
+  ["des"]= "",
+  ["id"]= 71096501,
+  ["IsForceShow"]= 1,
+  ["name"]= "号令之旗-整体",
+  ["ResId"]= 71096501
+},
+[71096502] = {
+  ["des"]= "",
+  ["id"]= 71096502,
+  ["IsForceShow"]= 1,
+  ["name"]= "号令之旗-激活",
+  ["ResId"]= 71096502
+},
+[71096503] = {
+  ["des"]= "",
+  ["id"]= 71096503,
+  ["IsForceShow"]= 1,
+  ["name"]= "号令之旗-光柱",
+  ["ResId"]= 71096503
+}
+}
+local baseTable={
+  ["createShake"]= {
+    ["shakeDelay"]= 0,
+    ["shakeId"]= 0,
+    ["shakeLast"]= 0
+  },
+  ["des"]= "0",
+  ["effectShake"]= {
+    ["shakeDelay"]= 0,
+    ["shakeId"]= 0,
+    ["shakeLast"]= 0
+  },
+  ["EffectSoundId"]= 0,
+  ["hide_time"]= 0,
+  ["id"]= 45001,
+  ["IfTriggerSoundLoop"]= 0,
+  ["IsForceShow"]= 0,
+  ["IsHide"]= 0,
+  ["name"]= "团本炮台aoe trigger",
+  ["ResId"]= 0,
+  ["shape"]= {
+    ["Radius"]= 1,
+    ["ShapeType"]= 1
+  },
+  ["ShowWaringBoxOnStart"]= 0,
+  ["SoundId"]= 0,
+  ["TriggerDelaySound"]= "",
+  ["TriggerEffectSound"]= "",
+  ["TriggerEndSound"]= "",
+  ["TriggerSound"]= ""
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

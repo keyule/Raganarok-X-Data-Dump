@@ -1,0 +1,1779 @@
+TextAsset Base
+	string m_Name = "data_npc_NPCIntimacy"
+	string m_Script = "local table= {
+[61001] = {
+  ["DislikeDialogue"]= 6100115,
+  ["DislikeItemTypeId"]= {
+    5
+  },
+  ["IntimacyLimit"]= 1000,
+  ["IntimacyStage"]= {
+    200,
+    500,
+    1000
+  },
+  ["LikeDialogue"]= 6100113,
+  ["LikeItemTypeId"]= {
+    11,
+    20,
+    1,
+    2,
+    999
+  },
+  ["NormalDialogue"]= 6100114,
+  ["ShowLikeItem"]= {
+    10406240,
+    10413213,
+    10413108
+  },
+  ["SpecialRewardName3"]= "SpecialRewardName_011",
+  ["SpecialRewardType3"]= {
+    22
+  },
+  ["UnlockNum"]= {
+    49999,
+    30
+  },
+  ["UnlockType"]= 5
+},
+[61002] = {
+  ["DislikeDialogue"]= 6100215,
+  ["DislikeItemTypeId"]= {
+    5
+  },
+  ["IntimacyLimit"]= 1000,
+  ["IntimacyStage"]= {
+    200,
+    500,
+    1000
+  },
+  ["LikeDialogue"]= 6100213,
+  ["LikeItemTypeId"]= {
+    11,
+    21,
+    8,
+    6,
+    999
+  },
+  ["Name"]= "w",
+  ["NormalDialogue"]= 6100214,
+  ["NpcId"]= 61002,
+  ["NpcInformation"]= {
+    "NpcInfo_6100201",
+    "NpcInfo_6100202",
+    "NpcInfo_6100203"
+  },
+  ["ShowLikeItem"]= {
+    10406224,
+    10413209,
+    10406801
+  },
+  ["SpecialReward1"]= {
+    4101120
+  },
+  ["SpecialRewardName1"]= "SpecialRewardName_008",
+  ["SpecialRewardName2"]= "SpecialRewardName_009",
+  ["SpecialRewardName3"]= "SpecialRewardName_010",
+  ["SpecialRewardNum1"]= {
+    1
+  },
+  ["SpecialRewardType1"]= {
+    17,
+    1
+  },
+  ["SpecialRewardType2"]= {
+    18
+  },
+  ["SpecialRewardType3"]= {
+    19
+  },
+  ["UnlockNum"]= {
+    110301104
+  },
+  ["UnlockType"]= 11
+},
+[61004] = {
+  ["DislikeDialogue"]= 6100415,
+  ["DislikeItemTypeId"]= {
+    7
+  },
+  ["IntimacyLimit"]= 500,
+  ["IntimacyStage"]= {
+    100,
+    250,
+    500
+  },
+  ["LikeDialogue"]= 6100413,
+  ["LikeItemTypeId"]= {
+    11,
+    13,
+    19,
+    8,
+    6,
+    999
+  },
+  ["Name"]= "微笑小姐",
+  ["NormalDialogue"]= 6100414,
+  ["NpcId"]= 61004,
+  ["NpcInformation"]= {
+    "NpcInfo_6100401",
+    "NpcInfo_6100402",
+    "NpcInfo_6100403"
+  },
+  ["ShowLikeItem"]= {
+    10406252,
+    10413019
+  },
+  ["UnlockNum"]= {
+    0
+  },
+  ["UnlockType"]= 0
+},
+[61008] = {
+  ["DislikeDialogue"]= 6100815,
+  ["DislikeItemTypeId"]= {
+    4
+  },
+  ["LikeDialogue"]= 6100813,
+  ["LikeItemTypeId"]= {
+    5,
+    10,
+    12,
+    2,
+    999
+  },
+  ["Name"]= "魔法炉",
+  ["NormalDialogue"]= 6100814,
+  ["NpcId"]= 61008,
+  ["NpcInformation"]= {
+    "NpcInfo_6100801",
+    "NpcInfo_6100802",
+    "NpcInfo_6100803"
+  },
+  ["ShowLikeItem"]= {
+    10406245,
+    10406017,
+    10413152
+  },
+  ["SpecialRewardName3"]= "SpecialRewardName_015",
+  ["SpecialRewardType3"]= {
+    14,
+    15,
+    16,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107
+  },
+  ["UnlockNum"]= {
+    110318107
+  },
+  ["UnlockType"]= 11
+},
+[61010] = {
+  ["DislikeDialogue"]= 6101015,
+  ["DislikeItemTypeId"]= {
+    6
+  },
+  ["IntimacyLimit"]= 1000,
+  ["IntimacyStage"]= {
+    200,
+    500,
+    1000
+  },
+  ["LikeDialogue"]= 6101013,
+  ["LikeItemTypeId"]= {
+    19,
+    21,
+    1,
+    2,
+    3,
+    999
+  },
+  ["Name"]= "交易行工作人员",
+  ["NormalDialogue"]= 6101014,
+  ["NpcId"]= 61010,
+  ["NpcInformation"]= {
+    "NpcInfo_6101001",
+    "NpcInfo_6101002",
+    "NpcInfo_6101003"
+  },
+  ["ShowLikeItem"]= {
+    10413216,
+    10406861
+  },
+  ["SpecialReward1"]= {
+    10903049
+  },
+  ["SpecialReward2"]= {
+    10903050,
+    10903051
+  },
+  ["SpecialRewardName1"]= "SpecialRewardName_019",
+  ["SpecialRewardName2"]= "SpecialRewardName_020",
+  ["SpecialRewardName3"]= "SpecialRewardName_014",
+  ["SpecialRewardNum1"]= {
+    1
+  },
+  ["SpecialRewardNum2"]= {
+    1,
+    1
+  },
+  ["SpecialRewardType1"]= {
+    1
+  },
+  ["SpecialRewardType2"]= {
+    1
+  },
+  ["UnlockNum"]= {
+    110316104
+  },
+  ["UnlockType"]= 11
+},
+[61011] = {
+  ["DislikeDialogue"]= 6101115,
+  ["IntimacyLimit"]= 1000,
+  ["IntimacyStage"]= {
+    200,
+    500,
+    1000
+  },
+  ["LikeDialogue"]= 6101113,
+  ["LikeItemTypeId"]= {
+    16,
+    17,
+    21,
+    2,
+    3,
+    999
+  },
+  ["Name"]= "商会工作人员",
+  ["NormalDialogue"]= 6101114,
+  ["NpcId"]= 61011,
+  ["NpcInformation"]= {
+    "NpcInfo_6101101",
+    "NpcInfo_6101102",
+    "NpcInfo_6101103"
+  },
+  ["ShowLikeItem"]= {
+    10413208,
+    10406816
+  },
+  ["SpecialRewardName2"]= "SpecialRewardName_012",
+  ["SpecialRewardName3"]= "SpecialRewardName_013",
+  ["SpecialRewardType2"]= {
+    20
+  },
+  ["SpecialRewardType3"]= {
+    21
+  },
+  ["UnlockNum"]= {
+    100
+  },
+  ["UnlockType"]= 7
+},
+[61031] = {
+  ["DislikeDialogue"]= 6103115,
+  ["LikeDialogue"]= 6103113,
+  ["LikeItemTypeId"]= {
+    11,
+    13,
+    5,
+    7,
+    999
+  },
+  ["Name"]= "猫小友",
+  ["NormalDialogue"]= 6103114,
+  ["NpcId"]= 61031,
+  ["NpcInformation"]= {
+    "NpcInfo_6103101",
+    "NpcInfo_6103102",
+    "NpcInfo_6103103"
+  },
+  ["ShowLikeItem"]= {
+    10406237,
+    10406011,
+    10413004
+  },
+  ["SpecialRewardName3"]= "SpecialRewardName_001",
+  ["SpecialRewardType3"]= {
+    10,
+    13,
+    11
+  }
+},
+[61037] = {
+  ["DislikeDialogue"]= 6103715,
+  ["DislikeItemTypeId"]= {
+    5
+  },
+  ["IntimacyLimit"]= 1000,
+  ["IntimacyStage"]= {
+    200,
+    500,
+    1000
+  },
+  ["LikeDialogue"]= 6103713,
+  ["LikeItemTypeId"]= {
+    18,
+    21,
+    1,
+    2,
+    999
+  },
+  ["Name"]= "福乐斯",
+  ["NormalDialogue"]= 6103714,
+  ["NpcId"]= 61037,
+  ["NpcInformation"]= {
+    "NpcInfo_6103701",
+    "NpcInfo_6103702",
+    "NpcInfo_6103703"
+  },
+  ["ShowLikeItem"]= {
+    10413209,
+    10413058,
+    10406684
+  },
+  ["SpecialRewardName3"]= "SpecialRewardName_017",
+  ["UnlockNum"]= {
+    110303105
+  },
+  ["UnlockType"]= 11
+},
+[61063] = {
+  ["DislikeDialogue"]= 6106315,
+  ["DislikeItemTypeId"]= {
+    7
+  },
+  ["LikeDialogue"]= 6106313,
+  ["LikeItemTypeId"]= {
+    9,
+    18,
+    3,
+    5,
+    999
+  },
+  ["Name"]= "萨皮尔",
+  ["NormalDialogue"]= 6106314,
+  ["NpcId"]= 61063,
+  ["NpcInformation"]= {
+    "NpcInfo_6106301",
+    "NpcInfo_6106302",
+    "NpcInfo_6106303"
+  },
+  ["ShowLikeItem"]= {
+    10406232,
+    10406854
+  },
+  ["SpecialRewardName3"]= "SpecialRewardName_001",
+  ["SpecialRewardType3"]= {
+    23,
+    24,
+    11
+  }
+},
+[61064] = {
+  ["DislikeDialogue"]= 6106415,
+  ["DislikeItemTypeId"]= {
+    4
+  },
+  ["LikeDialogue"]= 6106413,
+  ["LikeItemTypeId"]= {
+    9,
+    18,
+    5,
+    999
+  },
+  ["Name"]= "霍布森",
+  ["NormalDialogue"]= 6106414,
+  ["NpcId"]= 61064,
+  ["NpcInformation"]= {
+    "NpcInfo_6106401",
+    "NpcInfo_6106402",
+    "NpcInfo_6106403"
+  },
+  ["ShowLikeItem"]= {
+    10413219,
+    10406231,
+    10406794
+  },
+  ["SpecialRewardName3"]= "SpecialRewardName_001",
+  ["SpecialRewardType3"]= {
+    25,
+    26,
+    11
+  }
+},
+[61066] = {
+  ["DislikeDialogue"]= 6106615,
+  ["DislikeItemTypeId"]= {
+    7
+  },
+  ["LikeDialogue"]= 6106613,
+  ["LikeItemTypeId"]= {
+    9,
+    21,
+    5,
+    1,
+    999
+  },
+  ["Name"]= "昆西",
+  ["NormalDialogue"]= 6106614,
+  ["NpcId"]= 61066,
+  ["NpcInformation"]= {
+    "NpcInfo_6106601",
+    "NpcInfo_6106602",
+    "NpcInfo_6106603"
+  },
+  ["ShowLikeItem"]= {
+    10413206,
+    10406218,
+    10406102
+  },
+  ["SpecialRewardName3"]= "SpecialRewardName_001",
+  ["SpecialRewardType3"]= {
+    27,
+    28,
+    11
+  }
+},
+[61067] = {
+  ["DislikeDialogue"]= 6106715,
+  ["LikeDialogue"]= 6106713,
+  ["LikeItemTypeId"]= {
+    9,
+    13,
+    18,
+    1,
+    999
+  },
+  ["Name"]= "史黛拉",
+  ["NormalDialogue"]= 6106714,
+  ["NpcId"]= 61067,
+  ["NpcInformation"]= {
+    "NpcInfo_6106701",
+    "NpcInfo_6106702",
+    "NpcInfo_6106703"
+  },
+  ["ShowLikeItem"]= {
+    10406217,
+    10406106
+  },
+  ["SpecialRewardName3"]= "SpecialRewardName_001",
+  ["SpecialRewardType3"]= {
+    29,
+    30,
+    11
+  }
+},
+[61068] = {
+  ["DislikeDialogue"]= 6106815,
+  ["DislikeItemTypeId"]= {
+    2
+  },
+  ["LikeDialogue"]= 6106813,
+  ["LikeItemTypeId"]= {
+    9,
+    13,
+    18,
+    5,
+    7,
+    999
+  },
+  ["Name"]= "喵莉儿",
+  ["NormalDialogue"]= 6106814,
+  ["NpcId"]= 61068,
+  ["NpcInformation"]= {
+    "NpcInfo_6106801",
+    "NpcInfo_6106802",
+    "NpcInfo_6106803"
+  },
+  ["ShowLikeItem"]= {
+    10406003,
+    10406212,
+    10406842
+  },
+  ["SpecialRewardName3"]= "SpecialRewardName_001",
+  ["SpecialRewardType3"]= {
+    31,
+    32,
+    11
+  }
+},
+[61069] = {
+  ["DislikeDialogue"]= 6106915,
+  ["DislikeItemTypeId"]= {
+    1
+  },
+  ["LikeDialogue"]= 6106913,
+  ["LikeItemTypeId"]= {
+    9,
+    11,
+    5,
+    3,
+    999
+  },
+  ["Name"]= "特雷西",
+  ["NormalDialogue"]= 6106914,
+  ["NpcId"]= 61069,
+  ["NpcInformation"]= {
+    "NpcInfo_6106901",
+    "NpcInfo_6106902",
+    "NpcInfo_6106903"
+  },
+  ["ShowLikeItem"]= {
+    10406226,
+    10406252,
+    10413146
+  },
+  ["SpecialRewardName3"]= "SpecialRewardName_001",
+  ["SpecialRewardType3"]= {
+    45,
+    46,
+    11
+  }
+},
+[61070] = {
+  ["DislikeDialogue"]= 6107015,
+  ["DislikeItemTypeId"]= {
+    4
+  },
+  ["LikeDialogue"]= 6107013,
+  ["LikeItemTypeId"]= {
+    9,
+    19,
+    5,
+    3,
+    999
+  },
+  ["Name"]= "尤朵拉",
+  ["NormalDialogue"]= 6107014,
+  ["NpcId"]= 61070,
+  ["NpcInformation"]= {
+    "NpcInfo_6107001",
+    "NpcInfo_6107002",
+    "NpcInfo_6107003"
+  },
+  ["ShowLikeItem"]= {
+    10406229,
+    10406788,
+    10406564
+  },
+  ["SpecialRewardName3"]= "SpecialRewardName_001",
+  ["SpecialRewardType3"]= {
+    47,
+    48,
+    11
+  }
+},
+[61071] = {
+  ["DislikeDialogue"]= 6107115,
+  ["LikeDialogue"]= 6107113,
+  ["LikeItemTypeId"]= {
+    9,
+    13,
+    7,
+    6,
+    999
+  },
+  ["Name"]= "喵伊塔",
+  ["NormalDialogue"]= 6107114,
+  ["NpcId"]= 61071,
+  ["NpcInformation"]= {
+    "NpcInfo_6107101",
+    "NpcInfo_6107102",
+    "NpcInfo_6107103"
+  },
+  ["ShowLikeItem"]= {
+    10406024,
+    10406233,
+    10413012
+  },
+  ["SpecialRewardName3"]= "SpecialRewardName_001",
+  ["SpecialRewardType3"]= {
+    49,
+    50,
+    11
+  }
+},
+[61072] = {
+  ["DislikeDialogue"]= 6107215,
+  ["LikeDialogue"]= 6107213,
+  ["LikeItemTypeId"]= {
+    9,
+    18,
+    5,
+    1,
+    999
+  },
+  ["Name"]= "加德纳",
+  ["NormalDialogue"]= 6107214,
+  ["NpcId"]= 61072,
+  ["NpcInformation"]= {
+    "NpcInfo_6107201",
+    "NpcInfo_6107202",
+    "NpcInfo_6107203"
+  },
+  ["ShowLikeItem"]= {
+    10413220,
+    10413033,
+    10413102
+  },
+  ["SpecialRewardName3"]= "SpecialRewardName_001",
+  ["SpecialRewardType3"]= {
+    51,
+    52,
+    11
+  }
+},
+[61073] = {
+  ["DislikeDialogue"]= 6107315,
+  ["DislikeItemTypeId"]= {
+    7
+  },
+  ["LikeDialogue"]= 6107313,
+  ["LikeItemTypeId"]= {
+    9,
+    18,
+    5,
+    2,
+    999
+  },
+  ["Name"]= "尤菲米娅",
+  ["NormalDialogue"]= 6107314,
+  ["NpcId"]= 61073,
+  ["NpcInformation"]= {
+    "NpcInfo_6107301",
+    "NpcInfo_6107302",
+    "NpcInfo_6107303"
+  },
+  ["ShowLikeItem"]= {
+    10406234,
+    10413003,
+    10413157
+  },
+  ["SpecialRewardName3"]= "SpecialRewardName_001",
+  ["SpecialRewardType3"]= {
+    53,
+    54,
+    11
+  }
+},
+[61074] = {
+  ["DislikeDialogue"]= 6107415,
+  ["DislikeItemTypeId"]= {
+    4
+  },
+  ["LikeDialogue"]= 6107413,
+  ["LikeItemTypeId"]= {
+    9,
+    13,
+    5,
+    7,
+    999
+  },
+  ["Name"]= "喵兰德",
+  ["NormalDialogue"]= 6107414,
+  ["NpcId"]= 61074,
+  ["NpcInformation"]= {
+    "NpcInfo_6107401",
+    "NpcInfo_6107402",
+    "NpcInfo_6107403"
+  },
+  ["ShowLikeItem"]= {
+    10406052,
+    10406235,
+    10413203
+  },
+  ["SpecialRewardName3"]= "SpecialRewardName_001",
+  ["SpecialRewardType3"]= {
+    55,
+    56,
+    11
+  }
+},
+[61095] = {
+  ["DislikeDialogue"]= 6109515,
+  ["IntimacyLimit"]= 500,
+  ["IntimacyStage"]= {
+    100,
+    250,
+    500
+  },
+  ["LikeDialogue"]= 6109513,
+  ["LikeItemTypeId"]= {
+    11,
+    13,
+    18,
+    2,
+    4,
+    999
+  },
+  ["Name"]= "诺维雅",
+  ["NormalDialogue"]= 6109514,
+  ["NpcId"]= 61095,
+  ["NpcInformation"]= {
+    "NpcInfo_6109501",
+    "NpcInfo_6109502",
+    "NpcInfo_6109503"
+  },
+  ["ShowLikeItem"]= {
+    10406201,
+    10406202,
+    10413051
+  },
+  ["UnlockNum"]= {
+    6,
+    2
+  },
+  ["UnlockType"]= 8
+},
+[61096] = {
+  ["DislikeDialogue"]= 6109615,
+  ["DislikeItemTypeId"]= {
+    5
+  },
+  ["IntimacyLimit"]= 500,
+  ["IntimacyStage"]= {
+    100,
+    250,
+    500
+  },
+  ["LikeDialogue"]= 6109613,
+  ["LikeItemTypeId"]= {
+    11,
+    13,
+    20,
+    7,
+    8,
+    999
+  },
+  ["Name"]= "格蕾丝",
+  ["NormalDialogue"]= 6109614,
+  ["NpcId"]= 61096,
+  ["NpcInformation"]= {
+    "NpcInfo_6109601",
+    "NpcInfo_6109602",
+    "NpcInfo_6109603"
+  },
+  ["ShowLikeItem"]= {
+    10406238,
+    10406005,
+    10413001
+  },
+  ["UnlockNum"]= {
+    6,
+    3
+  },
+  ["UnlockType"]= 8
+},
+[61097] = {
+  ["DislikeDialogue"]= 6109715,
+  ["DislikeItemTypeId"]= {
+    5
+  },
+  ["IntimacyLimit"]= 500,
+  ["IntimacyStage"]= {
+    100,
+    250,
+    500
+  },
+  ["LikeDialogue"]= 6109713,
+  ["LikeItemTypeId"]= {
+    11,
+    13,
+    19,
+    7,
+    4,
+    999
+  },
+  ["Name"]= "史蒂芬妮",
+  ["NormalDialogue"]= 6109714,
+  ["NpcId"]= 61097,
+  ["NpcInformation"]= {
+    "NpcInfo_6109701",
+    "NpcInfo_6109702",
+    "NpcInfo_6109703"
+  },
+  ["ShowLikeItem"]= {
+    10406214,
+    10413215,
+    10413017
+  },
+  ["UnlockNum"]= {
+    6,
+    4
+  },
+  ["UnlockType"]= 8
+},
+[61098] = {
+  ["DislikeDialogue"]= 6109815,
+  ["DislikeItemTypeId"]= {
+    3
+  },
+  ["IntimacyLimit"]= 500,
+  ["IntimacyStage"]= {
+    100,
+    250,
+    500
+  },
+  ["LikeDialogue"]= 6109813,
+  ["LikeItemTypeId"]= {
+    11,
+    13,
+    20,
+    7,
+    8,
+    999
+  },
+  ["Name"]= "艾乐贝尔",
+  ["NormalDialogue"]= 6109814,
+  ["NpcId"]= 61098,
+  ["NpcInformation"]= {
+    "NpcInfo_6109801",
+    "NpcInfo_6109802",
+    "NpcInfo_6109803"
+  },
+  ["ShowLikeItem"]= {
+    10406203,
+    10413212,
+    10206004
+  },
+  ["UnlockNum"]= {
+    6,
+    6
+  },
+  ["UnlockType"]= 8
+},
+[61099] = {
+  ["DislikeDialogue"]= 6109915,
+  ["DislikeItemTypeId"]= {
+    7
+  },
+  ["IntimacyLimit"]= 500,
+  ["IntimacyStage"]= {
+    100,
+    250,
+    500
+  },
+  ["LikeDialogue"]= 6109913,
+  ["LikeItemTypeId"]= {
+    11,
+    13,
+    19,
+    2,
+    5,
+    999
+  },
+  ["Name"]= "妮可拉",
+  ["NormalDialogue"]= 6109914,
+  ["NpcId"]= 61099,
+  ["NpcInformation"]= {
+    "NpcInfo_6109901",
+    "NpcInfo_6109902",
+    "NpcInfo_6109903"
+  },
+  ["ShowLikeItem"]= {
+    10406254,
+    10406563
+  },
+  ["UnlockNum"]= {
+    6,
+    8
+  },
+  ["UnlockType"]= 8
+},
+[61100] = {
+  ["DislikeDialogue"]= 6110015,
+  ["DislikeItemTypeId"]= {
+    5
+  },
+  ["IntimacyLimit"]= 500,
+  ["IntimacyStage"]= {
+    100,
+    250,
+    500
+  },
+  ["LikeDialogue"]= 6110013,
+  ["LikeItemTypeId"]= {
+    18,
+    11,
+    13,
+    7,
+    8,
+    999
+  },
+  ["Name"]= "蕾切尔",
+  ["NormalDialogue"]= 6110014,
+  ["NpcId"]= 61100,
+  ["NpcInformation"]= {
+    "NpcInfo_6110001",
+    "NpcInfo_6110002",
+    "NpcInfo_6110003"
+  },
+  ["ShowLikeItem"]= {
+    10406010,
+    10413220,
+    10413158
+  },
+  ["UnlockNum"]= {
+    6,
+    5
+  },
+  ["UnlockType"]= 8
+},
+[61103] = {
+  ["DislikeDialogue"]= 6110315,
+  ["IntimacyLimit"]= 500,
+  ["IntimacyStage"]= {
+    100,
+    250,
+    500
+  },
+  ["LikeDialogue"]= 6110313,
+  ["LikeItemTypeId"]= {
+    21,
+    15,
+    1,
+    999
+  },
+  ["Name"]= "罗素",
+  ["NormalDialogue"]= 6110314,
+  ["NpcId"]= 61103,
+  ["NpcInformation"]= {
+    "NpcInfo_6110301",
+    "NpcInfo_6110302",
+    "NpcInfo_6110303"
+  },
+  ["ShowLikeItem"]= {
+    10413207,
+    10406865
+  },
+  ["UnlockNum"]= {
+    2031
+  },
+  ["UnlockType"]= 4
+},
+[61104] = {
+  ["DislikeDialogue"]= 6110415,
+  ["IntimacyLimit"]= 1000,
+  ["IntimacyStage"]= {
+    200,
+    500,
+    1000
+  },
+  ["LikeDialogue"]= 6110413,
+  ["LikeItemTypeId"]= {
+    19,
+    21,
+    1,
+    5,
+    999
+  },
+  ["Name"]= "辛克莱",
+  ["NormalDialogue"]= 6110414,
+  ["NpcId"]= 61104,
+  ["NpcInformation"]= {
+    "NpcInfo_6110401",
+    "NpcInfo_6110402",
+    "NpcInfo_6110403"
+  },
+  ["ShowLikeItem"]= {
+    10413217,
+    10401005,
+    10406866
+  },
+  ["SpecialRewardName3"]= "SpecialRewardName_018",
+  ["UnlockNum"]= {
+    110309104
+  },
+  ["UnlockType"]= 11
+},
+[61106] = {
+  ["DislikeDialogue"]= 6110615,
+  ["DislikeItemTypeId"]= {
+    3
+  },
+  ["IntimacyLimit"]= 500,
+  ["IntimacyStage"]= {
+    100,
+    250,
+    500
+  },
+  ["LikeDialogue"]= 6110613,
+  ["LikeItemTypeId"]= {
+    11,
+    13,
+    18,
+    5,
+    6,
+    999
+  },
+  ["Name"]= "莱伊拉",
+  ["NormalDialogue"]= 6110614,
+  ["NpcId"]= 61106,
+  ["NpcInformation"]= {
+    "NpcInfo_6110601",
+    "NpcInfo_6110602",
+    "NpcInfo_6110603"
+  },
+  ["ShowLikeItem"]= {
+    10406015,
+    10413020
+  },
+  ["UnlockNum"]= {
+    0
+  },
+  ["UnlockType"]= 0
+},
+[61107] = {
+  ["DislikeDialogue"]= 6110715,
+  ["DislikeItemTypeId"]= {
+    2
+  },
+  ["IntimacyLimit"]= 500,
+  ["IntimacyStage"]= {
+    100,
+    250,
+    500
+  },
+  ["LikeDialogue"]= 6110713,
+  ["LikeItemTypeId"]= {
+    11,
+    13,
+    19,
+    3,
+    5,
+    999
+  },
+  ["Name"]= "维拉德",
+  ["NormalDialogue"]= 6110714,
+  ["NpcId"]= 61107,
+  ["NpcInformation"]= {
+    "NpcInfo_6110701",
+    "NpcInfo_6110702",
+    "NpcInfo_6110703"
+  },
+  ["ShowLikeItem"]= {
+    10406058,
+    10413061
+  },
+  ["UnlockNum"]= {
+    0
+  },
+  ["UnlockType"]= 0
+},
+[61108] = {
+  ["DislikeDialogue"]= 6110815,
+  ["IntimacyLimit"]= 500,
+  ["IntimacyStage"]= {
+    100,
+    250,
+    500
+  },
+  ["LikeDialogue"]= 6110813,
+  ["LikeItemTypeId"]= {
+    11,
+    13,
+    18,
+    1,
+    5,
+    999
+  },
+  ["Name"]= "朱莉",
+  ["NormalDialogue"]= 6110814,
+  ["NpcId"]= 61108,
+  ["NpcInformation"]= {
+    "NpcInfo_6110801",
+    "NpcInfo_6110802",
+    "NpcInfo_6110803"
+  },
+  ["ShowLikeItem"]= {
+    10406221,
+    10413107
+  },
+  ["UnlockNum"]= {
+    0
+  },
+  ["UnlockType"]= 0
+},
+[61109] = {
+  ["DislikeDialogue"]= 6110915,
+  ["IntimacyLimit"]= 1000,
+  ["IntimacyStage"]= {
+    200,
+    500,
+    1000
+  },
+  ["LikeDialogue"]= 6110913,
+  ["LikeItemTypeId"]= {
+    19,
+    21,
+    2,
+    4,
+    999
+  },
+  ["Name"]= "因格拉尔",
+  ["NormalDialogue"]= 6110914,
+  ["NpcId"]= 61109,
+  ["NpcInformation"]= {
+    "NpcInfo_6110901",
+    "NpcInfo_6110902",
+    "NpcInfo_6110903"
+  },
+  ["ShowLikeItem"]= {
+    10413214,
+    10413106,
+    10406837
+  },
+  ["SpecialRewardName3"]= "SpecialRewardName_016",
+  ["UnlockNum"]= {
+    110311105
+  },
+  ["UnlockType"]= 11
+},
+[61110] = {
+  ["DislikeDialogue"]= 6111015,
+  ["DislikeItemTypeId"]= {
+    4
+  },
+  ["IntimacyLimit"]= 500,
+  ["IntimacyStage"]= {
+    100,
+    250,
+    500
+  },
+  ["LikeDialogue"]= 6111013,
+  ["LikeItemTypeId"]= {
+    11,
+    13,
+    20,
+    7,
+    5,
+    999
+  },
+  ["Name"]= "菲利斯",
+  ["NormalDialogue"]= 6111014,
+  ["NpcId"]= 61110,
+  ["NpcInformation"]= {
+    "NpcInfo_6111001",
+    "NpcInfo_6111002",
+    "NpcInfo_6111003"
+  },
+  ["ShowLikeItem"]= {
+    10406045,
+    10413028
+  },
+  ["UnlockNum"]= {
+    0
+  },
+  ["UnlockType"]= 0
+},
+[61138] = {
+  ["DislikeDialogue"]= 6113815,
+  ["DislikeItemTypeId"]= {
+    1
+  },
+  ["IntimacyLimit"]= 500,
+  ["IntimacyStage"]= {
+    100,
+    250,
+    500
+  },
+  ["LikeDialogue"]= 6113813,
+  ["LikeItemTypeId"]= {
+    11,
+    13,
+    20,
+    4,
+    2,
+    999
+  },
+  ["Name"]= "罗莎",
+  ["NormalDialogue"]= 6113814,
+  ["NpcId"]= 61138,
+  ["NpcInformation"]= {
+    "NpcInfo_6113801",
+    "NpcInfo_6113802",
+    "NpcInfo_6113803"
+  },
+  ["ShowLikeItem"]= {
+    10406241,
+    10406857
+  },
+  ["UnlockNum"]= {
+    0
+  },
+  ["UnlockType"]= 0
+},
+[61151] = {
+  ["DislikeDialogue"]= 6115115,
+  ["DislikeItemTypeId"]= {
+    1
+  },
+  ["IntimacyLimit"]= 500,
+  ["IntimacyStage"]= {
+    100,
+    250,
+    500
+  },
+  ["LikeDialogue"]= 6115113,
+  ["LikeItemTypeId"]= {
+    21,
+    15,
+    2,
+    999
+  },
+  ["Name"]= "阿斯泰尔",
+  ["NormalDialogue"]= 6115114,
+  ["NpcId"]= 61151,
+  ["NpcInformation"]= {
+    "NpcInfo_6115101",
+    "NpcInfo_6115102",
+    "NpcInfo_6115103"
+  },
+  ["ShowLikeItem"]= {
+    10413205,
+    10406863
+  },
+  ["UnlockNum"]= {
+    2011
+  },
+  ["UnlockType"]= 4
+},
+[61152] = {
+  ["DislikeDialogue"]= 6115215,
+  ["DislikeItemTypeId"]= {
+    2
+  },
+  ["IntimacyLimit"]= 500,
+  ["IntimacyStage"]= {
+    100,
+    250,
+    500
+  },
+  ["LikeDialogue"]= 6115213,
+  ["Name"]= "黛芙妮",
+  ["NormalDialogue"]= 6115214,
+  ["NpcId"]= 61152,
+  ["NpcInformation"]= {
+    "NpcInfo_6115201",
+    "NpcInfo_6115202",
+    "NpcInfo_6115203"
+  },
+  ["ShowLikeItem"]= {
+    10413206,
+    10406850
+  },
+  ["UnlockNum"]= {
+    2041
+  },
+  ["UnlockType"]= 4
+},
+[61153] = {
+  ["DislikeDialogue"]= 6115315,
+  ["DislikeItemTypeId"]= {
+    3
+  },
+  ["IntimacyLimit"]= 500,
+  ["IntimacyStage"]= {
+    100,
+    250,
+    500
+  },
+  ["LikeDialogue"]= 6115313,
+  ["Name"]= "葛豪",
+  ["NormalDialogue"]= 6115314,
+  ["NpcId"]= 61153,
+  ["NpcInformation"]= {
+    "NpcInfo_6115301",
+    "NpcInfo_6115302",
+    "NpcInfo_6115303"
+  },
+  ["ShowLikeItem"]= {
+    10413204,
+    10403010,
+    10406599
+  },
+  ["UnlockNum"]= {
+    2051
+  },
+  ["UnlockType"]= 4
+},
+[61154] = {
+  ["DislikeDialogue"]= 6115415,
+  ["DislikeItemTypeId"]= {
+    5
+  },
+  ["IntimacyLimit"]= 500,
+  ["IntimacyStage"]= {
+    100,
+    250,
+    500
+  },
+  ["LikeDialogue"]= 6115413,
+  ["LikeItemTypeId"]= {
+    21,
+    15,
+    6,
+    999
+  },
+  ["Name"]= "普莉希拉",
+  ["NormalDialogue"]= 6115414,
+  ["NpcId"]= 61154,
+  ["NpcInformation"]= {
+    "NpcInfo_6115401",
+    "NpcInfo_6115402",
+    "NpcInfo_6115403"
+  },
+  ["ShowLikeItem"]= {
+    10413208,
+    10413011
+  },
+  ["UnlockNum"]= {
+    2061
+  },
+  ["UnlockType"]= 4
+},
+[61159] = {
+  ["DislikeDialogue"]= 6115915,
+  ["DislikeItemTypeId"]= {
+    7
+  },
+  ["LikeDialogue"]= 6115913,
+  ["LikeItemTypeId"]= {
+    9,
+    19,
+    5,
+    1,
+    999
+  },
+  ["Name"]= "班杰纳",
+  ["NormalDialogue"]= 6115914,
+  ["NpcId"]= 61159,
+  ["NpcInformation"]= {
+    "NpcInfo_6115901",
+    "NpcInfo_6115902",
+    "NpcInfo_6115903"
+  },
+  ["ShowLikeItem"]= {
+    10406246,
+    10406104
+  },
+  ["SpecialRewardName3"]= "SpecialRewardName_001",
+  ["SpecialRewardType3"]= {
+    39,
+    40,
+    11
+  }
+},
+[61160] = {
+  ["DislikeDialogue"]= 6116015,
+  ["DislikeItemTypeId"]= {
+    4
+  },
+  ["LikeDialogue"]= 6116013,
+  ["LikeItemTypeId"]= {
+    9,
+    18,
+    21,
+    5,
+    999
+  },
+  ["Name"]= "那丝缇雅",
+  ["NormalDialogue"]= 6116014,
+  ["NpcId"]= 61160,
+  ["NpcInformation"]= {
+    "NpcInfo_6116001",
+    "NpcInfo_6116002",
+    "NpcInfo_6116003"
+  },
+  ["ShowLikeItem"]= {
+    10413218,
+    10413204,
+    10406583
+  },
+  ["SpecialRewardName3"]= "SpecialRewardName_001",
+  ["SpecialRewardType3"]= {
+    41,
+    42,
+    11
+  }
+},
+[61161] = {
+  ["DislikeDialogue"]= 6116115,
+  ["LikeDialogue"]= 6116113,
+  ["LikeItemTypeId"]= {
+    9,
+    20,
+    13,
+    7,
+    999
+  },
+  ["Name"]= "喵熙娅",
+  ["NormalDialogue"]= 6116114,
+  ["NpcId"]= 61161,
+  ["NpcInformation"]= {
+    "NpcInfo_6116101",
+    "NpcInfo_6116102",
+    "NpcInfo_6116103"
+  },
+  ["ShowLikeItem"]= {
+    10406247,
+    10406046,
+    10413013
+  },
+  ["SpecialRewardName3"]= "SpecialRewardName_001",
+  ["SpecialRewardType3"]= {
+    43,
+    44,
+    11
+  }
+},
+[61162] = {
+  ["DislikeDialogue"]= 6116215,
+  ["DislikeItemTypeId"]= {
+    3
+  },
+  ["LikeDialogue"]= 6116213,
+  ["LikeItemTypeId"]= {
+    9,
+    18,
+    5,
+    6,
+    999
+  },
+  ["Name"]= "布莱克",
+  ["NormalDialogue"]= 6116214,
+  ["NpcId"]= 61162,
+  ["NpcInformation"]= {
+    "NpcInfo_6116201",
+    "NpcInfo_6116202",
+    "NpcInfo_6116203"
+  },
+  ["ShowLikeItem"]= {
+    10406248,
+    10406691
+  },
+  ["SpecialRewardName3"]= "SpecialRewardName_001",
+  ["SpecialRewardType3"]= {
+    33,
+    34,
+    11
+  }
+},
+[61163] = {
+  ["DislikeDialogue"]= 6116315,
+  ["DislikeItemTypeId"]= {
+    3
+  },
+  ["LikeDialogue"]= 6116313,
+  ["LikeItemTypeId"]= {
+    9,
+    18,
+    5,
+    999
+  },
+  ["Name"]= "埃尔维拉",
+  ["NormalDialogue"]= 6116314,
+  ["NpcId"]= 61163,
+  ["NpcInformation"]= {
+    "NpcInfo_6116301",
+    "NpcInfo_6116302",
+    "NpcInfo_6116303"
+  },
+  ["ShowLikeItem"]= {
+    10413221,
+    10406210,
+    10413060
+  },
+  ["SpecialRewardName3"]= "SpecialRewardName_001",
+  ["SpecialRewardType3"]= {
+    35,
+    36,
+    11
+  }
+},
+[61164] = {
+  ["DislikeDialogue"]= 6116415,
+  ["LikeDialogue"]= 6116413,
+  ["LikeItemTypeId"]= {
+    9,
+    13,
+    20,
+    7,
+    999
+  },
+  ["Name"]= "喵卡斯",
+  ["NormalDialogue"]= 6116414,
+  ["NpcId"]= 61164,
+  ["NpcInformation"]= {
+    "NpcInfo_6116401",
+    "NpcInfo_6116402",
+    "NpcInfo_6116403"
+  },
+  ["ShowLikeItem"]= {
+    10413210,
+    10406225,
+    10413159
+  },
+  ["SpecialRewardName3"]= "SpecialRewardName_001",
+  ["SpecialRewardType3"]= {
+    37,
+    38,
+    11
+  }
+},
+[61165] = {
+  ["DislikeDialogue"]= 6116515,
+  ["DislikeItemTypeId"]= {
+    2
+  },
+  ["IntimacyLimit"]= 500,
+  ["IntimacyStage"]= {
+    100,
+    250,
+    500
+  },
+  ["LikeDialogue"]= 6116513,
+  ["Name"]= "斯佩拉",
+  ["NormalDialogue"]= 6116514,
+  ["NpcId"]= 61165,
+  ["NpcInformation"]= {
+    "NpcInfo_6116501",
+    "NpcInfo_6116502",
+    "NpcInfo_6116503"
+  },
+  ["ShowLikeItem"]= {
+    10413209,
+    10406888,
+    10406882
+  },
+  ["UnlockNum"]= {
+    2021
+  },
+  ["UnlockType"]= 4
+},
+[61172] = {
+  ["DislikeItemTypeId"]= {},
+  ["IntimacyLimit"]= 1000,
+  ["IntimacyStage"]= {
+    200,
+    500,
+    1000
+  },
+  ["LikeItemTypeId"]= {
+    22,
+    1,
+    8,
+    999
+  },
+  ["Name"]= "林志颖",
+  ["NpcId"]= 61172,
+  ["NpcInformation"]= {
+    "NpcInfo_6117201",
+    "NpcInfo_6117202",
+    "NpcInfo_6117203"
+  },
+  ["SpecialReward1"]= {
+    10903027
+  },
+  ["SpecialReward2"]= {
+    10903026
+  },
+  ["SpecialReward3"]= {
+    10903025
+  },
+  ["SpecialRewardName1"]= "SpecialRewardName_005",
+  ["SpecialRewardName2"]= "SpecialRewardName_006",
+  ["SpecialRewardName3"]= "SpecialRewardName_007",
+  ["SpecialRewardNum1"]= {
+    1
+  },
+  ["SpecialRewardNum2"]= {
+    1
+  },
+  ["SpecialRewardNum3"]= {
+    1
+  },
+  ["SpecialRewardType1"]= {
+    1
+  },
+  ["SpecialRewardType2"]= {
+    1
+  },
+  ["SpecialRewardType3"]= {
+    1
+  },
+  ["UnlockNum"]= {
+    50025207
+  },
+  ["UnlockType"]= 11
+},
+[61217] = {
+  ["DislikeItemTypeId"]= {},
+  ["IntimacyLimit"]= 1000,
+  ["IntimacyStage"]= {
+    200,
+    500,
+    1000
+  },
+  ["LikeItemTypeId"]= {
+    22,
+    1,
+    8,
+    999
+  },
+  ["Name"]= "舒曼（东南亚林志颖）",
+  ["NpcId"]= 61217,
+  ["NpcInformation"]= {
+    "NpcInfo_6121701",
+    "NpcInfo_6121702",
+    "NpcInfo_6121703"
+  },
+  ["SpecialReward1"]= {
+    10903027
+  },
+  ["SpecialReward2"]= {
+    10903026
+  },
+  ["SpecialReward3"]= {
+    10903025
+  },
+  ["SpecialRewardName1"]= "SpecialRewardName_005",
+  ["SpecialRewardName2"]= "SpecialRewardName_006",
+  ["SpecialRewardName3"]= "SpecialRewardName_007",
+  ["SpecialRewardNum1"]= {
+    1
+  },
+  ["SpecialRewardNum2"]= {
+    1
+  },
+  ["SpecialRewardNum3"]= {
+    1
+  },
+  ["SpecialRewardType1"]= {
+    1
+  },
+  ["SpecialRewardType2"]= {
+    1
+  },
+  ["SpecialRewardType3"]= {
+    1
+  },
+  ["UnlockNum"]= {
+    50045207
+  },
+  ["UnlockType"]= 11
+}
+}
+local baseTable={
+  ["AdventureExp"]= {
+    1,
+    2,
+    5
+  },
+  ["DailyGiftNum"]= 5,
+  ["DislikeDialogue"]= 6117215,
+  ["DislikeItemTypeId"]= {
+    8
+  },
+  ["IntimacyLevel"]= {
+    1,
+    2,
+    3
+  },
+  ["IntimacyLimit"]= 1500,
+  ["IntimacyStage"]= {
+    300,
+    750,
+    1500
+  },
+  ["LikeDialogue"]= 6117214,
+  ["LikeItemTypeId"]= {
+    21,
+    15,
+    8,
+    999
+  },
+  ["Name"]= "音乐精灵艾莉儿",
+  ["NormalDialogue"]= 6117213,
+  ["NpcId"]= 61001,
+  ["NpcInformation"]= {
+    "NpcInfo_6100101",
+    "NpcInfo_6100102",
+    "NpcInfo_6100103"
+  },
+  ["ShowLikeItem"]= {
+    10413226,
+    10413227,
+    10413228
+  },
+  ["SpecialReward1"]= {},
+  ["SpecialReward2"]= {},
+  ["SpecialReward3"]= {},
+  ["SpecialRewardName1"]= "",
+  ["SpecialRewardName2"]= "",
+  ["SpecialRewardName3"]= "",
+  ["SpecialRewardNum1"]= {},
+  ["SpecialRewardNum2"]= {},
+  ["SpecialRewardNum3"]= {},
+  ["SpecialRewardType1"]= {},
+  ["SpecialRewardType2"]= {},
+  ["SpecialRewardType3"]= {},
+  ["UnlockNum"]= {
+    50
+  },
+  ["UnlockType"]= 10
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

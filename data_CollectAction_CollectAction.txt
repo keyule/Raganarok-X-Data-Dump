@@ -1,0 +1,171 @@
+TextAsset Base
+	string m_Name = "data_CollectAction_CollectAction"
+	string m_Script = "local table= {
+[1] = {
+  ["actionList"]= {
+    {
+      ["actionId"]= "Gather",
+      ["effectId"]= 0,
+      ["isLoop"]= 0
+    },
+    {
+      ["actionId"]= "Gather_Loop",
+      ["effectId"]= 0,
+      ["isLoop"]= 1
+    }
+  },
+  ["distinguishSex"]= 1,
+  ["text"]= "采集动作"
+},
+[2] = {
+  ["actionList"]= {
+    {
+      ["actionId"]= "Carrot",
+      ["effectId"]= 0,
+      ["isLoop"]= 0
+    }
+  },
+  ["id"]= 2,
+  ["text"]= "喂食动作"
+},
+[3] = {
+  ["actionList"]= {
+    {
+      ["actionId"]= "WandDie",
+      ["effectId"]= 0,
+      ["isLoop"]= 0
+    }
+  },
+  ["hasState"]= 1,
+  ["id"]= 3,
+  ["text"]= "倒地动作"
+},
+[4] = {
+  ["actionList"]= {
+    {
+      ["actionId"]= "71002_SC",
+      ["effectId"]= 0,
+      ["isLoop"]= 0
+    }
+  },
+  ["hasState"]= 1,
+  ["id"]= 4,
+  ["text"]= "拿书动作"
+},
+[5] = {
+  ["distinguishSex"]= 1,
+  ["hasState"]= 1,
+  ["id"]= 5
+},
+[6] = {
+  ["actionList"]= {
+    {
+      ["actionId"]= "BiXin",
+      ["effectId"]= 90002,
+      ["isLoop"]= 0
+    }
+  },
+  ["distinguishSex"]= 1,
+  ["id"]= 6,
+  ["text"]= "打招呼动作"
+},
+[7] = {
+  ["actionList"]= {
+    {
+      ["actionId"]= "71006_CM08",
+      ["effectId"]= 0,
+      ["isLoop"]= 0
+    }
+  },
+  ["id"]= 7,
+  ["text"]= "张望2秒"
+},
+[8] = {
+  ["actionList"]= {
+    {
+      ["actionId"]= "Bye",
+      ["effectId"]= 0,
+      ["isLoop"]= 0
+    }
+  },
+  ["distinguishSex"]= 1,
+  ["id"]= 8,
+  ["text"]= "告别动作"
+},
+[9] = {
+  ["actionList"]= {
+    {
+      ["actionId"]= "Pray",
+      ["effectId"]= 0,
+      ["isLoop"]= 0
+    },
+    {
+      ["actionId"]= "Pray_Loop",
+      ["effectId"]= 0,
+      ["isLoop"]= 1
+    }
+  },
+  ["hasState"]= 1,
+  ["id"]= 9,
+  ["text"]= "祈祷动作"
+},
+[10] = {
+  ["distinguishSex"]= 1,
+  ["id"]= 10
+},
+[11] = {
+  ["actionList"]= {
+    {
+      ["actionId"]= "mining_loop",
+      ["effectId"]= 0,
+      ["isLoop"]= 1
+    }
+  },
+  ["id"]= 11,
+  ["text"]= "挖矿动作"
+},
+[12] = {
+  ["actionList"]= {
+    {
+      ["actionId"]= "spin",
+      ["effectId"]= 0,
+      ["isLoop"]= 0
+    }
+  },
+  ["id"]= 12,
+  ["text"]= "旋转"
+},
+[13] = {
+  ["actionList"]= {
+    {
+      ["actionId"]= "backpack",
+      ["effectId"]= 0,
+      ["isLoop"]= 0
+    }
+  },
+  ["id"]= 13,
+  ["text"]= "backpack\n"
+}
+}
+local baseTable={
+  ["actionList"]= {
+    {
+      ["actionId"]= "Sit",
+      ["effectId"]= 0,
+      ["isLoop"]= 0
+    },
+    {
+      ["actionId"]= "Sit_Loop",
+      ["effectId"]= 0,
+      ["isLoop"]= 1
+    }
+  },
+  ["distinguishSex"]= 0,
+  ["hasState"]= 0,
+  ["id"]= 1,
+  ["text"]= "坐下动作"
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

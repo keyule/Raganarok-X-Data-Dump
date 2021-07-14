@@ -1,0 +1,9 @@
+TextAsset Base
+	string m_Name = "data_Fishing_Fishing"
+	string m_Script = "return {
+	[1] = {
+		["Id"] = 1,
+		["FishId"] = 10406002
+	}
+}
+"

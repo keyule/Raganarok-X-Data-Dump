@@ -1,0 +1,14 @@
+TextAsset Base
+	string m_Name = "data_PVP_PVP"
+	string m_Script = "return {
+	[1] = {
+		["firstRoundPrepareTime"] = 30,
+		["roundPrepareTime"] = 15,
+		["roundTime"] = 300,
+		["maxRound"] = 3,
+		["typeId"] = 1,
+		["sceneId"] = 4001,
+		["teamMemberAmount"] = 1
+	}
+}
+"

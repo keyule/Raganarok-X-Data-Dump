@@ -1,0 +1,393 @@
+TextAsset Base
+	string m_Name = "data_SceneRes"
+	string m_Script = "local table= {
+[1000] = {},
+[1010] = {
+  ["Id"]= 1010,
+  ["ScenePath"]= "/Arts/Maps/mcity_pldl/mcity_pldl.unity"
+},
+[1020] = {
+  ["Id"]= 1020,
+  ["ScenePath"]= "/Arts/Maps/mout_pldlnm02/mout_pldlnm02.unity"
+},
+[1030] = {
+  ["Id"]= 1030,
+  ["ScenePath"]= "/Arts/Maps/mout_pldlxm03/mout_pldlxm03.unity"
+},
+[1040] = {
+  ["Id"]= 1040,
+  ["ScenePath"]= "/Arts/Maps/mout_mcsl/mout_mcsl.unity"
+},
+[1050] = {
+  ["Id"]= 1050,
+  ["ScenePath"]= "/Arts/Maps/mout_xsd01/mout_xsd01.unity"
+},
+[1060] = {
+  ["Id"]= 1060,
+  ["ScenePath"]= "/Arts/Maps/mout_xsd02/mout_xsd02.unity"
+},
+[1110] = {
+  ["Id"]= 1110,
+  ["ScenePath"]= "/Arts/Maps/mcity_ysld/mcity_ysld.unity"
+},
+[1120] = {
+  ["Id"]= 1120,
+  ["ScenePath"]= "/Arts/Maps/mout_cmzc/mout_cmzc.unity"
+},
+[1130] = {
+  ["Id"]= 1130,
+  ["ScenePath"]= "/Arts/Maps/mout_ylc/mout_ylc.unity"
+},
+[1140] = {
+  ["Id"]= 1140,
+  ["ScenePath"]= "/Arts/Maps/mout_byyld/mout_byyld.unity"
+},
+[1150] = {
+  ["Id"]= 1150,
+  ["ScenePath"]= "/Arts/Maps/mout_hddx/mout_hddx.unity"
+},
+[1160] = {
+  ["Id"]= 1160,
+  ["ScenePath"]= "/Arts/Maps/mout_hdyj/mout_hdyj.unity"
+},
+[1170] = {
+  ["Id"]= 1170,
+  ["ScenePath"]= "/Arts/Maps/min_kltlxy/min_kltlxy.unity"
+},
+[1180] = {
+  ["Id"]= 1180,
+  ["ScenePath"]= "/Arts/Maps/mcity_Alberta/mcity_Alberta.unity"
+},
+[1210] = {
+  ["Id"]= 1210,
+  ["ScenePath"]= "/Arts/Maps/mcity_jf/mcity_jf.unity"
+},
+[1220] = {
+  ["Id"]= 1220,
+  ["ScenePath"]= "/Arts/Maps/mout_mlnsm/mout_mlnsm.unity"
+},
+[1230] = {
+  ["Id"]= 1230,
+  ["ScenePath"]= "/Arts/Maps/mout_gblsl/mout_gblsl.unity"
+},
+[1240] = {
+  ["Id"]= 1240,
+  ["ScenePath"]= "/Arts/Maps/mout_srcl/mout_srcl.unity"
+},
+[1250] = {
+  ["Id"]= 1250,
+  ["ScenePath"]= "/Arts/Maps/mout_ktsl/mout_ktsl.unity"
+},
+[1260] = {
+  ["Id"]= 1260,
+  ["ScenePath"]= "/Arts/Maps/mout_jfdx/mout_jfdx.unity"
+},
+[1270] = {
+  ["Id"]= 1270,
+  ["ScenePath"]= "/Arts/Maps/mout_srdxdx/mout_srdxdx.unity"
+},
+[1280] = {
+  ["Id"]= 1280,
+  ["ScenePath"]= "/Arts/Maps/mout_mlnkk/mout_mlnkk.unity"
+},
+[1281] = {
+  ["Id"]= 1281,
+  ["ScenePath"]= "/Arts/Maps/mout_mlnkk2F/mout_mlnkk2F.unity"
+},
+[1290] = {
+  ["Id"]= 1290,
+  ["ScenePath"]= "/Arts/Maps/mout_jfdx03/mout_jfdx03.unity"
+},
+[1310] = {
+  ["Id"]= 1310,
+  ["ScenePath"]= "/Arts/Maps/mcity_mlk/mcity_mlk.unity"
+},
+[1320] = {
+  ["Id"]= 1320,
+  ["ScenePath"]= "/Arts/Maps/mout_skltsm/mout_skltsm.unity"
+},
+[1330] = {
+  ["Id"]= 1330,
+  ["ScenePath"]= "/Arts/Maps/mout_jzt01/mout_jzt01.unity"
+},
+[1340] = {
+  ["Id"]= 1340,
+  ["ScenePath"]= "/Arts/Maps/mout_jzt02/mout_jzt02.unity"
+},
+[1350] = {
+  ["Id"]= 1350,
+  ["ScenePath"]= "/Arts/Maps/mout_mydx/mout_mydx.unity"
+},
+[1360] = {
+  ["Id"]= 1360,
+  ["ScenePath"]= "/Arts/Maps/mout_sfks/mout_sfks.unity"
+},
+[1410] = {
+  ["Id"]= 1410,
+  ["ScenePath"]= "/Arts/Maps/mcity_fy/mcity_fy.unity"
+},
+[1420] = {
+  ["Id"]= 1420,
+  ["ScenePath"]= "/Arts/Maps/mout_fydbsl02/mout_fydbsl02.unity"
+},
+[1430] = {
+  ["Id"]= 1430,
+  ["ScenePath"]= "/Arts/Maps/mout_fynbqy03/mout_fynbqy03.unity"
+},
+[1440] = {
+  ["Id"]= 1440,
+  ["ScenePath"]= "/Arts/Maps/mout_fyxbqy/mout_fyxbqy.unity"
+},
+[1450] = {
+  ["Id"]= 1450,
+  ["ScenePath"]= "/Arts/Maps/mout_fydk01/mout_fydk01.unity"
+},
+[1460] = {
+  ["Id"]= 1460,
+  ["ScenePath"]= "/Arts/Maps/mout_fydk02/mout_fydk02.unity"
+},
+[1510] = {
+  ["Id"]= 1510,
+  ["ScenePath"]= "/Arts/Maps/min_tsg/min_tsg.unity"
+},
+[1520] = {
+  ["Id"]= 1520,
+  ["ScenePath"]= "/Arts/Maps/min_jt/min_jt.unity"
+},
+[1530] = {
+  ["Id"]= 1530,
+  ["ScenePath"]= "/Arts/Maps/min_jg/min_jg.unity"
+},
+[1540] = {
+  ["Id"]= 1540,
+  ["ScenePath"]= "/Arts/Maps/min_wgsc/min_wgsc.unity"
+},
+[1541] = {
+  ["Id"]= 1541,
+  ["ScenePath"]= "/Arts/Maps/min_wsmx/min_wsmx.unity"
+},
+[1550] = {
+  ["Id"]= 1550,
+  ["ScenePath"]= "/Arts/Maps/min_nshj/min_nshj.unity"
+},
+[1560] = {
+  ["Id"]= 1560,
+  ["ScenePath"]= "/Arts/Maps/min_jftnb/min_jftnb.unity"
+},
+[1570] = {
+  ["Id"]= 1570,
+  ["ScenePath"]= "/Arts/Maps/min_jg2/min_jg2.unity"
+},
+[1580] = {
+  ["Id"]= 1580,
+  ["ScenePath"]= "/Arts/Maps/min_jg3/min_jg3.unity"
+},
+[1590] = {
+  ["Id"]= 1590,
+  ["ScenePath"]= "/Arts/Maps/min_chuan/min_chuan.unity"
+},
+[1610] = {
+  ["Id"]= 1610,
+  ["ScenePath"]= "/Arts/Maps/mcity_gc/mcity_gc.unity"
+},
+[1620] = {
+  ["Id"]= 1620,
+  ["ScenePath"]= "/Arts/Maps/mout_gcxsd/mout_gcxsd.unity"
+},
+[1630] = {
+  ["Id"]= 1630,
+  ["ScenePath"]= "/Arts/Maps/mout_gcxdy/mout_gcxdy.unity"
+},
+[1640] = {
+  ["Id"]= 1640,
+  ["ScenePath"]= "/Arts/Maps/mout_gcqst/mout_gcqst.unity"
+},
+[1650] = {
+  ["Id"]= 1650,
+  ["ScenePath"]= "/Arts/Maps/mout_gcxsd/mout_gcjy.unity"
+},
+[1660] = {
+  ["Id"]= 1660,
+  ["ScenePath"]= "/Arts/Maps/mout_gcxsd/mout_gcgm.unity"
+},
+[1710] = {
+  ["Id"]= 1710,
+  ["ScenePath"]= "/Arts/Maps/mout_arpl/mout_arpl.unity"
+},
+[1720] = {
+  ["Id"]= 1720,
+  ["ScenePath"]= "/Arts/Maps/mout_zhonglou/mout_zhonglou1.unity"
+},
+[1730] = {
+  ["Id"]= 1730,
+  ["ScenePath"]= "/Arts/Maps/mout_zhonglou/mout_zhonglou2.unity"
+},
+[1740] = {
+  ["Id"]= 1740,
+  ["ScenePath"]= "/Arts/Maps/mout_zhonglou/mout_zhonglou3.unity"
+},
+[1750] = {
+  ["Id"]= 1750,
+  ["ScenePath"]= "/Arts/Maps/mout_zhonglou/mout_zhonglou1750.unity"
+},
+[1760] = {
+  ["Id"]= 1760,
+  ["ScenePath"]= "/Arts/Maps/mout_zhonglou/mount_zhonglou1760.unity"
+},
+[1780] = {
+  ["Id"]= 1780,
+  ["ScenePath"]= "/Arts/Maps/mout_pldlxm03/mout_pldlxm03_1031.unity"
+},
+[1810] = {
+  ["Id"]= 1810,
+  ["ScenePath"]= "/Arts/Maps/mout_kemodao/mout_kemodao.unity"
+},
+[1820] = {
+  ["Id"]= 1820,
+  ["ScenePath"]= "/Arts/Maps/mout_kemodao_hb/mout_kemodao_hb.unity"
+},
+[1830] = {
+  ["Id"]= 1830,
+  ["ScenePath"]= "/Arts/Maps/mout_bbqksl/mout_bbqksl.unity"
+},
+[1840] = {
+  ["Id"]= 1840,
+  ["ScenePath"]= "/Arts/Maps/mout_jnyzz/mout_jnyzz.unity"
+},
+[1850] = {
+  ["Id"]= 1850,
+  ["ScenePath"]= "/Arts/Maps/mout_stmdb/mout_stmdb.unity"
+},
+[2010] = {
+  ["Id"]= 2010,
+  ["ScenePath"]= "/Arts/Maps/fb_goldenbug01/fb_goldenbug01.unity"
+},
+[2020] = {
+  ["Id"]= 2020,
+  ["ScenePath"]= "/Arts/Maps/fb_drake01/fb_drake01.unity"
+},
+[2030] = {
+  ["Id"]= 2030,
+  ["ScenePath"]= "/Arts/Maps/fb_strouf01/fb_strouf01.unity"
+},
+[2040] = {
+  ["Id"]= 2040,
+  ["ScenePath"]= "/Arts/Maps/fb_osiris01/fb_osiris01.unity"
+},
+[2050] = {
+  ["Id"]= 2050,
+  ["ScenePath"]= "/Arts/Maps/fb_moonlight01/fb_moonlight01.unity"
+},
+[2060] = {
+  ["Id"]= 2060,
+  ["ScenePath"]= "/Arts/Maps/fb_dracula01/fb_dracula01.unity"
+},
+[2070] = {
+  ["Id"]= 2070,
+  ["ScenePath"]= "/Arts/Maps/fb_fyzd/fb_fyzd.unity"
+},
+[2510] = {
+  ["Id"]= 2510,
+  ["ScenePath"]= "/Arts/Maps/mout_pldlraid/mout_pldlraid.unity"
+},
+[3010] = {
+  ["Id"]= 3010,
+  ["ScenePath"]= "/Arts/Maps/hd_oxdt/hd_oxdt.unity"
+},
+[3020] = {
+  ["Id"]= 3020,
+  ["ScenePath"]= "/Arts/Maps/hd_edlst/hd_edlst.unity"
+},
+[3030] = {
+  ["Id"]= 3030,
+  ["ScenePath"]= "/Arts/Maps/titles_ship/titles_ship.unity"
+},
+[3040] = {
+  ["Id"]= 3040,
+  ["ScenePath"]= "/Arts/Maps/min_jthl/min_jthl.unity"
+},
+[4001] = {
+  ["Id"]= 4001,
+  ["ScenePath"]= "/Arts/Maps/pvp_kvm/pvp_kvm.unity"
+},
+[4002] = {
+  ["Id"]= 4002,
+  ["ScenePath"]= "/Arts/Maps/pvp_free/pvp_free.unity"
+},
+[4003] = {
+  ["Id"]= 4003,
+  ["ScenePath"]= "/Arts/Maps/pvp_free/pvp_free_activity.unity"
+},
+[4010] = {
+  ["Id"]= 4010,
+  ["ScenePath"]= "/Arts/Maps/min_hshl/min_hshl.unity"
+},
+[4500] = {
+  ["Id"]= 4500,
+  ["ScenePath"]= "/Arts/Maps/pvp_gvg1/pvp_gvg1.unity"
+},
+[4503] = {
+  ["Id"]= 4503,
+  ["ScenePath"]= "/Arts/Maps/pvp_gvg1/pvp_gvg3.unity"
+},
+[4504] = {
+  ["Id"]= 4504,
+  ["ScenePath"]= "/Arts/Maps/pvp_gvg1/pvp_gvg4.unity"
+},
+[4505] = {
+  ["Id"]= 4505,
+  ["ScenePath"]= "/Arts/Maps/pvp_gvg1/pvp_gvg5.unity"
+},
+[4506] = {
+  ["Id"]= 4506,
+  ["ScenePath"]= "/Arts/Maps/pvp_gvg1/pvp_gvg6.unity"
+},
+[4507] = {
+  ["Id"]= 4507,
+  ["ScenePath"]= "/Arts/Maps/pvp_gvg2/Alberta_gvg.unity"
+},
+[4508] = {
+  ["Id"]= 4508,
+  ["ScenePath"]= "/Arts/Maps/pvp_gvgysld/pvp_gvgysld.unity"
+},
+[4509] = {
+  ["Id"]= 4509,
+  ["ScenePath"]= "/Arts/Maps/pvp_gvg3/fy_gvg.unity"
+},
+[4510] = {
+  ["Id"]= 4510,
+  ["ScenePath"]= "/Arts/Maps/pvp_gvg4/jf_gvg.unity"
+},
+[4601] = {
+  ["Id"]= 4601,
+  ["ScenePath"]= "/Arts/Maps/pvp_gvg1/pvp_mlk_syhl.unity"
+},
+[6000] = {
+  ["Id"]= 6000,
+  ["ScenePath"]= "/Arts/Maps/win_gh/win_gh.unity"
+},
+[8912] = {
+  ["Id"]= 8912,
+  ["ScenePath"]= "/Arts/Maps/hd_jgxyx01/hd_jgxyx01.unity"
+},
+[8913] = {
+  ["Id"]= 8913,
+  ["ScenePath"]= "/Arts/Maps/hd_jgxyx01/hd_jgxyx02.unity"
+},
+[9996] = {
+  ["Id"]= 9996,
+  ["ScenePath"]= "/Arts/Maps/effect_scence/Effect_scence.unity"
+},
+[9997] = {
+  ["Id"]= 9997,
+  ["ScenePath"]= "/Arts/Maps/test_lgf/test_lgf.unity"
+}
+}
+local baseTable={
+  ["Id"]= 1000,
+  ["ScenePath"]= "/Arts/Maps/titles_dl/titles_dl.unity"
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

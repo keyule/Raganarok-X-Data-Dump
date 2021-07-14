@@ -1,0 +1,93 @@
+TextAsset Base
+	string m_Name = "data_LoadingLevel"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["LoadingId"]= {
+    6,
+    12
+  },
+  ["MaxLevel"]= 24,
+  ["MinLevel"]= 15
+},
+[3] = {
+  ["LoadingId"]= {
+    6,
+    13,
+    12
+  },
+  ["MaxLevel"]= 39,
+  ["MinLevel"]= 25
+},
+[4] = {
+  ["LoadingId"]= {
+    6,
+    16,
+    12,
+    13
+  },
+  ["MaxLevel"]= 49,
+  ["MinLevel"]= 40
+},
+[5] = {
+  ["LoadingId"]= {
+    6,
+    14,
+    13,
+    12,
+    16
+  },
+  ["MaxLevel"]= 59,
+  ["MinLevel"]= 50
+},
+[6] = {
+  ["LoadingId"]= {
+    6,
+    15,
+    12,
+    13,
+    14,
+    16
+  },
+  ["MaxLevel"]= 69,
+  ["MinLevel"]= 60
+},
+[7] = {
+  ["LoadingId"]= {
+    6,
+    15,
+    12,
+    13,
+    14,
+    16,
+    25
+  },
+  ["MaxLevel"]= 80,
+  ["MinLevel"]= 70
+},
+[8] = {
+  ["LoadingId"]= {
+    6,
+    15,
+    12,
+    13,
+    14,
+    16,
+    25,
+    29
+  },
+  ["MaxLevel"]= 999,
+  ["MinLevel"]= 81
+}
+}
+local baseTable={
+  ["LoadingId"]= {
+    6
+  },
+  ["MaxLevel"]= 14,
+  ["MinLevel"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

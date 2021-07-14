@@ -1,0 +1,12 @@
+TextAsset Base
+	string m_Name = "data_ModelShaderToUIInfo"
+	string m_Script = "
+c_Custom/Particles/AdditiveNoTop;Shaders/UIRenderTextureEffect/UIEffect Particles Add.shader
+WSParticles/Additive;Shaders/UIRenderTextureEffect/UIEffect Particles Add.shader
+fbParticles/Alpha BlendedEShaders/UIRenderTextureEffect/UIEffect Particles Alpha Blended.shader
+qm"Custom/Particles/AlphaBlendedNoTopEShaders/UIRenderTextureEffect/UIEffect Particles Alpha Blended.shader
+^ZShader Forge/YY_DistortPanner7Shaders/UIRenderTextureEffect/UIYY_DistortPanner.shader
+d` Shader Forge/Avatar_Toon_blusher:Shaders/UIRenderTextureEffect/UIAvatar_Toon_blusher.shader
+c_Shader Forge/transparent_Ani=Shaders/UIRenderTextureEffect/UIAvatar_Transparent_Ani.shader
+NJShader Forge/Ghost_01/Shaders/UIRenderTextureEffect/UIGhost_01.shader
+o	k	$Shader Forge/Avatar_Toon_Outline_SSS?Shaders/UIRenderTextureEffect/Avatar_Toon_Outline_SSS_UI.shader "

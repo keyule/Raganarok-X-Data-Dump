@@ -1,0 +1,773 @@
+TextAsset Base
+	string m_Name = "data_WorldMapGridInfo"
+	string m_Script = "return {
+	[1] = {
+		["gridId"] = 1,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 1
+	},
+	[2] = {
+		["gridId"] = 2,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 2
+	},
+	[3] = {
+		["gridId"] = 3,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 3
+	},
+	[4] = {
+		["gridId"] = 4,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 4
+	},
+	[5] = {
+		["gridId"] = 5,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 5
+	},
+	[6] = {
+		["gridId"] = 6,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 6
+	},
+	[7] = {
+		["gridId"] = 7,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 7
+	},
+	[8] = {
+		["gridId"] = 8,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 8
+	},
+	[9] = {
+		["gridId"] = 9,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 9
+	},
+	[10] = {
+		["gridId"] = 10,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 10
+	},
+	[11] = {
+		["gridId"] = 11,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 11
+	},
+	[12] = {
+		["gridId"] = 12,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 12
+	},
+	[13] = {
+		["gridId"] = 13,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 13
+	},
+	[14] = {
+		["gridId"] = 14,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 14
+	},
+	[15] = {
+		["gridId"] = 15,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 15
+	},
+	[16] = {
+		["gridId"] = 16,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 16
+	},
+	[17] = {
+		["gridId"] = 17,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 17
+	},
+	[18] = {
+		["gridId"] = 18,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 18
+	},
+	[19] = {
+		["gridId"] = 19,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 19
+	},
+	[20] = {
+		["gridId"] = 20,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 20
+	},
+	[21] = {
+		["gridId"] = 21,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 21
+	},
+	[22] = {
+		["gridId"] = 22,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 22
+	},
+	[23] = {
+		["gridId"] = 23,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 23
+	},
+	[24] = {
+		["gridId"] = 24,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 24
+	},
+	[25] = {
+		["gridId"] = 25,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 25
+	},
+	[26] = {
+		["gridId"] = 26,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 26
+	},
+	[27] = {
+		["gridId"] = 27,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 27
+	},
+	[28] = {
+		["gridId"] = 28,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 28
+	},
+	[29] = {
+		["gridId"] = 29,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 29
+	},
+	[30] = {
+		["gridId"] = 30,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 30
+	},
+	[31] = {
+		["gridId"] = 31,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 31
+	},
+	[32] = {
+		["gridId"] = 32,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 32
+	},
+	[33] = {
+		["gridId"] = 33,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 33
+	},
+	[34] = {
+		["gridId"] = 34,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 34
+	},
+	[35] = {
+		["gridId"] = 35,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 35
+	},
+	[36] = {
+		["gridId"] = 36,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 36
+	},
+	[37] = {
+		["gridId"] = 37,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 37
+	},
+	[38] = {
+		["gridId"] = 38,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 38
+	},
+	[39] = {
+		["gridId"] = 39,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 39
+	},
+	[40] = {
+		["gridId"] = 40,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 40
+	},
+	[41] = {
+		["gridId"] = 41,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 41
+	},
+	[42] = {
+		["gridId"] = 42,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 42
+	},
+	[43] = {
+		["gridId"] = 43,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 43
+	},
+	[44] = {
+		["gridId"] = 44,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 44
+	},
+	[45] = {
+		["gridId"] = 45,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 45
+	},
+	[46] = {
+		["gridId"] = 46,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 46
+	},
+	[47] = {
+		["gridId"] = 47,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 47
+	},
+	[48] = {
+		["gridId"] = 48,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 48
+	},
+	[49] = {
+		["gridId"] = 49,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 49
+	},
+	[50] = {
+		["gridId"] = 50,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 50
+	},
+	[51] = {
+		["gridId"] = 51,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 51
+	},
+	[52] = {
+		["gridId"] = 52,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 52
+	},
+	[53] = {
+		["gridId"] = 53,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 53
+	},
+	[54] = {
+		["gridId"] = 54,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 54
+	},
+	[55] = {
+		["gridId"] = 55,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 55
+	},
+	[56] = {
+		["gridId"] = 56,
+		["sceneId"] = 1030,
+		["monster"] = {30002,10063},
+		["id"] = 56
+	},
+	[57] = {
+		["gridId"] = 57,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 57
+	},
+	[58] = {
+		["gridId"] = 58,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 58
+	},
+	[59] = {
+		["gridId"] = 59,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 59
+	},
+	[60] = {
+		["gridId"] = 60,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 60
+	},
+	[61] = {
+		["gridId"] = 61,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 61
+	},
+	[62] = {
+		["gridId"] = 62,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 62
+	},
+	[63] = {
+		["gridId"] = 63,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 63
+	},
+	[64] = {
+		["gridId"] = 64,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 64
+	},
+	[65] = {
+		["gridId"] = 65,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 65
+	},
+	[66] = {
+		["gridId"] = 66,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 66
+	},
+	[67] = {
+		["gridId"] = 67,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 67
+	},
+	[68] = {
+		["gridId"] = 68,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 68
+	},
+	[69] = {
+		["gridId"] = 69,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 69
+	},
+	[70] = {
+		["gridId"] = 70,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 70
+	},
+	[71] = {
+		["gridId"] = 71,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 71
+	},
+	[72] = {
+		["gridId"] = 72,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 72
+	},
+	[73] = {
+		["gridId"] = 73,
+		["sceneId"] = 1020,
+		["monster"] = {10001,10002},
+		["id"] = 73
+	},
+	[74] = {
+		["gridId"] = 74,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 74
+	},
+	[75] = {
+		["gridId"] = 75,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 75
+	},
+	[76] = {
+		["gridId"] = 76,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 76
+	},
+	[77] = {
+		["gridId"] = 77,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 77
+	},
+	[78] = {
+		["gridId"] = 78,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 78
+	},
+	[79] = {
+		["gridId"] = 79,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 79
+	},
+	[80] = {
+		["gridId"] = 80,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 80
+	},
+	[81] = {
+		["gridId"] = 81,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 81
+	},
+	[82] = {
+		["gridId"] = 82,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 82
+	},
+	[83] = {
+		["gridId"] = 83,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 83
+	},
+	[84] = {
+		["gridId"] = 84,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 84
+	},
+	[85] = {
+		["gridId"] = 85,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 85
+	},
+	[86] = {
+		["gridId"] = 86,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 86
+	},
+	[87] = {
+		["gridId"] = 87,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 87
+	},
+	[88] = {
+		["gridId"] = 88,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 88
+	},
+	[89] = {
+		["gridId"] = 89,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 89
+	},
+	[90] = {
+		["gridId"] = 90,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 90
+	},
+	[91] = {
+		["gridId"] = 91,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 91
+	},
+	[92] = {
+		["gridId"] = 92,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 92
+	},
+	[93] = {
+		["gridId"] = 93,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 93
+	},
+	[94] = {
+		["gridId"] = 94,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 94
+	},
+	[95] = {
+		["gridId"] = 95,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 95
+	},
+	[96] = {
+		["gridId"] = 96,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 96
+	},
+	[97] = {
+		["gridId"] = 97,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 97
+	},
+	[98] = {
+		["gridId"] = 98,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 98
+	},
+	[99] = {
+		["gridId"] = 99,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 99
+	},
+	[100] = {
+		["gridId"] = 100,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 100
+	},
+	[101] = {
+		["gridId"] = 101,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 101
+	},
+	[102] = {
+		["gridId"] = 102,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 102
+	},
+	[103] = {
+		["gridId"] = 103,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 103
+	},
+	[104] = {
+		["gridId"] = 104,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 104
+	},
+	[105] = {
+		["gridId"] = 105,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 105
+	},
+	[106] = {
+		["gridId"] = 106,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 106
+	},
+	[107] = {
+		["gridId"] = 107,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 107
+	},
+	[108] = {
+		["gridId"] = 108,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 108
+	},
+	[109] = {
+		["gridId"] = 109,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 109
+	},
+	[110] = {
+		["gridId"] = 110,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 110
+	},
+	[111] = {
+		["gridId"] = 111,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 111
+	},
+	[112] = {
+		["gridId"] = 112,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 112
+	},
+	[113] = {
+		["gridId"] = 113,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 113
+	},
+	[114] = {
+		["gridId"] = 114,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 114
+	},
+	[115] = {
+		["gridId"] = 115,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 115
+	},
+	[116] = {
+		["gridId"] = 116,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 116
+	},
+	[117] = {
+		["gridId"] = 117,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 117
+	},
+	[118] = {
+		["gridId"] = 118,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 118
+	},
+	[119] = {
+		["gridId"] = 119,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 119
+	},
+	[120] = {
+		["gridId"] = 120,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 120
+	},
+	[121] = {
+		["gridId"] = 121,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 121
+	},
+	[122] = {
+		["gridId"] = 122,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 122
+	},
+	[123] = {
+		["gridId"] = 123,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 123
+	},
+	[124] = {
+		["gridId"] = 124,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 124
+	},
+	[125] = {
+		["gridId"] = 125,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 125
+	},
+	[126] = {
+		["gridId"] = 126,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 126
+	},
+	[127] = {
+		["gridId"] = 127,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 127
+	},
+	[128] = {
+		["gridId"] = 128,
+		["sceneId"] = 0,
+		["monster"] = {0},
+		["id"] = 128
+	}
+}
+"

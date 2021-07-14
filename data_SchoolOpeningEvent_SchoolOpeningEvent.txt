@@ -1,0 +1,148 @@
+TextAsset Base
+	string m_Name = "data_SchoolOpeningEvent_SchoolOpeningEvent"
+	string m_Script = "local table= {
+[1] = {
+  ["GoToType"]= 1,
+  ["TargetNPC"]= 10106019,
+  ["TargetType"]= 87
+},
+[2] = {
+  ["Award"]= 1105011074,
+  ["Desc"]= "SchoolQuestDesc_002",
+  ["ID"]= 2,
+  ["TargetLocation"]= {
+    1020,
+    27,
+    147.3
+  },
+  ["TargetParameter"]= {
+    61020001,
+    61020002,
+    61020003,
+    61020004,
+    61020005,
+    61020006,
+    61020007,
+    61020008,
+    61020009,
+    13,
+    16,
+    17
+  }
+},
+[3] = {
+  ["Award"]= 1105011075,
+  ["Desc"]= "SchoolQuestDesc_003",
+  ["GoToType"]= 1,
+  ["ID"]= 3,
+  ["TargetNPC"]= 11709999,
+  ["TargetType"]= 8
+},
+[4] = {
+  ["Award"]= 1105011076,
+  ["Desc"]= "SchoolQuestDesc_004",
+  ["GoToType"]= 1,
+  ["ID"]= 4,
+  ["TargetNPC"]= 10101013,
+  ["TargetType"]= 5
+},
+[5] = {
+  ["Award"]= 1105011077,
+  ["Desc"]= "SchoolQuestDesc_005",
+  ["GoToType"]= 3,
+  ["ID"]= 5,
+  ["TargetType"]= 88,
+  ["TargetUI"]= "UI_Jobber"
+},
+[6] = {
+  ["Award"]= 1105011078,
+  ["Desc"]= "SchoolQuestDesc_006",
+  ["ID"]= 6,
+  ["TargetLocation"]= {
+    1530,
+    -7.8,
+    18.8
+  },
+  ["TargetParameter"]= {
+    1
+  },
+  ["TargetType"]= 82
+},
+[7] = {
+  ["Award"]= 1105011079,
+  ["Desc"]= "SchoolQuestDesc_007",
+  ["EventType"]= 2,
+  ["GoToType"]= 1,
+  ["ID"]= 7,
+  ["TargetNPC"]= 10106019,
+  ["TargetParameter"]= {
+    10106019
+  },
+  ["TargetType"]= 86
+},
+[8] = {
+  ["Award"]= 1105011080,
+  ["Desc"]= "SchoolQuestDesc_008",
+  ["EventType"]= 2,
+  ["ID"]= 8,
+  ["TargetLocation"]= {
+    1020,
+    103,
+    138
+  },
+  ["TargetParameter"]= {
+    11
+  }
+},
+[9] = {
+  ["Award"]= 1105011081,
+  ["Desc"]= "SchoolQuestDesc_009",
+  ["EventType"]= 2,
+  ["ID"]= 9,
+  ["TargetLocation"]= {
+    1020,
+    87,
+    143
+  },
+  ["TargetParameter"]= {
+    1
+  },
+  ["TargetType"]= 85
+},
+[10] = {
+  ["Award"]= 1105011082,
+  ["Desc"]= "SchoolQuestDesc_010",
+  ["EventType"]= 2,
+  ["ID"]= 10,
+  ["TargetLocation"]= {
+    1010,
+    52,
+    -73
+  },
+  ["TargetParameter"]= {
+    2
+  },
+  ["TargetType"]= 85
+}
+}
+local baseTable={
+  ["Award"]= 1105011073,
+  ["Desc"]= "SchoolQuestDesc_001",
+  ["EventType"]= 1,
+  ["GoToType"]= 2,
+  ["ID"]= 1,
+  ["TargetLocation"]= {
+    0
+  },
+  ["TargetNPC"]= 0,
+  ["TargetParameter"]= {
+    0
+  },
+  ["TargetType"]= 69,
+  ["TargetUI"]= "",
+  ["Times"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

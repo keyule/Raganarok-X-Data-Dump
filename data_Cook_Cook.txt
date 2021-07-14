@@ -1,0 +1,14 @@
+TextAsset Base
+	string m_Name = "data_Cook_Cook"
+	string m_Script = "return {
+	[1] = {
+		["Id"] = 1,
+		["IsShow"] = 1,
+		["CookId"] = 10406003,
+		["CookLevel"] = 1,
+		["CookCombine"] = {
+			{["ItemsId"] = 10406002,["ItemNum"] = 1}
+		}
+	}
+}
+"

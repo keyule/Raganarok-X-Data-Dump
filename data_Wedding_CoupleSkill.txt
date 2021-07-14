@@ -1,0 +1,32 @@
+TextAsset Base
+	string m_Name = "data_Wedding_CoupleSkill"
+	string m_Script = "local table= {
+[1] = {
+  ["IncludeSkill"]= {
+    6000001,
+    6000002,
+    6000003,
+    6000004,
+    6000005,
+    6000006,
+    6000007,
+    6000008
+  }
+},
+[2] = {
+  ["CoupleSkillNum"]= 2
+},
+[3] = {
+  ["CoupleSkillNum"]= 3
+}
+}
+local baseTable={
+  ["CoupleSkillNum"]= 1,
+  ["IncludeSkill"]= {
+    0
+  }
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

@@ -1,0 +1,8 @@
+TextAsset Base
+	string m_Name = "data_TeamTargetType"
+	string m_Script = "local TeamTargetType={
+[1]={["id"]=1,["Name"]="全部",["Type"]=0,},
+[2]={["id"]=2,["Name"]="任务",["Type"]=1000,},
+[3]={["id"]=3,["Name"]="副本",["Type"]=2000,},
+}
+return TeamTargetType"

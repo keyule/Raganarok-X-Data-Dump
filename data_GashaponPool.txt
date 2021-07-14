@@ -1,0 +1,5975 @@
+TextAsset Base
+	string m_Name = "data_GashaponPool"
+	string m_Script = "local table= {
+[1101002] = {
+  ["camera_size"]= 1.3,
+  ["JackpotID"]= 101,
+  ["position_y"]= -0.35,
+  ["position_z"]= -0.25,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100
+},
+[1101003] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1101003,
+  ["JackpotID"]= 103,
+  ["position_y"]= -0.35,
+  ["position_z"]= -0.25,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1101003
+},
+[1101006] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1101006,
+  ["JackpotID"]= 106,
+  ["position_y"]= -0.35,
+  ["position_z"]= -0.25,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1101006
+},
+[1101018] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1101018,
+  ["JackpotID"]= 104,
+  ["position_y"]= -0.35,
+  ["position_z"]= -0.25,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1101018
+},
+[1101031] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1101031,
+  ["JackpotID"]= 101,
+  ["position_y"]= -0.35,
+  ["position_z"]= -0.25,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1101031
+},
+[1101032] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1101032,
+  ["JackpotID"]= 102,
+  ["position_y"]= -0.35,
+  ["position_z"]= -0.25,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1101032
+},
+[1101033] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1101033,
+  ["JackpotID"]= 103,
+  ["position_y"]= -0.35,
+  ["position_z"]= -0.25,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1101033
+},
+[1101034] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1101034,
+  ["JackpotID"]= 107,
+  ["position_y"]= -0.35,
+  ["position_z"]= -0.25,
+  ["ProbabilityID"]= 2,
+  ["quality"]= 4,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1101034
+},
+[1101035] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1101035,
+  ["JackpotID"]= 105,
+  ["position_y"]= -0.35,
+  ["position_z"]= -0.25,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1101035
+},
+[1101036] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1101036,
+  ["JackpotID"]= 105,
+  ["position_y"]= -0.35,
+  ["position_z"]= -0.25,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1101036
+},
+[1101037] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1101037,
+  ["JackpotID"]= 102,
+  ["position_y"]= -0.35,
+  ["position_z"]= -0.25,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1101037
+},
+[1101038] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1101038,
+  ["JackpotID"]= 104,
+  ["position_y"]= -0.35,
+  ["position_z"]= -0.25,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1101038
+},
+[1101039] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1101039,
+  ["JackpotID"]= 106,
+  ["position_y"]= -0.35,
+  ["position_z"]= -0.25,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1101039
+},
+[1101042] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1101042,
+  ["JackpotID"]= 109,
+  ["position_y"]= -0.35,
+  ["position_z"]= -0.25,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1101042
+},
+[1101043] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1101043,
+  ["JackpotID"]= 109,
+  ["position_y"]= -0.35,
+  ["position_z"]= -0.25,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1101043
+},
+[1102004] = {
+  ["camera_size"]= 1.2,
+  ["id"]= 1102004,
+  ["JackpotID"]= 101,
+  ["position_y"]= -0.2,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1102004
+},
+[1102006] = {
+  ["camera_size"]= 1.2,
+  ["id"]= 1102006,
+  ["JackpotID"]= 103,
+  ["position_y"]= -0.2,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1102006
+},
+[1102007] = {
+  ["camera_size"]= 1.2,
+  ["id"]= 1102007,
+  ["JackpotID"]= 106,
+  ["position_y"]= -0.2,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1102007
+},
+[1102009] = {
+  ["camera_size"]= 1.2,
+  ["id"]= 1102009,
+  ["JackpotID"]= 107,
+  ["position_y"]= -0.2,
+  ["ProbabilityID"]= 2,
+  ["quality"]= 4,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1102009
+},
+[1102010] = {
+  ["camera_size"]= 1.2,
+  ["id"]= 1102010,
+  ["JackpotID"]= 105,
+  ["position_y"]= -0.2,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1102010
+},
+[1102013] = {
+  ["camera_size"]= 1.2,
+  ["id"]= 1102013,
+  ["JackpotID"]= 104,
+  ["position_y"]= -0.2,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1102013
+},
+[1102031] = {
+  ["camera_size"]= 1.2,
+  ["id"]= 1102031,
+  ["JackpotID"]= 101,
+  ["position_y"]= -0.2,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1102031
+},
+[1102032] = {
+  ["camera_size"]= 1.2,
+  ["id"]= 1102032,
+  ["JackpotID"]= 102,
+  ["position_y"]= -0.2,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1102032
+},
+[1102033] = {
+  ["camera_size"]= 1.2,
+  ["id"]= 1102033,
+  ["JackpotID"]= 103,
+  ["position_y"]= -0.2,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1102033
+},
+[1102034] = {
+  ["camera_size"]= 1.2,
+  ["id"]= 1102034,
+  ["JackpotID"]= 105,
+  ["position_y"]= -0.2,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1102034
+},
+[1102035] = {
+  ["camera_size"]= 1.2,
+  ["id"]= 1102035,
+  ["JackpotID"]= 102,
+  ["position_y"]= -0.2,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1102035
+},
+[1102036] = {
+  ["camera_size"]= 1.2,
+  ["id"]= 1102036,
+  ["JackpotID"]= 104,
+  ["position_y"]= -0.2,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1102036
+},
+[1102037] = {
+  ["camera_size"]= 1.2,
+  ["id"]= 1102037,
+  ["JackpotID"]= 106,
+  ["position_y"]= -0.2,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1102037
+},
+[1102040] = {
+  ["camera_size"]= 1.2,
+  ["id"]= 1102040,
+  ["JackpotID"]= 109,
+  ["position_y"]= -0.2,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1102040
+},
+[1102041] = {
+  ["camera_size"]= 1.2,
+  ["id"]= 1102041,
+  ["JackpotID"]= 109,
+  ["position_y"]= -0.2,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1102041
+},
+[1103002] = {
+  ["camera_size"]= 1.05,
+  ["id"]= 1103002,
+  ["JackpotID"]= 101,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1103002
+},
+[1103003] = {
+  ["camera_size"]= 1.05,
+  ["id"]= 1103003,
+  ["JackpotID"]= 103,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1103003
+},
+[1103004] = {
+  ["camera_size"]= 1.05,
+  ["id"]= 1103004,
+  ["JackpotID"]= 105,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1103004
+},
+[1103005] = {
+  ["camera_size"]= 1.05,
+  ["id"]= 1103005,
+  ["JackpotID"]= 104,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1103005
+},
+[1103007] = {
+  ["camera_size"]= 1.05,
+  ["id"]= 1103007,
+  ["JackpotID"]= 107,
+  ["ProbabilityID"]= 2,
+  ["quality"]= 4,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1103007
+},
+[1103016] = {
+  ["camera_size"]= 1.05,
+  ["id"]= 1103016,
+  ["JackpotID"]= 106,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1103016
+},
+[1103031] = {
+  ["camera_size"]= 1.05,
+  ["id"]= 1103031,
+  ["JackpotID"]= 101,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1103031
+},
+[1103032] = {
+  ["camera_size"]= 1.05,
+  ["id"]= 1103032,
+  ["JackpotID"]= 102,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1103032
+},
+[1103033] = {
+  ["camera_size"]= 1.05,
+  ["id"]= 1103033,
+  ["JackpotID"]= 103,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1103033
+},
+[1103034] = {
+  ["camera_size"]= 1.05,
+  ["id"]= 1103034,
+  ["JackpotID"]= 105,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1103034
+},
+[1103035] = {
+  ["camera_size"]= 1.05,
+  ["id"]= 1103035,
+  ["JackpotID"]= 102,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1103035
+},
+[1103036] = {
+  ["camera_size"]= 1.05,
+  ["id"]= 1103036,
+  ["JackpotID"]= 104,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1103036
+},
+[1103037] = {
+  ["camera_size"]= 1.05,
+  ["id"]= 1103037,
+  ["JackpotID"]= 106,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1103037
+},
+[1103040] = {
+  ["camera_size"]= 1.05,
+  ["id"]= 1103040,
+  ["JackpotID"]= 109,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1103040
+},
+[1103041] = {
+  ["camera_size"]= 1.05,
+  ["id"]= 1103041,
+  ["JackpotID"]= 109,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1103041
+},
+[1104002] = {
+  ["camera_size"]= 1,
+  ["id"]= 1104002,
+  ["JackpotID"]= 103,
+  ["position_y"]= -0.2,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1104002
+},
+[1104003] = {
+  ["camera_size"]= 1,
+  ["id"]= 1104003,
+  ["JackpotID"]= 105,
+  ["position_y"]= -0.2,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1104003
+},
+[1104004] = {
+  ["camera_size"]= 1,
+  ["id"]= 1104004,
+  ["JackpotID"]= 106,
+  ["position_y"]= -0.2,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1104004
+},
+[1104006] = {
+  ["camera_size"]= 1,
+  ["id"]= 1104006,
+  ["JackpotID"]= 101,
+  ["position_y"]= -0.2,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1104006
+},
+[1104007] = {
+  ["camera_size"]= 1,
+  ["id"]= 1104007,
+  ["JackpotID"]= 104,
+  ["position_y"]= -0.2,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1104007
+},
+[1104013] = {
+  ["camera_size"]= 1,
+  ["id"]= 1104013,
+  ["JackpotID"]= 107,
+  ["position_y"]= -0.2,
+  ["ProbabilityID"]= 2,
+  ["quality"]= 4,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1104013
+},
+[1104031] = {
+  ["camera_size"]= 1,
+  ["id"]= 1104031,
+  ["JackpotID"]= 101,
+  ["position_y"]= -0.2,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1104031
+},
+[1104032] = {
+  ["camera_size"]= 1,
+  ["id"]= 1104032,
+  ["JackpotID"]= 102,
+  ["position_y"]= -0.2,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1104032
+},
+[1104033] = {
+  ["camera_size"]= 1,
+  ["id"]= 1104033,
+  ["JackpotID"]= 103,
+  ["position_y"]= -0.2,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1104033
+},
+[1104034] = {
+  ["camera_size"]= 1,
+  ["id"]= 1104034,
+  ["JackpotID"]= 105,
+  ["position_y"]= -0.2,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1104034
+},
+[1104035] = {
+  ["camera_size"]= 1,
+  ["id"]= 1104035,
+  ["JackpotID"]= 102,
+  ["position_y"]= -0.2,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1104035
+},
+[1104036] = {
+  ["camera_size"]= 1,
+  ["id"]= 1104036,
+  ["JackpotID"]= 104,
+  ["position_y"]= -0.2,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1104036
+},
+[1104037] = {
+  ["camera_size"]= 1,
+  ["id"]= 1104037,
+  ["JackpotID"]= 106,
+  ["position_y"]= -0.2,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1104037
+},
+[1104040] = {
+  ["camera_size"]= 1,
+  ["id"]= 1104040,
+  ["JackpotID"]= 109,
+  ["position_y"]= -0.2,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1104040
+},
+[1104041] = {
+  ["camera_size"]= 1,
+  ["id"]= 1104041,
+  ["JackpotID"]= 109,
+  ["position_y"]= -0.2,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1104041
+},
+[1105002] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 1105002,
+  ["JackpotID"]= 101,
+  ["position_y"]= -0.15,
+  ["quality"]= 1,
+  ["rotation_x"]= 50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1105002
+},
+[1105004] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 1105004,
+  ["JackpotID"]= 103,
+  ["position_y"]= -0.15,
+  ["quality"]= 1,
+  ["rotation_x"]= 50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1105004
+},
+[1105005] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 1105005,
+  ["JackpotID"]= 104,
+  ["position_y"]= -0.15,
+  ["quality"]= 1,
+  ["rotation_x"]= 50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1105005
+},
+[1105009] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 1105009,
+  ["JackpotID"]= 106,
+  ["position_y"]= -0.15,
+  ["quality"]= 1,
+  ["rotation_x"]= 50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1105009
+},
+[1105017] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 1105017,
+  ["JackpotID"]= 105,
+  ["position_y"]= -0.15,
+  ["quality"]= 1,
+  ["rotation_x"]= 50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1105017
+},
+[1105018] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 1105018,
+  ["JackpotID"]= 107,
+  ["position_y"]= -0.15,
+  ["ProbabilityID"]= 2,
+  ["quality"]= 4,
+  ["rotation_x"]= 50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1105018
+},
+[1105031] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 1105031,
+  ["JackpotID"]= 101,
+  ["position_y"]= -0.15,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1105031
+},
+[1105032] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 1105032,
+  ["JackpotID"]= 102,
+  ["position_y"]= -0.15,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1105032
+},
+[1105033] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 1105033,
+  ["JackpotID"]= 103,
+  ["position_y"]= -0.15,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1105033
+},
+[1105034] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 1105034,
+  ["JackpotID"]= 105,
+  ["position_y"]= -0.15,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1105034
+},
+[1105035] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 1105035,
+  ["JackpotID"]= 102,
+  ["position_y"]= -0.15,
+  ["quality"]= 1,
+  ["rotation_x"]= 50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1105035
+},
+[1105036] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 1105036,
+  ["JackpotID"]= 104,
+  ["position_y"]= -0.15,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1105036
+},
+[1105037] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 1105037,
+  ["JackpotID"]= 106,
+  ["position_y"]= -0.15,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1105037
+},
+[1105040] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 1105040,
+  ["JackpotID"]= 109,
+  ["position_y"]= -0.15,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1105040
+},
+[1105041] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 1105041,
+  ["JackpotID"]= 109,
+  ["position_y"]= -0.15,
+  ["quality"]= 1,
+  ["rotation_x"]= 50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1105041
+},
+[1107002] = {
+  ["camera_size"]= 0.85,
+  ["id"]= 1107002,
+  ["JackpotID"]= 105,
+  ["position_x"]= 0.15,
+  ["position_y"]= -0.04,
+  ["quality"]= 1,
+  ["rotation_x"]= 10,
+  ["rotation_y"]= 200,
+  ["rotation_z"]= 300,
+  ["sequence"]= 1107002
+},
+[1107008] = {
+  ["camera_size"]= 0.85,
+  ["id"]= 1107008,
+  ["JackpotID"]= 101,
+  ["position_x"]= 0.15,
+  ["position_y"]= -0.04,
+  ["quality"]= 1,
+  ["rotation_x"]= 10,
+  ["rotation_y"]= 200,
+  ["rotation_z"]= 300,
+  ["sequence"]= 1107008
+},
+[1107010] = {
+  ["camera_size"]= 0.85,
+  ["id"]= 1107010,
+  ["JackpotID"]= 104,
+  ["position_x"]= 0.15,
+  ["position_y"]= -0.04,
+  ["quality"]= 1,
+  ["rotation_x"]= 10,
+  ["rotation_y"]= 200,
+  ["rotation_z"]= 300,
+  ["sequence"]= 1107010
+},
+[1107011] = {
+  ["camera_size"]= 0.85,
+  ["id"]= 1107011,
+  ["JackpotID"]= 103,
+  ["position_x"]= 0.15,
+  ["position_y"]= -0.04,
+  ["quality"]= 1,
+  ["rotation_x"]= 10,
+  ["rotation_y"]= 200,
+  ["rotation_z"]= 300,
+  ["sequence"]= 1107011
+},
+[1107014] = {
+  ["camera_size"]= 0.85,
+  ["id"]= 1107014,
+  ["JackpotID"]= 106,
+  ["position_x"]= 0.15,
+  ["position_y"]= -0.04,
+  ["quality"]= 1,
+  ["rotation_x"]= 10,
+  ["rotation_y"]= 200,
+  ["rotation_z"]= 300,
+  ["sequence"]= 1107014
+},
+[1107031] = {
+  ["camera_size"]= 0.85,
+  ["id"]= 1107031,
+  ["JackpotID"]= 101,
+  ["position_x"]= 0.15,
+  ["position_y"]= -0.04,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 10,
+  ["rotation_y"]= 200,
+  ["rotation_z"]= 300,
+  ["sequence"]= 1107031
+},
+[1107032] = {
+  ["camera_size"]= 0.85,
+  ["id"]= 1107032,
+  ["JackpotID"]= 102,
+  ["position_x"]= 0.15,
+  ["position_y"]= -0.04,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 10,
+  ["rotation_y"]= 200,
+  ["rotation_z"]= 300,
+  ["sequence"]= 1107032
+},
+[1107033] = {
+  ["camera_size"]= 0.85,
+  ["id"]= 1107033,
+  ["JackpotID"]= 103,
+  ["position_x"]= 0.15,
+  ["position_y"]= -0.04,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 10,
+  ["rotation_y"]= 200,
+  ["rotation_z"]= 300,
+  ["sequence"]= 1107033
+},
+[1107034] = {
+  ["camera_size"]= 0.85,
+  ["id"]= 1107034,
+  ["JackpotID"]= 107,
+  ["position_x"]= 0.15,
+  ["position_y"]= -0.04,
+  ["quality"]= 4,
+  ["rotation_x"]= 10,
+  ["rotation_y"]= 200,
+  ["rotation_z"]= 300,
+  ["sequence"]= 1107034
+},
+[1107035] = {
+  ["camera_size"]= 0.85,
+  ["id"]= 1107035,
+  ["JackpotID"]= 105,
+  ["position_x"]= 0.15,
+  ["position_y"]= -0.04,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 10,
+  ["rotation_y"]= 200,
+  ["rotation_z"]= 300,
+  ["sequence"]= 1107035
+},
+[1107037] = {
+  ["camera_size"]= 0.85,
+  ["id"]= 1107037,
+  ["JackpotID"]= 102,
+  ["position_x"]= 0.15,
+  ["position_y"]= -0.04,
+  ["quality"]= 1,
+  ["rotation_x"]= 10,
+  ["rotation_y"]= 200,
+  ["rotation_z"]= 300,
+  ["sequence"]= 1107037
+},
+[1107038] = {
+  ["camera_size"]= 0.85,
+  ["id"]= 1107038,
+  ["JackpotID"]= 104,
+  ["position_x"]= 0.15,
+  ["position_y"]= -0.04,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 10,
+  ["rotation_y"]= 200,
+  ["rotation_z"]= 300,
+  ["sequence"]= 1107038
+},
+[1107039] = {
+  ["camera_size"]= 0.85,
+  ["id"]= 1107039,
+  ["JackpotID"]= 106,
+  ["position_x"]= 0.15,
+  ["position_y"]= -0.04,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 10,
+  ["rotation_y"]= 200,
+  ["rotation_z"]= 300,
+  ["sequence"]= 1107039
+},
+[1107042] = {
+  ["camera_size"]= 0.85,
+  ["id"]= 1107042,
+  ["JackpotID"]= 109,
+  ["position_x"]= 0.15,
+  ["position_y"]= -0.04,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 10,
+  ["rotation_y"]= 200,
+  ["rotation_z"]= 300,
+  ["sequence"]= 1107042
+},
+[1107043] = {
+  ["camera_size"]= 0.85,
+  ["id"]= 1107043,
+  ["JackpotID"]= 109,
+  ["position_x"]= 0.15,
+  ["position_y"]= -0.04,
+  ["quality"]= 1,
+  ["rotation_x"]= 10,
+  ["rotation_y"]= 200,
+  ["rotation_z"]= 300,
+  ["sequence"]= 1107043
+},
+[1201004] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201004,
+  ["JackpotID"]= 101,
+  ["quality"]= 1,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201004
+},
+[1201005] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201005,
+  ["JackpotID"]= 106,
+  ["quality"]= 1,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201005
+},
+[1201010] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201010,
+  ["JackpotID"]= 105,
+  ["quality"]= 1,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201010
+},
+[1201011] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201011,
+  ["JackpotID"]= 103,
+  ["quality"]= 1,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201011
+},
+[1201012] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201012,
+  ["JackpotID"]= 105,
+  ["quality"]= 1,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201012
+},
+[1201014] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201014,
+  ["JackpotID"]= 104,
+  ["quality"]= 1,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201014
+},
+[1201016] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201016,
+  ["JackpotID"]= 107,
+  ["ProbabilityID"]= 3,
+  ["quality"]= 4,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201016
+},
+[1201019] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201019,
+  ["JackpotID"]= 103,
+  ["quality"]= 1,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201019
+},
+[1201020] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201020,
+  ["JackpotID"]= 104,
+  ["quality"]= 1,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201020
+},
+[1201021] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201021,
+  ["JackpotID"]= 109,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201021
+},
+[1201022] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201022,
+  ["JackpotID"]= 106,
+  ["quality"]= 1,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201022
+},
+[1201023] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201023,
+  ["JackpotID"]= 101,
+  ["quality"]= 1,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201023
+},
+[1201024] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201024,
+  ["JackpotID"]= 107,
+  ["ProbabilityID"]= 3,
+  ["quality"]= 4,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201024
+},
+[1201030] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201030,
+  ["JackpotID"]= 101,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201030
+},
+[1201031] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201031,
+  ["JackpotID"]= 101,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201031
+},
+[1201032] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201032,
+  ["JackpotID"]= 102,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201032
+},
+[1201033] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201033,
+  ["JackpotID"]= 102,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201033
+},
+[1201034] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201034,
+  ["JackpotID"]= 103,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201034
+},
+[1201035] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201035,
+  ["JackpotID"]= 103,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201035
+},
+[1201036] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201036,
+  ["JackpotID"]= 105,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201036
+},
+[1201037] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201037,
+  ["JackpotID"]= 105,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201037
+},
+[1201040] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201040,
+  ["JackpotID"]= 109,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201040
+},
+[1201041] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201041,
+  ["JackpotID"]= 102,
+  ["quality"]= 1,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201041
+},
+[1201042] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201042,
+  ["JackpotID"]= 102,
+  ["quality"]= 1,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201042
+},
+[1201043] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201043,
+  ["JackpotID"]= 104,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201043
+},
+[1201044] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201044,
+  ["JackpotID"]= 104,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201044
+},
+[1201045] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201045,
+  ["JackpotID"]= 106,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201045
+},
+[1201046] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201046,
+  ["JackpotID"]= 106,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201046
+},
+[1201051] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201051,
+  ["JackpotID"]= 109,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201051
+},
+[1201052] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201052,
+  ["JackpotID"]= 109,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201052
+},
+[1201053] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201053,
+  ["JackpotID"]= 109,
+  ["quality"]= 1,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201053
+},
+[1201054] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201054,
+  ["JackpotID"]= 109,
+  ["quality"]= 1,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201054
+},
+[1201087] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201087,
+  ["JackpotID"]= 101,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201087
+},
+[1201088] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201088,
+  ["JackpotID"]= 101,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201088
+},
+[1201089] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201089,
+  ["JackpotID"]= 102,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201089
+},
+[1201090] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201090,
+  ["JackpotID"]= 102,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201090
+},
+[1201091] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201091,
+  ["JackpotID"]= 103,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201091
+},
+[1201092] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201092,
+  ["JackpotID"]= 103,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201092
+},
+[1201093] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201093,
+  ["JackpotID"]= 104,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201093
+},
+[1201094] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201094,
+  ["JackpotID"]= 104,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201094
+},
+[1201095] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201095,
+  ["JackpotID"]= 105,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201095
+},
+[1201096] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201096,
+  ["JackpotID"]= 105,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201096
+},
+[1201097] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201097,
+  ["JackpotID"]= 106,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201097
+},
+[1201098] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201098,
+  ["JackpotID"]= 106,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201098
+},
+[1201099] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201099,
+  ["JackpotID"]= 107,
+  ["ProbabilityID"]= 3,
+  ["quality"]= 4,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201099
+},
+[1201100] = {
+  ["camera_size"]= 1,
+  ["id"]= 1201100,
+  ["JackpotID"]= 107,
+  ["ProbabilityID"]= 3,
+  ["quality"]= 4,
+  ["rotation_x"]= 180,
+  ["sequence"]= 1201100
+},
+[1301003] = {
+  ["camera_size"]= 1.45,
+  ["id"]= 1301003,
+  ["JackpotID"]= 103,
+  ["position_y"]= -0.55,
+  ["position_z"]= -0.2,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1301003
+},
+[1301007] = {
+  ["camera_size"]= 1.45,
+  ["id"]= 1301007,
+  ["JackpotID"]= 106,
+  ["position_y"]= -0.55,
+  ["position_z"]= -0.2,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1301007
+},
+[1301012] = {
+  ["camera_size"]= 1.45,
+  ["id"]= 1301012,
+  ["JackpotID"]= 104,
+  ["position_y"]= -0.55,
+  ["position_z"]= -0.2,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1301012
+},
+[1301014] = {
+  ["camera_size"]= 1.45,
+  ["id"]= 1301014,
+  ["JackpotID"]= 101,
+  ["position_y"]= -0.55,
+  ["position_z"]= -0.2,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1301014
+},
+[1301031] = {
+  ["camera_size"]= 1.45,
+  ["id"]= 1301031,
+  ["JackpotID"]= 101,
+  ["position_y"]= -0.55,
+  ["position_z"]= -0.2,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1301031
+},
+[1301032] = {
+  ["camera_size"]= 1.45,
+  ["id"]= 1301032,
+  ["JackpotID"]= 102,
+  ["position_y"]= -0.55,
+  ["position_z"]= -0.2,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1301032
+},
+[1301033] = {
+  ["camera_size"]= 1.45,
+  ["id"]= 1301033,
+  ["JackpotID"]= 103,
+  ["position_y"]= -0.55,
+  ["position_z"]= -0.2,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1301033
+},
+[1301034] = {
+  ["camera_size"]= 1.45,
+  ["id"]= 1301034,
+  ["JackpotID"]= 107,
+  ["position_y"]= -0.55,
+  ["position_z"]= -0.2,
+  ["quality"]= 4,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1301034
+},
+[1301035] = {
+  ["camera_size"]= 1.45,
+  ["id"]= 1301035,
+  ["JackpotID"]= 105,
+  ["position_y"]= -0.55,
+  ["position_z"]= -0.2,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1301035
+},
+[1301037] = {
+  ["camera_size"]= 1.45,
+  ["id"]= 1301037,
+  ["JackpotID"]= 105,
+  ["position_y"]= -0.55,
+  ["position_z"]= -0.2,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1301037
+},
+[1301038] = {
+  ["camera_size"]= 1.45,
+  ["id"]= 1301038,
+  ["JackpotID"]= 102,
+  ["position_y"]= -0.55,
+  ["position_z"]= -0.2,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1301038
+},
+[1301039] = {
+  ["camera_size"]= 1.45,
+  ["id"]= 1301039,
+  ["JackpotID"]= 104,
+  ["position_y"]= -0.55,
+  ["position_z"]= -0.2,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1301039
+},
+[1301040] = {
+  ["camera_size"]= 1.45,
+  ["id"]= 1301040,
+  ["JackpotID"]= 106,
+  ["position_y"]= -0.55,
+  ["position_z"]= -0.2,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1301040
+},
+[1301043] = {
+  ["camera_size"]= 1.45,
+  ["id"]= 1301043,
+  ["JackpotID"]= 109,
+  ["position_y"]= -0.55,
+  ["position_z"]= -0.2,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1301043
+},
+[1301044] = {
+  ["camera_size"]= 1.45,
+  ["id"]= 1301044,
+  ["JackpotID"]= 109,
+  ["position_y"]= -0.55,
+  ["position_z"]= -0.2,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1301044
+},
+[1302003] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1302003,
+  ["JackpotID"]= 101,
+  ["position_x"]= -0.1,
+  ["position_y"]= -0.25,
+  ["position_z"]= -0.3,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1302003
+},
+[1302006] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1302006,
+  ["JackpotID"]= 106,
+  ["position_x"]= -0.1,
+  ["position_y"]= -0.25,
+  ["position_z"]= -0.3,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1302006
+},
+[1302007] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1302007,
+  ["JackpotID"]= 105,
+  ["position_x"]= -0.1,
+  ["position_y"]= -0.25,
+  ["position_z"]= -0.3,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1302007
+},
+[1302009] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1302009,
+  ["JackpotID"]= 109,
+  ["position_x"]= -0.1,
+  ["position_y"]= -0.25,
+  ["position_z"]= -0.3,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1302009
+},
+[1302012] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1302012,
+  ["JackpotID"]= 104,
+  ["position_x"]= -0.1,
+  ["position_y"]= -0.25,
+  ["position_z"]= -0.3,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1302012
+},
+[1302015] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1302015,
+  ["JackpotID"]= 103,
+  ["position_x"]= -0.1,
+  ["position_y"]= -0.25,
+  ["position_z"]= -0.3,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1302015
+},
+[1302031] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1302031,
+  ["JackpotID"]= 101,
+  ["position_x"]= -0.1,
+  ["position_y"]= -0.25,
+  ["position_z"]= -0.3,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1302031
+},
+[1302032] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1302032,
+  ["JackpotID"]= 102,
+  ["position_x"]= -0.1,
+  ["position_y"]= -0.25,
+  ["position_z"]= -0.3,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1302032
+},
+[1302033] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1302033,
+  ["JackpotID"]= 103,
+  ["position_x"]= -0.1,
+  ["position_y"]= -0.25,
+  ["position_z"]= -0.3,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1302033
+},
+[1302034] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1302034,
+  ["JackpotID"]= 105,
+  ["position_x"]= -0.1,
+  ["position_y"]= -0.25,
+  ["position_z"]= -0.3,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1302034
+},
+[1302035] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1302035,
+  ["JackpotID"]= 107,
+  ["position_x"]= -0.1,
+  ["position_y"]= -0.25,
+  ["position_z"]= -0.3,
+  ["quality"]= 4,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1302035
+},
+[1302036] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1302036,
+  ["JackpotID"]= 102,
+  ["position_x"]= -0.1,
+  ["position_y"]= -0.25,
+  ["position_z"]= -0.3,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1302036
+},
+[1302037] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1302037,
+  ["JackpotID"]= 104,
+  ["position_x"]= -0.1,
+  ["position_y"]= -0.25,
+  ["position_z"]= -0.3,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1302037
+},
+[1302038] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1302038,
+  ["JackpotID"]= 106,
+  ["position_x"]= -0.1,
+  ["position_y"]= -0.25,
+  ["position_z"]= -0.3,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1302038
+},
+[1302041] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1302041,
+  ["JackpotID"]= 109,
+  ["position_x"]= -0.1,
+  ["position_y"]= -0.25,
+  ["position_z"]= -0.3,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1302041
+},
+[1303003] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1303003,
+  ["JackpotID"]= 101,
+  ["position_y"]= -0.2,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1303003
+},
+[1303004] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1303004,
+  ["JackpotID"]= 104,
+  ["position_y"]= -0.2,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1303004
+},
+[1303005] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1303005,
+  ["JackpotID"]= 107,
+  ["position_y"]= -0.2,
+  ["quality"]= 4,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1303005
+},
+[1303006] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1303006,
+  ["JackpotID"]= 105,
+  ["position_y"]= -0.2,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1303006
+},
+[1303016] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1303016,
+  ["JackpotID"]= 103,
+  ["position_y"]= -0.2,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1303016
+},
+[1303017] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1303017,
+  ["JackpotID"]= 106,
+  ["position_y"]= -0.2,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1303017
+},
+[1303031] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1303031,
+  ["JackpotID"]= 101,
+  ["position_y"]= -0.2,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1303031
+},
+[1303032] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1303032,
+  ["JackpotID"]= 102,
+  ["position_y"]= -0.2,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1303032
+},
+[1303033] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1303033,
+  ["JackpotID"]= 103,
+  ["position_y"]= -0.2,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1303033
+},
+[1303034] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1303034,
+  ["JackpotID"]= 105,
+  ["position_y"]= -0.2,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1303034
+},
+[1303036] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1303036,
+  ["JackpotID"]= 102,
+  ["position_y"]= -0.2,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1303036
+},
+[1303037] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1303037,
+  ["JackpotID"]= 104,
+  ["position_y"]= -0.2,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1303037
+},
+[1303038] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1303038,
+  ["JackpotID"]= 106,
+  ["position_y"]= -0.2,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1303038
+},
+[1303041] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1303041,
+  ["JackpotID"]= 109,
+  ["position_y"]= -0.2,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1303041
+},
+[1303042] = {
+  ["camera_size"]= 1.3,
+  ["id"]= 1303042,
+  ["JackpotID"]= 109,
+  ["position_y"]= -0.2,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1303042
+},
+[1304003] = {
+  ["camera_size"]= 1,
+  ["id"]= 1304003,
+  ["JackpotID"]= 106,
+  ["position_y"]= -0.1,
+  ["position_z"]= 0.15,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1304003
+},
+[1304004] = {
+  ["camera_size"]= 1,
+  ["id"]= 1304004,
+  ["JackpotID"]= 109,
+  ["position_y"]= -0.1,
+  ["position_z"]= 0.15,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1304004
+},
+[1304011] = {
+  ["camera_size"]= 1,
+  ["id"]= 1304011,
+  ["JackpotID"]= 103,
+  ["position_y"]= -0.1,
+  ["position_z"]= 0.15,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1304011
+},
+[1304013] = {
+  ["camera_size"]= 1,
+  ["id"]= 1304013,
+  ["JackpotID"]= 105,
+  ["position_y"]= -0.1,
+  ["position_z"]= 0.15,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1304013
+},
+[1304014] = {
+  ["camera_size"]= 1,
+  ["id"]= 1304014,
+  ["JackpotID"]= 101,
+  ["position_y"]= -0.1,
+  ["position_z"]= 0.15,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1304014
+},
+[1304015] = {
+  ["camera_size"]= 1,
+  ["id"]= 1304015,
+  ["JackpotID"]= 104,
+  ["position_y"]= -0.1,
+  ["position_z"]= 0.15,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1304015
+},
+[1304031] = {
+  ["camera_size"]= 1,
+  ["id"]= 1304031,
+  ["JackpotID"]= 101,
+  ["position_y"]= -0.1,
+  ["position_z"]= 0.15,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1304031
+},
+[1304032] = {
+  ["camera_size"]= 1,
+  ["id"]= 1304032,
+  ["JackpotID"]= 102,
+  ["position_y"]= -0.1,
+  ["position_z"]= 0.15,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1304032
+},
+[1304033] = {
+  ["camera_size"]= 1,
+  ["id"]= 1304033,
+  ["JackpotID"]= 103,
+  ["position_y"]= -0.1,
+  ["position_z"]= 0.15,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1304033
+},
+[1304034] = {
+  ["camera_size"]= 1,
+  ["id"]= 1304034,
+  ["JackpotID"]= 105,
+  ["position_y"]= -0.1,
+  ["position_z"]= 0.15,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1304034
+},
+[1304035] = {
+  ["camera_size"]= 1,
+  ["id"]= 1304035,
+  ["JackpotID"]= 107,
+  ["position_y"]= -0.1,
+  ["position_z"]= 0.15,
+  ["quality"]= 4,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1304035
+},
+[1304036] = {
+  ["camera_size"]= 1,
+  ["id"]= 1304036,
+  ["JackpotID"]= 102,
+  ["position_y"]= -0.1,
+  ["position_z"]= 0.15,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1304036
+},
+[1304037] = {
+  ["camera_size"]= 1,
+  ["id"]= 1304037,
+  ["JackpotID"]= 104,
+  ["position_y"]= -0.1,
+  ["position_z"]= 0.15,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1304037
+},
+[1304038] = {
+  ["camera_size"]= 1,
+  ["id"]= 1304038,
+  ["JackpotID"]= 106,
+  ["position_y"]= -0.1,
+  ["position_z"]= 0.15,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1304038
+},
+[1304041] = {
+  ["camera_size"]= 1,
+  ["id"]= 1304041,
+  ["JackpotID"]= 109,
+  ["position_y"]= -0.1,
+  ["position_z"]= 0.15,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1304041
+},
+[1305002] = {
+  ["camera_size"]= 1.15,
+  ["id"]= 1305002,
+  ["JackpotID"]= 101,
+  ["position_y"]= 0.1,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1305002
+},
+[1305003] = {
+  ["camera_size"]= 1.15,
+  ["id"]= 1305003,
+  ["JackpotID"]= 103,
+  ["position_y"]= 0.1,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1305003
+},
+[1305004] = {
+  ["camera_size"]= 1.15,
+  ["id"]= 1305004,
+  ["JackpotID"]= 105,
+  ["position_y"]= 0.1,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1305004
+},
+[1305012] = {
+  ["camera_size"]= 1.15,
+  ["id"]= 1305012,
+  ["JackpotID"]= 106,
+  ["position_y"]= 0.1,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1305012
+},
+[1305016] = {
+  ["camera_size"]= 1.15,
+  ["id"]= 1305016,
+  ["JackpotID"]= 107,
+  ["position_y"]= 0.1,
+  ["quality"]= 4,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1305016
+},
+[1305017] = {
+  ["camera_size"]= 1.15,
+  ["id"]= 1305017,
+  ["JackpotID"]= 104,
+  ["position_y"]= 0.1,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1305017
+},
+[1305031] = {
+  ["camera_size"]= 1.15,
+  ["id"]= 1305031,
+  ["JackpotID"]= 101,
+  ["position_y"]= 0.1,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1305031
+},
+[1305032] = {
+  ["camera_size"]= 1.15,
+  ["id"]= 1305032,
+  ["JackpotID"]= 102,
+  ["position_y"]= 0.1,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1305032
+},
+[1305033] = {
+  ["camera_size"]= 1.15,
+  ["id"]= 1305033,
+  ["JackpotID"]= 103,
+  ["position_y"]= 0.1,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1305033
+},
+[1305034] = {
+  ["camera_size"]= 1.15,
+  ["id"]= 1305034,
+  ["JackpotID"]= 105,
+  ["position_y"]= 0.1,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1305034
+},
+[1305035] = {
+  ["camera_size"]= 1.15,
+  ["id"]= 1305035,
+  ["JackpotID"]= 102,
+  ["position_y"]= 0.1,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1305035
+},
+[1305036] = {
+  ["camera_size"]= 1.15,
+  ["id"]= 1305036,
+  ["JackpotID"]= 104,
+  ["position_y"]= 0.1,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1305036
+},
+[1305037] = {
+  ["camera_size"]= 1.15,
+  ["id"]= 1305037,
+  ["JackpotID"]= 106,
+  ["position_y"]= 0.1,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1305037
+},
+[1305040] = {
+  ["camera_size"]= 1.15,
+  ["id"]= 1305040,
+  ["JackpotID"]= 109,
+  ["position_y"]= 0.1,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1305040
+},
+[1305041] = {
+  ["camera_size"]= 1.15,
+  ["id"]= 1305041,
+  ["JackpotID"]= 109,
+  ["position_y"]= 0.1,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1305041
+},
+[1306003] = {
+  ["camera_size"]= 1.45,
+  ["id"]= 1306003,
+  ["JackpotID"]= 101,
+  ["position_y"]= -0.2,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1306003
+},
+[1306004] = {
+  ["camera_size"]= 1.45,
+  ["id"]= 1306004,
+  ["JackpotID"]= 103,
+  ["position_y"]= -0.2,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1306004
+},
+[1306008] = {
+  ["camera_size"]= 1.45,
+  ["id"]= 1306008,
+  ["JackpotID"]= 105,
+  ["position_y"]= -0.2,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1306008
+},
+[1306009] = {
+  ["camera_size"]= 1.45,
+  ["id"]= 1306009,
+  ["JackpotID"]= 107,
+  ["position_y"]= -0.2,
+  ["quality"]= 4,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1306009
+},
+[1306010] = {
+  ["camera_size"]= 1.45,
+  ["id"]= 1306010,
+  ["JackpotID"]= 104,
+  ["position_y"]= -0.2,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1306010
+},
+[1306011] = {
+  ["camera_size"]= 1.45,
+  ["id"]= 1306011,
+  ["JackpotID"]= 106,
+  ["position_y"]= -0.2,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1306011
+},
+[1306031] = {
+  ["camera_size"]= 1.45,
+  ["id"]= 1306031,
+  ["JackpotID"]= 101,
+  ["position_y"]= -0.2,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1306031
+},
+[1306032] = {
+  ["camera_size"]= 1.45,
+  ["id"]= 1306032,
+  ["JackpotID"]= 102,
+  ["position_y"]= -0.2,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1306032
+},
+[1306033] = {
+  ["camera_size"]= 1.45,
+  ["id"]= 1306033,
+  ["JackpotID"]= 103,
+  ["position_y"]= -0.2,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1306033
+},
+[1306034] = {
+  ["camera_size"]= 1.45,
+  ["id"]= 1306034,
+  ["JackpotID"]= 105,
+  ["position_y"]= -0.2,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1306034
+},
+[1306035] = {
+  ["camera_size"]= 1.45,
+  ["id"]= 1306035,
+  ["JackpotID"]= 102,
+  ["position_y"]= -0.2,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1306035
+},
+[1306036] = {
+  ["camera_size"]= 1.45,
+  ["id"]= 1306036,
+  ["JackpotID"]= 104,
+  ["position_y"]= -0.2,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1306036
+},
+[1306037] = {
+  ["camera_size"]= 1.45,
+  ["id"]= 1306037,
+  ["JackpotID"]= 106,
+  ["position_y"]= -0.2,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1306037
+},
+[1306040] = {
+  ["camera_size"]= 1.45,
+  ["id"]= 1306040,
+  ["JackpotID"]= 109,
+  ["position_y"]= -0.2,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1306040
+},
+[1306041] = {
+  ["camera_size"]= 1.45,
+  ["id"]= 1306041,
+  ["JackpotID"]= 109,
+  ["position_y"]= -0.2,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1306041
+},
+[1307002] = {
+  ["camera_size"]= 1.15,
+  ["id"]= 1307002,
+  ["JackpotID"]= 101,
+  ["position_y"]= 0.1,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1307002
+},
+[1307003] = {
+  ["camera_size"]= 1.15,
+  ["id"]= 1307003,
+  ["JackpotID"]= 103,
+  ["position_y"]= 0.1,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1307003
+},
+[1307004] = {
+  ["camera_size"]= 1.15,
+  ["id"]= 1307004,
+  ["JackpotID"]= 105,
+  ["position_y"]= 0.1,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1307004
+},
+[1307006] = {
+  ["camera_size"]= 1.15,
+  ["id"]= 1307006,
+  ["JackpotID"]= 109,
+  ["position_y"]= 0.1,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1307006
+},
+[1307007] = {
+  ["camera_size"]= 1.15,
+  ["id"]= 1307007,
+  ["JackpotID"]= 109,
+  ["position_y"]= 0.1,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1307007
+},
+[1307012] = {
+  ["camera_size"]= 1.15,
+  ["id"]= 1307012,
+  ["JackpotID"]= 106,
+  ["position_y"]= 0.1,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1307012
+},
+[1307016] = {
+  ["camera_size"]= 1.15,
+  ["id"]= 1307016,
+  ["JackpotID"]= 107,
+  ["position_y"]= 0.1,
+  ["quality"]= 4,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1307016
+},
+[1307017] = {
+  ["camera_size"]= 1.15,
+  ["id"]= 1307017,
+  ["JackpotID"]= 104,
+  ["position_y"]= 0.1,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1307017
+},
+[1307031] = {
+  ["camera_size"]= 1.15,
+  ["id"]= 1307031,
+  ["JackpotID"]= 101,
+  ["position_y"]= 0.1,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1307031
+},
+[1307032] = {
+  ["camera_size"]= 1.15,
+  ["id"]= 1307032,
+  ["JackpotID"]= 102,
+  ["position_y"]= 0.1,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1307032
+},
+[1307033] = {
+  ["camera_size"]= 1.15,
+  ["id"]= 1307033,
+  ["JackpotID"]= 103,
+  ["position_y"]= 0.1,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1307033
+},
+[1307034] = {
+  ["camera_size"]= 1.15,
+  ["id"]= 1307034,
+  ["JackpotID"]= 105,
+  ["position_y"]= 0.1,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1307034
+},
+[1307035] = {
+  ["camera_size"]= 1.15,
+  ["id"]= 1307035,
+  ["JackpotID"]= 102,
+  ["position_y"]= 0.1,
+  ["quality"]= 1,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1307035
+},
+[1307036] = {
+  ["camera_size"]= 1.15,
+  ["id"]= 1307036,
+  ["JackpotID"]= 104,
+  ["position_y"]= 0.1,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1307036
+},
+[1307037] = {
+  ["camera_size"]= 1.15,
+  ["id"]= 1307037,
+  ["JackpotID"]= 106,
+  ["position_y"]= 0.1,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 1307037
+},
+[2101003] = {
+  ["id"]= 2101003,
+  ["JackpotID"]= 101,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2101003
+},
+[2101004] = {
+  ["id"]= 2101004,
+  ["JackpotID"]= 101,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2101004
+},
+[2101005] = {
+  ["id"]= 2101005,
+  ["JackpotID"]= 101,
+  ["quality"]= 1,
+  ["sequence"]= 2101005
+},
+[2101006] = {
+  ["id"]= 2101006,
+  ["JackpotID"]= 101,
+  ["quality"]= 1,
+  ["sequence"]= 2101006
+},
+[2101007] = {
+  ["id"]= 2101007,
+  ["JackpotID"]= 109,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2101007
+},
+[2101008] = {
+  ["id"]= 2101008,
+  ["JackpotID"]= 109,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2101008
+},
+[2101009] = {
+  ["id"]= 2101009,
+  ["JackpotID"]= 101,
+  ["quality"]= 1,
+  ["sequence"]= 2101009
+},
+[2101010] = {
+  ["id"]= 2101010,
+  ["JackpotID"]= 109,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2101010
+},
+[2101011] = {
+  ["id"]= 2101011,
+  ["JackpotID"]= 102,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2101011
+},
+[2101012] = {
+  ["id"]= 2101012,
+  ["JackpotID"]= 102,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2101012
+},
+[2101013] = {
+  ["id"]= 2101013,
+  ["JackpotID"]= 103,
+  ["quality"]= 1,
+  ["sequence"]= 2101013
+},
+[2101014] = {
+  ["id"]= 2101014,
+  ["JackpotID"]= 109,
+  ["quality"]= 1,
+  ["sequence"]= 2101014
+},
+[2101015] = {
+  ["id"]= 2101015,
+  ["JackpotID"]= 103,
+  ["quality"]= 1,
+  ["sequence"]= 2101015
+},
+[2101016] = {
+  ["id"]= 2101016,
+  ["JackpotID"]= 109,
+  ["quality"]= 1,
+  ["sequence"]= 2101016
+},
+[2101017] = {
+  ["id"]= 2101017,
+  ["JackpotID"]= 109,
+  ["quality"]= 1,
+  ["sequence"]= 2101017
+},
+[2101018] = {
+  ["id"]= 2101018,
+  ["JackpotID"]= 103,
+  ["quality"]= 1,
+  ["sequence"]= 2101018
+},
+[2101019] = {
+  ["id"]= 2101019,
+  ["JackpotID"]= 104,
+  ["quality"]= 1,
+  ["sequence"]= 2101019
+},
+[2101021] = {
+  ["id"]= 2101021,
+  ["JackpotID"]= 104,
+  ["quality"]= 1,
+  ["sequence"]= 2101021
+},
+[2101023] = {
+  ["id"]= 2101023,
+  ["JackpotID"]= 104,
+  ["quality"]= 1,
+  ["sequence"]= 2101023
+},
+[2101025] = {
+  ["id"]= 2101025,
+  ["JackpotID"]= 103,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2101025
+},
+[2101026] = {
+  ["id"]= 2101026,
+  ["JackpotID"]= 103,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2101026
+},
+[2101027] = {
+  ["id"]= 2101027,
+  ["JackpotID"]= 105,
+  ["quality"]= 1,
+  ["sequence"]= 2101027
+},
+[2101028] = {
+  ["id"]= 2101028,
+  ["JackpotID"]= 105,
+  ["quality"]= 1,
+  ["sequence"]= 2101028
+},
+[2101031] = {
+  ["id"]= 2101031,
+  ["JackpotID"]= 105,
+  ["quality"]= 1,
+  ["sequence"]= 2101031
+},
+[2101033] = {
+  ["id"]= 2101033,
+  ["JackpotID"]= 105,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2101033
+},
+[2101034] = {
+  ["id"]= 2101034,
+  ["JackpotID"]= 105,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2101034
+},
+[2101035] = {
+  ["id"]= 2101035,
+  ["JackpotID"]= 106,
+  ["quality"]= 1,
+  ["sequence"]= 2101035
+},
+[2101036] = {
+  ["id"]= 2101036,
+  ["JackpotID"]= 106,
+  ["quality"]= 1,
+  ["sequence"]= 2101036
+},
+[2101037] = {
+  ["id"]= 2101037,
+  ["JackpotID"]= 106,
+  ["quality"]= 1,
+  ["sequence"]= 2101037
+},
+[2101044] = {
+  ["id"]= 2101044,
+  ["JackpotID"]= 102,
+  ["quality"]= 1,
+  ["sequence"]= 2101044
+},
+[2101045] = {
+  ["id"]= 2101045,
+  ["JackpotID"]= 102,
+  ["quality"]= 1,
+  ["sequence"]= 2101045
+},
+[2101046] = {
+  ["id"]= 2101046,
+  ["JackpotID"]= 102,
+  ["quality"]= 1,
+  ["sequence"]= 2101046
+},
+[2101050] = {
+  ["id"]= 2101050,
+  ["JackpotID"]= 104,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2101050
+},
+[2101051] = {
+  ["id"]= 2101051,
+  ["JackpotID"]= 104,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2101051
+},
+[2101052] = {
+  ["id"]= 2101052,
+  ["JackpotID"]= 106,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2101052
+},
+[2101053] = {
+  ["id"]= 2101053,
+  ["JackpotID"]= 106,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2101053
+},
+[2101114] = {
+  ["id"]= 2101114,
+  ["JackpotID"]= 101,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2101114
+},
+[2101115] = {
+  ["id"]= 2101115,
+  ["JackpotID"]= 102,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2101115
+},
+[2101116] = {
+  ["id"]= 2101116,
+  ["JackpotID"]= 103,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2101116
+},
+[2101117] = {
+  ["id"]= 2101117,
+  ["JackpotID"]= 104,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2101117
+},
+[2101118] = {
+  ["id"]= 2101118,
+  ["JackpotID"]= 105,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2101118
+},
+[2101119] = {
+  ["id"]= 2101119,
+  ["JackpotID"]= 106,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2101119
+},
+[2102003] = {
+  ["id"]= 2102003,
+  ["JackpotID"]= 101,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2102003
+},
+[2102004] = {
+  ["id"]= 2102004,
+  ["JackpotID"]= 101,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2102004
+},
+[2102005] = {
+  ["id"]= 2102005,
+  ["JackpotID"]= 101,
+  ["quality"]= 1,
+  ["sequence"]= 2102005
+},
+[2102006] = {
+  ["id"]= 2102006,
+  ["JackpotID"]= 101,
+  ["quality"]= 1,
+  ["sequence"]= 2102006
+},
+[2102007] = {
+  ["id"]= 2102007,
+  ["JackpotID"]= 102,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2102007
+},
+[2102008] = {
+  ["id"]= 2102008,
+  ["JackpotID"]= 102,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2102008
+},
+[2102009] = {
+  ["id"]= 2102009,
+  ["JackpotID"]= 103,
+  ["quality"]= 1,
+  ["sequence"]= 2102009
+},
+[2102010] = {
+  ["id"]= 2102010,
+  ["JackpotID"]= 103,
+  ["quality"]= 1,
+  ["sequence"]= 2102010
+},
+[2102011] = {
+  ["id"]= 2102011,
+  ["JackpotID"]= 104,
+  ["quality"]= 1,
+  ["sequence"]= 2102011
+},
+[2102012] = {
+  ["id"]= 2102012,
+  ["JackpotID"]= 104,
+  ["quality"]= 1,
+  ["sequence"]= 2102012
+},
+[2102013] = {
+  ["id"]= 2102013,
+  ["JackpotID"]= 103,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2102013
+},
+[2102014] = {
+  ["id"]= 2102014,
+  ["JackpotID"]= 103,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2102014
+},
+[2102015] = {
+  ["id"]= 2102015,
+  ["JackpotID"]= 105,
+  ["quality"]= 1,
+  ["sequence"]= 2102015
+},
+[2102016] = {
+  ["id"]= 2102016,
+  ["JackpotID"]= 105,
+  ["quality"]= 1,
+  ["sequence"]= 2102016
+},
+[2102017] = {
+  ["id"]= 2102017,
+  ["JackpotID"]= 106,
+  ["quality"]= 1,
+  ["sequence"]= 2102017
+},
+[2102018] = {
+  ["id"]= 2102018,
+  ["JackpotID"]= 105,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2102018
+},
+[2102019] = {
+  ["id"]= 2102019,
+  ["JackpotID"]= 105,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2102019
+},
+[2102020] = {
+  ["id"]= 2102020,
+  ["JackpotID"]= 106,
+  ["quality"]= 1,
+  ["sequence"]= 2102020
+},
+[2102033] = {
+  ["id"]= 2102033,
+  ["JackpotID"]= 102,
+  ["quality"]= 1,
+  ["sequence"]= 2102033
+},
+[2102034] = {
+  ["id"]= 2102034,
+  ["JackpotID"]= 102,
+  ["quality"]= 1,
+  ["sequence"]= 2102034
+},
+[2102035] = {
+  ["id"]= 2102035,
+  ["JackpotID"]= 104,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2102035
+},
+[2102036] = {
+  ["id"]= 2102036,
+  ["JackpotID"]= 104,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2102036
+},
+[2102037] = {
+  ["id"]= 2102037,
+  ["JackpotID"]= 106,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2102037
+},
+[2102038] = {
+  ["id"]= 2102038,
+  ["JackpotID"]= 106,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2102038
+},
+[2102043] = {
+  ["id"]= 2102043,
+  ["JackpotID"]= 109,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2102043
+},
+[2102044] = {
+  ["id"]= 2102044,
+  ["JackpotID"]= 109,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2102044
+},
+[2102045] = {
+  ["id"]= 2102045,
+  ["JackpotID"]= 109,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2102045
+},
+[2102046] = {
+  ["id"]= 2102046,
+  ["JackpotID"]= 109,
+  ["quality"]= 1,
+  ["sequence"]= 2102046
+},
+[2102049] = {
+  ["id"]= 2102049,
+  ["JackpotID"]= 109,
+  ["quality"]= 1,
+  ["sequence"]= 2102049
+},
+[2102050] = {
+  ["id"]= 2102050,
+  ["JackpotID"]= 109,
+  ["quality"]= 1,
+  ["sequence"]= 2102050
+},
+[2102065] = {
+  ["id"]= 2102065,
+  ["JackpotID"]= 101,
+  ["quality"]= 1,
+  ["sequence"]= 2102065
+},
+[2102071] = {
+  ["id"]= 2102071,
+  ["JackpotID"]= 102,
+  ["quality"]= 1,
+  ["sequence"]= 2102071
+},
+[2102076] = {
+  ["id"]= 2102076,
+  ["JackpotID"]= 103,
+  ["quality"]= 1,
+  ["sequence"]= 2102076
+},
+[2102080] = {
+  ["id"]= 2102080,
+  ["JackpotID"]= 104,
+  ["quality"]= 1,
+  ["sequence"]= 2102080
+},
+[2102083] = {
+  ["id"]= 2102083,
+  ["JackpotID"]= 105,
+  ["quality"]= 1,
+  ["sequence"]= 2102083
+},
+[2102085] = {
+  ["id"]= 2102085,
+  ["JackpotID"]= 106,
+  ["quality"]= 1,
+  ["sequence"]= 2102085
+},
+[2102086] = {
+  ["id"]= 2102086,
+  ["JackpotID"]= 101,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2102086
+},
+[2102087] = {
+  ["id"]= 2102087,
+  ["JackpotID"]= 102,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2102087
+},
+[2102088] = {
+  ["id"]= 2102088,
+  ["JackpotID"]= 103,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2102088
+},
+[2102089] = {
+  ["id"]= 2102089,
+  ["JackpotID"]= 104,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2102089
+},
+[2102090] = {
+  ["id"]= 2102090,
+  ["JackpotID"]= 105,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2102090
+},
+[2102091] = {
+  ["id"]= 2102091,
+  ["JackpotID"]= 106,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2102091
+},
+[2103003] = {
+  ["id"]= 2103003,
+  ["JackpotID"]= 101,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2103003
+},
+[2103004] = {
+  ["id"]= 2103004,
+  ["JackpotID"]= 101,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2103004
+},
+[2103005] = {
+  ["id"]= 2103005,
+  ["JackpotID"]= 101,
+  ["quality"]= 1,
+  ["sequence"]= 2103005
+},
+[2103006] = {
+  ["id"]= 2103006,
+  ["JackpotID"]= 101,
+  ["quality"]= 1,
+  ["sequence"]= 2103006
+},
+[2103007] = {
+  ["id"]= 2103007,
+  ["JackpotID"]= 102,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2103007
+},
+[2103008] = {
+  ["id"]= 2103008,
+  ["JackpotID"]= 102,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2103008
+},
+[2103009] = {
+  ["id"]= 2103009,
+  ["JackpotID"]= 103,
+  ["quality"]= 1,
+  ["sequence"]= 2103009
+},
+[2103010] = {
+  ["id"]= 2103010,
+  ["JackpotID"]= 103,
+  ["quality"]= 1,
+  ["sequence"]= 2103010
+},
+[2103011] = {
+  ["id"]= 2103011,
+  ["JackpotID"]= 104,
+  ["quality"]= 1,
+  ["sequence"]= 2103011
+},
+[2103012] = {
+  ["id"]= 2103012,
+  ["JackpotID"]= 104,
+  ["quality"]= 1,
+  ["sequence"]= 2103012
+},
+[2103013] = {
+  ["id"]= 2103013,
+  ["JackpotID"]= 103,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2103013
+},
+[2103014] = {
+  ["id"]= 2103014,
+  ["JackpotID"]= 103,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2103014
+},
+[2103015] = {
+  ["id"]= 2103015,
+  ["JackpotID"]= 105,
+  ["quality"]= 1,
+  ["sequence"]= 2103015
+},
+[2103016] = {
+  ["id"]= 2103016,
+  ["JackpotID"]= 105,
+  ["quality"]= 1,
+  ["sequence"]= 2103016
+},
+[2103017] = {
+  ["id"]= 2103017,
+  ["JackpotID"]= 105,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2103017
+},
+[2103018] = {
+  ["id"]= 2103018,
+  ["JackpotID"]= 105,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2103018
+},
+[2103019] = {
+  ["id"]= 2103019,
+  ["JackpotID"]= 106,
+  ["quality"]= 1,
+  ["sequence"]= 2103019
+},
+[2103020] = {
+  ["id"]= 2103020,
+  ["JackpotID"]= 106,
+  ["quality"]= 1,
+  ["sequence"]= 2103020
+},
+[2103033] = {
+  ["id"]= 2103033,
+  ["JackpotID"]= 102,
+  ["quality"]= 1,
+  ["sequence"]= 2103033
+},
+[2103034] = {
+  ["id"]= 2103034,
+  ["JackpotID"]= 102,
+  ["quality"]= 1,
+  ["sequence"]= 2103034
+},
+[2103035] = {
+  ["id"]= 2103035,
+  ["JackpotID"]= 104,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2103035
+},
+[2103036] = {
+  ["id"]= 2103036,
+  ["JackpotID"]= 104,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2103036
+},
+[2103037] = {
+  ["id"]= 2103037,
+  ["JackpotID"]= 106,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2103037
+},
+[2103038] = {
+  ["id"]= 2103038,
+  ["JackpotID"]= 106,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2103038
+},
+[2103043] = {
+  ["id"]= 2103043,
+  ["JackpotID"]= 109,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2103043
+},
+[2103044] = {
+  ["id"]= 2103044,
+  ["JackpotID"]= 109,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2103044
+},
+[2103045] = {
+  ["id"]= 2103045,
+  ["JackpotID"]= 109,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2103045
+},
+[2103046] = {
+  ["id"]= 2103046,
+  ["JackpotID"]= 109,
+  ["quality"]= 1,
+  ["sequence"]= 2103046
+},
+[2103049] = {
+  ["id"]= 2103049,
+  ["JackpotID"]= 109,
+  ["quality"]= 1,
+  ["sequence"]= 2103049
+},
+[2103050] = {
+  ["id"]= 2103050,
+  ["JackpotID"]= 109,
+  ["quality"]= 1,
+  ["sequence"]= 2103050
+},
+[2103065] = {
+  ["id"]= 2103065,
+  ["JackpotID"]= 101,
+  ["quality"]= 1,
+  ["sequence"]= 2103065
+},
+[2103071] = {
+  ["id"]= 2103071,
+  ["JackpotID"]= 102,
+  ["quality"]= 1,
+  ["sequence"]= 2103071
+},
+[2103076] = {
+  ["id"]= 2103076,
+  ["JackpotID"]= 103,
+  ["quality"]= 1,
+  ["sequence"]= 2103076
+},
+[2103080] = {
+  ["id"]= 2103080,
+  ["JackpotID"]= 104,
+  ["quality"]= 1,
+  ["sequence"]= 2103080
+},
+[2103083] = {
+  ["id"]= 2103083,
+  ["JackpotID"]= 105,
+  ["quality"]= 1,
+  ["sequence"]= 2103083
+},
+[2103085] = {
+  ["id"]= 2103085,
+  ["JackpotID"]= 106,
+  ["quality"]= 1,
+  ["sequence"]= 2103085
+},
+[2103086] = {
+  ["id"]= 2103086,
+  ["JackpotID"]= 101,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2103086
+},
+[2103087] = {
+  ["id"]= 2103087,
+  ["JackpotID"]= 102,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2103087
+},
+[2103088] = {
+  ["id"]= 2103088,
+  ["JackpotID"]= 103,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2103088
+},
+[2103089] = {
+  ["id"]= 2103089,
+  ["JackpotID"]= 104,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2103089
+},
+[2103090] = {
+  ["id"]= 2103090,
+  ["JackpotID"]= 105,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2103090
+},
+[2103091] = {
+  ["id"]= 2103091,
+  ["JackpotID"]= 106,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 2103091
+},
+[3101007] = {
+  ["id"]= 3101007,
+  ["JackpotID"]= 101,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3101007
+},
+[3101008] = {
+  ["id"]= 3101008,
+  ["JackpotID"]= 101,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3101008
+},
+[3101009] = {
+  ["id"]= 3101009,
+  ["JackpotID"]= 101,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3101009
+},
+[3101010] = {
+  ["id"]= 3101010,
+  ["JackpotID"]= 101,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3101010
+},
+[3101011] = {
+  ["id"]= 3101011,
+  ["JackpotID"]= 101,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3101011
+},
+[3101012] = {
+  ["id"]= 3101012,
+  ["JackpotID"]= 101,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3101012
+},
+[3101013] = {
+  ["id"]= 3101013,
+  ["JackpotID"]= 102,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3101013
+},
+[3101014] = {
+  ["id"]= 3101014,
+  ["JackpotID"]= 102,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3101014
+},
+[3101015] = {
+  ["id"]= 3101015,
+  ["JackpotID"]= 102,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3101015
+},
+[3101016] = {
+  ["id"]= 3101016,
+  ["JackpotID"]= 102,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3101016
+},
+[3101017] = {
+  ["id"]= 3101017,
+  ["JackpotID"]= 102,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3101017
+},
+[3101018] = {
+  ["id"]= 3101018,
+  ["JackpotID"]= 102,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3101018
+},
+[3101027] = {
+  ["id"]= 3101027,
+  ["JackpotID"]= 103,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3101027
+},
+[3101028] = {
+  ["id"]= 3101028,
+  ["JackpotID"]= 103,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3101028
+},
+[3101029] = {
+  ["id"]= 3101029,
+  ["JackpotID"]= 103,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3101029
+},
+[3101030] = {
+  ["id"]= 3101030,
+  ["JackpotID"]= 103,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3101030
+},
+[3101031] = {
+  ["id"]= 3101031,
+  ["JackpotID"]= 103,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3101031
+},
+[3101032] = {
+  ["id"]= 3101032,
+  ["JackpotID"]= 103,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3101032
+},
+[3101053] = {
+  ["id"]= 3101053,
+  ["JackpotID"]= 105,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3101053
+},
+[3101054] = {
+  ["id"]= 3101054,
+  ["JackpotID"]= 105,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3101054
+},
+[3101055] = {
+  ["id"]= 3101055,
+  ["JackpotID"]= 105,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3101055
+},
+[3101056] = {
+  ["id"]= 3101056,
+  ["JackpotID"]= 105,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3101056
+},
+[3101057] = {
+  ["id"]= 3101057,
+  ["JackpotID"]= 105,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3101057
+},
+[3101058] = {
+  ["id"]= 3101058,
+  ["JackpotID"]= 105,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3101058
+},
+[3101076] = {
+  ["id"]= 3101076,
+  ["JackpotID"]= 109,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3101076
+},
+[3101077] = {
+  ["id"]= 3101077,
+  ["JackpotID"]= 109,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3101077
+},
+[3101082] = {
+  ["id"]= 3101082,
+  ["JackpotID"]= 104,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3101082
+},
+[3101083] = {
+  ["id"]= 3101083,
+  ["JackpotID"]= 104,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3101083
+},
+[3101084] = {
+  ["id"]= 3101084,
+  ["JackpotID"]= 104,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3101084
+},
+[3101085] = {
+  ["id"]= 3101085,
+  ["JackpotID"]= 104,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3101085
+},
+[3101086] = {
+  ["id"]= 3101086,
+  ["JackpotID"]= 104,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3101086
+},
+[3101087] = {
+  ["id"]= 3101087,
+  ["JackpotID"]= 104,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3101087
+},
+[3101088] = {
+  ["id"]= 3101088,
+  ["JackpotID"]= 106,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3101088
+},
+[3101089] = {
+  ["id"]= 3101089,
+  ["JackpotID"]= 106,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3101089
+},
+[3101090] = {
+  ["id"]= 3101090,
+  ["JackpotID"]= 106,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3101090
+},
+[3101091] = {
+  ["id"]= 3101091,
+  ["JackpotID"]= 106,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3101091
+},
+[3101092] = {
+  ["id"]= 3101092,
+  ["JackpotID"]= 106,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3101092
+},
+[3101093] = {
+  ["id"]= 3101093,
+  ["JackpotID"]= 106,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3101093
+},
+[3101102] = {
+  ["camera_size"]= 1.2,
+  ["id"]= 3101102,
+  ["JackpotID"]= 109,
+  ["position_y"]= -0.2,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 3101102
+},
+[3101103] = {
+  ["camera_size"]= 1.05,
+  ["id"]= 3101103,
+  ["JackpotID"]= 109,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 3101103
+},
+[3101104] = {
+  ["camera_size"]= 1,
+  ["id"]= 3101104,
+  ["JackpotID"]= 109,
+  ["position_y"]= -0.2,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= -50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 3101104
+},
+[3101105] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 3101105,
+  ["JackpotID"]= 109,
+  ["position_y"]= -0.15,
+  ["ProbabilityID"]= 2,
+  ["rotation_x"]= 50,
+  ["rotation_z"]= -100,
+  ["sequence"]= 3101105
+},
+[3101106] = {
+  ["id"]= 3101106,
+  ["JackpotID"]= 109,
+  ["quality"]= 1,
+  ["sequence"]= 3101106
+},
+[3101107] = {
+  ["camera_size"]= 0.85,
+  ["id"]= 3101107,
+  ["JackpotID"]= 109,
+  ["position_x"]= 0.15,
+  ["position_y"]= -0.04,
+  ["quality"]= 1,
+  ["rotation_x"]= 10,
+  ["rotation_y"]= 200,
+  ["rotation_z"]= 300,
+  ["sequence"]= 3101107
+},
+[3101215] = {
+  ["id"]= 3101215,
+  ["JackpotID"]= 108,
+  ["ProbabilityID"]= 2,
+  ["quality"]= 4,
+  ["sequence"]= 3101215
+},
+[3101216] = {
+  ["id"]= 3101216,
+  ["JackpotID"]= 108,
+  ["ProbabilityID"]= 2,
+  ["quality"]= 4,
+  ["sequence"]= 3101216
+},
+[3101217] = {
+  ["id"]= 3101217,
+  ["JackpotID"]= 108,
+  ["ProbabilityID"]= 2,
+  ["quality"]= 4,
+  ["sequence"]= 3101217
+},
+[3101218] = {
+  ["id"]= 3101218,
+  ["JackpotID"]= 108,
+  ["ProbabilityID"]= 2,
+  ["quality"]= 4,
+  ["sequence"]= 3101218
+},
+[3101219] = {
+  ["id"]= 3101219,
+  ["JackpotID"]= 108,
+  ["ProbabilityID"]= 2,
+  ["quality"]= 4,
+  ["sequence"]= 3101219
+},
+[3101220] = {
+  ["id"]= 3101220,
+  ["JackpotID"]= 108,
+  ["ProbabilityID"]= 2,
+  ["quality"]= 4,
+  ["sequence"]= 3101220
+},
+[3101221] = {
+  ["id"]= 3101221,
+  ["JackpotID"]= 108,
+  ["ProbabilityID"]= 2,
+  ["quality"]= 4,
+  ["sequence"]= 3101221
+},
+[3101222] = {
+  ["id"]= 3101222,
+  ["JackpotID"]= 108,
+  ["ProbabilityID"]= 2,
+  ["quality"]= 4,
+  ["sequence"]= 3101222
+},
+[3101223] = {
+  ["id"]= 3101223,
+  ["JackpotID"]= 108,
+  ["ProbabilityID"]= 2,
+  ["quality"]= 4,
+  ["sequence"]= 3101223
+},
+[3101224] = {
+  ["id"]= 3101224,
+  ["JackpotID"]= 108,
+  ["ProbabilityID"]= 2,
+  ["quality"]= 4,
+  ["sequence"]= 3101224
+},
+[3101225] = {
+  ["id"]= 3101225,
+  ["JackpotID"]= 108,
+  ["ProbabilityID"]= 2,
+  ["quality"]= 4,
+  ["sequence"]= 3101225
+},
+[3101226] = {
+  ["id"]= 3101226,
+  ["JackpotID"]= 108,
+  ["ProbabilityID"]= 2,
+  ["quality"]= 4,
+  ["sequence"]= 3101226
+},
+[3101227] = {
+  ["id"]= 3101227,
+  ["JackpotID"]= 108,
+  ["ProbabilityID"]= 2,
+  ["quality"]= 4,
+  ["sequence"]= 3101227
+},
+[3101228] = {
+  ["id"]= 3101228,
+  ["JackpotID"]= 108,
+  ["ProbabilityID"]= 2,
+  ["quality"]= 4,
+  ["sequence"]= 3101228
+},
+[3101277] = {
+  ["id"]= 3101277,
+  ["JackpotID"]= 101,
+  ["quality"]= 1,
+  ["sequence"]= 3101277
+},
+[3101278] = {
+  ["id"]= 3101278,
+  ["JackpotID"]= 101,
+  ["quality"]= 1,
+  ["sequence"]= 3101278
+},
+[3101279] = {
+  ["id"]= 3101279,
+  ["JackpotID"]= 101,
+  ["quality"]= 1,
+  ["sequence"]= 3101279
+},
+[3101295] = {
+  ["id"]= 3101295,
+  ["JackpotID"]= 102,
+  ["quality"]= 1,
+  ["sequence"]= 3101295
+},
+[3101296] = {
+  ["id"]= 3101296,
+  ["JackpotID"]= 102,
+  ["quality"]= 1,
+  ["sequence"]= 3101296
+},
+[3101297] = {
+  ["id"]= 3101297,
+  ["JackpotID"]= 102,
+  ["quality"]= 1,
+  ["sequence"]= 3101297
+},
+[3101310] = {
+  ["id"]= 3101310,
+  ["JackpotID"]= 103,
+  ["quality"]= 1,
+  ["sequence"]= 3101310
+},
+[3101311] = {
+  ["id"]= 3101311,
+  ["JackpotID"]= 103,
+  ["quality"]= 1,
+  ["sequence"]= 3101311
+},
+[3101312] = {
+  ["id"]= 3101312,
+  ["JackpotID"]= 103,
+  ["quality"]= 1,
+  ["sequence"]= 3101312
+},
+[3101322] = {
+  ["id"]= 3101322,
+  ["JackpotID"]= 104,
+  ["quality"]= 1,
+  ["sequence"]= 3101322
+},
+[3101323] = {
+  ["id"]= 3101323,
+  ["JackpotID"]= 104,
+  ["quality"]= 1,
+  ["sequence"]= 3101323
+},
+[3101328] = {
+  ["id"]= 3101328,
+  ["JackpotID"]= 105,
+  ["quality"]= 1,
+  ["sequence"]= 3101328
+},
+[3101329] = {
+  ["id"]= 3101329,
+  ["JackpotID"]= 105,
+  ["quality"]= 1,
+  ["sequence"]= 3101329
+},
+[3101332] = {
+  ["id"]= 3101332,
+  ["JackpotID"]= 106,
+  ["quality"]= 1,
+  ["sequence"]= 3101332
+},
+[3101333] = {
+  ["id"]= 3101333,
+  ["JackpotID"]= 106,
+  ["quality"]= 1,
+  ["sequence"]= 3101333
+},
+[3101334] = {
+  ["id"]= 3101334,
+  ["JackpotID"]= 106,
+  ["quality"]= 1,
+  ["sequence"]= 3101334
+},
+[3201007] = {
+  ["id"]= 3201007,
+  ["JackpotID"]= 101,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201007
+},
+[3201008] = {
+  ["id"]= 3201008,
+  ["JackpotID"]= 101,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201008
+},
+[3201009] = {
+  ["id"]= 3201009,
+  ["JackpotID"]= 101,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201009
+},
+[3201010] = {
+  ["id"]= 3201010,
+  ["JackpotID"]= 101,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201010
+},
+[3201011] = {
+  ["id"]= 3201011,
+  ["JackpotID"]= 101,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201011
+},
+[3201012] = {
+  ["id"]= 3201012,
+  ["JackpotID"]= 101,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201012
+},
+[3201013] = {
+  ["id"]= 3201013,
+  ["JackpotID"]= 102,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201013
+},
+[3201014] = {
+  ["id"]= 3201014,
+  ["JackpotID"]= 102,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201014
+},
+[3201015] = {
+  ["id"]= 3201015,
+  ["JackpotID"]= 102,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201015
+},
+[3201016] = {
+  ["id"]= 3201016,
+  ["JackpotID"]= 102,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201016
+},
+[3201017] = {
+  ["id"]= 3201017,
+  ["JackpotID"]= 102,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201017
+},
+[3201018] = {
+  ["id"]= 3201018,
+  ["JackpotID"]= 102,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201018
+},
+[3201027] = {
+  ["id"]= 3201027,
+  ["JackpotID"]= 103,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201027
+},
+[3201028] = {
+  ["id"]= 3201028,
+  ["JackpotID"]= 103,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201028
+},
+[3201029] = {
+  ["id"]= 3201029,
+  ["JackpotID"]= 103,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201029
+},
+[3201030] = {
+  ["id"]= 3201030,
+  ["JackpotID"]= 103,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201030
+},
+[3201031] = {
+  ["id"]= 3201031,
+  ["JackpotID"]= 103,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201031
+},
+[3201032] = {
+  ["id"]= 3201032,
+  ["JackpotID"]= 103,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201032
+},
+[3201049] = {
+  ["id"]= 3201049,
+  ["JackpotID"]= 105,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201049
+},
+[3201050] = {
+  ["id"]= 3201050,
+  ["JackpotID"]= 105,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201050
+},
+[3201051] = {
+  ["id"]= 3201051,
+  ["JackpotID"]= 105,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201051
+},
+[3201052] = {
+  ["id"]= 3201052,
+  ["JackpotID"]= 105,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201052
+},
+[3201053] = {
+  ["id"]= 3201053,
+  ["JackpotID"]= 105,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201053
+},
+[3201054] = {
+  ["id"]= 3201054,
+  ["JackpotID"]= 105,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201054
+},
+[3201068] = {
+  ["id"]= 3201068,
+  ["JackpotID"]= 109,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201068
+},
+[3201069] = {
+  ["id"]= 3201069,
+  ["JackpotID"]= 109,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201069
+},
+[3201070] = {
+  ["id"]= 3201070,
+  ["JackpotID"]= 109,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201070
+},
+[3201071] = {
+  ["id"]= 3201071,
+  ["JackpotID"]= 104,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201071
+},
+[3201072] = {
+  ["id"]= 3201072,
+  ["JackpotID"]= 104,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201072
+},
+[3201073] = {
+  ["id"]= 3201073,
+  ["JackpotID"]= 104,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201073
+},
+[3201074] = {
+  ["id"]= 3201074,
+  ["JackpotID"]= 104,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201074
+},
+[3201075] = {
+  ["id"]= 3201075,
+  ["JackpotID"]= 104,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201075
+},
+[3201076] = {
+  ["id"]= 3201076,
+  ["JackpotID"]= 104,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201076
+},
+[3201077] = {
+  ["id"]= 3201077,
+  ["JackpotID"]= 106,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201077
+},
+[3201078] = {
+  ["id"]= 3201078,
+  ["JackpotID"]= 106,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201078
+},
+[3201079] = {
+  ["id"]= 3201079,
+  ["JackpotID"]= 106,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201079
+},
+[3201080] = {
+  ["id"]= 3201080,
+  ["JackpotID"]= 106,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201080
+},
+[3201081] = {
+  ["id"]= 3201081,
+  ["JackpotID"]= 106,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201081
+},
+[3201082] = {
+  ["id"]= 3201082,
+  ["JackpotID"]= 106,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201082
+},
+[3201087] = {
+  ["id"]= 3201087,
+  ["JackpotID"]= 109,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201087
+},
+[3201088] = {
+  ["id"]= 3201088,
+  ["JackpotID"]= 109,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201088
+},
+[3201089] = {
+  ["id"]= 3201089,
+  ["JackpotID"]= 109,
+  ["ProbabilityID"]= 2,
+  ["sequence"]= 3201089
+},
+[3201090] = {
+  ["id"]= 3201090,
+  ["JackpotID"]= 109,
+  ["quality"]= 1,
+  ["sequence"]= 3201090
+},
+[3201093] = {
+  ["id"]= 3201093,
+  ["JackpotID"]= 109,
+  ["quality"]= 1,
+  ["sequence"]= 3201093
+},
+[3201130] = {
+  ["id"]= 3201130,
+  ["JackpotID"]= 108,
+  ["quality"]= 4,
+  ["sequence"]= 3201130
+},
+[3201131] = {
+  ["id"]= 3201131,
+  ["JackpotID"]= 108,
+  ["quality"]= 4,
+  ["sequence"]= 3201131
+},
+[3201132] = {
+  ["id"]= 3201132,
+  ["JackpotID"]= 108,
+  ["quality"]= 4,
+  ["sequence"]= 3201132
+},
+[3201133] = {
+  ["id"]= 3201133,
+  ["JackpotID"]= 108,
+  ["quality"]= 4,
+  ["sequence"]= 3201133
+},
+[3201134] = {
+  ["id"]= 3201134,
+  ["JackpotID"]= 108,
+  ["quality"]= 4,
+  ["sequence"]= 3201134
+},
+[3201135] = {
+  ["id"]= 3201135,
+  ["JackpotID"]= 108,
+  ["quality"]= 4,
+  ["sequence"]= 3201135
+},
+[3201144] = {
+  ["id"]= 3201144,
+  ["JackpotID"]= 101,
+  ["quality"]= 1,
+  ["sequence"]= 3201144
+},
+[3201145] = {
+  ["id"]= 3201145,
+  ["JackpotID"]= 101,
+  ["quality"]= 1,
+  ["sequence"]= 3201145
+},
+[3201156] = {
+  ["id"]= 3201156,
+  ["JackpotID"]= 102,
+  ["quality"]= 1,
+  ["sequence"]= 3201156
+},
+[3201157] = {
+  ["id"]= 3201157,
+  ["JackpotID"]= 102,
+  ["quality"]= 1,
+  ["sequence"]= 3201157
+},
+[3201166] = {
+  ["id"]= 3201166,
+  ["JackpotID"]= 103,
+  ["quality"]= 1,
+  ["sequence"]= 3201166
+},
+[3201167] = {
+  ["id"]= 3201167,
+  ["JackpotID"]= 103,
+  ["quality"]= 1,
+  ["sequence"]= 3201167
+},
+[3201174] = {
+  ["id"]= 3201174,
+  ["JackpotID"]= 104,
+  ["quality"]= 1,
+  ["sequence"]= 3201174
+},
+[3201175] = {
+  ["id"]= 3201175,
+  ["JackpotID"]= 104,
+  ["quality"]= 1,
+  ["sequence"]= 3201175
+},
+[3201180] = {
+  ["id"]= 3201180,
+  ["JackpotID"]= 105,
+  ["quality"]= 1,
+  ["sequence"]= 3201180
+},
+[3201181] = {
+  ["id"]= 3201181,
+  ["JackpotID"]= 105,
+  ["quality"]= 1,
+  ["sequence"]= 3201181
+},
+[3201184] = {
+  ["id"]= 3201184,
+  ["JackpotID"]= 106,
+  ["quality"]= 1,
+  ["sequence"]= 3201184
+},
+[3201185] = {
+  ["id"]= 3201185,
+  ["JackpotID"]= 106,
+  ["quality"]= 1,
+  ["sequence"]= 3201185
+},
+[4101001] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101001,
+  ["JackpotID"]= 305,
+  ["position_y"]= -0.3,
+  ["quality"]= 3,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101001
+},
+[4101002] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101002,
+  ["JackpotID"]= 301,
+  ["position_x"]= -0.07,
+  ["position_y"]= -0.33,
+  ["ProbabilityID"]= 2,
+  ["quality"]= 1,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101002
+},
+[4101003] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101003,
+  ["JackpotID"]= 302,
+  ["position_y"]= -0.4,
+  ["ProbabilityID"]= 2,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101003
+},
+[4101004] = {
+  ["camera_size"]= 1.05,
+  ["id"]= 4101004,
+  ["JackpotID"]= 301,
+  ["position_x"]= -0.07,
+  ["position_y"]= -0.1,
+  ["ProbabilityID"]= 2,
+  ["quality"]= 1,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101004
+},
+[4101006] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101006,
+  ["JackpotID"]= 305,
+  ["position_y"]= -0.4,
+  ["quality"]= 3,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101006
+},
+[4101007] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101007,
+  ["JackpotID"]= 303,
+  ["position_y"]= -0.4,
+  ["quality"]= 4,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101007
+},
+[4101008] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101008,
+  ["JackpotID"]= 305,
+  ["position_y"]= -0.4,
+  ["quality"]= 3,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101008
+},
+[4101009] = {
+  ["camera_size"]= 0.8,
+  ["id"]= 4101009,
+  ["JackpotID"]= 301,
+  ["position_x"]= -0.15,
+  ["position_y"]= -0.35,
+  ["position_z"]= 0.09,
+  ["ProbabilityID"]= 2,
+  ["quality"]= 1,
+  ["rotation_z"]= -90,
+  ["sequence"]= 4101009
+},
+[4101010] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101010,
+  ["JackpotID"]= 305,
+  ["position_y"]= -0.55,
+  ["quality"]= 3,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101010
+},
+[4101011] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101011,
+  ["JackpotID"]= 305,
+  ["position_y"]= -0.4,
+  ["quality"]= 3,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101011
+},
+[4101012] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101012,
+  ["JackpotID"]= 302,
+  ["position_y"]= -0.4,
+  ["ProbabilityID"]= 2,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101012
+},
+[4101013] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101013,
+  ["JackpotID"]= 302,
+  ["position_y"]= -0.4,
+  ["quality"]= 1,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101013
+},
+[4101014] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101014,
+  ["JackpotID"]= 303,
+  ["position_y"]= -0.4,
+  ["quality"]= 4,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101014
+},
+[4101016] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101016,
+  ["JackpotID"]= 304,
+  ["position_y"]= -0.4,
+  ["quality"]= 4,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101016
+},
+[4101018] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101018,
+  ["JackpotID"]= 304,
+  ["position_y"]= -0.4,
+  ["quality"]= 4,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101018
+},
+[4101020] = {
+  ["camera_size"]= 1.35,
+  ["id"]= 4101020,
+  ["JackpotID"]= 304,
+  ["position_x"]= -0.063,
+  ["position_y"]= -0.25,
+  ["quality"]= 4,
+  ["rotation_z"]= -105.12,
+  ["sequence"]= 4101020
+},
+[4101022] = {
+  ["camera_size"]= 1.15,
+  ["id"]= 4101022,
+  ["JackpotID"]= 304,
+  ["position_x"]= -0.022,
+  ["position_y"]= -0.25,
+  ["quality"]= 4,
+  ["rotation_z"]= -90,
+  ["sequence"]= 4101022
+},
+[4101024] = {
+  ["camera_size"]= 1.05,
+  ["id"]= 4101024,
+  ["JackpotID"]= 304,
+  ["position_x"]= -0.078,
+  ["position_y"]= -0.25,
+  ["quality"]= 4,
+  ["rotation_x"]= 0.544,
+  ["rotation_y"]= -3.115,
+  ["rotation_z"]= -110.989,
+  ["sequence"]= 4101024
+},
+[4101028] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101028,
+  ["JackpotID"]= 304,
+  ["position_y"]= -0.4,
+  ["quality"]= 4,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101028
+},
+[4101031] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101031,
+  ["JackpotID"]= 301,
+  ["position_y"]= -0.4,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101031
+},
+[4101039] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101039,
+  ["JackpotID"]= 302,
+  ["position_y"]= -0.4,
+  ["quality"]= 1,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101039
+},
+[4101040] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101040,
+  ["JackpotID"]= 302,
+  ["position_y"]= -0.4,
+  ["ProbabilityID"]= 2,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101040
+},
+[4101041] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101041,
+  ["JackpotID"]= 303,
+  ["position_y"]= -0.25,
+  ["quality"]= 4,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101041
+},
+[4101044] = {
+  ["camera_size"]= 0.85,
+  ["id"]= 4101044,
+  ["JackpotID"]= 301,
+  ["position_x"]= -0.07,
+  ["position_y"]= -0.35,
+  ["ProbabilityID"]= 2,
+  ["quality"]= 1,
+  ["rotation_z"]= -115,
+  ["sequence"]= 4101044
+},
+[4101045] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101045,
+  ["JackpotID"]= 302,
+  ["position_y"]= -0.4,
+  ["quality"]= 1,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101045
+},
+[4101047] = {
+  ["camera_size"]= 0.95,
+  ["id"]= 4101047,
+  ["JackpotID"]= 302,
+  ["position_x"]= -0.07,
+  ["position_y"]= -0.2,
+  ["quality"]= 1,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101047
+},
+[4101049] = {
+  ["camera_size"]= 0.85,
+  ["id"]= 4101049,
+  ["JackpotID"]= 301,
+  ["position_x"]= -0.07,
+  ["position_y"]= -0.4,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101049
+},
+[4101050] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101050,
+  ["JackpotID"]= 302,
+  ["position_y"]= -0.4,
+  ["quality"]= 1,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101050
+},
+[4101052] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101052,
+  ["JackpotID"]= 302,
+  ["position_y"]= -0.4,
+  ["ProbabilityID"]= 2,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101052
+},
+[4101053] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101053,
+  ["JackpotID"]= 304,
+  ["position_y"]= -0.4,
+  ["quality"]= 4,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101053
+},
+[4101054] = {
+  ["camera_size"]= 0.95,
+  ["id"]= 4101054,
+  ["JackpotID"]= 301,
+  ["position_x"]= -0.05,
+  ["position_y"]= -0.15,
+  ["ProbabilityID"]= 2,
+  ["quality"]= 1,
+  ["rotation_z"]= -110,
+  ["sequence"]= 4101054
+},
+[4101056] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101056,
+  ["JackpotID"]= 302,
+  ["position_y"]= -0.4,
+  ["quality"]= 1,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101056
+},
+[4101058] = {
+  ["camera_size"]= 0.85,
+  ["id"]= 4101058,
+  ["JackpotID"]= 301,
+  ["position_x"]= -0.07,
+  ["position_y"]= -0.45,
+  ["ProbabilityID"]= 2,
+  ["quality"]= 1,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101058
+},
+[4101060] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101060,
+  ["JackpotID"]= 301,
+  ["position_y"]= -0.4,
+  ["ProbabilityID"]= 2,
+  ["quality"]= 1,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101060
+},
+[4101061] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101061,
+  ["JackpotID"]= 301,
+  ["position_y"]= -0.4,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101061
+},
+[4101069] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101069,
+  ["JackpotID"]= 303,
+  ["position_y"]= -0.4,
+  ["quality"]= 4,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101069
+},
+[4101070] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101070,
+  ["JackpotID"]= 303,
+  ["position_y"]= -0.25,
+  ["quality"]= 4,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101070
+},
+[4101083] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101083,
+  ["JackpotID"]= 302,
+  ["position_y"]= -0.4,
+  ["quality"]= 1,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101083
+},
+[4101094] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101094,
+  ["JackpotID"]= 302,
+  ["position_y"]= -0.4,
+  ["ProbabilityID"]= 2,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101094
+},
+[4101095] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101095,
+  ["JackpotID"]= 301,
+  ["position_x"]= -0.07,
+  ["position_y"]= -0.35,
+  ["rotation_z"]= -110,
+  ["sequence"]= 4101095
+},
+[4101096] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101096,
+  ["JackpotID"]= 301,
+  ["position_x"]= -0.07,
+  ["position_y"]= -0.47,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101096
+},
+[4101097] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101097,
+  ["JackpotID"]= 302,
+  ["position_y"]= -0.4,
+  ["ProbabilityID"]= 2,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101097
+},
+[4101098] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101098,
+  ["JackpotID"]= 302,
+  ["position_y"]= -0.4,
+  ["ProbabilityID"]= 2,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101098
+},
+[4101099] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101099,
+  ["JackpotID"]= 301,
+  ["position_y"]= -0.4,
+  ["ProbabilityID"]= 2,
+  ["quality"]= 1,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101099
+},
+[4101128] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101128,
+  ["JackpotID"]= 301,
+  ["position_y"]= -0.4,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101128
+},
+[4101129] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101129,
+  ["JackpotID"]= 301,
+  ["position_y"]= -0.4,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101129
+},
+[4101131] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101131,
+  ["JackpotID"]= 301,
+  ["position_y"]= -0.4,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101131
+},
+[4101136] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101136,
+  ["JackpotID"]= 301,
+  ["position_y"]= -0.4,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101136
+},
+[4101137] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101137,
+  ["JackpotID"]= 301,
+  ["position_y"]= -0.4,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101137
+},
+[4101145] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101145,
+  ["JackpotID"]= 301,
+  ["position_y"]= -0.4,
+  ["ProbabilityID"]= 2,
+  ["quality"]= 1,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101145
+},
+[4101148] = {
+  ["camera_size"]= 1.15,
+  ["id"]= 4101148,
+  ["JackpotID"]= 301,
+  ["position_y"]= -0.75,
+  ["ProbabilityID"]= 2,
+  ["quality"]= 1,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101148
+},
+[4101150] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101150,
+  ["JackpotID"]= 302,
+  ["position_y"]= -0.4,
+  ["quality"]= 1,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101150
+},
+[4101153] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101153,
+  ["JackpotID"]= 302,
+  ["position_y"]= -0.4,
+  ["ProbabilityID"]= 2,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101153
+},
+[4101154] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101154,
+  ["JackpotID"]= 302,
+  ["position_y"]= -0.4,
+  ["ProbabilityID"]= 2,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101154
+},
+[4101155] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101155,
+  ["JackpotID"]= 302,
+  ["position_y"]= -0.4,
+  ["ProbabilityID"]= 2,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101155
+},
+[4101158] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101158,
+  ["JackpotID"]= 302,
+  ["position_y"]= -0.4,
+  ["quality"]= 1,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101158
+},
+[4101171] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101171,
+  ["JackpotID"]= 304,
+  ["position_y"]= -0.4,
+  ["quality"]= 4,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101171
+},
+[4101172] = {
+  ["camera_size"]= 0.9,
+  ["id"]= 4101172,
+  ["JackpotID"]= 303,
+  ["position_y"]= -0.4,
+  ["quality"]= 4,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101172
+},
+[4101501] = {
+  ["camera_size"]= 0.95,
+  ["id"]= 4101501,
+  ["JackpotID"]= 302,
+  ["position_x"]= -0.045,
+  ["position_y"]= -0.25,
+  ["quality"]= 1,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4101501
+},
+[4102011] = {
+  ["id"]= 4102011,
+  ["JackpotID"]= 303,
+  ["quality"]= 4,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4102011
+},
+[4102040] = {
+  ["id"]= 4102040,
+  ["JackpotID"]= 305,
+  ["position_x"]= -0.25,
+  ["position_y"]= 0.05,
+  ["quality"]= 3,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4102040
+},
+[4103001] = {
+  ["id"]= 4103001,
+  ["JackpotID"]= 303,
+  ["position_x"]= -0.24,
+  ["position_y"]= 0.05,
+  ["quality"]= 4,
+  ["rotation_z"]= -100,
+  ["sequence"]= 4103001
+},
+[10101001] = {
+  ["id"]= 10101001,
+  ["JackpotID"]= 201,
+  ["quality"]= 1,
+  ["sequence"]= 10101001
+},
+[10101002] = {
+  ["id"]= 10101002,
+  ["JackpotID"]= 201,
+  ["quality"]= 1,
+  ["sequence"]= 10101002
+},
+[10101003] = {
+  ["id"]= 10101003,
+  ["JackpotID"]= 201,
+  ["quality"]= 1,
+  ["sequence"]= 10101003
+},
+[10101004] = {
+  ["id"]= 10101004,
+  ["JackpotID"]= 201,
+  ["quality"]= 1,
+  ["sequence"]= 10101004
+},
+[10101005] = {
+  ["id"]= 10101005,
+  ["JackpotID"]= 201,
+  ["sequence"]= 10101005
+},
+[10101006] = {
+  ["id"]= 10101006,
+  ["JackpotID"]= 201,
+  ["quality"]= 1,
+  ["sequence"]= 10101006
+},
+[10101007] = {
+  ["id"]= 10101007,
+  ["JackpotID"]= 202,
+  ["sequence"]= 10101007
+},
+[10101008] = {
+  ["id"]= 10101008,
+  ["JackpotID"]= 201,
+  ["quality"]= 1,
+  ["sequence"]= 10101008
+},
+[10101009] = {
+  ["id"]= 10101009,
+  ["JackpotID"]= 201,
+  ["sequence"]= 10101009
+},
+[10101010] = {
+  ["id"]= 10101010,
+  ["JackpotID"]= 201,
+  ["quality"]= 1,
+  ["sequence"]= 10101010
+},
+[10101011] = {
+  ["id"]= 10101011,
+  ["JackpotID"]= 201,
+  ["sequence"]= 10101011
+},
+[10101013] = {
+  ["id"]= 10101013,
+  ["JackpotID"]= 201,
+  ["quality"]= 1,
+  ["sequence"]= 10101013
+},
+[10101015] = {
+  ["id"]= 10101015,
+  ["JackpotID"]= 202,
+  ["quality"]= 1,
+  ["sequence"]= 10101015
+},
+[10101016] = {
+  ["id"]= 10101016,
+  ["JackpotID"]= 202,
+  ["quality"]= 1,
+  ["sequence"]= 10101016
+},
+[10101017] = {
+  ["id"]= 10101017,
+  ["JackpotID"]= 202,
+  ["sequence"]= 10101017
+},
+[10101019] = {
+  ["id"]= 10101019,
+  ["JackpotID"]= 205,
+  ["sequence"]= 10101019
+},
+[10101020] = {
+  ["id"]= 10101020,
+  ["JackpotID"]= 205,
+  ["sequence"]= 10101020
+},
+[10101021] = {
+  ["id"]= 10101021,
+  ["JackpotID"]= 201,
+  ["quality"]= 1,
+  ["sequence"]= 10101021
+},
+[10101022] = {
+  ["id"]= 10101022,
+  ["JackpotID"]= 201,
+  ["sequence"]= 10101022
+},
+[10101023] = {
+  ["id"]= 10101023,
+  ["JackpotID"]= 201,
+  ["quality"]= 1,
+  ["sequence"]= 10101023
+},
+[10101024] = {
+  ["id"]= 10101024,
+  ["JackpotID"]= 202,
+  ["quality"]= 1,
+  ["sequence"]= 10101024
+},
+[10101025] = {
+  ["id"]= 10101025,
+  ["JackpotID"]= 201,
+  ["quality"]= 1,
+  ["sequence"]= 10101025
+},
+[10101026] = {
+  ["id"]= 10101026,
+  ["JackpotID"]= 202,
+  ["quality"]= 1,
+  ["sequence"]= 10101026
+},
+[10101027] = {
+  ["id"]= 10101027,
+  ["JackpotID"]= 202,
+  ["quality"]= 1,
+  ["sequence"]= 10101027
+},
+[10101028] = {
+  ["id"]= 10101028,
+  ["JackpotID"]= 202,
+  ["quality"]= 1,
+  ["sequence"]= 10101028
+},
+[10101029] = {
+  ["id"]= 10101029,
+  ["JackpotID"]= 202,
+  ["sequence"]= 10101029
+},
+[10101030] = {
+  ["id"]= 10101030,
+  ["JackpotID"]= 202,
+  ["quality"]= 1,
+  ["sequence"]= 10101030
+},
+[10101031] = {
+  ["id"]= 10101031,
+  ["JackpotID"]= 202,
+  ["quality"]= 1,
+  ["sequence"]= 10101031
+},
+[10101032] = {
+  ["id"]= 10101032,
+  ["JackpotID"]= 202,
+  ["quality"]= 1,
+  ["sequence"]= 10101032
+},
+[10101033] = {
+  ["id"]= 10101033,
+  ["JackpotID"]= 201,
+  ["sequence"]= 10101033
+},
+[10101034] = {
+  ["id"]= 10101034,
+  ["JackpotID"]= 201,
+  ["sequence"]= 10101034
+},
+[10101035] = {
+  ["id"]= 10101035,
+  ["JackpotID"]= 202,
+  ["quality"]= 1,
+  ["sequence"]= 10101035
+},
+[10101036] = {
+  ["id"]= 10101036,
+  ["JackpotID"]= 202,
+  ["quality"]= 1,
+  ["sequence"]= 10101036
+},
+[10101037] = {
+  ["id"]= 10101037,
+  ["JackpotID"]= 205,
+  ["sequence"]= 10101037
+},
+[10101038] = {
+  ["id"]= 10101038,
+  ["JackpotID"]= 205,
+  ["sequence"]= 10101038
+},
+[10101039] = {
+  ["id"]= 10101039,
+  ["JackpotID"]= 205,
+  ["sequence"]= 10101039
+},
+[10101040] = {
+  ["id"]= 10101040,
+  ["JackpotID"]= 201,
+  ["sequence"]= 10101040
+},
+[10101041] = {
+  ["id"]= 10101041,
+  ["JackpotID"]= 205,
+  ["sequence"]= 10101041
+},
+[10101043] = {
+  ["id"]= 10101043,
+  ["JackpotID"]= 206,
+  ["quality"]= 3,
+  ["sequence"]= 10101043
+},
+[10101046] = {
+  ["id"]= 10101046,
+  ["JackpotID"]= 203,
+  ["quality"]= 4,
+  ["sequence"]= 10101046
+},
+[10101047] = {
+  ["id"]= 10101047,
+  ["JackpotID"]= 202,
+  ["quality"]= 1,
+  ["sequence"]= 10101047
+},
+[10101048] = {
+  ["id"]= 10101048,
+  ["JackpotID"]= 201,
+  ["sequence"]= 10101048
+},
+[10101049] = {
+  ["id"]= 10101049,
+  ["JackpotID"]= 205,
+  ["sequence"]= 10101049
+},
+[10101050] = {
+  ["id"]= 10101050,
+  ["JackpotID"]= 202,
+  ["sequence"]= 10101050
+},
+[10101051] = {
+  ["id"]= 10101051,
+  ["JackpotID"]= 202,
+  ["sequence"]= 10101051
+},
+[10101058] = {
+  ["id"]= 10101058,
+  ["JackpotID"]= 201,
+  ["sequence"]= 10101058
+},
+[10101059] = {
+  ["id"]= 10101059,
+  ["JackpotID"]= 201,
+  ["sequence"]= 10101059
+},
+[10101060] = {
+  ["id"]= 10101060,
+  ["JackpotID"]= 202,
+  ["quality"]= 1,
+  ["sequence"]= 10101060
+},
+[10101061] = {
+  ["id"]= 10101061,
+  ["JackpotID"]= 202,
+  ["sequence"]= 10101061
+},
+[10101062] = {
+  ["id"]= 10101062,
+  ["JackpotID"]= 202,
+  ["sequence"]= 10101062
+},
+[10101063] = {
+  ["id"]= 10101063,
+  ["JackpotID"]= 202,
+  ["sequence"]= 10101063
+},
+[10101064] = {
+  ["id"]= 10101064,
+  ["JackpotID"]= 202,
+  ["sequence"]= 10101064
+},
+[10101065] = {
+  ["id"]= 10101065,
+  ["JackpotID"]= 205,
+  ["sequence"]= 10101065
+},
+[10101066] = {
+  ["id"]= 10101066,
+  ["JackpotID"]= 205,
+  ["sequence"]= 10101066
+},
+[10101067] = {
+  ["id"]= 10101067,
+  ["JackpotID"]= 205,
+  ["sequence"]= 10101067
+},
+[10101068] = {
+  ["id"]= 10101068,
+  ["JackpotID"]= 205,
+  ["sequence"]= 10101068
+},
+[10101069] = {
+  ["id"]= 10101069,
+  ["JackpotID"]= 204,
+  ["quality"]= 4,
+  ["sequence"]= 10101069
+},
+[10101070] = {
+  ["id"]= 10101070,
+  ["JackpotID"]= 206,
+  ["quality"]= 3,
+  ["sequence"]= 10101070
+},
+[10101071] = {
+  ["id"]= 10101071,
+  ["JackpotID"]= 204,
+  ["quality"]= 4,
+  ["sequence"]= 10101071
+},
+[10101072] = {
+  ["id"]= 10101072,
+  ["JackpotID"]= 203,
+  ["quality"]= 4,
+  ["sequence"]= 10101072
+},
+[10101073] = {
+  ["id"]= 10101073,
+  ["JackpotID"]= 203,
+  ["quality"]= 4,
+  ["sequence"]= 10101073
+},
+[10101074] = {
+  ["id"]= 10101074,
+  ["JackpotID"]= 203,
+  ["quality"]= 4,
+  ["sequence"]= 10101074
+},
+[10101083] = {
+  ["id"]= 10101083,
+  ["JackpotID"]= 205,
+  ["sequence"]= 10101083
+},
+[10102001] = {
+  ["id"]= 10102001,
+  ["JackpotID"]= 201,
+  ["quality"]= 1,
+  ["sequence"]= 10102001
+},
+[10102002] = {
+  ["id"]= 10102002,
+  ["JackpotID"]= 201,
+  ["quality"]= 1,
+  ["sequence"]= 10102002
+},
+[10102003] = {
+  ["id"]= 10102003,
+  ["JackpotID"]= 201,
+  ["quality"]= 1,
+  ["sequence"]= 10102003
+},
+[10102004] = {
+  ["id"]= 10102004,
+  ["JackpotID"]= 201,
+  ["quality"]= 1,
+  ["sequence"]= 10102004
+},
+[10102005] = {
+  ["id"]= 10102005,
+  ["JackpotID"]= 201,
+  ["sequence"]= 10102005
+},
+[10102006] = {
+  ["id"]= 10102006,
+  ["JackpotID"]= 202,
+  ["quality"]= 1,
+  ["sequence"]= 10102006
+},
+[10102007] = {
+  ["id"]= 10102007,
+  ["JackpotID"]= 202,
+  ["quality"]= 1,
+  ["sequence"]= 10102007
+},
+[10102008] = {
+  ["id"]= 10102008,
+  ["JackpotID"]= 202,
+  ["sequence"]= 10102008
+},
+[10102009] = {
+  ["id"]= 10102009,
+  ["JackpotID"]= 202,
+  ["quality"]= 1,
+  ["sequence"]= 10102009
+},
+[10102010] = {
+  ["id"]= 10102010,
+  ["JackpotID"]= 201,
+  ["sequence"]= 10102010
+},
+[10102011] = {
+  ["id"]= 10102011,
+  ["JackpotID"]= 201,
+  ["quality"]= 1,
+  ["sequence"]= 10102011
+},
+[10102013] = {
+  ["id"]= 10102013,
+  ["JackpotID"]= 201,
+  ["quality"]= 1,
+  ["sequence"]= 10102013
+},
+[10102014] = {
+  ["id"]= 10102014,
+  ["JackpotID"]= 201,
+  ["sequence"]= 10102014
+},
+[10102015] = {
+  ["id"]= 10102015,
+  ["JackpotID"]= 202,
+  ["sequence"]= 10102015
+},
+[10102016] = {
+  ["id"]= 10102016,
+  ["JackpotID"]= 201,
+  ["quality"]= 1,
+  ["sequence"]= 10102016
+},
+[10102017] = {
+  ["id"]= 10102017,
+  ["JackpotID"]= 204,
+  ["quality"]= 4,
+  ["sequence"]= 10102017
+},
+[10102019] = {
+  ["id"]= 10102019,
+  ["JackpotID"]= 201,
+  ["quality"]= 1,
+  ["sequence"]= 10102019
+},
+[10102020] = {
+  ["id"]= 10102020,
+  ["JackpotID"]= 202,
+  ["quality"]= 1,
+  ["sequence"]= 10102020
+},
+[10102021] = {
+  ["id"]= 10102021,
+  ["JackpotID"]= 202,
+  ["sequence"]= 10102021
+},
+[10102025] = {
+  ["id"]= 10102025,
+  ["JackpotID"]= 201,
+  ["sequence"]= 10102025
+},
+[10102026] = {
+  ["id"]= 10102026,
+  ["JackpotID"]= 203,
+  ["quality"]= 4,
+  ["sequence"]= 10102026
+},
+[10102027] = {
+  ["id"]= 10102027,
+  ["JackpotID"]= 205,
+  ["sequence"]= 10102027
+},
+[10103001] = {
+  ["id"]= 10103001,
+  ["JackpotID"]= 201,
+  ["sequence"]= 10103001
+},
+[10103002] = {
+  ["id"]= 10103002,
+  ["JackpotID"]= 202,
+  ["quality"]= 1,
+  ["sequence"]= 10103002
+},
+[10103003] = {
+  ["id"]= 10103003,
+  ["JackpotID"]= 201,
+  ["quality"]= 1,
+  ["sequence"]= 10103003
+},
+[10103004] = {
+  ["id"]= 10103004,
+  ["JackpotID"]= 202,
+  ["quality"]= 1,
+  ["sequence"]= 10103004
+},
+[10103005] = {
+  ["id"]= 10103005,
+  ["JackpotID"]= 202,
+  ["quality"]= 1,
+  ["sequence"]= 10103005
+},
+[10103006] = {
+  ["id"]= 10103006,
+  ["JackpotID"]= 202,
+  ["quality"]= 1,
+  ["sequence"]= 10103006
+},
+[10103007] = {
+  ["id"]= 10103007,
+  ["JackpotID"]= 202,
+  ["sequence"]= 10103007
+},
+[10103008] = {
+  ["id"]= 10103008,
+  ["JackpotID"]= 202,
+  ["sequence"]= 10103008
+},
+[10103009] = {
+  ["id"]= 10103009,
+  ["JackpotID"]= 202,
+  ["sequence"]= 10103009
+},
+[10103010] = {
+  ["id"]= 10103010,
+  ["JackpotID"]= 205,
+  ["sequence"]= 10103010
+},
+[10103012] = {
+  ["id"]= 10103012,
+  ["JackpotID"]= 204,
+  ["quality"]= 4,
+  ["sequence"]= 10103012
+},
+[10103013] = {
+  ["id"]= 10103013,
+  ["JackpotID"]= 204,
+  ["quality"]= 4,
+  ["sequence"]= 10103013
+},
+[10103015] = {
+  ["id"]= 10103015,
+  ["JackpotID"]= 204,
+  ["quality"]= 4,
+  ["sequence"]= 10103015
+},
+[10103016] = {
+  ["id"]= 10103016,
+  ["JackpotID"]= 202,
+  ["sequence"]= 10103016
+},
+[10103018] = {
+  ["id"]= 10103018,
+  ["JackpotID"]= 201,
+  ["sequence"]= 10103018
+},
+[10103019] = {
+  ["id"]= 10103019,
+  ["JackpotID"]= 205,
+  ["sequence"]= 10103019
+},
+[10103020] = {
+  ["id"]= 10103020,
+  ["JackpotID"]= 205,
+  ["sequence"]= 10103020
+},
+[10103021] = {
+  ["id"]= 10103021,
+  ["JackpotID"]= 203,
+  ["quality"]= 4,
+  ["sequence"]= 10103021
+},
+[10104001] = {
+  ["id"]= 10104001,
+  ["JackpotID"]= 201,
+  ["quality"]= 1,
+  ["sequence"]= 10104001
+},
+[10104002] = {
+  ["id"]= 10104002,
+  ["JackpotID"]= 201,
+  ["quality"]= 1,
+  ["sequence"]= 10104002
+},
+[10104004] = {
+  ["id"]= 10104004,
+  ["JackpotID"]= 202,
+  ["quality"]= 1,
+  ["sequence"]= 10104004
+},
+[10104005] = {
+  ["id"]= 10104005,
+  ["JackpotID"]= 202,
+  ["quality"]= 1,
+  ["sequence"]= 10104005
+},
+[10104006] = {
+  ["id"]= 10104006,
+  ["JackpotID"]= 201,
+  ["sequence"]= 10104006
+},
+[10104007] = {
+  ["id"]= 10104007,
+  ["JackpotID"]= 202,
+  ["sequence"]= 10104007
+},
+[10104008] = {
+  ["id"]= 10104008,
+  ["JackpotID"]= 202,
+  ["sequence"]= 10104008
+},
+[10104009] = {
+  ["id"]= 10104009,
+  ["JackpotID"]= 205,
+  ["sequence"]= 10104009
+},
+[10104010] = {
+  ["id"]= 10104010,
+  ["JackpotID"]= 203,
+  ["quality"]= 4,
+  ["sequence"]= 10104010
+},
+[10104016] = {
+  ["id"]= 10104016,
+  ["JackpotID"]= 202,
+  ["sequence"]= 10104016
+},
+[10104017] = {
+  ["id"]= 10104017,
+  ["JackpotID"]= 204,
+  ["quality"]= 4,
+  ["sequence"]= 10104017
+},
+[10104018] = {
+  ["id"]= 10104018,
+  ["JackpotID"]= 203,
+  ["quality"]= 4,
+  ["sequence"]= 10104018
+},
+[10105001] = {
+  ["id"]= 10105001,
+  ["JackpotID"]= 201,
+  ["quality"]= 1,
+  ["sequence"]= 10105001
+},
+[10105002] = {
+  ["id"]= 10105002,
+  ["JackpotID"]= 201,
+  ["sequence"]= 10105002
+},
+[10105003] = {
+  ["id"]= 10105003,
+  ["JackpotID"]= 201,
+  ["sequence"]= 10105003
+},
+[10105004] = {
+  ["id"]= 10105004,
+  ["JackpotID"]= 201,
+  ["sequence"]= 10105004
+},
+[10105005] = {
+  ["id"]= 10105005,
+  ["JackpotID"]= 205,
+  ["sequence"]= 10105005
+},
+[10105006] = {
+  ["id"]= 10105006,
+  ["JackpotID"]= 202,
+  ["sequence"]= 10105006
+},
+[10105007] = {
+  ["id"]= 10105007,
+  ["JackpotID"]= 205,
+  ["sequence"]= 10105007
+},
+[10105008] = {
+  ["id"]= 10105008,
+  ["JackpotID"]= 205,
+  ["sequence"]= 10105008
+},
+[10105010] = {
+  ["id"]= 10105010,
+  ["JackpotID"]= 203,
+  ["quality"]= 4,
+  ["sequence"]= 10105010
+},
+[10105012] = {
+  ["id"]= 10105012,
+  ["JackpotID"]= 202,
+  ["quality"]= 1,
+  ["sequence"]= 10105012
+},
+[10105013] = {
+  ["id"]= 10105013,
+  ["JackpotID"]= 201,
+  ["sequence"]= 10105013
+},
+[10105018] = {
+  ["id"]= 10105018,
+  ["JackpotID"]= 204,
+  ["quality"]= 4,
+  ["sequence"]= 10105018
+},
+[10105019] = {
+  ["id"]= 10105019,
+  ["JackpotID"]= 204,
+  ["quality"]= 4,
+  ["sequence"]= 10105019
+},
+[10105020] = {
+  ["id"]= 10105020,
+  ["JackpotID"]= 204,
+  ["quality"]= 4,
+  ["sequence"]= 10105020
+},
+[10105021] = {
+  ["id"]= 10105021,
+  ["JackpotID"]= 203,
+  ["quality"]= 4,
+  ["sequence"]= 10105021
+},
+[10105022] = {
+  ["id"]= 10105022,
+  ["JackpotID"]= 203,
+  ["quality"]= 4,
+  ["sequence"]= 10105022
+},
+[10105028] = {
+  ["id"]= 10105028,
+  ["JackpotID"]= 205,
+  ["sequence"]= 10105028
+},
+[10105029] = {
+  ["id"]= 10105029,
+  ["JackpotID"]= 205,
+  ["sequence"]= 10105029
+},
+[10106001] = {
+  ["id"]= 10106001,
+  ["JackpotID"]= 201,
+  ["quality"]= 1,
+  ["sequence"]= 10106001
+},
+[10106002] = {
+  ["id"]= 10106002,
+  ["JackpotID"]= 201,
+  ["quality"]= 1,
+  ["sequence"]= 10106002
+},
+[10106003] = {
+  ["id"]= 10106003,
+  ["JackpotID"]= 201,
+  ["sequence"]= 10106003
+},
+[10106004] = {
+  ["id"]= 10106004,
+  ["JackpotID"]= 201,
+  ["quality"]= 1,
+  ["sequence"]= 10106004
+},
+[10106005] = {
+  ["id"]= 10106005,
+  ["JackpotID"]= 201,
+  ["sequence"]= 10106005
+},
+[10106006] = {
+  ["id"]= 10106006,
+  ["JackpotID"]= 201,
+  ["quality"]= 1,
+  ["sequence"]= 10106006
+},
+[10106007] = {
+  ["id"]= 10106007,
+  ["JackpotID"]= 201,
+  ["sequence"]= 10106007
+},
+[10106008] = {
+  ["id"]= 10106008,
+  ["JackpotID"]= 201,
+  ["quality"]= 1,
+  ["sequence"]= 10106008
+},
+[10106009] = {
+  ["id"]= 10106009,
+  ["JackpotID"]= 201,
+  ["sequence"]= 10106009
+},
+[10106010] = {
+  ["id"]= 10106010,
+  ["JackpotID"]= 202,
+  ["quality"]= 1,
+  ["sequence"]= 10106010
+},
+[10106011] = {
+  ["id"]= 10106011,
+  ["JackpotID"]= 202,
+  ["quality"]= 1,
+  ["sequence"]= 10106011
+},
+[10106012] = {
+  ["id"]= 10106012,
+  ["JackpotID"]= 202,
+  ["sequence"]= 10106012
+},
+[10106013] = {
+  ["id"]= 10106013,
+  ["JackpotID"]= 201,
+  ["sequence"]= 10106013
+},
+[10106014] = {
+  ["id"]= 10106014,
+  ["JackpotID"]= 201,
+  ["sequence"]= 10106014
+},
+[10106015] = {
+  ["id"]= 10106015,
+  ["JackpotID"]= 201,
+  ["sequence"]= 10106015
+},
+[10106016] = {
+  ["id"]= 10106016,
+  ["JackpotID"]= 202,
+  ["sequence"]= 10106016
+},
+[10106018] = {
+  ["id"]= 10106018,
+  ["JackpotID"]= 202,
+  ["sequence"]= 10106018
+},
+[10106019] = {
+  ["id"]= 10106019,
+  ["JackpotID"]= 202,
+  ["sequence"]= 10106019
+},
+[10106020] = {
+  ["id"]= 10106020,
+  ["JackpotID"]= 202,
+  ["sequence"]= 10106020
+},
+[10106021] = {
+  ["id"]= 10106021,
+  ["JackpotID"]= 205,
+  ["sequence"]= 10106021
+},
+[10106024] = {
+  ["id"]= 10106024,
+  ["JackpotID"]= 205,
+  ["sequence"]= 10106024
+},
+[10106026] = {
+  ["id"]= 10106026,
+  ["JackpotID"]= 206,
+  ["quality"]= 3,
+  ["sequence"]= 10106026
+},
+[10106027] = {
+  ["id"]= 10106027,
+  ["JackpotID"]= 202,
+  ["quality"]= 1,
+  ["sequence"]= 10106027
+},
+[10106028] = {
+  ["id"]= 10106028,
+  ["JackpotID"]= 202,
+  ["quality"]= 1,
+  ["sequence"]= 10106028
+},
+[10106032] = {
+  ["id"]= 10106032,
+  ["JackpotID"]= 202,
+  ["quality"]= 1,
+  ["sequence"]= 10106032
+},
+[10106033] = {
+  ["id"]= 10106033,
+  ["JackpotID"]= 205,
+  ["sequence"]= 10106033
+},
+[10106034] = {
+  ["id"]= 10106034,
+  ["JackpotID"]= 205,
+  ["sequence"]= 10106034
+},
+[10106036] = {
+  ["id"]= 10106036,
+  ["JackpotID"]= 206,
+  ["quality"]= 3,
+  ["sequence"]= 10106036
+},
+[10106037] = {
+  ["id"]= 10106037,
+  ["JackpotID"]= 206,
+  ["quality"]= 3,
+  ["sequence"]= 10106037
+},
+[10106038] = {
+  ["id"]= 10106038,
+  ["JackpotID"]= 204,
+  ["quality"]= 4,
+  ["sequence"]= 10106038
+},
+[10106039] = {
+  ["id"]= 10106039,
+  ["JackpotID"]= 204,
+  ["quality"]= 4,
+  ["sequence"]= 10106039
+},
+[10106040] = {
+  ["id"]= 10106040,
+  ["JackpotID"]= 203,
+  ["quality"]= 4,
+  ["sequence"]= 10106040
+},
+[10106047] = {
+  ["id"]= 10106047,
+  ["JackpotID"]= 205,
+  ["sequence"]= 10106047
+},
+[10106048] = {
+  ["id"]= 10106048,
+  ["JackpotID"]= 205,
+  ["sequence"]= 10106048
+},
+[10107001] = {
+  ["id"]= 10107001,
+  ["JackpotID"]= 201,
+  ["quality"]= 1,
+  ["sequence"]= 10107001
+},
+[10107002] = {
+  ["id"]= 10107002,
+  ["JackpotID"]= 201,
+  ["quality"]= 1,
+  ["sequence"]= 10107002
+},
+[10107006] = {
+  ["id"]= 10107006,
+  ["JackpotID"]= 201,
+  ["sequence"]= 10107006
+},
+[10107007] = {
+  ["id"]= 10107007,
+  ["JackpotID"]= 202,
+  ["quality"]= 1,
+  ["sequence"]= 10107007
+},
+[10107008] = {
+  ["id"]= 10107008,
+  ["JackpotID"]= 202,
+  ["sequence"]= 10107008
+},
+[10107009] = {
+  ["id"]= 10107009,
+  ["JackpotID"]= 202,
+  ["sequence"]= 10107009
+},
+[10107010] = {
+  ["id"]= 10107010,
+  ["JackpotID"]= 202,
+  ["sequence"]= 10107010
+},
+[10107011] = {
+  ["id"]= 10107011,
+  ["JackpotID"]= 202,
+  ["sequence"]= 10107011
+},
+[10107012] = {
+  ["id"]= 10107012,
+  ["JackpotID"]= 205,
+  ["sequence"]= 10107012
+},
+[10107013] = {
+  ["id"]= 10107013,
+  ["JackpotID"]= 202,
+  ["sequence"]= 10107013
+},
+[10107015] = {
+  ["id"]= 10107015,
+  ["JackpotID"]= 206,
+  ["quality"]= 3,
+  ["sequence"]= 10107015
+},
+[10107017] = {
+  ["id"]= 10107017,
+  ["JackpotID"]= 201,
+  ["sequence"]= 10107017
+},
+[10107018] = {
+  ["id"]= 10107018,
+  ["JackpotID"]= 205,
+  ["sequence"]= 10107018
+},
+[10412001] = {
+  ["id"]= 10412001,
+  ["quality"]= 4,
+  ["sequence"]= 10412001
+},
+[10412002] = {
+  ["id"]= 10412002,
+  ["quality"]= 4,
+  ["sequence"]= 10412002
+},
+[10412003] = {
+  ["id"]= 10412003,
+  ["quality"]= 4,
+  ["sequence"]= 10412003
+},
+[10412004] = {
+  ["id"]= 10412004,
+  ["quality"]= 4,
+  ["sequence"]= 10412004
+},
+[10412051] = {
+  ["id"]= 10412051,
+  ["quality"]= 4,
+  ["sequence"]= 10412051
+},
+[10412052] = {
+  ["id"]= 10412052,
+  ["quality"]= 4,
+  ["sequence"]= 10412052
+},
+[10412053] = {
+  ["id"]= 10412053,
+  ["quality"]= 4,
+  ["sequence"]= 10412053
+},
+[10412054] = {
+  ["id"]= 10412054,
+  ["quality"]= 4,
+  ["sequence"]= 10412054
+},
+[10412101] = {
+  ["id"]= 10412101,
+  ["quality"]= 4,
+  ["sequence"]= 10412101
+},
+[10412102] = {
+  ["id"]= 10412102,
+  ["quality"]= 4,
+  ["sequence"]= 10412102
+},
+[10412103] = {
+  ["id"]= 10412103,
+  ["quality"]= 4,
+  ["sequence"]= 10412103
+},
+[10412104] = {
+  ["id"]= 10412104,
+  ["quality"]= 4,
+  ["sequence"]= 10412104
+},
+[10412151] = {
+  ["id"]= 10412151,
+  ["quality"]= 4,
+  ["sequence"]= 10412151
+},
+[10412152] = {
+  ["id"]= 10412152,
+  ["quality"]= 4,
+  ["sequence"]= 10412152
+},
+[10412153] = {
+  ["id"]= 10412153,
+  ["quality"]= 4,
+  ["sequence"]= 10412153
+},
+[10412154] = {
+  ["id"]= 10412154,
+  ["quality"]= 4,
+  ["sequence"]= 10412154
+},
+[10412201] = {
+  ["id"]= 10412201,
+  ["quality"]= 4,
+  ["sequence"]= 10412201
+},
+[10412202] = {
+  ["id"]= 10412202,
+  ["quality"]= 4,
+  ["sequence"]= 10412202
+},
+[10412203] = {
+  ["id"]= 10412203,
+  ["quality"]= 4,
+  ["sequence"]= 10412203
+},
+[10412204] = {
+  ["id"]= 10412204,
+  ["quality"]= 4,
+  ["sequence"]= 10412204
+},
+[10412251] = {
+  ["id"]= 10412251,
+  ["quality"]= 4,
+  ["sequence"]= 10412251
+},
+[10412252] = {
+  ["id"]= 10412252,
+  ["quality"]= 4,
+  ["sequence"]= 10412252
+},
+[10412253] = {
+  ["id"]= 10412253,
+  ["quality"]= 4,
+  ["sequence"]= 10412253
+},
+[10412254] = {
+  ["id"]= 10412254,
+  ["quality"]= 4,
+  ["sequence"]= 10412254
+},
+[10412301] = {
+  ["id"]= 10412301,
+  ["quality"]= 4,
+  ["sequence"]= 10412301
+},
+[10412302] = {
+  ["id"]= 10412302,
+  ["quality"]= 4,
+  ["sequence"]= 10412302
+},
+[10412303] = {
+  ["id"]= 10412303,
+  ["quality"]= 4,
+  ["sequence"]= 10412303
+},
+[10412304] = {
+  ["id"]= 10412304,
+  ["quality"]= 4,
+  ["sequence"]= 10412304
+},
+[10412351] = {
+  ["id"]= 10412351,
+  ["quality"]= 4,
+  ["sequence"]= 10412351
+},
+[10412352] = {
+  ["id"]= 10412352,
+  ["quality"]= 4,
+  ["sequence"]= 10412352
+},
+[10412353] = {
+  ["id"]= 10412353,
+  ["quality"]= 4,
+  ["sequence"]= 10412353
+},
+[10412354] = {
+  ["id"]= 10412354,
+  ["quality"]= 4,
+  ["sequence"]= 10412354
+},
+[10412401] = {
+  ["id"]= 10412401,
+  ["quality"]= 4,
+  ["sequence"]= 10412401
+},
+[10412402] = {
+  ["id"]= 10412402,
+  ["quality"]= 4,
+  ["sequence"]= 10412402
+},
+[10412403] = {
+  ["id"]= 10412403,
+  ["quality"]= 4,
+  ["sequence"]= 10412403
+},
+[10412404] = {
+  ["id"]= 10412404,
+  ["quality"]= 4,
+  ["sequence"]= 10412404
+},
+[10412451] = {
+  ["id"]= 10412451,
+  ["quality"]= 4,
+  ["sequence"]= 10412451
+},
+[10412452] = {
+  ["id"]= 10412452,
+  ["quality"]= 4,
+  ["sequence"]= 10412452
+},
+[10412453] = {
+  ["id"]= 10412453,
+  ["quality"]= 4,
+  ["sequence"]= 10412453
+},
+[10412454] = {
+  ["id"]= 10412454,
+  ["quality"]= 4,
+  ["sequence"]= 10412454
+},
+[10412501] = {
+  ["id"]= 10412501,
+  ["ProbabilityID"]= 4,
+  ["quality"]= 1,
+  ["sequence"]= 10412501
+},
+[10412502] = {
+  ["id"]= 10412502,
+  ["ProbabilityID"]= 4,
+  ["quality"]= 1,
+  ["sequence"]= 10412502
+},
+[10412503] = {
+  ["id"]= 10412503,
+  ["ProbabilityID"]= 4,
+  ["quality"]= 1,
+  ["sequence"]= 10412503
+},
+[10412504] = {
+  ["id"]= 10412504,
+  ["ProbabilityID"]= 4,
+  ["quality"]= 1,
+  ["sequence"]= 10412504
+},
+[10412505] = {
+  ["id"]= 10412505,
+  ["ProbabilityID"]= 4,
+  ["quality"]= 1,
+  ["sequence"]= 10412505
+},
+[10412506] = {
+  ["id"]= 10412506,
+  ["ProbabilityID"]= 4,
+  ["quality"]= 1,
+  ["sequence"]= 10412506
+},
+[10412507] = {
+  ["id"]= 10412507,
+  ["ProbabilityID"]= 4,
+  ["quality"]= 1,
+  ["sequence"]= 10412507
+},
+[10412508] = {
+  ["id"]= 10412508,
+  ["ProbabilityID"]= 3,
+  ["sequence"]= 10412508
+},
+[10412509] = {
+  ["id"]= 10412509,
+  ["ProbabilityID"]= 3,
+  ["sequence"]= 10412509
+},
+[10412510] = {
+  ["id"]= 10412510,
+  ["ProbabilityID"]= 3,
+  ["sequence"]= 10412510
+},
+[10412511] = {
+  ["id"]= 10412511,
+  ["ProbabilityID"]= 3,
+  ["sequence"]= 10412511
+},
+[10412512] = {
+  ["id"]= 10412512,
+  ["ProbabilityID"]= 2,
+  ["quality"]= 3,
+  ["sequence"]= 10412512
+},
+[10412513] = {
+  ["id"]= 10412513,
+  ["ProbabilityID"]= 2,
+  ["quality"]= 3,
+  ["sequence"]= 10412513
+},
+[10412514] = {
+  ["id"]= 10412514,
+  ["ProbabilityID"]= 2,
+  ["quality"]= 3,
+  ["sequence"]= 10412514
+},
+[10412515] = {
+  ["id"]= 10412515,
+  ["ProbabilityID"]= 2,
+  ["quality"]= 3,
+  ["sequence"]= 10412515
+},
+[10412516] = {
+  ["id"]= 10412516,
+  ["ProbabilityID"]= 2,
+  ["quality"]= 3,
+  ["sequence"]= 10412516
+},
+[10412517] = {
+  ["id"]= 10412517,
+  ["ProbabilityID"]= 2,
+  ["quality"]= 3,
+  ["sequence"]= 10412517
+},
+[10412518] = {
+  ["id"]= 10412518,
+  ["ProbabilityID"]= 2,
+  ["quality"]= 3,
+  ["sequence"]= 10412518
+},
+[10412519] = {
+  ["id"]= 10412519,
+  ["ProbabilityID"]= 2,
+  ["quality"]= 3,
+  ["sequence"]= 10412519
+},
+[10412520] = {
+  ["id"]= 10412520,
+  ["ProbabilityID"]= 4,
+  ["quality"]= 1,
+  ["sequence"]= 10412520
+},
+[10412521] = {
+  ["id"]= 10412521,
+  ["ProbabilityID"]= 2,
+  ["quality"]= 3,
+  ["sequence"]= 10412521
+},
+[10412522] = {
+  ["id"]= 10412522,
+  ["ProbabilityID"]= 2,
+  ["quality"]= 3,
+  ["sequence"]= 10412522
+},
+[10412523] = {
+  ["id"]= 10412523,
+  ["ProbabilityID"]= 4,
+  ["quality"]= 1,
+  ["sequence"]= 10412523
+},
+[10412524] = {
+  ["id"]= 10412524,
+  ["ProbabilityID"]= 4,
+  ["quality"]= 1,
+  ["sequence"]= 10412524
+},
+[10412525] = {
+  ["id"]= 10412525,
+  ["ProbabilityID"]= 3,
+  ["sequence"]= 10412525
+},
+[10412526] = {
+  ["id"]= 10412526,
+  ["ProbabilityID"]= 3,
+  ["sequence"]= 10412526
+},
+[10412527] = {
+  ["id"]= 10412527,
+  ["ProbabilityID"]= 4,
+  ["quality"]= 1,
+  ["sequence"]= 10412527
+},
+[10412528] = {
+  ["id"]= 10412528,
+  ["ProbabilityID"]= 3,
+  ["sequence"]= 10412528
+},
+[10412529] = {
+  ["id"]= 10412529,
+  ["ProbabilityID"]= 2,
+  ["quality"]= 3,
+  ["sequence"]= 10412529
+}
+}
+local baseTable={
+  ["camera_size"]= 0.5,
+  ["camera_y"]= 0,
+  ["id"]= 1101002,
+  ["JackpotID"]= 401,
+  ["position_x"]= 0,
+  ["position_y"]= 0,
+  ["position_z"]= 0,
+  ["ProbabilityID"]= 1,
+  ["quality"]= 2,
+  ["rotation_x"]= 0,
+  ["rotation_y"]= 0,
+  ["rotation_z"]= 0,
+  ["sequence"]= 1101002
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

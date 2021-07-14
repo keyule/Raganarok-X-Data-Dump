@@ -1,0 +1,37 @@
+TextAsset Base
+	string m_Name = "data_Wedding_RedPacketTitle"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["Key"]= 2,
+  ["Value"]= "RedPacketTitle1002"
+},
+[3] = {
+  ["Key"]= 3,
+  ["Value"]= "RedPacketTitle1003"
+},
+[4] = {
+  ["Key"]= 4,
+  ["Value"]= "RedPacketTitle1004"
+},
+[5] = {
+  ["Key"]= 5,
+  ["Value"]= "RedPacketTitle1005"
+},
+[6] = {
+  ["Key"]= 6,
+  ["Value"]= "RedPacketTitle1006"
+},
+[7] = {
+  ["Key"]= 7,
+  ["Value"]= "RedPacketTitle1007"
+}
+}
+local baseTable={
+  ["Key"]= 1,
+  ["Value"]= "RedPacketTitle1001"
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

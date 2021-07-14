@@ -1,0 +1,402 @@
+TextAsset Base
+	string m_Name = "data_Lotto_LottoTicket"
+	string m_Script = "local table= {
+[1] = {
+  ["UnlockItemNum"]= 0
+},
+[2] = {
+  ["Id"]= 2,
+  ["UnlockItemNum"]= 300
+},
+[3] = {
+  ["Id"]= 3,
+  ["UnlockItemNum"]= 300
+},
+[4] = {
+  ["Id"]= 4,
+  ["UnlockItemNum"]= 300
+},
+[5] = {
+  ["Id"]= 5,
+  ["UnlockItemNum"]= 300
+},
+[6] = {
+  ["Id"]= 6,
+  ["UnlockItemNum"]= 300
+},
+[7] = {
+  ["Id"]= 7,
+  ["UnlockItemNum"]= 300
+},
+[8] = {
+  ["Id"]= 8,
+  ["UnlockItemNum"]= 300
+},
+[9] = {
+  ["Id"]= 9,
+  ["UnlockItemNum"]= 300
+},
+[10] = {
+  ["Id"]= 10,
+  ["UnlockItemNum"]= 300
+},
+[11] = {
+  ["Id"]= 11
+},
+[12] = {
+  ["Id"]= 12
+},
+[13] = {
+  ["Id"]= 13
+},
+[14] = {
+  ["Id"]= 14
+},
+[15] = {
+  ["Id"]= 15
+},
+[16] = {
+  ["Id"]= 16
+},
+[17] = {
+  ["Id"]= 17
+},
+[18] = {
+  ["Id"]= 18
+},
+[19] = {
+  ["Id"]= 19
+},
+[20] = {
+  ["Id"]= 20
+},
+[21] = {
+  ["Id"]= 21,
+  ["UnlockItemNum"]= 600
+},
+[22] = {
+  ["Id"]= 22,
+  ["UnlockItemNum"]= 600
+},
+[23] = {
+  ["Id"]= 23,
+  ["UnlockItemNum"]= 600
+},
+[24] = {
+  ["Id"]= 24,
+  ["UnlockItemNum"]= 600
+},
+[25] = {
+  ["Id"]= 25,
+  ["UnlockItemNum"]= 600
+},
+[26] = {
+  ["Id"]= 26,
+  ["UnlockItemNum"]= 600
+},
+[27] = {
+  ["Id"]= 27,
+  ["UnlockItemNum"]= 600
+},
+[28] = {
+  ["Id"]= 28,
+  ["UnlockItemNum"]= 600
+},
+[29] = {
+  ["Id"]= 29,
+  ["UnlockItemNum"]= 600
+},
+[30] = {
+  ["Id"]= 30,
+  ["UnlockItemNum"]= 600
+},
+[31] = {
+  ["Id"]= 31,
+  ["UnlockItemNum"]= 900
+},
+[32] = {
+  ["Id"]= 32,
+  ["UnlockItemNum"]= 900
+},
+[33] = {
+  ["Id"]= 33,
+  ["UnlockItemNum"]= 900
+},
+[34] = {
+  ["Id"]= 34,
+  ["UnlockItemNum"]= 900
+},
+[35] = {
+  ["Id"]= 35,
+  ["UnlockItemNum"]= 900
+},
+[36] = {
+  ["Id"]= 36,
+  ["UnlockItemNum"]= 900
+},
+[37] = {
+  ["Id"]= 37,
+  ["UnlockItemNum"]= 900
+},
+[38] = {
+  ["Id"]= 38,
+  ["UnlockItemNum"]= 900
+},
+[39] = {
+  ["Id"]= 39,
+  ["UnlockItemNum"]= 900
+},
+[40] = {
+  ["Id"]= 40,
+  ["UnlockItemNum"]= 900
+},
+[41] = {
+  ["Id"]= 41,
+  ["UnlockItemNum"]= 1200
+},
+[42] = {
+  ["Id"]= 42,
+  ["UnlockItemNum"]= 1200
+},
+[43] = {
+  ["Id"]= 43,
+  ["UnlockItemNum"]= 1200
+},
+[44] = {
+  ["Id"]= 44,
+  ["UnlockItemNum"]= 1200
+},
+[45] = {
+  ["Id"]= 45,
+  ["UnlockItemNum"]= 1200
+},
+[46] = {
+  ["Id"]= 46,
+  ["UnlockItemNum"]= 1200
+},
+[47] = {
+  ["Id"]= 47,
+  ["UnlockItemNum"]= 1200
+},
+[48] = {
+  ["Id"]= 48,
+  ["UnlockItemNum"]= 1200
+},
+[49] = {
+  ["Id"]= 49,
+  ["UnlockItemNum"]= 1200
+},
+[50] = {
+  ["Id"]= 50,
+  ["UnlockItemNum"]= 1200
+},
+[51] = {
+  ["Id"]= 51,
+  ["UnlockItemNum"]= 1500
+},
+[52] = {
+  ["Id"]= 52,
+  ["UnlockItemNum"]= 1500
+},
+[53] = {
+  ["Id"]= 53,
+  ["UnlockItemNum"]= 1500
+},
+[54] = {
+  ["Id"]= 54,
+  ["UnlockItemNum"]= 1500
+},
+[55] = {
+  ["Id"]= 55,
+  ["UnlockItemNum"]= 1500
+},
+[56] = {
+  ["Id"]= 56,
+  ["UnlockItemNum"]= 1500
+},
+[57] = {
+  ["Id"]= 57,
+  ["UnlockItemNum"]= 1500
+},
+[58] = {
+  ["Id"]= 58,
+  ["UnlockItemNum"]= 1500
+},
+[59] = {
+  ["Id"]= 59,
+  ["UnlockItemNum"]= 1500
+},
+[60] = {
+  ["Id"]= 60,
+  ["UnlockItemNum"]= 1500
+},
+[61] = {
+  ["Id"]= 61,
+  ["UnlockItemNum"]= 2000
+},
+[62] = {
+  ["Id"]= 62,
+  ["UnlockItemNum"]= 2000
+},
+[63] = {
+  ["Id"]= 63,
+  ["UnlockItemNum"]= 2000
+},
+[64] = {
+  ["Id"]= 64,
+  ["UnlockItemNum"]= 2000
+},
+[65] = {
+  ["Id"]= 65,
+  ["UnlockItemNum"]= 2000
+},
+[66] = {
+  ["Id"]= 66,
+  ["UnlockItemNum"]= 2000
+},
+[67] = {
+  ["Id"]= 67,
+  ["UnlockItemNum"]= 2000
+},
+[68] = {
+  ["Id"]= 68,
+  ["UnlockItemNum"]= 2000
+},
+[69] = {
+  ["Id"]= 69,
+  ["UnlockItemNum"]= 2000
+},
+[70] = {
+  ["Id"]= 70,
+  ["UnlockItemNum"]= 2000
+},
+[71] = {
+  ["Id"]= 71,
+  ["UnlockItemNum"]= 3000
+},
+[72] = {
+  ["Id"]= 72,
+  ["UnlockItemNum"]= 3000
+},
+[73] = {
+  ["Id"]= 73,
+  ["UnlockItemNum"]= 3000
+},
+[74] = {
+  ["Id"]= 74,
+  ["UnlockItemNum"]= 3000
+},
+[75] = {
+  ["Id"]= 75,
+  ["UnlockItemNum"]= 3000
+},
+[76] = {
+  ["Id"]= 76,
+  ["UnlockItemNum"]= 3000
+},
+[77] = {
+  ["Id"]= 77,
+  ["UnlockItemNum"]= 3000
+},
+[78] = {
+  ["Id"]= 78,
+  ["UnlockItemNum"]= 3000
+},
+[79] = {
+  ["Id"]= 79,
+  ["UnlockItemNum"]= 3000
+},
+[80] = {
+  ["Id"]= 80,
+  ["UnlockItemNum"]= 3000
+},
+[81] = {
+  ["Id"]= 81,
+  ["UnlockItemNum"]= 4000
+},
+[82] = {
+  ["Id"]= 82,
+  ["UnlockItemNum"]= 4000
+},
+[83] = {
+  ["Id"]= 83,
+  ["UnlockItemNum"]= 4000
+},
+[84] = {
+  ["Id"]= 84,
+  ["UnlockItemNum"]= 4000
+},
+[85] = {
+  ["Id"]= 85,
+  ["UnlockItemNum"]= 4000
+},
+[86] = {
+  ["Id"]= 86,
+  ["UnlockItemNum"]= 4000
+},
+[87] = {
+  ["Id"]= 87,
+  ["UnlockItemNum"]= 4000
+},
+[88] = {
+  ["Id"]= 88,
+  ["UnlockItemNum"]= 4000
+},
+[89] = {
+  ["Id"]= 89,
+  ["UnlockItemNum"]= 4000
+},
+[90] = {
+  ["Id"]= 90,
+  ["UnlockItemNum"]= 4000
+},
+[91] = {
+  ["Id"]= 91,
+  ["UnlockItemNum"]= 5000
+},
+[92] = {
+  ["Id"]= 92,
+  ["UnlockItemNum"]= 5000
+},
+[93] = {
+  ["Id"]= 93,
+  ["UnlockItemNum"]= 5000
+},
+[94] = {
+  ["Id"]= 94,
+  ["UnlockItemNum"]= 5000
+},
+[95] = {
+  ["Id"]= 95,
+  ["UnlockItemNum"]= 5000
+},
+[96] = {
+  ["Id"]= 96,
+  ["UnlockItemNum"]= 5000
+},
+[97] = {
+  ["Id"]= 97,
+  ["UnlockItemNum"]= 5000
+},
+[98] = {
+  ["Id"]= 98,
+  ["UnlockItemNum"]= 5000
+},
+[99] = {
+  ["Id"]= 99,
+  ["UnlockItemNum"]= 5000
+},
+[100] = {
+  ["Id"]= 100,
+  ["UnlockItemNum"]= 5000
+}
+}
+local baseTable={
+  ["Id"]= 1,
+  ["UnlockItemNum"]= 450,
+  ["UnlockItemType"]= 2
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

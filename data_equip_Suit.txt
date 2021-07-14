@@ -1,0 +1,1683 @@
+TextAsset Base
+	string m_Name = "data_equip_Suit"
+	string m_Script = "return {
+[1020] = {
+  ["attr"]= {
+    {
+      ["attrList"]= {
+        {
+          ["propId"]= 85,
+          ["propNum"]= 0.05
+        },
+        {
+          ["propId"]= 317,
+          ["propNum"]= 0.05
+        }
+      },
+      ["skillId"]= 0,
+      ["skillLevel"]= 0,
+      ["suitNum"]= 3
+    },
+    {
+      ["attrList"]= {
+        {
+          ["propId"]= 85,
+          ["propNum"]= 0.075
+        },
+        {
+          ["propId"]= 317,
+          ["propNum"]= 0.075
+        }
+      },
+      ["skillId"]= 0,
+      ["skillLevel"]= 0,
+      ["suitNum"]= 6
+    },
+    {
+      ["attrList"]= {
+        {
+          ["propId"]= 85,
+          ["propNum"]= 0.1
+        },
+        {
+          ["propId"]= 317,
+          ["propNum"]= 0.1
+        }
+      },
+      ["skillId"]= 0,
+      ["skillLevel"]= 0,
+      ["suitNum"]= 8
+    }
+  },
+  ["equipment"]= {
+    {
+      ["equip_id"]= 2101006,
+      ["equip_num"]= 1,
+      ["flag_num"]= 1
+    },
+    {
+      ["equip_id"]= 2101054,
+      ["equip_num"]= 1,
+      ["flag_num"]= 1
+    },
+    {
+      ["equip_id"]= 2101060,
+      ["equip_num"]= 1,
+      ["flag_num"]= 1
+    },
+    {
+      ["equip_id"]= 2101138,
+      ["equip_num"]= 1,
+      ["flag_num"]= 1
+    },
+    {
+      ["equip_id"]= 2101141,
+      ["equip_num"]= 1,
+      ["flag_num"]= 1
+    },
+    {
+      ["equip_id"]= 2101144,
+      ["equip_num"]= 1,
+      ["flag_num"]= 1
+    },
+    {
+      ["equip_id"]= 2101005,
+      ["equip_num"]= 1,
+      ["flag_num"]= 2
+    },
+    {
+      ["equip_id"]= 2101055,
+      ["equip_num"]= 1,
+      ["flag_num"]= 2
+    },
+    {
+      ["equip_id"]= 2101061,
+      ["equip_num"]= 1,
+      ["flag_num"]= 2
+    },
+    {
+      ["equip_id"]= 2101139,
+      ["equip_num"]= 1,
+      ["flag_num"]= 2
+    },
+    {
+      ["equip_id"]= 2101142,
+      ["equip_num"]= 1,
+      ["flag_num"]= 2
+    },
+    {
+      ["equip_id"]= 2101145,
+      ["equip_num"]= 1,
+      ["flag_num"]= 2
+    },
+    {
+      ["equip_id"]= 2101009,
+      ["equip_num"]= 1,
+      ["flag_num"]= 3
+    },
+    {
+      ["equip_id"]= 2101056,
+      ["equip_num"]= 1,
+      ["flag_num"]= 3
+    },
+    {
+      ["equip_id"]= 2101062,
+      ["equip_num"]= 1,
+      ["flag_num"]= 3
+    },
+    {
+      ["equip_id"]= 2101140,
+      ["equip_num"]= 1,
+      ["flag_num"]= 3
+    },
+    {
+      ["equip_id"]= 2101143,
+      ["equip_num"]= 1,
+      ["flag_num"]= 3
+    },
+    {
+      ["equip_id"]= 2101146,
+      ["equip_num"]= 1,
+      ["flag_num"]= 3
+    },
+    {
+      ["equip_id"]= 2102005,
+      ["equip_num"]= 1,
+      ["flag_num"]= 4
+    },
+    {
+      ["equip_id"]= 2102039,
+      ["equip_num"]= 1,
+      ["flag_num"]= 4
+    },
+    {
+      ["equip_id"]= 2102041,
+      ["equip_num"]= 1,
+      ["flag_num"]= 4
+    },
+    {
+      ["equip_id"]= 2102107,
+      ["equip_num"]= 1,
+      ["flag_num"]= 4
+    },
+    {
+      ["equip_id"]= 2102109,
+      ["equip_num"]= 1,
+      ["flag_num"]= 4
+    },
+    {
+      ["equip_id"]= 2102111,
+      ["equip_num"]= 1,
+      ["flag_num"]= 4
+    },
+    {
+      ["equip_id"]= 2102065,
+      ["equip_num"]= 1,
+      ["flag_num"]= 5
+    },
+    {
+      ["equip_id"]= 2102066,
+      ["equip_num"]= 1,
+      ["flag_num"]= 5
+    },
+    {
+      ["equip_id"]= 2102067,
+      ["equip_num"]= 1,
+      ["flag_num"]= 5
+    },
+    {
+      ["equip_id"]= 2102068,
+      ["equip_num"]= 1,
+      ["flag_num"]= 5
+    },
+    {
+      ["equip_id"]= 2102069,
+      ["equip_num"]= 1,
+      ["flag_num"]= 5
+    },
+    {
+      ["equip_id"]= 2102070,
+      ["equip_num"]= 1,
+      ["flag_num"]= 5
+    },
+    {
+      ["equip_id"]= 2102006,
+      ["equip_num"]= 1,
+      ["flag_num"]= 6
+    },
+    {
+      ["equip_id"]= 2102040,
+      ["equip_num"]= 1,
+      ["flag_num"]= 6
+    },
+    {
+      ["equip_id"]= 2102042,
+      ["equip_num"]= 1,
+      ["flag_num"]= 6
+    },
+    {
+      ["equip_id"]= 2102108,
+      ["equip_num"]= 1,
+      ["flag_num"]= 6
+    },
+    {
+      ["equip_id"]= 2102110,
+      ["equip_num"]= 1,
+      ["flag_num"]= 6
+    },
+    {
+      ["equip_id"]= 2102112,
+      ["equip_num"]= 1,
+      ["flag_num"]= 6
+    },
+    {
+      ["equip_id"]= 2103006,
+      ["equip_num"]= 1,
+      ["flag_num"]= 7
+    },
+    {
+      ["equip_id"]= 2103039,
+      ["equip_num"]= 1,
+      ["flag_num"]= 7
+    },
+    {
+      ["equip_id"]= 2103041,
+      ["equip_num"]= 1,
+      ["flag_num"]= 7
+    },
+    {
+      ["equip_id"]= 2103107,
+      ["equip_num"]= 1,
+      ["flag_num"]= 7
+    },
+    {
+      ["equip_id"]= 2103109,
+      ["equip_num"]= 1,
+      ["flag_num"]= 7
+    },
+    {
+      ["equip_id"]= 2103111,
+      ["equip_num"]= 1,
+      ["flag_num"]= 7
+    },
+    {
+      ["equip_id"]= 2103065,
+      ["equip_num"]= 1,
+      ["flag_num"]= 8
+    },
+    {
+      ["equip_id"]= 2103066,
+      ["equip_num"]= 1,
+      ["flag_num"]= 8
+    },
+    {
+      ["equip_id"]= 2103067,
+      ["equip_num"]= 1,
+      ["flag_num"]= 8
+    },
+    {
+      ["equip_id"]= 2103068,
+      ["equip_num"]= 1,
+      ["flag_num"]= 8
+    },
+    {
+      ["equip_id"]= 2103069,
+      ["equip_num"]= 1,
+      ["flag_num"]= 8
+    },
+    {
+      ["equip_id"]= 2103070,
+      ["equip_num"]= 1,
+      ["flag_num"]= 8
+    },
+    {
+      ["equip_id"]= 2103005,
+      ["equip_num"]= 1,
+      ["flag_num"]= 9
+    },
+    {
+      ["equip_id"]= 2103040,
+      ["equip_num"]= 1,
+      ["flag_num"]= 9
+    },
+    {
+      ["equip_id"]= 2103042,
+      ["equip_num"]= 1,
+      ["flag_num"]= 9
+    },
+    {
+      ["equip_id"]= 2103108,
+      ["equip_num"]= 1,
+      ["flag_num"]= 9
+    },
+    {
+      ["equip_id"]= 2103110,
+      ["equip_num"]= 1,
+      ["flag_num"]= 9
+    },
+    {
+      ["equip_id"]= 2103112,
+      ["equip_num"]= 1,
+      ["flag_num"]= 9
+    },
+    {
+      ["equip_id"]= 3101019,
+      ["equip_num"]= 2,
+      ["flag_num"]= 10
+    },
+    {
+      ["equip_id"]= 3101094,
+      ["equip_num"]= 2,
+      ["flag_num"]= 10
+    },
+    {
+      ["equip_id"]= 3101098,
+      ["equip_num"]= 2,
+      ["flag_num"]= 10
+    },
+    {
+      ["equip_id"]= 3101155,
+      ["equip_num"]= 2,
+      ["flag_num"]= 10
+    },
+    {
+      ["equip_id"]= 3101159,
+      ["equip_num"]= 2,
+      ["flag_num"]= 10
+    },
+    {
+      ["equip_id"]= 3101163,
+      ["equip_num"]= 2,
+      ["flag_num"]= 10
+    },
+    {
+      ["equip_id"]= 3101020,
+      ["equip_num"]= 2,
+      ["flag_num"]= 11
+    },
+    {
+      ["equip_id"]= 3101095,
+      ["equip_num"]= 2,
+      ["flag_num"]= 11
+    },
+    {
+      ["equip_id"]= 3101099,
+      ["equip_num"]= 2,
+      ["flag_num"]= 11
+    },
+    {
+      ["equip_id"]= 3101156,
+      ["equip_num"]= 2,
+      ["flag_num"]= 11
+    },
+    {
+      ["equip_id"]= 3101160,
+      ["equip_num"]= 2,
+      ["flag_num"]= 11
+    },
+    {
+      ["equip_id"]= 3101164,
+      ["equip_num"]= 2,
+      ["flag_num"]= 11
+    },
+    {
+      ["equip_id"]= 3101021,
+      ["equip_num"]= 2,
+      ["flag_num"]= 12
+    },
+    {
+      ["equip_id"]= 3101096,
+      ["equip_num"]= 2,
+      ["flag_num"]= 12
+    },
+    {
+      ["equip_id"]= 3101100,
+      ["equip_num"]= 2,
+      ["flag_num"]= 12
+    },
+    {
+      ["equip_id"]= 3101157,
+      ["equip_num"]= 2,
+      ["flag_num"]= 12
+    },
+    {
+      ["equip_id"]= 3101161,
+      ["equip_num"]= 2,
+      ["flag_num"]= 12
+    },
+    {
+      ["equip_id"]= 3101165,
+      ["equip_num"]= 2,
+      ["flag_num"]= 12
+    },
+    {
+      ["equip_id"]= 3101022,
+      ["equip_num"]= 2,
+      ["flag_num"]= 13
+    },
+    {
+      ["equip_id"]= 3101097,
+      ["equip_num"]= 2,
+      ["flag_num"]= 13
+    },
+    {
+      ["equip_id"]= 3101101,
+      ["equip_num"]= 2,
+      ["flag_num"]= 13
+    },
+    {
+      ["equip_id"]= 3101158,
+      ["equip_num"]= 2,
+      ["flag_num"]= 13
+    },
+    {
+      ["equip_id"]= 3101162,
+      ["equip_num"]= 2,
+      ["flag_num"]= 13
+    },
+    {
+      ["equip_id"]= 3101166,
+      ["equip_num"]= 2,
+      ["flag_num"]= 13
+    },
+    {
+      ["equip_id"]= 1101002,
+      ["equip_num"]= 1,
+      ["flag_num"]= 14
+    },
+    {
+      ["equip_id"]= 1101040,
+      ["equip_num"]= 1,
+      ["flag_num"]= 14
+    },
+    {
+      ["equip_id"]= 1101041,
+      ["equip_num"]= 1,
+      ["flag_num"]= 14
+    },
+    {
+      ["equip_id"]= 1101051,
+      ["equip_num"]= 1,
+      ["flag_num"]= 14
+    },
+    {
+      ["equip_id"]= 1101052,
+      ["equip_num"]= 1,
+      ["flag_num"]= 14
+    },
+    {
+      ["equip_id"]= 1101053,
+      ["equip_num"]= 1,
+      ["flag_num"]= 14
+    },
+    {
+      ["equip_id"]= 1102004,
+      ["equip_num"]= 1,
+      ["flag_num"]= 15
+    },
+    {
+      ["equip_id"]= 1102038,
+      ["equip_num"]= 1,
+      ["flag_num"]= 15
+    },
+    {
+      ["equip_id"]= 1102039,
+      ["equip_num"]= 1,
+      ["flag_num"]= 15
+    },
+    {
+      ["equip_id"]= 1102049,
+      ["equip_num"]= 1,
+      ["flag_num"]= 15
+    },
+    {
+      ["equip_id"]= 1102050,
+      ["equip_num"]= 1,
+      ["flag_num"]= 15
+    },
+    {
+      ["equip_id"]= 1102051,
+      ["equip_num"]= 1,
+      ["flag_num"]= 15
+    },
+    {
+      ["equip_id"]= 1103002,
+      ["equip_num"]= 1,
+      ["flag_num"]= 16
+    },
+    {
+      ["equip_id"]= 1103038,
+      ["equip_num"]= 1,
+      ["flag_num"]= 16
+    },
+    {
+      ["equip_id"]= 1103039,
+      ["equip_num"]= 1,
+      ["flag_num"]= 16
+    },
+    {
+      ["equip_id"]= 1103049,
+      ["equip_num"]= 1,
+      ["flag_num"]= 16
+    },
+    {
+      ["equip_id"]= 1103050,
+      ["equip_num"]= 1,
+      ["flag_num"]= 16
+    },
+    {
+      ["equip_id"]= 1103051,
+      ["equip_num"]= 1,
+      ["flag_num"]= 16
+    },
+    {
+      ["equip_id"]= 1104006,
+      ["equip_num"]= 1,
+      ["flag_num"]= 17
+    },
+    {
+      ["equip_id"]= 1104038,
+      ["equip_num"]= 1,
+      ["flag_num"]= 17
+    },
+    {
+      ["equip_id"]= 1104039,
+      ["equip_num"]= 1,
+      ["flag_num"]= 17
+    },
+    {
+      ["equip_id"]= 1104049,
+      ["equip_num"]= 1,
+      ["flag_num"]= 17
+    },
+    {
+      ["equip_id"]= 1104050,
+      ["equip_num"]= 1,
+      ["flag_num"]= 17
+    },
+    {
+      ["equip_id"]= 1104051,
+      ["equip_num"]= 1,
+      ["flag_num"]= 17
+    },
+    {
+      ["equip_id"]= 1304014,
+      ["equip_num"]= 1,
+      ["flag_num"]= 18
+    },
+    {
+      ["equip_id"]= 1304039,
+      ["equip_num"]= 1,
+      ["flag_num"]= 18
+    },
+    {
+      ["equip_id"]= 1304040,
+      ["equip_num"]= 1,
+      ["flag_num"]= 18
+    },
+    {
+      ["equip_id"]= 1304050,
+      ["equip_num"]= 1,
+      ["flag_num"]= 18
+    },
+    {
+      ["equip_id"]= 1304051,
+      ["equip_num"]= 1,
+      ["flag_num"]= 18
+    },
+    {
+      ["equip_id"]= 1304052,
+      ["equip_num"]= 1,
+      ["flag_num"]= 18
+    },
+    {
+      ["equip_id"]= 1305002,
+      ["equip_num"]= 1,
+      ["flag_num"]= 19
+    },
+    {
+      ["equip_id"]= 1305038,
+      ["equip_num"]= 1,
+      ["flag_num"]= 19
+    },
+    {
+      ["equip_id"]= 1305039,
+      ["equip_num"]= 1,
+      ["flag_num"]= 19
+    },
+    {
+      ["equip_id"]= 1305049,
+      ["equip_num"]= 1,
+      ["flag_num"]= 19
+    },
+    {
+      ["equip_id"]= 1305050,
+      ["equip_num"]= 1,
+      ["flag_num"]= 19
+    },
+    {
+      ["equip_id"]= 1305051,
+      ["equip_num"]= 1,
+      ["flag_num"]= 19
+    },
+    {
+      ["equip_id"]= 1301014,
+      ["equip_num"]= 1,
+      ["flag_num"]= 20
+    },
+    {
+      ["equip_id"]= 1301041,
+      ["equip_num"]= 1,
+      ["flag_num"]= 20
+    },
+    {
+      ["equip_id"]= 1301042,
+      ["equip_num"]= 1,
+      ["flag_num"]= 20
+    },
+    {
+      ["equip_id"]= 1301052,
+      ["equip_num"]= 1,
+      ["flag_num"]= 20
+    },
+    {
+      ["equip_id"]= 1301053,
+      ["equip_num"]= 1,
+      ["flag_num"]= 20
+    },
+    {
+      ["equip_id"]= 1301054,
+      ["equip_num"]= 1,
+      ["flag_num"]= 20
+    },
+    {
+      ["equip_id"]= 1107008,
+      ["equip_num"]= 1,
+      ["flag_num"]= 21
+    },
+    {
+      ["equip_id"]= 1107040,
+      ["equip_num"]= 1,
+      ["flag_num"]= 21
+    },
+    {
+      ["equip_id"]= 1107041,
+      ["equip_num"]= 1,
+      ["flag_num"]= 21
+    },
+    {
+      ["equip_id"]= 1107051,
+      ["equip_num"]= 1,
+      ["flag_num"]= 21
+    },
+    {
+      ["equip_id"]= 1107052,
+      ["equip_num"]= 1,
+      ["flag_num"]= 21
+    },
+    {
+      ["equip_id"]= 1107053,
+      ["equip_num"]= 1,
+      ["flag_num"]= 21
+    },
+    {
+      ["equip_id"]= 1303003,
+      ["equip_num"]= 1,
+      ["flag_num"]= 22
+    },
+    {
+      ["equip_id"]= 1303039,
+      ["equip_num"]= 1,
+      ["flag_num"]= 22
+    },
+    {
+      ["equip_id"]= 1303040,
+      ["equip_num"]= 1,
+      ["flag_num"]= 22
+    },
+    {
+      ["equip_id"]= 1303050,
+      ["equip_num"]= 1,
+      ["flag_num"]= 22
+    },
+    {
+      ["equip_id"]= 1303051,
+      ["equip_num"]= 1,
+      ["flag_num"]= 22
+    },
+    {
+      ["equip_id"]= 1303052,
+      ["equip_num"]= 1,
+      ["flag_num"]= 22
+    },
+    {
+      ["equip_id"]= 1306003,
+      ["equip_num"]= 1,
+      ["flag_num"]= 23
+    },
+    {
+      ["equip_id"]= 1306038,
+      ["equip_num"]= 1,
+      ["flag_num"]= 23
+    },
+    {
+      ["equip_id"]= 1306039,
+      ["equip_num"]= 1,
+      ["flag_num"]= 23
+    },
+    {
+      ["equip_id"]= 1306049,
+      ["equip_num"]= 1,
+      ["flag_num"]= 23
+    },
+    {
+      ["equip_id"]= 1306050,
+      ["equip_num"]= 1,
+      ["flag_num"]= 23
+    },
+    {
+      ["equip_id"]= 1306051,
+      ["equip_num"]= 1,
+      ["flag_num"]= 23
+    },
+    {
+      ["equip_id"]= 1302003,
+      ["equip_num"]= 1,
+      ["flag_num"]= 24
+    },
+    {
+      ["equip_id"]= 1302039,
+      ["equip_num"]= 1,
+      ["flag_num"]= 24
+    },
+    {
+      ["equip_id"]= 1302040,
+      ["equip_num"]= 1,
+      ["flag_num"]= 24
+    },
+    {
+      ["equip_id"]= 1302050,
+      ["equip_num"]= 1,
+      ["flag_num"]= 24
+    },
+    {
+      ["equip_id"]= 1302051,
+      ["equip_num"]= 1,
+      ["flag_num"]= 24
+    },
+    {
+      ["equip_id"]= 1302052,
+      ["equip_num"]= 1,
+      ["flag_num"]= 24
+    },
+    {
+      ["equip_id"]= 1105002,
+      ["equip_num"]= 2,
+      ["flag_num"]= 25
+    },
+    {
+      ["equip_id"]= 1105038,
+      ["equip_num"]= 2,
+      ["flag_num"]= 25
+    },
+    {
+      ["equip_id"]= 1105039,
+      ["equip_num"]= 2,
+      ["flag_num"]= 25
+    },
+    {
+      ["equip_id"]= 1105049,
+      ["equip_num"]= 2,
+      ["flag_num"]= 25
+    },
+    {
+      ["equip_id"]= 1105050,
+      ["equip_num"]= 2,
+      ["flag_num"]= 25
+    },
+    {
+      ["equip_id"]= 1105051,
+      ["equip_num"]= 2,
+      ["flag_num"]= 25
+    },
+    {
+      ["equip_id"]= 1201023,
+      ["equip_num"]= 1,
+      ["flag_num"]= 26
+    },
+    {
+      ["equip_id"]= 1201047,
+      ["equip_num"]= 1,
+      ["flag_num"]= 26
+    },
+    {
+      ["equip_id"]= 1201049,
+      ["equip_num"]= 1,
+      ["flag_num"]= 26
+    },
+    {
+      ["equip_id"]= 1201069,
+      ["equip_num"]= 1,
+      ["flag_num"]= 26
+    },
+    {
+      ["equip_id"]= 1201071,
+      ["equip_num"]= 1,
+      ["flag_num"]= 26
+    },
+    {
+      ["equip_id"]= 1201073,
+      ["equip_num"]= 1,
+      ["flag_num"]= 26
+    },
+    {
+      ["equip_id"]= 1201004,
+      ["equip_num"]= 1,
+      ["flag_num"]= 27
+    },
+    {
+      ["equip_id"]= 1201048,
+      ["equip_num"]= 1,
+      ["flag_num"]= 27
+    },
+    {
+      ["equip_id"]= 1201050,
+      ["equip_num"]= 1,
+      ["flag_num"]= 27
+    },
+    {
+      ["equip_id"]= 1201070,
+      ["equip_num"]= 1,
+      ["flag_num"]= 27
+    },
+    {
+      ["equip_id"]= 1201072,
+      ["equip_num"]= 1,
+      ["flag_num"]= 27
+    },
+    {
+      ["equip_id"]= 1201074,
+      ["equip_num"]= 1,
+      ["flag_num"]= 27
+    },
+    {
+      ["equip_id"]= 3201021,
+      ["equip_num"]= 1,
+      ["flag_num"]= 28
+    },
+    {
+      ["equip_id"]= 3201083,
+      ["equip_num"]= 1,
+      ["flag_num"]= 28
+    },
+    {
+      ["equip_id"]= 3201085,
+      ["equip_num"]= 1,
+      ["flag_num"]= 28
+    },
+    {
+      ["equip_id"]= 3201112,
+      ["equip_num"]= 1,
+      ["flag_num"]= 28
+    },
+    {
+      ["equip_id"]= 3201114,
+      ["equip_num"]= 1,
+      ["flag_num"]= 28
+    },
+    {
+      ["equip_id"]= 3201116,
+      ["equip_num"]= 1,
+      ["flag_num"]= 28
+    },
+    {
+      ["equip_id"]= 3201020,
+      ["equip_num"]= 1,
+      ["flag_num"]= 29
+    },
+    {
+      ["equip_id"]= 3201084,
+      ["equip_num"]= 1,
+      ["flag_num"]= 29
+    },
+    {
+      ["equip_id"]= 3201086,
+      ["equip_num"]= 1,
+      ["flag_num"]= 29
+    },
+    {
+      ["equip_id"]= 3201113,
+      ["equip_num"]= 1,
+      ["flag_num"]= 29
+    },
+    {
+      ["equip_id"]= 3201115,
+      ["equip_num"]= 1,
+      ["flag_num"]= 29
+    },
+    {
+      ["equip_id"]= 3201117,
+      ["equip_num"]= 1,
+      ["flag_num"]= 29
+    }
+  },
+  ["name"]= "SuitName1020",
+  ["stackOrNot"]= 0,
+  ["suitId"]= 1020,
+  ["wholeBodySuit"]= 1
+},
+[2020] = {
+  ["attr"]= {
+    {
+      ["attrList"]= {},
+      ["skillId"]= 82020000,
+      ["skillLevel"]= 1,
+      ["suitNum"]= 3
+    },
+    {
+      ["attrList"]= {},
+      ["skillId"]= 82020001,
+      ["skillLevel"]= 1,
+      ["suitNum"]= 6
+    },
+    {
+      ["attrList"]= {},
+      ["skillId"]= 82020002,
+      ["skillLevel"]= 1,
+      ["suitNum"]= 8
+    }
+  },
+  ["equipment"]= {
+    {
+      ["equip_id"]= 2101044,
+      ["equip_num"]= 1,
+      ["flag_num"]= 1
+    },
+    {
+      ["equip_id"]= 2101147,
+      ["equip_num"]= 1,
+      ["flag_num"]= 1
+    },
+    {
+      ["equip_id"]= 2101150,
+      ["equip_num"]= 1,
+      ["flag_num"]= 1
+    },
+    {
+      ["equip_id"]= 2101153,
+      ["equip_num"]= 1,
+      ["flag_num"]= 1
+    },
+    {
+      ["equip_id"]= 2101156,
+      ["equip_num"]= 1,
+      ["flag_num"]= 1
+    },
+    {
+      ["equip_id"]= 2101045,
+      ["equip_num"]= 1,
+      ["flag_num"]= 2
+    },
+    {
+      ["equip_id"]= 2101148,
+      ["equip_num"]= 1,
+      ["flag_num"]= 2
+    },
+    {
+      ["equip_id"]= 2101151,
+      ["equip_num"]= 1,
+      ["flag_num"]= 2
+    },
+    {
+      ["equip_id"]= 2101154,
+      ["equip_num"]= 1,
+      ["flag_num"]= 2
+    },
+    {
+      ["equip_id"]= 2101157,
+      ["equip_num"]= 1,
+      ["flag_num"]= 2
+    },
+    {
+      ["equip_id"]= 2101046,
+      ["equip_num"]= 1,
+      ["flag_num"]= 3
+    },
+    {
+      ["equip_id"]= 2101149,
+      ["equip_num"]= 1,
+      ["flag_num"]= 3
+    },
+    {
+      ["equip_id"]= 2101152,
+      ["equip_num"]= 1,
+      ["flag_num"]= 3
+    },
+    {
+      ["equip_id"]= 2101155,
+      ["equip_num"]= 1,
+      ["flag_num"]= 3
+    },
+    {
+      ["equip_id"]= 2101158,
+      ["equip_num"]= 1,
+      ["flag_num"]= 3
+    },
+    {
+      ["equip_id"]= 2102033,
+      ["equip_num"]= 1,
+      ["flag_num"]= 4
+    },
+    {
+      ["equip_id"]= 2102113,
+      ["equip_num"]= 1,
+      ["flag_num"]= 4
+    },
+    {
+      ["equip_id"]= 2102115,
+      ["equip_num"]= 1,
+      ["flag_num"]= 4
+    },
+    {
+      ["equip_id"]= 2102117,
+      ["equip_num"]= 1,
+      ["flag_num"]= 4
+    },
+    {
+      ["equip_id"]= 2102119,
+      ["equip_num"]= 1,
+      ["flag_num"]= 4
+    },
+    {
+      ["equip_id"]= 2102071,
+      ["equip_num"]= 1,
+      ["flag_num"]= 5
+    },
+    {
+      ["equip_id"]= 2102072,
+      ["equip_num"]= 1,
+      ["flag_num"]= 5
+    },
+    {
+      ["equip_id"]= 2102073,
+      ["equip_num"]= 1,
+      ["flag_num"]= 5
+    },
+    {
+      ["equip_id"]= 2102074,
+      ["equip_num"]= 1,
+      ["flag_num"]= 5
+    },
+    {
+      ["equip_id"]= 2102075,
+      ["equip_num"]= 1,
+      ["flag_num"]= 5
+    },
+    {
+      ["equip_id"]= 2102034,
+      ["equip_num"]= 1,
+      ["flag_num"]= 6
+    },
+    {
+      ["equip_id"]= 2102114,
+      ["equip_num"]= 1,
+      ["flag_num"]= 6
+    },
+    {
+      ["equip_id"]= 2102116,
+      ["equip_num"]= 1,
+      ["flag_num"]= 6
+    },
+    {
+      ["equip_id"]= 2102118,
+      ["equip_num"]= 1,
+      ["flag_num"]= 6
+    },
+    {
+      ["equip_id"]= 2102120,
+      ["equip_num"]= 1,
+      ["flag_num"]= 6
+    },
+    {
+      ["equip_id"]= 2103033,
+      ["equip_num"]= 1,
+      ["flag_num"]= 7
+    },
+    {
+      ["equip_id"]= 2103113,
+      ["equip_num"]= 1,
+      ["flag_num"]= 7
+    },
+    {
+      ["equip_id"]= 2103115,
+      ["equip_num"]= 1,
+      ["flag_num"]= 7
+    },
+    {
+      ["equip_id"]= 2103117,
+      ["equip_num"]= 1,
+      ["flag_num"]= 7
+    },
+    {
+      ["equip_id"]= 2103119,
+      ["equip_num"]= 1,
+      ["flag_num"]= 7
+    },
+    {
+      ["equip_id"]= 2103071,
+      ["equip_num"]= 1,
+      ["flag_num"]= 8
+    },
+    {
+      ["equip_id"]= 2103072,
+      ["equip_num"]= 1,
+      ["flag_num"]= 8
+    },
+    {
+      ["equip_id"]= 2103073,
+      ["equip_num"]= 1,
+      ["flag_num"]= 8
+    },
+    {
+      ["equip_id"]= 2103074,
+      ["equip_num"]= 1,
+      ["flag_num"]= 8
+    },
+    {
+      ["equip_id"]= 2103075,
+      ["equip_num"]= 1,
+      ["flag_num"]= 8
+    },
+    {
+      ["equip_id"]= 2103034,
+      ["equip_num"]= 1,
+      ["flag_num"]= 9
+    },
+    {
+      ["equip_id"]= 2103114,
+      ["equip_num"]= 1,
+      ["flag_num"]= 9
+    },
+    {
+      ["equip_id"]= 2103116,
+      ["equip_num"]= 1,
+      ["flag_num"]= 9
+    },
+    {
+      ["equip_id"]= 2103118,
+      ["equip_num"]= 1,
+      ["flag_num"]= 9
+    },
+    {
+      ["equip_id"]= 2103120,
+      ["equip_num"]= 1,
+      ["flag_num"]= 9
+    },
+    {
+      ["equip_id"]= 1201041,
+      ["equip_num"]= 1,
+      ["flag_num"]= 10
+    },
+    {
+      ["equip_id"]= 1201075,
+      ["equip_num"]= 1,
+      ["flag_num"]= 10
+    },
+    {
+      ["equip_id"]= 1201077,
+      ["equip_num"]= 1,
+      ["flag_num"]= 10
+    },
+    {
+      ["equip_id"]= 1201079,
+      ["equip_num"]= 1,
+      ["flag_num"]= 10
+    },
+    {
+      ["equip_id"]= 1201081,
+      ["equip_num"]= 1,
+      ["flag_num"]= 10
+    },
+    {
+      ["equip_id"]= 1201042,
+      ["equip_num"]= 1,
+      ["flag_num"]= 11
+    },
+    {
+      ["equip_id"]= 1201076,
+      ["equip_num"]= 1,
+      ["flag_num"]= 11
+    },
+    {
+      ["equip_id"]= 1201078,
+      ["equip_num"]= 1,
+      ["flag_num"]= 11
+    },
+    {
+      ["equip_id"]= 1201080,
+      ["equip_num"]= 1,
+      ["flag_num"]= 11
+    },
+    {
+      ["equip_id"]= 1201082,
+      ["equip_num"]= 1,
+      ["flag_num"]= 11
+    },
+    {
+      ["equip_id"]= 3201920,
+      ["equip_num"]= 1,
+      ["flag_num"]= 12
+    },
+    {
+      ["equip_id"]= 3201118,
+      ["equip_num"]= 1,
+      ["flag_num"]= 12
+    },
+    {
+      ["equip_id"]= 3201120,
+      ["equip_num"]= 1,
+      ["flag_num"]= 12
+    },
+    {
+      ["equip_id"]= 3201122,
+      ["equip_num"]= 1,
+      ["flag_num"]= 12
+    },
+    {
+      ["equip_id"]= 3201124,
+      ["equip_num"]= 1,
+      ["flag_num"]= 12
+    },
+    {
+      ["equip_id"]= 3201921,
+      ["equip_num"]= 1,
+      ["flag_num"]= 13
+    },
+    {
+      ["equip_id"]= 3201119,
+      ["equip_num"]= 1,
+      ["flag_num"]= 13
+    },
+    {
+      ["equip_id"]= 3201121,
+      ["equip_num"]= 1,
+      ["flag_num"]= 13
+    },
+    {
+      ["equip_id"]= 3201123,
+      ["equip_num"]= 1,
+      ["flag_num"]= 13
+    },
+    {
+      ["equip_id"]= 3201125,
+      ["equip_num"]= 1,
+      ["flag_num"]= 13
+    },
+    {
+      ["equip_id"]= 3101078,
+      ["equip_num"]= 2,
+      ["flag_num"]= 14
+    },
+    {
+      ["equip_id"]= 3101167,
+      ["equip_num"]= 2,
+      ["flag_num"]= 14
+    },
+    {
+      ["equip_id"]= 3101171,
+      ["equip_num"]= 2,
+      ["flag_num"]= 14
+    },
+    {
+      ["equip_id"]= 3101175,
+      ["equip_num"]= 2,
+      ["flag_num"]= 14
+    },
+    {
+      ["equip_id"]= 3101179,
+      ["equip_num"]= 2,
+      ["flag_num"]= 14
+    },
+    {
+      ["equip_id"]= 3101079,
+      ["equip_num"]= 2,
+      ["flag_num"]= 15
+    },
+    {
+      ["equip_id"]= 3101168,
+      ["equip_num"]= 2,
+      ["flag_num"]= 15
+    },
+    {
+      ["equip_id"]= 3101172,
+      ["equip_num"]= 2,
+      ["flag_num"]= 15
+    },
+    {
+      ["equip_id"]= 3101176,
+      ["equip_num"]= 2,
+      ["flag_num"]= 15
+    },
+    {
+      ["equip_id"]= 3101180,
+      ["equip_num"]= 2,
+      ["flag_num"]= 15
+    },
+    {
+      ["equip_id"]= 3101080,
+      ["equip_num"]= 2,
+      ["flag_num"]= 16
+    },
+    {
+      ["equip_id"]= 3101169,
+      ["equip_num"]= 2,
+      ["flag_num"]= 16
+    },
+    {
+      ["equip_id"]= 3101173,
+      ["equip_num"]= 2,
+      ["flag_num"]= 16
+    },
+    {
+      ["equip_id"]= 3101177,
+      ["equip_num"]= 2,
+      ["flag_num"]= 16
+    },
+    {
+      ["equip_id"]= 3101181,
+      ["equip_num"]= 2,
+      ["flag_num"]= 16
+    },
+    {
+      ["equip_id"]= 3101081,
+      ["equip_num"]= 2,
+      ["flag_num"]= 17
+    },
+    {
+      ["equip_id"]= 3101170,
+      ["equip_num"]= 2,
+      ["flag_num"]= 17
+    },
+    {
+      ["equip_id"]= 3101174,
+      ["equip_num"]= 2,
+      ["flag_num"]= 17
+    },
+    {
+      ["equip_id"]= 3101178,
+      ["equip_num"]= 2,
+      ["flag_num"]= 17
+    },
+    {
+      ["equip_id"]= 3101182,
+      ["equip_num"]= 2,
+      ["flag_num"]= 17
+    },
+    {
+      ["equip_id"]= 1101037,
+      ["equip_num"]= 1,
+      ["flag_num"]= 18
+    },
+    {
+      ["equip_id"]= 1101054,
+      ["equip_num"]= 1,
+      ["flag_num"]= 18
+    },
+    {
+      ["equip_id"]= 1101055,
+      ["equip_num"]= 1,
+      ["flag_num"]= 18
+    },
+    {
+      ["equip_id"]= 1101056,
+      ["equip_num"]= 1,
+      ["flag_num"]= 18
+    },
+    {
+      ["equip_id"]= 1101057,
+      ["equip_num"]= 1,
+      ["flag_num"]= 18
+    },
+    {
+      ["equip_id"]= 1102035,
+      ["equip_num"]= 1,
+      ["flag_num"]= 19
+    },
+    {
+      ["equip_id"]= 1102052,
+      ["equip_num"]= 1,
+      ["flag_num"]= 19
+    },
+    {
+      ["equip_id"]= 1102053,
+      ["equip_num"]= 1,
+      ["flag_num"]= 19
+    },
+    {
+      ["equip_id"]= 1102054,
+      ["equip_num"]= 1,
+      ["flag_num"]= 19
+    },
+    {
+      ["equip_id"]= 1102055,
+      ["equip_num"]= 1,
+      ["flag_num"]= 19
+    },
+    {
+      ["equip_id"]= 1104035,
+      ["equip_num"]= 1,
+      ["flag_num"]= 20
+    },
+    {
+      ["equip_id"]= 1104052,
+      ["equip_num"]= 1,
+      ["flag_num"]= 20
+    },
+    {
+      ["equip_id"]= 1104053,
+      ["equip_num"]= 1,
+      ["flag_num"]= 20
+    },
+    {
+      ["equip_id"]= 1104054,
+      ["equip_num"]= 1,
+      ["flag_num"]= 20
+    },
+    {
+      ["equip_id"]= 1104055,
+      ["equip_num"]= 1,
+      ["flag_num"]= 20
+    },
+    {
+      ["equip_id"]= 1103035,
+      ["equip_num"]= 1,
+      ["flag_num"]= 21
+    },
+    {
+      ["equip_id"]= 1103052,
+      ["equip_num"]= 1,
+      ["flag_num"]= 21
+    },
+    {
+      ["equip_id"]= 1103053,
+      ["equip_num"]= 1,
+      ["flag_num"]= 21
+    },
+    {
+      ["equip_id"]= 1103054,
+      ["equip_num"]= 1,
+      ["flag_num"]= 21
+    },
+    {
+      ["equip_id"]= 1103055,
+      ["equip_num"]= 1,
+      ["flag_num"]= 21
+    },
+    {
+      ["equip_id"]= 1107037,
+      ["equip_num"]= 1,
+      ["flag_num"]= 22
+    },
+    {
+      ["equip_id"]= 1107054,
+      ["equip_num"]= 1,
+      ["flag_num"]= 22
+    },
+    {
+      ["equip_id"]= 1107055,
+      ["equip_num"]= 1,
+      ["flag_num"]= 22
+    },
+    {
+      ["equip_id"]= 1107056,
+      ["equip_num"]= 1,
+      ["flag_num"]= 22
+    },
+    {
+      ["equip_id"]= 1107057,
+      ["equip_num"]= 1,
+      ["flag_num"]= 22
+    },
+    {
+      ["equip_id"]= 1303036,
+      ["equip_num"]= 1,
+      ["flag_num"]= 23
+    },
+    {
+      ["equip_id"]= 1303053,
+      ["equip_num"]= 1,
+      ["flag_num"]= 23
+    },
+    {
+      ["equip_id"]= 1303054,
+      ["equip_num"]= 1,
+      ["flag_num"]= 23
+    },
+    {
+      ["equip_id"]= 1303055,
+      ["equip_num"]= 1,
+      ["flag_num"]= 23
+    },
+    {
+      ["equip_id"]= 1303056,
+      ["equip_num"]= 1,
+      ["flag_num"]= 23
+    },
+    {
+      ["equip_id"]= 1304036,
+      ["equip_num"]= 1,
+      ["flag_num"]= 24
+    },
+    {
+      ["equip_id"]= 1304053,
+      ["equip_num"]= 1,
+      ["flag_num"]= 24
+    },
+    {
+      ["equip_id"]= 1304054,
+      ["equip_num"]= 1,
+      ["flag_num"]= 24
+    },
+    {
+      ["equip_id"]= 1304055,
+      ["equip_num"]= 1,
+      ["flag_num"]= 24
+    },
+    {
+      ["equip_id"]= 1304056,
+      ["equip_num"]= 1,
+      ["flag_num"]= 24
+    },
+    {
+      ["equip_id"]= 1305035,
+      ["equip_num"]= 1,
+      ["flag_num"]= 25
+    },
+    {
+      ["equip_id"]= 1305052,
+      ["equip_num"]= 1,
+      ["flag_num"]= 25
+    },
+    {
+      ["equip_id"]= 1305053,
+      ["equip_num"]= 1,
+      ["flag_num"]= 25
+    },
+    {
+      ["equip_id"]= 1305054,
+      ["equip_num"]= 1,
+      ["flag_num"]= 25
+    },
+    {
+      ["equip_id"]= 1305055,
+      ["equip_num"]= 1,
+      ["flag_num"]= 25
+    },
+    {
+      ["equip_id"]= 1301038,
+      ["equip_num"]= 1,
+      ["flag_num"]= 26
+    },
+    {
+      ["equip_id"]= 1301055,
+      ["equip_num"]= 1,
+      ["flag_num"]= 26
+    },
+    {
+      ["equip_id"]= 1301056,
+      ["equip_num"]= 1,
+      ["flag_num"]= 26
+    },
+    {
+      ["equip_id"]= 1301057,
+      ["equip_num"]= 1,
+      ["flag_num"]= 26
+    },
+    {
+      ["equip_id"]= 1301058,
+      ["equip_num"]= 1,
+      ["flag_num"]= 26
+    },
+    {
+      ["equip_id"]= 1306035,
+      ["equip_num"]= 1,
+      ["flag_num"]= 27
+    },
+    {
+      ["equip_id"]= 1306052,
+      ["equip_num"]= 1,
+      ["flag_num"]= 27
+    },
+    {
+      ["equip_id"]= 1306053,
+      ["equip_num"]= 1,
+      ["flag_num"]= 27
+    },
+    {
+      ["equip_id"]= 1306054,
+      ["equip_num"]= 1,
+      ["flag_num"]= 27
+    },
+    {
+      ["equip_id"]= 1306055,
+      ["equip_num"]= 1,
+      ["flag_num"]= 27
+    },
+    {
+      ["equip_id"]= 1302036,
+      ["equip_num"]= 1,
+      ["flag_num"]= 28
+    },
+    {
+      ["equip_id"]= 1302053,
+      ["equip_num"]= 1,
+      ["flag_num"]= 28
+    },
+    {
+      ["equip_id"]= 1302054,
+      ["equip_num"]= 1,
+      ["flag_num"]= 28
+    },
+    {
+      ["equip_id"]= 1302055,
+      ["equip_num"]= 1,
+      ["flag_num"]= 28
+    },
+    {
+      ["equip_id"]= 1302056,
+      ["equip_num"]= 1,
+      ["flag_num"]= 28
+    },
+    {
+      ["equip_id"]= 1105035,
+      ["equip_num"]= 2,
+      ["flag_num"]= 29
+    },
+    {
+      ["equip_id"]= 1105052,
+      ["equip_num"]= 2,
+      ["flag_num"]= 29
+    },
+    {
+      ["equip_id"]= 1105053,
+      ["equip_num"]= 2,
+      ["flag_num"]= 29
+    },
+    {
+      ["equip_id"]= 1105054,
+      ["equip_num"]= 2,
+      ["flag_num"]= 29
+    },
+    {
+      ["equip_id"]= 1105055,
+      ["equip_num"]= 2,
+      ["flag_num"]= 29
+    }
+  },
+  ["name"]= "SuitName2020",
+  ["stackOrNot"]= 0,
+  ["suitId"]= 2020,
+  ["wholeBodySuit"]= 1
+}
+}
+"

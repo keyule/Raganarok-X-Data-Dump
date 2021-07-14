@@ -1,0 +1,89 @@
+TextAsset Base
+	string m_Name = "data_EquipSlots"
+	string m_Script = "return {
+	[1] = {
+		["slot"] = {0},
+		["Name"] = "主手武器",
+		["SlotName"] = "SlotName_1",
+		["id"] = 1
+	},
+	[2] = {
+		["slot"] = {1},
+		["Name"] = "副手武器",
+		["SlotName"] = "SlotName_2",
+		["id"] = 2
+	},
+	[3] = {
+		["slot"] = {0,1},
+		["Name"] = "双手武器",
+		["SlotName"] = "SlotName_3",
+		["id"] = 3
+	},
+	[4] = {
+		["slot"] = {2},
+		["Name"] = "盔甲",
+		["SlotName"] = "SlotName_4",
+		["id"] = 4
+	},
+	[5] = {
+		["slot"] = {3},
+		["Name"] = "肩甲",
+		["SlotName"] = "SlotName_5",
+		["id"] = 5
+	},
+	[6] = {
+		["slot"] = {4},
+		["Name"] = "鞋子",
+		["SlotName"] = "SlotName_6",
+		["id"] = 6
+	},
+	[7] = {
+		["slot"] = {5,6},
+		["Name"] = "饰品",
+		["SlotName"] = "SlotName_7",
+		["id"] = 7
+	},
+	[8] = {
+		["slot"] = {7},
+		["Name"] = "头饰上段",
+		["SlotName"] = "SlotName_8",
+		["id"] = 8
+	},
+	[9] = {
+		["slot"] = {8},
+		["Name"] = "头饰中段",
+		["SlotName"] = "SlotName_9",
+		["id"] = 9
+	},
+	[10] = {
+		["slot"] = {9},
+		["Name"] = "头饰下段",
+		["SlotName"] = "SlotName_10",
+		["id"] = 10
+	},
+	[11] = {
+		["slot"] = {10},
+		["Name"] = "时装-背部",
+		["SlotName"] = "SlotName_11",
+		["id"] = 11
+	},
+	[12] = {
+		["slot"] = {11},
+		["Name"] = "时装-尾部",
+		["SlotName"] = "SlotName_12",
+		["id"] = 12
+	},
+	[13] = {
+		["slot"] = {12},
+		["Name"] = "时装-衣服",
+		["SlotName"] = "SlotName_13",
+		["id"] = 13
+	},
+	[14] = {
+		["slot"] = {13},
+		["Name"] = "时装-衣服",
+		["SlotName"] = "SlotName_14",
+		["id"] = 14
+	}
+}
+"

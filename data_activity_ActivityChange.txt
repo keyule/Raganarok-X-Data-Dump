@@ -1,0 +1,57 @@
+TextAsset Base
+	string m_Name = "data_activity_ActivityChange"
+	string m_Script = "local table= {
+[1] = {
+  ["NeedItemNum"]= 300
+},
+[2] = {
+  ["GetItemId"]= 10903061,
+  ["GoodsId"]= 2,
+  ["GoodsOrder"]= 2
+},
+[3] = {
+  ["GetItemId"]= 10903062,
+  ["GoodsId"]= 3,
+  ["GoodsOrder"]= 3
+},
+[4] = {
+  ["GetItemId"]= 10903063,
+  ["GoodsId"]= 4,
+  ["GoodsOrder"]= 4
+},
+[5] = {
+  ["ConfirmTips"]= "ConfirmTips1005",
+  ["GetItemId"]= 10204205,
+  ["GoodsId"]= 5,
+  ["GoodsOrder"]= 5,
+  ["GoodsType"]= 2,
+  ["IsConfirmTips"]= 1,
+  ["NeedItemNum"]= 100,
+  ["ServerNum"]= 9500
+},
+[6] = {
+  ["ChangeTimes"]= 999,
+  ["GetItemId"]= 10202085,
+  ["GoodsId"]= 6,
+  ["GoodsOrder"]= 6,
+  ["NeedItemNum"]= 5
+}
+}
+local baseTable={
+  ["ActivityType"]= 1,
+  ["ChangeTimes"]= 1,
+  ["ConfirmTips"]= "",
+  ["GetItemId"]= 4101222,
+  ["GetItemNum"]= 1,
+  ["GoodsId"]= 1,
+  ["GoodsOrder"]= 1,
+  ["GoodsType"]= 1,
+  ["IsConfirmTips"]= 0,
+  ["NeedItemId"]= 10217035,
+  ["NeedItemNum"]= 120,
+  ["ServerNum"]= 0
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

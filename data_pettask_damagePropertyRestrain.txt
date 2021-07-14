@@ -1,0 +1,605 @@
+TextAsset Base
+	string m_Name = "data_pettask_damagePropertyRestrain"
+	string m_Script = "return {
+[1001] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1001,
+  ["source"]= 0,
+  ["target"]= 0
+},
+[1002] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1002,
+  ["source"]= 0,
+  ["target"]= 1
+},
+[1003] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1003,
+  ["source"]= 0,
+  ["target"]= 2
+},
+[1004] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1004,
+  ["source"]= 0,
+  ["target"]= 3
+},
+[1005] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1005,
+  ["source"]= 0,
+  ["target"]= 4
+},
+[1006] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1006,
+  ["source"]= 0,
+  ["target"]= 5
+},
+[1007] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1007,
+  ["source"]= 0,
+  ["target"]= 6
+},
+[1008] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1008,
+  ["source"]= 0,
+  ["target"]= 7
+},
+[1009] = {
+  ["damageIncrease"]= -0.3,
+  ["ID"]= 1009,
+  ["source"]= 0,
+  ["target"]= 8
+},
+[1010] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1010,
+  ["source"]= 0,
+  ["target"]= 9
+},
+[1011] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1011,
+  ["source"]= 1,
+  ["target"]= 0
+},
+[1012] = {
+  ["damageIncrease"]= -0.75,
+  ["ID"]= 1012,
+  ["source"]= 1,
+  ["target"]= 1
+},
+[1013] = {
+  ["damageIncrease"]= -0.1,
+  ["ID"]= 1013,
+  ["source"]= 1,
+  ["target"]= 2
+},
+[1014] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1014,
+  ["source"]= 1,
+  ["target"]= 3
+},
+[1015] = {
+  ["damageIncrease"]= 0.5,
+  ["ID"]= 1015,
+  ["source"]= 1,
+  ["target"]= 4
+},
+[1016] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1016,
+  ["source"]= 1,
+  ["target"]= 5
+},
+[1017] = {
+  ["damageIncrease"]= -0.25,
+  ["ID"]= 1017,
+  ["source"]= 1,
+  ["target"]= 6
+},
+[1018] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1018,
+  ["source"]= 1,
+  ["target"]= 7
+},
+[1019] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1019,
+  ["source"]= 1,
+  ["target"]= 8
+},
+[1020] = {
+  ["damageIncrease"]= 0.25,
+  ["ID"]= 1020,
+  ["source"]= 1,
+  ["target"]= 9
+},
+[1021] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1021,
+  ["source"]= 2,
+  ["target"]= 0
+},
+[1022] = {
+  ["damageIncrease"]= 0.5,
+  ["ID"]= 1022,
+  ["source"]= 2,
+  ["target"]= 1
+},
+[1023] = {
+  ["damageIncrease"]= -0.75,
+  ["ID"]= 1023,
+  ["source"]= 2,
+  ["target"]= 2
+},
+[1024] = {
+  ["damageIncrease"]= -0.1,
+  ["ID"]= 1024,
+  ["source"]= 2,
+  ["target"]= 3
+},
+[1025] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1025,
+  ["source"]= 2,
+  ["target"]= 4
+},
+[1026] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1026,
+  ["source"]= 2,
+  ["target"]= 5
+},
+[1027] = {
+  ["damageIncrease"]= -0.25,
+  ["ID"]= 1027,
+  ["source"]= 2,
+  ["target"]= 6
+},
+[1028] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1028,
+  ["source"]= 2,
+  ["target"]= 7
+},
+[1029] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1029,
+  ["source"]= 2,
+  ["target"]= 8
+},
+[1030] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1030,
+  ["source"]= 2,
+  ["target"]= 9
+},
+[1031] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1031,
+  ["source"]= 3,
+  ["target"]= 0
+},
+[1032] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1032,
+  ["source"]= 3,
+  ["target"]= 1
+},
+[1033] = {
+  ["damageIncrease"]= 0.75,
+  ["ID"]= 1033,
+  ["source"]= 3,
+  ["target"]= 2
+},
+[1034] = {
+  ["damageIncrease"]= -0.75,
+  ["ID"]= 1034,
+  ["source"]= 3,
+  ["target"]= 3
+},
+[1035] = {
+  ["damageIncrease"]= -0.1,
+  ["ID"]= 1035,
+  ["source"]= 3,
+  ["target"]= 4
+},
+[1036] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1036,
+  ["source"]= 3,
+  ["target"]= 5
+},
+[1037] = {
+  ["damageIncrease"]= -0.25,
+  ["ID"]= 1037,
+  ["source"]= 3,
+  ["target"]= 6
+},
+[1038] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1038,
+  ["source"]= 3,
+  ["target"]= 7
+},
+[1039] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1039,
+  ["source"]= 3,
+  ["target"]= 8
+},
+[1040] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1040,
+  ["source"]= 3,
+  ["target"]= 9
+},
+[1041] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1041,
+  ["source"]= 4,
+  ["target"]= 0
+},
+[1042] = {
+  ["damageIncrease"]= -0.1,
+  ["ID"]= 1042,
+  ["source"]= 4,
+  ["target"]= 1
+},
+[1043] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1043,
+  ["source"]= 4,
+  ["target"]= 2
+},
+[1044] = {
+  ["damageIncrease"]= 0.5,
+  ["ID"]= 1044,
+  ["source"]= 4,
+  ["target"]= 3
+},
+[1045] = {
+  ["damageIncrease"]= -0.75,
+  ["ID"]= 1045,
+  ["source"]= 4,
+  ["target"]= 4
+},
+[1046] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1046,
+  ["source"]= 4,
+  ["target"]= 5
+},
+[1047] = {
+  ["damageIncrease"]= -0.25,
+  ["ID"]= 1047,
+  ["source"]= 4,
+  ["target"]= 6
+},
+[1048] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1048,
+  ["source"]= 4,
+  ["target"]= 7
+},
+[1049] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1049,
+  ["source"]= 4,
+  ["target"]= 8
+},
+[1050] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1050,
+  ["source"]= 4,
+  ["target"]= 9
+},
+[1051] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1051,
+  ["source"]= 5,
+  ["target"]= 0
+},
+[1052] = {
+  ["damageIncrease"]= 0.25,
+  ["ID"]= 1052,
+  ["source"]= 5,
+  ["target"]= 1
+},
+[1053] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1053,
+  ["source"]= 5,
+  ["target"]= 2
+},
+[1054] = {
+  ["damageIncrease"]= 0.25,
+  ["ID"]= 1054,
+  ["source"]= 5,
+  ["target"]= 3
+},
+[1055] = {
+  ["damageIncrease"]= 0.25,
+  ["ID"]= 1055,
+  ["source"]= 5,
+  ["target"]= 4
+},
+[1056] = {
+  ["damageIncrease"]= -1,
+  ["ID"]= 1056,
+  ["source"]= 5,
+  ["target"]= 5
+},
+[1057] = {
+  ["damageIncrease"]= -0.25,
+  ["ID"]= 1057,
+  ["source"]= 5,
+  ["target"]= 6
+},
+[1058] = {
+  ["damageIncrease"]= -0.5,
+  ["ID"]= 1058,
+  ["source"]= 5,
+  ["target"]= 7
+},
+[1059] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1059,
+  ["source"]= 5,
+  ["target"]= 8
+},
+[1060] = {
+  ["damageIncrease"]= -1.25,
+  ["ID"]= 1060,
+  ["source"]= 5,
+  ["target"]= 9
+},
+[1061] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1061,
+  ["source"]= 6,
+  ["target"]= 0
+},
+[1062] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1062,
+  ["source"]= 6,
+  ["target"]= 1
+},
+[1063] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1063,
+  ["source"]= 6,
+  ["target"]= 2
+},
+[1064] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1064,
+  ["source"]= 6,
+  ["target"]= 3
+},
+[1065] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1065,
+  ["source"]= 6,
+  ["target"]= 4
+},
+[1066] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1066,
+  ["source"]= 6,
+  ["target"]= 5
+},
+[1067] = {
+  ["damageIncrease"]= -1,
+  ["ID"]= 1067,
+  ["source"]= 6,
+  ["target"]= 6
+},
+[1068] = {
+  ["damageIncrease"]= 0.25,
+  ["ID"]= 1068,
+  ["source"]= 6,
+  ["target"]= 7
+},
+[1069] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1069,
+  ["source"]= 6,
+  ["target"]= 8
+},
+[1070] = {
+  ["damageIncrease"]= 0.5,
+  ["ID"]= 1070,
+  ["source"]= 6,
+  ["target"]= 9
+},
+[1071] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1071,
+  ["source"]= 7,
+  ["target"]= 0
+},
+[1072] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1072,
+  ["source"]= 7,
+  ["target"]= 1
+},
+[1073] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1073,
+  ["source"]= 7,
+  ["target"]= 2
+},
+[1074] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1074,
+  ["source"]= 7,
+  ["target"]= 3
+},
+[1075] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1075,
+  ["source"]= 7,
+  ["target"]= 4
+},
+[1076] = {
+  ["damageIncrease"]= -0.5,
+  ["ID"]= 1076,
+  ["source"]= 7,
+  ["target"]= 5
+},
+[1077] = {
+  ["damageIncrease"]= 0.25,
+  ["ID"]= 1077,
+  ["source"]= 7,
+  ["target"]= 6
+},
+[1078] = {
+  ["damageIncrease"]= -1,
+  ["ID"]= 1078,
+  ["source"]= 7,
+  ["target"]= 7
+},
+[1079] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1079,
+  ["source"]= 7,
+  ["target"]= 8
+},
+[1080] = {
+  ["damageIncrease"]= -1.25,
+  ["ID"]= 1080,
+  ["source"]= 7,
+  ["target"]= 9
+},
+[1081] = {
+  ["damageIncrease"]= -0.3,
+  ["ID"]= 1081,
+  ["source"]= 8,
+  ["target"]= 0
+},
+[1082] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1082,
+  ["source"]= 8,
+  ["target"]= 1
+},
+[1083] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1083,
+  ["source"]= 8,
+  ["target"]= 2
+},
+[1084] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1084,
+  ["source"]= 8,
+  ["target"]= 3
+},
+[1085] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1085,
+  ["source"]= 8,
+  ["target"]= 4
+},
+[1086] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1086,
+  ["source"]= 8,
+  ["target"]= 5
+},
+[1087] = {
+  ["damageIncrease"]= -0.25,
+  ["ID"]= 1087,
+  ["source"]= 8,
+  ["target"]= 6
+},
+[1088] = {
+  ["damageIncrease"]= -0.25,
+  ["ID"]= 1088,
+  ["source"]= 8,
+  ["target"]= 7
+},
+[1089] = {
+  ["damageIncrease"]= 0.25,
+  ["ID"]= 1089,
+  ["source"]= 8,
+  ["target"]= 8
+},
+[1090] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1090,
+  ["source"]= 8,
+  ["target"]= 9
+},
+[1091] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1091,
+  ["source"]= 9,
+  ["target"]= 0
+},
+[1092] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1092,
+  ["source"]= 9,
+  ["target"]= 1
+},
+[1093] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1093,
+  ["source"]= 9,
+  ["target"]= 2
+},
+[1094] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1094,
+  ["source"]= 9,
+  ["target"]= 3
+},
+[1095] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1095,
+  ["source"]= 9,
+  ["target"]= 4
+},
+[1096] = {
+  ["damageIncrease"]= -0.5,
+  ["ID"]= 1096,
+  ["source"]= 9,
+  ["target"]= 5
+},
+[1097] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1097,
+  ["source"]= 9,
+  ["target"]= 6
+},
+[1098] = {
+  ["damageIncrease"]= -1,
+  ["ID"]= 1098,
+  ["source"]= 9,
+  ["target"]= 7
+},
+[1099] = {
+  ["damageIncrease"]= 0,
+  ["ID"]= 1099,
+  ["source"]= 9,
+  ["target"]= 8
+},
+[1100] = {
+  ["damageIncrease"]= -1,
+  ["ID"]= 1100,
+  ["source"]= 9,
+  ["target"]= 9
+}
+}
+"

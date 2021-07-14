@@ -1,0 +1,26 @@
+TextAsset Base
+	string m_Name = "data_pet_PetCharacter"
+	string m_Script = "return {
+[1] = {
+  ["CharacterColor"]= "7d4c60",
+  ["Desc"]= "PetCharacterDesc1",
+  ["ID"]= 1,
+  ["littleSkill"]= 999999,
+  ["Name"]= "PetCharacterName1"
+},
+[2] = {
+  ["CharacterColor"]= "4c7d67",
+  ["Desc"]= "PetCharacterDesc2",
+  ["ID"]= 2,
+  ["littleSkill"]= 1000000,
+  ["Name"]= "PetCharacterName2"
+},
+[3] = {
+  ["CharacterColor"]= "787d4c",
+  ["Desc"]= "PetCharacterDesc3",
+  ["ID"]= 3,
+  ["littleSkill"]= 1000001,
+  ["Name"]= "PetCharacterName3"
+}
+}
+"

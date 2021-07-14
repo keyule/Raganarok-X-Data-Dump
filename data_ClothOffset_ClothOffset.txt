@@ -1,0 +1,52 @@
+TextAsset Base
+	string m_Name = "data_ClothOffset_ClothOffset"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["ClothId"]= "2405016W",
+  ["Id"]= 2,
+  ["PartId"]= "4108003W"
+},
+[3] = {
+  ["Id"]= 3,
+  ["Name"]= "哈士奇猫尾",
+  ["OffsetSetX"]= -0.235,
+  ["OffsetSetY"]= -0.167,
+  ["PartId"]= "4108001M"
+},
+[4] = {
+  ["ClothId"]= "2405016W",
+  ["Id"]= 4,
+  ["Name"]= "哈士奇猫尾",
+  ["OffsetSetX"]= -0.235,
+  ["OffsetSetY"]= -0.167,
+  ["PartId"]= "4108001W"
+},
+[5] = {
+  ["Id"]= 5,
+  ["Name"]= "哈士奇恶魔尾",
+  ["PartId"]= "4108005M"
+},
+[6] = {
+  ["ClothId"]= "2405016W",
+  ["Id"]= 6,
+  ["Name"]= "哈士奇恶魔尾",
+  ["PartId"]= "4108005W"
+}
+}
+local baseTable={
+  ["ClothId"]= "2405016M",
+  ["Id"]= 1,
+  ["Name"]= "哈士奇狗尾",
+  ["OffsetSetX"]= -0.168,
+  ["OffsetSetY"]= -0.196,
+  ["OffsetSetZ"]= 0,
+  ["PartId"]= "4108003M",
+  ["RotationX"]= 0,
+  ["RotationY"]= 0,
+  ["RotationZ"]= 0
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

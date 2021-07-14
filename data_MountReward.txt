@@ -1,0 +1,29 @@
+TextAsset Base
+	string m_Name = "data_MountReward"
+	string m_Script = "return {
+[8004601] = {
+  ["Id"]= 8004601,
+  ["MountId"]= 80046,
+  ["Name"]= "西式婚车(10min)",
+  ["Time"]= 600
+},
+[8004602] = {
+  ["Id"]= 8004602,
+  ["MountId"]= 80046,
+  ["Name"]= "西式婚车(1h)",
+  ["Time"]= 3600
+},
+[8004603] = {
+  ["Id"]= 8004603,
+  ["MountId"]= 80046,
+  ["Name"]= "西式婚车(30day)",
+  ["Time"]= 2592000
+},
+[8004604] = {
+  ["Id"]= 8004604,
+  ["MountId"]= 80046,
+  ["Name"]= "西式婚车(60day)",
+  ["Time"]= 5184000
+}
+}
+"

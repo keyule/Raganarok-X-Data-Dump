@@ -1,0 +1,77 @@
+TextAsset Base
+	string m_Name = "data_pet_PetLearnSkill"
+	string m_Script = "return {
+[1] = {
+  ["EmptyGridNum"]= 4,
+  ["Id"]= 1,
+  ["NewGridRate"]= 1,
+  ["SkillGridNum"]= 4
+},
+[2] = {
+  ["EmptyGridNum"]= 3,
+  ["Id"]= 2,
+  ["NewGridRate"]= 0.25,
+  ["SkillGridNum"]= 4
+},
+[3] = {
+  ["EmptyGridNum"]= 2,
+  ["Id"]= 3,
+  ["NewGridRate"]= 0.1,
+  ["SkillGridNum"]= 4
+},
+[4] = {
+  ["EmptyGridNum"]= 1,
+  ["Id"]= 4,
+  ["NewGridRate"]= 0.03,
+  ["SkillGridNum"]= 4
+},
+[5] = {
+  ["EmptyGridNum"]= 0,
+  ["Id"]= 5,
+  ["NewGridRate"]= 0,
+  ["SkillGridNum"]= 4
+},
+[6] = {
+  ["EmptyGridNum"]= 3,
+  ["Id"]= 6,
+  ["NewGridRate"]= 1,
+  ["SkillGridNum"]= 3
+},
+[7] = {
+  ["EmptyGridNum"]= 2,
+  ["Id"]= 7,
+  ["NewGridRate"]= 0.2,
+  ["SkillGridNum"]= 3
+},
+[8] = {
+  ["EmptyGridNum"]= 1,
+  ["Id"]= 8,
+  ["NewGridRate"]= 0.05,
+  ["SkillGridNum"]= 3
+},
+[9] = {
+  ["EmptyGridNum"]= 0,
+  ["Id"]= 9,
+  ["NewGridRate"]= 0,
+  ["SkillGridNum"]= 3
+},
+[10] = {
+  ["EmptyGridNum"]= 2,
+  ["Id"]= 10,
+  ["NewGridRate"]= 1,
+  ["SkillGridNum"]= 2
+},
+[11] = {
+  ["EmptyGridNum"]= 1,
+  ["Id"]= 11,
+  ["NewGridRate"]= 0.1,
+  ["SkillGridNum"]= 2
+},
+[12] = {
+  ["EmptyGridNum"]= 0,
+  ["Id"]= 12,
+  ["NewGridRate"]= 0,
+  ["SkillGridNum"]= 2
+}
+}
+"

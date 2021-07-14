@@ -1,0 +1,35 @@
+TextAsset Base
+	string m_Name = "data_BattlePass_BattlePass"
+	string m_Script = "return 
+{
+  ["AdvancedPassDiamond"]= 4888,
+  ["AdvancedSignInDrop"]= 10151,
+  ["advancedWeeklyQuest"]= 2,
+  ["allDailyQuestResetCost"]= 5000,
+  ["allDailyQuestResetTimes"]= 2,
+  ["BattlePassMinUnOpenDays"]= 0,
+  ["BattlePassPromptDays"]= 7,
+  ["dailyQuestAmount"]= 4,
+  ["dailyQuestResetTimes"]= 3,
+  ["GiftPackageBuyTimesLimit"]= 1,
+  ["GiftPackageDiamond"]= 24388,
+  ["GiftPackageDiamondDiscount"]= 19500,
+  ["halfAdvancedDiamond"]= 2488,
+  ["halfAdvancedDiscount"]= 1488,
+  ["halfAdvancedLevel"]= 25,
+  ["halfBattlePassOpenTime"]= 0,
+  ["InstanceDropRateFactor"]= 0,
+  ["IsCloseBattlePass"]= 0,
+  ["levelDiscount"]= "30,50",
+  ["levelDiscountNum"]= "0.1,0.2",
+  ["levelDiscountOriginPrice"]= "36000,60000",
+  ["levelDiscountPrice"]= "32400,48000",
+  ["MaxLevel"]= 80,
+  ["PassSeason"]= 1,
+  ["PerLevelExp"]= 150,
+  ["PerLevelUpDiamond"]= 1200,
+  ["QuestExpWeekLimit"]= 8000,
+  ["SignInDrop"]= 10150,
+  ["weeklyQuestAmount"]= 4,
+  ["weeklyQuestResetTimes"]= 3
+}"

@@ -1,0 +1,4497 @@
+TextAsset Base
+	string m_Name = "data_ShadowWeapon_ShadowWeaponLevel"
+	string m_Script = "local table= {
+[11000100] = {
+  ["CostType"]= {
+    0
+  },
+  ["EquipIdList"]= {
+    1301998
+  },
+  ["Name"]= "影装·呈剑",
+  ["Size"]= 1.45,
+  ["UIModelEquipId"]= 1301998,
+  ["UIModelPosX"]= -0.15,
+  ["UIModelPosY"]= -0.46,
+  ["UIModelRotX"]= 70,
+  ["UIModelRotY"]= -80,
+  ["UIModelRotZ"]= 100
+},
+[11000101] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424085
+  },
+  ["CostNum"]= {
+    51200,
+    8,
+    36
+  },
+  ["EquipIdList"]= {
+    1301998
+  },
+  ["Id"]= 11000101,
+  ["Level"]= 1,
+  ["Name"]= "影装·呈剑 Lv.1",
+  ["Probability"]= 900,
+  ["Size"]= 1.45,
+  ["UIModelEquipId"]= 1301998,
+  ["UIModelPosX"]= -0.15,
+  ["UIModelPosY"]= -0.46,
+  ["UIModelRotX"]= 70,
+  ["UIModelRotY"]= -80,
+  ["UIModelRotZ"]= 100
+},
+[11000102] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424086
+  },
+  ["CostNum"]= {
+    128000,
+    20,
+    45
+  },
+  ["EquipIdList"]= {
+    1301998
+  },
+  ["Id"]= 11000102,
+  ["Level"]= 2,
+  ["Name"]= "影装·呈剑 Lv.2",
+  ["Probability"]= 800,
+  ["Size"]= 1.45,
+  ["UIModelEquipId"]= 1301998,
+  ["UIModelPosX"]= -0.15,
+  ["UIModelPosY"]= -0.46,
+  ["UIModelRotX"]= 70,
+  ["UIModelRotY"]= -80,
+  ["UIModelRotZ"]= 100
+},
+[11000103] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424086
+  },
+  ["CostNum"]= {
+    256000,
+    40,
+    90
+  },
+  ["EquipIdList"]= {
+    1301998
+  },
+  ["Id"]= 11000103,
+  ["Level"]= 3,
+  ["Name"]= "影装·呈剑 Lv.3",
+  ["Probability"]= 700,
+  ["Size"]= 1.45,
+  ["UIModelEquipId"]= 1301998,
+  ["UIModelPosX"]= -0.15,
+  ["UIModelPosY"]= -0.46,
+  ["UIModelRotX"]= 70,
+  ["UIModelRotY"]= -80,
+  ["UIModelRotZ"]= 100
+},
+[11000104] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424087
+  },
+  ["CostNum"]= {
+    512000,
+    80,
+    90
+  },
+  ["EquipIdList"]= {
+    1301998
+  },
+  ["Id"]= 11000104,
+  ["Level"]= 4,
+  ["Name"]= "影装·呈剑 Lv.4",
+  ["Probability"]= 600,
+  ["Size"]= 1.45,
+  ["UIModelEquipId"]= 1301998,
+  ["UIModelPosX"]= -0.15,
+  ["UIModelPosY"]= -0.46,
+  ["UIModelRotX"]= 70,
+  ["UIModelRotY"]= -80,
+  ["UIModelRotZ"]= 100
+},
+[11000105] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424087
+  },
+  ["CostNum"]= {
+    1280000,
+    200,
+    225
+  },
+  ["EquipIdList"]= {
+    1301998
+  },
+  ["Id"]= 11000105,
+  ["Level"]= 5,
+  ["Name"]= "影装·呈剑 Lv.5",
+  ["Probability"]= 500,
+  ["Size"]= 1.45,
+  ["UIModelEquipId"]= 1301998,
+  ["UIModelPosX"]= -0.15,
+  ["UIModelPosY"]= -0.46,
+  ["UIModelRotX"]= 70,
+  ["UIModelRotY"]= -80,
+  ["UIModelRotZ"]= 100
+},
+[11000106] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424050
+  },
+  ["CostNum"]= {
+    2560000,
+    400,
+    600
+  },
+  ["EquipIdList"]= {
+    1301998
+  },
+  ["Id"]= 11000106,
+  ["Level"]= 6,
+  ["Name"]= "影装·呈剑 Lv.6",
+  ["Probability"]= 450,
+  ["Size"]= 1.45,
+  ["UIModelEquipId"]= 1301998,
+  ["UIModelPosX"]= -0.15,
+  ["UIModelPosY"]= -0.46,
+  ["UIModelRotX"]= 70,
+  ["UIModelRotY"]= -80,
+  ["UIModelRotZ"]= 100
+},
+[11000107] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424050
+  },
+  ["CostNum"]= {
+    3840000,
+    600,
+    900
+  },
+  ["EquipIdList"]= {
+    1301999
+  },
+  ["Id"]= 11000107,
+  ["Level"]= 7,
+  ["Name"]= "神器·圣剑",
+  ["Probability"]= 400,
+  ["Size"]= 1.45,
+  ["UIModelEquipId"]= 1301999,
+  ["UIModelPosX"]= -0.15,
+  ["UIModelPosY"]= -0.46,
+  ["UIModelRotX"]= 70,
+  ["UIModelRotY"]= -80,
+  ["UIModelRotZ"]= 100
+},
+[11000108] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424088
+  },
+  ["CostNum"]= {
+    5120000,
+    800,
+    600
+  },
+  ["EquipIdList"]= {
+    1301999
+  },
+  ["Id"]= 11000108,
+  ["Level"]= 8,
+  ["Name"]= "神器·圣剑 + 1",
+  ["Probability"]= 350,
+  ["Size"]= 1.45,
+  ["UIModelEquipId"]= 1301999,
+  ["UIModelPosX"]= -0.15,
+  ["UIModelPosY"]= -0.46,
+  ["UIModelRotX"]= 70,
+  ["UIModelRotY"]= -80,
+  ["UIModelRotZ"]= 100
+},
+[11000109] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424088
+  },
+  ["CostNum"]= {
+    6400000,
+    1000,
+    750
+  },
+  ["EquipIdList"]= {
+    1301999
+  },
+  ["Id"]= 11000109,
+  ["Level"]= 9,
+  ["Name"]= "神器·圣剑 + 2",
+  ["Probability"]= 300,
+  ["Size"]= 1.45,
+  ["UIModelEquipId"]= 1301999,
+  ["UIModelPosX"]= -0.15,
+  ["UIModelPosY"]= -0.46,
+  ["UIModelRotX"]= 70,
+  ["UIModelRotY"]= -80,
+  ["UIModelRotZ"]= 100
+},
+[11000110] = {
+  ["CostType"]= {
+    0
+  },
+  ["EquipIdList"]= {
+    1301999
+  },
+  ["Id"]= 11000110,
+  ["Level"]= 10,
+  ["Name"]= "神器·圣剑 + 3",
+  ["Size"]= 1.45,
+  ["UIModelEquipId"]= 1301999,
+  ["UIModelPosX"]= -0.15,
+  ["UIModelPosY"]= -0.46,
+  ["UIModelRotX"]= 70,
+  ["UIModelRotY"]= -80,
+  ["UIModelRotZ"]= 100
+},
+[11000200] = {
+  ["CostType"]= {
+    0
+  },
+  ["EquipIdList"]= {
+    1303998
+  },
+  ["Id"]= 11000200,
+  ["Name"]= "影装·征矛",
+  ["ShadowWeaponId"]= 110002,
+  ["Size"]= 1.4,
+  ["UIModelEquipId"]= 1303998,
+  ["UIModelPosX"]= 0.07,
+  ["UIModelPosY"]= 0.22,
+  ["UIModelRotX"]= -60,
+  ["UIModelRotY"]= 144.5,
+  ["UIModelRotZ"]= 38.8
+},
+[11000201] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424091
+  },
+  ["CostNum"]= {
+    51200,
+    8,
+    36
+  },
+  ["EquipIdList"]= {
+    1303998
+  },
+  ["Id"]= 11000201,
+  ["Level"]= 1,
+  ["Name"]= "影装·征矛 Lv.1",
+  ["Probability"]= 900,
+  ["ShadowWeaponId"]= 110002,
+  ["Size"]= 1.4,
+  ["UIModelEquipId"]= 1303998,
+  ["UIModelPosX"]= 0.07,
+  ["UIModelPosY"]= 0.22,
+  ["UIModelRotX"]= -60,
+  ["UIModelRotY"]= 144.5,
+  ["UIModelRotZ"]= 38.8
+},
+[11000202] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424092
+  },
+  ["CostNum"]= {
+    128000,
+    20,
+    45
+  },
+  ["EquipIdList"]= {
+    1303998
+  },
+  ["Id"]= 11000202,
+  ["Level"]= 2,
+  ["Name"]= "影装·征矛 Lv.2",
+  ["Probability"]= 800,
+  ["ShadowWeaponId"]= 110002,
+  ["Size"]= 1.4,
+  ["UIModelEquipId"]= 1303998,
+  ["UIModelPosX"]= 0.07,
+  ["UIModelPosY"]= 0.22,
+  ["UIModelRotX"]= -60,
+  ["UIModelRotY"]= 144.5,
+  ["UIModelRotZ"]= 38.8
+},
+[11000203] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424092
+  },
+  ["CostNum"]= {
+    256000,
+    40,
+    90
+  },
+  ["EquipIdList"]= {
+    1303998
+  },
+  ["Id"]= 11000203,
+  ["Level"]= 3,
+  ["Name"]= "影装·征矛 Lv.3",
+  ["Probability"]= 700,
+  ["ShadowWeaponId"]= 110002,
+  ["Size"]= 1.4,
+  ["UIModelEquipId"]= 1303998,
+  ["UIModelPosX"]= 0.07,
+  ["UIModelPosY"]= 0.22,
+  ["UIModelRotX"]= -60,
+  ["UIModelRotY"]= 144.5,
+  ["UIModelRotZ"]= 38.8
+},
+[11000204] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424093
+  },
+  ["CostNum"]= {
+    512000,
+    80,
+    90
+  },
+  ["EquipIdList"]= {
+    1303998
+  },
+  ["Id"]= 11000204,
+  ["Level"]= 4,
+  ["Name"]= "影装·征矛 Lv.4",
+  ["Probability"]= 600,
+  ["ShadowWeaponId"]= 110002,
+  ["Size"]= 1.4,
+  ["UIModelEquipId"]= 1303998,
+  ["UIModelPosX"]= 0.07,
+  ["UIModelPosY"]= 0.22,
+  ["UIModelRotX"]= -60,
+  ["UIModelRotY"]= 144.5,
+  ["UIModelRotZ"]= 38.8
+},
+[11000205] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424093
+  },
+  ["CostNum"]= {
+    1280000,
+    200,
+    225
+  },
+  ["EquipIdList"]= {
+    1303998
+  },
+  ["Id"]= 11000205,
+  ["Level"]= 5,
+  ["Name"]= "影装·征矛 Lv.5",
+  ["Probability"]= 500,
+  ["ShadowWeaponId"]= 110002,
+  ["Size"]= 1.4,
+  ["UIModelEquipId"]= 1303998,
+  ["UIModelPosX"]= 0.07,
+  ["UIModelPosY"]= 0.22,
+  ["UIModelRotX"]= -60,
+  ["UIModelRotY"]= 144.5,
+  ["UIModelRotZ"]= 38.8
+},
+[11000206] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424049
+  },
+  ["CostNum"]= {
+    2560000,
+    400,
+    600
+  },
+  ["EquipIdList"]= {
+    1303998
+  },
+  ["Id"]= 11000206,
+  ["Level"]= 6,
+  ["Name"]= "影装·征矛 Lv.6",
+  ["Probability"]= 450,
+  ["ShadowWeaponId"]= 110002,
+  ["Size"]= 1.4,
+  ["UIModelEquipId"]= 1303998,
+  ["UIModelPosX"]= 0.07,
+  ["UIModelPosY"]= 0.22,
+  ["UIModelRotX"]= -60,
+  ["UIModelRotY"]= 144.5,
+  ["UIModelRotZ"]= 38.8
+},
+[11000207] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424049
+  },
+  ["CostNum"]= {
+    3840000,
+    600,
+    900
+  },
+  ["EquipIdList"]= {
+    1303999
+  },
+  ["Id"]= 11000207,
+  ["Level"]= 7,
+  ["Name"]= "神器·澄矛",
+  ["Probability"]= 400,
+  ["ShadowWeaponId"]= 110002,
+  ["Size"]= 1.4,
+  ["UIModelEquipId"]= 1303999,
+  ["UIModelPosX"]= 0.07,
+  ["UIModelPosY"]= 0.22,
+  ["UIModelRotX"]= -60,
+  ["UIModelRotY"]= 144.5,
+  ["UIModelRotZ"]= 38.8
+},
+[11000208] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424094
+  },
+  ["CostNum"]= {
+    5120000,
+    800,
+    600
+  },
+  ["EquipIdList"]= {
+    1303999
+  },
+  ["Id"]= 11000208,
+  ["Level"]= 8,
+  ["Name"]= "神器·澄矛 + 1",
+  ["Probability"]= 350,
+  ["ShadowWeaponId"]= 110002,
+  ["Size"]= 1.4,
+  ["UIModelEquipId"]= 1303999,
+  ["UIModelPosX"]= 0.07,
+  ["UIModelPosY"]= 0.22,
+  ["UIModelRotX"]= -60,
+  ["UIModelRotY"]= 144.5,
+  ["UIModelRotZ"]= 38.8
+},
+[11000209] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424094
+  },
+  ["CostNum"]= {
+    6400000,
+    1000,
+    750
+  },
+  ["EquipIdList"]= {
+    1303999
+  },
+  ["Id"]= 11000209,
+  ["Level"]= 9,
+  ["Name"]= "神器·澄矛 + 2",
+  ["Probability"]= 300,
+  ["ShadowWeaponId"]= 110002,
+  ["Size"]= 1.4,
+  ["UIModelEquipId"]= 1303999,
+  ["UIModelPosX"]= 0.07,
+  ["UIModelPosY"]= 0.22,
+  ["UIModelRotX"]= -60,
+  ["UIModelRotY"]= 144.5,
+  ["UIModelRotZ"]= 38.8
+},
+[11000210] = {
+  ["CostType"]= {
+    0
+  },
+  ["EquipIdList"]= {
+    1303999
+  },
+  ["Id"]= 11000210,
+  ["Level"]= 10,
+  ["Name"]= "神器·澄矛 + 3",
+  ["ShadowWeaponId"]= 110002,
+  ["Size"]= 1.4,
+  ["UIModelEquipId"]= 1303999,
+  ["UIModelPosX"]= 0.07,
+  ["UIModelPosY"]= 0.22,
+  ["UIModelRotX"]= -60,
+  ["UIModelRotY"]= 144.5,
+  ["UIModelRotZ"]= 38.8
+},
+[11000300] = {
+  ["CostType"]= {
+    0
+  },
+  ["EquipIdList"]= {
+    1101998,
+    1201998
+  },
+  ["Id"]= 11000300,
+  ["Name"]= "影装·侍剑义盾",
+  ["ShadowWeaponId"]= 110003,
+  ["Size"]= 1.9,
+  ["UIModelEquipId"]= 1101996,
+  ["UIModelPosX"]= -0.06,
+  ["UIModelRotX"]= 0,
+  ["UIModelRotY"]= 0,
+  ["UIModelRotZ"]= 0
+},
+[11000301] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424097,
+    10424169
+  },
+  ["CostNum"]= {
+    51200,
+    8,
+    24,
+    12
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1101998,
+    1201998
+  },
+  ["Id"]= 11000301,
+  ["Level"]= 1,
+  ["Name"]= "影装·侍剑义盾 Lv.1",
+  ["Probability"]= 900,
+  ["ShadowWeaponId"]= 110003,
+  ["Size"]= 1.9,
+  ["UIModelEquipId"]= 1101996,
+  ["UIModelPosX"]= -0.06,
+  ["UIModelRotX"]= 0,
+  ["UIModelRotY"]= 0,
+  ["UIModelRotZ"]= 0
+},
+[11000302] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424098,
+    10424170
+  },
+  ["CostNum"]= {
+    128000,
+    20,
+    30,
+    15
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1101998,
+    1201998
+  },
+  ["Id"]= 11000302,
+  ["Level"]= 2,
+  ["Name"]= "影装·侍剑义盾 Lv.2",
+  ["Probability"]= 800,
+  ["ShadowWeaponId"]= 110003,
+  ["Size"]= 1.9,
+  ["UIModelEquipId"]= 1101996,
+  ["UIModelPosX"]= -0.06,
+  ["UIModelRotX"]= 0,
+  ["UIModelRotY"]= 0,
+  ["UIModelRotZ"]= 0
+},
+[11000303] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424098,
+    10424170
+  },
+  ["CostNum"]= {
+    256000,
+    40,
+    60,
+    30
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1101998,
+    1201998
+  },
+  ["Id"]= 11000303,
+  ["Level"]= 3,
+  ["Name"]= "影装·侍剑义盾 Lv.3",
+  ["Probability"]= 700,
+  ["ShadowWeaponId"]= 110003,
+  ["Size"]= 1.9,
+  ["UIModelEquipId"]= 1101996,
+  ["UIModelPosX"]= -0.06,
+  ["UIModelRotX"]= 0,
+  ["UIModelRotY"]= 0,
+  ["UIModelRotZ"]= 0
+},
+[11000304] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424099,
+    10424171
+  },
+  ["CostNum"]= {
+    512000,
+    80,
+    60,
+    30
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1101998,
+    1201998
+  },
+  ["Id"]= 11000304,
+  ["Level"]= 4,
+  ["Name"]= "影装·侍剑义盾 Lv.4",
+  ["Probability"]= 600,
+  ["ShadowWeaponId"]= 110003,
+  ["Size"]= 1.9,
+  ["UIModelEquipId"]= 1101996,
+  ["UIModelPosX"]= -0.06,
+  ["UIModelRotX"]= 0,
+  ["UIModelRotY"]= 0,
+  ["UIModelRotZ"]= 0
+},
+[11000305] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424099,
+    10424171
+  },
+  ["CostNum"]= {
+    1280000,
+    200,
+    150,
+    75
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1101998,
+    1201998
+  },
+  ["Id"]= 11000305,
+  ["Level"]= 5,
+  ["Name"]= "影装·侍剑义盾 Lv.5",
+  ["Probability"]= 500,
+  ["ShadowWeaponId"]= 110003,
+  ["Size"]= 1.9,
+  ["UIModelEquipId"]= 1101996,
+  ["UIModelPosX"]= -0.06,
+  ["UIModelRotX"]= 0,
+  ["UIModelRotY"]= 0,
+  ["UIModelRotZ"]= 0
+},
+[11000306] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424048,
+    10424062
+  },
+  ["CostNum"]= {
+    2560000,
+    400,
+    400,
+    200
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1101998,
+    1201998
+  },
+  ["Id"]= 11000306,
+  ["Level"]= 6,
+  ["Name"]= "影装·侍剑义盾 Lv.6",
+  ["Probability"]= 450,
+  ["ShadowWeaponId"]= 110003,
+  ["Size"]= 1.9,
+  ["UIModelEquipId"]= 1101996,
+  ["UIModelPosX"]= -0.06,
+  ["UIModelRotX"]= 0,
+  ["UIModelRotY"]= 0,
+  ["UIModelRotZ"]= 0
+},
+[11000307] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424048,
+    10424062
+  },
+  ["CostNum"]= {
+    3840000,
+    600,
+    600,
+    300
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1101999,
+    1201999
+  },
+  ["Id"]= 11000307,
+  ["Level"]= 7,
+  ["Name"]= "神器·王剑辉盾",
+  ["Probability"]= 400,
+  ["ShadowWeaponId"]= 110003,
+  ["Size"]= 1.9,
+  ["UIModelEquipId"]= 1101997,
+  ["UIModelPosX"]= -0.06,
+  ["UIModelRotX"]= 0,
+  ["UIModelRotY"]= 0,
+  ["UIModelRotZ"]= 0
+},
+[11000308] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424100,
+    10424172
+  },
+  ["CostNum"]= {
+    5120000,
+    800,
+    400,
+    200
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1101999,
+    1201999
+  },
+  ["Id"]= 11000308,
+  ["Level"]= 8,
+  ["Name"]= "神器·王剑辉盾 + 1",
+  ["Probability"]= 350,
+  ["ShadowWeaponId"]= 110003,
+  ["Size"]= 1.9,
+  ["UIModelEquipId"]= 1101997,
+  ["UIModelPosX"]= -0.06,
+  ["UIModelRotX"]= 0,
+  ["UIModelRotY"]= 0,
+  ["UIModelRotZ"]= 0
+},
+[11000309] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424100,
+    10424172
+  },
+  ["CostNum"]= {
+    6400000,
+    1000,
+    500,
+    250
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1101999,
+    1201999
+  },
+  ["Id"]= 11000309,
+  ["Level"]= 9,
+  ["Name"]= "神器·王剑辉盾 + 2",
+  ["Probability"]= 300,
+  ["ShadowWeaponId"]= 110003,
+  ["Size"]= 1.9,
+  ["UIModelEquipId"]= 1101997,
+  ["UIModelPosX"]= -0.06,
+  ["UIModelRotX"]= 0,
+  ["UIModelRotY"]= 0,
+  ["UIModelRotZ"]= 0
+},
+[11000310] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424101,
+    10424173
+  },
+  ["CostNum"]= {
+    7680000,
+    1200,
+    300,
+    150
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1101999,
+    1201999
+  },
+  ["Id"]= 11000310,
+  ["Level"]= 10,
+  ["Name"]= "神器·王剑辉盾 + 3",
+  ["Probability"]= 250,
+  ["ShadowWeaponId"]= 110003,
+  ["Size"]= 1.9,
+  ["UIModelEquipId"]= 1101997,
+  ["UIModelPosX"]= -0.06,
+  ["UIModelRotX"]= 0,
+  ["UIModelRotY"]= 0,
+  ["UIModelRotZ"]= 0
+},
+[12000100] = {
+  ["CostType"]= {
+    0
+  },
+  ["Id"]= 12000100,
+  ["ShadowWeaponId"]= 120001,
+  ["UIModelPosX"]= 0.02,
+  ["UIModelPosY"]= -0.15
+},
+[12000101] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424103,
+    10424163
+  },
+  ["CostNum"]= {
+    51200,
+    8,
+    24,
+    12
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["Id"]= 12000101,
+  ["Level"]= 1,
+  ["Name"]= "影装·坚锤羽盾 Lv.1",
+  ["Probability"]= 900,
+  ["ShadowWeaponId"]= 120001,
+  ["UIModelPosX"]= 0.02,
+  ["UIModelPosY"]= -0.15
+},
+[12000102] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424104,
+    10424164
+  },
+  ["CostNum"]= {
+    128000,
+    20,
+    30,
+    15
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["Id"]= 12000102,
+  ["Level"]= 2,
+  ["Name"]= "影装·坚锤羽盾 Lv.2",
+  ["Probability"]= 800,
+  ["ShadowWeaponId"]= 120001,
+  ["UIModelPosX"]= 0.02,
+  ["UIModelPosY"]= -0.15
+},
+[12000103] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424104,
+    10424164
+  },
+  ["CostNum"]= {
+    256000,
+    40,
+    60,
+    30
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["Id"]= 12000103,
+  ["Level"]= 3,
+  ["Name"]= "影装·坚锤羽盾 Lv.3",
+  ["Probability"]= 700,
+  ["ShadowWeaponId"]= 120001,
+  ["UIModelPosX"]= 0.02,
+  ["UIModelPosY"]= -0.15
+},
+[12000104] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424105,
+    10424165
+  },
+  ["CostNum"]= {
+    512000,
+    80,
+    60,
+    30
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["Id"]= 12000104,
+  ["Level"]= 4,
+  ["Name"]= "影装·坚锤羽盾 Lv.4",
+  ["Probability"]= 600,
+  ["ShadowWeaponId"]= 120001,
+  ["UIModelPosX"]= 0.02,
+  ["UIModelPosY"]= -0.15
+},
+[12000105] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424105,
+    10424165
+  },
+  ["CostNum"]= {
+    1280000,
+    200,
+    150,
+    75
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["Id"]= 12000105,
+  ["Level"]= 5,
+  ["Name"]= "影装·坚锤羽盾 Lv.5",
+  ["Probability"]= 500,
+  ["ShadowWeaponId"]= 120001,
+  ["UIModelPosX"]= 0.02,
+  ["UIModelPosY"]= -0.15
+},
+[12000106] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424051,
+    10424061
+  },
+  ["CostNum"]= {
+    2560000,
+    400,
+    400,
+    200
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["Id"]= 12000106,
+  ["Level"]= 6,
+  ["Name"]= "影装·坚锤羽盾 Lv.6",
+  ["Probability"]= 450,
+  ["ShadowWeaponId"]= 120001,
+  ["UIModelPosX"]= 0.02,
+  ["UIModelPosY"]= -0.15
+},
+[12000107] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424051,
+    10424061
+  },
+  ["CostNum"]= {
+    3840000,
+    600,
+    600,
+    300
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1104999,
+    1201997
+  },
+  ["Id"]= 12000107,
+  ["Level"]= 7,
+  ["Name"]= "神器·铭锤灵盾",
+  ["Probability"]= 400,
+  ["ShadowWeaponId"]= 120001,
+  ["UIModelEquipId"]= 1104997,
+  ["UIModelPosX"]= 0.02,
+  ["UIModelPosY"]= -0.15
+},
+[12000108] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424106,
+    10424166
+  },
+  ["CostNum"]= {
+    5120000,
+    800,
+    400,
+    200
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1104999,
+    1201997
+  },
+  ["Id"]= 12000108,
+  ["Level"]= 8,
+  ["Name"]= "神器·铭锤灵盾 + 1",
+  ["Probability"]= 350,
+  ["ShadowWeaponId"]= 120001,
+  ["UIModelEquipId"]= 1104997,
+  ["UIModelPosX"]= 0.02,
+  ["UIModelPosY"]= -0.15
+},
+[12000109] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424106,
+    10424166
+  },
+  ["CostNum"]= {
+    6400000,
+    1000,
+    500,
+    250
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1104999,
+    1201997
+  },
+  ["Id"]= 12000109,
+  ["Level"]= 9,
+  ["Name"]= "神器·铭锤灵盾 + 2",
+  ["Probability"]= 300,
+  ["ShadowWeaponId"]= 120001,
+  ["UIModelEquipId"]= 1104997,
+  ["UIModelPosX"]= 0.02,
+  ["UIModelPosY"]= -0.15
+},
+[12000110] = {
+  ["CostType"]= {
+    0
+  },
+  ["EquipIdList"]= {
+    1104999,
+    1201997
+  },
+  ["Id"]= 12000110,
+  ["Level"]= 10,
+  ["Name"]= "神器·铭锤灵盾 + 3",
+  ["ShadowWeaponId"]= 120001,
+  ["UIModelEquipId"]= 1104997,
+  ["UIModelPosX"]= 0.02,
+  ["UIModelPosY"]= -0.15
+},
+[12000200] = {
+  ["CostType"]= {
+    0
+  },
+  ["EquipIdList"]= {
+    1103998,
+    1201996
+  },
+  ["Id"]= 12000200,
+  ["Name"]= "影装·祭杖羽盾",
+  ["ShadowWeaponId"]= 120002,
+  ["Size"]= 2.27,
+  ["UIModelEquipId"]= 1103996,
+  ["UIModelPosY"]= -0.22
+},
+[12000201] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424121,
+    10424163
+  },
+  ["CostNum"]= {
+    51200,
+    8,
+    24,
+    12
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1103998,
+    1201996
+  },
+  ["Id"]= 12000201,
+  ["Level"]= 1,
+  ["Name"]= "影装·祭杖羽盾 Lv.1",
+  ["Probability"]= 900,
+  ["ShadowWeaponId"]= 120002,
+  ["Size"]= 2.27,
+  ["UIModelEquipId"]= 1103996,
+  ["UIModelPosY"]= -0.22
+},
+[12000202] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424122,
+    10424164
+  },
+  ["CostNum"]= {
+    128000,
+    20,
+    30,
+    15
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1103998,
+    1201996
+  },
+  ["Id"]= 12000202,
+  ["Level"]= 2,
+  ["Name"]= "影装·祭杖羽盾 Lv.2",
+  ["Probability"]= 800,
+  ["ShadowWeaponId"]= 120002,
+  ["Size"]= 2.27,
+  ["UIModelEquipId"]= 1103996,
+  ["UIModelPosY"]= -0.22
+},
+[12000203] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424122,
+    10424164
+  },
+  ["CostNum"]= {
+    256000,
+    40,
+    60,
+    30
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1103998,
+    1201996
+  },
+  ["Id"]= 12000203,
+  ["Level"]= 3,
+  ["Name"]= "影装·祭杖羽盾 Lv.3",
+  ["Probability"]= 700,
+  ["ShadowWeaponId"]= 120002,
+  ["Size"]= 2.27,
+  ["UIModelEquipId"]= 1103996,
+  ["UIModelPosY"]= -0.22
+},
+[12000204] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424123,
+    10424165
+  },
+  ["CostNum"]= {
+    512000,
+    80,
+    60,
+    30
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1103998,
+    1201996
+  },
+  ["Id"]= 12000204,
+  ["Level"]= 4,
+  ["Name"]= "影装·祭杖羽盾 Lv.4",
+  ["Probability"]= 600,
+  ["ShadowWeaponId"]= 120002,
+  ["Size"]= 2.27,
+  ["UIModelEquipId"]= 1103996,
+  ["UIModelPosY"]= -0.22
+},
+[12000205] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424123,
+    10424165
+  },
+  ["CostNum"]= {
+    1280000,
+    200,
+    150,
+    75
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1103998,
+    1201996
+  },
+  ["Id"]= 12000205,
+  ["Level"]= 5,
+  ["Name"]= "影装·祭杖羽盾 Lv.5",
+  ["Probability"]= 500,
+  ["ShadowWeaponId"]= 120002,
+  ["Size"]= 2.27,
+  ["UIModelEquipId"]= 1103996,
+  ["UIModelPosY"]= -0.22
+},
+[12000206] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424054,
+    10424061
+  },
+  ["CostNum"]= {
+    2560000,
+    400,
+    400,
+    200
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1103998,
+    1201996
+  },
+  ["Id"]= 12000206,
+  ["Level"]= 6,
+  ["Name"]= "影装·祭杖羽盾 Lv.6",
+  ["Probability"]= 450,
+  ["ShadowWeaponId"]= 120002,
+  ["Size"]= 2.27,
+  ["UIModelEquipId"]= 1103996,
+  ["UIModelPosY"]= -0.22
+},
+[12000207] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424054,
+    10424061
+  },
+  ["CostNum"]= {
+    3840000,
+    600,
+    600,
+    300
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1103999,
+    1201997
+  },
+  ["Id"]= 12000207,
+  ["Level"]= 7,
+  ["Name"]= "神器·祈杖灵盾",
+  ["Probability"]= 400,
+  ["ShadowWeaponId"]= 120002,
+  ["Size"]= 2.27,
+  ["UIModelEquipId"]= 1103997,
+  ["UIModelPosY"]= -0.22
+},
+[12000208] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424124,
+    10424166
+  },
+  ["CostNum"]= {
+    5120000,
+    800,
+    400,
+    200
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1103999,
+    1201997
+  },
+  ["Id"]= 12000208,
+  ["Level"]= 8,
+  ["Name"]= "神器·祈杖灵盾 + 1",
+  ["Probability"]= 350,
+  ["ShadowWeaponId"]= 120002,
+  ["Size"]= 2.27,
+  ["UIModelEquipId"]= 1103997,
+  ["UIModelPosY"]= -0.22
+},
+[12000209] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424124,
+    10424166
+  },
+  ["CostNum"]= {
+    6400000,
+    1000,
+    500,
+    250
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1103999,
+    1201997
+  },
+  ["Id"]= 12000209,
+  ["Level"]= 9,
+  ["Name"]= "神器·祈杖灵盾 + 2",
+  ["Probability"]= 300,
+  ["ShadowWeaponId"]= 120002,
+  ["Size"]= 2.27,
+  ["UIModelEquipId"]= 1103997,
+  ["UIModelPosY"]= -0.22
+},
+[12000210] = {
+  ["CostType"]= {
+    0
+  },
+  ["EquipIdList"]= {
+    1103999,
+    1201997
+  },
+  ["Id"]= 12000210,
+  ["Level"]= 10,
+  ["Name"]= "神器·祈杖灵盾 + 3",
+  ["ShadowWeaponId"]= 120002,
+  ["Size"]= 2.27,
+  ["UIModelEquipId"]= 1103997,
+  ["UIModelPosY"]= -0.22
+},
+[12000300] = {
+  ["CostType"]= {
+    0
+  },
+  ["EquipIdList"]= {
+    1107998
+  },
+  ["Id"]= 12000300,
+  ["Name"]= "影装·术典",
+  ["ShadowWeaponId"]= 120003,
+  ["Size"]= 1.2,
+  ["UIModelEquipId"]= 1107996,
+  ["UIModelPosX"]= -0.02,
+  ["UIModelPosY"]= 0.04,
+  ["UIModelPosZ"]= 0.3,
+  ["UIModelRotX"]= -40,
+  ["UIModelRotY"]= -22.4,
+  ["UIModelRotZ"]= 245
+},
+[12000301] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424127
+  },
+  ["CostNum"]= {
+    51200,
+    8,
+    36
+  },
+  ["EquipIdList"]= {
+    1107998
+  },
+  ["Id"]= 12000301,
+  ["Level"]= 1,
+  ["Name"]= "影装·术典 Lv.1",
+  ["Probability"]= 900,
+  ["ShadowWeaponId"]= 120003,
+  ["Size"]= 1.2,
+  ["UIModelEquipId"]= 1107996,
+  ["UIModelPosX"]= -0.02,
+  ["UIModelPosY"]= 0.04,
+  ["UIModelPosZ"]= 0.3,
+  ["UIModelRotX"]= -40,
+  ["UIModelRotY"]= -22.4,
+  ["UIModelRotZ"]= 245
+},
+[12000302] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424128
+  },
+  ["CostNum"]= {
+    128000,
+    20,
+    45
+  },
+  ["EquipIdList"]= {
+    1107998
+  },
+  ["Id"]= 12000302,
+  ["Level"]= 2,
+  ["Name"]= "影装·术典 Lv.2",
+  ["Probability"]= 800,
+  ["ShadowWeaponId"]= 120003,
+  ["Size"]= 1.2,
+  ["UIModelEquipId"]= 1107996,
+  ["UIModelPosX"]= -0.02,
+  ["UIModelPosY"]= 0.04,
+  ["UIModelPosZ"]= 0.3,
+  ["UIModelRotX"]= -40,
+  ["UIModelRotY"]= -22.4,
+  ["UIModelRotZ"]= 245
+},
+[12000303] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424128
+  },
+  ["CostNum"]= {
+    256000,
+    40,
+    90
+  },
+  ["EquipIdList"]= {
+    1107998
+  },
+  ["Id"]= 12000303,
+  ["Level"]= 3,
+  ["Name"]= "影装·术典 Lv.3",
+  ["Probability"]= 700,
+  ["ShadowWeaponId"]= 120003,
+  ["Size"]= 1.2,
+  ["UIModelEquipId"]= 1107996,
+  ["UIModelPosX"]= -0.02,
+  ["UIModelPosY"]= 0.04,
+  ["UIModelPosZ"]= 0.3,
+  ["UIModelRotX"]= -40,
+  ["UIModelRotY"]= -22.4,
+  ["UIModelRotZ"]= 245
+},
+[12000304] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424129
+  },
+  ["CostNum"]= {
+    512000,
+    80,
+    90
+  },
+  ["EquipIdList"]= {
+    1107998
+  },
+  ["Id"]= 12000304,
+  ["Level"]= 4,
+  ["Name"]= "影装·术典 Lv.4",
+  ["Probability"]= 600,
+  ["ShadowWeaponId"]= 120003,
+  ["Size"]= 1.2,
+  ["UIModelEquipId"]= 1107996,
+  ["UIModelPosX"]= -0.02,
+  ["UIModelPosY"]= 0.04,
+  ["UIModelPosZ"]= 0.3,
+  ["UIModelRotX"]= -40,
+  ["UIModelRotY"]= -22.4,
+  ["UIModelRotZ"]= 245
+},
+[12000305] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424129
+  },
+  ["CostNum"]= {
+    1280000,
+    200,
+    225
+  },
+  ["EquipIdList"]= {
+    1107998
+  },
+  ["Id"]= 12000305,
+  ["Level"]= 5,
+  ["Name"]= "影装·术典 Lv.5",
+  ["Probability"]= 500,
+  ["ShadowWeaponId"]= 120003,
+  ["Size"]= 1.2,
+  ["UIModelEquipId"]= 1107996,
+  ["UIModelPosX"]= -0.02,
+  ["UIModelPosY"]= 0.04,
+  ["UIModelPosZ"]= 0.3,
+  ["UIModelRotX"]= -40,
+  ["UIModelRotY"]= -22.4,
+  ["UIModelRotZ"]= 245
+},
+[12000306] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424055
+  },
+  ["CostNum"]= {
+    2560000,
+    400,
+    600
+  },
+  ["EquipIdList"]= {
+    1107998
+  },
+  ["Id"]= 12000306,
+  ["Level"]= 6,
+  ["Name"]= "影装·术典 Lv.6",
+  ["Probability"]= 450,
+  ["ShadowWeaponId"]= 120003,
+  ["Size"]= 1.2,
+  ["UIModelEquipId"]= 1107996,
+  ["UIModelPosX"]= -0.02,
+  ["UIModelPosY"]= 0.04,
+  ["UIModelPosZ"]= 0.3,
+  ["UIModelRotX"]= -40,
+  ["UIModelRotY"]= -22.4,
+  ["UIModelRotZ"]= 245
+},
+[12000307] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424055
+  },
+  ["CostNum"]= {
+    3840000,
+    600,
+    900
+  },
+  ["EquipIdList"]= {
+    1107999
+  },
+  ["Id"]= 12000307,
+  ["Level"]= 7,
+  ["Name"]= "神器·神典",
+  ["Probability"]= 400,
+  ["ShadowWeaponId"]= 120003,
+  ["Size"]= 1.2,
+  ["UIModelEquipId"]= 1107997,
+  ["UIModelPosX"]= -0.02,
+  ["UIModelPosY"]= 0.04,
+  ["UIModelPosZ"]= 0.3,
+  ["UIModelRotX"]= -40,
+  ["UIModelRotY"]= -22.4,
+  ["UIModelRotZ"]= 245
+},
+[12000308] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424130
+  },
+  ["CostNum"]= {
+    5120000,
+    800,
+    600
+  },
+  ["EquipIdList"]= {
+    1107999
+  },
+  ["Id"]= 12000308,
+  ["Level"]= 8,
+  ["Name"]= "神器·神典 + 1",
+  ["Probability"]= 350,
+  ["ShadowWeaponId"]= 120003,
+  ["Size"]= 1.2,
+  ["UIModelEquipId"]= 1107997,
+  ["UIModelPosX"]= -0.02,
+  ["UIModelPosY"]= 0.04,
+  ["UIModelPosZ"]= 0.3,
+  ["UIModelRotX"]= -40,
+  ["UIModelRotY"]= -22.4,
+  ["UIModelRotZ"]= 245
+},
+[12000309] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424130
+  },
+  ["CostNum"]= {
+    6400000,
+    1000,
+    750
+  },
+  ["EquipIdList"]= {
+    1107999
+  },
+  ["Id"]= 12000309,
+  ["Level"]= 9,
+  ["Name"]= "神器·神典 + 2",
+  ["Probability"]= 300,
+  ["ShadowWeaponId"]= 120003,
+  ["Size"]= 1.2,
+  ["UIModelEquipId"]= 1107997,
+  ["UIModelPosX"]= -0.02,
+  ["UIModelPosY"]= 0.04,
+  ["UIModelPosZ"]= 0.3,
+  ["UIModelRotX"]= -40,
+  ["UIModelRotY"]= -22.4,
+  ["UIModelRotZ"]= 245
+},
+[12000310] = {
+  ["CostType"]= {
+    0
+  },
+  ["EquipIdList"]= {
+    1107999
+  },
+  ["Id"]= 12000310,
+  ["Level"]= 10,
+  ["Name"]= "神器·神典 + 3",
+  ["ShadowWeaponId"]= 120003,
+  ["Size"]= 1.2,
+  ["UIModelEquipId"]= 1107997,
+  ["UIModelPosX"]= -0.02,
+  ["UIModelPosY"]= 0.04,
+  ["UIModelPosZ"]= 0.3,
+  ["UIModelRotX"]= -40,
+  ["UIModelRotY"]= -22.4,
+  ["UIModelRotZ"]= 245
+},
+[13000100] = {
+  ["CostType"]= {
+    0
+  },
+  ["EquipIdList"]= {
+    1103998,
+    1201996
+  },
+  ["Id"]= 13000100,
+  ["Name"]= "影装·祭杖羽盾",
+  ["ShadowWeaponId"]= 130001,
+  ["Size"]= 2.27,
+  ["UIModelEquipId"]= 1103996,
+  ["UIModelPosY"]= -0.22
+},
+[13000101] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424121,
+    10424163
+  },
+  ["CostNum"]= {
+    51200,
+    8,
+    24,
+    12
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1103998,
+    1201996
+  },
+  ["Id"]= 13000101,
+  ["Level"]= 1,
+  ["Name"]= "影装·祭杖羽盾 Lv.1",
+  ["Probability"]= 900,
+  ["ShadowWeaponId"]= 130001,
+  ["Size"]= 2.27,
+  ["UIModelEquipId"]= 1103996,
+  ["UIModelPosY"]= -0.22
+},
+[13000102] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424122,
+    10424164
+  },
+  ["CostNum"]= {
+    128000,
+    20,
+    30,
+    15
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1103998,
+    1201996
+  },
+  ["Id"]= 13000102,
+  ["Level"]= 2,
+  ["Name"]= "影装·祭杖羽盾 Lv.2",
+  ["Probability"]= 800,
+  ["ShadowWeaponId"]= 130001,
+  ["Size"]= 2.27,
+  ["UIModelEquipId"]= 1103996,
+  ["UIModelPosY"]= -0.22
+},
+[13000103] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424122,
+    10424164
+  },
+  ["CostNum"]= {
+    256000,
+    40,
+    60,
+    30
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1103998,
+    1201996
+  },
+  ["Id"]= 13000103,
+  ["Level"]= 3,
+  ["Name"]= "影装·祭杖羽盾 Lv.3",
+  ["Probability"]= 700,
+  ["ShadowWeaponId"]= 130001,
+  ["Size"]= 2.27,
+  ["UIModelEquipId"]= 1103996,
+  ["UIModelPosY"]= -0.22
+},
+[13000104] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424123,
+    10424165
+  },
+  ["CostNum"]= {
+    512000,
+    80,
+    60,
+    30
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1103998,
+    1201996
+  },
+  ["Id"]= 13000104,
+  ["Level"]= 4,
+  ["Name"]= "影装·祭杖羽盾 Lv.4",
+  ["Probability"]= 600,
+  ["ShadowWeaponId"]= 130001,
+  ["Size"]= 2.27,
+  ["UIModelEquipId"]= 1103996,
+  ["UIModelPosY"]= -0.22
+},
+[13000105] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424123,
+    10424165
+  },
+  ["CostNum"]= {
+    1280000,
+    200,
+    150,
+    75
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1103998,
+    1201996
+  },
+  ["Id"]= 13000105,
+  ["Level"]= 5,
+  ["Name"]= "影装·祭杖羽盾 Lv.5",
+  ["Probability"]= 500,
+  ["ShadowWeaponId"]= 130001,
+  ["Size"]= 2.27,
+  ["UIModelEquipId"]= 1103996,
+  ["UIModelPosY"]= -0.22
+},
+[13000106] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424054,
+    10424061
+  },
+  ["CostNum"]= {
+    2560000,
+    400,
+    400,
+    200
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1103998,
+    1201996
+  },
+  ["Id"]= 13000106,
+  ["Level"]= 6,
+  ["Name"]= "影装·祭杖羽盾 Lv.6",
+  ["Probability"]= 450,
+  ["ShadowWeaponId"]= 130001,
+  ["Size"]= 2.27,
+  ["UIModelEquipId"]= 1103996,
+  ["UIModelPosY"]= -0.22
+},
+[13000107] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424054,
+    10424061
+  },
+  ["CostNum"]= {
+    3840000,
+    600,
+    600,
+    300
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1103999,
+    1201997
+  },
+  ["Id"]= 13000107,
+  ["Level"]= 7,
+  ["Name"]= "神器·祈杖灵盾",
+  ["Probability"]= 400,
+  ["ShadowWeaponId"]= 130001,
+  ["Size"]= 2.27,
+  ["UIModelEquipId"]= 1103997,
+  ["UIModelPosY"]= -0.22
+},
+[13000108] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424124,
+    10424166
+  },
+  ["CostNum"]= {
+    5120000,
+    800,
+    400,
+    200
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1103999,
+    1201997
+  },
+  ["Id"]= 13000108,
+  ["Level"]= 8,
+  ["Name"]= "神器·祈杖灵盾 + 1",
+  ["Probability"]= 350,
+  ["ShadowWeaponId"]= 130001,
+  ["Size"]= 2.27,
+  ["UIModelEquipId"]= 1103997,
+  ["UIModelPosY"]= -0.22
+},
+[13000109] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424124,
+    10424166
+  },
+  ["CostNum"]= {
+    6400000,
+    1000,
+    500,
+    250
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1103999,
+    1201997
+  },
+  ["Id"]= 13000109,
+  ["Level"]= 9,
+  ["Name"]= "神器·祈杖灵盾 + 2",
+  ["Probability"]= 300,
+  ["ShadowWeaponId"]= 130001,
+  ["Size"]= 2.27,
+  ["UIModelEquipId"]= 1103997,
+  ["UIModelPosY"]= -0.22
+},
+[13000110] = {
+  ["CostType"]= {
+    0
+  },
+  ["EquipIdList"]= {
+    1103999,
+    1201997
+  },
+  ["Id"]= 13000110,
+  ["Level"]= 10,
+  ["Name"]= "神器·祈杖灵盾 + 3",
+  ["ShadowWeaponId"]= 130001,
+  ["Size"]= 2.27,
+  ["UIModelEquipId"]= 1103997,
+  ["UIModelPosY"]= -0.22
+},
+[13000200] = {
+  ["CostType"]= {
+    0
+  },
+  ["EquipIdList"]= {
+    1306998
+  },
+  ["Id"]= 13000200,
+  ["Name"]= "影装·序杖",
+  ["ShadowWeaponId"]= 130002,
+  ["Size"]= 1.5,
+  ["UIModelEquipId"]= 1306998,
+  ["UIModelPosY"]= 0.19,
+  ["UIModelPosZ"]= 1.2,
+  ["UIModelRotX"]= -60,
+  ["UIModelRotY"]= 50,
+  ["UIModelRotZ"]= -60
+},
+[13000201] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424133
+  },
+  ["CostNum"]= {
+    51200,
+    8,
+    36
+  },
+  ["EquipIdList"]= {
+    1306998
+  },
+  ["Id"]= 13000201,
+  ["Level"]= 1,
+  ["Name"]= "影装·序杖 Lv.1",
+  ["Probability"]= 900,
+  ["ShadowWeaponId"]= 130002,
+  ["Size"]= 1.5,
+  ["UIModelEquipId"]= 1306998,
+  ["UIModelPosY"]= 0.19,
+  ["UIModelPosZ"]= 1.2,
+  ["UIModelRotX"]= -60,
+  ["UIModelRotY"]= 50,
+  ["UIModelRotZ"]= -60
+},
+[13000202] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424134
+  },
+  ["CostNum"]= {
+    128000,
+    20,
+    45
+  },
+  ["EquipIdList"]= {
+    1306998
+  },
+  ["Id"]= 13000202,
+  ["Level"]= 2,
+  ["Name"]= "影装·序杖 Lv.2",
+  ["Probability"]= 800,
+  ["ShadowWeaponId"]= 130002,
+  ["Size"]= 1.5,
+  ["UIModelEquipId"]= 1306998,
+  ["UIModelPosY"]= 0.19,
+  ["UIModelPosZ"]= 1.2,
+  ["UIModelRotX"]= -60,
+  ["UIModelRotY"]= 50,
+  ["UIModelRotZ"]= -60
+},
+[13000203] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424134
+  },
+  ["CostNum"]= {
+    256000,
+    40,
+    90
+  },
+  ["EquipIdList"]= {
+    1306998
+  },
+  ["Id"]= 13000203,
+  ["Level"]= 3,
+  ["Name"]= "影装·序杖 Lv.3",
+  ["Probability"]= 700,
+  ["ShadowWeaponId"]= 130002,
+  ["Size"]= 1.5,
+  ["UIModelEquipId"]= 1306998,
+  ["UIModelPosY"]= 0.19,
+  ["UIModelPosZ"]= 1.2,
+  ["UIModelRotX"]= -60,
+  ["UIModelRotY"]= 50,
+  ["UIModelRotZ"]= -60
+},
+[13000204] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424135
+  },
+  ["CostNum"]= {
+    512000,
+    80,
+    90
+  },
+  ["EquipIdList"]= {
+    1306998
+  },
+  ["Id"]= 13000204,
+  ["Level"]= 4,
+  ["Name"]= "影装·序杖 Lv.4",
+  ["Probability"]= 600,
+  ["ShadowWeaponId"]= 130002,
+  ["Size"]= 1.5,
+  ["UIModelEquipId"]= 1306998,
+  ["UIModelPosY"]= 0.19,
+  ["UIModelPosZ"]= 1.2,
+  ["UIModelRotX"]= -60,
+  ["UIModelRotY"]= 50,
+  ["UIModelRotZ"]= -60
+},
+[13000205] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424135
+  },
+  ["CostNum"]= {
+    1280000,
+    200,
+    225
+  },
+  ["EquipIdList"]= {
+    1306998
+  },
+  ["Id"]= 13000205,
+  ["Level"]= 5,
+  ["Name"]= "影装·序杖 Lv.5",
+  ["Probability"]= 500,
+  ["ShadowWeaponId"]= 130002,
+  ["Size"]= 1.5,
+  ["UIModelEquipId"]= 1306998,
+  ["UIModelPosY"]= 0.19,
+  ["UIModelPosZ"]= 1.2,
+  ["UIModelRotX"]= -60,
+  ["UIModelRotY"]= 50,
+  ["UIModelRotZ"]= -60
+},
+[13000206] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424056
+  },
+  ["CostNum"]= {
+    2560000,
+    400,
+    600
+  },
+  ["EquipIdList"]= {
+    1306998
+  },
+  ["Id"]= 13000206,
+  ["Level"]= 6,
+  ["Name"]= "影装·序杖 Lv.6",
+  ["Probability"]= 450,
+  ["ShadowWeaponId"]= 130002,
+  ["Size"]= 1.5,
+  ["UIModelEquipId"]= 1306998,
+  ["UIModelPosY"]= 0.19,
+  ["UIModelPosZ"]= 1.2,
+  ["UIModelRotX"]= -60,
+  ["UIModelRotY"]= 50,
+  ["UIModelRotZ"]= -60
+},
+[13000207] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424056
+  },
+  ["CostNum"]= {
+    3840000,
+    600,
+    900
+  },
+  ["EquipIdList"]= {
+    1306999
+  },
+  ["Id"]= 13000207,
+  ["Level"]= 7,
+  ["Name"]= "神器·厄杖",
+  ["Probability"]= 400,
+  ["ShadowWeaponId"]= 130002,
+  ["Size"]= 1.5,
+  ["UIModelEquipId"]= 1306999,
+  ["UIModelPosY"]= 0.19,
+  ["UIModelPosZ"]= 1.2,
+  ["UIModelRotX"]= -60,
+  ["UIModelRotY"]= 50,
+  ["UIModelRotZ"]= -60
+},
+[13000208] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424136
+  },
+  ["CostNum"]= {
+    5120000,
+    800,
+    600
+  },
+  ["EquipIdList"]= {
+    1306999
+  },
+  ["Id"]= 13000208,
+  ["Level"]= 8,
+  ["Name"]= "神器·厄杖 + 1",
+  ["Probability"]= 350,
+  ["ShadowWeaponId"]= 130002,
+  ["Size"]= 1.5,
+  ["UIModelEquipId"]= 1306999,
+  ["UIModelPosY"]= 0.19,
+  ["UIModelPosZ"]= 1.2,
+  ["UIModelRotX"]= -60,
+  ["UIModelRotY"]= 50,
+  ["UIModelRotZ"]= -60
+},
+[13000209] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424136
+  },
+  ["CostNum"]= {
+    6400000,
+    1000,
+    750
+  },
+  ["EquipIdList"]= {
+    1306999
+  },
+  ["Id"]= 13000209,
+  ["Level"]= 9,
+  ["Name"]= "神器·厄杖 + 2",
+  ["Probability"]= 300,
+  ["ShadowWeaponId"]= 130002,
+  ["Size"]= 1.5,
+  ["UIModelEquipId"]= 1306999,
+  ["UIModelPosY"]= 0.19,
+  ["UIModelPosZ"]= 1.2,
+  ["UIModelRotX"]= -60,
+  ["UIModelRotY"]= 50,
+  ["UIModelRotZ"]= -60
+},
+[13000210] = {
+  ["CostType"]= {
+    0
+  },
+  ["EquipIdList"]= {
+    1306999
+  },
+  ["Id"]= 13000210,
+  ["Level"]= 10,
+  ["Name"]= "神器·厄杖 + 3",
+  ["ShadowWeaponId"]= 130002,
+  ["Size"]= 1.5,
+  ["UIModelEquipId"]= 1306999,
+  ["UIModelPosY"]= 0.19,
+  ["UIModelPosZ"]= 1.2,
+  ["UIModelRotX"]= -60,
+  ["UIModelRotY"]= 50,
+  ["UIModelRotZ"]= -60
+},
+[14000100] = {
+  ["CostType"]= {
+    0
+  },
+  ["EquipIdList"]= {
+    1105998,
+    1105998
+  },
+  ["Id"]= 14000100,
+  ["Name"]= "影装·幻匕",
+  ["ShadowWeaponId"]= 140001,
+  ["Size"]= 1.2,
+  ["UIModelEquipId"]= 1105998,
+  ["UIModelPosX"]= 0.08,
+  ["UIModelPosY"]= 0.17,
+  ["UIModelPosZ"]= 0.32,
+  ["UIModelRotX"]= 119,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[14000101] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424151
+  },
+  ["CostNum"]= {
+    51200,
+    8,
+    36
+  },
+  ["EquipIdList"]= {
+    1105998,
+    1105998
+  },
+  ["Id"]= 14000101,
+  ["Level"]= 1,
+  ["Name"]= "影装·幻匕 Lv.1",
+  ["Probability"]= 900,
+  ["ShadowWeaponId"]= 140001,
+  ["Size"]= 1.2,
+  ["UIModelEquipId"]= 1105998,
+  ["UIModelPosX"]= 0.08,
+  ["UIModelPosY"]= 0.17,
+  ["UIModelPosZ"]= 0.32,
+  ["UIModelRotX"]= 119,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[14000102] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424152
+  },
+  ["CostNum"]= {
+    128000,
+    20,
+    45
+  },
+  ["EquipIdList"]= {
+    1105998,
+    1105998
+  },
+  ["Id"]= 14000102,
+  ["Level"]= 2,
+  ["Name"]= "影装·幻匕 Lv.2",
+  ["Probability"]= 800,
+  ["ShadowWeaponId"]= 140001,
+  ["Size"]= 1.2,
+  ["UIModelEquipId"]= 1105998,
+  ["UIModelPosX"]= 0.08,
+  ["UIModelPosY"]= 0.17,
+  ["UIModelPosZ"]= 0.32,
+  ["UIModelRotX"]= 119,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[14000103] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424152
+  },
+  ["CostNum"]= {
+    256000,
+    40,
+    90
+  },
+  ["EquipIdList"]= {
+    1105998,
+    1105998
+  },
+  ["Id"]= 14000103,
+  ["Level"]= 3,
+  ["Name"]= "影装·幻匕 Lv.3",
+  ["Probability"]= 700,
+  ["ShadowWeaponId"]= 140001,
+  ["Size"]= 1.2,
+  ["UIModelEquipId"]= 1105998,
+  ["UIModelPosX"]= 0.08,
+  ["UIModelPosY"]= 0.17,
+  ["UIModelPosZ"]= 0.32,
+  ["UIModelRotX"]= 119,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[14000104] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424153
+  },
+  ["CostNum"]= {
+    512000,
+    80,
+    90
+  },
+  ["EquipIdList"]= {
+    1105998,
+    1105998
+  },
+  ["Id"]= 14000104,
+  ["Level"]= 4,
+  ["Name"]= "影装·幻匕 Lv.4",
+  ["Probability"]= 600,
+  ["ShadowWeaponId"]= 140001,
+  ["Size"]= 1.2,
+  ["UIModelEquipId"]= 1105998,
+  ["UIModelPosX"]= 0.08,
+  ["UIModelPosY"]= 0.17,
+  ["UIModelPosZ"]= 0.32,
+  ["UIModelRotX"]= 119,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[14000105] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424153
+  },
+  ["CostNum"]= {
+    1280000,
+    200,
+    225
+  },
+  ["EquipIdList"]= {
+    1105998,
+    1105998
+  },
+  ["Id"]= 14000105,
+  ["Level"]= 5,
+  ["Name"]= "影装·幻匕 Lv.5",
+  ["Probability"]= 500,
+  ["ShadowWeaponId"]= 140001,
+  ["Size"]= 1.2,
+  ["UIModelEquipId"]= 1105998,
+  ["UIModelPosX"]= 0.08,
+  ["UIModelPosY"]= 0.17,
+  ["UIModelPosZ"]= 0.32,
+  ["UIModelRotX"]= 119,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[14000106] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424059
+  },
+  ["CostNum"]= {
+    2560000,
+    400,
+    600
+  },
+  ["EquipIdList"]= {
+    1105998,
+    1105998
+  },
+  ["Id"]= 14000106,
+  ["Level"]= 6,
+  ["Name"]= "影装·幻匕 Lv.6",
+  ["Probability"]= 450,
+  ["ShadowWeaponId"]= 140001,
+  ["Size"]= 1.2,
+  ["UIModelEquipId"]= 1105998,
+  ["UIModelPosX"]= 0.08,
+  ["UIModelPosY"]= 0.17,
+  ["UIModelPosZ"]= 0.32,
+  ["UIModelRotX"]= 119,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[14000107] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424059
+  },
+  ["CostNum"]= {
+    3840000,
+    600,
+    900
+  },
+  ["EquipIdList"]= {
+    1105999,
+    1105999
+  },
+  ["Id"]= 14000107,
+  ["Level"]= 7,
+  ["Name"]= "神器·黯匕",
+  ["Probability"]= 400,
+  ["ShadowWeaponId"]= 140001,
+  ["Size"]= 1.2,
+  ["UIModelEquipId"]= 1105999,
+  ["UIModelPosX"]= 0.08,
+  ["UIModelPosY"]= 0.17,
+  ["UIModelPosZ"]= 0.32,
+  ["UIModelRotX"]= 119,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[14000108] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424154
+  },
+  ["CostNum"]= {
+    5120000,
+    800,
+    600
+  },
+  ["EquipIdList"]= {
+    1105999,
+    1105999
+  },
+  ["Id"]= 14000108,
+  ["Level"]= 8,
+  ["Name"]= "神器·黯匕 + 1",
+  ["Probability"]= 350,
+  ["ShadowWeaponId"]= 140001,
+  ["Size"]= 1.2,
+  ["UIModelEquipId"]= 1105999,
+  ["UIModelPosX"]= 0.08,
+  ["UIModelPosY"]= 0.17,
+  ["UIModelPosZ"]= 0.32,
+  ["UIModelRotX"]= 119,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[14000109] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424154
+  },
+  ["CostNum"]= {
+    6400000,
+    1000,
+    750
+  },
+  ["EquipIdList"]= {
+    1105999,
+    1105999
+  },
+  ["Id"]= 14000109,
+  ["Level"]= 9,
+  ["Name"]= "神器·黯匕 + 2",
+  ["Probability"]= 300,
+  ["ShadowWeaponId"]= 140001,
+  ["Size"]= 1.2,
+  ["UIModelEquipId"]= 1105999,
+  ["UIModelPosX"]= 0.08,
+  ["UIModelPosY"]= 0.17,
+  ["UIModelPosZ"]= 0.32,
+  ["UIModelRotX"]= 119,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[14000110] = {
+  ["CostType"]= {
+    0
+  },
+  ["EquipIdList"]= {
+    1105999,
+    1105999
+  },
+  ["Id"]= 14000110,
+  ["Level"]= 10,
+  ["Name"]= "神器·黯匕 + 3",
+  ["ShadowWeaponId"]= 140001,
+  ["Size"]= 1.2,
+  ["UIModelEquipId"]= 1105999,
+  ["UIModelPosX"]= 0.08,
+  ["UIModelPosY"]= 0.17,
+  ["UIModelPosZ"]= 0.32,
+  ["UIModelRotX"]= 119,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[14000200] = {
+  ["CostType"]= {
+    0
+  },
+  ["EquipIdList"]= {
+    1304998
+  },
+  ["Id"]= 14000200,
+  ["Name"]= "影装·逆刃",
+  ["ShadowWeaponId"]= 140002,
+  ["Size"]= 1.5,
+  ["UIModelEquipId"]= 1304998,
+  ["UIModelPosX"]= 0.088,
+  ["UIModelPosY"]= 0.165,
+  ["UIModelPosZ"]= 0.515,
+  ["UIModelRotX"]= -153,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[14000201] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424157
+  },
+  ["CostNum"]= {
+    51200,
+    8,
+    36
+  },
+  ["EquipIdList"]= {
+    1304998
+  },
+  ["Id"]= 14000201,
+  ["Level"]= 1,
+  ["Name"]= "影装·逆刃 Lv.1",
+  ["Probability"]= 900,
+  ["ShadowWeaponId"]= 140002,
+  ["Size"]= 1.5,
+  ["UIModelEquipId"]= 1304998,
+  ["UIModelPosX"]= 0.088,
+  ["UIModelPosY"]= 0.165,
+  ["UIModelPosZ"]= 0.515,
+  ["UIModelRotX"]= -153,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[14000202] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424158
+  },
+  ["CostNum"]= {
+    128000,
+    20,
+    45
+  },
+  ["EquipIdList"]= {
+    1304998
+  },
+  ["Id"]= 14000202,
+  ["Level"]= 2,
+  ["Name"]= "影装·逆刃 Lv.2",
+  ["Probability"]= 800,
+  ["ShadowWeaponId"]= 140002,
+  ["Size"]= 1.5,
+  ["UIModelEquipId"]= 1304998,
+  ["UIModelPosX"]= 0.088,
+  ["UIModelPosY"]= 0.165,
+  ["UIModelPosZ"]= 0.515,
+  ["UIModelRotX"]= -153,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[14000203] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424158
+  },
+  ["CostNum"]= {
+    256000,
+    40,
+    90
+  },
+  ["EquipIdList"]= {
+    1304998
+  },
+  ["Id"]= 14000203,
+  ["Level"]= 3,
+  ["Name"]= "影装·逆刃 Lv.3",
+  ["Probability"]= 700,
+  ["ShadowWeaponId"]= 140002,
+  ["Size"]= 1.5,
+  ["UIModelEquipId"]= 1304998,
+  ["UIModelPosX"]= 0.088,
+  ["UIModelPosY"]= 0.165,
+  ["UIModelPosZ"]= 0.515,
+  ["UIModelRotX"]= -153,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[14000204] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424159
+  },
+  ["CostNum"]= {
+    512000,
+    80,
+    90
+  },
+  ["EquipIdList"]= {
+    1304998
+  },
+  ["Id"]= 14000204,
+  ["Level"]= 4,
+  ["Name"]= "影装·逆刃 Lv.4",
+  ["Probability"]= 600,
+  ["ShadowWeaponId"]= 140002,
+  ["Size"]= 1.5,
+  ["UIModelEquipId"]= 1304998,
+  ["UIModelPosX"]= 0.088,
+  ["UIModelPosY"]= 0.165,
+  ["UIModelPosZ"]= 0.515,
+  ["UIModelRotX"]= -153,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[14000205] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424159
+  },
+  ["CostNum"]= {
+    1280000,
+    200,
+    225
+  },
+  ["EquipIdList"]= {
+    1304998
+  },
+  ["Id"]= 14000205,
+  ["Level"]= 5,
+  ["Name"]= "影装·逆刃 Lv.5",
+  ["Probability"]= 500,
+  ["ShadowWeaponId"]= 140002,
+  ["Size"]= 1.5,
+  ["UIModelEquipId"]= 1304998,
+  ["UIModelPosX"]= 0.088,
+  ["UIModelPosY"]= 0.165,
+  ["UIModelPosZ"]= 0.515,
+  ["UIModelRotX"]= -153,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[14000206] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424060
+  },
+  ["CostNum"]= {
+    2560000,
+    400,
+    600
+  },
+  ["EquipIdList"]= {
+    1304998
+  },
+  ["Id"]= 14000206,
+  ["Level"]= 6,
+  ["Name"]= "影装·逆刃 Lv.6",
+  ["Probability"]= 450,
+  ["ShadowWeaponId"]= 140002,
+  ["Size"]= 1.5,
+  ["UIModelEquipId"]= 1304998,
+  ["UIModelPosX"]= 0.088,
+  ["UIModelPosY"]= 0.165,
+  ["UIModelPosZ"]= 0.515,
+  ["UIModelRotX"]= -153,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[14000207] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424060
+  },
+  ["CostNum"]= {
+    3840000,
+    600,
+    900
+  },
+  ["EquipIdList"]= {
+    1304999
+  },
+  ["Id"]= 14000207,
+  ["Level"]= 7,
+  ["Name"]= "神器·骸刃",
+  ["Probability"]= 400,
+  ["ShadowWeaponId"]= 140002,
+  ["Size"]= 1.5,
+  ["UIModelEquipId"]= 1304999,
+  ["UIModelPosX"]= 0.088,
+  ["UIModelPosY"]= 0.165,
+  ["UIModelPosZ"]= 0.515,
+  ["UIModelRotX"]= -153,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[14000208] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424160
+  },
+  ["CostNum"]= {
+    5120000,
+    800,
+    600
+  },
+  ["EquipIdList"]= {
+    1304999
+  },
+  ["Id"]= 14000208,
+  ["Level"]= 8,
+  ["Name"]= "神器·骸刃 + 1",
+  ["Probability"]= 350,
+  ["ShadowWeaponId"]= 140002,
+  ["Size"]= 1.5,
+  ["UIModelEquipId"]= 1304999,
+  ["UIModelPosX"]= 0.088,
+  ["UIModelPosY"]= 0.165,
+  ["UIModelPosZ"]= 0.515,
+  ["UIModelRotX"]= -153,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[14000209] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424160
+  },
+  ["CostNum"]= {
+    6400000,
+    1000,
+    750
+  },
+  ["EquipIdList"]= {
+    1304999
+  },
+  ["Id"]= 14000209,
+  ["Level"]= 9,
+  ["Name"]= "神器·骸刃 + 2",
+  ["Probability"]= 300,
+  ["ShadowWeaponId"]= 140002,
+  ["Size"]= 1.5,
+  ["UIModelEquipId"]= 1304999,
+  ["UIModelPosX"]= 0.088,
+  ["UIModelPosY"]= 0.165,
+  ["UIModelPosZ"]= 0.515,
+  ["UIModelRotX"]= -153,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[14000210] = {
+  ["CostType"]= {
+    0
+  },
+  ["EquipIdList"]= {
+    1304999
+  },
+  ["Id"]= 14000210,
+  ["Level"]= 10,
+  ["Name"]= "神器·骸刃 + 3",
+  ["ShadowWeaponId"]= 140002,
+  ["Size"]= 1.5,
+  ["UIModelEquipId"]= 1304999,
+  ["UIModelPosX"]= 0.088,
+  ["UIModelPosY"]= 0.165,
+  ["UIModelPosZ"]= 0.515,
+  ["UIModelRotX"]= -153,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[15000100] = {
+  ["CostType"]= {
+    0
+  },
+  ["EquipIdList"]= {
+    1305996
+  },
+  ["Id"]= 15000100,
+  ["Name"]= "影装·界弓",
+  ["ShadowWeaponId"]= 150001,
+  ["Size"]= 1.25,
+  ["UIModelEquipId"]= 1305996,
+  ["UIModelPosX"]= -0.1,
+  ["UIModelPosY"]= 0.08,
+  ["UIModelPosZ"]= 0.9,
+  ["UIModelRotX"]= -50,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[15000101] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424139
+  },
+  ["CostNum"]= {
+    51200,
+    8,
+    36
+  },
+  ["EquipIdList"]= {
+    1305996
+  },
+  ["Id"]= 15000101,
+  ["Level"]= 1,
+  ["Name"]= "影装·界弓 Lv.1",
+  ["Probability"]= 900,
+  ["ShadowWeaponId"]= 150001,
+  ["Size"]= 1.25,
+  ["UIModelEquipId"]= 1305996,
+  ["UIModelPosX"]= -0.1,
+  ["UIModelPosY"]= 0.08,
+  ["UIModelPosZ"]= 0.9,
+  ["UIModelRotX"]= -50,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[15000102] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424140
+  },
+  ["CostNum"]= {
+    128000,
+    20,
+    45
+  },
+  ["EquipIdList"]= {
+    1305996
+  },
+  ["Id"]= 15000102,
+  ["Level"]= 2,
+  ["Name"]= "影装·界弓 Lv.2",
+  ["Probability"]= 800,
+  ["ShadowWeaponId"]= 150001,
+  ["Size"]= 1.25,
+  ["UIModelEquipId"]= 1305996,
+  ["UIModelPosX"]= -0.1,
+  ["UIModelPosY"]= 0.08,
+  ["UIModelPosZ"]= 0.9,
+  ["UIModelRotX"]= -50,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[15000103] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424140
+  },
+  ["CostNum"]= {
+    256000,
+    40,
+    90
+  },
+  ["EquipIdList"]= {
+    1305996
+  },
+  ["Id"]= 15000103,
+  ["Level"]= 3,
+  ["Name"]= "影装·界弓 Lv.3",
+  ["Probability"]= 700,
+  ["ShadowWeaponId"]= 150001,
+  ["Size"]= 1.25,
+  ["UIModelEquipId"]= 1305996,
+  ["UIModelPosX"]= -0.1,
+  ["UIModelPosY"]= 0.08,
+  ["UIModelPosZ"]= 0.9,
+  ["UIModelRotX"]= -50,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[15000104] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424141
+  },
+  ["CostNum"]= {
+    512000,
+    80,
+    90
+  },
+  ["EquipIdList"]= {
+    1305996
+  },
+  ["Id"]= 15000104,
+  ["Level"]= 4,
+  ["Name"]= "影装·界弓 Lv.4",
+  ["Probability"]= 600,
+  ["ShadowWeaponId"]= 150001,
+  ["Size"]= 1.25,
+  ["UIModelEquipId"]= 1305996,
+  ["UIModelPosX"]= -0.1,
+  ["UIModelPosY"]= 0.08,
+  ["UIModelPosZ"]= 0.9,
+  ["UIModelRotX"]= -50,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[15000105] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424141
+  },
+  ["CostNum"]= {
+    1280000,
+    200,
+    225
+  },
+  ["EquipIdList"]= {
+    1305996
+  },
+  ["Id"]= 15000105,
+  ["Level"]= 5,
+  ["Name"]= "影装·界弓 Lv.5",
+  ["Probability"]= 500,
+  ["ShadowWeaponId"]= 150001,
+  ["Size"]= 1.25,
+  ["UIModelEquipId"]= 1305996,
+  ["UIModelPosX"]= -0.1,
+  ["UIModelPosY"]= 0.08,
+  ["UIModelPosZ"]= 0.9,
+  ["UIModelRotX"]= -50,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[15000106] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424057
+  },
+  ["CostNum"]= {
+    2560000,
+    400,
+    600
+  },
+  ["EquipIdList"]= {
+    1305996
+  },
+  ["Id"]= 15000106,
+  ["Level"]= 6,
+  ["Name"]= "影装·界弓 Lv.6",
+  ["Probability"]= 450,
+  ["ShadowWeaponId"]= 150001,
+  ["Size"]= 1.25,
+  ["UIModelEquipId"]= 1305996,
+  ["UIModelPosX"]= -0.1,
+  ["UIModelPosY"]= 0.08,
+  ["UIModelPosZ"]= 0.9,
+  ["UIModelRotX"]= -50,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[15000107] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424057
+  },
+  ["CostNum"]= {
+    3840000,
+    600,
+    900
+  },
+  ["EquipIdList"]= {
+    1305997
+  },
+  ["Id"]= 15000107,
+  ["Level"]= 7,
+  ["Name"]= "神器·名弓",
+  ["Probability"]= 400,
+  ["ShadowWeaponId"]= 150001,
+  ["Size"]= 1.25,
+  ["UIModelEquipId"]= 1305997,
+  ["UIModelPosX"]= -0.1,
+  ["UIModelPosY"]= 0.08,
+  ["UIModelPosZ"]= 0.9,
+  ["UIModelRotX"]= -50,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[15000108] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424142
+  },
+  ["CostNum"]= {
+    5120000,
+    800,
+    600
+  },
+  ["EquipIdList"]= {
+    1305997
+  },
+  ["Id"]= 15000108,
+  ["Level"]= 8,
+  ["Name"]= "神器·名弓 + 1",
+  ["Probability"]= 350,
+  ["ShadowWeaponId"]= 150001,
+  ["Size"]= 1.25,
+  ["UIModelEquipId"]= 1305997,
+  ["UIModelPosX"]= -0.1,
+  ["UIModelPosY"]= 0.08,
+  ["UIModelPosZ"]= 0.9,
+  ["UIModelRotX"]= -50,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[15000109] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424142
+  },
+  ["CostNum"]= {
+    6400000,
+    1000,
+    750
+  },
+  ["EquipIdList"]= {
+    1305997
+  },
+  ["Id"]= 15000109,
+  ["Level"]= 9,
+  ["Name"]= "神器·名弓 + 2",
+  ["Probability"]= 300,
+  ["ShadowWeaponId"]= 150001,
+  ["Size"]= 1.25,
+  ["UIModelEquipId"]= 1305997,
+  ["UIModelPosX"]= -0.1,
+  ["UIModelPosY"]= 0.08,
+  ["UIModelPosZ"]= 0.9,
+  ["UIModelRotX"]= -50,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[15000110] = {
+  ["CostType"]= {
+    0
+  },
+  ["EquipIdList"]= {
+    1305997
+  },
+  ["Id"]= 15000110,
+  ["Level"]= 10,
+  ["Name"]= "神器·名弓 + 3",
+  ["ShadowWeaponId"]= 150001,
+  ["Size"]= 1.25,
+  ["UIModelEquipId"]= 1305997,
+  ["UIModelPosX"]= -0.1,
+  ["UIModelPosY"]= 0.08,
+  ["UIModelPosZ"]= 0.9,
+  ["UIModelRotX"]= -50,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[15000200] = {
+  ["CostType"]= {
+    0
+  },
+  ["EquipIdList"]= {
+    1305998
+  },
+  ["Id"]= 15000200,
+  ["Name"]= "影装·银弓",
+  ["ShadowWeaponId"]= 150002,
+  ["Size"]= 1.3,
+  ["UIModelEquipId"]= 1305998,
+  ["UIModelPosX"]= -0.12,
+  ["UIModelPosY"]= 0.09,
+  ["UIModelPosZ"]= 0.98,
+  ["UIModelRotX"]= -50,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[15000201] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424145
+  },
+  ["CostNum"]= {
+    51200,
+    8,
+    36
+  },
+  ["EquipIdList"]= {
+    1305998
+  },
+  ["Id"]= 15000201,
+  ["Level"]= 1,
+  ["Name"]= "影装·银弓 Lv.1",
+  ["Probability"]= 900,
+  ["ShadowWeaponId"]= 150002,
+  ["Size"]= 1.3,
+  ["UIModelEquipId"]= 1305998,
+  ["UIModelPosX"]= -0.12,
+  ["UIModelPosY"]= 0.09,
+  ["UIModelPosZ"]= 0.98,
+  ["UIModelRotX"]= -50,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[15000202] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424146
+  },
+  ["CostNum"]= {
+    128000,
+    20,
+    45
+  },
+  ["EquipIdList"]= {
+    1305998
+  },
+  ["Id"]= 15000202,
+  ["Level"]= 2,
+  ["Name"]= "影装·银弓 Lv.2",
+  ["Probability"]= 800,
+  ["ShadowWeaponId"]= 150002,
+  ["Size"]= 1.3,
+  ["UIModelEquipId"]= 1305998,
+  ["UIModelPosX"]= -0.12,
+  ["UIModelPosY"]= 0.09,
+  ["UIModelPosZ"]= 0.98,
+  ["UIModelRotX"]= -50,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[15000203] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424146
+  },
+  ["CostNum"]= {
+    256000,
+    40,
+    90
+  },
+  ["EquipIdList"]= {
+    1305998
+  },
+  ["Id"]= 15000203,
+  ["Level"]= 3,
+  ["Name"]= "影装·银弓 Lv.3",
+  ["Probability"]= 700,
+  ["ShadowWeaponId"]= 150002,
+  ["Size"]= 1.3,
+  ["UIModelEquipId"]= 1305998,
+  ["UIModelPosX"]= -0.12,
+  ["UIModelPosY"]= 0.09,
+  ["UIModelPosZ"]= 0.98,
+  ["UIModelRotX"]= -50,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[15000204] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424147
+  },
+  ["CostNum"]= {
+    512000,
+    80,
+    90
+  },
+  ["EquipIdList"]= {
+    1305998
+  },
+  ["Id"]= 15000204,
+  ["Level"]= 4,
+  ["Name"]= "影装·银弓 Lv.4",
+  ["Probability"]= 600,
+  ["ShadowWeaponId"]= 150002,
+  ["Size"]= 1.3,
+  ["UIModelEquipId"]= 1305998,
+  ["UIModelPosX"]= -0.12,
+  ["UIModelPosY"]= 0.09,
+  ["UIModelPosZ"]= 0.98,
+  ["UIModelRotX"]= -50,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[15000205] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424147
+  },
+  ["CostNum"]= {
+    1280000,
+    200,
+    225
+  },
+  ["EquipIdList"]= {
+    1305998
+  },
+  ["Id"]= 15000205,
+  ["Level"]= 5,
+  ["Name"]= "影装·银弓 Lv.5",
+  ["Probability"]= 500,
+  ["ShadowWeaponId"]= 150002,
+  ["Size"]= 1.3,
+  ["UIModelEquipId"]= 1305998,
+  ["UIModelPosX"]= -0.12,
+  ["UIModelPosY"]= 0.09,
+  ["UIModelPosZ"]= 0.98,
+  ["UIModelRotX"]= -50,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[15000206] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424058
+  },
+  ["CostNum"]= {
+    2560000,
+    400,
+    600
+  },
+  ["EquipIdList"]= {
+    1305998
+  },
+  ["Id"]= 15000206,
+  ["Level"]= 6,
+  ["Name"]= "影装·银弓 Lv.6",
+  ["Probability"]= 450,
+  ["ShadowWeaponId"]= 150002,
+  ["Size"]= 1.3,
+  ["UIModelEquipId"]= 1305998,
+  ["UIModelPosX"]= -0.12,
+  ["UIModelPosY"]= 0.09,
+  ["UIModelPosZ"]= 0.98,
+  ["UIModelRotX"]= -50,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[15000207] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424058
+  },
+  ["CostNum"]= {
+    3840000,
+    600,
+    900
+  },
+  ["EquipIdList"]= {
+    1305999
+  },
+  ["Id"]= 15000207,
+  ["Level"]= 7,
+  ["Name"]= "神器·星弓",
+  ["Probability"]= 400,
+  ["ShadowWeaponId"]= 150002,
+  ["Size"]= 1.3,
+  ["UIModelEquipId"]= 1305999,
+  ["UIModelPosX"]= -0.12,
+  ["UIModelPosY"]= 0.09,
+  ["UIModelPosZ"]= 0.98,
+  ["UIModelRotX"]= -50,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[15000208] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424148
+  },
+  ["CostNum"]= {
+    5120000,
+    800,
+    600
+  },
+  ["EquipIdList"]= {
+    1305999
+  },
+  ["Id"]= 15000208,
+  ["Level"]= 8,
+  ["Name"]= "神器·星弓 + 1",
+  ["Probability"]= 350,
+  ["ShadowWeaponId"]= 150002,
+  ["Size"]= 1.3,
+  ["UIModelEquipId"]= 1305999,
+  ["UIModelPosX"]= -0.12,
+  ["UIModelPosY"]= 0.09,
+  ["UIModelPosZ"]= 0.98,
+  ["UIModelRotX"]= -50,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[15000209] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424148
+  },
+  ["CostNum"]= {
+    6400000,
+    1000,
+    750
+  },
+  ["EquipIdList"]= {
+    1305999
+  },
+  ["Id"]= 15000209,
+  ["Level"]= 9,
+  ["Name"]= "神器·星弓 + 2",
+  ["Probability"]= 300,
+  ["ShadowWeaponId"]= 150002,
+  ["Size"]= 1.3,
+  ["UIModelEquipId"]= 1305999,
+  ["UIModelPosX"]= -0.12,
+  ["UIModelPosY"]= 0.09,
+  ["UIModelPosZ"]= 0.98,
+  ["UIModelRotX"]= -50,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[15000210] = {
+  ["CostType"]= {
+    0
+  },
+  ["EquipIdList"]= {
+    1305999
+  },
+  ["Id"]= 15000210,
+  ["Level"]= 10,
+  ["Name"]= "神器·星弓 + 3",
+  ["ShadowWeaponId"]= 150002,
+  ["Size"]= 1.3,
+  ["UIModelEquipId"]= 1305999,
+  ["UIModelPosX"]= -0.12,
+  ["UIModelPosY"]= 0.09,
+  ["UIModelPosZ"]= 0.98,
+  ["UIModelRotX"]= -50,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= 90
+},
+[16000100] = {
+  ["CostType"]= {
+    0
+  },
+  ["Id"]= 16000100,
+  ["ShadowWeaponId"]= 160001,
+  ["UIModelPosX"]= 0.02,
+  ["UIModelPosY"]= -0.15
+},
+[16000101] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424103,
+    10424163
+  },
+  ["CostNum"]= {
+    51200,
+    8,
+    24,
+    12
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["Id"]= 16000101,
+  ["Level"]= 1,
+  ["Name"]= "影装·坚锤羽盾 Lv.1",
+  ["Probability"]= 900,
+  ["ShadowWeaponId"]= 160001,
+  ["UIModelPosX"]= 0.02,
+  ["UIModelPosY"]= -0.15
+},
+[16000102] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424104,
+    10424164
+  },
+  ["CostNum"]= {
+    128000,
+    20,
+    30,
+    15
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["Id"]= 16000102,
+  ["Level"]= 2,
+  ["Name"]= "影装·坚锤羽盾 Lv.2",
+  ["Probability"]= 800,
+  ["ShadowWeaponId"]= 160001,
+  ["UIModelPosX"]= 0.02,
+  ["UIModelPosY"]= -0.15
+},
+[16000103] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424104,
+    10424164
+  },
+  ["CostNum"]= {
+    256000,
+    40,
+    60,
+    30
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["Id"]= 16000103,
+  ["Level"]= 3,
+  ["Name"]= "影装·坚锤羽盾 Lv.3",
+  ["Probability"]= 700,
+  ["ShadowWeaponId"]= 160001,
+  ["UIModelPosX"]= 0.02,
+  ["UIModelPosY"]= -0.15
+},
+[16000104] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424105,
+    10424165
+  },
+  ["CostNum"]= {
+    512000,
+    80,
+    60,
+    30
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["Id"]= 16000104,
+  ["Level"]= 4,
+  ["Name"]= "影装·坚锤羽盾 Lv.4",
+  ["Probability"]= 600,
+  ["ShadowWeaponId"]= 160001,
+  ["UIModelPosX"]= 0.02,
+  ["UIModelPosY"]= -0.15
+},
+[16000105] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424105,
+    10424165
+  },
+  ["CostNum"]= {
+    1280000,
+    200,
+    150,
+    75
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["Id"]= 16000105,
+  ["Level"]= 5,
+  ["Name"]= "影装·坚锤羽盾 Lv.5",
+  ["Probability"]= 500,
+  ["ShadowWeaponId"]= 160001,
+  ["UIModelPosX"]= 0.02,
+  ["UIModelPosY"]= -0.15
+},
+[16000106] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424051,
+    10424061
+  },
+  ["CostNum"]= {
+    2560000,
+    400,
+    400,
+    200
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["Id"]= 16000106,
+  ["Level"]= 6,
+  ["Name"]= "影装·坚锤羽盾 Lv.6",
+  ["Probability"]= 450,
+  ["ShadowWeaponId"]= 160001,
+  ["UIModelPosX"]= 0.02,
+  ["UIModelPosY"]= -0.15
+},
+[16000107] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424051,
+    10424061
+  },
+  ["CostNum"]= {
+    3840000,
+    600,
+    600,
+    300
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1104999,
+    1201997
+  },
+  ["Id"]= 16000107,
+  ["Level"]= 7,
+  ["Name"]= "神器·铭锤灵盾",
+  ["Probability"]= 400,
+  ["ShadowWeaponId"]= 160001,
+  ["UIModelEquipId"]= 1104997,
+  ["UIModelPosX"]= 0.02,
+  ["UIModelPosY"]= -0.15
+},
+[16000108] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424106,
+    10424166
+  },
+  ["CostNum"]= {
+    5120000,
+    800,
+    400,
+    200
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1104999,
+    1201997
+  },
+  ["Id"]= 16000108,
+  ["Level"]= 8,
+  ["Name"]= "神器·铭锤灵盾 + 1",
+  ["Probability"]= 350,
+  ["ShadowWeaponId"]= 160001,
+  ["UIModelEquipId"]= 1104997,
+  ["UIModelPosX"]= 0.02,
+  ["UIModelPosY"]= -0.15
+},
+[16000109] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424106,
+    10424166
+  },
+  ["CostNum"]= {
+    6400000,
+    1000,
+    500,
+    250
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1104999,
+    1201997
+  },
+  ["Id"]= 16000109,
+  ["Level"]= 9,
+  ["Name"]= "神器·铭锤灵盾 + 2",
+  ["Probability"]= 300,
+  ["ShadowWeaponId"]= 160001,
+  ["UIModelEquipId"]= 1104997,
+  ["UIModelPosX"]= 0.02,
+  ["UIModelPosY"]= -0.15
+},
+[16000110] = {
+  ["CostType"]= {
+    0
+  },
+  ["EquipIdList"]= {
+    1104999,
+    1201997
+  },
+  ["Id"]= 16000110,
+  ["Level"]= 10,
+  ["Name"]= "神器·铭锤灵盾 + 3",
+  ["ShadowWeaponId"]= 160001,
+  ["UIModelEquipId"]= 1104997,
+  ["UIModelPosX"]= 0.02,
+  ["UIModelPosY"]= -0.15
+},
+[16000200] = {
+  ["CostType"]= {
+    0
+  },
+  ["EquipIdList"]= {
+    1102998,
+    1201998
+  },
+  ["Id"]= 16000200,
+  ["Name"]= "影装·源斧义盾",
+  ["ShadowWeaponId"]= 160002,
+  ["Size"]= 1.8,
+  ["UIModelEquipId"]= 1102996
+},
+[16000201] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424109,
+    10424169
+  },
+  ["CostNum"]= {
+    51200,
+    8,
+    24,
+    12
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1102998,
+    1201998
+  },
+  ["Id"]= 16000201,
+  ["Level"]= 1,
+  ["Name"]= "影装·源斧义盾 Lv.1",
+  ["Probability"]= 900,
+  ["ShadowWeaponId"]= 160002,
+  ["Size"]= 1.8,
+  ["UIModelEquipId"]= 1102996
+},
+[16000202] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424110,
+    10424170
+  },
+  ["CostNum"]= {
+    128000,
+    20,
+    30,
+    15
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1102998,
+    1201998
+  },
+  ["Id"]= 16000202,
+  ["Level"]= 2,
+  ["Name"]= "影装·源斧义盾 Lv.2",
+  ["Probability"]= 800,
+  ["ShadowWeaponId"]= 160002,
+  ["Size"]= 1.8,
+  ["UIModelEquipId"]= 1102996
+},
+[16000203] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424110,
+    10424170
+  },
+  ["CostNum"]= {
+    256000,
+    40,
+    60,
+    30
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1102998,
+    1201998
+  },
+  ["Id"]= 16000203,
+  ["Level"]= 3,
+  ["Name"]= "影装·源斧义盾 Lv.3",
+  ["Probability"]= 700,
+  ["ShadowWeaponId"]= 160002,
+  ["Size"]= 1.8,
+  ["UIModelEquipId"]= 1102996
+},
+[16000204] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424111,
+    10424171
+  },
+  ["CostNum"]= {
+    512000,
+    80,
+    60,
+    30
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1102998,
+    1201998
+  },
+  ["Id"]= 16000204,
+  ["Level"]= 4,
+  ["Name"]= "影装·源斧义盾 Lv.4",
+  ["Probability"]= 600,
+  ["ShadowWeaponId"]= 160002,
+  ["Size"]= 1.8,
+  ["UIModelEquipId"]= 1102996
+},
+[16000205] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424111,
+    10424171
+  },
+  ["CostNum"]= {
+    1280000,
+    200,
+    150,
+    75
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1102998,
+    1201998
+  },
+  ["Id"]= 16000205,
+  ["Level"]= 5,
+  ["Name"]= "影装·源斧义盾 Lv.5",
+  ["Probability"]= 500,
+  ["ShadowWeaponId"]= 160002,
+  ["Size"]= 1.8,
+  ["UIModelEquipId"]= 1102996
+},
+[16000206] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424052,
+    10424062
+  },
+  ["CostNum"]= {
+    2560000,
+    400,
+    400,
+    200
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1102998,
+    1201998
+  },
+  ["Id"]= 16000206,
+  ["Level"]= 6,
+  ["Name"]= "影装·源斧义盾 Lv.6",
+  ["Probability"]= 450,
+  ["ShadowWeaponId"]= 160002,
+  ["Size"]= 1.8,
+  ["UIModelEquipId"]= 1102996
+},
+[16000207] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424052,
+    10424062
+  },
+  ["CostNum"]= {
+    3840000,
+    600,
+    600,
+    300
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1102999,
+    1201999
+  },
+  ["Id"]= 16000207,
+  ["Level"]= 7,
+  ["Name"]= "神器·铸斧辉盾",
+  ["Probability"]= 400,
+  ["ShadowWeaponId"]= 160002,
+  ["Size"]= 1.8,
+  ["UIModelEquipId"]= 1102997
+},
+[16000208] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424112,
+    10424172
+  },
+  ["CostNum"]= {
+    5120000,
+    800,
+    400,
+    200
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1102999,
+    1201999
+  },
+  ["Id"]= 16000208,
+  ["Level"]= 8,
+  ["Name"]= "神器·铸斧辉盾 + 1",
+  ["Probability"]= 350,
+  ["ShadowWeaponId"]= 160002,
+  ["Size"]= 1.8,
+  ["UIModelEquipId"]= 1102997
+},
+[16000209] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424112,
+    10424172
+  },
+  ["CostNum"]= {
+    6400000,
+    1000,
+    500,
+    250
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1102999,
+    1201999
+  },
+  ["Id"]= 16000209,
+  ["Level"]= 9,
+  ["Name"]= "神器·铸斧辉盾 + 2",
+  ["Probability"]= 300,
+  ["ShadowWeaponId"]= 160002,
+  ["Size"]= 1.8,
+  ["UIModelEquipId"]= 1102997
+},
+[16000210] = {
+  ["CostType"]= {
+    0
+  },
+  ["EquipIdList"]= {
+    1102999,
+    1201999
+  },
+  ["Id"]= 16000210,
+  ["Level"]= 10,
+  ["Name"]= "神器·铸斧辉盾 + 3",
+  ["ShadowWeaponId"]= 160002,
+  ["Size"]= 1.8,
+  ["UIModelEquipId"]= 1102997
+},
+[16000300] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424038
+  },
+  ["CostType"]= {
+    0
+  },
+  ["EquipIdList"]= {
+    1302998
+  },
+  ["Id"]= 16000300,
+  ["Name"]= "影装·漠斧",
+  ["ShadowWeaponId"]= 160003,
+  ["Size"]= 1.75,
+  ["UIModelEquipId"]= 1302998,
+  ["UIModelPosX"]= 0.11,
+  ["UIModelPosY"]= 0.28,
+  ["UIModelRotX"]= -65,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= -90
+},
+[16000301] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424115
+  },
+  ["CostNum"]= {
+    51200,
+    8,
+    36
+  },
+  ["EquipIdList"]= {
+    1302998
+  },
+  ["Id"]= 16000301,
+  ["Level"]= 1,
+  ["Name"]= "影装·漠斧 Lv.1",
+  ["Probability"]= 900,
+  ["ShadowWeaponId"]= 160003,
+  ["Size"]= 1.75,
+  ["UIModelEquipId"]= 1302998,
+  ["UIModelPosX"]= 0.11,
+  ["UIModelPosY"]= 0.28,
+  ["UIModelRotX"]= -65,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= -90
+},
+[16000302] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424116
+  },
+  ["CostNum"]= {
+    128000,
+    20,
+    45
+  },
+  ["EquipIdList"]= {
+    1302998
+  },
+  ["Id"]= 16000302,
+  ["Level"]= 2,
+  ["Name"]= "影装·漠斧 Lv.2",
+  ["Probability"]= 800,
+  ["ShadowWeaponId"]= 160003,
+  ["Size"]= 1.75,
+  ["UIModelEquipId"]= 1302998,
+  ["UIModelPosX"]= 0.11,
+  ["UIModelPosY"]= 0.28,
+  ["UIModelRotX"]= -65,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= -90
+},
+[16000303] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424116
+  },
+  ["CostNum"]= {
+    256000,
+    40,
+    90
+  },
+  ["EquipIdList"]= {
+    1302998
+  },
+  ["Id"]= 16000303,
+  ["Level"]= 3,
+  ["Name"]= "影装·漠斧 Lv.3",
+  ["Probability"]= 700,
+  ["ShadowWeaponId"]= 160003,
+  ["Size"]= 1.75,
+  ["UIModelEquipId"]= 1302998,
+  ["UIModelPosX"]= 0.11,
+  ["UIModelPosY"]= 0.28,
+  ["UIModelRotX"]= -65,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= -90
+},
+[16000304] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424117
+  },
+  ["CostNum"]= {
+    512000,
+    80,
+    90
+  },
+  ["EquipIdList"]= {
+    1302998
+  },
+  ["Id"]= 16000304,
+  ["Level"]= 4,
+  ["Name"]= "影装·漠斧 Lv.4",
+  ["Probability"]= 600,
+  ["ShadowWeaponId"]= 160003,
+  ["Size"]= 1.75,
+  ["UIModelEquipId"]= 1302998,
+  ["UIModelPosX"]= 0.11,
+  ["UIModelPosY"]= 0.28,
+  ["UIModelRotX"]= -65,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= -90
+},
+[16000305] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424117
+  },
+  ["CostNum"]= {
+    1280000,
+    200,
+    225
+  },
+  ["EquipIdList"]= {
+    1302998
+  },
+  ["Id"]= 16000305,
+  ["Level"]= 5,
+  ["Name"]= "影装·漠斧 Lv.5",
+  ["Probability"]= 500,
+  ["ShadowWeaponId"]= 160003,
+  ["Size"]= 1.75,
+  ["UIModelEquipId"]= 1302998,
+  ["UIModelPosX"]= 0.11,
+  ["UIModelPosY"]= 0.28,
+  ["UIModelRotX"]= -65,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= -90
+},
+[16000306] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424053
+  },
+  ["CostNum"]= {
+    2560000,
+    400,
+    600
+  },
+  ["EquipIdList"]= {
+    1302998
+  },
+  ["Id"]= 16000306,
+  ["Level"]= 6,
+  ["Name"]= "影装·漠斧 Lv.6",
+  ["Probability"]= 450,
+  ["ShadowWeaponId"]= 160003,
+  ["Size"]= 1.75,
+  ["UIModelEquipId"]= 1302998,
+  ["UIModelPosX"]= 0.11,
+  ["UIModelPosY"]= 0.28,
+  ["UIModelRotX"]= -65,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= -90
+},
+[16000307] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424053
+  },
+  ["CostNum"]= {
+    3840000,
+    600,
+    900
+  },
+  ["EquipIdList"]= {
+    1302999
+  },
+  ["Id"]= 16000307,
+  ["Level"]= 7,
+  ["Name"]= "神器·暝斧",
+  ["Probability"]= 400,
+  ["ShadowWeaponId"]= 160003,
+  ["Size"]= 1.75,
+  ["UIModelEquipId"]= 1302999,
+  ["UIModelPosX"]= 0.11,
+  ["UIModelPosY"]= 0.28,
+  ["UIModelRotX"]= -65,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= -90
+},
+[16000308] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424118
+  },
+  ["CostNum"]= {
+    5120000,
+    800,
+    600
+  },
+  ["EquipIdList"]= {
+    1302999
+  },
+  ["Id"]= 16000308,
+  ["Level"]= 8,
+  ["Name"]= "神器·暝斧 + 1",
+  ["Probability"]= 350,
+  ["ShadowWeaponId"]= 160003,
+  ["Size"]= 1.75,
+  ["UIModelEquipId"]= 1302999,
+  ["UIModelPosX"]= 0.11,
+  ["UIModelPosY"]= 0.28,
+  ["UIModelRotX"]= -65,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= -90
+},
+[16000309] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424118
+  },
+  ["CostNum"]= {
+    6400000,
+    1000,
+    750
+  },
+  ["EquipIdList"]= {
+    1302999
+  },
+  ["Id"]= 16000309,
+  ["Level"]= 9,
+  ["Name"]= "神器·暝斧 + 2",
+  ["Probability"]= 300,
+  ["ShadowWeaponId"]= 160003,
+  ["Size"]= 1.75,
+  ["UIModelEquipId"]= 1302999,
+  ["UIModelPosX"]= 0.11,
+  ["UIModelPosY"]= 0.28,
+  ["UIModelRotX"]= -65,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= -90
+},
+[16000310] = {
+  ["CostType"]= {
+    0
+  },
+  ["EquipIdList"]= {
+    1302999
+  },
+  ["Id"]= 16000310,
+  ["Level"]= 10,
+  ["Name"]= "神器·暝斧 + 3",
+  ["ShadowWeaponId"]= 160003,
+  ["Size"]= 1.75,
+  ["UIModelEquipId"]= 1302999,
+  ["UIModelPosX"]= 0.11,
+  ["UIModelPosY"]= 0.28,
+  ["UIModelRotX"]= -65,
+  ["UIModelRotY"]= 90,
+  ["UIModelRotZ"]= -90
+}
+}
+local baseTable={
+  ["CostItemId"]= {
+    0
+  },
+  ["CostNum"]= {
+    0
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5
+  },
+  ["EquipIdList"]= {
+    1104998,
+    1201996
+  },
+  ["Id"]= 11000100,
+  ["Level"]= 0,
+  ["Name"]= "影装·坚锤羽盾",
+  ["Probability"]= 0,
+  ["ShadowWeaponId"]= 110001,
+  ["Size"]= 2.2,
+  ["UIModelEquipId"]= 1104996,
+  ["UIModelPosX"]= 0.05,
+  ["UIModelPosY"]= -0.08,
+  ["UIModelPosZ"]= 1,
+  ["UIModelRotX"]= 1,
+  ["UIModelRotY"]= 1,
+  ["UIModelRotZ"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

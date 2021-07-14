@@ -1,0 +1,73 @@
+TextAsset Base
+	string m_Name = "data_Setting_SettingShowBtn"
+	string m_Script = "local table= {
+[1] = {
+  ["DeleteAccount"]= 1
+},
+[2] = {
+  ["ChannelID"]= 2
+},
+[3] = {
+  ["ChannelID"]= 3
+},
+[4] = {
+  ["ChannelID"]= 4
+},
+[5] = {
+  ["ChannelID"]= 5
+},
+[6] = {
+  ["ChannelID"]= 6,
+  ["showCustomerCenter"]= 0,
+  ["showNetwork"]= 0,
+  ["showSecret"]= 0,
+  ["showUserAgreement"]= 0
+},
+[7] = {
+  ["ChannelID"]= 7
+},
+[8] = {
+  ["ChannelID"]= 8,
+  ["showCustomerCenter"]= 0,
+  ["showNetwork"]= 0,
+  ["showSecret"]= 0,
+  ["showUserAgreement"]= 0
+},
+[9] = {
+  ["ChannelID"]= 9,
+  ["showCDK"]= 0
+},
+[10] = {
+  ["ChannelID"]= 10,
+  ["DeleteAccount"]= 1,
+  ["showCDK"]= 0
+},
+[11] = {
+  ["ChannelID"]= 11,
+  ["showCustomerCenter"]= 0,
+  ["showNetwork"]= 0,
+  ["showSecret"]= 0,
+  ["showUserAgreement"]= 0
+},
+[12] = {
+  ["ChannelID"]= 12,
+  ["DeleteAccount"]= 1,
+  ["showCDK"]= 0
+}
+}
+local baseTable={
+  ["ChannelID"]= 1,
+  ["DeleteAccount"]= 0,
+  ["showBreakAway"]= 1,
+  ["showCDK"]= 1,
+  ["showCustomerCenter"]= 1,
+  ["showNetwork"]= 1,
+  ["showNotice"]= 1,
+  ["showSecret"]= 1,
+  ["showUserAgreement"]= 1,
+  ["showVisitor"]= 0
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

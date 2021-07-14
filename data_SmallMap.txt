@@ -1,0 +1,1170 @@
+TextAsset Base
+	string m_Name = "data_SmallMap"
+	string m_Script = "local table= {
+[1010] = {
+  ["Height"]= 350,
+  ["MainSmallMapZoom"]= 0.72,
+  ["Px"]= -1.7,
+  ["Pz"]= 14.2,
+  ["Rate"]= 0.6,
+  ["ScenceId"]= 1010,
+  ["SmallMapZoom"]= 0.9,
+  ["Width"]= 270
+},
+[1020] = {
+  ["bgType"]= 1,
+  ["Height"]= 350.1,
+  ["Id"]= 1020,
+  ["Px"]= 80.5,
+  ["Pz"]= 72.1,
+  ["Rate"]= 0.8,
+  ["ScenceId"]= 1020,
+  ["SmallMapZoom"]= 0.9,
+  ["Width"]= 450
+},
+[1030] = {
+  ["bgType"]= 1,
+  ["Height"]= 250,
+  ["Id"]= 1030,
+  ["Px"]= 0.2,
+  ["Pz"]= -4.4,
+  ["Rate"]= 0.6,
+  ["ScenceId"]= 1030,
+  ["SmallMapZoom"]= 0.9,
+  ["Width"]= 260
+},
+[1040] = {
+  ["bgType"]= 1,
+  ["Height"]= 320,
+  ["Id"]= 1040,
+  ["Px"]= 135.1,
+  ["Pz"]= 86.7,
+  ["Rate"]= 0.8,
+  ["ScenceId"]= 1040,
+  ["SmallMapZoom"]= 0.9,
+  ["Width"]= 320
+},
+[1050] = {
+  ["bgType"]= 2,
+  ["Height"]= 190,
+  ["Id"]= 1050,
+  ["Px"]= 24.8,
+  ["Pz"]= -27.9,
+  ["ScenceId"]= 1050,
+  ["Width"]= 220
+},
+[1060] = {
+  ["bgType"]= 2,
+  ["Height"]= 360,
+  ["Id"]= 1060,
+  ["Pz"]= -31.7,
+  ["Rate"]= 0.7,
+  ["ScenceId"]= 1060,
+  ["Width"]= 220
+},
+[1110] = {
+  ["Height"]= 250,
+  ["Id"]= 1110,
+  ["Px"]= 14.5,
+  ["Pz"]= -9.9,
+  ["Rate"]= 0.6,
+  ["ScenceId"]= 1110,
+  ["Width"]= 280
+},
+[1140] = {
+  ["Height"]= 250,
+  ["Id"]= 1140,
+  ["Pz"]= -4.6,
+  ["Rate"]= 0.6,
+  ["ScenceId"]= 1140,
+  ["Width"]= 250
+},
+[1150] = {
+  ["Height"]= 350,
+  ["Id"]= 1150,
+  ["Px"]= 140.5,
+  ["Pz"]= 121.1,
+  ["Rate"]= 0.8,
+  ["ScenceId"]= 1150,
+  ["SmallMapZoom"]= 0.94,
+  ["Width"]= 350
+},
+[1160] = {
+  ["Height"]= 320,
+  ["Id"]= 1160,
+  ["Px"]= -15.6,
+  ["Pz"]= -14.9,
+  ["Rate"]= 0.7,
+  ["ScenceId"]= 1160,
+  ["SmallMapZoom"]= 0.95,
+  ["Width"]= 320
+},
+[1180] = {
+  ["Height"]= 220,
+  ["Id"]= 1180,
+  ["Px"]= -58.5,
+  ["Pz"]= 61.1,
+  ["Rate"]= 0.6,
+  ["ScenceId"]= 1180,
+  ["Width"]= 230
+},
+[1210] = {
+  ["bgType"]= 1,
+  ["Height"]= 280,
+  ["Id"]= 1210,
+  ["Px"]= 2.5,
+  ["Rate"]= 0.6,
+  ["ScenceId"]= 1210,
+  ["Width"]= 280
+},
+[1220] = {
+  ["bgType"]= 1,
+  ["Height"]= 290,
+  ["Id"]= 1220,
+  ["Px"]= -0.4,
+  ["Pz"]= -0.3,
+  ["Rate"]= 0.7,
+  ["ScenceId"]= 1220,
+  ["Width"]= 290
+},
+[1230] = {
+  ["bgType"]= 1,
+  ["Height"]= 380,
+  ["Id"]= 1230,
+  ["Px"]= 14.9,
+  ["Pz"]= 47.6,
+  ["Rate"]= 0.8,
+  ["ScenceId"]= 1230,
+  ["Width"]= 380
+},
+[1240] = {
+  ["bgType"]= 1,
+  ["Height"]= 380,
+  ["Id"]= 1240,
+  ["Px"]= 146.9,
+  ["Pz"]= 144.1,
+  ["Rate"]= 0.8,
+  ["ScenceId"]= 1240,
+  ["Width"]= 380
+},
+[1250] = {
+  ["bgType"]= 1,
+  ["Height"]= 320,
+  ["Id"]= 1250,
+  ["Px"]= 24.8,
+  ["Pz"]= -31.4,
+  ["Rate"]= 0.8,
+  ["ScenceId"]= 1250,
+  ["Width"]= 430
+},
+[1260] = {
+  ["bgType"]= 2,
+  ["Height"]= 330,
+  ["Id"]= 1260,
+  ["Px"]= -3.4,
+  ["Pz"]= -0.5,
+  ["Rate"]= 0.7,
+  ["ScenceId"]= 1260,
+  ["SmallMapZoom"]= 0.92,
+  ["Width"]= 340
+},
+[1270] = {
+  ["bgType"]= 2,
+  ["Height"]= 350,
+  ["Id"]= 1270,
+  ["Px"]= 148.5,
+  ["Pz"]= 148.5,
+  ["Rate"]= 0.8,
+  ["ScenceId"]= 1270,
+  ["Width"]= 350
+},
+[1280] = {
+  ["direction"]= 180,
+  ["Height"]= 270,
+  ["Id"]= 1280,
+  ["Px"]= 164.8,
+  ["Pz"]= 132.6,
+  ["Rate"]= 0.7,
+  ["ScenceId"]= 1280,
+  ["Width"]= 270
+},
+[1281] = {
+  ["Height"]= 150,
+  ["Id"]= 1281,
+  ["Px"]= 16.4,
+  ["ScenceId"]= 1281,
+  ["SmallMapZoom"]= 1.3,
+  ["Width"]= 150
+},
+[1290] = {
+  ["Height"]= 380,
+  ["Id"]= 1290,
+  ["Px"]= -7,
+  ["Pz"]= 10.7,
+  ["Rate"]= 0.8,
+  ["ScenceId"]= 1290,
+  ["SmallMapZoom"]= 0.88,
+  ["Width"]= 380
+},
+[1310] = {
+  ["bgType"]= 3,
+  ["Height"]= 310,
+  ["Id"]= 1310,
+  ["Px"]= 114.8,
+  ["Pz"]= 136.6,
+  ["Rate"]= 0.6,
+  ["ScenceId"]= 1310,
+  ["SmallMapZoom"]= 0.9,
+  ["Width"]= 310
+},
+[1320] = {
+  ["bgType"]= 3,
+  ["Height"]= 260,
+  ["Id"]= 1320,
+  ["Px"]= 108.8,
+  ["Pz"]= 73,
+  ["Rate"]= 0.6,
+  ["ScenceId"]= 1320,
+  ["SmallMapZoom"]= 0.9,
+  ["Width"]= 260
+},
+[1330] = {
+  ["bgType"]= 2,
+  ["Height"]= 210,
+  ["Id"]= 1330,
+  ["Rate"]= 0.6,
+  ["ScenceId"]= 1330,
+  ["Width"]= 210
+},
+[1340] = {
+  ["bgType"]= 2,
+  ["Height"]= 170,
+  ["Id"]= 1340,
+  ["ScenceId"]= 1340,
+  ["Width"]= 170
+},
+[1350] = {
+  ["bgType"]= 2,
+  ["Height"]= 190,
+  ["Id"]= 1350,
+  ["Px"]= 85,
+  ["Pz"]= 91.1,
+  ["ScenceId"]= 1350,
+  ["Width"]= 190
+},
+[1360] = {
+  ["Height"]= 300,
+  ["Id"]= 1360,
+  ["Px"]= 33.3,
+  ["Pz"]= -1.5,
+  ["Rate"]= 0.7,
+  ["ScenceId"]= 1360,
+  ["Width"]= 260
+},
+[1420] = {
+  ["bgType"]= 1,
+  ["Height"]= 300,
+  ["Id"]= 1420,
+  ["Px"]= 141.9,
+  ["Pz"]= 133.7,
+  ["Rate"]= 0.7,
+  ["ScenceId"]= 1420,
+  ["Width"]= 310
+},
+[1430] = {
+  ["bgType"]= 1,
+  ["Height"]= 260,
+  ["Id"]= 1430,
+  ["Px"]= 6.4,
+  ["Pz"]= 3.6,
+  ["Rate"]= 0.6,
+  ["ScenceId"]= 1430,
+  ["Width"]= 260
+},
+[1440] = {
+  ["bgType"]= 1,
+  ["Height"]= 230,
+  ["Id"]= 1440,
+  ["Px"]= 131.9,
+  ["Pz"]= 99.2,
+  ["Rate"]= 0.6,
+  ["ScenceId"]= 1440,
+  ["Width"]= 240
+},
+[1450] = {
+  ["bgType"]= 2,
+  ["Height"]= 450,
+  ["Id"]= 1450,
+  ["Px"]= 114.6,
+  ["Pz"]= 132.6,
+  ["Rate"]= 0.8,
+  ["ScenceId"]= 1450,
+  ["SmallMapZoom"]= 0.93,
+  ["Width"]= 350
+},
+[1460] = {
+  ["bgType"]= 2,
+  ["Height"]= 360,
+  ["Id"]= 1460,
+  ["Px"]= 195.8,
+  ["Pz"]= 139.1,
+  ["Rate"]= 0.8,
+  ["ScenceId"]= 1460,
+  ["SmallMapZoom"]= 0.8,
+  ["Width"]= 400
+},
+[1510] = {
+  ["bgType"]= 2,
+  ["Height"]= 60,
+  ["Id"]= 1510,
+  ["Px"]= -49.1,
+  ["Pz"]= 6.4,
+  ["Rate"]= 0.2,
+  ["ScenceId"]= 1510,
+  ["SmallMapZoom"]= 1.5,
+  ["Width"]= 60
+},
+[1520] = {
+  ["bgType"]= 2,
+  ["Height"]= 80,
+  ["Id"]= 1520,
+  ["Px"]= 116.6,
+  ["Rate"]= 0.3,
+  ["ScenceId"]= 1520,
+  ["Width"]= 150
+},
+[1530] = {
+  ["bgType"]= 2,
+  ["Height"]= 90,
+  ["Id"]= 1530,
+  ["Px"]= -13.3,
+  ["Pz"]= 25.9,
+  ["Rate"]= 0.2,
+  ["ScenceId"]= 1530,
+  ["SmallMapZoom"]= 0.88,
+  ["Width"]= 80
+},
+[1541] = {
+  ["Height"]= 40,
+  ["Id"]= 1541,
+  ["Rate"]= 0.1,
+  ["ScenceId"]= 8911,
+  ["Width"]= 40
+},
+[1550] = {
+  ["Height"]= 40,
+  ["Id"]= 1550,
+  ["Rate"]= 0.1,
+  ["ScenceId"]= 1550,
+  ["Width"]= 40
+},
+[1570] = {
+  ["Height"]= 70,
+  ["Id"]= 1570,
+  ["Px"]= -8.8,
+  ["Pz"]= 3.6,
+  ["Rate"]= 0.2,
+  ["ScenceId"]= 1570,
+  ["Width"]= 90
+},
+[1580] = {
+  ["Height"]= 80,
+  ["Id"]= 1580,
+  ["Px"]= 9.1,
+  ["Pz"]= 2.7,
+  ["Rate"]= 0.2,
+  ["ScenceId"]= 1580,
+  ["Width"]= 80
+},
+[1590] = {
+  ["Height"]= 160,
+  ["Id"]= 1590,
+  ["Px"]= 110.5,
+  ["Pz"]= 136.5,
+  ["ScenceId"]= 1590,
+  ["SmallMapZoom"]= 1.3,
+  ["Width"]= 120
+},
+[1610] = {
+  ["Height"]= 400,
+  ["Id"]= 1610,
+  ["MainSmallMapZoom"]= 0.9,
+  ["Px"]= 126.4,
+  ["Pz"]= 123.1,
+  ["Rate"]= 0.8,
+  ["ScenceId"]= 1610,
+  ["Width"]= 320
+},
+[1620] = {
+  ["Height"]= 240,
+  ["Id"]= 1620,
+  ["Px"]= 11.4,
+  ["Pz"]= -6.2,
+  ["Rate"]= 0.7,
+  ["ScenceId"]= 1620,
+  ["Width"]= 300
+},
+[1630] = {
+  ["Height"]= 320,
+  ["Id"]= 1630,
+  ["MainSmallMapZoom"]= 0.85,
+  ["Px"]= 2.6,
+  ["Pz"]= -3.2,
+  ["Rate"]= 0.7,
+  ["ScenceId"]= 1630,
+  ["Width"]= 280
+},
+[1640] = {
+  ["Height"]= 300,
+  ["Id"]= 1640,
+  ["MainSmallMapZoom"]= 0.86,
+  ["Px"]= 192.3,
+  ["Pz"]= 151.4,
+  ["Rate"]= 0.7,
+  ["ScenceId"]= 1640,
+  ["SmallMapZoom"]= 1.3,
+  ["Width"]= 260
+},
+[1650] = {
+  ["Height"]= 240,
+  ["Id"]= 1650,
+  ["Px"]= -29.9,
+  ["Pz"]= 370.4,
+  ["Rate"]= 0.6,
+  ["ScenceId"]= 1650,
+  ["Width"]= 260
+},
+[1660] = {
+  ["Height"]= 300,
+  ["Id"]= 1660,
+  ["Px"]= -33.3,
+  ["Pz"]= 745.9,
+  ["Rate"]= 0.7,
+  ["ScenceId"]= 1660,
+  ["Width"]= 290
+},
+[1710] = {
+  ["Height"]= 364,
+  ["Id"]= 1710,
+  ["MainSmallMapZoom"]= 0.93,
+  ["Px"]= -6.1,
+  ["Rate"]= 0.8,
+  ["ScenceId"]= 1710,
+  ["SmallMapZoom"]= 1.2,
+  ["Width"]= 364
+},
+[1720] = {
+  ["Height"]= 270,
+  ["Id"]= 1720,
+  ["MainSmallMapZoom"]= 0.85,
+  ["Px"]= -1.3,
+  ["Pz"]= 5.2,
+  ["Rate"]= 0.7,
+  ["ScenceId"]= 1720,
+  ["Width"]= 270
+},
+[1730] = {
+  ["Height"]= 380,
+  ["Id"]= 1730,
+  ["MainSmallMapZoom"]= 0.85,
+  ["Px"]= -13.1,
+  ["Pz"]= 5.1,
+  ["Rate"]= 0.8,
+  ["ScenceId"]= 1730,
+  ["Width"]= 400
+},
+[1740] = {
+  ["Height"]= 380,
+  ["Id"]= 1740,
+  ["MainSmallMapZoom"]= 0.85,
+  ["Px"]= -130.8,
+  ["Pz"]= -153.3,
+  ["Rate"]= 0.8,
+  ["ScenceId"]= 1740,
+  ["Width"]= 390
+},
+[1750] = {
+  ["Height"]= 300,
+  ["Id"]= 1750,
+  ["MainSmallMapZoom"]= 0.85,
+  ["Px"]= -164,
+  ["Pz"]= -123.5,
+  ["Rate"]= 0.7,
+  ["ScenceId"]= 1750,
+  ["Width"]= 300
+},
+[1760] = {
+  ["Height"]= 380,
+  ["Id"]= 1760,
+  ["MainSmallMapZoom"]= 0.85,
+  ["Px"]= -6.4,
+  ["Pz"]= 11.6,
+  ["Rate"]= 0.8,
+  ["ScenceId"]= 1760,
+  ["Width"]= 380
+},
+[1780] = {
+  ["Id"]= 1780,
+  ["MainSmallMapZoom"]= 0.85,
+  ["Px"]= 2.6,
+  ["Pz"]= -57.1,
+  ["Rate"]= 0.3,
+  ["ScenceId"]= 1780
+},
+[2010] = {
+  ["bgType"]= 2,
+  ["direction"]= 180,
+  ["Height"]= 280,
+  ["Id"]= 2010,
+  ["MainSmallMapZoom"]= 1.2,
+  ["PlayerNameFontSize"]= 12,
+  ["PointNameFontSize"]= 12,
+  ["Pz"]= 75.2,
+  ["Rate"]= 0.6,
+  ["ScenceId"]= 2010,
+  ["Width"]= 200
+},
+[2020] = {
+  ["bgType"]= 2,
+  ["Height"]= 160,
+  ["Id"]= 2020,
+  ["Px"]= 18.3,
+  ["ScenceId"]= 2020,
+  ["Width"]= 220
+},
+[2030] = {
+  ["Id"]= 2030,
+  ["Px"]= 4.4,
+  ["Rate"]= 0.3,
+  ["ScenceId"]= 2030
+},
+[2040] = {
+  ["bgType"]= 2,
+  ["Height"]= 180,
+  ["Id"]= 2040,
+  ["Px"]= 11.1,
+  ["Pz"]= 0.9,
+  ["ScenceId"]= 2040,
+  ["Width"]= 180
+},
+[2050] = {
+  ["Height"]= 186,
+  ["Id"]= 2050,
+  ["ScenceId"]= 2050,
+  ["Width"]= 186
+},
+[2060] = {
+  ["bgType"]= 2,
+  ["direction"]= 180,
+  ["Height"]= 320,
+  ["Id"]= 2060,
+  ["MainSmallMapZoom"]= 1,
+  ["Px"]= -19.5,
+  ["Pz"]= 53.7,
+  ["Rate"]= 0.7,
+  ["ScenceId"]= 2060,
+  ["Width"]= 320
+},
+[2070] = {
+  ["Height"]= 0,
+  ["Id"]= 2070,
+  ["Rate"]= 0,
+  ["ScenceId"]= 2070,
+  ["Width"]= 0
+},
+[2080] = {
+  ["Height"]= 0,
+  ["Id"]= 2080,
+  ["Rate"]= 0,
+  ["ScenceId"]= 2080,
+  ["Width"]= 0
+},
+[2090] = {
+  ["Height"]= 0,
+  ["Id"]= 2090,
+  ["Rate"]= 0,
+  ["ScenceId"]= 2090,
+  ["Width"]= 0
+},
+[2100] = {
+  ["Height"]= 0,
+  ["Id"]= 2100,
+  ["Rate"]= 0,
+  ["ScenceId"]= 2100,
+  ["Width"]= 0
+},
+[3010] = {
+  ["bgType"]= 1,
+  ["Height"]= 110,
+  ["Id"]= 3010,
+  ["Px"]= 259.4,
+  ["Pz"]= 5.6,
+  ["Rate"]= 0.3,
+  ["ScenceId"]= 3010,
+  ["Width"]= 110
+},
+[4601] = {
+  ["bgType"]= 2,
+  ["Height"]= 380,
+  ["Id"]= 4601,
+  ["Px"]= 122.7,
+  ["Pz"]= 117.2,
+  ["Rate"]= 0.8,
+  ["ScenceId"]= 4601,
+  ["Width"]= 380
+},
+[5000] = {
+  ["Id"]= 5000,
+  ["Px"]= 3.2,
+  ["Pz"]= 2.7,
+  ["Rate"]= 0.4,
+  ["ScenceId"]= 2030
+},
+[8911] = {
+  ["Height"]= 100,
+  ["Id"]= 8911,
+  ["Px"]= 46.4,
+  ["Pz"]= 26,
+  ["Rate"]= 0.3,
+  ["ScenceId"]= 8911,
+  ["Width"]= 100
+},
+[11201] = {
+  ["bgType"]= 2,
+  ["Height"]= 130,
+  ["Id"]= 11201,
+  ["Px"]= 15,
+  ["ScenceId"]= 1120,
+  ["SmallMapZoom"]= 0.9,
+  ["Width"]= 250
+},
+[11202] = {
+  ["bgType"]= 2,
+  ["Height"]= 130,
+  ["Id"]= 11202,
+  ["Px"]= 21,
+  ["Pz"]= 211.1,
+  ["ScenceId"]= 1120,
+  ["SmallMapZoom"]= 0.9,
+  ["Width"]= 250
+},
+[11203] = {
+  ["bgType"]= 2,
+  ["Height"]= 130,
+  ["Id"]= 11203,
+  ["Px"]= 21.1,
+  ["Pz"]= 401.5,
+  ["ScenceId"]= 1120,
+  ["SmallMapZoom"]= 0.9,
+  ["Width"]= 250
+},
+[11301] = {
+  ["bgType"]= 2,
+  ["Height"]= 180,
+  ["Id"]= 11301,
+  ["Px"]= -407.7,
+  ["Pz"]= -25.3,
+  ["ScenceId"]= 1130,
+  ["SmallMapZoom"]= 0.9,
+  ["Width"]= 150
+},
+[11302] = {
+  ["bgType"]= 2,
+  ["Height"]= 200,
+  ["Id"]= 11302,
+  ["Px"]= -200.8,
+  ["Pz"]= -27.6,
+  ["ScenceId"]= 1130,
+  ["SmallMapZoom"]= 0.9,
+  ["Width"]= 150
+},
+[11303] = {
+  ["bgType"]= 2,
+  ["Height"]= 280,
+  ["Id"]= 11303,
+  ["Px"]= 5.4,
+  ["Pz"]= -6.2,
+  ["Rate"]= 0.6,
+  ["ScenceId"]= 1130,
+  ["SmallMapZoom"]= 0.9,
+  ["Width"]= 200
+},
+[11701] = {
+  ["bgType"]= 2,
+  ["direction"]= 180,
+  ["Height"]= 60,
+  ["Id"]= 11701,
+  ["Px"]= 67.4,
+  ["Pz"]= 4.7,
+  ["Rate"]= 0.2,
+  ["ScenceId"]= 1170,
+  ["SmallMapZoom"]= 1.2,
+  ["Width"]= 60
+},
+[11702] = {
+  ["bgType"]= 2,
+  ["direction"]= 180,
+  ["Height"]= 170,
+  ["Id"]= 11702,
+  ["Pz"]= -18.6,
+  ["ScenceId"]= 1170,
+  ["Width"]= 120
+},
+[14101] = {
+  ["bgType"]= 1,
+  ["Height"]= 270,
+  ["Id"]= 14101,
+  ["Px"]= 141.5,
+  ["Pz"]= 144.7,
+  ["Rate"]= 0.6,
+  ["ScenceId"]= 1410,
+  ["SmallMapZoom"]= 0.85,
+  ["Width"]= 270
+},
+[14102] = {
+  ["Height"]= 160,
+  ["Id"]= 14102,
+  ["Px"]= 1106,
+  ["Pz"]= 117,
+  ["ScenceId"]= 1410,
+  ["Width"]= 160
+},
+[15401] = {
+  ["Height"]= 80,
+  ["Id"]= 15401,
+  ["Px"]= 130.6,
+  ["Pz"]= -42.5,
+  ["Rate"]= 0.3,
+  ["ScenceId"]= 1540,
+  ["Width"]= 80
+},
+[15402] = {
+  ["Height"]= 100,
+  ["Id"]= 15402,
+  ["Px"]= 1.2,
+  ["Pz"]= -49.4,
+  ["Rate"]= 0.3,
+  ["ScenceId"]= 1540,
+  ["Width"]= 80
+},
+[15403] = {
+  ["Height"]= 80,
+  ["Id"]= 15403,
+  ["Px"]= 1.2,
+  ["Pz"]= 80.2,
+  ["Rate"]= 0.3,
+  ["ScenceId"]= 1540,
+  ["SmallMapZoom"]= 1.2,
+  ["Width"]= 80
+},
+[15601] = {
+  ["direction"]= 180,
+  ["Height"]= 80,
+  ["Id"]= 15601,
+  ["Px"]= -0.3,
+  ["Rate"]= 0.2,
+  ["ScenceId"]= 1560,
+  ["Width"]= 80
+},
+[15602] = {
+  ["Height"]= 100,
+  ["Id"]= 15602,
+  ["Px"]= 93.2,
+  ["Pz"]= 1.1,
+  ["Rate"]= 0.3,
+  ["ScenceId"]= 1560,
+  ["Width"]= 100
+},
+[15603] = {
+  ["Height"]= 60,
+  ["Id"]= 15603,
+  ["Px"]= -80.1,
+  ["Rate"]= 0.2,
+  ["ScenceId"]= 1560,
+  ["SmallMapZoom"]= 1.2,
+  ["Width"]= 60
+},
+[20701] = {
+  ["Height"]= 260,
+  ["Id"]= 20701,
+  ["Px"]= -505.9,
+  ["Pz"]= -147.5,
+  ["Rate"]= 0.7,
+  ["ScenceId"]= 2070,
+  ["Width"]= 260
+},
+[20702] = {
+  ["Height"]= 220,
+  ["Id"]= 20702,
+  ["Px"]= 145.9,
+  ["Pz"]= -249.1,
+  ["Rate"]= 0.6,
+  ["ScenceId"]= 2070,
+  ["Width"]= 240
+},
+[20703] = {
+  ["Height"]= 180,
+  ["Id"]= 20703,
+  ["Px"]= 0.7,
+  ["Pz"]= -24.4,
+  ["Rate"]= 0.6,
+  ["ScenceId"]= 2070,
+  ["Width"]= 160
+},
+[20704] = {
+  ["Height"]= 160,
+  ["Id"]= 20704,
+  ["Px"]= 534.4,
+  ["Pz"]= -147.7,
+  ["ScenceId"]= 2070
+},
+[20705] = {
+  ["Height"]= 160,
+  ["Id"]= 20705,
+  ["Px"]= 628.3,
+  ["Pz"]= -147.7,
+  ["ScenceId"]= 2070
+},
+[20706] = {
+  ["Height"]= 160,
+  ["Id"]= 20706,
+  ["Px"]= 714.5,
+  ["Pz"]= -147.7,
+  ["ScenceId"]= 2070
+},
+[30201] = {
+  ["bgType"]= 3,
+  ["Height"]= 130,
+  ["Id"]= 30201,
+  ["Px"]= 1374,
+  ["Pz"]= 44.6
+},
+[30202] = {
+  ["bgType"]= 3,
+  ["Height"]= 160,
+  ["Id"]= 30202,
+  ["Px"]= 1614.7,
+  ["Pz"]= 34.9,
+  ["Rate"]= 0.7,
+  ["Width"]= 250
+},
+[30203] = {
+  ["Height"]= 40,
+  ["Id"]= 30203,
+  ["Px"]= 1859.05,
+  ["Pz"]= -67.29,
+  ["Rate"]= 0.2,
+  ["Width"]= 70
+},
+[30204] = {
+  ["bgType"]= 3,
+  ["Height"]= 190,
+  ["Id"]= 30204,
+  ["Px"]= 2079.6,
+  ["Pz"]= 44.9,
+  ["Rate"]= 0.6,
+  ["Width"]= 190
+},
+[30205] = {
+  ["bgType"]= 1,
+  ["Id"]= 30205,
+  ["Px"]= 1369.1,
+  ["Pz"]= -163
+},
+[30206] = {
+  ["bgType"]= 1,
+  ["Id"]= 30206,
+  ["Px"]= 1509.5,
+  ["Pz"]= -158.8
+},
+[30207] = {
+  ["bgType"]= 1,
+  ["Id"]= 30207,
+  ["Px"]= 1644.6,
+  ["Pz"]= -162.2
+},
+[30208] = {
+  ["bgType"]= 1,
+  ["Id"]= 30208,
+  ["Px"]= 1779.2,
+  ["Pz"]= -166.4
+},
+[30209] = {
+  ["bgType"]= 1,
+  ["Id"]= 30209,
+  ["Px"]= 1922.3,
+  ["Pz"]= -166.8
+},
+[40021] = {
+  ["Height"]= 60,
+  ["Id"]= 40021,
+  ["MainSmallMapZoom"]= 1,
+  ["Px"]= 0.3,
+  ["Pz"]= 36.8,
+  ["Rate"]= 0.2,
+  ["ScenceId"]= 4002,
+  ["SmallMapZoom"]= 1.28,
+  ["Width"]= 60
+},
+[40022] = {
+  ["Height"]= 150,
+  ["Id"]= 40022,
+  ["Px"]= -1.5,
+  ["Pz"]= 241.7,
+  ["ScenceId"]= 4002,
+  ["SmallMapZoom"]= 1.2,
+  ["Width"]= 150
+},
+[45041] = {
+  ["Height"]= 240,
+  ["Id"]= 45041,
+  ["MainSmallMapZoom"]= 0.85,
+  ["Px"]= -183.4,
+  ["Pz"]= 158.8,
+  ["Rate"]= 0.6,
+  ["ScenceId"]= 4504,
+  ["Width"]= 200
+},
+[45042] = {
+  ["Height"]= 220,
+  ["Id"]= 45042,
+  ["MainSmallMapZoom"]= 0.85,
+  ["Px"]= 261.5,
+  ["Pz"]= 174.9,
+  ["Rate"]= 0.6,
+  ["ScenceId"]= 4504,
+  ["Width"]= 180
+},
+[45043] = {
+  ["Height"]= 220,
+  ["Id"]= 45043,
+  ["MainSmallMapZoom"]= 0.85,
+  ["Px"]= 745.2,
+  ["Pz"]= 174.9,
+  ["Rate"]= 0.6,
+  ["ScenceId"]= 4504,
+  ["Width"]= 180
+},
+[45051] = {
+  ["Height"]= 240,
+  ["Id"]= 45051,
+  ["MainSmallMapZoom"]= 0.85,
+  ["Px"]= -194.4,
+  ["Pz"]= 178.2,
+  ["Rate"]= 0.6,
+  ["ScenceId"]= 4505,
+  ["Width"]= 200
+},
+[45052] = {
+  ["Height"]= 180,
+  ["Id"]= 45052,
+  ["MainSmallMapZoom"]= 0.85,
+  ["Px"]= 261.1,
+  ["Pz"]= 177.3,
+  ["ScenceId"]= 4505,
+  ["Width"]= 160
+},
+[45053] = {
+  ["Height"]= 190,
+  ["Id"]= 45053,
+  ["MainSmallMapZoom"]= 0.85,
+  ["Px"]= 741.5,
+  ["Pz"]= 172.6,
+  ["ScenceId"]= 4505,
+  ["Width"]= 190
+},
+[45061] = {
+  ["Height"]= 260,
+  ["Id"]= 45061,
+  ["MainSmallMapZoom"]= 0.85,
+  ["Px"]= 34.2,
+  ["Pz"]= 29,
+  ["Rate"]= 0.6,
+  ["ScenceId"]= 4506,
+  ["SmallMapZoom"]= 1.1,
+  ["Width"]= 260
+},
+[45062] = {
+  ["Height"]= 250,
+  ["Id"]= 45062,
+  ["MainSmallMapZoom"]= 0.85,
+  ["Px"]= 853.7,
+  ["Pz"]= 3.9,
+  ["Rate"]= 0.6,
+  ["ScenceId"]= 4506,
+  ["Width"]= 250
+},
+[45063] = {
+  ["Height"]= 220,
+  ["Id"]= 45063,
+  ["MainSmallMapZoom"]= 0.85,
+  ["Px"]= 741.1,
+  ["Pz"]= 186.9,
+  ["ScenceId"]= 4506,
+  ["Width"]= 180
+},
+[45071] = {
+  ["Height"]= 160,
+  ["Id"]= 45071,
+  ["MainSmallMapZoom"]= 0.85,
+  ["Px"]= -27.9,
+  ["Pz"]= 120,
+  ["ScenceId"]= 4507,
+  ["Width"]= 180
+},
+[45072] = {
+  ["Height"]= 210,
+  ["Id"]= 45072,
+  ["MainSmallMapZoom"]= 0.85,
+  ["Px"]= -3,
+  ["Pz"]= 813.6,
+  ["ScenceId"]= 4507,
+  ["Width"]= 180
+},
+[45073] = {
+  ["Height"]= 150,
+  ["Id"]= 45073,
+  ["MainSmallMapZoom"]= 0.85,
+  ["Px"]= 5.3,
+  ["Pz"]= 1546.2,
+  ["ScenceId"]= 4507
+},
+[45081] = {
+  ["Height"]= 240,
+  ["Id"]= 45081,
+  ["MainSmallMapZoom"]= 0.85,
+  ["Px"]= 824.9,
+  ["Pz"]= 1.7,
+  ["Rate"]= 0.6,
+  ["ScenceId"]= 4508,
+  ["Width"]= 200
+},
+[45082] = {
+  ["Height"]= 200,
+  ["Id"]= 45082,
+  ["MainSmallMapZoom"]= 0.85,
+  ["Px"]= 1197.3,
+  ["Pz"]= -47,
+  ["ScenceId"]= 4508,
+  ["Width"]= 200
+},
+[45083] = {
+  ["Height"]= 200,
+  ["Id"]= 45083,
+  ["MainSmallMapZoom"]= 0.85,
+  ["Px"]= 1193,
+  ["Pz"]= -35.8,
+  ["ScenceId"]= 4508,
+  ["Width"]= 200
+},
+[45091] = {
+  ["Height"]= 260,
+  ["Id"]= 45091,
+  ["MainSmallMapZoom"]= 0.85,
+  ["Px"]= 140.1,
+  ["Pz"]= 142,
+  ["ScenceId"]= 4509,
+  ["Width"]= 200
+},
+[45092] = {
+  ["Height"]= 240,
+  ["Id"]= 45092,
+  ["MainSmallMapZoom"]= 0.85,
+  ["Px"]= 657,
+  ["Pz"]= 144.2,
+  ["Rate"]= 0.6,
+  ["ScenceId"]= 4509,
+  ["Width"]= 240
+},
+[45093] = {
+  ["Height"]= 170,
+  ["Id"]= 45093,
+  ["MainSmallMapZoom"]= 0.85,
+  ["Px"]= 846.6,
+  ["Pz"]= 196.9,
+  ["ScenceId"]= 4509,
+  ["Width"]= 170
+},
+[45101] = {
+  ["Height"]= 200,
+  ["Id"]= 45101,
+  ["MainSmallMapZoom"]= 0.85,
+  ["Px"]= -2.7,
+  ["Pz"]= 137.3,
+  ["ScenceId"]= 4510,
+  ["Width"]= 180
+},
+[45102] = {
+  ["Height"]= 190,
+  ["Id"]= 45102,
+  ["MainSmallMapZoom"]= 0.85,
+  ["Px"]= -19,
+  ["Pz"]= 856,
+  ["ScenceId"]= 4510,
+  ["Width"]= 230
+},
+[45103] = {
+  ["Id"]= 45103,
+  ["MainSmallMapZoom"]= 0.85,
+  ["Px"]= 4.4,
+  ["Pz"]= 1553.6,
+  ["ScenceId"]= 4510,
+  ["Width"]= 150
+},
+[60001] = {
+  ["Height"]= 286,
+  ["Id"]= 60001,
+  ["Px"]= 108.5,
+  ["Pz"]= -12.4,
+  ["Rate"]= 0.7,
+  ["ScenceId"]= 6000,
+  ["Width"]= 286
+},
+[60002] = {
+  ["Id"]= 60002,
+  ["Px"]= 990.2,
+  ["Pz"]= 38.7,
+  ["ScenceId"]= 6000
+},
+[302010] = {
+  ["bgType"]= 1,
+  ["Height"]= 150,
+  ["Id"]= 302010,
+  ["Px"]= 2051,
+  ["Pz"]= -169.8,
+  ["Width"]= 120
+},
+[302011] = {
+  ["bgType"]= 1,
+  ["Height"]= 150,
+  ["Id"]= 302011,
+  ["Px"]= 2172.3,
+  ["Pz"]= -179.8,
+  ["Width"]= 120
+},
+[302012] = {
+  ["bgType"]= 1,
+  ["Id"]= 302012,
+  ["Px"]= 2326.1,
+  ["Pz"]= -172.9
+}
+}
+local baseTable={
+  ["bgType"]= 0,
+  ["direction"]= 0,
+  ["Height"]= 140,
+  ["Id"]= 1010,
+  ["MainSmallMapZoom"]= 0.7,
+  ["PlayerNameFontSize"]= 16,
+  ["PointNameFontSize"]= 16,
+  ["Px"]= 0,
+  ["Pz"]= 0,
+  ["Rate"]= 0.5,
+  ["ScenceId"]= 3020,
+  ["SmallMapZoom"]= 1,
+  ["Width"]= 140
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

@@ -1,0 +1,71 @@
+TextAsset Base
+	string m_Name = "data_Wedding_RedPacket"
+	string m_Script = "local table= {
+[1] = {
+  ["GiveRedPacketGuildDevote"]= 55
+},
+[2] = {
+  ["GiveRedPacketGuildDevote"]= 40,
+  ["Id"]= 2,
+  ["ReceiveRedPacketGuildDevote"]= 55,
+  ["RedPacketGiveMaxMoney"]= 5000,
+  ["RedPacketReceiveMaxMoney"]= 1000,
+  ["TotalCharge"]= 50
+},
+[3] = {
+  ["GiveRedPacketGuildDevote"]= 25,
+  ["Id"]= 3,
+  ["ReceiveRedPacketGuildDevote"]= 40,
+  ["RedPacketGiveMaxMoney"]= 10000,
+  ["RedPacketMaxNum"]= 100,
+  ["RedPacketReceiveMaxMoney"]= 5000,
+  ["TotalCharge"]= 300
+},
+[4] = {
+  ["GiveRedPacketGuildDevote"]= 10,
+  ["Id"]= 4,
+  ["ReceiveRedPacketGuildDevote"]= 25,
+  ["RedPacketGiveMaxMoney"]= 20000,
+  ["RedPacketMaxNum"]= 100,
+  ["RedPacketReceiveMaxMoney"]= 20000,
+  ["TotalCharge"]= 750
+},
+[5] = {
+  ["Id"]= 5,
+  ["ReceiveRedPacketGuildDevote"]= 10,
+  ["RedPacketGiveMaxMoney"]= 30000,
+  ["RedPacketMaxNum"]= 200,
+  ["RedPacketReceiveMaxMoney"]= 50000,
+  ["TotalCharge"]= 1500
+},
+[6] = {
+  ["Id"]= 6,
+  ["ReceiveRedPacketGuildDevote"]= 0,
+  ["RedPacketGiveMaxMoney"]= 50000,
+  ["RedPacketMaxNum"]= 200,
+  ["RedPacketReceiveMaxMoney"]= 100000,
+  ["TotalCharge"]= 4500
+}
+}
+local baseTable={
+  ["GiveRedPacketGuildDevote"]= 0,
+  ["Id"]= 1,
+  ["ReceiveRedPacketGuildDevote"]= 80,
+  ["RedPacketGiveMaxMoney"]= 0,
+  ["RedPacketMaxNum"]= 50,
+  ["RedPacketReceiveMaxMoney"]= 100,
+  ["TipsId"]= {
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  },
+  ["TotalCharge"]= 0
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

@@ -1,0 +1,429 @@
+TextAsset Base
+	string m_Name = "data_ItemType"
+	string m_Script = "local table= {
+[1] = {
+  ["type1"]= 1
+},
+[2] = {
+  ["id"]= 2,
+  ["name"]= "ItemType1_2",
+  ["showTypeId"]= 2,
+  ["type1"]= 1,
+  ["type2"]= 2
+},
+[3] = {
+  ["id"]= 3,
+  ["name"]= "ItemType1_3",
+  ["showTypeId"]= 3,
+  ["type1"]= 1,
+  ["type2"]= 3
+},
+[4] = {
+  ["id"]= 4,
+  ["name"]= "ItemType1_4",
+  ["showTypeId"]= 4,
+  ["type1"]= 1,
+  ["type2"]= 4
+},
+[5] = {
+  ["id"]= 5,
+  ["name"]= "ItemType1_5",
+  ["showTypeId"]= 5,
+  ["type1"]= 1,
+  ["type2"]= 5
+},
+[6] = {
+  ["id"]= 6,
+  ["name"]= "ItemType1_6",
+  ["showTypeId"]= 6,
+  ["type1"]= 1,
+  ["type2"]= 6
+},
+[7] = {
+  ["id"]= 7,
+  ["name"]= "ItemType1_7",
+  ["showTypeId"]= 7,
+  ["type1"]= 1,
+  ["type2"]= 7
+},
+[8] = {
+  ["id"]= 8,
+  ["name"]= "ItemType2_1",
+  ["showTypeId"]= 8
+},
+[9] = {
+  ["id"]= 9,
+  ["name"]= "ItemType2_2",
+  ["showTypeId"]= 9,
+  ["type2"]= 2
+},
+[10] = {
+  ["id"]= 10,
+  ["name"]= "ItemType2_3",
+  ["showTypeId"]= 10,
+  ["type2"]= 3
+},
+[11] = {
+  ["id"]= 11,
+  ["name"]= "ItemType2_4",
+  ["showTypeId"]= 11,
+  ["type2"]= 4
+},
+[12] = {
+  ["id"]= 12,
+  ["name"]= "ItemType2_5",
+  ["showTypeId"]= 12,
+  ["type2"]= 5
+},
+[13] = {
+  ["id"]= 13,
+  ["name"]= "ItemType2_6",
+  ["showTypeId"]= 13,
+  ["type2"]= 6
+},
+[14] = {
+  ["id"]= 14,
+  ["name"]= "ItemType2_7",
+  ["showTypeId"]= 14,
+  ["type2"]= 7
+},
+[15] = {
+  ["id"]= 15,
+  ["name"]= "ItemType2_8",
+  ["showTypeId"]= 15,
+  ["type2"]= 8
+},
+[16] = {
+  ["id"]= 16,
+  ["name"]= "ItemType2_9",
+  ["showTypeId"]= 16,
+  ["type2"]= 9
+},
+[17] = {
+  ["id"]= 17,
+  ["name"]= "ItemType2_10",
+  ["showTypeId"]= 17,
+  ["type2"]= 10
+},
+[18] = {
+  ["id"]= 18,
+  ["name"]= "ItemType2_11",
+  ["showTypeId"]= 18,
+  ["type2"]= 11
+},
+[19] = {
+  ["id"]= 19,
+  ["name"]= "ItemType4_1",
+  ["showTypeId"]= 19,
+  ["type1"]= 4
+},
+[20] = {
+  ["id"]= 20,
+  ["name"]= "ItemType4_2",
+  ["showTypeId"]= 20,
+  ["type1"]= 4,
+  ["type2"]= 2
+},
+[21] = {
+  ["id"]= 21,
+  ["name"]= "ItemType4_3",
+  ["showTypeId"]= 21,
+  ["type1"]= 4,
+  ["type2"]= 3
+},
+[22] = {
+  ["id"]= 22,
+  ["name"]= "ItemType4_4",
+  ["showTypeId"]= 22,
+  ["type1"]= 4,
+  ["type2"]= 4
+},
+[23] = {
+  ["id"]= 23,
+  ["name"]= "ItemType4_5",
+  ["showTypeId"]= 23,
+  ["type1"]= 4,
+  ["type2"]= 5
+},
+[24] = {
+  ["id"]= 24,
+  ["name"]= "ItemType4_6",
+  ["showTypeId"]= 24,
+  ["type1"]= 4,
+  ["type2"]= 6
+},
+[25] = {
+  ["id"]= 25,
+  ["name"]= "ItemType4_7",
+  ["showTypeId"]= 25,
+  ["type1"]= 4,
+  ["type2"]= 7
+},
+[26] = {
+  ["id"]= 26,
+  ["name"]= "ItemType4_8",
+  ["showTypeId"]= 26,
+  ["type1"]= 4,
+  ["type2"]= 8
+},
+[27] = {
+  ["id"]= 27,
+  ["name"]= "ItemType4_9",
+  ["showTypeId"]= 27,
+  ["type1"]= 4,
+  ["type2"]= 9
+},
+[28] = {
+  ["id"]= 28,
+  ["name"]= "ItemType4_10",
+  ["showTypeId"]= 28,
+  ["type1"]= 4,
+  ["type2"]= 10
+},
+[29] = {
+  ["id"]= 29,
+  ["name"]= "ItemType4_11",
+  ["showTypeId"]= 29,
+  ["type1"]= 4,
+  ["type2"]= 11
+},
+[30] = {
+  ["id"]= 30,
+  ["name"]= "ItemType4_12",
+  ["showTypeId"]= 30,
+  ["type1"]= 4,
+  ["type2"]= 12
+},
+[31] = {
+  ["id"]= 31,
+  ["name"]= "ItemType6_1",
+  ["showTypeId"]= 31,
+  ["type1"]= 6
+},
+[32] = {
+  ["id"]= 32,
+  ["name"]= "ItemType6_2",
+  ["showTypeId"]= 32,
+  ["type1"]= 6,
+  ["type2"]= 2
+},
+[33] = {
+  ["id"]= 33,
+  ["name"]= "ItemType6_3",
+  ["showTypeId"]= 33,
+  ["type1"]= 6,
+  ["type2"]= 3
+},
+[34] = {
+  ["id"]= 34,
+  ["name"]= "ItemType6_4",
+  ["showTypeId"]= 34,
+  ["type1"]= 6,
+  ["type2"]= 4
+},
+[35] = {
+  ["id"]= 35,
+  ["name"]= "ItemType6_5",
+  ["showTypeId"]= 35,
+  ["type1"]= 6,
+  ["type2"]= 5
+},
+[36] = {
+  ["id"]= 36,
+  ["name"]= "ItemType7_0",
+  ["showTypeId"]= 36,
+  ["type1"]= 7,
+  ["type2"]= 0
+},
+[37] = {
+  ["id"]= 37,
+  ["name"]= "ItemType8_1",
+  ["showTypeId"]= 37,
+  ["type1"]= 8
+},
+[38] = {
+  ["id"]= 38,
+  ["name"]= "ItemType2_12",
+  ["showTypeId"]= 38,
+  ["type2"]= 12
+},
+[39] = {
+  ["id"]= 39,
+  ["name"]= "ItemType2_13",
+  ["showTypeId"]= 39,
+  ["type2"]= 13
+},
+[40] = {
+  ["id"]= 40,
+  ["name"]= "ItemType2_14",
+  ["showTypeId"]= 40,
+  ["type2"]= 14
+},
+[41] = {
+  ["id"]= 41,
+  ["name"]= "ItemType2_15",
+  ["showTypeId"]= 41,
+  ["type2"]= 15
+},
+[42] = {
+  ["id"]= 42,
+  ["name"]= "ItemType2_16",
+  ["showTypeId"]= 42,
+  ["type2"]= 16
+},
+[43] = {
+  ["id"]= 43,
+  ["name"]= "ItemType2_17",
+  ["showTypeId"]= 43,
+  ["type2"]= 17
+},
+[44] = {
+  ["id"]= 44,
+  ["name"]= "ItemType2_18",
+  ["showTypeId"]= 44,
+  ["type2"]= 18
+},
+[45] = {
+  ["id"]= 45,
+  ["name"]= "ItemType2_19",
+  ["showTypeId"]= 45,
+  ["type2"]= 19
+},
+[46] = {
+  ["id"]= 46,
+  ["name"]= "ItemType4_13",
+  ["showTypeId"]= 46,
+  ["type1"]= 4,
+  ["type2"]= 13
+},
+[47] = {
+  ["id"]= 47,
+  ["name"]= "ItemType4_14",
+  ["showTypeId"]= 47,
+  ["type1"]= 4,
+  ["type2"]= 14
+},
+[48] = {
+  ["id"]= 48,
+  ["name"]= "ItemType4_15",
+  ["showTypeId"]= 48,
+  ["type1"]= 4,
+  ["type2"]= 15
+},
+[49] = {
+  ["id"]= 49,
+  ["name"]= "ItemType4_16",
+  ["showTypeId"]= 49,
+  ["type1"]= 4,
+  ["type2"]= 16
+},
+[50] = {
+  ["id"]= 50,
+  ["name"]= "ItemType4_17",
+  ["showTypeId"]= 50,
+  ["type1"]= 4,
+  ["type2"]= 17
+},
+[51] = {
+  ["id"]= 51,
+  ["name"]= "ItemType4_18",
+  ["showTypeId"]= 51,
+  ["type1"]= 4,
+  ["type2"]= 18
+},
+[52] = {
+  ["id"]= 52,
+  ["name"]= "ItemType4_19",
+  ["showTypeId"]= 52,
+  ["type1"]= 4,
+  ["type2"]= 19
+},
+[53] = {
+  ["id"]= 53,
+  ["name"]= "ItemType4_20",
+  ["showTypeId"]= 53,
+  ["type1"]= 4,
+  ["type2"]= 20
+},
+[54] = {
+  ["id"]= 54,
+  ["name"]= "ItemType4_21",
+  ["showTypeId"]= 54,
+  ["type1"]= 4,
+  ["type2"]= 21
+},
+[55] = {
+  ["id"]= 55,
+  ["name"]= "ItemType4_22",
+  ["showTypeId"]= 55,
+  ["type1"]= 4,
+  ["type2"]= 22
+},
+[56] = {
+  ["id"]= 56,
+  ["name"]= "ItemType4_23",
+  ["showTypeId"]= 56,
+  ["type1"]= 4,
+  ["type2"]= 23
+},
+[57] = {
+  ["id"]= 57,
+  ["name"]= "ItemType2_20",
+  ["showTypeId"]= 57,
+  ["type2"]= 20
+},
+[58] = {
+  ["id"]= 58,
+  ["name"]= "ItemType2_21",
+  ["showTypeId"]= 58,
+  ["type2"]= 21
+},
+[59] = {
+  ["id"]= 59,
+  ["name"]= "ItemType2_22",
+  ["showTypeId"]= 59,
+  ["type2"]= 22
+},
+[60] = {
+  ["id"]= 60,
+  ["name"]= "ItemType2_23",
+  ["showTypeId"]= 60,
+  ["type2"]= 23
+},
+[61] = {
+  ["id"]= 61,
+  ["name"]= "ItemType2_24",
+  ["showTypeId"]= 61,
+  ["type2"]= 24
+},
+[62] = {
+  ["id"]= 62,
+  ["name"]= "ItemType4_24",
+  ["showTypeId"]= 62,
+  ["type1"]= 4,
+  ["type2"]= 24
+},
+[63] = {
+  ["id"]= 63,
+  ["name"]= "ItemType2_25",
+  ["showTypeId"]= 63,
+  ["type2"]= 25
+},
+[64] = {
+  ["id"]= 64,
+  ["name"]= "ItemType2_27",
+  ["showTypeId"]= 64,
+  ["type2"]= 27
+}
+}
+local baseTable={
+  ["id"]= 1,
+  ["name"]= "ItemType1_1",
+  ["showTypeId"]= 1,
+  ["type1"]= 2,
+  ["type2"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

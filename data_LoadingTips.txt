@@ -1,0 +1,130 @@
+TextAsset Base
+	string m_Name = "data_LoadingTips"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["id"]= 2,
+  ["text"]= "Loading_tips_2"
+},
+[3] = {
+  ["id"]= 3,
+  ["text"]= "Loading_tips_3"
+},
+[4] = {
+  ["id"]= 4,
+  ["text"]= "Loading_tips_4"
+},
+[5] = {
+  ["id"]= 5,
+  ["libraryId"]= 2,
+  ["text"]= "Loading_tips_5"
+},
+[6] = {
+  ["id"]= 6,
+  ["libraryId"]= 2,
+  ["text"]= "Loading_tips_6"
+},
+[7] = {
+  ["id"]= 7,
+  ["text"]= "Loading_tips_7"
+},
+[8] = {
+  ["id"]= 8,
+  ["text"]= "Loading_tips_8"
+},
+[9] = {
+  ["id"]= 9,
+  ["libraryId"]= 2,
+  ["text"]= "Loading_tips_9"
+},
+[10] = {
+  ["id"]= 10,
+  ["text"]= "Loading_tips_10"
+},
+[11] = {
+  ["id"]= 11,
+  ["text"]= "Loading_tips_11"
+},
+[12] = {
+  ["id"]= 12,
+  ["text"]= "Loading_tips_12"
+},
+[13] = {
+  ["id"]= 13,
+  ["text"]= "Loading_tips_13"
+},
+[14] = {
+  ["id"]= 14,
+  ["text"]= "Loading_tips_14"
+},
+[15] = {
+  ["id"]= 15,
+  ["text"]= "Loading_tips_15"
+},
+[16] = {
+  ["id"]= 16,
+  ["text"]= "Loading_tips_16"
+},
+[17] = {
+  ["id"]= 17,
+  ["text"]= "Loading_tips_17"
+},
+[18] = {
+  ["id"]= 18,
+  ["text"]= "Loading_tips_18"
+},
+[19] = {
+  ["id"]= 19,
+  ["text"]= "Loading_tips_19"
+},
+[20] = {
+  ["id"]= 20,
+  ["text"]= "Loading_tips_20"
+},
+[21] = {
+  ["id"]= 21,
+  ["text"]= "Loading_tips_21"
+},
+[22] = {
+  ["id"]= 22,
+  ["text"]= "Loading_tips_22"
+},
+[23] = {
+  ["id"]= 23,
+  ["text"]= "Loading_tips_23"
+},
+[24] = {
+  ["id"]= 24,
+  ["libraryId"]= 3,
+  ["text"]= "Loading_tips_24"
+},
+[25] = {
+  ["id"]= 25,
+  ["libraryId"]= 3,
+  ["text"]= "Loading_tips_25"
+},
+[26] = {
+  ["id"]= 26,
+  ["libraryId"]= 3,
+  ["text"]= "Loading_tips_26"
+},
+[27] = {
+  ["id"]= 27,
+  ["libraryId"]= 3,
+  ["text"]= "Loading_tips_27"
+},
+[28] = {
+  ["id"]= 28,
+  ["libraryId"]= 3,
+  ["text"]= "Loading_tips_28"
+}
+}
+local baseTable={
+  ["id"]= 1,
+  ["libraryId"]= 1,
+  ["text"]= "Loading_tips_1"
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

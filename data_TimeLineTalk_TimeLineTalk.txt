@@ -1,0 +1,339 @@
+TextAsset Base
+	string m_Name = "data_TimeLineTalk_TimeLineTalk"
+	string m_Script = "local table= {
+[71065] = {
+  ["backgroundMusic"]= "71065"
+},
+[71066] = {
+  ["backgroundMusic"]= "71066",
+  ["list"]= {
+    {
+      ["content"]= "TimelineText7106601",
+      ["duration"]= 2
+    },
+    {
+      ["content"]= "TimelineText7106602",
+      ["duration"]= 2
+    },
+    {
+      ["content"]= "TimelineText7106603",
+      ["duration"]= 2
+    }
+  },
+  ["timelineId"]= 71066
+},
+[71067] = {
+  ["backgroundMusic"]= "71067",
+  ["list"]= {
+    {
+      ["content"]= "TimelineText7106701",
+      ["duration"]= 2
+    },
+    {
+      ["content"]= "TimelineText7106702",
+      ["duration"]= 2
+    },
+    {
+      ["content"]= "TimelineText7106703",
+      ["duration"]= 2
+    }
+  },
+  ["timelineId"]= 71067
+},
+[71068] = {
+  ["backgroundMusic"]= "71068",
+  ["list"]= {
+    {
+      ["content"]= "TimelineText7106801",
+      ["duration"]= 2
+    },
+    {
+      ["content"]= "TimelineText7106802",
+      ["duration"]= 2
+    },
+    {
+      ["content"]= "TimelineText7106803",
+      ["duration"]= 2
+    }
+  },
+  ["timelineId"]= 71068
+},
+[71073] = {
+  ["backgroundMusic"]= "71073",
+  ["list"]= {
+    {
+      ["content"]= "TimelineText7107301",
+      ["duration"]= 2
+    },
+    {
+      ["content"]= "TimelineText7107302",
+      ["duration"]= 2
+    },
+    {
+      ["content"]= "TimelineText7107303",
+      ["duration"]= 2
+    }
+  },
+  ["timelineId"]= 71073
+},
+[71074] = {
+  ["backgroundMusic"]= "71074",
+  ["list"]= {
+    {
+      ["content"]= "TimelineText7107401",
+      ["duration"]= 2
+    },
+    {
+      ["content"]= "TimelineText7107402",
+      ["duration"]= 2
+    },
+    {
+      ["content"]= "TimelineText7107403",
+      ["duration"]= 2
+    }
+  },
+  ["timelineId"]= 71074
+},
+[71075] = {
+  ["backgroundMusic"]= "71075",
+  ["list"]= {
+    {
+      ["content"]= "TimelineText7107501",
+      ["duration"]= 2
+    },
+    {
+      ["content"]= "TimelineText7107502",
+      ["duration"]= 2
+    },
+    {
+      ["content"]= "TimelineText7107503",
+      ["duration"]= 2
+    }
+  },
+  ["timelineId"]= 71075
+},
+[71079] = {
+  ["backgroundMusic"]= "71079",
+  ["list"]= {
+    {
+      ["content"]= "TimelineText7107901",
+      ["duration"]= 2
+    },
+    {
+      ["content"]= "TimelineText7107902",
+      ["duration"]= 2
+    },
+    {
+      ["content"]= "TimelineText7107903",
+      ["duration"]= 2
+    }
+  },
+  ["timelineId"]= 71079
+},
+[71080] = {
+  ["backgroundMusic"]= "71080",
+  ["list"]= {
+    {
+      ["content"]= "TimelineText7108001",
+      ["duration"]= 2
+    },
+    {
+      ["content"]= "TimelineText7108002",
+      ["duration"]= 2
+    },
+    {
+      ["content"]= "TimelineText7108003",
+      ["duration"]= 2
+    }
+  },
+  ["timelineId"]= 71080
+},
+[71081] = {
+  ["backgroundMusic"]= "71081",
+  ["list"]= {
+    {
+      ["content"]= "TimelineText7108101",
+      ["duration"]= 2
+    },
+    {
+      ["content"]= "TimelineText7108102",
+      ["duration"]= 2
+    },
+    {
+      ["content"]= "TimelineText7108103",
+      ["duration"]= 2
+    }
+  },
+  ["timelineId"]= 71081
+},
+[71082] = {
+  ["backgroundMusic"]= "71082",
+  ["list"]= {
+    {
+      ["content"]= "TimelineText7108201",
+      ["duration"]= 2
+    },
+    {
+      ["content"]= "TimelineText7108202",
+      ["duration"]= 2
+    },
+    {
+      ["content"]= "TimelineText7108203",
+      ["duration"]= 2
+    }
+  },
+  ["timelineId"]= 71082
+},
+[71083] = {
+  ["backgroundMusic"]= "71083",
+  ["list"]= {
+    {
+      ["content"]= "TimelineText7108301",
+      ["duration"]= 2
+    },
+    {
+      ["content"]= "TimelineText7108302",
+      ["duration"]= 2
+    },
+    {
+      ["content"]= "TimelineText7108303",
+      ["duration"]= 2
+    }
+  },
+  ["timelineId"]= 71083
+},
+[71084] = {
+  ["backgroundMusic"]= "71084",
+  ["list"]= {
+    {
+      ["content"]= "TimelineText7108401",
+      ["duration"]= 2
+    },
+    {
+      ["content"]= "TimelineText7108402",
+      ["duration"]= 2
+    },
+    {
+      ["content"]= "TimelineText7108403",
+      ["duration"]= 2
+    }
+  },
+  ["timelineId"]= 71084
+},
+[71085] = {
+  ["backgroundMusic"]= "71085",
+  ["list"]= {
+    {
+      ["content"]= "TimelineText7108501",
+      ["duration"]= 2
+    },
+    {
+      ["content"]= "TimelineText7108502",
+      ["duration"]= 2
+    }
+  },
+  ["timelineId"]= 71085
+},
+[71092] = {
+  ["backgroundMusic"]= "71092",
+  ["list"]= {
+    {
+      ["content"]= "TimelineText7109201",
+      ["duration"]= 2
+    },
+    {
+      ["content"]= "TimelineText7109202",
+      ["duration"]= 2
+    }
+  },
+  ["timelineId"]= 71092
+},
+[71093] = {
+  ["backgroundMusic"]= "71093",
+  ["list"]= {
+    {
+      ["content"]= "TimelineText7109301",
+      ["duration"]= 2
+    },
+    {
+      ["content"]= "TimelineText7109302",
+      ["duration"]= 2
+    },
+    {
+      ["content"]= "TimelineText7109303",
+      ["duration"]= 2
+    },
+    {
+      ["content"]= "TimelineText7109304",
+      ["duration"]= 2
+    }
+  },
+  ["timelineId"]= 71093
+},
+[71094] = {
+  ["backgroundMusic"]= "71094",
+  ["list"]= {
+    {
+      ["content"]= "TimelineText7109401",
+      ["duration"]= 2
+    },
+    {
+      ["content"]= "TimelineText7109402",
+      ["duration"]= 2
+    },
+    {
+      ["content"]= "TimelineText7109403",
+      ["duration"]= 2
+    }
+  },
+  ["timelineId"]= 71094
+},
+[79998] = {
+  ["list"]= {
+    {
+      ["content"]= "TimelineText7104901",
+      ["duration"]= 2
+    },
+    {
+      ["content"]= "TimelineText7104902",
+      ["duration"]= 2
+    },
+    {
+      ["content"]= "TimelineText7104903",
+      ["duration"]= 2
+    }
+  },
+  ["timelineId"]= 79998
+},
+[79999] = {
+  ["list"]= {
+    {
+      ["content"]= "TimelineText7199901",
+      ["duration"]= 4
+    }
+  },
+  ["timelineId"]= 79999
+}
+}
+local baseTable={
+  ["backgroundMusic"]= "",
+  ["list"]= {
+    {
+      ["content"]= "TimelineText7106501",
+      ["duration"]= 2
+    },
+    {
+      ["content"]= "TimelineText7106502",
+      ["duration"]= 2
+    },
+    {
+      ["content"]= "TimelineText7106503",
+      ["duration"]= 2
+    }
+  },
+  ["timelineId"]= 71065
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

@@ -1,0 +1,385 @@
+TextAsset Base
+	string m_Name = "data_login_Hair"
+	string m_Script = "local table= {
+[2101] = {
+  ["IsLoginUnlock"]= 1,
+  ["Order"]= 3,
+  ["SpecialHairId"]= 2101
+},
+[2102] = {
+  ["hairId"]= 2102,
+  ["IsLoginUnlock"]= 1,
+  ["Name"]= "Hair_Male_2",
+  ["Order"]= 1,
+  ["SpecialHairId"]= 2102
+},
+[2103] = {
+  ["hairId"]= 2103,
+  ["IsLoginUnlock"]= 1,
+  ["Name"]= "Hair_Male_3",
+  ["Order"]= 2,
+  ["SpecialHairId"]= 2103
+},
+[2104] = {
+  ["CanUsed"]= 0,
+  ["hairId"]= 2104,
+  ["IsLoginOpen"]= 0,
+  ["Name"]= "Hair_Male_4",
+  ["ShowInWardrobe"]= 0
+},
+[2105] = {
+  ["hairId"]= 2105,
+  ["IsLoginUnlock"]= 1,
+  ["Name"]= "Hair_Male_5",
+  ["Order"]= 4,
+  ["SpecialHairId"]= 2105
+},
+[2106] = {
+  ["hairId"]= 2106,
+  ["IsLoginUnlock"]= 1,
+  ["Name"]= "Hair_Male_6",
+  ["Order"]= 5,
+  ["SpecialHairId"]= 2106
+},
+[2107] = {
+  ["CanUsed"]= 0,
+  ["hairId"]= 2107,
+  ["IsLoginOpen"]= 0,
+  ["Name"]= "Hair_Male_7",
+  ["ShowInWardrobe"]= 0
+},
+[2108] = {
+  ["CanUsed"]= 0,
+  ["hairId"]= 2108,
+  ["IsLoginOpen"]= 0,
+  ["Name"]= "Hair_Male_8",
+  ["ShowInWardrobe"]= 0
+},
+[2109] = {
+  ["hairId"]= 2109,
+  ["Name"]= "Hair_Male_9",
+  ["Order"]= 14,
+  ["SpecialHairId"]= 2109
+},
+[2110] = {
+  ["hairId"]= 2110,
+  ["Name"]= "Hair_Male_10",
+  ["Order"]= 15,
+  ["SpecialHairId"]= 2110
+},
+[2111] = {
+  ["hairId"]= 2111,
+  ["IsLoginUnlock"]= 1,
+  ["Name"]= "Hair_Male_11",
+  ["Order"]= 6,
+  ["SpecialHairId"]= 2111
+},
+[2112] = {
+  ["hairId"]= 2112,
+  ["Name"]= "Hair_Male_12",
+  ["Order"]= 16,
+  ["SpecialHairId"]= 2112
+},
+[2113] = {
+  ["hairId"]= 2113,
+  ["Name"]= "Hair_Male_13",
+  ["Order"]= 17,
+  ["SpecialHairId"]= 2113
+},
+[2114] = {
+  ["hairId"]= 2114,
+  ["Name"]= "Hair_Male_14",
+  ["Order"]= 18,
+  ["SpecialHairId"]= 2114
+},
+[2115] = {
+  ["hairId"]= 2115,
+  ["Name"]= "Hair_Male_15",
+  ["Order"]= 19,
+  ["SpecialHairId"]= 2115
+},
+[2116] = {
+  ["hairId"]= 2116,
+  ["IsLoginUnlock"]= 1,
+  ["Name"]= "Hair_Male_16",
+  ["Order"]= 7,
+  ["SpecialHairId"]= 2116
+},
+[2117] = {
+  ["hairId"]= 2117,
+  ["Name"]= "Hair_Male_17",
+  ["Order"]= 20,
+  ["SpecialHairId"]= 2117
+},
+[2118] = {
+  ["hairId"]= 2118,
+  ["Name"]= "Hair_Male_18",
+  ["Order"]= 21,
+  ["SpecialHairId"]= 2118
+},
+[2119] = {
+  ["hairId"]= 2119,
+  ["Name"]= "Hair_Male_19",
+  ["Order"]= 22,
+  ["SpecialHairId"]= 2119
+},
+[2120] = {
+  ["hairId"]= 2120,
+  ["Name"]= "Hair_Male_20",
+  ["Order"]= 23,
+  ["SpecialHairId"]= 2120
+},
+[2121] = {
+  ["hairId"]= 2121,
+  ["Name"]= "Hair_Male_21",
+  ["Order"]= 24,
+  ["SpecialHairId"]= 2121
+},
+[2122] = {
+  ["hairId"]= 2122,
+  ["Name"]= "Hair_Male_22",
+  ["Order"]= 25,
+  ["SpecialHairId"]= 2122
+},
+[2124] = {
+  ["hairId"]= 2124,
+  ["Name"]= "Hair_Male_24",
+  ["Order"]= 27,
+  ["SpecialHairId"]= 2124
+},
+[2125] = {
+  ["hairId"]= 2125,
+  ["Name"]= "Hair_Male_25",
+  ["Order"]= 28,
+  ["SpecialHairId"]= 2125
+},
+[2126] = {
+  ["hairId"]= 2126,
+  ["Name"]= "Hair_Male_26",
+  ["Order"]= 29,
+  ["SpecialHairId"]= 2126
+},
+[2201] = {
+  ["hairId"]= 2201,
+  ["IsLoginUnlock"]= 1,
+  ["isMale"]= 0,
+  ["Name"]= "Hair_Female_1",
+  ["Order"]= 1,
+  ["SpecialHairId"]= 2201
+},
+[2202] = {
+  ["hairId"]= 2202,
+  ["IsLoginUnlock"]= 1,
+  ["isMale"]= 0,
+  ["Name"]= "Hair_Female_2",
+  ["Order"]= 2,
+  ["SpecialHairId"]= 2202
+},
+[2203] = {
+  ["hairId"]= 2203,
+  ["IsLoginUnlock"]= 1,
+  ["isMale"]= 0,
+  ["Name"]= "Hair_Female_3",
+  ["Order"]= 3,
+  ["SpecialHairId"]= 2203
+},
+[2204] = {
+  ["CanUsed"]= 0,
+  ["hairId"]= 2204,
+  ["IsLoginOpen"]= 0,
+  ["isMale"]= 0,
+  ["Name"]= "Hair_Female_4",
+  ["ShowInWardrobe"]= 0
+},
+[2205] = {
+  ["hairId"]= 2205,
+  ["IsLoginUnlock"]= 1,
+  ["isMale"]= 0,
+  ["Name"]= "Hair_Female_5",
+  ["Order"]= 4,
+  ["SpecialHairId"]= 2205
+},
+[2206] = {
+  ["hairId"]= 2206,
+  ["IsLoginUnlock"]= 1,
+  ["isMale"]= 0,
+  ["Name"]= "Hair_Female_6",
+  ["Order"]= 5,
+  ["SpecialHairId"]= 2206
+},
+[2207] = {
+  ["CanUsed"]= 0,
+  ["hairId"]= 2207,
+  ["IsLoginOpen"]= 0,
+  ["isMale"]= 0,
+  ["Name"]= "Hair_Female_7",
+  ["ShowInWardrobe"]= 0
+},
+[2208] = {
+  ["CanUsed"]= 0,
+  ["hairId"]= 2208,
+  ["IsLoginOpen"]= 0,
+  ["isMale"]= 0,
+  ["Name"]= "Hair_Female_8",
+  ["ShowInWardrobe"]= 0
+},
+[2209] = {
+  ["hairId"]= 2209,
+  ["isMale"]= 0,
+  ["Name"]= "Hair_Female_9",
+  ["Order"]= 14,
+  ["SpecialHairId"]= 2209
+},
+[2210] = {
+  ["hairId"]= 2210,
+  ["IsLoginUnlock"]= 1,
+  ["isMale"]= 0,
+  ["Name"]= "Hair_Female_10",
+  ["Order"]= 6,
+  ["SpecialHairId"]= 2210
+},
+[2211] = {
+  ["hairId"]= 2211,
+  ["isMale"]= 0,
+  ["Name"]= "Hair_Female_11",
+  ["Order"]= 15,
+  ["SpecialHairId"]= 2211
+},
+[2212] = {
+  ["hairId"]= 2212,
+  ["IsLoginUnlock"]= 1,
+  ["isMale"]= 0,
+  ["Name"]= "Hair_Female_12",
+  ["Order"]= 7,
+  ["SpecialHairId"]= 2212
+},
+[2213] = {
+  ["hairId"]= 2213,
+  ["isMale"]= 0,
+  ["Name"]= "Hair_Female_13",
+  ["Order"]= 16,
+  ["SpecialHairId"]= 2213
+},
+[2214] = {
+  ["hairId"]= 2214,
+  ["isMale"]= 0,
+  ["Name"]= "Hair_Female_14",
+  ["Order"]= 17,
+  ["SpecialHairId"]= 2214
+},
+[2215] = {
+  ["hairId"]= 2215,
+  ["isMale"]= 0,
+  ["Name"]= "Hair_Female_15",
+  ["Order"]= 18,
+  ["SpecialHairId"]= 2215
+},
+[2216] = {
+  ["hairId"]= 2216,
+  ["isMale"]= 0,
+  ["Name"]= "Hair_Female_16",
+  ["Order"]= 19,
+  ["SpecialHairId"]= 2216
+},
+[2217] = {
+  ["hairId"]= 2217,
+  ["isMale"]= 0,
+  ["Name"]= "Hair_Female_17",
+  ["Order"]= 20,
+  ["SpecialHairId"]= 2217
+},
+[2218] = {
+  ["hairId"]= 2218,
+  ["isMale"]= 0,
+  ["Name"]= "Hair_Female_18",
+  ["Order"]= 21,
+  ["SpecialHairId"]= 2218
+},
+[2219] = {
+  ["hairId"]= 2219,
+  ["isMale"]= 0,
+  ["Name"]= "Hair_Female_19",
+  ["Order"]= 22,
+  ["SpecialHairId"]= 2219
+},
+[2220] = {
+  ["hairId"]= 2220,
+  ["isMale"]= 0,
+  ["Name"]= "Hair_Female_20",
+  ["Order"]= 23,
+  ["SpecialHairId"]= 2220
+},
+[2221] = {
+  ["hairId"]= 2221,
+  ["isMale"]= 0,
+  ["Name"]= "Hair_Female_21",
+  ["Order"]= 24,
+  ["SpecialHairId"]= 2221
+},
+[2222] = {
+  ["hairId"]= 2222,
+  ["isMale"]= 0,
+  ["Name"]= "Hair_Female_22",
+  ["Order"]= 25,
+  ["SpecialHairId"]= 2222
+},
+[2224] = {
+  ["hairId"]= 2224,
+  ["isMale"]= 0,
+  ["Name"]= "Hair_Female_24",
+  ["Order"]= 27,
+  ["SpecialHairId"]= 2224
+},
+[2225] = {
+  ["hairId"]= 2225,
+  ["isMale"]= 0,
+  ["Name"]= "Hair_Female_25",
+  ["Order"]= 28,
+  ["SpecialHairId"]= 2225
+},
+[2226] = {
+  ["hairId"]= 2226,
+  ["isMale"]= 0,
+  ["Name"]= "Hair_Female_26",
+  ["Order"]= 29,
+  ["SpecialHairId"]= 2226
+}
+}
+local baseTable={
+  ["CanUsed"]= 1,
+  ["colorId"]= {
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["hairId"]= 2101,
+  ["IsLoginOpen"]= 1,
+  ["IsLoginUnlock"]= 0,
+  ["isMale"]= 1,
+  ["ItemID"]= {
+    10403044
+  },
+  ["ItemNum"]= {
+    1
+  },
+  ["LockDes"]= "",
+  ["Name"]= "Hair_Male_1",
+  ["Order"]= 0,
+  ["ShowInWardrobe"]= 1,
+  ["SpecialHairId"]= 0,
+  ["UnlockItem"]= 0,
+  ["UnlockNum"]= 0,
+  ["UnlockType"]= 0,
+  ["Zeny"]= 20000
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

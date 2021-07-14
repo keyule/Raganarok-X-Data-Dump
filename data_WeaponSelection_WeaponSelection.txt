@@ -1,0 +1,114 @@
+TextAsset Base
+	string m_Name = "data_WeaponSelection_WeaponSelection"
+	string m_Script = "local table= {
+[1100] = {},
+[1200] = {
+  ["dropId"]= {
+    50022,
+    50023,
+    50024
+  },
+  ["id"]= 1200,
+  ["occupationSynopsis"]= {
+    "WeaponSelectionTips05",
+    "WeaponSelectionTips04",
+    "WeaponSelectionTips06"
+  },
+  ["occupationTitle"]= {
+    "AutoPoint_planName12001",
+    "AutoPoint_planName12002",
+    "AutoPoint_planName12003"
+  }
+},
+[1300] = {
+  ["dropId"]= {
+    50025,
+    50026
+  },
+  ["id"]= 1300,
+  ["occupationSynopsis"]= {
+    "WeaponSelectionTips07",
+    "WeaponSelectionTips09",
+    "WeaponSelectionTips08"
+  },
+  ["occupationTitle"]= {
+    "AutoPoint_planName13001",
+    "AutoPoint_planName13002",
+    "AutoPoint_planName13003"
+  }
+},
+[1400] = {
+  ["dropId"]= {
+    50027,
+    50028
+  },
+  ["id"]= 1400,
+  ["occupationSynopsis"]= {
+    "WeaponSelectionTips10",
+    "WeaponSelectionTips12",
+    "WeaponSelectionTips11"
+  },
+  ["occupationTitle"]= {
+    "AutoPoint_planName14001",
+    "AutoPoint_planName14002",
+    "AutoPoint_planName14003"
+  }
+},
+[1500] = {
+  ["dropId"]= {
+    50029,
+    50033
+  },
+  ["id"]= 1500,
+  ["occupationSynopsis"]= {
+    "WeaponSelectionTips14",
+    "WeaponSelectionTips13",
+    "WeaponSelectionTips15"
+  },
+  ["occupationTitle"]= {
+    "AutoPoint_planName15001",
+    "AutoPoint_planName15002",
+    "AutoPoint_planName15003"
+  }
+},
+[1600] = {
+  ["dropId"]= {
+    50030,
+    50031,
+    50032
+  },
+  ["id"]= 1600,
+  ["occupationSynopsis"]= {
+    "WeaponSelectionTips17",
+    "WeaponSelectionTips16",
+    "WeaponSelectionTips18"
+  },
+  ["occupationTitle"]= {
+    "AutoPoint_planName16001",
+    "AutoPoint_planName16002",
+    "AutoPoint_planName16003"
+  }
+}
+}
+local baseTable={
+  ["dropId"]= {
+    50020,
+    50021,
+    50019
+  },
+  ["id"]= 1100,
+  ["occupationSynopsis"]= {
+    "WeaponSelectionTips02",
+    "WeaponSelectionTips03",
+    "WeaponSelectionTips01"
+  },
+  ["occupationTitle"]= {
+    "AutoPoint_planName11001",
+    "AutoPoint_planName11002",
+    "AutoPoint_planName11003"
+  }
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

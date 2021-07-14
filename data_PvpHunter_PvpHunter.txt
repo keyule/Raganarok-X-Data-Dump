@@ -1,0 +1,68 @@
+TextAsset Base
+	string m_Name = "data_PvpHunter_PvpHunter"
+	string m_Script = "local table= {
+[1] = {
+  ["reward"]= 0
+},
+[2] = {
+  ["id"]= 2,
+  ["Max"]= 99,
+  ["min"]= 50
+},
+[3] = {
+  ["icon"]= "Grade_shushou",
+  ["id"]= 3,
+  ["Max"]= 249,
+  ["min"]= 100,
+  ["Rank"]= 2,
+  ["RankName"]= "PvpHunter_002",
+  ["reward"]= 10554
+},
+[4] = {
+  ["icon"]= "Grade_douzhe",
+  ["id"]= 4,
+  ["Max"]= 499,
+  ["min"]= 250,
+  ["Rank"]= 3,
+  ["RankName"]= "PvpHunter_003",
+  ["reward"]= 10555
+},
+[5] = {
+  ["icon"]= "Grade_yongshi",
+  ["id"]= 5,
+  ["Max"]= 749,
+  ["min"]= 500,
+  ["Rank"]= 4,
+  ["RankName"]= "PvpHunter_004",
+  ["reward"]= 10556
+},
+[6] = {
+  ["icon"]= "Grade_dashi",
+  ["id"]= 6,
+  ["Max"]= 50000,
+  ["min"]= 750,
+  ["Rank"]= 5,
+  ["RankName"]= "PvpHunter_005",
+  ["reward"]= 10557
+},
+[99] = {
+  ["icon"]= "",
+  ["id"]= 99,
+  ["Max"]= 0,
+  ["Rank"]= 99,
+  ["RankName"]= "PvpHunter_005"
+}
+}
+local baseTable={
+  ["icon"]= "Grade_menxin",
+  ["id"]= 1,
+  ["Max"]= 49,
+  ["min"]= 0,
+  ["Rank"]= 1,
+  ["RankName"]= "PvpHunter_001",
+  ["reward"]= 10553
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

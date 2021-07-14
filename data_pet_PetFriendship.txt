@@ -1,0 +1,33 @@
+TextAsset Base
+	string m_Name = "data_pet_PetFriendship"
+	string m_Script = "local table= {
+[1] = {}
+}
+local baseTable={
+  ["AttrID"]= {
+    1,
+    2,
+    3
+  },
+  ["AttrValue"]= {
+    10,
+    20,
+    30
+  },
+  ["Desc"]= "FriendshipDesc_001",
+  ["FriendshipID"]= 1001,
+  ["IconId"]= 10001,
+  ["ID"]= 1,
+  ["Name"]= "Friendship_001",
+  ["Pet"]= {
+    82001,
+    82002,
+    82003,
+    82004
+  },
+  ["SkillID"]= 1001
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

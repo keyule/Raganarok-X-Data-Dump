@@ -1,0 +1,59 @@
+TextAsset Base
+	string m_Name = "data_ModelShaderToUI_ModelShaderToUI"
+	string m_Script = "return {
+[1] = {
+  ["HaveUICameraPos"]= 0,
+  ["id"]= 1,
+  ["SrcShader"]= "Custom/Particles/AdditiveNoTop",
+  ["TargetShader"]= "Shaders/UIRenderTextureEffect/UIEffect Particles Add.shader"
+},
+[2] = {
+  ["HaveUICameraPos"]= 0,
+  ["id"]= 2,
+  ["SrcShader"]= "Particles/Additive",
+  ["TargetShader"]= "Shaders/UIRenderTextureEffect/UIEffect Particles Add.shader"
+},
+[3] = {
+  ["HaveUICameraPos"]= 0,
+  ["id"]= 3,
+  ["SrcShader"]= "Particles/Alpha Blended",
+  ["TargetShader"]= "Shaders/UIRenderTextureEffect/UIEffect Particles Alpha Blended.shader"
+},
+[4] = {
+  ["HaveUICameraPos"]= 0,
+  ["id"]= 4,
+  ["SrcShader"]= "Custom/Particles/AlphaBlendedNoTop",
+  ["TargetShader"]= "Shaders/UIRenderTextureEffect/UIEffect Particles Alpha Blended.shader"
+},
+[5] = {
+  ["HaveUICameraPos"]= 0,
+  ["id"]= 5,
+  ["SrcShader"]= "Shader Forge/YY_DistortPanner",
+  ["TargetShader"]= "Shaders/UIRenderTextureEffect/UIYY_DistortPanner.shader"
+},
+[6] = {
+  ["HaveUICameraPos"]= 0,
+  ["id"]= 6,
+  ["SrcShader"]= "Shader Forge/Avatar_Toon_blusher",
+  ["TargetShader"]= "Shaders/UIRenderTextureEffect/UIAvatar_Toon_blusher.shader"
+},
+[7] = {
+  ["HaveUICameraPos"]= 0,
+  ["id"]= 7,
+  ["SrcShader"]= "Shader Forge/transparent_Ani",
+  ["TargetShader"]= "Shaders/UIRenderTextureEffect/UIAvatar_Transparent_Ani.shader"
+},
+[8] = {
+  ["HaveUICameraPos"]= 0,
+  ["id"]= 8,
+  ["SrcShader"]= "Shader Forge/Ghost_01",
+  ["TargetShader"]= "Shaders/UIRenderTextureEffect/UIGhost_01.shader"
+},
+[9] = {
+  ["HaveUICameraPos"]= 1,
+  ["id"]= 9,
+  ["SrcShader"]= "Shader Forge/Avatar_Toon_Outline_SSS",
+  ["TargetShader"]= "Shaders/UIRenderTextureEffect/Avatar_Toon_Outline_SSS_UI.shader"
+}
+}
+"

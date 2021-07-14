@@ -1,0 +1,471 @@
+TextAsset Base
+	string m_Name = "data_ShadowWeapon_ShadowWeaponTask"
+	string m_Script = "local table= {
+[101001] = {
+  ["Num"]= {
+    40,
+    50,
+    60
+  },
+  ["Parameter"]= {
+    0,
+    1,
+    2
+  },
+  ["PathNum"]= "",
+  ["PathType"]= 0
+},
+[101002] = {
+  ["Id"]= 101002,
+  ["Name"]= "装备强化",
+  ["Num"]= {
+    100
+  },
+  ["PathNum"]= 10101008,
+  ["PathType"]= 1,
+  ["TaskDesc"]= "ShadowWeaponTask_201",
+  ["TaskName"]= "ShadowWeaponTaskName_201",
+  ["TaskRank"]= 2,
+  ["Type"]= 2
+},
+[101003] = {
+  ["Id"]= 101003,
+  ["Name"]= "装备精炼",
+  ["Num"]= {
+    6
+  },
+  ["PathNum"]= 10101007,
+  ["PathType"]= 1,
+  ["TaskDesc"]= "ShadowWeaponTask_301",
+  ["TaskName"]= "ShadowWeaponTaskName_301",
+  ["TaskRank"]= 3,
+  ["Type"]= 3
+},
+[101005] = {
+  ["Id"]= 101005,
+  ["Name"]= "MVP击杀",
+  ["PathNum"]= 6,
+  ["TaskDesc"]= "ShadowWeaponTask_501",
+  ["TaskName"]= "ShadowWeaponTaskName_501",
+  ["TaskRank"]= 8,
+  ["Type"]= 5
+},
+[101006] = {
+  ["Id"]= 101006,
+  ["Name"]= "Mini击杀",
+  ["PathNum"]= 6,
+  ["TaskDesc"]= "ShadowWeaponTask_601",
+  ["TaskName"]= "ShadowWeaponTaskName_601",
+  ["TaskRank"]= 9,
+  ["Type"]= 6
+},
+[101007] = {
+  ["Id"]= 101007,
+  ["Name"]= "副本通关",
+  ["PathNum"]= 11709999,
+  ["PathType"]= 1,
+  ["TaskDesc"]= "ShadowWeaponTask_701",
+  ["TaskName"]= "ShadowWeaponTaskName_701",
+  ["TaskRank"]= 7,
+  ["Type"]= 7
+},
+[101008] = {
+  ["Id"]= 101008,
+  ["Name"]= "异界之门 Ⅰ",
+  ["Num"]= {
+    5
+  },
+  ["TaskDesc"]= "ShadowWeaponTask_801",
+  ["TaskName"]= "ShadowWeaponTaskName_801",
+  ["TaskRank"]= 13,
+  ["Type"]= 8
+},
+[101009] = {
+  ["Id"]= 101009,
+  ["Name"]= "异界之门 Ⅱ",
+  ["Num"]= {
+    30
+  },
+  ["TaskDesc"]= "ShadowWeaponTask_901",
+  ["TaskName"]= "ShadowWeaponTaskName_901",
+  ["TaskRank"]= 14,
+  ["Type"]= 9
+},
+[101010] = {
+  ["Id"]= 101010,
+  ["Name"]= "异界之门 Ⅲ",
+  ["Num"]= {
+    6
+  },
+  ["TaskDesc"]= "ShadowWeaponTask_1001",
+  ["TaskName"]= "ShadowWeaponTaskName_1001",
+  ["TaskRank"]= 15,
+  ["Type"]= 10
+},
+[101011] = {
+  ["Id"]= 101011,
+  ["Name"]= "公会KVM Ⅰ",
+  ["Num"]= {
+    45
+  },
+  ["PathNum"]= 28,
+  ["TaskDesc"]= "ShadowWeaponTask_1101",
+  ["TaskName"]= "ShadowWeaponTaskName_1101",
+  ["TaskRank"]= 16,
+  ["Type"]= 11
+},
+[101012] = {
+  ["Id"]= 101012,
+  ["Name"]= "公会KVM Ⅱ",
+  ["PathNum"]= 28,
+  ["TaskDesc"]= "ShadowWeaponTask_1201",
+  ["TaskName"]= "ShadowWeaponTaskName_1201",
+  ["TaskRank"]= 17,
+  ["Type"]= 12
+},
+[101015] = {
+  ["Id"]= 101015,
+  ["Name"]= "公会订单",
+  ["Num"]= {
+    120
+  },
+  ["PathNum"]= 29,
+  ["TaskDesc"]= "ShadowWeaponTask_1501",
+  ["TaskName"]= "ShadowWeaponTaskName_1501",
+  ["TaskRank"]= 12,
+  ["Type"]= 15
+},
+[101016] = {
+  ["Id"]= 101016,
+  ["Name"]= "公会贡献",
+  ["Num"]= {
+    300
+  },
+  ["PathNum"]= 30,
+  ["TaskDesc"]= "ShadowWeaponTask_1601",
+  ["TaskName"]= "ShadowWeaponTaskName_1601",
+  ["TaskRank"]= 11,
+  ["Type"]= 16
+},
+[101017] = {
+  ["Id"]= 101017,
+  ["Name"]= "公会等级",
+  ["Num"]= {
+    3
+  },
+  ["PathNum"]= 30,
+  ["TaskDesc"]= "ShadowWeaponTask_1701",
+  ["TaskName"]= "ShadowWeaponTaskName_1701",
+  ["TaskRank"]= 10,
+  ["Type"]= 17
+},
+[101019] = {
+  ["Id"]= 101019,
+  ["Name"]= "GVG Ⅰ",
+  ["Num"]= {
+    3
+  },
+  ["PathNum"]= 31,
+  ["TaskDesc"]= "ShadowWeaponTask_1901",
+  ["TaskName"]= "ShadowWeaponTaskName_1901",
+  ["TaskRank"]= 18,
+  ["Type"]= 19
+},
+[101020] = {
+  ["Id"]= 101020,
+  ["Name"]= "GVG Ⅱ",
+  ["PathNum"]= 31,
+  ["TaskDesc"]= "ShadowWeaponTask_2001",
+  ["TaskName"]= "ShadowWeaponTaskName_2001",
+  ["TaskRank"]= 19,
+  ["Type"]= 20
+},
+[101022] = {
+  ["Id"]= 101022,
+  ["Name"]= "魔物击杀 Ⅰ",
+  ["Num"]= {
+    9999
+  },
+  ["PathNum"]= 26,
+  ["TaskDesc"]= "ShadowWeaponTask_2201",
+  ["TaskName"]= "ShadowWeaponTaskName_2201",
+  ["TaskRank"]= 4,
+  ["Type"]= 22
+},
+[101023] = {
+  ["Id"]= 101023,
+  ["Name"]= "魔物击杀 Ⅱ",
+  ["Num"]= {
+    19999
+  },
+  ["PathNum"]= 26,
+  ["TaskDesc"]= "ShadowWeaponTask_2301",
+  ["TaskName"]= "ShadowWeaponTaskName_2301",
+  ["TaskRank"]= 5,
+  ["Type"]= 23
+},
+[101024] = {
+  ["Id"]= 101024,
+  ["Name"]= "魔物击杀 Ⅲ",
+  ["Num"]= {
+    29999
+  },
+  ["PathNum"]= 26,
+  ["TaskDesc"]= "ShadowWeaponTask_2401",
+  ["TaskName"]= "ShadowWeaponTaskName_2401",
+  ["TaskRank"]= 6,
+  ["Type"]= 24
+},
+[102001] = {
+  ["Group"]= 102,
+  ["Id"]= 102001,
+  ["Num"]= {
+    40,
+    50
+  },
+  ["Parameter"]= {
+    0,
+    1
+  },
+  ["PathNum"]= "",
+  ["PathType"]= 0
+},
+[102002] = {
+  ["Group"]= 102,
+  ["Id"]= 102002,
+  ["Name"]= "装备强化",
+  ["Num"]= {
+    100
+  },
+  ["PathNum"]= 10101008,
+  ["PathType"]= 1,
+  ["TaskDesc"]= "ShadowWeaponTask_201",
+  ["TaskName"]= "ShadowWeaponTaskName_201",
+  ["TaskRank"]= 2,
+  ["Type"]= 2
+},
+[102003] = {
+  ["Group"]= 102,
+  ["Id"]= 102003,
+  ["Name"]= "装备精炼",
+  ["Num"]= {
+    6
+  },
+  ["PathNum"]= 10101007,
+  ["PathType"]= 1,
+  ["TaskDesc"]= "ShadowWeaponTask_301",
+  ["TaskName"]= "ShadowWeaponTaskName_301",
+  ["TaskRank"]= 3,
+  ["Type"]= 3
+},
+[102005] = {
+  ["Group"]= 102,
+  ["Id"]= 102005,
+  ["Name"]= "MVP击杀",
+  ["PathNum"]= 6,
+  ["TaskDesc"]= "ShadowWeaponTask_501",
+  ["TaskName"]= "ShadowWeaponTaskName_501",
+  ["TaskRank"]= 8,
+  ["Type"]= 5
+},
+[102006] = {
+  ["Group"]= 102,
+  ["Id"]= 102006,
+  ["Name"]= "Mini击杀",
+  ["PathNum"]= 6,
+  ["TaskDesc"]= "ShadowWeaponTask_601",
+  ["TaskName"]= "ShadowWeaponTaskName_601",
+  ["TaskRank"]= 9,
+  ["Type"]= 6
+},
+[102007] = {
+  ["Group"]= 102,
+  ["Id"]= 102007,
+  ["Name"]= "副本通关",
+  ["PathNum"]= 11709999,
+  ["PathType"]= 1,
+  ["TaskDesc"]= "ShadowWeaponTask_701",
+  ["TaskName"]= "ShadowWeaponTaskName_701",
+  ["TaskRank"]= 7,
+  ["Type"]= 7
+},
+[102008] = {
+  ["Group"]= 102,
+  ["Id"]= 102008,
+  ["Name"]= "异界之门 Ⅰ",
+  ["Num"]= {
+    5
+  },
+  ["TaskDesc"]= "ShadowWeaponTask_801",
+  ["TaskName"]= "ShadowWeaponTaskName_801",
+  ["TaskRank"]= 13,
+  ["Type"]= 8
+},
+[102009] = {
+  ["Group"]= 102,
+  ["Id"]= 102009,
+  ["Name"]= "异界之门 Ⅱ",
+  ["Num"]= {
+    30
+  },
+  ["TaskDesc"]= "ShadowWeaponTask_901",
+  ["TaskName"]= "ShadowWeaponTaskName_901",
+  ["TaskRank"]= 14,
+  ["Type"]= 9
+},
+[102010] = {
+  ["Group"]= 102,
+  ["Id"]= 102010,
+  ["Name"]= "异界之门 Ⅲ",
+  ["Num"]= {
+    6
+  },
+  ["TaskDesc"]= "ShadowWeaponTask_1001",
+  ["TaskName"]= "ShadowWeaponTaskName_1001",
+  ["TaskRank"]= 15,
+  ["Type"]= 10
+},
+[102011] = {
+  ["Group"]= 102,
+  ["Id"]= 102011,
+  ["Name"]= "公会KVM Ⅰ",
+  ["Num"]= {
+    45
+  },
+  ["PathNum"]= 28,
+  ["TaskDesc"]= "ShadowWeaponTask_1101",
+  ["TaskName"]= "ShadowWeaponTaskName_1101",
+  ["TaskRank"]= 16,
+  ["Type"]= 11
+},
+[102012] = {
+  ["Group"]= 102,
+  ["Id"]= 102012,
+  ["Name"]= "公会KVM Ⅱ",
+  ["PathNum"]= 28,
+  ["TaskDesc"]= "ShadowWeaponTask_1201",
+  ["TaskName"]= "ShadowWeaponTaskName_1201",
+  ["TaskRank"]= 17,
+  ["Type"]= 12
+},
+[102015] = {
+  ["Group"]= 102,
+  ["Id"]= 102015,
+  ["Name"]= "公会订单",
+  ["Num"]= {
+    120
+  },
+  ["PathNum"]= 29,
+  ["TaskDesc"]= "ShadowWeaponTask_1501",
+  ["TaskName"]= "ShadowWeaponTaskName_1501",
+  ["TaskRank"]= 12,
+  ["Type"]= 15
+},
+[102016] = {
+  ["Group"]= 102,
+  ["Id"]= 102016,
+  ["Name"]= "公会贡献",
+  ["Num"]= {
+    300
+  },
+  ["PathNum"]= 30,
+  ["TaskDesc"]= "ShadowWeaponTask_1601",
+  ["TaskName"]= "ShadowWeaponTaskName_1601",
+  ["TaskRank"]= 11,
+  ["Type"]= 16
+},
+[102017] = {
+  ["Group"]= 102,
+  ["Id"]= 102017,
+  ["Name"]= "公会等级",
+  ["Num"]= {
+    3
+  },
+  ["PathNum"]= 30,
+  ["TaskDesc"]= "ShadowWeaponTask_1701",
+  ["TaskName"]= "ShadowWeaponTaskName_1701",
+  ["TaskRank"]= 10,
+  ["Type"]= 17
+},
+[102019] = {
+  ["Group"]= 102,
+  ["Id"]= 102019,
+  ["Name"]= "GVG Ⅰ",
+  ["Num"]= {
+    3
+  },
+  ["PathNum"]= 31,
+  ["TaskDesc"]= "ShadowWeaponTask_1901",
+  ["TaskName"]= "ShadowWeaponTaskName_1901",
+  ["TaskRank"]= 18,
+  ["Type"]= 19
+},
+[102020] = {
+  ["Group"]= 102,
+  ["Id"]= 102020,
+  ["Name"]= "GVG Ⅱ",
+  ["PathNum"]= 31,
+  ["TaskDesc"]= "ShadowWeaponTask_2001",
+  ["TaskName"]= "ShadowWeaponTaskName_2001",
+  ["TaskRank"]= 19,
+  ["Type"]= 20
+},
+[102022] = {
+  ["Group"]= 102,
+  ["Id"]= 102022,
+  ["Name"]= "魔物击杀 Ⅰ",
+  ["Num"]= {
+    9999
+  },
+  ["PathNum"]= 26,
+  ["TaskDesc"]= "ShadowWeaponTask_2201",
+  ["TaskName"]= "ShadowWeaponTaskName_2201",
+  ["TaskRank"]= 4,
+  ["Type"]= 22
+},
+[102023] = {
+  ["Group"]= 102,
+  ["Id"]= 102023,
+  ["Name"]= "魔物击杀 Ⅱ",
+  ["Num"]= {
+    19999
+  },
+  ["PathNum"]= 26,
+  ["TaskDesc"]= "ShadowWeaponTask_2301",
+  ["TaskName"]= "ShadowWeaponTaskName_2301",
+  ["TaskRank"]= 5,
+  ["Type"]= 23
+},
+[102024] = {
+  ["Group"]= 102,
+  ["Id"]= 102024,
+  ["Name"]= "魔物击杀 Ⅲ",
+  ["Num"]= {
+    29999
+  },
+  ["PathNum"]= 26,
+  ["TaskDesc"]= "ShadowWeaponTask_2401",
+  ["TaskName"]= "ShadowWeaponTaskName_2401",
+  ["TaskRank"]= 6,
+  ["Type"]= 24
+}
+}
+local baseTable={
+  ["Group"]= 101,
+  ["Id"]= 101001,
+  ["Name"]= "人物等级",
+  ["Num"]= {
+    15
+  },
+  ["Parameter"]= {},
+  ["PathNum"]= 27,
+  ["PathType"]= 2,
+  ["TaskDesc"]= "ShadowWeaponTask_101",
+  ["TaskName"]= "ShadowWeaponTaskName_101",
+  ["TaskRank"]= 1,
+  ["Type"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

@@ -1,0 +1,24 @@
+TextAsset Base
+	string m_Name = "data_BarrageColor_BarrageColor"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["Color"]= "#FFFF00",
+  ["Id"]= 2,
+  ["Name"]= "黄"
+},
+[3] = {
+  ["Color"]= "#70DB93",
+  ["Id"]= 3,
+  ["Name"]= "蓝"
+}
+}
+local baseTable={
+  ["Color"]= "#FFFFFF",
+  ["Id"]= 1,
+  ["Name"]= "白"
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

@@ -1,0 +1,702 @@
+TextAsset Base
+	string m_Name = "data_GashaponBase"
+	string m_Script = "local table= {
+[101] = {
+  ["detailText"]= {
+    "Gashapon_Award_Tips1011",
+    "Gashapon_Award_Tips1012"
+  },
+  ["extraCondition"]= 0,
+  ["OneCost"]= 10,
+  ["tallyConvert"]= 10,
+  ["TenCost"]= 100,
+  ["UnrealJackpot"]= 60003
+},
+[102] = {
+  ["detailText"]= {
+    "Gashapon_Award_Tips1021",
+    "Gashapon_Award_Tips1022"
+  },
+  ["dropRateText"]= {
+    "Gashapon_Drop_Rate1021",
+    "Gashapon_Drop_Rate1022"
+  },
+  ["extraCondition"]= 0,
+  ["gashaponId"]= 2,
+  ["id"]= 102,
+  ["MainPic"]= "Img_Gashapon_Card01b",
+  ["MiddleIconPic"]= {
+    "Img_ndj_iconA2_1",
+    "Img_ndj_iconA2_2",
+    "Img_ndj_iconA2_3",
+    "Img_ndj_iconA2_4"
+  },
+  ["MiddlePic"]= "Img_ShopA2",
+  ["OneCost"]= 20,
+  ["RealJackpot"]= 60004,
+  ["tallyConvert"]= 20,
+  ["TenCost"]= 200
+},
+[103] = {
+  ["detailText"]= {
+    "Gashapon_Award_Tips1031",
+    "Gashapon_Award_Tips1032"
+  },
+  ["dropRateText"]= {
+    "Gashapon_Drop_Rate1031",
+    "Gashapon_Drop_Rate1032"
+  },
+  ["extraDrop"]= 60020,
+  ["gashaponId"]= 3,
+  ["id"]= 103,
+  ["MiddleIconPic"]= {
+    "Img_ndj_iconA3_1",
+    "Img_ndj_iconA3_2",
+    "Img_ndj_iconA3_3",
+    "Img_ndj_iconA3_4"
+  },
+  ["MiddlePic"]= "Img_ShopA3",
+  ["OneCost"]= 55,
+  ["RealJackpot"]= 60005,
+  ["tallyConvert"]= 55,
+  ["TenCost"]= 550
+},
+[104] = {
+  ["detailText"]= {
+    "Gashapon_Award_Tips1041",
+    "Gashapon_Award_Tips1042"
+  },
+  ["dropRateText"]= {
+    "Gashapon_Drop_Rate1041",
+    "Gashapon_Drop_Rate1042"
+  },
+  ["extraDrop"]= 60021,
+  ["gashaponId"]= 4,
+  ["id"]= 104,
+  ["MainPic"]= "Img_Gashapon_Card01b",
+  ["MiddleIconPic"]= {
+    "Img_ndj_iconA4_1",
+    "Img_ndj_iconA4_2",
+    "Img_ndj_iconA4_3",
+    "Img_ndj_iconA4_4"
+  },
+  ["MiddlePic"]= "Img_ShopA4",
+  ["OneCost"]= 110,
+  ["RealJackpot"]= 60006,
+  ["tallyConvert"]= 110,
+  ["TenCost"]= 1100
+},
+[105] = {
+  ["detailText"]= {},
+  ["dropRateText"]= {
+    "Gashapon_Drop_Rate1051",
+    "Gashapon_Drop_Rate1052"
+  },
+  ["extraDrop"]= 60022,
+  ["gashaponId"]= 5,
+  ["id"]= 105,
+  ["MiddleIconPic"]= {
+    "Img_ndj_iconA5_1",
+    "Img_ndj_iconA5_2",
+    "Img_ndj_iconA5_3",
+    "Img_ndj_iconA5_4"
+  },
+  ["MiddlePic"]= "Img_ShopA5",
+  ["OneCost"]= 220,
+  ["RealJackpot"]= 60007,
+  ["tallyConvert"]= 220,
+  ["TenCost"]= 2200
+},
+[106] = {
+  ["detailText"]= {
+    "Gashapon_Award_Tips1061",
+    "Gashapon_Award_Tips1062"
+  },
+  ["dropRateText"]= {
+    "Gashapon_Drop_Rate1061",
+    "Gashapon_Drop_Rate1062"
+  },
+  ["extraDrop"]= 60023,
+  ["gashaponId"]= 6,
+  ["id"]= 106,
+  ["MainPic"]= "Img_Gashapon_Card01b",
+  ["MiddleIconPic"]= {
+    "Img_ndj_iconA6_1",
+    "Img_ndj_iconA6_2",
+    "Img_ndj_iconA6_3",
+    "Img_ndj_iconA6_4"
+  },
+  ["MiddlePic"]= "Img_ShopA6",
+  ["OneCost"]= 550,
+  ["RealJackpot"]= 60008,
+  ["tallyConvert"]= 550,
+  ["TenCost"]= 5500
+},
+[107] = {
+  ["currencyIconId"]= 52,
+  ["detailText"]= {
+    "",
+    "",
+    ""
+  },
+  ["dropRateText"]= {
+    "Gashapon_Drop_Rate1071",
+    "Gashapon_Drop_Rate1072",
+    "Gashapon_Drop_Rate1073"
+  },
+  ["extraDrop"]= 60024,
+  ["gashaponId"]= 8,
+  ["id"]= 107,
+  ["itemId"]= 10204046,
+  ["MainPic"]= "Img_Gashapon_Card01b",
+  ["MiddleIconPic"]= {
+    "Img_ndj_iconA7_1",
+    "Img_ndj_iconA7_2",
+    "Img_ndj_iconA7_3",
+    "Img_ndj_iconA7_4"
+  },
+  ["MiddlePic"]= "Img_ShopA7",
+  ["OneCost"]= 900,
+  ["RealJackpot"]= 60009,
+  ["tallyConvert"]= 1800,
+  ["TenCost"]= 9000
+},
+[108] = {
+  ["currencyIconId"]= 53,
+  ["detailText"]= {
+    "",
+    ""
+  },
+  ["dropRateText"]= {
+    "Gashapon_Drop_Rate1082",
+    "Gashapon_Drop_Rate1081"
+  },
+  ["extraDrop"]= 60025,
+  ["gashaponId"]= 9,
+  ["id"]= 108,
+  ["itemId"]= 10204047,
+  ["MiddleIconPic"]= {
+    "Img_ndj_iconA8_1",
+    "Img_ndj_iconA8_2",
+    "Img_ndj_iconA8_3",
+    "Img_ndj_iconA8_4"
+  },
+  ["MiddlePic"]= "Img_ShopA8",
+  ["OneCost"]= 600,
+  ["RealJackpot"]= 60010,
+  ["tallyConvert"]= 1200,
+  ["TenCost"]= 6000
+},
+[109] = {
+  ["detailText"]= {
+    "",
+    ""
+  },
+  ["dropRateText"]= {
+    "Gashapon_Drop_Rate1091",
+    "Gashapon_Drop_Rate1092"
+  },
+  ["extraDrop"]= 60025,
+  ["gashaponId"]= 7,
+  ["id"]= 109,
+  ["MiddleIconPic"]= {
+    "Img_ndj_iconA9_1",
+    "Img_ndj_iconA9_2",
+    "Img_ndj_iconA9_3",
+    "Img_ndj_iconA9_4"
+  },
+  ["MiddlePic"]= "Img_ShopA9",
+  ["OneCost"]= 1200,
+  ["RealJackpot"]= 60034,
+  ["tallyConvert"]= 1200,
+  ["TenCost"]= 12000
+},
+[201] = {
+  ["backgroundPic"]= "Img_Gashapon_Bg03",
+  ["currencyIconId"]= 56,
+  ["detailText"]= {
+    "Gashapon_Award_Tips2012"
+  },
+  ["dropRateText"]= {
+    "Gashapon_Drop_Rate2011"
+  },
+  ["extraDrop"]= 60030,
+  ["finalAnnouncementId"]= 107,
+  ["finalMailId"]= 15005,
+  ["framePic"]= "Img_Kuang03",
+  ["gashaponType"]= 2,
+  ["id"]= 201,
+  ["itemId"]= 10204043,
+  ["LotteryEventType"]= 10,
+  ["MainPic"]= "Img_Gashapon_Card03",
+  ["MiddleIconPic"]= {
+    "Img_ndj_iconB1_1",
+    "Img_ndj_iconB1_2",
+    "Img_ndj_iconB1_3",
+    "Img_ndj_iconB1_4"
+  },
+  ["MiddlePic"]= "Img_ShopC1",
+  ["modelResId"]= 120030,
+  ["NPC_ID"]= 61041,
+  ["OneCost"]= 35,
+  ["RealJackpot"]= 60001,
+  ["remindMailId"]= 15006,
+  ["tallyConvert"]= 35,
+  ["TenCost"]= 350,
+  ["TextPic"]= "Img_Kuang03A",
+  ["UnrealJackpot"]= 60001,
+  ["warnAnnouncementId"]= 108
+},
+[202] = {
+  ["backgroundPic"]= "Img_Gashapon_Bg03",
+  ["currencyIconId"]= 56,
+  ["detailText"]= {
+    "Gashapon_Award_Tips2021"
+  },
+  ["dropRateText"]= {
+    "Gashapon_Drop_Rate2021"
+  },
+  ["extraDrop"]= 60031,
+  ["finalAnnouncementId"]= 107,
+  ["finalMailId"]= 15005,
+  ["framePic"]= "Img_Kuang03",
+  ["gashaponId"]= 2,
+  ["gashaponType"]= 2,
+  ["id"]= 202,
+  ["itemId"]= 10204043,
+  ["LotteryEventType"]= 10,
+  ["MainPic"]= "Img_Gashapon_Card03b",
+  ["MiddleIconPic"]= {
+    "Img_ndj_iconB2_1",
+    "Img_ndj_iconB2_2",
+    "Img_ndj_iconB2_3",
+    "Img_ndj_iconB2_4"
+  },
+  ["MiddlePic"]= "Img_ShopC2",
+  ["modelResId"]= 120030,
+  ["NPC_ID"]= 61041,
+  ["OneCost"]= 150,
+  ["rateBackground"]= {
+    "Img_Legend_Bg",
+    "Img_Epic_Bg",
+    "Img_Rare_Bg",
+    "Img_ordinary_Bg"
+  },
+  ["RealJackpot"]= 60014,
+  ["remindMailId"]= 15006,
+  ["tallyConvert"]= 150,
+  ["TenCost"]= 1500,
+  ["TextPic"]= "Img_Kuang03A",
+  ["UnrealJackpot"]= 60001,
+  ["warnAnnouncementId"]= 108
+},
+[203] = {
+  ["backgroundPic"]= "Img_Gashapon_Bg03",
+  ["currencyIconId"]= 52,
+  ["dropRateText"]= {
+    "Gashapon_Drop_Rate2031"
+  },
+  ["extraDrop"]= 60032,
+  ["finalAnnouncementId"]= 107,
+  ["finalMailId"]= 15005,
+  ["framePic"]= "Img_Kuang03",
+  ["gashaponId"]= 4,
+  ["gashaponType"]= 2,
+  ["id"]= 203,
+  ["itemId"]= 10204046,
+  ["LotteryEventType"]= 10,
+  ["MainPic"]= "Img_Gashapon_Card03b",
+  ["MiddleIconPic"]= {
+    "Img_ndj_iconB3_1",
+    "Img_ndj_iconB3_2",
+    "Img_ndj_iconB3_3",
+    "Img_ndj_iconB3_4"
+  },
+  ["MiddlePic"]= "Img_ShopC3",
+  ["modelResId"]= 120030,
+  ["NPC_ID"]= 61041,
+  ["RealJackpot"]= 60015,
+  ["remindMailId"]= 15006,
+  ["tallyConvert"]= 3000,
+  ["TextPic"]= "Img_Kuang03A",
+  ["UnrealJackpot"]= 60001,
+  ["warnAnnouncementId"]= 108
+},
+[204] = {
+  ["backgroundPic"]= "Img_Gashapon_Bg03",
+  ["currencyIconId"]= 53,
+  ["dropRateText"]= {
+    "Gashapon_Drop_Rate2041"
+  },
+  ["extraDrop"]= 60033,
+  ["finalAnnouncementId"]= 107,
+  ["finalMailId"]= 15005,
+  ["framePic"]= "Img_Kuang03",
+  ["gashaponId"]= 5,
+  ["gashaponType"]= 2,
+  ["id"]= 204,
+  ["itemId"]= 10204047,
+  ["LotteryEventType"]= 10,
+  ["MainPic"]= "Img_Gashapon_Card03",
+  ["MiddleIconPic"]= {
+    "Img_ndj_iconB4_1",
+    "Img_ndj_iconB4_2",
+    "Img_ndj_iconB4_3",
+    "Img_ndj_iconB4_4"
+  },
+  ["MiddlePic"]= "Img_ShopC4",
+  ["modelResId"]= 120030,
+  ["NPC_ID"]= 61041,
+  ["RealJackpot"]= 60016,
+  ["remindMailId"]= 15006,
+  ["tallyConvert"]= 3000,
+  ["TextPic"]= "Img_Kuang03A",
+  ["UnrealJackpot"]= 60001,
+  ["warnAnnouncementId"]= 108
+},
+[205] = {
+  ["backgroundPic"]= "Img_Gashapon_Bg03",
+  ["currencyIconId"]= 56,
+  ["dropRateText"]= {
+    "Gashapon_Drop_Rate2051"
+  },
+  ["extraDrop"]= 60033,
+  ["finalAnnouncementId"]= 107,
+  ["finalMailId"]= 15005,
+  ["framePic"]= "Img_Kuang03",
+  ["gashaponId"]= 3,
+  ["gashaponType"]= 2,
+  ["id"]= 205,
+  ["itemId"]= 10204043,
+  ["LotteryEventType"]= 10,
+  ["MainPic"]= "Img_Gashapon_Card03",
+  ["MiddleIconPic"]= {
+    "Img_ndj_iconB5_1",
+    "Img_ndj_iconB5_2",
+    "Img_ndj_iconB5_3",
+    "Img_ndj_iconB5_4"
+  },
+  ["MiddlePic"]= "Img_ShopC5",
+  ["modelResId"]= 120030,
+  ["NPC_ID"]= 61041,
+  ["OneCost"]= 480,
+  ["RealJackpot"]= 60035,
+  ["remindMailId"]= 15006,
+  ["tallyConvert"]= 480,
+  ["TenCost"]= 4800,
+  ["TextPic"]= "Img_Kuang03A",
+  ["UnrealJackpot"]= 60001,
+  ["warnAnnouncementId"]= 108
+},
+[206] = {
+  ["backgroundPic"]= "Img_Gashapon_Bg03",
+  ["currencyIconId"]= 54,
+  ["detailText"]= {
+    "Gashapon_Award_Tips2041"
+  },
+  ["dropRateText"]= {
+    "Gashapon_Drop_Rate2061"
+  },
+  ["extraDrop"]= 60033,
+  ["finalAnnouncementId"]= 107,
+  ["finalMailId"]= 15005,
+  ["framePic"]= "Img_Kuang03",
+  ["gashaponId"]= 6,
+  ["gashaponType"]= 2,
+  ["id"]= 206,
+  ["itemId"]= 10204048,
+  ["LotteryEventType"]= 10,
+  ["MainPic"]= "Img_Gashapon_Card03b",
+  ["MiddleIconPic"]= {
+    "Img_ndj_iconB6_1",
+    "Img_ndj_iconB6_2",
+    "Img_ndj_iconB6_3",
+    "Img_ndj_iconB6_4"
+  },
+  ["MiddlePic"]= "Img_ShopC6",
+  ["modelResId"]= 120030,
+  ["NPC_ID"]= 61041,
+  ["RealJackpot"]= 60036,
+  ["remindMailId"]= 15006,
+  ["TextPic"]= "Img_Kuang03A",
+  ["UnrealJackpot"]= 60001,
+  ["warnAnnouncementId"]= 108
+},
+[301] = {
+  ["backgroundPic"]= "Img_Gashapon_Bg02",
+  ["currencyIconId"]= 58,
+  ["detailText"]= {
+    "Gashapon_Award_Tips3012",
+    "Gashapon_Award_Tips3011"
+  },
+  ["dropRateText"]= {
+    "Gashapon_Drop_Rate3011",
+    "Gashapon_Drop_Rate3012"
+  },
+  ["extraDrop"]= 60026,
+  ["finalAnnouncementId"]= 105,
+  ["finalMailId"]= 15003,
+  ["framePic"]= "Img_Kuang01",
+  ["gashaponType"]= 3,
+  ["id"]= 301,
+  ["itemId"]= 10204045,
+  ["LotteryEventType"]= 9,
+  ["MainPic"]= "Img_Gashapon_Card02",
+  ["MiddleIconPic"]= {
+    "Img_ndj_iconC1_1",
+    "Img_ndj_iconC1_2",
+    "Img_ndj_iconC1_3",
+    "Img_ndj_iconC1_4"
+  },
+  ["MiddlePic"]= "Img_ShopB1",
+  ["modelResId"]= 120017,
+  ["NPC_ID"]= 61042,
+  ["OneCost"]= 60,
+  ["RealJackpot"]= 60002,
+  ["remindMailId"]= 15004,
+  ["tallyConvert"]= 60,
+  ["TenCost"]= 600,
+  ["TextPic"]= "Img_Kuang01A",
+  ["UnrealJackpot"]= 60002,
+  ["warnAnnouncementId"]= 106
+},
+[302] = {
+  ["backgroundPic"]= "Img_Gashapon_Bg02",
+  ["currencyIconId"]= 58,
+  ["detailText"]= {
+    "Gashapon_Award_Tips3022",
+    "Gashapon_Award_Tips3021"
+  },
+  ["dropRateText"]= {
+    "Gashapon_Drop_Rate3021",
+    "Gashapon_Drop_Rate3022"
+  },
+  ["extraDrop"]= 60027,
+  ["finalAnnouncementId"]= 105,
+  ["finalMailId"]= 15003,
+  ["framePic"]= "Img_Kuang01",
+  ["gashaponId"]= 2,
+  ["gashaponType"]= 3,
+  ["id"]= 302,
+  ["itemId"]= 10204045,
+  ["LotteryEventType"]= 9,
+  ["MainPic"]= "Img_Gashapon_Card02b",
+  ["MiddleIconPic"]= {
+    "Img_ndj_iconC2_1",
+    "Img_ndj_iconC2_2",
+    "Img_ndj_iconC2_3",
+    "Img_ndj_iconC2_4"
+  },
+  ["MiddlePic"]= "Img_ShopB2",
+  ["modelResId"]= 120017,
+  ["NPC_ID"]= 61042,
+  ["OneCost"]= 150,
+  ["RealJackpot"]= 60011,
+  ["remindMailId"]= 15004,
+  ["tallyConvert"]= 150,
+  ["TenCost"]= 1500,
+  ["TextPic"]= "Img_Kuang01A",
+  ["UnrealJackpot"]= 60002,
+  ["warnAnnouncementId"]= 106
+},
+[303] = {
+  ["backgroundPic"]= "Img_Gashapon_Bg02",
+  ["currencyIconId"]= 52,
+  ["detailText"]= {
+    "Gashapon_Award_Tips3031"
+  },
+  ["dropRateText"]= {
+    "Gashapon_Drop_Rate3031"
+  },
+  ["extraDrop"]= 60028,
+  ["finalAnnouncementId"]= 105,
+  ["finalMailId"]= 15003,
+  ["framePic"]= "Img_Kuang01",
+  ["gashaponId"]= 3,
+  ["gashaponType"]= 3,
+  ["id"]= 303,
+  ["itemId"]= 10204046,
+  ["LotteryEventType"]= 9,
+  ["MainPic"]= "Img_Gashapon_Card02",
+  ["MiddleIconPic"]= {
+    "Img_ndj_iconC3_1",
+    "Img_ndj_iconC3_2",
+    "Img_ndj_iconC3_3",
+    "Img_ndj_iconC3_4"
+  },
+  ["MiddlePic"]= "Img_ShopB3",
+  ["modelResId"]= 120017,
+  ["NPC_ID"]= 61042,
+  ["OneCost"]= 5000,
+  ["RealJackpot"]= 60012,
+  ["remindMailId"]= 15004,
+  ["tallyConvert"]= 5000,
+  ["TenCost"]= 50000,
+  ["TextPic"]= "Img_Kuang01A",
+  ["UnrealJackpot"]= 60002,
+  ["warnAnnouncementId"]= 106
+},
+[304] = {
+  ["backgroundPic"]= "Img_Gashapon_Bg02",
+  ["currencyIconId"]= 53,
+  ["detailText"]= {
+    "Gashapon_Award_Tips3041"
+  },
+  ["dropRateText"]= {
+    "Gashapon_Drop_Rate3041"
+  },
+  ["extraDrop"]= 60029,
+  ["finalAnnouncementId"]= 105,
+  ["finalMailId"]= 15003,
+  ["framePic"]= "Img_Kuang01",
+  ["gashaponId"]= 4,
+  ["gashaponType"]= 3,
+  ["id"]= 304,
+  ["itemId"]= 10204047,
+  ["LotteryEventType"]= 9,
+  ["MainPic"]= "Img_Gashapon_Card02b",
+  ["MiddleIconPic"]= {
+    "Img_ndj_iconC4_1",
+    "Img_ndj_iconC4_2",
+    "Img_ndj_iconC4_3",
+    "Img_ndj_iconC4_4"
+  },
+  ["MiddlePic"]= "Img_ShopB4",
+  ["modelResId"]= 120017,
+  ["NPC_ID"]= 61042,
+  ["OneCost"]= 2000,
+  ["RealJackpot"]= 60013,
+  ["remindMailId"]= 15004,
+  ["TenCost"]= 20000,
+  ["TextPic"]= "Img_Kuang01A",
+  ["UnrealJackpot"]= 60002,
+  ["warnAnnouncementId"]= 106
+},
+[305] = {
+  ["backgroundPic"]= "Img_Gashapon_Bg02",
+  ["currencyIconId"]= 54,
+  ["detailText"]= {
+    "Gashapon_Award_Tips3041"
+  },
+  ["dropRateText"]= {
+    "Gashapon_Drop_Rate3051"
+  },
+  ["extraDrop"]= 60029,
+  ["finalAnnouncementId"]= 105,
+  ["finalMailId"]= 15003,
+  ["framePic"]= "Img_Kuang01",
+  ["gashaponId"]= 5,
+  ["gashaponType"]= 3,
+  ["id"]= 305,
+  ["itemId"]= 10204048,
+  ["LotteryEventType"]= 9,
+  ["MainPic"]= "Img_Gashapon_Card02",
+  ["MiddleIconPic"]= {
+    "Img_ndj_iconC5_1",
+    "Img_ndj_iconC5_2",
+    "Img_ndj_iconC5_3",
+    "Img_ndj_iconC5_4"
+  },
+  ["MiddlePic"]= "Img_ShopB5",
+  ["modelResId"]= 120017,
+  ["NPC_ID"]= 61042,
+  ["OneCost"]= 2000,
+  ["RealJackpot"]= 60037,
+  ["remindMailId"]= 15004,
+  ["TenCost"]= 20000,
+  ["TextPic"]= "Img_Kuang01A",
+  ["UnrealJackpot"]= 60002,
+  ["warnAnnouncementId"]= 106
+},
+[401] = {
+  ["backgroundPic"]= "Img_Gashapon_Bg04",
+  ["currencyIconId"]= 60,
+  ["detailText"]= {
+    "Gashapon_Award_Tips4011",
+    "Gashapon_Award_Tips4012",
+    "Gashapon_Award_Tips4013",
+    "Gashapon_Award_Tips4014"
+  },
+  ["dropRateText"]= {
+    "Gashapon_Drop_Rate4011",
+    "Gashapon_Drop_Rate4012",
+    "Gashapon_Drop_Rate4013",
+    "Gashapon_Drop_Rate4014"
+  },
+  ["extraCondition"]= 0,
+  ["extraDropTips"]= "",
+  ["finalAnnouncementId"]= 0,
+  ["finalMailId"]= 0,
+  ["framePic"]= "Img_Kuang04",
+  ["gashaponType"]= 4,
+  ["id"]= 401,
+  ["itemId"]= 10204050,
+  ["LotteryEventType"]= 11,
+  ["MainPic"]= "Img_Gashapon_Card04",
+  ["MiddleIconPic"]= {
+    "Img_ndj_iconD1_1",
+    "Img_ndj_iconD1_2",
+    "Img_ndj_iconD1_3",
+    "Img_ndj_iconD1_4"
+  },
+  ["MiddlePic"]= "Img_ShopD1",
+  ["modelResId"]= 120132,
+  ["NPC_ID"]= 61079,
+  ["OneCost"]= 100,
+  ["RealJackpot"]= 60017,
+  ["remindMailId"]= 0,
+  ["tallyConvert"]= 100,
+  ["TenCost"]= 1000,
+  ["TextPic"]= "Img_Kuang04A",
+  ["UnrealJackpot"]= 60002,
+  ["warnAnnouncementId"]= 0
+}
+}
+local baseTable={
+  ["awardTypeText"]= {},
+  ["backgroundPic"]= "Img_Gashapon_Bg01",
+  ["consumeType"]= 2,
+  ["currencyIconId"]= 57,
+  ["detailText"]= {
+    ""
+  },
+  ["dropRateText"]= {
+    "Gashapon_Drop_Rate1011",
+    "Gashapon_Drop_Rate1012"
+  },
+  ["extraCondition"]= 250006,
+  ["extraDrop"]= 0,
+  ["extraDropTips"]= "Gashapon_extraDrop_Tips1",
+  ["finalAnnouncementId"]= 103,
+  ["finalMailId"]= 15001,
+  ["framePic"]= "Img_Kuang02",
+  ["gashaponId"]= 1,
+  ["gashaponType"]= 1,
+  ["id"]= 101,
+  ["itemId"]= 10204044,
+  ["LotteryEventType"]= 8,
+  ["MainPic"]= "Img_Gashapon_Card01",
+  ["MiddleIconPic"]= {
+    "Img_ndj_iconA1_1",
+    "Img_ndj_iconA1_2",
+    "Img_ndj_iconA1_3",
+    "Img_ndj_iconA1_4"
+  },
+  ["MiddlePic"]= "Img_ShopA1",
+  ["modelResId"]= 120031,
+  ["NPC_ID"]= 61023,
+  ["OneCost"]= 1800,
+  ["rateBackground"]= {},
+  ["RealJackpot"]= 60003,
+  ["remindMailId"]= 15002,
+  ["tallyConvert"]= 2000,
+  ["TenCost"]= 18000,
+  ["textBackground"]= {},
+  ["TextPic"]= "Img_Kuang02A",
+  ["UnrealJackpot"]= 0,
+  ["warnAnnouncementId"]= 104
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

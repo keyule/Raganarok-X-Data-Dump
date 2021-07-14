@@ -1,0 +1,1337 @@
+TextAsset Base
+	string m_Name = "data_team_TeamGoal"
+	string m_Script = "local table= {
+[1] = {
+  ["IsScreen"]= 0,
+  ["TargetLevel"]= 1,
+  ["TargetName"]= "TargetName1001",
+  ["Type"]= 1
+},
+[2] = {
+  ["Id"]= 2,
+  ["IsScreen"]= 0,
+  ["TargetLevel"]= 1,
+  ["TargetName"]= "TargetName1002",
+  ["Type"]= 1
+},
+[3] = {
+  ["Id"]= 3,
+  ["IsScreen"]= 0,
+  ["TargetLevel"]= 1,
+  ["TargetName"]= "TargetName1012",
+  ["Type"]= 1
+},
+[4] = {
+  ["Id"]= 4,
+  ["IsScreen"]= 0,
+  ["TargetLevel"]= 1,
+  ["TargetName"]= "TargetName1013",
+  ["Type"]= 1
+},
+[5] = {
+  ["Id"]= 5,
+  ["IsScreen"]= 0,
+  ["TargetLevel"]= 12,
+  ["TargetName"]= "TargetName1008",
+  ["Type"]= 1
+},
+[6] = {
+  ["Id"]= 6,
+  ["IsScreen"]= 0,
+  ["TargetLevel"]= 17,
+  ["TargetName"]= "TargetName1005",
+  ["Type"]= 1
+},
+[7] = {
+  ["Id"]= 7,
+  ["IsScreen"]= 0,
+  ["TargetLevel"]= 18,
+  ["TargetName"]= "TargetName1004",
+  ["Type"]= 1
+},
+[8] = {
+  ["Id"]= 8,
+  ["IsScreen"]= 0,
+  ["TargetLevel"]= 18,
+  ["TargetName"]= "TargetName1011",
+  ["Type"]= 1
+},
+[9] = {
+  ["Id"]= 9,
+  ["IsScreen"]= 0,
+  ["TargetLevel"]= 20,
+  ["TargetName"]= "TargetName1007",
+  ["Type"]= 1
+},
+[10] = {
+  ["Id"]= 10,
+  ["IsScreen"]= 0,
+  ["TargetLevel"]= 28,
+  ["TargetName"]= "TargetName1003",
+  ["Type"]= 1
+},
+[11] = {
+  ["Id"]= 11,
+  ["IsScreen"]= 0,
+  ["TargetLevel"]= 30,
+  ["TargetName"]= "TargetName1009",
+  ["Type"]= 1
+},
+[12] = {
+  ["Id"]= 12,
+  ["IsScreen"]= 0,
+  ["TargetLevel"]= 40,
+  ["TargetName"]= "TargetName1010",
+  ["Type"]= 1
+},
+[13] = {
+  ["Id"]= 13,
+  ["IsScreen"]= 0,
+  ["TargetLevel"]= 35,
+  ["TargetName"]= "TargetName1006",
+  ["Type"]= 1
+},
+[14] = {
+  ["Id"]= 14,
+  ["IsScreen"]= 0,
+  ["MinLevel"]= 18,
+  ["TargetDes"]= "TargetDes2001",
+  ["TargetId"]= 2010,
+  ["TargetLevel"]= 22,
+  ["Type"]= 2
+},
+[15] = {
+  ["Id"]= 15,
+  ["IsScreen"]= 0,
+  ["MinLevel"]= 18,
+  ["TargetDes"]= "TargetDes2002",
+  ["TargetId"]= 2011,
+  ["TargetLevel"]= 22,
+  ["Type"]= 2
+},
+[16] = {
+  ["Id"]= 16,
+  ["IsScreen"]= 0,
+  ["MinLevel"]= 18,
+  ["TargetDes"]= "TargetDes2001",
+  ["TargetId"]= 2020,
+  ["TargetLevel"]= 35,
+  ["TargetName"]= "TargetName2002",
+  ["Type"]= 2
+},
+[17] = {
+  ["Id"]= 17,
+  ["IsScreen"]= 0,
+  ["MinLevel"]= 18,
+  ["TargetDes"]= "TargetDes2002",
+  ["TargetId"]= 2021,
+  ["TargetLevel"]= 35,
+  ["TargetName"]= "TargetName2002",
+  ["Type"]= 2
+},
+[18] = {
+  ["Id"]= 18,
+  ["IsScreen"]= 0,
+  ["MinLevel"]= 18,
+  ["TargetDes"]= "TargetDes2001",
+  ["TargetId"]= 2040,
+  ["TargetLevel"]= 48,
+  ["TargetName"]= "TargetName2003",
+  ["Type"]= 2
+},
+[19] = {
+  ["Id"]= 19,
+  ["IsScreen"]= 0,
+  ["MinLevel"]= 18,
+  ["TargetDes"]= "TargetDes2002",
+  ["TargetId"]= 2041,
+  ["TargetLevel"]= 48,
+  ["TargetName"]= "TargetName2003",
+  ["Type"]= 2
+},
+[20] = {
+  ["Id"]= 20,
+  ["IsScreen"]= 0,
+  ["MinLevel"]= 18,
+  ["TargetDes"]= "TargetDes2001",
+  ["TargetId"]= 2030,
+  ["TargetLevel"]= 58,
+  ["TargetName"]= "TargetName2004",
+  ["Type"]= 2
+},
+[21] = {
+  ["Id"]= 21,
+  ["IsScreen"]= 0,
+  ["MinLevel"]= 18,
+  ["TargetDes"]= "TargetDes2002",
+  ["TargetId"]= 2031,
+  ["TargetLevel"]= 58,
+  ["TargetName"]= "TargetName2004",
+  ["Type"]= 2
+},
+[22] = {
+  ["Id"]= 22,
+  ["IsScreen"]= 0,
+  ["MinLevel"]= 18,
+  ["TargetDes"]= "TargetDes2001",
+  ["TargetId"]= 2050,
+  ["TargetLevel"]= 68,
+  ["TargetName"]= "TargetName2005",
+  ["Type"]= 2
+},
+[23] = {
+  ["Id"]= 23,
+  ["IsScreen"]= 0,
+  ["MinLevel"]= 18,
+  ["TargetDes"]= "TargetDes2002",
+  ["TargetId"]= 2051,
+  ["TargetLevel"]= 68,
+  ["TargetName"]= "TargetName2005",
+  ["Type"]= 2
+},
+[24] = {
+  ["Id"]= 24,
+  ["IsScreen"]= 0,
+  ["MinLevel"]= 18,
+  ["TargetDes"]= "TargetDes2001",
+  ["TargetId"]= 2060,
+  ["TargetLevel"]= 78,
+  ["TargetName"]= "SceneName2060",
+  ["Type"]= 2
+},
+[25] = {
+  ["Id"]= 25,
+  ["IsScreen"]= 0,
+  ["MinLevel"]= 18,
+  ["TargetDes"]= "TargetDes2002",
+  ["TargetId"]= 2061,
+  ["TargetLevel"]= 78,
+  ["TargetName"]= "SceneName2060",
+  ["Type"]= 2
+},
+[26] = {
+  ["Id"]= 26,
+  ["TargetLevel"]= 1,
+  ["TargetLevel1"]= 1,
+  ["TargetLevel2"]= 4,
+  ["TargetName"]= "TargetName3001"
+},
+[27] = {
+  ["Id"]= 27,
+  ["TargetLevel"]= 2,
+  ["TargetLevel1"]= 1,
+  ["TargetLevel2"]= 5,
+  ["TargetName"]= "TargetName3002"
+},
+[28] = {
+  ["Id"]= 28,
+  ["TargetLevel"]= 3,
+  ["TargetLevel1"]= 1,
+  ["TargetLevel2"]= 6,
+  ["TargetName"]= "TargetName3003"
+},
+[29] = {
+  ["Id"]= 29,
+  ["TargetLevel"]= 4,
+  ["TargetLevel1"]= 1,
+  ["TargetLevel2"]= 7,
+  ["TargetName"]= "TargetName3004"
+},
+[30] = {
+  ["Id"]= 30,
+  ["TargetLevel"]= 5,
+  ["TargetLevel1"]= 2,
+  ["TargetLevel2"]= 8,
+  ["TargetName"]= "TargetName3005"
+},
+[31] = {
+  ["Id"]= 31,
+  ["TargetLevel"]= 6,
+  ["TargetLevel1"]= 3,
+  ["TargetLevel2"]= 9,
+  ["TargetName"]= "TargetName3006"
+},
+[32] = {
+  ["Id"]= 32,
+  ["TargetLevel"]= 7,
+  ["TargetLevel1"]= 4,
+  ["TargetLevel2"]= 10,
+  ["TargetName"]= "TargetName3007"
+},
+[33] = {
+  ["Id"]= 33,
+  ["TargetLevel"]= 8,
+  ["TargetLevel1"]= 5,
+  ["TargetLevel2"]= 11,
+  ["TargetName"]= "TargetName3008"
+},
+[34] = {
+  ["Id"]= 34,
+  ["TargetLevel"]= 9,
+  ["TargetLevel1"]= 6,
+  ["TargetLevel2"]= 12,
+  ["TargetName"]= "TargetName3009"
+},
+[35] = {
+  ["Id"]= 35,
+  ["TargetLevel"]= 10,
+  ["TargetLevel1"]= 7,
+  ["TargetLevel2"]= 13,
+  ["TargetName"]= "TargetName3010"
+},
+[36] = {
+  ["Id"]= 36,
+  ["TargetLevel"]= 11,
+  ["TargetLevel1"]= 8,
+  ["TargetLevel2"]= 14,
+  ["TargetName"]= "TargetName3011"
+},
+[37] = {
+  ["Id"]= 37,
+  ["TargetLevel"]= 12,
+  ["TargetLevel1"]= 9,
+  ["TargetLevel2"]= 15,
+  ["TargetName"]= "TargetName3012"
+},
+[38] = {
+  ["Id"]= 38,
+  ["TargetLevel"]= 13,
+  ["TargetLevel1"]= 10,
+  ["TargetLevel2"]= 16,
+  ["TargetName"]= "TargetName3013"
+},
+[39] = {
+  ["Id"]= 39,
+  ["TargetLevel"]= 14,
+  ["TargetLevel1"]= 11,
+  ["TargetLevel2"]= 17,
+  ["TargetName"]= "TargetName3014"
+},
+[40] = {
+  ["Id"]= 40,
+  ["TargetLevel"]= 15,
+  ["TargetLevel1"]= 12,
+  ["TargetLevel2"]= 18,
+  ["TargetName"]= "TargetName3015"
+},
+[41] = {
+  ["Id"]= 41,
+  ["TargetLevel"]= 16,
+  ["TargetLevel1"]= 13,
+  ["TargetLevel2"]= 19,
+  ["TargetName"]= "TargetName3016"
+},
+[42] = {
+  ["Id"]= 42,
+  ["TargetLevel"]= 17,
+  ["TargetLevel1"]= 14,
+  ["TargetLevel2"]= 20,
+  ["TargetName"]= "TargetName3017"
+},
+[43] = {
+  ["Id"]= 43,
+  ["TargetLevel"]= 18,
+  ["TargetLevel1"]= 15,
+  ["TargetLevel2"]= 21,
+  ["TargetName"]= "TargetName3018"
+},
+[44] = {
+  ["Id"]= 44,
+  ["TargetLevel"]= 19,
+  ["TargetLevel1"]= 16,
+  ["TargetLevel2"]= 22,
+  ["TargetName"]= "TargetName3019"
+},
+[45] = {
+  ["Id"]= 45,
+  ["TargetLevel"]= 20,
+  ["TargetLevel1"]= 17,
+  ["TargetLevel2"]= 23,
+  ["TargetName"]= "TargetName3020"
+},
+[46] = {
+  ["Id"]= 46,
+  ["TargetLevel"]= 21,
+  ["TargetLevel1"]= 18,
+  ["TargetLevel2"]= 24,
+  ["TargetName"]= "TargetName3021"
+},
+[47] = {
+  ["Id"]= 47,
+  ["TargetLevel"]= 22,
+  ["TargetLevel1"]= 19,
+  ["TargetLevel2"]= 25,
+  ["TargetName"]= "TargetName3022"
+},
+[48] = {
+  ["Id"]= 48,
+  ["TargetLevel"]= 23,
+  ["TargetLevel1"]= 20,
+  ["TargetLevel2"]= 26,
+  ["TargetName"]= "TargetName3023"
+},
+[49] = {
+  ["Id"]= 49,
+  ["TargetLevel"]= 24,
+  ["TargetLevel1"]= 21,
+  ["TargetLevel2"]= 27,
+  ["TargetName"]= "TargetName3024"
+},
+[50] = {
+  ["Id"]= 50,
+  ["TargetLevel"]= 25,
+  ["TargetLevel1"]= 22,
+  ["TargetLevel2"]= 28,
+  ["TargetName"]= "TargetName3025"
+},
+[51] = {
+  ["Id"]= 51,
+  ["TargetLevel"]= 26,
+  ["TargetLevel1"]= 23,
+  ["TargetLevel2"]= 29,
+  ["TargetName"]= "TargetName3026"
+},
+[52] = {
+  ["Id"]= 52,
+  ["TargetLevel"]= 27,
+  ["TargetLevel1"]= 24,
+  ["TargetLevel2"]= 30,
+  ["TargetName"]= "TargetName3027"
+},
+[53] = {
+  ["Id"]= 53,
+  ["TargetLevel"]= 28,
+  ["TargetLevel1"]= 25,
+  ["TargetLevel2"]= 31,
+  ["TargetName"]= "TargetName3028"
+},
+[54] = {
+  ["Id"]= 54,
+  ["TargetLevel"]= 29,
+  ["TargetLevel1"]= 26,
+  ["TargetLevel2"]= 32,
+  ["TargetName"]= "TargetName3029"
+},
+[55] = {
+  ["Id"]= 55,
+  ["TargetLevel"]= 30,
+  ["TargetLevel1"]= 27,
+  ["TargetLevel2"]= 33,
+  ["TargetName"]= "TargetName3030"
+},
+[56] = {
+  ["Id"]= 56,
+  ["TargetLevel"]= 31,
+  ["TargetLevel1"]= 28,
+  ["TargetLevel2"]= 34,
+  ["TargetName"]= "TargetName3031"
+},
+[57] = {
+  ["Id"]= 57,
+  ["TargetLevel"]= 31,
+  ["TargetLevel1"]= 28,
+  ["TargetLevel2"]= 34,
+  ["TargetName"]= "TargetName3032"
+},
+[58] = {
+  ["Id"]= 58,
+  ["TargetLevel"]= 32,
+  ["TargetLevel1"]= 29,
+  ["TargetLevel2"]= 35,
+  ["TargetName"]= "TargetName3033"
+},
+[59] = {
+  ["Id"]= 59,
+  ["TargetLevel"]= 32,
+  ["TargetLevel1"]= 29,
+  ["TargetLevel2"]= 35,
+  ["TargetName"]= "TargetName3034"
+},
+[60] = {
+  ["Id"]= 60,
+  ["TargetLevel"]= 33,
+  ["TargetLevel1"]= 30,
+  ["TargetLevel2"]= 36,
+  ["TargetName"]= "TargetName3035"
+},
+[61] = {
+  ["Id"]= 61,
+  ["TargetLevel"]= 33,
+  ["TargetLevel1"]= 30,
+  ["TargetLevel2"]= 36,
+  ["TargetName"]= "TargetName3036"
+},
+[62] = {
+  ["Id"]= 62,
+  ["TargetLevel"]= 34,
+  ["TargetLevel1"]= 31,
+  ["TargetLevel2"]= 37,
+  ["TargetName"]= "TargetName3037"
+},
+[63] = {
+  ["Id"]= 63,
+  ["TargetLevel"]= 34,
+  ["TargetLevel1"]= 31,
+  ["TargetLevel2"]= 37,
+  ["TargetName"]= "TargetName3038"
+},
+[64] = {
+  ["Id"]= 64,
+  ["TargetLevel"]= 35,
+  ["TargetLevel1"]= 32,
+  ["TargetLevel2"]= 38,
+  ["TargetName"]= "TargetName3039"
+},
+[65] = {
+  ["Id"]= 65,
+  ["TargetLevel"]= 35,
+  ["TargetLevel1"]= 32,
+  ["TargetLevel2"]= 38,
+  ["TargetName"]= "TargetName3040"
+},
+[66] = {
+  ["Id"]= 66,
+  ["TargetLevel"]= 36,
+  ["TargetLevel1"]= 33,
+  ["TargetLevel2"]= 39,
+  ["TargetName"]= "TargetName3041"
+},
+[67] = {
+  ["Id"]= 67,
+  ["TargetLevel"]= 36,
+  ["TargetLevel1"]= 33,
+  ["TargetLevel2"]= 39,
+  ["TargetName"]= "TargetName3042"
+},
+[68] = {
+  ["Id"]= 68,
+  ["TargetLevel"]= 37,
+  ["TargetLevel1"]= 34,
+  ["TargetLevel2"]= 40,
+  ["TargetName"]= "TargetName3043"
+},
+[69] = {
+  ["Id"]= 69,
+  ["TargetLevel"]= 37,
+  ["TargetLevel1"]= 34,
+  ["TargetLevel2"]= 40,
+  ["TargetName"]= "TargetName3044"
+},
+[70] = {
+  ["Id"]= 70,
+  ["TargetLevel"]= 38,
+  ["TargetLevel1"]= 35,
+  ["TargetLevel2"]= 41,
+  ["TargetName"]= "TargetName3045"
+},
+[71] = {
+  ["Id"]= 71,
+  ["TargetLevel"]= 38,
+  ["TargetLevel1"]= 35,
+  ["TargetLevel2"]= 41,
+  ["TargetName"]= "TargetName3046"
+},
+[72] = {
+  ["Id"]= 72,
+  ["TargetLevel"]= 39,
+  ["TargetLevel1"]= 36,
+  ["TargetLevel2"]= 42,
+  ["TargetName"]= "TargetName3047"
+},
+[73] = {
+  ["Id"]= 73,
+  ["TargetLevel"]= 39,
+  ["TargetLevel1"]= 36,
+  ["TargetLevel2"]= 42,
+  ["TargetName"]= "TargetName3048"
+},
+[74] = {
+  ["Id"]= 74,
+  ["TargetLevel"]= 40,
+  ["TargetLevel1"]= 37,
+  ["TargetLevel2"]= 43,
+  ["TargetName"]= "TargetName3049"
+},
+[75] = {
+  ["Id"]= 75,
+  ["TargetLevel"]= 40,
+  ["TargetLevel1"]= 37,
+  ["TargetLevel2"]= 43,
+  ["TargetName"]= "TargetName3050"
+},
+[76] = {
+  ["Id"]= 76,
+  ["TargetLevel"]= 41,
+  ["TargetLevel1"]= 38,
+  ["TargetLevel2"]= 44,
+  ["TargetName"]= "TargetName3051"
+},
+[77] = {
+  ["Id"]= 77,
+  ["TargetLevel"]= 41,
+  ["TargetLevel1"]= 38,
+  ["TargetLevel2"]= 44,
+  ["TargetName"]= "TargetName3052"
+},
+[78] = {
+  ["Id"]= 78,
+  ["TargetLevel"]= 42,
+  ["TargetLevel1"]= 39,
+  ["TargetLevel2"]= 45,
+  ["TargetName"]= "TargetName3053"
+},
+[79] = {
+  ["Id"]= 79,
+  ["TargetLevel"]= 42,
+  ["TargetLevel1"]= 39,
+  ["TargetLevel2"]= 45,
+  ["TargetName"]= "TargetName3054"
+},
+[80] = {
+  ["Id"]= 80,
+  ["TargetLevel"]= 43,
+  ["TargetLevel1"]= 40,
+  ["TargetLevel2"]= 46,
+  ["TargetName"]= "TargetName3055"
+},
+[81] = {
+  ["Id"]= 81,
+  ["TargetLevel"]= 43,
+  ["TargetLevel1"]= 40,
+  ["TargetLevel2"]= 46,
+  ["TargetName"]= "TargetName3056"
+},
+[82] = {
+  ["Id"]= 82,
+  ["TargetLevel"]= 44,
+  ["TargetLevel1"]= 41,
+  ["TargetLevel2"]= 47,
+  ["TargetName"]= "TargetName3057"
+},
+[83] = {
+  ["Id"]= 83,
+  ["TargetLevel"]= 44,
+  ["TargetLevel1"]= 41,
+  ["TargetLevel2"]= 47,
+  ["TargetName"]= "TargetName3058"
+},
+[84] = {
+  ["Id"]= 84,
+  ["TargetLevel"]= 45,
+  ["TargetLevel1"]= 42,
+  ["TargetLevel2"]= 48,
+  ["TargetName"]= "TargetName3059"
+},
+[85] = {
+  ["Id"]= 85,
+  ["TargetLevel"]= 45,
+  ["TargetLevel1"]= 42,
+  ["TargetLevel2"]= 48,
+  ["TargetName"]= "TargetName3060"
+},
+[86] = {
+  ["Id"]= 86,
+  ["TargetLevel"]= 46,
+  ["TargetLevel1"]= 43,
+  ["TargetLevel2"]= 49,
+  ["TargetName"]= "TargetName3061"
+},
+[87] = {
+  ["Id"]= 87,
+  ["TargetLevel"]= 46,
+  ["TargetLevel1"]= 43,
+  ["TargetLevel2"]= 49,
+  ["TargetName"]= "TargetName3062"
+},
+[88] = {
+  ["Id"]= 88,
+  ["TargetLevel"]= 47,
+  ["TargetLevel1"]= 44,
+  ["TargetLevel2"]= 50,
+  ["TargetName"]= "TargetName3063"
+},
+[89] = {
+  ["Id"]= 89,
+  ["TargetLevel"]= 47,
+  ["TargetLevel1"]= 44,
+  ["TargetLevel2"]= 50,
+  ["TargetName"]= "TargetName3064"
+},
+[90] = {
+  ["Id"]= 90,
+  ["TargetLevel"]= 48,
+  ["TargetLevel1"]= 45,
+  ["TargetLevel2"]= 51,
+  ["TargetName"]= "TargetName3065"
+},
+[91] = {
+  ["Id"]= 91,
+  ["TargetLevel"]= 48,
+  ["TargetLevel1"]= 45,
+  ["TargetLevel2"]= 51,
+  ["TargetName"]= "TargetName3066"
+},
+[92] = {
+  ["Id"]= 92,
+  ["TargetLevel"]= 49,
+  ["TargetLevel1"]= 46,
+  ["TargetLevel2"]= 52,
+  ["TargetName"]= "TargetName3067"
+},
+[93] = {
+  ["Id"]= 93,
+  ["TargetLevel"]= 49,
+  ["TargetLevel1"]= 46,
+  ["TargetLevel2"]= 52,
+  ["TargetName"]= "TargetName3068"
+},
+[94] = {
+  ["Id"]= 94,
+  ["TargetLevel1"]= 47,
+  ["TargetLevel2"]= 53,
+  ["TargetName"]= "TargetName3069"
+},
+[95] = {
+  ["Id"]= 95,
+  ["TargetLevel1"]= 47,
+  ["TargetLevel2"]= 53,
+  ["TargetName"]= "TargetName3070"
+},
+[96] = {
+  ["Id"]= 96,
+  ["TargetLevel"]= 51,
+  ["TargetLevel1"]= 48,
+  ["TargetLevel2"]= 54,
+  ["TargetName"]= "TargetName3071"
+},
+[97] = {
+  ["Id"]= 97,
+  ["TargetLevel"]= 51,
+  ["TargetLevel1"]= 48,
+  ["TargetLevel2"]= 54,
+  ["TargetName"]= "TargetName3072"
+},
+[98] = {
+  ["Id"]= 98,
+  ["TargetLevel"]= 52,
+  ["TargetLevel1"]= 49,
+  ["TargetLevel2"]= 55,
+  ["TargetName"]= "TargetName3073"
+},
+[99] = {
+  ["Id"]= 99,
+  ["TargetLevel"]= 52,
+  ["TargetLevel1"]= 49,
+  ["TargetLevel2"]= 55,
+  ["TargetName"]= "TargetName3074"
+},
+[100] = {
+  ["Id"]= 100,
+  ["TargetLevel"]= 53,
+  ["TargetLevel1"]= 50,
+  ["TargetLevel2"]= 56,
+  ["TargetName"]= "TargetName3075"
+},
+[101] = {
+  ["Id"]= 101,
+  ["TargetLevel"]= 53,
+  ["TargetLevel1"]= 50,
+  ["TargetLevel2"]= 56,
+  ["TargetName"]= "TargetName3076"
+},
+[102] = {
+  ["Id"]= 102,
+  ["TargetLevel"]= 54,
+  ["TargetLevel1"]= 51,
+  ["TargetLevel2"]= 57,
+  ["TargetName"]= "TargetName3077"
+},
+[103] = {
+  ["Id"]= 103,
+  ["TargetLevel"]= 54,
+  ["TargetLevel1"]= 51,
+  ["TargetLevel2"]= 57,
+  ["TargetName"]= "TargetName3078"
+},
+[104] = {
+  ["Id"]= 104,
+  ["TargetLevel"]= 55,
+  ["TargetLevel1"]= 52,
+  ["TargetLevel2"]= 58,
+  ["TargetName"]= "TargetName3079"
+},
+[105] = {
+  ["Id"]= 105,
+  ["TargetLevel"]= 55,
+  ["TargetLevel1"]= 52,
+  ["TargetLevel2"]= 58,
+  ["TargetName"]= "TargetName3080"
+},
+[106] = {
+  ["Id"]= 106,
+  ["TargetLevel"]= 56,
+  ["TargetLevel1"]= 53,
+  ["TargetLevel2"]= 59,
+  ["TargetName"]= "TargetName3081"
+},
+[107] = {
+  ["Id"]= 107,
+  ["TargetLevel"]= 56,
+  ["TargetLevel1"]= 53,
+  ["TargetLevel2"]= 59,
+  ["TargetName"]= "TargetName3082"
+},
+[108] = {
+  ["Id"]= 108,
+  ["TargetLevel"]= 57,
+  ["TargetLevel1"]= 54,
+  ["TargetLevel2"]= 60,
+  ["TargetName"]= "TargetName3083"
+},
+[109] = {
+  ["Id"]= 109,
+  ["TargetLevel"]= 57,
+  ["TargetLevel1"]= 54,
+  ["TargetLevel2"]= 60,
+  ["TargetName"]= "TargetName3084"
+},
+[110] = {
+  ["Id"]= 110,
+  ["TargetLevel"]= 58,
+  ["TargetLevel1"]= 55,
+  ["TargetLevel2"]= 61,
+  ["TargetName"]= "TargetName3085"
+},
+[111] = {
+  ["Id"]= 111,
+  ["TargetLevel"]= 58,
+  ["TargetLevel1"]= 55,
+  ["TargetLevel2"]= 61,
+  ["TargetName"]= "TargetName3086"
+},
+[112] = {
+  ["Id"]= 112,
+  ["TargetLevel"]= 59,
+  ["TargetLevel1"]= 56,
+  ["TargetLevel2"]= 62,
+  ["TargetName"]= "TargetName3087"
+},
+[113] = {
+  ["Id"]= 113,
+  ["TargetLevel"]= 59,
+  ["TargetLevel1"]= 56,
+  ["TargetLevel2"]= 62,
+  ["TargetName"]= "TargetName3088"
+},
+[114] = {
+  ["Id"]= 114,
+  ["TargetLevel"]= 60,
+  ["TargetLevel1"]= 57,
+  ["TargetLevel2"]= 63,
+  ["TargetName"]= "TargetName3089"
+},
+[115] = {
+  ["Id"]= 115,
+  ["TargetLevel"]= 60,
+  ["TargetLevel1"]= 57,
+  ["TargetLevel2"]= 63,
+  ["TargetName"]= "TargetName3090"
+},
+[116] = {
+  ["Id"]= 116,
+  ["TargetLevel"]= 61,
+  ["TargetLevel1"]= 58,
+  ["TargetLevel2"]= 64,
+  ["TargetName"]= "TargetName3091"
+},
+[117] = {
+  ["Id"]= 117,
+  ["TargetLevel"]= 61,
+  ["TargetLevel1"]= 58,
+  ["TargetLevel2"]= 64,
+  ["TargetName"]= "TargetName3092"
+},
+[118] = {
+  ["Id"]= 118,
+  ["TargetLevel"]= 62,
+  ["TargetLevel1"]= 59,
+  ["TargetLevel2"]= 65,
+  ["TargetName"]= "TargetName3093"
+},
+[119] = {
+  ["Id"]= 119,
+  ["TargetLevel"]= 62,
+  ["TargetLevel1"]= 59,
+  ["TargetLevel2"]= 65,
+  ["TargetName"]= "TargetName3094"
+},
+[120] = {
+  ["Id"]= 120,
+  ["TargetLevel"]= 63,
+  ["TargetLevel1"]= 60,
+  ["TargetLevel2"]= 66,
+  ["TargetName"]= "TargetName3095"
+},
+[121] = {
+  ["Id"]= 121,
+  ["TargetLevel"]= 63,
+  ["TargetLevel1"]= 60,
+  ["TargetLevel2"]= 66,
+  ["TargetName"]= "TargetName3096"
+},
+[122] = {
+  ["Id"]= 122,
+  ["TargetLevel"]= 64,
+  ["TargetLevel1"]= 61,
+  ["TargetLevel2"]= 67,
+  ["TargetName"]= "TargetName3097"
+},
+[123] = {
+  ["Id"]= 123,
+  ["TargetLevel"]= 64,
+  ["TargetLevel1"]= 61,
+  ["TargetLevel2"]= 67,
+  ["TargetName"]= "TargetName3098"
+},
+[124] = {
+  ["Id"]= 124,
+  ["TargetLevel"]= 65,
+  ["TargetLevel1"]= 62,
+  ["TargetLevel2"]= 68,
+  ["TargetName"]= "TargetName3099"
+},
+[125] = {
+  ["Id"]= 125,
+  ["TargetLevel"]= 65,
+  ["TargetLevel1"]= 62,
+  ["TargetLevel2"]= 68,
+  ["TargetName"]= "TargetName3100"
+},
+[126] = {
+  ["Id"]= 126,
+  ["TargetLevel"]= 66,
+  ["TargetLevel1"]= 63,
+  ["TargetLevel2"]= 69,
+  ["TargetName"]= "TargetName3101"
+},
+[127] = {
+  ["Id"]= 127,
+  ["TargetLevel"]= 66,
+  ["TargetLevel1"]= 63,
+  ["TargetLevel2"]= 69,
+  ["TargetName"]= "TargetName3102"
+},
+[128] = {
+  ["Id"]= 128,
+  ["TargetLevel"]= 67,
+  ["TargetLevel1"]= 64,
+  ["TargetLevel2"]= 70,
+  ["TargetName"]= "TargetName3103"
+},
+[129] = {
+  ["Id"]= 129,
+  ["TargetLevel"]= 67,
+  ["TargetLevel1"]= 64,
+  ["TargetLevel2"]= 70,
+  ["TargetName"]= "TargetName3104"
+},
+[130] = {
+  ["Id"]= 130,
+  ["TargetLevel"]= 68,
+  ["TargetLevel1"]= 65,
+  ["TargetLevel2"]= 71,
+  ["TargetName"]= "TargetName3105"
+},
+[131] = {
+  ["Id"]= 131,
+  ["TargetLevel"]= 68,
+  ["TargetLevel1"]= 65,
+  ["TargetLevel2"]= 71,
+  ["TargetName"]= "TargetName3106"
+},
+[132] = {
+  ["Id"]= 132,
+  ["TargetLevel"]= 69,
+  ["TargetLevel1"]= 66,
+  ["TargetLevel2"]= 72,
+  ["TargetName"]= "TargetName3107"
+},
+[133] = {
+  ["Id"]= 133,
+  ["TargetLevel"]= 69,
+  ["TargetLevel1"]= 66,
+  ["TargetLevel2"]= 72,
+  ["TargetName"]= "TargetName3108"
+},
+[134] = {
+  ["Id"]= 134,
+  ["TargetLevel"]= 70,
+  ["TargetLevel1"]= 67,
+  ["TargetLevel2"]= 73,
+  ["TargetName"]= "TargetName3109"
+},
+[135] = {
+  ["Id"]= 135,
+  ["TargetLevel"]= 70,
+  ["TargetLevel1"]= 67,
+  ["TargetLevel2"]= 73,
+  ["TargetName"]= "TargetName3110"
+},
+[136] = {
+  ["Id"]= 136,
+  ["TargetLevel"]= 71,
+  ["TargetLevel1"]= 68,
+  ["TargetLevel2"]= 74,
+  ["TargetName"]= "TargetName3111"
+},
+[137] = {
+  ["Id"]= 137,
+  ["TargetLevel"]= 71,
+  ["TargetLevel1"]= 68,
+  ["TargetLevel2"]= 74,
+  ["TargetName"]= "TargetName3112"
+},
+[138] = {
+  ["Id"]= 138,
+  ["TargetLevel"]= 72,
+  ["TargetLevel1"]= 69,
+  ["TargetLevel2"]= 75,
+  ["TargetName"]= "TargetName3113"
+},
+[139] = {
+  ["Id"]= 139,
+  ["TargetLevel"]= 72,
+  ["TargetLevel1"]= 69,
+  ["TargetLevel2"]= 75,
+  ["TargetName"]= "TargetName3114"
+},
+[140] = {
+  ["Id"]= 140,
+  ["TargetLevel"]= 73,
+  ["TargetLevel1"]= 70,
+  ["TargetLevel2"]= 76,
+  ["TargetName"]= "TargetName3115"
+},
+[141] = {
+  ["Id"]= 141,
+  ["TargetLevel"]= 73,
+  ["TargetLevel1"]= 70,
+  ["TargetLevel2"]= 76,
+  ["TargetName"]= "TargetName3116"
+},
+[142] = {
+  ["Id"]= 142,
+  ["TargetLevel"]= 74,
+  ["TargetLevel1"]= 71,
+  ["TargetLevel2"]= 77,
+  ["TargetName"]= "TargetName3117"
+},
+[143] = {
+  ["Id"]= 143,
+  ["TargetLevel"]= 74,
+  ["TargetLevel1"]= 71,
+  ["TargetLevel2"]= 77,
+  ["TargetName"]= "TargetName3118"
+},
+[144] = {
+  ["Id"]= 144,
+  ["TargetLevel"]= 75,
+  ["TargetLevel1"]= 72,
+  ["TargetLevel2"]= 78,
+  ["TargetName"]= "TargetName3119"
+},
+[145] = {
+  ["Id"]= 145,
+  ["TargetLevel"]= 75,
+  ["TargetLevel1"]= 72,
+  ["TargetLevel2"]= 78,
+  ["TargetName"]= "TargetName3120"
+},
+[146] = {
+  ["Id"]= 146,
+  ["TargetLevel"]= 76,
+  ["TargetLevel1"]= 73,
+  ["TargetLevel2"]= 79,
+  ["TargetName"]= "TargetName3121"
+},
+[147] = {
+  ["Id"]= 147,
+  ["TargetLevel"]= 76,
+  ["TargetLevel1"]= 73,
+  ["TargetLevel2"]= 79,
+  ["TargetName"]= "TargetName3122"
+},
+[148] = {
+  ["Id"]= 148,
+  ["TargetLevel"]= 77,
+  ["TargetLevel1"]= 74,
+  ["TargetLevel2"]= 80,
+  ["TargetName"]= "TargetName3123"
+},
+[149] = {
+  ["Id"]= 149,
+  ["TargetLevel"]= 77,
+  ["TargetLevel1"]= 74,
+  ["TargetLevel2"]= 80,
+  ["TargetName"]= "TargetName3124"
+},
+[150] = {
+  ["Id"]= 150,
+  ["TargetLevel"]= 78,
+  ["TargetLevel1"]= 75,
+  ["TargetLevel2"]= 81,
+  ["TargetName"]= "TargetName3125"
+},
+[151] = {
+  ["Id"]= 151,
+  ["TargetLevel"]= 78,
+  ["TargetLevel1"]= 75,
+  ["TargetLevel2"]= 81,
+  ["TargetName"]= "TargetName3126"
+},
+[152] = {
+  ["Id"]= 152,
+  ["TargetLevel"]= 79,
+  ["TargetLevel1"]= 76,
+  ["TargetLevel2"]= 82,
+  ["TargetName"]= "TargetName3127"
+},
+[153] = {
+  ["Id"]= 153,
+  ["TargetLevel"]= 79,
+  ["TargetLevel1"]= 76,
+  ["TargetLevel2"]= 82,
+  ["TargetName"]= "TargetName3128"
+},
+[154] = {
+  ["Id"]= 154,
+  ["TargetLevel"]= 80,
+  ["TargetLevel1"]= 77,
+  ["TargetLevel2"]= 83,
+  ["TargetName"]= "TargetName3129"
+},
+[155] = {
+  ["Id"]= 155,
+  ["TargetLevel"]= 80,
+  ["TargetLevel1"]= 77,
+  ["TargetLevel2"]= 83,
+  ["TargetName"]= "TargetName3130"
+},
+[156] = {
+  ["Id"]= 156,
+  ["TargetLevel"]= 81,
+  ["TargetLevel1"]= 78,
+  ["TargetLevel2"]= 84,
+  ["TargetName"]= "TargetName3131"
+},
+[158] = {
+  ["Id"]= 158,
+  ["TargetLevel"]= 82,
+  ["TargetLevel1"]= 79,
+  ["TargetLevel2"]= 85,
+  ["TargetName"]= "TargetName3132"
+},
+[160] = {
+  ["Id"]= 160,
+  ["TargetLevel"]= 83,
+  ["TargetLevel1"]= 80,
+  ["TargetLevel2"]= 86,
+  ["TargetName"]= "TargetName3133"
+},
+[161] = {
+  ["Id"]= 161,
+  ["TargetLevel"]= 84,
+  ["TargetLevel1"]= 81,
+  ["TargetLevel2"]= 87,
+  ["TargetName"]= "TargetName3134"
+},
+[163] = {
+  ["Id"]= 163,
+  ["TargetLevel"]= 85,
+  ["TargetLevel1"]= 82,
+  ["TargetLevel2"]= 88,
+  ["TargetName"]= "TargetName3135"
+},
+[164] = {
+  ["Id"]= 164,
+  ["TargetLevel"]= 85,
+  ["TargetLevel1"]= 82,
+  ["TargetLevel2"]= 88,
+  ["TargetName"]= "TargetName3136"
+},
+[165] = {
+  ["Id"]= 165,
+  ["TargetLevel"]= 40,
+  ["TargetLevel1"]= 30,
+  ["TargetLevel2"]= 50,
+  ["TargetName"]= "TargetName4001",
+  ["Type"]= 4
+},
+[166] = {
+  ["Id"]= 166,
+  ["TargetLevel"]= 40,
+  ["TargetLevel1"]= 30,
+  ["TargetLevel2"]= 50,
+  ["TargetName"]= "TargetName4002",
+  ["Type"]= 4
+},
+[167] = {
+  ["Id"]= 167,
+  ["TargetLevel1"]= 40,
+  ["TargetLevel2"]= 60,
+  ["TargetName"]= "TargetName4003",
+  ["Type"]= 4
+},
+[168] = {
+  ["Id"]= 168,
+  ["TargetLevel1"]= 40,
+  ["TargetLevel2"]= 60,
+  ["TargetName"]= "TargetName4004",
+  ["Type"]= 4
+},
+[169] = {
+  ["Id"]= 169,
+  ["TargetLevel1"]= 40,
+  ["TargetLevel2"]= 60,
+  ["TargetName"]= "TargetName4005",
+  ["Type"]= 4
+},
+[170] = {
+  ["Id"]= 170,
+  ["TargetLevel1"]= 40,
+  ["TargetLevel2"]= 60,
+  ["TargetName"]= "TargetName4006",
+  ["Type"]= 4
+},
+[171] = {
+  ["Id"]= 171,
+  ["TargetLevel"]= 60,
+  ["TargetLevel1"]= 50,
+  ["TargetLevel2"]= 70,
+  ["TargetName"]= "TargetName4007",
+  ["Type"]= 4
+},
+[172] = {
+  ["Id"]= 172,
+  ["TargetLevel"]= 60,
+  ["TargetLevel1"]= 50,
+  ["TargetLevel2"]= 70,
+  ["TargetName"]= "TargetName4008",
+  ["Type"]= 4
+},
+[173] = {
+  ["Id"]= 173,
+  ["TargetLevel"]= 60,
+  ["TargetLevel1"]= 50,
+  ["TargetLevel2"]= 70,
+  ["TargetName"]= "TargetName4009",
+  ["Type"]= 4
+},
+[174] = {
+  ["Id"]= 174,
+  ["TargetLevel"]= 60,
+  ["TargetLevel1"]= 50,
+  ["TargetLevel2"]= 70,
+  ["TargetName"]= "TargetName4010",
+  ["Type"]= 4
+},
+[175] = {
+  ["Id"]= 175,
+  ["TargetLevel"]= 70,
+  ["TargetLevel1"]= 60,
+  ["TargetLevel2"]= 80,
+  ["TargetName"]= "TargetName4011",
+  ["Type"]= 4
+},
+[176] = {
+  ["Id"]= 176,
+  ["TargetLevel"]= 70,
+  ["TargetLevel1"]= 60,
+  ["TargetLevel2"]= 80,
+  ["TargetName"]= "TargetName4012",
+  ["Type"]= 4
+},
+[177] = {
+  ["Id"]= 177,
+  ["IsScreen"]= 0,
+  ["TargetLevel"]= 1,
+  ["TargetName"]= "TargetName2007",
+  ["teamScale"]= 2,
+  ["Type"]= 1
+},
+[178] = {
+  ["Id"]= 178,
+  ["IsScreen"]= 0,
+  ["TargetLevel2"]= 60,
+  ["TargetName"]= "GVG_city_1001",
+  ["Type"]= 6
+},
+[179] = {
+  ["Id"]= 179,
+  ["IsScreen"]= 0,
+  ["TargetLevel2"]= 60,
+  ["TargetName"]= "GVG_city_1004",
+  ["Type"]= 6
+},
+[180] = {
+  ["Id"]= 180,
+  ["IsScreen"]= 0,
+  ["TargetLevel2"]= 60,
+  ["TargetName"]= "GVG_city_1007",
+  ["Type"]= 6
+},
+[181] = {
+  ["Id"]= 181,
+  ["IsScreen"]= 0,
+  ["TargetLevel2"]= 60,
+  ["TargetName"]= "GVG_city_1009",
+  ["Type"]= 6
+},
+[182] = {
+  ["Id"]= 182,
+  ["IsScreen"]= 0,
+  ["TargetLevel2"]= 60,
+  ["TargetName"]= "GVG_city_1013",
+  ["Type"]= 6
+},
+[185] = {
+  ["Id"]= 185,
+  ["TargetLevel"]= 86,
+  ["TargetLevel1"]= 83,
+  ["TargetLevel2"]= 89,
+  ["TargetName"]= "TargetName3137"
+},
+[188] = {
+  ["Id"]= 188,
+  ["TargetLevel"]= 88,
+  ["TargetLevel1"]= 85,
+  ["TargetLevel2"]= 91,
+  ["TargetName"]= "TargetName3138"
+},
+[189] = {
+  ["Id"]= 189,
+  ["TargetLevel"]= 88,
+  ["TargetLevel1"]= 85,
+  ["TargetLevel2"]= 91,
+  ["TargetName"]= "TargetName3139"
+}
+}
+local baseTable={
+  ["Id"]= 1,
+  ["IsPurgatory"]= 0,
+  ["IsScreen"]= 1,
+  ["MinLevel"]= 1,
+  ["showAll"]= 0,
+  ["TargetDes"]= "",
+  ["TargetId"]= 0,
+  ["TargetLevel"]= 50,
+  ["TargetLevel1"]= 0,
+  ["TargetLevel2"]= 0,
+  ["TargetName"]= "TargetName2001",
+  ["teamScale"]= 1,
+  ["Type"]= 3
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

@@ -1,0 +1,41 @@
+TextAsset Base
+	string m_Name = "data_SkillTitleInfo"
+	string m_Script = "
+d
+DaggerDagger d
+e
+SwordSword e
+f
+AxeAxe f
+g
+WandWand g
++h'
+BluntInstrument0BluntInstrument h
+i
+DaggerDagger i
+k
+Book0Book k
+(�#
+TwoHandedSwordTwoHandedSword �
+$�
+TwoHandedAxeTwoHandedAxe �
+(�#
+TwoHandedSpearTwoHandedSpear �
+(�#
+KnuckleDustersKnuckleDusters �
+�
+BowBow �
+�
+StaffStaff �
+0�+
+MusicalInstrumentsMusicalInstruments �
+�
+	Slingshot	Slingshot �
+�
+	Slingshot	Slingshot �
+�
+BoxingBoxing �
+"��
+
+DualDagger
+DualDagger ��"

@@ -1,0 +1,174 @@
+TextAsset Base
+	string m_Name = "data_Wedding_InteractiveItems"
+	string m_Script = "local table= {
+[30001] = {},
+[30002] = {
+  ["CoupleInteractiveItemsDropId"]= 100006,
+  ["GroupsInteractiveItemsDropId"]= 100006,
+  ["GuestsInteractiveItemsDropId"]= 100006,
+  ["InteractiveItemsType"]= 30002
+},
+[30003] = {
+  ["CoupleInteractiveItemsDropId"]= 100007,
+  ["GroupsInteractiveItemsDropId"]= 100007,
+  ["GuestsInteractiveItemsDropId"]= 100007,
+  ["InteractiveItemsType"]= 30003
+},
+[30004] = {
+  ["CoupleInteractiveItemsDropId"]= 100008,
+  ["GroupsInteractiveItemsDropId"]= 100008,
+  ["GuestsInteractiveItemsDropId"]= 100008,
+  ["InteractiveItemsType"]= 30004
+},
+[30005] = {
+  ["CoupleInteractiveItemsDropId"]= 100009,
+  ["GroupsInteractiveItemsDropId"]= 100009,
+  ["GuestsInteractiveItemsDropId"]= 100009,
+  ["InteractiveItemsID"]= 10903002,
+  ["InteractiveItemsType"]= 30005
+},
+[30006] = {
+  ["CoupleInteractiveItemsDropId"]= 100010,
+  ["GroupsInteractiveItemsDropId"]= 100010,
+  ["GuestsInteractiveItemsDropId"]= 100010,
+  ["InteractiveItemsID"]= 10903002,
+  ["InteractiveItemsType"]= 30006
+},
+[30007] = {
+  ["CoupleInteractiveItemsDropId"]= 100011,
+  ["GroupsInteractiveItemsDropId"]= 100011,
+  ["GuestsInteractiveItemsDropId"]= 100011,
+  ["InteractiveItemsID"]= 10903002,
+  ["InteractiveItemsType"]= 30007
+},
+[30008] = {
+  ["CoupleInteractiveItemsDropId"]= 100012,
+  ["GroupsInteractiveItemsDropId"]= 100012,
+  ["GuestsInteractiveItemsDropId"]= 100012,
+  ["InteractiveItemsID"]= 10903002,
+  ["InteractiveItemsType"]= 30008
+},
+[30009] = {
+  ["CoupleInteractiveItemsDropId"]= 100013,
+  ["GroupsInteractiveItemsDropId"]= 100013,
+  ["GuestsInteractiveItemsDropId"]= 100013,
+  ["InteractiveItemsID"]= 10903003,
+  ["InteractiveItemsType"]= 30009
+},
+[30010] = {
+  ["CoupleInteractiveItemsDropId"]= 100014,
+  ["GroupsInteractiveItemsDropId"]= 100014,
+  ["GuestsInteractiveItemsDropId"]= 100014,
+  ["InteractiveItemsID"]= 10903003,
+  ["InteractiveItemsType"]= 30010
+},
+[30011] = {
+  ["CoupleInteractiveItemsDropId"]= 100015,
+  ["GroupsInteractiveItemsDropId"]= 100015,
+  ["GuestsInteractiveItemsDropId"]= 100015,
+  ["InteractiveItemsID"]= 10903003,
+  ["InteractiveItemsType"]= 30011
+},
+[30012] = {
+  ["CoupleInteractiveItemsDropId"]= 100016,
+  ["GroupsInteractiveItemsDropId"]= 100016,
+  ["GuestsInteractiveItemsDropId"]= 100016,
+  ["InteractiveItemsID"]= 10903003,
+  ["InteractiveItemsType"]= 30012
+},
+[30013] = {
+  ["CoupleInteractiveItemsDropId"]= 100017,
+  ["GroupsInteractiveItemsDropId"]= 100017,
+  ["GuestsInteractiveItemsDropId"]= 100017,
+  ["InteractiveItemsID"]= 10903004,
+  ["InteractiveItemsType"]= 30013
+},
+[30014] = {
+  ["CoupleInteractiveItemsDropId"]= 100018,
+  ["GroupsInteractiveItemsDropId"]= 100018,
+  ["GuestsInteractiveItemsDropId"]= 100018,
+  ["InteractiveItemsID"]= 10903004,
+  ["InteractiveItemsType"]= 30014
+},
+[30015] = {
+  ["CoupleInteractiveItemsDropId"]= 100019,
+  ["GroupsInteractiveItemsDropId"]= 100019,
+  ["GuestsInteractiveItemsDropId"]= 100019,
+  ["InteractiveItemsID"]= 10903004,
+  ["InteractiveItemsType"]= 30015
+},
+[30016] = {
+  ["CoupleInteractiveItemsDropId"]= 100020,
+  ["GroupsInteractiveItemsDropId"]= 100020,
+  ["GuestsInteractiveItemsDropId"]= 100020,
+  ["InteractiveItemsID"]= 10903004,
+  ["InteractiveItemsType"]= 30016
+},
+[30017] = {
+  ["CoupleInteractiveItemsDropId"]= 100021,
+  ["GroupsInteractiveItemsDropId"]= 100021,
+  ["GuestsInteractiveItemsDropId"]= 100021,
+  ["InteractiveItemsID"]= 10903005,
+  ["InteractiveItemsType"]= 30017
+},
+[30018] = {
+  ["CoupleInteractiveItemsDropId"]= 100022,
+  ["GroupsInteractiveItemsDropId"]= 100022,
+  ["GuestsInteractiveItemsDropId"]= 100022,
+  ["InteractiveItemsID"]= 10903005,
+  ["InteractiveItemsType"]= 30018
+},
+[30019] = {
+  ["CoupleInteractiveItemsDropId"]= 100023,
+  ["GroupsInteractiveItemsDropId"]= 100023,
+  ["GuestsInteractiveItemsDropId"]= 100023,
+  ["InteractiveItemsID"]= 10903005,
+  ["InteractiveItemsType"]= 30019
+},
+[30020] = {
+  ["CoupleInteractiveItemsDropId"]= 100024,
+  ["GroupsInteractiveItemsDropId"]= 100024,
+  ["GuestsInteractiveItemsDropId"]= 100024,
+  ["InteractiveItemsID"]= 10903005,
+  ["InteractiveItemsType"]= 30020
+},
+[30021] = {
+  ["CoupleInteractiveItemsDropId"]= 100025,
+  ["GroupsInteractiveItemsDropId"]= 100025,
+  ["GuestsInteractiveItemsDropId"]= 100025,
+  ["InteractiveItemsID"]= 10903006,
+  ["InteractiveItemsType"]= 30021
+},
+[30022] = {
+  ["CoupleInteractiveItemsDropId"]= 100026,
+  ["GroupsInteractiveItemsDropId"]= 100026,
+  ["GuestsInteractiveItemsDropId"]= 100026,
+  ["InteractiveItemsID"]= 10903006,
+  ["InteractiveItemsType"]= 30022
+},
+[30023] = {
+  ["CoupleInteractiveItemsDropId"]= 100027,
+  ["GroupsInteractiveItemsDropId"]= 100027,
+  ["GuestsInteractiveItemsDropId"]= 100027,
+  ["InteractiveItemsID"]= 10903006,
+  ["InteractiveItemsType"]= 30023
+},
+[30024] = {
+  ["CoupleInteractiveItemsDropId"]= 100028,
+  ["GroupsInteractiveItemsDropId"]= 100028,
+  ["GuestsInteractiveItemsDropId"]= 100028,
+  ["InteractiveItemsID"]= 10903006,
+  ["InteractiveItemsType"]= 30024
+}
+}
+local baseTable={
+  ["CoupleInteractiveItemsDropId"]= 100005,
+  ["GroupsInteractiveItemsDropId"]= 100005,
+  ["GuestsInteractiveItemsDropId"]= 100005,
+  ["InteractiveItemsID"]= 10903001,
+  ["InteractiveItemsType"]= 30001
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

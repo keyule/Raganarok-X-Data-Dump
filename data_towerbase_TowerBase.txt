@@ -1,0 +1,325 @@
+TextAsset Base
+	string m_Name = "data_towerbase_TowerBase"
+	string m_Script = "return {
+	[1] = {
+		["LevelLimit"] = 40,
+		["Layer"] = 1
+	},
+	[2] = {
+		["LevelLimit"] = 40,
+		["Layer"] = 2
+	},
+	[3] = {
+		["LevelLimit"] = 40,
+		["Layer"] = 3
+	},
+	[4] = {
+		["LevelLimit"] = 40,
+		["Layer"] = 4
+	},
+	[5] = {
+		["LevelLimit"] = 40,
+		["Layer"] = 5
+	},
+	[6] = {
+		["LevelLimit"] = 40,
+		["Layer"] = 6
+	},
+	[7] = {
+		["LevelLimit"] = 40,
+		["Layer"] = 7
+	},
+	[8] = {
+		["LevelLimit"] = 40,
+		["Layer"] = 8
+	},
+	[9] = {
+		["LevelLimit"] = 40,
+		["Layer"] = 9
+	},
+	[10] = {
+		["LevelLimit"] = 40,
+		["Layer"] = 10
+	},
+	[11] = {
+		["LevelLimit"] = 40,
+		["Layer"] = 11
+	},
+	[12] = {
+		["LevelLimit"] = 40,
+		["Layer"] = 12
+	},
+	[13] = {
+		["LevelLimit"] = 40,
+		["Layer"] = 13
+	},
+	[14] = {
+		["LevelLimit"] = 40,
+		["Layer"] = 14
+	},
+	[15] = {
+		["LevelLimit"] = 40,
+		["Layer"] = 15
+	},
+	[16] = {
+		["LevelLimit"] = 40,
+		["Layer"] = 16
+	},
+	[17] = {
+		["LevelLimit"] = 40,
+		["Layer"] = 17
+	},
+	[18] = {
+		["LevelLimit"] = 40,
+		["Layer"] = 18
+	},
+	[19] = {
+		["LevelLimit"] = 40,
+		["Layer"] = 19
+	},
+	[20] = {
+		["LevelLimit"] = 40,
+		["Layer"] = 20
+	},
+	[21] = {
+		["LevelLimit"] = 45,
+		["Layer"] = 21
+	},
+	[22] = {
+		["LevelLimit"] = 45,
+		["Layer"] = 22
+	},
+	[23] = {
+		["LevelLimit"] = 45,
+		["Layer"] = 23
+	},
+	[24] = {
+		["LevelLimit"] = 45,
+		["Layer"] = 24
+	},
+	[25] = {
+		["LevelLimit"] = 45,
+		["Layer"] = 25
+	},
+	[26] = {
+		["LevelLimit"] = 45,
+		["Layer"] = 26
+	},
+	[27] = {
+		["LevelLimit"] = 45,
+		["Layer"] = 27
+	},
+	[28] = {
+		["LevelLimit"] = 45,
+		["Layer"] = 28
+	},
+	[29] = {
+		["LevelLimit"] = 45,
+		["Layer"] = 29
+	},
+	[30] = {
+		["LevelLimit"] = 45,
+		["Layer"] = 30
+	},
+	[31] = {
+		["LevelLimit"] = 45,
+		["Layer"] = 31
+	},
+	[32] = {
+		["LevelLimit"] = 45,
+		["Layer"] = 32
+	},
+	[33] = {
+		["LevelLimit"] = 45,
+		["Layer"] = 33
+	},
+	[34] = {
+		["LevelLimit"] = 45,
+		["Layer"] = 34
+	},
+	[35] = {
+		["LevelLimit"] = 45,
+		["Layer"] = 35
+	},
+	[36] = {
+		["LevelLimit"] = 45,
+		["Layer"] = 36
+	},
+	[37] = {
+		["LevelLimit"] = 45,
+		["Layer"] = 37
+	},
+	[38] = {
+		["LevelLimit"] = 45,
+		["Layer"] = 38
+	},
+	[39] = {
+		["LevelLimit"] = 45,
+		["Layer"] = 39
+	},
+	[40] = {
+		["LevelLimit"] = 45,
+		["Layer"] = 40
+	},
+	[41] = {
+		["LevelLimit"] = 50,
+		["Layer"] = 41
+	},
+	[42] = {
+		["LevelLimit"] = 50,
+		["Layer"] = 42
+	},
+	[43] = {
+		["LevelLimit"] = 50,
+		["Layer"] = 43
+	},
+	[44] = {
+		["LevelLimit"] = 50,
+		["Layer"] = 44
+	},
+	[45] = {
+		["LevelLimit"] = 50,
+		["Layer"] = 45
+	},
+	[46] = {
+		["LevelLimit"] = 50,
+		["Layer"] = 46
+	},
+	[47] = {
+		["LevelLimit"] = 50,
+		["Layer"] = 47
+	},
+	[48] = {
+		["LevelLimit"] = 50,
+		["Layer"] = 48
+	},
+	[49] = {
+		["LevelLimit"] = 50,
+		["Layer"] = 49
+	},
+	[50] = {
+		["LevelLimit"] = 50,
+		["Layer"] = 50
+	},
+	[51] = {
+		["LevelLimit"] = 50,
+		["Layer"] = 51
+	},
+	[52] = {
+		["LevelLimit"] = 50,
+		["Layer"] = 52
+	},
+	[53] = {
+		["LevelLimit"] = 50,
+		["Layer"] = 53
+	},
+	[54] = {
+		["LevelLimit"] = 50,
+		["Layer"] = 54
+	},
+	[55] = {
+		["LevelLimit"] = 50,
+		["Layer"] = 55
+	},
+	[56] = {
+		["LevelLimit"] = 50,
+		["Layer"] = 56
+	},
+	[57] = {
+		["LevelLimit"] = 50,
+		["Layer"] = 57
+	},
+	[58] = {
+		["LevelLimit"] = 50,
+		["Layer"] = 58
+	},
+	[59] = {
+		["LevelLimit"] = 50,
+		["Layer"] = 59
+	},
+	[60] = {
+		["LevelLimit"] = 50,
+		["Layer"] = 60
+	},
+	[61] = {
+		["LevelLimit"] = 60,
+		["Layer"] = 61
+	},
+	[62] = {
+		["LevelLimit"] = 60,
+		["Layer"] = 62
+	},
+	[63] = {
+		["LevelLimit"] = 60,
+		["Layer"] = 63
+	},
+	[64] = {
+		["LevelLimit"] = 60,
+		["Layer"] = 64
+	},
+	[65] = {
+		["LevelLimit"] = 60,
+		["Layer"] = 65
+	},
+	[66] = {
+		["LevelLimit"] = 60,
+		["Layer"] = 66
+	},
+	[67] = {
+		["LevelLimit"] = 60,
+		["Layer"] = 67
+	},
+	[68] = {
+		["LevelLimit"] = 60,
+		["Layer"] = 68
+	},
+	[69] = {
+		["LevelLimit"] = 60,
+		["Layer"] = 69
+	},
+	[70] = {
+		["LevelLimit"] = 60,
+		["Layer"] = 70
+	},
+	[71] = {
+		["LevelLimit"] = 60,
+		["Layer"] = 71
+	},
+	[72] = {
+		["LevelLimit"] = 60,
+		["Layer"] = 72
+	},
+	[73] = {
+		["LevelLimit"] = 60,
+		["Layer"] = 73
+	},
+	[74] = {
+		["LevelLimit"] = 60,
+		["Layer"] = 74
+	},
+	[75] = {
+		["LevelLimit"] = 60,
+		["Layer"] = 75
+	},
+	[76] = {
+		["LevelLimit"] = 60,
+		["Layer"] = 76
+	},
+	[77] = {
+		["LevelLimit"] = 60,
+		["Layer"] = 77
+	},
+	[78] = {
+		["LevelLimit"] = 60,
+		["Layer"] = 78
+	},
+	[79] = {
+		["LevelLimit"] = 60,
+		["Layer"] = 79
+	},
+	[80] = {
+		["LevelLimit"] = 60,
+		["Layer"] = 80
+	}
+}
+"

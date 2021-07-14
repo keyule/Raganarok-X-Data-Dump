@@ -1,0 +1,27 @@
+TextAsset Base
+	string m_Name = "data_pet_PetBaseAttr"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["AttrID"]= 2,
+  ["AttrRatio"]= 0.5,
+  ["AttrValue"]= 15,
+  ["Id"]= 2
+}
+}
+local baseTable={
+  ["AttrID"]= 1,
+  ["AttrRatio"]= 0.8,
+  ["AttrValue"]= 10,
+  ["EndowmentCeil"]= 40,
+  ["Id"]= 1,
+  ["InitialEndowment"]= {
+    10.5,
+    23
+  },
+  ["PetId"]= 100001
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

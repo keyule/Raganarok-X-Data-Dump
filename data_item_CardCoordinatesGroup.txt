@@ -1,0 +1,13 @@
+TextAsset Base
+	string m_Name = "data_item_CardCoordinatesGroup"
+	string m_Script = "return {
+[1] = {
+  ["coordinateId"]= {
+    1
+  },
+  ["IconRoute"]= "Attr_0",
+  ["name"]= "羁绊组测试1",
+  ["staticId"]= 1
+}
+}
+"

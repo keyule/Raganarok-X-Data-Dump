@@ -1,0 +1,1485 @@
+TextAsset Base
+	string m_Name = "data_Function"
+	string m_Script = "local table= {
+[10001] = {
+  ["name"]= "FunctionName_10001",
+  ["tab"]= 1,
+  ["tipsText"]= 100001,
+  ["view"]= "UI_AddCardMakeHoles"
+},
+[10002] = {
+  ["id"]= 10002,
+  ["name"]= "FunctionName_10002",
+  ["tab"]= 2,
+  ["tipsText"]= 100001,
+  ["view"]= "UI_AddCardMakeHoles"
+},
+[10005] = {
+  ["condition"]= 1012,
+  ["id"]= 10005,
+  ["name"]= "FunctionName_10005",
+  ["tab"]= 2,
+  ["tipsText"]= 100001,
+  ["view"]= "UI_EquipStrengthen"
+},
+[10007] = {
+  ["condition"]= 1030,
+  ["id"]= 10007,
+  ["name"]= "FunctionName_10007",
+  ["tab"]= 4,
+  ["view"]= "UI_EquipRefine"
+},
+[10008] = {
+  ["id"]= 10008,
+  ["name"]= "FunctionName_10008",
+  ["tab"]= 2,
+  ["tipsText"]= 100001,
+  ["view"]= "AppraisalRemoveSpecial"
+},
+[10009] = {
+  ["condition"]= 1025,
+  ["id"]= 10009,
+  ["name"]= "FunctionName_10009",
+  ["tipsText"]= 100001,
+  ["view"]= "UI_Chamber"
+},
+[10010] = {
+  ["condition"]= 4006,
+  ["id"]= 10010,
+  ["name"]= "FunctionName_10010",
+  ["view"]= "UI_Jobber"
+},
+[10011] = {
+  ["condition"]= 1040,
+  ["id"]= 10011,
+  ["name"]= "FunctionName_10011",
+  ["tab"]= 4,
+  ["view"]= "UI_Arena"
+},
+[10012] = {
+  ["id"]= 10012,
+  ["name"]= "FunctionName_10012",
+  ["tipsText"]= 100001,
+  ["view"]= "UI_MVPBoss"
+},
+[10013] = {
+  ["id"]= 10013,
+  ["name"]= "FunctionName_10013",
+  ["view"]= "UI_Mail"
+},
+[10015] = {
+  ["condition"]= 1022,
+  ["id"]= 10015,
+  ["name"]= "FunctionName_10015",
+  ["tipsText"]= 100001,
+  ["view"]= "UI_TaskBar"
+},
+[10019] = {
+  ["condition"]= 1025,
+  ["id"]= 10019,
+  ["name"]= "FunctionName_10019",
+  ["view"]= "UI_BusinessTask"
+},
+[10020] = {
+  ["arguments"]= {
+    201,
+    202,
+    203,
+    204,
+    206
+  },
+  ["id"]= 10020,
+  ["name"]= "FunctionName_10020",
+  ["tipsText"]= 10001,
+  ["view"]= "UI_Gashapon"
+},
+[10021] = {
+  ["id"]= 10021,
+  ["name"]= "FunctionName_10021",
+  ["tab"]= 1,
+  ["view"]= "UI_Instance"
+},
+[10022] = {
+  ["id"]= 10022,
+  ["name"]= "FunctionName_10022",
+  ["tab"]= 2,
+  ["view"]= "UI_Instance"
+},
+[10023] = {
+  ["id"]= 10023,
+  ["name"]= "FunctionName_10023",
+  ["tab"]= 4,
+  ["view"]= "UI_Instance"
+},
+[10024] = {
+  ["id"]= 10024,
+  ["name"]= "FunctionName_10024",
+  ["tab"]= 3,
+  ["view"]= "UI_Instance"
+},
+[10025] = {
+  ["id"]= 10025,
+  ["name"]= "FunctionName_10025",
+  ["tab"]= 5,
+  ["view"]= "UI_Instance"
+},
+[10026] = {
+  ["condition"]= 1035,
+  ["id"]= 10026,
+  ["name"]= "FunctionName_10026",
+  ["view"]= "UI_TowerProcess"
+},
+[10027] = {
+  ["condition"]= 1035,
+  ["id"]= 10027,
+  ["name"]= "FunctionName_10027",
+  ["view"]= "UI_TowerChooseLevel"
+},
+[10028] = {
+  ["condition"]= 1030,
+  ["id"]= 10028,
+  ["name"]= "FunctionName_10028",
+  ["view"]= "UI_EquipMake"
+},
+[10029] = {
+  ["id"]= 10029,
+  ["name"]= "FunctionName_10029",
+  ["view"]= "UI_EquipDecompose"
+},
+[10030] = {
+  ["id"]= 10030,
+  ["name"]= "FunctionName_10030",
+  ["type"]= 7
+},
+[10031] = {
+  ["id"]= 10031,
+  ["name"]= "FunctionName_10031",
+  ["view"]= "UI_TransmitScene"
+},
+[10032] = {
+  ["id"]= 10032,
+  ["name"]= "魔物日志",
+  ["view"]= "UI_MagicLog"
+},
+[10033] = {
+  ["id"]= 10033,
+  ["name"]= "人物传记",
+  ["view"]= "UI_Biography"
+},
+[10034] = {
+  ["condition"]= 1026,
+  ["id"]= 10034,
+  ["name"]= "FunctionName_10034",
+  ["view"]= "UI_EquipEnchant"
+},
+[10035] = {
+  ["id"]= 10035,
+  ["name"]= "FunctionName_10035",
+  ["view"]= "UI_HeadWear"
+},
+[10036] = {
+  ["condition"]= 1081,
+  ["id"]= 10036,
+  ["name"]= "FunctionName_10036",
+  ["tab"]= 1,
+  ["view"]= "UI_LeaseShop"
+},
+[10037] = {
+  ["condition"]= 1082,
+  ["id"]= 10037,
+  ["name"]= "FunctionName_10037",
+  ["tab"]= 2,
+  ["view"]= "UI_LeaseShop"
+},
+[10038] = {
+  ["id"]= 10038,
+  ["name"]= "FunctionName_10032",
+  ["view"]= "UI_Cooking"
+},
+[10039] = {
+  ["arguments"]= {
+    1
+  },
+  ["condition"]= 1010,
+  ["id"]= 10039,
+  ["name"]= "FunctionName_10039",
+  ["view"]= "UI_InstanceCrystal"
+},
+[10040] = {
+  ["arguments"]= {
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108
+  },
+  ["id"]= 10040,
+  ["name"]= "FunctionName_10040",
+  ["tipsText"]= 10001,
+  ["view"]= "UI_Gashapon"
+},
+[10041] = {
+  ["arguments"]= {
+    301,
+    302,
+    303,
+    304,
+    305
+  },
+  ["id"]= 10041,
+  ["name"]= "FunctionName_10041",
+  ["tipsText"]= 10001,
+  ["view"]= "UI_Gashapon"
+},
+[10042] = {
+  ["condition"]= 1086,
+  ["id"]= 10042,
+  ["name"]= "FunctionName_10042",
+  ["tab"]= 2,
+  ["view"]= "UI_LeaseShop"
+},
+[10043] = {
+  ["condition"]= 1040,
+  ["id"]= 10043,
+  ["name"]= "FunctionName_10043",
+  ["view"]= "UI_Kvm"
+},
+[10044] = {
+  ["id"]= 10044,
+  ["name"]= "FunctionName_10044",
+  ["tab"]= 1,
+  ["tipsText"]= 100001,
+  ["view"]= "UI_Warehouse"
+},
+[10045] = {
+  ["id"]= 10045,
+  ["name"]= "FunctionName_10045",
+  ["tab"]= 1,
+  ["tipsText"]= 100001,
+  ["view"]= "UI_EquipInherit_New"
+},
+[10046] = {
+  ["condition"]= 1040,
+  ["id"]= 10046,
+  ["name"]= "FunctionName_10046",
+  ["tab"]= 1,
+  ["tipsText"]= 100001,
+  ["view"]= "UI_GuildKvm"
+},
+[10047] = {
+  ["condition"]= 1016,
+  ["id"]= 10047,
+  ["name"]= "FunctionName_10047",
+  ["tab"]= 2,
+  ["tipsText"]= 100001,
+  ["view"]= "UI_EquipRepair"
+},
+[10048] = {
+  ["arguments"]= {
+    401
+  },
+  ["id"]= 10048,
+  ["name"]= "FunctionName_10048",
+  ["tipsText"]= 10001,
+  ["view"]= "UI_Gashapon"
+},
+[10049] = {
+  ["condition"]= 250003,
+  ["id"]= 10049,
+  ["name"]= "FunctionName_10049",
+  ["view"]= "UI_AncientSourse"
+},
+[10050] = {
+  ["condition"]= 250004,
+  ["id"]= 10050,
+  ["name"]= "FunctionName_10050",
+  ["view"]= "UI_AncientReward"
+},
+[10051] = {
+  ["condition"]= 500104,
+  ["id"]= 10051,
+  ["name"]= "FunctionName_10051",
+  ["view"]= "UI_JobberContract"
+},
+[10052] = {
+  ["arguments"]= {
+    2,
+    1
+  },
+  ["condition"]= 1040,
+  ["id"]= 10052,
+  ["name"]= "FunctionName_10052",
+  ["view"]= "UI_ResonateErji"
+},
+[10053] = {
+  ["arguments"]= {
+    2,
+    2
+  },
+  ["condition"]= 1040,
+  ["id"]= 10053,
+  ["name"]= "FunctionName_10053",
+  ["view"]= "UI_ResonateErji"
+},
+[10054] = {
+  ["arguments"]= {
+    2,
+    3
+  },
+  ["condition"]= 1040,
+  ["id"]= 10054,
+  ["name"]= "FunctionName_10054",
+  ["view"]= "UI_ResonateErji"
+},
+[10055] = {
+  ["condition"]= 1040,
+  ["id"]= 10055,
+  ["name"]= "FunctionName_10054",
+  ["view"]= "UI_Resonate"
+},
+[10056] = {
+  ["condition"]= 7002,
+  ["id"]= 10056,
+  ["name"]= "FunctionName_10056",
+  ["view"]= "UI_TestPaper"
+},
+[10057] = {
+  ["id"]= 10057,
+  ["name"]= "FunctionName_10056",
+  ["view"]= "UI_TestPaper"
+},
+[10058] = {
+  ["id"]= 10058,
+  ["name"]= "FunctionName_10058",
+  ["uiType"]= 6,
+  ["view"]= "UI_HandBook"
+},
+[10059] = {
+  ["clickCondition"]= {
+    11020
+  },
+  ["displayCondition"]= {
+    1035,
+    11020
+  },
+  ["id"]= 10059,
+  ["name"]= "FunctionName_10059",
+  ["sceneId"]= 5500,
+  ["targetAreaId"]= 0,
+  ["type"]= 2
+},
+[10060] = {
+  ["id"]= 10060,
+  ["name"]= "FunctionName_10060",
+  ["sceneId"]= 1010,
+  ["targetAreaId"]= 1010301,
+  ["type"]= 2
+},
+[10061] = {
+  ["condition"]= 1040,
+  ["id"]= 10061,
+  ["name"]= "FunctionName_10061",
+  ["view"]= "UI_EquipSmelt"
+},
+[10062] = {
+  ["id"]= 10062,
+  ["name"]= "FunctionName_10062",
+  ["sceneId"]= 1010,
+  ["targetAreaId"]= 0,
+  ["type"]= 2
+},
+[10064] = {
+  ["id"]= 10064,
+  ["name"]= "FunctionName_10064",
+  ["view"]= "UI_FreeArena"
+},
+[30021] = {
+  ["id"]= 30021,
+  ["name"]= "FunctionName_30021",
+  ["type"]= 6
+},
+[30022] = {
+  ["id"]= 30022,
+  ["name"]= "FunctionName_30022",
+  ["view"]= "UI_Lottery"
+},
+[30023] = {
+  ["id"]= 30023,
+  ["name"]= "FunctionName_30023",
+  ["view"]= "UI_FishRank"
+},
+[30024] = {
+  ["id"]= 30024,
+  ["luaFilePath"]= "BeginLanternAnswer",
+  ["name"]= "FunctionName_30024",
+  ["type"]= 1
+},
+[40001] = {
+  ["condition"]= 1040,
+  ["id"]= 40001,
+  ["luaFilePath"]= "0",
+  ["name"]= "转职体验Test",
+  ["type"]= 1
+},
+[50001] = {
+  ["condition"]= 2001,
+  ["id"]= 50001,
+  ["name"]= "FunctionName_50001",
+  ["view"]= "UI_CreateGuild"
+},
+[50002] = {
+  ["condition"]= 2005,
+  ["id"]= 50002,
+  ["name"]= "FunctionName_50002",
+  ["type"]= 9,
+  ["view"]= "UI_GuildUpgrade"
+},
+[50003] = {
+  ["condition"]= 2002,
+  ["id"]= 50003,
+  ["Method"]= 1,
+  ["name"]= "FunctionName_50003",
+  ["type"]= 8
+},
+[50004] = {
+  ["condition"]= 2004,
+  ["id"]= 50004,
+  ["Method"]= 2,
+  ["name"]= "FunctionName_50004",
+  ["type"]= 8
+},
+[50005] = {
+  ["condition"]= 2004,
+  ["id"]= 50005,
+  ["name"]= "FunctionName_50005",
+  ["type"]= 9,
+  ["view"]= "UI_GuildOrder"
+},
+[50007] = {
+  ["condition"]= 2004,
+  ["id"]= 50007,
+  ["name"]= "FunctionName_50007",
+  ["view"]= "UI_GuildPray"
+},
+[50008] = {
+  ["condition"]= 2003,
+  ["id"]= 50008,
+  ["Method"]= 1,
+  ["name"]= "FunctionName_50008",
+  ["type"]= 8
+},
+[50009] = {
+  ["condition"]= 2006,
+  ["id"]= 50009,
+  ["name"]= "FunctionName_50009",
+  ["type"]= 10
+},
+[50010] = {
+  ["condition"]= 2008,
+  ["id"]= 50010,
+  ["luaFilePath"]= "GuildPve",
+  ["name"]= "FunctionName_50010",
+  ["type"]= 1
+},
+[50011] = {
+  ["condition"]= 2009,
+  ["id"]= 50011,
+  ["luaFilePath"]= "GuildPve",
+  ["name"]= "FunctionName_50011",
+  ["type"]= 1
+},
+[50012] = {
+  ["condition"]= 2010,
+  ["id"]= 50012,
+  ["name"]= "FunctionName_50012",
+  ["type"]= 9,
+  ["view"]= "UI_GuildPveBegin"
+},
+[50013] = {
+  ["condition"]= 2011,
+  ["id"]= 50013,
+  ["luaFilePath"]= "GuildPve",
+  ["name"]= "FunctionName_50013",
+  ["type"]= 1
+},
+[50014] = {
+  ["condition"]= 2012,
+  ["id"]= 50014,
+  ["name"]= "FunctionName_50014",
+  ["sceneId"]= 6001,
+  ["type"]= 11
+},
+[50015] = {
+  ["id"]= 50015,
+  ["name"]= "FunctionName_50015",
+  ["view"]= "UI_GuildWarehouse"
+},
+[50016] = {
+  ["id"]= 50016,
+  ["name"]= "FunctionName_50016",
+  ["view"]= "UI_MaidTransmit"
+},
+[51001] = {
+  ["id"]= 51001,
+  ["luaFilePath"]= "ArenaEnter",
+  ["name"]= "FreePVP",
+  ["type"]= 1
+},
+[51002] = {
+  ["buttonbgname"]= "YellowNPCButton",
+  ["displayCondition"]= {
+    11002
+  },
+  ["id"]= 51002,
+  ["luaFilePath"]= "MVPArenaSignUpNormal",
+  ["name"]= "Hunterking_enroll",
+  ["type"]= 1
+},
+[51003] = {
+  ["buttonbgname"]= "YellowNPCButton",
+  ["displayCondition"]= {
+    11001
+  },
+  ["id"]= 51003,
+  ["name"]= "Hunterking_bribe",
+  ["view"]= "UI_ArenaBribery"
+},
+[51004] = {
+  ["buttonbgname"]= "YellowNPCButton",
+  ["displayCondition"]= {
+    11003
+  },
+  ["id"]= 51004,
+  ["sceneId"]= 4003,
+  ["type"]= 11
+},
+[51005] = {
+  ["buttonbgname"]= "YellowNPCButton",
+  ["displayCondition"]= {
+    11001
+  },
+  ["id"]= 51005,
+  ["luaFilePath"]= "MVPArenaSignUpNormal",
+  ["name"]= "Hunterking_enroll",
+  ["type"]= 1
+},
+[51006] = {
+  ["buttonbgname"]= "YellowNPCButton",
+  ["displayCondition"]= {
+    11004
+  },
+  ["id"]= 51006,
+  ["luaFilePath"]= "MVPArenaBribeSuccessEnterBattle",
+  ["type"]= 1
+},
+[51007] = {
+  ["buttonbgname"]= "YellowNPCButton",
+  ["displayCondition"]= {
+    11005
+  },
+  ["id"]= 51007,
+  ["luaFilePath"]= "MVPArenaBribeStateClear",
+  ["name"]= "Hunterking_goback",
+  ["type"]= 1
+},
+[51008] = {
+  ["buttonbgname"]= "YellowNPCButton",
+  ["displayCondition"]= {
+    11007
+  },
+  ["id"]= 51008,
+  ["sceneId"]= 4003,
+  ["type"]= 11
+},
+[51009] = {
+  ["buttonbgname"]= "YellowNPCButton",
+  ["displayCondition"]= {
+    11008
+  },
+  ["id"]= 51009,
+  ["name"]= "Hunterking_expain",
+  ["view"]= "UI_AceHunterRules"
+},
+[60007] = {
+  ["arguments"]= {
+    1
+  },
+  ["id"]= 60007,
+  ["name"]= "FunctionName_60007",
+  ["view"]= "UI_Hairdressing"
+},
+[60008] = {
+  ["arguments"]= {
+    2
+  },
+  ["id"]= 60008,
+  ["name"]= "FunctionName_60008",
+  ["view"]= "UI_Hairdressing"
+},
+[60009] = {
+  ["id"]= 60009,
+  ["name"]= "FunctionName_60009",
+  ["view"]= "UI_SellBag"
+},
+[60010] = {
+  ["condition"]= 1008,
+  ["id"]= 60010,
+  ["name"]= "FunctionName_60010",
+  ["view"]= "UI_MountAppearance"
+},
+[61001] = {
+  ["arguments"]= {
+    1
+  },
+  ["id"]= 61001,
+  ["name"]= "ShopName_1001",
+  ["view"]= "UI_ShopPanel"
+},
+[61002] = {
+  ["arguments"]= {
+    2
+  },
+  ["id"]= 61002,
+  ["name"]= "ShopName_1002",
+  ["view"]= "UI_ShopPanel"
+},
+[61003] = {
+  ["arguments"]= {
+    3
+  },
+  ["id"]= 61003,
+  ["name"]= "ShopName_1003",
+  ["view"]= "UI_ShopPanel"
+},
+[61004] = {
+  ["arguments"]= {
+    4
+  },
+  ["id"]= 61004,
+  ["name"]= "ShopName_1004",
+  ["view"]= "UI_ShopPanel"
+},
+[61006] = {
+  ["arguments"]= {
+    6
+  },
+  ["id"]= 61006,
+  ["name"]= "ShopName_1006",
+  ["view"]= "UI_ShopPanel"
+},
+[61007] = {
+  ["arguments"]= {
+    7
+  },
+  ["id"]= 61007,
+  ["name"]= "ShopName_1007",
+  ["view"]= "UI_ShopPanel"
+},
+[61008] = {
+  ["arguments"]= {
+    8
+  },
+  ["id"]= 61008,
+  ["name"]= "ShopName_1008",
+  ["view"]= "UI_ShopPanel"
+},
+[61010] = {
+  ["arguments"]= {
+    10
+  },
+  ["id"]= 61010,
+  ["name"]= "ShopName_1010",
+  ["view"]= "UI_ShopPanel"
+},
+[61011] = {
+  ["arguments"]= {
+    11
+  },
+  ["id"]= 61011,
+  ["name"]= "ShopName_1011",
+  ["view"]= "UI_ShopPanel"
+},
+[61014] = {
+  ["arguments"]= {
+    14
+  },
+  ["id"]= 61014,
+  ["name"]= "ShopName_1014",
+  ["view"]= "UI_ShopPanel"
+},
+[61015] = {
+  ["arguments"]= {
+    15
+  },
+  ["id"]= 61015,
+  ["name"]= "ShopName_1015",
+  ["view"]= "UI_ShopPanel"
+},
+[61016] = {
+  ["arguments"]= {
+    16
+  },
+  ["id"]= 61016,
+  ["name"]= "ShopName_1016",
+  ["view"]= "UI_ShopPanel"
+},
+[61017] = {
+  ["arguments"]= {
+    17
+  },
+  ["condition"]= 890001,
+  ["id"]= 61017,
+  ["name"]= "ShopName_1017",
+  ["view"]= "UI_ShopPanel"
+},
+[61018] = {
+  ["arguments"]= {
+    18
+  },
+  ["condition"]= 890002,
+  ["id"]= 61018,
+  ["name"]= "ShopName_1017",
+  ["view"]= "UI_ShopPanel"
+},
+[61026] = {
+  ["arguments"]= {
+    26
+  },
+  ["id"]= 61026,
+  ["name"]= "ShopName_1026",
+  ["view"]= "UI_ShopPanel"
+},
+[61027] = {
+  ["arguments"]= {
+    27
+  },
+  ["id"]= 61027,
+  ["name"]= "ShopName_1001",
+  ["view"]= "UI_ShopPanel"
+},
+[61028] = {
+  ["arguments"]= {
+    28
+  },
+  ["id"]= 61028,
+  ["name"]= "ShopName_1028",
+  ["view"]= "UI_ShopPanel"
+},
+[61029] = {
+  ["arguments"]= {
+    29
+  },
+  ["id"]= 61029,
+  ["name"]= "ShopName_1029",
+  ["view"]= "UI_ShopPanel"
+},
+[61030] = {
+  ["arguments"]= {
+    30
+  },
+  ["id"]= 61030,
+  ["name"]= "ShopName_1030",
+  ["view"]= "UI_ShopPanel"
+},
+[61031] = {
+  ["arguments"]= {
+    31
+  },
+  ["id"]= 61031,
+  ["name"]= "ShopName_1031",
+  ["view"]= "UI_ShopPanel"
+},
+[61032] = {
+  ["arguments"]= {
+    32
+  },
+  ["id"]= 61032,
+  ["name"]= "ShopName_1032",
+  ["view"]= "UI_ShopPanel"
+},
+[61033] = {
+  ["arguments"]= {
+    33
+  },
+  ["id"]= 61033,
+  ["name"]= "ShopName_1033",
+  ["view"]= "UI_ShopPanel"
+},
+[61034] = {
+  ["arguments"]= {
+    34
+  },
+  ["id"]= 61034,
+  ["name"]= "ShopName_1034",
+  ["view"]= "UI_ShopPanel"
+},
+[61035] = {
+  ["arguments"]= {
+    35
+  },
+  ["id"]= 61035,
+  ["name"]= "ShopName_1035",
+  ["view"]= "UI_ShopPanel"
+},
+[61036] = {
+  ["arguments"]= {
+    36
+  },
+  ["id"]= 61036,
+  ["name"]= "ShopName_1036",
+  ["view"]= "UI_ShopPanel"
+},
+[61037] = {
+  ["arguments"]= {
+    37
+  },
+  ["id"]= 61037,
+  ["name"]= "ShopName_1037",
+  ["view"]= "UI_ShopPanel"
+},
+[61038] = {
+  ["arguments"]= {
+    38
+  },
+  ["id"]= 61038,
+  ["name"]= "ShopName_1038",
+  ["view"]= "UI_ShopPanel"
+},
+[61039] = {
+  ["arguments"]= {
+    39
+  },
+  ["id"]= 61039,
+  ["name"]= "ShopName_1039",
+  ["view"]= "UI_ShopPanel"
+},
+[61040] = {
+  ["arguments"]= {
+    40
+  },
+  ["id"]= 61040,
+  ["name"]= "ShopName_1040",
+  ["view"]= "UI_ShopPanel"
+},
+[61041] = {
+  ["arguments"]= {
+    41
+  },
+  ["id"]= 61041,
+  ["name"]= "ShopName_1041",
+  ["view"]= "UI_ShopPanel"
+},
+[61042] = {
+  ["arguments"]= {
+    42
+  },
+  ["id"]= 61042,
+  ["name"]= "ShopName_1042",
+  ["view"]= "UI_ShopPanel"
+},
+[61043] = {
+  ["arguments"]= {
+    43
+  },
+  ["id"]= 61043,
+  ["name"]= "ShopName_1043",
+  ["view"]= "UI_ShopPanel"
+},
+[61044] = {
+  ["arguments"]= {
+    44
+  },
+  ["id"]= 61044,
+  ["name"]= "ShopName_1044",
+  ["view"]= "UI_ShopPanel"
+},
+[61045] = {
+  ["arguments"]= {
+    45
+  },
+  ["id"]= 61045,
+  ["name"]= "ShopName_1045",
+  ["view"]= "UI_ShopPanel"
+},
+[61046] = {
+  ["arguments"]= {
+    46
+  },
+  ["id"]= 61046,
+  ["name"]= "ShopName_1046",
+  ["view"]= "UI_ShopPanel"
+},
+[61047] = {
+  ["arguments"]= {
+    47
+  },
+  ["id"]= 61047,
+  ["name"]= "ShopName_1047",
+  ["view"]= "UI_ShopPanel"
+},
+[61048] = {
+  ["arguments"]= {
+    48
+  },
+  ["id"]= 61048,
+  ["name"]= "ShopName_1048",
+  ["view"]= "UI_ShopPanel"
+},
+[61049] = {
+  ["arguments"]= {
+    49
+  },
+  ["id"]= 61049,
+  ["name"]= "ShopName_1049",
+  ["view"]= "UI_ShopPanel"
+},
+[61050] = {
+  ["arguments"]= {
+    50
+  },
+  ["condition"]= 441301,
+  ["id"]= 61050,
+  ["name"]= "ShopName_1050",
+  ["view"]= "UI_ShopPanel"
+},
+[61051] = {
+  ["arguments"]= {
+    51
+  },
+  ["displayCondition"]= {
+    1025
+  },
+  ["id"]= 61051,
+  ["name"]= "ShopName_1051",
+  ["view"]= "UI_ShopPanel"
+},
+[61052] = {
+  ["arguments"]= {
+    52
+  },
+  ["displayCondition"]= {
+    1025
+  },
+  ["id"]= 61052,
+  ["name"]= "ShopName_2005",
+  ["view"]= "UI_ShopPanel"
+},
+[61053] = {
+  ["arguments"]= {
+    53
+  },
+  ["id"]= 61053,
+  ["name"]= "ShopName_1053",
+  ["view"]= "UI_ShopPanel"
+},
+[61054] = {
+  ["arguments"]= {
+    54
+  },
+  ["id"]= 61054,
+  ["name"]= "ShopName_1054",
+  ["view"]= "UI_ShopPanel"
+},
+[61055] = {
+  ["arguments"]= {
+    55
+  },
+  ["id"]= 61055,
+  ["name"]= "ShopName_1055",
+  ["view"]= "UI_ShopPanel"
+},
+[61056] = {
+  ["arguments"]= {
+    1
+  },
+  ["displayCondition"]= {
+    6200
+  },
+  ["id"]= 61056,
+  ["name"]= "ShopName_1056",
+  ["view"]= "UI_RaidShopPanel"
+},
+[61057] = {
+  ["displayCondition"]= {
+    6200
+  },
+  ["id"]= 61057,
+  ["name"]= "ShopName_1057",
+  ["view"]= "UI_RedeemEquip"
+},
+[62001] = {
+  ["arguments"]= {
+    1
+  },
+  ["id"]= 62001,
+  ["name"]= "ExchangeStoreName_1",
+  ["view"]= "UI_ItemExchange"
+},
+[62002] = {
+  ["arguments"]= {
+    2
+  },
+  ["clickCondition"]= {
+    11022
+  },
+  ["id"]= 62002,
+  ["name"]= "ExchangeStoreName_2",
+  ["view"]= "UI_HalloweenReward"
+},
+[62003] = {
+  ["arguments"]= {
+    3
+  },
+  ["displayCondition"]= {
+    1025
+  },
+  ["id"]= 62003,
+  ["name"]= "ExchangeStoreName_3",
+  ["view"]= "UI_ItemExchange"
+},
+[62004] = {
+  ["arguments"]= {
+    4
+  },
+  ["displayCondition"]= {
+    1030,
+    250006
+  },
+  ["id"]= 62004,
+  ["name"]= "ExchangeStoreName_4",
+  ["view"]= "UI_ItemExchange"
+},
+[62005] = {
+  ["arguments"]= {
+    5
+  },
+  ["displayCondition"]= {
+    1025
+  },
+  ["id"]= 62005,
+  ["name"]= "Sign66013",
+  ["view"]= "UI_ItemExchange"
+},
+[62006] = {
+  ["arguments"]= {
+    6
+  },
+  ["displayCondition"]= {
+    1017
+  },
+  ["id"]= 62006,
+  ["name"]= "ExchangeStoreName_6",
+  ["view"]= "UI_ItemExchange"
+},
+[62007] = {
+  ["arguments"]= {
+    7
+  },
+  ["displayCondition"]= {
+    6207
+  },
+  ["id"]= 62007,
+  ["name"]= "ExchangeStoreName_7",
+  ["view"]= "UI_ItemExchange"
+},
+[63001] = {
+  ["displayCondition"]= {
+    1207,
+    1206,
+    1040
+  },
+  ["id"]= 63001,
+  ["luaFilePath"]= "CoupleLinkRelation",
+  ["name"]= "WeddingFunctionName63001",
+  ["type"]= 1
+},
+[63002] = {
+  ["arguments"]= {
+    2
+  },
+  ["buttonbgname"]= "WhiteNPCButton",
+  ["displayCondition"]= {
+    1201,
+    1040,
+    1202
+  },
+  ["id"]= 63002,
+  ["luaFilePath"]= "CoupleBreakRelation",
+  ["name"]= "WeddingFunctionName63002",
+  ["type"]= 1
+},
+[63003] = {
+  ["arguments"]= {
+    110501101
+  },
+  ["buttonbgname"]= "GreenNPCButton",
+  ["displayCondition"]= {
+    1202,
+    1205,
+    1040
+  },
+  ["id"]= 63003,
+  ["luaFilePath"]= "CoupleReceiveTask",
+  ["name"]= "WeddingFunctionName63003",
+  ["type"]= 1
+},
+[63004] = {
+  ["arguments"]= {
+    1
+  },
+  ["buttonbgname"]= "WhiteNPCButton",
+  ["displayCondition"]= {
+    1202,
+    1206,
+    1040
+  },
+  ["id"]= 63004,
+  ["luaFilePath"]= "CoupleBreakRelation",
+  ["name"]= "WeddingFunctionName63004",
+  ["type"]= 1
+},
+[63005] = {
+  ["arguments"]= {
+    0
+  },
+  ["buttonbgname"]= "GreenNPCButton",
+  ["displayCondition"]= {
+    1203,
+    1206,
+    1040
+  },
+  ["id"]= 63005,
+  ["luaFilePath"]= "CoupleFindWitness",
+  ["name"]= "WeddingFunctionName63005",
+  ["type"]= 1
+},
+[63006] = {
+  ["displayCondition"]= {
+    1204,
+    1206,
+    1040
+  },
+  ["id"]= 63006,
+  ["luaFilePath"]= "CoupleGetMarried",
+  ["name"]= "WeddingFunctionName63006",
+  ["type"]= 1
+},
+[63007] = {
+  ["id"]= 63007,
+  ["name"]= "WeddingFunctionName63007",
+  ["view"]= "UI_WeddingSetting"
+},
+[63008] = {
+  ["id"]= 63008,
+  ["name"]= "WeddingFunctionName63008",
+  ["view"]= "UI_WeddingProcess"
+},
+[63009] = {
+  ["id"]= 63009,
+  ["name"]= "WeddingFunctionName63009",
+  ["view"]= "UI_WeddingRemind"
+},
+[63010] = {
+  ["arguments"]= {
+    0
+  },
+  ["id"]= 63010,
+  ["luaFilePath"]= "CoupleDivorce",
+  ["name"]= "WeddingFunctionName63010",
+  ["type"]= 1
+},
+[63011] = {
+  ["arguments"]= {
+    1
+  },
+  ["id"]= 63011,
+  ["luaFilePath"]= "CoupleDivorce",
+  ["name"]= "WeddingFunctionName63010",
+  ["type"]= 1
+},
+[64001] = {
+  ["arguments"]= {
+    110419101
+  },
+  ["id"]= 64001,
+  ["luaFilePath"]= "ReceiveFavorWeeklyTask",
+  ["name"]= "IntimacyTaskButton07",
+  ["type"]= 1
+},
+[64002] = {
+  ["arguments"]= {
+    110420101
+  },
+  ["id"]= 64002,
+  ["luaFilePath"]= "ReceiveFavorWeeklyTask",
+  ["name"]= "IntimacyTaskButton08",
+  ["type"]= 1
+},
+[64003] = {
+  ["arguments"]= {
+    110421101
+  },
+  ["id"]= 64003,
+  ["luaFilePath"]= "ReceiveFavorWeeklyTask",
+  ["name"]= "IntimacyTaskButton09",
+  ["type"]= 1
+},
+[64004] = {
+  ["arguments"]= {
+    110422101
+  },
+  ["id"]= 64004,
+  ["luaFilePath"]= "ReceiveFavorWeeklyTask",
+  ["name"]= "IntimacyTaskButton10",
+  ["type"]= 1
+},
+[64005] = {
+  ["arguments"]= {
+    110423101
+  },
+  ["id"]= 64005,
+  ["luaFilePath"]= "ReceiveFavorWeeklyTask",
+  ["name"]= "IntimacyTaskButton11",
+  ["type"]= 1
+},
+[64006] = {
+  ["arguments"]= {
+    110424101
+  },
+  ["id"]= 64006,
+  ["luaFilePath"]= "ReceiveFavorWeeklyTask",
+  ["name"]= "IntimacyTaskButton12",
+  ["type"]= 1
+},
+[64007] = {
+  ["arguments"]= {
+    110425101
+  },
+  ["id"]= 64007,
+  ["luaFilePath"]= "ReceiveFavorWeeklyTask",
+  ["name"]= "IntimacyTaskButton13",
+  ["type"]= 1
+},
+[64008] = {
+  ["arguments"]= {
+    110426101
+  },
+  ["id"]= 64008,
+  ["luaFilePath"]= "ReceiveFavorWeeklyTask",
+  ["name"]= "IntimacyTaskButton14",
+  ["type"]= 1
+},
+[64009] = {
+  ["arguments"]= {
+    110427101
+  },
+  ["id"]= 64009,
+  ["luaFilePath"]= "ReceiveFavorWeeklyTask",
+  ["name"]= "IntimacyTaskButton15",
+  ["type"]= 1
+},
+[64010] = {
+  ["arguments"]= {
+    110428101
+  },
+  ["id"]= 64010,
+  ["luaFilePath"]= "ReceiveFavorWeeklyTask",
+  ["name"]= "IntimacyTaskButton07",
+  ["type"]= 1
+},
+[64011] = {
+  ["arguments"]= {
+    110429101
+  },
+  ["id"]= 64011,
+  ["luaFilePath"]= "ReceiveFavorWeeklyTask",
+  ["name"]= "IntimacyTaskButton08",
+  ["type"]= 1
+},
+[64012] = {
+  ["arguments"]= {
+    110430101
+  },
+  ["id"]= 64012,
+  ["luaFilePath"]= "ReceiveFavorWeeklyTask",
+  ["name"]= "IntimacyTaskButton09",
+  ["type"]= 1
+},
+[64013] = {
+  ["arguments"]= {
+    110431101
+  },
+  ["id"]= 64013,
+  ["luaFilePath"]= "ReceiveFavorWeeklyTask",
+  ["name"]= "IntimacyTaskButton10",
+  ["type"]= 1
+},
+[64014] = {
+  ["arguments"]= {
+    110432101
+  },
+  ["id"]= 64014,
+  ["luaFilePath"]= "ReceiveFavorWeeklyTask",
+  ["name"]= "IntimacyTaskButton11",
+  ["type"]= 1
+},
+[64015] = {
+  ["arguments"]= {
+    110433101
+  },
+  ["id"]= 64015,
+  ["luaFilePath"]= "ReceiveFavorWeeklyTask",
+  ["name"]= "IntimacyTaskButton12",
+  ["type"]= 1
+},
+[64016] = {
+  ["arguments"]= {
+    110434101
+  },
+  ["id"]= 64016,
+  ["luaFilePath"]= "ReceiveFavorWeeklyTask",
+  ["name"]= "IntimacyTaskButton13",
+  ["type"]= 1
+},
+[64017] = {
+  ["arguments"]= {
+    110435101
+  },
+  ["id"]= 64017,
+  ["luaFilePath"]= "ReceiveFavorWeeklyTask",
+  ["name"]= "IntimacyTaskButton14",
+  ["type"]= 1
+},
+[64018] = {
+  ["arguments"]= {
+    110436101
+  },
+  ["id"]= 64018,
+  ["luaFilePath"]= "ReceiveFavorWeeklyTask",
+  ["name"]= "IntimacyTaskButton15",
+  ["type"]= 1
+},
+[64019] = {
+  ["arguments"]= {
+    110437101
+  },
+  ["id"]= 64019,
+  ["luaFilePath"]= "ReceiveFavorWeeklyTask",
+  ["name"]= "IntimacyTaskButton07",
+  ["type"]= 1
+},
+[64020] = {
+  ["arguments"]= {
+    110438101
+  },
+  ["id"]= 64020,
+  ["luaFilePath"]= "ReceiveFavorWeeklyTask",
+  ["name"]= "IntimacyTaskButton08",
+  ["type"]= 1
+},
+[64021] = {
+  ["arguments"]= {
+    110439101
+  },
+  ["id"]= 64021,
+  ["luaFilePath"]= "ReceiveFavorWeeklyTask",
+  ["name"]= "IntimacyTaskButton09",
+  ["type"]= 1
+},
+[64022] = {
+  ["arguments"]= {
+    110440101
+  },
+  ["id"]= 64022,
+  ["luaFilePath"]= "ReceiveFavorWeeklyTask",
+  ["name"]= "IntimacyTaskButton10",
+  ["type"]= 1
+},
+[64023] = {
+  ["arguments"]= {
+    110441101
+  },
+  ["id"]= 64023,
+  ["luaFilePath"]= "ReceiveFavorWeeklyTask",
+  ["name"]= "IntimacyTaskButton11",
+  ["type"]= 1
+},
+[64024] = {
+  ["arguments"]= {
+    110442101
+  },
+  ["id"]= 64024,
+  ["luaFilePath"]= "ReceiveFavorWeeklyTask",
+  ["name"]= "IntimacyTaskButton12",
+  ["type"]= 1
+},
+[64025] = {
+  ["arguments"]= {
+    110443101
+  },
+  ["id"]= 64025,
+  ["luaFilePath"]= "ReceiveFavorWeeklyTask",
+  ["name"]= "IntimacyTaskButton13",
+  ["type"]= 1
+},
+[64026] = {
+  ["arguments"]= {
+    110444101
+  },
+  ["id"]= 64026,
+  ["luaFilePath"]= "ReceiveFavorWeeklyTask",
+  ["name"]= "IntimacyTaskButton14",
+  ["type"]= 1
+},
+[64027] = {
+  ["arguments"]= {
+    110445101
+  },
+  ["id"]= 64027,
+  ["luaFilePath"]= "ReceiveFavorWeeklyTask",
+  ["name"]= "IntimacyTaskButton15",
+  ["type"]= 1
+},
+[65001] = {
+  ["arguments"]= {
+    1
+  },
+  ["displayCondition"]= {
+    1010
+  },
+  ["id"]= 65001,
+  ["name"]= "ShopName_1058",
+  ["view"]= "UI_MysteriousShop"
+},
+[65002] = {
+  ["arguments"]= {
+    2
+  },
+  ["displayCondition"]= {
+    1001,
+    210077
+  },
+  ["id"]= 65002,
+  ["name"]= "ShopName_1059",
+  ["view"]= "UI_MysteriousShop"
+}
+}
+local baseTable={
+  ["arguments"]= {},
+  ["buttonbgname"]= "",
+  ["clickCondition"]= {},
+  ["condition"]= 0,
+  ["displayCondition"]= {},
+  ["id"]= 10001,
+  ["name"]= "Hunterking_competition",
+  ["tab"]= 0,
+  ["tipsText"]= 0,
+  ["type"]= 4
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

@@ -1,0 +1,366 @@
+TextAsset Base
+	string m_Name = "data_equip_EquipmentType"
+	string m_Script = "local table= {
+[100] = {
+  ["attackInterval"]= 1,
+  ["characteristicDesc"]= "EquipType_100Desc",
+  ["sizeLarge"]= -0.25,
+  ["sizeMedium"]= -0.25,
+  ["skillNeedWeaponType"]= "SkillNeedWeaponType_100",
+  ["slotList"]= {
+    0
+  }
+},
+[101] = {
+  ["attackInterval"]= 1,
+  ["characteristicDesc"]= "EquipType_101Desc",
+  ["equipmentType"]= 101,
+  ["name"]= "equipmentType_101",
+  ["sizeLarge"]= -0.25,
+  ["sizeSmall"]= -0.25,
+  ["skillNeedWeaponType"]= "SkillNeedWeaponType_101",
+  ["slotList"]= {
+    0
+  }
+},
+[102] = {
+  ["attackInterval"]= 1,
+  ["characteristicDesc"]= "EquipType_102Desc",
+  ["equipmentType"]= 102,
+  ["name"]= "equipmentType_102",
+  ["sizeMedium"]= -0.25,
+  ["sizeSmall"]= -0.25,
+  ["skillNeedWeaponType"]= "SkillNeedWeaponType_102",
+  ["slotList"]= {
+    0
+  }
+},
+[103] = {
+  ["attackInterval"]= 1,
+  ["characteristicDesc"]= "EquipType_103Desc",
+  ["equipmentType"]= 103,
+  ["name"]= "equipmentType_103",
+  ["skillNeedWeaponType"]= "SkillNeedWeaponType_103",
+  ["slotList"]= {
+    0
+  }
+},
+[104] = {
+  ["attackInterval"]= 1,
+  ["characteristicDesc"]= "EquipType_104Desc",
+  ["equipmentType"]= 104,
+  ["name"]= "equipmentType_104",
+  ["sizeSmall"]= -0.25,
+  ["skillNeedWeaponType"]= "SkillNeedWeaponType_104",
+  ["slotList"]= {
+    0
+  }
+},
+[105] = {
+  ["characteristicDesc"]= "EquipType_105Desc",
+  ["equipmentType"]= 105,
+  ["name"]= "equipmentType_105",
+  ["sizeLarge"]= -0.25,
+  ["sizeMedium"]= -0.25,
+  ["skillNeedWeaponType"]= "SkillNeedWeaponType_105"
+},
+[106] = {
+  ["attackInterval"]= 1,
+  ["characteristicDesc"]= "EquipType_106Desc",
+  ["equipmentType"]= 106,
+  ["name"]= "equipmentType_106",
+  ["occupiedAllSlot"]= 1,
+  ["sizeLarge"]= -0.5,
+  ["sizeMedium"]= -0.25,
+  ["skillNeedWeaponType"]= "SkillNeedWeaponType_106"
+},
+[107] = {
+  ["attackInterval"]= 1,
+  ["characteristicDesc"]= "EquipType_107Desc",
+  ["equipmentType"]= 107,
+  ["name"]= "equipmentType_107",
+  ["occupiedAllSlot"]= 1,
+  ["skillNeedWeaponType"]= "SkillNeedWeaponType_107"
+},
+[201] = {
+  ["equipmentType"]= 201,
+  ["name"]= "equipmentType_201",
+  ["skillNeedWeaponType"]= "SkillNeedWeaponType_201",
+  ["slotList"]= {
+    1
+  }
+},
+[301] = {
+  ["attackInterval"]= 1,
+  ["characteristicDesc"]= "EquipType_301Desc",
+  ["equipmentType"]= 301,
+  ["name"]= "equipmentType_301",
+  ["occupiedAllSlot"]= 1,
+  ["sizeMedium"]= -0.25,
+  ["sizeSmall"]= -0.25,
+  ["skillNeedWeaponType"]= "SkillNeedWeaponType_301"
+},
+[302] = {
+  ["attackInterval"]= 1,
+  ["characteristicDesc"]= "EquipType_302Desc",
+  ["equipmentType"]= 302,
+  ["name"]= "equipmentType_302",
+  ["occupiedAllSlot"]= 1,
+  ["sizeMedium"]= -0.25,
+  ["sizeSmall"]= -0.25,
+  ["skillNeedWeaponType"]= "SkillNeedWeaponType_302"
+},
+[303] = {
+  ["attackInterval"]= 1,
+  ["characteristicDesc"]= "EquipType_303Desc",
+  ["equipmentType"]= 303,
+  ["name"]= "equipmentType_303",
+  ["occupiedAllSlot"]= 1,
+  ["sizeMedium"]= -0.25,
+  ["sizeSmall"]= -0.25,
+  ["skillNeedWeaponType"]= "SkillNeedWeaponType_303"
+},
+[304] = {
+  ["characteristicDesc"]= "EquipType_304Desc",
+  ["equipmentType"]= 304,
+  ["name"]= "equipmentType_304",
+  ["occupiedAllSlot"]= 1,
+  ["sizeLarge"]= -0.25,
+  ["sizeSmall"]= -0.25,
+  ["skillNeedWeaponType"]= "SkillNeedWeaponType_304"
+},
+[305] = {
+  ["attackInterval"]= 1,
+  ["characteristicDesc"]= "EquipType_305Desc",
+  ["equipmentType"]= 305,
+  ["name"]= "equipmentType_305",
+  ["occupiedAllSlot"]= 1,
+  ["sizeLarge"]= -0.25,
+  ["skillNeedWeaponType"]= "SkillNeedWeaponType_305"
+},
+[306] = {
+  ["attackInterval"]= 1,
+  ["characteristicDesc"]= "EquipType_306Desc",
+  ["equipmentType"]= 306,
+  ["name"]= "equipmentType_306",
+  ["occupiedAllSlot"]= 1,
+  ["skillNeedWeaponType"]= "SkillNeedWeaponType_306"
+},
+[307] = {
+  ["attackInterval"]= 1,
+  ["characteristicDesc"]= "EquipType_305Desc",
+  ["equipmentType"]= 307,
+  ["name"]= "equipmentType_307",
+  ["occupiedAllSlot"]= 1,
+  ["sizeLarge"]= -0.25,
+  ["skillNeedWeaponType"]= "SkillNeedWeaponType_307"
+},
+[308] = {
+  ["attackInterval"]= 1,
+  ["characteristicDesc"]= "EquipType_308Desc",
+  ["equipmentType"]= 308,
+  ["name"]= "equipmentType_308",
+  ["occupiedAllSlot"]= 1,
+  ["sizeLarge"]= -0.5,
+  ["sizeSmall"]= -0.25,
+  ["skillNeedWeaponType"]= "SkillNeedWeaponType_308"
+},
+[309] = {
+  ["characteristicDesc"]= "EquipType_307Desc",
+  ["equipmentType"]= 309,
+  ["name"]= "equipmentType_309",
+  ["occupiedAllSlot"]= 1,
+  ["sizeLarge"]= -0.25,
+  ["sizeSmall"]= -0.25,
+  ["skillNeedWeaponType"]= "SkillNeedWeaponType_309"
+},
+[310] = {
+  ["characteristicDesc"]= "EquipType_308Desc",
+  ["equipmentType"]= 310,
+  ["name"]= "equipmentType_310",
+  ["occupiedAllSlot"]= 1,
+  ["sizeLarge"]= -0.5,
+  ["sizeSmall"]= -0.25,
+  ["skillNeedWeaponType"]= "SkillNeedWeaponType_310"
+},
+[401] = {
+  ["enchantPropColor"]= "Img_ball_blue",
+  ["equipmentType"]= 401,
+  ["name"]= "equipmentType_401",
+  ["slotList"]= {
+    3
+  }
+},
+[402] = {
+  ["enchantPropColor"]= "Img_ball_blue",
+  ["equipmentType"]= 402,
+  ["name"]= "equipmentType_402",
+  ["slotList"]= {
+    2
+  }
+},
+[403] = {
+  ["enchantPropColor"]= "Img_ball_blue",
+  ["equipmentType"]= 403,
+  ["name"]= "equipmentType_403",
+  ["slotList"]= {
+    4
+  }
+},
+[501] = {
+  ["enchantPropColor"]= "Img_ball_green",
+  ["equipmentType"]= 501,
+  ["name"]= "equipmentType_501",
+  ["slotList"]= {
+    5,
+    6
+  }
+},
+[502] = {
+  ["enchantPropColor"]= "Img_ball_green",
+  ["equipmentType"]= 502,
+  ["name"]= "equipmentType_502",
+  ["slotList"]= {
+    5,
+    6
+  }
+},
+[503] = {
+  ["enchantPropColor"]= "Img_ball_green",
+  ["equipmentType"]= 503,
+  ["name"]= "equipmentType_503",
+  ["slotList"]= {
+    5,
+    6
+  }
+},
+[504] = {
+  ["enchantPropColor"]= "Img_ball_green",
+  ["equipmentType"]= 504,
+  ["name"]= "equipmentType_504",
+  ["slotList"]= {
+    5,
+    6
+  }
+},
+[505] = {
+  ["enchantPropColor"]= "Img_ball_green",
+  ["equipmentType"]= 505,
+  ["name"]= "equipmentType_505",
+  ["slotList"]= {
+    13
+  }
+},
+[506] = {
+  ["enchantPropColor"]= "Img_ball_green",
+  ["equipmentType"]= 506,
+  ["name"]= "equipmentType_506",
+  ["slotList"]= {
+    13
+  }
+},
+[601] = {
+  ["enchantPropColor"]= "",
+  ["equipmentType"]= 601,
+  ["name"]= "equipmentType_601",
+  ["slotList"]= {
+    7
+  }
+},
+[602] = {
+  ["enchantPropColor"]= "",
+  ["equipmentType"]= 602,
+  ["name"]= "equipmentType_602",
+  ["slotList"]= {
+    8
+  }
+},
+[603] = {
+  ["enchantPropColor"]= "",
+  ["equipmentType"]= 603,
+  ["name"]= "equipmentType_603",
+  ["slotList"]= {
+    9
+  }
+},
+[604] = {
+  ["enchantPropColor"]= "",
+  ["equipmentType"]= 604,
+  ["name"]= "equipmentType_604",
+  ["slotList"]= {
+    12
+  }
+},
+[605] = {
+  ["enchantPropColor"]= "",
+  ["equipmentType"]= 605,
+  ["name"]= "equipmentType_605",
+  ["slotList"]= {
+    10
+  }
+},
+[606] = {
+  ["enchantPropColor"]= "",
+  ["equipmentType"]= 606,
+  ["name"]= "equipmentType_606",
+  ["slotList"]= {
+    11
+  }
+},
+[997] = {
+  ["attackInterval"]= 1,
+  ["CanJobSkill"]= 0,
+  ["enchantPropColor"]= "",
+  ["equipmentType"]= 997,
+  ["name"]= "equipmentType_997"
+},
+[998] = {
+  ["attackInterval"]= 1,
+  ["CanJobSkill"]= 0,
+  ["enchantPropColor"]= "",
+  ["equipmentType"]= 998,
+  ["name"]= "equipmentType_998"
+},
+[999] = {
+  ["attackInterval"]= 1,
+  ["enchantPropColor"]= "",
+  ["equipmentType"]= 999,
+  ["name"]= "equipmentType_999",
+  ["sizeLarge"]= -0.5,
+  ["sizeMedium"]= -0.5,
+  ["sizeSmall"]= -0.5,
+  ["skillNeedWeaponType"]= "SkillNeedWeaponType_999",
+  ["slotList"]= {
+    0
+  }
+},
+[105105] = {
+  ["attackInterval"]= 1,
+  ["enchantPropColor"]= "",
+  ["equipmentType"]= 105105,
+  ["name"]= "equipmentType_105105",
+  ["occupiedAllSlot"]= 1,
+  ["skillNeedWeaponType"]= "SkillNeedWeaponType_105105"
+}
+}
+local baseTable={
+  ["attackInterval"]= 0,
+  ["CanJobSkill"]= 1,
+  ["characteristicDesc"]= "",
+  ["enchantPropColor"]= "Img_ball_red",
+  ["equipmentType"]= 100,
+  ["name"]= "equipmentType_100",
+  ["occupiedAllSlot"]= 0,
+  ["sizeLarge"]= 0,
+  ["sizeMedium"]= 0,
+  ["sizeSmall"]= 0,
+  ["skillNeedWeaponType"]= "",
+  ["slotList"]= {
+    0,
+    1
+  }
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

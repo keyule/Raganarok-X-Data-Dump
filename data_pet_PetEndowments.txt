@@ -1,0 +1,255 @@
+TextAsset Base
+	string m_Name = "data_pet_PetEndowments"
+	string m_Script = "return {
+[1] = {
+  ["HighQuality"]= 0,
+  ["Id"]= 1,
+  ["LowQuality"]= 0
+},
+[2] = {
+  ["HighQuality"]= 0,
+  ["Id"]= 2,
+  ["LowQuality"]= 0
+},
+[3] = {
+  ["HighQuality"]= 0,
+  ["Id"]= 3,
+  ["LowQuality"]= 0
+},
+[4] = {
+  ["HighQuality"]= 0,
+  ["Id"]= 4,
+  ["LowQuality"]= 0
+},
+[5] = {
+  ["HighQuality"]= 0,
+  ["Id"]= 5,
+  ["LowQuality"]= 0
+},
+[6] = {
+  ["HighQuality"]= 0,
+  ["Id"]= 6,
+  ["LowQuality"]= 0
+},
+[7] = {
+  ["HighQuality"]= 0,
+  ["Id"]= 7,
+  ["LowQuality"]= 0
+},
+[8] = {
+  ["HighQuality"]= 0,
+  ["Id"]= 8,
+  ["LowQuality"]= 0
+},
+[9] = {
+  ["HighQuality"]= 0,
+  ["Id"]= 9,
+  ["LowQuality"]= 0
+},
+[10] = {
+  ["HighQuality"]= 0,
+  ["Id"]= 10,
+  ["LowQuality"]= 0
+},
+[11] = {
+  ["HighQuality"]= 0,
+  ["Id"]= 11,
+  ["LowQuality"]= 0
+},
+[12] = {
+  ["HighQuality"]= 0,
+  ["Id"]= 12,
+  ["LowQuality"]= 0
+},
+[13] = {
+  ["HighQuality"]= 0,
+  ["Id"]= 13,
+  ["LowQuality"]= 0
+},
+[14] = {
+  ["HighQuality"]= 0,
+  ["Id"]= 14,
+  ["LowQuality"]= 0
+},
+[15] = {
+  ["HighQuality"]= 0,
+  ["Id"]= 15,
+  ["LowQuality"]= 0
+},
+[16] = {
+  ["HighQuality"]= 0,
+  ["Id"]= 16,
+  ["LowQuality"]= 0
+},
+[17] = {
+  ["HighQuality"]= 0,
+  ["Id"]= 17,
+  ["LowQuality"]= 0
+},
+[18] = {
+  ["HighQuality"]= 0,
+  ["Id"]= 18,
+  ["LowQuality"]= 0
+},
+[19] = {
+  ["HighQuality"]= 0,
+  ["Id"]= 19,
+  ["LowQuality"]= 0
+},
+[20] = {
+  ["HighQuality"]= 0,
+  ["Id"]= 20,
+  ["LowQuality"]= 31400
+},
+[21] = {
+  ["HighQuality"]= 0,
+  ["Id"]= 21,
+  ["LowQuality"]= 33400
+},
+[22] = {
+  ["HighQuality"]= 0,
+  ["Id"]= 22,
+  ["LowQuality"]= 36800
+},
+[23] = {
+  ["HighQuality"]= 0,
+  ["Id"]= 23,
+  ["LowQuality"]= 41800
+},
+[24] = {
+  ["HighQuality"]= 0,
+  ["Id"]= 24,
+  ["LowQuality"]= 48800
+},
+[25] = {
+  ["HighQuality"]= 0,
+  ["Id"]= 25,
+  ["LowQuality"]= 53800
+},
+[26] = {
+  ["HighQuality"]= 0,
+  ["Id"]= 26,
+  ["LowQuality"]= 57200
+},
+[27] = {
+  ["HighQuality"]= 0,
+  ["Id"]= 27,
+  ["LowQuality"]= 59200
+},
+[28] = {
+  ["HighQuality"]= 0,
+  ["Id"]= 28,
+  ["LowQuality"]= 60000
+},
+[29] = {
+  ["HighQuality"]= 0,
+  ["Id"]= 29,
+  ["LowQuality"]= 59200
+},
+[30] = {
+  ["HighQuality"]= 56600,
+  ["Id"]= 30,
+  ["LowQuality"]= 57400
+},
+[31] = {
+  ["HighQuality"]= 62600,
+  ["Id"]= 31,
+  ["LowQuality"]= 54400
+},
+[32] = {
+  ["HighQuality"]= 66600,
+  ["Id"]= 32,
+  ["LowQuality"]= 50000
+},
+[33] = {
+  ["HighQuality"]= 69000,
+  ["Id"]= 33,
+  ["LowQuality"]= 44000
+},
+[34] = {
+  ["HighQuality"]= 70000,
+  ["Id"]= 34,
+  ["LowQuality"]= 36000
+},
+[35] = {
+  ["HighQuality"]= 68200,
+  ["Id"]= 35,
+  ["LowQuality"]= 29400
+},
+[36] = {
+  ["HighQuality"]= 65200,
+  ["Id"]= 36,
+  ["LowQuality"]= 24000
+},
+[37] = {
+  ["HighQuality"]= 60600,
+  ["Id"]= 37,
+  ["LowQuality"]= 19600
+},
+[38] = {
+  ["HighQuality"]= 54000,
+  ["Id"]= 38,
+  ["LowQuality"]= 16200
+},
+[39] = {
+  ["HighQuality"]= 45000,
+  ["Id"]= 39,
+  ["LowQuality"]= 13600
+},
+[40] = {
+  ["HighQuality"]= 33200,
+  ["Id"]= 40,
+  ["LowQuality"]= 11600
+},
+[41] = {
+  ["HighQuality"]= 24200,
+  ["Id"]= 41,
+  ["LowQuality"]= 10000
+},
+[42] = {
+  ["HighQuality"]= 17600,
+  ["Id"]= 42,
+  ["LowQuality"]= 8800
+},
+[43] = {
+  ["HighQuality"]= 13000,
+  ["Id"]= 43,
+  ["LowQuality"]= 7800
+},
+[44] = {
+  ["HighQuality"]= 10000,
+  ["Id"]= 44,
+  ["LowQuality"]= 6800
+},
+[45] = {
+  ["HighQuality"]= 8200,
+  ["Id"]= 45,
+  ["LowQuality"]= 6000
+},
+[46] = {
+  ["HighQuality"]= 7200,
+  ["Id"]= 46,
+  ["LowQuality"]= 5200
+},
+[47] = {
+  ["HighQuality"]= 6200,
+  ["Id"]= 47,
+  ["LowQuality"]= 4600
+},
+[48] = {
+  ["HighQuality"]= 5600,
+  ["Id"]= 48,
+  ["LowQuality"]= 4000
+},
+[49] = {
+  ["HighQuality"]= 5000,
+  ["Id"]= 49,
+  ["LowQuality"]= 3600
+},
+[50] = {
+  ["HighQuality"]= 4600,
+  ["Id"]= 50,
+  ["LowQuality"]= 3200
+}
+}
+"

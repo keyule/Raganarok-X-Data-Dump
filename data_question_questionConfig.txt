@@ -1,0 +1,27 @@
+TextAsset Base
+	string m_Name = "data_question_questionConfig"
+	string m_Script = "local table= {
+[1] = {}
+}
+local baseTable={
+  ["activityId"]= 100004,
+  ["DeadEmotionID"]= "20,5,15",
+  ["DeadEmotionRate"]= "30,70",
+  ["Id"]= 1,
+  ["OXBeginCD"]= 120,
+  ["OXEmotionCD"]= "1000,3000",
+  ["OXEmotionID"]= "26,27",
+  ["OXEmotionRate"]= "50,50",
+  ["OXEmotionTime"]= "1000,1500",
+  ["questionAmount"]= 12,
+  ["respondRate"]= "10,30,40,20,0",
+  ["sceneId"]= 3010,
+  ["timeToLockAnswerArea"]= 5,
+  ["timeToLockOpenArea"]= 7,
+  ["timeToRevealAnswer"]= 4,
+  ["timeToStartNotice"]= "90,60,30"
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

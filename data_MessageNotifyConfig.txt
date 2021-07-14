@@ -1,0 +1,66 @@
+TextAsset Base
+	string m_Name = "data_MessageNotifyConfig"
+	string m_Script = "local table= {
+[1] = {
+  ["isPush"]= 1,
+  ["templateId"]= 6868559925258257878
+},
+[2] = {
+  ["id"]= 2,
+  ["isPush"]= 1,
+  ["templateId"]= 6868559925258257878
+},
+[3] = {
+  ["id"]= 3,
+  ["isPush"]= 1,
+  ["templateId"]= 6868559925258257878
+},
+[4] = {
+  ["id"]= 4,
+  ["isPush"]= 1,
+  ["templateId"]= 6868559925258257878
+},
+[5] = {
+  ["id"]= 5
+},
+[6] = {
+  ["id"]= 6
+},
+[7] = {
+  ["id"]= 7,
+  ["isPush"]= 1,
+  ["templateId"]= 6868559925258257878
+},
+[8] = {
+  ["id"]= 8,
+  ["isPush"]= 1,
+  ["templateId"]= 6868559925258257878
+},
+[9] = {
+  ["id"]= 9
+},
+[10] = {
+  ["id"]= 10
+},
+[11] = {
+  ["id"]= 11
+},
+[12] = {
+  ["id"]= 12
+},
+[13] = {
+  ["id"]= 13
+},
+[14] = {
+  ["id"]= 14
+}
+}
+local baseTable={
+  ["id"]= 1,
+  ["isPush"]= 0,
+  ["templateId"]= 0
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

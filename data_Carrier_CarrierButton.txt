@@ -1,0 +1,246 @@
+TextAsset Base
+	string m_Name = "data_Carrier_CarrierButton"
+	string m_Script = "return {
+[2] = {
+  ["buttonList"]= {
+    {
+      ["buttonId"]= 1,
+      ["buttonPic"]= "Btn_up",
+      ["buttonText"]= "ui_Main_030"
+    },
+    {
+      ["buttonId"]= 2,
+      ["buttonPic"]= "Btn_train",
+      ["buttonText"]= "ui_Main_027"
+    },
+    {
+      ["buttonId"]= 3,
+      ["buttonPic"]= "Btn_Camera",
+      ["buttonText"]= "ui_Main_026"
+    },
+    {
+      ["buttonId"]= 4,
+      ["buttonPic"]= "Btn_down",
+      ["buttonText"]= "ui_Main_031"
+    }
+  },
+  ["carrierButton"]= {
+    2,
+    3,
+    4
+  },
+  ["enterButton"]= 1,
+  ["id"]= 2
+},
+[3] = {
+  ["buttonList"]= {
+    {
+      ["buttonId"]= 1,
+      ["buttonPic"]= "Btn_up",
+      ["buttonText"]= "ui_Main_030"
+    },
+    {
+      ["buttonId"]= 2,
+      ["buttonPic"]= "Btn_train",
+      ["buttonText"]= "ui_Main_027"
+    },
+    {
+      ["buttonId"]= 3,
+      ["buttonPic"]= "Btn_Camera",
+      ["buttonText"]= "ui_Main_026"
+    },
+    {
+      ["buttonId"]= 4,
+      ["buttonPic"]= "Btn_down",
+      ["buttonText"]= "ui_Main_031"
+    }
+  },
+  ["carrierButton"]= {
+    2,
+    3,
+    4
+  },
+  ["enterButton"]= 1,
+  ["id"]= 3
+},
+[4] = {
+  ["buttonList"]= {
+    {
+      ["buttonId"]= 1,
+      ["buttonPic"]= "Btn_up",
+      ["buttonText"]= "ui_Main_030"
+    },
+    {
+      ["buttonId"]= 2,
+      ["buttonPic"]= "Btn_train",
+      ["buttonText"]= "ui_Main_027"
+    },
+    {
+      ["buttonId"]= 3,
+      ["buttonPic"]= "Btn_Camera",
+      ["buttonText"]= "ui_Main_026"
+    },
+    {
+      ["buttonId"]= 4,
+      ["buttonPic"]= "Btn_down",
+      ["buttonText"]= "ui_Main_031"
+    },
+    {
+      ["buttonId"]= 5,
+      ["buttonPic"]= "Btn_speedup",
+      ["buttonText"]= "ui_Main_025"
+    }
+  },
+  ["carrierButton"]= {
+    2,
+    3,
+    4,
+    5
+  },
+  ["enterButton"]= 1,
+  ["id"]= 4
+},
+[5] = {
+  ["buttonList"]= {
+    {
+      ["buttonId"]= 1,
+      ["buttonPic"]= "Btn_PackingS",
+      ["buttonText"]= "ui_Main_024"
+    }
+  },
+  ["carrierButton"]= {},
+  ["enterButton"]= 1,
+  ["id"]= 5
+},
+[6] = {
+  ["buttonList"]= {
+    {
+      ["buttonId"]= 1,
+      ["buttonPic"]= "Btn_Bd",
+      ["buttonText"]= "ui_Main_024"
+    }
+  },
+  ["carrierButton"]= {},
+  ["enterButton"]= 1,
+  ["id"]= 6
+},
+[7] = {
+  ["buttonList"]= {
+    {
+      ["buttonId"]= 1,
+      ["buttonPic"]= "Btn_up",
+      ["buttonText"]= "ui_Main_030"
+    },
+    {
+      ["buttonId"]= 3,
+      ["buttonPic"]= "Btn_down",
+      ["buttonText"]= ""
+    },
+    {
+      ["buttonId"]= 5,
+      ["buttonPic"]= "Btn_horse",
+      ["buttonText"]= "ui_Main_032"
+    }
+  },
+  ["carrierButton"]= {
+    3,
+    5
+  },
+  ["enterButton"]= 1,
+  ["id"]= 7
+},
+[8] = {
+  ["buttonList"]= {
+    {
+      ["buttonId"]= 1,
+      ["buttonPic"]= "Btn_up",
+      ["buttonText"]= "ui_Main_030"
+    },
+    {
+      ["buttonId"]= 2,
+      ["buttonPic"]= "Btn_train",
+      ["buttonText"]= "ui_Main_027"
+    },
+    {
+      ["buttonId"]= 3,
+      ["buttonPic"]= "Btn_Camera",
+      ["buttonText"]= "ui_Main_026"
+    },
+    {
+      ["buttonId"]= 4,
+      ["buttonPic"]= "Btn_down",
+      ["buttonText"]= "ui_Main_031"
+    },
+    {
+      ["buttonId"]= 5,
+      ["buttonPic"]= "Btn_speedup",
+      ["buttonText"]= "ui_Main_025"
+    }
+  },
+  ["carrierButton"]= {
+    2,
+    3,
+    4,
+    5
+  },
+  ["enterButton"]= 1,
+  ["id"]= 8
+},
+[9] = {
+  ["buttonList"]= {
+    {
+      ["buttonId"]= 1,
+      ["buttonPic"]= "Btn_up",
+      ["buttonText"]= "ui_Main_030"
+    },
+    {
+      ["buttonId"]= 2,
+      ["buttonPic"]= "Btn_train",
+      ["buttonText"]= "ui_Main_027"
+    },
+    {
+      ["buttonId"]= 3,
+      ["buttonPic"]= "Btn_Camera",
+      ["buttonText"]= "ui_Main_026"
+    },
+    {
+      ["buttonId"]= 4,
+      ["buttonPic"]= "Btn_down",
+      ["buttonText"]= "ui_Main_031"
+    }
+  },
+  ["carrierButton"]= {
+    2,
+    3,
+    4,
+    5
+  },
+  ["enterButton"]= 1,
+  ["id"]= 9
+},
+[10] = {
+  ["buttonList"]= {
+    {
+      ["buttonId"]= 1,
+      ["buttonPic"]= "Btn_xyxicon_rukou",
+      ["buttonText"]= "ui_LittleGame_001"
+    }
+  },
+  ["carrierButton"]= {},
+  ["enterButton"]= 1,
+  ["id"]= 10
+},
+[11] = {
+  ["buttonList"]= {
+    {
+      ["buttonId"]= 1,
+      ["buttonPic"]= "Btn_SetDown",
+      ["buttonText"]= "ui_Main_028"
+    }
+  },
+  ["carrierButton"]= {},
+  ["enterButton"]= 1,
+  ["id"]= 11
+}
+}
+"

@@ -1,0 +1,248 @@
+TextAsset Base
+	string m_Name = "data_emoticon_facialExpression"
+	string m_Script = "local table= {
+[1] = {
+  ["eyeColor"]= 0
+},
+[2] = {
+  ["eyeColor"]= 0,
+  ["FacialExpressionName"]= "FacialExpression_5102",
+  ["faseId"]= 5102,
+  ["Id"]= 2,
+  ["pictureRoute"]= "Img_facialexpression_2"
+},
+[3] = {
+  ["eyeColor"]= 0,
+  ["FacialExpressionName"]= "FacialExpression_5103",
+  ["faseId"]= 5103,
+  ["Id"]= 3,
+  ["pictureRoute"]= "Img_facialexpression_3"
+},
+[4] = {
+  ["eyeColor"]= 0,
+  ["FacialExpressionName"]= "FacialExpression_5104",
+  ["faseId"]= 5104,
+  ["Id"]= 4,
+  ["pictureRoute"]= "Img_facialexpression_4"
+},
+[5] = {
+  ["eyeColor"]= 0,
+  ["FacialExpressionName"]= "FacialExpression_5105",
+  ["faseId"]= 5105,
+  ["Id"]= 5,
+  ["pictureRoute"]= "Img_facialexpression_5"
+},
+[6] = {
+  ["FacialExpressionName"]= "FacialExpression_5106",
+  ["faseId"]= 5106,
+  ["hasEye"]= 0,
+  ["Id"]= 6,
+  ["pictureRoute"]= "Img_facialexpression_6"
+},
+[7] = {
+  ["FacialExpressionName"]= "FacialExpression_5107",
+  ["faseId"]= 5107,
+  ["hasEye"]= 0,
+  ["Id"]= 7,
+  ["pictureRoute"]= "Img_facialexpression_7"
+},
+[8] = {
+  ["eyeColor"]= 0,
+  ["FacialExpressionName"]= "FacialExpression_5108",
+  ["faseId"]= 5108,
+  ["Id"]= 8,
+  ["pictureRoute"]= "Img_facialexpression_8"
+},
+[9] = {
+  ["FacialExpressionName"]= "FacialExpression_5109",
+  ["faseId"]= 5109,
+  ["hasEye"]= 0,
+  ["Id"]= 9,
+  ["pictureRoute"]= "Img_facialexpression_9"
+},
+[10] = {
+  ["FacialExpressionName"]= "FacialExpression_5110",
+  ["faseId"]= 5110,
+  ["hasEye"]= 0,
+  ["Id"]= 10,
+  ["pictureRoute"]= "Img_facialexpression_10"
+},
+[11] = {
+  ["eyeColor"]= 0,
+  ["FacialExpressionName"]= "FacialExpression_5201",
+  ["faseId"]= 5201,
+  ["Id"]= 11,
+  ["isMale"]= 0
+},
+[12] = {
+  ["eyeColor"]= 0,
+  ["FacialExpressionName"]= "FacialExpression_5202",
+  ["faseId"]= 5202,
+  ["Id"]= 12,
+  ["isMale"]= 0,
+  ["pictureRoute"]= "Img_facialexpression_2"
+},
+[13] = {
+  ["eyeColor"]= 0,
+  ["FacialExpressionName"]= "FacialExpression_5203",
+  ["faseId"]= 5203,
+  ["Id"]= 13,
+  ["isMale"]= 0,
+  ["pictureRoute"]= "Img_facialexpression_3"
+},
+[14] = {
+  ["eyeColor"]= 0,
+  ["FacialExpressionName"]= "FacialExpression_5204",
+  ["faseId"]= 5204,
+  ["Id"]= 14,
+  ["isMale"]= 0,
+  ["pictureRoute"]= "Img_facialexpression_4"
+},
+[15] = {
+  ["eyeColor"]= 0,
+  ["FacialExpressionName"]= "FacialExpression_5205",
+  ["faseId"]= 5205,
+  ["Id"]= 15,
+  ["isMale"]= 0,
+  ["pictureRoute"]= "Img_facialexpression_5"
+},
+[16] = {
+  ["FacialExpressionName"]= "FacialExpression_5206",
+  ["faseId"]= 5206,
+  ["hasEye"]= 0,
+  ["Id"]= 16,
+  ["isMale"]= 0,
+  ["pictureRoute"]= "Img_facialexpression_6"
+},
+[17] = {
+  ["FacialExpressionName"]= "FacialExpression_5207",
+  ["faseId"]= 5207,
+  ["hasEye"]= 0,
+  ["Id"]= 17,
+  ["isMale"]= 0,
+  ["pictureRoute"]= "Img_facialexpression_7"
+},
+[18] = {
+  ["eyeColor"]= 0,
+  ["FacialExpressionName"]= "FacialExpression_5208",
+  ["faseId"]= 5208,
+  ["Id"]= 18,
+  ["isMale"]= 0,
+  ["pictureRoute"]= "Img_facialexpression_8"
+},
+[19] = {
+  ["FacialExpressionName"]= "FacialExpression_5209",
+  ["faseId"]= 5209,
+  ["hasEye"]= 0,
+  ["Id"]= 19,
+  ["isMale"]= 0,
+  ["pictureRoute"]= "Img_facialexpression_9"
+},
+[20] = {
+  ["FacialExpressionName"]= "FacialExpression_5210",
+  ["faseId"]= 5210,
+  ["hasEye"]= 0,
+  ["Id"]= 20,
+  ["isMale"]= 0,
+  ["pictureRoute"]= "Img_facialexpression_10"
+},
+[21] = {
+  ["FacialExpressionName"]= "FacialExpression_5111",
+  ["faseId"]= 5111,
+  ["Id"]= 21,
+  ["isLock"]= 1,
+  ["isShow"]= 0,
+  ["lockTips"]= "FacialLockTips5111",
+  ["pictureRoute"]= "Img_facialexpression_11"
+},
+[22] = {
+  ["FacialExpressionName"]= "FacialExpression_5211",
+  ["faseId"]= 5211,
+  ["Id"]= 22,
+  ["isLock"]= 1,
+  ["isMale"]= 0,
+  ["isShow"]= 0,
+  ["lockTips"]= "FacialLockTips5211",
+  ["pictureRoute"]= "Img_facialexpression_11"
+},
+[23] = {
+  ["FacialExpressionName"]= "FacialExpression_5112",
+  ["faseId"]= 5112,
+  ["Id"]= 23,
+  ["isShow"]= 0,
+  ["pictureRoute"]= "Img_facialexpression_12"
+},
+[24] = {
+  ["FacialExpressionName"]= "FacialExpression_5113",
+  ["faseId"]= 5113,
+  ["Id"]= 24,
+  ["isShow"]= 0,
+  ["pictureRoute"]= "Img_facialexpression_13"
+},
+[25] = {
+  ["FacialExpressionName"]= "FacialExpression_5114",
+  ["faseId"]= 5114,
+  ["Id"]= 25,
+  ["isShow"]= 0,
+  ["pictureRoute"]= "Img_facialexpression_14"
+},
+[26] = {
+  ["eyeColor"]= 0,
+  ["FacialExpressionName"]= "FacialExpression_5115",
+  ["faseId"]= 5115,
+  ["hasEye"]= 0,
+  ["Id"]= 26,
+  ["isShow"]= 0,
+  ["pictureRoute"]= "Img_facialexpression_15"
+},
+[27] = {
+  ["FacialExpressionName"]= "FacialExpression_5212",
+  ["faseId"]= 5212,
+  ["Id"]= 27,
+  ["isMale"]= 0,
+  ["isShow"]= 0,
+  ["pictureRoute"]= "Img_facialexpression_12"
+},
+[28] = {
+  ["FacialExpressionName"]= "FacialExpression_5213",
+  ["faseId"]= 5213,
+  ["Id"]= 28,
+  ["isMale"]= 0,
+  ["isShow"]= 0,
+  ["pictureRoute"]= "Img_facialexpression_13"
+},
+[29] = {
+  ["FacialExpressionName"]= "FacialExpression_5214",
+  ["faseId"]= 5214,
+  ["Id"]= 29,
+  ["isMale"]= 0,
+  ["isShow"]= 0,
+  ["pictureRoute"]= "Img_facialexpression_14"
+},
+[30] = {
+  ["eyeColor"]= 0,
+  ["FacialExpressionName"]= "FacialExpression_5215",
+  ["faseId"]= 5215,
+  ["hasEye"]= 0,
+  ["Id"]= 30,
+  ["isMale"]= 0,
+  ["isShow"]= 0,
+  ["pictureRoute"]= "Img_facialexpression_15"
+}
+}
+local baseTable={
+  ["eyeColor"]= 1,
+  ["FacialExpressionName"]= "FacialExpression_5101",
+  ["faseId"]= 5101,
+  ["hasEye"]= 1,
+  ["Id"]= 1,
+  ["isLock"]= 0,
+  ["isMale"]= 1,
+  ["isShow"]= 1,
+  ["lockTips"]= "",
+  ["pictureRoute"]= "Img_facialexpression_1"
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

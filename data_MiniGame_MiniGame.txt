@@ -1,0 +1,500 @@
+TextAsset Base
+	string m_Name = "data_MiniGame_MiniGame"
+	string m_Script = "return {
+[1] = {
+  ["circleDialogue"]= {
+    "MinigameDialogue_09",
+    "MinigameDialogue_10"
+  },
+  ["circleNpc"]= {
+    {
+      ["actionID"]= 303,
+      ["npcDialogue"]= "MinigameDialogue_09"
+    },
+    {
+      ["actionID"]= 3011,
+      ["npcDialogue"]= "MinigameDialogue_10"
+    },
+    {
+      ["actionID"]= 3011,
+      ["npcDialogue"]= "MinigameDialogue_13"
+    },
+    {
+      ["actionID"]= 3011,
+      ["npcDialogue"]= "MinigameDialogue_14"
+    },
+    {
+      ["actionID"]= 303,
+      ["npcDialogue"]= "MinigameDialogue_15"
+    },
+    {
+      ["actionID"]= 3091,
+      ["npcDialogue"]= "MinigameDialogue_16"
+    }
+  },
+  ["dropID"]= 1102061052,
+  ["entranceNpc"]= {},
+  ["extraRoundCountDown"]= 6,
+  ["forceNpc"]= {
+    ["actionID"]= 3011,
+    ["npcDialogue"]= "MinigameDialogue_04"
+  },
+  ["gameRules"]= {
+    {
+      ["direction"]= 1,
+      ["length"]= 1,
+      ["location"]= 1,
+      ["stage"]= 1,
+      ["time"]= 2600
+    },
+    {
+      ["direction"]= 1,
+      ["length"]= 1,
+      ["location"]= 2,
+      ["stage"]= 2,
+      ["time"]= 2500
+    },
+    {
+      ["direction"]= 1,
+      ["length"]= 1,
+      ["location"]= 3,
+      ["stage"]= 3,
+      ["time"]= 2600
+    },
+    {
+      ["direction"]= 2,
+      ["length"]= 1,
+      ["location"]= 1,
+      ["stage"]= 4,
+      ["time"]= 2300
+    },
+    {
+      ["direction"]= 2,
+      ["length"]= 2,
+      ["location"]= 1,
+      ["stage"]= 5,
+      ["time"]= 2300
+    },
+    {
+      ["direction"]= 2,
+      ["length"]= 3,
+      ["location"]= 1,
+      ["stage"]= 6,
+      ["time"]= 2300
+    },
+    {
+      ["direction"]= 0,
+      ["length"]= 2,
+      ["location"]= 2,
+      ["stage"]= 7,
+      ["time"]= 1600
+    },
+    {
+      ["direction"]= 0,
+      ["length"]= 2,
+      ["location"]= 2,
+      ["stage"]= 8,
+      ["time"]= 1800
+    },
+    {
+      ["direction"]= 0,
+      ["length"]= 2,
+      ["location"]= 2,
+      ["stage"]= 9,
+      ["time"]= 1800
+    },
+    {
+      ["direction"]= 0,
+      ["length"]= 0,
+      ["location"]= 0,
+      ["stage"]= 10,
+      ["time"]= 1300
+    },
+    {
+      ["direction"]= 0,
+      ["length"]= 0,
+      ["location"]= 0,
+      ["stage"]= 11,
+      ["time"]= 1300
+    },
+    {
+      ["direction"]= 0,
+      ["length"]= 0,
+      ["location"]= 0,
+      ["stage"]= 12,
+      ["time"]= 1300
+    },
+    {
+      ["direction"]= 1,
+      ["length"]= 2,
+      ["location"]= 1,
+      ["stage"]= 13,
+      ["time"]= 1000
+    }
+  },
+  ["highDamageValue"]= "17",
+  ["id"]= 1,
+  ["instanceId"]= 8912,
+  ["invitationLastTime"]= 7,
+  ["inviteDialogue"]= {
+    "MinigameDialogue_05",
+    "MinigameDialogue_06"
+  },
+  ["inviteNpc"]= {
+    {
+      ["actionID"]= 3091,
+      ["npcDialogue"]= "MinigameDialogue_05"
+    },
+    {
+      ["actionID"]= 3041,
+      ["npcDialogue"]= "MinigameDialogue_06"
+    }
+  },
+  ["lengthPercentage"]= {
+    110,
+    100,
+    70
+  },
+  ["locationPercentage"]= {
+    75,
+    65,
+    55
+  },
+  ["manAction"]= {
+    "GameBSW_Ready_M"
+  },
+  ["miniGameTable"]= "gametable100",
+  ["name"]= "掰手腕",
+  ["npc_Blue"]= {
+    {
+      ["actionLose"]= {
+        302,
+        303
+      },
+      ["actionWin"]= {
+        3011
+      },
+      ["dialogueWin"]= {
+        "MinigameDialogueBoy_02",
+        "MinigameDialogueBoy_01"
+      },
+      ["npcID"]= 89124001
+    },
+    {
+      ["actionLose"]= {
+        302,
+        303
+      },
+      ["actionWin"]= {
+        3011
+      },
+      ["dialogueWin"]= {
+        "MinigameDialogueGirl_01",
+        "MinigameDialogueGirl_02"
+      },
+      ["npcID"]= 89124003
+    },
+    {
+      ["actionLose"]= {
+        3061,
+        303,
+        302
+      },
+      ["actionWin"]= {
+        3091,
+        3041
+      },
+      ["dialogueWin"]= {
+        "MinigameDialogueWoMan_01",
+        "MinigameDialogueWoMan_02"
+      },
+      ["npcID"]= 89124007
+    },
+    {
+      ["actionLose"]= {
+        3061,
+        303,
+        302
+      },
+      ["actionWin"]= {
+        3091,
+        3041
+      },
+      ["dialogueWin"]= {
+        "MinigameDialogueWoMan_01",
+        "MinigameDialogueWoMan_02"
+      },
+      ["npcID"]= 89124008
+    },
+    {
+      ["actionLose"]= {
+        3011,
+        3031
+      },
+      ["actionWin"]= {
+        201,
+        202,
+        203
+      },
+      ["dialogueWin"]= {
+        "MinigameDialogueOldMan_01",
+        "MinigameDialogueOldMan_02"
+      },
+      ["npcID"]= 89124013
+    },
+    {
+      ["actionLose"]= {
+        3011
+      },
+      ["actionWin"]= {
+        201,
+        202
+      },
+      ["dialogueWin"]= {
+        "MinigameDialogueOldWoMan_01",
+        "MinigameDialogueOldWoMan_02"
+      },
+      ["npcID"]= 89124014
+    },
+    {
+      ["actionLose"]= {
+        3021,
+        305,
+        3011
+      },
+      ["actionWin"]= {
+        3081
+      },
+      ["dialogueWin"]= {
+        "MinigameDialogueMan_01",
+        "MinigameDialogueMan_02"
+      },
+      ["npcID"]= 89124010
+    },
+    {
+      ["actionLose"]= {
+        3021,
+        305,
+        3011
+      },
+      ["actionWin"]= {
+        3081
+      },
+      ["dialogueWin"]= {
+        "MinigameDialogueMan_01",
+        "MinigameDialogueMan_02"
+      },
+      ["npcID"]= 89124015
+    }
+  },
+  ["npc_Red"]= {
+    {
+      ["actionLose"]= {
+        302,
+        303
+      },
+      ["actionWin"]= {
+        3011
+      },
+      ["dialogueWin"]= {
+        "MinigameDialogueGirl_03",
+        "MinigameDialogueGirl_04"
+      },
+      ["npcID"]= 89124004
+    },
+    {
+      ["actionLose"]= {
+        3021,
+        305,
+        3011
+      },
+      ["actionWin"]= {
+        3081
+      },
+      ["dialogueWin"]= {
+        "MinigameDialogueMan_03",
+        "MinigameDialogueMan_04"
+      },
+      ["npcID"]= 89124009
+    },
+    {
+      ["actionLose"]= {
+        3021,
+        305,
+        3011
+      },
+      ["actionWin"]= {
+        3081
+      },
+      ["dialogueWin"]= {
+        "MinigameDialogueMan_03",
+        "MinigameDialogueMan_04"
+      },
+      ["npcID"]= 89124011
+    },
+    {
+      ["actionLose"]= {
+        3061,
+        303,
+        302
+      },
+      ["actionWin"]= {
+        3091,
+        3041
+      },
+      ["dialogueWin"]= {
+        "MinigameDialogueWoMan_03",
+        "MinigameDialogueWoMan_04"
+      },
+      ["npcID"]= 89124005
+    },
+    {
+      ["actionLose"]= {
+        3061,
+        303,
+        302
+      },
+      ["actionWin"]= {
+        3091,
+        3041
+      },
+      ["dialogueWin"]= {
+        "MinigameDialogueWoMan_04",
+        "MinigameDialogueWoMan_03"
+      },
+      ["npcID"]= 89124006
+    },
+    {
+      ["actionLose"]= {
+        3011
+      },
+      ["actionWin"]= {
+        201,
+        202
+      },
+      ["dialogueWin"]= {
+        "MinigameDialogueOldWoMan_04",
+        "MinigameDialogueOldWoMan_03"
+      },
+      ["npcID"]= 89124016
+    },
+    {
+      ["actionLose"]= {
+        3011,
+        3031
+      },
+      ["actionWin"]= {
+        201,
+        202,
+        203
+      },
+      ["dialogueWin"]= {
+        "MinigameDialogueOldMan_03",
+        "MinigameDialogueOldMan_04"
+      },
+      ["npcID"]= 89124012
+    },
+    {
+      ["actionLose"]= {
+        302,
+        303
+      },
+      ["actionWin"]= {
+        3011
+      },
+      ["dialogueWin"]= {
+        "MinigameDialogueBoy_03",
+        "MinigameDialogueBoy_04"
+      },
+      ["npcID"]= 89124002
+    }
+  },
+  ["npcid"]= 62139,
+  ["pendingDamages"]= {
+    0,
+    9,
+    12,
+    15,
+    18
+  },
+  ["playersNumber"]= 2,
+  ["randomActionIndexes"]= {
+    1,
+    3,
+    7
+  },
+  ["readyTime"]= 15,
+  ["reward"]= 10201040,
+  ["rewardCount"]= 3,
+  ["roundStartCountDown"]= 4,
+  ["stageNumPerRound"]= 3,
+  ["tieNpcDialogue"]= {
+    "MinigameDialogueTie_01",
+    "MinigameDialogueTie_02",
+    "MinigameDialogueTie_03",
+    "MinigameDialogueTie_04",
+    "MinigameDialogueTie_05"
+  },
+  ["toleranceTime"]= 4,
+  ["type"]= 1,
+  ["winnerAnnouncementId"]= 15,
+  ["womanAction"]= {
+    "GameBSW_Ready_W"
+  }
+},
+[3] = {
+  ["circleDialogue"]= {},
+  ["circleNpc"]= {},
+  ["dropID"]= 0,
+  ["entranceNpc"]= {
+    {
+      ["actionID"]= 0,
+      ["npcDialogue"]= "MinigameDialogue_01"
+    },
+    {
+      ["actionID"]= 3011,
+      ["npcDialogue"]= "MinigameDialogue_02"
+    },
+    {
+      ["actionID"]= 303,
+      ["npcDialogue"]= "MinigameDialogue_03"
+    }
+  },
+  ["extraRoundCountDown"]= 0,
+  ["forceNpc"]= {
+    ["actionID"]= 0,
+    ["npcDialogue"]= ""
+  },
+  ["gameRules"]= {},
+  ["highDamageValue"]= "",
+  ["id"]= 3,
+  ["instanceId"]= 0,
+  ["invitationLastTime"]= 0,
+  ["inviteDialogue"]= {},
+  ["inviteNpc"]= {},
+  ["lengthPercentage"]= {},
+  ["locationPercentage"]= {},
+  ["manAction"]= {},
+  ["miniGameTable"]= "",
+  ["name"]= "选择模式",
+  ["npc_Blue"]= {},
+  ["npc_Red"]= {},
+  ["npcid"]= 0,
+  ["pendingDamages"]= {},
+  ["playersNumber"]= 0,
+  ["randomActionIndexes"]= {
+    1
+  },
+  ["readyTime"]= 0,
+  ["reward"]= 0,
+  ["rewardCount"]= 0,
+  ["roundStartCountDown"]= 0,
+  ["stageNumPerRound"]= 0,
+  ["tieNpcDialogue"]= {},
+  ["toleranceTime"]= 0,
+  ["type"]= 0,
+  ["winnerAnnouncementId"]= 0,
+  ["womanAction"]= {}
+}
+}
+"

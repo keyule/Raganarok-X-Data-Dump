@@ -1,0 +1,9667 @@
+TextAsset Base
+	string m_Name = "data_equip_EnchantmentRandom"
+	string m_Script = "local table= {
+[1] = {
+  ["IntimacyWeight"]= {
+    0
+  }
+},
+[2] = {
+  ["id"]= 2,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[3] = {
+  ["id"]= 3,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[4] = {
+  ["id"]= 4,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[5] = {
+  ["id"]= 5,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[6] = {
+  ["id"]= 6,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[7] = {
+  ["id"]= 7,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[8] = {
+  ["id"]= 8,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[9] = {
+  ["id"]= 9,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[10] = {
+  ["id"]= 10,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[11] = {
+  ["id"]= 11,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[12] = {
+  ["id"]= 12,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[13] = {
+  ["id"]= 13,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[14] = {
+  ["id"]= 14,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[15] = {
+  ["id"]= 15,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[16] = {
+  ["id"]= 16,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+},
+[17] = {
+  ["id"]= 17,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1010102
+},
+[18] = {
+  ["id"]= 18,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["libId"]= 1010102,
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[19] = {
+  ["id"]= 19,
+  ["libId"]= 1010102,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[20] = {
+  ["id"]= 20,
+  ["libId"]= 1010102,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[21] = {
+  ["id"]= 21,
+  ["libId"]= 1010102,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[22] = {
+  ["id"]= 22,
+  ["libId"]= 1010102,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[23] = {
+  ["id"]= 23,
+  ["libId"]= 1010102,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[24] = {
+  ["id"]= 24,
+  ["libId"]= 1010102,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[25] = {
+  ["id"]= 25,
+  ["libId"]= 1010102,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[26] = {
+  ["id"]= 26,
+  ["libId"]= 1010102,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[27] = {
+  ["id"]= 27,
+  ["libId"]= 1010102,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[28] = {
+  ["id"]= 28,
+  ["libId"]= 1010102,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[29] = {
+  ["id"]= 29,
+  ["libId"]= 1010102,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[30] = {
+  ["id"]= 30,
+  ["libId"]= 1010102,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[31] = {
+  ["id"]= 31,
+  ["libId"]= 1010102,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[32] = {
+  ["id"]= 32,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1010102,
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+},
+[33] = {
+  ["id"]= 33,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1010103
+},
+[34] = {
+  ["id"]= 34,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["libId"]= 1010103,
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[35] = {
+  ["id"]= 35,
+  ["libId"]= 1010103,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[36] = {
+  ["id"]= 36,
+  ["libId"]= 1010103,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[37] = {
+  ["id"]= 37,
+  ["libId"]= 1010103,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[38] = {
+  ["id"]= 38,
+  ["libId"]= 1010103,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[39] = {
+  ["id"]= 39,
+  ["libId"]= 1010103,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[40] = {
+  ["id"]= 40,
+  ["libId"]= 1010103,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[41] = {
+  ["id"]= 41,
+  ["libId"]= 1010103,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[42] = {
+  ["id"]= 42,
+  ["libId"]= 1010103,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[43] = {
+  ["id"]= 43,
+  ["libId"]= 1010103,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[44] = {
+  ["id"]= 44,
+  ["libId"]= 1010103,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[45] = {
+  ["id"]= 45,
+  ["libId"]= 1010103,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[46] = {
+  ["id"]= 46,
+  ["libId"]= 1010103,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[47] = {
+  ["id"]= 47,
+  ["libId"]= 1010103,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[48] = {
+  ["id"]= 48,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1010103,
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+},
+[49] = {
+  ["id"]= 49,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1010104
+},
+[50] = {
+  ["id"]= 50,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["libId"]= 1010104,
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[51] = {
+  ["id"]= 51,
+  ["libId"]= 1010104,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[52] = {
+  ["id"]= 52,
+  ["libId"]= 1010104,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[53] = {
+  ["id"]= 53,
+  ["libId"]= 1010104,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[54] = {
+  ["id"]= 54,
+  ["libId"]= 1010104,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[55] = {
+  ["id"]= 55,
+  ["libId"]= 1010104,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[56] = {
+  ["id"]= 56,
+  ["libId"]= 1010104,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[57] = {
+  ["id"]= 57,
+  ["libId"]= 1010104,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[58] = {
+  ["id"]= 58,
+  ["libId"]= 1010104,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[59] = {
+  ["id"]= 59,
+  ["libId"]= 1010104,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[60] = {
+  ["id"]= 60,
+  ["libId"]= 1010104,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[61] = {
+  ["id"]= 61,
+  ["libId"]= 1010104,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[62] = {
+  ["id"]= 62,
+  ["libId"]= 1010104,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[63] = {
+  ["id"]= 63,
+  ["libId"]= 1010104,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[64] = {
+  ["id"]= 64,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1010104,
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+},
+[65] = {
+  ["id"]= 65,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1010201
+},
+[66] = {
+  ["id"]= 66,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["libId"]= 1010201,
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[67] = {
+  ["id"]= 67,
+  ["libId"]= 1010201,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[68] = {
+  ["id"]= 68,
+  ["libId"]= 1010201,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[69] = {
+  ["id"]= 69,
+  ["libId"]= 1010201,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[70] = {
+  ["id"]= 70,
+  ["libId"]= 1010201,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[71] = {
+  ["id"]= 71,
+  ["libId"]= 1010201,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[72] = {
+  ["id"]= 72,
+  ["libId"]= 1010201,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[73] = {
+  ["id"]= 73,
+  ["libId"]= 1010201,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[74] = {
+  ["id"]= 74,
+  ["libId"]= 1010201,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[75] = {
+  ["id"]= 75,
+  ["libId"]= 1010201,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[76] = {
+  ["id"]= 76,
+  ["libId"]= 1010201,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[77] = {
+  ["id"]= 77,
+  ["libId"]= 1010201,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[78] = {
+  ["id"]= 78,
+  ["libId"]= 1010201,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[79] = {
+  ["id"]= 79,
+  ["libId"]= 1010201,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[80] = {
+  ["id"]= 80,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1010201,
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+},
+[81] = {
+  ["id"]= 81,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1010301
+},
+[82] = {
+  ["id"]= 82,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["libId"]= 1010301,
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[83] = {
+  ["id"]= 83,
+  ["libId"]= 1010301,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[84] = {
+  ["id"]= 84,
+  ["libId"]= 1010301,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[85] = {
+  ["id"]= 85,
+  ["libId"]= 1010301,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[86] = {
+  ["id"]= 86,
+  ["libId"]= 1010301,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[87] = {
+  ["id"]= 87,
+  ["libId"]= 1010301,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[88] = {
+  ["id"]= 88,
+  ["libId"]= 1010301,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[89] = {
+  ["id"]= 89,
+  ["libId"]= 1010301,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[90] = {
+  ["id"]= 90,
+  ["libId"]= 1010301,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[91] = {
+  ["id"]= 91,
+  ["libId"]= 1010301,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[92] = {
+  ["id"]= 92,
+  ["libId"]= 1010301,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[93] = {
+  ["id"]= 93,
+  ["libId"]= 1010301,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[94] = {
+  ["id"]= 94,
+  ["libId"]= 1010301,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[95] = {
+  ["id"]= 95,
+  ["libId"]= 1010301,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[96] = {
+  ["id"]= 96,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1010301,
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+},
+[97] = {
+  ["id"]= 97,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1110101
+},
+[98] = {
+  ["id"]= 98,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["libId"]= 1110101,
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[99] = {
+  ["id"]= 99,
+  ["libId"]= 1110101,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[100] = {
+  ["id"]= 100,
+  ["libId"]= 1110101,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[101] = {
+  ["id"]= 101,
+  ["libId"]= 1110101,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[102] = {
+  ["id"]= 102,
+  ["libId"]= 1110101,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[103] = {
+  ["id"]= 103,
+  ["libId"]= 1110101,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[104] = {
+  ["id"]= 104,
+  ["libId"]= 1110101,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[105] = {
+  ["id"]= 105,
+  ["libId"]= 1110101,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[106] = {
+  ["id"]= 106,
+  ["libId"]= 1110101,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[107] = {
+  ["id"]= 107,
+  ["libId"]= 1110101,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[108] = {
+  ["id"]= 108,
+  ["libId"]= 1110101,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[109] = {
+  ["id"]= 109,
+  ["libId"]= 1110101,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[110] = {
+  ["id"]= 110,
+  ["libId"]= 1110101,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[111] = {
+  ["id"]= 111,
+  ["libId"]= 1110101,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[112] = {
+  ["id"]= 112,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1110101,
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+},
+[113] = {
+  ["id"]= 113,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1110102
+},
+[114] = {
+  ["id"]= 114,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["libId"]= 1110102,
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[115] = {
+  ["id"]= 115,
+  ["libId"]= 1110102,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[116] = {
+  ["id"]= 116,
+  ["libId"]= 1110102,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[117] = {
+  ["id"]= 117,
+  ["libId"]= 1110102,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[118] = {
+  ["id"]= 118,
+  ["libId"]= 1110102,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[119] = {
+  ["id"]= 119,
+  ["libId"]= 1110102,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[120] = {
+  ["id"]= 120,
+  ["libId"]= 1110102,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[121] = {
+  ["id"]= 121,
+  ["libId"]= 1110102,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[122] = {
+  ["id"]= 122,
+  ["libId"]= 1110102,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[123] = {
+  ["id"]= 123,
+  ["libId"]= 1110102,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[124] = {
+  ["id"]= 124,
+  ["libId"]= 1110102,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[125] = {
+  ["id"]= 125,
+  ["libId"]= 1110102,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[126] = {
+  ["id"]= 126,
+  ["libId"]= 1110102,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[127] = {
+  ["id"]= 127,
+  ["libId"]= 1110102,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[128] = {
+  ["id"]= 128,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1110102,
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+},
+[129] = {
+  ["id"]= 129,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1110103
+},
+[130] = {
+  ["id"]= 130,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["libId"]= 1110103,
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[131] = {
+  ["id"]= 131,
+  ["libId"]= 1110103,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[132] = {
+  ["id"]= 132,
+  ["libId"]= 1110103,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[133] = {
+  ["id"]= 133,
+  ["libId"]= 1110103,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[134] = {
+  ["id"]= 134,
+  ["libId"]= 1110103,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[135] = {
+  ["id"]= 135,
+  ["libId"]= 1110103,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[136] = {
+  ["id"]= 136,
+  ["libId"]= 1110103,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[137] = {
+  ["id"]= 137,
+  ["libId"]= 1110103,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[138] = {
+  ["id"]= 138,
+  ["libId"]= 1110103,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[139] = {
+  ["id"]= 139,
+  ["libId"]= 1110103,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[140] = {
+  ["id"]= 140,
+  ["libId"]= 1110103,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[141] = {
+  ["id"]= 141,
+  ["libId"]= 1110103,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[142] = {
+  ["id"]= 142,
+  ["libId"]= 1110103,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[143] = {
+  ["id"]= 143,
+  ["libId"]= 1110103,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[144] = {
+  ["id"]= 144,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1110103,
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+},
+[145] = {
+  ["id"]= 145,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1110104
+},
+[146] = {
+  ["id"]= 146,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["libId"]= 1110104,
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[147] = {
+  ["id"]= 147,
+  ["libId"]= 1110104,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[148] = {
+  ["id"]= 148,
+  ["libId"]= 1110104,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[149] = {
+  ["id"]= 149,
+  ["libId"]= 1110104,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[150] = {
+  ["id"]= 150,
+  ["libId"]= 1110104,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[151] = {
+  ["id"]= 151,
+  ["libId"]= 1110104,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[152] = {
+  ["id"]= 152,
+  ["libId"]= 1110104,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[153] = {
+  ["id"]= 153,
+  ["libId"]= 1110104,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[154] = {
+  ["id"]= 154,
+  ["libId"]= 1110104,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[155] = {
+  ["id"]= 155,
+  ["libId"]= 1110104,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[156] = {
+  ["id"]= 156,
+  ["libId"]= 1110104,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[157] = {
+  ["id"]= 157,
+  ["libId"]= 1110104,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[158] = {
+  ["id"]= 158,
+  ["libId"]= 1110104,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[159] = {
+  ["id"]= 159,
+  ["libId"]= 1110104,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[160] = {
+  ["id"]= 160,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1110104,
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+},
+[161] = {
+  ["id"]= 161,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1110201
+},
+[162] = {
+  ["id"]= 162,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["libId"]= 1110201,
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[163] = {
+  ["id"]= 163,
+  ["libId"]= 1110201,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[164] = {
+  ["id"]= 164,
+  ["libId"]= 1110201,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[165] = {
+  ["id"]= 165,
+  ["libId"]= 1110201,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[166] = {
+  ["id"]= 166,
+  ["libId"]= 1110201,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[167] = {
+  ["id"]= 167,
+  ["libId"]= 1110201,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[168] = {
+  ["id"]= 168,
+  ["libId"]= 1110201,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[169] = {
+  ["id"]= 169,
+  ["libId"]= 1110201,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[170] = {
+  ["id"]= 170,
+  ["libId"]= 1110201,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[171] = {
+  ["id"]= 171,
+  ["libId"]= 1110201,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[172] = {
+  ["id"]= 172,
+  ["libId"]= 1110201,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[173] = {
+  ["id"]= 173,
+  ["libId"]= 1110201,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[174] = {
+  ["id"]= 174,
+  ["libId"]= 1110201,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[175] = {
+  ["id"]= 175,
+  ["libId"]= 1110201,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[176] = {
+  ["id"]= 176,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1110201,
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+},
+[177] = {
+  ["id"]= 177,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1110301
+},
+[178] = {
+  ["id"]= 178,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["libId"]= 1110301,
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[179] = {
+  ["id"]= 179,
+  ["libId"]= 1110301,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[180] = {
+  ["id"]= 180,
+  ["libId"]= 1110301,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[181] = {
+  ["id"]= 181,
+  ["libId"]= 1110301,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[182] = {
+  ["id"]= 182,
+  ["libId"]= 1110301,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[183] = {
+  ["id"]= 183,
+  ["libId"]= 1110301,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[184] = {
+  ["id"]= 184,
+  ["libId"]= 1110301,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[185] = {
+  ["id"]= 185,
+  ["libId"]= 1110301,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[186] = {
+  ["id"]= 186,
+  ["libId"]= 1110301,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[187] = {
+  ["id"]= 187,
+  ["libId"]= 1110301,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[188] = {
+  ["id"]= 188,
+  ["libId"]= 1110301,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[189] = {
+  ["id"]= 189,
+  ["libId"]= 1110301,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[190] = {
+  ["id"]= 190,
+  ["libId"]= 1110301,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[191] = {
+  ["id"]= 191,
+  ["libId"]= 1110301,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[192] = {
+  ["id"]= 192,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1110301,
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+},
+[193] = {
+  ["id"]= 193,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1180101
+},
+[194] = {
+  ["id"]= 194,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["libId"]= 1180101,
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[195] = {
+  ["id"]= 195,
+  ["libId"]= 1180101,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[196] = {
+  ["id"]= 196,
+  ["libId"]= 1180101,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[197] = {
+  ["id"]= 197,
+  ["libId"]= 1180101,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[198] = {
+  ["id"]= 198,
+  ["libId"]= 1180101,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[199] = {
+  ["id"]= 199,
+  ["libId"]= 1180101,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[200] = {
+  ["id"]= 200,
+  ["libId"]= 1180101,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[201] = {
+  ["id"]= 201,
+  ["libId"]= 1180101,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[202] = {
+  ["id"]= 202,
+  ["libId"]= 1180101,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[203] = {
+  ["id"]= 203,
+  ["libId"]= 1180101,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[204] = {
+  ["id"]= 204,
+  ["libId"]= 1180101,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[205] = {
+  ["id"]= 205,
+  ["libId"]= 1180101,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[206] = {
+  ["id"]= 206,
+  ["libId"]= 1180101,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[207] = {
+  ["id"]= 207,
+  ["libId"]= 1180101,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[208] = {
+  ["id"]= 208,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1180101,
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+},
+[209] = {
+  ["id"]= 209,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1180102
+},
+[210] = {
+  ["id"]= 210,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["libId"]= 1180102,
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[211] = {
+  ["id"]= 211,
+  ["libId"]= 1180102,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[212] = {
+  ["id"]= 212,
+  ["libId"]= 1180102,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[213] = {
+  ["id"]= 213,
+  ["libId"]= 1180102,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[214] = {
+  ["id"]= 214,
+  ["libId"]= 1180102,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[215] = {
+  ["id"]= 215,
+  ["libId"]= 1180102,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[216] = {
+  ["id"]= 216,
+  ["libId"]= 1180102,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[217] = {
+  ["id"]= 217,
+  ["libId"]= 1180102,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[218] = {
+  ["id"]= 218,
+  ["libId"]= 1180102,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[219] = {
+  ["id"]= 219,
+  ["libId"]= 1180102,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[220] = {
+  ["id"]= 220,
+  ["libId"]= 1180102,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[221] = {
+  ["id"]= 221,
+  ["libId"]= 1180102,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[222] = {
+  ["id"]= 222,
+  ["libId"]= 1180102,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[223] = {
+  ["id"]= 223,
+  ["libId"]= 1180102,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[224] = {
+  ["id"]= 224,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1180102,
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+},
+[225] = {
+  ["id"]= 225,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1180103
+},
+[226] = {
+  ["id"]= 226,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["libId"]= 1180103,
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[227] = {
+  ["id"]= 227,
+  ["libId"]= 1180103,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[228] = {
+  ["id"]= 228,
+  ["libId"]= 1180103,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[229] = {
+  ["id"]= 229,
+  ["libId"]= 1180103,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[230] = {
+  ["id"]= 230,
+  ["libId"]= 1180103,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[231] = {
+  ["id"]= 231,
+  ["libId"]= 1180103,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[232] = {
+  ["id"]= 232,
+  ["libId"]= 1180103,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[233] = {
+  ["id"]= 233,
+  ["libId"]= 1180103,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[234] = {
+  ["id"]= 234,
+  ["libId"]= 1180103,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[235] = {
+  ["id"]= 235,
+  ["libId"]= 1180103,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[236] = {
+  ["id"]= 236,
+  ["libId"]= 1180103,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[237] = {
+  ["id"]= 237,
+  ["libId"]= 1180103,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[238] = {
+  ["id"]= 238,
+  ["libId"]= 1180103,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[239] = {
+  ["id"]= 239,
+  ["libId"]= 1180103,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[240] = {
+  ["id"]= 240,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1180103,
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+},
+[241] = {
+  ["id"]= 241,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1180104
+},
+[242] = {
+  ["id"]= 242,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["libId"]= 1180104,
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[243] = {
+  ["id"]= 243,
+  ["libId"]= 1180104,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[244] = {
+  ["id"]= 244,
+  ["libId"]= 1180104,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[245] = {
+  ["id"]= 245,
+  ["libId"]= 1180104,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[246] = {
+  ["id"]= 246,
+  ["libId"]= 1180104,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[247] = {
+  ["id"]= 247,
+  ["libId"]= 1180104,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[248] = {
+  ["id"]= 248,
+  ["libId"]= 1180104,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[249] = {
+  ["id"]= 249,
+  ["libId"]= 1180104,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[250] = {
+  ["id"]= 250,
+  ["libId"]= 1180104,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[251] = {
+  ["id"]= 251,
+  ["libId"]= 1180104,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[252] = {
+  ["id"]= 252,
+  ["libId"]= 1180104,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[253] = {
+  ["id"]= 253,
+  ["libId"]= 1180104,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[254] = {
+  ["id"]= 254,
+  ["libId"]= 1180104,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[255] = {
+  ["id"]= 255,
+  ["libId"]= 1180104,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[256] = {
+  ["id"]= 256,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1180104,
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+},
+[257] = {
+  ["id"]= 257,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1180201
+},
+[258] = {
+  ["id"]= 258,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["libId"]= 1180201,
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[259] = {
+  ["id"]= 259,
+  ["libId"]= 1180201,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[260] = {
+  ["id"]= 260,
+  ["libId"]= 1180201,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[261] = {
+  ["id"]= 261,
+  ["libId"]= 1180201,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[262] = {
+  ["id"]= 262,
+  ["libId"]= 1180201,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[263] = {
+  ["id"]= 263,
+  ["libId"]= 1180201,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[264] = {
+  ["id"]= 264,
+  ["libId"]= 1180201,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[265] = {
+  ["id"]= 265,
+  ["libId"]= 1180201,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[266] = {
+  ["id"]= 266,
+  ["libId"]= 1180201,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[267] = {
+  ["id"]= 267,
+  ["libId"]= 1180201,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[268] = {
+  ["id"]= 268,
+  ["libId"]= 1180201,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[269] = {
+  ["id"]= 269,
+  ["libId"]= 1180201,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[270] = {
+  ["id"]= 270,
+  ["libId"]= 1180201,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[271] = {
+  ["id"]= 271,
+  ["libId"]= 1180201,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[272] = {
+  ["id"]= 272,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1180201,
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+},
+[273] = {
+  ["id"]= 273,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1180301
+},
+[274] = {
+  ["id"]= 274,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["libId"]= 1180301,
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[275] = {
+  ["id"]= 275,
+  ["libId"]= 1180301,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[276] = {
+  ["id"]= 276,
+  ["libId"]= 1180301,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[277] = {
+  ["id"]= 277,
+  ["libId"]= 1180301,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[278] = {
+  ["id"]= 278,
+  ["libId"]= 1180301,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[279] = {
+  ["id"]= 279,
+  ["libId"]= 1180301,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[280] = {
+  ["id"]= 280,
+  ["libId"]= 1180301,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[281] = {
+  ["id"]= 281,
+  ["libId"]= 1180301,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[282] = {
+  ["id"]= 282,
+  ["libId"]= 1180301,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[283] = {
+  ["id"]= 283,
+  ["libId"]= 1180301,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[284] = {
+  ["id"]= 284,
+  ["libId"]= 1180301,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[285] = {
+  ["id"]= 285,
+  ["libId"]= 1180301,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[286] = {
+  ["id"]= 286,
+  ["libId"]= 1180301,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[287] = {
+  ["id"]= 287,
+  ["libId"]= 1180301,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[288] = {
+  ["id"]= 288,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1180301,
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+},
+[289] = {
+  ["id"]= 289,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1210101
+},
+[290] = {
+  ["id"]= 290,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["libId"]= 1210101,
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[291] = {
+  ["id"]= 291,
+  ["libId"]= 1210101,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[292] = {
+  ["id"]= 292,
+  ["libId"]= 1210101,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[293] = {
+  ["id"]= 293,
+  ["libId"]= 1210101,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[294] = {
+  ["id"]= 294,
+  ["libId"]= 1210101,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[295] = {
+  ["id"]= 295,
+  ["libId"]= 1210101,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[296] = {
+  ["id"]= 296,
+  ["libId"]= 1210101,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[297] = {
+  ["id"]= 297,
+  ["libId"]= 1210101,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[298] = {
+  ["id"]= 298,
+  ["libId"]= 1210101,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[299] = {
+  ["id"]= 299,
+  ["libId"]= 1210101,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[300] = {
+  ["id"]= 300,
+  ["libId"]= 1210101,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[301] = {
+  ["id"]= 301,
+  ["libId"]= 1210101,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[302] = {
+  ["id"]= 302,
+  ["libId"]= 1210101,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[303] = {
+  ["id"]= 303,
+  ["libId"]= 1210101,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[304] = {
+  ["id"]= 304,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1210101,
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+},
+[305] = {
+  ["id"]= 305,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1210102
+},
+[306] = {
+  ["id"]= 306,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["libId"]= 1210102,
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[307] = {
+  ["id"]= 307,
+  ["libId"]= 1210102,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[308] = {
+  ["id"]= 308,
+  ["libId"]= 1210102,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[309] = {
+  ["id"]= 309,
+  ["libId"]= 1210102,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[310] = {
+  ["id"]= 310,
+  ["libId"]= 1210102,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[311] = {
+  ["id"]= 311,
+  ["libId"]= 1210102,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[312] = {
+  ["id"]= 312,
+  ["libId"]= 1210102,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[313] = {
+  ["id"]= 313,
+  ["libId"]= 1210102,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[314] = {
+  ["id"]= 314,
+  ["libId"]= 1210102,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[315] = {
+  ["id"]= 315,
+  ["libId"]= 1210102,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[316] = {
+  ["id"]= 316,
+  ["libId"]= 1210102,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[317] = {
+  ["id"]= 317,
+  ["libId"]= 1210102,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[318] = {
+  ["id"]= 318,
+  ["libId"]= 1210102,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[319] = {
+  ["id"]= 319,
+  ["libId"]= 1210102,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[320] = {
+  ["id"]= 320,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1210102,
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+},
+[321] = {
+  ["id"]= 321,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1210103
+},
+[322] = {
+  ["id"]= 322,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["libId"]= 1210103,
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[323] = {
+  ["id"]= 323,
+  ["libId"]= 1210103,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[324] = {
+  ["id"]= 324,
+  ["libId"]= 1210103,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[325] = {
+  ["id"]= 325,
+  ["libId"]= 1210103,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[326] = {
+  ["id"]= 326,
+  ["libId"]= 1210103,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[327] = {
+  ["id"]= 327,
+  ["libId"]= 1210103,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[328] = {
+  ["id"]= 328,
+  ["libId"]= 1210103,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[329] = {
+  ["id"]= 329,
+  ["libId"]= 1210103,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[330] = {
+  ["id"]= 330,
+  ["libId"]= 1210103,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[331] = {
+  ["id"]= 331,
+  ["libId"]= 1210103,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[332] = {
+  ["id"]= 332,
+  ["libId"]= 1210103,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[333] = {
+  ["id"]= 333,
+  ["libId"]= 1210103,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[334] = {
+  ["id"]= 334,
+  ["libId"]= 1210103,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[335] = {
+  ["id"]= 335,
+  ["libId"]= 1210103,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[336] = {
+  ["id"]= 336,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1210103,
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+},
+[337] = {
+  ["id"]= 337,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1210104
+},
+[338] = {
+  ["id"]= 338,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["libId"]= 1210104,
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[339] = {
+  ["id"]= 339,
+  ["libId"]= 1210104,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[340] = {
+  ["id"]= 340,
+  ["libId"]= 1210104,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[341] = {
+  ["id"]= 341,
+  ["libId"]= 1210104,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[342] = {
+  ["id"]= 342,
+  ["libId"]= 1210104,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[343] = {
+  ["id"]= 343,
+  ["libId"]= 1210104,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[344] = {
+  ["id"]= 344,
+  ["libId"]= 1210104,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[345] = {
+  ["id"]= 345,
+  ["libId"]= 1210104,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[346] = {
+  ["id"]= 346,
+  ["libId"]= 1210104,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[347] = {
+  ["id"]= 347,
+  ["libId"]= 1210104,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[348] = {
+  ["id"]= 348,
+  ["libId"]= 1210104,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[349] = {
+  ["id"]= 349,
+  ["libId"]= 1210104,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[350] = {
+  ["id"]= 350,
+  ["libId"]= 1210104,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[351] = {
+  ["id"]= 351,
+  ["libId"]= 1210104,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[352] = {
+  ["id"]= 352,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1210104,
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+},
+[353] = {
+  ["id"]= 353,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1210201
+},
+[354] = {
+  ["id"]= 354,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["libId"]= 1210201,
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[355] = {
+  ["id"]= 355,
+  ["libId"]= 1210201,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[356] = {
+  ["id"]= 356,
+  ["libId"]= 1210201,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[357] = {
+  ["id"]= 357,
+  ["libId"]= 1210201,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[358] = {
+  ["id"]= 358,
+  ["libId"]= 1210201,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[359] = {
+  ["id"]= 359,
+  ["libId"]= 1210201,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[360] = {
+  ["id"]= 360,
+  ["libId"]= 1210201,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[361] = {
+  ["id"]= 361,
+  ["libId"]= 1210201,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[362] = {
+  ["id"]= 362,
+  ["libId"]= 1210201,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[363] = {
+  ["id"]= 363,
+  ["libId"]= 1210201,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[364] = {
+  ["id"]= 364,
+  ["libId"]= 1210201,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[365] = {
+  ["id"]= 365,
+  ["libId"]= 1210201,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[366] = {
+  ["id"]= 366,
+  ["libId"]= 1210201,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[367] = {
+  ["id"]= 367,
+  ["libId"]= 1210201,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[368] = {
+  ["id"]= 368,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1210201,
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+},
+[369] = {
+  ["id"]= 369,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1210301
+},
+[370] = {
+  ["id"]= 370,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["libId"]= 1210301,
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[371] = {
+  ["id"]= 371,
+  ["libId"]= 1210301,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[372] = {
+  ["id"]= 372,
+  ["libId"]= 1210301,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[373] = {
+  ["id"]= 373,
+  ["libId"]= 1210301,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[374] = {
+  ["id"]= 374,
+  ["libId"]= 1210301,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[375] = {
+  ["id"]= 375,
+  ["libId"]= 1210301,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[376] = {
+  ["id"]= 376,
+  ["libId"]= 1210301,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[377] = {
+  ["id"]= 377,
+  ["libId"]= 1210301,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[378] = {
+  ["id"]= 378,
+  ["libId"]= 1210301,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[379] = {
+  ["id"]= 379,
+  ["libId"]= 1210301,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[380] = {
+  ["id"]= 380,
+  ["libId"]= 1210301,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[381] = {
+  ["id"]= 381,
+  ["libId"]= 1210301,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[382] = {
+  ["id"]= 382,
+  ["libId"]= 1210301,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[383] = {
+  ["id"]= 383,
+  ["libId"]= 1210301,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[384] = {
+  ["id"]= 384,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1210301,
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+},
+[385] = {
+  ["id"]= 385,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1310101
+},
+[386] = {
+  ["id"]= 386,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["libId"]= 1310101,
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[387] = {
+  ["id"]= 387,
+  ["libId"]= 1310101,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[388] = {
+  ["id"]= 388,
+  ["libId"]= 1310101,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[389] = {
+  ["id"]= 389,
+  ["libId"]= 1310101,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[390] = {
+  ["id"]= 390,
+  ["libId"]= 1310101,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[391] = {
+  ["id"]= 391,
+  ["libId"]= 1310101,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[392] = {
+  ["id"]= 392,
+  ["libId"]= 1310101,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[393] = {
+  ["id"]= 393,
+  ["libId"]= 1310101,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[394] = {
+  ["id"]= 394,
+  ["libId"]= 1310101,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[395] = {
+  ["id"]= 395,
+  ["libId"]= 1310101,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[396] = {
+  ["id"]= 396,
+  ["libId"]= 1310101,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[397] = {
+  ["id"]= 397,
+  ["libId"]= 1310101,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[398] = {
+  ["id"]= 398,
+  ["libId"]= 1310101,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[399] = {
+  ["id"]= 399,
+  ["libId"]= 1310101,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[400] = {
+  ["id"]= 400,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1310101,
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+},
+[401] = {
+  ["id"]= 401,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1310102
+},
+[402] = {
+  ["id"]= 402,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["libId"]= 1310102,
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[403] = {
+  ["id"]= 403,
+  ["libId"]= 1310102,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[404] = {
+  ["id"]= 404,
+  ["libId"]= 1310102,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[405] = {
+  ["id"]= 405,
+  ["libId"]= 1310102,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[406] = {
+  ["id"]= 406,
+  ["libId"]= 1310102,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[407] = {
+  ["id"]= 407,
+  ["libId"]= 1310102,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[408] = {
+  ["id"]= 408,
+  ["libId"]= 1310102,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[409] = {
+  ["id"]= 409,
+  ["libId"]= 1310102,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[410] = {
+  ["id"]= 410,
+  ["libId"]= 1310102,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[411] = {
+  ["id"]= 411,
+  ["libId"]= 1310102,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[412] = {
+  ["id"]= 412,
+  ["libId"]= 1310102,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[413] = {
+  ["id"]= 413,
+  ["libId"]= 1310102,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[414] = {
+  ["id"]= 414,
+  ["libId"]= 1310102,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[415] = {
+  ["id"]= 415,
+  ["libId"]= 1310102,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[416] = {
+  ["id"]= 416,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1310102,
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+},
+[417] = {
+  ["id"]= 417,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1310103
+},
+[418] = {
+  ["id"]= 418,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["libId"]= 1310103,
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[419] = {
+  ["id"]= 419,
+  ["libId"]= 1310103,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[420] = {
+  ["id"]= 420,
+  ["libId"]= 1310103,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[421] = {
+  ["id"]= 421,
+  ["libId"]= 1310103,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[422] = {
+  ["id"]= 422,
+  ["libId"]= 1310103,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[423] = {
+  ["id"]= 423,
+  ["libId"]= 1310103,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[424] = {
+  ["id"]= 424,
+  ["libId"]= 1310103,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[425] = {
+  ["id"]= 425,
+  ["libId"]= 1310103,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[426] = {
+  ["id"]= 426,
+  ["libId"]= 1310103,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[427] = {
+  ["id"]= 427,
+  ["libId"]= 1310103,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[428] = {
+  ["id"]= 428,
+  ["libId"]= 1310103,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[429] = {
+  ["id"]= 429,
+  ["libId"]= 1310103,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[430] = {
+  ["id"]= 430,
+  ["libId"]= 1310103,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[431] = {
+  ["id"]= 431,
+  ["libId"]= 1310103,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[432] = {
+  ["id"]= 432,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1310103,
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+},
+[433] = {
+  ["id"]= 433,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1310104
+},
+[434] = {
+  ["id"]= 434,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["libId"]= 1310104,
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[435] = {
+  ["id"]= 435,
+  ["libId"]= 1310104,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[436] = {
+  ["id"]= 436,
+  ["libId"]= 1310104,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[437] = {
+  ["id"]= 437,
+  ["libId"]= 1310104,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[438] = {
+  ["id"]= 438,
+  ["libId"]= 1310104,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[439] = {
+  ["id"]= 439,
+  ["libId"]= 1310104,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[440] = {
+  ["id"]= 440,
+  ["libId"]= 1310104,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[441] = {
+  ["id"]= 441,
+  ["libId"]= 1310104,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[442] = {
+  ["id"]= 442,
+  ["libId"]= 1310104,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[443] = {
+  ["id"]= 443,
+  ["libId"]= 1310104,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[444] = {
+  ["id"]= 444,
+  ["libId"]= 1310104,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[445] = {
+  ["id"]= 445,
+  ["libId"]= 1310104,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[446] = {
+  ["id"]= 446,
+  ["libId"]= 1310104,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[447] = {
+  ["id"]= 447,
+  ["libId"]= 1310104,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[448] = {
+  ["id"]= 448,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1310104,
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+},
+[449] = {
+  ["id"]= 449,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1310201
+},
+[450] = {
+  ["id"]= 450,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["libId"]= 1310201,
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[451] = {
+  ["id"]= 451,
+  ["libId"]= 1310201,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[452] = {
+  ["id"]= 452,
+  ["libId"]= 1310201,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[453] = {
+  ["id"]= 453,
+  ["libId"]= 1310201,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[454] = {
+  ["id"]= 454,
+  ["libId"]= 1310201,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[455] = {
+  ["id"]= 455,
+  ["libId"]= 1310201,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[456] = {
+  ["id"]= 456,
+  ["libId"]= 1310201,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[457] = {
+  ["id"]= 457,
+  ["libId"]= 1310201,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[458] = {
+  ["id"]= 458,
+  ["libId"]= 1310201,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[459] = {
+  ["id"]= 459,
+  ["libId"]= 1310201,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[460] = {
+  ["id"]= 460,
+  ["libId"]= 1310201,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[461] = {
+  ["id"]= 461,
+  ["libId"]= 1310201,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[462] = {
+  ["id"]= 462,
+  ["libId"]= 1310201,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[463] = {
+  ["id"]= 463,
+  ["libId"]= 1310201,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[464] = {
+  ["id"]= 464,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1310201,
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+},
+[465] = {
+  ["id"]= 465,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1310301
+},
+[466] = {
+  ["id"]= 466,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["libId"]= 1310301,
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[467] = {
+  ["id"]= 467,
+  ["libId"]= 1310301,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[468] = {
+  ["id"]= 468,
+  ["libId"]= 1310301,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[469] = {
+  ["id"]= 469,
+  ["libId"]= 1310301,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[470] = {
+  ["id"]= 470,
+  ["libId"]= 1310301,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[471] = {
+  ["id"]= 471,
+  ["libId"]= 1310301,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[472] = {
+  ["id"]= 472,
+  ["libId"]= 1310301,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[473] = {
+  ["id"]= 473,
+  ["libId"]= 1310301,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[474] = {
+  ["id"]= 474,
+  ["libId"]= 1310301,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[475] = {
+  ["id"]= 475,
+  ["libId"]= 1310301,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[476] = {
+  ["id"]= 476,
+  ["libId"]= 1310301,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[477] = {
+  ["id"]= 477,
+  ["libId"]= 1310301,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[478] = {
+  ["id"]= 478,
+  ["libId"]= 1310301,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[479] = {
+  ["id"]= 479,
+  ["libId"]= 1310301,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[480] = {
+  ["id"]= 480,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1310301,
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+},
+[481] = {
+  ["id"]= 481,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1410101
+},
+[482] = {
+  ["id"]= 482,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["libId"]= 1410101,
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[483] = {
+  ["id"]= 483,
+  ["libId"]= 1410101,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[484] = {
+  ["id"]= 484,
+  ["libId"]= 1410101,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[485] = {
+  ["id"]= 485,
+  ["libId"]= 1410101,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[486] = {
+  ["id"]= 486,
+  ["libId"]= 1410101,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[487] = {
+  ["id"]= 487,
+  ["libId"]= 1410101,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[488] = {
+  ["id"]= 488,
+  ["libId"]= 1410101,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[489] = {
+  ["id"]= 489,
+  ["libId"]= 1410101,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[490] = {
+  ["id"]= 490,
+  ["libId"]= 1410101,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[491] = {
+  ["id"]= 491,
+  ["libId"]= 1410101,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[492] = {
+  ["id"]= 492,
+  ["libId"]= 1410101,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[493] = {
+  ["id"]= 493,
+  ["libId"]= 1410101,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[494] = {
+  ["id"]= 494,
+  ["libId"]= 1410101,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[495] = {
+  ["id"]= 495,
+  ["libId"]= 1410101,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[496] = {
+  ["id"]= 496,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1410101,
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+},
+[497] = {
+  ["id"]= 497,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1410102
+},
+[498] = {
+  ["id"]= 498,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["libId"]= 1410102,
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[499] = {
+  ["id"]= 499,
+  ["libId"]= 1410102,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[500] = {
+  ["id"]= 500,
+  ["libId"]= 1410102,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[501] = {
+  ["id"]= 501,
+  ["libId"]= 1410102,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[502] = {
+  ["id"]= 502,
+  ["libId"]= 1410102,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[503] = {
+  ["id"]= 503,
+  ["libId"]= 1410102,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[504] = {
+  ["id"]= 504,
+  ["libId"]= 1410102,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[505] = {
+  ["id"]= 505,
+  ["libId"]= 1410102,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[506] = {
+  ["id"]= 506,
+  ["libId"]= 1410102,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[507] = {
+  ["id"]= 507,
+  ["libId"]= 1410102,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[508] = {
+  ["id"]= 508,
+  ["libId"]= 1410102,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[509] = {
+  ["id"]= 509,
+  ["libId"]= 1410102,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[510] = {
+  ["id"]= 510,
+  ["libId"]= 1410102,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[511] = {
+  ["id"]= 511,
+  ["libId"]= 1410102,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[512] = {
+  ["id"]= 512,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1410102,
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+},
+[513] = {
+  ["id"]= 513,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1410103
+},
+[514] = {
+  ["id"]= 514,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["libId"]= 1410103,
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[515] = {
+  ["id"]= 515,
+  ["libId"]= 1410103,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[516] = {
+  ["id"]= 516,
+  ["libId"]= 1410103,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[517] = {
+  ["id"]= 517,
+  ["libId"]= 1410103,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[518] = {
+  ["id"]= 518,
+  ["libId"]= 1410103,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[519] = {
+  ["id"]= 519,
+  ["libId"]= 1410103,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[520] = {
+  ["id"]= 520,
+  ["libId"]= 1410103,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[521] = {
+  ["id"]= 521,
+  ["libId"]= 1410103,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[522] = {
+  ["id"]= 522,
+  ["libId"]= 1410103,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[523] = {
+  ["id"]= 523,
+  ["libId"]= 1410103,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[524] = {
+  ["id"]= 524,
+  ["libId"]= 1410103,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[525] = {
+  ["id"]= 525,
+  ["libId"]= 1410103,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[526] = {
+  ["id"]= 526,
+  ["libId"]= 1410103,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[527] = {
+  ["id"]= 527,
+  ["libId"]= 1410103,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[528] = {
+  ["id"]= 528,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1410103,
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+},
+[529] = {
+  ["id"]= 529,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1410104
+},
+[530] = {
+  ["id"]= 530,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["libId"]= 1410104,
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[531] = {
+  ["id"]= 531,
+  ["libId"]= 1410104,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[532] = {
+  ["id"]= 532,
+  ["libId"]= 1410104,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[533] = {
+  ["id"]= 533,
+  ["libId"]= 1410104,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[534] = {
+  ["id"]= 534,
+  ["libId"]= 1410104,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[535] = {
+  ["id"]= 535,
+  ["libId"]= 1410104,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[536] = {
+  ["id"]= 536,
+  ["libId"]= 1410104,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[537] = {
+  ["id"]= 537,
+  ["libId"]= 1410104,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[538] = {
+  ["id"]= 538,
+  ["libId"]= 1410104,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[539] = {
+  ["id"]= 539,
+  ["libId"]= 1410104,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[540] = {
+  ["id"]= 540,
+  ["libId"]= 1410104,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[541] = {
+  ["id"]= 541,
+  ["libId"]= 1410104,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[542] = {
+  ["id"]= 542,
+  ["libId"]= 1410104,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[543] = {
+  ["id"]= 543,
+  ["libId"]= 1410104,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[544] = {
+  ["id"]= 544,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1410104,
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+},
+[545] = {
+  ["id"]= 545,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1410201
+},
+[546] = {
+  ["id"]= 546,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["libId"]= 1410201,
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[547] = {
+  ["id"]= 547,
+  ["libId"]= 1410201,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[548] = {
+  ["id"]= 548,
+  ["libId"]= 1410201,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[549] = {
+  ["id"]= 549,
+  ["libId"]= 1410201,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[550] = {
+  ["id"]= 550,
+  ["libId"]= 1410201,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[551] = {
+  ["id"]= 551,
+  ["libId"]= 1410201,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[552] = {
+  ["id"]= 552,
+  ["libId"]= 1410201,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[553] = {
+  ["id"]= 553,
+  ["libId"]= 1410201,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[554] = {
+  ["id"]= 554,
+  ["libId"]= 1410201,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[555] = {
+  ["id"]= 555,
+  ["libId"]= 1410201,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[556] = {
+  ["id"]= 556,
+  ["libId"]= 1410201,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[557] = {
+  ["id"]= 557,
+  ["libId"]= 1410201,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[558] = {
+  ["id"]= 558,
+  ["libId"]= 1410201,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[559] = {
+  ["id"]= 559,
+  ["libId"]= 1410201,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[560] = {
+  ["id"]= 560,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1410201,
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+},
+[561] = {
+  ["id"]= 561,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1410301
+},
+[562] = {
+  ["id"]= 562,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["libId"]= 1410301,
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[563] = {
+  ["id"]= 563,
+  ["libId"]= 1410301,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[564] = {
+  ["id"]= 564,
+  ["libId"]= 1410301,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[565] = {
+  ["id"]= 565,
+  ["libId"]= 1410301,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[566] = {
+  ["id"]= 566,
+  ["libId"]= 1410301,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[567] = {
+  ["id"]= 567,
+  ["libId"]= 1410301,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[568] = {
+  ["id"]= 568,
+  ["libId"]= 1410301,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[569] = {
+  ["id"]= 569,
+  ["libId"]= 1410301,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[570] = {
+  ["id"]= 570,
+  ["libId"]= 1410301,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[571] = {
+  ["id"]= 571,
+  ["libId"]= 1410301,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[572] = {
+  ["id"]= 572,
+  ["libId"]= 1410301,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[573] = {
+  ["id"]= 573,
+  ["libId"]= 1410301,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[574] = {
+  ["id"]= 574,
+  ["libId"]= 1410301,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[575] = {
+  ["id"]= 575,
+  ["libId"]= 1410301,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[576] = {
+  ["id"]= 576,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1410301,
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+},
+[577] = {
+  ["id"]= 577,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1610101
+},
+[578] = {
+  ["id"]= 578,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["libId"]= 1610101,
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[579] = {
+  ["id"]= 579,
+  ["libId"]= 1610101,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[580] = {
+  ["id"]= 580,
+  ["libId"]= 1610101,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[581] = {
+  ["id"]= 581,
+  ["libId"]= 1610101,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[582] = {
+  ["id"]= 582,
+  ["libId"]= 1610101,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[583] = {
+  ["id"]= 583,
+  ["libId"]= 1610101,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[584] = {
+  ["id"]= 584,
+  ["libId"]= 1610101,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[585] = {
+  ["id"]= 585,
+  ["libId"]= 1610101,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[586] = {
+  ["id"]= 586,
+  ["libId"]= 1610101,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[587] = {
+  ["id"]= 587,
+  ["libId"]= 1610101,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[588] = {
+  ["id"]= 588,
+  ["libId"]= 1610101,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[589] = {
+  ["id"]= 589,
+  ["libId"]= 1610101,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[590] = {
+  ["id"]= 590,
+  ["libId"]= 1610101,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[591] = {
+  ["id"]= 591,
+  ["libId"]= 1610101,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[592] = {
+  ["id"]= 592,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1610101,
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+},
+[593] = {
+  ["id"]= 593,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1610102
+},
+[594] = {
+  ["id"]= 594,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["libId"]= 1610102,
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[595] = {
+  ["id"]= 595,
+  ["libId"]= 1610102,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[596] = {
+  ["id"]= 596,
+  ["libId"]= 1610102,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[597] = {
+  ["id"]= 597,
+  ["libId"]= 1610102,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[598] = {
+  ["id"]= 598,
+  ["libId"]= 1610102,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[599] = {
+  ["id"]= 599,
+  ["libId"]= 1610102,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[600] = {
+  ["id"]= 600,
+  ["libId"]= 1610102,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[601] = {
+  ["id"]= 601,
+  ["libId"]= 1610102,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[602] = {
+  ["id"]= 602,
+  ["libId"]= 1610102,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[603] = {
+  ["id"]= 603,
+  ["libId"]= 1610102,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[604] = {
+  ["id"]= 604,
+  ["libId"]= 1610102,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[605] = {
+  ["id"]= 605,
+  ["libId"]= 1610102,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[606] = {
+  ["id"]= 606,
+  ["libId"]= 1610102,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[607] = {
+  ["id"]= 607,
+  ["libId"]= 1610102,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[608] = {
+  ["id"]= 608,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1610102,
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+},
+[609] = {
+  ["id"]= 609,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1610103
+},
+[610] = {
+  ["id"]= 610,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["libId"]= 1610103,
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[611] = {
+  ["id"]= 611,
+  ["libId"]= 1610103,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[612] = {
+  ["id"]= 612,
+  ["libId"]= 1610103,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[613] = {
+  ["id"]= 613,
+  ["libId"]= 1610103,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[614] = {
+  ["id"]= 614,
+  ["libId"]= 1610103,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[615] = {
+  ["id"]= 615,
+  ["libId"]= 1610103,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[616] = {
+  ["id"]= 616,
+  ["libId"]= 1610103,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[617] = {
+  ["id"]= 617,
+  ["libId"]= 1610103,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[618] = {
+  ["id"]= 618,
+  ["libId"]= 1610103,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[619] = {
+  ["id"]= 619,
+  ["libId"]= 1610103,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[620] = {
+  ["id"]= 620,
+  ["libId"]= 1610103,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[621] = {
+  ["id"]= 621,
+  ["libId"]= 1610103,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[622] = {
+  ["id"]= 622,
+  ["libId"]= 1610103,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[623] = {
+  ["id"]= 623,
+  ["libId"]= 1610103,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[624] = {
+  ["id"]= 624,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1610103,
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+},
+[625] = {
+  ["id"]= 625,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1610104
+},
+[626] = {
+  ["id"]= 626,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["libId"]= 1610104,
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[627] = {
+  ["id"]= 627,
+  ["libId"]= 1610104,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[628] = {
+  ["id"]= 628,
+  ["libId"]= 1610104,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[629] = {
+  ["id"]= 629,
+  ["libId"]= 1610104,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[630] = {
+  ["id"]= 630,
+  ["libId"]= 1610104,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[631] = {
+  ["id"]= 631,
+  ["libId"]= 1610104,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[632] = {
+  ["id"]= 632,
+  ["libId"]= 1610104,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[633] = {
+  ["id"]= 633,
+  ["libId"]= 1610104,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[634] = {
+  ["id"]= 634,
+  ["libId"]= 1610104,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[635] = {
+  ["id"]= 635,
+  ["libId"]= 1610104,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[636] = {
+  ["id"]= 636,
+  ["libId"]= 1610104,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[637] = {
+  ["id"]= 637,
+  ["libId"]= 1610104,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[638] = {
+  ["id"]= 638,
+  ["libId"]= 1610104,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[639] = {
+  ["id"]= 639,
+  ["libId"]= 1610104,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[640] = {
+  ["id"]= 640,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1610104,
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+},
+[641] = {
+  ["id"]= 641,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1610201
+},
+[642] = {
+  ["id"]= 642,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["libId"]= 1610201,
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[643] = {
+  ["id"]= 643,
+  ["libId"]= 1610201,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[644] = {
+  ["id"]= 644,
+  ["libId"]= 1610201,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[645] = {
+  ["id"]= 645,
+  ["libId"]= 1610201,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[646] = {
+  ["id"]= 646,
+  ["libId"]= 1610201,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[647] = {
+  ["id"]= 647,
+  ["libId"]= 1610201,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[648] = {
+  ["id"]= 648,
+  ["libId"]= 1610201,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[649] = {
+  ["id"]= 649,
+  ["libId"]= 1610201,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[650] = {
+  ["id"]= 650,
+  ["libId"]= 1610201,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[651] = {
+  ["id"]= 651,
+  ["libId"]= 1610201,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[652] = {
+  ["id"]= 652,
+  ["libId"]= 1610201,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[653] = {
+  ["id"]= 653,
+  ["libId"]= 1610201,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[654] = {
+  ["id"]= 654,
+  ["libId"]= 1610201,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[655] = {
+  ["id"]= 655,
+  ["libId"]= 1610201,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[656] = {
+  ["id"]= 656,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1610201,
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+},
+[657] = {
+  ["id"]= 657,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1610301
+},
+[658] = {
+  ["id"]= 658,
+  ["IntimacyWeight"]= {
+    0,
+    0
+  },
+  ["libId"]= 1610301,
+  ["propLv"]= 1,
+  ["randomRange"]= {
+    1,
+    2
+  },
+  ["randomWeight"]= {
+    1,
+    1
+  }
+},
+[659] = {
+  ["id"]= 659,
+  ["libId"]= 1610301,
+  ["propLv"]= 2,
+  ["randomRange"]= {
+    1,
+    2,
+    3
+  },
+  ["randomWeight"]= {
+    22,
+    44,
+    33
+  }
+},
+[660] = {
+  ["id"]= 660,
+  ["libId"]= 1610301,
+  ["propLv"]= 3,
+  ["randomRange"]= {
+    2,
+    3,
+    4
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[661] = {
+  ["id"]= 661,
+  ["libId"]= 1610301,
+  ["propLv"]= 4,
+  ["randomRange"]= {
+    3,
+    4,
+    5
+  },
+  ["randomWeight"]= {
+    25,
+    50,
+    25
+  }
+},
+[662] = {
+  ["id"]= 662,
+  ["libId"]= 1610301,
+  ["propLv"]= 5,
+  ["randomRange"]= {
+    4,
+    5,
+    6
+  },
+  ["randomWeight"]= {
+    28,
+    56,
+    17
+  }
+},
+[663] = {
+  ["id"]= 663,
+  ["libId"]= 1610301,
+  ["propLv"]= 6,
+  ["randomRange"]= {
+    5,
+    6,
+    7
+  },
+  ["randomWeight"]= {
+    29,
+    58,
+    13
+  }
+},
+[664] = {
+  ["id"]= 664,
+  ["libId"]= 1610301,
+  ["propLv"]= 7,
+  ["randomRange"]= {
+    6,
+    7,
+    8
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[665] = {
+  ["id"]= 665,
+  ["libId"]= 1610301,
+  ["propLv"]= 8,
+  ["randomRange"]= {
+    7,
+    8,
+    9
+  },
+  ["randomWeight"]= {
+    30,
+    60,
+    10
+  }
+},
+[666] = {
+  ["id"]= 666,
+  ["libId"]= 1610301,
+  ["propLv"]= 9,
+  ["randomRange"]= {
+    8,
+    9,
+    10
+  },
+  ["randomWeight"]= {
+    31,
+    62,
+    8
+  }
+},
+[667] = {
+  ["id"]= 667,
+  ["libId"]= 1610301,
+  ["propLv"]= 10,
+  ["randomRange"]= {
+    9,
+    10,
+    11
+  },
+  ["randomWeight"]= {
+    31,
+    63,
+    6
+  }
+},
+[668] = {
+  ["id"]= 668,
+  ["libId"]= 1610301,
+  ["propLv"]= 11,
+  ["randomRange"]= {
+    10,
+    11,
+    12
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[669] = {
+  ["id"]= 669,
+  ["libId"]= 1610301,
+  ["propLv"]= 12,
+  ["randomRange"]= {
+    11,
+    12,
+    13
+  },
+  ["randomWeight"]= {
+    32,
+    63,
+    5
+  }
+},
+[670] = {
+  ["id"]= 670,
+  ["libId"]= 1610301,
+  ["propLv"]= 13,
+  ["randomRange"]= {
+    12,
+    13,
+    14
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    4
+  }
+},
+[671] = {
+  ["id"]= 671,
+  ["libId"]= 1610301,
+  ["propLv"]= 14,
+  ["randomRange"]= {
+    13,
+    14,
+    15
+  },
+  ["randomWeight"]= {
+    32,
+    64,
+    3
+  }
+},
+[672] = {
+  ["id"]= 672,
+  ["IntimacyWeight"]= {
+    0
+  },
+  ["libId"]= 1610301,
+  ["propLv"]= 15,
+  ["randomRange"]= {
+    15
+  }
+}
+}
+local baseTable={
+  ["id"]= 1,
+  ["IntimacyWeight"]= {
+    0,
+    0,
+    3
+  },
+  ["libId"]= 1010101,
+  ["propLv"]= 0,
+  ["randomRange"]= {
+    1
+  },
+  ["randomWeight"]= {
+    1
+  }
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

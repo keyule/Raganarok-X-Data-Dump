@@ -1,0 +1,9 @@
+TextAsset Base
+	string m_Name = "data_SoundEffects_SoundEffects"
+	string m_Script = "return {
+[10001] = {
+  ["backID"]= 4107009,
+  ["soundID"]= 10001
+}
+}
+"

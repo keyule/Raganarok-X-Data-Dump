@@ -1,0 +1,6778 @@
+TextAsset Base
+	string m_Name = "data_teleport_Teleport"
+	string m_Script = "local table= {
+[400201] = {
+  ["bornPOS"]= {
+    ["x"]= 0,
+    ["y"]= 12.06,
+    ["z"]= 242.71
+  },
+  ["BornRadius"]= 10,
+  ["IsShowList"]= 0,
+  ["ResId"]= 0,
+  ["SceneId"]= 4002,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 0,
+      ["y"]= 12.06,
+      ["z"]= 242.71
+    },
+    ["radius"]= 0,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["TargetName"]= "\n",
+  ["TargetTeleporterId"]= 0
+},
+[400204] = {
+  ["bornPOS"]= {
+    ["x"]= 2.33,
+    ["y"]= -9.54,
+    ["z"]= 293.96
+  },
+  ["BornRadius"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 40021,
+  ["SceneId"]= 4002,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -7.05,
+      ["y"]= 11.58,
+      ["z"]= 45.7
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 400204,
+  ["TargetName"]= "\n",
+  ["TargetTeleporterId"]= 400201
+},
+[400301] = {
+  ["bornPOS"]= {
+    ["x"]= 0,
+    ["y"]= 12.06,
+    ["z"]= 242.71
+  },
+  ["BornRadius"]= 10,
+  ["IsShowList"]= 0,
+  ["ResId"]= 0,
+  ["SceneId"]= 4003,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 0,
+      ["y"]= 12.06,
+      ["z"]= 242.71
+    },
+    ["radius"]= 0,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 400301,
+  ["TargetTeleporterId"]= 0
+},
+[400302] = {
+  ["bornPOS"]= {
+    ["x"]= 2.33,
+    ["y"]= -9.54,
+    ["z"]= 293.96
+  },
+  ["MapId"]= 40031,
+  ["SceneId"]= 4003,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -7.05,
+      ["y"]= 11.58,
+      ["z"]= 45.7
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 400302,
+  ["TargetTeleporterId"]= 400301
+},
+[1010401] = {
+  ["bornPOS"]= {
+    ["x"]= -0.07,
+    ["y"]= 5.555204,
+    ["z"]= -133.78
+  },
+  ["MapId"]= 1010,
+  ["Order"]= 1,
+  ["ResId"]= 10002,
+  ["SceneId"]= 1010,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 0.24,
+      ["y"]= -4.01,
+      ["z"]= -139.97
+    },
+    ["radius"]= 5,
+    ["rotation"]= {
+      ["x"]= 0.99999994,
+      ["y"]= 0,
+      ["z"]= 5.96046448E-08
+    }
+  },
+  ["staticId"]= 1010401,
+  ["TargetName"]= "GateName1010401",
+  ["TargetTeleporterId"]= 1020402
+},
+[1010402] = {
+  ["bornPOS"]= {
+    ["x"]= -87.91,
+    ["y"]= -3.988285,
+    ["z"]= -0.03
+  },
+  ["direction"]= 90,
+  ["directionList"]= {
+    0.99999994,
+    5.96046448E-08
+  },
+  ["MapId"]= 1010,
+  ["Order"]= 2,
+  ["ResId"]= 10002,
+  ["SceneId"]= 1010,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -99.5,
+      ["y"]= -3.98,
+      ["z"]= -0.15
+    },
+    ["radius"]= 5,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1010402,
+  ["TargetName"]= "GateName1010402",
+  ["TargetTeleporterId"]= 1030402
+},
+[1010403] = {
+  ["bornPOS"]= {
+    ["x"]= 54.51,
+    ["y"]= 1.92,
+    ["z"]= 89.35
+  },
+  ["direction"]= -180,
+  ["directionList"]= {
+    8.742278E-08,
+    -1
+  },
+  ["IconType"]= 2,
+  ["MapId"]= 1010,
+  ["Order"]= 3,
+  ["SceneId"]= 1010,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 57.66,
+      ["y"]= 1.38000083,
+      ["z"]= 92.51
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1010403,
+  ["TargetName"]= "GateName1010403",
+  ["TargetTeleporterId"]= 1520401
+},
+[1010404] = {
+  ["bornPOS"]= {
+    ["x"]= -85.33,
+    ["y"]= 0.01,
+    ["z"]= 15.64
+  },
+  ["direction"]= -180,
+  ["directionList"]= {
+    8.742278E-08,
+    -1
+  },
+  ["MapId"]= 1010,
+  ["Order"]= 4,
+  ["SceneId"]= 1010,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -90.84,
+      ["y"]= 0.01,
+      ["z"]= 20.1
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1010404,
+  ["TargetName"]= "GateName1010404",
+  ["TargetTeleporterId"]= 1050402
+},
+[1010405] = {
+  ["bornPOS"]= {
+    ["x"]= -54.06,
+    ["y"]= 0.009984973,
+    ["z"]= -90.31
+  },
+  ["direction"]= 45,
+  ["directionList"]= {
+    0.7071068,
+    0.7071067
+  },
+  ["IconType"]= 2,
+  ["MapId"]= 1010,
+  ["Order"]= 5,
+  ["SceneId"]= 1010,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -62.92,
+      ["y"]= 0.02079773,
+      ["z"]= -97.42
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1010405,
+  ["TargetName"]= "GateName1010405",
+  ["TargetTeleporterId"]= 1530401
+},
+[1010406] = {
+  ["bornPOS"]= {
+    ["x"]= -33.54,
+    ["y"]= 0.01362036,
+    ["z"]= 32.8
+  },
+  ["direction"]= 90,
+  ["directionList"]= {
+    0.99999994,
+    5.96046448E-08
+  },
+  ["IconType"]= 2,
+  ["MapId"]= 1010,
+  ["Order"]= 6,
+  ["SceneId"]= 1010,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -38.17,
+      ["y"]= 0.0140647888,
+      ["z"]= 32.66
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1010406,
+  ["TargetName"]= "GateName1010406",
+  ["TargetTeleporterId"]= 1510401
+},
+[1020401] = {
+  ["bornPOS"]= {
+    ["x"]= 271.7,
+    ["y"]= 18.08973,
+    ["z"]= 58.25
+  },
+  ["BornRadius"]= 1,
+  ["MapId"]= 1020,
+  ["Order"]= 1,
+  ["SceneId"]= 1020,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 271.82,
+      ["y"]= 19.05,
+      ["z"]= 39.85
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1020401,
+  ["TargetName"]= "GateName1020401",
+  ["TargetTeleporterId"]= 1110401
+},
+[1020402] = {
+  ["bornPOS"]= {
+    ["x"]= -54.93,
+    ["y"]= 12.76,
+    ["z"]= 215.62
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= -180,
+  ["directionList"]= {
+    8.742278E-08,
+    -1
+  },
+  ["MapId"]= 1020,
+  ["Order"]= 2,
+  ["ResId"]= 10002,
+  ["SceneId"]= 1020,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -54.98,
+      ["y"]= 8.88,
+      ["z"]= 222.69
+    },
+    ["radius"]= 4,
+    ["rotation"]= {
+      ["x"]= -0.9999455,
+      ["y"]= 0,
+      ["z"]= 0.0104392171
+    }
+  },
+  ["staticId"]= 1020402,
+  ["TargetName"]= "GateName1020402",
+  ["TargetTeleporterId"]= 1010401
+},
+[1020403] = {
+  ["bornPOS"]= {
+    ["x"]= 13.2,
+    ["y"]= 6.492691,
+    ["z"]= -64
+  },
+  ["BornRadius"]= 1,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 1020,
+  ["Order"]= 3,
+  ["SceneId"]= 1020,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 15.07,
+      ["y"]= 11.12,
+      ["z"]= -67.79
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= -0.6203544,
+      ["y"]= 0,
+      ["z"]= 0.7843216
+    }
+  },
+  ["staticId"]= 1020403,
+  ["TargetName"]= "GateName1020403",
+  ["TargetTeleporterId"]= 1320401
+},
+[1030401] = {
+  ["bornPOS"]= {
+    ["x"]= 21.12069,
+    ["y"]= 9.085321,
+    ["z"]= 90.85854
+  },
+  ["direction"]= -172.785,
+  ["directionList"]= {
+    -0.125592917,
+    -0.9920819
+  },
+  ["MapId"]= 1030,
+  ["Order"]= 2,
+  ["SceneId"]= 1030,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 20.12,
+      ["y"]= 9.27,
+      ["z"]= 91.07
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= -0.125592843,
+      ["y"]= 0,
+      ["z"]= -0.9920819
+    }
+  },
+  ["staticId"]= 1030401,
+  ["TargetName"]= "GateName1030401",
+  ["TargetTeleporterId"]= 1220402
+},
+[1030402] = {
+  ["bornPOS"]= {
+    ["x"]= 108.7775,
+    ["y"]= 7.498632,
+    ["z"]= 3.744571
+  },
+  ["direction"]= -90,
+  ["directionList"]= {
+    -0.99999994,
+    5.96046448E-08
+  },
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 1030,
+  ["Order"]= 1,
+  ["ResId"]= 10002,
+  ["SceneId"]= 1030,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 121.46,
+      ["y"]= 4.93,
+      ["z"]= 3.72
+    },
+    ["radius"]= 5,
+    ["rotation"]= {
+      ["x"]= -0.008633331,
+      ["y"]= 0,
+      ["z"]= 0.999962747
+    }
+  },
+  ["staticId"]= 1030402,
+  ["TargetName"]= "GateName1030402",
+  ["TargetTeleporterId"]= 1010402
+},
+[1030403] = {
+  ["bornPOS"]= {
+    ["x"]= -0.62,
+    ["y"]= 4.34,
+    ["z"]= -82.24
+  },
+  ["MapId"]= 1030,
+  ["Order"]= 3,
+  ["SceneId"]= 1030,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -0.62,
+      ["y"]= 2.9,
+      ["z"]= -90.3
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1030403,
+  ["TargetName"]= "GateName1030403",
+  ["TargetTeleporterId"]= 1060402
+},
+[1030404] = {
+  ["bornPOS"]= {
+    ["x"]= -95.73,
+    ["y"]= 7.837196,
+    ["z"]= -93.81
+  },
+  ["direction"]= 11.484,
+  ["directionList"]= {
+    0.199094281,
+    0.97998035
+  },
+  ["MapId"]= 1030,
+  ["Order"]= 3,
+  ["ResId"]= 10002,
+  ["SceneId"]= 1030,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -96.2,
+      ["y"]= 9.383394,
+      ["z"]= -101.7
+    },
+    ["radius"]= 5,
+    ["rotation"]= {
+      ["x"]= 0.9914562,
+      ["y"]= 0,
+      ["z"]= -0.130439639
+    }
+  },
+  ["staticId"]= 1030404,
+  ["TargetName"]= "GateName1030404",
+  ["TargetTeleporterId"]= 1230491
+},
+[1040401] = {
+  ["bornPOS"]= {
+    ["x"]= 274.7659,
+    ["y"]= 70.00974,
+    ["z"]= -55.49752
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= -61.414,
+  ["directionList"]= {
+    -0.8780999,
+    0.478477359
+  },
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 1040,
+  ["Order"]= 1,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 282.76,
+      ["y"]= 70.00974,
+      ["z"]= -57.33
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= -0.998625,
+      ["y"]= 0,
+      ["z"]= -0.052423
+    }
+  },
+  ["staticId"]= 1040401,
+  ["TargetName"]= "GateName1040401",
+  ["TargetTeleporterId"]= 1220403
+},
+[1040403] = {
+  ["bornPOS"]= {
+    ["x"]= 259.9897,
+    ["y"]= 70.00974,
+    ["z"]= -19.84275
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= -59.442,
+  ["directionList"]= {
+    -0.861115,
+    0.508410335
+  },
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 1040,
+  ["Order"]= 99,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 259.95,
+      ["y"]= 70.00974,
+      ["z"]= -15.14
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= -0.861115,
+      ["y"]= 0,
+      ["z"]= 0.508410335
+    }
+  },
+  ["staticId"]= 1040403,
+  ["TargetTeleporterId"]= 1040404
+},
+[1040404] = {
+  ["bornPOS"]= {
+    ["x"]= 170.07,
+    ["y"]= 69.78409,
+    ["z"]= 174.49
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= -3.522,
+  ["directionList"]= {
+    -0.06143179,
+    0.9981113
+  },
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 1040,
+  ["Order"]= 99,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 170.7,
+      ["y"]= 69.63435,
+      ["z"]= 168.6
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= -0.06143179,
+      ["y"]= 0,
+      ["z"]= 0.9981113
+    }
+  },
+  ["staticId"]= 1040404,
+  ["TargetTeleporterId"]= 1040403
+},
+[1040405] = {
+  ["bornPOS"]= {
+    ["x"]= 192.59,
+    ["y"]= 78.08495,
+    ["z"]= 235.07
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= -143.256,
+  ["directionList"]= {
+    -0.5982408,
+    -0.801316261
+  },
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 1040,
+  ["Order"]= 99,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 195.4993,
+      ["y"]= 78.09584,
+      ["z"]= 239.8328
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= -0.5982408,
+      ["y"]= 0,
+      ["z"]= -0.801316261
+    }
+  },
+  ["staticId"]= 1040405,
+  ["TargetTeleporterId"]= 1040406
+},
+[1040406] = {
+  ["bornPOS"]= {
+    ["x"]= 4.626743,
+    ["y"]= 68.78285,
+    ["z"]= 141.6721
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= 154.747,
+  ["directionList"]= {
+    0.426616222,
+    -0.9044329
+  },
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 1040,
+  ["Order"]= 99,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 3.66,
+      ["y"]= 68.78285,
+      ["z"]= 146.99
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0.426616222,
+      ["y"]= 0,
+      ["z"]= -0.9044329
+    }
+  },
+  ["staticId"]= 1040406,
+  ["TargetTeleporterId"]= 1040405
+},
+[1040407] = {
+  ["bornPOS"]= {
+    ["x"]= 31.17,
+    ["y"]= 68.79086,
+    ["z"]= 96.16
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= -6.439,
+  ["directionList"]= {
+    -0.112145342,
+    0.9936918
+  },
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 1040,
+  ["Order"]= 99,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 31.36,
+      ["y"]= 69.038,
+      ["z"]= 92.046
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= -0.112145349,
+      ["y"]= 0,
+      ["z"]= 0.9936918
+    }
+  },
+  ["staticId"]= 1040407,
+  ["TargetTeleporterId"]= 1040408
+},
+[1040408] = {
+  ["bornPOS"]= {
+    ["x"]= 187.01,
+    ["y"]= 71.51129,
+    ["z"]= 38.78
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= -73.15401,
+  ["directionList"]= {
+    -0.9570871,
+    0.2898003
+  },
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 1040,
+  ["Order"]= 99,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 191.95,
+      ["y"]= 71.51129,
+      ["z"]= 38.52
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= -0.9570871,
+      ["y"]= 0,
+      ["z"]= 0.2898003
+    }
+  },
+  ["staticId"]= 1040408,
+  ["TargetTeleporterId"]= 1040407
+},
+[1040409] = {
+  ["bornPOS"]= {
+    ["x"]= 78.33,
+    ["y"]= 71.51258,
+    ["z"]= 111.77
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= 102.342,
+  ["directionList"]= {
+    0.9768892,
+    -0.213746548
+  },
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 1040,
+  ["Order"]= 99,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 73.98,
+      ["y"]= 71.55449,
+      ["z"]= 113.1
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0.9768892,
+      ["y"]= 0,
+      ["z"]= -0.213746548
+    }
+  },
+  ["staticId"]= 1040409,
+  ["TargetTeleporterId"]= 1040410
+},
+[1040410] = {
+  ["bornPOS"]= {
+    ["x"]= 36.96,
+    ["y"]= 76.00681,
+    ["z"]= 179.28
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= -33.04,
+  ["directionList"]= {
+    -0.5452244,
+    0.8382901
+  },
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 1040,
+  ["Order"]= 99,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 39.32,
+      ["y"]= 76.00681,
+      ["z"]= 175.18
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= -0.5452244,
+      ["y"]= 0,
+      ["z"]= 0.8382901
+    }
+  },
+  ["staticId"]= 1040410,
+  ["TargetTeleporterId"]= 1040409
+},
+[1040411] = {
+  ["bornPOS"]= {
+    ["x"]= 243.9886,
+    ["y"]= 70.00974,
+    ["z"]= -47.49435
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= 80.65501,
+  ["directionList"]= {
+    0.986728549,
+    0.162378669
+  },
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 1040,
+  ["Order"]= 99,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 239.0851,
+      ["y"]= 70.00974,
+      ["z"]= -50.05078
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0.986728549,
+      ["y"]= 0,
+      ["z"]= 0.162378669
+    }
+  },
+  ["staticId"]= 1040411,
+  ["TargetTeleporterId"]= 1040412
+},
+[1040412] = {
+  ["bornPOS"]= {
+    ["x"]= 281.03,
+    ["y"]= 74.53724,
+    ["z"]= 190.41
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= -51.732,
+  ["directionList"]= {
+    -0.7851224,
+    0.619340658
+  },
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 1040,
+  ["Order"]= 99,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 285.08,
+      ["y"]= 74.54187,
+      ["z"]= 190.38
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= -0.7851224,
+      ["y"]= 0,
+      ["z"]= 0.619340658
+    }
+  },
+  ["staticId"]= 1040412,
+  ["TargetTeleporterId"]= 1040411
+},
+[1040413] = {
+  ["bornPOS"]= {
+    ["x"]= 256.39,
+    ["y"]= 74.44612,
+    ["z"]= 232.57
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= 151.166,
+  ["directionList"]= {
+    0.4822737,
+    -0.876020551
+  },
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 1040,
+  ["Order"]= 99,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 255.2,
+      ["y"]= 74.39979,
+      ["z"]= 237.42
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0.4822737,
+      ["y"]= 0,
+      ["z"]= -0.876020551
+    }
+  },
+  ["staticId"]= 1040413,
+  ["TargetTeleporterId"]= 1040414
+},
+[1040414] = {
+  ["bornPOS"]= {
+    ["x"]= 31.55273,
+    ["y"]= 73.00369,
+    ["z"]= -17.12234
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= 162.131,
+  ["directionList"]= {
+    0.3068417,
+    -0.95176053
+  },
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 1040,
+  ["Order"]= 99,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 29.93,
+      ["y"]= 73.00369,
+      ["z"]= -12.24
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0.3068417,
+      ["y"]= 0,
+      ["z"]= -0.95176053
+    }
+  },
+  ["staticId"]= 1040414,
+  ["TargetTeleporterId"]= 1040413
+},
+[1040415] = {
+  ["bornPOS"]= {
+    ["x"]= 242.58,
+    ["y"]= 70.17593,
+    ["z"]= 168.03
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= 38.136,
+  ["directionList"]= {
+    0.6175302,
+    0.7865472
+  },
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 241.26,
+      ["y"]= 70.75,
+      ["z"]= 165.32
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0.6175302,
+      ["y"]= 0,
+      ["z"]= 0.7865472
+    }
+  },
+  ["staticId"]= 1040415,
+  ["TargetTeleporterId"]= 1040416
+},
+[1040416] = {
+  ["bornPOS"]= {
+    ["x"]= 220.1944,
+    ["y"]= 73.54593,
+    ["z"]= 29.9212
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= 97.594,
+  ["directionList"]= {
+    0.9912295,
+    -0.132152677
+  },
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 1040,
+  ["Order"]= 99,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 209.63,
+      ["y"]= 74.547,
+      ["z"]= 32.95
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0.9912295,
+      ["y"]= 0,
+      ["z"]= -0.132152677
+    }
+  },
+  ["staticId"]= 1040416,
+  ["TargetTeleporterId"]= 1040415
+},
+[1040417] = {
+  ["bornPOS"]= {
+    ["x"]= 92.07896,
+    ["y"]= 71.51129,
+    ["z"]= 33.77589
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= 58.733,
+  ["directionList"]= {
+    0.8547579,
+    0.5190269
+  },
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 1040,
+  ["Order"]= 99,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 87.56191,
+      ["y"]= 71.51129,
+      ["z"]= 30.39771
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0.8547579,
+      ["y"]= 0,
+      ["z"]= 0.5190269
+    }
+  },
+  ["staticId"]= 1040417,
+  ["TargetTeleporterId"]= 1040418
+},
+[1040418] = {
+  ["bornPOS"]= {
+    ["x"]= 275.51,
+    ["y"]= 89.98776,
+    ["z"]= 115.54
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= -102.969,
+  ["directionList"]= {
+    -0.9744916,
+    -0.224423766
+  },
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 1040,
+  ["Order"]= 99,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 279.92,
+      ["y"]= 90.029,
+      ["z"]= 116.53
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= -0.9744916,
+      ["y"]= 0,
+      ["z"]= -0.224423766
+    }
+  },
+  ["staticId"]= 1040418,
+  ["TargetTeleporterId"]= 1040417
+},
+[1040419] = {
+  ["bornPOS"]= {
+    ["x"]= 136.25,
+    ["y"]= 66.72964,
+    ["z"]= 126.44
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= 167.352,
+  ["directionList"]= {
+    0.218960792,
+    -0.975733638
+  },
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 1040,
+  ["Order"]= 99,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 135.18,
+      ["y"]= 66.96,
+      ["z"]= 131.05
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0.218960792,
+      ["y"]= 0,
+      ["z"]= -0.975733638
+    }
+  },
+  ["staticId"]= 1040419,
+  ["TargetTeleporterId"]= 1040420
+},
+[1040420] = {
+  ["bornPOS"]= {
+    ["x"]= -8.806994,
+    ["y"]= 80.96065,
+    ["z"]= 42.36733
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= 103.878,
+  ["directionList"]= {
+    0.9708086,
+    -0.239855289
+  },
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 1040,
+  ["Order"]= 99,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -8.31,
+      ["y"]= 81.133,
+      ["z"]= 42.82
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0.9708086,
+      ["y"]= 0,
+      ["z"]= -0.239855289
+    }
+  },
+  ["staticId"]= 1040420,
+  ["TargetTeleporterId"]= 1040419
+},
+[1040421] = {
+  ["bornPOS"]= {
+    ["x"]= 42.33106,
+    ["y"]= 81.12492,
+    ["z"]= 31.40253
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= -68.471,
+  ["directionList"]= {
+    -0.9302319,
+    0.3669721
+  },
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 1040,
+  ["Order"]= 99,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 46.17,
+      ["y"]= 81.34,
+      ["z"]= 31.38
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= -0.9302319,
+      ["y"]= 0,
+      ["z"]= 0.3669721
+    }
+  },
+  ["staticId"]= 1040421,
+  ["TargetTeleporterId"]= 1040422
+},
+[1040422] = {
+  ["bornPOS"]= {
+    ["x"]= 103.25,
+    ["y"]= 70.00322,
+    ["z"]= 164.23
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= -1.047,
+  ["directionList"]= {
+    -0.0182725824,
+    0.999833047
+  },
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 1040,
+  ["Order"]= 99,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 102.18,
+      ["y"]= 70.16,
+      ["z"]= 159.38
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= -0.01827264,
+      ["y"]= 0,
+      ["z"]= 0.999833047
+    }
+  },
+  ["staticId"]= 1040422,
+  ["TargetTeleporterId"]= 1040421
+},
+[1040423] = {
+  ["bornPOS"]= {
+    ["x"]= 36.07,
+    ["y"]= 76.00681,
+    ["z"]= 234.67
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= -178.801,
+  ["directionList"]= {
+    -0.020925099,
+    -0.999781132
+  },
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 1040,
+  ["Order"]= 99,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 37.8,
+      ["y"]= 76.18,
+      ["z"]= 239.24
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= -0.0209250357,
+      ["y"]= 0,
+      ["z"]= -0.999781132
+    }
+  },
+  ["staticId"]= 1040423,
+  ["TargetTeleporterId"]= 1040424
+},
+[1040424] = {
+  ["bornPOS"]= {
+    ["x"]= 116.23,
+    ["y"]= 78.54115,
+    ["z"]= -58.97
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= 0.522,
+  ["directionList"]= {
+    0.009110494,
+    0.9999585
+  },
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 1040,
+  ["Order"]= 99,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 115.99,
+      ["y"]= 78.69,
+      ["z"]= -63.85
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0.009110494,
+      ["y"]= 0,
+      ["z"]= 0.9999585
+    }
+  },
+  ["staticId"]= 1040424,
+  ["TargetTeleporterId"]= 1040423
+},
+[1040425] = {
+  ["bornPOS"]= {
+    ["x"]= 107.9747,
+    ["y"]= 78.9733,
+    ["z"]= -12.23201
+  },
+  ["BornRadius"]= 1,
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 1040,
+  ["Order"]= 99,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 108.1,
+      ["y"]= 79.2,
+      ["z"]= -8.18
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1040425,
+  ["TargetTeleporterId"]= 1040426
+},
+[1040426] = {
+  ["bornPOS"]= {
+    ["x"]= 186.44,
+    ["y"]= 70.00974,
+    ["z"]= -57.81
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= 10.725,
+  ["directionList"]= {
+    0.186095342,
+    0.982531667
+  },
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 1040,
+  ["Order"]= 99,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 185.06,
+      ["y"]= 70.15,
+      ["z"]= -62.14
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0.186095342,
+      ["y"]= 0,
+      ["z"]= 0.982531667
+    }
+  },
+  ["staticId"]= 1040426,
+  ["TargetTeleporterId"]= 1040425
+},
+[1050401] = {
+  ["bornPOS"]= {
+    ["x"]= -21.39,
+    ["y"]= -3.098369,
+    ["z"]= -98.05
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= -0.7,
+  ["directionList"]= {
+    -0.012217,
+    0.9999254
+  },
+  ["MapId"]= 1050,
+  ["Order"]= 2,
+  ["SceneId"]= 1050,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -24.99,
+      ["y"]= -3.375554,
+      ["z"]= -98.05
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= -0.012217043,
+      ["y"]= 0,
+      ["z"]= 0.9999254
+    }
+  },
+  ["staticId"]= 1050401,
+  ["TargetName"]= "GateName1050401",
+  ["TargetTeleporterId"]= 1060401
+},
+[1050402] = {
+  ["bornPOS"]= {
+    ["x"]= 62,
+    ["y"]= -3.375552,
+    ["z"]= 40.54904
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= -180,
+  ["directionList"]= {
+    8.742278E-08,
+    -1
+  },
+  ["MapId"]= 1050,
+  ["Order"]= 1,
+  ["SceneId"]= 1050,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 62,
+      ["y"]= -3.15,
+      ["z"]= 46.22662
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= -8.742278E-08,
+      ["y"]= 0,
+      ["z"]= -1
+    }
+  },
+  ["staticId"]= 1050402,
+  ["TargetName"]= "GateName1050402",
+  ["TargetTeleporterId"]= 1010404
+},
+[1060401] = {
+  ["bornPOS"]= {
+    ["x"]= -59.37281,
+    ["y"]= 1.274445,
+    ["z"]= 75.57523
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= 177.3,
+  ["directionList"]= {
+    0.04710638,
+    -0.9988898
+  },
+  ["MapId"]= 1060,
+  ["Order"]= 1,
+  ["SceneId"]= 1060,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -59.49338,
+      ["y"]= 1.274445,
+      ["z"]= 80.47243
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0.04710638,
+      ["y"]= 0,
+      ["z"]= -0.9988898
+    }
+  },
+  ["staticId"]= 1060401,
+  ["TargetName"]= "GateName1060401",
+  ["TargetTeleporterId"]= 1050401
+},
+[1060402] = {
+  ["bornPOS"]= {
+    ["x"]= 39.67,
+    ["y"]= 1.00813,
+    ["z"]= -108.43
+  },
+  ["direction"]= 90,
+  ["directionList"]= {
+    0.99999994,
+    5.96046448E-08
+  },
+  ["MapId"]= 1060,
+  ["Order"]= 2,
+  ["SceneId"]= 1060,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 30.45,
+      ["y"]= 1.00813,
+      ["z"]= -113.83
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0.965980053,
+      ["y"]= 0,
+      ["z"]= 0.2586167
+    }
+  },
+  ["staticId"]= 1060402,
+  ["TargetName"]= "GateName1060402",
+  ["TargetTeleporterId"]= 1030403
+},
+[1110401] = {
+  ["bornPOS"]= {
+    ["x"]= 8.9,
+    ["y"]= 4.75,
+    ["z"]= -108.54
+  },
+  ["MapId"]= 1110,
+  ["Order"]= 1,
+  ["ResId"]= 10002,
+  ["SceneId"]= 1110,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 8.9,
+      ["y"]= 4.75,
+      ["z"]= -123.56
+    },
+    ["radius"]= 5,
+    ["rotation"]= {
+      ["x"]= 0.99999994,
+      ["y"]= 0,
+      ["z"]= 5.96046448E-08
+    }
+  },
+  ["staticId"]= 1110401,
+  ["TargetName"]= "GateName1110401",
+  ["TargetTeleporterId"]= 1020401
+},
+[1110402] = {
+  ["bornPOS"]= {
+    ["x"]= 33.97,
+    ["y"]= 5.410004,
+    ["z"]= -89.32
+  },
+  ["direction"]= -89.28001,
+  ["directionList"]= {
+    -0.999921,
+    0.0125659108
+  },
+  ["IconType"]= 2,
+  ["MapId"]= 1110,
+  ["Order"]= 4,
+  ["SceneId"]= 1110,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 33.97,
+      ["y"]= 9.45,
+      ["z"]= -98.61
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= -0.999921,
+      ["y"]= 0,
+      ["z"]= 0.0125662684
+    }
+  },
+  ["staticId"]= 1110402,
+  ["TargetName"]= "GateName1110402",
+  ["TargetTeleporterId"]= 1110403
+},
+[1110403] = {
+  ["bornPOS"]= {
+    ["x"]= 59.43128,
+    ["y"]= 37.2389,
+    ["z"]= -132.1671
+  },
+  ["direction"]= -41.878,
+  ["directionList"]= {
+    -0.66754663,
+    0.744568
+  },
+  ["IconType"]= 2,
+  ["MapId"]= 1110,
+  ["Order"]= 5,
+  ["SceneId"]= 1110,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 60.63,
+      ["y"]= 37.29,
+      ["z"]= -139.78
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= -0.6675465,
+      ["y"]= 0,
+      ["z"]= 0.7445681
+    }
+  },
+  ["staticId"]= 1110403,
+  ["TargetName"]= "GateName1110403",
+  ["TargetTeleporterId"]= 1110402
+},
+[1110405] = {
+  ["bornPOS"]= {
+    ["x"]= 86.05,
+    ["y"]= 2.523438,
+    ["z"]= 34.55
+  },
+  ["direction"]= -133.512,
+  ["directionList"]= {
+    -0.7252303,
+    -0.688506246
+  },
+  ["MapId"]= 1110,
+  ["Order"]= 2,
+  ["SceneId"]= 1110,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 101.27,
+      ["y"]= 3.63,
+      ["z"]= 49.02
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= -0.688506246,
+      ["y"]= 0,
+      ["z"]= 0.7252304
+    }
+  },
+  ["staticId"]= 1110405,
+  ["TargetName"]= "GateName1110405",
+  ["TargetTeleporterId"]= 1140401
+},
+[1110406] = {
+  ["bornPOS"]= {
+    ["x"]= 8.56,
+    ["y"]= 11.70388,
+    ["z"]= 60.27
+  },
+  ["direction"]= -180,
+  ["directionList"]= {
+    8.742278E-08,
+    -1
+  },
+  ["MapId"]= 1110,
+  ["Order"]= 3,
+  ["SceneId"]= 1110,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 8.56,
+      ["y"]= 14.43,
+      ["z"]= 67.12
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= -8.742278E-08,
+      ["y"]= 0,
+      ["z"]= -1
+    }
+  },
+  ["staticId"]= 1110406,
+  ["TargetName"]= "GateName1110406",
+  ["TargetTeleporterId"]= 1170401
+},
+[1110411] = {
+  ["bornPOS"]= {
+    ["x"]= 32,
+    ["y"]= 2.753586,
+    ["z"]= -28.68
+  },
+  ["BornRadius"]= 2,
+  ["direction"]= 90,
+  ["directionList"]= {
+    0.99999994,
+    5.96046448E-08
+  },
+  ["gvgPoint"]= 1,
+  ["IconType"]= 2,
+  ["isCondition"]= 1,
+  ["IsShowList"]= 0,
+  ["IsShowMap"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 1110,
+  ["ResId"]= 10007,
+  ["SceneId"]= 1110,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 34.82,
+      ["y"]= 2.75358582,
+      ["z"]= -28.68
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1110411,
+  ["TargetName"]= "据点1",
+  ["uiName"]= "UI_GVGEnter"
+},
+[1120402] = {
+  ["bornPOS"]= {
+    ["x"]= 47.99,
+    ["y"]= 0.04500375,
+    ["z"]= 15.76
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= -177.005,
+  ["directionList"]= {
+    -0.0522486679,
+    -0.9986341
+  },
+  ["MapId"]= 11201,
+  ["Order"]= 2,
+  ["SceneId"]= 1120,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 48.54,
+      ["y"]= 0.01,
+      ["z"]= 17.07
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= -0.0522486046,
+      ["y"]= 0,
+      ["z"]= -0.9986341
+    }
+  },
+  ["staticId"]= 1120402,
+  ["TargetName"]= "GateName1120402",
+  ["TargetTeleporterId"]= 1120404
+},
+[1120403] = {
+  ["bornPOS"]= {
+    ["x"]= 54.44,
+    ["y"]= 0.13,
+    ["z"]= 207.91
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= -90,
+  ["directionList"]= {
+    -0.99999994,
+    5.96046448E-08
+  },
+  ["MapId"]= 11202,
+  ["Order"]= 13,
+  ["SceneId"]= 1120,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 54.75,
+      ["y"]= -0.02,
+      ["z"]= 207.61
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= -0.99999994,
+      ["y"]= 0,
+      ["z"]= 5.96046448E-08
+    }
+  },
+  ["staticId"]= 1120403,
+  ["TargetName"]= "GateName1120403",
+  ["TargetTeleporterId"]= 1120405
+},
+[1120404] = {
+  ["bornPOS"]= {
+    ["x"]= -48.29,
+    ["y"]= 1.49,
+    ["z"]= 213.09
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= 90,
+  ["directionList"]= {
+    0.99999994,
+    5.96046448E-08
+  },
+  ["MapId"]= 11202,
+  ["Order"]= 12,
+  ["SceneId"]= 1120,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -55.51,
+      ["y"]= 1.39049983,
+      ["z"]= 213.09
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0.99999994,
+      ["y"]= 0,
+      ["z"]= 5.96046448E-08
+    }
+  },
+  ["staticId"]= 1120404,
+  ["TargetName"]= "GateName1120404",
+  ["TargetTeleporterId"]= 1120402
+},
+[1120405] = {
+  ["bornPOS"]= {
+    ["x"]= -51.94,
+    ["y"]= 1.66,
+    ["z"]= 402.47
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= 90,
+  ["directionList"]= {
+    0.99999994,
+    5.96046448E-08
+  },
+  ["MapId"]= 11203,
+  ["Order"]= 15,
+  ["SceneId"]= 1120,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -55.41,
+      ["y"]= 1.39049983,
+      ["z"]= 402.47
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0.99999994,
+      ["y"]= 0,
+      ["z"]= 5.96046448E-08
+    }
+  },
+  ["staticId"]= 1120405,
+  ["TargetName"]= "GateName1120405",
+  ["TargetTeleporterId"]= 1120403
+},
+[1130401] = {
+  ["bornPOS"]= {
+    ["x"]= 2.62,
+    ["y"]= 4.56,
+    ["z"]= -116.05
+  },
+  ["BornRadius"]= 1,
+  ["MapId"]= 11303,
+  ["Order"]= 2,
+  ["SceneId"]= 1130,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 2.75,
+      ["y"]= 6.156001,
+      ["z"]= -127.8
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1130401,
+  ["TargetName"]= "GateName1130401",
+  ["TargetTeleporterId"]= 1130402
+},
+[1130402] = {
+  ["bornPOS"]= {
+    ["x"]= -407.34,
+    ["y"]= 6.25,
+    ["z"]= 20.86
+  },
+  ["BornRadius"]= 1,
+  ["MapId"]= 11301,
+  ["Order"]= 9,
+  ["SceneId"]= 1130,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -407.34,
+      ["y"]= 6.57324028,
+      ["z"]= 30.71
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1130402,
+  ["TargetName"]= "GateName1130402",
+  ["TargetTeleporterId"]= 1130401
+},
+[1130405] = {
+  ["bornPOS"]= {
+    ["x"]= -374.58,
+    ["y"]= 3.12,
+    ["z"]= -35.45
+  },
+  ["BornRadius"]= 1,
+  ["IsShowList"]= 0,
+  ["MapId"]= 11303,
+  ["Order"]= 1,
+  ["SceneId"]= 1130,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -338.8,
+      ["y"]= 6.156,
+      ["z"]= 26.43
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1130405,
+  ["TargetTeleporterId"]= 1130406
+},
+[1130406] = {
+  ["bornPOS"]= {
+    ["x"]= -199.76,
+    ["y"]= 0.06750154,
+    ["z"]= -49.54
+  },
+  ["BornRadius"]= 1,
+  ["IsShowList"]= 0,
+  ["MapId"]= 11302,
+  ["Order"]= 13,
+  ["SceneId"]= 1130,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -199.76,
+      ["y"]= 0.067501545,
+      ["z"]= -55.22
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1130406,
+  ["TargetName"]= "GateName1130401",
+  ["TargetTeleporterId"]= 1130405
+},
+[1140401] = {
+  ["bornPOS"]= {
+    ["x"]= 0,
+    ["y"]= 8.51,
+    ["z"]= -72.51
+  },
+  ["direction"]= 1,
+  ["directionList"]= {
+    0.0174524058,
+    0.9998477
+  },
+  ["MapId"]= 1140,
+  ["Order"]= 2,
+  ["SceneId"]= 1140,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 0.0843235,
+      ["y"]= 6.431,
+      ["z"]= -82.91
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1140401,
+  ["TargetName"]= "GateName1140401",
+  ["TargetTeleporterId"]= 1110405
+},
+[1140402] = {
+  ["bornPOS"]= {
+    ["x"]= 1.797811,
+    ["y"]= 1.001038,
+    ["z"]= 50.22923
+  },
+  ["direction"]= -180,
+  ["directionList"]= {
+    8.742278E-08,
+    -1
+  },
+  ["MapId"]= 1140,
+  ["Order"]= 1,
+  ["ResId"]= 10002,
+  ["SceneId"]= 1140,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 2,
+      ["y"]= 4.00109959,
+      ["z"]= 59.63
+    },
+    ["radius"]= 6,
+    ["rotation"]= {
+      ["x"]= -0.99999994,
+      ["y"]= 0,
+      ["z"]= 5.96046448E-08
+    }
+  },
+  ["staticId"]= 1140402,
+  ["TargetName"]= "GateName1140402",
+  ["TargetTeleporterId"]= 1150402
+},
+[1150401] = {
+  ["bornPOS"]= {
+    ["x"]= 172.88,
+    ["y"]= 5.191,
+    ["z"]= 243.43
+  },
+  ["direction"]= -156.091,
+  ["directionList"]= {
+    -0.405285239,
+    -0.9141902
+  },
+  ["MapId"]= 1150,
+  ["Order"]= 1,
+  ["SceneId"]= 1150,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 174.77,
+      ["y"]= 5.07,
+      ["z"]= 247.42
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1150401,
+  ["TargetName"]= "GateName1150401",
+  ["TargetTeleporterId"]= 1160404
+},
+[1150402] = {
+  ["bornPOS"]= {
+    ["x"]= -4.65,
+    ["y"]= 17.24,
+    ["z"]= 116.15
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= 90,
+  ["directionList"]= {
+    0.99999994,
+    5.96046448E-08
+  },
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 1150,
+  ["Order"]= 2,
+  ["SceneId"]= 1150,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -18.34,
+      ["y"]= 16.2,
+      ["z"]= 115.88
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= -0.9860689,
+      ["y"]= 0,
+      ["z"]= 0.16633749
+    }
+  },
+  ["staticId"]= 1150402,
+  ["TargetName"]= "GateName1150402",
+  ["TargetTeleporterId"]= 1140402
+},
+[1160404] = {
+  ["bornPOS"]= {
+    ["x"]= -17.7,
+    ["y"]= 19.88,
+    ["z"]= -109.8
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= 20.344,
+  ["directionList"]= {
+    0.3476558,
+    0.937622249
+  },
+  ["MapId"]= 1160,
+  ["Order"]= 1,
+  ["SceneId"]= 1160,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -20.81,
+      ["y"]= 19.27,
+      ["z"]= -118.76
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0.984322131,
+      ["y"]= 0,
+      ["z"]= -0.1763804
+    }
+  },
+  ["staticId"]= 1160404,
+  ["TargetName"]= "GateName1160404",
+  ["TargetTeleporterId"]= 1150401
+},
+[1170401] = {
+  ["bornPOS"]= {
+    ["x"]= 0.1,
+    ["y"]= 4.172961,
+    ["z"]= 49.88
+  },
+  ["direction"]= 180,
+  ["directionList"]= {
+    -8.742278E-08,
+    -1
+  },
+  ["MapId"]= 11702,
+  ["Order"]= 3,
+  ["SceneId"]= 1170,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 0.1,
+      ["y"]= 4.17296076,
+      ["z"]= 53.63
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= -0.0332076,
+      ["y"]= 0,
+      ["z"]= -0.999448538
+    }
+  },
+  ["staticId"]= 1170401,
+  ["TargetName"]= "GateName1170401",
+  ["TargetTeleporterId"]= 1110406
+},
+[1170404] = {
+  ["bornPOS"]= {
+    ["x"]= 17.83,
+    ["y"]= 3.032961,
+    ["z"]= 37.82
+  },
+  ["direction"]= -90,
+  ["directionList"]= {
+    -0.99999994,
+    5.96046448E-08
+  },
+  ["IconType"]= 2,
+  ["MapId"]= 11702,
+  ["Order"]= 5,
+  ["SceneId"]= 1170,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 21.1,
+      ["y"]= 3.03296065,
+      ["z"]= 37.82
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1170404,
+  ["TargetName"]= "GateName1170404",
+  ["TargetTeleporterId"]= 1170405
+},
+[1170405] = {
+  ["bornPOS"]= {
+    ["x"]= 60.9,
+    ["y"]= 0.9595867,
+    ["z"]= -7.65
+  },
+  ["direction"]= 90,
+  ["directionList"]= {
+    0.99999994,
+    5.96046448E-08
+  },
+  ["MapId"]= 11701,
+  ["Order"]= 1,
+  ["SceneId"]= 1170,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 57.38,
+      ["y"]= 0.95958674,
+      ["z"]= -7.65
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1170405,
+  ["TargetName"]= "GateName1170405",
+  ["TargetTeleporterId"]= 1170404
+},
+[1180401] = {
+  ["bornPOS"]= {
+    ["x"]= -138.43,
+    ["y"]= 0,
+    ["z"]= 136.67
+  },
+  ["direction"]= 90,
+  ["directionList"]= {
+    0.99999994,
+    5.96046448E-08
+  },
+  ["MapId"]= 1180,
+  ["Order"]= 1,
+  ["SceneId"]= 1180,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -150.19,
+      ["y"]= -0.110000312,
+      ["z"]= 136.67
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1180401,
+  ["TargetName"]= "GateName1180401",
+  ["TargetTeleporterId"]= 1430402
+},
+[1180402] = {
+  ["bornPOS"]= {
+    ["x"]= -62.12,
+    ["y"]= -4.140002,
+    ["z"]= -17.44
+  },
+  ["direction"]= 90,
+  ["directionList"]= {
+    0.99999994,
+    5.96046448E-08
+  },
+  ["IconType"]= 2,
+  ["MapId"]= 1180,
+  ["Order"]= 2,
+  ["SceneId"]= 1180,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -67.80636,
+      ["y"]= -4.140002,
+      ["z"]= -17.1197281
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1180402,
+  ["TargetName"]= "GateName1180402",
+  ["TargetTeleporterId"]= 1580401
+},
+[1180411] = {
+  ["bornPOS"]= {
+    ["x"]= -35,
+    ["y"]= -4.1,
+    ["z"]= 9.7
+  },
+  ["BornRadius"]= 2,
+  ["direction"]= -90,
+  ["directionList"]= {
+    -0.99999994,
+    5.96046448E-08
+  },
+  ["gvgPoint"]= 7,
+  ["isCondition"]= 1,
+  ["IsShowList"]= 0,
+  ["IsShowMap"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 1180,
+  ["ResId"]= 10007,
+  ["SceneId"]= 1180,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -37.43,
+      ["y"]= -3.99791241,
+      ["z"]= 9.708753
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1180411,
+  ["uiName"]= "UI_GVGEnter"
+},
+[1210401] = {
+  ["bornPOS"]= {
+    ["x"]= -100.34,
+    ["y"]= 0,
+    ["z"]= 0.5
+  },
+  ["direction"]= 90,
+  ["directionList"]= {
+    0.99999994,
+    5.96046448E-08
+  },
+  ["MapId"]= 1210,
+  ["Order"]= 2,
+  ["ResId"]= 10002,
+  ["SceneId"]= 1210,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -121.06,
+      ["y"]= -0.93,
+      ["z"]= 0.5
+    },
+    ["radius"]= 5,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1210401,
+  ["TargetName"]= "GateName1210401",
+  ["TargetTeleporterId"]= 1250401
+},
+[1210402] = {
+  ["bornPOS"]= {
+    ["x"]= 100.79,
+    ["y"]= 0,
+    ["z"]= 0.5
+  },
+  ["direction"]= -90,
+  ["directionList"]= {
+    -0.99999994,
+    5.96046448E-08
+  },
+  ["MapId"]= 1210,
+  ["Order"]= 2,
+  ["ResId"]= 10002,
+  ["SceneId"]= 1210,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 116.63,
+      ["y"]= -0.69,
+      ["z"]= 0.41
+    },
+    ["radius"]= 5,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1210402,
+  ["TargetName"]= "GateName1210402",
+  ["TargetTeleporterId"]= 1230401
+},
+[1210403] = {
+  ["bornPOS"]= {
+    ["x"]= 0.1396629,
+    ["y"]= -3.899999,
+    ["z"]= -28.39071
+  },
+  ["MapId"]= 1210,
+  ["Order"]= 2,
+  ["SceneId"]= 1210,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 0.204002142,
+      ["y"]= -3.99999881,
+      ["z"]= -21.4673729
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1210403,
+  ["TargetName"]= "GateName1210403",
+  ["TargetTeleporterId"]= 1560401
+},
+[1210404] = {
+  ["bornPOS"]= {
+    ["x"]= -0.16,
+    ["y"]= 0,
+    ["z"]= -106.67
+  },
+  ["MapId"]= 1210,
+  ["Order"]= 4,
+  ["ResId"]= 10002,
+  ["SceneId"]= 1210,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 0.07,
+      ["y"]= -0.5,
+      ["z"]= -116.28
+    },
+    ["radius"]= 5,
+    ["rotation"]= {
+      ["x"]= 0.99999994,
+      ["y"]= 0,
+      ["z"]= 5.96046448E-08
+    }
+  },
+  ["staticId"]= 1210404,
+  ["TargetName"]= "GateName1210404",
+  ["TargetTeleporterId"]= 1240401
+},
+[1210411] = {
+  ["bornPOS"]= {
+    ["x"]= -8,
+    ["y"]= -4,
+    ["z"]= -33
+  },
+  ["BornRadius"]= 2,
+  ["gvgPoint"]= 13,
+  ["IconType"]= 2,
+  ["isCondition"]= 1,
+  ["IsShowList"]= 0,
+  ["IsShowMap"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 1210,
+  ["ResId"]= 10007,
+  ["SceneId"]= 1210,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -8.38,
+      ["y"]= -3.99999762,
+      ["z"]= -31.63
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1210411,
+  ["uiName"]= "UI_GVGEnter"
+},
+[1220401] = {
+  ["bornPOS"]= {
+    ["x"]= -93.51229,
+    ["y"]= 8.99714,
+    ["z"]= -94.6039
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= 35.4,
+  ["directionList"]= {
+    0.579281151,
+    0.8151278
+  },
+  ["MapId"]= 1220,
+  ["Order"]= 2,
+  ["SceneId"]= 1220,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -95.12,
+      ["y"]= 9.041357,
+      ["z"]= -103.54
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0.579281151,
+      ["y"]= 0,
+      ["z"]= 0.8151278
+    }
+  },
+  ["staticId"]= 1220401,
+  ["TargetName"]= "GateName1220401",
+  ["TargetTeleporterId"]= 1230402
+},
+[1220402] = {
+  ["bornPOS"]= {
+    ["x"]= 106.96,
+    ["y"]= 15.9983,
+    ["z"]= -89.56
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= -94.83701,
+  ["directionList"]= {
+    -0.9964386,
+    -0.0843215
+  },
+  ["MapId"]= 1220,
+  ["Order"]= 2,
+  ["SceneId"]= 1220,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 109.3759,
+      ["y"]= 15.9983,
+      ["z"]= -101.46
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= -0.94846195,
+      ["y"]= 0,
+      ["z"]= 0.316891
+    }
+  },
+  ["staticId"]= 1220402,
+  ["TargetName"]= "GateName1220402",
+  ["TargetTeleporterId"]= 1030401
+},
+[1220403] = {
+  ["bornPOS"]= {
+    ["x"]= -6.09,
+    ["y"]= 15.9983,
+    ["z"]= 7.12
+  },
+  ["direction"]= 140,
+  ["directionList"]= {
+    0.642787635,
+    -0.7660444
+  },
+  ["MapId"]= 1220,
+  ["Order"]= 2,
+  ["SceneId"]= 1220,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -1.09,
+      ["y"]= 35.6701775,
+      ["z"]= 14.64
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1220403,
+  ["TargetName"]= "GateName1220403",
+  ["TargetTeleporterId"]= 1040401
+},
+[1220404] = {
+  ["bornPOS"]= {
+    ["x"]= -85.85,
+    ["y"]= 15.9983,
+    ["z"]= 102.23
+  },
+  ["direction"]= -180,
+  ["directionList"]= {
+    8.742278E-08,
+    -1
+  },
+  ["MapId"]= 1220,
+  ["Order"]= 2,
+  ["SceneId"]= 1220,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -82.55,
+      ["y"]= 8.002182,
+      ["z"]= 113.56
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1220404,
+  ["TargetName"]= "GateName1220404",
+  ["TargetTeleporterId"]= 1280401
+},
+[1230401] = {
+  ["bornPOS"]= {
+    ["x"]= -144.91,
+    ["y"]= 13.9953,
+    ["z"]= -8.885082
+  },
+  ["direction"]= 90,
+  ["directionList"]= {
+    0.99999994,
+    5.96046448E-08
+  },
+  ["MapId"]= 1230,
+  ["Order"]= 2,
+  ["SceneId"]= 1230,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -150.0911,
+      ["y"]= 13.9953,
+      ["z"]= -8.885082
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1230401,
+  ["TargetName"]= "GateName1230401",
+  ["TargetTeleporterId"]= 1210402
+},
+[1230402] = {
+  ["bornPOS"]= {
+    ["x"]= 75.56087,
+    ["y"]= 15.99829,
+    ["z"]= 134.29
+  },
+  ["direction"]= 180,
+  ["directionList"]= {
+    -8.742278E-08,
+    -1
+  },
+  ["MapId"]= 1230,
+  ["Order"]= 2,
+  ["SceneId"]= 1230,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 75.56087,
+      ["y"]= 16.8295021,
+      ["z"]= 141.0528
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0.05975919,
+      ["y"]= 0,
+      ["z"]= -0.9982127
+    }
+  },
+  ["staticId"]= 1230402,
+  ["TargetName"]= "GateName1230402",
+  ["TargetTeleporterId"]= 1220401
+},
+[1230491] = {
+  ["bornPOS"]= {
+    ["x"]= 31.97,
+    ["y"]= 14.8,
+    ["z"]= -13.04
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= 27.897,
+  ["directionList"]= {
+    0.467883527,
+    0.883790135
+  },
+  ["MapId"]= 1230,
+  ["Order"]= 1,
+  ["SceneId"]= 1230,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 31.97,
+      ["y"]= 14.9009514,
+      ["z"]= -18.59
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= -0.99999994,
+      ["y"]= 0,
+      ["z"]= 5.96046448E-08
+    }
+  },
+  ["staticId"]= 1230491,
+  ["TargetName"]= "GateName1230491",
+  ["TargetTeleporterId"]= 1030404
+},
+[1240401] = {
+  ["bornPOS"]= {
+    ["x"]= 139.3,
+    ["y"]= 0,
+    ["z"]= 271.98
+  },
+  ["direction"]= 180,
+  ["directionList"]= {
+    -8.742278E-08,
+    -1
+  },
+  ["MapId"]= 1240,
+  ["Order"]= 2,
+  ["SceneId"]= 1240,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 139.3,
+      ["y"]= 30.03,
+      ["z"]= 278.08
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1240401,
+  ["TargetName"]= "GateName1240401",
+  ["TargetTeleporterId"]= 1210404
+},
+[1240402] = {
+  ["bornPOS"]= {
+    ["x"]= 257.24,
+    ["y"]= 30.14,
+    ["z"]= 48.89
+  },
+  ["direction"]= 300,
+  ["directionList"]= {
+    -0.8660255,
+    0.499999881
+  },
+  ["MapId"]= 1240,
+  ["Order"]= 2,
+  ["SceneId"]= 1240,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 263.52,
+      ["y"]= 29.73,
+      ["z"]= 45.26
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= -0.8660255,
+      ["y"]= 0,
+      ["z"]= 0.499999881
+    }
+  },
+  ["staticId"]= 1240402,
+  ["TargetName"]= "GateName1240402",
+  ["TargetTeleporterId"]= 1270401
+},
+[1250401] = {
+  ["bornPOS"]= {
+    ["x"]= -149.2101,
+    ["y"]= 7,
+    ["z"]= -33.4
+  },
+  ["direction"]= 90,
+  ["directionList"]= {
+    0.99999994,
+    5.96046448E-08
+  },
+  ["MapId"]= 1250,
+  ["Order"]= 2,
+  ["SceneId"]= 1250,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -156.26,
+      ["y"]= 6.58,
+      ["z"]= -33.5
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0.99999994,
+      ["y"]= 0,
+      ["z"]= 5.96046448E-08
+    }
+  },
+  ["staticId"]= 1250401,
+  ["TargetName"]= "GateName1250401",
+  ["TargetTeleporterId"]= 1210401
+},
+[1250402] = {
+  ["bornPOS"]= {
+    ["x"]= 180.6,
+    ["y"]= 1.154945,
+    ["z"]= -5.9
+  },
+  ["direction"]= -90,
+  ["directionList"]= {
+    -0.99999994,
+    5.96046448E-08
+  },
+  ["MapId"]= 1250,
+  ["Order"]= 2,
+  ["SceneId"]= 1250,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 185.599716,
+      ["y"]= 0.01143074,
+      ["z"]= -5.6
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1250402,
+  ["TargetName"]= "GateName1250402",
+  ["TargetTeleporterId"]= 1610404
+},
+[1260401] = {
+  ["bornPOS"]= {
+    ["x"]= -4.16,
+    ["y"]= 0,
+    ["z"]= -37.36
+  },
+  ["direction"]= 180,
+  ["directionList"]= {
+    -8.742278E-08,
+    -1
+  },
+  ["MapId"]= 1260,
+  ["Order"]= 1,
+  ["SceneId"]= 1260,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -4.16,
+      ["y"]= 27.92,
+      ["z"]= -23.52
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1260401,
+  ["TargetName"]= "GateName1260401",
+  ["TargetTeleporterId"]= 1560406
+},
+[1260402] = {
+  ["bornPOS"]= {
+    ["x"]= 114.078,
+    ["y"]= 43.42333,
+    ["z"]= -84.17522
+  },
+  ["direction"]= 180,
+  ["directionList"]= {
+    -8.742278E-08,
+    -1
+  },
+  ["MapId"]= 1260,
+  ["Order"]= 1,
+  ["SceneId"]= 1260,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 114.077957,
+      ["y"]= 43.4233322,
+      ["z"]= -86.1752243
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1260402,
+  ["TargetName"]= "GateName1260402",
+  ["TargetTeleporterId"]= 1290401
+},
+[1270401] = {
+  ["bornPOS"]= {
+    ["x"]= 24.6,
+    ["y"]= 30.51,
+    ["z"]= 171.18
+  },
+  ["direction"]= 90,
+  ["directionList"]= {
+    0.99999994,
+    5.96046448E-08
+  },
+  ["MapId"]= 1270,
+  ["Order"]= 2,
+  ["SceneId"]= 1270,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 20.06,
+      ["y"]= 30.51,
+      ["z"]= 171.18
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= -0.99999994,
+      ["y"]= 0,
+      ["z"]= 5.96046448E-08
+    }
+  },
+  ["staticId"]= 1270401,
+  ["TargetName"]= "GateName1270401",
+  ["TargetTeleporterId"]= 1240402
+},
+[1280401] = {
+  ["bornPOS"]= {
+    ["x"]= 105.9733,
+    ["y"]= 0,
+    ["z"]= 13.59
+  },
+  ["MapId"]= 1280,
+  ["Order"]= 1,
+  ["SceneId"]= 1280,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 106.64,
+      ["y"]= 30.0803852,
+      ["z"]= 3.84
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1280401,
+  ["TargetName"]= "GateName1280401",
+  ["TargetTeleporterId"]= 1220404
+},
+[1280402] = {
+  ["bornPOS"]= {
+    ["x"]= 147.88,
+    ["y"]= 0,
+    ["z"]= 159.25
+  },
+  ["MapId"]= 1280,
+  ["Order"]= 2,
+  ["SceneId"]= 1280,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 152.577652,
+      ["y"]= 32.2670059,
+      ["z"]= 158.960022
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0.99999994,
+      ["y"]= 0,
+      ["z"]= 5.96046448E-08
+    }
+  },
+  ["staticId"]= 1280402,
+  ["TargetName"]= "GateName1280402",
+  ["TargetTeleporterId"]= 1281401
+},
+[1281401] = {
+  ["bornPOS"]= {
+    ["x"]= -8.65,
+    ["y"]= 0,
+    ["z"]= 0
+  },
+  ["MapId"]= 1281,
+  ["Order"]= 1,
+  ["SceneId"]= 1281,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -3.02639,
+      ["y"]= 9.998169,
+      ["z"]= 0
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0.99999994,
+      ["y"]= 0,
+      ["z"]= 5.96046448E-08
+    }
+  },
+  ["staticId"]= 1281401,
+  ["TargetName"]= "GateName1281401",
+  ["TargetTeleporterId"]= 1280402
+},
+[1290401] = {
+  ["bornPOS"]= {
+    ["x"]= -62,
+    ["y"]= 29.55498,
+    ["z"]= 120.574
+  },
+  ["MapId"]= 1290,
+  ["Order"]= 1,
+  ["SceneId"]= 1290,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -60.20462,
+      ["y"]= 29.655,
+      ["z"]= 125.526825
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1290401,
+  ["TargetName"]= "GateName1290401",
+  ["TargetTeleporterId"]= 1260402
+},
+[1310401] = {
+  ["bornPOS"]= {
+    ["x"]= 59.34633,
+    ["y"]= 36.44891,
+    ["z"]= 254.2873
+  },
+  ["direction"]= 180,
+  ["directionList"]= {
+    -8.742278E-08,
+    -1
+  },
+  ["MapId"]= 1310,
+  ["Order"]= 1,
+  ["SceneId"]= 1310,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 57.03646,
+      ["y"]= 36.44892,
+      ["z"]= 269.5
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= -8.742278E-08,
+      ["y"]= 0,
+      ["z"]= -1
+    }
+  },
+  ["staticId"]= 1310401,
+  ["TargetName"]= "GateName1310401",
+  ["TargetTeleporterId"]= 1320402
+},
+[1310402] = {
+  ["bornPOS"]= {
+    ["x"]= 38.38284,
+    ["y"]= 21.42465,
+    ["z"]= 18.4454
+  },
+  ["direction"]= 25.729,
+  ["directionList"]= {
+    0.4341151,
+    0.9008574
+  },
+  ["MapId"]= 1310,
+  ["Order"]= 2,
+  ["SceneId"]= 1310,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 36.80227,
+      ["y"]= 21.42465,
+      ["z"]= 13.1822
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0.4341151,
+      ["y"]= 0,
+      ["z"]= 0.9008574
+    }
+  },
+  ["staticId"]= 1310402,
+  ["TargetName"]= "GateName1310402",
+  ["TargetTeleporterId"]= 1330491
+},
+[1310403] = {
+  ["bornPOS"]= {
+    ["x"]= 173.17,
+    ["y"]= 26.47681,
+    ["z"]= 33.84
+  },
+  ["MapId"]= 1310,
+  ["Order"]= 2,
+  ["SceneId"]= 1310,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 173.65,
+      ["y"]= 23.13,
+      ["z"]= 16.71
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1310403,
+  ["TargetName"]= "GateName1310403",
+  ["TargetTeleporterId"]= 1360401
+},
+[1310404] = {
+  ["bornPOS"]= {
+    ["x"]= 53.77,
+    ["y"]= 35.83097,
+    ["z"]= 211.62
+  },
+  ["direction"]= -90,
+  ["directionList"]= {
+    -0.99999994,
+    5.96046448E-08
+  },
+  ["IconType"]= 2,
+  ["MapId"]= 1310,
+  ["Order"]= 2,
+  ["SceneId"]= 1310,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 57.1802177,
+      ["y"]= 35.8309669,
+      ["z"]= 211.890747
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1310404,
+  ["TargetName"]= "GateName1310404",
+  ["TargetTeleporterId"]= 1570401
+},
+[1310411] = {
+  ["bornPOS"]= {
+    ["x"]= 22.62,
+    ["y"]= 36.81,
+    ["z"]= 227.71
+  },
+  ["BornRadius"]= 2,
+  ["direction"]= -45,
+  ["directionList"]= {
+    -0.7071068,
+    0.7071067
+  },
+  ["gvgPoint"]= 4,
+  ["isCondition"]= 1,
+  ["IsShowList"]= 0,
+  ["IsShowMap"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 1310,
+  ["ResId"]= 10007,
+  ["SceneId"]= 1310,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 20.5,
+      ["y"]= 36.8658066,
+      ["z"]= 229.04
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1310411,
+  ["TargetName"]= "梦罗克据点",
+  ["uiName"]= "UI_GVGEnter"
+},
+[1320401] = {
+  ["bornPOS"]= {
+    ["x"]= 94.02581,
+    ["y"]= 17.03341,
+    ["z"]= 156.3178
+  },
+  ["direction"]= -171.971,
+  ["directionList"]= {
+    -0.1396744,
+    -0.990197539
+  },
+  ["MapId"]= 1320,
+  ["Order"]= 1,
+  ["SceneId"]= 1320,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 100.62,
+      ["y"]= 16.7602825,
+      ["z"]= 166.51
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= -0.139674336,
+      ["y"]= 0,
+      ["z"]= -0.990197539
+    }
+  },
+  ["staticId"]= 1320401,
+  ["TargetName"]= "GateName1320401",
+  ["TargetTeleporterId"]= 1020403
+},
+[1320402] = {
+  ["bornPOS"]= {
+    ["x"]= 19.4,
+    ["y"]= 15.17241,
+    ["z"]= -23.01
+  },
+  ["direction"]= 27.529,
+  ["directionList"]= {
+    0.4621975,
+    0.886777043
+  },
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 1320,
+  ["Order"]= 2,
+  ["SceneId"]= 1320,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 14.87,
+      ["y"]= 14.1724062,
+      ["z"]= -33.83
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0.4621975,
+      ["y"]= 0,
+      ["z"]= 0.886777043
+    }
+  },
+  ["staticId"]= 1320402,
+  ["TargetName"]= "GateName1320402",
+  ["TargetTeleporterId"]= 1310401
+},
+[1320403] = {
+  ["bornPOS"]= {
+    ["x"]= 195.6,
+    ["y"]= 13.2,
+    ["z"]= 0.08
+  },
+  ["direction"]= -31.872,
+  ["directionList"]= {
+    -0.528023362,
+    0.8492298
+  },
+  ["MapId"]= 1320,
+  ["Order"]= 3,
+  ["SceneId"]= 1320,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 201.4,
+      ["y"]= 12.2,
+      ["z"]= -6.47
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= -0.5280234,
+      ["y"]= 0,
+      ["z"]= 0.8492298
+    }
+  },
+  ["staticId"]= 1320403,
+  ["TargetName"]= "GateName1320403",
+  ["TargetTeleporterId"]= 1350401
+},
+[1320404] = {
+  ["bornPOS"]= {
+    ["x"]= 199.92,
+    ["y"]= 20.909,
+    ["z"]= 95.14
+  },
+  ["direction"]= -84.715,
+  ["directionList"]= {
+    -0.9957489,
+    0.09211004
+  },
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 1320,
+  ["Order"]= 3,
+  ["SceneId"]= 1320,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 212.71,
+      ["y"]= 19.909,
+      ["z"]= 95.14
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1320404,
+  ["TargetName"]= "GateName1320404",
+  ["TargetTeleporterId"]= 1440401
+},
+[1330491] = {
+  ["bornPOS"]= {
+    ["x"]= -0.1013296,
+    ["y"]= 21.87059,
+    ["z"]= -79.0771
+  },
+  ["BornRadius"]= 1,
+  ["MapId"]= 1330,
+  ["Order"]= 1,
+  ["ResId"]= 10002,
+  ["SceneId"]= 1330,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 0.17,
+      ["y"]= 19.05,
+      ["z"]= -84.15
+    },
+    ["radius"]= 2.5,
+    ["rotation"]= {
+      ["x"]= 0.99999994,
+      ["y"]= 0,
+      ["z"]= 5.96046448E-08
+    }
+  },
+  ["staticId"]= 1330491,
+  ["TargetName"]= "GateName1330491",
+  ["TargetTeleporterId"]= 1310402
+},
+[1330492] = {
+  ["bornPOS"]= {
+    ["x"]= 38.46778,
+    ["y"]= 24.63057,
+    ["z"]= 73.67464
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= -90,
+  ["directionList"]= {
+    -0.99999994,
+    5.96046448E-08
+  },
+  ["MapId"]= 1330,
+  ["Order"]= 2,
+  ["ResId"]= 10002,
+  ["SceneId"]= 1330,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 37.6,
+      ["y"]= 21.85,
+      ["z"]= 83.39
+    },
+    ["radius"]= 3,
+    ["rotation"]= {
+      ["x"]= -0.99999994,
+      ["y"]= 0,
+      ["z"]= 5.96046448E-08
+    }
+  },
+  ["staticId"]= 1330492,
+  ["TargetName"]= "GateName1330492",
+  ["TargetTeleporterId"]= 1340491
+},
+[1340491] = {
+  ["bornPOS"]= {
+    ["x"]= -56.81807,
+    ["y"]= 11.93001,
+    ["z"]= 0.1172605
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= 90,
+  ["directionList"]= {
+    0.99999994,
+    5.96046448E-08
+  },
+  ["MapId"]= 1340,
+  ["Order"]= 1,
+  ["ResId"]= 10002,
+  ["SceneId"]= 1340,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -67.27,
+      ["y"]= 8.68,
+      ["z"]= 0.02
+    },
+    ["radius"]= 3,
+    ["rotation"]= {
+      ["x"]= -8.742278E-08,
+      ["y"]= 0,
+      ["z"]= -1
+    }
+  },
+  ["staticId"]= 1340491,
+  ["TargetName"]= "GateName1340491",
+  ["TargetTeleporterId"]= 1330492
+},
+[1350401] = {
+  ["bornPOS"]= {
+    ["x"]= 25.28521,
+    ["y"]= 43.00064,
+    ["z"]= 31.24455
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= 68.998,
+  ["directionList"]= {
+    0.9335679,
+    0.358400583
+  },
+  ["MapId"]= 1350,
+  ["Order"]= 1,
+  ["SceneId"]= 1350,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 17.97827,
+      ["y"]= 43.11,
+      ["z"]= 27.60592
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0.9335679,
+      ["y"]= 0,
+      ["z"]= 0.358400583
+    }
+  },
+  ["staticId"]= 1350401,
+  ["TargetName"]= "GateName1350401",
+  ["TargetTeleporterId"]= 1320403
+},
+[1360401] = {
+  ["bornPOS"]= {
+    ["x"]= -29.83,
+    ["y"]= 0,
+    ["z"]= -129.1
+  },
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 1360,
+  ["Order"]= 1,
+  ["ResId"]= 10002,
+  ["SceneId"]= 1360,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -29.96,
+      ["y"]= 8.59,
+      ["z"]= -144.83
+    },
+    ["radius"]= 5,
+    ["rotation"]= {
+      ["x"]= 0.99999994,
+      ["y"]= 0,
+      ["z"]= 5.96046448E-08
+    }
+  },
+  ["staticId"]= 1360401,
+  ["TargetName"]= "GateName1360401",
+  ["TargetTeleporterId"]= 1310403
+},
+[1410401] = {
+  ["bornPOS"]= {
+    ["x"]= 61.23,
+    ["y"]= 67.45,
+    ["z"]= 79.1
+  },
+  ["direction"]= 133.256,
+  ["directionList"]= {
+    0.7282993,
+    -0.6852592
+  },
+  ["MapId"]= 14101,
+  ["Order"]= 1,
+  ["SceneId"]= 1410,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 51.11,
+      ["y"]= 67.02,
+      ["z"]= 86.02
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1410401,
+  ["TargetName"]= "GateName1410401",
+  ["TargetTeleporterId"]= 1440402
+},
+[1410402] = {
+  ["bornPOS"]= {
+    ["x"]= 214.51,
+    ["y"]= 67.99024,
+    ["z"]= 228.02
+  },
+  ["direction"]= -180,
+  ["directionList"]= {
+    8.742278E-08,
+    -1
+  },
+  ["MapId"]= 14101,
+  ["Order"]= 2,
+  ["SceneId"]= 1410,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 214.65,
+      ["y"]= 67.99024,
+      ["z"]= 227.99
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1410402,
+  ["TargetName"]= "GateName1410402",
+  ["TargetTeleporterId"]= 1410403
+},
+[1410403] = {
+  ["bornPOS"]= {
+    ["x"]= 1088.62,
+    ["y"]= 56.02,
+    ["z"]= 94.34
+  },
+  ["MapId"]= 14102,
+  ["Order"]= 3,
+  ["SceneId"]= 1410,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 1089,
+      ["y"]= 55.502594,
+      ["z"]= 79.59
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1410403,
+  ["TargetName"]= "GateName1410403",
+  ["TargetTeleporterId"]= 1410402
+},
+[1410404] = {
+  ["bornPOS"]= {
+    ["x"]= 1070.23,
+    ["y"]= 62.10049,
+    ["z"]= 143.5187
+  },
+  ["direction"]= 87.953,
+  ["directionList"]= {
+    0.9993619,
+    0.0357192159
+  },
+  ["MapId"]= 14102,
+  ["Order"]= 4,
+  ["SceneId"]= 1410,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 1060.87,
+      ["y"]= 60.9475632,
+      ["z"]= 144.35
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1410404,
+  ["TargetName"]= "GateName1410404",
+  ["TargetTeleporterId"]= 1450401
+},
+[1410405] = {
+  ["bornPOS"]= {
+    ["x"]= 100.28,
+    ["y"]= 66.99018,
+    ["z"]= 31.36
+  },
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 14101,
+  ["Order"]= 5,
+  ["SceneId"]= 1410,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 100.28,
+      ["y"]= 66.99018,
+      ["z"]= 23.43
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1410405,
+  ["TargetName"]= "GateName1410405",
+  ["TargetTeleporterId"]= 1430401
+},
+[1410406] = {
+  ["bornPOS"]= {
+    ["x"]= 231.83,
+    ["y"]= 66.98832,
+    ["z"]= 51.11
+  },
+  ["direction"]= -90,
+  ["directionList"]= {
+    -0.99999994,
+    5.96046448E-08
+  },
+  ["MapId"]= 14101,
+  ["Order"]= 6,
+  ["SceneId"]= 1410,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 243.85,
+      ["y"]= 66.98832,
+      ["z"]= 51.11
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1410406,
+  ["TargetName"]= "GateName1410406",
+  ["TargetTeleporterId"]= 1420401
+},
+[1410411] = {
+  ["bornPOS"]= {
+    ["x"]= 162.26,
+    ["y"]= 67.9,
+    ["z"]= 158
+  },
+  ["BornRadius"]= 2,
+  ["gvgPoint"]= 9,
+  ["IconType"]= 2,
+  ["isCondition"]= 1,
+  ["IsShowList"]= 0,
+  ["IsShowMap"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 1410,
+  ["ResId"]= 10007,
+  ["SceneId"]= 1410,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 162.26,
+      ["y"]= 67.99024,
+      ["z"]= 161.28
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1410411,
+  ["uiName"]= "UI_GVGEnter"
+},
+[1420401] = {
+  ["bornPOS"]= {
+    ["x"]= 14.91,
+    ["y"]= 2.65,
+    ["z"]= 55.03
+  },
+  ["direction"]= 114.681,
+  ["directionList"]= {
+    0.9086468,
+    -0.4175657
+  },
+  ["MapId"]= 1420,
+  ["Order"]= 1,
+  ["SceneId"]= 1420,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 2.29,
+      ["y"]= 0,
+      ["z"]= 59.91
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1420401,
+  ["TargetName"]= "GateName1420401",
+  ["TargetTeleporterId"]= 1410406
+},
+[1430401] = {
+  ["bornPOS"]= {
+    ["x"]= -8.63,
+    ["y"]= 13.11,
+    ["z"]= 67.18
+  },
+  ["direction"]= -180,
+  ["directionList"]= {
+    8.742278E-08,
+    -1
+  },
+  ["MapId"]= 1430,
+  ["Order"]= 1,
+  ["SceneId"]= 1430,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -8.78,
+      ["y"]= 13.11,
+      ["z"]= 80.96
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1430401,
+  ["TargetName"]= "GateName1430401",
+  ["TargetTeleporterId"]= 1410405
+},
+[1430402] = {
+  ["bornPOS"]= {
+    ["x"]= 110.4,
+    ["y"]= 0,
+    ["z"]= -84.2
+  },
+  ["direction"]= -90,
+  ["directionList"]= {
+    -0.99999994,
+    5.96046448E-08
+  },
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 1430,
+  ["Order"]= 1,
+  ["SceneId"]= 1430,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 125.17,
+      ["y"]= 7.93,
+      ["z"]= -86.78
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1430402,
+  ["TargetName"]= "GateName1430402",
+  ["TargetTeleporterId"]= 1180401
+},
+[1440401] = {
+  ["bornPOS"]= {
+    ["x"]= 40.8,
+    ["y"]= 0,
+    ["z"]= 113.5
+  },
+  ["direction"]= 110,
+  ["directionList"]= {
+    0.9396927,
+    -0.342020154
+  },
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 1440,
+  ["Order"]= 1,
+  ["SceneId"]= 1440,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 30.68,
+      ["y"]= 25.046711,
+      ["z"]= 119.69
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1440401,
+  ["TargetName"]= "GateName1440401",
+  ["TargetTeleporterId"]= 1320404
+},
+[1440402] = {
+  ["bornPOS"]= {
+    ["x"]= 211.88,
+    ["y"]= 0,
+    ["z"]= 70.51
+  },
+  ["direction"]= -90,
+  ["directionList"]= {
+    -0.99999994,
+    5.96046448E-08
+  },
+  ["MapId"]= 1440,
+  ["Order"]= 1,
+  ["SceneId"]= 1440,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 223.57,
+      ["y"]= 24.94,
+      ["z"]= 67.76
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1440402,
+  ["TargetName"]= "GateName1440402",
+  ["TargetTeleporterId"]= 1410401
+},
+[1450401] = {
+  ["bornPOS"]= {
+    ["x"]= 195.1,
+    ["y"]= 102.06,
+    ["z"]= 223.2
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= -90,
+  ["directionList"]= {
+    -0.99999994,
+    5.96046448E-08
+  },
+  ["MapId"]= 1450,
+  ["Order"]= 99,
+  ["SceneId"]= 1450,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 209.33,
+      ["y"]= 101.06,
+      ["z"]= 219.72
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1450401,
+  ["TargetName"]= "GateName1450401",
+  ["TargetTeleporterId"]= 1410404
+},
+[1450402] = {
+  ["bornPOS"]= {
+    ["x"]= 197.88,
+    ["y"]= 70.22,
+    ["z"]= 23.04
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= -90,
+  ["directionList"]= {
+    -0.99999994,
+    5.96046448E-08
+  },
+  ["MapId"]= 1450,
+  ["Order"]= 99,
+  ["SceneId"]= 1450,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 211.23,
+      ["y"]= 69.22,
+      ["z"]= 22.45
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1450402,
+  ["TargetName"]= "GateName1450402",
+  ["TargetTeleporterId"]= 1460401
+},
+[1460401] = {
+  ["bornPOS"]= {
+    ["x"]= 37.47,
+    ["y"]= 0,
+    ["z"]= 237.27
+  },
+  ["direction"]= -180,
+  ["directionList"]= {
+    8.742278E-08,
+    -1
+  },
+  ["MapId"]= 1460,
+  ["Order"]= 1,
+  ["SceneId"]= 1460,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 36.85,
+      ["y"]= 68.17,
+      ["z"]= 247.71
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1460401,
+  ["TargetName"]= "GateName1460401",
+  ["TargetTeleporterId"]= 1450402
+},
+[1510401] = {
+  ["bornPOS"]= {
+    ["x"]= -55.44,
+    ["y"]= 1.13,
+    ["z"]= -7.88
+  },
+  ["BornRadius"]= 1,
+  ["MapId"]= 1510,
+  ["Order"]= 1,
+  ["SceneId"]= 1510,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -58.87,
+      ["y"]= 0.95958674,
+      ["z"]= -8.1244
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1510401,
+  ["TargetName"]= "GateName1510401",
+  ["TargetTeleporterId"]= 1010406
+},
+[1520401] = {
+  ["bornPOS"]= {
+    ["x"]= 149.61,
+    ["y"]= -0.01328278,
+    ["z"]= 0.93
+  },
+  ["direction"]= -90,
+  ["directionList"]= {
+    -0.99999994,
+    5.96046448E-08
+  },
+  ["MapId"]= 1520,
+  ["Order"]= 1,
+  ["SceneId"]= 1520,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 152.4,
+      ["y"]= -0.0132827759,
+      ["z"]= 0.93
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1520401,
+  ["TargetName"]= "GateName1520401",
+  ["TargetTeleporterId"]= 1010403
+},
+[1530401] = {
+  ["bornPOS"]= {
+    ["x"]= -3.34,
+    ["y"]= 84.06008,
+    ["z"]= 63.09
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= -180,
+  ["directionList"]= {
+    8.742278E-08,
+    -1
+  },
+  ["MapId"]= 1530,
+  ["Order"]= 1,
+  ["SceneId"]= 1530,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -10.36,
+      ["y"]= 84.6,
+      ["z"]= 63.28
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= -8.742278E-08,
+      ["y"]= 0,
+      ["z"]= -1
+    }
+  },
+  ["staticId"]= 1530401,
+  ["TargetName"]= "GateName1020402",
+  ["TargetTeleporterId"]= 1010405
+},
+[1540401] = {
+  ["bornPOS"]= {
+    ["x"]= -0.05,
+    ["y"]= 46.47635,
+    ["z"]= -16.7
+  },
+  ["BornRadius"]= 1,
+  ["MapId"]= 15402,
+  ["Order"]= 1,
+  ["SceneId"]= 1540,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -0.05,
+      ["y"]= 46.4763451,
+      ["z"]= -10.9
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1540401,
+  ["TargetName"]= "GateName1540401",
+  ["TargetTeleporterId"]= 1540403
+},
+[1540402] = {
+  ["bornPOS"]= {
+    ["x"]= -0.05,
+    ["y"]= 47.20634,
+    ["z"]= 91
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= -180,
+  ["directionList"]= {
+    8.742278E-08,
+    -1
+  },
+  ["MapId"]= 15403,
+  ["Order"]= 1,
+  ["SceneId"]= 1540,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -0.05,
+      ["y"]= 47.2063446,
+      ["z"]= 94.68
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1540402,
+  ["TargetName"]= "GateName1540402",
+  ["TargetTeleporterId"]= 1540404
+},
+[1540403] = {
+  ["bornPOS"]= {
+    ["x"]= -0.12,
+    ["y"]= 47.20634,
+    ["z"]= 72
+  },
+  ["BornRadius"]= 1,
+  ["MapId"]= 15403,
+  ["Order"]= 1,
+  ["SceneId"]= 1540,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -0.12,
+      ["y"]= 47.2063446,
+      ["z"]= 69.81
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1540403,
+  ["TargetName"]= "GateName1540403",
+  ["TargetTeleporterId"]= 1540401
+},
+[1540404] = {
+  ["bornPOS"]= {
+    ["x"]= 131.76,
+    ["y"]= 47.17635,
+    ["z"]= -59
+  },
+  ["BornRadius"]= 1,
+  ["MapId"]= 15401,
+  ["Order"]= 1,
+  ["SceneId"]= 1540,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 131.76,
+      ["y"]= 47.26912,
+      ["z"]= -62.45
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1540404,
+  ["TargetName"]= "GateName1540404",
+  ["TargetTeleporterId"]= 1540402
+},
+[1560401] = {
+  ["bornPOS"]= {
+    ["x"]= 0.64,
+    ["y"]= 0,
+    ["z"]= 24.15
+  },
+  ["direction"]= -180,
+  ["directionList"]= {
+    8.742278E-08,
+    -1
+  },
+  ["MapId"]= 15601,
+  ["Order"]= 1,
+  ["SceneId"]= 1560,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 0.73,
+      ["y"]= 0.04,
+      ["z"]= 30.15
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1560401,
+  ["TargetName"]= "GateName1560401",
+  ["TargetTeleporterId"]= 1210403
+},
+[1560402] = {
+  ["bornPOS"]= {
+    ["x"]= 19.37,
+    ["y"]= 0,
+    ["z"]= -5
+  },
+  ["IconType"]= 2,
+  ["MapId"]= 15601,
+  ["Order"]= 2,
+  ["SceneId"]= 1560,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 19.31,
+      ["y"]= 0.08014999,
+      ["z"]= -12.6
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1560402,
+  ["TargetName"]= "GateName1560402",
+  ["TargetTeleporterId"]= 1560403
+},
+[1560403] = {
+  ["bornPOS"]= {
+    ["x"]= 62.82,
+    ["y"]= 0,
+    ["z"]= 0.23
+  },
+  ["direction"]= 90,
+  ["directionList"]= {
+    0.99999994,
+    5.96046448E-08
+  },
+  ["IconType"]= 2,
+  ["MapId"]= 15602,
+  ["Order"]= 3,
+  ["SceneId"]= 1560,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 58.78,
+      ["y"]= 0.05,
+      ["z"]= -0.08
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0.99999994,
+      ["y"]= 0,
+      ["z"]= 5.96046448E-08
+    }
+  },
+  ["staticId"]= 1560403,
+  ["TargetName"]= "GateName1560403",
+  ["TargetTeleporterId"]= 1560402
+},
+[1560404] = {
+  ["bornPOS"]= {
+    ["x"]= -17.87,
+    ["y"]= 0,
+    ["z"]= -5.49
+  },
+  ["direction"]= 180,
+  ["directionList"]= {
+    -8.742278E-08,
+    -1
+  },
+  ["IconType"]= 2,
+  ["MapId"]= 15601,
+  ["Order"]= 4,
+  ["SceneId"]= 1560,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -17.92,
+      ["y"]= 0.04,
+      ["z"]= -0.68
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1560404,
+  ["TargetName"]= "GateName1560404",
+  ["TargetTeleporterId"]= 1560405
+},
+[1560405] = {
+  ["bornPOS"]= {
+    ["x"]= -80.78,
+    ["y"]= 0,
+    ["z"]= 15.86
+  },
+  ["direction"]= -180,
+  ["directionList"]= {
+    8.742278E-08,
+    -1
+  },
+  ["IconType"]= 2,
+  ["MapId"]= 15603,
+  ["Order"]= 5,
+  ["SceneId"]= 1560,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -80.93,
+      ["y"]= 0.08,
+      ["z"]= 19.1
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1560405,
+  ["TargetName"]= "GateName1560405",
+  ["TargetTeleporterId"]= 1560404
+},
+[1560406] = {
+  ["bornPOS"]= {
+    ["x"]= 0.56,
+    ["y"]= 0,
+    ["z"]= -20.67
+  },
+  ["MapId"]= 15601,
+  ["Order"]= 6,
+  ["SceneId"]= 1560,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 0.4,
+      ["y"]= 0.04,
+      ["z"]= -25.31
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1560406,
+  ["TargetName"]= "GateName1560406",
+  ["TargetTeleporterId"]= 1260401
+},
+[1570401] = {
+  ["bornPOS"]= {
+    ["x"]= -23.64,
+    ["y"]= 0.7035819,
+    ["z"]= 24.54
+  },
+  ["direction"]= 90,
+  ["directionList"]= {
+    0.99999994,
+    5.96046448E-08
+  },
+  ["MapId"]= 1570,
+  ["Order"]= 1,
+  ["SceneId"]= 1570,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -27.85577,
+      ["y"]= 0.7035819,
+      ["z"]= 24.3705769
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1570401,
+  ["TargetName"]= "GateName1570401",
+  ["TargetTeleporterId"]= 1310404
+},
+[1580401] = {
+  ["bornPOS"]= {
+    ["x"]= 40.07,
+    ["y"]= 0.63,
+    ["z"]= 9.35
+  },
+  ["direction"]= -90,
+  ["directionList"]= {
+    -0.99999994,
+    5.96046448E-08
+  },
+  ["MapId"]= 1580,
+  ["Order"]= 1,
+  ["SceneId"]= 1580,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 40.12,
+      ["y"]= 0.6373617,
+      ["z"]= 7.53
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1580401,
+  ["TargetName"]= "GateName1580401",
+  ["TargetTeleporterId"]= 1180402
+},
+[1610401] = {
+  ["bornPOS"]= {
+    ["x"]= 115.74,
+    ["y"]= 1.19414,
+    ["z"]= 90.42
+  },
+  ["direction"]= 90,
+  ["directionList"]= {
+    0.99999994,
+    5.96046448E-08
+  },
+  ["MapId"]= 1610,
+  ["Order"]= 1,
+  ["SceneId"]= 1610,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 109.56,
+      ["y"]= 1.19414425,
+      ["z"]= 93.68
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1610401,
+  ["TargetName"]= "GateName1610401",
+  ["TargetTeleporterId"]= 1620402
+},
+[1610402] = {
+  ["bornPOS"]= {
+    ["x"]= 127.48,
+    ["y"]= -11.25,
+    ["z"]= 258.4
+  },
+  ["direction"]= 180,
+  ["directionList"]= {
+    -8.742278E-08,
+    -1
+  },
+  ["MapId"]= 1610,
+  ["Order"]= 2,
+  ["SceneId"]= 1610,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 127.47,
+      ["y"]= 1.87158036,
+      ["z"]= 265.42
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1610402,
+  ["TargetName"]= "GateName1610402",
+  ["TargetTeleporterId"]= 1630401
+},
+[1610403] = {
+  ["bornPOS"]= {
+    ["x"]= 45.74,
+    ["y"]= 4.55158,
+    ["z"]= 137.91
+  },
+  ["direction"]= 90,
+  ["directionList"]= {
+    0.99999994,
+    5.96046448E-08
+  },
+  ["MapId"]= 1610,
+  ["Order"]= 3,
+  ["SceneId"]= 1610,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 43,
+      ["y"]= 3.17158,
+      ["z"]= 137.91
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1610403,
+  ["TargetName"]= "GateName1610403",
+  ["TargetTeleporterId"]= 1640401
+},
+[1610404] = {
+  ["bornPOS"]= {
+    ["x"]= 19.2,
+    ["y"]= 2.254799,
+    ["z"]= 107.56
+  },
+  ["direction"]= 90,
+  ["directionList"]= {
+    0.99999994,
+    5.96046448E-08
+  },
+  ["MapId"]= 1610,
+  ["Order"]= 4,
+  ["SceneId"]= 1610,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 13.86,
+      ["y"]= 1.25837231,
+      ["z"]= 106.74
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1610404,
+  ["TargetName"]= "GateName1610404",
+  ["TargetTeleporterId"]= 1250402
+},
+[1620401] = {
+  ["bornPOS"]= {
+    ["x"]= 113.14,
+    ["y"]= 4.227265,
+    ["z"]= 1.04
+  },
+  ["direction"]= -90,
+  ["directionList"]= {
+    -0.99999994,
+    5.96046448E-08
+  },
+  ["MapId"]= 1620,
+  ["SceneId"]= 1620,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 116.61,
+      ["y"]= 4.227265,
+      ["z"]= 1.02
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1620401,
+  ["TargetName"]= "GateName1620401",
+  ["TargetTeleporterId"]= 1650401
+},
+[1620402] = {
+  ["bornPOS"]= {
+    ["x"]= -85.88,
+    ["y"]= -1.022735,
+    ["z"]= -39.93
+  },
+  ["direction"]= 88.51,
+  ["directionList"]= {
+    0.9996618,
+    0.0260024667
+  },
+  ["MapId"]= 1620,
+  ["SceneId"]= 1620,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -88.65,
+      ["y"]= -1.02273512,
+      ["z"]= -39.83
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1620402,
+  ["TargetName"]= "GateName1620402",
+  ["TargetTeleporterId"]= 1610401
+},
+[1630401] = {
+  ["bornPOS"]= {
+    ["x"]= -3.34,
+    ["y"]= -1.169999,
+    ["z"]= -70.75
+  },
+  ["MapId"]= 1630,
+  ["Order"]= 1,
+  ["SceneId"]= 1630,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -3.17,
+      ["y"]= -1.4259994,
+      ["z"]= -75.28
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1630401,
+  ["TargetName"]= "GateName1630401",
+  ["TargetTeleporterId"]= 1610402
+},
+[1640401] = {
+  ["bornPOS"]= {
+    ["x"]= 104.64,
+    ["y"]= 36.12,
+    ["z"]= 158.58
+  },
+  ["direction"]= 90,
+  ["directionList"]= {
+    0.99999994,
+    5.96046448E-08
+  },
+  ["MapId"]= 1640,
+  ["Order"]= 1,
+  ["SceneId"]= 1640,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 99.7,
+      ["y"]= 36.12,
+      ["z"]= 158.52
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1640401,
+  ["TargetName"]= "GateName1640401",
+  ["TargetTeleporterId"]= 1610403
+},
+[1650401] = {
+  ["bornPOS"]= {
+    ["x"]= -109.76,
+    ["y"]= 4.03196,
+    ["z"]= 331.38
+  },
+  ["direction"]= 90,
+  ["directionList"]= {
+    0.99999994,
+    5.96046448E-08
+  },
+  ["MapId"]= 1650,
+  ["Order"]= 1,
+  ["SceneId"]= 1650,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -112.55,
+      ["y"]= 3.46196,
+      ["z"]= 330.88
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1650401,
+  ["TargetName"]= "GateName1650401",
+  ["TargetTeleporterId"]= 1620401
+},
+[1650402] = {
+  ["bornPOS"]= {
+    ["x"]= 63.31,
+    ["y"]= 1.03196,
+    ["z"]= 419.42
+  },
+  ["direction"]= -90,
+  ["directionList"]= {
+    -0.99999994,
+    5.96046448E-08
+  },
+  ["MapId"]= 1650,
+  ["Order"]= 2,
+  ["SceneId"]= 1650,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 66.99,
+      ["y"]= 1.03196,
+      ["z"]= 419.4
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1650402,
+  ["TargetName"]= "GateName1650402",
+  ["TargetTeleporterId"]= 1660401
+},
+[1660401] = {
+  ["bornPOS"]= {
+    ["x"]= -24.62,
+    ["y"]= 5.068808,
+    ["z"]= 847.18
+  },
+  ["direction"]= 180,
+  ["directionList"]= {
+    -8.742278E-08,
+    -1
+  },
+  ["MapId"]= 1660,
+  ["Order"]= 1,
+  ["SceneId"]= 1660,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -24.9,
+      ["y"]= 4.22687054,
+      ["z"]= 856.09
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1660401,
+  ["TargetName"]= "GateName1660401",
+  ["TargetTeleporterId"]= 1650402
+},
+[1720401] = {
+  ["bornPOS"]= {
+    ["x"]= 0,
+    ["y"]= 0,
+    ["z"]= 0
+  },
+  ["gvgPoint"]= 1,
+  ["isCondition"]= 1,
+  ["MapId"]= 1720,
+  ["ResId"]= 10007,
+  ["SceneId"]= 1720,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -55.21206,
+      ["y"]= -3.95519137,
+      ["z"]= -42.81669
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1720401,
+  ["uiName"]= "UI_GVGEnter"
+},
+[1720402] = {
+  ["bornPOS"]= {
+    ["x"]= 0,
+    ["y"]= 0,
+    ["z"]= 0
+  },
+  ["gvgPoint"]= 2,
+  ["isCondition"]= 1,
+  ["MapId"]= 1720,
+  ["ResId"]= 10007,
+  ["SceneId"]= 1720,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -46.77497,
+      ["y"]= -3.95519137,
+      ["z"]= -41.99472
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1720402,
+  ["uiName"]= "UI_GVGEnter"
+},
+[1720403] = {
+  ["bornPOS"]= {
+    ["x"]= 0,
+    ["y"]= 0,
+    ["z"]= 0
+  },
+  ["gvgPoint"]= 3,
+  ["isCondition"]= 1,
+  ["MapId"]= 1720,
+  ["ResId"]= 10007,
+  ["SceneId"]= 1720,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -35.7710228,
+      ["y"]= -3.95519137,
+      ["z"]= -41.8290672
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1720403,
+  ["uiName"]= "UI_GVGEnter"
+},
+[1720404] = {
+  ["bornPOS"]= {
+    ["x"]= 0,
+    ["y"]= 0,
+    ["z"]= 0
+  },
+  ["gvgPoint"]= 4,
+  ["isCondition"]= 1,
+  ["MapId"]= 1720,
+  ["ResId"]= 10007,
+  ["SceneId"]= 1720,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -34.6900253,
+      ["y"]= -4.12223673,
+      ["z"]= -63.765564
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 1720404,
+  ["uiName"]= "UI_GVGEnter"
+},
+[2010401] = {
+  ["bornPOS"]= {
+    ["x"]= -0.3335735,
+    ["y"]= 43.33084,
+    ["z"]= 78.79189
+  },
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 2010,
+  ["Order"]= 99,
+  ["SceneId"]= 2010,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -0.06230094,
+      ["y"]= 43.47032,
+      ["z"]= 73.36279
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 2010401,
+  ["TargetTeleporterId"]= 2010402
+},
+[2010402] = {
+  ["bornPOS"]= {
+    ["x"]= -0.01055023,
+    ["y"]= 3.120803,
+    ["z"]= 55.18082
+  },
+  ["direction"]= -180,
+  ["directionList"]= {
+    8.742278E-08,
+    -1
+  },
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 2010,
+  ["Order"]= 99,
+  ["SceneId"]= 2010,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 0.02,
+      ["y"]= 3.120806,
+      ["z"]= 66.05
+    },
+    ["radius"]= 0,
+    ["rotation"]= {
+      ["x"]= 8.742278E-08,
+      ["y"]= 0,
+      ["z"]= -1
+    }
+  },
+  ["staticId"]= 2010402,
+  ["TargetTeleporterId"]= 2010401
+},
+[2011401] = {
+  ["bornPOS"]= {
+    ["x"]= -0.3335735,
+    ["y"]= 43.33084,
+    ["z"]= 78.79189
+  },
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 2011,
+  ["Order"]= 99,
+  ["SceneId"]= 2011,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -0.06230094,
+      ["y"]= 43.47032,
+      ["z"]= 73.36279
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 2011401,
+  ["TargetTeleporterId"]= 2011402
+},
+[2011402] = {
+  ["bornPOS"]= {
+    ["x"]= -0.01055023,
+    ["y"]= 3.120803,
+    ["z"]= 55.18082
+  },
+  ["direction"]= -180,
+  ["directionList"]= {
+    8.742278E-08,
+    -1
+  },
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 2011,
+  ["Order"]= 99,
+  ["SceneId"]= 2011,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 0.02,
+      ["y"]= 3.120806,
+      ["z"]= 66.05
+    },
+    ["radius"]= 0,
+    ["rotation"]= {
+      ["x"]= 8.742278E-08,
+      ["y"]= 0,
+      ["z"]= -1
+    }
+  },
+  ["staticId"]= 2011402,
+  ["TargetTeleporterId"]= 2011401
+},
+[2012401] = {
+  ["bornPOS"]= {
+    ["x"]= 0,
+    ["y"]= 0,
+    ["z"]= 0
+  },
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 2012,
+  ["SceneId"]= 2012,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -0.24,
+      ["y"]= 43.4285049,
+      ["z"]= 73.41
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 2012401,
+  ["TargetName"]= "从上往下走的点",
+  ["TargetTeleporterId"]= 2012402
+},
+[2012402] = {
+  ["bornPOS"]= {
+    ["x"]= 0.7,
+    ["y"]= 0,
+    ["z"]= 53.1
+  },
+  ["direction"]= -180,
+  ["directionList"]= {
+    8.742278E-08,
+    -1
+  },
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 2012,
+  ["SceneId"]= 2012,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -0.32,
+      ["y"]= 3.05,
+      ["z"]= 72.73
+    },
+    ["radius"]= 0,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 2012402,
+  ["TargetName"]= "从下往下上的点",
+  ["TargetTeleporterId"]= 2012401
+},
+[2040401] = {
+  ["bornPOS"]= {
+    ["x"]= 1,
+    ["y"]= 1,
+    ["z"]= 1
+  },
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 2040,
+  ["Order"]= 99,
+  ["ResId"]= 10001,
+  ["SceneId"]= 2040,
+  ["staticId"]= 2040401,
+  ["TargetTeleporterId"]= 2040402
+},
+[2040402] = {
+  ["bornPOS"]= {
+    ["x"]= -18.61,
+    ["y"]= 97.58,
+    ["z"]= 8.298685
+  },
+  ["direction"]= 90,
+  ["directionList"]= {
+    0.99999994,
+    5.96046448E-08
+  },
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 2040,
+  ["Order"]= 99,
+  ["ResId"]= 10001,
+  ["SceneId"]= 2040,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -27.10397,
+      ["y"]= 77.48,
+      ["z"]= 7.871963
+    },
+    ["radius"]= 0,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 2040402,
+  ["TargetTeleporterId"]= 2040401
+},
+[2041401] = {
+  ["bornPOS"]= {
+    ["x"]= 1,
+    ["y"]= 1,
+    ["z"]= 1
+  },
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["ResId"]= 10001,
+  ["SceneId"]= 2041,
+  ["staticId"]= 2041401,
+  ["TargetName"]= "EquipDesc_2103035",
+  ["TargetTeleporterId"]= 2041402
+},
+[2041402] = {
+  ["bornPOS"]= {
+    ["x"]= -18.61,
+    ["y"]= 97.58,
+    ["z"]= 8.298685
+  },
+  ["direction"]= 90,
+  ["directionList"]= {
+    0.99999994,
+    5.96046448E-08
+  },
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["ResId"]= 10001,
+  ["SceneId"]= 2041,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -27.10397,
+      ["y"]= 77.48,
+      ["z"]= 7.871963
+    },
+    ["radius"]= 0,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 2041402,
+  ["TargetTeleporterId"]= 2041401
+},
+[2042401] = {
+  ["bornPOS"]= {
+    ["x"]= 1,
+    ["y"]= 1,
+    ["z"]= 1
+  },
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["ResId"]= 10001,
+  ["SceneId"]= 2042,
+  ["staticId"]= 2042401,
+  ["TargetName"]= "EquipDesc_2103035",
+  ["TargetTeleporterId"]= 2042402
+},
+[2042402] = {
+  ["bornPOS"]= {
+    ["x"]= -18.61,
+    ["y"]= 97.58,
+    ["z"]= 8.298685
+  },
+  ["direction"]= 90,
+  ["directionList"]= {
+    0.99999994,
+    5.96046448E-08
+  },
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["ResId"]= 10001,
+  ["SceneId"]= 2042,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -27.10397,
+      ["y"]= 77.48,
+      ["z"]= 7.871963
+    },
+    ["radius"]= 0,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 2042402,
+  ["TargetTeleporterId"]= 2042401
+},
+[2070401] = {
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["ResId"]= 10001,
+  ["SceneId"]= 2070,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -1.66,
+      ["y"]= 42.43,
+      ["z"]= -50.28
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 2070401,
+  ["TargetName"]= "平台去BOSS",
+  ["TargetTeleporterId"]= 2070402
+},
+[2070402] = {
+  ["bornPOS"]= {
+    ["x"]= 0,
+    ["y"]= 0,
+    ["z"]= -14.29
+  },
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMap"]= 0,
+  ["IsShowMapName"]= 0,
+  ["ResId"]= 10001,
+  ["SceneId"]= 2070,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -1.54,
+      ["y"]= 42.36998,
+      ["z"]= 562.7
+    },
+    ["radius"]= 0,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 2070402,
+  ["TargetTeleporterId"]= 2070401
+},
+[2070409] = {
+  ["ResId"]= 10001,
+  ["SceneId"]= 2070,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 533.45,
+      ["y"]= 46.27,
+      ["z"]= -107.88
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 2070409,
+  ["TargetName"]= "迷宫1去BOSS",
+  ["TargetTeleporterId"]= 2070412
+},
+[2070410] = {
+  ["ResId"]= 10001,
+  ["SceneId"]= 2070,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 623.52,
+      ["y"]= 46.27,
+      ["z"]= -107.91
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 2070410,
+  ["TargetName"]= "迷宫2去BOSS",
+  ["TargetTeleporterId"]= 2070412
+},
+[2070411] = {
+  ["ResId"]= 10001,
+  ["SceneId"]= 2070,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 713.4,
+      ["y"]= 46.27,
+      ["z"]= -107.97
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 2070411,
+  ["TargetName"]= "迷宫3去BOSS",
+  ["TargetTeleporterId"]= 2070412
+},
+[2070412] = {
+  ["bornPOS"]= {
+    ["x"]= -1.07,
+    ["y"]= 0,
+    ["z"]= -67.96
+  },
+  ["IsShowList"]= 0,
+  ["IsShowMap"]= 0,
+  ["IsShowMapName"]= 0,
+  ["ResId"]= 10001,
+  ["SceneId"]= 2070,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -1.07,
+      ["y"]= 42.1999969,
+      ["z"]= 161.3
+    },
+    ["radius"]= 0,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 2070412,
+  ["TargetName"]= "返回4",
+  ["TargetTeleporterId"]= 2070401
+},
+[2071401] = {
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["ResId"]= 10001,
+  ["SceneId"]= 2071,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -1.66,
+      ["y"]= 42.43,
+      ["z"]= -50.28
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 2071401,
+  ["TargetName"]= "平台去BOSS",
+  ["TargetTeleporterId"]= 2071402
+},
+[2071402] = {
+  ["bornPOS"]= {
+    ["x"]= 0,
+    ["y"]= 0,
+    ["z"]= -14.29
+  },
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMap"]= 0,
+  ["IsShowMapName"]= 0,
+  ["ResId"]= 10001,
+  ["SceneId"]= 2071,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -1.54,
+      ["y"]= 42.36998,
+      ["z"]= 562.7
+    },
+    ["radius"]= 0,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 2071402,
+  ["TargetName"]= "EquipDesc_2103035",
+  ["TargetTeleporterId"]= 2071401
+},
+[2071409] = {
+  ["ResId"]= 10001,
+  ["SceneId"]= 2071,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 533.45,
+      ["y"]= 46.27,
+      ["z"]= -107.88
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 2071409,
+  ["TargetName"]= "迷宫1去BOSS",
+  ["TargetTeleporterId"]= 2071412
+},
+[2071410] = {
+  ["ResId"]= 10001,
+  ["SceneId"]= 2071,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 623.52,
+      ["y"]= 46.27,
+      ["z"]= -107.91
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 2071410,
+  ["TargetName"]= "迷宫2去BOSS",
+  ["TargetTeleporterId"]= 2071412
+},
+[2071411] = {
+  ["ResId"]= 10001,
+  ["SceneId"]= 2071,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 713.4,
+      ["y"]= 46.27,
+      ["z"]= -107.97
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 2071411,
+  ["TargetName"]= "迷宫3去BOSS",
+  ["TargetTeleporterId"]= 2071412
+},
+[2071412] = {
+  ["bornPOS"]= {
+    ["x"]= -1.07,
+    ["y"]= 0,
+    ["z"]= -67.96
+  },
+  ["IsShowList"]= 0,
+  ["IsShowMap"]= 0,
+  ["IsShowMapName"]= 0,
+  ["ResId"]= 10001,
+  ["SceneId"]= 2071,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -1.07,
+      ["y"]= 42.1999969,
+      ["z"]= 161.3
+    },
+    ["radius"]= 0,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 2071412,
+  ["TargetName"]= "返回4",
+  ["TargetTeleporterId"]= 2071401
+},
+[3020401] = {
+  ["bornPOS"]= {
+    ["x"]= 0,
+    ["y"]= 0,
+    ["z"]= 0
+  },
+  ["IsShowList"]= 0,
+  ["SceneId"]= 3020,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 1885.56,
+      ["y"]= 2.96,
+      ["z"]= -68.38
+    },
+    ["radius"]= 0,
+    ["rotation"]= {
+      ["x"]= 0.99999994,
+      ["y"]= 0,
+      ["z"]= 5.96046448E-08
+    }
+  },
+  ["staticId"]= 3020401,
+  ["TargetTeleporterId"]= 0
+},
+[4500401] = {
+  ["bornPOS"]= {
+    ["x"]= -274,
+    ["y"]= 14.6,
+    ["z"]= 0
+  },
+  ["BornRadius"]= 2,
+  ["MapId"]= 4500,
+  ["SceneId"]= 4500,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -274.9099,
+      ["y"]= 14.6000385,
+      ["z"]= -2.72001266
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 4500401,
+  ["TargetName"]= "回主城",
+  ["TargetTeleporterId"]= 1010410
+},
+[4503401] = {
+  ["bornPOS"]= {
+    ["x"]= -567,
+    ["y"]= 19,
+    ["z"]= 28.3
+  },
+  ["BornRadius"]= 2,
+  ["conditionList"]= {
+    10001
+  },
+  ["MapId"]= 4503,
+  ["SceneId"]= 4503,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -567.6612,
+      ["y"]= 18.4534149,
+      ["z"]= 28.3708458
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 4503401,
+  ["TargetName"]= "去2楼",
+  ["TargetTeleporterId"]= 4503402
+},
+[4503402] = {
+  ["bornPOS"]= {
+    ["x"]= -244,
+    ["y"]= 24,
+    ["z"]= 2.1
+  },
+  ["BornRadius"]= 2,
+  ["MapId"]= 4503,
+  ["SceneId"]= 4503,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -244.1575,
+      ["y"]= 23.8934174,
+      ["z"]= 2.11741257
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 4503402,
+  ["TargetName"]= "去1楼",
+  ["TargetTeleporterId"]= 4503401
+},
+[4503403] = {
+  ["bornPOS"]= {
+    ["x"]= -95,
+    ["y"]= 28,
+    ["z"]= 1.6
+  },
+  ["BornRadius"]= 2,
+  ["MapId"]= 4503,
+  ["SceneId"]= 4503,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -95.27136,
+      ["y"]= 28.8434181,
+      ["z"]= 1.62940586
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 4503403,
+  ["TargetName"]= "去3楼",
+  ["TargetTeleporterId"]= 4503404
+},
+[4503404] = {
+  ["bornPOS"]= {
+    ["x"]= 261,
+    ["y"]= 23,
+    ["z"]= 58
+  },
+  ["BornRadius"]= 2,
+  ["MapId"]= 4503,
+  ["SceneId"]= 4503,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 261.7271,
+      ["y"]= 23.244688,
+      ["z"]= 58.45435
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 4503404,
+  ["TargetName"]= "去2楼",
+  ["TargetTeleporterId"]= 4503403
+},
+[4504401] = {
+  ["bornPOS"]= {
+    ["x"]= -147,
+    ["y"]= 16.7,
+    ["z"]= 71.5
+  },
+  ["BornRadius"]= 5,
+  ["MapId"]= 45041,
+  ["SceneId"]= 4504,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -147.42,
+      ["y"]= 16.7139587,
+      ["z"]= 61.12
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 4504401,
+  ["TargetName"]= "GateName4504401",
+  ["TargetTeleporterId"]= 1310411
+},
+[4504402] = {
+  ["bornPOS"]= {
+    ["x"]= -184,
+    ["y"]= 19,
+    ["z"]= 224
+  },
+  ["BornRadius"]= 2,
+  ["direction"]= 180,
+  ["directionList"]= {
+    -8.742278E-08,
+    -1
+  },
+  ["IconType"]= 2,
+  ["MapId"]= 45041,
+  ["SceneId"]= 4504,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -184.902176,
+      ["y"]= 19.72396,
+      ["z"]= 230.456345
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 4504402,
+  ["TargetName"]= "GateName4504402",
+  ["TargetTeleporterId"]= 4504405
+},
+[4504403] = {
+  ["bornPOS"]= {
+    ["x"]= 261,
+    ["y"]= 15,
+    ["z"]= 103
+  },
+  ["BornRadius"]= 2,
+  ["direction"]= 90,
+  ["directionList"]= {
+    0.99999994,
+    5.96046448E-08
+  },
+  ["MapId"]= 45042,
+  ["SceneId"]= 4504,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 261.121033,
+      ["y"]= 15.24396,
+      ["z"]= 97.41815
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 4504403,
+  ["TargetName"]= "回1层",
+  ["TargetTeleporterId"]= 4504402
+},
+[4504404] = {
+  ["bornPOS"]= {
+    ["x"]= 261,
+    ["y"]= 21.3,
+    ["z"]= 235
+  },
+  ["BornRadius"]= 2,
+  ["MapId"]= 45042,
+  ["SceneId"]= 4504,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 261.649536,
+      ["y"]= 21.38396,
+      ["z"]= 241.414383
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 4504404,
+  ["TargetName"]= "去3楼",
+  ["TargetTeleporterId"]= 4504405
+},
+[4504405] = {
+  ["bornPOS"]= {
+    ["x"]= 692,
+    ["y"]= 20,
+    ["z"]= 120
+  },
+  ["BornRadius"]= 3,
+  ["direction"]= 90,
+  ["directionList"]= {
+    0.99999994,
+    5.96046448E-08
+  },
+  ["IconType"]= 2,
+  ["MapId"]= 45043,
+  ["SceneId"]= 4504,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 686,
+      ["y"]= 20.763958,
+      ["z"]= 119.59
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 4504405,
+  ["TargetName"]= "GateName4504405",
+  ["TargetTeleporterId"]= 4504402
+},
+[4504406] = {
+  ["bornPOS"]= {
+    ["x"]= 697.6,
+    ["y"]= 18.4,
+    ["z"]= 236.7
+  },
+  ["BornRadius"]= 2,
+  ["conditionList"]= {
+    10001
+  },
+  ["direction"]= 45,
+  ["directionList"]= {
+    0.7071068,
+    0.7071067
+  },
+  ["MapId"]= 45043,
+  ["SceneId"]= 4504,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 690.91,
+      ["y"]= 18.43396,
+      ["z"]= 236.76
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 4504406,
+  ["TargetName"]= "GateName4504406",
+  ["TargetTeleporterId"]= 1310411
+},
+[4504410] = {
+  ["bornPOS"]= {
+    ["x"]= 703.4,
+    ["y"]= 18.4,
+    ["z"]= 242.5
+  },
+  ["BornRadius"]= 2,
+  ["conditionList"]= {
+    10001
+  },
+  ["direction"]= 45,
+  ["directionList"]= {
+    0.7071068,
+    0.7071067
+  },
+  ["gvgConfrontsShow"]= 1,
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 45043,
+  ["ResId"]= 10006,
+  ["SceneId"]= 4504,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 703.434937,
+      ["y"]= 18.43396,
+      ["z"]= 242.553
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 4504410,
+  ["TargetName"]= "GateName4504410",
+  ["TargetTeleporterId"]= 4504411
+},
+[4504411] = {
+  ["bornPOS"]= {
+    ["x"]= -207.5,
+    ["y"]= 16.7,
+    ["z"]= 126.2
+  },
+  ["BornRadius"]= 2,
+  ["conditionList"]= {
+    10001
+  },
+  ["direction"]= 45,
+  ["directionList"]= {
+    0.7071068,
+    0.7071067
+  },
+  ["gvgConfrontsShow"]= 1,
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 45041,
+  ["SceneId"]= 4504,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -207.57576,
+      ["y"]= 16.71396,
+      ["z"]= 126.262886
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 4504411,
+  ["TargetName"]= "GateName4504411",
+  ["TargetTeleporterId"]= 4504410
+},
+[4505401] = {
+  ["bornPOS"]= {
+    ["x"]= -227,
+    ["y"]= 1.54,
+    ["z"]= 94.1
+  },
+  ["BornRadius"]= 2,
+  ["direction"]= 90,
+  ["directionList"]= {
+    0.99999994,
+    5.96046448E-08
+  },
+  ["MapId"]= 45051,
+  ["SceneId"]= 4505,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -239,
+      ["y"]= 1.54292,
+      ["z"]= 94.14594
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 4505401,
+  ["TargetName"]= "GateName4505401",
+  ["TargetTeleporterId"]= 1310412
+},
+[4505402] = {
+  ["bornPOS"]= {
+    ["x"]= -204.5,
+    ["y"]= -2.3,
+    ["z"]= 273
+  },
+  ["BornRadius"]= 2,
+  ["direction"]= 180,
+  ["directionList"]= {
+    -8.742278E-08,
+    -1
+  },
+  ["IconType"]= 2,
+  ["MapId"]= 45051,
+  ["SceneId"]= 4505,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -204.521912,
+      ["y"]= -2.1570797,
+      ["z"]= 281.1
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 4505402,
+  ["TargetName"]= "GateName4505402",
+  ["TargetTeleporterId"]= 4505405
+},
+[4505403] = {
+  ["bornPOS"]= {
+    ["x"]= 221,
+    ["y"]= 4.1,
+    ["z"]= 126.2
+  },
+  ["BornRadius"]= 2,
+  ["direction"]= -45,
+  ["directionList"]= {
+    -0.7071068,
+    0.7071067
+  },
+  ["IconType"]= 2,
+  ["MapId"]= 45052,
+  ["SceneId"]= 4505,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 221.928116,
+      ["y"]= 4.122668,
+      ["z"]= 128.285355
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 4505403,
+  ["TargetName"]= "回1层",
+  ["TargetTeleporterId"]= 4505402
+},
+[4505404] = {
+  ["bornPOS"]= {
+    ["x"]= 255,
+    ["y"]= 11.2,
+    ["z"]= 238.8
+  },
+  ["BornRadius"]= 2,
+  ["IconType"]= 2,
+  ["MapId"]= 45052,
+  ["SceneId"]= 4505,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 255.259033,
+      ["y"]= 11.2429352,
+      ["z"]= 238.8
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 4505404,
+  ["TargetName"]= "去3层",
+  ["TargetTeleporterId"]= 4505405
+},
+[4505405] = {
+  ["bornPOS"]= {
+    ["x"]= 690,
+    ["y"]= 5.9,
+    ["z"]= 119.36
+  },
+  ["BornRadius"]= 2,
+  ["direction"]= 90,
+  ["directionList"]= {
+    0.99999994,
+    5.96046448E-08
+  },
+  ["IconType"]= 2,
+  ["MapId"]= 45053,
+  ["SceneId"]= 4505,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 686.47,
+      ["y"]= 5.75396,
+      ["z"]= 119.36
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 4505405,
+  ["TargetName"]= "GateName4505405",
+  ["TargetTeleporterId"]= 4505402
+},
+[4505406] = {
+  ["bornPOS"]= {
+    ["x"]= 690,
+    ["y"]= 4,
+    ["z"]= 237.5
+  },
+  ["BornRadius"]= 2,
+  ["conditionList"]= {
+    10001
+  },
+  ["direction"]= 45,
+  ["directionList"]= {
+    0.7071068,
+    0.7071067
+  },
+  ["IconType"]= 2,
+  ["MapId"]= 45053,
+  ["SceneId"]= 4505,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 690.91,
+      ["y"]= 3.423962,
+      ["z"]= 237.49
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 4505406,
+  ["TargetName"]= "GateName4505406",
+  ["TargetTeleporterId"]= 1310412
+},
+[4505410] = {
+  ["bornPOS"]= {
+    ["x"]= 703,
+    ["y"]= 4.2,
+    ["z"]= 242.3
+  },
+  ["BornRadius"]= 2,
+  ["conditionList"]= {
+    10001
+  },
+  ["direction"]= 45,
+  ["directionList"]= {
+    0.7071068,
+    0.7071067
+  },
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 45053,
+  ["ResId"]= 10006,
+  ["SceneId"]= 4505,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 703.34,
+      ["y"]= 3.423962,
+      ["z"]= 242.39
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 4505410,
+  ["TargetName"]= "GateName4505410",
+  ["TargetTeleporterId"]= 4505411
+},
+[4505411] = {
+  ["bornPOS"]= {
+    ["x"]= -171.1,
+    ["y"]= -2.13,
+    ["z"]= 193.4
+  },
+  ["BornRadius"]= 2,
+  ["conditionList"]= {
+    10001
+  },
+  ["direction"]= -90,
+  ["directionList"]= {
+    -0.99999994,
+    5.96046448E-08
+  },
+  ["IconType"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 45051,
+  ["ResId"]= 10006,
+  ["SceneId"]= 4505,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -171.153976,
+      ["y"]= -2.13708,
+      ["z"]= 193.450287
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 4505411,
+  ["TargetName"]= "GateName4505411",
+  ["TargetTeleporterId"]= 4505410
+},
+[4506403] = {
+  ["bornPOS"]= {
+    ["x"]= 65.5,
+    ["y"]= -3.67,
+    ["z"]= 95
+  },
+  ["BornRadius"]= 3,
+  ["direction"]= 180,
+  ["directionList"]= {
+    -8.742278E-08,
+    -1
+  },
+  ["MapId"]= 45061,
+  ["SceneId"]= 4506,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 65.5,
+      ["y"]= -3.68085241,
+      ["z"]= 100.29
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 4506403,
+  ["TargetName"]= "GateName4506402",
+  ["TargetTeleporterId"]= 4506405
+},
+[4506405] = {
+  ["bornPOS"]= {
+    ["x"]= 928.5,
+    ["y"]= 2.62,
+    ["z"]= -48.17
+  },
+  ["BornRadius"]= 5,
+  ["direction"]= -45,
+  ["directionList"]= {
+    -0.7071068,
+    0.7071067
+  },
+  ["MapId"]= 45062,
+  ["SceneId"]= 4506,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 935.05,
+      ["y"]= 2.503971,
+      ["z"]= -55.01
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 4506405,
+  ["TargetName"]= "GateName4506403",
+  ["TargetTeleporterId"]= 4506403
+},
+[4507401] = {
+  ["bornPOS"]= {
+    ["x"]= -24.5,
+    ["y"]= -4.96,
+    ["z"]= 145
+  },
+  ["BornRadius"]= 3,
+  ["direction"]= 180,
+  ["directionList"]= {
+    -8.742278E-08,
+    -1
+  },
+  ["MapId"]= 45071,
+  ["SceneId"]= 4507,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -24.57,
+      ["y"]= -4.961557,
+      ["z"]= 148.5
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 4507401,
+  ["TargetName"]= "GateName4506402",
+  ["TargetTeleporterId"]= 4507402
+},
+[4507402] = {
+  ["bornPOS"]= {
+    ["x"]= -1.02,
+    ["y"]= -0.09,
+    ["z"]= 883.64
+  },
+  ["BornRadius"]= 3,
+  ["direction"]= 180,
+  ["directionList"]= {
+    -8.742278E-08,
+    -1
+  },
+  ["MapId"]= 45072,
+  ["SceneId"]= 4507,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -1.02,
+      ["y"]= -9.894371E-06,
+      ["z"]= 887.7
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 4507402,
+  ["TargetName"]= "GateName4506403",
+  ["TargetTeleporterId"]= 4507401
+},
+[4508403] = {
+  ["bornPOS"]= {
+    ["x"]= 829.21,
+    ["y"]= 7.12,
+    ["z"]= -73.12
+  },
+  ["BornRadius"]= 5,
+  ["MapId"]= 45081,
+  ["SceneId"]= 4508,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 829.21,
+      ["y"]= 3.794465,
+      ["z"]= -79.6
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 4508403,
+  ["TargetName"]= "GateName4506402",
+  ["TargetTeleporterId"]= 4508404
+},
+[4508404] = {
+  ["bornPOS"]= {
+    ["x"]= 1203,
+    ["y"]= 1.194,
+    ["z"]= -101.29
+  },
+  ["BornRadius"]= 5,
+  ["MapId"]= 45082,
+  ["SceneId"]= 4508,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 1203.02,
+      ["y"]= 0.7763723,
+      ["z"]= -111.18
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 4508404,
+  ["TargetName"]= "GateName4506403",
+  ["TargetTeleporterId"]= 4508403
+},
+[4509401] = {
+  ["bornPOS"]= {
+    ["x"]= 122.03,
+    ["y"]= 47.9,
+    ["z"]= 172
+  },
+  ["BornRadius"]= 3,
+  ["direction"]= 180,
+  ["directionList"]= {
+    -8.742278E-08,
+    -1
+  },
+  ["MapId"]= 45091,
+  ["SceneId"]= 4509,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 122.03,
+      ["y"]= 30.0052452,
+      ["z"]= 175.8
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 4509401,
+  ["TargetName"]= "GateName4506402",
+  ["TargetTeleporterId"]= 4509402
+},
+[4509402] = {
+  ["bornPOS"]= {
+    ["x"]= 589.34,
+    ["y"]= 33.43,
+    ["z"]= 179.5
+  },
+  ["BornRadius"]= 3,
+  ["MapId"]= 45092,
+  ["SceneId"]= 4509,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 589.34,
+      ["y"]= 33.4452438,
+      ["z"]= 171.82
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 4509402,
+  ["TargetName"]= "GateName4506403",
+  ["TargetTeleporterId"]= 4509401
+},
+[4509403] = {
+  ["bornPOS"]= {
+    ["x"]= 158.35,
+    ["y"]= 29.97,
+    ["z"]= 195.76
+  },
+  ["BornRadius"]= 3,
+  ["direction"]= 180,
+  ["directionList"]= {
+    -8.742278E-08,
+    -1
+  },
+  ["MapId"]= 45091,
+  ["SceneId"]= 4509,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 158.35,
+      ["y"]= 30.0052452,
+      ["z"]= 199.02
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 4509403,
+  ["TargetName"]= "GateName4506402",
+  ["TargetTeleporterId"]= 4509404
+},
+[4509404] = {
+  ["bornPOS"]= {
+    ["x"]= 725,
+    ["y"]= 33.32,
+    ["z"]= 108.7
+  },
+  ["BornRadius"]= 3,
+  ["direction"]= 180,
+  ["directionList"]= {
+    -8.742278E-08,
+    -1
+  },
+  ["MapId"]= 45092,
+  ["SceneId"]= 4509,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 725.06,
+      ["y"]= 33.4352455,
+      ["z"]= 118.56
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 4509404,
+  ["TargetName"]= "GateName4506403",
+  ["TargetTeleporterId"]= 4509403
+},
+[4510401] = {
+  ["bornPOS"]= {
+    ["x"]= -4.912,
+    ["y"]= -3.29,
+    ["z"]= 105.6
+  },
+  ["BornRadius"]= 2,
+  ["MapId"]= 45101,
+  ["SceneId"]= 4510,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -4.91222763,
+      ["y"]= -3.292266,
+      ["z"]= 103.607239
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 4510401,
+  ["TargetName"]= "GateName4506402",
+  ["TargetTeleporterId"]= 4510402
+},
+[4510402] = {
+  ["bornPOS"]= {
+    ["x"]= -6.04,
+    ["y"]= 0,
+    ["z"]= 819.33
+  },
+  ["BornRadius"]= 4,
+  ["MapId"]= 45102,
+  ["SceneId"]= 4510,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -6.04,
+      ["y"]= -0.0491548181,
+      ["z"]= 813.27
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 4510402,
+  ["TargetName"]= "GateName4506403",
+  ["TargetTeleporterId"]= 4510401
+},
+[4601401] = {
+  ["bornPOS"]= {
+    ["x"]= 197.5,
+    ["y"]= 76.94,
+    ["z"]= 89.3
+  },
+  ["BornRadius"]= 2,
+  ["IsShowList"]= 0,
+  ["IsShowMap"]= 0,
+  ["IsShowMapName"]= 0,
+  ["MapId"]= 4601,
+  ["posHight"]= 2.5,
+  ["SceneId"]= 4601,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 0
+    },
+    ["radius"]= 0,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["signContentLocalized"]= "SceneName1010",
+  ["staticId"]= 4601401,
+  ["TargetName"]= "深渊回廊出生点",
+  ["TargetTeleporterId"]= 0
+},
+[4602401] = {
+  ["bornPOS"]= {
+    ["x"]= 196,
+    ["y"]= 76.45,
+    ["z"]= 97
+  },
+  ["BornRadius"]= 3,
+  ["direction"]= -90,
+  ["directionList"]= {
+    -0.99999994,
+    5.96046448E-08
+  },
+  ["MapId"]= 4602,
+  ["posHight"]= 2.5,
+  ["SceneId"]= 4602,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 216.717316,
+      ["y"]= 76.45059,
+      ["z"]= 102.54
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["signContentLocalized"]= "Sign60162",
+  ["staticId"]= 4602401,
+  ["TargetName"]= "GateName1320402",
+  ["TargetTeleporterId"]= 1310411
+},
+[5501401] = {
+  ["bornPOS"]= {
+    ["x"]= -0.4400001,
+    ["y"]= 0,
+    ["z"]= -68.9
+  },
+  ["direction"]= 180,
+  ["directionList"]= {
+    -8.742278E-08,
+    -1
+  },
+  ["IconType"]= 2,
+  ["isFlashTransmit"]= 1,
+  ["IsShowMapName"]= 0,
+  ["ResId"]= 10008,
+  ["SceneId"]= 5501,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 0.06,
+      ["y"]= 1.3,
+      ["z"]= -60.09
+    },
+    ["radius"]= 5,
+    ["rotation"]= {
+      ["x"]= -0.99999994,
+      ["y"]= 0,
+      ["z"]= 5.96046448E-08
+    }
+  },
+  ["staticId"]= 5501401,
+  ["TargetName"]= "去安全区 南",
+  ["TargetTeleporterId"]= 5500401
+},
+[5501402] = {
+  ["bornPOS"]= {
+    ["x"]= -60.68,
+    ["y"]= 0,
+    ["z"]= -0.5
+  },
+  ["direction"]= -90,
+  ["directionList"]= {
+    -0.99999994,
+    5.96046448E-08
+  },
+  ["IconType"]= 2,
+  ["isFlashTransmit"]= 1,
+  ["IsShowMapName"]= 0,
+  ["ResId"]= 10008,
+  ["SceneId"]= 5501,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -54.75,
+      ["y"]= 1.3,
+      ["z"]= -0.5
+    },
+    ["radius"]= 5,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 5501402,
+  ["TargetName"]= "去安全区 西",
+  ["TargetTeleporterId"]= 5500402
+},
+[5501403] = {
+  ["bornPOS"]= {
+    ["x"]= -0.28,
+    ["y"]= 0,
+    ["z"]= 89.56
+  },
+  ["IconType"]= 2,
+  ["isFlashTransmit"]= 1,
+  ["IsShowMapName"]= 0,
+  ["ResId"]= 10008,
+  ["SceneId"]= 5501,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -0.28,
+      ["y"]= 1.3,
+      ["z"]= 85.62
+    },
+    ["radius"]= 5,
+    ["rotation"]= {
+      ["x"]= 0.99999994,
+      ["y"]= 0,
+      ["z"]= 5.96046448E-08
+    }
+  },
+  ["staticId"]= 5501403,
+  ["TargetName"]= "去安全区 北",
+  ["TargetTeleporterId"]= 5500403
+},
+[5501404] = {
+  ["bornPOS"]= {
+    ["x"]= 59.19,
+    ["y"]= 0,
+    ["z"]= 0
+  },
+  ["direction"]= 90,
+  ["directionList"]= {
+    0.99999994,
+    5.96046448E-08
+  },
+  ["IconType"]= 2,
+  ["isFlashTransmit"]= 1,
+  ["IsShowMapName"]= 0,
+  ["ResId"]= 10008,
+  ["SceneId"]= 5501,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 54.06,
+      ["y"]= 1.3,
+      ["z"]= 0
+    },
+    ["radius"]= 5,
+    ["rotation"]= {
+      ["x"]= -8.742278E-08,
+      ["y"]= 0,
+      ["z"]= -1
+    }
+  },
+  ["staticId"]= 5501404,
+  ["TargetName"]= "去安全区 东",
+  ["TargetTeleporterId"]= 5500404
+},
+[7014401] = {
+  ["bornPOS"]= {
+    ["x"]= 0,
+    ["y"]= 46.47635,
+    ["z"]= -18
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= 180,
+  ["directionList"]= {
+    -8.742278E-08,
+    -1
+  },
+  ["SceneId"]= 7014,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 0,
+      ["y"]= 46.4763451,
+      ["z"]= -12.5
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 7014401,
+  ["TargetTeleporterId"]= 7014402
+},
+[7014402] = {
+  ["bornPOS"]= {
+    ["x"]= -0.05883799,
+    ["y"]= 47.20634,
+    ["z"]= 74
+  },
+  ["BornRadius"]= 1,
+  ["SceneId"]= 7014,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -0.0588379949,
+      ["y"]= 47.2063446,
+      ["z"]= 70.1
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 7014402,
+  ["TargetTeleporterId"]= 7014401
+},
+[7014403] = {
+  ["bornPOS"]= {
+    ["x"]= -0.21,
+    ["y"]= 47.20634,
+    ["z"]= 91
+  },
+  ["BornRadius"]= 1,
+  ["direction"]= 180,
+  ["directionList"]= {
+    -8.742278E-08,
+    -1
+  },
+  ["SceneId"]= 7014,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -0.21,
+      ["y"]= 47.2063446,
+      ["z"]= 94.66
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 7014403,
+  ["TargetTeleporterId"]= 7014404
+},
+[7014404] = {
+  ["bornPOS"]= {
+    ["x"]= 130.4306,
+    ["y"]= 47.26912,
+    ["z"]= -60
+  },
+  ["BornRadius"]= 1,
+  ["SceneId"]= 7014,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 130.430618,
+      ["y"]= 47.26912,
+      ["z"]= -63
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 7014404,
+  ["TargetTeleporterId"]= 7014403
+},
+[8003101] = {
+  ["bornPOS"]= {
+    ["x"]= 0.09,
+    ["y"]= 47.25,
+    ["z"]= 91.51
+  },
+  ["BornRadius"]= 1,
+  ["SceneId"]= 8003,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 0.09,
+      ["y"]= 47.2063446,
+      ["z"]= 94.57
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 8003101,
+  ["TargetTeleporterId"]= 8003102
+},
+[8003102] = {
+  ["bornPOS"]= {
+    ["x"]= -0.22,
+    ["y"]= 46.47635,
+    ["z"]= -85.57
+  },
+  ["BornRadius"]= 1,
+  ["SceneId"]= 8003,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= 0.07,
+      ["y"]= 46.4763451,
+      ["z"]= -88.63
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 8003102,
+  ["TargetTeleporterId"]= 8003101
+},
+[8044401] = {
+  ["bornPOS"]= {
+    ["x"]= -375.78,
+    ["y"]= 1.390498,
+    ["z"]= -35.75
+  },
+  ["BornRadius"]= 1,
+  ["SceneId"]= 8044,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -375.1,
+      ["y"]= 1.39049828,
+      ["z"]= -38.64
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 8044401,
+  ["TargetTeleporterId"]= 8044402
+},
+[8044402] = {
+  ["bornPOS"]= {
+    ["x"]= -199.6,
+    ["y"]= 0.06750345,
+    ["z"]= -50.24
+  },
+  ["BornRadius"]= 1,
+  ["SceneId"]= 8044,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -199.27,
+      ["y"]= 0.06750345,
+      ["z"]= -56.47
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["staticId"]= 8044402,
+  ["TargetTeleporterId"]= 8044401
+}
+}
+local baseTable={
+  ["bornPOS"]= {
+    ["x"]= 623.5,
+    ["y"]= 0,
+    ["z"]= -188.94
+  },
+  ["BornRadius"]= 0,
+  ["conditionList"]= {},
+  ["direction"]= 0,
+  ["directionList"]= {
+    0,
+    1
+  },
+  ["gvgConfrontsShow"]= 0,
+  ["gvgPoint"]= 0,
+  ["IconType"]= 1,
+  ["ifRaid"]= 0,
+  ["isCondition"]= 0,
+  ["isEnterGuild"]= 0,
+  ["isFlashTransmit"]= 0,
+  ["IsShowList"]= 1,
+  ["IsShowMap"]= 1,
+  ["IsShowMapName"]= 1,
+  ["MapId"]= 0,
+  ["Order"]= 0,
+  ["posHight"]= 0,
+  ["ResId"]= 10005,
+  ["SceneId"]= 1040,
+  ["SceneInfo"]= {
+    ["pos"]= {
+      ["x"]= -27.1039715,
+      ["y"]= 80.75,
+      ["z"]= 7.87196255
+    },
+    ["radius"]= 2,
+    ["rotation"]= {
+      ["x"]= 0,
+      ["y"]= 0,
+      ["z"]= 1
+    }
+  },
+  ["signContentLocalized"]= "",
+  ["staticId"]= 400201,
+  ["TargetName"]= "",
+  ["TargetTeleporterId"]= 4601401,
+  ["uiName"]= ""
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

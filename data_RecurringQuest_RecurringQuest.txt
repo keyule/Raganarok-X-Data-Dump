@@ -1,0 +1,1544 @@
+TextAsset Base
+	string m_Name = "data_RecurringQuest_RecurringQuest"
+	string m_Script = "local table= {
+[1] = {
+  ["JoinType"]= 0,
+  ["TargetType"]= 74,
+  ["Times"]= 200
+},
+[2] = {
+  ["box_id"]= 10529,
+  ["Id"]= 30102,
+  ["JoinTypeParameter"]= "UI_Life",
+  ["TargetParameter"]= {
+    2
+  },
+  ["TaskDesc"]= "RecurringQuestDesc_102",
+  ["Times"]= 50
+},
+[3] = {
+  ["box_id"]= 10530,
+  ["Id"]= 30103,
+  ["JoinType"]= 1,
+  ["JoinTypeParameter"]= 10101008,
+  ["TargetType"]= 36,
+  ["TaskDesc"]= "RecurringQuestDesc_103",
+  ["Times"]= 10
+},
+[4] = {
+  ["box_id"]= 10531,
+  ["Id"]= 30104,
+  ["JoinTypeParameter"]= "UI_Friend",
+  ["TargetType"]= 75,
+  ["TaskDesc"]= "RecurringQuestDesc_104",
+  ["Times"]= 10
+},
+[5] = {
+  ["box_id"]= 10532,
+  ["Day"]= 2,
+  ["Id"]= 30201,
+  ["JoinTypeParameter"]= "UI_Life",
+  ["prize_num"]= {
+    15000,
+    15000,
+    1000,
+    10
+  },
+  ["TargetParameter"]= {
+    3
+  },
+  ["TaskDesc"]= "RecurringQuestDesc_201",
+  ["Vitality"]= 25
+},
+[6] = {
+  ["box_id"]= 10533,
+  ["Day"]= 2,
+  ["Id"]= 30202,
+  ["JoinType"]= 1,
+  ["JoinTypeParameter"]= 10101022,
+  ["prize_num"]= {
+    15000,
+    15000,
+    1000,
+    10
+  },
+  ["TargetType"]= 37,
+  ["TaskDesc"]= "RecurringQuestDesc_202",
+  ["Vitality"]= 25
+},
+[7] = {
+  ["box_id"]= 10534,
+  ["Day"]= 2,
+  ["Id"]= 30203,
+  ["JoinType"]= 0,
+  ["prize_num"]= {
+    15000,
+    15000,
+    1000,
+    10
+  },
+  ["TargetType"]= 79,
+  ["TaskDesc"]= "RecurringQuestDesc_203",
+  ["Times"]= 8,
+  ["Vitality"]= 25
+},
+[8] = {
+  ["box_id"]= 10535,
+  ["Day"]= 2,
+  ["Id"]= 30204,
+  ["JoinType"]= 1,
+  ["JoinTypeParameter"]= 11709999,
+  ["prize_num"]= {
+    15000,
+    15000,
+    1000,
+    10
+  },
+  ["TargetType"]= 8,
+  ["TaskDesc"]= "RecurringQuestDesc_204",
+  ["Times"]= 9,
+  ["Vitality"]= 25
+},
+[9] = {
+  ["box_id"]= 10536,
+  ["Day"]= 3,
+  ["Id"]= 30301,
+  ["JoinTypeParameter"]= "UI_Life",
+  ["prize_num"]= {
+    20000,
+    20000,
+    1500,
+    15
+  },
+  ["TargetParameter"]= {
+    4
+  },
+  ["TaskDesc"]= "RecurringQuestDesc_301",
+  ["Times"]= 50,
+  ["Vitality"]= 30
+},
+[10] = {
+  ["box_id"]= 10537,
+  ["Day"]= 3,
+  ["Id"]= 30302,
+  ["JoinType"]= 1,
+  ["JoinTypeParameter"]= 10101007,
+  ["prize_num"]= {
+    20000,
+    20000,
+    1500,
+    15
+  },
+  ["TargetType"]= 38,
+  ["TaskDesc"]= "RecurringQuestDesc_302",
+  ["Vitality"]= 30
+},
+[11] = {
+  ["box_id"]= 10538,
+  ["Day"]= 3,
+  ["Id"]= 30303,
+  ["JoinTypeParameter"]= "UI_Jobber",
+  ["prize_num"]= {
+    20000,
+    20000,
+    1500,
+    15
+  },
+  ["TargetType"]= 76,
+  ["TaskDesc"]= "RecurringQuestDesc_303",
+  ["Times"]= 50000,
+  ["Vitality"]= 30
+},
+[12] = {
+  ["box_id"]= 10539,
+  ["Day"]= 4,
+  ["Id"]= 30401,
+  ["JoinType"]= 0,
+  ["prize_num"]= {
+    25000,
+    25000,
+    2000,
+    20
+  },
+  ["TargetType"]= 74,
+  ["TaskDesc"]= "RecurringQuestDesc_401",
+  ["Times"]= 500,
+  ["Vitality"]= 40
+},
+[13] = {
+  ["box_id"]= 10540,
+  ["Day"]= 4,
+  ["Id"]= 30402,
+  ["JoinType"]= 0,
+  ["prize_num"]= {
+    25000,
+    25000,
+    2000,
+    20
+  },
+  ["TargetType"]= 77,
+  ["TaskDesc"]= "RecurringQuestDesc_402",
+  ["Times"]= 3,
+  ["Vitality"]= 40
+},
+[14] = {
+  ["box_id"]= 10541,
+  ["Day"]= 4,
+  ["Id"]= 30403,
+  ["JoinTypeParameter"]= "UI_MVPBoss",
+  ["prize_num"]= {
+    25000,
+    25000,
+    2000,
+    20
+  },
+  ["TargetType"]= 40,
+  ["TaskDesc"]= "RecurringQuestDesc_403",
+  ["Times"]= 2,
+  ["Vitality"]= 40
+},
+[15] = {
+  ["box_id"]= 10542,
+  ["Day"]= 5,
+  ["Id"]= 30501,
+  ["JoinTypeParameter"]= "UI_BattlePass",
+  ["prize_num"]= {
+    30000,
+    30000,
+    2500,
+    25
+  },
+  ["TargetType"]= 78,
+  ["TaskDesc"]= "RecurringQuestDesc_501",
+  ["Times"]= 2,
+  ["Vitality"]= 50
+},
+[16] = {
+  ["box_id"]= 10543,
+  ["Day"]= 5,
+  ["Id"]= 30502,
+  ["JoinType"]= 1,
+  ["JoinTypeParameter"]= 11709999,
+  ["prize_num"]= {
+    30000,
+    30000,
+    2500,
+    25
+  },
+  ["TargetType"]= 8,
+  ["TaskDesc"]= "RecurringQuestDesc_502",
+  ["Vitality"]= 50
+},
+[17] = {
+  ["box_id"]= 10544,
+  ["Day"]= 5,
+  ["Id"]= 30503,
+  ["JoinTypeParameter"]= "UI_Jobber",
+  ["prize_num"]= {
+    30000,
+    30000,
+    2500,
+    25
+  },
+  ["TargetType"]= 76,
+  ["TaskDesc"]= "RecurringQuestDesc_503",
+  ["Times"]= 300000,
+  ["Vitality"]= 50
+},
+[18] = {
+  ["box_id"]= 10594,
+  ["Id"]= 31101,
+  ["jobId"]= {
+    1000,
+    1100,
+    1200,
+    1300,
+    1400,
+    1500,
+    1600
+  },
+  ["JoinType"]= 0,
+  ["TargetType"]= 74,
+  ["Times"]= 200,
+  ["Type"]= 1
+},
+[19] = {
+  ["box_id"]= 10595,
+  ["Id"]= 31102,
+  ["jobId"]= {
+    1000,
+    1100,
+    1200,
+    1300,
+    1400,
+    1500,
+    1600
+  },
+  ["JoinTypeParameter"]= "UI_Life",
+  ["TargetParameter"]= {
+    2
+  },
+  ["TaskDesc"]= "RecurringQuestDesc_102",
+  ["Times"]= 50,
+  ["Type"]= 1
+},
+[20] = {
+  ["box_id"]= 10596,
+  ["Id"]= 31103,
+  ["jobId"]= {
+    1000,
+    1100,
+    1200,
+    1300,
+    1400,
+    1500,
+    1600
+  },
+  ["JoinType"]= 1,
+  ["JoinTypeParameter"]= 10101008,
+  ["TargetType"]= 36,
+  ["TaskDesc"]= "RecurringQuestDesc_103",
+  ["Times"]= 10,
+  ["Type"]= 1
+},
+[21] = {
+  ["box_id"]= 10597,
+  ["Id"]= 31104,
+  ["jobId"]= {
+    1000,
+    1100,
+    1200,
+    1300,
+    1400,
+    1500,
+    1600
+  },
+  ["JoinTypeParameter"]= "UI_Friend",
+  ["TargetType"]= 75,
+  ["TaskDesc"]= "RecurringQuestDesc_104",
+  ["Times"]= 10,
+  ["Type"]= 1
+},
+[22] = {
+  ["box_id"]= 10598,
+  ["Day"]= 2,
+  ["Id"]= 31201,
+  ["jobId"]= {
+    1000,
+    1100,
+    1200,
+    1300,
+    1400,
+    1500,
+    1600
+  },
+  ["JoinTypeParameter"]= "UI_Life",
+  ["prize_num"]= {
+    15000,
+    15000,
+    1000,
+    10
+  },
+  ["TargetParameter"]= {
+    3
+  },
+  ["TaskDesc"]= "RecurringQuestDesc_201",
+  ["Type"]= 1,
+  ["Vitality"]= 25
+},
+[23] = {
+  ["box_id"]= 10599,
+  ["Day"]= 2,
+  ["Id"]= 31202,
+  ["jobId"]= {
+    1000,
+    1100,
+    1200,
+    1300,
+    1400,
+    1500,
+    1600
+  },
+  ["JoinType"]= 1,
+  ["JoinTypeParameter"]= 10101022,
+  ["prize_num"]= {
+    15000,
+    15000,
+    1000,
+    10
+  },
+  ["TargetType"]= 37,
+  ["TaskDesc"]= "RecurringQuestDesc_202",
+  ["Type"]= 1,
+  ["Vitality"]= 25
+},
+[24] = {
+  ["box_id"]= 10600,
+  ["Day"]= 2,
+  ["Id"]= 31203,
+  ["jobId"]= {
+    1000,
+    1100,
+    1200,
+    1300,
+    1400,
+    1500,
+    1600
+  },
+  ["JoinType"]= 0,
+  ["prize_num"]= {
+    15000,
+    15000,
+    1000,
+    10
+  },
+  ["TargetType"]= 79,
+  ["TaskDesc"]= "RecurringQuestDesc_203",
+  ["Times"]= 8,
+  ["Type"]= 1,
+  ["Vitality"]= 25
+},
+[25] = {
+  ["box_id"]= 10601,
+  ["Day"]= 2,
+  ["Id"]= 31204,
+  ["jobId"]= {
+    1000,
+    1100,
+    1200,
+    1300,
+    1400,
+    1500,
+    1600
+  },
+  ["JoinType"]= 1,
+  ["JoinTypeParameter"]= 11709999,
+  ["prize_num"]= {
+    15000,
+    15000,
+    1000,
+    10
+  },
+  ["TargetType"]= 8,
+  ["TaskDesc"]= "RecurringQuestDesc_204",
+  ["Times"]= 9,
+  ["Type"]= 1,
+  ["Vitality"]= 25
+},
+[26] = {
+  ["box_id"]= 10602,
+  ["Day"]= 3,
+  ["Id"]= 31301,
+  ["jobId"]= {
+    1000,
+    1100,
+    1200,
+    1300,
+    1400,
+    1500,
+    1600
+  },
+  ["JoinTypeParameter"]= "UI_Life",
+  ["prize_num"]= {
+    20000,
+    20000,
+    1500,
+    15
+  },
+  ["TargetParameter"]= {
+    4
+  },
+  ["TaskDesc"]= "RecurringQuestDesc_301",
+  ["Times"]= 50,
+  ["Type"]= 1,
+  ["Vitality"]= 30
+},
+[27] = {
+  ["box_id"]= 10603,
+  ["Day"]= 3,
+  ["Id"]= 31302,
+  ["jobId"]= {
+    1000,
+    1100,
+    1200,
+    1300,
+    1400,
+    1500,
+    1600
+  },
+  ["JoinType"]= 1,
+  ["JoinTypeParameter"]= 10101007,
+  ["prize_num"]= {
+    20000,
+    20000,
+    1500,
+    15
+  },
+  ["TargetType"]= 38,
+  ["TaskDesc"]= "RecurringQuestDesc_302",
+  ["Type"]= 1,
+  ["Vitality"]= 30
+},
+[28] = {
+  ["box_id"]= 10604,
+  ["Day"]= 3,
+  ["Id"]= 31303,
+  ["jobId"]= {
+    1000,
+    1100,
+    1200,
+    1300,
+    1400,
+    1500,
+    1600
+  },
+  ["JoinTypeParameter"]= "UI_Jobber",
+  ["prize_num"]= {
+    20000,
+    20000,
+    1500,
+    15
+  },
+  ["TargetType"]= 76,
+  ["TaskDesc"]= "RecurringQuestDesc_303",
+  ["Times"]= 50000,
+  ["Type"]= 1,
+  ["Vitality"]= 30
+},
+[29] = {
+  ["box_id"]= 10605,
+  ["Day"]= 4,
+  ["Id"]= 31401,
+  ["jobId"]= {
+    1000,
+    1100,
+    1200,
+    1300,
+    1400,
+    1500,
+    1600
+  },
+  ["JoinType"]= 0,
+  ["prize_num"]= {
+    25000,
+    25000,
+    2000,
+    20
+  },
+  ["TargetType"]= 74,
+  ["TaskDesc"]= "RecurringQuestDesc_401",
+  ["Times"]= 500,
+  ["Type"]= 1,
+  ["Vitality"]= 40
+},
+[30] = {
+  ["box_id"]= 10606,
+  ["Day"]= 4,
+  ["Id"]= 31402,
+  ["jobId"]= {
+    1000,
+    1100,
+    1200,
+    1300,
+    1400,
+    1500,
+    1600
+  },
+  ["JoinType"]= 0,
+  ["prize_num"]= {
+    25000,
+    25000,
+    2000,
+    20
+  },
+  ["TargetType"]= 77,
+  ["TaskDesc"]= "RecurringQuestDesc_402",
+  ["Times"]= 3,
+  ["Type"]= 1,
+  ["Vitality"]= 40
+},
+[31] = {
+  ["box_id"]= 10607,
+  ["Day"]= 4,
+  ["Id"]= 31403,
+  ["jobId"]= {
+    1000,
+    1100,
+    1200,
+    1300,
+    1400,
+    1500,
+    1600
+  },
+  ["JoinTypeParameter"]= "UI_MVPBoss",
+  ["prize_num"]= {
+    25000,
+    25000,
+    2000,
+    20
+  },
+  ["TargetType"]= 40,
+  ["TaskDesc"]= "RecurringQuestDesc_403",
+  ["Times"]= 2,
+  ["Type"]= 1,
+  ["Vitality"]= 40
+},
+[32] = {
+  ["box_id"]= 10608,
+  ["Day"]= 5,
+  ["Id"]= 31501,
+  ["jobId"]= {
+    1000,
+    1100,
+    1200,
+    1300,
+    1400,
+    1500,
+    1600
+  },
+  ["JoinTypeParameter"]= "UI_BattlePass",
+  ["prize_num"]= {
+    30000,
+    30000,
+    2500,
+    25
+  },
+  ["TargetType"]= 78,
+  ["TaskDesc"]= "RecurringQuestDesc_501",
+  ["Times"]= 2,
+  ["Type"]= 1,
+  ["Vitality"]= 50
+},
+[33] = {
+  ["box_id"]= 10609,
+  ["Day"]= 5,
+  ["Id"]= 31502,
+  ["jobId"]= {
+    1000,
+    1100,
+    1200,
+    1300,
+    1400,
+    1500,
+    1600
+  },
+  ["JoinType"]= 1,
+  ["JoinTypeParameter"]= 11709999,
+  ["prize_num"]= {
+    30000,
+    30000,
+    2500,
+    25
+  },
+  ["TargetType"]= 8,
+  ["TaskDesc"]= "RecurringQuestDesc_502",
+  ["Type"]= 1,
+  ["Vitality"]= 50
+},
+[34] = {
+  ["box_id"]= 10610,
+  ["Day"]= 5,
+  ["Id"]= 31503,
+  ["jobId"]= {
+    1000,
+    1100,
+    1200,
+    1300,
+    1400,
+    1500,
+    1600
+  },
+  ["JoinTypeParameter"]= "UI_Jobber",
+  ["prize_num"]= {
+    30000,
+    30000,
+    2500,
+    25
+  },
+  ["TargetType"]= 76,
+  ["TaskDesc"]= "RecurringQuestDesc_503",
+  ["Times"]= 300000,
+  ["Type"]= 1,
+  ["Vitality"]= 50
+},
+[35] = {
+  ["box_id"]= 10611,
+  ["Id"]= 32101,
+  ["jobId"]= {
+    1110,
+    1210,
+    1310,
+    1410,
+    1510,
+    1610
+  },
+  ["JoinType"]= 0,
+  ["prize_num"]= {
+    50000,
+    50000,
+    1000,
+    10
+  },
+  ["TargetType"]= 74,
+  ["Times"]= 200,
+  ["Type"]= 2
+},
+[36] = {
+  ["box_id"]= 10612,
+  ["Id"]= 32102,
+  ["jobId"]= {
+    1110,
+    1210,
+    1310,
+    1410,
+    1510,
+    1610
+  },
+  ["JoinTypeParameter"]= "UI_Life",
+  ["prize_num"]= {
+    50000,
+    50000,
+    1000,
+    10
+  },
+  ["TargetParameter"]= {
+    2
+  },
+  ["TaskDesc"]= "RecurringQuestDesc_102",
+  ["Times"]= 50,
+  ["Type"]= 2
+},
+[37] = {
+  ["box_id"]= 10613,
+  ["Id"]= 32103,
+  ["jobId"]= {
+    1110,
+    1210,
+    1310,
+    1410,
+    1510,
+    1610
+  },
+  ["JoinType"]= 1,
+  ["JoinTypeParameter"]= 10101008,
+  ["prize_num"]= {
+    50000,
+    50000,
+    1000,
+    10
+  },
+  ["TargetType"]= 36,
+  ["TaskDesc"]= "RecurringQuestDesc_103",
+  ["Times"]= 10,
+  ["Type"]= 2
+},
+[38] = {
+  ["box_id"]= 10614,
+  ["Id"]= 32104,
+  ["jobId"]= {
+    1110,
+    1210,
+    1310,
+    1410,
+    1510,
+    1610
+  },
+  ["JoinTypeParameter"]= "UI_Friend",
+  ["prize_num"]= {
+    50000,
+    50000,
+    1000,
+    10
+  },
+  ["TargetType"]= 75,
+  ["TaskDesc"]= "RecurringQuestDesc_104",
+  ["Times"]= 10,
+  ["Type"]= 2
+},
+[39] = {
+  ["box_id"]= 10615,
+  ["Day"]= 2,
+  ["Id"]= 32201,
+  ["jobId"]= {
+    1110,
+    1210,
+    1310,
+    1410,
+    1510,
+    1610
+  },
+  ["JoinTypeParameter"]= "UI_Life",
+  ["prize_num"]= {
+    100000,
+    100000,
+    1500,
+    15
+  },
+  ["TargetParameter"]= {
+    3
+  },
+  ["TaskDesc"]= "RecurringQuestDesc_201",
+  ["Type"]= 2,
+  ["Vitality"]= 25
+},
+[40] = {
+  ["box_id"]= 10616,
+  ["Day"]= 2,
+  ["Id"]= 32202,
+  ["jobId"]= {
+    1110,
+    1210,
+    1310,
+    1410,
+    1510,
+    1610
+  },
+  ["JoinType"]= 1,
+  ["JoinTypeParameter"]= 10101022,
+  ["prize_num"]= {
+    100000,
+    100000,
+    1500,
+    15
+  },
+  ["TargetType"]= 37,
+  ["TaskDesc"]= "RecurringQuestDesc_202",
+  ["Type"]= 2,
+  ["Vitality"]= 25
+},
+[41] = {
+  ["box_id"]= 10617,
+  ["Day"]= 2,
+  ["Id"]= 32203,
+  ["jobId"]= {
+    1110,
+    1210,
+    1310,
+    1410,
+    1510,
+    1610
+  },
+  ["JoinType"]= 0,
+  ["prize_num"]= {
+    100000,
+    100000,
+    1500,
+    15
+  },
+  ["TargetType"]= 79,
+  ["TaskDesc"]= "RecurringQuestDesc_203",
+  ["Times"]= 8,
+  ["Type"]= 2,
+  ["Vitality"]= 25
+},
+[42] = {
+  ["box_id"]= 10618,
+  ["Day"]= 2,
+  ["Id"]= 32204,
+  ["jobId"]= {
+    1110,
+    1210,
+    1310,
+    1410,
+    1510,
+    1610
+  },
+  ["JoinType"]= 1,
+  ["JoinTypeParameter"]= 11709999,
+  ["prize_num"]= {
+    100000,
+    100000,
+    1500,
+    15
+  },
+  ["TargetType"]= 8,
+  ["TaskDesc"]= "RecurringQuestDesc_204",
+  ["Times"]= 9,
+  ["Type"]= 2,
+  ["Vitality"]= 25
+},
+[43] = {
+  ["box_id"]= 10619,
+  ["Day"]= 3,
+  ["Id"]= 32301,
+  ["jobId"]= {
+    1110,
+    1210,
+    1310,
+    1410,
+    1510,
+    1610
+  },
+  ["JoinTypeParameter"]= "UI_Life",
+  ["prize_num"]= {
+    150000,
+    150000,
+    2000,
+    20
+  },
+  ["TargetParameter"]= {
+    4
+  },
+  ["TaskDesc"]= "RecurringQuestDesc_301",
+  ["Times"]= 50,
+  ["Type"]= 2,
+  ["Vitality"]= 30
+},
+[44] = {
+  ["box_id"]= 10620,
+  ["Day"]= 3,
+  ["Id"]= 32302,
+  ["jobId"]= {
+    1110,
+    1210,
+    1310,
+    1410,
+    1510,
+    1610
+  },
+  ["JoinType"]= 1,
+  ["JoinTypeParameter"]= 10101007,
+  ["prize_num"]= {
+    150000,
+    150000,
+    2000,
+    20
+  },
+  ["TargetType"]= 38,
+  ["TaskDesc"]= "RecurringQuestDesc_302",
+  ["Type"]= 2,
+  ["Vitality"]= 30
+},
+[45] = {
+  ["box_id"]= 10621,
+  ["Day"]= 3,
+  ["Id"]= 32303,
+  ["jobId"]= {
+    1110,
+    1210,
+    1310,
+    1410,
+    1510,
+    1610
+  },
+  ["JoinTypeParameter"]= "UI_Jobber",
+  ["prize_num"]= {
+    150000,
+    150000,
+    2000,
+    20
+  },
+  ["TargetType"]= 76,
+  ["TaskDesc"]= "RecurringQuestDesc_303",
+  ["Times"]= 50000,
+  ["Type"]= 2,
+  ["Vitality"]= 30
+},
+[46] = {
+  ["box_id"]= 10622,
+  ["Day"]= 4,
+  ["Id"]= 32401,
+  ["jobId"]= {
+    1110,
+    1210,
+    1310,
+    1410,
+    1510,
+    1610
+  },
+  ["JoinType"]= 0,
+  ["prize_num"]= {
+    200000,
+    200000,
+    2500,
+    25
+  },
+  ["TargetType"]= 74,
+  ["TaskDesc"]= "RecurringQuestDesc_401",
+  ["Times"]= 500,
+  ["Type"]= 2,
+  ["Vitality"]= 40
+},
+[47] = {
+  ["box_id"]= 10623,
+  ["Day"]= 4,
+  ["Id"]= 32402,
+  ["jobId"]= {
+    1110,
+    1210,
+    1310,
+    1410,
+    1510,
+    1610
+  },
+  ["JoinType"]= 0,
+  ["prize_num"]= {
+    200000,
+    200000,
+    2500,
+    25
+  },
+  ["TargetType"]= 77,
+  ["TaskDesc"]= "RecurringQuestDesc_402",
+  ["Times"]= 3,
+  ["Type"]= 2,
+  ["Vitality"]= 40
+},
+[48] = {
+  ["box_id"]= 10624,
+  ["Day"]= 4,
+  ["Id"]= 32403,
+  ["jobId"]= {
+    1110,
+    1210,
+    1310,
+    1410,
+    1510,
+    1610
+  },
+  ["JoinTypeParameter"]= "UI_MVPBoss",
+  ["prize_num"]= {
+    200000,
+    200000,
+    2500,
+    25
+  },
+  ["TargetType"]= 40,
+  ["TaskDesc"]= "RecurringQuestDesc_403",
+  ["Times"]= 2,
+  ["Type"]= 2,
+  ["Vitality"]= 40
+},
+[49] = {
+  ["box_id"]= 10625,
+  ["Day"]= 5,
+  ["Id"]= 32501,
+  ["jobId"]= {
+    1110,
+    1210,
+    1310,
+    1410,
+    1510,
+    1610
+  },
+  ["JoinTypeParameter"]= "UI_BattlePass",
+  ["prize_num"]= {
+    250000,
+    250000,
+    3000,
+    30
+  },
+  ["TargetType"]= 78,
+  ["TaskDesc"]= "RecurringQuestDesc_501",
+  ["Times"]= 2,
+  ["Type"]= 2,
+  ["Vitality"]= 50
+},
+[50] = {
+  ["box_id"]= 10626,
+  ["Day"]= 5,
+  ["Id"]= 32502,
+  ["jobId"]= {
+    1110,
+    1210,
+    1310,
+    1410,
+    1510,
+    1610
+  },
+  ["JoinType"]= 1,
+  ["JoinTypeParameter"]= 11709999,
+  ["prize_num"]= {
+    250000,
+    250000,
+    3000,
+    30
+  },
+  ["TargetType"]= 8,
+  ["TaskDesc"]= "RecurringQuestDesc_502",
+  ["Type"]= 2,
+  ["Vitality"]= 50
+},
+[51] = {
+  ["box_id"]= 10627,
+  ["Day"]= 5,
+  ["Id"]= 32503,
+  ["jobId"]= {
+    1110,
+    1210,
+    1310,
+    1410,
+    1510,
+    1610
+  },
+  ["JoinTypeParameter"]= "UI_Jobber",
+  ["prize_num"]= {
+    250000,
+    250000,
+    3000,
+    30
+  },
+  ["TargetType"]= 76,
+  ["TaskDesc"]= "RecurringQuestDesc_503",
+  ["Times"]= 300000,
+  ["Type"]= 2,
+  ["Vitality"]= 50
+},
+[52] = {
+  ["box_id"]= 10628,
+  ["Id"]= 33101,
+  ["jobId"]= {
+    1111,
+    1211,
+    1311,
+    1411,
+    1511,
+    1611
+  },
+  ["JoinType"]= 0,
+  ["prize_num"]= {
+    100000,
+    100000,
+    1500,
+    15
+  },
+  ["TargetType"]= 74,
+  ["Times"]= 200,
+  ["Type"]= 3
+},
+[53] = {
+  ["box_id"]= 10629,
+  ["Id"]= 33102,
+  ["jobId"]= {
+    1111,
+    1211,
+    1311,
+    1411,
+    1511,
+    1611
+  },
+  ["JoinTypeParameter"]= "UI_Life",
+  ["prize_num"]= {
+    100000,
+    100000,
+    1500,
+    15
+  },
+  ["TargetParameter"]= {
+    2
+  },
+  ["TaskDesc"]= "RecurringQuestDesc_102",
+  ["Times"]= 50,
+  ["Type"]= 3
+},
+[54] = {
+  ["box_id"]= 10630,
+  ["Id"]= 33103,
+  ["jobId"]= {
+    1111,
+    1211,
+    1311,
+    1411,
+    1511,
+    1611
+  },
+  ["JoinType"]= 1,
+  ["JoinTypeParameter"]= 10101008,
+  ["prize_num"]= {
+    100000,
+    100000,
+    1500,
+    15
+  },
+  ["TargetType"]= 36,
+  ["TaskDesc"]= "RecurringQuestDesc_103",
+  ["Times"]= 10,
+  ["Type"]= 3
+},
+[55] = {
+  ["box_id"]= 10631,
+  ["Id"]= 33104,
+  ["jobId"]= {
+    1111,
+    1211,
+    1311,
+    1411,
+    1511,
+    1611
+  },
+  ["JoinTypeParameter"]= "UI_Friend",
+  ["prize_num"]= {
+    100000,
+    100000,
+    1500,
+    15
+  },
+  ["TargetType"]= 75,
+  ["TaskDesc"]= "RecurringQuestDesc_104",
+  ["Times"]= 10,
+  ["Type"]= 3
+},
+[56] = {
+  ["box_id"]= 10632,
+  ["Day"]= 2,
+  ["Id"]= 33201,
+  ["jobId"]= {
+    1111,
+    1211,
+    1311,
+    1411,
+    1511,
+    1611
+  },
+  ["JoinTypeParameter"]= "UI_Life",
+  ["prize_num"]= {
+    200000,
+    200000,
+    2000,
+    20
+  },
+  ["TargetParameter"]= {
+    3
+  },
+  ["TaskDesc"]= "RecurringQuestDesc_201",
+  ["Type"]= 3,
+  ["Vitality"]= 25
+},
+[57] = {
+  ["box_id"]= 10633,
+  ["Day"]= 2,
+  ["Id"]= 33202,
+  ["jobId"]= {
+    1111,
+    1211,
+    1311,
+    1411,
+    1511,
+    1611
+  },
+  ["JoinType"]= 1,
+  ["JoinTypeParameter"]= 10101022,
+  ["prize_num"]= {
+    200000,
+    200000,
+    2000,
+    20
+  },
+  ["TargetType"]= 37,
+  ["TaskDesc"]= "RecurringQuestDesc_202",
+  ["Type"]= 3,
+  ["Vitality"]= 25
+},
+[58] = {
+  ["box_id"]= 10634,
+  ["Day"]= 2,
+  ["Id"]= 33203,
+  ["jobId"]= {
+    1111,
+    1211,
+    1311,
+    1411,
+    1511,
+    1611
+  },
+  ["JoinType"]= 0,
+  ["prize_num"]= {
+    200000,
+    200000,
+    2000,
+    20
+  },
+  ["TargetType"]= 79,
+  ["TaskDesc"]= "RecurringQuestDesc_203",
+  ["Times"]= 8,
+  ["Type"]= 3,
+  ["Vitality"]= 25
+},
+[59] = {
+  ["box_id"]= 10635,
+  ["Day"]= 2,
+  ["Id"]= 33204,
+  ["jobId"]= {
+    1111,
+    1211,
+    1311,
+    1411,
+    1511,
+    1611
+  },
+  ["JoinType"]= 1,
+  ["JoinTypeParameter"]= 11709999,
+  ["prize_num"]= {
+    200000,
+    200000,
+    2000,
+    20
+  },
+  ["TargetType"]= 8,
+  ["TaskDesc"]= "RecurringQuestDesc_204",
+  ["Times"]= 9,
+  ["Type"]= 3,
+  ["Vitality"]= 25
+},
+[60] = {
+  ["box_id"]= 10636,
+  ["Day"]= 3,
+  ["Id"]= 33301,
+  ["jobId"]= {
+    1111,
+    1211,
+    1311,
+    1411,
+    1511,
+    1611
+  },
+  ["JoinTypeParameter"]= "UI_Life",
+  ["prize_num"]= {
+    300000,
+    300000,
+    2500,
+    25
+  },
+  ["TargetParameter"]= {
+    4
+  },
+  ["TaskDesc"]= "RecurringQuestDesc_301",
+  ["Times"]= 50,
+  ["Type"]= 3,
+  ["Vitality"]= 30
+},
+[61] = {
+  ["box_id"]= 10637,
+  ["Day"]= 3,
+  ["Id"]= 33302,
+  ["jobId"]= {
+    1111,
+    1211,
+    1311,
+    1411,
+    1511,
+    1611
+  },
+  ["JoinType"]= 1,
+  ["JoinTypeParameter"]= 10101007,
+  ["prize_num"]= {
+    300000,
+    300000,
+    2500,
+    25
+  },
+  ["TargetType"]= 38,
+  ["TaskDesc"]= "RecurringQuestDesc_302",
+  ["Type"]= 3,
+  ["Vitality"]= 30
+},
+[62] = {
+  ["box_id"]= 10638,
+  ["Day"]= 3,
+  ["Id"]= 33303,
+  ["jobId"]= {
+    1111,
+    1211,
+    1311,
+    1411,
+    1511,
+    1611
+  },
+  ["JoinTypeParameter"]= "UI_Jobber",
+  ["prize_num"]= {
+    300000,
+    300000,
+    2500,
+    25
+  },
+  ["TargetType"]= 76,
+  ["TaskDesc"]= "RecurringQuestDesc_303",
+  ["Times"]= 50000,
+  ["Type"]= 3,
+  ["Vitality"]= 30
+},
+[63] = {
+  ["box_id"]= 10639,
+  ["Day"]= 4,
+  ["Id"]= 33401,
+  ["jobId"]= {
+    1111,
+    1211,
+    1311,
+    1411,
+    1511,
+    1611
+  },
+  ["JoinType"]= 0,
+  ["prize_num"]= {
+    400000,
+    400000,
+    3000,
+    30
+  },
+  ["TargetType"]= 74,
+  ["TaskDesc"]= "RecurringQuestDesc_401",
+  ["Times"]= 500,
+  ["Type"]= 3,
+  ["Vitality"]= 40
+},
+[64] = {
+  ["box_id"]= 10640,
+  ["Day"]= 4,
+  ["Id"]= 33402,
+  ["jobId"]= {
+    1111,
+    1211,
+    1311,
+    1411,
+    1511,
+    1611
+  },
+  ["JoinType"]= 0,
+  ["prize_num"]= {
+    400000,
+    400000,
+    3000,
+    30
+  },
+  ["TargetType"]= 77,
+  ["TaskDesc"]= "RecurringQuestDesc_402",
+  ["Times"]= 3,
+  ["Type"]= 3,
+  ["Vitality"]= 40
+},
+[65] = {
+  ["box_id"]= 10641,
+  ["Day"]= 4,
+  ["Id"]= 33403,
+  ["jobId"]= {
+    1111,
+    1211,
+    1311,
+    1411,
+    1511,
+    1611
+  },
+  ["JoinTypeParameter"]= "UI_MVPBoss",
+  ["prize_num"]= {
+    400000,
+    400000,
+    3000,
+    30
+  },
+  ["TargetType"]= 40,
+  ["TaskDesc"]= "RecurringQuestDesc_403",
+  ["Times"]= 2,
+  ["Type"]= 3,
+  ["Vitality"]= 40
+},
+[66] = {
+  ["box_id"]= 10642,
+  ["Day"]= 5,
+  ["Id"]= 33501,
+  ["jobId"]= {
+    1111,
+    1211,
+    1311,
+    1411,
+    1511,
+    1611
+  },
+  ["JoinTypeParameter"]= "UI_BattlePass",
+  ["prize_num"]= {
+    500000,
+    500000,
+    3500,
+    35
+  },
+  ["TargetType"]= 78,
+  ["TaskDesc"]= "RecurringQuestDesc_501",
+  ["Times"]= 2,
+  ["Type"]= 3,
+  ["Vitality"]= 50
+},
+[67] = {
+  ["box_id"]= 10643,
+  ["Day"]= 5,
+  ["Id"]= 33502,
+  ["jobId"]= {
+    1111,
+    1211,
+    1311,
+    1411,
+    1511,
+    1611
+  },
+  ["JoinType"]= 1,
+  ["JoinTypeParameter"]= 11709999,
+  ["prize_num"]= {
+    500000,
+    500000,
+    3500,
+    35
+  },
+  ["TargetType"]= 8,
+  ["TaskDesc"]= "RecurringQuestDesc_502",
+  ["Type"]= 3,
+  ["Vitality"]= 50
+},
+[68] = {
+  ["box_id"]= 10644,
+  ["Day"]= 5,
+  ["Id"]= 33503,
+  ["jobId"]= {
+    1111,
+    1211,
+    1311,
+    1411,
+    1511,
+    1611
+  },
+  ["JoinTypeParameter"]= "UI_Jobber",
+  ["prize_num"]= {
+    500000,
+    500000,
+    3500,
+    35
+  },
+  ["TargetType"]= 76,
+  ["TaskDesc"]= "RecurringQuestDesc_503",
+  ["Times"]= 300000,
+  ["Type"]= 3,
+  ["Vitality"]= 50
+}
+}
+local baseTable={
+  ["box_id"]= 10528,
+  ["Day"]= 1,
+  ["Id"]= 30101,
+  ["jobId"]= {
+    0
+  },
+  ["JoinType"]= 2,
+  ["JoinTypeParameter"]= 0,
+  ["prize_id"]= {
+    1005,
+    1006,
+    1003,
+    10204129
+  },
+  ["prize_num"]= {
+    10000,
+    10000,
+    500,
+    5
+  },
+  ["TargetParameter"]= {
+    0
+  },
+  ["TargetType"]= 2,
+  ["TaskDesc"]= "RecurringQuestDesc_101",
+  ["Times"]= 5,
+  ["Type"]= 0,
+  ["Vitality"]= 20
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

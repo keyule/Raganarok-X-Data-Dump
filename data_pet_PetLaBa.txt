@@ -1,0 +1,80 @@
+TextAsset Base
+	string m_Name = "data_pet_PetLaBa"
+	string m_Script = "return {
+[3] = {
+  ["Id"]= 3,
+  ["ItemPic"]= {
+    10201012,
+    10201010,
+    10201011
+  },
+  ["ProbabilityOfThree"]= 1111,
+  ["ProbabilityOfTwo"]= 6667
+},
+[4] = {
+  ["Id"]= 4,
+  ["ItemPic"]= {
+    10201012,
+    10201010,
+    10201011,
+    10201013
+  },
+  ["ProbabilityOfThree"]= 625,
+  ["ProbabilityOfTwo"]= 5625
+},
+[5] = {
+  ["Id"]= 5,
+  ["ItemPic"]= {
+    10201012,
+    10201010,
+    10201011,
+    10201013,
+    10406301
+  },
+  ["ProbabilityOfThree"]= 400,
+  ["ProbabilityOfTwo"]= 4800
+},
+[6] = {
+  ["Id"]= 6,
+  ["ItemPic"]= {
+    10201012,
+    10201010,
+    10201011,
+    10201013,
+    10406301,
+    10201008
+  },
+  ["ProbabilityOfThree"]= 278,
+  ["ProbabilityOfTwo"]= 4167
+},
+[7] = {
+  ["Id"]= 7,
+  ["ItemPic"]= {
+    10201012,
+    10201010,
+    10201011,
+    10201013,
+    10406301,
+    10201008,
+    10201003
+  },
+  ["ProbabilityOfThree"]= 204,
+  ["ProbabilityOfTwo"]= 3673
+},
+[8] = {
+  ["Id"]= 8,
+  ["ItemPic"]= {
+    10201012,
+    10201010,
+    10201011,
+    10201013,
+    10406301,
+    10201008,
+    10201003,
+    10410003
+  },
+  ["ProbabilityOfThree"]= 156,
+  ["ProbabilityOfTwo"]= 3281
+}
+}
+"

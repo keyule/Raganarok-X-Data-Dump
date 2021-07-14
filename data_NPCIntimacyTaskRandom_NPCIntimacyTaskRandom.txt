@@ -1,0 +1,63 @@
+TextAsset Base
+	string m_Name = "data_NPCIntimacyTaskRandom_NPCIntimacyTaskRandom"
+	string m_Script = "local table= {
+[1] = {}
+}
+local baseTable={
+  ["BuffList"]= {
+    8101,
+    8102,
+    8103,
+    8104,
+    8105,
+    8106,
+    8107,
+    8108,
+    8109,
+    8110,
+    8111,
+    8112,
+    8113,
+    8114,
+    8115,
+    8116,
+    8117,
+    8118,
+    8119,
+    8120,
+    8121,
+    8122,
+    8123,
+    8124,
+    8125,
+    8126,
+    8127
+  },
+  ["NpcId"]= 61008,
+  ["RandomWeight"]= {
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  },
+  ["TaskId"]= {
+    110419101,
+    110420101,
+    110421101,
+    110422101,
+    110423101,
+    110424101,
+    110425101,
+    110426101,
+    110427101
+  }
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

@@ -1,0 +1,548 @@
+TextAsset Base
+	string m_Name = "data_RecommendLabel"
+	string m_Script = "local table= {
+[1] = {
+  ["Type"]= 2
+},
+[2] = {
+  ["Key"]= 2,
+  ["Order"]= 2,
+  ["Type"]= 2,
+  ["Value"]= "RecommendLabel9"
+},
+[3] = {
+  ["Key"]= 3,
+  ["Order"]= 3,
+  ["Type"]= 2,
+  ["Value"]= "RecommendLabel10"
+},
+[4] = {
+  ["Key"]= 4,
+  ["Order"]= 4,
+  ["Type"]= 2,
+  ["Value"]= "RecommendLabel11"
+},
+[5] = {
+  ["Key"]= 5,
+  ["Order"]= 5,
+  ["Type"]= 2,
+  ["Value"]= "RecommendLabel12"
+},
+[6] = {
+  ["Key"]= 6,
+  ["Order"]= 6,
+  ["Type"]= 2,
+  ["Value"]= "RecommendLabel13"
+},
+[7] = {
+  ["Key"]= 7,
+  ["Order"]= 7,
+  ["Type"]= 2,
+  ["Value"]= "RecommendLabel14"
+},
+[8] = {
+  ["Key"]= 8,
+  ["Order"]= 8,
+  ["Type"]= 2,
+  ["Value"]= "RecommendLabel15"
+},
+[9] = {
+  ["Key"]= 9,
+  ["Order"]= 9,
+  ["Type"]= 2,
+  ["Value"]= "RecommendLabel16"
+},
+[10] = {
+  ["Key"]= 10,
+  ["Order"]= 10,
+  ["Type"]= 2,
+  ["Value"]= "RecommendLabel17"
+},
+[11] = {
+  ["Key"]= 11,
+  ["Order"]= 11,
+  ["Type"]= 2,
+  ["Value"]= "RecommendLabel18"
+},
+[12] = {
+  ["Key"]= 12,
+  ["Order"]= 12,
+  ["Type"]= 2,
+  ["Value"]= "RecommendLabel19"
+},
+[13] = {
+  ["Key"]= 13,
+  ["Order"]= 13,
+  ["Value"]= "Title_1002"
+},
+[14] = {
+  ["Key"]= 14,
+  ["Order"]= 14,
+  ["Value"]= "Title_1003"
+},
+[15] = {
+  ["Key"]= 15,
+  ["Order"]= 15,
+  ["Value"]= "Title_1004"
+},
+[16] = {
+  ["Key"]= 16,
+  ["Order"]= 16,
+  ["Value"]= "Title_1005"
+},
+[17] = {
+  ["Key"]= 17,
+  ["Order"]= 17,
+  ["Value"]= "Title_1006"
+},
+[18] = {
+  ["Key"]= 18,
+  ["Order"]= 18,
+  ["Value"]= "Title_1007"
+},
+[19] = {
+  ["Key"]= 19,
+  ["Order"]= 19,
+  ["Value"]= "Title_1008"
+},
+[20] = {
+  ["Key"]= 20,
+  ["Order"]= 20,
+  ["Value"]= "Title_1010"
+},
+[21] = {
+  ["Key"]= 21,
+  ["Order"]= 21,
+  ["Value"]= "Title_1012"
+},
+[22] = {
+  ["Key"]= 22,
+  ["Order"]= 22,
+  ["Value"]= "Title_1014"
+},
+[23] = {
+  ["Key"]= 23,
+  ["Order"]= 23,
+  ["Value"]= "Title_1015"
+},
+[24] = {
+  ["Key"]= 24,
+  ["Order"]= 24,
+  ["Value"]= "Title_1016"
+},
+[25] = {
+  ["Key"]= 25,
+  ["Order"]= 25,
+  ["Value"]= "Title_1017"
+},
+[26] = {
+  ["Key"]= 26,
+  ["Order"]= 26,
+  ["Value"]= "Title_1018"
+},
+[27] = {
+  ["Key"]= 27,
+  ["Order"]= 27,
+  ["Value"]= "Title_1019"
+},
+[28] = {
+  ["Key"]= 28,
+  ["Order"]= 28,
+  ["Value"]= "Title_1025"
+},
+[29] = {
+  ["Key"]= 29,
+  ["Order"]= 29,
+  ["Value"]= "Title_1029"
+},
+[30] = {
+  ["Key"]= 30,
+  ["Order"]= 30,
+  ["Value"]= "Title_1030"
+},
+[31] = {
+  ["Key"]= 31,
+  ["Order"]= 31,
+  ["Value"]= "Title_1031"
+},
+[32] = {
+  ["Key"]= 32,
+  ["Order"]= 32,
+  ["Value"]= "Title_1032"
+},
+[33] = {
+  ["Key"]= 33,
+  ["Order"]= 33,
+  ["Value"]= "Title_1033"
+},
+[34] = {
+  ["Key"]= 34,
+  ["Order"]= 34,
+  ["Value"]= "Title_1034"
+},
+[35] = {
+  ["Key"]= 35,
+  ["Order"]= 35,
+  ["Value"]= "Title_1035"
+},
+[36] = {
+  ["Key"]= 36,
+  ["Order"]= 36,
+  ["Value"]= "Title_1036"
+},
+[37] = {
+  ["Key"]= 37,
+  ["Order"]= 37,
+  ["Value"]= "RecommendLabel1"
+},
+[38] = {
+  ["Key"]= 38,
+  ["Order"]= 38,
+  ["Value"]= "RecommendLabel2"
+},
+[39] = {
+  ["Key"]= 39,
+  ["Order"]= 39,
+  ["Value"]= "RecommendLabel3"
+},
+[40] = {
+  ["Key"]= 40,
+  ["Order"]= 40,
+  ["Type"]= 4,
+  ["Value"]= "Title_1001"
+},
+[41] = {
+  ["Key"]= 41,
+  ["Order"]= 41,
+  ["Type"]= 4,
+  ["Value"]= "Title_1009"
+},
+[42] = {
+  ["Key"]= 42,
+  ["Order"]= 42,
+  ["Type"]= 4,
+  ["Value"]= "Title_1011"
+},
+[43] = {
+  ["Key"]= 43,
+  ["Order"]= 43,
+  ["Type"]= 4,
+  ["Value"]= "Title_1023"
+},
+[44] = {
+  ["Key"]= 44,
+  ["Order"]= 44,
+  ["Type"]= 4,
+  ["Value"]= "Title_1024"
+},
+[45] = {
+  ["Key"]= 45,
+  ["Order"]= 45,
+  ["Type"]= 4,
+  ["Value"]= "Title_1026"
+},
+[46] = {
+  ["Key"]= 46,
+  ["Order"]= 46,
+  ["Type"]= 4,
+  ["Value"]= "Title_1028"
+},
+[47] = {
+  ["Key"]= 47,
+  ["Order"]= 47,
+  ["Type"]= 4,
+  ["Value"]= "Title_1037"
+},
+[48] = {
+  ["Key"]= 48,
+  ["Order"]= 48,
+  ["Type"]= 4,
+  ["Value"]= "Title_1038"
+},
+[49] = {
+  ["Key"]= 49,
+  ["Order"]= 49,
+  ["Type"]= 4,
+  ["Value"]= "Title_1039"
+},
+[50] = {
+  ["Key"]= 50,
+  ["Order"]= 50,
+  ["Type"]= 4,
+  ["Value"]= "Title_1040"
+},
+[51] = {
+  ["Key"]= 51,
+  ["Order"]= 51,
+  ["Type"]= 4,
+  ["Value"]= "Title_1041"
+},
+[52] = {
+  ["Key"]= 52,
+  ["Order"]= 52,
+  ["Type"]= 4,
+  ["Value"]= "Title_1042"
+},
+[53] = {
+  ["Key"]= 53,
+  ["Order"]= 53,
+  ["Type"]= 4,
+  ["Value"]= "Title_1043"
+},
+[54] = {
+  ["Key"]= 54,
+  ["Order"]= 54,
+  ["Type"]= 4,
+  ["Value"]= "Title_1044"
+},
+[55] = {
+  ["Key"]= 55,
+  ["Order"]= 55,
+  ["Type"]= 4,
+  ["Value"]= "Title_1045"
+},
+[56] = {
+  ["Key"]= 56,
+  ["Order"]= 56,
+  ["Type"]= 4,
+  ["Value"]= "Title_1046"
+},
+[57] = {
+  ["Key"]= 57,
+  ["Order"]= 57,
+  ["Type"]= 5,
+  ["Value"]= "Title_1027"
+},
+[58] = {
+  ["Key"]= 58,
+  ["Order"]= 58,
+  ["Type"]= 5,
+  ["Value"]= "RecommendLabel4"
+},
+[59] = {
+  ["Key"]= 59,
+  ["Order"]= 59,
+  ["Type"]= 5,
+  ["Value"]= "RecommendLabel5"
+},
+[60] = {
+  ["Key"]= 60,
+  ["Order"]= 60,
+  ["Type"]= 5,
+  ["Value"]= "RecommendLabel6"
+},
+[61] = {
+  ["Key"]= 61,
+  ["Order"]= 61,
+  ["Type"]= 5,
+  ["Value"]= "RecommendLabel7"
+},
+[62] = {
+  ["Key"]= 62,
+  ["Order"]= 62,
+  ["Type"]= 5,
+  ["Value"]= "RecommendLabel20"
+},
+[63] = {
+  ["Key"]= 63,
+  ["Order"]= 63,
+  ["Type"]= 5,
+  ["Value"]= "RecommendLabel21"
+},
+[64] = {
+  ["Key"]= 64,
+  ["Order"]= 64,
+  ["Type"]= 5,
+  ["Value"]= "RecommendLabel22"
+},
+[65] = {
+  ["Key"]= 65,
+  ["Order"]= 65,
+  ["Type"]= 5,
+  ["Value"]= "RecommendLabel23"
+},
+[66] = {
+  ["Key"]= 66,
+  ["Order"]= 66,
+  ["Type"]= 5,
+  ["Value"]= "RecommendLabel24"
+},
+[67] = {
+  ["Key"]= 67,
+  ["Order"]= 67,
+  ["Type"]= 5,
+  ["Value"]= "RecommendLabel25"
+},
+[68] = {
+  ["Key"]= 68,
+  ["Order"]= 68,
+  ["Type"]= 5,
+  ["Value"]= "RecommendLabel26"
+},
+[69] = {
+  ["Key"]= 69,
+  ["Order"]= 69,
+  ["Type"]= 5,
+  ["Value"]= "RecommendLabel27"
+},
+[70] = {
+  ["Key"]= 70,
+  ["Order"]= 70,
+  ["Type"]= 5,
+  ["Value"]= "RecommendLabel28"
+},
+[71] = {
+  ["Key"]= 71,
+  ["Order"]= 71,
+  ["Type"]= 5,
+  ["Value"]= "RecommendLabel29"
+},
+[72] = {
+  ["Key"]= 72,
+  ["Order"]= 72,
+  ["Type"]= 6,
+  ["Value"]= "SceneName1010"
+},
+[73] = {
+  ["Key"]= 73,
+  ["Order"]= 73,
+  ["Type"]= 6,
+  ["Value"]= "SceneName1020"
+},
+[74] = {
+  ["Key"]= 74,
+  ["Order"]= 74,
+  ["Type"]= 6,
+  ["Value"]= "SceneName1030"
+},
+[75] = {
+  ["Key"]= 75,
+  ["Order"]= 75,
+  ["Type"]= 6,
+  ["Value"]= "SceneName1040"
+},
+[76] = {
+  ["Key"]= 76,
+  ["Order"]= 76,
+  ["Type"]= 6,
+  ["Value"]= "SceneName1110"
+},
+[77] = {
+  ["Key"]= 77,
+  ["Order"]= 77,
+  ["Type"]= 6,
+  ["Value"]= "SceneName1140"
+},
+[78] = {
+  ["Key"]= 78,
+  ["Order"]= 78,
+  ["Type"]= 6,
+  ["Value"]= "SceneName1160"
+},
+[79] = {
+  ["Key"]= 79,
+  ["Order"]= 79,
+  ["Type"]= 6,
+  ["Value"]= "SceneName1170"
+},
+[80] = {
+  ["Key"]= 80,
+  ["Order"]= 80,
+  ["Type"]= 6,
+  ["Value"]= "SceneName1180"
+},
+[81] = {
+  ["Key"]= 81,
+  ["Order"]= 81,
+  ["Type"]= 6,
+  ["Value"]= "SceneName1210"
+},
+[82] = {
+  ["Key"]= 82,
+  ["Order"]= 82,
+  ["Type"]= 6,
+  ["Value"]= "SceneName1220"
+},
+[83] = {
+  ["Key"]= 83,
+  ["Order"]= 83,
+  ["Type"]= 6,
+  ["Value"]= "SceneName1230"
+},
+[84] = {
+  ["Key"]= 84,
+  ["Order"]= 84,
+  ["Type"]= 6,
+  ["Value"]= "SceneName1240"
+},
+[85] = {
+  ["Key"]= 85,
+  ["Order"]= 85,
+  ["Type"]= 6,
+  ["Value"]= "SceneName1250"
+},
+[86] = {
+  ["Key"]= 86,
+  ["Order"]= 86,
+  ["Type"]= 6,
+  ["Value"]= "SceneName1310"
+},
+[87] = {
+  ["Key"]= 87,
+  ["Order"]= 87,
+  ["Type"]= 6,
+  ["Value"]= "SceneName1320"
+},
+[88] = {
+  ["Key"]= 88,
+  ["Order"]= 88,
+  ["Type"]= 6,
+  ["Value"]= "SceneName1350"
+},
+[89] = {
+  ["Key"]= 89,
+  ["Order"]= 89,
+  ["Type"]= 6,
+  ["Value"]= "SceneName1360"
+},
+[90] = {
+  ["Key"]= 90,
+  ["Order"]= 90,
+  ["Type"]= 6,
+  ["Value"]= "SceneName1410"
+},
+[91] = {
+  ["Key"]= 91,
+  ["Order"]= 91,
+  ["Type"]= 6,
+  ["Value"]= "SceneName1530"
+},
+[92] = {
+  ["Key"]= 92,
+  ["Order"]= 92,
+  ["Type"]= 6,
+  ["Value"]= "SceneName1550"
+},
+[93] = {
+  ["Key"]= 93,
+  ["Order"]= 93,
+  ["Type"]= 6,
+  ["Value"]= "SceneName1570"
+},
+[94] = {
+  ["Key"]= 94,
+  ["Order"]= 94,
+  ["Type"]= 6,
+  ["Value"]= "SceneName1580"
+}
+}
+local baseTable={
+  ["Key"]= 1,
+  ["Order"]= 1,
+  ["Type"]= 3,
+  ["Value"]= "RecommendLabel8"
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

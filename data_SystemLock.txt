@@ -1,0 +1,447 @@
+TextAsset Base
+	string m_Name = "data_SystemLock"
+	string m_Script = "local table= {
+[10000] = {
+  ["condition"]= 1001
+},
+[20000] = {
+  ["condition"]= 1001,
+  ["id"]= 20000,
+  ["isCrossForbid"]= 0,
+  ["name"]= "SystemName_2"
+},
+[30000] = {
+  ["condition"]= 1021,
+  ["id"]= 30000,
+  ["name"]= "SystemName_3"
+},
+[30100] = {
+  ["condition"]= 1035,
+  ["id"]= 30100,
+  ["isCrossForbid"]= 0,
+  ["level"]= 2,
+  ["name"]= "SystemName_4"
+},
+[30200] = {
+  ["condition"]= 1022,
+  ["id"]= 30200,
+  ["isCrossForbid"]= 0,
+  ["level"]= 2,
+  ["name"]= "SystemName_5"
+},
+[40000] = {
+  ["condition"]= 1025,
+  ["id"]= 40000,
+  ["isCrossForbid"]= 0,
+  ["name"]= "SystemName_6"
+},
+[50000] = {
+  ["condition"]= 4006,
+  ["id"]= 50000,
+  ["name"]= "SystemName_7"
+},
+[60000] = {
+  ["condition"]= 1029,
+  ["id"]= 60000,
+  ["name"]= "SystemName_8"
+},
+[70000] = {
+  ["condition"]= 1022,
+  ["id"]= 70000,
+  ["isCrossForbid"]= 0,
+  ["name"]= "SystemName_9"
+},
+[80000] = {
+  ["condition"]= 1008,
+  ["id"]= 80000,
+  ["isCrossForbid"]= 0,
+  ["name"]= "SystemName_10"
+},
+[90000] = {
+  ["condition"]= 1001,
+  ["id"]= 90000,
+  ["name"]= "SystemName_11"
+},
+[100000] = {
+  ["condition"]= 1011,
+  ["id"]= 100000,
+  ["isCrossForbid"]= 0,
+  ["name"]= "SystemName_12"
+},
+[110000] = {
+  ["condition"]= 1001,
+  ["id"]= 110000,
+  ["name"]= "SystemName_13"
+},
+[120000] = {
+  ["condition"]= 1001,
+  ["id"]= 120000,
+  ["isCrossForbid"]= 0,
+  ["name"]= "SystemName_14"
+},
+[120100] = {
+  ["condition"]= 1001,
+  ["id"]= 120100,
+  ["isCrossForbid"]= 0,
+  ["level"]= 2,
+  ["name"]= "SystemName_15"
+},
+[120200] = {
+  ["condition"]= 1012,
+  ["id"]= 120200,
+  ["isCrossForbid"]= 0,
+  ["level"]= 2,
+  ["name"]= "SystemName_16"
+},
+[120300] = {
+  ["condition"]= 1023,
+  ["id"]= 120300,
+  ["isCrossForbid"]= 0,
+  ["level"]= 2,
+  ["name"]= "SystemName_17"
+},
+[120400] = {
+  ["condition"]= 1030,
+  ["id"]= 120400,
+  ["isCrossForbid"]= 0,
+  ["level"]= 2,
+  ["name"]= "SystemName_18"
+},
+[120500] = {
+  ["condition"]= 1026,
+  ["id"]= 120500,
+  ["isCrossForbid"]= 0,
+  ["level"]= 2,
+  ["name"]= "SystemName_19"
+},
+[130000] = {
+  ["condition"]= 1003,
+  ["id"]= 130000,
+  ["name"]= "SystemName_20"
+},
+[140000] = {
+  ["condition"]= 1001,
+  ["id"]= 140000,
+  ["isCrossForbid"]= 0,
+  ["name"]= "SystemName_21"
+},
+[150000] = {
+  ["condition"]= 1001,
+  ["id"]= 150000,
+  ["name"]= "SystemName_22"
+},
+[160000] = {
+  ["condition"]= 1009,
+  ["id"]= 160000,
+  ["name"]= "SystemName_23"
+},
+[170000] = {
+  ["condition"]= 1001,
+  ["id"]= 170000,
+  ["isCrossForbid"]= 0,
+  ["name"]= "SystemName_24"
+},
+[170100] = {
+  ["condition"]= 1001,
+  ["id"]= 170100,
+  ["isCrossForbid"]= 0,
+  ["level"]= 2,
+  ["name"]= "SystemName_25"
+},
+[170200] = {
+  ["condition"]= 1011,
+  ["id"]= 170200,
+  ["isCrossForbid"]= 0,
+  ["level"]= 2,
+  ["name"]= "SystemName_26"
+},
+[170300] = {
+  ["condition"]= 1001,
+  ["id"]= 170300,
+  ["isCrossForbid"]= 0,
+  ["level"]= 2,
+  ["name"]= "SystemName_27"
+},
+[180000] = {
+  ["condition"]= 1030,
+  ["id"]= 180000,
+  ["isCrossForbid"]= 0,
+  ["name"]= "SystemName_28"
+},
+[190000] = {
+  ["condition"]= 1040,
+  ["id"]= 190000,
+  ["isCrossForbid"]= 0,
+  ["name"]= "SystemName_29"
+},
+[200000] = {
+  ["condition"]= 3004,
+  ["id"]= 200000,
+  ["isCrossForbid"]= 0,
+  ["name"]= "SystemName_30"
+},
+[210000] = {
+  ["condition"]= 1020,
+  ["id"]= 210000,
+  ["isCrossForbid"]= 0,
+  ["name"]= "SystemName_31"
+},
+[220000] = {
+  ["condition"]= 1002,
+  ["id"]= 220000,
+  ["isCrossForbid"]= 0,
+  ["name"]= "SystemName_32"
+},
+[230000] = {
+  ["condition"]= 1001,
+  ["id"]= 230000,
+  ["isCrossForbid"]= 0,
+  ["name"]= "SystemName_33"
+},
+[240000] = {
+  ["condition"]= 1001,
+  ["id"]= 240000,
+  ["isCrossForbid"]= 0,
+  ["name"]= "SystemName_34"
+},
+[250000] = {
+  ["condition"]= 1040,
+  ["id"]= 250000,
+  ["isCrossForbid"]= 0,
+  ["name"]= "SystemName_35"
+},
+[260000] = {
+  ["condition"]= 1002,
+  ["id"]= 260000,
+  ["name"]= "SystemName_36"
+},
+[270000] = {
+  ["condition"]= 1009,
+  ["id"]= 270000,
+  ["isCrossForbid"]= 0,
+  ["name"]= "SystemName_37"
+},
+[280000] = {
+  ["id"]= 280000,
+  ["isCrossForbid"]= 0,
+  ["name"]= "SystemName_40"
+},
+[290000] = {
+  ["condition"]= 1012,
+  ["id"]= 290000,
+  ["isCrossForbid"]= 0,
+  ["name"]= "SystemName_39"
+},
+[300000] = {
+  ["condition"]= 210033,
+  ["id"]= 300000,
+  ["isCrossForbid"]= 0,
+  ["name"]= "SystemName_38"
+},
+[310000] = {
+  ["id"]= 310000,
+  ["level"]= 0,
+  ["name"]= "SystemName_41"
+},
+[320000] = {
+  ["condition"]= 1099,
+  ["id"]= 320000,
+  ["level"]= 0,
+  ["name"]= "SystemName_42"
+},
+[330000] = {
+  ["condition"]= 1007,
+  ["id"]= 330000,
+  ["isCrossForbid"]= 0,
+  ["level"]= 0,
+  ["name"]= "SystemName_43"
+},
+[340000] = {
+  ["condition"]= 3009,
+  ["id"]= 340000,
+  ["isCrossForbid"]= 0,
+  ["level"]= 0,
+  ["name"]= "SystemName_44"
+},
+[350000] = {
+  ["condition"]= 1001,
+  ["id"]= 350000,
+  ["isCrossForbid"]= 0,
+  ["level"]= 0,
+  ["name"]= "SystemName_45"
+},
+[360000] = {
+  ["condition"]= 1014,
+  ["id"]= 360000,
+  ["name"]= "SystemName_46"
+},
+[370000] = {
+  ["condition"]= 1040,
+  ["id"]= 370000,
+  ["name"]= "SystemName_47"
+},
+[380000] = {
+  ["condition"]= 1040,
+  ["id"]= 380000,
+  ["isCrossForbid"]= 0,
+  ["name"]= "SystemName_48"
+},
+[390000] = {
+  ["condition"]= 1002,
+  ["id"]= 390000,
+  ["isCrossForbid"]= 0,
+  ["isOpen"]= 0,
+  ["name"]= "SystemName_49"
+},
+[400000] = {
+  ["condition"]= 1999,
+  ["id"]= 400000,
+  ["isCrossForbid"]= 0,
+  ["isOpen"]= 0,
+  ["name"]= "SystemName_50"
+},
+[410000] = {
+  ["condition"]= 1010,
+  ["id"]= 410000,
+  ["isCrossForbid"]= 0,
+  ["name"]= "SystemName_51"
+},
+[420000] = {
+  ["id"]= 420000,
+  ["isCrossForbid"]= 0,
+  ["name"]= "SystemName_52"
+},
+[430000] = {
+  ["condition"]= 1022,
+  ["id"]= 430000,
+  ["name"]= "SystemName_53"
+},
+[440000] = {
+  ["condition"]= 1003,
+  ["id"]= 440000,
+  ["name"]= "SystemName_54"
+},
+[450000] = {
+  ["id"]= 450000,
+  ["name"]= "SystemName_55"
+},
+[460000] = {
+  ["condition"]= 46000001,
+  ["id"]= 460000,
+  ["isCrossForbid"]= 0,
+  ["name"]= "SystemName_56"
+},
+[470000] = {
+  ["condition"]= 1035,
+  ["id"]= 470000,
+  ["name"]= "SystemName_57"
+},
+[490000] = {
+  ["condition"]= 1999,
+  ["id"]= 490000,
+  ["level"]= 25,
+  ["name"]= "SystemName_59"
+},
+[500000] = {
+  ["id"]= 500000,
+  ["name"]= "SystemName_60"
+},
+[510000] = {
+  ["id"]= 510000,
+  ["name"]= "SystemName_61"
+},
+[520000] = {
+  ["condition"]= 1201,
+  ["id"]= 520000,
+  ["name"]= "SystemName_62"
+},
+[530000] = {
+  ["id"]= 530000,
+  ["name"]= "SystemName_63"
+},
+[540000] = {
+  ["condition"]= 1010,
+  ["id"]= 540000,
+  ["name"]= "SystemName_64"
+},
+[550000] = {
+  ["id"]= 550000,
+  ["name"]= "SystemName_65"
+},
+[580000] = {
+  ["id"]= 580000,
+  ["name"]= "SystemName_66"
+},
+[590000] = {
+  ["condition"]= 1999,
+  ["id"]= 590000,
+  ["name"]= "SystemName_67"
+},
+[600000] = {
+  ["condition"]= 1025,
+  ["id"]= 600000,
+  ["name"]= "九尾古城集章"
+},
+[610000] = {
+  ["condition"]= 1025,
+  ["id"]= 610000,
+  ["name"]= "ui_CoCoActivity_003"
+},
+[620000] = {
+  ["condition"]= 1025,
+  ["id"]= 620000,
+  ["name"]= "东南亚手拉手活动"
+},
+[630000] = {
+  ["id"]= 630000,
+  ["name"]= "半周年庆典"
+},
+[640000] = {
+  ["condition"]= 1025,
+  ["id"]= 640000,
+  ["name"]= "SystemName_68"
+},
+[650000] = {
+  ["id"]= 650000,
+  ["name"]= "幸运大乐透"
+},
+[660000] = {
+  ["condition"]= 1035,
+  ["id"]= 660000,
+  ["name"]= "飞行棋"
+},
+[670000] = {
+  ["id"]= 670000,
+  ["name"]= "初夏の轻语"
+},
+[680000] = {
+  ["id"]= 680000,
+  ["name"]= "点亮地标"
+},
+[690000] = {
+  ["condition"]= 1003,
+  ["id"]= 690000,
+  ["name"]= "裂变活动"
+},
+[700000] = {
+  ["id"]= 700000,
+  ["name"]= "世界旅行商人\n"
+},
+[710000] = {
+  ["id"]= 710000,
+  ["name"]= "爬塔神秘商人"
+}
+}
+local baseTable={
+  ["condition"]= 1017,
+  ["drop"]= 0,
+  ["id"]= 10000,
+  ["isCrossForbid"]= 1,
+  ["isOpen"]= 1,
+  ["level"]= 1,
+  ["name"]= "SystemName_1"
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

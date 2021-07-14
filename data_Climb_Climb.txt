@@ -1,0 +1,53 @@
+TextAsset Base
+	string m_Name = "data_Climb_Climb"
+	string m_Script = "return {
+	[1] = {
+		["id"] = 1,
+		["name"] = "南门-向上攀爬",
+		["startAreaId"] = 1020207,
+		["endAreaId"] = 1020208,
+		["orientation"] = {-0.9862049,-0.1655297},
+		["behaviorId"] = 6,
+		["period"] = 6000,
+		["carrierId"] = 1,
+		["spotX"] = -95.4,
+		["spotZ"] = 95.85
+	},
+	[2] = {
+		["id"] = 2,
+		["name"] = "南门-向下攀爬",
+		["startAreaId"] = 1020208,
+		["endAreaId"] = 1020207,
+		["orientation"] = {0.9932377,-0.1160988},
+		["behaviorId"] = 7,
+		["period"] = 6000,
+		["carrierId"] = 2,
+		["spotX"] = -84.57,
+		["spotZ"] = 95.66
+	},
+	[3] = {
+		["id"] = 3,
+		["name"] = "普隆城墙1-向上攀爬",
+		["startAreaId"] = 1010233,
+		["endAreaId"] = 1010234,
+		["orientation"] = {-0.9862049,-0.1655297},
+		["behaviorId"] = 6,
+		["period"] = 6000,
+		["carrierId"] = 9,
+		["spotX"] = -20.67327,
+		["spotZ"] = -60.31582
+	},
+	[4] = {
+		["id"] = 4,
+		["name"] = "普隆城墙1-向下攀爬",
+		["startAreaId"] = 1010234,
+		["endAreaId"] = 1010233,
+		["orientation"] = {0.9932377,-0.1160988},
+		["behaviorId"] = 7,
+		["period"] = 6000,
+		["carrierId"] = 10,
+		["spotX"] = -20.15415,
+		["spotZ"] = -56.02313
+	}
+}
+"

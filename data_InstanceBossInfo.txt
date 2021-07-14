@@ -1,0 +1,7 @@
+TextAsset Base
+	string m_Name = "data_InstanceBossInfo"
+	string m_Script = "local InstanceBossInfo={
+[30004]="30004102:30004104:30004105",
+[30002]="30004102:30004104:30004105",
+}
+return InstanceBossInfo"

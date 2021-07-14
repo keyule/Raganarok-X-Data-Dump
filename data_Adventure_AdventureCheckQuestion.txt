@@ -1,0 +1,181 @@
+TextAsset Base
+	string m_Name = "data_Adventure_AdventureCheckQuestion"
+	string m_Script = "return {
+[1] = {
+  ["answerId"]= 1,
+  ["answerIndex"]= {
+    "AdventureAnswer1_1",
+    "AdventureAnswer1_2",
+    "AdventureAnswer1_3",
+    "AdventureAnswer1_4"
+  },
+  ["id"]= 1,
+  ["libId"]= 2,
+  ["question"]= "AdventureQuestion1"
+},
+[2] = {
+  ["answerId"]= 2,
+  ["answerIndex"]= {
+    "AdventureAnswer2_1",
+    "AdventureAnswer2_2",
+    "AdventureAnswer2_3",
+    "AdventureAnswer2_4"
+  },
+  ["id"]= 2,
+  ["libId"]= 2,
+  ["question"]= "AdventureQuestion2"
+},
+[3] = {
+  ["answerId"]= 3,
+  ["answerIndex"]= {
+    "AdventureAnswer3_1",
+    "AdventureAnswer3_2",
+    "AdventureAnswer3_3",
+    "AdventureAnswer3_4"
+  },
+  ["id"]= 3,
+  ["libId"]= 2,
+  ["question"]= "AdventureQuestion3"
+},
+[4] = {
+  ["answerId"]= 4,
+  ["answerIndex"]= {
+    "AdventureAnswer4_1",
+    "AdventureAnswer4_2",
+    "AdventureAnswer4_3",
+    "AdventureAnswer4_4"
+  },
+  ["id"]= 4,
+  ["libId"]= 2,
+  ["question"]= "AdventureQuestion4"
+},
+[5] = {
+  ["answerId"]= 1,
+  ["answerIndex"]= {
+    "AdventureAnswer5_1",
+    "AdventureAnswer5_2",
+    "AdventureAnswer5_3",
+    "AdventureAnswer5_4"
+  },
+  ["id"]= 5,
+  ["libId"]= 2,
+  ["question"]= "AdventureQuestion5"
+},
+[6] = {
+  ["answerId"]= 2,
+  ["answerIndex"]= {
+    "AdventureAnswer6_1",
+    "AdventureAnswer6_2",
+    "AdventureAnswer6_3",
+    "AdventureAnswer6_4"
+  },
+  ["id"]= 6,
+  ["libId"]= 2,
+  ["question"]= "AdventureQuestion6"
+},
+[7] = {
+  ["answerId"]= 3,
+  ["answerIndex"]= {
+    "AdventureAnswer7_1",
+    "AdventureAnswer7_2",
+    "AdventureAnswer7_3",
+    "AdventureAnswer7_4"
+  },
+  ["id"]= 7,
+  ["libId"]= 2,
+  ["question"]= "AdventureQuestion7"
+},
+[8] = {
+  ["answerId"]= 4,
+  ["answerIndex"]= {
+    "AdventureAnswer8_1",
+    "AdventureAnswer8_2",
+    "AdventureAnswer8_3",
+    "AdventureAnswer8_4"
+  },
+  ["id"]= 8,
+  ["libId"]= 2,
+  ["question"]= "AdventureQuestion8"
+},
+[9] = {
+  ["answerId"]= 1,
+  ["answerIndex"]= {
+    "AdventureAnswer9_1",
+    "AdventureAnswer9_2"
+  },
+  ["id"]= 9,
+  ["libId"]= 2,
+  ["question"]= "AdventureQuestion9"
+},
+[10] = {
+  ["answerId"]= 2,
+  ["answerIndex"]= {
+    "AdventureAnswer10_1",
+    "AdventureAnswer10_2"
+  },
+  ["id"]= 10,
+  ["libId"]= 2,
+  ["question"]= "AdventureQuestion10"
+},
+[11] = {
+  ["answerId"]= 1,
+  ["answerIndex"]= {
+    "AdventureAnswer11_1",
+    "AdventureAnswer11_2"
+  },
+  ["id"]= 11,
+  ["libId"]= 2,
+  ["question"]= "AdventureQuestion11"
+},
+[12] = {
+  ["answerId"]= 2,
+  ["answerIndex"]= {
+    "AdventureAnswer12_1",
+    "AdventureAnswer12_2"
+  },
+  ["id"]= 12,
+  ["libId"]= 2,
+  ["question"]= "AdventureQuestion12"
+},
+[13] = {
+  ["answerId"]= 1,
+  ["answerIndex"]= {
+    "AdventureAnswer13_1",
+    "AdventureAnswer13_2"
+  },
+  ["id"]= 13,
+  ["libId"]= 2,
+  ["question"]= "AdventureQuestion13"
+},
+[14] = {
+  ["answerId"]= 2,
+  ["answerIndex"]= {
+    "AdventureAnswer14_1",
+    "AdventureAnswer14_2"
+  },
+  ["id"]= 14,
+  ["libId"]= 2,
+  ["question"]= "AdventureQuestion14"
+},
+[15] = {
+  ["answerId"]= 1,
+  ["answerIndex"]= {
+    "AdventureAnswer15_1",
+    "AdventureAnswer15_2"
+  },
+  ["id"]= 15,
+  ["libId"]= 2,
+  ["question"]= "AdventureQuestion15"
+},
+[16] = {
+  ["answerId"]= 2,
+  ["answerIndex"]= {
+    "AdventureAnswer16_1",
+    "AdventureAnswer16_2"
+  },
+  ["id"]= 16,
+  ["libId"]= 2,
+  ["question"]= "AdventureQuestion16"
+}
+}
+"

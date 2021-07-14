@@ -1,0 +1,1668 @@
+TextAsset Base
+	string m_Name = "data_PropID"
+	string m_Script = "local table= {
+[1] = {
+  ["decsLocalized"]= "增加近战职业物理攻击力",
+  ["ifPercentage"]= 0,
+  ["nameLocalized"]= "力量",
+  ["propSortId"]= 1,
+  ["propType"]= 1,
+  ["propValue"]= 6
+},
+[2] = {
+  ["data_type"]= 2,
+  ["decs"]= "Property2_Des",
+  ["decsLocalized"]= "增加闪避和攻速",
+  ["ifPercentage"]= 0,
+  ["name"]= "Property2",
+  ["nameLocalized"]= "敏捷",
+  ["propSortId"]= 2,
+  ["propType"]= 1,
+  ["propValue"]= 6
+},
+[3] = {
+  ["data_type"]= 3,
+  ["decs"]= "Property3_Des",
+  ["decsLocalized"]= "增加最大HP和物理防御",
+  ["ifPercentage"]= 0,
+  ["name"]= "Property3",
+  ["nameLocalized"]= "体质",
+  ["propSortId"]= 3,
+  ["propType"]= 1,
+  ["propValue"]= 6
+},
+[4] = {
+  ["data_type"]= 4,
+  ["decs"]= "Property4_Des",
+  ["decsLocalized"]= "增加魔法攻击，最大SP和魔法防御",
+  ["ifPercentage"]= 0,
+  ["name"]= "Property4",
+  ["nameLocalized"]= "智力",
+  ["propSortId"]= 4,
+  ["propType"]= 1,
+  ["propValue"]= 6
+},
+[5] = {
+  ["data_type"]= 5,
+  ["decs"]= "Property5_Des",
+  ["decsLocalized"]= "增加远程职业物理攻击力和所有职业命中，急速",
+  ["ifPercentage"]= 0,
+  ["name"]= "Property5",
+  ["nameLocalized"]= "灵巧",
+  ["propSortId"]= 5,
+  ["propType"]= 1,
+  ["propValue"]= 6
+},
+[6] = {
+  ["data_type"]= 6,
+  ["decs"]= "Property6_Des",
+  ["decsLocalized"]= "增加暴击和防暴",
+  ["ifPercentage"]= 0,
+  ["name"]= "Property6",
+  ["nameLocalized"]= "幸运",
+  ["propSortId"]= 6,
+  ["propType"]= 1,
+  ["propValue"]= 6
+},
+[10] = {
+  ["data_type"]= 10,
+  ["decs"]= "Property10_Des",
+  ["decsLocalized"]= "增加造成的物理伤害",
+  ["if_calc"]= 1,
+  ["ifPercentage"]= 0,
+  ["name"]= "Property10",
+  ["propSortId"]= 3,
+  ["propType"]= 5,
+  ["propValue"]= 1
+},
+[11] = {
+  ["data_type"]= 11,
+  ["decs"]= "Property11_Des",
+  ["decsLocalized"]= "增加造成的魔法伤害",
+  ["if_calc"]= 1,
+  ["ifPercentage"]= 0,
+  ["name"]= "Property11",
+  ["nameLocalized"]= "魔法攻击",
+  ["propSortId"]= 4,
+  ["propType"]= 5,
+  ["propValue"]= 1
+},
+[12] = {
+  ["data_type"]= 12,
+  ["decs"]= "Property12_Des",
+  ["decsLocalized"]= "对目标造成物理伤害时，提升<color=#359000FF>%.2f%%</color>的最终物防穿透",
+  ["ifPercentage"]= 0,
+  ["name"]= "Property12",
+  ["nameLocalized"]= "物防穿透",
+  ["propSortId"]= 7,
+  ["propType"]= 5,
+  ["propValue"]= 2
+},
+[13] = {
+  ["data_type"]= 13,
+  ["decs"]= "Property13_Des",
+  ["decsLocalized"]= "对目标造成魔法伤害时，提升<color=#359000FF>%.2f%%</color>的最终魔防穿透",
+  ["ifPercentage"]= 0,
+  ["name"]= "Property13",
+  ["nameLocalized"]= "魔防穿透",
+  ["propSortId"]= 8,
+  ["propType"]= 5,
+  ["propValue"]= 2
+},
+[14] = {
+  ["data_type"]= 14,
+  ["decs"]= "Property14_Des",
+  ["if_calc"]= 1,
+  ["ifPercentage"]= 0,
+  ["name"]= "Property14",
+  ["nameLocalized"]= "攻速",
+  ["propSortId"]= 9,
+  ["propType"]= 5,
+  ["propValue"]= 2
+},
+[15] = {
+  ["data_max"]= 5,
+  ["data_type"]= 15,
+  ["decs"]= "Property15_Des",
+  ["name"]= "Property15",
+  ["nameLocalized"]= "最终攻速",
+  ["propSortId"]= 1,
+  ["propValue"]= 15
+},
+[16] = {
+  ["data_type"]= 16,
+  ["decs"]= "Property16_Des",
+  ["decsLocalized"]= "减少技能的可变冷却<color=#359000FF>%.1f</color>秒和可变吟唱<color=#359000FF>%.1f</color>秒",
+  ["if_calc"]= 1,
+  ["ifPercentage"]= 0,
+  ["name"]= "Property16",
+  ["nameLocalized"]= "急速",
+  ["propSortId"]= 10,
+  ["propType"]= 5,
+  ["propValue"]= 2
+},
+[17] = {
+  ["data_type"]= 17,
+  ["decs"]= "Property17_Des",
+  ["decsLocalized"]= "减少技能的可变冷却<color=#359000FF>%.1f</color>秒和可变吟唱<color=#359000FF>%.1f</color>秒",
+  ["name"]= "Property17",
+  ["nameLocalized"]= "最终急速",
+  ["propSortId"]= 2,
+  ["propValue"]= 60
+},
+[18] = {
+  ["data_type"]= 18,
+  ["decs"]= "Property18_Des",
+  ["decsLocalized"]= "普通攻击的最终命中率增加<color=#359000FF>%.2f%%</color>",
+  ["if_calc"]= 1,
+  ["ifPercentage"]= 0,
+  ["name"]= "Property18",
+  ["nameLocalized"]= "命中",
+  ["propSortId"]= 11,
+  ["propType"]= 5,
+  ["propValue"]= 2
+},
+[19] = {
+  ["data_type"]= 19,
+  ["decs"]= "Property19_Des",
+  ["decsLocalized"]= "提升攻击时造成的最终伤害",
+  ["name"]= "Property19",
+  ["nameLocalized"]= "最终伤害加深",
+  ["propSortId"]= 7,
+  ["propValue"]= 60
+},
+[20] = {
+  ["data_type"]= 20,
+  ["decs"]= "Property20_Des",
+  ["decsLocalized"]= "进行普通攻击时，增加最终触发暴击的概率",
+  ["name"]= "Property20",
+  ["nameLocalized"]= "最终暴击",
+  ["propSortId"]= 3,
+  ["propValue"]= 30
+},
+[21] = {
+  ["data_type"]= 21,
+  ["decs"]= "Property21_Des",
+  ["decsLocalized"]= "进行普通攻击时，触发最终暴击的概率增加<color=#359000FF>%.2f%%</color>",
+  ["if_calc"]= 1,
+  ["ifPercentage"]= 0,
+  ["name"]= "Property21",
+  ["nameLocalized"]= "暴击",
+  ["propSortId"]= 13,
+  ["propType"]= 5,
+  ["propValue"]= 2
+},
+[22] = {
+  ["data_max"]= 4.5,
+  ["data_type"]= 22,
+  ["decs"]= "Property22_Des",
+  ["decsLocalized"]= "造成暴击攻击时，暴击伤害的倍率",
+  ["name"]= "Property22",
+  ["nameLocalized"]= "暴伤附加",
+  ["propSortId"]= 11,
+  ["propValue"]= 15
+},
+[23] = {
+  ["data_type"]= 23,
+  ["decs"]= "Property23_Des",
+  ["decsLocalized"]= "受到物理伤害时，增加最终物防效果<color=#359000FF>%.2f%%</color>",
+  ["if_calc"]= 1,
+  ["ifPercentage"]= 0,
+  ["name"]= "Property23",
+  ["nameLocalized"]= "物理防御",
+  ["propSortId"]= 5,
+  ["propType"]= 5,
+  ["propValue"]= 2
+},
+[24] = {
+  ["data_type"]= 24,
+  ["decs"]= "Property24_Des",
+  ["decsLocalized"]= "受到魔法伤害时，增加最终魔防效果<color=#359000FF>%.2f%%</color>",
+  ["if_calc"]= 1,
+  ["ifPercentage"]= 0,
+  ["name"]= "Property24",
+  ["nameLocalized"]= "魔法防御",
+  ["propSortId"]= 6,
+  ["propType"]= 5,
+  ["propValue"]= 2
+},
+[25] = {
+  ["data_type"]= 25,
+  ["decs"]= "Property25_Des",
+  ["decsLocalized"]= "受到普通攻击时，增加最终触发闪避的概率",
+  ["name"]= "Property25",
+  ["nameLocalized"]= "最终闪避",
+  ["propSortId"]= 6,
+  ["propValue"]= 30
+},
+[26] = {
+  ["data_type"]= 26,
+  ["decs"]= "Property26_Des",
+  ["decsLocalized"]= "受到普通攻击时，触发闪避的概率增加<color=#359000FF>%.2f%%</color>",
+  ["if_calc"]= 1,
+  ["ifPercentage"]= 0,
+  ["name"]= "Property26",
+  ["nameLocalized"]= "闪避",
+  ["propSortId"]= 12,
+  ["propType"]= 5,
+  ["propValue"]= 2
+},
+[27] = {
+  ["data_type"]= 27,
+  ["decs"]= "Property27_Des",
+  ["decsLocalized"]= "进行普通攻击时，玩家攻击丢失的概率",
+  ["name"]= "Property27",
+  ["nameLocalized"]= "丢失率",
+  ["propSortId"]= 5,
+  ["propType"]= 0,
+  ["propValue"]= 30
+},
+[28] = {
+  ["data_type"]= 28,
+  ["decs"]= "Property28_Des",
+  ["decsLocalized"]= "减少最终受到伤害的百分比",
+  ["ifInverse"]= 1,
+  ["name"]= "Property28",
+  ["nameLocalized"]= "最终伤害减免",
+  ["propSortId"]= 8,
+  ["propValue"]= 60
+},
+[29] = {
+  ["data_type"]= 29,
+  ["decs"]= "Property29_Des",
+  ["decsLocalized"]= "对普通攻击有<color=#359000FF>%.2f%%</color>几率产生格挡效果",
+  ["name"]= "Property29",
+  ["nameLocalized"]= "格挡率",
+  ["propSortId"]= 29,
+  ["propType"]= 0
+},
+[30] = {
+  ["data_type"]= 30,
+  ["decs"]= "Property30_Des",
+  ["decsLocalized"]= "格挡效果会减少的伤害",
+  ["ifPercentage"]= 0,
+  ["name"]= "Property30",
+  ["nameLocalized"]= "格挡值",
+  ["propSortId"]= 30,
+  ["propType"]= 0
+},
+[31] = {
+  ["data_type"]= 31,
+  ["decs"]= "Property31_Des",
+  ["decsLocalized"]= "受到暴击攻击的概率降低  <color=#359000FF>%.2f%%</color>",
+  ["if_calc"]= 1,
+  ["ifPercentage"]= 0,
+  ["name"]= "Property31",
+  ["nameLocalized"]= "防暴",
+  ["propSortId"]= 14,
+  ["propType"]= 5,
+  ["propValue"]= 2
+},
+[32] = {
+  ["data_type"]= 32,
+  ["decs"]= "Property32_Des",
+  ["decsLocalized"]= "最大生命值",
+  ["if_calc"]= 1,
+  ["ifPercentage"]= 0,
+  ["name"]= "Property32",
+  ["nameLocalized"]= "最大HP",
+  ["propSortId"]= 1,
+  ["propType"]= 5,
+  ["propValue"]= 0.02
+},
+[33] = {
+  ["data_type"]= 33,
+  ["decs"]= "Property33_Des",
+  ["decsLocalized"]= "最大魔法值",
+  ["if_calc"]= 1,
+  ["ifPercentage"]= 0,
+  ["name"]= "Property33",
+  ["nameLocalized"]= "最大SP",
+  ["propSortId"]= 2,
+  ["propType"]= 5,
+  ["propValue"]= 0.05
+},
+[34] = {
+  ["data_type"]= 34,
+  ["decs"]= "Property34_Des",
+  ["decsLocalized"]= "最大NP",
+  ["ifPercentage"]= 0,
+  ["name"]= "Property34",
+  ["nameLocalized"]= "最大NP",
+  ["propSortId"]= 34,
+  ["propType"]= 0
+},
+[35] = {
+  ["data_type"]= 35,
+  ["decs"]= "Property35_Des",
+  ["decsLocalized"]= "每5秒恢复的HP值",
+  ["ifPercentage"]= 0,
+  ["name"]= "Property35",
+  ["nameLocalized"]= "HP恢复",
+  ["propSortId"]= 9,
+  ["propValue"]= 0.16
+},
+[36] = {
+  ["data_type"]= 36,
+  ["decs"]= "Property36_Des",
+  ["decsLocalized"]= "每5秒恢复的SP值",
+  ["ifPercentage"]= 0,
+  ["name"]= "Property36",
+  ["nameLocalized"]= "SP恢复",
+  ["propSortId"]= 10,
+  ["propValue"]= 0.8
+},
+[37] = {
+  ["data_type"]= 37,
+  ["decs"]= "Property37_Des",
+  ["decsLocalized"]= "NP恢复",
+  ["ifPercentage"]= 0,
+  ["name"]= "Property37",
+  ["nameLocalized"]= "NP恢复",
+  ["propSortId"]= 37,
+  ["propType"]= 0
+},
+[38] = {
+  ["data_type"]= 38,
+  ["decs"]= "Property38_Des",
+  ["decsLocalized"]= "恢复物理攻击造成伤害对应比例的HP，在PVE时该效果仅为对应比例的<color=#FF0000>10%%</color>",
+  ["name"]= "Property38",
+  ["nameLocalized"]= "物理吸血",
+  ["propSortId"]= 38,
+  ["propValue"]= 60
+},
+[39] = {
+  ["data_type"]= 39,
+  ["decs"]= "Property39_Des",
+  ["decsLocalized"]= "治疗类技能治疗量加成百分比",
+  ["name"]= "Property39",
+  ["nameLocalized"]= "治疗加成",
+  ["propSortId"]= 39,
+  ["propValue"]= 30
+},
+[40] = {
+  ["data_max"]= 12,
+  ["data_type"]= 40,
+  ["decs"]= "Property40_Des",
+  ["decsLocalized"]= "每秒移动距离",
+  ["ifPercentage"]= 0,
+  ["name"]= "Property40",
+  ["nameLocalized"]= "移动速度",
+  ["propSortId"]= 40
+},
+[41] = {
+  ["data_type"]= 41,
+  ["decs"]= "Property41_Des",
+  ["decsLocalized"]= "百分比增加移动速度",
+  ["name"]= "Property41",
+  ["nameLocalized"]= "移动速度",
+  ["propSortId"]= 41,
+  ["propType"]= 0
+},
+[42] = {
+  ["data_type"]= 42,
+  ["decs"]= "Property42_Des",
+  ["decsLocalized"]= "攻击范围",
+  ["ifPercentage"]= 0,
+  ["name"]= "Property42",
+  ["nameLocalized"]= "攻击范围",
+  ["propSortId"]= 42,
+  ["propType"]= 0
+},
+[43] = {
+  ["data_type"]= 43,
+  ["decs"]= "Property43_Des",
+  ["decsLocalized"]= "增加最大血量的百分比",
+  ["name"]= "Property43",
+  ["nameLocalized"]= "最大HP",
+  ["propSortId"]= 43,
+  ["propType"]= 0,
+  ["propValue"]= 0.02
+},
+[44] = {
+  ["data_type"]= 44,
+  ["decs"]= "Property44_Des",
+  ["decsLocalized"]= "百分比增加生命回复",
+  ["name"]= "Property44",
+  ["nameLocalized"]= "HP恢复",
+  ["propSortId"]= 44,
+  ["propType"]= 0,
+  ["propValue"]= 0.16
+},
+[45] = {
+  ["data_type"]= 45,
+  ["decs"]= "Property45_Des",
+  ["decsLocalized"]= "百分比增加MaxSp",
+  ["name"]= "Property45",
+  ["nameLocalized"]= "最大SP",
+  ["propSortId"]= 45,
+  ["propType"]= 0,
+  ["propValue"]= 0.05
+},
+[46] = {
+  ["data_type"]= 46,
+  ["decs"]= "Property46_Des",
+  ["decsLocalized"]= "最大怒气",
+  ["ifPercentage"]= 0,
+  ["name"]= "Property46",
+  ["nameLocalized"]= "最大怒气",
+  ["propSortId"]= 46,
+  ["propType"]= 0
+},
+[47] = {
+  ["data_type"]= 47,
+  ["decs"]= "Property47_Des",
+  ["decsLocalized"]= "百分比增加Sp回复",
+  ["name"]= "Property47",
+  ["nameLocalized"]= "SP回复",
+  ["propSortId"]= 47,
+  ["propType"]= 0
+},
+[48] = {
+  ["data_type"]= 48,
+  ["decs"]= "Property48_Des",
+  ["decsLocalized"]= "百分比增加能量回复速度",
+  ["name"]= "Property48",
+  ["nameLocalized"]= "能量回复",
+  ["propSortId"]= 48,
+  ["propType"]= 0
+},
+[49] = {
+  ["data_type"]= 49,
+  ["decs"]= "Property49_Des",
+  ["decsLocalized"]= "百分比增加物理攻击",
+  ["name"]= "Property49",
+  ["propSortId"]= 49,
+  ["propType"]= 0,
+  ["propValue"]= 1
+},
+[50] = {
+  ["data_type"]= 50,
+  ["decs"]= "Property50_Des",
+  ["decsLocalized"]= "魔法攻击提升",
+  ["name"]= "Property50",
+  ["nameLocalized"]= "魔法攻击",
+  ["propSortId"]= 50,
+  ["propType"]= 0,
+  ["propValue"]= 1
+},
+[51] = {
+  ["data_type"]= 51,
+  ["decs"]= "Property51_Des",
+  ["decsLocalized"]= "物理防御提升",
+  ["name"]= "Property51",
+  ["nameLocalized"]= "物理防御",
+  ["propSortId"]= 51,
+  ["propType"]= 0,
+  ["propValue"]= 2
+},
+[52] = {
+  ["data_type"]= 52,
+  ["decs"]= "Property52_Des",
+  ["decsLocalized"]= "魔法防御提升",
+  ["name"]= "Property52",
+  ["nameLocalized"]= "魔法防御",
+  ["propSortId"]= 52,
+  ["propType"]= 0,
+  ["propValue"]= 2
+},
+[53] = {
+  ["data_type"]= 53,
+  ["decs"]= "Property53_Des",
+  ["decsLocalized"]= "受到治疗类技能治疗加成百分比",
+  ["name"]= "Property53",
+  ["nameLocalized"]= "接受治疗加成",
+  ["propSortId"]= 53,
+  ["propValue"]= 30
+},
+[54] = {
+  ["data_type"]= 54,
+  ["decs"]= "Property54_Des",
+  ["decsLocalized"]= "格挡值提升",
+  ["ifPercentage"]= 0,
+  ["name"]= "Property54",
+  ["nameLocalized"]= "格挡值提升",
+  ["propSortId"]= 54,
+  ["propType"]= 0
+},
+[55] = {
+  ["data_max"]= 0.75,
+  ["data_type"]= 55,
+  ["decs"]= "Property55_Des",
+  ["decsLocalized"]= "百分比减少技能的可变冷却时间",
+  ["name"]= "Property55",
+  ["nameLocalized"]= "冷却缩减",
+  ["propSortId"]= 55,
+  ["propValue"]= 30
+},
+[56] = {
+  ["data_max"]= 1,
+  ["data_type"]= 56,
+  ["decs"]= "Property56_Des",
+  ["decsLocalized"]= "百分比减少技能的可变吟唱时间",
+  ["name"]= "Property56",
+  ["nameLocalized"]= "吟唱减少",
+  ["propSortId"]= 56
+},
+[57] = {
+  ["data_type"]= 57,
+  ["decs"]= "Property57_Des",
+  ["decsLocalized"]= "sp消耗减少的百分比",
+  ["name"]= "Property57",
+  ["nameLocalized"]= "sp消耗减少",
+  ["propSortId"]= 57
+},
+[58] = {
+  ["data_type"]= 58,
+  ["decs"]= "Property58_Des",
+  ["decsLocalized"]= "减少最终受到的物理伤害",
+  ["ifInverse"]= 1,
+  ["name"]= "Property58",
+  ["nameLocalized"]= "最终物伤减免",
+  ["propSortId"]= 58,
+  ["propValue"]= 30
+},
+[59] = {
+  ["data_type"]= 59,
+  ["decs"]= "Property59_Des",
+  ["decsLocalized"]= "减少最终受到的魔法伤害",
+  ["ifInverse"]= 1,
+  ["name"]= "Property59",
+  ["nameLocalized"]= "最终魔伤减免",
+  ["propSortId"]= 59,
+  ["propValue"]= 30
+},
+[60] = {
+  ["data_type"]= 60,
+  ["decs"]= "Property60_Des",
+  ["decsLocalized"]= "药剂的生命回复效果百分比增加",
+  ["name"]= "Property60",
+  ["nameLocalized"]= "药剂HP提升",
+  ["propSortId"]= 60,
+  ["propType"]= 0
+},
+[61] = {
+  ["data_type"]= 61,
+  ["decs"]= "Property61_Des",
+  ["decsLocalized"]= "药剂的魔力回复效果百分比增加",
+  ["name"]= "Property61",
+  ["nameLocalized"]= "药剂SP提升",
+  ["propSortId"]= 61,
+  ["propType"]= 0
+},
+[62] = {
+  ["data_type"]= 62,
+  ["decs"]= "Property62_Des",
+  ["decsLocalized"]= "攻速等级提升百分比",
+  ["name"]= "Property62",
+  ["nameLocalized"]= "攻速提升",
+  ["propSortId"]= 62,
+  ["propType"]= 0
+},
+[63] = {
+  ["data_type"]= 63,
+  ["decs"]= "Property63_Des",
+  ["decsLocalized"]= "急速等级提升百分比",
+  ["name"]= "Property63",
+  ["nameLocalized"]= "急速提升",
+  ["propSortId"]= 63,
+  ["propType"]= 0
+},
+[64] = {
+  ["data_type"]= 64,
+  ["decs"]= "Property64_Des",
+  ["decsLocalized"]= "命中百分比提升",
+  ["name"]= "Property64",
+  ["nameLocalized"]= "命中",
+  ["propSortId"]= 64,
+  ["propType"]= 0,
+  ["propValue"]= 2
+},
+[65] = {
+  ["data_type"]= 65,
+  ["decs"]= "Property65_Des",
+  ["decsLocalized"]= "闪避百分比提升",
+  ["name"]= "Property65",
+  ["nameLocalized"]= "闪避",
+  ["propSortId"]= 65,
+  ["propType"]= 0,
+  ["propValue"]= 2
+},
+[66] = {
+  ["data_type"]= 66,
+  ["decs"]= "Property66_Des",
+  ["decsLocalized"]= "暴击百分比提升",
+  ["name"]= "Property66",
+  ["nameLocalized"]= "暴击",
+  ["propSortId"]= 66,
+  ["propType"]= 0,
+  ["propValue"]= 2
+},
+[67] = {
+  ["data_type"]= 67,
+  ["decs"]= "Property67_Des",
+  ["decsLocalized"]= "防暴百分比提升",
+  ["name"]= "Property67",
+  ["nameLocalized"]= "防暴",
+  ["propSortId"]= 67,
+  ["propType"]= 0,
+  ["propValue"]= 2
+},
+[68] = {
+  ["data_type"]= 68,
+  ["decs"]= "Property68_Des",
+  ["decsLocalized"]= "物理穿透百分比提升",
+  ["name"]= "Property68",
+  ["nameLocalized"]= "物理穿透",
+  ["propSortId"]= 68,
+  ["propType"]= 0,
+  ["propValue"]= 2
+},
+[69] = {
+  ["data_type"]= 69,
+  ["decs"]= "Property69_Des",
+  ["decsLocalized"]= "魔法穿透百分比提升",
+  ["name"]= "Property69",
+  ["nameLocalized"]= "魔法穿透",
+  ["propSortId"]= 69,
+  ["propType"]= 0,
+  ["propValue"]= 2
+},
+[70] = {
+  ["data_type"]= 70,
+  ["decs"]= "Property70_Des",
+  ["decsLocalized"]= "受到普通攻击时，降低最终受到暴击的概率",
+  ["name"]= "Property70",
+  ["nameLocalized"]= "最终防暴",
+  ["propSortId"]= 70,
+  ["propValue"]= 30
+},
+[71] = {
+  ["data_type"]= 71,
+  ["decs"]= "Property71_Des",
+  ["decsLocalized"]= "提升最终造成的物理伤害",
+  ["name"]= "Property71",
+  ["nameLocalized"]= "最终物伤附加",
+  ["propSortId"]= 71,
+  ["propValue"]= 30
+},
+[72] = {
+  ["data_type"]= 72,
+  ["decs"]= "Property72_Des",
+  ["decsLocalized"]= "提升最终造成的魔法伤害",
+  ["name"]= "Property72",
+  ["nameLocalized"]= "最终魔伤附加",
+  ["propSortId"]= 72,
+  ["propValue"]= 30
+},
+[73] = {
+  ["data_type"]= 73,
+  ["decs"]= "Property73_Des",
+  ["decsLocalized"]= "眩晕状态时间缩减百分比",
+  ["name"]= "Property73",
+  ["nameLocalized"]= "眩晕抗性",
+  ["propSortId"]= 73
+},
+[74] = {
+  ["data_type"]= 74,
+  ["decs"]= "Property74_Des",
+  ["decsLocalized"]= "冰冻状态时间缩减百分比",
+  ["name"]= "Property74",
+  ["nameLocalized"]= "冰冻抗性",
+  ["propSortId"]= 74
+},
+[75] = {
+  ["data_type"]= 75,
+  ["decs"]= "Property75_Des",
+  ["decsLocalized"]= "石化状态时间缩减百分比",
+  ["name"]= "Property75",
+  ["nameLocalized"]= "石化抗性",
+  ["propSortId"]= 75
+},
+[76] = {
+  ["data_type"]= 76,
+  ["decs"]= "Property76_Des",
+  ["decsLocalized"]= "睡眠状态时间缩减百分比",
+  ["name"]= "Property76",
+  ["nameLocalized"]= "睡眠抗性",
+  ["propSortId"]= 76
+},
+[77] = {
+  ["data_type"]= 77,
+  ["decs"]= "Property77_Des",
+  ["decsLocalized"]= "混乱状态时间缩减百分比",
+  ["name"]= "Property77",
+  ["nameLocalized"]= "混乱抗性",
+  ["propSortId"]= 77
+},
+[78] = {
+  ["data_type"]= 78,
+  ["decs"]= "Property78_Des",
+  ["decsLocalized"]= "沉默状态时间缩减百分比",
+  ["name"]= "Property78",
+  ["nameLocalized"]= "沉默抗性",
+  ["propSortId"]= 78
+},
+[79] = {
+  ["data_type"]= 79,
+  ["decs"]= "Property79_Des",
+  ["decsLocalized"]= "黑暗状态时间缩减百分比",
+  ["name"]= "Property79",
+  ["nameLocalized"]= "黑暗抗性",
+  ["propSortId"]= 79
+},
+[80] = {
+  ["data_type"]= 80,
+  ["decs"]= "Property80_Des",
+  ["decsLocalized"]= "铠甲损坏状态时间缩减百分比",
+  ["name"]= "Property80",
+  ["nameLocalized"]= "铠甲损坏抗性",
+  ["propSortId"]= 80
+},
+[81] = {
+  ["data_type"]= 81,
+  ["decs"]= "Property81_Des",
+  ["decsLocalized"]= "武器损坏状态时间缩减百分比",
+  ["name"]= "Property81",
+  ["nameLocalized"]= "武器损坏抗性",
+  ["propSortId"]= 81
+},
+[82] = {
+  ["data_type"]= 82,
+  ["decs"]= "Property82_Des",
+  ["decsLocalized"]= "诅咒状态时间缩减百分比",
+  ["name"]= "Property82",
+  ["nameLocalized"]= "诅咒抗性",
+  ["propSortId"]= 82
+},
+[83] = {
+  ["data_type"]= 83,
+  ["decs"]= "Property83_Des",
+  ["decsLocalized"]= "中毒状态时间缩减百分比",
+  ["name"]= "Property83",
+  ["nameLocalized"]= "中毒抗性",
+  ["propSortId"]= 83
+},
+[84] = {
+  ["data_type"]= 84,
+  ["decs"]= "Property84_Des",
+  ["decsLocalized"]= "出血状态时间缩减百分比",
+  ["name"]= "Property84",
+  ["nameLocalized"]= "出血抗性",
+  ["propSortId"]= 84
+},
+[85] = {
+  ["data_type"]= 85,
+  ["decs"]= "Property85_Des",
+  ["decsLocalized"]= "受到物理攻击时，反弹受到的物伤百分比伤害",
+  ["name"]= "Property85",
+  ["nameLocalized"]= "物伤反弹",
+  ["propSortId"]= 85
+},
+[86] = {
+  ["data_type"]= 86,
+  ["decs"]= "Property86_Des",
+  ["decsLocalized"]= "定身状态时间缩减百分比",
+  ["name"]= "Property86",
+  ["nameLocalized"]= "定身抗性",
+  ["propSortId"]= 86
+},
+[87] = {
+  ["data_type"]= 87,
+  ["decs"]= "Property87_Des",
+  ["decsLocalized"]= "减速状态时间缩减百分比",
+  ["name"]= "Property87",
+  ["nameLocalized"]= "减速抗性",
+  ["propSortId"]= 85
+},
+[100] = {
+  ["data_type"]= 100,
+  ["decs"]= "Property100_Des",
+  ["decsLocalized"]= "对天使系魔物造成伤害增加的百分比",
+  ["name"]= "Property100",
+  ["nameLocalized"]= "对天使系魔物增伤",
+  ["propSortId"]= 100,
+  ["propType"]= 7
+},
+[101] = {
+  ["data_type"]= 101,
+  ["decs"]= "Property101_Des",
+  ["decsLocalized"]= "对恶魔系魔物造成伤害增加的百分比",
+  ["name"]= "Property101",
+  ["nameLocalized"]= "对恶魔系魔物增伤",
+  ["propSortId"]= 101,
+  ["propType"]= 7
+},
+[102] = {
+  ["data_type"]= 102,
+  ["decs"]= "Property102_Des",
+  ["decsLocalized"]= "对无形系魔物造成伤害增加的百分比",
+  ["name"]= "Property102",
+  ["nameLocalized"]= "对无形系魔物增伤",
+  ["propSortId"]= 102,
+  ["propType"]= 7
+},
+[103] = {
+  ["data_type"]= 103,
+  ["decs"]= "Property103_Des",
+  ["decsLocalized"]= "对昆虫系魔物造成伤害增加的百分比",
+  ["name"]= "Property103",
+  ["nameLocalized"]= "对昆虫系魔物增伤",
+  ["propSortId"]= 103,
+  ["propType"]= 7
+},
+[104] = {
+  ["data_type"]= 104,
+  ["decs"]= "Property104_Des",
+  ["decsLocalized"]= "对鱼贝系魔物造成伤害增加的百分比",
+  ["name"]= "Property104",
+  ["nameLocalized"]= "对鱼贝系魔物增伤",
+  ["propSortId"]= 104,
+  ["propType"]= 7
+},
+[105] = {
+  ["data_type"]= 105,
+  ["decs"]= "Property105_Des",
+  ["decsLocalized"]= "对人形系魔物造成伤害增加的百分比",
+  ["name"]= "Property105",
+  ["nameLocalized"]= "对人形系魔物增伤",
+  ["propSortId"]= 105,
+  ["propType"]= 7
+},
+[106] = {
+  ["data_type"]= 106,
+  ["decs"]= "Property106_Des",
+  ["decsLocalized"]= "对不死系魔物造成伤害增加的百分比",
+  ["name"]= "Property106",
+  ["nameLocalized"]= "对不死系魔物增伤",
+  ["propSortId"]= 106,
+  ["propType"]= 7
+},
+[107] = {
+  ["data_type"]= 107,
+  ["decs"]= "Property107_Des",
+  ["decsLocalized"]= "对龙系魔物造成伤害增加的百分比",
+  ["name"]= "Property107",
+  ["nameLocalized"]= "对龙族系魔物增伤",
+  ["propSortId"]= 107,
+  ["propType"]= 7
+},
+[108] = {
+  ["data_type"]= 108,
+  ["decs"]= "Property108_Des",
+  ["decsLocalized"]= "对植物系魔物造成伤害增加的百分比",
+  ["name"]= "Property108",
+  ["nameLocalized"]= "对植物系魔物增伤",
+  ["propSortId"]= 108,
+  ["propType"]= 7
+},
+[109] = {
+  ["data_type"]= 109,
+  ["decs"]= "Property109_Des",
+  ["decsLocalized"]= "对动物系魔物造成伤害增加的百分比",
+  ["name"]= "Property109",
+  ["nameLocalized"]= "对动物系魔物增伤",
+  ["propSortId"]= 109,
+  ["propType"]= 7
+},
+[110] = {
+  ["data_type"]= 110,
+  ["decs"]= "Property110_Des",
+  ["decsLocalized"]= "对无属性魔物造成伤害增加的百分比",
+  ["name"]= "Property110",
+  ["nameLocalized"]= "对无属性魔物增伤",
+  ["propSortId"]= 110,
+  ["propType"]= 8
+},
+[111] = {
+  ["data_type"]= 111,
+  ["decs"]= "Property111_Des",
+  ["decsLocalized"]= "对火属性魔物造成伤害增加的百分比",
+  ["name"]= "Property111",
+  ["nameLocalized"]= "对火属性魔物增伤",
+  ["propSortId"]= 111,
+  ["propType"]= 8
+},
+[112] = {
+  ["data_type"]= 112,
+  ["decs"]= "Property112_Des",
+  ["decsLocalized"]= "对水属性魔物造成伤害增加的百分比",
+  ["name"]= "Property112",
+  ["nameLocalized"]= "对水属性魔物增伤",
+  ["propSortId"]= 112,
+  ["propType"]= 8
+},
+[113] = {
+  ["data_type"]= 113,
+  ["decs"]= "Property113_Des",
+  ["decsLocalized"]= "对风属性魔物造成伤害增加的百分比",
+  ["name"]= "Property113",
+  ["nameLocalized"]= "对风属性魔物增伤",
+  ["propSortId"]= 113,
+  ["propType"]= 8
+},
+[114] = {
+  ["data_type"]= 114,
+  ["decs"]= "Property114_Des",
+  ["decsLocalized"]= "对地属性魔物造成伤害增加的百分比",
+  ["name"]= "Property114",
+  ["nameLocalized"]= "对地属性魔物增伤",
+  ["propSortId"]= 114,
+  ["propType"]= 8
+},
+[115] = {
+  ["data_type"]= 115,
+  ["decs"]= "Property115_Des",
+  ["decsLocalized"]= "对毒属性魔物造成伤害增加的百分比",
+  ["name"]= "Property115",
+  ["nameLocalized"]= "对毒属性魔物增伤",
+  ["propSortId"]= 115,
+  ["propType"]= 8
+},
+[116] = {
+  ["data_type"]= 116,
+  ["decs"]= "Property116_Des",
+  ["decsLocalized"]= "对圣属性魔物造成伤害增加的百分比",
+  ["name"]= "Property116",
+  ["nameLocalized"]= "对圣属性魔物增伤",
+  ["propSortId"]= 116,
+  ["propType"]= 8
+},
+[117] = {
+  ["data_type"]= 117,
+  ["decs"]= "Property117_Des",
+  ["decsLocalized"]= "对暗属性魔物造成伤害增加的百分比",
+  ["name"]= "Property117",
+  ["nameLocalized"]= "对暗属性魔物增伤",
+  ["propSortId"]= 117,
+  ["propType"]= 8
+},
+[118] = {
+  ["data_type"]= 118,
+  ["decs"]= "Property118_Des",
+  ["decsLocalized"]= "对念属性魔物造成伤害增加的百分比",
+  ["name"]= "Property118",
+  ["nameLocalized"]= "对念属性魔物增伤",
+  ["propSortId"]= 118,
+  ["propType"]= 8
+},
+[119] = {
+  ["data_type"]= 119,
+  ["decs"]= "Property119_Des",
+  ["decsLocalized"]= "对不死属性魔物造成伤害增加的百分比",
+  ["name"]= "Property119",
+  ["nameLocalized"]= "对不死属性魔物增伤",
+  ["propSortId"]= 119,
+  ["propType"]= 8
+},
+[120] = {
+  ["data_type"]= 120,
+  ["decs"]= "Property120_Des",
+  ["decsLocalized"]= "对大体型魔物造成伤害增加的百分比",
+  ["name"]= "Property120",
+  ["nameLocalized"]= "对大体型魔物增伤",
+  ["propSortId"]= 120,
+  ["propType"]= 9
+},
+[121] = {
+  ["data_type"]= 121,
+  ["decs"]= "Property121_Des",
+  ["decsLocalized"]= "对中体型魔物造成伤害增加的百分比",
+  ["name"]= "Property121",
+  ["nameLocalized"]= "对中体型魔物增伤",
+  ["propSortId"]= 121,
+  ["propType"]= 9
+},
+[122] = {
+  ["data_type"]= 122,
+  ["decs"]= "Property122_Des",
+  ["decsLocalized"]= "对小体型魔物造成伤害增加的百分比",
+  ["name"]= "Property122",
+  ["nameLocalized"]= "对小体型魔物增伤",
+  ["propSortId"]= 122,
+  ["propType"]= 9
+},
+[123] = {
+  ["data_type"]= 123,
+  ["decs"]= "Property123_Des",
+  ["decsLocalized"]= "受到天使系魔物伤害减少的百分比",
+  ["ifInverse"]= 1,
+  ["name"]= "Property123",
+  ["nameLocalized"]= "受天使系魔物减伤",
+  ["propSortId"]= 123,
+  ["propType"]= 7
+},
+[124] = {
+  ["data_type"]= 124,
+  ["decs"]= "Property124_Des",
+  ["decsLocalized"]= "受到恶魔系魔物伤害减少的百分比",
+  ["ifInverse"]= 1,
+  ["name"]= "Property124",
+  ["nameLocalized"]= "受恶魔系魔物减伤",
+  ["propSortId"]= 124,
+  ["propType"]= 7
+},
+[125] = {
+  ["data_type"]= 125,
+  ["decs"]= "Property125_Des",
+  ["decsLocalized"]= "受到无形系魔物伤害减少的百分比",
+  ["ifInverse"]= 1,
+  ["name"]= "Property125",
+  ["nameLocalized"]= "受无形系魔物减伤",
+  ["propSortId"]= 125,
+  ["propType"]= 7
+},
+[126] = {
+  ["data_type"]= 126,
+  ["decs"]= "Property126_Des",
+  ["decsLocalized"]= "受到昆虫系魔物伤害减少的百分比",
+  ["ifInverse"]= 1,
+  ["name"]= "Property126",
+  ["nameLocalized"]= "受昆虫系魔物减伤",
+  ["propSortId"]= 126,
+  ["propType"]= 7
+},
+[127] = {
+  ["data_type"]= 127,
+  ["decs"]= "Property127_Des",
+  ["decsLocalized"]= "受到鱼贝系魔物伤害减少的百分比",
+  ["ifInverse"]= 1,
+  ["name"]= "Property127",
+  ["nameLocalized"]= "受鱼贝系魔物减伤",
+  ["propSortId"]= 127,
+  ["propType"]= 7
+},
+[128] = {
+  ["data_type"]= 128,
+  ["decs"]= "Property128_Des",
+  ["decsLocalized"]= "受到人形系魔物伤害减少的百分比",
+  ["ifInverse"]= 1,
+  ["name"]= "Property128",
+  ["nameLocalized"]= "受人形系魔物减伤",
+  ["propSortId"]= 128,
+  ["propType"]= 7
+},
+[129] = {
+  ["data_type"]= 129,
+  ["decs"]= "Property129_Des",
+  ["decsLocalized"]= "受到不死系魔物伤害减少的百分比",
+  ["ifInverse"]= 1,
+  ["name"]= "Property129",
+  ["nameLocalized"]= "受不死系魔物减伤",
+  ["propSortId"]= 129,
+  ["propType"]= 7
+},
+[130] = {
+  ["data_type"]= 130,
+  ["decs"]= "Property130_Des",
+  ["decsLocalized"]= "受到龙系魔物伤害减少的百分比",
+  ["ifInverse"]= 1,
+  ["name"]= "Property130",
+  ["nameLocalized"]= "受龙族系魔物减伤",
+  ["propSortId"]= 130,
+  ["propType"]= 7
+},
+[131] = {
+  ["data_type"]= 131,
+  ["decs"]= "Property131_Des",
+  ["decsLocalized"]= "受到植物系魔物伤害减少的百分比",
+  ["ifInverse"]= 1,
+  ["name"]= "Property131",
+  ["nameLocalized"]= "受植物系魔物减伤",
+  ["propSortId"]= 131,
+  ["propType"]= 7
+},
+[132] = {
+  ["data_type"]= 132,
+  ["decs"]= "Property132_Des",
+  ["decsLocalized"]= "受到动物系魔物伤害减少的百分比",
+  ["ifInverse"]= 1,
+  ["name"]= "Property132",
+  ["nameLocalized"]= "受动物系魔物减伤",
+  ["propSortId"]= 132,
+  ["propType"]= 7
+},
+[133] = {
+  ["data_type"]= 133,
+  ["decs"]= "Property133_Des",
+  ["decsLocalized"]= "受到无属性魔物伤害减少的百分比",
+  ["ifInverse"]= 1,
+  ["name"]= "Property133",
+  ["nameLocalized"]= "受无属性魔物减伤",
+  ["propSortId"]= 133,
+  ["propType"]= 8
+},
+[134] = {
+  ["data_type"]= 134,
+  ["decs"]= "Property134_Des",
+  ["decsLocalized"]= "受到火属性魔物伤害减少的百分比",
+  ["ifInverse"]= 1,
+  ["name"]= "Property134",
+  ["nameLocalized"]= "受火属性魔物减伤",
+  ["propSortId"]= 134,
+  ["propType"]= 8
+},
+[135] = {
+  ["data_type"]= 135,
+  ["decs"]= "Property135_Des",
+  ["decsLocalized"]= "受到水属性魔物伤害减少的百分比",
+  ["ifInverse"]= 1,
+  ["name"]= "Property135",
+  ["nameLocalized"]= "受水属性魔物减伤",
+  ["propSortId"]= 135,
+  ["propType"]= 8
+},
+[136] = {
+  ["data_type"]= 136,
+  ["decs"]= "Property136_Des",
+  ["decsLocalized"]= "受到风属性魔物伤害减少的百分比",
+  ["ifInverse"]= 1,
+  ["name"]= "Property136",
+  ["nameLocalized"]= "受风属性魔物减伤",
+  ["propSortId"]= 136,
+  ["propType"]= 8
+},
+[137] = {
+  ["data_type"]= 137,
+  ["decs"]= "Property137_Des",
+  ["decsLocalized"]= "受到地属性魔物伤害减少的百分比",
+  ["ifInverse"]= 1,
+  ["name"]= "Property137",
+  ["nameLocalized"]= "受地属性魔物减伤",
+  ["propSortId"]= 137,
+  ["propType"]= 8
+},
+[138] = {
+  ["data_type"]= 138,
+  ["decs"]= "Property138_Des",
+  ["decsLocalized"]= "受到毒属性魔物伤害减少的百分比",
+  ["ifInverse"]= 1,
+  ["name"]= "Property138",
+  ["nameLocalized"]= "受毒属性魔物减伤",
+  ["propSortId"]= 138,
+  ["propType"]= 8
+},
+[139] = {
+  ["data_type"]= 139,
+  ["decs"]= "Property139_Des",
+  ["decsLocalized"]= "受到圣属性魔物伤害减少的百分比",
+  ["ifInverse"]= 1,
+  ["name"]= "Property139",
+  ["nameLocalized"]= "受圣属性魔物减伤",
+  ["propSortId"]= 139,
+  ["propType"]= 8
+},
+[140] = {
+  ["data_type"]= 140,
+  ["decs"]= "Property140_Des",
+  ["decsLocalized"]= "受到暗属性魔物伤害减少的百分比",
+  ["ifInverse"]= 1,
+  ["name"]= "Property140",
+  ["nameLocalized"]= "受暗属性魔物减伤",
+  ["propSortId"]= 140,
+  ["propType"]= 8
+},
+[141] = {
+  ["data_type"]= 141,
+  ["decs"]= "Property141_Des",
+  ["decsLocalized"]= "受到念属性魔物伤害减少的百分比",
+  ["ifInverse"]= 1,
+  ["name"]= "Property141",
+  ["nameLocalized"]= "受念属性魔物减伤",
+  ["propSortId"]= 141,
+  ["propType"]= 8
+},
+[142] = {
+  ["data_type"]= 142,
+  ["decs"]= "Property142_Des",
+  ["decsLocalized"]= "受到不死属性魔物伤害减少的百分比",
+  ["ifInverse"]= 1,
+  ["name"]= "Property142",
+  ["nameLocalized"]= "受不死属性魔物减伤",
+  ["propSortId"]= 142,
+  ["propType"]= 8
+},
+[143] = {
+  ["data_type"]= 143,
+  ["decs"]= "Property143_Des",
+  ["decsLocalized"]= "受到大体型魔物伤害减少的百分比",
+  ["ifInverse"]= 1,
+  ["name"]= "Property143",
+  ["nameLocalized"]= "受大体型魔物减伤",
+  ["propSortId"]= 143,
+  ["propType"]= 9
+},
+[144] = {
+  ["data_type"]= 144,
+  ["decs"]= "Property144_Des",
+  ["decsLocalized"]= "受到中体型魔物伤害减少的百分比",
+  ["ifInverse"]= 1,
+  ["name"]= "Property144",
+  ["nameLocalized"]= "受中体型魔物减伤",
+  ["propSortId"]= 144,
+  ["propType"]= 9
+},
+[145] = {
+  ["data_type"]= 145,
+  ["decs"]= "Property145_Des",
+  ["decsLocalized"]= "受到小体型魔物伤害减少的百分比",
+  ["ifInverse"]= 1,
+  ["name"]= "Property145",
+  ["nameLocalized"]= "受小体型魔物减伤",
+  ["propSortId"]= 145,
+  ["propType"]= 9
+},
+[146] = {
+  ["data_type"]= 146,
+  ["decs"]= "Property146_Des",
+  ["decsLocalized"]= "造成无属性伤害增强",
+  ["name"]= "Property146",
+  ["nameLocalized"]= "无属性增强",
+  ["propSortId"]= 146,
+  ["propType"]= 8
+},
+[147] = {
+  ["data_type"]= 147,
+  ["decs"]= "Property147_Des",
+  ["decsLocalized"]= "造成火属性伤害增强",
+  ["name"]= "Property147",
+  ["nameLocalized"]= "火属性增强",
+  ["propSortId"]= 147,
+  ["propType"]= 8
+},
+[148] = {
+  ["data_type"]= 148,
+  ["decs"]= "Property148_Des",
+  ["decsLocalized"]= "造成水属性伤害增强",
+  ["name"]= "Property148",
+  ["nameLocalized"]= "水属性增强",
+  ["propSortId"]= 148,
+  ["propType"]= 8
+},
+[149] = {
+  ["data_type"]= 149,
+  ["decs"]= "Property149_Des",
+  ["decsLocalized"]= "造成风属性伤害增强",
+  ["name"]= "Property149",
+  ["nameLocalized"]= "风属性增强",
+  ["propSortId"]= 149,
+  ["propType"]= 8
+},
+[150] = {
+  ["data_type"]= 150,
+  ["decs"]= "Property150_Des",
+  ["decsLocalized"]= "造成地属性伤害增强",
+  ["name"]= "Property150",
+  ["nameLocalized"]= "地属性增强",
+  ["propSortId"]= 150,
+  ["propType"]= 8
+},
+[151] = {
+  ["data_type"]= 151,
+  ["decs"]= "Property151_Des",
+  ["decsLocalized"]= "造成毒属性伤害增强",
+  ["name"]= "Property151",
+  ["nameLocalized"]= "毒属性增强",
+  ["propSortId"]= 151,
+  ["propType"]= 8
+},
+[152] = {
+  ["data_type"]= 152,
+  ["decs"]= "Property152_Des",
+  ["decsLocalized"]= "造成圣属性伤害增强",
+  ["name"]= "Property152",
+  ["nameLocalized"]= "圣属性增强",
+  ["propSortId"]= 152,
+  ["propType"]= 8
+},
+[153] = {
+  ["data_type"]= 153,
+  ["decs"]= "Property153_Des",
+  ["decsLocalized"]= "造成暗属性伤害增强",
+  ["name"]= "Property153",
+  ["nameLocalized"]= "暗属性增强",
+  ["propSortId"]= 153,
+  ["propType"]= 8
+},
+[154] = {
+  ["data_type"]= 154,
+  ["decs"]= "Property154_Des",
+  ["decsLocalized"]= "造成念属性伤害增强",
+  ["name"]= "Property154",
+  ["nameLocalized"]= "念属性增强",
+  ["propSortId"]= 154,
+  ["propType"]= 8
+},
+[155] = {
+  ["data_type"]= 155,
+  ["decs"]= "Property155_Des",
+  ["decsLocalized"]= "造成不死属性伤害增强",
+  ["name"]= "Property155",
+  ["nameLocalized"]= "不死属性增强",
+  ["propSortId"]= 155,
+  ["propType"]= 8
+},
+[301] = {
+  ["data_type"]= 301,
+  ["decs"]= "Property301_Des",
+  ["decsLocalized"]= "固定值物理伤害增加",
+  ["ifPercentage"]= 0,
+  ["name"]= "Property301",
+  ["nameLocalized"]= "物伤附加",
+  ["propSortId"]= 70
+},
+[302] = {
+  ["data_type"]= 302,
+  ["decs"]= "Property302_Des",
+  ["decsLocalized"]= "固定值魔法伤害增加",
+  ["ifPercentage"]= 0,
+  ["name"]= "Property302",
+  ["nameLocalized"]= "魔伤附加",
+  ["propSortId"]= 71
+},
+[303] = {
+  ["data_type"]= 303,
+  ["decs"]= "Property303_Des",
+  ["decsLocalized"]= "固定值物理伤害减免",
+  ["ifPercentage"]= 0,
+  ["name"]= "Property303",
+  ["nameLocalized"]= "物伤减免",
+  ["propSortId"]= 72
+},
+[304] = {
+  ["data_type"]= 304,
+  ["decs"]= "Property304_Des",
+  ["decsLocalized"]= "固定值魔法伤害减免",
+  ["ifPercentage"]= 0,
+  ["name"]= "Property304",
+  ["nameLocalized"]= "魔伤减免",
+  ["propSortId"]= 73
+},
+[305] = {
+  ["data_type"]= 305,
+  ["decs"]= "Property305_Des",
+  ["decsLocalized"]= "提升力量的百分比",
+  ["name"]= "Property305",
+  ["nameLocalized"]= "力量提升",
+  ["propSortId"]= 74,
+  ["propType"]= 0
+},
+[306] = {
+  ["data_type"]= 306,
+  ["decs"]= "Property306_Des",
+  ["decsLocalized"]= "提升敏捷的百分比",
+  ["name"]= "Property306",
+  ["nameLocalized"]= "敏捷提升",
+  ["propSortId"]= 75,
+  ["propType"]= 0
+},
+[307] = {
+  ["data_type"]= 307,
+  ["decs"]= "Property307_Des",
+  ["decsLocalized"]= "提升体质的百分比",
+  ["name"]= "Property307",
+  ["nameLocalized"]= "体质提升",
+  ["propSortId"]= 76,
+  ["propType"]= 0
+},
+[308] = {
+  ["data_type"]= 308,
+  ["decs"]= "Property308_Des",
+  ["decsLocalized"]= "提升智力的百分比",
+  ["name"]= "Property308",
+  ["nameLocalized"]= "智力提升",
+  ["propSortId"]= 77,
+  ["propType"]= 0
+},
+[309] = {
+  ["data_type"]= 309,
+  ["decs"]= "Property309_Des",
+  ["decsLocalized"]= "提升灵巧的百分比",
+  ["name"]= "Property309",
+  ["nameLocalized"]= "灵巧提升",
+  ["propSortId"]= 78,
+  ["propType"]= 0
+},
+[310] = {
+  ["data_type"]= 310,
+  ["decs"]= "Property310_Des",
+  ["decsLocalized"]= "提升幸运的百分比",
+  ["name"]= "Property310",
+  ["nameLocalized"]= "幸运提升",
+  ["propSortId"]= 79,
+  ["propType"]= 0
+},
+[311] = {
+  ["data_type"]= 311,
+  ["decs"]= "Property311_Des",
+  ["decsLocalized"]= "进行普通攻击时，增加最终命中的概率",
+  ["name"]= "Property311",
+  ["nameLocalized"]= "最终命中",
+  ["propSortId"]= 80
+},
+[312] = {
+  ["data_type"]= 312,
+  ["decs"]= "Property312_Des",
+  ["decsLocalized"]= "增加最终物理防御减伤百分比",
+  ["name"]= "Property312",
+  ["nameLocalized"]= "最终物防效果",
+  ["propSortId"]= 81
+},
+[313] = {
+  ["data_type"]= 313,
+  ["decs"]= "Property313_Des",
+  ["decsLocalized"]= "增加最终魔法防御减伤百分比",
+  ["name"]= "Property313",
+  ["nameLocalized"]= "最终魔防效果",
+  ["propSortId"]= 82
+},
+[314] = {
+  ["data_type"]= 314,
+  ["decs"]= "Property314_Des",
+  ["decsLocalized"]= "增加最终物理防御穿透百分比",
+  ["name"]= "Property314",
+  ["nameLocalized"]= "最终物防穿透",
+  ["propSortId"]= 83
+},
+[315] = {
+  ["data_type"]= 315,
+  ["decs"]= "Property315_Des",
+  ["decsLocalized"]= "增加最终魔法防御穿透百分比",
+  ["name"]= "Property315",
+  ["nameLocalized"]= "最终魔防穿透",
+  ["propSortId"]= 84
+},
+[316] = {
+  ["data_type"]= 316,
+  ["decs"]= "Property316_Des",
+  ["decsLocalized"]= "恢复魔法攻击造成伤害对应比例的HP，在PVE时该效果仅为对应比例的<color=#FF0000>10%%</color>",
+  ["name"]= "Property316",
+  ["nameLocalized"]= "魔法吸血",
+  ["propSortId"]= 85
+},
+[317] = {
+  ["data_type"]= 317,
+  ["decs"]= "Property317_Des",
+  ["decsLocalized"]= "受到魔法攻击时，反弹受到的魔伤百分比伤害",
+  ["name"]= "Property317",
+  ["nameLocalized"]= "法伤反弹",
+  ["propSortId"]= 86
+},
+[318] = {
+  ["data_type"]= 318,
+  ["decs"]= "Property318_Des",
+  ["decsLocalized"]= "减少受到的暴击伤害",
+  ["name"]= "Property318",
+  ["nameLocalized"]= "暴伤减免",
+  ["propSortId"]= 87
+},
+[320] = {
+  ["data_type"]= 320,
+  ["decs"]= "Property320_Des",
+  ["decsLocalized"]= "固定值物理伤害减免（PVP场景生效）",
+  ["ifPercentage"]= 0,
+  ["name"]= "Property320",
+  ["nameLocalized"]= "PVP物伤减免",
+  ["propSortId"]= 88
+},
+[321] = {
+  ["data_type"]= 321,
+  ["decs"]= "Property321_Des",
+  ["decsLocalized"]= "固定值魔法伤害减免（PVP场景生效）",
+  ["ifPercentage"]= 0,
+  ["name"]= "Property321",
+  ["nameLocalized"]= "PVP魔伤减免",
+  ["propSortId"]= 89
+},
+[322] = {
+  ["data_type"]= 322,
+  ["decs"]= "Property322_Des",
+  ["decsLocalized"]= "百分比最终物理伤害减免（PVP场景生效）",
+  ["name"]= "Property322",
+  ["nameLocalized"]= "PVP最终物伤减免",
+  ["propSortId"]= 90
+},
+[323] = {
+  ["data_type"]= 323,
+  ["decs"]= "Property323_Des",
+  ["decsLocalized"]= "百分比最终魔法伤害减免（PVP场景生效）",
+  ["name"]= "Property323",
+  ["nameLocalized"]= "PVP最终魔伤减免"
+},
+[324] = {
+  ["data_type"]= 324,
+  ["decs"]= "Property324_Des",
+  ["decsLocalized"]= "减少受到负面状态持续时间的百分比（PVP场景生效）",
+  ["name"]= "Property324",
+  ["nameLocalized"]= "PVP状态减免",
+  ["propSortId"]= 92
+},
+[325] = {
+  ["data_type"]= 325,
+  ["decs"]= "Property325_Des",
+  ["decsLocalized"]= "减少受到负面状态的几率（PVP场景生效）",
+  ["name"]= "Property325",
+  ["nameLocalized"]= "PVP抗性提升",
+  ["propSortId"]= 93
+},
+[326] = {
+  ["data_type"]= 326,
+  ["decs"]= "Property326_Des",
+  ["decsLocalized"]= "减少受到负面状态持续时间的百分比（PVE环境生效）",
+  ["name"]= "Property326",
+  ["nameLocalized"]= "负面状态减免",
+  ["propSortId"]= 88
+},
+[327] = {
+  ["data_type"]= 327,
+  ["decs"]= "Property327_Des",
+  ["decsLocalized"]= "减少受到负面状态的几率（PVE环境生效）",
+  ["name"]= "Property327",
+  ["nameLocalized"]= "负面状态抵抗",
+  ["propSortId"]= 89
+},
+[328] = {
+  ["data_type"]= 328,
+  ["decs"]= "Property328_Des",
+  ["decsLocalized"]= "每5秒恢复最大HP的百分比",
+  ["name"]= "Property328",
+  ["nameLocalized"]= "每5秒恢复HP",
+  ["propSortId"]= 90
+},
+[329] = {
+  ["data_type"]= 329,
+  ["decs"]= "Property329_Des",
+  ["decsLocalized"]= "每5秒恢复最大SP的百分比",
+  ["name"]= "Property329",
+  ["nameLocalized"]= "每5秒恢复SP"
+},
+[330] = {
+  ["data_type"]= 330,
+  ["decs"]= "Property330_Des",
+  ["decsLocalized"]= "固定减少技能的可变冷却时间",
+  ["ifInverse"]= 1,
+  ["ifPercentage"]= 0,
+  ["ifSecond"]= 1,
+  ["name"]= "Property330",
+  ["nameLocalized"]= "冷却缩减（秒）"
+},
+[331] = {
+  ["data_type"]= 331,
+  ["decs"]= "Property331_Des",
+  ["decsLocalized"]= "固定减少技能的可变吟唱时间",
+  ["ifInverse"]= 1,
+  ["ifPercentage"]= 0,
+  ["ifSecond"]= 1,
+  ["name"]= "Property331",
+  ["nameLocalized"]= "吟唱缩减（秒）"
+},
+[332] = {
+  ["data_type"]= 332,
+  ["decs"]= "Property332_Des",
+  ["decsLocalized"]= "固定值物理伤害附加（PVP场景生效）",
+  ["ifPercentage"]= 0,
+  ["name"]= "Property332",
+  ["nameLocalized"]= "PVP物伤附加"
+},
+[333] = {
+  ["data_type"]= 333,
+  ["decs"]= "Property333_Des",
+  ["decsLocalized"]= "固定值魔法伤害附加（PVP场景生效）",
+  ["ifPercentage"]= 0,
+  ["name"]= "Property333",
+  ["nameLocalized"]= "PVP魔伤附加"
+},
+[334] = {
+  ["data_type"]= 334,
+  ["decs"]= "Property334_Des",
+  ["decsLocalized"]= "百分比最终物理伤害附加（PVP场景生效）",
+  ["name"]= "Property334",
+  ["nameLocalized"]= "PVP最终物伤附加"
+},
+[335] = {
+  ["data_type"]= 335,
+  ["decs"]= "Property335_Des",
+  ["decsLocalized"]= "百分比最终魔法伤害附加（PVP场景生效）",
+  ["name"]= "Property335",
+  ["nameLocalized"]= "PVP最终魔伤附加"
+},
+[338] = {
+  ["data_type"]= 338,
+  ["decs"]= "Property338_Des",
+  ["decsLocalized"]= "0",
+  ["ifPercentage"]= 0,
+  ["ifSecond"]= 1,
+  ["name"]= "Property338",
+  ["nameLocalized"]= "0",
+  ["propType"]= 0
+},
+[339] = {
+  ["data_type"]= 339,
+  ["decs"]= "Property339_Des",
+  ["decsLocalized"]= "0",
+  ["ifPercentage"]= 0,
+  ["ifSecond"]= 1,
+  ["name"]= "Property339",
+  ["nameLocalized"]= "0",
+  ["propType"]= 0
+}
+}
+local baseTable={
+  ["data_max"]= 0,
+  ["data_type"]= 1,
+  ["decs"]= "Property1_Des",
+  ["decsLocalized"]= "提升普通攻击的最终攻击速度<color=#359000FF>%.2f%%</color>",
+  ["if_calc"]= 0,
+  ["ifInverse"]= 0,
+  ["ifPercentage"]= 1,
+  ["ifSecond"]= 0,
+  ["name"]= "Property1",
+  ["nameLocalized"]= "物理攻击",
+  ["propSortId"]= 91,
+  ["propType"]= 6,
+  ["propValue"]= 0
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

@@ -1,0 +1,5376 @@
+TextAsset Base
+	string m_Name = "data_scene_SceneAttribute"
+	string m_Script = "local table= {
+[1000] = {
+  ["bgtype"]= 0,
+  ["isShowExit"]= 0,
+  ["name"]= "SceneName1000",
+  ["resid"]= 1,
+  ["SmallMapID"]= {}
+},
+[1010] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1010",
+  ["PetVitality"]= 0,
+  ["resid"]= 8,
+  ["SceneId"]= 1010,
+  ["SmallMapID"]= {
+    1010
+  },
+  ["UnlockPerformance"]= 1
+},
+[1020] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["PetVitality"]= 5,
+  ["resid"]= 12,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_WindForest",
+    "SceneEffectRandom_Bird01"
+  },
+  ["sceneEffectSoundRandomMin"]= 15,
+  ["sceneEffectSoundRandomMix"]= 44,
+  ["SceneId"]= 1020,
+  ["UnlockPerformance"]= 1
+},
+[1030] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1030",
+  ["PetVitality"]= 5,
+  ["resid"]= 12,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_WindForest",
+    "SceneEffectRandom_Bird01"
+  },
+  ["sceneEffectSoundRandomMin"]= 15,
+  ["sceneEffectSoundRandomMix"]= 44,
+  ["SceneId"]= 1030,
+  ["SmallMapID"]= {
+    1030
+  },
+  ["UnlockPerformance"]= 1
+},
+[1040] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1040",
+  ["PetVitality"]= 5,
+  ["resid"]= 16,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindForest"
+  },
+  ["SceneId"]= 1040,
+  ["SmallMapID"]= {
+    1040
+  },
+  ["UnlockPerformance"]= 1
+},
+[1050] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1050",
+  ["PetVitality"]= 5,
+  ["resid"]= 19,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindCave"
+  },
+  ["SceneId"]= 1050,
+  ["SmallMapID"]= {
+    1050
+  },
+  ["UnlockPerformance"]= 1
+},
+[1060] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1060",
+  ["PetVitality"]= 5,
+  ["resid"]= 19,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindCave"
+  },
+  ["SceneId"]= 1060,
+  ["SmallMapID"]= {
+    1060
+  },
+  ["UnlockPerformance"]= 1
+},
+[1110] = {
+  ["gvgPointId"]= 1,
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1110",
+  ["resid"]= 26,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_Seagull01",
+    "SceneEffectRandom_Seagull02",
+    "SceneEffectRandom_Seagull03"
+  },
+  ["sceneEffectSoundRandomMin"]= 9,
+  ["sceneEffectSoundRandomMix"]= 18,
+  ["SceneId"]= 1110,
+  ["SmallMapID"]= {
+    1110
+  },
+  ["UnlockPerformance"]= 1
+},
+[1120] = {
+  ["gvgPointId"]= 8,
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["isFollowPathfinding"]= 0,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1120",
+  ["resid"]= 17,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_ShipWood",
+    "SceneEffectRandom_ShipWood01",
+    "SceneEffectRandom_ShipWood02",
+    "SceneEffectRandom_ShipWood03"
+  },
+  ["sceneEffectSoundRandomMin"]= 15,
+  ["sceneEffectSoundRandomMix"]= 25,
+  ["SceneId"]= 1120,
+  ["SmallMapID"]= {
+    11201,
+    11202,
+    11203
+  },
+  ["UnlockPerformance"]= 1
+},
+[1130] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["isFollowPathfinding"]= 0,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1130",
+  ["resid"]= 17,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_ShipWood",
+    "SceneEffectRandom_ShipWood01",
+    "SceneEffectRandom_ShipWood02",
+    "SceneEffectRandom_ShipWood03"
+  },
+  ["sceneEffectSoundRandomMin"]= 15,
+  ["sceneEffectSoundRandomMix"]= 25,
+  ["SceneId"]= 1130,
+  ["SmallMapID"]= {
+    11301,
+    11302,
+    11303
+  },
+  ["UnlockPerformance"]= 1
+},
+[1140] = {
+  ["gvgPointId"]= 3,
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1140",
+  ["resid"]= 52,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_Seagull01",
+    "SceneEffectRandom_Seagull02",
+    "SceneEffectRandom_Seagull03"
+  },
+  ["sceneEffectSoundRandomMin"]= 8,
+  ["sceneEffectSoundRandomMix"]= 15,
+  ["SceneId"]= 1140,
+  ["SmallMapID"]= {
+    1140
+  },
+  ["UnlockPerformance"]= 1
+},
+[1150] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1150",
+  ["resid"]= 29,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveQuiet"
+  },
+  ["SceneId"]= 1150,
+  ["SmallMapID"]= {
+    1150
+  },
+  ["UnlockPerformance"]= 1
+},
+[1160] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1160",
+  ["resid"]= 49,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_SeaDeep"
+  },
+  ["SceneId"]= 1160,
+  ["SmallMapID"]= {
+    1160
+  },
+  ["UnlockPerformance"]= 1
+},
+[1170] = {
+  ["gvgPointId"]= 2,
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1170",
+  ["resid"]= 9,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_Clock"
+  },
+  ["sceneEffectSoundRandomMin"]= 30,
+  ["sceneEffectSoundRandomMix"]= 120,
+  ["SceneId"]= 1170,
+  ["SmallMapID"]= {
+    11701,
+    11702
+  }
+},
+[1180] = {
+  ["gvgPointId"]= 7,
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1180",
+  ["resid"]= 15,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_Seagull01",
+    "SceneEffectRandom_Seagull02",
+    "SceneEffectRandom_Seagull03"
+  },
+  ["sceneEffectSoundRandomMin"]= 9,
+  ["sceneEffectSoundRandomMix"]= 18,
+  ["SceneId"]= 1180,
+  ["SmallMapID"]= {
+    1180
+  },
+  ["UnlockPerformance"]= 1
+},
+[1210] = {
+  ["gvgPointId"]= 13,
+  ["hurtNumRange"]= 999,
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["monsterAOISize"]= 100,
+  ["name"]= "SceneName1210",
+  ["resid"]= 13,
+  ["SceneId"]= 1210,
+  ["SmallMapID"]= {
+    1210
+  },
+  ["UnlockPerformance"]= 1
+},
+[1220] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1220",
+  ["resid"]= 31,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_WindForest",
+    "SceneEffectRandom_Bird01"
+  },
+  ["sceneEffectSoundRandomMin"]= 12,
+  ["sceneEffectSoundRandomMix"]= 20,
+  ["SceneId"]= 1220,
+  ["SmallMapID"]= {
+    1220
+  },
+  ["UnlockPerformance"]= 1
+},
+[1230] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1230",
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_ForestQuiet"
+  },
+  ["SceneId"]= 1230,
+  ["SmallMapID"]= {
+    1230
+  },
+  ["UnlockPerformance"]= 1
+},
+[1240] = {
+  ["gvgPointId"]= 15,
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1240",
+  ["resid"]= 35,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_WindForest",
+    "SceneEffectRandom_Owl",
+    "SceneEffectRandom_Bird02"
+  },
+  ["sceneEffectSoundRandomMin"]= 12,
+  ["sceneEffectSoundRandomMix"]= 20,
+  ["SceneId"]= 1240,
+  ["SmallMapID"]= {
+    1240
+  },
+  ["UnlockPerformance"]= 1
+},
+[1250] = {
+  ["gvgPointId"]= 14,
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1250",
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_ForestQuiet"
+  },
+  ["SceneId"]= 1250,
+  ["SmallMapID"]= {
+    1250
+  },
+  ["UnlockPerformance"]= 1
+},
+[1260] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1260",
+  ["resid"]= 21,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_Bat",
+    "SceneEffectRandom_Owl",
+    "SceneEffectRandom_Bird02"
+  },
+  ["sceneEffectSoundRandomMin"]= 9,
+  ["sceneEffectSoundRandomMix"]= 18,
+  ["SceneId"]= 1260,
+  ["SmallMapID"]= {
+    1260
+  },
+  ["UnlockPerformance"]= 1
+},
+[1270] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1270",
+  ["resid"]= 48,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveDeep"
+  },
+  ["SceneId"]= 1270,
+  ["SmallMapID"]= {
+    1270
+  },
+  ["UnlockPerformance"]= 1
+},
+[1280] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1280",
+  ["resid"]= 27,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveDeep"
+  },
+  ["SceneId"]= 1280,
+  ["SmallMapID"]= {
+    1280
+  },
+  ["UnlockPerformance"]= 1
+},
+[1281] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1281",
+  ["resid"]= 27,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveDeep"
+  },
+  ["SceneId"]= 1281,
+  ["SmallMapID"]= {
+    1281
+  },
+  ["UnlockPerformance"]= 1
+},
+[1290] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1290",
+  ["resid"]= 50,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveDry"
+  },
+  ["SceneId"]= 1290,
+  ["SmallMapID"]= {
+    1290
+  },
+  ["UnlockPerformance"]= 1
+},
+[1310] = {
+  ["gvgPointId"]= 4,
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1310",
+  ["resid"]= 11,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_DesertBird",
+    "SceneEffectRandom_DesertAw"
+  },
+  ["sceneEffectSoundRandomMin"]= 20,
+  ["sceneEffectSoundRandomMix"]= 50,
+  ["SceneId"]= 1310,
+  ["SmallMapID"]= {
+    1310
+  },
+  ["UnlockPerformance"]= 1
+},
+[1320] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1320",
+  ["resid"]= 24,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_DesertBird",
+    "SceneEffectRandom_DesertAw"
+  },
+  ["sceneEffectSoundRandomMin"]= 20,
+  ["sceneEffectSoundRandomMix"]= 35,
+  ["SceneId"]= 1320,
+  ["SmallMapID"]= {
+    1320
+  },
+  ["UnlockPerformance"]= 1
+},
+[1330] = {
+  ["gvgPointId"]= 5,
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1330",
+  ["resid"]= 22,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveDry"
+  },
+  ["SceneId"]= 1330,
+  ["SmallMapID"]= {
+    1330
+  },
+  ["UnlockPerformance"]= 1
+},
+[1340] = {
+  ["gvgPointId"]= 5,
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1340",
+  ["resid"]= 22,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveSand"
+  },
+  ["SceneId"]= 1340,
+  ["SmallMapID"]= {
+    1340
+  },
+  ["UnlockPerformance"]= 1
+},
+[1350] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1350",
+  ["resid"]= 46,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveDry"
+  },
+  ["SceneId"]= 1350,
+  ["SmallMapID"]= {
+    1350
+  },
+  ["UnlockPerformance"]= 1
+},
+[1360] = {
+  ["gvgPointId"]= 6,
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1360",
+  ["resid"]= 38,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveSand"
+  },
+  ["SceneId"]= 1360,
+  ["SmallMapID"]= {
+    1360
+  },
+  ["UnlockPerformance"]= 1
+},
+[1410] = {
+  ["gvgPointId"]= 9,
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1410",
+  ["resid"]= 14,
+  ["SceneId"]= 1410,
+  ["SmallMapID"]= {
+    14101,
+    14102
+  },
+  ["UnlockPerformance"]= 1
+},
+[1420] = {
+  ["gvgPointId"]= 12,
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1420",
+  ["resid"]= 36,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_ForestQuiet"
+  },
+  ["SceneId"]= 1420,
+  ["SmallMapID"]= {
+    1420
+  },
+  ["UnlockPerformance"]= 1
+},
+[1430] = {
+  ["gvgPointId"]= 11,
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1430",
+  ["resid"]= 37,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveSand"
+  },
+  ["SceneId"]= 1430,
+  ["SmallMapID"]= {
+    1430
+  },
+  ["UnlockPerformance"]= 1
+},
+[1440] = {
+  ["gvgPointId"]= 10,
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1440",
+  ["resid"]= 3,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_WindForest",
+    "SceneEffectRandom_Bird01"
+  },
+  ["sceneEffectSoundRandomMin"]= 9,
+  ["sceneEffectSoundRandomMix"]= 18,
+  ["SceneId"]= 1440,
+  ["SmallMapID"]= {
+    1440
+  },
+  ["UnlockPerformance"]= 1
+},
+[1450] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1450",
+  ["resid"]= 20,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveQuiet"
+  },
+  ["SceneId"]= 1450,
+  ["SmallMapID"]= {
+    1450
+  }
+},
+[1460] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1460",
+  ["resid"]= 47,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveQuiet"
+  },
+  ["SceneId"]= 1460,
+  ["SmallMapID"]= {
+    1460
+  }
+},
+[1510] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1510",
+  ["resid"]= 8,
+  ["SceneId"]= 1510,
+  ["SmallMapID"]= {
+    1510
+  }
+},
+[1520] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1520",
+  ["resid"]= 10,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_Clock"
+  },
+  ["sceneEffectSoundRandomMin"]= 30,
+  ["sceneEffectSoundRandomMix"]= 120,
+  ["SceneId"]= 1520,
+  ["SmallMapID"]= {
+    1520
+  }
+},
+[1530] = {
+  ["canEnterOtherInstance"]= 0,
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1530",
+  ["resid"]= 8,
+  ["SceneId"]= 1530,
+  ["SmallMapID"]= {
+    1530
+  }
+},
+[1540] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1540",
+  ["resid"]= 1011,
+  ["SceneId"]= 1540,
+  ["SmallMapID"]= {
+    15401,
+    15402,
+    15403
+  }
+},
+[1541] = {
+  ["bgtype"]= 0,
+  ["isShowExit"]= 0,
+  ["name"]= "SceneName1541",
+  ["resid"]= 10,
+  ["SceneId"]= 1541,
+  ["SmallMapID"]= {
+    1541
+  },
+  ["tipslist"]= {}
+},
+[1550] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1550",
+  ["resid"]= 1171,
+  ["SceneId"]= 1550,
+  ["SmallMapID"]= {
+    1550
+  },
+  ["soundValue"]= 1
+},
+[1560] = {
+  ["gvgPointId"]= 13,
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1560",
+  ["resid"]= 13,
+  ["SceneId"]= 1560,
+  ["SmallMapID"]= {
+    15601,
+    15602,
+    15603
+  },
+  ["UnlockPerformance"]= 1
+},
+[1570] = {
+  ["canEnterOtherInstance"]= 0,
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1570",
+  ["resid"]= 11,
+  ["SceneId"]= 1570,
+  ["SmallMapID"]= {
+    1570
+  }
+},
+[1580] = {
+  ["canEnterOtherInstance"]= 0,
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1580",
+  ["resid"]= 15,
+  ["SceneId"]= 1580,
+  ["SmallMapID"]= {
+    1580
+  }
+},
+[1590] = {
+  ["IsFollow"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1590",
+  ["resid"]= 1,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_ShipWood"
+  },
+  ["SceneId"]= 1590,
+  ["SmallMapID"]= {
+    1590
+  }
+},
+[1610] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1610",
+  ["resid"]= 42,
+  ["SceneId"]= 1610,
+  ["SmallMapID"]= {
+    1610
+  },
+  ["UnlockPerformance"]= 1
+},
+[1620] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1620",
+  ["resid"]= 48,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindCave"
+  },
+  ["SceneId"]= 1620,
+  ["SmallMapID"]= {
+    1620
+  }
+},
+[1630] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1630",
+  ["resid"]= 48,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveDeep"
+  },
+  ["SceneId"]= 1630,
+  ["SmallMapID"]= {
+    1630
+  }
+},
+[1640] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1640",
+  ["resid"]= 44,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveDeep"
+  },
+  ["SceneId"]= 1640,
+  ["SmallMapID"]= {
+    1640
+  }
+},
+[1650] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1650",
+  ["resid"]= 40,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindCave"
+  },
+  ["SceneId"]= 1650,
+  ["SmallMapID"]= {
+    1650
+  }
+},
+[1660] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1660",
+  ["resid"]= 40,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_Bat",
+    "SceneEffectRandom_Owl",
+    "SceneEffectRandom_Bird02"
+  },
+  ["sceneEffectSoundRandomMin"]= 9,
+  ["sceneEffectSoundRandomMix"]= 18,
+  ["SceneId"]= 1660,
+  ["SmallMapID"]= {
+    1660
+  }
+},
+[1710] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["isCrossService"]= 1,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1710",
+  ["resid"]= 39,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_Seagull01",
+    "SceneEffectRandom_Seagull02",
+    "SceneEffectRandom_Seagull03"
+  },
+  ["sceneEffectSoundRandomMin"]= 15,
+  ["sceneEffectSoundRandomMix"]= 25,
+  ["SceneId"]= 1710,
+  ["SmallMapID"]= {
+    1710
+  },
+  ["UnlockPerformance"]= 1
+},
+[1720] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1720",
+  ["resid"]= 51,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_Gear"
+  },
+  ["sceneEffectSoundRandomMin"]= 10,
+  ["sceneEffectSoundRandomMix"]= 25,
+  ["SceneId"]= 1720,
+  ["SmallMapID"]= {
+    1720
+  }
+},
+[1730] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1730",
+  ["resid"]= 60,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_Gear"
+  },
+  ["sceneEffectSoundRandomMin"]= 10,
+  ["sceneEffectSoundRandomMix"]= 25,
+  ["SceneId"]= 1730,
+  ["SmallMapID"]= {
+    1730
+  }
+},
+[1740] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1740",
+  ["resid"]= 61,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_ClockTower"
+  },
+  ["sceneEffectSoundRandomMin"]= 10,
+  ["SceneId"]= 1740,
+  ["SmallMapID"]= {
+    1740
+  }
+},
+[1750] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1750",
+  ["resid"]= 61,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_ClockTower"
+  },
+  ["sceneEffectSoundRandomMin"]= 10,
+  ["SceneId"]= 1750,
+  ["SmallMapID"]= {
+    1750
+  }
+},
+[1760] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1760",
+  ["resid"]= 61,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_ClockTower"
+  },
+  ["sceneEffectSoundRandomMin"]= 10,
+  ["SceneId"]= 1760,
+  ["SmallMapID"]= {
+    1760
+  }
+},
+[1780] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1780",
+  ["resid"]= 61,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_ClockTower"
+  },
+  ["sceneEffectSoundRandomMin"]= 10,
+  ["SceneId"]= 1780,
+  ["SmallMapID"]= {
+    1780
+  }
+},
+[1810] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1810",
+  ["resid"]= 61,
+  ["SceneId"]= 1810,
+  ["SmallMapID"]= {
+    1810
+  }
+},
+[1820] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1820",
+  ["resid"]= 61,
+  ["SceneId"]= 1820,
+  ["SmallMapID"]= {
+    1820
+  }
+},
+[1830] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1830",
+  ["resid"]= 61,
+  ["SceneId"]= 1830,
+  ["SmallMapID"]= {
+    1830
+  }
+},
+[1840] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1840",
+  ["resid"]= 61,
+  ["SceneId"]= 1840,
+  ["SmallMapID"]= {
+    1840
+  }
+},
+[1850] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1850",
+  ["resid"]= 61,
+  ["SceneId"]= 1850,
+  ["SmallMapID"]= {
+    1850
+  }
+},
+[2010] = {
+  ["bgtype"]= 3,
+  ["enName"]= "en_InstanceName1",
+  ["entryAreaIds"]= {
+    1170203
+  },
+  ["icon"]= "Img_Fire",
+  ["ifCanTeams"]= 0,
+  ["instanceBattleBgm"]= {
+    2001,
+    2002,
+    2003
+  },
+  ["instanceDescription"]= "InstanceDescription1",
+  ["instanceVictoryBgm"]= 2000,
+  ["isDungeon"]= 1,
+  ["IsFollow"]= 1,
+  ["name"]= "SceneName2010",
+  ["resid"]= 19,
+  ["RevivePattern"]= 4,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindCave"
+  },
+  ["SceneId"]= 2010,
+  ["SmallMapID"]= {
+    2010
+  }
+},
+[2011] = {
+  ["bgtype"]= 3,
+  ["enName"]= "en_InstanceName1",
+  ["entryAreaIds"]= {
+    1170203
+  },
+  ["icon"]= "Img_Fire",
+  ["ifCanTeams"]= 0,
+  ["instanceBattleBgm"]= {
+    2001,
+    2002,
+    2003
+  },
+  ["instanceDescription"]= "InstanceDescription1",
+  ["instanceVictoryBgm"]= 2000,
+  ["isDungeon"]= 1,
+  ["IsFollow"]= 1,
+  ["name"]= "SceneName2010",
+  ["resid"]= 19,
+  ["RevivePattern"]= 4,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindCave"
+  },
+  ["SceneId"]= 2011,
+  ["SmallMapID"]= {
+    2010
+  }
+},
+[2012] = {
+  ["bgtype"]= 3,
+  ["enName"]= "en_InstanceName1",
+  ["entryAreaIds"]= {
+    1170203
+  },
+  ["icon"]= "Img_Fire",
+  ["ifCanTeams"]= 0,
+  ["instanceBattleBgm"]= {
+    2001,
+    2002,
+    2003
+  },
+  ["instanceDescription"]= "InstanceDescription1",
+  ["instanceVictoryBgm"]= 2000,
+  ["isDungeon"]= 1,
+  ["IsFollow"]= 1,
+  ["name"]= "SceneName2010",
+  ["resid"]= 19,
+  ["reviveLeaf"]= 10202093,
+  ["RevivePattern"]= 7,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindCave"
+  },
+  ["SceneId"]= 2012,
+  ["SmallMapID"]= {
+    2010
+  }
+},
+[2020] = {
+  ["bgtype"]= 2,
+  ["enName"]= "en_InstanceName2",
+  ["entryAreaIds"]= {
+    1170203
+  },
+  ["icon"]= "Img_Immortal",
+  ["ifCanTeams"]= 0,
+  ["instanceBattleBgm"]= {
+    2001,
+    2002,
+    2003
+  },
+  ["instanceDescription"]= "InstanceDescription2",
+  ["instanceVictoryBgm"]= 2000,
+  ["isDungeon"]= 1,
+  ["IsFollow"]= 1,
+  ["location"]= 1,
+  ["name"]= "SceneName2020",
+  ["resid"]= 17,
+  ["RevivePattern"]= 4,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_ShipWood",
+    "SceneEffectRandom_ShipWood01",
+    "SceneEffectRandom_ShipWood02",
+    "SceneEffectRandom_ShipWood03"
+  },
+  ["sceneEffectSoundRandomMin"]= 10,
+  ["sceneEffectSoundRandomMix"]= 25,
+  ["SceneId"]= 2020,
+  ["SmallMapID"]= {
+    2020
+  }
+},
+[2021] = {
+  ["bgtype"]= 2,
+  ["enName"]= "en_InstanceName2",
+  ["entryAreaIds"]= {
+    1170203
+  },
+  ["icon"]= "Img_Immortal",
+  ["ifCanTeams"]= 0,
+  ["instanceBattleBgm"]= {
+    2001,
+    2002,
+    2003
+  },
+  ["instanceDescription"]= "InstanceDescription2",
+  ["instanceVictoryBgm"]= 2000,
+  ["isDungeon"]= 1,
+  ["IsFollow"]= 1,
+  ["location"]= 1,
+  ["name"]= "SceneName2020",
+  ["resid"]= 17,
+  ["RevivePattern"]= 4,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_ShipWood",
+    "SceneEffectRandom_ShipWood01",
+    "SceneEffectRandom_ShipWood02",
+    "SceneEffectRandom_ShipWood03"
+  },
+  ["SceneId"]= 2021,
+  ["SmallMapID"]= {
+    2020
+  }
+},
+[2022] = {
+  ["bgtype"]= 2,
+  ["enName"]= "en_InstanceName2",
+  ["entryAreaIds"]= {
+    1170203
+  },
+  ["icon"]= "Img_Immortal",
+  ["ifCanTeams"]= 0,
+  ["instanceBattleBgm"]= {
+    2001,
+    2002,
+    2003
+  },
+  ["instanceDescription"]= "InstanceDescription2",
+  ["instanceVictoryBgm"]= 2000,
+  ["isDungeon"]= 1,
+  ["IsFollow"]= 1,
+  ["location"]= 1,
+  ["name"]= "SceneName2020",
+  ["resid"]= 17,
+  ["reviveLeaf"]= 10202093,
+  ["RevivePattern"]= 7,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_ShipWood",
+    "SceneEffectRandom_ShipWood01",
+    "SceneEffectRandom_ShipWood02",
+    "SceneEffectRandom_ShipWood03"
+  },
+  ["SceneId"]= 2022,
+  ["SmallMapID"]= {
+    2020
+  }
+},
+[2030] = {
+  ["bgtype"]= 1,
+  ["enName"]= "en_InstanceName3",
+  ["entryAreaIds"]= {
+    1170203
+  },
+  ["icon"]= "Img_Water",
+  ["ifCanTeams"]= 0,
+  ["instanceBattleBgm"]= {
+    2001,
+    2001,
+    2002,
+    2003
+  },
+  ["instanceDescription"]= "InstanceDescription3",
+  ["instanceVictoryBgm"]= 2000,
+  ["isDungeon"]= 1,
+  ["IsFollow"]= 1,
+  ["name"]= "SceneName2030",
+  ["resid"]= 49,
+  ["RevivePattern"]= 4,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_SeaDeep"
+  },
+  ["SceneId"]= 2030,
+  ["SmallMapID"]= {
+    2030
+  }
+},
+[2031] = {
+  ["bgtype"]= 1,
+  ["enName"]= "en_InstanceName3",
+  ["entryAreaIds"]= {
+    1170203
+  },
+  ["icon"]= "Img_Water",
+  ["ifCanTeams"]= 0,
+  ["instanceBattleBgm"]= {
+    2001,
+    2002,
+    2003
+  },
+  ["instanceDescription"]= "InstanceDescription3",
+  ["instanceVictoryBgm"]= 2000,
+  ["isDungeon"]= 1,
+  ["IsFollow"]= 1,
+  ["name"]= "SceneName2030",
+  ["resid"]= 49,
+  ["RevivePattern"]= 4,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_SeaDeep"
+  },
+  ["SceneId"]= 2031,
+  ["SmallMapID"]= {
+    2030
+  }
+},
+[2040] = {
+  ["bgtype"]= 5,
+  ["enName"]= "en_InstanceName5",
+  ["entryAreaIds"]= {
+    1170203
+  },
+  ["icon"]= "Img_Immortal",
+  ["ifCanTeams"]= 0,
+  ["instanceBattleBgm"]= {
+    2001,
+    2002,
+    2003
+  },
+  ["instanceDescription"]= "InstanceDescription5",
+  ["instanceVictoryBgm"]= 2000,
+  ["isDungeon"]= 1,
+  ["IsFollow"]= 1,
+  ["name"]= "SceneName2040",
+  ["resid"]= 22,
+  ["RevivePattern"]= 4,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveDry"
+  },
+  ["SceneId"]= 2040,
+  ["SmallMapID"]= {
+    2040
+  }
+},
+[2041] = {
+  ["bgtype"]= 5,
+  ["enName"]= "en_InstanceName5",
+  ["entryAreaIds"]= {
+    1170203
+  },
+  ["icon"]= "Img_Immortal",
+  ["ifCanTeams"]= 0,
+  ["instanceBattleBgm"]= {
+    2001,
+    2002,
+    2003
+  },
+  ["instanceDescription"]= "InstanceDescription5",
+  ["instanceVictoryBgm"]= 2000,
+  ["isDungeon"]= 1,
+  ["IsFollow"]= 1,
+  ["name"]= "SceneName2040",
+  ["resid"]= 22,
+  ["RevivePattern"]= 4,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveDry"
+  },
+  ["SceneId"]= 2041,
+  ["SmallMapID"]= {
+    2040
+  }
+},
+[2042] = {
+  ["bgtype"]= 5,
+  ["enName"]= "en_InstanceName5",
+  ["entryAreaIds"]= {
+    1170203
+  },
+  ["icon"]= "Img_Immortal",
+  ["ifCanTeams"]= 0,
+  ["instanceBattleBgm"]= {
+    2001,
+    2002,
+    2003
+  },
+  ["instanceDescription"]= "InstanceDescription5",
+  ["instanceVictoryBgm"]= 2000,
+  ["isDungeon"]= 1,
+  ["IsFollow"]= 1,
+  ["name"]= "SceneName2040",
+  ["resid"]= 22,
+  ["reviveLeaf"]= 10202093,
+  ["RevivePattern"]= 7,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveDry"
+  },
+  ["SceneId"]= 2042,
+  ["SmallMapID"]= {
+    2040
+  }
+},
+[2050] = {
+  ["bgtype"]= 9,
+  ["enName"]= "en_InstanceName6",
+  ["entryAreaIds"]= {
+    1170203
+  },
+  ["icon"]= "Img_Fire",
+  ["ifCanTeams"]= 0,
+  ["instanceBattleBgm"]= {
+    2001,
+    2002,
+    2003
+  },
+  ["instanceDescription"]= "InstanceDescription6",
+  ["instanceVictoryBgm"]= 2000,
+  ["isDungeon"]= 1,
+  ["IsFollow"]= 1,
+  ["name"]= "SceneName2050",
+  ["resid"]= 47,
+  ["RevivePattern"]= 4,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveQuiet"
+  },
+  ["SceneId"]= 2050,
+  ["SmallMapID"]= {
+    2050
+  }
+},
+[2051] = {
+  ["bgtype"]= 9,
+  ["enName"]= "en_InstanceName6",
+  ["entryAreaIds"]= {
+    1170203
+  },
+  ["icon"]= "Img_Fire",
+  ["ifCanTeams"]= 0,
+  ["instanceBattleBgm"]= {
+    2001,
+    2002,
+    2003
+  },
+  ["instanceDescription"]= "InstanceDescription6",
+  ["instanceVictoryBgm"]= 2000,
+  ["isDungeon"]= 1,
+  ["IsFollow"]= 1,
+  ["name"]= "SceneName2050",
+  ["resid"]= 47,
+  ["RevivePattern"]= 4,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveQuiet"
+  },
+  ["SceneId"]= 2051,
+  ["SmallMapID"]= {
+    2050
+  }
+},
+[2060] = {
+  ["bgtype"]= 11,
+  ["enName"]= "en_InstanceName4",
+  ["entryAreaIds"]= {
+    1170203
+  },
+  ["icon"]= "Img_Dark",
+  ["ifCanTeams"]= 0,
+  ["instanceBattleBgm"]= {
+    2001,
+    2002,
+    2003
+  },
+  ["instanceDescription"]= "InstanceDescription4",
+  ["instanceVictoryBgm"]= 2000,
+  ["isDungeon"]= 1,
+  ["IsFollow"]= 1,
+  ["name"]= "SceneName2060",
+  ["resid"]= 1011,
+  ["RevivePattern"]= 4,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_Bat02",
+    "SceneEffect_Bat03"
+  },
+  ["sceneEffectSoundRandomMin"]= 12,
+  ["sceneEffectSoundRandomMix"]= 28,
+  ["SceneId"]= 2060,
+  ["SmallMapID"]= {
+    2060
+  },
+  ["soundValue"]= 1
+},
+[2061] = {
+  ["bgtype"]= 11,
+  ["enName"]= "en_InstanceName4",
+  ["entryAreaIds"]= {
+    1170203
+  },
+  ["icon"]= "Img_Dark",
+  ["ifCanTeams"]= 0,
+  ["instanceBattleBgm"]= {
+    2001,
+    2002,
+    2003
+  },
+  ["instanceDescription"]= "InstanceDescription4",
+  ["instanceVictoryBgm"]= 2000,
+  ["isDungeon"]= 1,
+  ["IsFollow"]= 1,
+  ["name"]= "SceneName2060",
+  ["resid"]= 1011,
+  ["RevivePattern"]= 4,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_Bat02",
+    "SceneEffect_Bat03"
+  },
+  ["sceneEffectSoundRandomMin"]= 12,
+  ["sceneEffectSoundRandomMix"]= 28,
+  ["SceneId"]= 2061,
+  ["SmallMapID"]= {
+    2060
+  },
+  ["soundValue"]= 0.7
+},
+[2070] = {
+  ["bgtype"]= 30,
+  ["enName"]= "en_InstanceName7",
+  ["entryAreaIds"]= {
+    1170203
+  },
+  ["icon"]= "Img_Immortal",
+  ["ifCanTeams"]= 0,
+  ["instanceBattleBgm"]= {
+    2001,
+    2002,
+    2003
+  },
+  ["instanceDescription"]= "InstanceDescription7",
+  ["instanceVictoryBgm"]= 2000,
+  ["isDungeon"]= 1,
+  ["IsFollow"]= 1,
+  ["name"]= "SceneName2070",
+  ["resid"]= 102,
+  ["RevivePattern"]= 4,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_WindFly"
+  },
+  ["SceneId"]= 2070,
+  ["SmallMapID"]= {
+    20701,
+    20702,
+    20703,
+    20704,
+    20705,
+    20706
+  },
+  ["soundValue"]= 1
+},
+[2071] = {
+  ["bgtype"]= 30,
+  ["enName"]= "en_InstanceName7",
+  ["entryAreaIds"]= {
+    1170203
+  },
+  ["icon"]= "Img_Immortal",
+  ["ifCanTeams"]= 0,
+  ["instanceBattleBgm"]= {
+    2001,
+    2002,
+    2003
+  },
+  ["instanceDescription"]= "InstanceDescription7",
+  ["instanceVictoryBgm"]= 2000,
+  ["isDungeon"]= 1,
+  ["IsFollow"]= 1,
+  ["name"]= "SceneName2070",
+  ["resid"]= 102,
+  ["RevivePattern"]= 4,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_WindFly"
+  },
+  ["SceneId"]= 2071,
+  ["SmallMapID"]= {
+    20701,
+    20702,
+    20703,
+    20704,
+    20705,
+    20706
+  },
+  ["soundValue"]= 1
+},
+[2510] = {
+  ["bgtype"]= 31,
+  ["enName"]= "en_InstanceName101",
+  ["entryAreaIds"]= {},
+  ["icon"]= "Img_Dark",
+  ["instanceDescription"]= "InstanceDescription101",
+  ["instanceVictoryBgm"]= 2000,
+  ["isDungeon"]= 1,
+  ["IsFollow"]= 1,
+  ["name"]= "SceneName2510",
+  ["resid"]= 118,
+  ["RevivePattern"]= 4,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_Fire"
+  },
+  ["SceneId"]= 2510,
+  ["SmallMapID"]= {
+    2060
+  },
+  ["soundValue"]= 0.7
+},
+[2511] = {
+  ["bgtype"]= 31,
+  ["enName"]= "en_InstanceName101",
+  ["entryAreaIds"]= {},
+  ["icon"]= "Img_Dark",
+  ["instanceBattleBgm"]= {
+    2001,
+    2002,
+    2003
+  },
+  ["instanceDescription"]= "InstanceDescription101",
+  ["instanceVictoryBgm"]= 2000,
+  ["isDungeon"]= 1,
+  ["IsFollow"]= 1,
+  ["name"]= "SceneName2510",
+  ["resid"]= 2510,
+  ["RevivePattern"]= 4,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_Bat02",
+    "SceneEffect_Bat03"
+  },
+  ["sceneEffectSoundRandomMin"]= 12,
+  ["sceneEffectSoundRandomMix"]= 28,
+  ["SceneId"]= 2511,
+  ["SmallMapID"]= {
+    2060
+  },
+  ["soundValue"]= 0.7
+},
+[3010] = {
+  ["entryAreaIds"]= {
+    1010501
+  },
+  ["IsFollow"]= 1,
+  ["name"]= "SceneName3010",
+  ["resid"]= 145,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_MagicForest"
+  },
+  ["SceneId"]= 3010,
+  ["SmallMapID"]= {
+    3010
+  }
+},
+[3020] = {
+  ["bgtype"]= 10,
+  ["enName"]= "en_InstanceName10",
+  ["entryAreaIds"]= {
+    1140501
+  },
+  ["icon"]= "Img_Immortal",
+  ["ifCanTeams"]= 0,
+  ["instanceDescription"]= "InstanceDescription10",
+  ["isDungeon"]= 1,
+  ["IsFollow"]= 1,
+  ["name"]= "SceneName3020",
+  ["resid"]= 125,
+  ["RevivePattern"]= 3,
+  ["SceneId"]= 3020,
+  ["SmallMapID"]= {
+    30201,
+    30202,
+    30203,
+    30204,
+    30205,
+    30206,
+    30207,
+    30208,
+    30209,
+    302010,
+    302011,
+    302012
+  },
+  ["teleportSpecialOpt"]= 1
+},
+[3030] = {
+  ["bgtype"]= 0,
+  ["name"]= "SceneName3030",
+  ["resid"]= 30,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_ShipWood"
+  },
+  ["SceneId"]= 3030,
+  ["SmallMapID"]= {},
+  ["tipslist"]= {}
+},
+[3040] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["monsterAOISize"]= 500,
+  ["name"]= "SceneName1520",
+  ["resid"]= 4,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_Clock"
+  },
+  ["sceneEffectSoundRandomMin"]= 30,
+  ["sceneEffectSoundRandomMix"]= 120,
+  ["SceneId"]= 3040,
+  ["SmallMapID"]= {
+    1520
+  }
+},
+[4000] = {
+  ["IsFollow"]= 1,
+  ["isPlane"]= 1,
+  ["name"]= "SceneName4000",
+  ["planeY"]= 0.82,
+  ["resid"]= 123,
+  ["RevivePattern"]= 2,
+  ["SceneId"]= 4000,
+  ["SmallMapID"]= {}
+},
+[4001] = {
+  ["IfShowRevive"]= 0,
+  ["IsFollow"]= 1,
+  ["isPlane"]= 1,
+  ["name"]= "SceneName4001",
+  ["planeY"]= 0.82,
+  ["resid"]= 123,
+  ["RevivePattern"]= 2,
+  ["SceneId"]= 4001,
+  ["SmallMapID"]= {}
+},
+[4002] = {
+  ["name"]= "SceneName4002",
+  ["resid"]= 18,
+  ["RevivePattern"]= 5,
+  ["SceneId"]= 4002,
+  ["SmallMapID"]= {
+    40021,
+    40022
+  }
+},
+[4003] = {
+  ["announcementlist"]= {
+    1
+  },
+  ["canEnterOtherInstance"]= 0,
+  ["entryAreaIds"]= {
+    1010503
+  },
+  ["hosttileRed"]= 1,
+  ["ifCanTeams"]= 0,
+  ["IfShowRevive"]= 0,
+  ["isCrossService"]= 1,
+  ["name"]= "SceneName4003",
+  ["resid"]= 18,
+  ["RevivePattern"]= 5,
+  ["SceneId"]= 4003,
+  ["SceneMapIconMode"]= 3,
+  ["showEnemyPlayerUi"]= 1,
+  ["skilldisable"]= {
+    10106026,
+    86000000
+  },
+  ["SmallMapID"]= {
+    40021,
+    40022
+  }
+},
+[4010] = {
+  ["attackerTips"]= 0,
+  ["bgtype"]= 0,
+  ["canEnterOtherInstance"]= 0,
+  ["defenseTips"]= 0,
+  ["Distance1"]= {},
+  ["Distance2"]= {},
+  ["Distance3"]= {},
+  ["Distance4"]= {},
+  ["enName"]= 0,
+  ["entryAreaIds"]= {},
+  ["icon"]= 0,
+  ["ifCanTeams"]= 0,
+  ["instanceDescription"]= 0,
+  ["isFollowPathfinding"]= 0,
+  ["isShowExit"]= 0,
+  ["name"]= 0,
+  ["resid"]= 0,
+  ["RevivePattern"]= 0,
+  ["SceneId"]= 4010,
+  ["SceneMapIconMode"]= 0,
+  ["skilldisable"]= {},
+  ["SmallMapID"]= {},
+  ["soundValue"]= 0,
+  ["tipslist"]= {}
+},
+[4506] = {
+  ["attackerTips"]= "GVG_ui_tips_201",
+  ["AutoBattleCleanTargetOutOffAOI"]= 21,
+  ["AutoBattleShowRoleTarget"]= 1,
+  ["bgtype"]= 21,
+  ["deathExpulsion"]= 1,
+  ["defenseTips"]= "GVG_ui_tips_202",
+  ["enName"]= "en_InstanceNameGVG",
+  ["hosttileRed"]= 1,
+  ["icon"]= "Img_Immortal",
+  ["instanceDescription"]= "InstanceDescription4506",
+  ["isDungeon"]= 1,
+  ["location"]= 1,
+  ["monsterAOISize"]= 40,
+  ["name"]= "SceneName4506",
+  ["resid"]= 18,
+  ["RevivePattern"]= 6,
+  ["SceneId"]= 4506,
+  ["SceneMapIconMode"]= 2,
+  ["showEnemyPlayerUi"]= 1,
+  ["SmallMapID"]= {
+    45061,
+    45062,
+    45063
+  },
+  ["tacticalGuidance"]= 1
+},
+[4507] = {
+  ["attackerTips"]= "GVG_ui_tips_203",
+  ["AutoBattleCleanTargetOutOffAOI"]= 20,
+  ["AutoBattleShowRoleTarget"]= 1,
+  ["bgtype"]= 22,
+  ["deathExpulsion"]= 1,
+  ["defenseTips"]= "GVG_ui_tips_204",
+  ["enName"]= "en_InstanceNameGVG",
+  ["hosttileRed"]= 1,
+  ["icon"]= "Img_Immortal",
+  ["instanceDescription"]= "InstanceDescription4507",
+  ["isDungeon"]= 1,
+  ["location"]= 1,
+  ["monsterAOISize"]= 40,
+  ["name"]= "SceneName4506",
+  ["resid"]= 18,
+  ["RevivePattern"]= 6,
+  ["SceneId"]= 4507,
+  ["SceneMapIconMode"]= 2,
+  ["showEnemyPlayerUi"]= 1,
+  ["SmallMapID"]= {
+    45071,
+    45072,
+    45073
+  },
+  ["tacticalGuidance"]= 1
+},
+[4508] = {
+  ["attackerTips"]= "GVG_ui_tips_205",
+  ["AutoBattleCleanTargetOutOffAOI"]= 20,
+  ["AutoBattleShowRoleTarget"]= 1,
+  ["bgtype"]= 20,
+  ["deathExpulsion"]= 1,
+  ["defenseTips"]= "GVG_ui_tips_206",
+  ["enName"]= "en_InstanceNameGVG",
+  ["hosttileRed"]= 1,
+  ["icon"]= "Img_Immortal",
+  ["instanceDescription"]= "InstanceDescription4508",
+  ["isDungeon"]= 1,
+  ["location"]= 1,
+  ["monsterAOISize"]= 40,
+  ["name"]= "SceneName4508",
+  ["resid"]= 18,
+  ["RevivePattern"]= 6,
+  ["SceneId"]= 4508,
+  ["SceneMapIconMode"]= 2,
+  ["showEnemyPlayerUi"]= 1,
+  ["SmallMapID"]= {
+    45081,
+    45082,
+    45083
+  },
+  ["tacticalGuidance"]= 1
+},
+[4509] = {
+  ["attackerTips"]= "GVG_ui_tips_207",
+  ["AutoBattleCleanTargetOutOffAOI"]= 20,
+  ["AutoBattleShowRoleTarget"]= 1,
+  ["bgtype"]= 24,
+  ["deathExpulsion"]= 1,
+  ["defenseTips"]= "GVG_ui_tips_208",
+  ["enName"]= "en_InstanceNameGVG",
+  ["hosttileRed"]= 1,
+  ["icon"]= "Img_Immortal",
+  ["instanceDescription"]= "InstanceDescription4509",
+  ["isDungeon"]= 1,
+  ["location"]= 1,
+  ["monsterAOISize"]= 40,
+  ["name"]= "SceneName4509",
+  ["resid"]= 18,
+  ["RevivePattern"]= 6,
+  ["SceneId"]= 4509,
+  ["SceneMapIconMode"]= 2,
+  ["showEnemyPlayerUi"]= 1,
+  ["SmallMapID"]= {
+    45091,
+    45092,
+    45093
+  },
+  ["tacticalGuidance"]= 1
+},
+[4510] = {
+  ["attackerTips"]= "GVG_ui_tips_209",
+  ["AutoBattleCleanTargetOutOffAOI"]= 20,
+  ["AutoBattleShowRoleTarget"]= 1,
+  ["bgtype"]= 23,
+  ["deathExpulsion"]= 1,
+  ["defenseTips"]= "GVG_ui_tips_210",
+  ["enName"]= "en_InstanceNameGVG",
+  ["hosttileRed"]= 1,
+  ["icon"]= "Img_Immortal",
+  ["instanceDescription"]= "InstanceDescription4510",
+  ["isDungeon"]= 1,
+  ["location"]= 1,
+  ["monsterAOISize"]= 40,
+  ["name"]= "SceneName4510",
+  ["resid"]= 18,
+  ["RevivePattern"]= 6,
+  ["SceneId"]= 4510,
+  ["SceneMapIconMode"]= 2,
+  ["showEnemyPlayerUi"]= 1,
+  ["SmallMapID"]= {
+    45101,
+    45102,
+    45103
+  },
+  ["tacticalGuidance"]= 1
+},
+[4601] = {
+  ["AutoBattleCleanTargetOutOffAOI"]= 20,
+  ["AutoBattleShowRoleTarget"]= 1,
+  ["hosttileRed"]= 1,
+  ["IsFollow"]= 1,
+  ["isShowExit"]= 0,
+  ["monsterAOISize"]= 40,
+  ["name"]= "SceneName4601",
+  ["resid"]= 18,
+  ["RevivePattern"]= 6,
+  ["SceneId"]= 4601,
+  ["SceneMapIconMode"]= 2,
+  ["showEnemyPlayerUi"]= 1,
+  ["SmallMapID"]= {
+    4601
+  }
+},
+[4602] = {
+  ["AutoBattleCleanTargetOutOffAOI"]= 20,
+  ["AutoBattleShowRoleTarget"]= 1,
+  ["deathExpulsion"]= 1,
+  ["hosttileRed"]= 1,
+  ["IsFollow"]= 1,
+  ["isShowExit"]= 0,
+  ["monsterAOISize"]= 40,
+  ["name"]= "SceneName4602",
+  ["resid"]= 18,
+  ["RevivePattern"]= 6,
+  ["SceneId"]= 4602,
+  ["SceneMapIconMode"]= 2,
+  ["showEnemyPlayerUi"]= 1,
+  ["SmallMapID"]= {
+    4601
+  },
+  ["tacticalGuidance"]= 1
+},
+[4603] = {
+  ["AutoBattleCleanTargetOutOffAOI"]= 20,
+  ["AutoBattleShowRoleTarget"]= 1,
+  ["deathExpulsion"]= 1,
+  ["hosttileRed"]= 1,
+  ["IsFollow"]= 1,
+  ["isShowExit"]= 0,
+  ["monsterAOISize"]= 40,
+  ["name"]= "SceneName4603",
+  ["resid"]= 18,
+  ["RevivePattern"]= 6,
+  ["SceneId"]= 4603,
+  ["SceneMapIconMode"]= 2,
+  ["showEnemyPlayerUi"]= 1,
+  ["SmallMapID"]= {
+    4601
+  },
+  ["tacticalGuidance"]= 1
+},
+[4604] = {
+  ["AutoBattleCleanTargetOutOffAOI"]= 20,
+  ["AutoBattleShowRoleTarget"]= 1,
+  ["deathExpulsion"]= 1,
+  ["hosttileRed"]= 1,
+  ["IsFollow"]= 1,
+  ["isShowExit"]= 0,
+  ["monsterAOISize"]= 40,
+  ["name"]= "SceneName4604",
+  ["resid"]= 18,
+  ["RevivePattern"]= 6,
+  ["SceneId"]= 4604,
+  ["SceneMapIconMode"]= 2,
+  ["showEnemyPlayerUi"]= 1,
+  ["SmallMapID"]= {
+    4601
+  },
+  ["tacticalGuidance"]= 1
+},
+[4605] = {
+  ["AutoBattleCleanTargetOutOffAOI"]= 20,
+  ["AutoBattleShowRoleTarget"]= 1,
+  ["deathExpulsion"]= 1,
+  ["hosttileRed"]= 1,
+  ["IsFollow"]= 1,
+  ["isShowExit"]= 0,
+  ["monsterAOISize"]= 40,
+  ["name"]= "SceneName4605",
+  ["resid"]= 18,
+  ["RevivePattern"]= 6,
+  ["SceneId"]= 4605,
+  ["SceneMapIconMode"]= 2,
+  ["showEnemyPlayerUi"]= 1,
+  ["SmallMapID"]= {
+    4601
+  },
+  ["tacticalGuidance"]= 1
+},
+[5000] = {
+  ["entryAreaIds"]= {
+    11706002
+  },
+  ["IsFollow"]= 1,
+  ["isShowExit"]= 0,
+  ["name"]= "SceneName5000",
+  ["resid"]= 2019,
+  ["SceneId"]= 5000,
+  ["SmallMapID"]= {}
+},
+[5001] = {
+  ["IsFollow"]= 1,
+  ["isShowExit"]= 0,
+  ["name"]= "SceneName5001",
+  ["resid"]= 0,
+  ["SceneId"]= 5001,
+  ["SmallMapID"]= {},
+  ["soundValue"]= 0
+},
+[5002] = {
+  ["entryAreaIds"]= {
+    10106203
+  },
+  ["isShowExit"]= 0,
+  ["name"]= "SceneName5002",
+  ["resid"]= 2019,
+  ["SceneId"]= 5002,
+  ["SmallMapID"]= {}
+},
+[5003] = {
+  ["entryAreaIds"]= {
+    15606202
+  },
+  ["isShowExit"]= 0,
+  ["name"]= "SceneName5003",
+  ["resid"]= 2019,
+  ["SceneId"]= 5003,
+  ["SmallMapID"]= {}
+},
+[5004] = {
+  ["entryAreaIds"]= {
+    15206202
+  },
+  ["isShowExit"]= 0,
+  ["name"]= "SceneName5004",
+  ["resid"]= 2019,
+  ["SceneId"]= 5004,
+  ["SmallMapID"]= {}
+},
+[5005] = {
+  ["entryAreaIds"]= {
+    14106202
+  },
+  ["isShowExit"]= 0,
+  ["name"]= "SceneName5005",
+  ["resid"]= 2019,
+  ["SceneId"]= 5005,
+  ["SmallMapID"]= {}
+},
+[5006] = {
+  ["entryAreaIds"]= {
+    13106202
+  },
+  ["isShowExit"]= 0,
+  ["name"]= "SceneName5006",
+  ["resid"]= 2019,
+  ["SceneId"]= 5006,
+  ["SmallMapID"]= {}
+},
+[5007] = {
+  ["entryAreaIds"]= {
+    11806202
+  },
+  ["isShowExit"]= 0,
+  ["name"]= "SceneName5007",
+  ["resid"]= 2019,
+  ["SceneId"]= 5007,
+  ["SmallMapID"]= {}
+},
+[5500] = {
+  ["conditionId"]= {
+    11021
+  },
+  ["IsFollow"]= 1,
+  ["IsGateUseSceneId"]= 1,
+  ["isShowExit"]= 0,
+  ["name"]= "SceneName5500",
+  ["resid"]= 8,
+  ["SceneId"]= 5500,
+  ["SmallMapID"]= {
+    1010
+  }
+},
+[5501] = {
+  ["hosttileRed"]= 1,
+  ["IsFollow"]= 1,
+  ["IsGateUseSceneId"]= 1,
+  ["isShowExit"]= 0,
+  ["name"]= "SceneName5501",
+  ["resid"]= 8,
+  ["SceneId"]= 5501,
+  ["showEnemyPlayerUi"]= 1,
+  ["SmallMapID"]= {
+    1010
+  }
+},
+[6000] = {
+  ["entryAreaIds"]= {
+    1010502
+  },
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["name"]= "SceneName6000",
+  ["resid"]= 6000,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_Eagle",
+    "SceneEffectRandom_WindForest"
+  },
+  ["sceneEffectSoundRandomMin"]= 5,
+  ["sceneEffectSoundRandomMix"]= 33,
+  ["SceneId"]= 6000,
+  ["SmallMapID"]= {
+    60001
+  }
+},
+[6001] = {
+  ["entryAreaIds"]= {
+    6000501
+  },
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["name"]= "SceneName6001",
+  ["resid"]= 7,
+  ["RevivePattern"]= 5,
+  ["SceneId"]= 6001,
+  ["SmallMapID"]= {
+    60001
+  },
+  ["soundValue"]= 0
+},
+[7001] = {
+  ["resid"]= 12,
+  ["SceneId"]= 7001
+},
+[7002] = {
+  ["resid"]= 12,
+  ["SceneId"]= 7002
+},
+[7003] = {
+  ["resid"]= 12,
+  ["SceneId"]= 7003
+},
+[7004] = {
+  ["resid"]= 12,
+  ["SceneId"]= 7004
+},
+[7005] = {
+  ["name"]= "SceneName1110",
+  ["resid"]= 26,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_Seagull01",
+    "SceneEffectRandom_Seagull02",
+    "SceneEffectRandom_Seagull03"
+  },
+  ["sceneEffectSoundRandomMin"]= 8,
+  ["sceneEffectSoundRandomMix"]= 25,
+  ["SceneId"]= 7005,
+  ["SmallMapID"]= {
+    1110
+  }
+},
+[7006] = {
+  ["name"]= "SceneName1030",
+  ["resid"]= 12,
+  ["SceneId"]= 7006,
+  ["SmallMapID"]= {
+    1030
+  }
+},
+[7007] = {
+  ["name"]= "SceneName1050",
+  ["resid"]= 19,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindCave"
+  },
+  ["SceneId"]= 7007,
+  ["SmallMapID"]= {
+    1050
+  }
+},
+[7008] = {
+  ["name"]= "SceneName1130",
+  ["resid"]= 17,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_ShipWood"
+  },
+  ["SceneId"]= 7008,
+  ["SmallMapID"]= {
+    11301,
+    11302,
+    11303
+  }
+},
+[7009] = {
+  ["name"]= "SceneName1060",
+  ["resid"]= 19,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindCave"
+  },
+  ["SceneId"]= 7009,
+  ["SmallMapID"]= {
+    1060
+  }
+},
+[7010] = {
+  ["name"]= "SceneName1060",
+  ["resid"]= 19,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindCave"
+  },
+  ["SceneId"]= 7010,
+  ["SmallMapID"]= {
+    1060
+  }
+},
+[7011] = {
+  ["name"]= "SceneName2010",
+  ["resid"]= 19,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindCave"
+  },
+  ["SceneId"]= 7011,
+  ["SmallMapID"]= {
+    2010
+  }
+},
+[7012] = {
+  ["name"]= "SceneName1010",
+  ["resid"]= 8,
+  ["SceneId"]= 7012,
+  ["SmallMapID"]= {
+    1010
+  }
+},
+[7013] = {
+  ["name"]= "SceneName1010",
+  ["resid"]= 8,
+  ["SceneId"]= 7013,
+  ["SmallMapID"]= {
+    1010
+  }
+},
+[7014] = {
+  ["name"]= "SceneName1540",
+  ["resid"]= 1011,
+  ["SceneId"]= 7014,
+  ["SmallMapID"]= {
+    15401,
+    15402,
+    15403
+  }
+},
+[7015] = {
+  ["name"]= "SceneName1170",
+  ["resid"]= 9,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_Clock"
+  },
+  ["sceneEffectSoundRandomMin"]= 60,
+  ["sceneEffectSoundRandomMix"]= 180,
+  ["SceneId"]= 7015,
+  ["SmallMapID"]= {
+    11701,
+    11702
+  }
+},
+[7016] = {
+  ["name"]= "SceneName1130",
+  ["resid"]= 17,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_ShipWood"
+  },
+  ["SceneId"]= 7016,
+  ["SmallMapID"]= {
+    11301,
+    11302,
+    11303
+  }
+},
+[7017] = {
+  ["name"]= "SceneName1040",
+  ["resid"]= 16,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindForest"
+  },
+  ["SceneId"]= 7017,
+  ["SmallMapID"]= {
+    1040
+  }
+},
+[7018] = {
+  ["name"]= "SceneName1040",
+  ["resid"]= 16,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindForest"
+  },
+  ["SceneId"]= 7018,
+  ["SmallMapID"]= {
+    1040
+  }
+},
+[7019] = {
+  ["name"]= "SceneName1220",
+  ["resid"]= 31,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_WindForest",
+    "SceneEffectRandom_Bird01"
+  },
+  ["sceneEffectSoundRandomMin"]= 9,
+  ["sceneEffectSoundRandomMix"]= 22,
+  ["SceneId"]= 7019,
+  ["SmallMapID"]= {
+    1220
+  }
+},
+[7020] = {
+  ["name"]= "SceneName1110",
+  ["resid"]= 26,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_Seagull01",
+    "SceneEffectRandom_Seagull02",
+    "SceneEffectRandom_Seagull03"
+  },
+  ["sceneEffectSoundRandomMin"]= 8,
+  ["sceneEffectSoundRandomMix"]= 25,
+  ["SceneId"]= 7020,
+  ["SmallMapID"]= {
+    1110
+  }
+},
+[7021] = {
+  ["name"]= "SceneName1130",
+  ["resid"]= 17,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_ShipWood"
+  },
+  ["SceneId"]= 7021,
+  ["SmallMapID"]= {
+    11301,
+    11302,
+    11303
+  }
+},
+[7022] = {
+  ["name"]= "SceneName1320",
+  ["resid"]= 24,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_DesertBird",
+    "SceneEffectRandom_DesertAw"
+  },
+  ["sceneEffectSoundRandomMin"]= 8,
+  ["sceneEffectSoundRandomMix"]= 15,
+  ["SceneId"]= 7022,
+  ["SmallMapID"]= {
+    1320
+  }
+},
+[7023] = {
+  ["name"]= "SceneName1350",
+  ["resid"]= 46,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveDry"
+  },
+  ["SceneId"]= 7023,
+  ["SmallMapID"]= {
+    1350
+  }
+},
+[7024] = {
+  ["name"]= "SceneName1030",
+  ["resid"]= 12,
+  ["SceneId"]= 7024,
+  ["SmallMapID"]= {
+    1030
+  }
+},
+[7025] = {
+  ["name"]= "SceneName1010",
+  ["resid"]= 8,
+  ["SceneId"]= 7025,
+  ["SmallMapID"]= {
+    1010
+  }
+},
+[7026] = {
+  ["name"]= "SceneName1050",
+  ["resid"]= 19,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindCave"
+  },
+  ["SceneId"]= 7026,
+  ["SmallMapID"]= {
+    1050
+  }
+},
+[7027] = {
+  ["name"]= "SceneName1050",
+  ["resid"]= 19,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindCave"
+  },
+  ["SceneId"]= 7027,
+  ["SmallMapID"]= {
+    1050
+  }
+},
+[7028] = {
+  ["name"]= "SceneName1030",
+  ["resid"]= 12,
+  ["SceneId"]= 7028,
+  ["SmallMapID"]= {
+    1030
+  }
+},
+[7029] = {
+  ["name"]= "SceneName1350",
+  ["resid"]= 46,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveDry"
+  },
+  ["SceneId"]= 7029,
+  ["SmallMapID"]= {
+    1350
+  }
+},
+[7030] = {
+  ["name"]= "SceneName1310",
+  ["resid"]= 11,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_DesertBird",
+    "SceneEffectRandom_DesertAw"
+  },
+  ["sceneEffectSoundRandomMin"]= 8,
+  ["sceneEffectSoundRandomMix"]= 15,
+  ["SceneId"]= 7030,
+  ["SmallMapID"]= {
+    1310
+  }
+},
+[7031] = {
+  ["name"]= "SceneName1330",
+  ["resid"]= 22,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveDry"
+  },
+  ["SceneId"]= 7031,
+  ["SmallMapID"]= {
+    1330
+  }
+},
+[7032] = {
+  ["name"]= "SceneName1150",
+  ["resid"]= 29,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveQuiet"
+  },
+  ["SceneId"]= 7032,
+  ["SmallMapID"]= {
+    1150
+  }
+},
+[7033] = {
+  ["name"]= "SceneName1160",
+  ["resid"]= 49,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_SeaDeep"
+  },
+  ["SceneId"]= 7033,
+  ["SmallMapID"]= {
+    1160
+  }
+},
+[7034] = {
+  ["name"]= "SceneName1160",
+  ["resid"]= 49,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_SeaDeep"
+  },
+  ["SceneId"]= 7034,
+  ["SmallMapID"]= {
+    1160
+  }
+},
+[7035] = {
+  ["name"]= "SceneName1160",
+  ["resid"]= 49,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_SeaDeep"
+  },
+  ["SceneId"]= 7035,
+  ["SmallMapID"]= {
+    1160
+  }
+},
+[7036] = {
+  ["name"]= "SceneName1160",
+  ["resid"]= 49,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_SeaDeep"
+  },
+  ["SceneId"]= 7036,
+  ["SmallMapID"]= {
+    1160
+  }
+},
+[7037] = {
+  ["name"]= "SceneName1160",
+  ["resid"]= 49,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_SeaDeep"
+  },
+  ["SceneId"]= 7037,
+  ["SmallMapID"]= {
+    1160
+  }
+},
+[7038] = {
+  ["name"]= "SceneName1410",
+  ["resid"]= 14,
+  ["SceneId"]= 7038,
+  ["SmallMapID"]= {
+    14101,
+    14102
+  }
+},
+[7039] = {
+  ["name"]= "SceneName1430",
+  ["resid"]= 37,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindForest"
+  },
+  ["SceneId"]= 7039,
+  ["SmallMapID"]= {
+    1430
+  }
+},
+[7040] = {
+  ["name"]= "SceneName1430",
+  ["resid"]= 37,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindForest"
+  },
+  ["SceneId"]= 7040,
+  ["SmallMapID"]= {
+    1430
+  }
+},
+[7041] = {
+  ["name"]= "SceneName1430",
+  ["resid"]= 37,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindForest"
+  },
+  ["SceneId"]= 7041,
+  ["SmallMapID"]= {
+    1430
+  }
+},
+[7042] = {
+  ["name"]= "SceneName1410",
+  ["resid"]= 14,
+  ["SceneId"]= 7042,
+  ["SmallMapID"]= {
+    14101,
+    14102
+  }
+},
+[7043] = {
+  ["name"]= "SceneName1440",
+  ["resid"]= 3,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_WindForest",
+    "SceneEffectRandom_Bird01"
+  },
+  ["sceneEffectSoundRandomMin"]= 9,
+  ["sceneEffectSoundRandomMix"]= 22,
+  ["SceneId"]= 7043,
+  ["SmallMapID"]= {
+    1440
+  }
+},
+[7044] = {
+  ["name"]= "SceneName1440",
+  ["resid"]= 3,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_WindForest",
+    "SceneEffectRandom_Bird01"
+  },
+  ["sceneEffectSoundRandomMin"]= 9,
+  ["sceneEffectSoundRandomMix"]= 22,
+  ["SceneId"]= 7044,
+  ["SmallMapID"]= {
+    1440
+  }
+},
+[7045] = {
+  ["name"]= "SceneName1450",
+  ["resid"]= 20,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveQuiet"
+  },
+  ["SceneId"]= 7045,
+  ["SmallMapID"]= {
+    1450
+  }
+},
+[7046] = {
+  ["name"]= "SceneName1450",
+  ["resid"]= 20,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveQuiet"
+  },
+  ["SceneId"]= 7046,
+  ["SmallMapID"]= {
+    1450
+  }
+},
+[7047] = {
+  ["name"]= "SceneName1450",
+  ["resid"]= 20,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveQuiet"
+  },
+  ["SceneId"]= 7047,
+  ["SmallMapID"]= {
+    1450
+  }
+},
+[7048] = {
+  ["name"]= "SceneName1420",
+  ["resid"]= 36,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_ForestQuiet"
+  },
+  ["SceneId"]= 7048,
+  ["SmallMapID"]= {
+    1420
+  }
+},
+[7049] = {
+  ["name"]= "SceneName1420",
+  ["resid"]= 36,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_ForestQuiet"
+  },
+  ["SceneId"]= 7049,
+  ["SmallMapID"]= {
+    1420
+  }
+},
+[7050] = {
+  ["name"]= "SceneName1460",
+  ["resid"]= 47,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveQuiet"
+  },
+  ["SceneId"]= 7050,
+  ["SmallMapID"]= {
+    1460
+  }
+},
+[7051] = {
+  ["name"]= "SceneName1460",
+  ["resid"]= 47,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveQuiet"
+  },
+  ["SceneId"]= 7051,
+  ["SmallMapID"]= {
+    1460
+  }
+},
+[7052] = {
+  ["name"]= "SceneName1460",
+  ["resid"]= 47,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveQuiet"
+  },
+  ["SceneId"]= 7052,
+  ["SmallMapID"]= {
+    1460
+  }
+},
+[7053] = {
+  ["name"]= "SceneName1040",
+  ["resid"]= 16,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindForest"
+  },
+  ["SceneId"]= 7053,
+  ["SmallMapID"]= {
+    1040
+  }
+},
+[7054] = {
+  ["name"]= "SceneName1130",
+  ["resid"]= 17,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_ShipWood"
+  },
+  ["SceneId"]= 7054,
+  ["SmallMapID"]= {
+    11301,
+    11302,
+    11303
+  }
+},
+[7055] = {
+  ["name"]= "SceneName1060",
+  ["resid"]= 19,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindCave"
+  },
+  ["SceneId"]= 7055,
+  ["SmallMapID"]= {
+    1060
+  }
+},
+[7056] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1560",
+  ["resid"]= 13,
+  ["SceneId"]= 7056,
+  ["SmallMapID"]= {
+    15601,
+    15602,
+    15603
+  },
+  ["UnlockPerformance"]= 1
+},
+[7057] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1230",
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_ForestQuiet"
+  },
+  ["SceneId"]= 7057,
+  ["SmallMapID"]= {
+    1230
+  },
+  ["UnlockPerformance"]= 1
+},
+[7058] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1230",
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_ForestQuiet"
+  },
+  ["SceneId"]= 7058,
+  ["SmallMapID"]= {
+    1230
+  },
+  ["UnlockPerformance"]= 1
+},
+[7059] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1230",
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_ForestQuiet"
+  },
+  ["SceneId"]= 7059,
+  ["SmallMapID"]= {
+    1230
+  },
+  ["UnlockPerformance"]= 1
+},
+[7060] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1230",
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_ForestQuiet"
+  },
+  ["SceneId"]= 7060,
+  ["SmallMapID"]= {
+    1230
+  },
+  ["UnlockPerformance"]= 1
+},
+[7061] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1240",
+  ["resid"]= 35,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_WindForest",
+    "SceneEffectRandom_Owl"
+  },
+  ["sceneEffectSoundRandomMin"]= 12,
+  ["sceneEffectSoundRandomMix"]= 20,
+  ["SceneId"]= 7061,
+  ["SmallMapID"]= {
+    1240
+  },
+  ["UnlockPerformance"]= 1
+},
+[7062] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1240",
+  ["resid"]= 35,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_WindForest",
+    "SceneEffectRandom_Owl"
+  },
+  ["sceneEffectSoundRandomMin"]= 12,
+  ["sceneEffectSoundRandomMix"]= 20,
+  ["SceneId"]= 7062,
+  ["SmallMapID"]= {
+    1240
+  },
+  ["UnlockPerformance"]= 1
+},
+[7063] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1240",
+  ["resid"]= 35,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_WindForest",
+    "SceneEffectRandom_Owl"
+  },
+  ["sceneEffectSoundRandomMin"]= 12,
+  ["sceneEffectSoundRandomMix"]= 20,
+  ["SceneId"]= 7063,
+  ["SmallMapID"]= {
+    1240
+  },
+  ["UnlockPerformance"]= 1
+},
+[7064] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1240",
+  ["resid"]= 35,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_WindForest",
+    "SceneEffectRandom_Owl"
+  },
+  ["sceneEffectSoundRandomMin"]= 12,
+  ["sceneEffectSoundRandomMix"]= 20,
+  ["SceneId"]= 7064,
+  ["SmallMapID"]= {
+    1240
+  },
+  ["UnlockPerformance"]= 1
+},
+[7065] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1270",
+  ["resid"]= 48,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveDeep"
+  },
+  ["SceneId"]= 7065,
+  ["SmallMapID"]= {
+    1270
+  },
+  ["UnlockPerformance"]= 1
+},
+[7066] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1270",
+  ["resid"]= 48,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveDeep"
+  },
+  ["SceneId"]= 7066,
+  ["SmallMapID"]= {
+    1270
+  },
+  ["UnlockPerformance"]= 1
+},
+[7067] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1270",
+  ["resid"]= 48,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveDeep"
+  },
+  ["SceneId"]= 7067,
+  ["SmallMapID"]= {
+    1270
+  },
+  ["UnlockPerformance"]= 1
+},
+[7068] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1250",
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_ForestQuiet"
+  },
+  ["SceneId"]= 7068,
+  ["SmallMapID"]= {
+    1250
+  },
+  ["UnlockPerformance"]= 1
+},
+[7069] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1250",
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_ForestQuiet"
+  },
+  ["SceneId"]= 7069,
+  ["SmallMapID"]= {
+    1250
+  },
+  ["UnlockPerformance"]= 1
+},
+[7070] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1250",
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_ForestQuiet"
+  },
+  ["SceneId"]= 7070,
+  ["SmallMapID"]= {
+    1250
+  },
+  ["UnlockPerformance"]= 1
+},
+[7071] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1250",
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_ForestQuiet"
+  },
+  ["SceneId"]= 7071,
+  ["SmallMapID"]= {
+    1250
+  },
+  ["UnlockPerformance"]= 1
+},
+[7072] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1250",
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_ForestQuiet"
+  },
+  ["SceneId"]= 7072,
+  ["SmallMapID"]= {
+    1250
+  },
+  ["UnlockPerformance"]= 1
+},
+[7073] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1260",
+  ["resid"]= 21,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_Bat",
+    "SceneEffectRandom_Owl"
+  },
+  ["sceneEffectSoundRandomMin"]= 9,
+  ["sceneEffectSoundRandomMix"]= 18,
+  ["SceneId"]= 7073,
+  ["SmallMapID"]= {
+    1260
+  },
+  ["UnlockPerformance"]= 1
+},
+[7074] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1260",
+  ["resid"]= 21,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_Bat",
+    "SceneEffectRandom_Owl"
+  },
+  ["sceneEffectSoundRandomMin"]= 9,
+  ["sceneEffectSoundRandomMix"]= 18,
+  ["SceneId"]= 7074,
+  ["SmallMapID"]= {
+    1260
+  },
+  ["UnlockPerformance"]= 1
+},
+[7075] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1290",
+  ["resid"]= 50,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveDry"
+  },
+  ["SceneId"]= 7075,
+  ["SmallMapID"]= {
+    1290
+  },
+  ["UnlockPerformance"]= 1
+},
+[7076] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1610",
+  ["resid"]= 42,
+  ["SceneId"]= 7076,
+  ["SmallMapID"]= {
+    1610
+  },
+  ["UnlockPerformance"]= 1
+},
+[7077] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1610",
+  ["resid"]= 42,
+  ["SceneId"]= 7077,
+  ["SmallMapID"]= {
+    1610
+  },
+  ["UnlockPerformance"]= 1
+},
+[7078] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1610",
+  ["resid"]= 42,
+  ["SceneId"]= 7078,
+  ["SmallMapID"]= {
+    1610
+  },
+  ["UnlockPerformance"]= 1
+},
+[7079] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1610",
+  ["resid"]= 42,
+  ["SceneId"]= 7079,
+  ["SmallMapID"]= {
+    1610
+  },
+  ["UnlockPerformance"]= 1
+},
+[7080] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1630",
+  ["resid"]= 48,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveDeep"
+  },
+  ["SceneId"]= 7080,
+  ["SmallMapID"]= {
+    1630
+  }
+},
+[7081] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1630",
+  ["resid"]= 48,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveDeep"
+  },
+  ["SceneId"]= 7081,
+  ["SmallMapID"]= {
+    1630
+  }
+},
+[7082] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1630",
+  ["resid"]= 48,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveDeep"
+  },
+  ["SceneId"]= 7082,
+  ["SmallMapID"]= {
+    1630
+  }
+},
+[7083] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1630",
+  ["resid"]= 48,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveDeep"
+  },
+  ["SceneId"]= 7083,
+  ["SmallMapID"]= {
+    1630
+  }
+},
+[7084] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1640",
+  ["resid"]= 44,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveDeep"
+  },
+  ["SceneId"]= 7084,
+  ["SmallMapID"]= {
+    1640
+  }
+},
+[7085] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1620",
+  ["resid"]= 48,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindCave"
+  },
+  ["SceneId"]= 7085,
+  ["SmallMapID"]= {
+    1620
+  }
+},
+[7086] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1620",
+  ["resid"]= 48,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindCave"
+  },
+  ["SceneId"]= 7086,
+  ["SmallMapID"]= {
+    1620
+  }
+},
+[7087] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1620",
+  ["resid"]= 48,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindCave"
+  },
+  ["SceneId"]= 7087,
+  ["SmallMapID"]= {
+    1620
+  }
+},
+[7088] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1620",
+  ["resid"]= 48,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindCave"
+  },
+  ["SceneId"]= 7088,
+  ["SmallMapID"]= {
+    1620
+  }
+},
+[7089] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1650",
+  ["resid"]= 40,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindCave"
+  },
+  ["SceneId"]= 7089,
+  ["SmallMapID"]= {
+    1650
+  }
+},
+[7090] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1650",
+  ["resid"]= 40,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindCave"
+  },
+  ["SceneId"]= 7090,
+  ["SmallMapID"]= {
+    1650
+  }
+},
+[7091] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1650",
+  ["resid"]= 40,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindCave"
+  },
+  ["SceneId"]= 7091,
+  ["SmallMapID"]= {
+    1650
+  }
+},
+[7092] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1650",
+  ["resid"]= 40,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindCave"
+  },
+  ["SceneId"]= 7092,
+  ["SmallMapID"]= {
+    1650
+  }
+},
+[7093] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1650",
+  ["resid"]= 40,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindCave"
+  },
+  ["SceneId"]= 7093,
+  ["SmallMapID"]= {
+    1650
+  }
+},
+[7094] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1650",
+  ["resid"]= 40,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindCave"
+  },
+  ["SceneId"]= 7094,
+  ["SmallMapID"]= {
+    1650
+  }
+},
+[7095] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1660",
+  ["resid"]= 40,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_Bat",
+    "SceneEffectRandom_Owl",
+    "SceneEffectRandom_Bird02"
+  },
+  ["sceneEffectSoundRandomMin"]= 9,
+  ["sceneEffectSoundRandomMix"]= 18,
+  ["SceneId"]= 7095,
+  ["SmallMapID"]= {
+    1660
+  }
+},
+[7096] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1660",
+  ["resid"]= 40,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_Bat",
+    "SceneEffectRandom_Owl",
+    "SceneEffectRandom_Bird02"
+  },
+  ["sceneEffectSoundRandomMin"]= 9,
+  ["sceneEffectSoundRandomMix"]= 18,
+  ["SceneId"]= 7096,
+  ["SmallMapID"]= {
+    1660
+  }
+},
+[7097] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1660",
+  ["resid"]= 40,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_Bat",
+    "SceneEffectRandom_Owl",
+    "SceneEffectRandom_Bird02"
+  },
+  ["sceneEffectSoundRandomMin"]= 9,
+  ["sceneEffectSoundRandomMix"]= 18,
+  ["SceneId"]= 7097,
+  ["SmallMapID"]= {
+    1660
+  }
+},
+[7098] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1610",
+  ["resid"]= 42,
+  ["SceneId"]= 7098,
+  ["SmallMapID"]= {
+    1610
+  },
+  ["UnlockPerformance"]= 1
+},
+[7900] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["IsStall"]= 1,
+  ["resid"]= 50,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveDry"
+  },
+  ["SceneId"]= 7900,
+  ["UnlockPerformance"]= 1
+},
+[7997] = {
+  ["entryAreaIds"]= {
+    1410208
+  },
+  ["name"]= "SceneName1410",
+  ["resid"]= 2019,
+  ["SceneId"]= 7997,
+  ["SmallMapID"]= {
+    14101,
+    14102
+  }
+},
+[7998] = {
+  ["entryAreaIds"]= {
+    1010401
+  },
+  ["name"]= "SceneName1010",
+  ["resid"]= 2019,
+  ["SceneId"]= 7998,
+  ["SmallMapID"]= {
+    1010
+  }
+},
+[7999] = {
+  ["entryAreaIds"]= {
+    1010400
+  },
+  ["name"]= "SceneName1010",
+  ["resid"]= 123,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_MagicForest"
+  },
+  ["SceneId"]= 7999,
+  ["SmallMapID"]= {
+    1010
+  }
+},
+[8000] = {
+  ["name"]= "SceneName1010",
+  ["resid"]= 8,
+  ["SceneId"]= 8000,
+  ["SmallMapID"]= {
+    1010
+  }
+},
+[8001] = {
+  ["name"]= "SceneName8911",
+  ["resid"]= 10,
+  ["RevivePattern"]= 0,
+  ["SceneId"]= 8001,
+  ["SmallMapID"]= {
+    8911
+  }
+},
+[8002] = {
+  ["name"]= "SceneName1010",
+  ["resid"]= 8,
+  ["SceneId"]= 8002,
+  ["SmallMapID"]= {
+    1010
+  }
+},
+[8003] = {
+  ["name"]= "SceneName1540",
+  ["resid"]= 1011,
+  ["SceneId"]= 8003,
+  ["SmallMapID"]= {
+    15401,
+    15402,
+    15403
+  }
+},
+[8004] = {
+  ["name"]= "SceneName1310",
+  ["resid"]= 11,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_DesertBird",
+    "SceneEffectRandom_DesertAw"
+  },
+  ["sceneEffectSoundRandomMin"]= 8,
+  ["sceneEffectSoundRandomMix"]= 15,
+  ["SceneId"]= 8004,
+  ["SmallMapID"]= {
+    1310
+  }
+},
+[8005] = {
+  ["name"]= "SceneName1110",
+  ["resid"]= 26,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_Seagull01",
+    "SceneEffectRandom_Seagull02",
+    "SceneEffectRandom_Seagull03"
+  },
+  ["sceneEffectSoundRandomMin"]= 8,
+  ["sceneEffectSoundRandomMix"]= 25,
+  ["SceneId"]= 8005,
+  ["SmallMapID"]= {
+    1110
+  }
+},
+[8006] = {
+  ["name"]= "SceneName1320",
+  ["resid"]= 24,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_DesertBird",
+    "SceneEffectRandom_DesertAw"
+  },
+  ["sceneEffectSoundRandomMin"]= 8,
+  ["sceneEffectSoundRandomMix"]= 15,
+  ["SceneId"]= 8006,
+  ["SmallMapID"]= {
+    1320
+  }
+},
+[8007] = {
+  ["name"]= "SceneName1350",
+  ["resid"]= 46,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveDry"
+  },
+  ["SceneId"]= 8007,
+  ["SmallMapID"]= {
+    1350
+  }
+},
+[8008] = {
+  ["name"]= "SceneName1320",
+  ["resid"]= 24,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_DesertBird",
+    "SceneEffectRandom_DesertAw"
+  },
+  ["sceneEffectSoundRandomMin"]= 8,
+  ["sceneEffectSoundRandomMix"]= 15,
+  ["SceneId"]= 8008,
+  ["SmallMapID"]= {
+    1320
+  }
+},
+[8009] = {
+  ["name"]= "SceneName1350",
+  ["resid"]= 46,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveDry"
+  },
+  ["SceneId"]= 8009,
+  ["SmallMapID"]= {
+    1350
+  }
+},
+[8010] = {
+  ["name"]= "SceneName1350",
+  ["resid"]= 46,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveDry"
+  },
+  ["SceneId"]= 8010,
+  ["SmallMapID"]= {
+    1350
+  }
+},
+[8011] = {
+  ["name"]= "SceneName1520",
+  ["resid"]= 10,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_Clock"
+  },
+  ["sceneEffectSoundRandomMin"]= 60,
+  ["sceneEffectSoundRandomMix"]= 180,
+  ["SceneId"]= 8011,
+  ["SmallMapID"]= {
+    1520
+  }
+},
+[8012] = {
+  ["name"]= "SceneName1060",
+  ["resid"]= 19,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindCave"
+  },
+  ["SceneId"]= 8012,
+  ["SmallMapID"]= {
+    1060
+  }
+},
+[8013] = {
+  ["resid"]= 12,
+  ["SceneId"]= 8013
+},
+[8014] = {
+  ["name"]= "SceneName1060",
+  ["resid"]= 19,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindCave"
+  },
+  ["SceneId"]= 8014,
+  ["SmallMapID"]= {
+    1060
+  }
+},
+[8015] = {
+  ["resid"]= 12,
+  ["SceneId"]= 8015
+},
+[8016] = {
+  ["resid"]= 12,
+  ["SceneId"]= 8016
+},
+[8017] = {
+  ["resid"]= 12,
+  ["SceneId"]= 8017
+},
+[8018] = {
+  ["resid"]= 12,
+  ["SceneId"]= 8018
+},
+[8019] = {
+  ["resid"]= 12,
+  ["SceneId"]= 8019
+},
+[8020] = {
+  ["name"]= "SceneName1220",
+  ["resid"]= 31,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_WindForest",
+    "SceneEffectRandom_Bird01"
+  },
+  ["sceneEffectSoundRandomMin"]= 9,
+  ["sceneEffectSoundRandomMix"]= 22,
+  ["SceneId"]= 8020,
+  ["SmallMapID"]= {
+    1220
+  }
+},
+[8021] = {
+  ["name"]= "SceneName1220",
+  ["resid"]= 31,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_WindForest",
+    "SceneEffectRandom_Bird01"
+  },
+  ["sceneEffectSoundRandomMin"]= 9,
+  ["sceneEffectSoundRandomMix"]= 22,
+  ["SceneId"]= 8021,
+  ["SmallMapID"]= {
+    1220
+  }
+},
+[8022] = {
+  ["name"]= "SceneName1220",
+  ["resid"]= 31,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_WindForest",
+    "SceneEffectRandom_Bird01"
+  },
+  ["sceneEffectSoundRandomMin"]= 9,
+  ["sceneEffectSoundRandomMix"]= 22,
+  ["SceneId"]= 8022,
+  ["SmallMapID"]= {
+    1220
+  }
+},
+[8023] = {
+  ["name"]= "SceneName1220",
+  ["resid"]= 31,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_WindForest",
+    "SceneEffectRandom_Bird01"
+  },
+  ["sceneEffectSoundRandomMin"]= 9,
+  ["sceneEffectSoundRandomMix"]= 22,
+  ["SceneId"]= 8023,
+  ["SmallMapID"]= {
+    1220
+  }
+},
+[8024] = {
+  ["name"]= "SceneName1220",
+  ["resid"]= 31,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_WindForest",
+    "SceneEffectRandom_Bird01"
+  },
+  ["sceneEffectSoundRandomMin"]= 9,
+  ["sceneEffectSoundRandomMix"]= 22,
+  ["SceneId"]= 8024,
+  ["SmallMapID"]= {
+    1220
+  }
+},
+[8025] = {
+  ["name"]= "SceneName1330",
+  ["resid"]= 22,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveDry"
+  },
+  ["SceneId"]= 8025,
+  ["SmallMapID"]= {
+    1330
+  }
+},
+[8026] = {
+  ["name"]= "SceneName1320",
+  ["resid"]= 24,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_DesertBird",
+    "SceneEffectRandom_DesertAw"
+  },
+  ["sceneEffectSoundRandomMin"]= 8,
+  ["sceneEffectSoundRandomMix"]= 15,
+  ["SceneId"]= 8026,
+  ["SmallMapID"]= {
+    1320
+  }
+},
+[8027] = {
+  ["name"]= "SceneName1310",
+  ["resid"]= 11,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_DesertBird",
+    "SceneEffectRandom_DesertAw"
+  },
+  ["sceneEffectSoundRandomMin"]= 8,
+  ["sceneEffectSoundRandomMix"]= 15,
+  ["SceneId"]= 8027,
+  ["SmallMapID"]= {
+    1310
+  }
+},
+[8028] = {
+  ["name"]= "SceneName1310",
+  ["resid"]= 11,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_DesertBird",
+    "SceneEffectRandom_DesertAw"
+  },
+  ["sceneEffectSoundRandomMin"]= 8,
+  ["sceneEffectSoundRandomMix"]= 15,
+  ["SceneId"]= 8028,
+  ["SmallMapID"]= {
+    1310
+  }
+},
+[8029] = {
+  ["name"]= "SceneName1340",
+  ["resid"]= 22,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveDry"
+  },
+  ["SceneId"]= 8029,
+  ["SmallMapID"]= {
+    1340
+  }
+},
+[8030] = {
+  ["name"]= "SceneName1320",
+  ["resid"]= 24,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_DesertBird",
+    "SceneEffectRandom_DesertAw"
+  },
+  ["sceneEffectSoundRandomMin"]= 8,
+  ["sceneEffectSoundRandomMix"]= 15,
+  ["SceneId"]= 8030,
+  ["SmallMapID"]= {
+    1320
+  }
+},
+[8031] = {
+  ["name"]= "SceneName1350",
+  ["resid"]= 46,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveDry"
+  },
+  ["SceneId"]= 8031,
+  ["SmallMapID"]= {
+    1350
+  }
+},
+[8032] = {
+  ["name"]= "SceneName1120",
+  ["resid"]= 17,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_ShipWood"
+  },
+  ["SceneId"]= 8032,
+  ["SmallMapID"]= {
+    11201,
+    11202,
+    11203
+  }
+},
+[8033] = {
+  ["name"]= "SceneName1120",
+  ["resid"]= 17,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_ShipWood"
+  },
+  ["SceneId"]= 8033,
+  ["SmallMapID"]= {
+    11201,
+    11202,
+    11203
+  }
+},
+[8034] = {
+  ["name"]= "SceneName1120",
+  ["resid"]= 17,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_ShipWood"
+  },
+  ["SceneId"]= 8034,
+  ["SmallMapID"]= {
+    11201,
+    11202,
+    11203
+  }
+},
+[8035] = {
+  ["name"]= "SceneName1560",
+  ["resid"]= 13,
+  ["SceneId"]= 8035,
+  ["SmallMapID"]= {
+    15601,
+    15602,
+    15603
+  }
+},
+[8036] = {
+  ["name"]= "SceneName1310",
+  ["resid"]= 11,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_DesertBird",
+    "SceneEffectRandom_DesertAw"
+  },
+  ["sceneEffectSoundRandomMin"]= 8,
+  ["sceneEffectSoundRandomMix"]= 15,
+  ["SceneId"]= 8036,
+  ["SmallMapID"]= {
+    1310
+  }
+},
+[8037] = {
+  ["name"]= "SceneName1310",
+  ["resid"]= 11,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_DesertBird",
+    "SceneEffectRandom_DesertAw"
+  },
+  ["sceneEffectSoundRandomMin"]= 8,
+  ["sceneEffectSoundRandomMix"]= 15,
+  ["SceneId"]= 8037,
+  ["SmallMapID"]= {
+    1310
+  }
+},
+[8038] = {
+  ["name"]= "SceneName1320",
+  ["resid"]= 24,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_DesertBird",
+    "SceneEffectRandom_DesertAw"
+  },
+  ["sceneEffectSoundRandomMin"]= 8,
+  ["sceneEffectSoundRandomMix"]= 15,
+  ["SceneId"]= 8038,
+  ["SmallMapID"]= {
+    1320
+  }
+},
+[8039] = {
+  ["name"]= "SceneName1150",
+  ["resid"]= 29,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveQuiet"
+  },
+  ["SceneId"]= 8039,
+  ["SmallMapID"]= {
+    1150
+  }
+},
+[8040] = {
+  ["name"]= "SceneName1160",
+  ["resid"]= 49,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_SeaDeep"
+  },
+  ["SceneId"]= 8040,
+  ["SmallMapID"]= {
+    1160
+  }
+},
+[8041] = {
+  ["name"]= "SceneName1120",
+  ["resid"]= 17,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_ShipWood"
+  },
+  ["SceneId"]= 8041,
+  ["SmallMapID"]= {
+    11201,
+    11202,
+    11203
+  }
+},
+[8042] = {
+  ["name"]= "SceneName1120",
+  ["resid"]= 17,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_ShipWood"
+  },
+  ["SceneId"]= 8042,
+  ["SmallMapID"]= {
+    11201,
+    11202,
+    11203
+  }
+},
+[8043] = {
+  ["name"]= "SceneName1120",
+  ["resid"]= 17,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_ShipWood"
+  },
+  ["SceneId"]= 8043,
+  ["SmallMapID"]= {
+    11201,
+    11202,
+    11203
+  }
+},
+[8044] = {
+  ["name"]= "SceneName1130",
+  ["resid"]= 17,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_ShipWood"
+  },
+  ["SceneId"]= 8044,
+  ["SmallMapID"]= {
+    11301,
+    11302,
+    11303
+  }
+},
+[8045] = {
+  ["name"]= "SceneName1150",
+  ["resid"]= 29,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveQuiet"
+  },
+  ["SceneId"]= 8045,
+  ["SmallMapID"]= {
+    1150
+  }
+},
+[8046] = {
+  ["name"]= "SceneName1150",
+  ["resid"]= 29,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveQuiet"
+  },
+  ["SceneId"]= 8046,
+  ["SmallMapID"]= {
+    1150
+  }
+},
+[8047] = {
+  ["name"]= "SceneName1150",
+  ["resid"]= 29,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveQuiet"
+  },
+  ["SceneId"]= 8047,
+  ["SmallMapID"]= {
+    1150
+  }
+},
+[8048] = {
+  ["name"]= "SceneName1160",
+  ["resid"]= 49,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_SeaDeep"
+  },
+  ["SceneId"]= 8048,
+  ["SmallMapID"]= {
+    1160
+  }
+},
+[8049] = {
+  ["name"]= "SceneName1150",
+  ["resid"]= 29,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveQuiet"
+  },
+  ["SceneId"]= 8049,
+  ["SmallMapID"]= {
+    1150
+  }
+},
+[8050] = {
+  ["name"]= "SceneName1180",
+  ["resid"]= 15,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_Seagull01",
+    "SceneEffectRandom_Seagull02",
+    "SceneEffectRandom_Seagull03"
+  },
+  ["sceneEffectSoundRandomMin"]= 10,
+  ["sceneEffectSoundRandomMix"]= 20,
+  ["SceneId"]= 8050,
+  ["SmallMapID"]= {
+    1180
+  }
+},
+[8051] = {
+  ["name"]= "SceneName1410",
+  ["resid"]= 14,
+  ["SceneId"]= 8051,
+  ["SmallMapID"]= {
+    14101,
+    14102
+  }
+},
+[8052] = {
+  ["name"]= "SceneName1440",
+  ["resid"]= 3,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_WindForest",
+    "SceneEffectRandom_Bird01"
+  },
+  ["sceneEffectSoundRandomMin"]= 9,
+  ["sceneEffectSoundRandomMix"]= 22,
+  ["SceneId"]= 8052,
+  ["SmallMapID"]= {
+    1440
+  }
+},
+[8053] = {
+  ["name"]= "SceneName1420",
+  ["resid"]= 36,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_ForestQuiet"
+  },
+  ["SceneId"]= 8053,
+  ["SmallMapID"]= {
+    1420
+  }
+},
+[8054] = {
+  ["name"]= "SceneName1450",
+  ["resid"]= 20,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveQuiet"
+  },
+  ["SceneId"]= 8054,
+  ["SmallMapID"]= {
+    1450
+  }
+},
+[8055] = {
+  ["name"]= "SceneName1450",
+  ["resid"]= 20,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveQuiet"
+  },
+  ["SceneId"]= 8055,
+  ["SmallMapID"]= {
+    1450
+  }
+},
+[8056] = {
+  ["name"]= "SceneName1450",
+  ["resid"]= 20,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveQuiet"
+  },
+  ["SceneId"]= 8056,
+  ["SmallMapID"]= {
+    1450
+  }
+},
+[8057] = {
+  ["name"]= "SceneName1520",
+  ["resid"]= 10,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_Clock"
+  },
+  ["sceneEffectSoundRandomMin"]= 60,
+  ["sceneEffectSoundRandomMix"]= 180,
+  ["SceneId"]= 8057,
+  ["SmallMapID"]= {
+    1520
+  }
+},
+[8058] = {
+  ["name"]= "SceneName1430",
+  ["resid"]= 37,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindForest"
+  },
+  ["SceneId"]= 8058,
+  ["SmallMapID"]= {
+    1430
+  }
+},
+[8059] = {
+  ["name"]= "SceneName1420",
+  ["resid"]= 36,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_ForestQuiet"
+  },
+  ["SceneId"]= 8059,
+  ["SmallMapID"]= {
+    1420
+  }
+},
+[8060] = {
+  ["name"]= "SceneName1440",
+  ["resid"]= 3,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_WindForest",
+    "SceneEffectRandom_Bird01"
+  },
+  ["sceneEffectSoundRandomMin"]= 9,
+  ["sceneEffectSoundRandomMix"]= 22,
+  ["SceneId"]= 8060,
+  ["SmallMapID"]= {
+    1440
+  }
+},
+[8061] = {
+  ["name"]= "SceneName1430",
+  ["resid"]= 37,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindForest"
+  },
+  ["SceneId"]= 8061,
+  ["SmallMapID"]= {
+    1430
+  }
+},
+[8062] = {
+  ["name"]= "SceneName1430",
+  ["resid"]= 37,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindForest"
+  },
+  ["SceneId"]= 8062,
+  ["SmallMapID"]= {
+    1430
+  }
+},
+[8063] = {
+  ["name"]= "SceneName1430",
+  ["resid"]= 37,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindForest"
+  },
+  ["SceneId"]= 8063,
+  ["SmallMapID"]= {
+    1430
+  }
+},
+[8064] = {
+  ["name"]= "SceneName1430",
+  ["resid"]= 37,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindForest"
+  },
+  ["SceneId"]= 8064,
+  ["SmallMapID"]= {
+    1430
+  }
+},
+[8065] = {
+  ["ifCanTeams"]= 0,
+  ["name"]= "SceneName1210",
+  ["resid"]= 37,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindForest"
+  },
+  ["SceneId"]= 8065,
+  ["SmallMapID"]= {
+    1210
+  }
+},
+[8066] = {
+  ["ifCanTeams"]= 0,
+  ["name"]= "SceneName1220",
+  ["resid"]= 37,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindForest"
+  },
+  ["SceneId"]= 8066,
+  ["SmallMapID"]= {
+    1220
+  }
+},
+[8067] = {
+  ["ifCanTeams"]= 0,
+  ["name"]= "SceneName1220",
+  ["resid"]= 37,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindForest"
+  },
+  ["SceneId"]= 8067,
+  ["SmallMapID"]= {
+    1220
+  }
+},
+[8068] = {
+  ["ifCanTeams"]= 0,
+  ["name"]= "SceneName1220",
+  ["resid"]= 37,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindForest"
+  },
+  ["SceneId"]= 8068,
+  ["SmallMapID"]= {
+    1220
+  }
+},
+[8069] = {
+  ["ifCanTeams"]= 0,
+  ["name"]= "SceneName1220",
+  ["resid"]= 37,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindForest"
+  },
+  ["SceneId"]= 8069,
+  ["SmallMapID"]= {
+    1220
+  }
+},
+[8070] = {
+  ["ifCanTeams"]= 0,
+  ["name"]= "SceneName1540",
+  ["resid"]= 1011,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindForest"
+  },
+  ["SceneId"]= 8070,
+  ["SmallMapID"]= {
+    1540
+  }
+},
+[8071] = {
+  ["ifCanTeams"]= 0,
+  ["name"]= "SceneName1240",
+  ["resid"]= 37,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindForest"
+  },
+  ["SceneId"]= 8071,
+  ["SmallMapID"]= {
+    1240
+  }
+},
+[8072] = {
+  ["ifCanTeams"]= 0,
+  ["name"]= "SceneName1270",
+  ["resid"]= 37,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindForest"
+  },
+  ["SceneId"]= 8072,
+  ["SmallMapID"]= {
+    1270
+  }
+},
+[8073] = {
+  ["ifCanTeams"]= 0,
+  ["name"]= "SceneName1270",
+  ["resid"]= 37,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindForest"
+  },
+  ["SceneId"]= 8073,
+  ["SmallMapID"]= {
+    1270
+  }
+},
+[8074] = {
+  ["ifCanTeams"]= 0,
+  ["name"]= "SceneName1260",
+  ["resid"]= 21,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_Bat",
+    "SceneEffectRandom_Owl"
+  },
+  ["SceneId"]= 8074,
+  ["SmallMapID"]= {
+    1260
+  }
+},
+[8075] = {
+  ["ifCanTeams"]= 0,
+  ["name"]= "SceneName1260",
+  ["resid"]= 21,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_Bat",
+    "SceneEffectRandom_Owl"
+  },
+  ["SceneId"]= 8075,
+  ["SmallMapID"]= {
+    1260
+  }
+},
+[8076] = {
+  ["ifCanTeams"]= 0,
+  ["name"]= "SceneName1260",
+  ["resid"]= 21,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_Bat",
+    "SceneEffectRandom_Owl"
+  },
+  ["SceneId"]= 8076,
+  ["SmallMapID"]= {
+    1260
+  }
+},
+[8077] = {
+  ["ifCanTeams"]= 0,
+  ["name"]= "SceneName1260",
+  ["resid"]= 21,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_Bat",
+    "SceneEffectRandom_Owl"
+  },
+  ["SceneId"]= 8077,
+  ["SmallMapID"]= {
+    1260
+  }
+},
+[8078] = {
+  ["name"]= "SceneName1230",
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_ForestQuiet"
+  },
+  ["SceneId"]= 8078,
+  ["SmallMapID"]= {
+    1230
+  }
+},
+[8079] = {
+  ["name"]= "SceneName1240",
+  ["resid"]= 35,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_WindForest",
+    "SceneEffectRandom_Owl"
+  },
+  ["sceneEffectSoundRandomMin"]= 12,
+  ["sceneEffectSoundRandomMix"]= 20,
+  ["SceneId"]= 8079,
+  ["SmallMapID"]= {
+    1240
+  }
+},
+[8080] = {
+  ["name"]= "SceneName1240",
+  ["resid"]= 35,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_WindForest",
+    "SceneEffectRandom_Owl"
+  },
+  ["sceneEffectSoundRandomMin"]= 12,
+  ["sceneEffectSoundRandomMix"]= 20,
+  ["SceneId"]= 8080,
+  ["SmallMapID"]= {
+    1240
+  }
+},
+[8081] = {
+  ["ifCanTeams"]= 0,
+  ["name"]= "SceneName1250",
+  ["resid"]= 21,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_ForestQuiet"
+  },
+  ["SceneId"]= 8081,
+  ["SmallMapID"]= {
+    1250
+  }
+},
+[8082] = {
+  ["resid"]= 12,
+  ["SceneId"]= 8082
+},
+[8083] = {
+  ["resid"]= 12,
+  ["SceneId"]= 8083
+},
+[8084] = {
+  ["name"]= "SceneName1430",
+  ["resid"]= 37,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindForest"
+  },
+  ["SceneId"]= 8084,
+  ["SmallMapID"]= {
+    1430
+  }
+},
+[8085] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1230",
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_ForestQuiet"
+  },
+  ["SceneId"]= 8085,
+  ["SmallMapID"]= {
+    1230
+  },
+  ["UnlockPerformance"]= 1
+},
+[8086] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1230",
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_ForestQuiet"
+  },
+  ["SceneId"]= 8086,
+  ["SmallMapID"]= {
+    1230
+  },
+  ["UnlockPerformance"]= 1
+},
+[8087] = {
+  ["name"]= "SceneName1210",
+  ["resid"]= 37,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindForest"
+  },
+  ["SceneId"]= 8087,
+  ["SmallMapID"]= {
+    1210
+  }
+},
+[8088] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1250",
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_ForestQuiet"
+  },
+  ["SceneId"]= 8088,
+  ["SmallMapID"]= {
+    1250
+  },
+  ["UnlockPerformance"]= 1
+},
+[8089] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1230",
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_ForestQuiet"
+  },
+  ["SceneId"]= 8089,
+  ["SmallMapID"]= {
+    1230
+  },
+  ["UnlockPerformance"]= 1
+},
+[8090] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1240",
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_ForestQuiet"
+  },
+  ["SceneId"]= 8090,
+  ["SmallMapID"]= {
+    1240
+  },
+  ["UnlockPerformance"]= 1
+},
+[8091] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1320",
+  ["resid"]= 24,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_DesertBird",
+    "SceneEffectRandom_DesertAw"
+  },
+  ["sceneEffectSoundRandomMin"]= 15,
+  ["sceneEffectSoundRandomMix"]= 25,
+  ["SceneId"]= 8091,
+  ["SmallMapID"]= {
+    1320
+  },
+  ["UnlockPerformance"]= 1
+},
+[8092] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1320",
+  ["resid"]= 24,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_DesertBird",
+    "SceneEffectRandom_DesertAw"
+  },
+  ["sceneEffectSoundRandomMin"]= 15,
+  ["sceneEffectSoundRandomMix"]= 25,
+  ["SceneId"]= 8092,
+  ["SmallMapID"]= {
+    1320
+  },
+  ["UnlockPerformance"]= 1
+},
+[8093] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1320",
+  ["resid"]= 24,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_DesertBird",
+    "SceneEffectRandom_DesertAw"
+  },
+  ["sceneEffectSoundRandomMin"]= 15,
+  ["sceneEffectSoundRandomMix"]= 25,
+  ["SceneId"]= 8093,
+  ["SmallMapID"]= {
+    1320
+  },
+  ["UnlockPerformance"]= 1
+},
+[8094] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1350",
+  ["resid"]= 24,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_DesertBird",
+    "SceneEffectRandom_DesertAw"
+  },
+  ["sceneEffectSoundRandomMin"]= 15,
+  ["sceneEffectSoundRandomMix"]= 25,
+  ["SceneId"]= 8094,
+  ["SmallMapID"]= {
+    1320
+  },
+  ["UnlockPerformance"]= 1
+},
+[8095] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1350",
+  ["resid"]= 24,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_DesertBird",
+    "SceneEffectRandom_DesertAw"
+  },
+  ["sceneEffectSoundRandomMin"]= 15,
+  ["sceneEffectSoundRandomMix"]= 25,
+  ["SceneId"]= 8095,
+  ["SmallMapID"]= {
+    1320
+  },
+  ["UnlockPerformance"]= 1
+},
+[8096] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1310",
+  ["resid"]= 24,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_DesertBird",
+    "SceneEffectRandom_DesertAw"
+  },
+  ["sceneEffectSoundRandomMin"]= 15,
+  ["sceneEffectSoundRandomMix"]= 25,
+  ["SceneId"]= 8096,
+  ["SmallMapID"]= {
+    1320
+  },
+  ["UnlockPerformance"]= 1
+},
+[8097] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1310",
+  ["resid"]= 24,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_DesertBird",
+    "SceneEffectRandom_DesertAw"
+  },
+  ["sceneEffectSoundRandomMin"]= 15,
+  ["sceneEffectSoundRandomMix"]= 25,
+  ["SceneId"]= 8097,
+  ["SmallMapID"]= {
+    1320
+  },
+  ["UnlockPerformance"]= 1
+},
+[8098] = {
+  ["name"]= "SceneName1260",
+  ["resid"]= 21,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_Bat",
+    "SceneEffectRandom_Owl"
+  },
+  ["sceneEffectSoundRandomMin"]= 9,
+  ["sceneEffectSoundRandomMix"]= 18,
+  ["SceneId"]= 8098,
+  ["SmallMapID"]= {
+    1260
+  }
+},
+[8099] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1230",
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_ForestQuiet"
+  },
+  ["SceneId"]= 8099,
+  ["SmallMapID"]= {
+    1230
+  },
+  ["UnlockPerformance"]= 1
+},
+[8100] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1030",
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_ForestQuiet"
+  },
+  ["SceneId"]= 8100,
+  ["SmallMapID"]= {
+    1030
+  },
+  ["UnlockPerformance"]= 1
+},
+[8101] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1010",
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_ForestQuiet"
+  },
+  ["SceneId"]= 8101,
+  ["SmallMapID"]= {
+    1010
+  },
+  ["UnlockPerformance"]= 1
+},
+[8102] = {
+  ["IsFollow"]= 1,
+  ["IsPvpPrepare"]= 1,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1010",
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_ForestQuiet"
+  },
+  ["SceneId"]= 8102,
+  ["SmallMapID"]= {
+    1010
+  },
+  ["UnlockPerformance"]= 1
+},
+[8103] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1610",
+  ["resid"]= 42,
+  ["SceneId"]= 8103,
+  ["SmallMapID"]= {
+    1610
+  },
+  ["UnlockPerformance"]= 1
+},
+[8104] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1630",
+  ["resid"]= 48,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveDeep"
+  },
+  ["SceneId"]= 8104,
+  ["SmallMapID"]= {
+    1630
+  }
+},
+[8105] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1660",
+  ["resid"]= 40,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_Bat",
+    "SceneEffectRandom_Owl",
+    "SceneEffectRandom_Bird02"
+  },
+  ["sceneEffectSoundRandomMin"]= 9,
+  ["sceneEffectSoundRandomMix"]= 18,
+  ["SceneId"]= 8105,
+  ["SmallMapID"]= {
+    1660
+  }
+},
+[8106] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1660",
+  ["resid"]= 40,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_Bat",
+    "SceneEffectRandom_Owl",
+    "SceneEffectRandom_Bird02"
+  },
+  ["sceneEffectSoundRandomMin"]= 9,
+  ["sceneEffectSoundRandomMix"]= 18,
+  ["SceneId"]= 8106,
+  ["SmallMapID"]= {
+    1660
+  }
+},
+[8107] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1660",
+  ["resid"]= 40,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_Bat",
+    "SceneEffectRandom_Owl",
+    "SceneEffectRandom_Bird02"
+  },
+  ["sceneEffectSoundRandomMin"]= 9,
+  ["sceneEffectSoundRandomMix"]= 18,
+  ["SceneId"]= 8107,
+  ["SmallMapID"]= {
+    1660
+  }
+},
+[8108] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1620",
+  ["resid"]= 48,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindCave"
+  },
+  ["SceneId"]= 8108,
+  ["SmallMapID"]= {
+    1620
+  }
+},
+[8109] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1610",
+  ["resid"]= 42,
+  ["SceneId"]= 8109,
+  ["SmallMapID"]= {
+    1610
+  },
+  ["UnlockPerformance"]= 1
+},
+[8888] = {
+  ["bgtype"]= 3,
+  ["name"]= "SceneName1110",
+  ["resid"]= 26,
+  ["RevivePattern"]= 5,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_Seagull01",
+    "SceneEffectRandom_Seagull02",
+    "SceneEffectRandom_Seagull03"
+  },
+  ["sceneEffectSoundRandomMin"]= 8,
+  ["sceneEffectSoundRandomMix"]= 25,
+  ["SceneId"]= 8888,
+  ["SmallMapID"]= {
+    1110
+  }
+},
+[8900] = {
+  ["name"]= "SceneName1430",
+  ["resid"]= 37,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_WindForest"
+  },
+  ["SceneId"]= 8900,
+  ["SmallMapID"]= {
+    1430
+  }
+},
+[8901] = {
+  ["name"]= "SceneName1280",
+  ["resid"]= 27,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveDeep"
+  },
+  ["SceneId"]= 8901,
+  ["SmallMapID"]= {
+    1280
+  }
+},
+[8902] = {
+  ["name"]= "SceneName1280",
+  ["resid"]= 27,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveDeep"
+  },
+  ["SceneId"]= 8902,
+  ["SmallMapID"]= {
+    1280
+  }
+},
+[8903] = {
+  ["name"]= "SceneName1280",
+  ["resid"]= 27,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveDeep"
+  },
+  ["SceneId"]= 8903,
+  ["SmallMapID"]= {
+    1280
+  }
+},
+[8904] = {
+  ["name"]= "SceneName1280",
+  ["resid"]= 27,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveDeep"
+  },
+  ["SceneId"]= 8904,
+  ["SmallMapID"]= {
+    1280
+  }
+},
+[8905] = {
+  ["name"]= "SceneName1360",
+  ["resid"]= 38,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveDry"
+  },
+  ["SceneId"]= 8905,
+  ["SmallMapID"]= {
+    1360
+  }
+},
+[8906] = {
+  ["name"]= "SceneName1360",
+  ["resid"]= 38,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectLoop_CaveDry"
+  },
+  ["SceneId"]= 8906,
+  ["SmallMapID"]= {
+    1360
+  }
+},
+[8907] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1710",
+  ["resid"]= 39,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_Seagull01",
+    "SceneEffectRandom_Seagull02",
+    "SceneEffectRandom_Seagull03"
+  },
+  ["sceneEffectSoundRandomMin"]= 15,
+  ["sceneEffectSoundRandomMix"]= 25,
+  ["SceneId"]= 8907,
+  ["SmallMapID"]= {
+    1710
+  },
+  ["UnlockPerformance"]= 1
+},
+[8908] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsPvpPrepare"]= 1,
+  ["isShowExit"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1710",
+  ["resid"]= 39,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_Seagull01",
+    "SceneEffectRandom_Seagull02",
+    "SceneEffectRandom_Seagull03"
+  },
+  ["sceneEffectSoundRandomMin"]= 15,
+  ["sceneEffectSoundRandomMix"]= 25,
+  ["SceneId"]= 8908,
+  ["SmallMapID"]= {
+    1710
+  },
+  ["UnlockPerformance"]= 1
+},
+[8910] = {
+  ["name"]= "SceneName1010",
+  ["resid"]= 1011,
+  ["SceneId"]= 8910,
+  ["SmallMapID"]= {
+    1010
+  }
+},
+[8911] = {
+  ["name"]= "SceneName8911",
+  ["resid"]= 10,
+  ["SceneId"]= 8911,
+  ["SmallMapID"]= {
+    8911
+  }
+},
+[8912] = {
+  ["canEnterOtherInstance"]= 0,
+  ["ignoreClientAOI"]= 1,
+  ["miniGameID"]= 1,
+  ["name"]= "SceneName8911",
+  ["resid"]= 2019,
+  ["SceneId"]= 8912,
+  ["SmallMapID"]= {
+    8911
+  }
+},
+[8913] = {
+  ["canEnterOtherInstance"]= 0,
+  ["miniGameID"]= 2,
+  ["name"]= "SceneName8911",
+  ["resid"]= 89001,
+  ["SceneId"]= 8913,
+  ["SmallMapID"]= {
+    8911
+  }
+},
+[8915] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1610",
+  ["resid"]= 42,
+  ["SceneId"]= 8915,
+  ["SmallMapID"]= {
+    1610
+  },
+  ["UnlockPerformance"]= 1
+},
+[8916] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1610",
+  ["resid"]= 42,
+  ["SceneId"]= 8916,
+  ["SmallMapID"]= {
+    1610
+  },
+  ["UnlockPerformance"]= 1
+},
+[8917] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1610",
+  ["resid"]= 42,
+  ["SceneId"]= 8917,
+  ["SmallMapID"]= {
+    1610
+  },
+  ["UnlockPerformance"]= 1
+},
+[8918] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1610",
+  ["resid"]= 42,
+  ["SceneId"]= 8918,
+  ["SmallMapID"]= {
+    1610
+  },
+  ["UnlockPerformance"]= 1
+},
+[8919] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1630",
+  ["resid"]= 42,
+  ["SceneId"]= 8919,
+  ["SmallMapID"]= {
+    1630
+  },
+  ["UnlockPerformance"]= 1
+},
+[8920] = {
+  ["IsCoupleActionDisable"]= 0,
+  ["IsFollow"]= 1,
+  ["IsMultiMountDisable"]= 0,
+  ["IsStall"]= 1,
+  ["name"]= "SceneName1630",
+  ["resid"]= 42,
+  ["SceneId"]= 8920,
+  ["SmallMapID"]= {
+    1630
+  },
+  ["UnlockPerformance"]= 1
+},
+[9995] = {
+  ["bgtype"]= 2,
+  ["enName"]= "en_InstanceName2",
+  ["icon"]= "Img_Immortal",
+  ["instanceBattleBgm"]= {
+    2001,
+    2002,
+    2003
+  },
+  ["instanceDescription"]= "InstanceDescription2",
+  ["instanceVictoryBgm"]= 2000,
+  ["isDungeon"]= 1,
+  ["IsFollow"]= 1,
+  ["location"]= 1,
+  ["name"]= "SceneName2020",
+  ["resid"]= 17,
+  ["RevivePattern"]= 4,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffect_ShipWood"
+  },
+  ["SceneId"]= 9995,
+  ["SmallMapID"]= {
+    2020
+  }
+},
+[9996] = {
+  ["bgtype"]= 0,
+  ["name"]= "SceneName1110",
+  ["resid"]= 26,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_Seagull01",
+    "SceneEffectRandom_Seagull02",
+    "SceneEffectRandom_Seagull03"
+  },
+  ["sceneEffectSoundRandomMin"]= 8,
+  ["sceneEffectSoundRandomMix"]= 25,
+  ["SceneId"]= 9996,
+  ["SmallMapID"]= {
+    1110
+  },
+  ["tipslist"]= {}
+},
+[9997] = {
+  ["bgtype"]= 0,
+  ["name"]= "SceneName1110",
+  ["resid"]= 26,
+  ["RevivePattern"]= 5,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_Seagull01",
+    "SceneEffectRandom_Seagull02",
+    "SceneEffectRandom_Seagull03"
+  },
+  ["sceneEffectSoundRandomMin"]= 8,
+  ["sceneEffectSoundRandomMix"]= 25,
+  ["SceneId"]= 9997,
+  ["SmallMapID"]= {
+    1110
+  },
+  ["tipslist"]= {}
+},
+[9998] = {
+  ["bgtype"]= 3,
+  ["name"]= "SceneName1110",
+  ["resid"]= 26,
+  ["RevivePattern"]= 5,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_Seagull01",
+    "SceneEffectRandom_Seagull02",
+    "SceneEffectRandom_Seagull03"
+  },
+  ["sceneEffectSoundRandomMin"]= 8,
+  ["sceneEffectSoundRandomMix"]= 25,
+  ["SceneId"]= 9998,
+  ["SmallMapID"]= {
+    1110
+  }
+},
+[9999] = {
+  ["bgtype"]= 3,
+  ["canEnterOtherInstance"]= 0,
+  ["name"]= "SceneName1110",
+  ["resid"]= 26,
+  ["RevivePattern"]= 5,
+  ["sceneEffectSoundLoop"]= {
+    "SceneEffectRandom_Seagull01",
+    "SceneEffectRandom_Seagull02",
+    "SceneEffectRandom_Seagull03"
+  },
+  ["sceneEffectSoundRandomMin"]= 8,
+  ["sceneEffectSoundRandomMix"]= 25,
+  ["SceneId"]= 9999,
+  ["SmallMapID"]= {
+    1110
+  }
+}
+}
+local baseTable={
+  ["announcementlist"]= {},
+  ["attackerTips"]= "",
+  ["AutoBattleCleanTargetOutOffAOI"]= 0,
+  ["AutoBattleShowRoleTarget"]= 0,
+  ["bgtype"]= 17,
+  ["canEnterOtherInstance"]= 1,
+  ["conditionId"]= {},
+  ["deathExpulsion"]= 0,
+  ["defenseTips"]= "",
+  ["Distance1"]= {
+    10,
+    30,
+    60
+  },
+  ["Distance2"]= {
+    20,
+    40,
+    70
+  },
+  ["Distance3"]= {
+    20,
+    40,
+    70
+  },
+  ["Distance4"]= {
+    35,
+    55,
+    80
+  },
+  ["enName"]= "",
+  ["entryAreaIds"]= {
+    0
+  },
+  ["gvgPointId"]= 0,
+  ["hosttileRed"]= 0,
+  ["hurtNumRange"]= 0,
+  ["icon"]= "",
+  ["ifCanTeams"]= 1,
+  ["IfShowRevive"]= 1,
+  ["ignoreClientAOI"]= 0,
+  ["instanceBattleBgm"]= {},
+  ["instanceDescription"]= "",
+  ["instanceFailBgm"]= 0,
+  ["instanceVictoryBgm"]= 0,
+  ["IsCoupleActionDisable"]= 1,
+  ["isCrossService"]= 0,
+  ["isDungeon"]= 0,
+  ["IsFollow"]= 0,
+  ["isFollowPathfinding"]= 1,
+  ["IsGateUseSceneId"]= 0,
+  ["IsMultiMountDisable"]= 1,
+  ["isPlane"]= 0,
+  ["IsPvpPrepare"]= 0,
+  ["isShowExit"]= 1,
+  ["IsStall"]= 0,
+  ["location"]= 0,
+  ["miniGameID"]= 0,
+  ["monsterAOISize"]= 0,
+  ["name"]= "SceneName1020",
+  ["PetVitality"]= 1,
+  ["planeY"]= 0,
+  ["resid"]= 25,
+  ["reviveLeaf"]= 10202024,
+  ["RevivePattern"]= 1,
+  ["sceneEffectSoundLoop"]= {},
+  ["sceneEffectSoundRandomMin"]= 0,
+  ["sceneEffectSoundRandomMix"]= 0,
+  ["SceneId"]= 1000,
+  ["SceneMapIconMode"]= 1,
+  ["showEnemyPlayerUi"]= 0,
+  ["skilldisable"]= {
+    0
+  },
+  ["SmallMapID"]= {
+    1020
+  },
+  ["soundValue"]= 0.4,
+  ["tacticalGuidance"]= 0,
+  ["teleportSpecialOpt"]= 0,
+  ["tipslist"]= {
+    1
+  },
+  ["UnlockPerformance"]= 0
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

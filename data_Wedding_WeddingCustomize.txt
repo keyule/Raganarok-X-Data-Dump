@@ -1,0 +1,62 @@
+TextAsset Base
+	string m_Name = "data_Wedding_WeddingCustomize"
+	string m_Script = "local table= {
+[10001] = {},
+[10002] = {
+  ["TeleportNpc"]= 10101001,
+  ["TeleportNpcSceneId"]= 1020,
+  ["WeddingEndDialogue"]= "WeddingDiologue1000102,WeddingDiologue1000103,WeddingDiologue1000104,WeddingDiologue1000105,WeddingDiologue1000106,WeddingDiologue1000107,WeddingDiologue1000108,WeddingDiologue1000109,WeddingDiologue1000111",
+  ["WeddingPrepareDialogue"]= "WeddingDiologue1000102,WeddingDiologue1000103,WeddingDiologue1000104,WeddingDiologue1000105,WeddingDiologue1000106,WeddingDiologue1000107,WeddingDiologue1000108,WeddingDiologue1000109,WeddingDiologue1000111",
+  ["WeddingSceneId"]= 1010,
+  ["WeddingType"]= 10002
+},
+[10003] = {
+  ["TeleportNpc"]= 10101002,
+  ["TeleportNpcSceneId"]= 1030,
+  ["WeddingEndDialogue"]= "WeddingDiologue1000102,WeddingDiologue1000103,WeddingDiologue1000104,WeddingDiologue1000105,WeddingDiologue1000106,WeddingDiologue1000107,WeddingDiologue1000108,WeddingDiologue1000109,WeddingDiologue1000112",
+  ["WeddingPrepareDialogue"]= "WeddingDiologue1000102,WeddingDiologue1000103,WeddingDiologue1000104,WeddingDiologue1000105,WeddingDiologue1000106,WeddingDiologue1000107,WeddingDiologue1000108,WeddingDiologue1000109,WeddingDiologue1000112",
+  ["WeddingSceneId"]= 1020,
+  ["WeddingType"]= 10003
+},
+[10004] = {
+  ["TeleportNpc"]= 10101003,
+  ["TeleportNpcSceneId"]= 1040,
+  ["WeddingEndDialogue"]= "WeddingDiologue1000102,WeddingDiologue1000103,WeddingDiologue1000104,WeddingDiologue1000105,WeddingDiologue1000106,WeddingDiologue1000107,WeddingDiologue1000108,WeddingDiologue1000109,WeddingDiologue1000113",
+  ["WeddingPrepareDialogue"]= "WeddingDiologue1000102,WeddingDiologue1000103,WeddingDiologue1000104,WeddingDiologue1000105,WeddingDiologue1000106,WeddingDiologue1000107,WeddingDiologue1000108,WeddingDiologue1000109,WeddingDiologue1000113",
+  ["WeddingSceneId"]= 1030,
+  ["WeddingType"]= 10004
+}
+}
+local baseTable={
+  ["BridesmaidNpcModel"]= {
+    43,
+    44,
+    45,
+    46
+  },
+  ["DialogueTime"]= 15,
+  ["GroomsmenNpcModel"]= {
+    39,
+    40,
+    41,
+    42
+  },
+  ["TeleportNpc"]= 10101060,
+  ["TeleportNpcSceneId"]= 1010,
+  ["WeddingEndDialogue"]= "WeddingDiologue1000102,WeddingDiologue1000103,WeddingDiologue1000104,WeddingDiologue1000105,WeddingDiologue1000106,WeddingDiologue1000107,WeddingDiologue1000108,WeddingDiologue1000109,WeddingDiologue1000110",
+  ["WeddingFailDialogue"]= "WeddingDiologue1000101",
+  ["WeddingPrepareDialogue"]= "WeddingDiologue1000102,WeddingDiologue1000103,WeddingDiologue1000104,WeddingDiologue1000105,WeddingDiologue1000106,WeddingDiologue1000107,WeddingDiologue1000108,WeddingDiologue1000109,WeddingDiologue1000110",
+  ["WeddingSceneId"]= 3040,
+  ["WeddingTimelineId"]= {
+    71110,
+    71111,
+    71112
+  },
+  ["WeddingType"]= 10001,
+  ["WeddingVideo"]= "10001.mp4",
+  ["WeddingVideoBgm"]= "Audio/Effect/Misc/LowHP"
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

@@ -1,0 +1,51 @@
+TextAsset Base
+	string m_Name = "data_BackSoundEffects_BackSoundEffects"
+	string m_Script = "local table= {
+[4101138] = {},
+[4101139] = {
+  ["backID"]= 4101139,
+  ["desc"]= "缠人小鬼",
+  ["id"]= 4101139,
+  ["soundID"]= 10005
+},
+[4107009] = {
+  ["backID"]= 4107009,
+  ["desc"]= "侦测机",
+  ["id"]= 4107009,
+  ["soundID"]= 10001
+},
+[4107010] = {
+  ["backID"]= 4107010,
+  ["desc"]= "白昼魔术花篮",
+  ["id"]= 4107010,
+  ["soundID"]= 10007
+},
+[4107017] = {
+  ["backID"]= 4107017,
+  ["desc"]= "万圣节幽魂",
+  ["id"]= 4107017,
+  ["soundID"]= 10006
+},
+[4107019] = {
+  ["backID"]= 4107019,
+  ["desc"]= "伞花篮",
+  ["id"]= 4107019,
+  ["soundID"]= 10002
+},
+[4107022] = {
+  ["backID"]= 4107022,
+  ["desc"]= "年兽宝宝",
+  ["id"]= 4107022,
+  ["soundID"]= 10003
+}
+}
+local baseTable={
+  ["backID"]= 4101138,
+  ["desc"]= "冰雪小天使",
+  ["id"]= 4101138,
+  ["soundID"]= 10004
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

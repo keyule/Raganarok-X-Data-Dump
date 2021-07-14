@@ -1,0 +1,34 @@
+TextAsset Base
+	string m_Name = "data_lifeSkill_LifeAct"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["ActId"]= {
+    23,
+    24,
+    25,
+    29
+  },
+  ["id"]= 2
+},
+[3] = {
+  ["ActId"]= {
+    27,
+    28
+  },
+  ["id"]= 3
+}
+}
+local baseTable={
+  ["ActId"]= {
+    11,
+    12,
+    13,
+    14
+  },
+  ["id"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

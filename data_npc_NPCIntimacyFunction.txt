@@ -1,0 +1,1307 @@
+TextAsset Base
+	string m_Name = "data_npc_NPCIntimacyFunction"
+	string m_Script = "local table= {
+[1] = {
+  ["BuffDescArgs"]= {
+    0
+  },
+  ["functionname"]= "",
+  ["functiontype"]= {
+    0
+  },
+  ["type"]= 1
+},
+[2] = {
+  ["BuffDescArgs"]= {
+    0
+  },
+  ["functionname"]= "",
+  ["functiontype"]= {
+    0
+  },
+  ["id"]= 2,
+  ["type"]= 2
+},
+[3] = {
+  ["BuffDescArgs"]= {
+    0
+  },
+  ["functionname"]= "",
+  ["functiontype"]= {
+    0
+  },
+  ["id"]= 3,
+  ["type"]= 3
+},
+[4] = {
+  ["BuffDescArgs"]= {
+    0
+  },
+  ["functionname"]= "",
+  ["functiontype"]= {
+    0
+  },
+  ["id"]= 4,
+  ["type"]= 4
+},
+[5] = {
+  ["BuffDescArgs"]= {
+    0
+  },
+  ["functionname"]= "",
+  ["functiontype"]= {
+    0
+  },
+  ["id"]= 5,
+  ["type"]= 5
+},
+[6] = {
+  ["BuffDescArgs"]= {
+    0
+  },
+  ["functionname"]= "",
+  ["functiontype"]= {
+    0
+  },
+  ["id"]= 6,
+  ["type"]= 6
+},
+[7] = {
+  ["BuffDescArgs"]= {
+    0
+  },
+  ["functionname"]= "",
+  ["functiontype"]= {
+    0
+  },
+  ["id"]= 7,
+  ["type"]= 7
+},
+[8] = {
+  ["BuffDescArgs"]= {
+    0
+  },
+  ["functionname"]= "",
+  ["functiontype"]= {
+    0
+  },
+  ["id"]= 8,
+  ["type"]= 8
+},
+[9] = {
+  ["BuffDescArgs"]= {
+    0
+  },
+  ["functionname"]= "",
+  ["functiontype"]= {
+    0
+  },
+  ["id"]= 9,
+  ["type"]= 9
+},
+[10] = {
+  ["function"]= {
+    8002
+  },
+  ["functionname"]= "IntimacyFunctionName8002",
+  ["functiontype"]= {
+    1
+  },
+  ["id"]= 10,
+  ["type"]= 10
+},
+[11] = {
+  ["BuffDescArgs"]= {
+    0
+  },
+  ["functionname"]= "",
+  ["functiontype"]= {
+    0
+  },
+  ["id"]= 11,
+  ["type"]= 11
+},
+[12] = {
+  ["BuffDescArgs"]= {
+    0
+  },
+  ["functionname"]= "",
+  ["functiontype"]= {
+    0
+  },
+  ["id"]= 12,
+  ["type"]= 12
+},
+[13] = {
+  ["function"]= {
+    8001,
+    25
+  },
+  ["functionname"]= "IntimacyFunctionName8001",
+  ["functiontype"]= {
+    1,
+    3
+  },
+  ["id"]= 13,
+  ["type"]= 13
+},
+[14] = {
+  ["function"]= {
+    8101,
+    25,
+    1,
+    1
+  },
+  ["id"]= 14
+},
+[15] = {
+  ["function"]= {
+    8102,
+    1,
+    1
+  },
+  ["functionname"]= "IntimacyFunctionName8103",
+  ["functiontype"]= {
+    1,
+    5,
+    4
+  },
+  ["id"]= 15,
+  ["type"]= 16
+},
+[16] = {
+  ["function"]= {
+    8103,
+    25,
+    1,
+    3
+  },
+  ["id"]= 16
+},
+[17] = {
+  ["BuffDescArgs"]= {
+    0
+  },
+  ["function"]= {
+    60
+  },
+  ["functionname"]= "",
+  ["functiontype"]= {
+    0
+  },
+  ["id"]= 17,
+  ["type"]= 17
+},
+[18] = {
+  ["BuffDescArgs"]= {
+    0
+  },
+  ["function"]= {
+    30
+  },
+  ["functionname"]= "",
+  ["functiontype"]= {
+    0
+  },
+  ["id"]= 18,
+  ["type"]= 17
+},
+[19] = {
+  ["BuffDescArgs"]= {
+    0
+  },
+  ["function"]= {
+    10
+  },
+  ["functionname"]= "",
+  ["functiontype"]= {
+    0
+  },
+  ["id"]= 19,
+  ["type"]= 17
+},
+[20] = {
+  ["BuffDescArgs"]= {
+    0
+  },
+  ["function"]= {
+    5
+  },
+  ["functionname"]= "",
+  ["functiontype"]= {
+    2
+  },
+  ["id"]= 20,
+  ["type"]= 18
+},
+[21] = {
+  ["BuffDescArgs"]= {
+    0
+  },
+  ["function"]= {
+    10,
+    2
+  },
+  ["functionname"]= "",
+  ["functiontype"]= {
+    0
+  },
+  ["id"]= 21,
+  ["type"]= 19
+},
+[22] = {
+  ["BuffDescArgs"]= {
+    0
+  },
+  ["functionname"]= "",
+  ["functiontype"]= {
+    0
+  },
+  ["id"]= 22,
+  ["type"]= 20
+},
+[23] = {
+  ["function"]= {
+    8003,
+    25
+  },
+  ["functionname"]= "IntimacyFunctionName8001",
+  ["functiontype"]= {
+    1,
+    3
+  },
+  ["id"]= 23,
+  ["type"]= 13
+},
+[24] = {
+  ["function"]= {
+    8004
+  },
+  ["functionname"]= "IntimacyFunctionName8002",
+  ["functiontype"]= {
+    1
+  },
+  ["id"]= 24,
+  ["type"]= 10
+},
+[25] = {
+  ["function"]= {
+    8005,
+    25
+  },
+  ["functionname"]= "IntimacyFunctionName8001",
+  ["functiontype"]= {
+    1,
+    3
+  },
+  ["id"]= 25,
+  ["type"]= 13
+},
+[26] = {
+  ["function"]= {
+    8006
+  },
+  ["functionname"]= "IntimacyFunctionName8002",
+  ["functiontype"]= {
+    1
+  },
+  ["id"]= 26,
+  ["type"]= 10
+},
+[27] = {
+  ["function"]= {
+    8007,
+    25
+  },
+  ["functionname"]= "IntimacyFunctionName8001",
+  ["functiontype"]= {
+    1,
+    3
+  },
+  ["id"]= 27,
+  ["type"]= 13
+},
+[28] = {
+  ["function"]= {
+    8008
+  },
+  ["functionname"]= "IntimacyFunctionName8002",
+  ["functiontype"]= {
+    1
+  },
+  ["id"]= 28,
+  ["type"]= 10
+},
+[29] = {
+  ["function"]= {
+    8009,
+    25
+  },
+  ["functionname"]= "IntimacyFunctionName8001",
+  ["functiontype"]= {
+    1,
+    3
+  },
+  ["id"]= 29,
+  ["type"]= 13
+},
+[30] = {
+  ["function"]= {
+    8010
+  },
+  ["functionname"]= "IntimacyFunctionName8002",
+  ["functiontype"]= {
+    1
+  },
+  ["id"]= 30,
+  ["type"]= 10
+},
+[31] = {
+  ["function"]= {
+    8011,
+    25
+  },
+  ["functionname"]= "IntimacyFunctionName8001",
+  ["functiontype"]= {
+    1,
+    3
+  },
+  ["id"]= 31,
+  ["type"]= 13
+},
+[32] = {
+  ["function"]= {
+    8012
+  },
+  ["functionname"]= "IntimacyFunctionName8002",
+  ["functiontype"]= {
+    1
+  },
+  ["id"]= 32,
+  ["type"]= 10
+},
+[33] = {
+  ["function"]= {
+    8013,
+    25
+  },
+  ["functionname"]= "IntimacyFunctionName8001",
+  ["functiontype"]= {
+    1,
+    3
+  },
+  ["id"]= 33,
+  ["type"]= 13
+},
+[34] = {
+  ["function"]= {
+    8014
+  },
+  ["functionname"]= "IntimacyFunctionName8002",
+  ["functiontype"]= {
+    1
+  },
+  ["id"]= 34,
+  ["type"]= 10
+},
+[35] = {
+  ["function"]= {
+    8015,
+    25
+  },
+  ["functionname"]= "IntimacyFunctionName8001",
+  ["functiontype"]= {
+    1,
+    3
+  },
+  ["id"]= 35,
+  ["type"]= 13
+},
+[36] = {
+  ["function"]= {
+    8016
+  },
+  ["functionname"]= "IntimacyFunctionName8002",
+  ["functiontype"]= {
+    1
+  },
+  ["id"]= 36,
+  ["type"]= 10
+},
+[37] = {
+  ["function"]= {
+    8017,
+    25
+  },
+  ["functionname"]= "IntimacyFunctionName8001",
+  ["functiontype"]= {
+    1,
+    3
+  },
+  ["id"]= 37,
+  ["type"]= 13
+},
+[38] = {
+  ["function"]= {
+    8018
+  },
+  ["functionname"]= "IntimacyFunctionName8002",
+  ["functiontype"]= {
+    1
+  },
+  ["id"]= 38,
+  ["type"]= 10
+},
+[39] = {
+  ["function"]= {
+    8019,
+    25
+  },
+  ["functionname"]= "IntimacyFunctionName8001",
+  ["functiontype"]= {
+    1,
+    3
+  },
+  ["id"]= 39,
+  ["type"]= 13
+},
+[40] = {
+  ["function"]= {
+    8020
+  },
+  ["functionname"]= "IntimacyFunctionName8002",
+  ["functiontype"]= {
+    1
+  },
+  ["id"]= 40,
+  ["type"]= 10
+},
+[41] = {
+  ["function"]= {
+    8021,
+    25
+  },
+  ["functionname"]= "IntimacyFunctionName8001",
+  ["functiontype"]= {
+    1,
+    3
+  },
+  ["id"]= 41,
+  ["type"]= 13
+},
+[42] = {
+  ["function"]= {
+    8022
+  },
+  ["functionname"]= "IntimacyFunctionName8002",
+  ["functiontype"]= {
+    1
+  },
+  ["id"]= 42,
+  ["type"]= 10
+},
+[43] = {
+  ["function"]= {
+    8023,
+    25
+  },
+  ["functionname"]= "IntimacyFunctionName8001",
+  ["functiontype"]= {
+    1,
+    3
+  },
+  ["id"]= 43,
+  ["type"]= 13
+},
+[44] = {
+  ["function"]= {
+    8024
+  },
+  ["functionname"]= "IntimacyFunctionName8002",
+  ["functiontype"]= {
+    1
+  },
+  ["id"]= 44,
+  ["type"]= 10
+},
+[45] = {
+  ["function"]= {
+    8025,
+    25
+  },
+  ["functionname"]= "IntimacyFunctionName8001",
+  ["functiontype"]= {
+    1,
+    3
+  },
+  ["id"]= 45,
+  ["type"]= 13
+},
+[46] = {
+  ["function"]= {
+    8026
+  },
+  ["functionname"]= "IntimacyFunctionName8002",
+  ["functiontype"]= {
+    1
+  },
+  ["id"]= 46,
+  ["type"]= 10
+},
+[47] = {
+  ["function"]= {
+    8027,
+    25
+  },
+  ["functionname"]= "IntimacyFunctionName8001",
+  ["functiontype"]= {
+    1,
+    3
+  },
+  ["id"]= 47,
+  ["type"]= 13
+},
+[48] = {
+  ["function"]= {
+    8028
+  },
+  ["functionname"]= "IntimacyFunctionName8002",
+  ["functiontype"]= {
+    1
+  },
+  ["id"]= 48,
+  ["type"]= 10
+},
+[49] = {
+  ["function"]= {
+    8029,
+    25
+  },
+  ["functionname"]= "IntimacyFunctionName8001",
+  ["functiontype"]= {
+    1,
+    3
+  },
+  ["id"]= 49,
+  ["type"]= 13
+},
+[50] = {
+  ["function"]= {
+    8030
+  },
+  ["functionname"]= "IntimacyFunctionName8002",
+  ["functiontype"]= {
+    1
+  },
+  ["id"]= 50,
+  ["type"]= 10
+},
+[51] = {
+  ["function"]= {
+    8031,
+    25
+  },
+  ["functionname"]= "IntimacyFunctionName8001",
+  ["functiontype"]= {
+    1,
+    3
+  },
+  ["id"]= 51,
+  ["type"]= 13
+},
+[52] = {
+  ["function"]= {
+    8032
+  },
+  ["functionname"]= "IntimacyFunctionName8002",
+  ["functiontype"]= {
+    1
+  },
+  ["id"]= 52,
+  ["type"]= 10
+},
+[53] = {
+  ["function"]= {
+    8033,
+    25
+  },
+  ["functionname"]= "IntimacyFunctionName8001",
+  ["functiontype"]= {
+    1,
+    3
+  },
+  ["id"]= 53,
+  ["type"]= 13
+},
+[54] = {
+  ["function"]= {
+    8034
+  },
+  ["functionname"]= "IntimacyFunctionName8002",
+  ["functiontype"]= {
+    1
+  },
+  ["id"]= 54,
+  ["type"]= 10
+},
+[55] = {
+  ["function"]= {
+    8035,
+    25
+  },
+  ["functionname"]= "IntimacyFunctionName8001",
+  ["functiontype"]= {
+    1,
+    3
+  },
+  ["id"]= 55,
+  ["type"]= 13
+},
+[56] = {
+  ["function"]= {
+    8036
+  },
+  ["functionname"]= "IntimacyFunctionName8002",
+  ["functiontype"]= {
+    1
+  },
+  ["id"]= 56,
+  ["type"]= 10
+},
+[57] = {
+  ["function"]= {
+    8104,
+    1,
+    3
+  },
+  ["functionname"]= "IntimacyFunctionName8103",
+  ["functiontype"]= {
+    1,
+    5,
+    4
+  },
+  ["id"]= 57,
+  ["type"]= 16
+},
+[58] = {
+  ["function"]= {
+    8105,
+    25,
+    1,
+    2
+  },
+  ["id"]= 58
+},
+[59] = {
+  ["function"]= {
+    8106,
+    1,
+    2
+  },
+  ["functionname"]= "IntimacyFunctionName8103",
+  ["functiontype"]= {
+    1,
+    5,
+    4
+  },
+  ["id"]= 59,
+  ["type"]= 16
+},
+[60] = {
+  ["function"]= {
+    8107,
+    25,
+    1,
+    9
+  },
+  ["id"]= 60
+},
+[61] = {
+  ["function"]= {
+    8108,
+    1,
+    9
+  },
+  ["functionname"]= "IntimacyFunctionName8103",
+  ["functiontype"]= {
+    1,
+    5,
+    4
+  },
+  ["id"]= 61,
+  ["type"]= 16
+},
+[62] = {
+  ["function"]= {
+    8109,
+    25,
+    1,
+    4
+  },
+  ["id"]= 62
+},
+[63] = {
+  ["function"]= {
+    8110,
+    1,
+    4
+  },
+  ["functionname"]= "IntimacyFunctionName8103",
+  ["functiontype"]= {
+    1,
+    5,
+    4
+  },
+  ["id"]= 63,
+  ["type"]= 16
+},
+[64] = {
+  ["function"]= {
+    8111,
+    25,
+    1,
+    5
+  },
+  ["id"]= 64
+},
+[65] = {
+  ["function"]= {
+    8112,
+    1,
+    5
+  },
+  ["functionname"]= "IntimacyFunctionName8103",
+  ["functiontype"]= {
+    1,
+    5,
+    4
+  },
+  ["id"]= 65,
+  ["type"]= 16
+},
+[66] = {
+  ["function"]= {
+    8113,
+    25,
+    1,
+    6
+  },
+  ["id"]= 66
+},
+[67] = {
+  ["function"]= {
+    8114,
+    1,
+    6
+  },
+  ["functionname"]= "IntimacyFunctionName8103",
+  ["functiontype"]= {
+    1,
+    5,
+    4
+  },
+  ["id"]= 67,
+  ["type"]= 16
+},
+[68] = {
+  ["function"]= {
+    8115,
+    25,
+    1,
+    7
+  },
+  ["id"]= 68
+},
+[69] = {
+  ["function"]= {
+    8116,
+    1,
+    7
+  },
+  ["functionname"]= "IntimacyFunctionName8103",
+  ["functiontype"]= {
+    1,
+    5,
+    4
+  },
+  ["id"]= 69,
+  ["type"]= 16
+},
+[70] = {
+  ["function"]= {
+    8117,
+    25,
+    1,
+    8
+  },
+  ["id"]= 70
+},
+[71] = {
+  ["function"]= {
+    8118,
+    1,
+    8
+  },
+  ["functionname"]= "IntimacyFunctionName8103",
+  ["functiontype"]= {
+    1,
+    5,
+    4
+  },
+  ["id"]= 71,
+  ["type"]= 16
+},
+[72] = {
+  ["function"]= {
+    8119,
+    25,
+    2,
+    1
+  },
+  ["id"]= 72
+},
+[73] = {
+  ["function"]= {
+    8120,
+    2,
+    1
+  },
+  ["functionname"]= "IntimacyFunctionName8103",
+  ["functiontype"]= {
+    1,
+    5,
+    4
+  },
+  ["id"]= 73,
+  ["type"]= 16
+},
+[74] = {
+  ["function"]= {
+    8121,
+    25,
+    2,
+    3
+  },
+  ["id"]= 74
+},
+[75] = {
+  ["function"]= {
+    8122,
+    2,
+    3
+  },
+  ["functionname"]= "IntimacyFunctionName8103",
+  ["functiontype"]= {
+    1,
+    5,
+    4
+  },
+  ["id"]= 75,
+  ["type"]= 16
+},
+[76] = {
+  ["function"]= {
+    8123,
+    25,
+    2,
+    2
+  },
+  ["id"]= 76
+},
+[77] = {
+  ["function"]= {
+    8124,
+    2,
+    2
+  },
+  ["functionname"]= "IntimacyFunctionName8103",
+  ["functiontype"]= {
+    1,
+    5,
+    4
+  },
+  ["id"]= 77,
+  ["type"]= 16
+},
+[78] = {
+  ["function"]= {
+    8125,
+    25,
+    2,
+    9
+  },
+  ["id"]= 78
+},
+[79] = {
+  ["function"]= {
+    8126,
+    2,
+    9
+  },
+  ["functionname"]= "IntimacyFunctionName8103",
+  ["functiontype"]= {
+    1,
+    5,
+    4
+  },
+  ["id"]= 79,
+  ["type"]= 16
+},
+[80] = {
+  ["function"]= {
+    8127,
+    25,
+    2,
+    4
+  },
+  ["id"]= 80
+},
+[81] = {
+  ["function"]= {
+    8128,
+    2,
+    4
+  },
+  ["functionname"]= "IntimacyFunctionName8103",
+  ["functiontype"]= {
+    1,
+    5,
+    4
+  },
+  ["id"]= 81,
+  ["type"]= 16
+},
+[82] = {
+  ["function"]= {
+    8129,
+    25,
+    2,
+    5
+  },
+  ["id"]= 82
+},
+[83] = {
+  ["function"]= {
+    8130,
+    2,
+    5
+  },
+  ["functionname"]= "IntimacyFunctionName8103",
+  ["functiontype"]= {
+    1,
+    5,
+    4
+  },
+  ["id"]= 83,
+  ["type"]= 16
+},
+[84] = {
+  ["function"]= {
+    8131,
+    25,
+    2,
+    6
+  },
+  ["id"]= 84
+},
+[85] = {
+  ["function"]= {
+    8132,
+    2,
+    6
+  },
+  ["functionname"]= "IntimacyFunctionName8103",
+  ["functiontype"]= {
+    1,
+    5,
+    4
+  },
+  ["id"]= 85,
+  ["type"]= 16
+},
+[86] = {
+  ["function"]= {
+    8133,
+    25,
+    2,
+    7
+  },
+  ["id"]= 86
+},
+[87] = {
+  ["function"]= {
+    8134,
+    2,
+    7
+  },
+  ["functionname"]= "IntimacyFunctionName8103",
+  ["functiontype"]= {
+    1,
+    5,
+    4
+  },
+  ["id"]= 87,
+  ["type"]= 16
+},
+[88] = {
+  ["function"]= {
+    8135,
+    25,
+    2,
+    8
+  },
+  ["id"]= 88
+},
+[89] = {
+  ["function"]= {
+    8136,
+    2,
+    8
+  },
+  ["functionname"]= "IntimacyFunctionName8103",
+  ["functiontype"]= {
+    1,
+    5,
+    4
+  },
+  ["id"]= 89,
+  ["type"]= 16
+},
+[90] = {
+  ["function"]= {
+    8137,
+    25,
+    3,
+    1
+  },
+  ["id"]= 90
+},
+[91] = {
+  ["function"]= {
+    8138,
+    3,
+    1
+  },
+  ["functionname"]= "IntimacyFunctionName8103",
+  ["functiontype"]= {
+    1,
+    5,
+    4
+  },
+  ["id"]= 91,
+  ["type"]= 16
+},
+[92] = {
+  ["function"]= {
+    8139,
+    25,
+    3,
+    3
+  },
+  ["id"]= 92
+},
+[93] = {
+  ["function"]= {
+    8140,
+    3,
+    3
+  },
+  ["functionname"]= "IntimacyFunctionName8103",
+  ["functiontype"]= {
+    1,
+    5,
+    4
+  },
+  ["id"]= 93,
+  ["type"]= 16
+},
+[94] = {
+  ["function"]= {
+    8141,
+    25,
+    3,
+    2
+  },
+  ["id"]= 94
+},
+[95] = {
+  ["function"]= {
+    8142,
+    3,
+    2
+  },
+  ["functionname"]= "IntimacyFunctionName8103",
+  ["functiontype"]= {
+    1,
+    5,
+    4
+  },
+  ["id"]= 95,
+  ["type"]= 16
+},
+[96] = {
+  ["function"]= {
+    8143,
+    25,
+    3,
+    9
+  },
+  ["id"]= 96
+},
+[97] = {
+  ["function"]= {
+    8144,
+    3,
+    9
+  },
+  ["functionname"]= "IntimacyFunctionName8103",
+  ["functiontype"]= {
+    1,
+    5,
+    4
+  },
+  ["id"]= 97,
+  ["type"]= 16
+},
+[98] = {
+  ["function"]= {
+    8145,
+    25,
+    3,
+    4
+  },
+  ["id"]= 98
+},
+[99] = {
+  ["function"]= {
+    8146,
+    3,
+    4
+  },
+  ["functionname"]= "IntimacyFunctionName8103",
+  ["functiontype"]= {
+    1,
+    5,
+    4
+  },
+  ["id"]= 99,
+  ["type"]= 16
+},
+[100] = {
+  ["function"]= {
+    8147,
+    25,
+    3,
+    5
+  },
+  ["id"]= 100
+},
+[101] = {
+  ["function"]= {
+    8148,
+    3,
+    5
+  },
+  ["functionname"]= "IntimacyFunctionName8103",
+  ["functiontype"]= {
+    1,
+    5,
+    4
+  },
+  ["id"]= 101,
+  ["type"]= 16
+},
+[102] = {
+  ["function"]= {
+    8149,
+    25,
+    3,
+    6
+  },
+  ["id"]= 102
+},
+[103] = {
+  ["function"]= {
+    8150,
+    3,
+    6
+  },
+  ["functionname"]= "IntimacyFunctionName8103",
+  ["functiontype"]= {
+    1,
+    5,
+    4
+  },
+  ["id"]= 103,
+  ["type"]= 16
+},
+[104] = {
+  ["function"]= {
+    8151,
+    25,
+    3,
+    7
+  },
+  ["id"]= 104
+},
+[105] = {
+  ["function"]= {
+    8152,
+    3,
+    7
+  },
+  ["functionname"]= "IntimacyFunctionName8103",
+  ["functiontype"]= {
+    1,
+    5,
+    4
+  },
+  ["id"]= 105,
+  ["type"]= 16
+},
+[106] = {
+  ["function"]= {
+    8153,
+    25,
+    3,
+    8
+  },
+  ["id"]= 106
+},
+[107] = {
+  ["function"]= {
+    8154,
+    3,
+    8
+  },
+  ["functionname"]= "IntimacyFunctionName8103",
+  ["functiontype"]= {
+    1,
+    5,
+    4
+  },
+  ["id"]= 107,
+  ["type"]= 16
+}
+}
+local baseTable={
+  ["BuffDescArgs"]= {
+    2
+  },
+  ["function"]= {
+    0
+  },
+  ["functionname"]= "IntimacyFunctionName8101",
+  ["functiontype"]= {
+    1,
+    3,
+    5,
+    4
+  },
+  ["id"]= 1,
+  ["type"]= 14
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

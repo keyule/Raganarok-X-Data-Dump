@@ -1,0 +1,36 @@
+TextAsset Base
+	string m_Name = "data_Photo_PhotoFrame"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["id"]= 2,
+  ["name"]= "Hunter"
+},
+[3] = {
+  ["id"]= 3,
+  ["name"]= "Knight"
+},
+[4] = {
+  ["id"]= 4,
+  ["name"]= "Master"
+},
+[5] = {
+  ["id"]= 5,
+  ["name"]= "Serve"
+},
+[6] = {
+  ["id"]= 6,
+  ["name"]= "Thief"
+}
+}
+local baseTable={
+  ["id"]= 1,
+  ["isUnlock"]= 1,
+  ["name"]= "Chapman",
+  ["picPath"]= "",
+  ["unlockedTips"]= ""
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

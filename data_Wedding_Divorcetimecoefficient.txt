@@ -1,0 +1,29 @@
+TextAsset Base
+	string m_Name = "data_Wedding_Divorcetimecoefficient"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["ID"]= 2,
+  ["Logintime"]= 3,
+  ["Timecoefficient"]= 80
+},
+[3] = {
+  ["ID"]= 3,
+  ["Logintime"]= 7,
+  ["Timecoefficient"]= 50
+},
+[4] = {
+  ["ID"]= 4,
+  ["Logintime"]= 29,
+  ["Timecoefficient"]= 0
+}
+}
+local baseTable={
+  ["ID"]= 1,
+  ["Logintime"]= 0,
+  ["Timecoefficient"]= 100
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

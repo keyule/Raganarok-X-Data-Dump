@@ -1,0 +1,77 @@
+TextAsset Base
+	string m_Name = "data_lifeSkill_FishLength"
+	string m_Script = "local table= {
+[10406009] = {
+  ["LengthBig"]= 26
+},
+[10406010] = {
+  ["id"]= 10406010,
+  ["LengthBig"]= 300,
+  ["LengthMax"]= 330,
+  ["LengthMin"]= 250,
+  ["LengthSmall"]= 270
+},
+[10406021] = {
+  ["id"]= 10406021,
+  ["LengthMax"]= 234,
+  ["LengthMin"]= 167,
+  ["LengthSmall"]= 180
+},
+[10406022] = {
+  ["id"]= 10406022,
+  ["LengthMax"]= 245,
+  ["LengthMin"]= 175,
+  ["LengthSmall"]= 185
+},
+[10406023] = {
+  ["id"]= 10406023,
+  ["LengthMax"]= 235,
+  ["LengthMin"]= 180,
+  ["LengthSmall"]= 190
+},
+[10406024] = {
+  ["id"]= 10406024,
+  ["LengthBig"]= 44,
+  ["LengthMax"]= 56,
+  ["LengthMin"]= 20,
+  ["LengthSmall"]= 33
+},
+[10406026] = {
+  ["id"]= 10406026,
+  ["LengthBig"]= 140,
+  ["LengthMax"]= 170,
+  ["LengthMin"]= 110,
+  ["LengthSmall"]= 120
+},
+[10406027] = {
+  ["id"]= 10406027,
+  ["LengthBig"]= 70,
+  ["LengthMax"]= 86,
+  ["LengthMin"]= 41,
+  ["LengthSmall"]= 50
+},
+[10406028] = {
+  ["id"]= 10406028,
+  ["LengthBig"]= 30,
+  ["LengthMin"]= 10,
+  ["LengthSmall"]= 14
+},
+[10406029] = {
+  ["id"]= 10406029,
+  ["LengthBig"]= 40,
+  ["LengthMax"]= 56,
+  ["LengthMin"]= 18,
+  ["LengthSmall"]= 25
+}
+}
+local baseTable={
+  ["id"]= 10406009,
+  ["LengthBig"]= 200,
+  ["LengthMax"]= 36,
+  ["LengthMin"]= 15,
+  ["LengthSmall"]= 20
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

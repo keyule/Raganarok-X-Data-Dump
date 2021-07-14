@@ -1,0 +1,51 @@
+TextAsset Base
+	string m_Name = "data_pet_PetIntimacy"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["IntimacyLevel"]= 2,
+  ["Quality"]= {
+    1,
+    2,
+    3,
+    5
+  }
+},
+[3] = {
+  ["IntimacyLevel"]= 3,
+  ["Quality"]= {
+    1,
+    2,
+    3,
+    6
+  }
+},
+[4] = {
+  ["IntimacyLevel"]= 4,
+  ["Quality"]= {
+    1,
+    2,
+    3,
+    7
+  }
+}
+}
+local baseTable={
+  ["IntimacyExp"]= {
+    100,
+    200,
+    300,
+    400
+  },
+  ["IntimacyLevel"]= 1,
+  ["Quality"]= {
+    1,
+    2,
+    3,
+    4
+  }
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

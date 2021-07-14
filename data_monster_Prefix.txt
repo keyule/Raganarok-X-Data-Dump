@@ -1,0 +1,104 @@
+TextAsset Base
+	string m_Name = "data_monster_Prefix"
+	string m_Script = "return {
+[1] = {
+  ["Desc"]= "PetPetAffixDesc1",
+  ["ID"]= 1,
+  ["MonsterBuffId"]= 0,
+  ["MonsterName"]= "PrefixMonsterName1",
+  ["Name"]= "PetPetAffixName1",
+  ["PetAffixPlusValue"]= 0.1,
+  ["PetAffixProp"]= 43,
+  ["PrefixWeight"]= 0.1,
+  ["PropColor"]= "7d4c7a"
+},
+[2] = {
+  ["Desc"]= "PetPetAffixDesc2",
+  ["ID"]= 2,
+  ["MonsterBuffId"]= 0,
+  ["MonsterName"]= "PrefixMonsterName2",
+  ["Name"]= "PetPetAffixName2",
+  ["PetAffixPlusValue"]= 0.1,
+  ["PetAffixProp"]= 49,
+  ["PrefixWeight"]= 0.1,
+  ["PropColor"]= "7d5c4c"
+},
+[3] = {
+  ["Desc"]= "PetPetAffixDesc3",
+  ["ID"]= 3,
+  ["MonsterBuffId"]= 0,
+  ["MonsterName"]= "PrefixMonsterName3",
+  ["Name"]= "PetPetAffixName3",
+  ["PetAffixPlusValue"]= 0.1,
+  ["PetAffixProp"]= 51,
+  ["PrefixWeight"]= 0.1,
+  ["PropColor"]= "4c557d"
+},
+[4] = {
+  ["Desc"]= "PetPetAffixDesc4",
+  ["ID"]= 4,
+  ["MonsterBuffId"]= 0,
+  ["MonsterName"]= "PrefixMonsterName4",
+  ["Name"]= "PetPetAffixName4",
+  ["PetAffixPlusValue"]= 0.1,
+  ["PetAffixProp"]= 50,
+  ["PrefixWeight"]= 0.1,
+  ["PropColor"]= "7d514c"
+},
+[5] = {
+  ["Desc"]= "PetPetAffixDesc5",
+  ["ID"]= 5,
+  ["MonsterBuffId"]= 0,
+  ["MonsterName"]= "PrefixMonsterName5",
+  ["Name"]= "PetPetAffixName5",
+  ["PetAffixPlusValue"]= 0.1,
+  ["PetAffixProp"]= 52,
+  ["PrefixWeight"]= 0.1,
+  ["PropColor"]= "4c707d"
+},
+[6] = {
+  ["Desc"]= "PetPetAffixDesc6",
+  ["ID"]= 6,
+  ["MonsterBuffId"]= 0,
+  ["MonsterName"]= "PrefixMonsterName6",
+  ["Name"]= "PetPetAffixName6",
+  ["PetAffixPlusValue"]= 0,
+  ["PetAffixProp"]= 0,
+  ["PrefixWeight"]= 0.5,
+  ["PropColor"]= "5c7d4c"
+},
+[7] = {
+  ["Desc"]= "PetPetAffixDesc7",
+  ["ID"]= 7,
+  ["MonsterBuffId"]= 0,
+  ["MonsterName"]= "PrefixMonsterName7",
+  ["Name"]= "PetPetAffixName7",
+  ["PetAffixPlusValue"]= 0,
+  ["PetAffixProp"]= 0,
+  ["PrefixWeight"]= 0,
+  ["PropColor"]= "7d4c7a"
+},
+[8] = {
+  ["Desc"]= "PetPetAffixDesc8",
+  ["ID"]= 8,
+  ["MonsterBuffId"]= 0,
+  ["MonsterName"]= "PrefixMonsterName8",
+  ["Name"]= "PetPetAffixName8",
+  ["PetAffixPlusValue"]= 0,
+  ["PetAffixProp"]= 0,
+  ["PrefixWeight"]= 0,
+  ["PropColor"]= "7d5c4c"
+},
+[9] = {
+  ["Desc"]= "PetPetAffixDesc9",
+  ["ID"]= 9,
+  ["MonsterBuffId"]= 0,
+  ["MonsterName"]= "PrefixMonsterName9",
+  ["Name"]= "PetPetAffixName9",
+  ["PetAffixPlusValue"]= 0,
+  ["PetAffixProp"]= 0,
+  ["PrefixWeight"]= 0,
+  ["PropColor"]= "4c557d"
+}
+}
+"

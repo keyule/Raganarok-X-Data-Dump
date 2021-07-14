@@ -1,0 +1,22 @@
+TextAsset Base
+	string m_Name = "data_pet_PetSkillTraining"
+	string m_Script = "local table= {
+[1] = {}
+}
+local baseTable={
+  ["CostItemId"]= {
+    10202045
+  },
+  ["CostItemNum"]= {
+    5
+  },
+  ["CostNum"]= 10000,
+  ["Currency"]= 1,
+  ["Id"]= 1,
+  ["PetId"]= 100001,
+  ["SkillLevel"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

@@ -1,0 +1,39 @@
+TextAsset Base
+	string m_Name = "data_Lottery_LotteryGrade"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["Id"]= 2,
+  ["IncomeMax"]= 5999,
+  ["IncomeMin"]= 5000,
+  ["PrizeMax"]= 1
+},
+[3] = {
+  ["Id"]= 3,
+  ["IncomeMax"]= 6999,
+  ["IncomeMin"]= 6000,
+  ["PrizeMax"]= 2
+},
+[4] = {
+  ["Id"]= 4,
+  ["IncomeMax"]= 7999,
+  ["IncomeMin"]= 7000,
+  ["PrizeMax"]= 3
+},
+[5] = {
+  ["Id"]= 5,
+  ["IncomeMax"]= 2147483647,
+  ["IncomeMin"]= 8000,
+  ["PrizeMax"]= 5
+}
+}
+local baseTable={
+  ["Id"]= 1,
+  ["IncomeMax"]= 4999,
+  ["IncomeMin"]= 0,
+  ["PrizeMax"]= 0
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

@@ -1,0 +1,155 @@
+TextAsset Base
+	string m_Name = "data_equip_NpcSlot"
+	string m_Script = "return {
+[10101004] = {
+  ["NpcId"]= 10101004,
+  ["RefineSlot"]= {},
+  ["StrengthenSlot"]= {
+    5,
+    6
+  }
+},
+[10101007] = {
+  ["NpcId"]= 10101007,
+  ["RefineSlot"]= {},
+  ["StrengthenSlot"]= {
+    2,
+    3,
+    4
+  }
+},
+[10101008] = {
+  ["NpcId"]= 10101008,
+  ["RefineSlot"]= {},
+  ["StrengthenSlot"]= {
+    0,
+    1
+  }
+},
+[10101036] = {
+  ["NpcId"]= 10101036,
+  ["RefineSlot"]= {
+    0,
+    1
+  },
+  ["StrengthenSlot"]= {}
+},
+[10101037] = {
+  ["NpcId"]= 10101037,
+  ["RefineSlot"]= {
+    2,
+    3,
+    4
+  },
+  ["StrengthenSlot"]= {}
+},
+[10101038] = {
+  ["NpcId"]= 10101038,
+  ["RefineSlot"]= {
+    5,
+    6
+  },
+  ["StrengthenSlot"]= {}
+},
+[12101036] = {
+  ["NpcId"]= 12101036,
+  ["RefineSlot"]= {
+    0,
+    1
+  },
+  ["StrengthenSlot"]= {}
+},
+[12101037] = {
+  ["NpcId"]= 12101037,
+  ["RefineSlot"]= {
+    2,
+    3,
+    4
+  },
+  ["StrengthenSlot"]= {}
+},
+[12101038] = {
+  ["NpcId"]= 12101038,
+  ["RefineSlot"]= {
+    5,
+    6
+  },
+  ["StrengthenSlot"]= {}
+},
+[13101036] = {
+  ["NpcId"]= 13101036,
+  ["RefineSlot"]= {
+    0,
+    1
+  },
+  ["StrengthenSlot"]= {}
+},
+[13101037] = {
+  ["NpcId"]= 13101037,
+  ["RefineSlot"]= {
+    2,
+    3,
+    4
+  },
+  ["StrengthenSlot"]= {}
+},
+[13101038] = {
+  ["NpcId"]= 13101038,
+  ["RefineSlot"]= {
+    5,
+    6
+  },
+  ["StrengthenSlot"]= {}
+},
+[13101039] = {
+  ["NpcId"]= 13101039,
+  ["RefineSlot"]= {},
+  ["StrengthenSlot"]= {
+    0,
+    1
+  }
+},
+[13101040] = {
+  ["NpcId"]= 13101040,
+  ["RefineSlot"]= {},
+  ["StrengthenSlot"]= {
+    2,
+    3,
+    4
+  }
+},
+[13101041] = {
+  ["NpcId"]= 13101041,
+  ["RefineSlot"]= {},
+  ["StrengthenSlot"]= {
+    5,
+    6
+  }
+},
+[14101036] = {
+  ["NpcId"]= 14101036,
+  ["RefineSlot"]= {},
+  ["StrengthenSlot"]= {
+    0,
+    1
+  }
+},
+[14101037] = {
+  ["NpcId"]= 14101037,
+  ["RefineSlot"]= {},
+  ["StrengthenSlot"]= {
+    2,
+    3,
+    4
+  }
+},
+[14101038] = {
+  ["NpcId"]= 14101038,
+  ["RefineSlot"]= {},
+  ["StrengthenSlot"]= {
+    5,
+    6
+  }
+}
+}
+"

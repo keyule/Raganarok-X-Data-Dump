@@ -1,0 +1,33 @@
+TextAsset Base
+	string m_Name = "data_team_TeamRecommend"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["Id"]= 2,
+  ["TypeName"]= "TeamTargetName_1002"
+},
+[3] = {
+  ["Id"]= 3,
+  ["TypeName"]= "TeamTargetName_1003"
+},
+[4] = {
+  ["Id"]= 4,
+  ["TypeName"]= "TeamTargetName_1004"
+},
+[5] = {
+  ["Id"]= 5,
+  ["TypeName"]= "TeamTargetName_1005"
+},
+[6] = {
+  ["Id"]= 6,
+  ["TypeName"]= "TeamTargetName_1006"
+}
+}
+local baseTable={
+  ["Id"]= 1,
+  ["TypeName"]= "TeamTargetName_1001"
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

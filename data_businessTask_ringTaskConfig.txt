@@ -1,0 +1,26 @@
+TextAsset Base
+	string m_Name = "data_businessTask_ringTaskConfig"
+	string m_Script = "local table= {
+[1] = {}
+}
+local baseTable={
+  ["earnedFavor"]= 50,
+  ["helpMsgLid"]= "BusinessTask_Info_5",
+  ["helpNum"]= 5,
+  ["helpRewardDrop"]= 10010,
+  ["Id"]= 1,
+  ["maximumFavor"]= 500,
+  ["rewardMinLevel"]= 30,
+  ["ringRewardCoefficient"]= {
+    100,
+    110,
+    120,
+    130,
+    140,
+    150
+  }
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

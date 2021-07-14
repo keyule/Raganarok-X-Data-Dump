@@ -1,0 +1,73 @@
+TextAsset Base
+	string m_Name = "data_Setting_Setting"
+	string m_Script = "local table= {
+[1] = {
+  ["EffectNum"]= 1,
+  ["EffectRange"]= 1,
+  ["FloatDigitRange"]= 1,
+  ["numbers"]= 1,
+  ["outline"]= 0,
+  ["PlayerRange"]= 1,
+  ["ResolutionScale"]= 1,
+  ["shadow"]= 0
+},
+[2] = {
+  ["EffectRange"]= 2,
+  ["id"]= 2,
+  ["outline"]= 0,
+  ["shadow"]= 0
+},
+[3] = {
+  ["EffectNum"]= 3,
+  ["FloatDigitRange"]= 3,
+  ["id"]= 3,
+  ["NameRange"]= 3,
+  ["numbers"]= 3,
+  ["PlayerRange"]= 3,
+  ["ResolutionScale"]= 3,
+  ["WeatherShadow"]= 1
+},
+[4] = {
+  ["details"]= 3,
+  ["EffectNum"]= 4,
+  ["EffectRange"]= 4,
+  ["FloatDigitRange"]= 4,
+  ["id"]= 4,
+  ["NameRange"]= 4,
+  ["numbers"]= 4,
+  ["onLine"]= 2,
+  ["PlayerRange"]= 4,
+  ["ResolutionScale"]= 4,
+  ["type"]= 2,
+  ["WaterQuality"]= 1,
+  ["WeatherShadow"]= 1
+},
+[5] = {
+  ["details"]= 1,
+  ["id"]= 5,
+  ["type"]= 1
+}
+}
+local baseTable={
+  ["details"]= 0,
+  ["EffectNum"]= 2,
+  ["EffectRange"]= 3,
+  ["FloatDigitRange"]= 2,
+  ["frame"]= 0,
+  ["id"]= 1,
+  ["NameRange"]= 2,
+  ["numbers"]= 2,
+  ["onLine"]= 0,
+  ["outline"]= 1,
+  ["PlayerRange"]= 2,
+  ["ResolutionScale"]= 2,
+  ["shadow"]= 1,
+  ["type"]= 0,
+  ["WaterQuality"]= 0,
+  ["waterShadow"]= 0,
+  ["WeatherShadow"]= 0
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

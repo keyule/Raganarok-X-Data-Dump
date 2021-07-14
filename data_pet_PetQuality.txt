@@ -1,0 +1,45 @@
+TextAsset Base
+	string m_Name = "data_pet_PetQuality"
+	string m_Script = "return {
+[1] = {
+  ["BaseAtk"]= 300,
+  ["BaseDef"]= 100,
+  ["BaseHP"]= 6000,
+  ["GrowthAtk"]= 1,
+  ["GrowthDef"]= 1,
+  ["GrowthHP"]= 1,
+  ["Id"]= 1,
+  ["LabaNum"]= 5
+},
+[2] = {
+  ["BaseAtk"]= 330,
+  ["BaseDef"]= 110,
+  ["BaseHP"]= 6600,
+  ["GrowthAtk"]= 1.1,
+  ["GrowthDef"]= 1.1,
+  ["GrowthHP"]= 1.1,
+  ["Id"]= 2,
+  ["LabaNum"]= 6
+},
+[3] = {
+  ["BaseAtk"]= 375,
+  ["BaseDef"]= 125,
+  ["BaseHP"]= 7500,
+  ["GrowthAtk"]= 1.25,
+  ["GrowthDef"]= 1.25,
+  ["GrowthHP"]= 1.25,
+  ["Id"]= 3,
+  ["LabaNum"]= 7
+},
+[4] = {
+  ["BaseAtk"]= 420,
+  ["BaseDef"]= 140,
+  ["BaseHP"]= 8400,
+  ["GrowthAtk"]= 1.4,
+  ["GrowthDef"]= 1.4,
+  ["GrowthHP"]= 1.4,
+  ["Id"]= 4,
+  ["LabaNum"]= 8
+}
+}
+"

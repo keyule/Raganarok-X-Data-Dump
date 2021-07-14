@@ -1,0 +1,18 @@
+TextAsset Base
+	string m_Name = "data_dynamicActivities_DynamicActivityType1"
+	string m_Script = "local table= {
+[1] = {}
+}
+local baseTable={
+  ["dropStageDuration"]= 1209600,
+  ["exchangeNpc"]= 16101024,
+  ["guideNpc"]= 16101023,
+  ["levelLimit"]= 40,
+  ["startMail"]= 3014,
+  ["staticId"]= 1,
+  ["taskId"]= 50044201
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

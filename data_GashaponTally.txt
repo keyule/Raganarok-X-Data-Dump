@@ -1,0 +1,1040 @@
+TextAsset Base
+	string m_Name = "data_GashaponTally"
+	string m_Script = "local table= {
+[101] = {
+  ["tally"]= 540000
+},
+[102] = {
+  ["awardId"]= 1102009,
+  ["id"]= 102,
+  ["itemText"]= "GashaponTallyDes1102009",
+  ["tally"]= 540000
+},
+[103] = {
+  ["awardId"]= 1103007,
+  ["id"]= 103,
+  ["itemText"]= "GashaponTallyDes1103007",
+  ["tally"]= 540000
+},
+[104] = {
+  ["awardId"]= 1105018,
+  ["id"]= 104,
+  ["itemText"]= "GashaponTallyDes1105018",
+  ["tally"]= 405000
+},
+[105] = {
+  ["awardId"]= 1104013,
+  ["id"]= 105,
+  ["itemText"]= "GashaponTallyDes1104013",
+  ["tally"]= 540000
+},
+[106] = {
+  ["awardId"]= 1304035,
+  ["id"]= 106,
+  ["itemText"]= "GashaponTallyDes1304035",
+  ["tally"]= 810000
+},
+[107] = {
+  ["awardId"]= 1307016,
+  ["id"]= 107,
+  ["itemText"]= "GashaponTallyDes1307016",
+  ["tally"]= 810000
+},
+[108] = {
+  ["awardId"]= 1305016,
+  ["id"]= 108,
+  ["itemText"]= "GashaponTallyDes1305016",
+  ["tally"]= 810000
+},
+[109] = {
+  ["awardId"]= 1303005,
+  ["id"]= 109,
+  ["itemText"]= "GashaponTallyDes1303005",
+  ["tally"]= 810000
+},
+[110] = {
+  ["awardId"]= 1301034,
+  ["id"]= 110,
+  ["itemText"]= "GashaponTallyDes1301034",
+  ["tally"]= 810000
+},
+[111] = {
+  ["awardId"]= 1302035,
+  ["id"]= 111,
+  ["itemText"]= "GashaponTallyDes1302035",
+  ["tally"]= 810000
+},
+[112] = {
+  ["awardId"]= 1107034,
+  ["id"]= 112,
+  ["itemText"]= "GashaponTallyDes1107034",
+  ["tally"]= 810000
+},
+[113] = {
+  ["awardId"]= 1306009,
+  ["id"]= 113,
+  ["itemText"]= "GashaponTallyDes1306009",
+  ["tally"]= 810000
+},
+[114] = {
+  ["awardId"]= 1201100,
+  ["id"]= 114,
+  ["itemText"]= "GashaponTallyDes1201100",
+  ["tally"]= 270000
+},
+[115] = {
+  ["awardId"]= 1201016,
+  ["id"]= 115,
+  ["itemText"]= "GashaponTallyDes1201016",
+  ["tally"]= 270000
+},
+[116] = {
+  ["awardId"]= 1201099,
+  ["id"]= 116,
+  ["itemText"]= "GashaponTallyDes1201099",
+  ["tally"]= 270000
+},
+[117] = {
+  ["awardId"]= 1201024,
+  ["id"]= 117,
+  ["itemText"]= "GashaponTallyDes1201024",
+  ["tally"]= 270000
+},
+[118] = {
+  ["awardId"]= 3101215,
+  ["id"]= 118,
+  ["itemText"]= "GashaponTallyDes3101215",
+  ["tally"]= 270000
+},
+[119] = {
+  ["awardId"]= 3101216,
+  ["id"]= 119,
+  ["itemText"]= "GashaponTallyDes3101216",
+  ["tally"]= 270000
+},
+[120] = {
+  ["awardId"]= 3101217,
+  ["id"]= 120,
+  ["itemText"]= "GashaponTallyDes3101217",
+  ["tally"]= 270000
+},
+[121] = {
+  ["awardId"]= 3101218,
+  ["id"]= 121,
+  ["itemText"]= "GashaponTallyDes3101218",
+  ["tally"]= 270000
+},
+[122] = {
+  ["awardId"]= 3101219,
+  ["id"]= 122,
+  ["itemText"]= "GashaponTallyDes3101219",
+  ["tally"]= 270000
+},
+[123] = {
+  ["awardId"]= 3101220,
+  ["id"]= 123,
+  ["itemText"]= "GashaponTallyDes3101220",
+  ["tally"]= 270000
+},
+[124] = {
+  ["awardId"]= 3101221,
+  ["id"]= 124,
+  ["itemText"]= "GashaponTallyDes3101221",
+  ["tally"]= 270000
+},
+[125] = {
+  ["awardId"]= 3101222,
+  ["id"]= 125,
+  ["itemText"]= "GashaponTallyDes3101222",
+  ["tally"]= 270000
+},
+[126] = {
+  ["awardId"]= 3201130,
+  ["id"]= 126,
+  ["itemText"]= "GashaponTallyDes3201130",
+  ["tally"]= 540000
+},
+[127] = {
+  ["awardId"]= 3201131,
+  ["id"]= 127,
+  ["itemText"]= "GashaponTallyDes3201131",
+  ["tally"]= 540000
+},
+[128] = {
+  ["awardId"]= 3101223,
+  ["id"]= 128,
+  ["itemText"]= "GashaponTallyDes3101223",
+  ["tally"]= 270000
+},
+[129] = {
+  ["awardId"]= 3101224,
+  ["id"]= 129,
+  ["itemText"]= "GashaponTallyDes3101224",
+  ["tally"]= 270000
+},
+[130] = {
+  ["awardId"]= 3101225,
+  ["id"]= 130,
+  ["itemText"]= "GashaponTallyDes3101225",
+  ["tally"]= 270000
+},
+[131] = {
+  ["awardId"]= 3201132,
+  ["id"]= 131,
+  ["itemText"]= "GashaponTallyDes3201132",
+  ["tally"]= 540000
+},
+[132] = {
+  ["awardId"]= 3201133,
+  ["id"]= 132,
+  ["itemText"]= "GashaponTallyDes3201133",
+  ["tally"]= 540000
+},
+[133] = {
+  ["awardId"]= 3101226,
+  ["id"]= 133,
+  ["itemText"]= "GashaponTallyDes3101226",
+  ["tally"]= 270000
+},
+[134] = {
+  ["awardId"]= 3101227,
+  ["id"]= 134,
+  ["itemText"]= "GashaponTallyDes3101227",
+  ["tally"]= 270000
+},
+[135] = {
+  ["awardId"]= 3101228,
+  ["id"]= 135,
+  ["itemText"]= "GashaponTallyDes3101228",
+  ["tally"]= 270000
+},
+[136] = {
+  ["awardId"]= 3201134,
+  ["id"]= 136,
+  ["itemText"]= "GashaponTallyDes3201134",
+  ["tally"]= 540000
+},
+[137] = {
+  ["awardId"]= 3201135,
+  ["id"]= 137,
+  ["itemText"]= "GashaponTallyDes3201135",
+  ["tally"]= 540000
+},
+[138] = {
+  ["awardId"]= 1101014,
+  ["id"]= 138,
+  ["itemText"]= "GashaponTallyDes1101014",
+  ["tally"]= 2700000
+},
+[139] = {
+  ["awardId"]= 1102008,
+  ["id"]= 139,
+  ["itemText"]= "GashaponTallyDes1102008",
+  ["tally"]= 2700000
+},
+[140] = {
+  ["awardId"]= 1103006,
+  ["id"]= 140,
+  ["itemText"]= "GashaponTallyDes1103006",
+  ["tally"]= 2700000
+},
+[141] = {
+  ["awardId"]= 1105016,
+  ["id"]= 141,
+  ["itemText"]= "GashaponTallyDes1105016",
+  ["tally"]= 2025000
+},
+[142] = {
+  ["awardId"]= 1104008,
+  ["id"]= 142,
+  ["itemText"]= "GashaponTallyDes1104008",
+  ["tally"]= 2700000
+},
+[143] = {
+  ["awardId"]= 1304009,
+  ["id"]= 143,
+  ["itemText"]= "GashaponTallyDes1304009",
+  ["tally"]= 4050000
+},
+[144] = {
+  ["awardId"]= 1307005,
+  ["id"]= 144,
+  ["itemText"]= "GashaponTallyDes1307005",
+  ["tally"]= 4050000
+},
+[145] = {
+  ["awardId"]= 1305005,
+  ["id"]= 145,
+  ["itemText"]= "GashaponTallyDes1305005",
+  ["tally"]= 4050000
+},
+[146] = {
+  ["awardId"]= 1303035,
+  ["id"]= 146,
+  ["itemText"]= "GashaponTallyDes1303035",
+  ["tally"]= 4050000
+},
+[147] = {
+  ["awardId"]= 1301036,
+  ["id"]= 147,
+  ["itemText"]= "GashaponTallyDes1301036",
+  ["tally"]= 4050000
+},
+[148] = {
+  ["awardId"]= 1302008,
+  ["id"]= 148,
+  ["itemText"]= "GashaponTallyDes1302008",
+  ["tally"]= 4050000
+},
+[149] = {
+  ["awardId"]= 1107036,
+  ["id"]= 149,
+  ["itemText"]= "GashaponTallyDes1107036",
+  ["tally"]= 4050000
+},
+[150] = {
+  ["awardId"]= 1306005,
+  ["id"]= 150,
+  ["itemText"]= "GashaponTallyDes1306005",
+  ["tally"]= 4050000
+},
+[151] = {
+  ["awardId"]= 1201038,
+  ["id"]= 151,
+  ["itemText"]= "GashaponTallyDes1201038",
+  ["tally"]= 1350000
+},
+[152] = {
+  ["awardId"]= 1201105,
+  ["id"]= 152,
+  ["itemText"]= "GashaponTallyDes1201105",
+  ["tally"]= 1350000
+},
+[153] = {
+  ["awardId"]= 1201106,
+  ["id"]= 153,
+  ["itemText"]= "GashaponTallyDes1201106",
+  ["tally"]= 1350000
+},
+[154] = {
+  ["awardId"]= 1201039,
+  ["id"]= 154,
+  ["itemText"]= "GashaponTallyDes1201039",
+  ["tally"]= 1350000
+},
+[155] = {
+  ["awardId"]= 3101257,
+  ["id"]= 155,
+  ["itemText"]= "GashaponTallyDes3101257",
+  ["tally"]= 1350000
+},
+[156] = {
+  ["awardId"]= 3101258,
+  ["id"]= 156,
+  ["itemText"]= "GashaponTallyDes3101258",
+  ["tally"]= 1350000
+},
+[157] = {
+  ["awardId"]= 3201190,
+  ["id"]= 157,
+  ["itemText"]= "GashaponTallyDes3201190",
+  ["tally"]= 2700000
+},
+[158] = {
+  ["awardId"]= 3201191,
+  ["id"]= 158,
+  ["itemText"]= "GashaponTallyDes3201191",
+  ["tally"]= 2700000
+},
+[159] = {
+  ["awardId"]= 3101259,
+  ["id"]= 159,
+  ["itemText"]= "GashaponTallyDes3101259",
+  ["tally"]= 1350000
+},
+[160] = {
+  ["awardId"]= 3101260,
+  ["id"]= 160,
+  ["itemText"]= "GashaponTallyDes3101260",
+  ["tally"]= 1350000
+},
+[161] = {
+  ["awardId"]= 3201192,
+  ["id"]= 161,
+  ["itemText"]= "GashaponTallyDes3201192",
+  ["tally"]= 2700000
+},
+[162] = {
+  ["awardId"]= 3201193,
+  ["id"]= 162,
+  ["itemText"]= "GashaponTallyDes3201193",
+  ["tally"]= 2700000
+},
+[163] = {
+  ["awardId"]= 3101261,
+  ["id"]= 163,
+  ["itemText"]= "GashaponTallyDes3101261",
+  ["tally"]= 1350000
+},
+[164] = {
+  ["awardId"]= 3101262,
+  ["id"]= 164,
+  ["itemText"]= "GashaponTallyDes3101262",
+  ["tally"]= 1350000
+},
+[165] = {
+  ["awardId"]= 3201194,
+  ["id"]= 165,
+  ["itemText"]= "GashaponTallyDes3201194",
+  ["tally"]= 2700000
+},
+[166] = {
+  ["awardId"]= 3201195,
+  ["id"]= 166,
+  ["itemText"]= "GashaponTallyDes3201195",
+  ["tally"]= 2700000
+},
+[167] = {
+  ["awardId"]= 3101263,
+  ["id"]= 167,
+  ["itemText"]= "GashaponTallyDes3101263",
+  ["tally"]= 1350000
+},
+[168] = {
+  ["awardId"]= 3101264,
+  ["id"]= 168,
+  ["itemText"]= "GashaponTallyDes3101264",
+  ["tally"]= 1350000
+},
+[169] = {
+  ["awardId"]= 3201196,
+  ["id"]= 169,
+  ["itemText"]= "GashaponTallyDes3201196",
+  ["tally"]= 2700000
+},
+[170] = {
+  ["awardId"]= 3201197,
+  ["id"]= 170,
+  ["itemText"]= "GashaponTallyDes3201197",
+  ["tally"]= 2700000
+},
+[201] = {
+  ["awardId"]= 10103013,
+  ["awardType"]= 5,
+  ["id"]= 201,
+  ["itemText"]= "GashaponTallyDes10103013",
+  ["NPC_ID"]= 61041
+},
+[202] = {
+  ["awardId"]= 10102017,
+  ["awardType"]= 5,
+  ["id"]= 202,
+  ["itemText"]= "GashaponTallyDes10102017",
+  ["NPC_ID"]= 61041
+},
+[203] = {
+  ["awardId"]= 10103015,
+  ["awardType"]= 5,
+  ["id"]= 203,
+  ["itemText"]= "GashaponTallyDes10103015",
+  ["NPC_ID"]= 61041
+},
+[204] = {
+  ["awardId"]= 10103012,
+  ["awardType"]= 5,
+  ["id"]= 204,
+  ["itemText"]= "GashaponTallyDes10103012",
+  ["NPC_ID"]= 61041
+},
+[205] = {
+  ["awardId"]= 10101069,
+  ["awardType"]= 5,
+  ["id"]= 205,
+  ["itemText"]= "GashaponTallyDes10101069",
+  ["NPC_ID"]= 61041
+},
+[206] = {
+  ["awardId"]= 10101071,
+  ["awardType"]= 5,
+  ["id"]= 206,
+  ["itemText"]= "GashaponTallyDes10101071",
+  ["NPC_ID"]= 61041
+},
+[207] = {
+  ["awardId"]= 10105018,
+  ["awardType"]= 5,
+  ["id"]= 207,
+  ["itemText"]= "GashaponTallyDes10105018",
+  ["NPC_ID"]= 61041
+},
+[208] = {
+  ["awardId"]= 10105020,
+  ["awardType"]= 5,
+  ["id"]= 208,
+  ["itemText"]= "GashaponTallyDes10105020",
+  ["NPC_ID"]= 61041
+},
+[209] = {
+  ["awardId"]= 10104017,
+  ["awardType"]= 5,
+  ["id"]= 209,
+  ["itemText"]= "GashaponTallyDes10104017",
+  ["NPC_ID"]= 61041
+},
+[210] = {
+  ["awardId"]= 10106038,
+  ["awardType"]= 5,
+  ["id"]= 210,
+  ["itemText"]= "GashaponTallyDes10106038",
+  ["NPC_ID"]= 61041
+},
+[211] = {
+  ["awardId"]= 10106039,
+  ["awardType"]= 5,
+  ["id"]= 211,
+  ["itemText"]= "GashaponTallyDes10106039",
+  ["NPC_ID"]= 61041
+},
+[212] = {
+  ["awardId"]= 10105019,
+  ["awardType"]= 5,
+  ["id"]= 212,
+  ["itemText"]= "GashaponTallyDes10105019",
+  ["NPC_ID"]= 61041
+},
+[213] = {
+  ["awardId"]= 10103021,
+  ["awardType"]= 5,
+  ["id"]= 213,
+  ["itemText"]= "GashaponTallyDes10103021",
+  ["NPC_ID"]= 61041
+},
+[214] = {
+  ["awardId"]= 10104010,
+  ["awardType"]= 5,
+  ["id"]= 214,
+  ["itemText"]= "GashaponTallyDes10104010",
+  ["NPC_ID"]= 61041
+},
+[215] = {
+  ["awardId"]= 10101046,
+  ["awardType"]= 5,
+  ["id"]= 215,
+  ["itemText"]= "GashaponTallyDes10101046",
+  ["NPC_ID"]= 61041
+},
+[216] = {
+  ["awardId"]= 10105010,
+  ["awardType"]= 5,
+  ["id"]= 216,
+  ["itemText"]= "GashaponTallyDes10105010",
+  ["NPC_ID"]= 61041
+},
+[217] = {
+  ["awardId"]= 10102026,
+  ["awardType"]= 5,
+  ["id"]= 217,
+  ["itemText"]= "GashaponTallyDes10102026",
+  ["NPC_ID"]= 61041
+},
+[218] = {
+  ["awardId"]= 10101072,
+  ["awardType"]= 5,
+  ["id"]= 218,
+  ["itemText"]= "GashaponTallyDes10101072",
+  ["NPC_ID"]= 61041
+},
+[219] = {
+  ["awardId"]= 10101073,
+  ["awardType"]= 5,
+  ["id"]= 219,
+  ["itemText"]= "GashaponTallyDes10101073",
+  ["NPC_ID"]= 61041
+},
+[220] = {
+  ["awardId"]= 10105022,
+  ["awardType"]= 5,
+  ["id"]= 220,
+  ["itemText"]= "GashaponTallyDes10105022",
+  ["NPC_ID"]= 61041
+},
+[221] = {
+  ["awardId"]= 10104018,
+  ["awardType"]= 5,
+  ["id"]= 221,
+  ["itemText"]= "GashaponTallyDes10104018",
+  ["NPC_ID"]= 61041
+},
+[222] = {
+  ["awardId"]= 10101074,
+  ["awardType"]= 5,
+  ["id"]= 222,
+  ["itemText"]= "GashaponTallyDes10101074",
+  ["NPC_ID"]= 61041
+},
+[223] = {
+  ["awardId"]= 10106040,
+  ["awardType"]= 5,
+  ["id"]= 223,
+  ["itemText"]= "GashaponTallyDes10106040",
+  ["NPC_ID"]= 61041
+},
+[224] = {
+  ["awardId"]= 10105021,
+  ["awardType"]= 5,
+  ["id"]= 224,
+  ["itemText"]= "GashaponTallyDes10105021",
+  ["NPC_ID"]= 61041
+},
+[225] = {
+  ["awardId"]= 10107015,
+  ["awardType"]= 5,
+  ["id"]= 225,
+  ["itemText"]= "GashaponTallyDes10107015",
+  ["NPC_ID"]= 61041
+},
+[226] = {
+  ["awardId"]= 10101043,
+  ["awardType"]= 5,
+  ["id"]= 226,
+  ["itemText"]= "GashaponTallyDes10101043",
+  ["NPC_ID"]= 61041
+},
+[227] = {
+  ["awardId"]= 10106026,
+  ["awardType"]= 5,
+  ["id"]= 227,
+  ["itemText"]= "GashaponTallyDes10106026",
+  ["NPC_ID"]= 61041
+},
+[228] = {
+  ["awardId"]= 10106036,
+  ["awardType"]= 5,
+  ["id"]= 228,
+  ["itemText"]= "GashaponTallyDes10106036",
+  ["NPC_ID"]= 61041
+},
+[229] = {
+  ["awardId"]= 10106037,
+  ["awardType"]= 5,
+  ["id"]= 229,
+  ["itemText"]= "GashaponTallyDes10106037",
+  ["NPC_ID"]= 61041
+},
+[230] = {
+  ["awardId"]= 10101070,
+  ["awardType"]= 5,
+  ["id"]= 230,
+  ["itemText"]= "GashaponTallyDes10101070",
+  ["NPC_ID"]= 61041
+},
+[231] = {
+  ["awardId"]= 10104020,
+  ["awardType"]= 5,
+  ["id"]= 231,
+  ["itemText"]= "GashaponTallyDes10104020",
+  ["NPC_ID"]= 61041,
+  ["tally"]= 960000
+},
+[232] = {
+  ["awardId"]= 10102024,
+  ["awardType"]= 5,
+  ["id"]= 232,
+  ["itemText"]= "GashaponTallyDes10102024",
+  ["NPC_ID"]= 61041,
+  ["tally"]= 960000
+},
+[233] = {
+  ["awardId"]= 10107016,
+  ["awardType"]= 5,
+  ["id"]= 233,
+  ["itemText"]= "GashaponTallyDes10107016",
+  ["NPC_ID"]= 61041,
+  ["tally"]= 960000
+},
+[234] = {
+  ["awardId"]= 10101081,
+  ["awardType"]= 5,
+  ["id"]= 234,
+  ["itemText"]= "GashaponTallyDes10101081",
+  ["NPC_ID"]= 61041,
+  ["tally"]= 960000
+},
+[235] = {
+  ["awardId"]= 10101082,
+  ["awardType"]= 5,
+  ["id"]= 235,
+  ["itemText"]= "GashaponTallyDes10101082",
+  ["NPC_ID"]= 61041,
+  ["tally"]= 960000
+},
+[236] = {
+  ["awardId"]= 10106044,
+  ["awardType"]= 5,
+  ["id"]= 236,
+  ["itemText"]= "GashaponTallyDes10106044",
+  ["NPC_ID"]= 61041,
+  ["tally"]= 960000
+},
+[237] = {
+  ["awardId"]= 10106045,
+  ["awardType"]= 5,
+  ["id"]= 237,
+  ["itemText"]= "GashaponTallyDes10106045",
+  ["NPC_ID"]= 61041,
+  ["tally"]= 960000
+},
+[238] = {
+  ["awardId"]= 10106046,
+  ["awardType"]= 5,
+  ["id"]= 238,
+  ["itemText"]= "GashaponTallyDes10106046",
+  ["NPC_ID"]= 61041,
+  ["tally"]= 960000
+},
+[239] = {
+  ["awardId"]= 10105024,
+  ["awardType"]= 5,
+  ["id"]= 239,
+  ["itemText"]= "GashaponTallyDes10105024",
+  ["NPC_ID"]= 61041,
+  ["tally"]= 960000
+},
+[240] = {
+  ["awardId"]= 10105011,
+  ["awardType"]= 5,
+  ["id"]= 240,
+  ["itemText"]= "GashaponTallyDes10105011",
+  ["NPC_ID"]= 61041,
+  ["tally"]= 960000
+},
+[241] = {
+  ["awardId"]= 10105014,
+  ["awardType"]= 5,
+  ["id"]= 241,
+  ["itemText"]= "GashaponTallyDes10105014",
+  ["NPC_ID"]= 61041,
+  ["tally"]= 960000
+},
+[242] = {
+  ["awardId"]= 10105025,
+  ["awardType"]= 5,
+  ["id"]= 242,
+  ["itemText"]= "GashaponTallyDes10105025",
+  ["NPC_ID"]= 61041,
+  ["tally"]= 960000
+},
+[243] = {
+  ["awardId"]= 10102018,
+  ["awardType"]= 5,
+  ["id"]= 243,
+  ["itemText"]= "GashaponTallyDes10102018",
+  ["NPC_ID"]= 61041,
+  ["tally"]= 960000
+},
+[244] = {
+  ["awardId"]= 10103011,
+  ["awardType"]= 5,
+  ["id"]= 244,
+  ["itemText"]= "GashaponTallyDes10103011",
+  ["NPC_ID"]= 61041,
+  ["tally"]= 960000
+},
+[245] = {
+  ["awardId"]= 10103017,
+  ["awardType"]= 5,
+  ["id"]= 245,
+  ["itemText"]= "GashaponTallyDes10103017",
+  ["NPC_ID"]= 61041,
+  ["tally"]= 960000
+},
+[246] = {
+  ["awardId"]= 10104019,
+  ["awardType"]= 5,
+  ["id"]= 246,
+  ["itemText"]= "GashaponTallyDes10104019",
+  ["NPC_ID"]= 61041,
+  ["tally"]= 960000
+},
+[247] = {
+  ["awardId"]= 10101078,
+  ["awardType"]= 5,
+  ["id"]= 247,
+  ["itemText"]= "GashaponTallyDes10101078",
+  ["NPC_ID"]= 61041,
+  ["tally"]= 960000
+},
+[248] = {
+  ["awardId"]= 10101079,
+  ["awardType"]= 5,
+  ["id"]= 248,
+  ["itemText"]= "GashaponTallyDes10101079",
+  ["NPC_ID"]= 61041,
+  ["tally"]= 960000
+},
+[249] = {
+  ["awardId"]= 10101080,
+  ["awardType"]= 5,
+  ["id"]= 249,
+  ["itemText"]= "GashaponTallyDes10101080",
+  ["NPC_ID"]= 61041,
+  ["tally"]= 960000
+},
+[250] = {
+  ["awardId"]= 10106041,
+  ["awardType"]= 5,
+  ["id"]= 250,
+  ["itemText"]= "GashaponTallyDes10106041",
+  ["NPC_ID"]= 61041,
+  ["tally"]= 960000
+},
+[251] = {
+  ["awardId"]= 10106042,
+  ["awardType"]= 5,
+  ["id"]= 251,
+  ["itemText"]= "GashaponTallyDes10106042",
+  ["NPC_ID"]= 61041,
+  ["tally"]= 960000
+},
+[252] = {
+  ["awardId"]= 10106043,
+  ["awardType"]= 5,
+  ["id"]= 252,
+  ["itemText"]= "GashaponTallyDes10106043",
+  ["NPC_ID"]= 61041,
+  ["tally"]= 960000
+},
+[253] = {
+  ["awardId"]= 10105017,
+  ["awardType"]= 5,
+  ["id"]= 253,
+  ["itemText"]= "GashaponTallyDes10105017",
+  ["NPC_ID"]= 61041,
+  ["tally"]= 960000
+},
+[254] = {
+  ["awardId"]= 10105023,
+  ["awardType"]= 5,
+  ["id"]= 254,
+  ["itemText"]= "GashaponTallyDes10105023",
+  ["NPC_ID"]= 61041,
+  ["tally"]= 960000
+},
+[255] = {
+  ["awardId"]= 10101044,
+  ["awardType"]= 5,
+  ["id"]= 255,
+  ["itemText"]= "GashaponTallyDes10101044",
+  ["NPC_ID"]= 61041,
+  ["tally"]= 960000
+},
+[256] = {
+  ["awardId"]= 10101055,
+  ["awardType"]= 5,
+  ["id"]= 256,
+  ["itemText"]= "GashaponTallyDes10101055",
+  ["NPC_ID"]= 61041,
+  ["tally"]= 960000
+},
+[257] = {
+  ["awardId"]= 10104011,
+  ["awardType"]= 5,
+  ["id"]= 257,
+  ["itemText"]= "GashaponTallyDes10104011",
+  ["NPC_ID"]= 61041,
+  ["tally"]= 960000
+},
+[258] = {
+  ["awardId"]= 10101075,
+  ["awardType"]= 5,
+  ["id"]= 258,
+  ["itemText"]= "GashaponTallyDes10101075",
+  ["NPC_ID"]= 61041,
+  ["tally"]= 960000
+},
+[259] = {
+  ["awardId"]= 10101076,
+  ["awardType"]= 5,
+  ["id"]= 259,
+  ["itemText"]= "GashaponTallyDes10101076",
+  ["NPC_ID"]= 61041,
+  ["tally"]= 960000
+},
+[260] = {
+  ["awardId"]= 10101077,
+  ["awardType"]= 5,
+  ["id"]= 260,
+  ["itemText"]= "GashaponTallyDes10101077",
+  ["NPC_ID"]= 61041,
+  ["tally"]= 960000
+},
+[301] = {
+  ["awardId"]= 4101014,
+  ["id"]= 301,
+  ["itemText"]= "GashaponTallyDes4101014",
+  ["NPC_ID"]= 61042,
+  ["tally"]= 500000
+},
+[302] = {
+  ["awardId"]= 4102011,
+  ["id"]= 302,
+  ["itemText"]= "GashaponTallyDes4102011",
+  ["NPC_ID"]= 61042,
+  ["tally"]= 500000
+},
+[303] = {
+  ["awardId"]= 4101172,
+  ["id"]= 303,
+  ["itemText"]= "GashaponTallyDes4101172",
+  ["NPC_ID"]= 61042,
+  ["tally"]= 500000
+},
+[304] = {
+  ["awardId"]= 4103001,
+  ["id"]= 304,
+  ["itemText"]= "GashaponTallyDes4103001",
+  ["NPC_ID"]= 61042,
+  ["tally"]= 500000
+},
+[305] = {
+  ["awardId"]= 4101041,
+  ["id"]= 305,
+  ["itemText"]= "GashaponTallyDes4101041",
+  ["NPC_ID"]= 61042,
+  ["tally"]= 500000
+},
+[306] = {
+  ["awardId"]= 4101007,
+  ["id"]= 306,
+  ["itemText"]= "GashaponTallyDes4101007",
+  ["NPC_ID"]= 61042,
+  ["tally"]= 500000
+},
+[307] = {
+  ["awardId"]= 4101069,
+  ["id"]= 307,
+  ["itemText"]= "GashaponTallyDes4101069",
+  ["NPC_ID"]= 61042,
+  ["tally"]= 500000
+},
+[308] = {
+  ["awardId"]= 4101070,
+  ["id"]= 308,
+  ["itemText"]= "GashaponTallyDes4101070",
+  ["NPC_ID"]= 61042,
+  ["tally"]= 500000
+},
+[309] = {
+  ["awardId"]= 4101022,
+  ["id"]= 309,
+  ["itemText"]= "GashaponTallyDes4101022",
+  ["NPC_ID"]= 61042,
+  ["tally"]= 200000
+},
+[310] = {
+  ["awardId"]= 4101020,
+  ["id"]= 310,
+  ["itemText"]= "GashaponTallyDes4101020",
+  ["NPC_ID"]= 61042,
+  ["tally"]= 200000
+},
+[311] = {
+  ["awardId"]= 4101028,
+  ["id"]= 311,
+  ["itemText"]= "GashaponTallyDes4101028",
+  ["NPC_ID"]= 61042,
+  ["tally"]= 200000
+},
+[312] = {
+  ["awardId"]= 4101024,
+  ["id"]= 312,
+  ["itemText"]= "GashaponTallyDes4101024",
+  ["NPC_ID"]= 61042,
+  ["tally"]= 200000
+},
+[313] = {
+  ["awardId"]= 4101171,
+  ["id"]= 313,
+  ["itemText"]= "GashaponTallyDes4101171",
+  ["NPC_ID"]= 61042,
+  ["tally"]= 200000
+},
+[314] = {
+  ["awardId"]= 4101053,
+  ["id"]= 314,
+  ["itemText"]= "GashaponTallyDes4101053",
+  ["NPC_ID"]= 61042,
+  ["tally"]= 200000
+},
+[315] = {
+  ["awardId"]= 4101018,
+  ["id"]= 315,
+  ["itemText"]= "GashaponTallyDes4101018",
+  ["NPC_ID"]= 61042,
+  ["tally"]= 200000
+},
+[316] = {
+  ["awardId"]= 4101016,
+  ["id"]= 316,
+  ["itemText"]= "GashaponTallyDes4101016",
+  ["NPC_ID"]= 61042,
+  ["tally"]= 200000
+},
+[317] = {
+  ["awardId"]= 4101006,
+  ["id"]= 317,
+  ["itemText"]= "GashaponTallyDes4101006",
+  ["NPC_ID"]= 61042,
+  ["tally"]= 200000
+},
+[318] = {
+  ["awardId"]= 4101011,
+  ["id"]= 318,
+  ["itemText"]= "GashaponTallyDes4101011",
+  ["NPC_ID"]= 61042,
+  ["tally"]= 200000
+},
+[319] = {
+  ["awardId"]= 4101001,
+  ["id"]= 319,
+  ["itemText"]= "GashaponTallyDes4101001",
+  ["NPC_ID"]= 61042,
+  ["tally"]= 200000
+},
+[320] = {
+  ["awardId"]= 4101010,
+  ["id"]= 320,
+  ["itemText"]= "GashaponTallyDes4101010",
+  ["NPC_ID"]= 61042,
+  ["tally"]= 200000
+},
+[321] = {
+  ["awardId"]= 4101008,
+  ["id"]= 321,
+  ["itemText"]= "GashaponTallyDes4101008",
+  ["NPC_ID"]= 61042,
+  ["tally"]= 200000
+},
+[322] = {
+  ["awardId"]= 4102040,
+  ["id"]= 322,
+  ["itemText"]= "GashaponTallyDes4102040",
+  ["NPC_ID"]= 61042,
+  ["tally"]= 200000
+}
+}
+local baseTable={
+  ["amount"]= 1,
+  ["awardId"]= 1101034,
+  ["awardType"]= 4,
+  ["dropId"]= 0,
+  ["id"]= 101,
+  ["isAbandoned"]= 0,
+  ["itemText"]= "GashaponTallyDes1101034",
+  ["NPC_ID"]= 61023,
+  ["tally"]= 480000
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

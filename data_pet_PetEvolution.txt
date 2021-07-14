@@ -1,0 +1,30 @@
+TextAsset Base
+	string m_Name = "data_pet_PetEvolution"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["Deduct"]= 2500,
+  ["EvolutionId"]= 82003,
+  ["Id"]= 2,
+  ["Item"]= "10410001,4;10410002,4;10410003,5",
+  ["Level"]= 21,
+  ["Order"]= 2,
+  ["Probability"]= 0.88,
+  ["Star"]= 5
+}
+}
+local baseTable={
+  ["Deduct"]= 2000,
+  ["EvolutionId"]= 82002,
+  ["Id"]= 1,
+  ["Item"]= "10410001,4;10410002,4;10410003,4",
+  ["Level"]= 20,
+  ["Order"]= 1,
+  ["PetId"]= 82001,
+  ["Probability"]= 0.8,
+  ["Star"]= 6
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

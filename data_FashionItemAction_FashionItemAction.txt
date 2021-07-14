@@ -1,0 +1,25 @@
+TextAsset Base
+	string m_Name = "data_FashionItemAction_FashionItemAction"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["ActionLoopName"]= "seat5023Loop",
+  ["ActionName"]= "seat5023",
+  ["FashionItemID"]= 2405023,
+  ["ID"]= 2,
+  ["Name"]= "冬日暖阳服饰"
+}
+}
+local baseTable={
+  ["ActionLoopName"]= "seat5011Loop",
+  ["ActionName"]= "seat5011",
+  ["DistinguishSex"]= 1,
+  ["FashionItemID"]= 2405011,
+  ["ID"]= 1,
+  ["Name"]= "白昼魔术礼服",
+  ["SocialActionID"]= 5
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

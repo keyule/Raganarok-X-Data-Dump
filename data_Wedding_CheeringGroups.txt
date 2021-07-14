@@ -1,0 +1,42 @@
+TextAsset Base
+	string m_Name = "data_Wedding_CheeringGroups"
+	string m_Script = "local table= {
+[20001] = {},
+[20002] = {
+  ["CheeringGroupsType"]= 20002,
+  ["CoupleInvitationDropId"]= 100002
+},
+[20003] = {
+  ["CheeringGroupsType"]= 20003,
+  ["CoupleInvitationDropId"]= 100003,
+  ["GroupsNums"]= 2
+},
+[20004] = {
+  ["CheeringGroupsType"]= 20004,
+  ["CoupleInvitationDropId"]= 100004,
+  ["GroupsNums"]= 2
+}
+}
+local baseTable={
+  ["CheeringGroupsType"]= 20001,
+  ["CoupleInvitationDropId"]= 100001,
+  ["CoupleReceiveMailId"]= 11001,
+  ["GroupsAcceptCoupleMailId"]= 11004,
+  ["GroupsAcceptDropId"]= 100029,
+  ["GroupsAcceptSelfMailId"]= 11003,
+  ["GroupsInvitationMailId"]= 11002,
+  ["GroupsNums"]= 1,
+  ["GroupsRefuseCoupleMailId"]= 11006,
+  ["GroupsRefuseDropId"]= 100030,
+  ["GroupsRefuseSelfMailId"]= 11005,
+  ["GuestsAcceptCoupleMailId"]= 11009,
+  ["GuestsAcceptSelfMailId"]= 11008,
+  ["GuestsInvitationMailId"]= 11007,
+  ["GuestsRefuseCoupleMailId"]= 11011,
+  ["GuestsRefuseDropId"]= 100031,
+  ["GuestsRefuseSelfMailId"]= 11010
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

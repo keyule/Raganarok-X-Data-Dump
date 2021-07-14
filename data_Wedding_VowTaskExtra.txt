@@ -1,0 +1,72 @@
+TextAsset Base
+	string m_Name = "data_Wedding_VowTaskExtra"
+	string m_Script = "local table= {
+[1] = {
+  ["RedPacketNums"]= 30
+},
+[2] = {
+  ["Orders"]= 3,
+  ["RedPacketNums"]= 60,
+  ["RedPacketTotalPrice"]= 20000,
+  ["StarsNums"]= 2,
+  ["TaskId"]= 110503101,
+  ["WitnessId"]= 62010,
+  ["WitnessStaticId"]= 10103001
+},
+[3] = {
+  ["Orders"]= 4,
+  ["RedPacketTotalPrice"]= 30000,
+  ["RedPacketType"]= 0,
+  ["StarsNums"]= 3,
+  ["TaskId"]= 110504101,
+  ["WitnessId"]= 62026,
+  ["WitnessStaticId"]= 10106005
+},
+[4] = {
+  ["Orders"]= 5,
+  ["RedPacketTips"]= 7,
+  ["RedPacketTotalPrice"]= 50000,
+  ["RedPacketType"]= 0,
+  ["StarsNums"]= 4,
+  ["TaskId"]= 110505101,
+  ["WitnessId"]= 62054,
+  ["WitnessStaticId"]= 12206004
+},
+[5] = {
+  ["Orders"]= 2,
+  ["RedPacketNums"]= 30,
+  ["RedPacketTips"]= 7,
+  ["TaskId"]= 110506101,
+  ["WitnessId"]= 62042,
+  ["WitnessStaticId"]= 15603001
+},
+[6] = {
+  ["NeedItemShow"]= 10906003,
+  ["Orders"]= 6,
+  ["RedPacketTips"]= 7,
+  ["RedPacketTotalPrice"]= 100000,
+  ["RedPacketType"]= 0,
+  ["StarsNums"]= 5,
+  ["TaskId"]= 110507101,
+  ["WitnessId"]= 61177,
+  ["WitnessStaticId"]= 15301001
+}
+}
+local baseTable={
+  ["GiveRedPacketTime"]= 40,
+  ["NeedItemShow"]= 0,
+  ["Orders"]= 1,
+  ["RedPacketNums"]= 100,
+  ["RedPacketTimes"]= 5,
+  ["RedPacketTips"]= 6,
+  ["RedPacketTotalPrice"]= 10000,
+  ["RedPacketType"]= 1,
+  ["StarsNums"]= 1,
+  ["TaskId"]= 110502101,
+  ["WitnessId"]= 62009,
+  ["WitnessStaticId"]= 11706001
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

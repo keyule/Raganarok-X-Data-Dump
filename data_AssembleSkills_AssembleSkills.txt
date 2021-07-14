@@ -1,0 +1,24 @@
+TextAsset Base
+	string m_Name = "data_AssembleSkills_AssembleSkills"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["id"]= 2
+},
+[3] = {
+  ["id"]= 3,
+  ["UnlockingConditionID"]= 1093
+},
+[4] = {
+  ["id"]= 4,
+  ["UnlockingConditionID"]= 1093
+}
+}
+local baseTable={
+  ["id"]= 1,
+  ["UnlockingConditionID"]= 1094
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

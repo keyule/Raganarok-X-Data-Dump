@@ -1,0 +1,1404 @@
+TextAsset Base
+	string m_Name = "data_AutoPoint"
+	string m_Script = "local table= {
+[1] = {
+  ["Agi"]= 79,
+  ["bgName"]= "Img_Card_CXZ1",
+  ["Dex"]= 0,
+  ["skillLv"]= {},
+  ["Str"]= 79
+},
+[2] = {
+  ["bgName"]= "Img_Card_CXZ3",
+  ["Dex"]= 0,
+  ["id"]= 10002,
+  ["planDesLid"]= "AutoPoint_planDes10002",
+  ["planInfoLid"]= "AutoPoint_planInfo10002",
+  ["planNameLid"]= "AutoPoint_planName10002",
+  ["skillLv"]= {},
+  ["Str"]= 79,
+  ["type"]= 2,
+  ["Vit"]= 79
+},
+[3] = {
+  ["Agi"]= 52,
+  ["bgName"]= "Img_Card_CXZ2",
+  ["Dex"]= 0,
+  ["id"]= 10003,
+  ["planDesLid"]= "AutoPoint_planDes10003",
+  ["planInfoLid"]= "AutoPoint_planInfo10003",
+  ["planNameLid"]= "AutoPoint_planName10003",
+  ["skillLv"]= {},
+  ["Str"]= 79,
+  ["type"]= 3,
+  ["Vit"]= 52
+},
+[4] = {
+  ["Agi"]= 79,
+  ["Dex"]= 0,
+  ["id"]= 11001,
+  ["jobId"]= 1100,
+  ["jobNameLid"]= "JobName_1100",
+  ["planDesLid"]= "AutoPoint_planDes11001",
+  ["planInfoLid"]= "AutoPoint_planInfo11001",
+  ["planNameLid"]= "AutoPoint_planName11001",
+  ["skillId"]= {
+    1100121,
+    1100128,
+    1100122,
+    1100124,
+    1100127,
+    1100129
+  },
+  ["skillLv"]= {
+    10,
+    5,
+    10,
+    5,
+    10,
+    10
+  },
+  ["Str"]= 59,
+  ["Vit"]= 45
+},
+[5] = {
+  ["bgName"]= "Img_Card_JS2",
+  ["Dex"]= 45,
+  ["id"]= 11002,
+  ["jobId"]= 1100,
+  ["jobNameLid"]= "JobName_1100",
+  ["planDesLid"]= "AutoPoint_planDes11002",
+  ["planInfoLid"]= "AutoPoint_planInfo11002",
+  ["planNameLid"]= "AutoPoint_planName11002",
+  ["skillId"]= {
+    1100121,
+    1100128,
+    1100122,
+    1100124,
+    1100123,
+    1100127
+  },
+  ["skillLv"]= {
+    10,
+    5,
+    10,
+    10,
+    5,
+    10
+  },
+  ["Str"]= 79,
+  ["type"]= 2,
+  ["Vit"]= 59
+},
+[6] = {
+  ["bgName"]= "Img_Card_JS3",
+  ["Dex"]= 45,
+  ["id"]= 11003,
+  ["jobId"]= 1100,
+  ["jobNameLid"]= "JobName_1100",
+  ["planDesLid"]= "AutoPoint_planDes11003",
+  ["planInfoLid"]= "AutoPoint_planInfo11003",
+  ["planNameLid"]= "AutoPoint_planName11003",
+  ["skillId"]= {
+    1100121,
+    1100128,
+    1100127,
+    1100126,
+    1100129,
+    1100124,
+    1100123
+  },
+  ["skillLv"]= {
+    5,
+    5,
+    5,
+    10,
+    10,
+    10,
+    5
+  },
+  ["Str"]= 59,
+  ["type"]= 3,
+  ["Vit"]= 79
+},
+[7] = {
+  ["Agi"]= 79,
+  ["bgName"]= "Img_Card_MS1",
+  ["Dex"]= 0,
+  ["id"]= 12001,
+  ["jobId"]= 1200,
+  ["jobNameLid"]= "JobName_1200",
+  ["planDesLid"]= "AutoPoint_planDes12001",
+  ["planInfoLid"]= "AutoPoint_planInfo12001",
+  ["planNameLid"]= "AutoPoint_planName12001",
+  ["skillId"]= {
+    1200121,
+    1200126,
+    1200128,
+    1210123,
+    1200125,
+    1210133
+  },
+  ["skillLv"]= {
+    10,
+    10,
+    10,
+    10,
+    5,
+    5
+  },
+  ["Str"]= 59,
+  ["type"]= 3,
+  ["Vit"]= 45
+},
+[8] = {
+  ["bgName"]= "Img_Card_MS2",
+  ["id"]= 12002,
+  ["Int"]= 79,
+  ["jobId"]= 1200,
+  ["jobNameLid"]= "JobName_1200",
+  ["planDesLid"]= "AutoPoint_planDes12002",
+  ["planInfoLid"]= "AutoPoint_planInfo12002",
+  ["planNameLid"]= "AutoPoint_planName12002",
+  ["skillId"]= {
+    1200121,
+    1200126,
+    1200128,
+    1200125,
+    1200129,
+    1210133
+  },
+  ["skillLv"]= {
+    10,
+    10,
+    5,
+    10,
+    10,
+    5
+  },
+  ["type"]= 2,
+  ["Vit"]= 45
+},
+[9] = {
+  ["bgName"]= "Img_Card_MS3",
+  ["Dex"]= 79,
+  ["id"]= 12003,
+  ["Int"]= 79,
+  ["jobId"]= 1200,
+  ["jobNameLid"]= "JobName_1200",
+  ["planDesLid"]= "AutoPoint_planDes12003",
+  ["planInfoLid"]= "AutoPoint_planInfo12003",
+  ["planNameLid"]= "AutoPoint_planName12003",
+  ["skillId"]= {
+    1200121,
+    1200122,
+    1200126,
+    1200128,
+    1200130,
+    1210133
+  },
+  ["skillLv"]= {
+    10,
+    5,
+    10,
+    10,
+    10,
+    5
+  }
+},
+[10] = {
+  ["bgName"]= "Img_Card_FS1",
+  ["Dex"]= 79,
+  ["id"]= 13001,
+  ["Int"]= 79,
+  ["jobId"]= 1300,
+  ["jobNameLid"]= "JobName_1300",
+  ["planDesLid"]= "AutoPoint_planDes13001",
+  ["planInfoLid"]= "AutoPoint_planInfo13001",
+  ["planNameLid"]= "AutoPoint_planName13001",
+  ["skillId"]= {
+    1300131,
+    1300122,
+    1300130,
+    1300121,
+    1300127
+  }
+},
+[11] = {
+  ["bgName"]= "Img_Card_FS2",
+  ["id"]= 13002,
+  ["Int"]= 79,
+  ["jobId"]= 1300,
+  ["jobNameLid"]= "JobName_1300",
+  ["planDesLid"]= "AutoPoint_planDes13002",
+  ["planInfoLid"]= "AutoPoint_planInfo13002",
+  ["planNameLid"]= "AutoPoint_planName13002",
+  ["skillId"]= {
+    1300131,
+    1300128,
+    1300123,
+    1300129,
+    1300127
+  },
+  ["type"]= 2,
+  ["Vit"]= 45
+},
+[12] = {
+  ["bgName"]= "Img_Card_FS3",
+  ["Dex"]= 79,
+  ["id"]= 13003,
+  ["Int"]= 79,
+  ["jobId"]= 1300,
+  ["jobNameLid"]= "JobName_1300",
+  ["planDesLid"]= "AutoPoint_planDes13003",
+  ["planInfoLid"]= "AutoPoint_planInfo13003",
+  ["planNameLid"]= "AutoPoint_planName13003",
+  ["skillId"]= {
+    1300128,
+    1300123,
+    1310131,
+    1300129,
+    1300127
+  },
+  ["type"]= 3
+},
+[13] = {
+  ["Agi"]= 79,
+  ["bgName"]= "Img_Card_CK1",
+  ["Dex"]= 0,
+  ["id"]= 14001,
+  ["jobId"]= 1400,
+  ["jobNameLid"]= "JobName_1400",
+  ["Luk"]= 45,
+  ["planDesLid"]= "AutoPoint_planDes14001",
+  ["planInfoLid"]= "AutoPoint_planInfo14001",
+  ["planNameLid"]= "AutoPoint_planName14001",
+  ["skillId"]= {
+    1400130,
+    1400122,
+    1400125,
+    1410128,
+    1400132
+  },
+  ["Str"]= 59
+},
+[14] = {
+  ["Agi"]= 45,
+  ["bgName"]= "Img_Card_CK2",
+  ["id"]= 14002,
+  ["jobId"]= 1400,
+  ["jobNameLid"]= "JobName_1400",
+  ["planDesLid"]= "AutoPoint_planDes14002",
+  ["planInfoLid"]= "AutoPoint_planInfo14002",
+  ["planNameLid"]= "AutoPoint_planName14002",
+  ["skillId"]= {
+    1400130,
+    1400122,
+    1400121,
+    1410128,
+    1400132
+  },
+  ["Str"]= 79,
+  ["type"]= 2
+},
+[15] = {
+  ["bgName"]= "Img_Card_CK3",
+  ["id"]= 14003,
+  ["jobId"]= 1400,
+  ["jobNameLid"]= "JobName_1400",
+  ["planDesLid"]= "AutoPoint_planDes14003",
+  ["planInfoLid"]= "AutoPoint_planInfo14003",
+  ["planNameLid"]= "AutoPoint_planName14003",
+  ["skillId"]= {
+    1400130,
+    1400122,
+    1400121,
+    1400125,
+    1400131
+  },
+  ["Str"]= 79,
+  ["type"]= 3,
+  ["Vit"]= 45
+},
+[16] = {
+  ["Agi"]= 79,
+  ["bgName"]= "Img_Card_GJS1",
+  ["id"]= 15001,
+  ["jobId"]= 1500,
+  ["jobNameLid"]= "JobName_1500",
+  ["Luk"]= 45,
+  ["planDesLid"]= "AutoPoint_planDes15001",
+  ["planInfoLid"]= "AutoPoint_planInfo15001",
+  ["planNameLid"]= "AutoPoint_planName15001",
+  ["skillId"]= {
+    1500121,
+    1500126,
+    1500122,
+    1500123,
+    1500130,
+    1500124
+  },
+  ["skillLv"]= {
+    5,
+    10,
+    10,
+    10,
+    10,
+    5
+  }
+},
+[17] = {
+  ["bgName"]= "Img_Card_GJS2",
+  ["Dex"]= 79,
+  ["id"]= 15002,
+  ["Int"]= 79,
+  ["jobId"]= 1500,
+  ["jobNameLid"]= "JobName_1500",
+  ["planDesLid"]= "AutoPoint_planDes15002",
+  ["planInfoLid"]= "AutoPoint_planInfo15002",
+  ["planNameLid"]= "AutoPoint_planName15002",
+  ["skillId"]= {
+    1500121,
+    1500126,
+    1511126,
+    1500124,
+    1500123,
+    1510125
+  },
+  ["skillLv"]= {
+    10,
+    10,
+    10,
+    5,
+    5,
+    10
+  },
+  ["type"]= 2
+},
+[18] = {
+  ["Agi"]= 45,
+  ["bgName"]= "Img_Card_GJS3",
+  ["id"]= 15003,
+  ["Int"]= 79,
+  ["jobId"]= 1500,
+  ["jobNameLid"]= "JobName_1500",
+  ["planDesLid"]= "AutoPoint_planDes15003",
+  ["planInfoLid"]= "AutoPoint_planInfo15003",
+  ["planNameLid"]= "AutoPoint_planName15003",
+  ["skillId"]= {
+    1500121,
+    1500126,
+    1500122,
+    1500123,
+    1500130,
+    1500124
+  },
+  ["skillLv"]= {
+    10,
+    10,
+    10,
+    5,
+    10,
+    5
+  },
+  ["type"]= 3
+},
+[19] = {
+  ["Agi"]= 79,
+  ["bgName"]= "Img_Card_SR1",
+  ["Dex"]= 0,
+  ["id"]= 16001,
+  ["jobId"]= 1600,
+  ["jobNameLid"]= "JobName_1600",
+  ["Luk"]= 45,
+  ["planDesLid"]= "AutoPoint_planDes16001",
+  ["planInfoLid"]= "AutoPoint_planInfo16001",
+  ["planNameLid"]= "AutoPoint_planName16001",
+  ["skillId"]= {
+    1600008,
+    1600004,
+    1600005,
+    1600007,
+    1600006,
+    1600003
+  },
+  ["skillLv"]= {
+    10,
+    5,
+    10,
+    10,
+    10,
+    5
+  },
+  ["Str"]= 59
+},
+[20] = {
+  ["bgName"]= "Img_Card_SR2",
+  ["id"]= 16002,
+  ["jobId"]= 1600,
+  ["jobNameLid"]= "JobName_1600",
+  ["planDesLid"]= "AutoPoint_planDes16002",
+  ["planInfoLid"]= "AutoPoint_planInfo16002",
+  ["planNameLid"]= "AutoPoint_planName16002",
+  ["skillId"]= {
+    1600008,
+    1600009,
+    1600004,
+    1600005,
+    1600006,
+    1600003
+  },
+  ["skillLv"]= {
+    10,
+    10,
+    5,
+    10,
+    10,
+    5
+  },
+  ["Str"]= 79,
+  ["type"]= 2,
+  ["Vit"]= 45
+},
+[21] = {
+  ["bgName"]= "Img_Card_SR3",
+  ["Dex"]= 45,
+  ["id"]= 16003,
+  ["jobId"]= 1600,
+  ["jobNameLid"]= "JobName_1600",
+  ["planDesLid"]= "AutoPoint_planDes16003",
+  ["planInfoLid"]= "AutoPoint_planInfo16003",
+  ["planNameLid"]= "AutoPoint_planName16003",
+  ["skillId"]= {
+    1600008,
+    1600009,
+    1600004,
+    1600005,
+    1600003,
+    1600006
+  },
+  ["skillLv"]= {
+    10,
+    10,
+    5,
+    10,
+    5,
+    10
+  },
+  ["Str"]= 79,
+  ["type"]= 3,
+  ["Vit"]= 59
+},
+[22] = {
+  ["Agi"]= 79,
+  ["Dex"]= 0,
+  ["id"]= 11101,
+  ["jobId"]= 1110,
+  ["jobNameLid"]= "JobName_1110",
+  ["planDesLid"]= "AutoPoint_planDes11101",
+  ["planInfoLid"]= "AutoPoint_planInfo11101",
+  ["planNameLid"]= "AutoPoint_planName11101",
+  ["preplan"]= 11001,
+  ["skillId"]= {
+    1110127,
+    1110135,
+    1110132,
+    1110129,
+    1111124,
+    1110128
+  },
+  ["skillLv"]= {
+    10,
+    10,
+    5,
+    5,
+    10,
+    10
+  },
+  ["Str"]= 59,
+  ["Vit"]= 45
+},
+[23] = {
+  ["bgName"]= "Img_Card_JS2",
+  ["Dex"]= 45,
+  ["id"]= 11102,
+  ["jobId"]= 1110,
+  ["jobNameLid"]= "JobName_1110",
+  ["planDesLid"]= "AutoPoint_planDes11102",
+  ["planInfoLid"]= "AutoPoint_planInfo11102",
+  ["planNameLid"]= "AutoPoint_planName11102",
+  ["preplan"]= 11002,
+  ["skillId"]= {
+    1110131,
+    1110124,
+    1110125,
+    1110126,
+    1110132,
+    1110129
+  },
+  ["skillLv"]= {
+    5,
+    10,
+    10,
+    10,
+    5,
+    10
+  },
+  ["Str"]= 79,
+  ["type"]= 2,
+  ["Vit"]= 59
+},
+[24] = {
+  ["bgName"]= "Img_Card_JS3",
+  ["Dex"]= 45,
+  ["id"]= 11103,
+  ["jobId"]= 1110,
+  ["jobNameLid"]= "JobName_1110",
+  ["planDesLid"]= "AutoPoint_planDes11103",
+  ["planInfoLid"]= "AutoPoint_planInfo11103",
+  ["planNameLid"]= "AutoPoint_planName11103",
+  ["preplan"]= 11003,
+  ["skillId"]= {
+    1110127,
+    1110135,
+    1110132,
+    1110129,
+    1110134,
+    1110121,
+    1110123
+  },
+  ["skillLv"]= {
+    5,
+    5,
+    5,
+    5,
+    10,
+    10,
+    10
+  },
+  ["Str"]= 59,
+  ["type"]= 3,
+  ["Vit"]= 79
+},
+[25] = {
+  ["Agi"]= 79,
+  ["bgName"]= "Img_Card_MS1",
+  ["Dex"]= 0,
+  ["id"]= 12101,
+  ["jobId"]= 1210,
+  ["jobNameLid"]= "JobName_1210",
+  ["planDesLid"]= "AutoPoint_planDes12101",
+  ["planInfoLid"]= "AutoPoint_planInfo12101",
+  ["planNameLid"]= "AutoPoint_planName12101",
+  ["preplan"]= 12001,
+  ["skillId"]= {
+    1210128,
+    1210121,
+    1211127,
+    1210129,
+    1210127,
+    1210138,
+    1200124
+  },
+  ["skillLv"]= {
+    5,
+    10,
+    10,
+    5,
+    5,
+    10,
+    5
+  },
+  ["Str"]= 59,
+  ["type"]= 3,
+  ["Vit"]= 45
+},
+[26] = {
+  ["bgName"]= "Img_Card_MS2",
+  ["id"]= 12102,
+  ["Int"]= 79,
+  ["jobId"]= 1210,
+  ["jobNameLid"]= "JobName_1210",
+  ["planDesLid"]= "AutoPoint_planDes12102",
+  ["planInfoLid"]= "AutoPoint_planInfo12102",
+  ["planNameLid"]= "AutoPoint_planName12102",
+  ["preplan"]= 12002,
+  ["skillId"]= {
+    1210135,
+    1210136,
+    1210121,
+    1210122,
+    1210129,
+    1210125
+  },
+  ["skillLv"]= {
+    10,
+    5,
+    10,
+    5,
+    10,
+    10
+  },
+  ["type"]= 2,
+  ["Vit"]= 45
+},
+[27] = {
+  ["bgName"]= "Img_Card_MS3",
+  ["Dex"]= 79,
+  ["id"]= 12103,
+  ["Int"]= 79,
+  ["jobId"]= 1210,
+  ["jobNameLid"]= "JobName_1210",
+  ["planDesLid"]= "AutoPoint_planDes12103",
+  ["planInfoLid"]= "AutoPoint_planInfo12103",
+  ["planNameLid"]= "AutoPoint_planName12103",
+  ["preplan"]= 12003,
+  ["skillId"]= {
+    1210135,
+    1210128,
+    1210121,
+    1210129,
+    1210130,
+    1210127
+  },
+  ["skillLv"]= {
+    10,
+    5,
+    10,
+    10,
+    10,
+    5
+  }
+},
+[28] = {
+  ["bgName"]= "Img_Card_FS1",
+  ["Dex"]= 79,
+  ["id"]= 13101,
+  ["Int"]= 79,
+  ["jobId"]= 1310,
+  ["jobNameLid"]= "JobName_1310",
+  ["planDesLid"]= "AutoPoint_planDes13101",
+  ["planInfoLid"]= "AutoPoint_planInfo13101",
+  ["planNameLid"]= "AutoPoint_planName13101",
+  ["preplan"]= 13001,
+  ["skillId"]= {
+    1310122,
+    1300126,
+    1311126,
+    1311123,
+    1310123,
+    1311122
+  },
+  ["skillLv"]= {
+    10,
+    9,
+    1,
+    10,
+    10,
+    10
+  }
+},
+[29] = {
+  ["bgName"]= "Img_Card_FS2",
+  ["id"]= 13102,
+  ["Int"]= 79,
+  ["jobId"]= 1310,
+  ["jobNameLid"]= "JobName_1310",
+  ["planDesLid"]= "AutoPoint_planDes13102",
+  ["planInfoLid"]= "AutoPoint_planInfo13102",
+  ["planNameLid"]= "AutoPoint_planName13102",
+  ["preplan"]= 13002,
+  ["skillId"]= {
+    1300126,
+    1311126,
+    1310133,
+    1300124,
+    1311132,
+    1310128
+  },
+  ["skillLv"]= {
+    9,
+    1,
+    10,
+    10,
+    10,
+    10
+  },
+  ["type"]= 2,
+  ["Vit"]= 45
+},
+[30] = {
+  ["bgName"]= "Img_Card_FS3",
+  ["Dex"]= 79,
+  ["id"]= 13103,
+  ["Int"]= 79,
+  ["jobId"]= 1310,
+  ["jobNameLid"]= "JobName_1310",
+  ["planDesLid"]= "AutoPoint_planDes13103",
+  ["planInfoLid"]= "AutoPoint_planInfo13103",
+  ["planNameLid"]= "AutoPoint_planName13103",
+  ["preplan"]= 13003,
+  ["skillId"]= {
+    1300126,
+    1311126,
+    1310133,
+    1300124,
+    1311132,
+    1310128
+  },
+  ["skillLv"]= {
+    9,
+    1,
+    10,
+    10,
+    10,
+    10
+  },
+  ["type"]= 3
+},
+[31] = {
+  ["Agi"]= 79,
+  ["bgName"]= "Img_Card_CK1",
+  ["Dex"]= 0,
+  ["id"]= 14101,
+  ["jobId"]= 1410,
+  ["jobNameLid"]= "JobName_1410",
+  ["Luk"]= 45,
+  ["planDesLid"]= "AutoPoint_planDes14101",
+  ["planInfoLid"]= "AutoPoint_planInfo14101",
+  ["planNameLid"]= "AutoPoint_planName14101",
+  ["preplan"]= 14001,
+  ["skillId"]= {
+    1410136,
+    1410125,
+    1410123,
+    1410137,
+    1410124
+  },
+  ["Str"]= 59
+},
+[32] = {
+  ["Agi"]= 45,
+  ["bgName"]= "Img_Card_CK2",
+  ["id"]= 14102,
+  ["jobId"]= 1410,
+  ["jobNameLid"]= "JobName_1410",
+  ["planDesLid"]= "AutoPoint_planDes14102",
+  ["planInfoLid"]= "AutoPoint_planInfo14102",
+  ["planNameLid"]= "AutoPoint_planName14102",
+  ["preplan"]= 14002,
+  ["skillId"]= {
+    1410134,
+    1410136,
+    1410131,
+    1410137,
+    1410121,
+    1410122
+  },
+  ["skillLv"]= {
+    10,
+    10,
+    10,
+    10,
+    5,
+    5
+  },
+  ["Str"]= 79,
+  ["type"]= 2
+},
+[33] = {
+  ["bgName"]= "Img_Card_CK3",
+  ["id"]= 14103,
+  ["jobId"]= 1410,
+  ["jobNameLid"]= "JobName_1410",
+  ["planDesLid"]= "AutoPoint_planDes14103",
+  ["planInfoLid"]= "AutoPoint_planInfo14103",
+  ["planNameLid"]= "AutoPoint_planName14103",
+  ["preplan"]= 14003,
+  ["skillId"]= {
+    1410134,
+    1410135,
+    1410126,
+    1410133,
+    1410121,
+    1410122
+  },
+  ["skillLv"]= {
+    10,
+    10,
+    10,
+    10,
+    5,
+    5
+  },
+  ["Str"]= 79,
+  ["type"]= 3,
+  ["Vit"]= 45
+},
+[34] = {
+  ["Agi"]= 79,
+  ["bgName"]= "Img_Card_GJS1",
+  ["id"]= 15101,
+  ["jobId"]= 1510,
+  ["jobNameLid"]= "JobName_1510",
+  ["Luk"]= 45,
+  ["planDesLid"]= "AutoPoint_planDes15101",
+  ["planInfoLid"]= "AutoPoint_planInfo15101",
+  ["planNameLid"]= "AutoPoint_planName15101",
+  ["preplan"]= 15001,
+  ["skillId"]= {
+    1500125,
+    1510122,
+    1510121,
+    1510124,
+    1510133
+  }
+},
+[35] = {
+  ["bgName"]= "Img_Card_GJS2",
+  ["Dex"]= 79,
+  ["id"]= 15102,
+  ["Int"]= 79,
+  ["jobId"]= 1510,
+  ["jobNameLid"]= "JobName_1510",
+  ["planDesLid"]= "AutoPoint_planDes15102",
+  ["planInfoLid"]= "AutoPoint_planInfo15102",
+  ["planNameLid"]= "AutoPoint_planName15102",
+  ["preplan"]= 15002,
+  ["skillId"]= {
+    1500125,
+    1500127,
+    1510121,
+    1510132,
+    1510129
+  },
+  ["type"]= 2
+},
+[36] = {
+  ["Agi"]= 45,
+  ["bgName"]= "Img_Card_GJS3",
+  ["id"]= 15103,
+  ["Int"]= 79,
+  ["jobId"]= 1510,
+  ["jobNameLid"]= "JobName_1510",
+  ["planDesLid"]= "AutoPoint_planDes15103",
+  ["planInfoLid"]= "AutoPoint_planInfo15103",
+  ["planNameLid"]= "AutoPoint_planName15103",
+  ["preplan"]= 15003,
+  ["skillId"]= {
+    1500125,
+    1510122,
+    1510121,
+    1510123,
+    1510124
+  },
+  ["type"]= 3
+},
+[37] = {
+  ["Agi"]= 79,
+  ["bgName"]= "Img_Card_SR1",
+  ["Dex"]= 0,
+  ["id"]= 16101,
+  ["jobId"]= 1610,
+  ["jobNameLid"]= "JobName_1610",
+  ["Luk"]= 45,
+  ["planDesLid"]= "AutoPoint_planDes16101",
+  ["planInfoLid"]= "AutoPoint_planInfo16101",
+  ["planNameLid"]= "AutoPoint_planName16101",
+  ["preplan"]= 16001,
+  ["skillId"]= {
+    1610002,
+    1610003,
+    1610001,
+    1610004,
+    1610005,
+    1610010
+  },
+  ["skillLv"]= {
+    10,
+    10,
+    5,
+    10,
+    5,
+    10
+  },
+  ["Str"]= 59
+},
+[38] = {
+  ["bgName"]= "Img_Card_SR2",
+  ["id"]= 16102,
+  ["jobId"]= 1610,
+  ["jobNameLid"]= "JobName_1610",
+  ["planDesLid"]= "AutoPoint_planDes16102",
+  ["planInfoLid"]= "AutoPoint_planInfo16102",
+  ["planNameLid"]= "AutoPoint_planName16102",
+  ["preplan"]= 16002,
+  ["skillId"]= {
+    1610002,
+    1610012,
+    1610007,
+    1610004,
+    1610005,
+    1610006
+  },
+  ["skillLv"]= {
+    10,
+    10,
+    10,
+    10,
+    5,
+    5
+  },
+  ["Str"]= 79,
+  ["type"]= 2,
+  ["Vit"]= 45
+},
+[39] = {
+  ["bgName"]= "Img_Card_SR3",
+  ["Dex"]= 45,
+  ["id"]= 16103,
+  ["jobId"]= 1610,
+  ["jobNameLid"]= "JobName_1610",
+  ["planDesLid"]= "AutoPoint_planDes16103",
+  ["planInfoLid"]= "AutoPoint_planInfo16103",
+  ["planNameLid"]= "AutoPoint_planName16103",
+  ["preplan"]= 16003,
+  ["skillId"]= {
+    1610012,
+    1610004,
+    1610005,
+    1610010,
+    1610009,
+    1610008
+  },
+  ["skillLv"]= {
+    10,
+    10,
+    5,
+    10,
+    10,
+    5
+  },
+  ["Str"]= 79,
+  ["type"]= 3,
+  ["Vit"]= 59
+},
+[40] = {
+  ["Agi"]= 79,
+  ["Dex"]= 0,
+  ["id"]= 11111,
+  ["jobId"]= 1111,
+  ["jobNameLid"]= "JobName_1111",
+  ["planDesLid"]= "AutoPoint_planDes11111",
+  ["planInfoLid"]= "AutoPoint_planInfo11111",
+  ["planNameLid"]= "AutoPoint_planName11111",
+  ["preplan"]= 11101,
+  ["skillId"]= {
+    1111133,
+    1111123,
+    1111121,
+    1110130,
+    1111126
+  },
+  ["Str"]= 59,
+  ["Vit"]= 45
+},
+[41] = {
+  ["bgName"]= "Img_Card_JS2",
+  ["Dex"]= 45,
+  ["id"]= 11112,
+  ["jobId"]= 1111,
+  ["jobNameLid"]= "JobName_1111",
+  ["planDesLid"]= "AutoPoint_planDes11112",
+  ["planInfoLid"]= "AutoPoint_planInfo11112",
+  ["planNameLid"]= "AutoPoint_planName11112",
+  ["preplan"]= 11102,
+  ["skillId"]= {
+    1111122,
+    1111133,
+    1111123,
+    1111126,
+    1110130
+  },
+  ["Str"]= 79,
+  ["type"]= 2,
+  ["Vit"]= 59
+},
+[42] = {
+  ["bgName"]= "Img_Card_JS3",
+  ["Dex"]= 45,
+  ["id"]= 11113,
+  ["jobId"]= 1111,
+  ["jobNameLid"]= "JobName_1111",
+  ["planDesLid"]= "AutoPoint_planDes11113",
+  ["planInfoLid"]= "AutoPoint_planInfo11113",
+  ["planNameLid"]= "AutoPoint_planName11113",
+  ["preplan"]= 11103,
+  ["skillId"]= {
+    1111133,
+    1110130,
+    1111132,
+    1111131,
+    1111127,
+    1111126,
+    1111125
+  },
+  ["skillLv"]= {
+    5,
+    5,
+    5,
+    10,
+    10,
+    5,
+    10
+  },
+  ["Str"]= 59,
+  ["type"]= 3,
+  ["Vit"]= 79
+},
+[43] = {
+  ["Agi"]= 79,
+  ["bgName"]= "Img_Card_MS1",
+  ["Dex"]= 0,
+  ["id"]= 12111,
+  ["jobId"]= 1211,
+  ["jobNameLid"]= "JobName_1211",
+  ["planDesLid"]= "AutoPoint_planDes12111",
+  ["planInfoLid"]= "AutoPoint_planInfo12111",
+  ["planNameLid"]= "AutoPoint_planName12111",
+  ["preplan"]= 12101,
+  ["skillId"]= {
+    1200123,
+    1211134,
+    1211135,
+    1211136,
+    1210124
+  },
+  ["Str"]= 59,
+  ["type"]= 3,
+  ["Vit"]= 45
+},
+[44] = {
+  ["bgName"]= "Img_Card_MS2",
+  ["id"]= 12112,
+  ["Int"]= 79,
+  ["jobId"]= 1211,
+  ["jobNameLid"]= "JobName_1211",
+  ["planDesLid"]= "AutoPoint_planDes12112",
+  ["planInfoLid"]= "AutoPoint_planInfo12112",
+  ["planNameLid"]= "AutoPoint_planName12112",
+  ["preplan"]= 12102,
+  ["skillId"]= {
+    1211121,
+    1211123,
+    1211133,
+    1211125,
+    1211124
+  },
+  ["type"]= 2,
+  ["Vit"]= 45
+},
+[45] = {
+  ["bgName"]= "Img_Card_MS3",
+  ["Dex"]= 79,
+  ["id"]= 12113,
+  ["Int"]= 79,
+  ["jobId"]= 1211,
+  ["jobNameLid"]= "JobName_1211",
+  ["planDesLid"]= "AutoPoint_planDes12113",
+  ["planInfoLid"]= "AutoPoint_planInfo12113",
+  ["planNameLid"]= "AutoPoint_planName12113",
+  ["preplan"]= 12103,
+  ["skillId"]= {
+    1211121,
+    1211125,
+    1211134,
+    1211122,
+    1210124
+  }
+},
+[46] = {
+  ["bgName"]= "Img_Card_FS1",
+  ["Dex"]= 79,
+  ["id"]= 13111,
+  ["Int"]= 79,
+  ["jobId"]= 1311,
+  ["jobNameLid"]= "JobName_1311",
+  ["planDesLid"]= "AutoPoint_planDes13111",
+  ["planInfoLid"]= "AutoPoint_planInfo13111",
+  ["planNameLid"]= "AutoPoint_planName13111",
+  ["preplan"]= 13101,
+  ["skillId"]= {
+    1311133,
+    1310134,
+    1310130,
+    1310132,
+    1311125
+  }
+},
+[47] = {
+  ["bgName"]= "Img_Card_FS2",
+  ["id"]= 13112,
+  ["Int"]= 79,
+  ["jobId"]= 1311,
+  ["jobNameLid"]= "JobName_1311",
+  ["planDesLid"]= "AutoPoint_planDes13112",
+  ["planInfoLid"]= "AutoPoint_planInfo13112",
+  ["planNameLid"]= "AutoPoint_planName13112",
+  ["preplan"]= 13102,
+  ["skillId"]= {
+    1310129,
+    1311121,
+    1311134,
+    1310132,
+    1311125
+  },
+  ["type"]= 2,
+  ["Vit"]= 45
+},
+[48] = {
+  ["bgName"]= "Img_Card_FS3",
+  ["Dex"]= 79,
+  ["id"]= 13113,
+  ["Int"]= 79,
+  ["jobId"]= 1311,
+  ["jobNameLid"]= "JobName_1311",
+  ["planDesLid"]= "AutoPoint_planDes13113",
+  ["planInfoLid"]= "AutoPoint_planInfo13113",
+  ["planNameLid"]= "AutoPoint_planName13113",
+  ["preplan"]= 13103,
+  ["skillId"]= {
+    1311121,
+    1310134,
+    1310130,
+    1310132,
+    1311125
+  },
+  ["type"]= 3
+},
+[49] = {
+  ["Agi"]= 79,
+  ["bgName"]= "Img_Card_CK1",
+  ["Dex"]= 0,
+  ["id"]= 14111,
+  ["jobId"]= 1411,
+  ["jobNameLid"]= "JobName_1411",
+  ["Luk"]= 45,
+  ["planDesLid"]= "AutoPoint_planDes14111",
+  ["planInfoLid"]= "AutoPoint_planInfo14111",
+  ["planNameLid"]= "AutoPoint_planName14111",
+  ["preplan"]= 14101,
+  ["skillId"]= {
+    1411131,
+    1411121,
+    1411132,
+    1411123,
+    1411133
+  },
+  ["Str"]= 59
+},
+[50] = {
+  ["Agi"]= 45,
+  ["bgName"]= "Img_Card_CK2",
+  ["id"]= 14112,
+  ["jobId"]= 1411,
+  ["jobNameLid"]= "JobName_1411",
+  ["planDesLid"]= "AutoPoint_planDes14112",
+  ["planInfoLid"]= "AutoPoint_planInfo14112",
+  ["planNameLid"]= "AutoPoint_planName14112",
+  ["preplan"]= 14102,
+  ["skillId"]= {
+    1411125,
+    1411132,
+    1411123,
+    1410129,
+    1410130
+  },
+  ["Str"]= 79,
+  ["type"]= 2
+},
+[51] = {
+  ["bgName"]= "Img_Card_CK3",
+  ["id"]= 14113,
+  ["jobId"]= 1411,
+  ["jobNameLid"]= "JobName_1411",
+  ["planDesLid"]= "AutoPoint_planDes14113",
+  ["planInfoLid"]= "AutoPoint_planInfo14113",
+  ["planNameLid"]= "AutoPoint_planName14113",
+  ["preplan"]= 14103,
+  ["skillId"]= {
+    1411131,
+    1411125,
+    1411132,
+    1411122,
+    1411133
+  },
+  ["Str"]= 79,
+  ["type"]= 3,
+  ["Vit"]= 45
+},
+[52] = {
+  ["Agi"]= 79,
+  ["bgName"]= "Img_Card_GJS1",
+  ["id"]= 15111,
+  ["jobId"]= 1511,
+  ["jobNameLid"]= "JobName_1511",
+  ["Luk"]= 45,
+  ["planDesLid"]= "AutoPoint_planDes15111",
+  ["planInfoLid"]= "AutoPoint_planInfo15111",
+  ["planNameLid"]= "AutoPoint_planName15111",
+  ["preplan"]= 15101,
+  ["skillId"]= {
+    1511123,
+    1510130,
+    1511124,
+    1511135,
+    1511133,
+    1511134
+  },
+  ["skillLv"]= {
+    5,
+    5,
+    10,
+    10,
+    10,
+    10
+  }
+},
+[53] = {
+  ["bgName"]= "Img_Card_GJS2",
+  ["Dex"]= 79,
+  ["id"]= 15112,
+  ["Int"]= 79,
+  ["jobId"]= 1511,
+  ["jobNameLid"]= "JobName_1511",
+  ["planDesLid"]= "AutoPoint_planDes15112",
+  ["planInfoLid"]= "AutoPoint_planInfo15112",
+  ["planNameLid"]= "AutoPoint_planName15112",
+  ["preplan"]= 15102,
+  ["skillId"]= {
+    1511123,
+    1511132,
+    1511128,
+    1510127,
+    1510128
+  },
+  ["type"]= 2
+},
+[54] = {
+  ["Agi"]= 45,
+  ["bgName"]= "Img_Card_GJS3",
+  ["id"]= 15113,
+  ["Int"]= 79,
+  ["jobId"]= 1511,
+  ["jobNameLid"]= "JobName_1511",
+  ["planDesLid"]= "AutoPoint_planDes15113",
+  ["planInfoLid"]= "AutoPoint_planInfo15113",
+  ["planNameLid"]= "AutoPoint_planName15113",
+  ["preplan"]= 15103,
+  ["skillId"]= {
+    1511123,
+    1511121,
+    1511124,
+    1511135,
+    1511133
+  },
+  ["type"]= 3
+},
+[55] = {
+  ["Agi"]= 79,
+  ["bgName"]= "Img_Card_SR1",
+  ["Dex"]= 0,
+  ["id"]= 16111,
+  ["jobId"]= 1611,
+  ["jobNameLid"]= "JobName_1611",
+  ["Luk"]= 45,
+  ["planDesLid"]= "AutoPoint_planDes16111",
+  ["planInfoLid"]= "AutoPoint_planInfo16111",
+  ["planNameLid"]= "AutoPoint_planName16111",
+  ["preplan"]= 16101,
+  ["skillId"]= {
+    1611003,
+    1611010,
+    1611001,
+    1611008,
+    1611004
+  },
+  ["Str"]= 59
+},
+[56] = {
+  ["bgName"]= "Img_Card_SR2",
+  ["id"]= 16112,
+  ["jobId"]= 1611,
+  ["jobNameLid"]= "JobName_1611",
+  ["planDesLid"]= "AutoPoint_planDes16112",
+  ["planInfoLid"]= "AutoPoint_planInfo16112",
+  ["planNameLid"]= "AutoPoint_planName16112",
+  ["preplan"]= 16102,
+  ["skillId"]= {
+    1611009,
+    1611001,
+    1611008,
+    1611005,
+    1611007
+  },
+  ["Str"]= 79,
+  ["type"]= 2,
+  ["Vit"]= 45
+},
+[57] = {
+  ["bgName"]= "Img_Card_SR3",
+  ["Dex"]= 45,
+  ["id"]= 16113,
+  ["jobId"]= 1611,
+  ["jobNameLid"]= "JobName_1611",
+  ["planDesLid"]= "AutoPoint_planDes16113",
+  ["planInfoLid"]= "AutoPoint_planInfo16113",
+  ["planNameLid"]= "AutoPoint_planName16113",
+  ["preplan"]= 16103,
+  ["skillId"]= {
+    1611002,
+    1611003,
+    1611006,
+    1611005,
+    1611007
+  },
+  ["Str"]= 79,
+  ["type"]= 3,
+  ["Vit"]= 59
+}
+}
+local baseTable={
+  ["Agi"]= 0,
+  ["bgName"]= "Img_Card_JS1",
+  ["Dex"]= 59,
+  ["id"]= 10001,
+  ["Int"]= 0,
+  ["jobId"]= 1000,
+  ["jobNameLid"]= "JobName_1000",
+  ["Luk"]= 0,
+  ["planDesLid"]= "AutoPoint_planDes10001",
+  ["planInfoLid"]= "AutoPoint_planInfo10001",
+  ["planNameLid"]= "AutoPoint_planName10001",
+  ["preplan"]= 0,
+  ["skillId"]= {},
+  ["skillLv"]= {
+    10,
+    10,
+    10,
+    10,
+    10
+  },
+  ["Str"]= 0,
+  ["tagList"]= {
+    "AutoPoint_tagName001",
+    "AutoPoint_tagName002",
+    "AutoPoint_tagName003"
+  },
+  ["type"]= 1,
+  ["Vit"]= 0
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

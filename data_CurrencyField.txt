@@ -1,0 +1,9 @@
+TextAsset Base
+	string m_Name = "data_CurrencyField"
+	string m_Script = "local table= {
+}
+local baseTable={}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

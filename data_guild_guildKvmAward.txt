@@ -1,0 +1,133 @@
+TextAsset Base
+	string m_Name = "data_guild_guildKvmAward"
+	string m_Script = "local table= {
+[1] = {
+  ["amount"]= {
+    256
+  }
+},
+[2] = {
+  ["amount"]= {
+    224
+  },
+  ["id"]= 2,
+  ["rank"]= 2
+},
+[3] = {
+  ["amount"]= {
+    192
+  },
+  ["id"]= 3,
+  ["rank"]= 3
+},
+[4] = {
+  ["amount"]= {
+    160
+  },
+  ["id"]= 4,
+  ["rank"]= 10
+},
+[5] = {
+  ["amount"]= {
+    128
+  },
+  ["id"]= 5,
+  ["rank"]= 30
+},
+[6] = {
+  ["amount"]= {
+    96
+  },
+  ["id"]= 6,
+  ["rank"]= 60
+},
+[7] = {
+  ["id"]= 7,
+  ["rank"]= 100
+},
+[8] = {
+  ["amount"]= {
+    32
+  },
+  ["id"]= 8,
+  ["rank"]= 999
+},
+[9] = {
+  ["id"]= 9,
+  ["ranktype"]= 2
+},
+[10] = {
+  ["amount"]= {
+    56
+  },
+  ["id"]= 10,
+  ["rank"]= 2,
+  ["ranktype"]= 2
+},
+[11] = {
+  ["amount"]= {
+    48
+  },
+  ["id"]= 11,
+  ["rank"]= 3,
+  ["ranktype"]= 2
+},
+[12] = {
+  ["amount"]= {
+    40
+  },
+  ["id"]= 12,
+  ["rank"]= 10,
+  ["ranktype"]= 2
+},
+[13] = {
+  ["amount"]= {
+    32
+  },
+  ["id"]= 13,
+  ["rank"]= 30,
+  ["ranktype"]= 2
+},
+[14] = {
+  ["amount"]= {
+    24
+  },
+  ["id"]= 14,
+  ["rank"]= 60,
+  ["ranktype"]= 2
+},
+[15] = {
+  ["amount"]= {
+    16
+  },
+  ["id"]= 15,
+  ["rank"]= 100,
+  ["ranktype"]= 2
+},
+[16] = {
+  ["amount"]= {
+    8
+  },
+  ["id"]= 16,
+  ["rank"]= 999,
+  ["ranktype"]= 2
+}
+}
+local baseTable={
+  ["amount"]= {
+    64
+  },
+  ["id"]= 1,
+  ["rank"]= 1,
+  ["ranktype"]= 1,
+  ["staticId"]= {
+    10204188
+  },
+  ["type"]= {
+    5
+  }
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

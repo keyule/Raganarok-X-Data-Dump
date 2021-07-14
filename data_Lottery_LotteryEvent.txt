@@ -1,0 +1,238 @@
+TextAsset Base
+	string m_Name = "data_Lottery_LotteryEvent"
+	string m_Script = "local table= {
+[1] = {
+  ["isSum"]= 0,
+  ["luckyNumIndex"]= 1
+},
+[2] = {
+  ["EventTips"]= "LotteryEventTips2",
+  ["luckyNumIndex"]= 2,
+  ["NpcId"]= 61022,
+  ["Parameter"]= {
+    1100,
+    1200,
+    1300,
+    1400,
+    1500,
+    1600
+  },
+  ["SumTips"]= "LotterySumTips2",
+  ["Type"]= 2
+},
+[3] = {
+  ["EventTips"]= "LotteryEventTips3",
+  ["isSum"]= 0,
+  ["luckyNumIndex"]= 2,
+  ["NpcId"]= 61009,
+  ["Parameter"]= {
+    7,
+    8,
+    9,
+    10
+  },
+  ["SumTips"]= "LotterySumTips3",
+  ["Type"]= 3
+},
+[4] = {
+  ["EventTips"]= "LotteryEventTips4",
+  ["isSum"]= 0,
+  ["NpcId"]= 61010,
+  ["Parameter"]= {
+    30001,
+    30003,
+    30008,
+    30010
+  },
+  ["SumTips"]= "LotterySumTips4",
+  ["Type"]= 4
+},
+[5] = {
+  ["EventTips"]= "LotteryEventTips5",
+  ["NpcId"]= 61011,
+  ["Parameter"]= {
+    10413159,
+    10413028
+  },
+  ["SumTips"]= "LotterySumTips5",
+  ["Type"]= 5
+},
+[6] = {
+  ["EventTips"]= "LotteryEventTips6",
+  ["isSum"]= 0,
+  ["NpcId"]= 61012,
+  ["Parameter"]= {
+    100004
+  },
+  ["SumTips"]= "LotterySumTips6",
+  ["Type"]= 6
+},
+[7] = {
+  ["EventTips"]= "LotteryEventTips7",
+  ["isSum"]= 0,
+  ["luckyNumIndex"]= 4,
+  ["NpcId"]= 61024,
+  ["Parameter"]= {
+    1
+  },
+  ["SumTips"]= "LotterySumTips7",
+  ["Type"]= 7
+},
+[8] = {
+  ["EventTips"]= "LotteryEventTips8",
+  ["luckyNumIndex"]= 4,
+  ["NpcId"]= 61004,
+  ["Parameter"]= {
+    1302035,
+    1306009,
+    1301034,
+    1304035,
+    1305016,
+    1303005,
+    1107034,
+    1104013,
+    1105018,
+    1201024,
+    1102009,
+    1101034,
+    1103007,
+    1201016,
+    3201067,
+    3201038,
+    3201039,
+    3201040,
+    3201041,
+    3201042,
+    3101041,
+    3101040,
+    3101042,
+    3101039,
+    3101038,
+    3101037,
+    3101048,
+    3101046,
+    3101047,
+    3101045,
+    3101044,
+    3101043
+  },
+  ["SumTips"]= "LotterySumTips8",
+  ["Type"]= 8
+},
+[9] = {
+  ["EventTips"]= "LotteryEventTips9",
+  ["luckyNumIndex"]= 5,
+  ["NpcId"]= 61033,
+  ["Parameter"]= {
+    4101014,
+    4102011,
+    4101172,
+    4103001,
+    4101041,
+    4101007,
+    4101069,
+    4101070,
+    4101022,
+    4101020,
+    4101028,
+    4101024,
+    4101171,
+    4101053,
+    4101018,
+    4101016
+  },
+  ["SumTips"]= "LotterySumTips9",
+  ["Type"]= 9
+},
+[10] = {
+  ["EventTips"]= "LotteryEventTips10",
+  ["luckyNumIndex"]= 5,
+  ["NpcId"]= 61040,
+  ["Parameter"]= {
+    10105010,
+    10101046,
+    10103021,
+    10104010,
+    10107016,
+    10105011,
+    10105014,
+    10102024,
+    10103015,
+    10103013,
+    10103012,
+    10102017,
+    10105017,
+    10103011,
+    10103017,
+    10102018
+  },
+  ["SumTips"]= "LotterySumTips10",
+  ["Type"]= 10
+},
+[11] = {
+  ["EventTips"]= "LotteryEventTips11",
+  ["luckyNumIndex"]= 6,
+  ["NpcId"]= 61039,
+  ["Parameter"]= {
+    10412101,
+    10412102,
+    10412103,
+    10412104,
+    10412151,
+    10412152,
+    10412153,
+    10412154,
+    10412201,
+    10412202,
+    10412203,
+    10412204,
+    10412251,
+    10412252,
+    10412253,
+    10412254,
+    10412351,
+    10412352,
+    10412353,
+    10412354,
+    10412001,
+    10412002,
+    10412003,
+    10412004,
+    10412051,
+    10412052,
+    10412053,
+    10412054,
+    10412401,
+    10412402,
+    10412403,
+    10412404,
+    10412301,
+    10412302,
+    10412303,
+    10412304,
+    10412451,
+    10412452,
+    10412453,
+    10412454
+  },
+  ["SumTips"]= "LotterySumTips11",
+  ["Type"]= 11
+}
+}
+local baseTable={
+  ["EventTips"]= "LotteryEventTips1",
+  ["isSum"]= 1,
+  ["luckyNumIndex"]= 3,
+  ["NpcId"]= 61002,
+  ["Parameter"]= {
+    50,
+    60,
+    70
+  },
+  ["SumTips"]= "LotterySumTips1",
+  ["Type"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

@@ -1,0 +1,4554 @@
+TextAsset Base
+	string m_Name = "data_Recharge"
+	string m_Script = "local table= {
+[1] = {
+  ["channelId"]= {
+    9
+  },
+  ["Desc"]= "RechargeDesc_1",
+  ["goodPriceDes"]= "goodPriceDes_1",
+  ["Key"]= "rogt.monthcard.1",
+  ["Name"]= "字节台湾-月卡",
+  ["Price"]= "14.99",
+  ["Recharge"]= {
+    ["type"]= 2
+  }
+},
+[2] = {
+  ["channelId"]= {
+    9
+  },
+  ["Desc"]= "RechargeDesc_2",
+  ["goodPriceDes"]= "goodPriceDes_2",
+  ["goodsId"]= 2,
+  ["Id"]= 2,
+  ["Name"]= "字节台湾-6元限购礼包",
+  ["Price"]= "0.99",
+  ["Recharge"]= {
+    ["Diamond"]= 0,
+    ["DiamondBonus"]= 0,
+    ["IfHasBonus"]= 0,
+    ["type"]= 5
+  }
+},
+[3] = {
+  ["channelId"]= {
+    9
+  },
+  ["Desc"]= "RechargeDesc_3",
+  ["goodPriceDes"]= "goodPriceDes_3",
+  ["goodsId"]= 3,
+  ["Id"]= 3,
+  ["Key"]= "rogt.diamond.2500",
+  ["Name"]= "字节台湾-2500钻石",
+  ["Price"]= "4.99",
+  ["Recharge"]= {
+    ["Diamond"]= 2500,
+    ["DiamondBonus"]= 25000,
+    ["IfHasBonus"]= 1,
+    ["type"]= 1
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_3"
+},
+[4] = {
+  ["channelId"]= {
+    9
+  },
+  ["Desc"]= "RechargeDesc_4",
+  ["goodPriceDes"]= "goodPriceDes_4",
+  ["goodsId"]= 4,
+  ["Id"]= 4,
+  ["Key"]= "rogt.diamond.5000",
+  ["Name"]= "字节台湾-4900钻石",
+  ["Recharge"]= {
+    ["Diamond"]= 4900,
+    ["DiamondBonus"]= 49000,
+    ["IfHasBonus"]= 1,
+    ["type"]= 1
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_4"
+},
+[5] = {
+  ["channelId"]= {
+    9
+  },
+  ["Desc"]= "RechargeDesc_5",
+  ["goodPriceDes"]= "goodPriceDes_5",
+  ["goodsId"]= 5,
+  ["Id"]= 5,
+  ["Key"]= "rogt.diamond.10000",
+  ["Name"]= "字节台湾-10000钻石",
+  ["Price"]= "19.99",
+  ["Recharge"]= {
+    ["Diamond"]= 10000,
+    ["DiamondBonus"]= 100000,
+    ["IfHasBonus"]= 1,
+    ["type"]= 1
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_5"
+},
+[6] = {
+  ["channelId"]= {
+    9
+  },
+  ["Desc"]= "RechargeDesc_6",
+  ["goodPriceDes"]= "goodPriceDes_6",
+  ["goodsId"]= 6,
+  ["Id"]= 6,
+  ["Key"]= "rogt.diamond.25500",
+  ["Name"]= "字节台湾-26000钻石",
+  ["Price"]= "49.99",
+  ["Recharge"]= {
+    ["Diamond"]= 26000,
+    ["DiamondBonus"]= 260000,
+    ["IfHasBonus"]= 1,
+    ["type"]= 1
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_6"
+},
+[7] = {
+  ["channelId"]= {
+    9
+  },
+  ["Desc"]= "RechargeDesc_7",
+  ["goodPriceDes"]= "goodPriceDes_7",
+  ["goodsId"]= 7,
+  ["Id"]= 7,
+  ["Key"]= "rogt.diamond.49500",
+  ["Name"]= "字节台湾-51000钻石",
+  ["Price"]= "99.99",
+  ["Recharge"]= {
+    ["Diamond"]= 51000,
+    ["DiamondBonus"]= 510000,
+    ["IfHasBonus"]= 1,
+    ["type"]= 1
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_7"
+},
+[8] = {
+  ["channelId"]= {
+    9
+  },
+  ["Desc"]= "RechargeDesc_8",
+  ["goodPriceDes"]= "goodPriceDes_8",
+  ["goodsId"]= 8,
+  ["Id"]= 8,
+  ["Key"]= "rogt.double.300",
+  ["Name"]= "字节台湾-（测试）月卡双倍共计600钻石",
+  ["Price"]= 33,
+  ["Recharge"]= {
+    ["Diamond"]= 300,
+    ["DiamondBonus"]= 3000,
+    ["IfHasBonus"]= 1,
+    ["type"]= 5
+  }
+},
+[9] = {
+  ["channelId"]= {
+    9
+  },
+  ["Desc"]= "RechargeDesc_9",
+  ["goodPriceDes"]= "goodPriceDes_9",
+  ["goodsId"]= 9,
+  ["Id"]= 9,
+  ["Key"]= "rogt.double.2500",
+  ["Name"]= "字节台湾-月卡双倍2500钻石",
+  ["Price"]= "4.99",
+  ["Recharge"]= {
+    ["Diamond"]= 2500,
+    ["DiamondBonus"]= 25000,
+    ["RelatedProductId"]= 3,
+    ["type"]= 4
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_3"
+},
+[10] = {
+  ["channelId"]= {
+    9
+  },
+  ["Desc"]= "RechargeDesc_10",
+  ["goodPriceDes"]= "goodPriceDes_10",
+  ["goodsId"]= 10,
+  ["Id"]= 10,
+  ["Key"]= "rogt.double.5000",
+  ["Name"]= "字节台湾-月卡双倍4900钻石",
+  ["Recharge"]= {
+    ["Diamond"]= 4900,
+    ["DiamondBonus"]= 49000,
+    ["RelatedProductId"]= 4,
+    ["type"]= 4
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_4"
+},
+[11] = {
+  ["channelId"]= {
+    9
+  },
+  ["Desc"]= "RechargeDesc_11",
+  ["goodPriceDes"]= "goodPriceDes_11",
+  ["goodsId"]= 11,
+  ["Id"]= 11,
+  ["Key"]= "rogt.double.10000",
+  ["Name"]= "字节台湾-月卡双倍10000钻石",
+  ["Price"]= "19.99",
+  ["Recharge"]= {
+    ["Diamond"]= 10000,
+    ["DiamondBonus"]= 100000,
+    ["RelatedProductId"]= 5,
+    ["type"]= 4
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_5"
+},
+[12] = {
+  ["channelId"]= {
+    9
+  },
+  ["Desc"]= "RechargeDesc_12",
+  ["goodPriceDes"]= "goodPriceDes_12",
+  ["goodsId"]= 12,
+  ["Id"]= 12,
+  ["Key"]= "rogt.double.25500",
+  ["Name"]= "字节台湾-月卡双倍26000钻石",
+  ["Price"]= "49.99",
+  ["Recharge"]= {
+    ["Diamond"]= 26000,
+    ["DiamondBonus"]= 260000,
+    ["RelatedProductId"]= 6,
+    ["type"]= 4
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_6"
+},
+[13] = {
+  ["channelId"]= {
+    9
+  },
+  ["Desc"]= "RechargeDesc_13",
+  ["goodPriceDes"]= "goodPriceDes_13",
+  ["goodsId"]= 13,
+  ["Id"]= 13,
+  ["Key"]= "rogt.double.49500",
+  ["Name"]= "字节台湾-月卡双倍51000钻石",
+  ["Price"]= "99.99",
+  ["Recharge"]= {
+    ["Diamond"]= 51000,
+    ["DiamondBonus"]= 510000,
+    ["RelatedProductId"]= 7,
+    ["type"]= 4
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_7"
+},
+[14] = {
+  ["channelId"]= {
+    9
+  },
+  ["Desc"]= 0,
+  ["goodPriceDes"]= "goodPriceDes_14",
+  ["goodsId"]= 14,
+  ["Id"]= 14,
+  ["Key"]= "TheDream.cc_rommo_ios_14_1.00",
+  ["Name"]= "字节台湾-充值测试",
+  ["Price"]= "0.01",
+  ["Recharge"]= {
+    ["Diamond"]= 10,
+    ["DiamondBonus"]= 10,
+    ["IfHasBonus"]= 0,
+    ["type"]= 5
+  }
+},
+[15] = {
+  ["channelId"]= {
+    9
+  },
+  ["Desc"]= "RechargeDesc_15",
+  ["goodPriceDes"]= "goodPriceDes_15",
+  ["goodsId"]= 15,
+  ["Id"]= 15,
+  ["Key"]= "rogt.diamond.14800",
+  ["Name"]= "字节台湾-15000钻石",
+  ["Price"]= "29.99",
+  ["Recharge"]= {
+    ["Diamond"]= 15000,
+    ["DiamondBonus"]= 150000,
+    ["IfHasBonus"]= 1,
+    ["type"]= 1
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_15"
+},
+[16] = {
+  ["channelId"]= {
+    9
+  },
+  ["Desc"]= "RechargeDesc_16",
+  ["goodPriceDes"]= "goodPriceDes_16",
+  ["goodsId"]= 16,
+  ["Id"]= 16,
+  ["Key"]= "rogt.double.14800",
+  ["Name"]= "字节台湾-月卡双倍15000钻石",
+  ["Price"]= "29.99",
+  ["Recharge"]= {
+    ["Diamond"]= 15000,
+    ["DiamondBonus"]= 150000,
+    ["RelatedProductId"]= 15,
+    ["type"]= 4
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_16"
+},
+[17] = {
+  ["channelId"]= {
+    9
+  },
+  ["Desc"]= "RechargeDesc_17",
+  ["DisplayUpperLimit"]= 2000,
+  ["goodPriceDes"]= "goodPriceDes_17",
+  ["goodsId"]= 17,
+  ["Id"]= 17,
+  ["Key"]= "rogt.diamond.206400",
+  ["Name"]= "字节台湾-206400钻石",
+  ["Price"]= "399.99",
+  ["Recharge"]= {
+    ["Diamond"]= 206400,
+    ["DiamondBonus"]= 0,
+    ["IfHasBonus"]= 0,
+    ["type"]= 5
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_17"
+},
+[18] = {
+  ["channelId"]= {
+    9
+  },
+  ["Desc"]= "RechargeDesc_18",
+  ["DisplayUpperLimit"]= 2000,
+  ["goodPriceDes"]= "goodPriceDes_18",
+  ["goodsId"]= 18,
+  ["Id"]= 18,
+  ["Key"]= "rogt.diamond.366400",
+  ["Name"]= "字节台湾-366400钻石",
+  ["Price"]= "699.99",
+  ["Recharge"]= {
+    ["Diamond"]= 366400,
+    ["DiamondBonus"]= 0,
+    ["IfHasBonus"]= 0,
+    ["type"]= 5
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_18"
+},
+[19] = {
+  ["channelId"]= {
+    9
+  },
+  ["Desc"]= "RechargeDesc_19",
+  ["DisplayUpperLimit"]= 2000,
+  ["goodPriceDes"]= "goodPriceDes_19",
+  ["goodsId"]= 19,
+  ["Id"]= 19,
+  ["Key"]= "rogt.diamond.526400",
+  ["Name"]= "字节台湾-526400钻石",
+  ["Price"]= "999.99",
+  ["Recharge"]= {
+    ["Diamond"]= 526400,
+    ["DiamondBonus"]= 0,
+    ["IfHasBonus"]= 0,
+    ["type"]= 5
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_19"
+},
+[20] = {
+  ["channelId"]= {
+    9
+  },
+  ["Desc"]= "RechargeDesc_20",
+  ["goodPriceDes"]= "goodPriceDes_20",
+  ["goodsId"]= 20,
+  ["Id"]= 20,
+  ["Key"]= "mycard.300",
+  ["Name"]= "字节台湾-mycard300",
+  ["Price"]= "9.09",
+  ["Recharge"]= {
+    ["DropId"]= 0,
+    ["GroupId"]= 0,
+    ["GroupMailId"]= 0,
+    ["mycardMail"]= 2007,
+    ["type"]= 7
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_20"
+},
+[21] = {
+  ["channelId"]= {
+    9
+  },
+  ["Desc"]= "RechargeDesc_21",
+  ["goodPriceDes"]= "goodPriceDes_21",
+  ["goodsId"]= 21,
+  ["Id"]= 21,
+  ["Key"]= "mycard.500",
+  ["Name"]= "字节台湾-mycard500",
+  ["Price"]= "15.15",
+  ["Recharge"]= {
+    ["DropId"]= 0,
+    ["GroupId"]= 0,
+    ["GroupMailId"]= 0,
+    ["mycardMail"]= 2007,
+    ["type"]= 7
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_21"
+},
+[22] = {
+  ["channelId"]= {
+    9
+  },
+  ["Desc"]= "RechargeDesc_22",
+  ["goodPriceDes"]= "goodPriceDes_22",
+  ["goodsId"]= 22,
+  ["Id"]= 22,
+  ["Key"]= "mycard.750",
+  ["Name"]= "字节台湾-mycard750",
+  ["Price"]= "22.73",
+  ["Recharge"]= {
+    ["DropId"]= 0,
+    ["GroupId"]= 0,
+    ["GroupMailId"]= 0,
+    ["mycardMail"]= 2007,
+    ["type"]= 7
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_22"
+},
+[23] = {
+  ["channelId"]= {
+    9
+  },
+  ["Desc"]= "RechargeDesc_23",
+  ["goodPriceDes"]= "goodPriceDes_23",
+  ["goodsId"]= 23,
+  ["Id"]= 23,
+  ["Key"]= "mycard.1000",
+  ["Name"]= "字节台湾-mycard1000",
+  ["Price"]= "30.30",
+  ["Recharge"]= {
+    ["DropId"]= 0,
+    ["GroupId"]= 0,
+    ["GroupMailId"]= 0,
+    ["mycardMail"]= 2007,
+    ["type"]= 7
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_23"
+},
+[24] = {
+  ["channelId"]= {
+    9
+  },
+  ["Desc"]= "RechargeDesc_24",
+  ["goodPriceDes"]= "goodPriceDes_24",
+  ["goodsId"]= 24,
+  ["Id"]= 24,
+  ["Key"]= "mycard.2000",
+  ["Name"]= "字节台湾-mycard2000",
+  ["Price"]= "60.61",
+  ["Recharge"]= {
+    ["DropId"]= 0,
+    ["GroupId"]= 0,
+    ["GroupMailId"]= 0,
+    ["mycardMail"]= 2007,
+    ["type"]= 7
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_24"
+},
+[25] = {
+  ["channelId"]= {
+    9
+  },
+  ["Desc"]= "RechargeDesc_25",
+  ["goodPriceDes"]= "goodPriceDes_25",
+  ["goodsId"]= 25,
+  ["Id"]= 25,
+  ["Key"]= "mycard.3000",
+  ["Name"]= "字节台湾-mycard3000",
+  ["Price"]= "90.91",
+  ["Recharge"]= {
+    ["DropId"]= 0,
+    ["GroupId"]= 0,
+    ["GroupMailId"]= 0,
+    ["mycardMail"]= 2007,
+    ["type"]= 7
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_25"
+},
+[26] = {
+  ["channelId"]= {
+    9
+  },
+  ["Desc"]= "RechargeDesc_26",
+  ["goodPriceDes"]= "goodPriceDes_26",
+  ["goodsId"]= 26,
+  ["Id"]= 26,
+  ["Key"]= "mycard.5000",
+  ["Name"]= "字节台湾-mycard5000",
+  ["Price"]= "151.52",
+  ["Recharge"]= {
+    ["DropId"]= 0,
+    ["GroupId"]= 0,
+    ["GroupMailId"]= 0,
+    ["mycardMail"]= 2007,
+    ["type"]= 7
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_26"
+},
+[27] = {
+  ["channelId"]= {
+    9
+  },
+  ["Desc"]= "RechargeDesc_27",
+  ["goodPriceDes"]= "goodPriceDes_27",
+  ["goodsId"]= 27,
+  ["Id"]= 27,
+  ["Key"]= "mycard.10000",
+  ["Name"]= "字节台湾-mycard10000",
+  ["Price"]= "303.03",
+  ["Recharge"]= {
+    ["DropId"]= 0,
+    ["GroupId"]= 0,
+    ["GroupMailId"]= 0,
+    ["mycardMail"]= 2007,
+    ["type"]= 7
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_27"
+},
+[28] = {
+  ["channelId"]= {
+    9
+  },
+  ["Desc"]= "RechargeDesc_28",
+  ["goodPriceDes"]= "goodPriceDes_28",
+  ["goodsId"]= 28,
+  ["Id"]= 28,
+  ["Key"]= "rogt.apple.common",
+  ["Price"]= 1,
+  ["Recharge"]= {
+    ["ifSendByMail"]= 1,
+    ["rechargeDropId"]= {
+      20001
+    },
+    ["rechargeMailTemplate"]= 2009,
+    ["type"]= 6
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_28"
+},
+[29] = {
+  ["channelId"]= {
+    9
+  },
+  ["goodsId"]= 29,
+  ["Id"]= 29,
+  ["Key"]= "rogt.apple.hk100",
+  ["Price"]= 1,
+  ["Recharge"]= {
+    ["ifSendByMail"]= 1,
+    ["rechargeDropId"]= {
+      20002
+    },
+    ["rechargeMailTemplate"]= 2010,
+    ["type"]= 6
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_29"
+},
+[30] = {
+  ["channelId"]= {
+    9
+  },
+  ["goodsId"]= 30,
+  ["Id"]= 30,
+  ["Key"]= "rogt.apple.hk200",
+  ["Price"]= 1,
+  ["Recharge"]= {
+    ["ifSendByMail"]= 1,
+    ["rechargeDropId"]= {
+      20003
+    },
+    ["rechargeMailTemplate"]= 2011,
+    ["type"]= 6
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_29"
+},
+[31] = {
+  ["channelId"]= {
+    9
+  },
+  ["Desc"]= "RechargeDesc_31",
+  ["failureMailTemplate"]= 2013,
+  ["goodPriceDes"]= "goodPriceDes_31",
+  ["goodsId"]= 31,
+  ["Id"]= 31,
+  ["Key"]= "rogt.giftpack.2",
+  ["limit"]= 1,
+  ["Name"]= "字节台湾-喵手團新年特惠禮包",
+  ["Price"]= "4.99",
+  ["Recharge"]= {
+    ["ifSendByMail"]= 0,
+    ["rechargeDropId"]= {
+      10550
+    },
+    ["rechargeMailTemplate"]= 0,
+    ["type"]= 6
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_31"
+},
+[32] = {
+  ["channelId"]= {
+    9
+  },
+  ["Desc"]= "RechargeDesc_32",
+  ["goodPriceDes"]= "goodPriceDes_32",
+  ["goodsId"]= 32,
+  ["Id"]= 32,
+  ["Key"]= "mycard.20000",
+  ["Name"]= "字节台湾-mycard20000",
+  ["Price"]= "606.06",
+  ["Recharge"]= {
+    ["DropId"]= 0,
+    ["GroupId"]= 0,
+    ["GroupMailId"]= 0,
+    ["mycardMail"]= 2007,
+    ["type"]= 7
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_32"
+},
+[33] = {
+  ["channelId"]= {
+    9
+  },
+  ["Desc"]= "RechargeDesc_33",
+  ["goodPriceDes"]= "goodPriceDes_33",
+  ["goodsId"]= 33,
+  ["Id"]= 33,
+  ["Key"]= "mycard.50000",
+  ["Name"]= "字节台湾-mycard50000",
+  ["Price"]= "1515.15",
+  ["Recharge"]= {
+    ["DropId"]= 0,
+    ["GroupId"]= 0,
+    ["GroupMailId"]= 0,
+    ["mycardMail"]= 2007,
+    ["type"]= 7
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_33"
+},
+[34] = {
+  ["channelId"]= {
+    9
+  },
+  ["Desc"]= "RechargeDesc_34",
+  ["goodPriceDes"]= "goodPriceDes_34",
+  ["goodsId"]= 34,
+  ["Id"]= 34,
+  ["Key"]= "mycard.100000",
+  ["Name"]= "字节台湾-mycard100000",
+  ["Price"]= "3030.30",
+  ["Recharge"]= {
+    ["DropId"]= 0,
+    ["GroupId"]= 0,
+    ["GroupMailId"]= 0,
+    ["mycardMail"]= 2007,
+    ["type"]= 7
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_34"
+},
+[35] = {
+  ["channelId"]= {
+    9
+  },
+  ["Desc"]= "RechargeDesc_35",
+  ["failureMailTemplate"]= 2013,
+  ["goodPriceDes"]= "goodPriceDes_35",
+  ["goodsId"]= 35,
+  ["Id"]= 35,
+  ["Key"]= "rogt.tgs.1",
+  ["limit"]= 1,
+  ["Name"]= "字节台湾-新春武器卡片特惠礼包",
+  ["Recharge"]= {
+    ["ifSendByMail"]= 0,
+    ["rechargeDropId"]= {
+      20004
+    },
+    ["rechargeMailTemplate"]= 0,
+    ["type"]= 6
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_35"
+},
+[36] = {
+  ["channelId"]= {
+    9
+  },
+  ["Desc"]= "RechargeDesc_36",
+  ["failureMailTemplate"]= 2013,
+  ["goodPriceDes"]= "goodPriceDes_36",
+  ["goodsId"]= 36,
+  ["Id"]= 36,
+  ["Key"]= "rogt.tgs.2",
+  ["limit"]= 1,
+  ["Name"]= "字节台湾-新春防具卡片特惠礼包",
+  ["Recharge"]= {
+    ["ifSendByMail"]= 0,
+    ["rechargeDropId"]= {
+      20005
+    },
+    ["rechargeMailTemplate"]= 0,
+    ["type"]= 6
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_36"
+},
+[37] = {
+  ["channelId"]= {
+    9
+  },
+  ["Desc"]= "RechargeDesc_37",
+  ["failureMailTemplate"]= 2013,
+  ["goodPriceDes"]= "goodPriceDes_37",
+  ["goodsId"]= 37,
+  ["Id"]= 37,
+  ["Key"]= "rogt.tgs.3",
+  ["limit"]= 1,
+  ["Name"]= "字节台湾-新春饰品卡片特惠礼包",
+  ["Recharge"]= {
+    ["ifSendByMail"]= 0,
+    ["rechargeDropId"]= {
+      20006
+    },
+    ["rechargeMailTemplate"]= 0,
+    ["type"]= 6
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_37"
+},
+[38] = {
+  ["channelId"]= {
+    9
+  },
+  ["dailyLimit"]= 5,
+  ["Desc"]= "RechargeDesc_38",
+  ["failureMailTemplate"]= 2013,
+  ["goodPriceDes"]= "goodPriceDes_38",
+  ["goodsId"]= 38,
+  ["Id"]= 38,
+  ["Key"]= "rogt.giftpack.3",
+  ["Name"]= "字节台湾-贺岁迎新礼包A",
+  ["Price"]= "4.99",
+  ["Recharge"]= {
+    ["ifSendByMail"]= 0,
+    ["rechargeDropId"]= {
+      20007
+    },
+    ["rechargeMailTemplate"]= 0,
+    ["type"]= 6
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_38"
+},
+[39] = {
+  ["channelId"]= {
+    9
+  },
+  ["dailyLimit"]= 2,
+  ["Desc"]= "RechargeDesc_39",
+  ["failureMailTemplate"]= 2013,
+  ["goodPriceDes"]= "goodPriceDes_39",
+  ["goodsId"]= 39,
+  ["Id"]= 39,
+  ["Key"]= "rogt.giftpack.4",
+  ["Name"]= "字节台湾-贺岁迎新礼包B",
+  ["Price"]= "19.99",
+  ["Recharge"]= {
+    ["ifSendByMail"]= 0,
+    ["rechargeDropId"]= {
+      20008
+    },
+    ["rechargeMailTemplate"]= 0,
+    ["type"]= 6
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_39"
+},
+[40] = {
+  ["channelId"]= {
+    9
+  },
+  ["dailyLimit"]= 1,
+  ["Desc"]= "RechargeDesc_40",
+  ["failureMailTemplate"]= 2013,
+  ["goodPriceDes"]= "goodPriceDes_40",
+  ["goodsId"]= 40,
+  ["Id"]= 40,
+  ["Key"]= "rogt.giftpack.5",
+  ["Name"]= "字节台湾-贺岁迎新礼包B",
+  ["Price"]= "99.99",
+  ["Recharge"]= {
+    ["ifSendByMail"]= 0,
+    ["rechargeDropId"]= {
+      20009
+    },
+    ["rechargeMailTemplate"]= 0,
+    ["type"]= 6
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_40"
+},
+[41] = {
+  ["channelId"]= {
+    9
+  },
+  ["dailyLimit"]= 10,
+  ["Desc"]= "RechargeDesc_41",
+  ["failureMailTemplate"]= 2013,
+  ["goodPriceDes"]= "goodPriceDes_41",
+  ["goodsId"]= 41,
+  ["Id"]= 41,
+  ["Key"]= "rogt.giftpack.6",
+  ["Name"]= "字节台湾-白色情人节A",
+  ["Price"]= "0.99",
+  ["Recharge"]= {
+    ["ifSendByMail"]= 0,
+    ["rechargeDropId"]= {
+      20010
+    },
+    ["rechargeMailTemplate"]= 0,
+    ["type"]= 6
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_41"
+},
+[42] = {
+  ["channelId"]= {
+    9
+  },
+  ["dailyLimit"]= 10,
+  ["Desc"]= "RechargeDesc_42",
+  ["failureMailTemplate"]= 2013,
+  ["goodPriceDes"]= "goodPriceDes_42",
+  ["goodsId"]= 42,
+  ["Id"]= 42,
+  ["Key"]= "rogt.giftpack.7",
+  ["Name"]= "字节台湾-白色情人节B",
+  ["Price"]= "1.99",
+  ["Recharge"]= {
+    ["ifSendByMail"]= 0,
+    ["rechargeDropId"]= {
+      20011
+    },
+    ["rechargeMailTemplate"]= 0,
+    ["type"]= 6
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_42"
+},
+[43] = {
+  ["channelId"]= {
+    9
+  },
+  ["dailyLimit"]= 2,
+  ["Desc"]= "RechargeDesc_43",
+  ["failureMailTemplate"]= 2013,
+  ["goodPriceDes"]= "goodPriceDes_43",
+  ["goodsId"]= 43,
+  ["Id"]= 43,
+  ["Key"]= "rogt.giftpack.8",
+  ["Name"]= "字节台湾-白色情人节C",
+  ["Price"]= "4.99",
+  ["Recharge"]= {
+    ["ifSendByMail"]= 0,
+    ["rechargeDropId"]= {
+      20012
+    },
+    ["rechargeMailTemplate"]= 0,
+    ["type"]= 6
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_43"
+},
+[44] = {
+  ["channelId"]= {
+    9
+  },
+  ["Desc"]= "RechargeDesc_44",
+  ["goodPriceDes"]= "goodPriceDes_44",
+  ["goodsId"]= 44,
+  ["Id"]= 44,
+  ["Key"]= "rogt.weekcard.1",
+  ["Name"]= "字节台湾-周卡",
+  ["Price"]= "4.99",
+  ["Recharge"]= {
+    ["itemId"]= 10210002,
+    ["type"]= 8
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_44"
+},
+[501] = {
+  ["channelId"]= {
+    1
+  },
+  ["Desc"]= "RechargeDesc_1",
+  ["goodPriceDes"]= "goodPriceDes_1",
+  ["Id"]= 501,
+  ["Key"]= "rogt.monthcard.1",
+  ["Name"]= "主线-月卡",
+  ["Price"]= "14.99",
+  ["Recharge"]= {
+    ["type"]= 2
+  }
+},
+[502] = {
+  ["channelId"]= {
+    1
+  },
+  ["Desc"]= "RechargeDesc_2",
+  ["goodPriceDes"]= "goodPriceDes_2",
+  ["goodsId"]= 2,
+  ["Id"]= 502,
+  ["Name"]= "主线-6元限购礼包",
+  ["Price"]= "0.99",
+  ["Recharge"]= {
+    ["Diamond"]= 0,
+    ["DiamondBonus"]= 0,
+    ["IfHasBonus"]= 0,
+    ["type"]= 5
+  }
+},
+[503] = {
+  ["channelId"]= {
+    1
+  },
+  ["Desc"]= "RechargeDesc_3",
+  ["goodPriceDes"]= "goodPriceDes_3",
+  ["goodsId"]= 3,
+  ["Id"]= 503,
+  ["Key"]= "rogt.diamond.2500",
+  ["Name"]= "主线-2500钻石",
+  ["Price"]= "4.99",
+  ["Recharge"]= {
+    ["Diamond"]= 2500,
+    ["DiamondBonus"]= 25000,
+    ["IfHasBonus"]= 1,
+    ["type"]= 1
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_3"
+},
+[504] = {
+  ["channelId"]= {
+    1
+  },
+  ["Desc"]= "RechargeDesc_4",
+  ["goodPriceDes"]= "goodPriceDes_4",
+  ["goodsId"]= 4,
+  ["Id"]= 504,
+  ["Key"]= "rogt.diamond.5000",
+  ["Name"]= "主线-4900钻石",
+  ["Recharge"]= {
+    ["Diamond"]= 4900,
+    ["DiamondBonus"]= 49000,
+    ["IfHasBonus"]= 1,
+    ["type"]= 1
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_4"
+},
+[505] = {
+  ["channelId"]= {
+    1
+  },
+  ["Desc"]= "RechargeDesc_5",
+  ["goodPriceDes"]= "goodPriceDes_5",
+  ["goodsId"]= 5,
+  ["Id"]= 505,
+  ["Key"]= "rogt.diamond.10000",
+  ["Name"]= "主线-10000钻石",
+  ["Price"]= "19.99",
+  ["Recharge"]= {
+    ["Diamond"]= 10000,
+    ["DiamondBonus"]= 100000,
+    ["IfHasBonus"]= 1,
+    ["type"]= 1
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_5"
+},
+[506] = {
+  ["channelId"]= {
+    1
+  },
+  ["Desc"]= "RechargeDesc_6",
+  ["goodPriceDes"]= "goodPriceDes_6",
+  ["goodsId"]= 6,
+  ["Id"]= 506,
+  ["Key"]= "rogt.diamond.25500",
+  ["Name"]= "主线-26000钻石",
+  ["Price"]= "49.99",
+  ["Recharge"]= {
+    ["Diamond"]= 26000,
+    ["DiamondBonus"]= 260000,
+    ["IfHasBonus"]= 1,
+    ["type"]= 1
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_6"
+},
+[507] = {
+  ["channelId"]= {
+    1
+  },
+  ["Desc"]= "RechargeDesc_7",
+  ["goodPriceDes"]= "goodPriceDes_7",
+  ["goodsId"]= 7,
+  ["Id"]= 507,
+  ["Key"]= "rogt.diamond.49500",
+  ["Name"]= "主线-51000钻石",
+  ["Price"]= "99.99",
+  ["Recharge"]= {
+    ["Diamond"]= 51000,
+    ["DiamondBonus"]= 510000,
+    ["IfHasBonus"]= 1,
+    ["type"]= 1
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_7"
+},
+[508] = {
+  ["channelId"]= {
+    1
+  },
+  ["Desc"]= "RechargeDesc_8",
+  ["goodPriceDes"]= "goodPriceDes_8",
+  ["goodsId"]= 8,
+  ["Id"]= 508,
+  ["Key"]= "rogt.double.300",
+  ["Name"]= "主线-（测试）月卡双倍共计600钻石",
+  ["Price"]= 33,
+  ["Recharge"]= {
+    ["Diamond"]= 300,
+    ["DiamondBonus"]= 3000,
+    ["IfHasBonus"]= 1,
+    ["type"]= 5
+  }
+},
+[509] = {
+  ["channelId"]= {
+    1
+  },
+  ["Desc"]= "RechargeDesc_9",
+  ["goodPriceDes"]= "goodPriceDes_9",
+  ["goodsId"]= 9,
+  ["Id"]= 509,
+  ["Key"]= "rogt.double.2500",
+  ["Name"]= "主线-月卡双倍2500钻石",
+  ["Price"]= "4.99",
+  ["Recharge"]= {
+    ["Diamond"]= 2500,
+    ["DiamondBonus"]= 25000,
+    ["RelatedProductId"]= 3,
+    ["type"]= 4
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_3"
+},
+[510] = {
+  ["channelId"]= {
+    1
+  },
+  ["Desc"]= "RechargeDesc_10",
+  ["goodPriceDes"]= "goodPriceDes_10",
+  ["goodsId"]= 10,
+  ["Id"]= 510,
+  ["Key"]= "rogt.double.5000",
+  ["Name"]= "主线-月卡双倍4900钻石",
+  ["Recharge"]= {
+    ["Diamond"]= 4900,
+    ["DiamondBonus"]= 49000,
+    ["RelatedProductId"]= 4,
+    ["type"]= 4
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_4"
+},
+[511] = {
+  ["channelId"]= {
+    1
+  },
+  ["Desc"]= "RechargeDesc_11",
+  ["goodPriceDes"]= "goodPriceDes_11",
+  ["goodsId"]= 11,
+  ["Id"]= 511,
+  ["Key"]= "rogt.double.10000",
+  ["Name"]= "主线-月卡双倍10000钻石",
+  ["Price"]= "19.99",
+  ["Recharge"]= {
+    ["Diamond"]= 10000,
+    ["DiamondBonus"]= 100000,
+    ["RelatedProductId"]= 5,
+    ["type"]= 4
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_5"
+},
+[512] = {
+  ["channelId"]= {
+    1
+  },
+  ["Desc"]= "RechargeDesc_12",
+  ["goodPriceDes"]= "goodPriceDes_12",
+  ["goodsId"]= 12,
+  ["Id"]= 512,
+  ["Key"]= "rogt.double.25500",
+  ["Name"]= "主线-月卡双倍26000钻石",
+  ["Price"]= "49.99",
+  ["Recharge"]= {
+    ["Diamond"]= 26000,
+    ["DiamondBonus"]= 260000,
+    ["RelatedProductId"]= 6,
+    ["type"]= 4
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_6"
+},
+[513] = {
+  ["channelId"]= {
+    1
+  },
+  ["Desc"]= "RechargeDesc_13",
+  ["goodPriceDes"]= "goodPriceDes_13",
+  ["goodsId"]= 13,
+  ["Id"]= 513,
+  ["Key"]= "rogt.double.49500",
+  ["Name"]= "主线-月卡双倍51000钻石",
+  ["Price"]= "99.99",
+  ["Recharge"]= {
+    ["Diamond"]= 51000,
+    ["DiamondBonus"]= 510000,
+    ["RelatedProductId"]= 7,
+    ["type"]= 4
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_7"
+},
+[514] = {
+  ["channelId"]= {
+    1
+  },
+  ["Desc"]= 0,
+  ["goodPriceDes"]= "goodPriceDes_14",
+  ["goodsId"]= 14,
+  ["Id"]= 514,
+  ["Key"]= "TheDream.cc_rommo_ios_14_1.00",
+  ["Name"]= "主线-充值测试",
+  ["Price"]= "0.01",
+  ["Recharge"]= {
+    ["Diamond"]= 10,
+    ["DiamondBonus"]= 10,
+    ["IfHasBonus"]= 0,
+    ["type"]= 5
+  }
+},
+[515] = {
+  ["channelId"]= {
+    1
+  },
+  ["Desc"]= "RechargeDesc_15",
+  ["goodPriceDes"]= "goodPriceDes_15",
+  ["goodsId"]= 15,
+  ["Id"]= 515,
+  ["Key"]= "rogt.diamond.14800",
+  ["Name"]= "主线-15000钻石",
+  ["Price"]= "29.99",
+  ["Recharge"]= {
+    ["Diamond"]= 15000,
+    ["DiamondBonus"]= 150000,
+    ["IfHasBonus"]= 1,
+    ["type"]= 1
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_15"
+},
+[516] = {
+  ["channelId"]= {
+    1
+  },
+  ["Desc"]= "RechargeDesc_16",
+  ["goodPriceDes"]= "goodPriceDes_16",
+  ["goodsId"]= 16,
+  ["Id"]= 516,
+  ["Key"]= "rogt.double.14800",
+  ["Name"]= "主线-月卡双倍15000钻石",
+  ["Price"]= "29.99",
+  ["Recharge"]= {
+    ["Diamond"]= 15000,
+    ["DiamondBonus"]= 150000,
+    ["RelatedProductId"]= 15,
+    ["type"]= 4
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_16"
+},
+[517] = {
+  ["channelId"]= {
+    1
+  },
+  ["Desc"]= "RechargeDesc_17",
+  ["DisplayUpperLimit"]= 2000,
+  ["goodPriceDes"]= "goodPriceDes_17",
+  ["goodsId"]= 17,
+  ["Id"]= 517,
+  ["Key"]= "rogt.diamond.206400",
+  ["Name"]= "主线-206400钻石",
+  ["Price"]= "399.99",
+  ["Recharge"]= {
+    ["Diamond"]= 206400,
+    ["DiamondBonus"]= 0,
+    ["IfHasBonus"]= 0,
+    ["type"]= 5
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_17"
+},
+[518] = {
+  ["channelId"]= {
+    1
+  },
+  ["Desc"]= "RechargeDesc_18",
+  ["DisplayUpperLimit"]= 2000,
+  ["goodPriceDes"]= "goodPriceDes_18",
+  ["goodsId"]= 18,
+  ["Id"]= 518,
+  ["Key"]= "rogt.diamond.366400",
+  ["Name"]= "主线-366400钻石",
+  ["Price"]= "699.99",
+  ["Recharge"]= {
+    ["Diamond"]= 366400,
+    ["DiamondBonus"]= 0,
+    ["IfHasBonus"]= 0,
+    ["type"]= 5
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_18"
+},
+[519] = {
+  ["channelId"]= {
+    1
+  },
+  ["Desc"]= "RechargeDesc_19",
+  ["DisplayUpperLimit"]= 2000,
+  ["goodPriceDes"]= "goodPriceDes_19",
+  ["goodsId"]= 19,
+  ["Id"]= 519,
+  ["Key"]= "rogt.diamond.526400",
+  ["Name"]= "主线-526400钻石",
+  ["Price"]= "999.99",
+  ["Recharge"]= {
+    ["Diamond"]= 526400,
+    ["DiamondBonus"]= 0,
+    ["IfHasBonus"]= 0,
+    ["type"]= 5
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_19"
+},
+[520] = {
+  ["channelId"]= {
+    1
+  },
+  ["Desc"]= "RechargeDesc_20",
+  ["goodPriceDes"]= "goodPriceDes_20",
+  ["goodsId"]= 20,
+  ["Id"]= 520,
+  ["Key"]= "mycard.300",
+  ["Name"]= "主线-mycard300",
+  ["Price"]= "9.09",
+  ["Recharge"]= {
+    ["DropId"]= 0,
+    ["GroupId"]= 0,
+    ["GroupMailId"]= 0,
+    ["mycardMail"]= 2007,
+    ["type"]= 7
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_20"
+},
+[521] = {
+  ["channelId"]= {
+    1
+  },
+  ["Desc"]= "RechargeDesc_21",
+  ["goodPriceDes"]= "goodPriceDes_21",
+  ["goodsId"]= 21,
+  ["Id"]= 521,
+  ["Key"]= "mycard.500",
+  ["Name"]= "主线-mycard500",
+  ["Price"]= "15.15",
+  ["Recharge"]= {
+    ["DropId"]= 0,
+    ["GroupId"]= 0,
+    ["GroupMailId"]= 0,
+    ["mycardMail"]= 2007,
+    ["type"]= 7
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_21"
+},
+[522] = {
+  ["channelId"]= {
+    1
+  },
+  ["Desc"]= "RechargeDesc_22",
+  ["goodPriceDes"]= "goodPriceDes_22",
+  ["goodsId"]= 22,
+  ["Id"]= 522,
+  ["Key"]= "mycard.750",
+  ["Name"]= "主线-mycard750",
+  ["Price"]= "22.73",
+  ["Recharge"]= {
+    ["DropId"]= 0,
+    ["GroupId"]= 0,
+    ["GroupMailId"]= 0,
+    ["mycardMail"]= 2007,
+    ["type"]= 7
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_22"
+},
+[523] = {
+  ["channelId"]= {
+    1
+  },
+  ["Desc"]= "RechargeDesc_23",
+  ["goodPriceDes"]= "goodPriceDes_23",
+  ["goodsId"]= 23,
+  ["Id"]= 523,
+  ["Key"]= "mycard.1000",
+  ["Name"]= "主线-mycard1000",
+  ["Price"]= "30.30",
+  ["Recharge"]= {
+    ["DropId"]= 0,
+    ["GroupId"]= 0,
+    ["GroupMailId"]= 0,
+    ["mycardMail"]= 2007,
+    ["type"]= 7
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_23"
+},
+[524] = {
+  ["channelId"]= {
+    1
+  },
+  ["Desc"]= "RechargeDesc_24",
+  ["goodPriceDes"]= "goodPriceDes_24",
+  ["goodsId"]= 24,
+  ["Id"]= 524,
+  ["Key"]= "mycard.2000",
+  ["Name"]= "主线-mycard2000",
+  ["Price"]= "60.61",
+  ["Recharge"]= {
+    ["DropId"]= 0,
+    ["GroupId"]= 0,
+    ["GroupMailId"]= 0,
+    ["mycardMail"]= 2007,
+    ["type"]= 7
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_24"
+},
+[525] = {
+  ["channelId"]= {
+    1
+  },
+  ["Desc"]= "RechargeDesc_25",
+  ["goodPriceDes"]= "goodPriceDes_25",
+  ["goodsId"]= 25,
+  ["Id"]= 525,
+  ["Key"]= "mycard.3000",
+  ["Name"]= "主线-mycard3000",
+  ["Price"]= "90.91",
+  ["Recharge"]= {
+    ["DropId"]= 0,
+    ["GroupId"]= 0,
+    ["GroupMailId"]= 0,
+    ["mycardMail"]= 2007,
+    ["type"]= 7
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_25"
+},
+[526] = {
+  ["channelId"]= {
+    1
+  },
+  ["Desc"]= "RechargeDesc_26",
+  ["goodPriceDes"]= "goodPriceDes_26",
+  ["goodsId"]= 26,
+  ["Id"]= 526,
+  ["Key"]= "mycard.5000",
+  ["Name"]= "主线-mycard5000",
+  ["Price"]= "151.52",
+  ["Recharge"]= {
+    ["DropId"]= 0,
+    ["GroupId"]= 0,
+    ["GroupMailId"]= 0,
+    ["mycardMail"]= 2007,
+    ["type"]= 7
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_26"
+},
+[527] = {
+  ["channelId"]= {
+    1
+  },
+  ["Desc"]= "RechargeDesc_27",
+  ["goodPriceDes"]= "goodPriceDes_27",
+  ["goodsId"]= 27,
+  ["Id"]= 527,
+  ["Key"]= "mycard.10000",
+  ["Name"]= "主线-mycard10000",
+  ["Price"]= "303.03",
+  ["Recharge"]= {
+    ["DropId"]= 0,
+    ["GroupId"]= 0,
+    ["GroupMailId"]= 0,
+    ["mycardMail"]= 2007,
+    ["type"]= 7
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_27"
+},
+[528] = {
+  ["channelId"]= {
+    1
+  },
+  ["Desc"]= "RechargeDesc_28",
+  ["goodPriceDes"]= "goodPriceDes_28",
+  ["goodsId"]= 28,
+  ["Id"]= 528,
+  ["Key"]= "rogt.apple.common",
+  ["Name"]= "主线-限定迎新纪念币礼包",
+  ["Price"]= 1,
+  ["Recharge"]= {
+    ["ifSendByMail"]= 1,
+    ["rechargeDropId"]= {
+      20001
+    },
+    ["rechargeMailTemplate"]= 2009,
+    ["type"]= 6
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_28"
+},
+[529] = {
+  ["channelId"]= {
+    1
+  },
+  ["goodsId"]= 29,
+  ["Id"]= 529,
+  ["Key"]= "rogt.apple.hk100",
+  ["Name"]= "主线-限定迎新纪念币礼包",
+  ["Price"]= 1,
+  ["Recharge"]= {
+    ["ifSendByMail"]= 1,
+    ["rechargeDropId"]= {
+      20002
+    },
+    ["rechargeMailTemplate"]= 2010,
+    ["type"]= 6
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_29"
+},
+[530] = {
+  ["channelId"]= {
+    1
+  },
+  ["goodsId"]= 30,
+  ["Id"]= 530,
+  ["Key"]= "rogt.apple.hk200",
+  ["Name"]= "主线-限定迎新纪念币礼包",
+  ["Price"]= 1,
+  ["Recharge"]= {
+    ["ifSendByMail"]= 1,
+    ["rechargeDropId"]= {
+      20003
+    },
+    ["rechargeMailTemplate"]= 2011,
+    ["type"]= 6
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_29"
+},
+[531] = {
+  ["channelId"]= {
+    1
+  },
+  ["Desc"]= "RechargeDesc_31",
+  ["failureMailTemplate"]= 2013,
+  ["goodPriceDes"]= "goodPriceDes_31",
+  ["goodsId"]= 31,
+  ["Id"]= 531,
+  ["Key"]= "rogt.giftpack.2",
+  ["limit"]= 1,
+  ["Name"]= "主线-喵手團新年特惠禮包",
+  ["Price"]= "4.99",
+  ["Recharge"]= {
+    ["ifSendByMail"]= 0,
+    ["rechargeDropId"]= {
+      10550
+    },
+    ["rechargeMailTemplate"]= 0,
+    ["type"]= 6
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_31"
+},
+[532] = {
+  ["channelId"]= {
+    1
+  },
+  ["Desc"]= "RechargeDesc_32",
+  ["goodPriceDes"]= "goodPriceDes_32",
+  ["goodsId"]= 32,
+  ["Id"]= 532,
+  ["Key"]= "mycard.20000",
+  ["Name"]= "主线-mycard20000",
+  ["Price"]= "606.06",
+  ["Recharge"]= {
+    ["DropId"]= 0,
+    ["GroupId"]= 0,
+    ["GroupMailId"]= 0,
+    ["mycardMail"]= 2007,
+    ["type"]= 7
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_32"
+},
+[533] = {
+  ["channelId"]= {
+    1
+  },
+  ["Desc"]= "RechargeDesc_33",
+  ["goodPriceDes"]= "goodPriceDes_33",
+  ["goodsId"]= 33,
+  ["Id"]= 533,
+  ["Key"]= "mycard.50000",
+  ["Name"]= "主线-mycard50000",
+  ["Price"]= "1515.15",
+  ["Recharge"]= {
+    ["DropId"]= 0,
+    ["GroupId"]= 0,
+    ["GroupMailId"]= 0,
+    ["mycardMail"]= 2007,
+    ["type"]= 7
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_33"
+},
+[534] = {
+  ["channelId"]= {
+    1
+  },
+  ["Desc"]= "RechargeDesc_34",
+  ["goodPriceDes"]= "goodPriceDes_34",
+  ["goodsId"]= 34,
+  ["Id"]= 534,
+  ["Key"]= "mycard.100000",
+  ["Name"]= "主线-mycard100000",
+  ["Price"]= "3030.30",
+  ["Recharge"]= {
+    ["DropId"]= 0,
+    ["GroupId"]= 0,
+    ["GroupMailId"]= 0,
+    ["mycardMail"]= 2007,
+    ["type"]= 7
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_34"
+},
+[535] = {
+  ["channelId"]= {
+    1
+  },
+  ["Desc"]= "RechargeDesc_35",
+  ["failureMailTemplate"]= 2013,
+  ["goodPriceDes"]= "goodPriceDes_35",
+  ["goodsId"]= 35,
+  ["Id"]= 535,
+  ["Key"]= "rogt.tgs.1",
+  ["limit"]= 1,
+  ["Name"]= "主线-新春武器卡片特惠礼包",
+  ["Recharge"]= {
+    ["ifSendByMail"]= 0,
+    ["rechargeDropId"]= {
+      20004
+    },
+    ["rechargeMailTemplate"]= 0,
+    ["type"]= 6
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_35"
+},
+[536] = {
+  ["channelId"]= {
+    1
+  },
+  ["Desc"]= "RechargeDesc_36",
+  ["failureMailTemplate"]= 2013,
+  ["goodPriceDes"]= "goodPriceDes_36",
+  ["goodsId"]= 36,
+  ["Id"]= 536,
+  ["Key"]= "rogt.tgs.2",
+  ["limit"]= 1,
+  ["Name"]= "主线-新春防具卡片特惠礼包",
+  ["Recharge"]= {
+    ["ifSendByMail"]= 0,
+    ["rechargeDropId"]= {
+      20005
+    },
+    ["rechargeMailTemplate"]= 0,
+    ["type"]= 6
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_36"
+},
+[537] = {
+  ["channelId"]= {
+    1
+  },
+  ["Desc"]= "RechargeDesc_37",
+  ["failureMailTemplate"]= 2013,
+  ["goodPriceDes"]= "goodPriceDes_37",
+  ["goodsId"]= 37,
+  ["Id"]= 537,
+  ["Key"]= "rogt.tgs.3",
+  ["limit"]= 1,
+  ["Name"]= "主线-新春饰品卡片特惠礼包",
+  ["Recharge"]= {
+    ["ifSendByMail"]= 0,
+    ["rechargeDropId"]= {
+      20006
+    },
+    ["rechargeMailTemplate"]= 0,
+    ["type"]= 6
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_37"
+},
+[538] = {
+  ["channelId"]= {
+    1
+  },
+  ["dailyLimit"]= 5,
+  ["Desc"]= "RechargeDesc_38",
+  ["failureMailTemplate"]= 2013,
+  ["goodPriceDes"]= "goodPriceDes_38",
+  ["goodsId"]= 38,
+  ["Id"]= 538,
+  ["Key"]= "rogt.giftpack.3",
+  ["Name"]= "主线-贺岁迎新礼包A",
+  ["Recharge"]= {
+    ["ifSendByMail"]= 0,
+    ["rechargeDropId"]= {
+      20007
+    },
+    ["rechargeMailTemplate"]= 0,
+    ["type"]= 6
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_38"
+},
+[539] = {
+  ["channelId"]= {
+    1
+  },
+  ["dailyLimit"]= 2,
+  ["Desc"]= "RechargeDesc_39",
+  ["failureMailTemplate"]= 2013,
+  ["goodPriceDes"]= "goodPriceDes_39",
+  ["goodsId"]= 39,
+  ["Id"]= 539,
+  ["Key"]= "rogt.giftpack.4",
+  ["Name"]= "主线-贺岁迎新礼包B",
+  ["Recharge"]= {
+    ["ifSendByMail"]= 0,
+    ["rechargeDropId"]= {
+      20008
+    },
+    ["rechargeMailTemplate"]= 0,
+    ["type"]= 6
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_39"
+},
+[540] = {
+  ["channelId"]= {
+    1
+  },
+  ["dailyLimit"]= 1,
+  ["Desc"]= "RechargeDesc_40",
+  ["failureMailTemplate"]= 2013,
+  ["goodPriceDes"]= "goodPriceDes_40",
+  ["goodsId"]= 40,
+  ["Id"]= 540,
+  ["Key"]= "rogt.giftpack.5",
+  ["Name"]= "主线-贺岁迎新礼包C",
+  ["Recharge"]= {
+    ["ifSendByMail"]= 0,
+    ["rechargeDropId"]= {
+      20009
+    },
+    ["rechargeMailTemplate"]= 0,
+    ["type"]= 6
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_40"
+},
+[541] = {
+  ["channelId"]= {
+    1
+  },
+  ["dailyLimit"]= 10,
+  ["Desc"]= "RechargeDesc_41",
+  ["failureMailTemplate"]= 2013,
+  ["goodPriceDes"]= "goodPriceDes_41",
+  ["goodsId"]= 41,
+  ["Id"]= 541,
+  ["Key"]= "rogt.giftpack.6",
+  ["Name"]= "主线-白色情人节A",
+  ["Price"]= "0.99",
+  ["Recharge"]= {
+    ["ifSendByMail"]= 0,
+    ["rechargeDropId"]= {
+      20010
+    },
+    ["rechargeMailTemplate"]= 0,
+    ["type"]= 6
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_41"
+},
+[542] = {
+  ["channelId"]= {
+    1
+  },
+  ["dailyLimit"]= 10,
+  ["Desc"]= "RechargeDesc_42",
+  ["failureMailTemplate"]= 2013,
+  ["goodPriceDes"]= "goodPriceDes_42",
+  ["goodsId"]= 42,
+  ["Id"]= 542,
+  ["Key"]= "rogt.giftpack.7",
+  ["Name"]= "主线-白色情人节B",
+  ["Price"]= "1.99",
+  ["Recharge"]= {
+    ["ifSendByMail"]= 0,
+    ["rechargeDropId"]= {
+      20011
+    },
+    ["rechargeMailTemplate"]= 0,
+    ["type"]= 6
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_42"
+},
+[543] = {
+  ["channelId"]= {
+    1
+  },
+  ["dailyLimit"]= 2,
+  ["Desc"]= "RechargeDesc_43",
+  ["failureMailTemplate"]= 2013,
+  ["goodPriceDes"]= "goodPriceDes_43",
+  ["goodsId"]= 43,
+  ["Id"]= 543,
+  ["Key"]= "rogt.giftpack.8",
+  ["Name"]= "主线-白色情人节C",
+  ["Price"]= "4.99",
+  ["Recharge"]= {
+    ["ifSendByMail"]= 0,
+    ["rechargeDropId"]= {
+      20012
+    },
+    ["rechargeMailTemplate"]= 0,
+    ["type"]= 6
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_43"
+},
+[544] = {
+  ["channelId"]= {
+    1
+  },
+  ["Desc"]= "RechargeDesc_44",
+  ["goodPriceDes"]= "goodPriceDes_44",
+  ["goodsId"]= 44,
+  ["Id"]= 544,
+  ["Key"]= "rogt.weekcard.1",
+  ["Name"]= "字节台湾-周卡",
+  ["Price"]= "4.99",
+  ["Recharge"]= {
+    ["itemId"]= 10210002,
+    ["type"]= 8
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_44"
+},
+[1001] = {
+  ["channelId"]= {
+    8,
+    11
+  },
+  ["Desc"]= "RechargeDesc_1",
+  ["goodPriceDes"]= "goodPriceDes_1",
+  ["Id"]= 1001,
+  ["Key"]= "TheDream.cc_rommo_ios_1_60.00",
+  ["Name"]= "独角兽-月卡",
+  ["Price"]= 60,
+  ["Recharge"]= {
+    ["type"]= 2
+  }
+},
+[1002] = {
+  ["channelId"]= {
+    8,
+    11
+  },
+  ["Desc"]= "RechargeDesc_2",
+  ["goodPriceDes"]= "goodPriceDes_2",
+  ["goodsId"]= 2,
+  ["Id"]= 1002,
+  ["Key"]= "TheDream.cc_rommo_ios_2_6.00",
+  ["Name"]= "独角兽-600钻石",
+  ["Price"]= 6,
+  ["Recharge"]= {
+    ["Diamond"]= 600,
+    ["DiamondBonus"]= 6000,
+    ["IfHasBonus"]= 1,
+    ["type"]= 1
+  }
+},
+[1003] = {
+  ["channelId"]= {
+    8,
+    11
+  },
+  ["Desc"]= "RechargeDesc_3",
+  ["goodPriceDes"]= "goodPriceDes_3",
+  ["goodsId"]= 3,
+  ["Id"]= 1003,
+  ["Key"]= "TheDream.cc_rommo_ios_3_30.00",
+  ["Name"]= "独角兽-3000钻石",
+  ["Price"]= 30,
+  ["Recharge"]= {
+    ["Diamond"]= 3000,
+    ["DiamondBonus"]= 30000,
+    ["IfHasBonus"]= 1,
+    ["type"]= 1
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_3"
+},
+[1004] = {
+  ["channelId"]= {
+    8,
+    11
+  },
+  ["Desc"]= "RechargeDesc_4",
+  ["goodPriceDes"]= "goodPriceDes_4",
+  ["goodsId"]= 4,
+  ["Id"]= 1004,
+  ["Key"]= "TheDream.cc_rommo_ios_4_68.00",
+  ["Name"]= "独角兽-6800钻石",
+  ["Price"]= 68,
+  ["Recharge"]= {
+    ["Diamond"]= 6800,
+    ["DiamondBonus"]= 68000,
+    ["IfHasBonus"]= 1,
+    ["type"]= 1
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_4"
+},
+[1005] = {
+  ["channelId"]= {
+    8,
+    11
+  },
+  ["Desc"]= "RechargeDesc_5",
+  ["goodPriceDes"]= "goodPriceDes_5",
+  ["goodsId"]= 5,
+  ["Id"]= 1005,
+  ["Key"]= "TheDream.cc_rommo_ios_5_128.00",
+  ["Name"]= "独角兽-12800钻石",
+  ["Price"]= 128,
+  ["Recharge"]= {
+    ["Diamond"]= 12800,
+    ["DiamondBonus"]= 128000,
+    ["IfHasBonus"]= 1,
+    ["type"]= 1
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_5"
+},
+[1006] = {
+  ["channelId"]= {
+    8,
+    11
+  },
+  ["Desc"]= "RechargeDesc_6",
+  ["goodPriceDes"]= "goodPriceDes_6",
+  ["goodsId"]= 6,
+  ["Id"]= 1006,
+  ["Key"]= "TheDream.cc_rommo_ios_6_328.00",
+  ["Name"]= "独角兽-32800钻石",
+  ["Price"]= 328,
+  ["Recharge"]= {
+    ["Diamond"]= 32800,
+    ["DiamondBonus"]= 328000,
+    ["IfHasBonus"]= 1,
+    ["type"]= 1
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_6"
+},
+[1007] = {
+  ["channelId"]= {
+    8,
+    11
+  },
+  ["Desc"]= "RechargeDesc_7",
+  ["goodPriceDes"]= "goodPriceDes_7",
+  ["goodsId"]= 7,
+  ["Id"]= 1007,
+  ["Key"]= "TheDream.cc_rommo_ios_7_648.00",
+  ["Name"]= "独角兽-64800钻石",
+  ["Price"]= 648,
+  ["Recharge"]= {
+    ["Diamond"]= 64800,
+    ["DiamondBonus"]= 648000,
+    ["IfHasBonus"]= 1,
+    ["type"]= 1
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_7"
+},
+[1008] = {
+  ["channelId"]= {
+    8,
+    11
+  },
+  ["Desc"]= "RechargeDesc_8",
+  ["goodPriceDes"]= "goodPriceDes_8",
+  ["goodsId"]= 8,
+  ["Id"]= 1008,
+  ["Key"]= "TheDream.cc_rommo_ios_8_6.00",
+  ["Name"]= "独角兽-月卡600钻石",
+  ["Price"]= 6,
+  ["Recharge"]= {
+    ["Diamond"]= 600,
+    ["DiamondBonus"]= 6000,
+    ["RelatedProductId"]= 2,
+    ["type"]= 4
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_8"
+},
+[1009] = {
+  ["channelId"]= {
+    8,
+    11
+  },
+  ["Desc"]= "RechargeDesc_9",
+  ["goodPriceDes"]= "goodPriceDes_9",
+  ["goodsId"]= 9,
+  ["Id"]= 1009,
+  ["Key"]= "TheDream.cc_rommo_ios_9_30.00",
+  ["Name"]= "独角兽-月卡3000钻石",
+  ["Price"]= 30,
+  ["Recharge"]= {
+    ["Diamond"]= 3000,
+    ["DiamondBonus"]= 30000,
+    ["RelatedProductId"]= 3,
+    ["type"]= 4
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_9"
+},
+[1010] = {
+  ["channelId"]= {
+    8,
+    11
+  },
+  ["Desc"]= "RechargeDesc_10",
+  ["goodPriceDes"]= "goodPriceDes_10",
+  ["goodsId"]= 10,
+  ["Id"]= 1010,
+  ["Key"]= "TheDream.cc_rommo_ios_10_68.00",
+  ["Name"]= "独角兽-月卡6800钻石",
+  ["Price"]= 68,
+  ["Recharge"]= {
+    ["Diamond"]= 6800,
+    ["DiamondBonus"]= 68000,
+    ["RelatedProductId"]= 4,
+    ["type"]= 4
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_10"
+},
+[1011] = {
+  ["channelId"]= {
+    8,
+    11
+  },
+  ["Desc"]= "RechargeDesc_11",
+  ["goodPriceDes"]= "goodPriceDes_11",
+  ["goodsId"]= 11,
+  ["Id"]= 1011,
+  ["Key"]= "TheDream.cc_rommo_ios_11_128.00",
+  ["Name"]= "独角兽-月卡12800钻石",
+  ["Price"]= 128,
+  ["Recharge"]= {
+    ["Diamond"]= 12800,
+    ["DiamondBonus"]= 128000,
+    ["RelatedProductId"]= 5,
+    ["type"]= 4
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_11"
+},
+[1012] = {
+  ["channelId"]= {
+    8,
+    11
+  },
+  ["Desc"]= "RechargeDesc_12",
+  ["goodPriceDes"]= "goodPriceDes_12",
+  ["goodsId"]= 12,
+  ["Id"]= 1012,
+  ["Key"]= "TheDream.cc_rommo_ios_12_328.00",
+  ["Name"]= "独角兽-月卡32800钻石",
+  ["Price"]= 328,
+  ["Recharge"]= {
+    ["Diamond"]= 32800,
+    ["DiamondBonus"]= 328000,
+    ["RelatedProductId"]= 6,
+    ["type"]= 4
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_12"
+},
+[1013] = {
+  ["channelId"]= {
+    8,
+    11
+  },
+  ["Desc"]= "RechargeDesc_13",
+  ["goodPriceDes"]= "goodPriceDes_13",
+  ["goodsId"]= 13,
+  ["Id"]= 1013,
+  ["Key"]= "TheDream.cc_rommo_ios_13_648.00",
+  ["Name"]= "独角兽-月卡64800钻石",
+  ["Price"]= 648,
+  ["Recharge"]= {
+    ["Diamond"]= 64800,
+    ["DiamondBonus"]= 648000,
+    ["RelatedProductId"]= 7,
+    ["type"]= 4
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_13"
+},
+[1014] = {
+  ["channelId"]= {
+    8,
+    11
+  },
+  ["Desc"]= "RechargeDesc_14",
+  ["goodPriceDes"]= "goodPriceDes_14",
+  ["goodsId"]= 14,
+  ["Id"]= 1014,
+  ["Key"]= "TheDream.cc_rommo_ios_14_1.00",
+  ["Name"]= "独角兽-充值测试",
+  ["Price"]= "0.02",
+  ["Recharge"]= {
+    ["Diamond"]= 10,
+    ["DiamondBonus"]= 10,
+    ["IfHasBonus"]= 0,
+    ["type"]= 5
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_14"
+},
+[2001] = {
+  ["Desc"]= "RechargeDesc_sea_1",
+  ["goodPriceDes"]= "goodPriceDes_sea_1",
+  ["Id"]= 2001,
+  ["Key"]= "rosea.diamond.2500",
+  ["Name"]= "东南亚-2500钻石",
+  ["Price"]= "4.99",
+  ["Recharge"]= {
+    ["Diamond"]= 2500,
+    ["DiamondBonus"]= 25000,
+    ["IfHasBonus"]= 1,
+    ["type"]= 1
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_1"
+},
+[2002] = {
+  ["Desc"]= "RechargeDesc_sea_2",
+  ["goodPriceDes"]= "goodPriceDes_sea_2",
+  ["goodsId"]= 2,
+  ["Id"]= 2002,
+  ["Key"]= "rosea.diamond.5000",
+  ["Name"]= "东南亚-5000钻石",
+  ["Recharge"]= {
+    ["Diamond"]= 5000,
+    ["DiamondBonus"]= 50000,
+    ["IfHasBonus"]= 1,
+    ["type"]= 1
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_2"
+},
+[2003] = {
+  ["Desc"]= "RechargeDesc_sea_3",
+  ["goodPriceDes"]= "goodPriceDes_sea_3",
+  ["goodsId"]= 3,
+  ["Id"]= 2003,
+  ["Key"]= "rosea.diamond.10000",
+  ["Name"]= "东南亚-10000钻石",
+  ["Price"]= "19.99",
+  ["Recharge"]= {
+    ["Diamond"]= 10000,
+    ["DiamondBonus"]= 100000,
+    ["IfHasBonus"]= 1,
+    ["type"]= 1
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_3"
+},
+[2004] = {
+  ["Desc"]= "RechargeDesc_sea_4",
+  ["goodPriceDes"]= "goodPriceDes_sea_4",
+  ["goodsId"]= 4,
+  ["Id"]= 2004,
+  ["Key"]= "rosea.diamond.15300.1",
+  ["Name"]= "东南亚-15300钻石",
+  ["Price"]= "29.99",
+  ["Recharge"]= {
+    ["Diamond"]= 15300,
+    ["DiamondBonus"]= 153000,
+    ["IfHasBonus"]= 1,
+    ["type"]= 1
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_4"
+},
+[2005] = {
+  ["Desc"]= "RechargeDesc_sea_5",
+  ["goodPriceDes"]= "goodPriceDes_sea_5",
+  ["goodsId"]= 5,
+  ["Id"]= 2005,
+  ["Key"]= "rosea.diamond.26000",
+  ["Name"]= "东南亚-26000钻石",
+  ["Price"]= "49.99",
+  ["Recharge"]= {
+    ["Diamond"]= 26000,
+    ["DiamondBonus"]= 260000,
+    ["IfHasBonus"]= 1,
+    ["type"]= 1
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_5"
+},
+[2006] = {
+  ["Desc"]= "RechargeDesc_sea_6",
+  ["goodPriceDes"]= "goodPriceDes_sea_6",
+  ["goodsId"]= 6,
+  ["Id"]= 2006,
+  ["Key"]= "rosea.diamond.53000",
+  ["Name"]= "东南亚-53000钻石",
+  ["Price"]= "99.99",
+  ["Recharge"]= {
+    ["Diamond"]= 53000,
+    ["DiamondBonus"]= 530000,
+    ["IfHasBonus"]= 1,
+    ["type"]= 1
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_6"
+},
+[2007] = {
+  ["Desc"]= "RechargeDesc_sea_7",
+  ["goodPriceDes"]= "goodPriceDes_sea_7",
+  ["goodsId"]= 7,
+  ["Id"]= 2007,
+  ["Key"]= "rosea.double.2500",
+  ["Name"]= "东南亚-2500钻石",
+  ["Price"]= "4.99",
+  ["Recharge"]= {
+    ["Diamond"]= 2500,
+    ["DiamondBonus"]= 25000,
+    ["RelatedProductId"]= 1,
+    ["type"]= 4
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_7"
+},
+[2008] = {
+  ["Desc"]= "RechargeDesc_sea_8",
+  ["goodPriceDes"]= "goodPriceDes_sea_8",
+  ["goodsId"]= 8,
+  ["Id"]= 2008,
+  ["Key"]= "rosea.double.5000",
+  ["Name"]= "东南亚-5000钻石",
+  ["Recharge"]= {
+    ["Diamond"]= 5000,
+    ["DiamondBonus"]= 50000,
+    ["RelatedProductId"]= 2,
+    ["type"]= 4
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_8"
+},
+[2009] = {
+  ["Desc"]= "RechargeDesc_sea_9",
+  ["goodPriceDes"]= "goodPriceDes_sea_9",
+  ["goodsId"]= 9,
+  ["Id"]= 2009,
+  ["Key"]= "rosea.double.10000",
+  ["Name"]= "东南亚-10000钻石",
+  ["Price"]= "19.99",
+  ["Recharge"]= {
+    ["Diamond"]= 10000,
+    ["DiamondBonus"]= 100000,
+    ["RelatedProductId"]= 3,
+    ["type"]= 4
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_9"
+},
+[2010] = {
+  ["Desc"]= "RechargeDesc_sea_10",
+  ["goodPriceDes"]= "goodPriceDes_sea_10",
+  ["goodsId"]= 10,
+  ["Id"]= 2010,
+  ["Key"]= "rosea.double.15300",
+  ["Name"]= "东南亚-15300钻石",
+  ["Price"]= "29.99",
+  ["Recharge"]= {
+    ["Diamond"]= 15300,
+    ["DiamondBonus"]= 153000,
+    ["RelatedProductId"]= 4,
+    ["type"]= 4
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_10"
+},
+[2011] = {
+  ["Desc"]= "RechargeDesc_sea_11",
+  ["goodPriceDes"]= "goodPriceDes_sea_11",
+  ["goodsId"]= 11,
+  ["Id"]= 2011,
+  ["Key"]= "rosea.double.26000",
+  ["Name"]= "东南亚-26000钻石",
+  ["Price"]= "49.99",
+  ["Recharge"]= {
+    ["Diamond"]= 26000,
+    ["DiamondBonus"]= 260000,
+    ["RelatedProductId"]= 5,
+    ["type"]= 4
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_11"
+},
+[2012] = {
+  ["Desc"]= "RechargeDesc_sea_12",
+  ["goodPriceDes"]= "goodPriceDes_sea_12",
+  ["goodsId"]= 12,
+  ["Id"]= 2012,
+  ["Key"]= "rosea.double.53000",
+  ["Name"]= "东南亚-53000钻石",
+  ["Price"]= "99.99",
+  ["Recharge"]= {
+    ["Diamond"]= 53000,
+    ["DiamondBonus"]= 530000,
+    ["RelatedProductId"]= 6,
+    ["type"]= 4
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_12"
+},
+[2013] = {
+  ["Desc"]= "RechargeDesc_sea_13",
+  ["goodPriceDes"]= "goodPriceDes_sea_13",
+  ["goodsId"]= 13,
+  ["Id"]= 2013,
+  ["Key"]= "rosea.monthcard.1",
+  ["Name"]= "东南亚-月卡",
+  ["Price"]= "14.99",
+  ["Recharge"]= {
+    ["type"]= 2
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_13"
+},
+[2014] = {
+  ["Desc"]= "RechargeDesc_sea_14",
+  ["goodPriceDes"]= "goodPriceDes_sea_14",
+  ["goodsId"]= 14,
+  ["Id"]= 2014,
+  ["Key"]= "rosea.weekcard",
+  ["Name"]= "字节东南亚-周卡",
+  ["Price"]= "4.99",
+  ["Recharge"]= {
+    ["itemId"]= 10210002,
+    ["type"]= 8
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_14"
+},
+[2015] = {
+  ["Desc"]= "RechargeDesc_sea_15",
+  ["goodPriceDes"]= "goodPriceDes_sea_15",
+  ["goodsId"]= 15,
+  ["Id"]= 2015,
+  ["Name"]= "东南亚-6元限购礼包",
+  ["Price"]= "0.99",
+  ["Recharge"]= {
+    ["Diamond"]= 0,
+    ["DiamondBonus"]= 0,
+    ["IfHasBonus"]= 0,
+    ["type"]= 5
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_15"
+},
+[2030] = {
+  ["Desc"]= "RechargeDesc_sea_30",
+  ["goodPriceDes"]= "goodPriceDes_sea_30",
+  ["goodsId"]= 30,
+  ["Id"]= 2030,
+  ["Key"]= "rosea.mycard.50",
+  ["Name"]= "东南亚_rosea.mycard.50",
+  ["Price"]= "1.84",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_30"
+},
+[2031] = {
+  ["Desc"]= "RechargeDesc_sea_31",
+  ["goodPriceDes"]= "goodPriceDes_sea_31",
+  ["goodsId"]= 31,
+  ["Id"]= 2031,
+  ["Key"]= "rosea.mycard.150",
+  ["Name"]= "东南亚_rosea.mycard.150",
+  ["Price"]= "5.46",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_31"
+},
+[2032] = {
+  ["Desc"]= "RechargeDesc_sea_32",
+  ["goodPriceDes"]= "goodPriceDes_sea_32",
+  ["goodsId"]= 32,
+  ["Id"]= 2032,
+  ["Key"]= "rosea.mycard.350",
+  ["Name"]= "东南亚_rosea.mycard.350",
+  ["Price"]= "12.39",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_32"
+},
+[2033] = {
+  ["Desc"]= "RechargeDesc_sea_33",
+  ["goodPriceDes"]= "goodPriceDes_sea_33",
+  ["goodsId"]= 33,
+  ["Id"]= 2033,
+  ["Key"]= "rosea.mycard.450",
+  ["Name"]= "东南亚_rosea.mycard.450",
+  ["Price"]= "15.94",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_33"
+},
+[2034] = {
+  ["Desc"]= "RechargeDesc_sea_34",
+  ["goodPriceDes"]= "goodPriceDes_sea_34",
+  ["goodsId"]= 34,
+  ["Id"]= 2034,
+  ["Key"]= "rosea.mycard.1000",
+  ["Name"]= "东南亚_rosea.mycard.1000",
+  ["Price"]= "35.27",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_34"
+},
+[2035] = {
+  ["Desc"]= "RechargeDesc_sea_35",
+  ["goodPriceDes"]= "goodPriceDes_sea_35",
+  ["goodsId"]= 35,
+  ["Id"]= 2035,
+  ["Key"]= "rosea.dcb.id.1",
+  ["Name"]= "东南亚_rosea.dcb.id.1",
+  ["Price"]= "4.68",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_35"
+},
+[2036] = {
+  ["Desc"]= "RechargeDesc_sea_36",
+  ["goodPriceDes"]= "goodPriceDes_sea_36",
+  ["goodsId"]= 36,
+  ["Id"]= 2036,
+  ["Key"]= "rosea.dcb.id.2",
+  ["Name"]= "东南亚_rosea.dcb.id.2",
+  ["Price"]= "9.36",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_36"
+},
+[2037] = {
+  ["Desc"]= "RechargeDesc_sea_37",
+  ["goodPriceDes"]= "goodPriceDes_sea_37",
+  ["goodsId"]= 37,
+  ["Id"]= 2037,
+  ["Key"]= "rosea.dcb.id.3",
+  ["Name"]= "东南亚_rosea.dcb.id.3",
+  ["Price"]= "20.59",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_37"
+},
+[2038] = {
+  ["Desc"]= "RechargeDesc_sea_38",
+  ["goodPriceDes"]= "goodPriceDes_sea_38",
+  ["goodsId"]= 38,
+  ["Id"]= 2038,
+  ["Key"]= "rosea.dcb.id.4",
+  ["Name"]= "东南亚_rosea.dcb.id.4",
+  ["Price"]= "25.58",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_38"
+},
+[2039] = {
+  ["Desc"]= "RechargeDesc_sea_39",
+  ["goodPriceDes"]= "goodPriceDes_sea_39",
+  ["goodsId"]= 39,
+  ["Id"]= 2039,
+  ["Key"]= "rosea.dcb.id.5",
+  ["Name"]= "东南亚_rosea.dcb.id.5",
+  ["Price"]= "31.2",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_39"
+},
+[2040] = {
+  ["Desc"]= "RechargeDesc_sea_40",
+  ["goodPriceDes"]= "goodPriceDes_sea_40",
+  ["goodsId"]= 40,
+  ["Id"]= 2040,
+  ["Key"]= "rosea.dcb.th.1",
+  ["Name"]= "东南亚_rosea.dcb.th.1",
+  ["Price"]= "4.95",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_40"
+},
+[2041] = {
+  ["Desc"]= "RechargeDesc_sea_41",
+  ["goodPriceDes"]= "goodPriceDes_sea_41",
+  ["goodsId"]= 41,
+  ["Id"]= 2041,
+  ["Key"]= "rosea.dcb.th.2",
+  ["Name"]= "东南亚_rosea.dcb.th.2",
+  ["Price"]= "9.9",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_41"
+},
+[2042] = {
+  ["Desc"]= "RechargeDesc_sea_42",
+  ["goodPriceDes"]= "goodPriceDes_sea_42",
+  ["goodsId"]= 42,
+  ["Id"]= 2042,
+  ["Key"]= "rosea.dcb.th.3",
+  ["Name"]= "东南亚_rosea.dcb.th.3",
+  ["Price"]= "13.21",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_42"
+},
+[2043] = {
+  ["Desc"]= "RechargeDesc_sea_43",
+  ["goodPriceDes"]= "goodPriceDes_sea_43",
+  ["goodsId"]= 43,
+  ["Id"]= 2043,
+  ["Key"]= "rosea.dcb.th.4",
+  ["Name"]= "东南亚_rosea.dcb.th.4",
+  ["Price"]= "16.51",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_43"
+},
+[2044] = {
+  ["Desc"]= "RechargeDesc_sea_44",
+  ["goodPriceDes"]= "goodPriceDes_sea_44",
+  ["goodsId"]= 44,
+  ["Id"]= 2044,
+  ["Key"]= "rosea.dcb.sg.1",
+  ["Name"]= "东南亚_rosea.dcb.sg.1",
+  ["Price"]= "4.82",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_44"
+},
+[2045] = {
+  ["Desc"]= "RechargeDesc_sea_45",
+  ["goodPriceDes"]= "goodPriceDes_sea_45",
+  ["goodsId"]= 45,
+  ["Id"]= 2045,
+  ["Key"]= "rosea.dcb.sg.2",
+  ["Name"]= "东南亚_rosea.dcb.sg.2",
+  ["Price"]= "10.32",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_45"
+},
+[2046] = {
+  ["Desc"]= "RechargeDesc_sea_46",
+  ["goodPriceDes"]= "goodPriceDes_sea_46",
+  ["goodsId"]= 46,
+  ["Id"]= 2046,
+  ["Key"]= "rosea.dcb.sg.3",
+  ["Name"]= "东南亚_rosea.dcb.sg.3",
+  ["Price"]= "20.65",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_46"
+},
+[2047] = {
+  ["Desc"]= "RechargeDesc_sea_47",
+  ["goodPriceDes"]= "goodPriceDes_sea_47",
+  ["goodsId"]= 47,
+  ["Id"]= 2047,
+  ["Key"]= "rosea.dcb.sg.4",
+  ["Name"]= "东南亚_rosea.dcb.sg.4",
+  ["Price"]= "30.97",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_47"
+},
+[2048] = {
+  ["Desc"]= "RechargeDesc_sea_48",
+  ["goodPriceDes"]= "goodPriceDes_sea_48",
+  ["goodsId"]= 48,
+  ["Id"]= 2048,
+  ["Key"]= "rosea.dcb.sg.5",
+  ["Name"]= "东南亚_rosea.dcb.sg.5",
+  ["Price"]= "41.3",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_48"
+},
+[2049] = {
+  ["Desc"]= "RechargeDesc_sea_49",
+  ["goodPriceDes"]= "goodPriceDes_sea_49",
+  ["goodsId"]= 49,
+  ["Id"]= 2049,
+  ["Key"]= "rosea.dcb.ph.1",
+  ["Name"]= "东南亚_rosea.dcb.ph.1",
+  ["Price"]= "2.01",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_49"
+},
+[2050] = {
+  ["Desc"]= "RechargeDesc_sea_50",
+  ["goodPriceDes"]= "goodPriceDes_sea_50",
+  ["goodsId"]= 50,
+  ["Id"]= 2050,
+  ["Key"]= "rosea.dcb.ph.2",
+  ["Name"]= "东南亚_rosea.dcb.ph.2",
+  ["Price"]= "5.01",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_50"
+},
+[2051] = {
+  ["Desc"]= "RechargeDesc_sea_51",
+  ["goodPriceDes"]= "goodPriceDes_sea_51",
+  ["goodsId"]= 51,
+  ["Id"]= 2051,
+  ["Key"]= "rosea.dcb.ph.3",
+  ["Name"]= "东南亚_rosea.dcb.ph.3",
+  ["Price"]= "10.03",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_51"
+},
+[2052] = {
+  ["Desc"]= "RechargeDesc_sea_52",
+  ["goodPriceDes"]= "goodPriceDes_sea_52",
+  ["goodsId"]= 52,
+  ["Id"]= 2052,
+  ["Key"]= "rosea.dcb.ph.4",
+  ["Name"]= "东南亚_rosea.dcb.ph.4",
+  ["Price"]= "20.05",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_52"
+},
+[2053] = {
+  ["Desc"]= "RechargeDesc_sea_53",
+  ["goodPriceDes"]= "goodPriceDes_sea_53",
+  ["goodsId"]= 53,
+  ["Id"]= 2053,
+  ["Key"]= "rosea.dcb.ph.5",
+  ["Name"]= "东南亚_rosea.dcb.ph.5",
+  ["Price"]= "30.08",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_53"
+},
+[2054] = {
+  ["Desc"]= "RechargeDesc_sea_54",
+  ["goodPriceDes"]= "goodPriceDes_sea_54",
+  ["goodsId"]= 54,
+  ["Id"]= 2054,
+  ["Key"]= "rosea.dcb.ph.6",
+  ["Name"]= "东南亚_rosea.dcb.ph.6",
+  ["Price"]= "40.1",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_54"
+},
+[2055] = {
+  ["Desc"]= "RechargeDesc_sea_55",
+  ["goodPriceDes"]= "goodPriceDes_sea_55",
+  ["goodsId"]= 55,
+  ["Id"]= 2055,
+  ["Key"]= "rosea.dcb.my.1",
+  ["Name"]= "东南亚_rosea.dcb.my.1",
+  ["Price"]= "2.47",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_55"
+},
+[2056] = {
+  ["Desc"]= "RechargeDesc_sea_56",
+  ["goodPriceDes"]= "goodPriceDes_sea_56",
+  ["goodsId"]= 56,
+  ["Id"]= 2056,
+  ["Key"]= "rosea.dcb.my.2",
+  ["Name"]= "东南亚_rosea.dcb.my.2",
+  ["Price"]= "4.94",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_56"
+},
+[2057] = {
+  ["Desc"]= "RechargeDesc_sea_57",
+  ["goodPriceDes"]= "goodPriceDes_sea_57",
+  ["goodsId"]= 57,
+  ["Id"]= 2057,
+  ["Key"]= "rosea.dcb.my.3",
+  ["Name"]= "东南亚_rosea.dcb.my.3",
+  ["Price"]= "12.34",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_57"
+},
+[2058] = {
+  ["Desc"]= "RechargeDesc_sea_58",
+  ["goodPriceDes"]= "goodPriceDes_sea_58",
+  ["goodsId"]= 58,
+  ["Id"]= 2058,
+  ["Key"]= "rosea.dcb.my.4",
+  ["Name"]= "东南亚_rosea.dcb.my.4",
+  ["Price"]= "19.75",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_58"
+},
+[2059] = {
+  ["Desc"]= "RechargeDesc_sea_59",
+  ["goodPriceDes"]= "goodPriceDes_sea_59",
+  ["goodsId"]= 59,
+  ["Id"]= 2059,
+  ["Key"]= "rosea.dcb.my.5",
+  ["Name"]= "东南亚_rosea.dcb.my.5",
+  ["Price"]= "24.68",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_59"
+},
+[2060] = {
+  ["Desc"]= "RechargeDesc_sea_60",
+  ["goodPriceDes"]= "goodPriceDes_sea_60",
+  ["goodsId"]= 60,
+  ["Id"]= 2060,
+  ["Key"]= "rosea.codagiftgard.th.1",
+  ["Name"]= "东南亚_rosea.codagiftgard.th.1",
+  ["Price"]= "4.95",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_60"
+},
+[2061] = {
+  ["Desc"]= "RechargeDesc_sea_61",
+  ["goodPriceDes"]= "goodPriceDes_sea_61",
+  ["goodsId"]= 61,
+  ["Id"]= 2061,
+  ["Key"]= "rosea.codagiftgard.th.2",
+  ["Name"]= "东南亚_rosea.codagiftgard.th.2",
+  ["Price"]= "9.9",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_61"
+},
+[2062] = {
+  ["Desc"]= "RechargeDesc_sea_62",
+  ["goodPriceDes"]= "goodPriceDes_sea_62",
+  ["goodsId"]= 62,
+  ["Id"]= 2062,
+  ["Key"]= "rosea.codagiftgard.th.3",
+  ["Name"]= "东南亚_rosea.codagiftgard.th.3",
+  ["Price"]= "16.51",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_62"
+},
+[2063] = {
+  ["Desc"]= "RechargeDesc_sea_63",
+  ["goodPriceDes"]= "goodPriceDes_sea_63",
+  ["goodsId"]= 63,
+  ["Id"]= 2063,
+  ["Key"]= "rosea.codagiftgard.th.4",
+  ["Name"]= "东南亚_rosea.codagiftgard.th.4",
+  ["Price"]= "33.01",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_63"
+},
+[2064] = {
+  ["Desc"]= "RechargeDesc_sea_64",
+  ["goodPriceDes"]= "goodPriceDes_sea_64",
+  ["goodsId"]= 64,
+  ["Id"]= 2064,
+  ["Key"]= "rosea.codaotc.th.1",
+  ["Name"]= "东南亚_rosea.codaotc.th.1",
+  ["Price"]= "4.95",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_64"
+},
+[2065] = {
+  ["Desc"]= "RechargeDesc_sea_65",
+  ["goodPriceDes"]= "goodPriceDes_sea_65",
+  ["goodsId"]= 65,
+  ["Id"]= 2065,
+  ["Key"]= "rosea.codaotc.th.2",
+  ["Name"]= "东南亚_rosea.codaotc.th.2",
+  ["Price"]= "9.9",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_65"
+},
+[2066] = {
+  ["Desc"]= "RechargeDesc_sea_66",
+  ["goodPriceDes"]= "goodPriceDes_sea_66",
+  ["goodsId"]= 66,
+  ["Id"]= 2066,
+  ["Key"]= "rosea.codaotc.th.3",
+  ["Name"]= "东南亚_rosea.codaotc.th.3",
+  ["Price"]= "16.51",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_66"
+},
+[2067] = {
+  ["Desc"]= "RechargeDesc_sea_67",
+  ["goodPriceDes"]= "goodPriceDes_sea_67",
+  ["goodsId"]= 67,
+  ["Id"]= 2067,
+  ["Key"]= "rosea.codaotc.th.4",
+  ["Name"]= "东南亚_rosea.codaotc.th.4",
+  ["Price"]= "33.01",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_67"
+},
+[2068] = {
+  ["Desc"]= "RechargeDesc_sea_68",
+  ["goodPriceDes"]= "goodPriceDes_sea_68",
+  ["goodsId"]= 68,
+  ["Id"]= 2068,
+  ["Key"]= "rosea.codaotc.th.5",
+  ["Name"]= "东南亚_rosea.codaotc.th.5",
+  ["Price"]= "99.04",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_68"
+},
+[2069] = {
+  ["Desc"]= "RechargeDesc_sea_69",
+  ["goodPriceDes"]= "goodPriceDes_sea_69",
+  ["goodsId"]= 69,
+  ["Id"]= 2069,
+  ["Key"]= "rosea.codaotc.th.6",
+  ["Name"]= "东南亚_rosea.codaotc.th.6",
+  ["Price"]= "194.78",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_69"
+},
+[2070] = {
+  ["Desc"]= "RechargeDesc_sea_70",
+  ["goodPriceDes"]= "goodPriceDes_sea_70",
+  ["goodsId"]= 70,
+  ["Id"]= 2070,
+  ["Key"]= "rosea.codaotc.th.7",
+  ["Name"]= "东南亚_rosea.codaotc.th.7",
+  ["Price"]= "392.87",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_70"
+},
+[2071] = {
+  ["Desc"]= "RechargeDesc_sea_71",
+  ["goodPriceDes"]= "goodPriceDes_sea_71",
+  ["goodsId"]= 71,
+  ["Id"]= 2071,
+  ["Key"]= "rosea.codaotc.th.8",
+  ["Name"]= "东南亚_rosea.codaotc.th.8",
+  ["Price"]= "1053.15",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_71"
+},
+[2072] = {
+  ["Desc"]= "RechargeDesc_sea_72",
+  ["goodPriceDes"]= "goodPriceDes_sea_72",
+  ["goodsId"]= 72,
+  ["Id"]= 2072,
+  ["Key"]= "rosea.codaotc.th.9",
+  ["Name"]= "东南亚_rosea.codaotc.th.9",
+  ["Price"]= "1617.69",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_72"
+},
+[2073] = {
+  ["Desc"]= "RechargeDesc_sea_73",
+  ["goodPriceDes"]= "goodPriceDes_sea_73",
+  ["goodsId"]= 73,
+  ["Id"]= 2073,
+  ["Key"]= "rosea.codaewallet.id.1",
+  ["Name"]= "东南亚_rosea.codaewallet.id.1",
+  ["Price"]= "4.68",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_73"
+},
+[2074] = {
+  ["Desc"]= "RechargeDesc_sea_74",
+  ["goodPriceDes"]= "goodPriceDes_sea_74",
+  ["goodsId"]= 74,
+  ["Id"]= 2074,
+  ["Key"]= "rosea.codaewallet.id.2",
+  ["Name"]= "东南亚_rosea.codaewallet.id.2",
+  ["Price"]= "9.98",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_74"
+},
+[2075] = {
+  ["Desc"]= "RechargeDesc_sea_75",
+  ["goodPriceDes"]= "goodPriceDes_sea_75",
+  ["goodsId"]= 75,
+  ["Id"]= 2075,
+  ["Key"]= "rosea.codaewallet.id.3",
+  ["Name"]= "东南亚_rosea.codaewallet.id.3",
+  ["Price"]= "20.59",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_75"
+},
+[2076] = {
+  ["Desc"]= "RechargeDesc_sea_76",
+  ["goodPriceDes"]= "goodPriceDes_sea_76",
+  ["goodsId"]= 76,
+  ["Id"]= 2076,
+  ["Key"]= "rosea.codaewallet.id.4",
+  ["Name"]= "东南亚_rosea.codaewallet.id.4",
+  ["Price"]= "29.95",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_76"
+},
+[2077] = {
+  ["Desc"]= "RechargeDesc_sea_77",
+  ["goodPriceDes"]= "goodPriceDes_sea_77",
+  ["goodsId"]= 77,
+  ["Id"]= 2077,
+  ["Key"]= "rosea.codaewallet.id.5",
+  ["Name"]= "东南亚_rosea.codaewallet.id.5",
+  ["Price"]= "49.92",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_77"
+},
+[2078] = {
+  ["Desc"]= "RechargeDesc_sea_78",
+  ["goodPriceDes"]= "goodPriceDes_sea_78",
+  ["goodsId"]= 78,
+  ["Id"]= 2078,
+  ["Key"]= "rosea.codaewallet.id.6",
+  ["Name"]= "东南亚_rosea.codaewallet.id.6",
+  ["Price"]= "99.84",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_78"
+},
+[2079] = {
+  ["Desc"]= "RechargeDesc_sea_79",
+  ["goodPriceDes"]= "goodPriceDes_sea_79",
+  ["goodsId"]= 79,
+  ["Id"]= 2079,
+  ["Key"]= "rosea.codaewallet.id.7",
+  ["Name"]= "东南亚_rosea.codaewallet.id.7",
+  ["Price"]= 312,
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_79"
+},
+[2080] = {
+  ["Desc"]= "RechargeDesc_sea_80",
+  ["goodPriceDes"]= "goodPriceDes_sea_80",
+  ["goodsId"]= 80,
+  ["Id"]= 2080,
+  ["Key"]= "rosea.codaewallet.id.8",
+  ["Name"]= "东南亚_rosea.codaewallet.id.8",
+  ["Price"]= "468.01",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_80"
+},
+[2081] = {
+  ["Desc"]= "RechargeDesc_sea_81",
+  ["goodPriceDes"]= "goodPriceDes_sea_81",
+  ["goodsId"]= 81,
+  ["Id"]= 2081,
+  ["Key"]= "rosea.codaewallet.id.9",
+  ["Name"]= "东南亚_rosea.codaewallet.id.9",
+  ["Price"]= "624.01",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_81"
+},
+[2082] = {
+  ["Desc"]= "RechargeDesc_sea_82",
+  ["goodPriceDes"]= "goodPriceDes_sea_82",
+  ["goodsId"]= 82,
+  ["Id"]= 2082,
+  ["Key"]= "rosea.codaewallet.ph.1",
+  ["Name"]= "东南亚_rosea.codaewallet.ph.1",
+  ["Price"]= "5.01",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_82"
+},
+[2083] = {
+  ["Desc"]= "RechargeDesc_sea_83",
+  ["goodPriceDes"]= "goodPriceDes_sea_83",
+  ["goodsId"]= 83,
+  ["Id"]= 2083,
+  ["Key"]= "rosea.codaewallet.ph.2",
+  ["Name"]= "东南亚_rosea.codaewallet.ph.2",
+  ["Price"]= "10.03",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_83"
+},
+[2084] = {
+  ["Desc"]= "RechargeDesc_sea_84",
+  ["goodPriceDes"]= "goodPriceDes_sea_84",
+  ["goodsId"]= 84,
+  ["Id"]= 2084,
+  ["Key"]= "rosea.codaewallet.ph.3",
+  ["Name"]= "东南亚_rosea.codaewallet.ph.3",
+  ["Price"]= "20.05",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_84"
+},
+[2085] = {
+  ["Desc"]= "RechargeDesc_sea_85",
+  ["goodPriceDes"]= "goodPriceDes_sea_85",
+  ["goodsId"]= 85,
+  ["Id"]= 2085,
+  ["Key"]= "rosea.codaewallet.ph.4",
+  ["Name"]= "东南亚_rosea.codaewallet.ph.4",
+  ["Price"]= "40.1",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_85"
+},
+[2086] = {
+  ["Desc"]= "RechargeDesc_sea_86",
+  ["goodPriceDes"]= "goodPriceDes_sea_86",
+  ["goodsId"]= 86,
+  ["Id"]= 2086,
+  ["Key"]= "rosea.codaewallet.ph.5",
+  ["Name"]= "东南亚_rosea.codaewallet.ph.5",
+  ["Price"]= "100.26",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_86"
+},
+[2087] = {
+  ["Desc"]= "RechargeDesc_sea_87",
+  ["goodPriceDes"]= "goodPriceDes_sea_87",
+  ["goodsId"]= 87,
+  ["Id"]= 2087,
+  ["Key"]= "rosea.codaewallet.ph.6",
+  ["Name"]= "东南亚_rosea.codaewallet.ph.6",
+  ["Price"]= "200.52",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_87"
+},
+[2088] = {
+  ["Desc"]= "RechargeDesc_sea_88",
+  ["goodPriceDes"]= "goodPriceDes_sea_88",
+  ["goodsId"]= 88,
+  ["Id"]= 2088,
+  ["Key"]= "rosea.codaewallet.ph.7",
+  ["Name"]= "东南亚_rosea.codaewallet.ph.7",
+  ["Price"]= "401.04",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_88"
+},
+[2089] = {
+  ["Desc"]= "RechargeDesc_sea_89",
+  ["goodPriceDes"]= "goodPriceDes_sea_89",
+  ["goodsId"]= 89,
+  ["Id"]= 2089,
+  ["Key"]= "rosea.codaewallet.ph.8",
+  ["Name"]= "东南亚_rosea.codaewallet.ph.8",
+  ["Price"]= "1002.6",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_89"
+},
+[2090] = {
+  ["Desc"]= "RechargeDesc_sea_90",
+  ["goodPriceDes"]= "goodPriceDes_sea_90",
+  ["goodsId"]= 90,
+  ["Id"]= 2090,
+  ["Key"]= "rosea.codaewallet.ph.9",
+  ["Name"]= "东南亚_rosea.codaewallet.ph.9",
+  ["Price"]= "2005.19",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_90"
+},
+[2091] = {
+  ["Desc"]= "RechargeDesc_sea_91",
+  ["goodPriceDes"]= "goodPriceDes_sea_91",
+  ["goodsId"]= 91,
+  ["Id"]= 2091,
+  ["Key"]= "rosea.codaewallet.th.1",
+  ["Name"]= "东南亚_rosea.codaewallet.th.1",
+  ["Price"]= "4.95",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_91"
+},
+[2092] = {
+  ["Desc"]= "RechargeDesc_sea_92",
+  ["goodPriceDes"]= "goodPriceDes_sea_92",
+  ["goodsId"]= 92,
+  ["Id"]= 2092,
+  ["Key"]= "rosea.codaewallet.th.2",
+  ["Name"]= "东南亚_rosea.codaewallet.th.2",
+  ["Price"]= "9.9",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_92"
+},
+[2093] = {
+  ["Desc"]= "RechargeDesc_sea_93",
+  ["goodPriceDes"]= "goodPriceDes_sea_93",
+  ["goodsId"]= 93,
+  ["Id"]= 2093,
+  ["Key"]= "rosea.codaewallet.th.3",
+  ["Name"]= "东南亚_rosea.codaewallet.th.3",
+  ["Price"]= "16.51",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_93"
+},
+[2094] = {
+  ["Desc"]= "RechargeDesc_sea_94",
+  ["goodPriceDes"]= "goodPriceDes_sea_94",
+  ["goodsId"]= 94,
+  ["Id"]= 2094,
+  ["Key"]= "rosea.codaewallet.th.4",
+  ["Name"]= "东南亚_rosea.codaewallet.th.4",
+  ["Price"]= "33.01",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_94"
+},
+[2095] = {
+  ["Desc"]= "RechargeDesc_sea_95",
+  ["goodPriceDes"]= "goodPriceDes_sea_95",
+  ["goodsId"]= 95,
+  ["Id"]= 2095,
+  ["Key"]= "rosea.codaewallet.th.5",
+  ["Name"]= "东南亚_rosea.codaewallet.th.5",
+  ["Price"]= "99.04",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_95"
+},
+[2096] = {
+  ["Desc"]= "RechargeDesc_sea_96",
+  ["goodPriceDes"]= "goodPriceDes_sea_96",
+  ["goodsId"]= 96,
+  ["Id"]= 2096,
+  ["Key"]= "rosea.codaewallet.th.6",
+  ["Name"]= "东南亚_rosea.codaewallet.th.6",
+  ["Price"]= "194.78",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_96"
+},
+[2097] = {
+  ["Desc"]= "RechargeDesc_sea_97",
+  ["goodPriceDes"]= "goodPriceDes_sea_97",
+  ["goodsId"]= 97,
+  ["Id"]= 2097,
+  ["Key"]= "rosea.codaewallet.th.7",
+  ["Name"]= "东南亚_rosea.codaewallet.th.7",
+  ["Price"]= "392.87",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_97"
+},
+[2098] = {
+  ["Desc"]= "RechargeDesc_sea_98",
+  ["goodPriceDes"]= "goodPriceDes_sea_98",
+  ["goodsId"]= 98,
+  ["Id"]= 2098,
+  ["Key"]= "rosea.codaewallet.th.8",
+  ["Name"]= "东南亚_rosea.codaewallet.th.8",
+  ["Price"]= "1053.15",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_98"
+},
+[2099] = {
+  ["Desc"]= "RechargeDesc_sea_99",
+  ["goodPriceDes"]= "goodPriceDes_sea_99",
+  ["goodsId"]= 99,
+  ["Id"]= 2099,
+  ["Key"]= "rosea.codaewallet.th.9",
+  ["Name"]= "东南亚_rosea.codaewallet.th.9",
+  ["Price"]= "1617.69",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_99"
+},
+[2100] = {
+  ["Desc"]= "RechargeDesc_sea_100",
+  ["goodPriceDes"]= "goodPriceDes_sea_100",
+  ["goodsId"]= 100,
+  ["Id"]= 2100,
+  ["Key"]= "rosea.codaewallet.th.10",
+  ["Name"]= "东南亚_rosea.codaewallet.th.10",
+  ["Price"]= "3301.41",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_100"
+},
+[2101] = {
+  ["Desc"]= "RechargeDesc_sea_101",
+  ["goodPriceDes"]= "goodPriceDes_sea_101",
+  ["goodsId"]= 101,
+  ["Id"]= 2101,
+  ["Key"]= "rosea.rabbit.th.1",
+  ["Name"]= "东南亚_rosea.rabbit.th.1",
+  ["Price"]= "4.95",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_101"
+},
+[2102] = {
+  ["Desc"]= "RechargeDesc_sea_102",
+  ["goodPriceDes"]= "goodPriceDes_sea_102",
+  ["goodsId"]= 102,
+  ["Id"]= 2102,
+  ["Key"]= "rosea.rabbit.th.2",
+  ["Name"]= "东南亚_rosea.rabbit.th.2",
+  ["Price"]= "9.9",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_102"
+},
+[2103] = {
+  ["Desc"]= "RechargeDesc_sea_103",
+  ["goodPriceDes"]= "goodPriceDes_sea_103",
+  ["goodsId"]= 103,
+  ["Id"]= 2103,
+  ["Key"]= "rosea.rabbit.th.3",
+  ["Name"]= "东南亚_rosea.rabbit.th.3",
+  ["Price"]= "16.51",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_103"
+},
+[2104] = {
+  ["Desc"]= "RechargeDesc_sea_104",
+  ["goodPriceDes"]= "goodPriceDes_sea_104",
+  ["goodsId"]= 104,
+  ["Id"]= 2104,
+  ["Key"]= "rosea.rabbit.th.4",
+  ["Name"]= "东南亚_rosea.rabbit.th.4",
+  ["Price"]= "33.01",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_104"
+},
+[2105] = {
+  ["Desc"]= "RechargeDesc_sea_105",
+  ["goodPriceDes"]= "goodPriceDes_sea_105",
+  ["goodsId"]= 105,
+  ["Id"]= 2105,
+  ["Key"]= "rosea.rabbit.th.5",
+  ["Name"]= "东南亚_rosea.rabbit.th.5",
+  ["Price"]= "99.04",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_105"
+},
+[2106] = {
+  ["Desc"]= "RechargeDesc_sea_106",
+  ["goodPriceDes"]= "goodPriceDes_sea_106",
+  ["goodsId"]= 106,
+  ["Id"]= 2106,
+  ["Key"]= "rosea.rabbit.th.6",
+  ["Name"]= "东南亚_rosea.rabbit.th.6",
+  ["Price"]= "194.78",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_106"
+},
+[2107] = {
+  ["Desc"]= "RechargeDesc_sea_107",
+  ["goodPriceDes"]= "goodPriceDes_sea_107",
+  ["goodsId"]= 107,
+  ["Id"]= 2107,
+  ["Key"]= "rosea.rabbit.th.7",
+  ["Name"]= "东南亚_rosea.rabbit.th.7",
+  ["Price"]= "392.87",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_107"
+},
+[2108] = {
+  ["Desc"]= "RechargeDesc_sea_108",
+  ["goodPriceDes"]= "goodPriceDes_sea_108",
+  ["goodsId"]= 108,
+  ["Id"]= 2108,
+  ["Key"]= "rosea.rabbit.th.8",
+  ["Name"]= "东南亚_rosea.rabbit.th.8",
+  ["Price"]= "1617.69",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_108"
+},
+[2109] = {
+  ["Desc"]= "RechargeDesc_sea_109",
+  ["goodPriceDes"]= "goodPriceDes_sea_109",
+  ["goodsId"]= 109,
+  ["Id"]= 2109,
+  ["Key"]= "rosea.danaewallet.id.1",
+  ["Name"]= "东南亚_rosea.danaewallet.id.1",
+  ["Price"]= "4.68",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_109"
+},
+[2110] = {
+  ["Desc"]= "RechargeDesc_sea_110",
+  ["goodPriceDes"]= "goodPriceDes_sea_110",
+  ["goodsId"]= 110,
+  ["Id"]= 2110,
+  ["Key"]= "rosea.danaewallet.id.2",
+  ["Name"]= "东南亚_rosea.danaewallet.id.2",
+  ["Price"]= "9.98",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_110"
+},
+[2111] = {
+  ["Desc"]= "RechargeDesc_sea_111",
+  ["goodPriceDes"]= "goodPriceDes_sea_111",
+  ["goodsId"]= 111,
+  ["Id"]= 2111,
+  ["Key"]= "rosea.danaewallet.id.3",
+  ["Name"]= "东南亚_rosea.danaewallet.id.3",
+  ["Price"]= "20.59",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_111"
+},
+[2112] = {
+  ["Desc"]= "RechargeDesc_sea_112",
+  ["goodPriceDes"]= "goodPriceDes_sea_112",
+  ["goodsId"]= 112,
+  ["Id"]= 2112,
+  ["Key"]= "rosea.danaewallet.id.4",
+  ["Name"]= "东南亚_rosea.danaewallet.id.4",
+  ["Price"]= "29.95",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_112"
+},
+[2113] = {
+  ["Desc"]= "RechargeDesc_sea_113",
+  ["goodPriceDes"]= "goodPriceDes_sea_113",
+  ["goodsId"]= 113,
+  ["Id"]= 2113,
+  ["Key"]= "rosea.danaewallet.id.5",
+  ["Name"]= "东南亚_rosea.danaewallet.id.5",
+  ["Price"]= "49.92",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_113"
+},
+[2114] = {
+  ["Desc"]= "RechargeDesc_sea_114",
+  ["goodPriceDes"]= "goodPriceDes_sea_114",
+  ["goodsId"]= 114,
+  ["Id"]= 2114,
+  ["Key"]= "rosea.danaewallet.id.6",
+  ["Name"]= "东南亚_rosea.danaewallet.id.6",
+  ["Price"]= "99.84",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_114"
+},
+[2115] = {
+  ["Desc"]= "RechargeDesc_sea_115",
+  ["goodPriceDes"]= "goodPriceDes_sea_115",
+  ["goodsId"]= 115,
+  ["Id"]= 2115,
+  ["Key"]= "rosea.danaewallet.id.7",
+  ["Name"]= "东南亚_rosea.danaewallet.id.7",
+  ["Price"]= 312,
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_115"
+},
+[2116] = {
+  ["Desc"]= "RechargeDesc_sea_116",
+  ["goodPriceDes"]= "goodPriceDes_sea_116",
+  ["goodsId"]= 116,
+  ["Id"]= 2116,
+  ["Key"]= "rosea.danaewallet.id.8",
+  ["Name"]= "东南亚_rosea.danaewallet.id.8",
+  ["Price"]= "468.01",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_116"
+},
+[2117] = {
+  ["Desc"]= "RechargeDesc_sea_117",
+  ["goodPriceDes"]= "goodPriceDes_sea_117",
+  ["goodsId"]= 117,
+  ["Id"]= 2117,
+  ["Key"]= "rosea.danaewallet.id.9",
+  ["Name"]= "东南亚_rosea.danaewallet.id.9",
+  ["Price"]= "624.01",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_117"
+},
+[2118] = {
+  ["Desc"]= "RechargeDesc_sea_118",
+  ["goodPriceDes"]= "goodPriceDes_sea_118",
+  ["goodsId"]= 118,
+  ["Id"]= 2118,
+  ["Key"]= "rosea.mobilebank.id.1",
+  ["Name"]= "东南亚_rosea.mobilebank.id.1",
+  ["Price"]= "4.68",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_118"
+},
+[2119] = {
+  ["Desc"]= "RechargeDesc_sea_119",
+  ["goodPriceDes"]= "goodPriceDes_sea_119",
+  ["goodsId"]= 119,
+  ["Id"]= 2119,
+  ["Key"]= "rosea.mobilebank.id.2",
+  ["Name"]= "东南亚_rosea.mobilebank.id.2",
+  ["Price"]= "9.98",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_119"
+},
+[2120] = {
+  ["Desc"]= "RechargeDesc_sea_120",
+  ["goodPriceDes"]= "goodPriceDes_sea_120",
+  ["goodsId"]= 120,
+  ["Id"]= 2120,
+  ["Key"]= "rosea.mobilebank.id.3",
+  ["Name"]= "东南亚_rosea.mobilebank.id.3",
+  ["Price"]= "20.59",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_120"
+},
+[2121] = {
+  ["Desc"]= "RechargeDesc_sea_121",
+  ["goodPriceDes"]= "goodPriceDes_sea_121",
+  ["goodsId"]= 121,
+  ["Id"]= 2121,
+  ["Key"]= "rosea.mobilebank.id.4",
+  ["Name"]= "东南亚_rosea.mobilebank.id.4",
+  ["Price"]= "29.95",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_121"
+},
+[2122] = {
+  ["Desc"]= "RechargeDesc_sea_122",
+  ["goodPriceDes"]= "goodPriceDes_sea_122",
+  ["goodsId"]= 122,
+  ["Id"]= 2122,
+  ["Key"]= "rosea.mobilebank.id.5",
+  ["Name"]= "东南亚_rosea.mobilebank.id.5",
+  ["Price"]= "49.92",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_122"
+},
+[2123] = {
+  ["Desc"]= "RechargeDesc_sea_123",
+  ["goodPriceDes"]= "goodPriceDes_sea_123",
+  ["goodsId"]= 123,
+  ["Id"]= 2123,
+  ["Key"]= "rosea.mobilebank.id.6",
+  ["Name"]= "东南亚_rosea.mobilebank.id.6",
+  ["Price"]= "99.84",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_123"
+},
+[2124] = {
+  ["Desc"]= "RechargeDesc_sea_124",
+  ["goodPriceDes"]= "goodPriceDes_sea_124",
+  ["goodsId"]= 124,
+  ["Id"]= 2124,
+  ["Key"]= "rosea.mobilebank.id.7",
+  ["Name"]= "东南亚_rosea.mobilebank.id.7",
+  ["Price"]= 312,
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_124"
+},
+[2125] = {
+  ["Desc"]= "RechargeDesc_sea_125",
+  ["goodPriceDes"]= "goodPriceDes_sea_125",
+  ["goodsId"]= 125,
+  ["Id"]= 2125,
+  ["Key"]= "rosea.mobilebank.id.8",
+  ["Name"]= "东南亚_rosea.mobilebank.id.8",
+  ["Price"]= "468.01",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_125"
+},
+[2126] = {
+  ["Desc"]= "RechargeDesc_sea_126",
+  ["goodPriceDes"]= "goodPriceDes_sea_126",
+  ["goodsId"]= 126,
+  ["Id"]= 2126,
+  ["Key"]= "rosea.mobilebank.id.9",
+  ["Name"]= "东南亚_rosea.mobilebank.id.9",
+  ["Price"]= "624.01",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_126"
+},
+[2127] = {
+  ["Desc"]= "RechargeDesc_sea_127",
+  ["goodPriceDes"]= "goodPriceDes_sea_127",
+  ["goodsId"]= 127,
+  ["Id"]= 2127,
+  ["Key"]= "rosea.razorpin.ph.1",
+  ["Name"]= "东南亚_rosea.razorpin.ph.1",
+  ["Price"]= "5.01",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_127"
+},
+[2128] = {
+  ["Desc"]= "RechargeDesc_sea_128",
+  ["goodPriceDes"]= "goodPriceDes_sea_128",
+  ["goodsId"]= 128,
+  ["Id"]= 2128,
+  ["Key"]= "rosea.razorpin.ph.2",
+  ["Name"]= "东南亚_rosea.razorpin.ph.2",
+  ["Price"]= "10.03",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_128"
+},
+[2129] = {
+  ["Desc"]= "RechargeDesc_sea_129",
+  ["goodPriceDes"]= "goodPriceDes_sea_129",
+  ["goodsId"]= 129,
+  ["Id"]= 2129,
+  ["Key"]= "rosea.razorpin.ph.3",
+  ["Name"]= "东南亚_rosea.razorpin.ph.3",
+  ["Price"]= "20.05",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_129"
+},
+[2130] = {
+  ["Desc"]= "RechargeDesc_sea_130",
+  ["goodPriceDes"]= "goodPriceDes_sea_130",
+  ["goodsId"]= 130,
+  ["Id"]= 2130,
+  ["Key"]= "rosea.razorpin.ph.4",
+  ["Name"]= "东南亚_rosea.razorpin.ph.4",
+  ["Price"]= "40.1",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_130"
+},
+[2131] = {
+  ["Desc"]= "RechargeDesc_sea_131",
+  ["goodPriceDes"]= "goodPriceDes_sea_131",
+  ["goodsId"]= 131,
+  ["Id"]= 2131,
+  ["Key"]= "rosea.razorpin.ph.5",
+  ["Name"]= "东南亚_rosea.razorpin.ph.5",
+  ["Price"]= "100.26",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_131"
+},
+[2132] = {
+  ["Desc"]= "RechargeDesc_sea_132",
+  ["goodPriceDes"]= "goodPriceDes_sea_132",
+  ["goodsId"]= 132,
+  ["Id"]= 2132,
+  ["Key"]= "rosea.razorpin.id.1",
+  ["Name"]= "东南亚_rosea.razorpin.id.1",
+  ["Price"]= "3.12",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_132"
+},
+[2133] = {
+  ["Desc"]= "RechargeDesc_sea_133",
+  ["goodPriceDes"]= "goodPriceDes_sea_133",
+  ["goodsId"]= 133,
+  ["Id"]= 2133,
+  ["Key"]= "rosea.razorpin.id.2",
+  ["Name"]= "东南亚_rosea.razorpin.id.2",
+  ["Price"]= "6.24",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_133"
+},
+[2134] = {
+  ["Desc"]= "RechargeDesc_sea_134",
+  ["goodPriceDes"]= "goodPriceDes_sea_134",
+  ["goodsId"]= 134,
+  ["Id"]= 2134,
+  ["Key"]= "rosea.razorpin.id.3",
+  ["Name"]= "东南亚_rosea.razorpin.id.3",
+  ["Price"]= "12.48",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_134"
+},
+[2135] = {
+  ["Desc"]= "RechargeDesc_sea_135",
+  ["goodPriceDes"]= "goodPriceDes_sea_135",
+  ["goodsId"]= 135,
+  ["Id"]= 2135,
+  ["Key"]= "rosea.razorpin.id.4",
+  ["Name"]= "东南亚_rosea.razorpin.id.4",
+  ["Price"]= "31.2",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_135"
+},
+[2136] = {
+  ["Desc"]= "RechargeDesc_sea_136",
+  ["goodPriceDes"]= "goodPriceDes_sea_136",
+  ["goodsId"]= 136,
+  ["Id"]= 2136,
+  ["Key"]= "rosea.razorpin.id.5",
+  ["Name"]= "东南亚_rosea.razorpin.id.5",
+  ["Price"]= "62.4",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_136"
+},
+[2137] = {
+  ["Desc"]= "RechargeDesc_sea_137",
+  ["goodPriceDes"]= "goodPriceDes_sea_137",
+  ["goodsId"]= 137,
+  ["Id"]= 2137,
+  ["Key"]= "rosea.razorpin.sg.1",
+  ["Name"]= "东南亚_rosea.razorpin.sg.1",
+  ["Price"]= "6.88",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_137"
+},
+[2138] = {
+  ["Desc"]= "RechargeDesc_sea_138",
+  ["goodPriceDes"]= "goodPriceDes_sea_138",
+  ["goodsId"]= 138,
+  ["Id"]= 2138,
+  ["Key"]= "rosea.razorpin.sg.2",
+  ["Name"]= "东南亚_rosea.razorpin.sg.2",
+  ["Price"]= "13.77",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_138"
+},
+[2139] = {
+  ["Desc"]= "RechargeDesc_sea_139",
+  ["goodPriceDes"]= "goodPriceDes_sea_139",
+  ["goodsId"]= 139,
+  ["Id"]= 2139,
+  ["Key"]= "rosea.razorpin.sg.3",
+  ["Name"]= "东南亚_rosea.razorpin.sg.3",
+  ["Price"]= "20.65",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_139"
+},
+[2140] = {
+  ["Desc"]= "RechargeDesc_sea_140",
+  ["goodPriceDes"]= "goodPriceDes_sea_140",
+  ["goodsId"]= 140,
+  ["Id"]= 2140,
+  ["Key"]= "rosea.razorpin.sg.4",
+  ["Name"]= "东南亚_rosea.razorpin.sg.4",
+  ["Price"]= "34.41",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_140"
+},
+[2141] = {
+  ["Desc"]= "RechargeDesc_sea_141",
+  ["goodPriceDes"]= "goodPriceDes_sea_141",
+  ["goodsId"]= 141,
+  ["Id"]= 2141,
+  ["Key"]= "rosea.razorpin.sg.5",
+  ["Name"]= "东南亚_rosea.razorpin.sg.5",
+  ["Price"]= "55.06",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_141"
+},
+[2142] = {
+  ["Desc"]= "RechargeDesc_sea_142",
+  ["goodPriceDes"]= "goodPriceDes_sea_142",
+  ["goodsId"]= 142,
+  ["Id"]= 2142,
+  ["Key"]= "rosea.razorpin.sg.6",
+  ["Name"]= "东南亚_rosea.razorpin.sg.6",
+  ["Price"]= "103.24",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_142"
+},
+[2143] = {
+  ["Desc"]= "RechargeDesc_sea_143",
+  ["goodPriceDes"]= "goodPriceDes_sea_143",
+  ["goodsId"]= 143,
+  ["Id"]= 2143,
+  ["Key"]= "rosea.razorpin.sg.7",
+  ["Name"]= "东南亚_rosea.razorpin.sg.7",
+  ["Price"]= "137.65",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_143"
+},
+[2144] = {
+  ["Desc"]= "RechargeDesc_sea_144",
+  ["goodPriceDes"]= "goodPriceDes_sea_144",
+  ["goodsId"]= 144,
+  ["Id"]= 2144,
+  ["Key"]= "rosea.razorpin.sg.8",
+  ["Name"]= "东南亚_rosea.razorpin.sg.8",
+  ["Price"]= "206.48",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_144"
+},
+[2145] = {
+  ["Desc"]= "RechargeDesc_sea_145",
+  ["goodPriceDes"]= "goodPriceDes_sea_145",
+  ["goodsId"]= 145,
+  ["Id"]= 2145,
+  ["Key"]= "rosea.razorpin.my.1",
+  ["Name"]= "东南亚_rosea.razorpin.my.1",
+  ["Price"]= "4.94",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_145"
+},
+[2146] = {
+  ["Desc"]= "RechargeDesc_sea_146",
+  ["goodPriceDes"]= "goodPriceDes_sea_146",
+  ["goodsId"]= 146,
+  ["Id"]= 2146,
+  ["Key"]= "rosea.razorpin.my.2",
+  ["Name"]= "东南亚_rosea.razorpin.my.2",
+  ["Price"]= "9.87",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_146"
+},
+[2147] = {
+  ["Desc"]= "RechargeDesc_sea_147",
+  ["goodPriceDes"]= "goodPriceDes_sea_147",
+  ["goodsId"]= 147,
+  ["Id"]= 2147,
+  ["Key"]= "rosea.razorpin.my.3",
+  ["Name"]= "东南亚_rosea.razorpin.my.3",
+  ["Price"]= "24.68",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_147"
+},
+[2148] = {
+  ["Desc"]= "RechargeDesc_sea_148",
+  ["goodPriceDes"]= "goodPriceDes_sea_148",
+  ["goodsId"]= 148,
+  ["Id"]= 2148,
+  ["Key"]= "rosea.razorpin.my.4",
+  ["Name"]= "东南亚_rosea.razorpin.my.4",
+  ["Price"]= "49.37",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_148"
+},
+[2149] = {
+  ["Desc"]= "RechargeDesc_sea_149",
+  ["goodPriceDes"]= "goodPriceDes_sea_149",
+  ["goodsId"]= 149,
+  ["Id"]= 2149,
+  ["Key"]= "rosea.razorpin.my.5",
+  ["Name"]= "东南亚_rosea.razorpin.my.5",
+  ["Price"]= "74.05",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_149"
+},
+[2150] = {
+  ["Desc"]= "RechargeDesc_sea_150",
+  ["goodPriceDes"]= "goodPriceDes_sea_150",
+  ["goodsId"]= 150,
+  ["Id"]= 2150,
+  ["Key"]= "rosea.razorpin.my.6",
+  ["Name"]= "东南亚_rosea.razorpin.my.6",
+  ["Price"]= "123.41",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_150"
+},
+[2151] = {
+  ["Desc"]= "RechargeDesc_sea_151",
+  ["goodPriceDes"]= "goodPriceDes_sea_151",
+  ["goodsId"]= 151,
+  ["Id"]= 2151,
+  ["Key"]= "rosea.razorpin.my.7",
+  ["Name"]= "东南亚_rosea.razorpin.my.7",
+  ["Price"]= "246.83",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_151"
+},
+[2152] = {
+  ["Desc"]= "RechargeDesc_sea_152",
+  ["goodPriceDes"]= "goodPriceDes_sea_152",
+  ["goodsId"]= 152,
+  ["Id"]= 2152,
+  ["Key"]= "rosea.razorpin.my.8",
+  ["Name"]= "东南亚_rosea.razorpin.my.8",
+  ["Price"]= "493.65",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_152"
+},
+[2153] = {
+  ["Desc"]= "RechargeDesc_sea_153",
+  ["goodPriceDes"]= "goodPriceDes_sea_153",
+  ["goodsId"]= 153,
+  ["Id"]= 2153,
+  ["Key"]= "rosea.razorpin.my.9",
+  ["Name"]= "东南亚_rosea.razorpin.my.9",
+  ["Price"]= "740.48",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_153"
+},
+[2154] = {
+  ["Desc"]= "RechargeDesc_sea_154",
+  ["goodPriceDes"]= "goodPriceDes_sea_154",
+  ["goodsId"]= 154,
+  ["Id"]= 2154,
+  ["Key"]= "rosea.razorpin.th.1",
+  ["Name"]= "东南亚_rosea.razorpin.th.1",
+  ["Price"]= "3.3",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_154"
+},
+[2155] = {
+  ["Desc"]= "RechargeDesc_sea_155",
+  ["goodPriceDes"]= "goodPriceDes_sea_155",
+  ["goodsId"]= 155,
+  ["Id"]= 2155,
+  ["Key"]= "rosea.razorpin.th.2",
+  ["Name"]= "东南亚_rosea.razorpin.th.2",
+  ["Price"]= "9.9",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_155"
+},
+[2156] = {
+  ["Desc"]= "RechargeDesc_sea_156",
+  ["goodPriceDes"]= "goodPriceDes_sea_156",
+  ["goodsId"]= 156,
+  ["Id"]= 2156,
+  ["Key"]= "rosea.razorpin.th.3",
+  ["Name"]= "东南亚_rosea.razorpin.th.3",
+  ["Price"]= "16.51",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_156"
+},
+[2157] = {
+  ["Desc"]= "RechargeDesc_sea_157",
+  ["goodPriceDes"]= "goodPriceDes_sea_157",
+  ["goodsId"]= 157,
+  ["Id"]= 2157,
+  ["Key"]= "rosea.razorpin.th.4",
+  ["Name"]= "东南亚_rosea.razorpin.th.4",
+  ["Price"]= "33.01",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_157"
+},
+[2158] = {
+  ["Desc"]= "RechargeDesc_sea_158",
+  ["goodPriceDes"]= "goodPriceDes_sea_158",
+  ["goodsId"]= 158,
+  ["Id"]= 2158,
+  ["Key"]= "rosea.razorpin.th.5",
+  ["Name"]= "东南亚_rosea.razorpin.th.5",
+  ["Price"]= "115.55",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_158"
+},
+[2159] = {
+  ["Desc"]= "RechargeDesc_sea_159",
+  ["goodPriceDes"]= "goodPriceDes_sea_159",
+  ["goodsId"]= 159,
+  ["Id"]= 2159,
+  ["Key"]= "rosea.razorpin.th.6",
+  ["Name"]= "东南亚_rosea.razorpin.th.6",
+  ["Price"]= "165.07",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_159"
+},
+[2160] = {
+  ["Desc"]= "RechargeDesc_sea_160",
+  ["goodPriceDes"]= "goodPriceDes_sea_160",
+  ["goodsId"]= 160,
+  ["Id"]= 2160,
+  ["Key"]= "rosea.razorgold.th.1",
+  ["Name"]= "东南亚_rosea.razorgold.th.1",
+  ["Price"]= "4.95",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_160"
+},
+[2161] = {
+  ["Desc"]= "RechargeDesc_sea_161",
+  ["goodPriceDes"]= "goodPriceDes_sea_161",
+  ["goodsId"]= 161,
+  ["Id"]= 2161,
+  ["Key"]= "rosea.razorgold.th.2",
+  ["Name"]= "东南亚_rosea.razorgold.th.2",
+  ["Price"]= "9.9",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_161"
+},
+[2162] = {
+  ["Desc"]= "RechargeDesc_sea_162",
+  ["goodPriceDes"]= "goodPriceDes_sea_162",
+  ["goodsId"]= 162,
+  ["Id"]= 2162,
+  ["Key"]= "rosea.razorgold.th.3",
+  ["Name"]= "东南亚_rosea.razorgold.th.3",
+  ["Price"]= "16.51",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_162"
+},
+[2163] = {
+  ["Desc"]= "RechargeDesc_sea_163",
+  ["goodPriceDes"]= "goodPriceDes_sea_163",
+  ["goodsId"]= 163,
+  ["Id"]= 2163,
+  ["Key"]= "rosea.razorgold.th.4",
+  ["Name"]= "东南亚_rosea.razorgold.th.4",
+  ["Price"]= "33.01",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_163"
+},
+[2164] = {
+  ["Desc"]= "RechargeDesc_sea_164",
+  ["goodPriceDes"]= "goodPriceDes_sea_164",
+  ["goodsId"]= 164,
+  ["Id"]= 2164,
+  ["Key"]= "rosea.razorgold.th.5",
+  ["Name"]= "东南亚_rosea.razorgold.th.5",
+  ["Price"]= "99.04",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_164"
+},
+[2165] = {
+  ["Desc"]= "RechargeDesc_sea_165",
+  ["goodPriceDes"]= "goodPriceDes_sea_165",
+  ["goodsId"]= 165,
+  ["Id"]= 2165,
+  ["Key"]= "rosea.razorgold.th.6",
+  ["Name"]= "东南亚_rosea.razorgold.th.6",
+  ["Price"]= "194.78",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_165"
+},
+[2166] = {
+  ["Desc"]= "RechargeDesc_sea_166",
+  ["goodPriceDes"]= "goodPriceDes_sea_166",
+  ["goodsId"]= 166,
+  ["Id"]= 2166,
+  ["Key"]= "rosea.razorgold.th.7",
+  ["Name"]= "东南亚_rosea.razorgold.th.7",
+  ["Price"]= "392.87",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_166"
+},
+[2167] = {
+  ["Desc"]= "RechargeDesc_sea_167",
+  ["goodPriceDes"]= "goodPriceDes_sea_167",
+  ["goodsId"]= 167,
+  ["Id"]= 2167,
+  ["Key"]= "rosea.razorgold.th.8",
+  ["Name"]= "东南亚_rosea.razorgold.th.8",
+  ["Price"]= "1053.15",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_167"
+},
+[2168] = {
+  ["Desc"]= "RechargeDesc_sea_168",
+  ["goodPriceDes"]= "goodPriceDes_sea_168",
+  ["goodsId"]= 168,
+  ["Id"]= 2168,
+  ["Key"]= "rosea.razorgold.th.9",
+  ["Name"]= "东南亚_rosea.razorgold.th.9",
+  ["Price"]= "1617.69",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_168"
+},
+[2169] = {
+  ["Desc"]= "RechargeDesc_sea_169",
+  ["goodPriceDes"]= "goodPriceDes_sea_169",
+  ["goodsId"]= 169,
+  ["Id"]= 2169,
+  ["Key"]= "rosea.razorgold.th.10",
+  ["Name"]= "东南亚_rosea.razorgold.th.10",
+  ["Price"]= "3301.41",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_169"
+},
+[2170] = {
+  ["Desc"]= "RechargeDesc_sea_170",
+  ["goodPriceDes"]= "goodPriceDes_sea_170",
+  ["goodsId"]= 170,
+  ["Id"]= 2170,
+  ["Key"]= "rosea.razorgold.id.1",
+  ["Name"]= "东南亚_rosea.razorgold.id.1",
+  ["Price"]= "4.68",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_170"
+},
+[2171] = {
+  ["Desc"]= "RechargeDesc_sea_171",
+  ["goodPriceDes"]= "goodPriceDes_sea_171",
+  ["goodsId"]= 171,
+  ["Id"]= 2171,
+  ["Key"]= "rosea.razorgold.id.2",
+  ["Name"]= "东南亚_rosea.razorgold.id.2",
+  ["Price"]= "9.98",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_171"
+},
+[2172] = {
+  ["Desc"]= "RechargeDesc_sea_172",
+  ["goodPriceDes"]= "goodPriceDes_sea_172",
+  ["goodsId"]= 172,
+  ["Id"]= 2172,
+  ["Key"]= "rosea.razorgold.id.3",
+  ["Name"]= "东南亚_rosea.razorgold.id.3",
+  ["Price"]= "20.59",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_172"
+},
+[2173] = {
+  ["Desc"]= "RechargeDesc_sea_173",
+  ["goodPriceDes"]= "goodPriceDes_sea_173",
+  ["goodsId"]= 173,
+  ["Id"]= 2173,
+  ["Key"]= "rosea.razorgold.id.4",
+  ["Name"]= "东南亚_rosea.razorgold.id.4",
+  ["Price"]= "29.95",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_173"
+},
+[2174] = {
+  ["Desc"]= "RechargeDesc_sea_174",
+  ["goodPriceDes"]= "goodPriceDes_sea_174",
+  ["goodsId"]= 174,
+  ["Id"]= 2174,
+  ["Key"]= "rosea.razorgold.id.5",
+  ["Name"]= "东南亚_rosea.razorgold.id.5",
+  ["Price"]= "49.92",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_174"
+},
+[2175] = {
+  ["Desc"]= "RechargeDesc_sea_175",
+  ["goodPriceDes"]= "goodPriceDes_sea_175",
+  ["goodsId"]= 175,
+  ["Id"]= 2175,
+  ["Key"]= "rosea.razorgold.id.6",
+  ["Name"]= "东南亚_rosea.razorgold.id.6",
+  ["Price"]= "99.84",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_175"
+},
+[2176] = {
+  ["Desc"]= "RechargeDesc_sea_176",
+  ["goodPriceDes"]= "goodPriceDes_sea_176",
+  ["goodsId"]= 176,
+  ["Id"]= 2176,
+  ["Key"]= "rosea.razorgold.id.7",
+  ["Name"]= "东南亚_rosea.razorgold.id.7",
+  ["Price"]= 312,
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_176"
+},
+[2177] = {
+  ["Desc"]= "RechargeDesc_sea_177",
+  ["goodPriceDes"]= "goodPriceDes_sea_177",
+  ["goodsId"]= 177,
+  ["Id"]= 2177,
+  ["Key"]= "rosea.razorgold.id.8",
+  ["Name"]= "东南亚_rosea.razorgold.id.8",
+  ["Price"]= "468.01",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_177"
+},
+[2178] = {
+  ["Desc"]= "RechargeDesc_sea_178",
+  ["goodPriceDes"]= "goodPriceDes_sea_178",
+  ["goodsId"]= 178,
+  ["Id"]= 2178,
+  ["Key"]= "rosea.razorgold.id.9",
+  ["Name"]= "东南亚_rosea.razorgold.id.9",
+  ["Price"]= "624.01",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_178"
+},
+[2179] = {
+  ["Desc"]= "RechargeDesc_sea_179",
+  ["goodPriceDes"]= "goodPriceDes_sea_179",
+  ["goodsId"]= 179,
+  ["Id"]= 2179,
+  ["Key"]= "rosea.razorgold.sg.1",
+  ["Name"]= "东南亚_rosea.razorgold.sg.1",
+  ["Price"]= "6.88",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_179"
+},
+[2180] = {
+  ["Desc"]= "RechargeDesc_sea_180",
+  ["goodPriceDes"]= "goodPriceDes_sea_180",
+  ["goodsId"]= 180,
+  ["Id"]= 2180,
+  ["Key"]= "rosea.razorgold.sg.2",
+  ["Name"]= "东南亚_rosea.razorgold.sg.2",
+  ["Price"]= "13.77",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_180"
+},
+[2181] = {
+  ["Desc"]= "RechargeDesc_sea_181",
+  ["goodPriceDes"]= "goodPriceDes_sea_181",
+  ["goodsId"]= 181,
+  ["Id"]= 2181,
+  ["Key"]= "rosea.razorgold.sg.3",
+  ["Name"]= "东南亚_rosea.razorgold.sg.3",
+  ["Price"]= "20.65",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_181"
+},
+[2182] = {
+  ["Desc"]= "RechargeDesc_sea_182",
+  ["goodPriceDes"]= "goodPriceDes_sea_182",
+  ["goodsId"]= 182,
+  ["Id"]= 2182,
+  ["Key"]= "rosea.razorgold.sg.4",
+  ["Name"]= "东南亚_rosea.razorgold.sg.4",
+  ["Price"]= "34.41",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_182"
+},
+[2183] = {
+  ["Desc"]= "RechargeDesc_sea_183",
+  ["goodPriceDes"]= "goodPriceDes_sea_183",
+  ["goodsId"]= 183,
+  ["Id"]= 2183,
+  ["Key"]= "rosea.razorgold.sg.5",
+  ["Name"]= "东南亚_rosea.razorgold.sg.5",
+  ["Price"]= "55.06",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_183"
+},
+[2184] = {
+  ["Desc"]= "RechargeDesc_sea_184",
+  ["goodPriceDes"]= "goodPriceDes_sea_184",
+  ["goodsId"]= 184,
+  ["Id"]= 2184,
+  ["Key"]= "rosea.razorgold.sg.6",
+  ["Name"]= "东南亚_rosea.razorgold.sg.6",
+  ["Price"]= "103.24",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_184"
+},
+[2185] = {
+  ["Desc"]= "RechargeDesc_sea_185",
+  ["goodPriceDes"]= "goodPriceDes_sea_185",
+  ["goodsId"]= 185,
+  ["Id"]= 2185,
+  ["Key"]= "rosea.razorgold.sg.7",
+  ["Name"]= "东南亚_rosea.razorgold.sg.7",
+  ["Price"]= "137.65",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_185"
+},
+[2186] = {
+  ["Desc"]= "RechargeDesc_sea_186",
+  ["goodPriceDes"]= "goodPriceDes_sea_186",
+  ["goodsId"]= 186,
+  ["Id"]= 2186,
+  ["Key"]= "rosea.razorgold.sg.8",
+  ["Name"]= "东南亚_rosea.razorgold.sg.8",
+  ["Price"]= "206.48",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_186"
+},
+[2187] = {
+  ["Desc"]= "RechargeDesc_sea_187",
+  ["goodPriceDes"]= "goodPriceDes_sea_187",
+  ["goodsId"]= 187,
+  ["Id"]= 2187,
+  ["Key"]= "rosea.razorgold.sg.9",
+  ["Name"]= "东南亚_rosea.razorgold.sg.9",
+  ["Price"]= "344.13",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_187"
+},
+[2188] = {
+  ["Desc"]= "RechargeDesc_sea_188",
+  ["goodPriceDes"]= "goodPriceDes_sea_188",
+  ["goodsId"]= 188,
+  ["Id"]= 2188,
+  ["Key"]= "rosea.razorgold.sg.10",
+  ["Name"]= "东南亚_rosea.razorgold.sg.10",
+  ["Price"]= "688.26",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_188"
+},
+[2189] = {
+  ["Desc"]= "RechargeDesc_sea_189",
+  ["goodPriceDes"]= "goodPriceDes_sea_189",
+  ["goodsId"]= 189,
+  ["Id"]= 2189,
+  ["Key"]= "rosea.razorgold.sg.11",
+  ["Name"]= "东南亚_rosea.razorgold.sg.11",
+  ["Price"]= "2064.77",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_189"
+},
+[2190] = {
+  ["Desc"]= "RechargeDesc_sea_190",
+  ["goodPriceDes"]= "goodPriceDes_sea_190",
+  ["goodsId"]= 190,
+  ["Id"]= 2190,
+  ["Key"]= "rosea.razorgold.my.1",
+  ["Name"]= "东南亚_rosea.razorgold.my.1",
+  ["Price"]= "4.94",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_190"
+},
+[2191] = {
+  ["Desc"]= "RechargeDesc_sea_191",
+  ["goodPriceDes"]= "goodPriceDes_sea_191",
+  ["goodsId"]= 191,
+  ["Id"]= 2191,
+  ["Key"]= "rosea.razorgold.my.2",
+  ["Name"]= "东南亚_rosea.razorgold.my.2",
+  ["Price"]= "9.87",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_191"
+},
+[2192] = {
+  ["Desc"]= "RechargeDesc_sea_192",
+  ["goodPriceDes"]= "goodPriceDes_sea_192",
+  ["goodsId"]= 192,
+  ["Id"]= 2192,
+  ["Key"]= "rosea.razorgold.my.3",
+  ["Name"]= "东南亚_rosea.razorgold.my.3",
+  ["Price"]= "24.68",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_192"
+},
+[2193] = {
+  ["Desc"]= "RechargeDesc_sea_193",
+  ["goodPriceDes"]= "goodPriceDes_sea_193",
+  ["goodsId"]= 193,
+  ["Id"]= 2193,
+  ["Key"]= "rosea.razorgold.my.4",
+  ["Name"]= "东南亚_rosea.razorgold.my.4",
+  ["Price"]= "49.37",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_193"
+},
+[2194] = {
+  ["Desc"]= "RechargeDesc_sea_194",
+  ["goodPriceDes"]= "goodPriceDes_sea_194",
+  ["goodsId"]= 194,
+  ["Id"]= 2194,
+  ["Key"]= "rosea.razorgold.my.5",
+  ["Name"]= "东南亚_rosea.razorgold.my.5",
+  ["Price"]= "74.05",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_194"
+},
+[2195] = {
+  ["Desc"]= "RechargeDesc_sea_195",
+  ["goodPriceDes"]= "goodPriceDes_sea_195",
+  ["goodsId"]= 195,
+  ["Id"]= 2195,
+  ["Key"]= "rosea.razorgold.my.6",
+  ["Name"]= "东南亚_rosea.razorgold.my.6",
+  ["Price"]= "123.41",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_195"
+},
+[2196] = {
+  ["Desc"]= "RechargeDesc_sea_196",
+  ["goodPriceDes"]= "goodPriceDes_sea_196",
+  ["goodsId"]= 196,
+  ["Id"]= 2196,
+  ["Key"]= "rosea.razorgold.my.7",
+  ["Name"]= "东南亚_rosea.razorgold.my.7",
+  ["Price"]= "246.83",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_196"
+},
+[2197] = {
+  ["Desc"]= "RechargeDesc_sea_197",
+  ["goodPriceDes"]= "goodPriceDes_sea_197",
+  ["goodsId"]= 197,
+  ["Id"]= 2197,
+  ["Key"]= "rosea.razorgold.my.8",
+  ["Name"]= "东南亚_rosea.razorgold.my.8",
+  ["Price"]= "493.65",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_197"
+},
+[2198] = {
+  ["Desc"]= "RechargeDesc_sea_198",
+  ["goodPriceDes"]= "goodPriceDes_sea_198",
+  ["goodsId"]= 198,
+  ["Id"]= 2198,
+  ["Key"]= "rosea.razorgold.my.9",
+  ["Name"]= "东南亚_rosea.razorgold.my.9",
+  ["Price"]= "740.48",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_198"
+},
+[2199] = {
+  ["Desc"]= "RechargeDesc_sea_199",
+  ["goodPriceDes"]= "goodPriceDes_sea_199",
+  ["goodsId"]= 199,
+  ["Id"]= 2199,
+  ["Key"]= "rosea.razorgold.my.10",
+  ["Name"]= "东南亚_rosea.razorgold.my.10",
+  ["Price"]= "1234.13",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_199"
+},
+[2200] = {
+  ["Desc"]= "RechargeDesc_sea_200",
+  ["goodPriceDes"]= "goodPriceDes_sea_200",
+  ["goodsId"]= 200,
+  ["Id"]= 2200,
+  ["Key"]= "rosea.razorgold.ph.1",
+  ["Name"]= "东南亚_rosea.razorgold.ph.1",
+  ["Price"]= "5.01",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_200"
+},
+[2201] = {
+  ["Desc"]= "RechargeDesc_sea_201",
+  ["goodPriceDes"]= "goodPriceDes_sea_201",
+  ["goodsId"]= 201,
+  ["Id"]= 2201,
+  ["Key"]= "rosea.razorgold.ph.2",
+  ["Name"]= "东南亚_rosea.razorgold.ph.2",
+  ["Price"]= "10.03",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_201"
+},
+[2202] = {
+  ["Desc"]= "RechargeDesc_sea_202",
+  ["goodPriceDes"]= "goodPriceDes_sea_202",
+  ["goodsId"]= 202,
+  ["Id"]= 2202,
+  ["Key"]= "rosea.razorgold.ph.3",
+  ["Name"]= "东南亚_rosea.razorgold.ph.3",
+  ["Price"]= "20.05",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_202"
+},
+[2203] = {
+  ["Desc"]= "RechargeDesc_sea_203",
+  ["goodPriceDes"]= "goodPriceDes_sea_203",
+  ["goodsId"]= 203,
+  ["Id"]= 2203,
+  ["Key"]= "rosea.razorgold.ph.4",
+  ["Name"]= "东南亚_rosea.razorgold.ph.4",
+  ["Price"]= "40.1",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_203"
+},
+[2204] = {
+  ["Desc"]= "RechargeDesc_sea_204",
+  ["goodPriceDes"]= "goodPriceDes_sea_204",
+  ["goodsId"]= 204,
+  ["Id"]= 2204,
+  ["Key"]= "rosea.razorgold.ph.5",
+  ["Name"]= "东南亚_rosea.razorgold.ph.5",
+  ["Price"]= "100.26",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_204"
+},
+[2205] = {
+  ["Desc"]= "RechargeDesc_sea_205",
+  ["goodPriceDes"]= "goodPriceDes_sea_205",
+  ["goodsId"]= 205,
+  ["Id"]= 2205,
+  ["Key"]= "rosea.razorgold.ph.6",
+  ["Name"]= "东南亚_rosea.razorgold.ph.6",
+  ["Price"]= "200.52",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_205"
+},
+[2206] = {
+  ["Desc"]= "RechargeDesc_sea_206",
+  ["goodPriceDes"]= "goodPriceDes_sea_206",
+  ["goodsId"]= 206,
+  ["Id"]= 2206,
+  ["Key"]= "rosea.razorgold.ph.7",
+  ["Name"]= "东南亚_rosea.razorgold.ph.7",
+  ["Price"]= "401.04",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_206"
+},
+[2207] = {
+  ["Desc"]= "RechargeDesc_sea_207",
+  ["goodPriceDes"]= "goodPriceDes_sea_207",
+  ["goodsId"]= 207,
+  ["Id"]= 2207,
+  ["Key"]= "rosea.razorgold.ph.8",
+  ["Name"]= "东南亚_rosea.razorgold.ph.8",
+  ["Price"]= "1002.6",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_207"
+},
+[2208] = {
+  ["Desc"]= "RechargeDesc_sea_208",
+  ["goodPriceDes"]= "goodPriceDes_sea_208",
+  ["goodsId"]= 208,
+  ["Id"]= 2208,
+  ["Key"]= "rosea.ccdc.th.1",
+  ["Name"]= "东南亚_rosea.ccdc.th.1",
+  ["Price"]= "4.95",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_208"
+},
+[2209] = {
+  ["Desc"]= "RechargeDesc_sea_209",
+  ["goodPriceDes"]= "goodPriceDes_sea_209",
+  ["goodsId"]= 209,
+  ["Id"]= 2209,
+  ["Key"]= "rosea.ccdc.th.2",
+  ["Name"]= "东南亚_rosea.ccdc.th.2",
+  ["Price"]= "9.9",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_209"
+},
+[2210] = {
+  ["Desc"]= "RechargeDesc_sea_210",
+  ["goodPriceDes"]= "goodPriceDes_sea_210",
+  ["goodsId"]= 210,
+  ["Id"]= 2210,
+  ["Key"]= "rosea.ccdc.th.3",
+  ["Name"]= "东南亚_rosea.ccdc.th.3",
+  ["Price"]= "16.51",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_210"
+},
+[2211] = {
+  ["Desc"]= "RechargeDesc_sea_211",
+  ["goodPriceDes"]= "goodPriceDes_sea_211",
+  ["goodsId"]= 211,
+  ["Id"]= 2211,
+  ["Key"]= "rosea.ccdc.th.4",
+  ["Name"]= "东南亚_rosea.ccdc.th.4",
+  ["Price"]= "33.01",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_211"
+},
+[2212] = {
+  ["Desc"]= "RechargeDesc_sea_212",
+  ["goodPriceDes"]= "goodPriceDes_sea_212",
+  ["goodsId"]= 212,
+  ["Id"]= 2212,
+  ["Key"]= "rosea.ccdc.th.5",
+  ["Name"]= "东南亚_rosea.ccdc.th.5",
+  ["Price"]= "99.04",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_212"
+},
+[2213] = {
+  ["Desc"]= "RechargeDesc_sea_213",
+  ["goodPriceDes"]= "goodPriceDes_sea_213",
+  ["goodsId"]= 213,
+  ["Id"]= 2213,
+  ["Key"]= "rosea.ccdc.th.6",
+  ["Name"]= "东南亚_rosea.ccdc.th.6",
+  ["Price"]= "194.78",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_213"
+},
+[2214] = {
+  ["Desc"]= "RechargeDesc_sea_214",
+  ["goodPriceDes"]= "goodPriceDes_sea_214",
+  ["goodsId"]= 214,
+  ["Id"]= 2214,
+  ["Key"]= "rosea.ccdc.th.7",
+  ["Name"]= "东南亚_rosea.ccdc.th.7",
+  ["Price"]= "392.87",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_214"
+},
+[2215] = {
+  ["Desc"]= "RechargeDesc_sea_215",
+  ["goodPriceDes"]= "goodPriceDes_sea_215",
+  ["goodsId"]= 215,
+  ["Id"]= 2215,
+  ["Key"]= "rosea.ccdc.th.8",
+  ["Name"]= "东南亚_rosea.ccdc.th.8",
+  ["Price"]= "1053.15",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_215"
+},
+[2216] = {
+  ["Desc"]= "RechargeDesc_sea_216",
+  ["goodPriceDes"]= "goodPriceDes_sea_216",
+  ["goodsId"]= 216,
+  ["Id"]= 2216,
+  ["Key"]= "rosea.ccdc.th.9",
+  ["Name"]= "东南亚_rosea.ccdc.th.9",
+  ["Price"]= "1617.69",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_216"
+},
+[2217] = {
+  ["Desc"]= "RechargeDesc_sea_217",
+  ["goodPriceDes"]= "goodPriceDes_sea_217",
+  ["goodsId"]= 217,
+  ["Id"]= 2217,
+  ["Key"]= "rosea.ccdc.th.10",
+  ["Name"]= "东南亚_rosea.ccdc.th.10",
+  ["Price"]= "3301.41",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_217"
+},
+[2218] = {
+  ["Desc"]= "RechargeDesc_sea_218",
+  ["goodPriceDes"]= "goodPriceDes_sea_218",
+  ["goodsId"]= 218,
+  ["Id"]= 2218,
+  ["Key"]= "rosea.ccdc.id.1",
+  ["Name"]= "东南亚_rosea.ccdc.id.1",
+  ["Price"]= "4.68",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_218"
+},
+[2219] = {
+  ["Desc"]= "RechargeDesc_sea_219",
+  ["goodPriceDes"]= "goodPriceDes_sea_219",
+  ["goodsId"]= 219,
+  ["Id"]= 2219,
+  ["Key"]= "rosea.ccdc.id.2",
+  ["Name"]= "东南亚_rosea.ccdc.id.2",
+  ["Price"]= "9.98",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_219"
+},
+[2220] = {
+  ["Desc"]= "RechargeDesc_sea_220",
+  ["goodPriceDes"]= "goodPriceDes_sea_220",
+  ["goodsId"]= 220,
+  ["Id"]= 2220,
+  ["Key"]= "rosea.ccdc.id.3",
+  ["Name"]= "东南亚_rosea.ccdc.id.3",
+  ["Price"]= "20.59",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_220"
+},
+[2221] = {
+  ["Desc"]= "RechargeDesc_sea_221",
+  ["goodPriceDes"]= "goodPriceDes_sea_221",
+  ["goodsId"]= 221,
+  ["Id"]= 2221,
+  ["Key"]= "rosea.ccdc.id.4",
+  ["Name"]= "东南亚_rosea.ccdc.id.4",
+  ["Price"]= "29.95",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_221"
+},
+[2222] = {
+  ["Desc"]= "RechargeDesc_sea_222",
+  ["goodPriceDes"]= "goodPriceDes_sea_222",
+  ["goodsId"]= 222,
+  ["Id"]= 2222,
+  ["Key"]= "rosea.ccdc.id.5",
+  ["Name"]= "东南亚_rosea.ccdc.id.5",
+  ["Price"]= "49.92",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_222"
+},
+[2223] = {
+  ["Desc"]= "RechargeDesc_sea_223",
+  ["goodPriceDes"]= "goodPriceDes_sea_223",
+  ["goodsId"]= 223,
+  ["Id"]= 2223,
+  ["Key"]= "rosea.ccdc.id.6",
+  ["Name"]= "东南亚_rosea.ccdc.id.6",
+  ["Price"]= "99.84",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_223"
+},
+[2224] = {
+  ["Desc"]= "RechargeDesc_sea_224",
+  ["goodPriceDes"]= "goodPriceDes_sea_224",
+  ["goodsId"]= 224,
+  ["Id"]= 2224,
+  ["Key"]= "rosea.ccdc.id.7",
+  ["Name"]= "东南亚_rosea.ccdc.id.7",
+  ["Price"]= 312,
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_224"
+},
+[2225] = {
+  ["Desc"]= "RechargeDesc_sea_225",
+  ["goodPriceDes"]= "goodPriceDes_sea_225",
+  ["goodsId"]= 225,
+  ["Id"]= 2225,
+  ["Key"]= "rosea.ccdc.id.8",
+  ["Name"]= "东南亚_rosea.ccdc.id.8",
+  ["Price"]= "468.01",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_225"
+},
+[2226] = {
+  ["Desc"]= "RechargeDesc_sea_226",
+  ["goodPriceDes"]= "goodPriceDes_sea_226",
+  ["goodsId"]= 226,
+  ["Id"]= 2226,
+  ["Key"]= "rosea.ccdc.id.9",
+  ["Name"]= "东南亚_rosea.ccdc.id.9",
+  ["Price"]= "624.01",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_226"
+},
+[2227] = {
+  ["Desc"]= "RechargeDesc_sea_227",
+  ["goodPriceDes"]= "goodPriceDes_sea_227",
+  ["goodsId"]= 227,
+  ["Id"]= 2227,
+  ["Key"]= "rosea.ccdc.id.10",
+  ["Name"]= "东南亚_rosea.ccdc.id.10",
+  ["Price"]= "1872.02",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_227"
+},
+[2228] = {
+  ["Desc"]= "RechargeDesc_sea_228",
+  ["goodPriceDes"]= "goodPriceDes_sea_228",
+  ["goodsId"]= 228,
+  ["Id"]= 2228,
+  ["Key"]= "rosea.ccdc.my.1",
+  ["Name"]= "东南亚_rosea.ccdc.my.1",
+  ["Price"]= "4.94",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_228"
+},
+[2229] = {
+  ["Desc"]= "RechargeDesc_sea_229",
+  ["goodPriceDes"]= "goodPriceDes_sea_229",
+  ["goodsId"]= 229,
+  ["Id"]= 2229,
+  ["Key"]= "rosea.ccdc.my.2",
+  ["Name"]= "东南亚_rosea.ccdc.my.2",
+  ["Price"]= "9.87",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_229"
+},
+[2230] = {
+  ["Desc"]= "RechargeDesc_sea_230",
+  ["goodPriceDes"]= "goodPriceDes_sea_230",
+  ["goodsId"]= 230,
+  ["Id"]= 2230,
+  ["Key"]= "rosea.ccdc.my.3",
+  ["Name"]= "东南亚_rosea.ccdc.my.3",
+  ["Price"]= "24.68",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_230"
+},
+[2231] = {
+  ["Desc"]= "RechargeDesc_sea_231",
+  ["goodPriceDes"]= "goodPriceDes_sea_231",
+  ["goodsId"]= 231,
+  ["Id"]= 2231,
+  ["Key"]= "rosea.ccdc.my.4",
+  ["Name"]= "东南亚_rosea.ccdc.my.4",
+  ["Price"]= "49.37",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_231"
+},
+[2232] = {
+  ["Desc"]= "RechargeDesc_sea_232",
+  ["goodPriceDes"]= "goodPriceDes_sea_232",
+  ["goodsId"]= 232,
+  ["Id"]= 2232,
+  ["Key"]= "rosea.ccdc.my.5",
+  ["Name"]= "东南亚_rosea.ccdc.my.5",
+  ["Price"]= "74.05",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_232"
+},
+[2233] = {
+  ["Desc"]= "RechargeDesc_sea_233",
+  ["goodPriceDes"]= "goodPriceDes_sea_233",
+  ["goodsId"]= 233,
+  ["Id"]= 2233,
+  ["Key"]= "rosea.ccdc.my.6",
+  ["Name"]= "东南亚_rosea.ccdc.my.6",
+  ["Price"]= "123.41",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_233"
+},
+[2234] = {
+  ["Desc"]= "RechargeDesc_sea_234",
+  ["goodPriceDes"]= "goodPriceDes_sea_234",
+  ["goodsId"]= 234,
+  ["Id"]= 2234,
+  ["Key"]= "rosea.ccdc.my.7",
+  ["Name"]= "东南亚_rosea.ccdc.my.7",
+  ["Price"]= "246.83",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_234"
+},
+[2235] = {
+  ["Desc"]= "RechargeDesc_sea_235",
+  ["goodPriceDes"]= "goodPriceDes_sea_235",
+  ["goodsId"]= 235,
+  ["Id"]= 2235,
+  ["Key"]= "rosea.ccdc.my.8",
+  ["Name"]= "东南亚_rosea.ccdc.my.8",
+  ["Price"]= "493.65",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_235"
+},
+[2236] = {
+  ["Desc"]= "RechargeDesc_sea_236",
+  ["goodPriceDes"]= "goodPriceDes_sea_236",
+  ["goodsId"]= 236,
+  ["Id"]= 2236,
+  ["Key"]= "rosea.ccdc.my.9",
+  ["Name"]= "东南亚_rosea.ccdc.my.9",
+  ["Price"]= "740.48",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_236"
+},
+[2237] = {
+  ["Desc"]= "RechargeDesc_sea_237",
+  ["goodPriceDes"]= "goodPriceDes_sea_237",
+  ["goodsId"]= 237,
+  ["Id"]= 2237,
+  ["Key"]= "rosea.ccdc.my.10",
+  ["Name"]= "东南亚_rosea.ccdc.my.10",
+  ["Price"]= "1234.13",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_237"
+},
+[2238] = {
+  ["Desc"]= "RechargeDesc_sea_238",
+  ["goodPriceDes"]= "goodPriceDes_sea_238",
+  ["goodsId"]= 238,
+  ["Id"]= 2238,
+  ["Key"]= "rosea.ccdc.sg.1",
+  ["Name"]= "东南亚_rosea.ccdc.sg.1",
+  ["Price"]= "6.88",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_238"
+},
+[2239] = {
+  ["Desc"]= "RechargeDesc_sea_239",
+  ["goodPriceDes"]= "goodPriceDes_sea_239",
+  ["goodsId"]= 239,
+  ["Id"]= 2239,
+  ["Key"]= "rosea.ccdc.sg.2",
+  ["Name"]= "东南亚_rosea.ccdc.sg.2",
+  ["Price"]= "13.77",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_239"
+},
+[2240] = {
+  ["Desc"]= "RechargeDesc_sea_240",
+  ["goodPriceDes"]= "goodPriceDes_sea_240",
+  ["goodsId"]= 240,
+  ["Id"]= 2240,
+  ["Key"]= "rosea.ccdc.sg.3",
+  ["Name"]= "东南亚_rosea.ccdc.sg.3",
+  ["Price"]= "20.65",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_240"
+},
+[2241] = {
+  ["Desc"]= "RechargeDesc_sea_241",
+  ["goodPriceDes"]= "goodPriceDes_sea_241",
+  ["goodsId"]= 241,
+  ["Id"]= 2241,
+  ["Key"]= "rosea.ccdc.sg.4",
+  ["Name"]= "东南亚_rosea.ccdc.sg.4",
+  ["Price"]= "34.41",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_241"
+},
+[2242] = {
+  ["Desc"]= "RechargeDesc_sea_242",
+  ["goodPriceDes"]= "goodPriceDes_sea_242",
+  ["goodsId"]= 242,
+  ["Id"]= 2242,
+  ["Key"]= "rosea.ccdc.sg.5",
+  ["Name"]= "东南亚_rosea.ccdc.sg.5",
+  ["Price"]= "55.06",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_242"
+},
+[2243] = {
+  ["Desc"]= "RechargeDesc_sea_243",
+  ["goodPriceDes"]= "goodPriceDes_sea_243",
+  ["goodsId"]= 243,
+  ["Id"]= 2243,
+  ["Key"]= "rosea.ccdc.sg.6",
+  ["Name"]= "东南亚_rosea.ccdc.sg.6",
+  ["Price"]= "103.24",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_243"
+},
+[2244] = {
+  ["Desc"]= "RechargeDesc_sea_244",
+  ["goodPriceDes"]= "goodPriceDes_sea_244",
+  ["goodsId"]= 244,
+  ["Id"]= 2244,
+  ["Key"]= "rosea.ccdc.sg.7",
+  ["Name"]= "东南亚_rosea.ccdc.sg.7",
+  ["Price"]= "137.65",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_244"
+},
+[2245] = {
+  ["Desc"]= "RechargeDesc_sea_245",
+  ["goodPriceDes"]= "goodPriceDes_sea_245",
+  ["goodsId"]= 245,
+  ["Id"]= 2245,
+  ["Key"]= "rosea.ccdc.sg.8",
+  ["Name"]= "东南亚_rosea.ccdc.sg.8",
+  ["Price"]= "206.48",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_245"
+},
+[2246] = {
+  ["Desc"]= "RechargeDesc_sea_246",
+  ["goodPriceDes"]= "goodPriceDes_sea_246",
+  ["goodsId"]= 246,
+  ["Id"]= 2246,
+  ["Key"]= "rosea.ccdc.sg.9",
+  ["Name"]= "东南亚_rosea.ccdc.sg.9",
+  ["Price"]= "344.13",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_246"
+},
+[2247] = {
+  ["Desc"]= "RechargeDesc_sea_247",
+  ["goodPriceDes"]= "goodPriceDes_sea_247",
+  ["goodsId"]= 247,
+  ["Id"]= 2247,
+  ["Key"]= "rosea.ccdc.sg.10",
+  ["Name"]= "东南亚_rosea.ccdc.sg.10",
+  ["Price"]= "688.26",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_247"
+},
+[2248] = {
+  ["Desc"]= "RechargeDesc_sea_248",
+  ["goodPriceDes"]= "goodPriceDes_sea_248",
+  ["goodsId"]= 248,
+  ["Id"]= 2248,
+  ["Key"]= "rosea.ccdc.sg.11",
+  ["Name"]= "东南亚_rosea.ccdc.sg.11",
+  ["Price"]= "2064.77",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_248"
+},
+[2249] = {
+  ["Desc"]= "RechargeDesc_sea_249",
+  ["goodPriceDes"]= "goodPriceDes_sea_249",
+  ["goodsId"]= 249,
+  ["Id"]= 2249,
+  ["Key"]= "rosea.ccdc.ph.1",
+  ["Name"]= "东南亚_rosea.ccdc.ph.1",
+  ["Price"]= "5.01",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_249"
+},
+[2250] = {
+  ["Desc"]= "RechargeDesc_sea_250",
+  ["goodPriceDes"]= "goodPriceDes_sea_250",
+  ["goodsId"]= 250,
+  ["Id"]= 2250,
+  ["Key"]= "rosea.ccdc.ph.2",
+  ["Name"]= "东南亚_rosea.ccdc.ph.2",
+  ["Price"]= "10.03",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_250"
+},
+[2251] = {
+  ["Desc"]= "RechargeDesc_sea_251",
+  ["goodPriceDes"]= "goodPriceDes_sea_251",
+  ["goodsId"]= 251,
+  ["Id"]= 2251,
+  ["Key"]= "rosea.ccdc.ph.3",
+  ["Name"]= "东南亚_rosea.ccdc.ph.3",
+  ["Price"]= "20.05",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_251"
+},
+[2252] = {
+  ["Desc"]= "RechargeDesc_sea_252",
+  ["goodPriceDes"]= "goodPriceDes_sea_252",
+  ["goodsId"]= 252,
+  ["Id"]= 2252,
+  ["Key"]= "rosea.ccdc.ph.4",
+  ["Name"]= "东南亚_rosea.ccdc.ph.4",
+  ["Price"]= "40.1",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_252"
+},
+[2253] = {
+  ["Desc"]= "RechargeDesc_sea_253",
+  ["goodPriceDes"]= "goodPriceDes_sea_253",
+  ["goodsId"]= 253,
+  ["Id"]= 2253,
+  ["Key"]= "rosea.ccdc.ph.5",
+  ["Name"]= "东南亚_rosea.ccdc.ph.5",
+  ["Price"]= "100.26",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_253"
+},
+[2254] = {
+  ["Desc"]= "RechargeDesc_sea_254",
+  ["goodPriceDes"]= "goodPriceDes_sea_254",
+  ["goodsId"]= 254,
+  ["Id"]= 2254,
+  ["Key"]= "rosea.ccdc.ph.6",
+  ["Name"]= "东南亚_rosea.ccdc.ph.6",
+  ["Price"]= "200.52",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_254"
+},
+[2255] = {
+  ["Desc"]= "RechargeDesc_sea_255",
+  ["goodPriceDes"]= "goodPriceDes_sea_255",
+  ["goodsId"]= 255,
+  ["Id"]= 2255,
+  ["Key"]= "rosea.ccdc.ph.7",
+  ["Name"]= "东南亚_rosea.ccdc.ph.7",
+  ["Price"]= "401.04",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_255"
+},
+[2256] = {
+  ["Desc"]= "RechargeDesc_sea_256",
+  ["goodPriceDes"]= "goodPriceDes_sea_256",
+  ["goodsId"]= 256,
+  ["Id"]= 2256,
+  ["Key"]= "rosea.ccdc.ph.8",
+  ["Name"]= "东南亚_rosea.ccdc.ph.8",
+  ["Price"]= "1002.6",
+  ["RechargeBonusDesc"]= "RechargeBonus_sea_256"
+}
+}
+local baseTable={
+  ["channelId"]= {
+    10
+  },
+  ["dailyLimit"]= 0,
+  ["Desc"]= "RechargeDesc_29",
+  ["DisplayUpperLimit"]= 0,
+  ["failureMailTemplate"]= 0,
+  ["goodPriceDes"]= "goodPriceDes_29",
+  ["goodsId"]= 1,
+  ["Id"]= 1,
+  ["Key"]= "rogt.giftpack.1",
+  ["limit"]= 0,
+  ["MailTemplate"]= 2001,
+  ["Name"]= "字节台湾-限定迎新纪念币礼包",
+  ["Price"]= "9.99",
+  ["Recharge"]= {
+    ["DropId"]= 0,
+    ["GroupId"]= 0,
+    ["GroupMailId"]= 0,
+    ["mycardMail"]= 2014,
+    ["type"]= 7
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_2",
+  ["returnDropId"]= 0
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

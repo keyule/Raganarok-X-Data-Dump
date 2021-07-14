@@ -1,0 +1,79 @@
+TextAsset Base
+	string m_Name = "data_guild_guildActivity"
+	string m_Script = "local table= {
+[1] = {
+  ["ViewName"]= 1
+},
+[2] = {
+  ["Des"]= "Guild_ActivityDes_8",
+  ["IconId"]= "GuildCeremony",
+  ["Id"]= 2,
+  ["Name"]= "Guild_ActivityName_8",
+  ["NameIcon"]= "Img_Guild_GHTXZ",
+  ["ViewName"]= 7
+},
+[3] = {
+  ["Des"]= "Guild_ActivityDes_4",
+  ["IconId"]= "GVE",
+  ["Id"]= 3,
+  ["Name"]= "Guild_ActivityName_4",
+  ["NameIcon"]= "Img_Guild_GVE",
+  ["UnlockCondition"]= 2013,
+  ["ViewName"]= 3
+},
+[4] = {
+  ["Des"]= "Guild_ActivityDes_5",
+  ["IconId"]= "KVMGuild",
+  ["Id"]= 4,
+  ["Name"]= "Guild_ActivityName_5",
+  ["NameIcon"]= "Img_Guild_kvm",
+  ["ViewName"]= 4
+},
+[5] = {
+  ["Des"]= "Guild_ActivityDes_6",
+  ["IconId"]= "GuildWarehouse",
+  ["Id"]= 5,
+  ["Name"]= "Guild_ActivityName_6",
+  ["NameIcon"]= "Img_Guild_cangku",
+  ["ViewName"]= 5
+},
+[6] = {
+  ["Des"]= "Guild_ActivityDes_2",
+  ["IconId"]= "GuildPray",
+  ["Id"]= 6,
+  ["Name"]= "Guild_ActivityName_2",
+  ["NameIcon"]= "Img_Guild_pray",
+  ["ViewName"]= 2
+},
+[7] = {
+  ["Des"]= "Guild_ActivityDes_3",
+  ["IconId"]= "GuildShop",
+  ["Id"]= 7,
+  ["Name"]= "Guild_ActivityName_3",
+  ["NameIcon"]= "Img_Guild_shop",
+  ["NpcId"]= 60001004,
+  ["OpenType"]= 2,
+  ["SceneId"]= 6000
+},
+[8] = {
+  ["Des"]= "Guild_ActivityDes_9",
+  ["IconId"]= "GuildGVG",
+  ["Id"]= 8,
+  ["Name"]= "Guild_ActivityName_9",
+  ["NameIcon"]= "Img_Guild_gvg",
+  ["ViewName"]= 8
+}
+}
+local baseTable={
+  ["Des"]= "Guild_ActivityDes_1",
+  ["IconId"]= "GuildOrder",
+  ["Id"]= 1,
+  ["Name"]= "Guild_ActivityName_1",
+  ["NameIcon"]= "Img_Guild_order",
+  ["OpenType"]= 1,
+  ["UnlockCondition"]= 0
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

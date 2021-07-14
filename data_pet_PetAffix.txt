@@ -1,0 +1,47 @@
+TextAsset Base
+	string m_Name = "data_pet_PetAffix"
+	string m_Script = "return {
+[1] = {
+  ["BuffId"]= 0,
+  ["Desc"]= "PetPetAffixDesc1",
+  ["ID"]= 1,
+  ["Name"]= "PetPetAffixName1",
+  ["PropColor"]= "22f41d"
+},
+[2] = {
+  ["BuffId"]= 0,
+  ["Desc"]= "PetPetAffixDesc2",
+  ["ID"]= 2,
+  ["Name"]= "PetPetAffixName2",
+  ["PropColor"]= "f41dd3"
+},
+[3] = {
+  ["BuffId"]= 0,
+  ["Desc"]= "PetPetAffixDesc3",
+  ["ID"]= 3,
+  ["Name"]= "PetPetAffixName3",
+  ["PropColor"]= "1d2cf4"
+},
+[4] = {
+  ["BuffId"]= 0,
+  ["Desc"]= "PetPetAffixDesc4",
+  ["ID"]= 4,
+  ["Name"]= "PetPetAffixName4",
+  ["PropColor"]= "48c3d5"
+},
+[5] = {
+  ["BuffId"]= 0,
+  ["Desc"]= "PetPetAffixDesc5",
+  ["ID"]= 5,
+  ["Name"]= "PetPetAffixName5",
+  ["PropColor"]= "5bfa30"
+},
+[6] = {
+  ["BuffId"]= 0,
+  ["Desc"]= "PetPetAffixDesc6",
+  ["ID"]= 6,
+  ["Name"]= "PetPetAffixName6",
+  ["PropColor"]= "d46d21"
+}
+}
+"

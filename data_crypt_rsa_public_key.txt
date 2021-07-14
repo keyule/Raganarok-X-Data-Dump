@@ -1,0 +1,9 @@
+TextAsset Base
+	string m_Name = "data_crypt_rsa_public_key"
+	string m_Script = "-----BEGIN PUBLIC KEY-----
+MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDi1lOwnjWMp0/u5WXqsAH+/HAc
+w9zabTGW5DET8lktZ6mZbhM8oebhJK+plyw4CBJ66lP0lxJM8i0QBPSPdSUkME6R
+8r70YTwwxPxzgKdFM4DCXTs+qY1YqyVf9uUN4Vekqj+9ZQLt0HNuQ2I9vddMkKf8
+EBxkh9+GmKOGDpKURwIDAQAB
+-----END PUBLIC KEY-----
+"

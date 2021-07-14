@@ -1,0 +1,77 @@
+TextAsset Base
+	string m_Name = "data_MonthCard"
+	string m_Script = "local table= {
+[1] = {
+  ["Value"]= 5000
+},
+[10] = {
+  ["Key"]= 10
+},
+[11] = {
+  ["Key"]= 11,
+  ["Value"]= 6
+},
+[12] = {
+  ["Key"]= 12,
+  ["Value"]= 2000
+},
+[13] = {
+  ["Key"]= 13,
+  ["Value"]= 10
+},
+[15] = {
+  ["Key"]= 15,
+  ["Value"]= 50
+},
+[16] = {
+  ["Key"]= 16,
+  ["Value"]= 30000
+},
+[17] = {
+  ["IsDefault"]= 1,
+  ["Key"]= 17,
+  ["Value"]= 7
+},
+[18] = {
+  ["Key"]= 18,
+  ["Value"]= 500000
+},
+[19] = {
+  ["Key"]= 19
+},
+[20] = {
+  ["Key"]= 20
+},
+[21] = {
+  ["Key"]= 21
+},
+[23] = {
+  ["Key"]= 23,
+  ["Value"]= 30000
+},
+[24] = {
+  ["Key"]= 24,
+  ["Value"]= 7
+},
+[26] = {
+  ["Key"]= 26,
+  ["Value"]= 2
+},
+[27] = {
+  ["Key"]= 27,
+  ["Value"]= 500
+},
+[28] = {
+  ["Key"]= 28,
+  ["Value"]= 1000
+}
+}
+local baseTable={
+  ["IsDefault"]= 0,
+  ["Key"]= 1,
+  ["Value"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

@@ -1,0 +1,203 @@
+TextAsset Base
+	string m_Name = "data_login_HairColor"
+	string m_Script = "local table= {
+[1] = {
+  ["Blue"]= 10,
+  ["ColorName"]= "黄色",
+  ["Green"]= 86,
+  ["IsLoginUnlock"]= 1,
+  ["ItemID"]= {
+    10403030
+  },
+  ["Name"]= "黄色",
+  ["Red"]= 129
+},
+[2] = {
+  ["Blue"]= 17,
+  ["ColorId"]= 2,
+  ["ColorName"]= "绿色",
+  ["Green"]= 109,
+  ["IsLoginUnlock"]= 1,
+  ["ItemID"]= {
+    10403033
+  },
+  ["Name"]= "绿色",
+  ["Red"]= 39
+},
+[3] = {
+  ["Blue"]= 113,
+  ["ColorId"]= 3,
+  ["ColorName"]= "蓝",
+  ["Green"]= 66,
+  ["IsLoginUnlock"]= 1,
+  ["ItemID"]= {
+    10403034
+  },
+  ["Name"]= "蓝",
+  ["Red"]= 4
+},
+[4] = {
+  ["Blue"]= 10,
+  ["ColorId"]= 4,
+  ["ColorName"]= "红色",
+  ["Green"]= 10,
+  ["IsLoginUnlock"]= 1,
+  ["ItemID"]= {
+    10403031
+  },
+  ["Name"]= "红色",
+  ["Red"]= 129
+},
+[5] = {
+  ["Blue"]= 66,
+  ["ColorId"]= 5,
+  ["ColorName"]= "灰色",
+  ["Green"]= 64,
+  ["IsLoginUnlock"]= 1,
+  ["ItemID"]= {
+    10403040
+  },
+  ["Name"]= "灰色",
+  ["Red"]= 57
+},
+[6] = {
+  ["Blue"]= 56,
+  ["ColorId"]= 6,
+  ["ColorName"]= "金",
+  ["Green"]= 110,
+  ["ItemID"]= {
+    10403041
+  },
+  ["Name"]= "金",
+  ["Red"]= 120
+},
+[7] = {
+  ["Blue"]= 89,
+  ["ColorId"]= 7,
+  ["ColorName"]= "粉",
+  ["Green"]= 79,
+  ["ItemID"]= {
+    10403042
+  },
+  ["Name"]= "粉",
+  ["Red"]= 114
+},
+[8] = {
+  ["ColorId"]= 8,
+  ["ColorName"]= "咖啡",
+  ["Green"]= 18,
+  ["ItemID"]= {
+    10403043
+  },
+  ["Name"]= "咖啡",
+  ["Red"]= 58
+},
+[9] = {
+  ["Blue"]= 79,
+  ["ColorId"]= 9,
+  ["ColorName"]= "紫色",
+  ["Green"]= 17,
+  ["ItemID"]= {
+    10403036
+  },
+  ["Name"]= "紫色",
+  ["Red"]= 61
+},
+[10] = {
+  ["ColorId"]= 10,
+  ["ColorName"]= "深棕",
+  ["Green"]= 3,
+  ["ItemID"]= {
+    10403038
+  },
+  ["Name"]= "深棕",
+  ["Red"]= 13
+},
+[11] = {
+  ["ColorId"]= 11,
+  ["IsLoginOpen"]= 0,
+  ["ItemNum"]= {},
+  ["LockDes"]= 0,
+  ["ShowInWardrobe"]= 0,
+  ["Zeny"]= 0
+},
+[12] = {
+  ["ColorId"]= 12,
+  ["IsLoginOpen"]= 0,
+  ["ItemNum"]= {},
+  ["LockDes"]= 0,
+  ["ShowInWardrobe"]= 0,
+  ["Zeny"]= 0
+},
+[13] = {
+  ["ColorId"]= 13,
+  ["IsLoginOpen"]= 0,
+  ["ItemNum"]= {},
+  ["LockDes"]= 0,
+  ["ShowInWardrobe"]= 0,
+  ["Zeny"]= 0
+},
+[14] = {
+  ["ColorId"]= 14,
+  ["IsLoginOpen"]= 0,
+  ["ItemNum"]= {},
+  ["LockDes"]= 0,
+  ["ShowInWardrobe"]= 0,
+  ["Zeny"]= 0
+},
+[15] = {
+  ["ColorId"]= 15,
+  ["IsLoginOpen"]= 0,
+  ["ItemNum"]= {},
+  ["LockDes"]= 0,
+  ["ShowInWardrobe"]= 0,
+  ["Zeny"]= 0
+},
+[16] = {
+  ["ColorId"]= 16,
+  ["IsLoginOpen"]= 0,
+  ["ItemNum"]= {},
+  ["LockDes"]= 0,
+  ["ShowInWardrobe"]= 0,
+  ["Zeny"]= 0
+},
+[17] = {
+  ["ColorId"]= 17,
+  ["IsLoginOpen"]= 0,
+  ["ItemNum"]= {},
+  ["LockDes"]= 0,
+  ["ShowInWardrobe"]= 0,
+  ["Zeny"]= 0
+},
+[18] = {
+  ["ColorId"]= 18,
+  ["IsLoginOpen"]= 0,
+  ["ItemNum"]= {},
+  ["LockDes"]= 0,
+  ["ShowInWardrobe"]= 0,
+  ["Zeny"]= 0
+}
+}
+local baseTable={
+  ["Blue"]= 0,
+  ["ColorId"]= 1,
+  ["ColorName"]= 0,
+  ["Green"]= 0,
+  ["IsLoginOpen"]= 1,
+  ["IsLoginUnlock"]= 0,
+  ["ItemID"]= {},
+  ["ItemNum"]= {
+    1
+  },
+  ["LockDes"]= "",
+  ["Name"]= 0,
+  ["Red"]= 0,
+  ["ShowInWardrobe"]= 1,
+  ["UnlockNum"]= 0,
+  ["UnlockType"]= 0,
+  ["Zeny"]= 20000
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

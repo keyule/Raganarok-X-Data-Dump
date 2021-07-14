@@ -1,0 +1,758 @@
+TextAsset Base
+	string m_Name = "data_guild_guildUpdate"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["ConsumePreview"]= {
+    {
+      ["Amount"]= 156000,
+      ["ItemId"]= 1012
+    }
+  },
+  ["dailyCostMoney"]= 3600,
+  ["GuildChangeNameAmount"]= 55000,
+  ["GuildOrderAward"]= {
+    {
+      ["GuildOrderValueSum"]= 7200,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 2,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    },
+    {
+      ["GuildOrderValueSum"]= 14400,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 4,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    },
+    {
+      ["GuildOrderValueSum"]= 21600,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 6,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    },
+    {
+      ["GuildOrderValueSum"]= 28800,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 8,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    }
+  },
+  ["levelInfo"]= 2,
+  ["levelUpMoney"]= 156000,
+  ["memberAmount"]= 60,
+  ["UpdatePreview"]= {
+    {
+      ["name"]= "GuildUpdateTips_2",
+      ["number1"]= 2,
+      ["number2"]= 3,
+      ["type"]= 1
+    },
+    {
+      ["name"]= "GuildUpdateTips_3",
+      ["number1"]= 60,
+      ["number2"]= 65,
+      ["type"]= 1
+    },
+    {
+      ["name"]= "GuildUpdateTips_4",
+      ["number1"]= 3600,
+      ["number2"]= 4200,
+      ["type"]= 1
+    }
+  }
+},
+[3] = {
+  ["ConsumePreview"]= {
+    {
+      ["Amount"]= 492000,
+      ["ItemId"]= 1012
+    }
+  },
+  ["dailyCostMoney"]= 4200,
+  ["GuildChangeNameAmount"]= 60000,
+  ["GuildOrderAward"]= {
+    {
+      ["GuildOrderValueSum"]= 7800,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 2,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    },
+    {
+      ["GuildOrderValueSum"]= 15600,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 4,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    },
+    {
+      ["GuildOrderValueSum"]= 23400,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 6,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    },
+    {
+      ["GuildOrderValueSum"]= 31200,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 8,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    }
+  },
+  ["levelInfo"]= 3,
+  ["levelUpMoney"]= 492000,
+  ["memberAmount"]= 65,
+  ["UpdatePreview"]= {
+    {
+      ["name"]= "GuildUpdateTips_2",
+      ["number1"]= 3,
+      ["number2"]= 4,
+      ["type"]= 1
+    },
+    {
+      ["name"]= "GuildUpdateTips_3",
+      ["number1"]= 65,
+      ["number2"]= 70,
+      ["type"]= 1
+    },
+    {
+      ["name"]= "GuildUpdateTips_4",
+      ["number1"]= 4200,
+      ["number2"]= 4800,
+      ["type"]= 1
+    }
+  }
+},
+[4] = {
+  ["ConsumePreview"]= {
+    {
+      ["Amount"]= 1068000,
+      ["ItemId"]= 1012
+    }
+  },
+  ["dailyCostMoney"]= 4800,
+  ["GuildChangeNameAmount"]= 65000,
+  ["GuildOrderAward"]= {
+    {
+      ["GuildOrderValueSum"]= 8400,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 2,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    },
+    {
+      ["GuildOrderValueSum"]= 16800,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 4,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    },
+    {
+      ["GuildOrderValueSum"]= 25200,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 6,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    },
+    {
+      ["GuildOrderValueSum"]= 33600,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 8,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    }
+  },
+  ["levelInfo"]= 4,
+  ["levelUpMoney"]= 1068000,
+  ["memberAmount"]= 70,
+  ["UpdatePreview"]= {
+    {
+      ["name"]= "GuildUpdateTips_2",
+      ["number1"]= 4,
+      ["number2"]= 5,
+      ["type"]= 1
+    },
+    {
+      ["name"]= "GuildUpdateTips_3",
+      ["number1"]= 70,
+      ["number2"]= 75,
+      ["type"]= 1
+    },
+    {
+      ["name"]= "GuildUpdateTips_4",
+      ["number1"]= 4800,
+      ["number2"]= 5400,
+      ["type"]= 1
+    }
+  }
+},
+[5] = {
+  ["ConsumePreview"]= {
+    {
+      ["Amount"]= 1932000,
+      ["ItemId"]= 1012
+    }
+  },
+  ["dailyCostMoney"]= 5400,
+  ["GuildChangeNameAmount"]= 70000,
+  ["GuildOrderAward"]= {
+    {
+      ["GuildOrderValueSum"]= 9000,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 2,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    },
+    {
+      ["GuildOrderValueSum"]= 18000,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 4,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    },
+    {
+      ["GuildOrderValueSum"]= 27000,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 6,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    },
+    {
+      ["GuildOrderValueSum"]= 36000,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 8,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    }
+  },
+  ["levelInfo"]= 5,
+  ["levelUpMoney"]= 1932000,
+  ["memberAmount"]= 75,
+  ["UpdatePreview"]= {
+    {
+      ["name"]= "GuildUpdateTips_2",
+      ["number1"]= 5,
+      ["number2"]= 6,
+      ["type"]= 1
+    },
+    {
+      ["name"]= "GuildUpdateTips_3",
+      ["number1"]= 75,
+      ["number2"]= 80,
+      ["type"]= 1
+    },
+    {
+      ["name"]= "GuildUpdateTips_4",
+      ["number1"]= 5400,
+      ["number2"]= 6000,
+      ["type"]= 1
+    },
+    {
+      ["name"]= "GuildUpdateTips_7",
+      ["number1"]= 2,
+      ["number2"]= 3,
+      ["type"]= 1
+    }
+  }
+},
+[6] = {
+  ["ConsumePreview"]= {
+    {
+      ["Amount"]= 3132000,
+      ["ItemId"]= 1012
+    }
+  },
+  ["dailyCostMoney"]= 6000,
+  ["GuildChangeNameAmount"]= 75000,
+  ["GuildOrderAward"]= {
+    {
+      ["GuildOrderValueSum"]= 9600,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 2,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    },
+    {
+      ["GuildOrderValueSum"]= 19200,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 4,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    },
+    {
+      ["GuildOrderValueSum"]= 28800,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 6,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    },
+    {
+      ["GuildOrderValueSum"]= 38400,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 8,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    }
+  },
+  ["levelInfo"]= 6,
+  ["levelUpMoney"]= 3132000,
+  ["memberAmount"]= 80,
+  ["UpdatePreview"]= {
+    {
+      ["name"]= "GuildUpdateTips_2",
+      ["number1"]= 6,
+      ["number2"]= 7,
+      ["type"]= 1
+    },
+    {
+      ["name"]= "GuildUpdateTips_3",
+      ["number1"]= 80,
+      ["number2"]= 85,
+      ["type"]= 1
+    },
+    {
+      ["name"]= "GuildUpdateTips_4",
+      ["number1"]= 6000,
+      ["number2"]= 6600,
+      ["type"]= 1
+    }
+  },
+  ["vicePresident"]= 3
+},
+[7] = {
+  ["ConsumePreview"]= {
+    {
+      ["Amount"]= 4716000,
+      ["ItemId"]= 1012
+    }
+  },
+  ["dailyCostMoney"]= 6600,
+  ["GuildChangeNameAmount"]= 80000,
+  ["GuildOrderAward"]= {
+    {
+      ["GuildOrderValueSum"]= 10200,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 2,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    },
+    {
+      ["GuildOrderValueSum"]= 20400,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 4,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    },
+    {
+      ["GuildOrderValueSum"]= 30600,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 6,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    },
+    {
+      ["GuildOrderValueSum"]= 40800,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 8,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    }
+  },
+  ["levelInfo"]= 7,
+  ["levelUpMoney"]= 4716000,
+  ["memberAmount"]= 85,
+  ["UpdatePreview"]= {
+    {
+      ["name"]= "GuildUpdateTips_2",
+      ["number1"]= 7,
+      ["number2"]= 8,
+      ["type"]= 1
+    },
+    {
+      ["name"]= "GuildUpdateTips_3",
+      ["number1"]= 85,
+      ["number2"]= 90,
+      ["type"]= 1
+    },
+    {
+      ["name"]= "GuildUpdateTips_4",
+      ["number1"]= 6600,
+      ["number2"]= 7200,
+      ["type"]= 1
+    }
+  },
+  ["vicePresident"]= 3
+},
+[8] = {
+  ["ConsumePreview"]= {
+    {
+      ["Amount"]= 6732000,
+      ["ItemId"]= 1012
+    }
+  },
+  ["dailyCostMoney"]= 7200,
+  ["GuildChangeNameAmount"]= 85000,
+  ["GuildOrderAward"]= {
+    {
+      ["GuildOrderValueSum"]= 10800,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 2,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    },
+    {
+      ["GuildOrderValueSum"]= 21600,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 4,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    },
+    {
+      ["GuildOrderValueSum"]= 32400,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 6,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    },
+    {
+      ["GuildOrderValueSum"]= 43200,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 8,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    }
+  },
+  ["levelInfo"]= 8,
+  ["levelUpMoney"]= 6732000,
+  ["memberAmount"]= 90,
+  ["UpdatePreview"]= {
+    {
+      ["name"]= "GuildUpdateTips_2",
+      ["number1"]= 8,
+      ["number2"]= 9,
+      ["type"]= 1
+    },
+    {
+      ["name"]= "GuildUpdateTips_3",
+      ["number1"]= 90,
+      ["number2"]= 95,
+      ["type"]= 1
+    },
+    {
+      ["name"]= "GuildUpdateTips_4",
+      ["number1"]= 7200,
+      ["number2"]= 7800,
+      ["type"]= 1
+    }
+  },
+  ["vicePresident"]= 3
+},
+[9] = {
+  ["ConsumePreview"]= {
+    {
+      ["Amount"]= 9228000,
+      ["ItemId"]= 1012
+    }
+  },
+  ["dailyCostMoney"]= 7800,
+  ["GuildChangeNameAmount"]= 90000,
+  ["GuildOrderAward"]= {
+    {
+      ["GuildOrderValueSum"]= 11400,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 2,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    },
+    {
+      ["GuildOrderValueSum"]= 22800,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 4,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    },
+    {
+      ["GuildOrderValueSum"]= 34200,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 6,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    },
+    {
+      ["GuildOrderValueSum"]= 45600,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 8,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    }
+  },
+  ["levelInfo"]= 9,
+  ["levelUpMoney"]= 9228000,
+  ["memberAmount"]= 95,
+  ["UpdatePreview"]= {
+    {
+      ["name"]= "GuildUpdateTips_2",
+      ["number1"]= 9,
+      ["number2"]= 10,
+      ["type"]= 1
+    },
+    {
+      ["name"]= "GuildUpdateTips_3",
+      ["number1"]= 95,
+      ["number2"]= 100,
+      ["type"]= 1
+    },
+    {
+      ["name"]= "GuildUpdateTips_4",
+      ["number1"]= 7800,
+      ["number2"]= 8400,
+      ["type"]= 1
+    },
+    {
+      ["name"]= "GuildUpdateTips_7",
+      ["number1"]= 3,
+      ["number2"]= 4,
+      ["type"]= 1
+    }
+  },
+  ["vicePresident"]= 3
+},
+[10] = {
+  ["ConsumePreview"]= {},
+  ["dailyCostMoney"]= 8400,
+  ["GuildChangeNameAmount"]= 95000,
+  ["GuildOrderAward"]= {
+    {
+      ["GuildOrderValueSum"]= 12000,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 2,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    },
+    {
+      ["GuildOrderValueSum"]= 24000,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 4,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    },
+    {
+      ["GuildOrderValueSum"]= 36000,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 6,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    },
+    {
+      ["GuildOrderValueSum"]= 48000,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 8,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    }
+  },
+  ["levelInfo"]= 10,
+  ["levelUpMoney"]= 0,
+  ["memberAmount"]= 100,
+  ["UpdatePreview"]= {},
+  ["vicePresident"]= 4
+}
+}
+local baseTable={
+  ["ConsumePreview"]= {
+    {
+      ["Amount"]= 132000,
+      ["ItemId"]= 1012
+    }
+  },
+  ["dailyCostMoney"]= 3000,
+  ["dailyEarnMoneyLimit"]= 15400000,
+  ["GuildChangeNameAmount"]= 50000,
+  ["GuildChangeNameType"]= 3,
+  ["GuildOrderAward"]= {
+    {
+      ["GuildOrderValueSum"]= 6600,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 2,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    },
+    {
+      ["GuildOrderValueSum"]= 13200,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 4,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    },
+    {
+      ["GuildOrderValueSum"]= 19800,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 6,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    },
+    {
+      ["GuildOrderValueSum"]= 26400,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 8,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    }
+  },
+  ["levelInfo"]= 1,
+  ["levelUpMoney"]= 132000,
+  ["levelUpPropAmount"]= 0,
+  ["levelUpPropId"]= 0,
+  ["memberAmount"]= 55,
+  ["totalMoneyLimit"]= 15400000,
+  ["UpdatePreview"]= {
+    {
+      ["name"]= "GuildUpdateTips_2",
+      ["number1"]= 1,
+      ["number2"]= 2,
+      ["type"]= 1
+    },
+    {
+      ["name"]= "GuildUpdateTips_3",
+      ["number1"]= 55,
+      ["number2"]= 60,
+      ["type"]= 1
+    },
+    {
+      ["name"]= "GuildUpdateTips_4",
+      ["number1"]= 3000,
+      ["number2"]= 3600,
+      ["type"]= 1
+    }
+  },
+  ["vicePresident"]= 2
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

@@ -1,0 +1,35 @@
+TextAsset Base
+	string m_Name = "data_webUrl_webUrl"
+	string m_Script = "local table= {
+[1] = {
+  ["ByteDanceFBUrl"]= "https://www.facebook.com/ROXNextGeneration/",
+  ["facebookRoClubUrl"]= "https://www.facebook.com/ROXNextGeneration",
+  ["privacyPolicyUrl"]= "https://lf16-ga7cdn-alisg.bytedgame.com/obj/sf-game-alisg/ga7/URL/ppnew.html",
+  ["userAgreementUrl"]= "https://lf16-j1ovscdn-tw.pxgametw.com/obj/sf-game-alisg/ga7/privacy/pptw.html"
+},
+[2] = {
+  ["ByteDanceMicroSNSUrl"]= "https://act.sgsnssdk.com/gms/98fc5898fb",
+  ["ChannelID"]= 10,
+  ["id"]= 2
+},
+[3] = {
+  ["ByteDanceMicroSNSUrl"]= "www.baidu.com",
+  ["ChannelID"]= 12,
+  ["id"]= 3
+}
+}
+local baseTable={
+  ["AppleChangeBindingUrl"]= "www.baidu.com",
+  ["byteDanceDiagnosisUrl"]= "http://gsdk.sgsnssdk.com/network_diagnosis?orientation=portrait",
+  ["ByteDanceFBUrl"]= "https://www.facebook.com/RagnarokXNextGeneration",
+  ["ByteDanceMicroSNSUrl"]= "https://rox.gnjoy.com.tw/community",
+  ["ChannelID"]= 9,
+  ["facebookRoClubUrl"]= "https://www.facebook.com/RagnarokXNextGeneration",
+  ["id"]= 1,
+  ["privacyPolicyUrl"]= "https://lf16-ga18cdn-alisg.bytedgame.com/obj/sf-game-alisg/ga18/%E5%8D%8F%E8%AE%AE/ROSEAPrivacyPolicy.html",
+  ["userAgreementUrl"]= "https://lf16-ga18cdn-alisg.bytedgame.com/obj/sf-game-alisg/ga18/%E5%8D%8F%E8%AE%AE/ROSEATermsofService.html"
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

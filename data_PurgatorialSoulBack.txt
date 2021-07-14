@@ -1,0 +1,66 @@
+TextAsset Base
+	string m_Name = "data_PurgatorialSoulBack"
+	string m_Script = "local table= {
+[1] = {
+  ["redeemTime"]= 43200,
+  ["upgradeNum"]= 100
+},
+[2] = {
+  ["conditionId"]= 0,
+  ["id"]= 2,
+  ["level"]= 1,
+  ["redeemTime"]= 36000,
+  ["resistance"]= 0.1,
+  ["upgradeNum"]= 200
+},
+[3] = {
+  ["conditionId"]= 0,
+  ["id"]= 3,
+  ["level"]= 2,
+  ["redeemTime"]= 28800,
+  ["resistance"]= 0.2,
+  ["upgradeNum"]= 300
+},
+[4] = {
+  ["conditionId"]= 0,
+  ["id"]= 4,
+  ["level"]= 3,
+  ["redeemTime"]= 21600,
+  ["resistance"]= 0.5,
+  ["upgradeItem"]= 0
+},
+[5] = {
+  ["id"]= 5,
+  ["type"]= 2,
+  ["upgradeItem"]= 0,
+  ["zeny"]= 10000
+},
+[6] = {
+  ["id"]= 6,
+  ["materialAmount"]= {
+    1
+  },
+  ["materialId"]= {
+    10202091
+  },
+  ["type"]= 3,
+  ["upgradeItem"]= 0
+}
+}
+local baseTable={
+  ["conditionId"]= 6200,
+  ["id"]= 1,
+  ["level"]= 0,
+  ["materialAmount"]= {},
+  ["materialId"]= {},
+  ["redeemTime"]= 0,
+  ["resistance"]= 0,
+  ["type"]= 1,
+  ["upgradeItem"]= 10217036,
+  ["upgradeNum"]= 0,
+  ["zeny"]= 0
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

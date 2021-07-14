@@ -1,0 +1,35 @@
+TextAsset Base
+	string m_Name = "data_pet_PetTalent"
+	string m_Script = "return {
+[1] = {
+  ["CostNum"]= 5,
+  ["ID"]= 1,
+  ["Intelligence"]= 150,
+  ["ItemCost"]= 10411004
+},
+[2] = {
+  ["CostNum"]= 10,
+  ["ID"]= 2,
+  ["Intelligence"]= 175,
+  ["ItemCost"]= 10411004
+},
+[3] = {
+  ["CostNum"]= 20,
+  ["ID"]= 3,
+  ["Intelligence"]= 200,
+  ["ItemCost"]= 10411004
+},
+[4] = {
+  ["CostNum"]= 50,
+  ["ID"]= 4,
+  ["Intelligence"]= 225,
+  ["ItemCost"]= 10411004
+},
+[5] = {
+  ["CostNum"]= -1,
+  ["ID"]= 5,
+  ["Intelligence"]= -1,
+  ["ItemCost"]= -1
+}
+}
+"

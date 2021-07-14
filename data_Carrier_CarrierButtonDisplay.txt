@@ -1,0 +1,360 @@
+TextAsset Base
+	string m_Name = "data_Carrier_CarrierButtonDisplay"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["buttonList"]= {
+    {
+      ["buttonId"]= 1,
+      ["buttonPic"]= "Btn_up",
+      ["buttonText"]= "ui_Main_030",
+      ["buttonType"]= 1
+    },
+    {
+      ["buttonId"]= 2,
+      ["buttonPic"]= "Btn_train",
+      ["buttonText"]= "ui_Main_027",
+      ["buttonType"]= 2
+    },
+    {
+      ["buttonId"]= 3,
+      ["buttonPic"]= "Btn_Camera",
+      ["buttonText"]= "ui_Main_026",
+      ["buttonType"]= 3
+    },
+    {
+      ["buttonId"]= 4,
+      ["buttonPic"]= "Btn_down",
+      ["buttonText"]= "ui_Main_031",
+      ["buttonType"]= 4
+    }
+  },
+  ["carrierButton"]= {
+    2,
+    3,
+    4
+  },
+  ["carrierType"]= 2,
+  ["id"]= 2
+},
+[3] = {
+  ["buttonList"]= {
+    {
+      ["buttonId"]= 1,
+      ["buttonPic"]= "Btn_up",
+      ["buttonText"]= "ui_Main_030",
+      ["buttonType"]= 1
+    },
+    {
+      ["buttonId"]= 2,
+      ["buttonPic"]= "Btn_train",
+      ["buttonText"]= "ui_Main_027",
+      ["buttonType"]= 2
+    },
+    {
+      ["buttonId"]= 3,
+      ["buttonPic"]= "Btn_Camera",
+      ["buttonText"]= "ui_Main_026",
+      ["buttonType"]= 3
+    },
+    {
+      ["buttonId"]= 4,
+      ["buttonPic"]= "Btn_down",
+      ["buttonText"]= "ui_Main_029",
+      ["buttonType"]= 4
+    }
+  },
+  ["carrierButton"]= {
+    2,
+    3,
+    4
+  },
+  ["carrierType"]= 3,
+  ["id"]= 3
+},
+[4] = {
+  ["buttonList"]= {
+    {
+      ["buttonId"]= 1,
+      ["buttonPic"]= "Btn_up",
+      ["buttonText"]= "ui_Main_030",
+      ["buttonType"]= 1
+    },
+    {
+      ["buttonId"]= 2,
+      ["buttonPic"]= "Btn_train",
+      ["buttonText"]= "ui_Main_027",
+      ["buttonType"]= 2
+    },
+    {
+      ["buttonId"]= 3,
+      ["buttonPic"]= "Btn_Camera",
+      ["buttonText"]= "ui_Main_026",
+      ["buttonType"]= 3
+    },
+    {
+      ["buttonId"]= 4,
+      ["buttonPic"]= "Btn_down",
+      ["buttonText"]= "ui_Main_029",
+      ["buttonType"]= 4
+    },
+    {
+      ["buttonId"]= 6,
+      ["buttonPic"]= "Btn_speedup",
+      ["buttonText"]= "ui_Main_025",
+      ["buttonType"]= 6
+    }
+  },
+  ["carrierButton"]= {
+    2,
+    3,
+    4,
+    6
+  },
+  ["carrierType"]= 4,
+  ["id"]= 4
+},
+[5] = {
+  ["buttonList"]= {
+    {
+      ["buttonId"]= 1,
+      ["buttonPic"]= "Btn_PackingS",
+      ["buttonText"]= "CollectionButton56",
+      ["buttonType"]= 8
+    }
+  },
+  ["carrierType"]= 5,
+  ["id"]= 5,
+  ["isForceInteract"]= 0
+},
+[6] = {
+  ["buttonList"]= {
+    {
+      ["buttonId"]= 1,
+      ["buttonPic"]= "Btn_Bd",
+      ["buttonText"]= "ui_Main_024",
+      ["buttonType"]= 7
+    }
+  },
+  ["carrierType"]= 6,
+  ["id"]= 6,
+  ["isForceInteract"]= 0
+},
+[7] = {
+  ["buttonList"]= {
+    {
+      ["buttonId"]= 1,
+      ["buttonPic"]= "Btn_up",
+      ["buttonText"]= "ui_Main_030",
+      ["buttonType"]= 1
+    },
+    {
+      ["buttonId"]= 3,
+      ["buttonPic"]= "Btn_down",
+      ["buttonText"]= "",
+      ["buttonType"]= 4
+    },
+    {
+      ["buttonId"]= 5,
+      ["buttonPic"]= "Btn_horse",
+      ["buttonText"]= "ui_Main_032",
+      ["buttonType"]= 2
+    }
+  },
+  ["carrierButton"]= {
+    3,
+    5
+  },
+  ["carrierType"]= 7,
+  ["id"]= 7
+},
+[8] = {
+  ["buttonList"]= {
+    {
+      ["buttonId"]= 1,
+      ["buttonPic"]= "Btn_up",
+      ["buttonText"]= "ui_Main_030",
+      ["buttonType"]= 1
+    },
+    {
+      ["buttonId"]= 2,
+      ["buttonPic"]= "Btn_train",
+      ["buttonText"]= "ui_Main_027",
+      ["buttonType"]= 2
+    },
+    {
+      ["buttonId"]= 3,
+      ["buttonPic"]= "Btn_Camera",
+      ["buttonText"]= "ui_Main_026",
+      ["buttonType"]= 3
+    },
+    {
+      ["buttonId"]= 4,
+      ["buttonPic"]= "Btn_down",
+      ["buttonText"]= "ui_Main_029",
+      ["buttonType"]= 4
+    },
+    {
+      ["buttonId"]= 5,
+      ["buttonPic"]= "Btn_speedup",
+      ["buttonText"]= "ui_Main_025",
+      ["buttonType"]= 5
+    }
+  },
+  ["carrierButton"]= {
+    2,
+    3,
+    4,
+    5
+  },
+  ["carrierType"]= 8,
+  ["id"]= 8
+},
+[9] = {
+  ["buttonList"]= {
+    {
+      ["buttonId"]= 1,
+      ["buttonPic"]= "Btn_up",
+      ["buttonText"]= "ui_Main_030",
+      ["buttonType"]= 1
+    },
+    {
+      ["buttonId"]= 2,
+      ["buttonPic"]= "Btn_train",
+      ["buttonText"]= "ui_Main_027",
+      ["buttonType"]= 2
+    },
+    {
+      ["buttonId"]= 3,
+      ["buttonPic"]= "Btn_Camera",
+      ["buttonText"]= "ui_Main_026",
+      ["buttonType"]= 3
+    },
+    {
+      ["buttonId"]= 4,
+      ["buttonPic"]= "Btn_down",
+      ["buttonText"]= "ui_Main_029",
+      ["buttonType"]= 4
+    }
+  },
+  ["carrierButton"]= {
+    2,
+    3,
+    4
+  },
+  ["carrierType"]= 9,
+  ["id"]= 9
+},
+[10] = {
+  ["buttonList"]= {
+    {
+      ["buttonId"]= 1,
+      ["buttonPic"]= "Btn_xyxicon_rukou",
+      ["buttonText"]= "ui_LittleGame_001",
+      ["buttonType"]= 1
+    }
+  },
+  ["carrierType"]= 10,
+  ["id"]= 10
+},
+[11] = {
+  ["buttonList"]= {
+    {
+      ["buttonId"]= 1,
+      ["buttonPic"]= "Btn_speedup",
+      ["buttonText"]= "ui_Tips_019",
+      ["buttonType"]= 1
+    }
+  },
+  ["carrierType"]= 11,
+  ["enterConditions"]= {
+    11023,
+    1025
+  },
+  ["id"]= 11
+},
+[13] = {
+  ["buttonList"]= {
+    {
+      ["buttonId"]= 1,
+      ["buttonPic"]= "Btn_up",
+      ["buttonText"]= "ui_Main_030",
+      ["buttonType"]= 1
+    },
+    {
+      ["buttonId"]= 2,
+      ["buttonPic"]= "Btn_train",
+      ["buttonText"]= "ui_Main_027",
+      ["buttonType"]= 2
+    },
+    {
+      ["buttonId"]= 3,
+      ["buttonPic"]= "Btn_Camera",
+      ["buttonText"]= "ui_Main_026",
+      ["buttonType"]= 3
+    },
+    {
+      ["buttonId"]= 4,
+      ["buttonPic"]= "Btn_down",
+      ["buttonText"]= "ui_Main_031",
+      ["buttonType"]= 4
+    }
+  },
+  ["carrierButton"]= {
+    2,
+    3,
+    4
+  },
+  ["carrierType"]= 13,
+  ["displayStartTime"]= 1,
+  ["id"]= 13
+},
+[14] = {
+  ["buttonList"]= {
+    {
+      ["buttonId"]= 1,
+      ["buttonPic"]= "Btn_speedup",
+      ["buttonText"]= "ui_Tips_019",
+      ["buttonType"]= 1
+    }
+  },
+  ["carrierType"]= 14,
+  ["enterConditions"]= {
+    1025
+  },
+  ["id"]= 14
+},
+[15] = {
+  ["carrierType"]= 15,
+  ["id"]= 15
+},
+[16] = {
+  ["buttonList"]= {
+    {
+      ["buttonId"]= 1,
+      ["buttonPic"]= "Btn_down",
+      ["buttonText"]= "ui_Main_029",
+      ["buttonType"]= 4
+    }
+  },
+  ["carrierButton"]= {
+    1
+  },
+  ["carrierType"]= 16,
+  ["id"]= 16
+}
+}
+local baseTable={
+  ["buttonList"]= {},
+  ["carrierButton"]= {},
+  ["carrierType"]= 0,
+  ["displayStartTime"]= 0,
+  ["enterButton"]= 1,
+  ["enterConditions"]= {},
+  ["id"]= 1,
+  ["isForceInteract"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

@@ -1,0 +1,900 @@
+TextAsset Base
+	string m_Name = "data_Shop_Store"
+	string m_Script = "local table= {
+[1] = {
+  ["Goods"]= {
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    40,
+    236,
+    550,
+    551,
+    552,
+    553,
+    554,
+    555,
+    556,
+    557,
+    567,
+    568,
+    569,
+    570
+  },
+  ["Tab"]= {
+    "ShopTabName100101",
+    "ShopTabName100102"
+  }
+},
+[4] = {
+  ["CostCurrency"]= {
+    3
+  },
+  ["Goods"]= {
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    316,
+    548,
+    549,
+    594,
+    595,
+    596
+  },
+  ["NpcGuid"]= {
+    11801035
+  },
+  ["ShopId"]= 4,
+  ["ShopName"]= "ShopName_1004",
+  ["ShopNameLocalized"]= "水晶商店"
+},
+[6] = {
+  ["Goods"]= {
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    67,
+    68,
+    543,
+    544,
+    592
+  },
+  ["NpcGuid"]= {
+    11101030
+  },
+  ["ShopId"]= 6,
+  ["ShopName"]= "ShopName_1006",
+  ["ShopNameLocalized"]= "10级武器商店"
+},
+[7] = {
+  ["Goods"]= {
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    545,
+    546,
+    547
+  },
+  ["NpcGuid"]= {
+    11101031
+  },
+  ["ShopId"]= 7,
+  ["ShopName"]= "ShopName_1007",
+  ["ShopNameLocalized"]= "10级防具商店"
+},
+[8] = {
+  ["Goods"]= {
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  },
+  ["NpcGuid"]= {
+    11101032
+  },
+  ["ShopId"]= 8,
+  ["ShopName"]= "ShopName_1008",
+  ["ShopNameLocalized"]= "10级饰品商店"
+},
+[10] = {
+  ["CostCurrency"]= {
+    54
+  },
+  ["Goods"]= {
+    86,
+    87,
+    88,
+    322,
+    323,
+    324,
+    325,
+    539,
+    540
+  },
+  ["NpcGuid"]= {
+    10101035
+  },
+  ["ShopId"]= 10,
+  ["ShopName"]= "ShopName_1010",
+  ["ShopNameLocalized"]= "副本兑换商店"
+},
+[11] = {
+  ["CostCurrency"]= {
+    17
+  },
+  ["Goods"]= {
+    91,
+    92,
+    93,
+    326,
+    327,
+    328,
+    329,
+    541,
+    542
+  },
+  ["NpcGuid"]= {
+    60001004
+  },
+  ["ShopId"]= 11,
+  ["ShopName"]= "ShopName_1011",
+  ["ShopNameLocalized"]= "公会商店",
+  ["ShopPic"]= "ShopTitleName_1001"
+},
+[14] = {
+  ["CostCurrency"]= {
+    1,
+    3
+  },
+  ["NpcGuid"]= {
+    10101028
+  },
+  ["ShopId"]= 14,
+  ["ShopName"]= "ShopName_1014",
+  ["ShopNameLocalized"]= "初级宠物商店"
+},
+[15] = {
+  ["CostCurrency"]= {
+    1,
+    3
+  },
+  ["NpcGuid"]= {
+    14101006
+  },
+  ["ShopId"]= 15,
+  ["ShopName"]= "ShopName_1015",
+  ["ShopNameLocalized"]= "高级宠物商店"
+},
+[16] = {
+  ["CostCurrency"]= {
+    59
+  },
+  ["Goods"]= {
+    251,
+    252,
+    253,
+    254,
+    255
+  },
+  ["NpcGuid"]= {
+    30201002
+  },
+  ["ShopId"]= 16,
+  ["ShopName"]= "ShopName_1016",
+  ["ShopNameLocalized"]= "恩德勒斯BUFF商店",
+  ["ShopType"]= 4
+},
+[17] = {
+  ["Goods"]= {
+    257
+  },
+  ["NpcGuid"]= {
+    10103008,
+    10106013,
+    15606002,
+    14106006,
+    13106010
+  },
+  ["ShopId"]= 17,
+  ["ShopName"]= "ShopName_1017",
+  ["ShopNameLocalized"]= "转职商店"
+},
+[18] = {
+  ["Goods"]= {
+    258
+  },
+  ["NpcGuid"]= {
+    11803001
+  },
+  ["ShopId"]= 18,
+  ["ShopName"]= "ShopName_1017",
+  ["ShopNameLocalized"]= "转职商店"
+},
+[26] = {
+  ["Goods"]= {
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  },
+  ["NpcGuid"]= {
+    60001010,
+    60001011,
+    60001012
+  },
+  ["ShopId"]= 26,
+  ["ShopName"]= "ShopName_1026",
+  ["ShopNameLocalized"]= "公会女仆商店"
+},
+[27] = {
+  ["Goods"]= {
+    317,
+    9,
+    10,
+    11,
+    12,
+    15,
+    16,
+    17,
+    19,
+    20
+  },
+  ["NpcGuid"]= {
+    30201003,
+    11401005
+  },
+  ["ShopId"]= 27,
+  ["ShopNameLocalized"]= "杂货商店(爬塔）"
+},
+[28] = {
+  ["Goods"]= {
+    330,
+    331,
+    332,
+    333,
+    334,
+    335,
+    336,
+    337,
+    338,
+    339,
+    340,
+    341
+  },
+  ["NpcGuid"]= {
+    11101034
+  },
+  ["ShopId"]= 28,
+  ["ShopName"]= "ShopName_1028",
+  ["ShopNameLocalized"]= "【料理商人】伊斯鲁德"
+},
+[29] = {
+  ["Goods"]= {
+    342,
+    343,
+    344,
+    345,
+    346,
+    347
+  },
+  ["NpcGuid"]= {
+    10101043
+  },
+  ["ShopId"]= 29,
+  ["ShopName"]= "ShopName_1029",
+  ["ShopNameLocalized"]= "【料理商人】普隆德拉"
+},
+[30] = {
+  ["Goods"]= {
+    348,
+    349,
+    350,
+    351,
+    352,
+    353,
+    354,
+    355
+  },
+  ["NpcGuid"]= {
+    15701001
+  },
+  ["ShopId"]= 30,
+  ["ShopName"]= "ShopName_1030",
+  ["ShopNameLocalized"]= "【料理商人】梦罗克"
+},
+[31] = {
+  ["Goods"]= {
+    356,
+    357,
+    358,
+    359,
+    360,
+    361,
+    362,
+    363
+  },
+  ["NpcGuid"]= {
+    11801031
+  },
+  ["ShopId"]= 31,
+  ["ShopName"]= "ShopName_1031",
+  ["ShopNameLocalized"]= "【料理商人】艾尔贝塔"
+},
+[32] = {
+  ["Goods"]= {
+    364,
+    365,
+    366,
+    367,
+    368,
+    369,
+    370,
+    371
+  },
+  ["NpcGuid"]= {
+    14101040
+  },
+  ["ShopId"]= 32,
+  ["ShopName"]= "ShopName_1032",
+  ["ShopNameLocalized"]= "【料理商人】斐扬"
+},
+[33] = {
+  ["Goods"]= {
+    372,
+    373,
+    374,
+    375,
+    376,
+    377
+  },
+  ["NpcGuid"]= {
+    12101040
+  },
+  ["ShopId"]= 33,
+  ["ShopName"]= "ShopName_1033",
+  ["ShopNameLocalized"]= "【料理商人】吉芬"
+},
+[34] = {
+  ["Goods"]= {
+    378,
+    379,
+    380,
+    381,
+    382,
+    383,
+    384,
+    385,
+    386,
+    387,
+    388,
+    389,
+    390,
+    391,
+    392
+  },
+  ["NpcGuid"]= {
+    11101045
+  },
+  ["ShopId"]= 34,
+  ["ShopName"]= "ShopName_1034",
+  ["ShopNameLocalized"]= "【公会商人】伊斯鲁德"
+},
+[35] = {
+  ["Goods"]= {
+    393,
+    394,
+    395,
+    396,
+    397,
+    398,
+    399,
+    400,
+    401,
+    402,
+    403
+  },
+  ["NpcGuid"]= {
+    10101052
+  },
+  ["ShopId"]= 35,
+  ["ShopName"]= "ShopName_1035",
+  ["ShopNameLocalized"]= "【公会商人】普隆德拉"
+},
+[36] = {
+  ["Goods"]= {
+    404,
+    405,
+    406,
+    407,
+    408,
+    409,
+    410,
+    411,
+    412
+  },
+  ["NpcGuid"]= {
+    13101048
+  },
+  ["ShopId"]= 36,
+  ["ShopName"]= "ShopName_1036",
+  ["ShopNameLocalized"]= "【公会商人】梦罗克"
+},
+[37] = {
+  ["Goods"]= {
+    413,
+    414,
+    415,
+    416,
+    417,
+    418,
+    419,
+    420,
+    421,
+    422
+  },
+  ["NpcGuid"]= {
+    11801047
+  },
+  ["ShopId"]= 37,
+  ["ShopName"]= "ShopName_1037",
+  ["ShopNameLocalized"]= "【公会商人】艾尔贝塔"
+},
+[38] = {
+  ["Goods"]= {
+    423,
+    424,
+    425,
+    426,
+    427,
+    428,
+    429,
+    430,
+    431,
+    432,
+    433,
+    434
+  },
+  ["NpcGuid"]= {
+    14101045
+  },
+  ["ShopId"]= 38,
+  ["ShopName"]= "ShopName_1038",
+  ["ShopNameLocalized"]= "【公会商人】斐扬"
+},
+[39] = {
+  ["Goods"]= {
+    435,
+    436,
+    437,
+    438,
+    439,
+    440,
+    441,
+    442
+  },
+  ["NpcGuid"]= {
+    12101045
+  },
+  ["ShopId"]= 39,
+  ["ShopName"]= "ShopName_1039",
+  ["ShopNameLocalized"]= "【公会商人】吉芬"
+},
+[40] = {
+  ["Goods"]= {
+    443,
+    444,
+    445,
+    446,
+    447,
+    448,
+    449,
+    450,
+    451,
+    452,
+    453,
+    454
+  },
+  ["NpcGuid"]= {
+    11101049
+  },
+  ["ShopId"]= 40,
+  ["ShopName"]= "ShopName_1040",
+  ["ShopNameLocalized"]= "【装备材料商人】伊斯鲁德"
+},
+[41] = {
+  ["Goods"]= {
+    455,
+    456,
+    457,
+    458,
+    459,
+    460,
+    461,
+    462,
+    463,
+    464,
+    465,
+    466
+  },
+  ["NpcGuid"]= {
+    10101053
+  },
+  ["ShopId"]= 41,
+  ["ShopName"]= "ShopName_1041",
+  ["ShopNameLocalized"]= "【装备材料商人】普隆德拉"
+},
+[42] = {
+  ["Goods"]= {
+    467,
+    468,
+    469,
+    470,
+    471,
+    472,
+    473,
+    474,
+    475,
+    476,
+    477,
+    478
+  },
+  ["NpcGuid"]= {
+    13101049
+  },
+  ["ShopId"]= 42,
+  ["ShopName"]= "ShopName_1042",
+  ["ShopNameLocalized"]= "【装备材料商人】梦罗克"
+},
+[43] = {
+  ["Goods"]= {
+    479,
+    480,
+    481,
+    482,
+    483,
+    484,
+    485,
+    486,
+    487,
+    488,
+    489,
+    490
+  },
+  ["NpcGuid"]= {
+    11801034
+  },
+  ["ShopId"]= 43,
+  ["ShopName"]= "ShopName_1043",
+  ["ShopNameLocalized"]= "【装备材料商人】艾尔贝塔"
+},
+[44] = {
+  ["Goods"]= {
+    491,
+    492,
+    493,
+    494,
+    495,
+    496,
+    497,
+    498,
+    499,
+    500,
+    501,
+    502
+  },
+  ["NpcGuid"]= {
+    14101046
+  },
+  ["ShopId"]= 44,
+  ["ShopName"]= "ShopName_1044",
+  ["ShopNameLocalized"]= "【装备材料商人】斐扬"
+},
+[45] = {
+  ["Goods"]= {
+    503,
+    504,
+    505,
+    506,
+    507,
+    508,
+    509,
+    510,
+    511,
+    512,
+    513,
+    514
+  },
+  ["NpcGuid"]= {
+    12101046
+  },
+  ["ShopId"]= 45,
+  ["ShopName"]= "ShopName_1045",
+  ["ShopNameLocalized"]= "【装备材料商人】吉芬"
+},
+[46] = {
+  ["CostCurrency"]= {
+    1,
+    3
+  },
+  ["Goods"]= {
+    515,
+    516,
+    517,
+    518,
+    519,
+    520,
+    521,
+    522,
+    523,
+    524,
+    525,
+    526,
+    527,
+    528,
+    529,
+    530,
+    531,
+    532,
+    533,
+    534,
+    535,
+    536,
+    537,
+    538,
+    635,
+    636,
+    637
+  },
+  ["NpcGuid"]= {
+    11801032
+  },
+  ["ShopId"]= 46,
+  ["ShopName"]= "ShopName_1046",
+  ["ShopNameLocalized"]= "艾尔贝塔鱼饵商人"
+},
+[47] = {
+  ["Goods"]= {
+    47,
+    48
+  },
+  ["NpcGuid"]= {
+    10201005
+  },
+  ["ShopId"]= 47,
+  ["ShopName"]= "ShopName_1047",
+  ["ShopNameLocalized"]= "乐园团商人"
+},
+[48] = {
+  ["CostCurrency"]= {
+    61
+  },
+  ["Goods"]= {
+    558,
+    559,
+    560,
+    561,
+    562,
+    565
+  },
+  ["NpcGuid"]= {
+    11101050,
+    10206006
+  },
+  ["ShopId"]= 48,
+  ["ShopName"]= "ShopName_1048",
+  ["ShopNameLocalized"]= "钓鱼纪念币商人"
+},
+[49] = {
+  ["CostCurrency"]= {
+    3
+  },
+  ["Goods"]= {
+    571,
+    572,
+    573,
+    574,
+    575,
+    576,
+    577,
+    578,
+    579,
+    580,
+    581,
+    582,
+    583,
+    584,
+    585,
+    586,
+    587,
+    588,
+    589,
+    590,
+    591
+  },
+  ["NpcGuid"]= {
+    10105099
+  },
+  ["ShopId"]= 49,
+  ["ShopName"]= "ShopName_1049",
+  ["ShopNameLocalized"]= "坐骑换色商店"
+},
+[50] = {
+  ["Goods"]= {
+    593
+  },
+  ["NpcGuid"]= {
+    10106007
+  },
+  ["ShopId"]= 50,
+  ["ShopName"]= "ShopName_1050"
+},
+[51] = {
+  ["CostCurrency"]= {
+    1,
+    3
+  },
+  ["Goods"]= {
+    597,
+    601
+  },
+  ["NpcGuid"]= {
+    12109003
+  },
+  ["ShopId"]= 51,
+  ["ShopName"]= "ShopName_1051",
+  ["ShopNameLocalized"]= "圣诞商店"
+},
+[52] = {
+  ["CostCurrency"]= {
+    1,
+    3
+  },
+  ["Goods"]= {
+    602,
+    603
+  },
+  ["NpcGuid"]= {
+    10209001
+  },
+  ["ShopId"]= 52,
+  ["ShopName"]= "ShopName_1052",
+  ["ShopNameLocalized"]= "儿童节商店"
+},
+[53] = {
+  ["Goods"]= {
+    608,
+    609,
+    610,
+    611,
+    612,
+    613
+  },
+  ["NpcGuid"]= {
+    16101022
+  },
+  ["ShopId"]= 53,
+  ["ShopName"]= "ShopName_1053",
+  ["ShopNameLocalized"]= "【料理商人】古城"
+},
+[54] = {
+  ["Goods"]= {
+    614,
+    615,
+    616,
+    617,
+    618,
+    619,
+    620,
+    621,
+    622
+  },
+  ["NpcGuid"]= {
+    16101020
+  },
+  ["ShopId"]= 54,
+  ["ShopName"]= "ShopName_1054",
+  ["ShopNameLocalized"]= "【公会商人】古城"
+},
+[55] = {
+  ["Goods"]= {
+    623,
+    624,
+    625,
+    626,
+    627,
+    628,
+    629,
+    630,
+    631,
+    632,
+    633,
+    634
+  },
+  ["NpcGuid"]= {
+    16101021
+  },
+  ["ShopId"]= 55,
+  ["ShopName"]= "ShopName_1055",
+  ["ShopNameLocalized"]= "【装备材料商人】古城"
+}
+}
+local baseTable={
+  ["CostCurrency"]= {
+    1
+  },
+  ["Goods"]= {
+    199,
+    227,
+    230,
+    233,
+    228,
+    231,
+    234,
+    229,
+    232,
+    235,
+    259,
+    200
+  },
+  ["NpcGuid"]= {
+    11101033,
+    10101011,
+    13101042,
+    14101039,
+    12101039,
+    11801030,
+    30201003,
+    16101007,
+    16101007
+  },
+  ["ShopId"]= 1,
+  ["ShopName"]= "ShopName_1001",
+  ["ShopNameLocalized"]= "杂货商店",
+  ["ShopPic"]= "ShopTitleName_1002",
+  ["ShopType"]= 1,
+  ["Tab"]= {}
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

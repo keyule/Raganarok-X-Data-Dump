@@ -1,0 +1,485 @@
+TextAsset Base
+	string m_Name = "data_tower_TowerBase"
+	string m_Script = "return {
+[1] = {
+  ["Layer"]= 1,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[2] = {
+  ["Layer"]= 2,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[3] = {
+  ["Layer"]= 3,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[4] = {
+  ["Layer"]= 4,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[5] = {
+  ["Layer"]= 5,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[6] = {
+  ["Layer"]= 6,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[7] = {
+  ["Layer"]= 7,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[8] = {
+  ["Layer"]= 8,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[9] = {
+  ["Layer"]= 9,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[10] = {
+  ["Layer"]= 10,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[11] = {
+  ["Layer"]= 11,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[12] = {
+  ["Layer"]= 12,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[13] = {
+  ["Layer"]= 13,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[14] = {
+  ["Layer"]= 14,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[15] = {
+  ["Layer"]= 15,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[16] = {
+  ["Layer"]= 16,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[17] = {
+  ["Layer"]= 17,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[18] = {
+  ["Layer"]= 18,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[19] = {
+  ["Layer"]= 19,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[20] = {
+  ["Layer"]= 20,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[21] = {
+  ["Layer"]= 21,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[22] = {
+  ["Layer"]= 22,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[23] = {
+  ["Layer"]= 23,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[24] = {
+  ["Layer"]= 24,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[25] = {
+  ["Layer"]= 25,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[26] = {
+  ["Layer"]= 26,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[27] = {
+  ["Layer"]= 27,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[28] = {
+  ["Layer"]= 28,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[29] = {
+  ["Layer"]= 29,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[30] = {
+  ["Layer"]= 30,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[31] = {
+  ["Layer"]= 31,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[32] = {
+  ["Layer"]= 32,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[33] = {
+  ["Layer"]= 33,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[34] = {
+  ["Layer"]= 34,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[35] = {
+  ["Layer"]= 35,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[36] = {
+  ["Layer"]= 36,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[37] = {
+  ["Layer"]= 37,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[38] = {
+  ["Layer"]= 38,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[39] = {
+  ["Layer"]= 39,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[40] = {
+  ["Layer"]= 40,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[41] = {
+  ["Layer"]= 41,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[42] = {
+  ["Layer"]= 42,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[43] = {
+  ["Layer"]= 43,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[44] = {
+  ["Layer"]= 44,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[45] = {
+  ["Layer"]= 45,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[46] = {
+  ["Layer"]= 46,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[47] = {
+  ["Layer"]= 47,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[48] = {
+  ["Layer"]= 48,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[49] = {
+  ["Layer"]= 49,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[50] = {
+  ["Layer"]= 50,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[51] = {
+  ["Layer"]= 51,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[52] = {
+  ["Layer"]= 52,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[53] = {
+  ["Layer"]= 53,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[54] = {
+  ["Layer"]= 54,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[55] = {
+  ["Layer"]= 55,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[56] = {
+  ["Layer"]= 56,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[57] = {
+  ["Layer"]= 57,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[58] = {
+  ["Layer"]= 58,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[59] = {
+  ["Layer"]= 59,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[60] = {
+  ["Layer"]= 60,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[61] = {
+  ["Layer"]= 61,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[62] = {
+  ["Layer"]= 62,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[63] = {
+  ["Layer"]= 63,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[64] = {
+  ["Layer"]= 64,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[65] = {
+  ["Layer"]= 65,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[66] = {
+  ["Layer"]= 66,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[67] = {
+  ["Layer"]= 67,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[68] = {
+  ["Layer"]= 68,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[69] = {
+  ["Layer"]= 69,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[70] = {
+  ["Layer"]= 70,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[71] = {
+  ["Layer"]= 71,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[72] = {
+  ["Layer"]= 72,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[73] = {
+  ["Layer"]= 73,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[74] = {
+  ["Layer"]= 74,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[75] = {
+  ["Layer"]= 75,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[76] = {
+  ["Layer"]= 76,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[77] = {
+  ["Layer"]= 77,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[78] = {
+  ["Layer"]= 78,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[79] = {
+  ["Layer"]= 79,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+},
+[80] = {
+  ["Layer"]= 80,
+  ["LevelLimit"]= 30,
+  ["towerMonsterLevel"]= 1,
+  ["type"]= 0
+}
+}
+"

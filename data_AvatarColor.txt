@@ -1,0 +1,17 @@
+TextAsset Base
+	string m_Name = "data_AvatarColor"
+	string m_Script = "return {
+	[1] = {
+		["g"] = 0.2,
+		["b"] = 0.2,
+		["Id"] = 1,
+		["r"] = 0.8
+	},
+	[2] = {
+		["g"] = 0.71,
+		["b"] = 0.34,
+		["Id"] = 2,
+		["r"] = 0.07
+	}
+}
+"

@@ -1,0 +1,889 @@
+TextAsset Base
+	string m_Name = "data_Mount"
+	string m_Script = "local table= {
+[80001] = {
+  ["CanMountFight"]= 1,
+  ["ChangeCloth"]= 1,
+  ["DefaultCloth"]= 820020201,
+  ["DefaultMaterial"]= 80020,
+  ["FightLimit"]= "mount_fightlimit_80001",
+  ["GetPathPrama"]= 10105099,
+  ["GetPathType"]= 2,
+  ["Job"]= {
+    1110,
+    1111,
+    1112
+  },
+  ["JobLimit"]= "mount_joblimit_80001",
+  ["MountDesc"]= "mount_desc_80020",
+  ["MountGet"]= "mount_get_80020",
+  ["MountIconId"]= 80020,
+  ["MountName"]= "mount_name_80001",
+  ["MountPath1"]= "80020",
+  ["MountPath2"]= "80020",
+  ["MountSound"]= 80001
+},
+[80002] = {
+  ["ChangeCloth"]= 1,
+  ["DefaultCloth"]= 819020201,
+  ["DefaultMaterial"]= 80019,
+  ["FightLimit"]= "mount_fightlimit_80002",
+  ["GetPathPrama"]= 10105099,
+  ["GetPathType"]= 2,
+  ["Iconid"]= 5000007,
+  ["Idle"]= {
+    "Idle_Mount80002"
+  },
+  ["IgnoreSexIdle"]= 1,
+  ["Job"]= {
+    1210,
+    1220,
+    1211,
+    1221
+  },
+  ["JobLimit"]= "mount_joblimit_80002",
+  ["MountDesc"]= "mount_desc_80002",
+  ["MountGet"]= "mount_get_80002",
+  ["MountIconId"]= 80019,
+  ["MountId"]= 80002,
+  ["MountName"]= "mount_name_80002",
+  ["MountPath1"]= "80019",
+  ["MountPath2"]= "80019",
+  ["MountQuality"]= 0,
+  ["MountSound"]= 80002,
+  ["MoveAction"]= {
+    "MoveForward_Mount80002"
+  },
+  ["Name"]= "羊驼",
+  ["ResId"]= 80019
+},
+[80003] = {
+  ["ChangeCloth"]= 1,
+  ["DefaultCloth"]= 818020201,
+  ["DefaultMaterial"]= 80018,
+  ["FightLimit"]= "mount_fightlimit_80003",
+  ["GetPathPrama"]= 10105099,
+  ["GetPathType"]= 2,
+  ["Iconid"]= 5000006,
+  ["Idle"]= {
+    "Idle_Mount80003"
+  },
+  ["IgnoreSexIdle"]= 1,
+  ["Job"]= {
+    1310,
+    1320,
+    1311,
+    1321
+  },
+  ["JobLimit"]= "mount_joblimit_80003",
+  ["MountDesc"]= "mount_desc_80003",
+  ["MountGet"]= "mount_get_80003",
+  ["MountIconId"]= 80018,
+  ["MountId"]= 80003,
+  ["MountName"]= "mount_name_80003",
+  ["MountPath1"]= "80018",
+  ["MountPath2"]= "80018",
+  ["MountQuality"]= 0,
+  ["MountSound"]= 80003,
+  ["MoveAction"]= {
+    "MoveForward_Mount80003"
+  },
+  ["Name"]= "九尾狐",
+  ["ResId"]= 80018
+},
+[80004] = {
+  ["bgp"]= 1,
+  ["CanJump"]= 0,
+  ["ChannelId"]= {},
+  ["FightLimit"]= "mount_fightlimit_80004",
+  ["GetPathPrama"]= "UI_BattlePass",
+  ["GetPathType"]= 1,
+  ["Idle"]= {
+    "Idle_Mount80004"
+  },
+  ["IgnoreSexIdle"]= 1,
+  ["isHide"]= 1,
+  ["JobLimit"]= "mount_joblimit_80004",
+  ["MountDesc"]= "mount_desc_80010",
+  ["MountGet"]= "mount_get_80004",
+  ["MountIconId"]= 80004,
+  ["MountId"]= 80004,
+  ["MountName"]= "mount_name_80004",
+  ["MountQuality"]= 1,
+  ["MoveAction"]= {
+    "MoveForward_Mount80004"
+  },
+  ["Name"]= "喷射背包(彩虹)",
+  ["ResId"]= 80004,
+  ["Speed"]= 8
+},
+[80006] = {
+  ["bgp"]= 3,
+  ["ChangeCloth"]= 1,
+  ["DefaultCloth"]= 817020201,
+  ["DefaultMaterial"]= 80017,
+  ["FightLimit"]= "mount_fightlimit_80006",
+  ["GetPathPrama"]= 10105099,
+  ["GetPathType"]= 2,
+  ["Iconid"]= 5000005,
+  ["Idle"]= {
+    "Idle_Mount80005"
+  },
+  ["IgnoreSexIdle"]= 1,
+  ["IsSpecial"]= 1,
+  ["Job"]= {
+    1410,
+    1420,
+    1411,
+    1421
+  },
+  ["JobLimit"]= "mount_joblimit_80006",
+  ["MountDesc"]= "mount_desc_80006",
+  ["MountGet"]= "mount_get_80006",
+  ["MountIconId"]= 80017,
+  ["MountId"]= 80006,
+  ["MountName"]= "mount_name_80006",
+  ["MountPath1"]= "80017_1",
+  ["MountPath2"]= "80017_2",
+  ["MountQuality"]= 0,
+  ["MountSound"]= 80006,
+  ["MoveAction"]= {
+    "MoveForward_Mount80006"
+  },
+  ["Name"]= "斑鬣",
+  ["ResId"]= 80017
+},
+[80007] = {
+  ["ChangeCloth"]= 1,
+  ["DefaultCloth"]= 816020201,
+  ["DefaultMaterial"]= 80016,
+  ["FightLimit"]= "mount_fightlimit_80007",
+  ["GetPathPrama"]= 10105099,
+  ["GetPathType"]= 2,
+  ["Iconid"]= 5000004,
+  ["IsSpecial"]= 1,
+  ["Job"]= {
+    1510,
+    1520,
+    1511,
+    1521
+  },
+  ["JobLimit"]= "mount_joblimit_80007",
+  ["MountDesc"]= "mount_desc_80007",
+  ["MountGet"]= "mount_get_80007",
+  ["MountIconId"]= 80016,
+  ["MountId"]= 80007,
+  ["MountName"]= "mount_name_80007",
+  ["MountPath1"]= "80016_1",
+  ["MountPath2"]= "80016_2",
+  ["MountQuality"]= 0,
+  ["MountSound"]= 80007,
+  ["Name"]= "鸵鸟",
+  ["ResId"]= 80016
+},
+[80008] = {
+  ["ChangeCloth"]= 1,
+  ["DefaultCloth"]= 828020101,
+  ["DefaultMaterial"]= 80028,
+  ["FightLimit"]= "mount_fightlimit_80008",
+  ["Idle"]= {
+    "Idle_Mount80008"
+  },
+  ["IgnoreSexIdle"]= 1,
+  ["JobLimit"]= "mount_joblimit_80008",
+  ["MountDesc"]= "mount_desc_80008",
+  ["MountGet"]= "mount_get_80008",
+  ["MountId"]= 80008,
+  ["MountPath1"]= "80028",
+  ["MountPath2"]= "80028",
+  ["MountQuality"]= 1,
+  ["MountSound"]= 80008,
+  ["MoveAction"]= {
+    "MoveForward_Mount80008"
+  },
+  ["Name"]= "大波利",
+  ["ResId"]= 80028
+},
+[80009] = {
+  ["bgp"]= 1,
+  ["ChangeCloth"]= 1,
+  ["DefaultCloth"]= 815020201,
+  ["DefaultMaterial"]= 80015,
+  ["FightLimit"]= "mount_fightlimit_80009",
+  ["GetPathPrama"]= 10105099,
+  ["GetPathType"]= 2,
+  ["Iconid"]= 5000003,
+  ["Idle"]= {
+    "Idle_Mount80009"
+  },
+  ["IgnoreSexIdle"]= 1,
+  ["IsSpecial"]= 1,
+  ["Job"]= {
+    1610,
+    1611,
+    1620,
+    1621
+  },
+  ["JobLimit"]= "mount_joblimit_80009",
+  ["MountDesc"]= "mount_desc_80009",
+  ["MountGet"]= "mount_get_80009",
+  ["MountIconId"]= 80015,
+  ["MountId"]= 80009,
+  ["MountName"]= "mount_name_80009",
+  ["MountPath1"]= "80015_1",
+  ["MountPath2"]= "80015_2",
+  ["MountQuality"]= 1,
+  ["MountSound"]= 80009,
+  ["MoveAction"]= {
+    "MoveForward_Mount80009"
+  },
+  ["Name"]= "野猪",
+  ["ResId"]= 80015
+},
+[80010] = {
+  ["bgp"]= 1,
+  ["BoxId"]= 10204030,
+  ["CanJump"]= 0,
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["FightLimit"]= "mount_fightlimit_80010",
+  ["Idle"]= {
+    "Idle_Mount80004"
+  },
+  ["IgnoreSexIdle"]= 1,
+  ["JobLimit"]= "mount_joblimit_80010",
+  ["MountDesc"]= "mount_desc_80010",
+  ["MountGet"]= "mount_get_80010",
+  ["MountIconId"]= 80010,
+  ["MountId"]= 80010,
+  ["MountName"]= "mount_name_80010",
+  ["MountQuality"]= 1,
+  ["MoveAction"]= {
+    "MoveForward_Mount80004"
+  },
+  ["Name"]= "喷射背包",
+  ["ResId"]= 80010,
+  ["Speed"]= 5
+},
+[80027] = {
+  ["bgp"]= 3,
+  ["BoxId"]= 10204031,
+  ["ChangeCloth"]= 1,
+  ["DefaultCloth"]= 827020101,
+  ["DefaultMaterial"]= 80027,
+  ["FightLimit"]= "mount_fightlimit_80027",
+  ["Iconid"]= 80027,
+  ["Idle"]= {
+    "Idle_Mount80027"
+  },
+  ["IgnoreSexIdle"]= 1,
+  ["JobLimit"]= "mount_joblimit_80027",
+  ["MountDesc"]= "mount_desc_80027",
+  ["MountGet"]= "FashionItem_100",
+  ["MountIconId"]= 80027,
+  ["MountId"]= 80027,
+  ["MountName"]= "mount_name_80027",
+  ["MountPath1"]= "80027",
+  ["MountPath2"]= "80027",
+  ["MountSound"]= 80027,
+  ["MoveAction"]= {
+    "MoveForward_Mount80027"
+  },
+  ["Name"]= "仓鼠",
+  ["ResId"]= 80027
+},
+[80032] = {
+  ["CanMountFight"]= 1,
+  ["ChangeCloth"]= 1,
+  ["ChannelId"]= {},
+  ["DefaultMaterial"]= 80032,
+  ["FightLimit"]= "mount_fightlimit_80001",
+  ["GetPathPrama"]= 10105099,
+  ["GetPathType"]= 2,
+  ["Job"]= {
+    1112
+  },
+  ["JobLimit"]= "mount_joblimit_80001",
+  ["MountGet"]= "mount_get_80020",
+  ["MountIconId"]= 80032,
+  ["MountId"]= 80032,
+  ["MountName"]= "mount_name_80032",
+  ["MountPath1"]= "80032",
+  ["MountPath2"]= "80032",
+  ["MountSound"]= 80032,
+  ["Name"]= "地龙",
+  ["ResId"]= 80032
+},
+[80034] = {
+  ["ChangeCloth"]= 1,
+  ["ChannelId"]= {},
+  ["DefaultMaterial"]= 80034,
+  ["FightLimit"]= "mount_fightlimit_80007",
+  ["GetPathPrama"]= 10105099,
+  ["GetPathType"]= 2,
+  ["Iconid"]= 5000004,
+  ["Idle"]= {
+    "Idle_Mount80034"
+  },
+  ["IgnoreSexIdle"]= 1,
+  ["Job"]= {
+    1512
+  },
+  ["JobLimit"]= "mount_joblimit_80007",
+  ["MountGet"]= "mount_get_80007",
+  ["MountIconId"]= 80034,
+  ["MountId"]= 80034,
+  ["MountName"]= "mount_name_80034",
+  ["MountPath1"]= "80034",
+  ["MountPath2"]= "80034",
+  ["MountQuality"]= 0,
+  ["MountSound"]= 80043,
+  ["MoveAction"]= {
+    "MoveForward_Mount80034"
+  },
+  ["Name"]= "狼",
+  ["ResId"]= 80034
+},
+[80040] = {
+  ["bgp"]= 3,
+  ["BoxId"]= 10204036,
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["FightLimit"]= "mount_fightlimit_80040",
+  ["Iconid"]= 80040,
+  ["Idle"]= {
+    "Idle_Mount80040"
+  },
+  ["IgnoreSexMove"]= 0,
+  ["JobLimit"]= "mount_joblimit_80040",
+  ["MountDesc"]= "mount_desc_80040",
+  ["MountGet"]= "mount_get_80040",
+  ["MountIconId"]= 80040,
+  ["MountId"]= 80040,
+  ["MountName"]= "mount_name_80040",
+  ["MountSound"]= 80040,
+  ["MoveAction"]= {
+    "MoveForward_Mount80040"
+  },
+  ["Name"]= "狂欢新月",
+  ["ResId"]= 80040
+},
+[80042] = {
+  ["bgp"]= 3,
+  ["BoxId"]= 10204037,
+  ["Camerapz"]= 4.7,
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["FightLimit"]= "mount_fightlimit_80042",
+  ["Iconid"]= 80042,
+  ["Idle"]= {
+    "Idle_Mount80042"
+  },
+  ["IgnoreSexIdle"]= 1,
+  ["JobLimit"]= "mount_joblimit_80042",
+  ["Modelpy"]= 1.65,
+  ["MountDesc"]= "mount_desc_80042",
+  ["MountGet"]= "mount_get_80042",
+  ["MountIconId"]= 80042,
+  ["MountId"]= 80042,
+  ["MountName"]= "mount_name_80042",
+  ["MountSound"]= 80042,
+  ["MoveAction"]= {
+    "MoveForward_Mount80042"
+  },
+  ["Name"]= "南瓜马车",
+  ["OrthographicZ"]= 5,
+  ["ResId"]= 80042,
+  ["Speed"]= 5
+},
+[80043] = {
+  ["bgp"]= 1,
+  ["BoxId"]= 10204039,
+  ["Camerapz"]= 4.7,
+  ["CanJump"]= 0,
+  ["FightLimit"]= "mount_fightlimit_80042",
+  ["Iconid"]= 80043,
+  ["Idle"]= {
+    "Idle_Mount80043"
+  },
+  ["IgnoreSexMove"]= 0,
+  ["JobLimit"]= "mount_joblimit_80042",
+  ["Modelpy"]= 1.65,
+  ["MountDesc"]= "mount_desc_80042",
+  ["MountGet"]= "FashionItem_100",
+  ["MountIconId"]= 80043,
+  ["MountId"]= 80043,
+  ["MountName"]= "mount_name_80043",
+  ["MountSound"]= 80043,
+  ["MoveAction"]= {
+    "MoveForward_Mount80043"
+  },
+  ["Name"]= "雪熊雪橇",
+  ["ResId"]= 80043,
+  ["Speed"]= 5
+},
+[80044] = {
+  ["bgp"]= 1,
+  ["BoxId"]= 10204040,
+  ["Camerapz"]= 4.2,
+  ["CanJump"]= 0,
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["FightLimit"]= "mount_fightlimit_80042",
+  ["Iconid"]= 80044,
+  ["Idle"]= {
+    "Idle_Mount80044"
+  },
+  ["IgnoreSexMove"]= 0,
+  ["JobLimit"]= "mount_joblimit_80042",
+  ["Modelpy"]= 1.7,
+  ["MountDesc"]= "mount_desc_80042",
+  ["MountGet"]= "mount_get_80043",
+  ["MountIconId"]= 80044,
+  ["MountId"]= 80044,
+  ["MountName"]= "mount_name_80044",
+  ["MountSound"]= 80044,
+  ["MoveAction"]= {
+    "MoveForward_Mount80044"
+  },
+  ["Name"]= "摇铃摇篮",
+  ["ResId"]= 80044
+},
+[80045] = {
+  ["bgp"]= 1,
+  ["BoxId"]= 10204038,
+  ["Camerapz"]= 2.5,
+  ["CanJump"]= 0,
+  ["ChannelId"]= {
+    9,
+    10,
+    12
+  },
+  ["Iconid"]= 80045,
+  ["Idle"]= {
+    "Idle_Mount80045"
+  },
+  ["IgnoreSexIdle"]= 1,
+  ["Modelpy"]= 1.25,
+  ["MountDesc"]= "mount_desc_80045",
+  ["MountGet"]= "FashionItem_100",
+  ["MountIconId"]= 80045,
+  ["MountId"]= 80045,
+  ["MountName"]= "mount_name_80045",
+  ["MountSound"]= 80045,
+  ["MoveAction"]= {
+    "MoveForward_Mount80045"
+  },
+  ["Name"]= "旋风滑板",
+  ["ResId"]= 80045
+},
+[80046] = {
+  ["bgp"]= 3,
+  ["Camerapz"]= 4.7,
+  ["CanJump"]= 0,
+  ["carrierIdForClient"]= 200,
+  ["carrierNpcId"]= 63157,
+  ["Iconid"]= 0,
+  ["Idle"]= {
+    "Idle_Mount80046",
+    "Idle_Mount80046"
+  },
+  ["IgnoreSexMove"]= 0,
+  ["IsCouple"]= 1,
+  ["Modelpy"]= 1.65,
+  ["MountGet"]= "mount_get_80046",
+  ["MountIconId"]= 80046,
+  ["MountId"]= 80046,
+  ["MountName"]= "mount_name_80046",
+  ["MountQuality"]= 1,
+  ["MountSound"]= 80046,
+  ["MoveAction"]= {
+    "MoveForward_Mount80046",
+    "MoveForward_Mount80046"
+  },
+  ["Name"]= "承慕之诺马车",
+  ["OrthographicZ"]= 5,
+  ["PeopleNum"]= 2,
+  ["ResId"]= 80046,
+  ["time_limit"]= 1
+},
+[80047] = {
+  ["BoxId"]= 10204041,
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["Iconid"]= 80047,
+  ["Idle"]= {
+    "Idle_Mount80047"
+  },
+  ["IgnoreSexIdle"]= 1,
+  ["MountGet"]= "mount_get_80047",
+  ["MountIconId"]= 80047,
+  ["MountId"]= 80047,
+  ["MountName"]= "mount_name_80047",
+  ["MountSound"]= 80047,
+  ["MoveAction"]= {
+    "MoveForward_Mount80047"
+  },
+  ["Name"]= "狮头爆竹",
+  ["ResId"]= 80047
+},
+[80048] = {
+  ["BoxId"]= 10204042,
+  ["Camerapz"]= 3.2,
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["Iconid"]= 80048,
+  ["Idle"]= {
+    "Idle_Mount80048"
+  },
+  ["IgnoreSexMove"]= 0,
+  ["MountGet"]= "mount_get_80047",
+  ["MountIconId"]= 80048,
+  ["MountId"]= 80048,
+  ["MountName"]= "mount_name_80048",
+  ["MountSound"]= 80048,
+  ["MoveAction"]= {
+    "MoveForward_Mount80048"
+  },
+  ["Name"]= "熊喵阿福",
+  ["ResId"]= 80048,
+  ["Speed"]= 5
+},
+[80051] = {
+  ["BoxId"]= 10204203,
+  ["Camerapz"]= 3.2,
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["Iconid"]= 80051,
+  ["Idle"]= {
+    "Idle_Mount80005"
+  },
+  ["IgnoreSexIdle"]= 1,
+  ["MountIconId"]= 80051,
+  ["MountId"]= 80051,
+  ["MountName"]= "mount_name_80051",
+  ["MountSound"]= 80051,
+  ["MoveAction"]= {
+    "MoveForward_Mount80005"
+  },
+  ["Name"]= "皇家战马",
+  ["ResId"]= 80051
+},
+[80052] = {
+  ["Camerapz"]= 4.7,
+  ["CanJump"]= 0,
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["Iconid"]= 80052,
+  ["Idle"]= {
+    "Idle_Mount80046"
+  },
+  ["IgnoreSexMove"]= 0,
+  ["Modelpy"]= 1.85,
+  ["MountIconId"]= 80052,
+  ["MountId"]= 80052,
+  ["MountName"]= "mount_name_80052",
+  ["MountSound"]= 80052,
+  ["MoveAction"]= {
+    "MoveForward_Mount80046"
+  },
+  ["Name"]= "蒸汽直升机",
+  ["ResId"]= 80052
+},
+[80053] = {
+  ["BoxId"]= 10204202,
+  ["Camerapz"]= 4.7,
+  ["ChannelId"]= {
+    9
+  },
+  ["Iconid"]= 80053,
+  ["Idle"]= {
+    "Idle_Mount80053"
+  },
+  ["IgnoreSexMove"]= 0,
+  ["Modelpy"]= 1.75,
+  ["MountGet"]= "mount_get_80053",
+  ["MountIconId"]= 80053,
+  ["MountId"]= 80053,
+  ["MountName"]= "mount_name_80053",
+  ["MountSound"]= 80053,
+  ["MoveAction"]= {
+    "MoveForward_Mount80053"
+  },
+  ["Name"]= "嗡嗡蜂蜜罐",
+  ["ResId"]= 80053
+},
+[80056] = {
+  ["Camerapz"]= 4,
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["FightLimit"]= "mount_fightlimit_80027",
+  ["Iconid"]= 80056,
+  ["Idle"]= {
+    "Idle_Mount80056"
+  },
+  ["IgnoreSexMove"]= 0,
+  ["JobLimit"]= "mount_joblimit_80027",
+  ["Modelpy"]= 2.2,
+  ["MountIconId"]= 80056,
+  ["MountId"]= 80056,
+  ["MountName"]= "ItemName_10204198",
+  ["MountSound"]= 80056,
+  ["MoveAction"]= {
+    "MoveForward_Mount80056"
+  },
+  ["Name"]= "春日茶话",
+  ["ResId"]= 80056
+},
+[80058] = {
+  ["bgp"]= 3,
+  ["Camerapz"]= 6,
+  ["carrierIdForClient"]= 200,
+  ["carrierNpcId"]= 63157,
+  ["ChannelId"]= {
+    10,
+    12
+  },
+  ["FightLimit"]= "mount_fightlimit_80042",
+  ["Iconid"]= 80058,
+  ["Idle"]= {
+    "Idle_Mount80058",
+    "Idle_Mount80058"
+  },
+  ["IgnoreSexMove"]= 0,
+  ["JobLimit"]= "mount_joblimit_80042",
+  ["Modelpy"]= 1.65,
+  ["MountGet"]= "mount_get_81009",
+  ["MountIconId"]= 80058,
+  ["MountId"]= 80058,
+  ["MountName"]= "mount_name_80058",
+  ["MountSound"]= 80058,
+  ["MoveAction"]= {
+    "Idle_Mount80058",
+    "Idle_Mount80058"
+  },
+  ["Name"]= "帕莱圭大象",
+  ["PeopleNum"]= 2,
+  ["ResId"]= 80058
+},
+[80059] = {
+  ["bgp"]= 3,
+  ["Camerapz"]= 5,
+  ["ChannelId"]= {
+    10,
+    12
+  },
+  ["Iconid"]= 80059,
+  ["Idle"]= {
+    "Idle_Mount80059"
+  },
+  ["IgnoreSexMove"]= 0,
+  ["Modelpy"]= 1.65,
+  ["MountGet"]= "mount_get_81010",
+  ["MountIconId"]= 80059,
+  ["MountId"]= 80059,
+  ["MountName"]= "mount_name_80059",
+  ["MountSound"]= 80059,
+  ["MoveAction"]= {
+    "Idle_Mount80059"
+  },
+  ["Name"]= "帕莱安大象",
+  ["ResId"]= 80059
+},
+[80062] = {
+  ["bgp"]= 3,
+  ["BoxId"]= 10219015,
+  ["ChannelId"]= {
+    10,
+    12
+  },
+  ["Iconid"]= 80062,
+  ["Idle"]= {
+    "Idle_Mount80062"
+  },
+  ["IgnoreSexMove"]= 0,
+  ["MountIconId"]= 80062,
+  ["MountId"]= 80062,
+  ["MountName"]= "mount_name_80062",
+  ["MountSound"]= 80062,
+  ["MoveAction"]= {
+    "MoveForward_Mount80062"
+  },
+  ["Name"]= "炫目机车",
+  ["ResId"]= 80062,
+  ["Speed"]= 6
+},
+[80065] = {
+  ["BoxId"]= 10219015,
+  ["Camerapz"]= 4.7,
+  ["ChannelId"]= {
+    8,
+    11,
+    9
+  },
+  ["Iconid"]= 80065,
+  ["Idle"]= {
+    "Idle_Mount80065"
+  },
+  ["IgnoreSexMove"]= 0,
+  ["Modelpy"]= 1.65,
+  ["MountIconId"]= 80065,
+  ["MountId"]= 80065,
+  ["MountName"]= "mount_name_80065",
+  ["MountSound"]= 80065,
+  ["MoveAction"]= {
+    "Idle_Mount80065"
+  },
+  ["Name"]= "橡皮小鸭",
+  ["ResId"]= 80065
+},
+[81008] = {
+  ["bgp"]= 1,
+  ["Camerapz"]= 3.5,
+  ["FightLimit"]= "mount_fightlimit_80008",
+  ["Idle"]= {
+    "Idle_Mount80008"
+  },
+  ["IgnoreSexIdle"]= 1,
+  ["isHide"]= 1,
+  ["JobLimit"]= "mount_joblimit_80008",
+  ["MountDesc"]= "mount_desc_80008",
+  ["MountGet"]= "mount_get_80008",
+  ["MountId"]= 81008,
+  ["MountQuality"]= 1,
+  ["MountSound"]= 80008,
+  ["MoveAction"]= {
+    "MoveForward_Mount80008"
+  },
+  ["Name"]= "大波利(任务用)",
+  ["ResId"]= 80008
+},
+[90001] = {
+  ["bgp"]= 3,
+  ["Camerapz"]= 4.7,
+  ["CanJump"]= 0,
+  ["carrierIdForClient"]= 201,
+  ["carrierNpcId"]= 63211,
+  ["ChannelId"]= {},
+  ["Iconid"]= 0,
+  ["Idle"]= {
+    "carryIdle_A",
+    "carryIdle_B"
+  },
+  ["IgnoreSexIdle"]= 1,
+  ["IgnoreSexStart"]= 1,
+  ["isHide"]= 1,
+  ["isPairMove"]= 1,
+  ["Modelpy"]= 1.65,
+  ["MountDesc"]= "mount_desc_80009",
+  ["MountGet"]= "mount_get_80046",
+  ["MountIconId"]= 80046,
+  ["MountId"]= 90001,
+  ["MountName"]= "mount_name_80046",
+  ["MountQuality"]= 1,
+  ["MountSound"]= 80046,
+  ["MoveAction"]= {
+    "carryRun_A",
+    "carryRun_B"
+  },
+  ["Name"]= "测试用双人动作",
+  ["OrthographicZ"]= 5,
+  ["PeopleNum"]= 2,
+  ["ResId"]= 90001,
+  ["Speed"]= 8,
+  ["StartAction"]= {
+    "carry_A",
+    "carry_B"
+  },
+  ["time_limit"]= 1
+}
+}
+local baseTable={
+  ["bgp"]= 2,
+  ["BoxId"]= 0,
+  ["Camerapz"]= 3,
+  ["CanJump"]= 1,
+  ["CanMountFight"]= 0,
+  ["carrierIdForClient"]= 0,
+  ["carrierNpcId"]= 0,
+  ["ChangeCloth"]= 0,
+  ["ChannelId"]= {
+    8,
+    11,
+    9,
+    10,
+    12
+  },
+  ["DefaultCloth"]= 0,
+  ["DefaultMaterial"]= 0,
+  ["FightLimit"]= "mount_fightlimit_80045",
+  ["GetPathType"]= 3,
+  ["Iconid"]= 5000001,
+  ["Idle"]= {
+    "Idle"
+  },
+  ["IgnoreSexIdle"]= 0,
+  ["IgnoreSexMove"]= 1,
+  ["IgnoreSexStart"]= 0,
+  ["IsCouple"]= 0,
+  ["isHide"]= 0,
+  ["isPairMove"]= 0,
+  ["IsSpecial"]= 0,
+  ["Job"]= {
+    0
+  },
+  ["JobLimit"]= "mount_joblimit_80045",
+  ["Modelpy"]= 0,
+  ["MountDesc"]= "",
+  ["MountGet"]= "mount_get_80027",
+  ["MountIconId"]= 80028,
+  ["MountId"]= 80001,
+  ["MountName"]= "mount_name_80008",
+  ["MountPath1"]= "",
+  ["MountPath2"]= "",
+  ["MountQuality"]= 2,
+  ["MountSound"]= 80010,
+  ["MoveAction"]= {
+    "MoveForward_W"
+  },
+  ["Name"]= "大嘴鸟",
+  ["OrthographicZ"]= 0,
+  ["PeopleNum"]= 1,
+  ["PvPSpeed"]= 2,
+  ["ResId"]= 80020,
+  ["RotationY"]= 60,
+  ["Speed"]= 4,
+  ["StartAction"]= {},
+  ["time_limit"]= 0
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

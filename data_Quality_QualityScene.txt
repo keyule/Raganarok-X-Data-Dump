@@ -1,0 +1,137 @@
+TextAsset Base
+	string m_Name = "data_Quality_QualityScene"
+	string m_Script = "return {
+	[1] = {
+		["Wall"] = 0,
+		["BigObject"] = 250,
+		["GroundRoleShadowAndGround"] = 0,
+		["Grass"] = 155,
+		["SmallObject"] = 100,
+		["type"] = 1,
+		["id"] = 1,
+		["Default"] = 0,
+		["scene"] = 1010
+	},
+	[2] = {
+		["Wall"] = 300,
+		["BigObject"] = 150,
+		["GroundRoleShadowAndGround"] = 0,
+		["Grass"] = 70,
+		["SmallObject"] = 50,
+		["type"] = 2,
+		["id"] = 2,
+		["Default"] = 0,
+		["scene"] = 1010
+	},
+	[3] = {
+		["Wall"] = 250,
+		["BigObject"] = 100,
+		["GroundRoleShadowAndGround"] = 0,
+		["Grass"] = 50,
+		["SmallObject"] = 30,
+		["type"] = 3,
+		["id"] = 3,
+		["Default"] = 0,
+		["scene"] = 1010
+	},
+	[4] = {
+		["Wall"] = 0,
+		["BigObject"] = 250,
+		["GroundRoleShadowAndGround"] = 0,
+		["Grass"] = 155,
+		["SmallObject"] = 100,
+		["type"] = 1,
+		["id"] = 4,
+		["Default"] = 0,
+		["scene"] = 1020
+	},
+	[5] = {
+		["Wall"] = 300,
+		["BigObject"] = 150,
+		["GroundRoleShadowAndGround"] = 0,
+		["Grass"] = 70,
+		["SmallObject"] = 50,
+		["type"] = 2,
+		["id"] = 5,
+		["Default"] = 0,
+		["scene"] = 1020
+	},
+	[6] = {
+		["Wall"] = 250,
+		["BigObject"] = 100,
+		["GroundRoleShadowAndGround"] = 0,
+		["Grass"] = 50,
+		["SmallObject"] = 30,
+		["type"] = 3,
+		["id"] = 6,
+		["Default"] = 0,
+		["scene"] = 1020
+	},
+	[7] = {
+		["Wall"] = 0,
+		["BigObject"] = 250,
+		["GroundRoleShadowAndGround"] = 0,
+		["Grass"] = 155,
+		["SmallObject"] = 100,
+		["type"] = 1,
+		["id"] = 7,
+		["Default"] = 0,
+		["scene"] = 1030
+	},
+	[8] = {
+		["Wall"] = 300,
+		["BigObject"] = 150,
+		["GroundRoleShadowAndGround"] = 0,
+		["Grass"] = 70,
+		["SmallObject"] = 50,
+		["type"] = 2,
+		["id"] = 8,
+		["Default"] = 0,
+		["scene"] = 1030
+	},
+	[9] = {
+		["Wall"] = 250,
+		["BigObject"] = 100,
+		["GroundRoleShadowAndGround"] = 0,
+		["Grass"] = 50,
+		["SmallObject"] = 30,
+		["type"] = 3,
+		["id"] = 9,
+		["Default"] = 0,
+		["scene"] = 1030
+	},
+	[10] = {
+		["Wall"] = 0,
+		["BigObject"] = 250,
+		["GroundRoleShadowAndGround"] = 0,
+		["Grass"] = 155,
+		["SmallObject"] = 100,
+		["type"] = 1,
+		["id"] = 10,
+		["Default"] = 0,
+		["scene"] = 1110
+	},
+	[11] = {
+		["Wall"] = 300,
+		["BigObject"] = 150,
+		["GroundRoleShadowAndGround"] = 0,
+		["Grass"] = 70,
+		["SmallObject"] = 50,
+		["type"] = 2,
+		["id"] = 11,
+		["Default"] = 0,
+		["scene"] = 1110
+	},
+	[12] = {
+		["Wall"] = 250,
+		["BigObject"] = 100,
+		["GroundRoleShadowAndGround"] = 0,
+		["Grass"] = 50,
+		["SmallObject"] = 30,
+		["type"] = 3,
+		["id"] = 12,
+		["Default"] = 0,
+		["scene"] = 1110
+	}
+}
+"

@@ -1,0 +1,208 @@
+TextAsset Base
+	string m_Name = "data_Gifts_Gifts"
+	string m_Script = "local table= {
+[10901001] = {
+  ["CharmValue"]= 5,
+  ["CoupleExp"]= 1,
+  ["CurrencyId"]= 1,
+  ["CurrencyNum"]= 5000,
+  ["GiftLevel"]= 1,
+  ["Intimacy"]= 2,
+  ["IsCostTips"]= 0
+},
+[10901002] = {
+  ["CharmValue"]= 10,
+  ["CoupleExp"]= 2,
+  ["CurrencyId"]= 1,
+  ["CurrencyNum"]= 10000,
+  ["GiftLevel"]= 1,
+  ["Intimacy"]= 5,
+  ["IsCostTips"]= 0,
+  ["ItemID"]= 10901002,
+  ["LockTips"]= "GiftUnlockTips10901002",
+  ["Order"]= 17
+},
+[10901003] = {
+  ["CharmValue"]= 500,
+  ["CoupleExp"]= 50,
+  ["CurrencyNum"]= 50000,
+  ["Intimacy"]= 1000,
+  ["IsCanName"]= 1,
+  ["ItemID"]= 10901003,
+  ["LockTips"]= "GiftUnlockTips10901012",
+  ["Order"]= 7
+},
+[10901004] = {
+  ["CharmValue"]= 150,
+  ["CoupleExp"]= 15,
+  ["CurrencyNum"]= 15000,
+  ["GiftLevel"]= 3,
+  ["Intimacy"]= 300,
+  ["ItemID"]= 10901004,
+  ["LockTips"]= "GiftUnlockTips10901008",
+  ["Order"]= 11
+},
+[10901005] = {
+  ["CharmValue"]= 600,
+  ["CoupleExp"]= 60,
+  ["CurrencyNum"]= 60000,
+  ["Intimacy"]= 1200,
+  ["IsCanName"]= 1,
+  ["ItemID"]= 10901005,
+  ["LockTips"]= "GiftUnlockTips10901013",
+  ["Order"]= 6
+},
+[10901006] = {
+  ["CharmValue"]= 300,
+  ["CoupleExp"]= 30,
+  ["CurrencyNum"]= 30000,
+  ["GiftLevel"]= 3,
+  ["Intimacy"]= 600,
+  ["ItemID"]= 10901006,
+  ["LockTips"]= "GiftUnlockTips10901010",
+  ["Order"]= 9
+},
+[10901007] = {
+  ["CharmValue"]= 400,
+  ["CoupleExp"]= 40,
+  ["CurrencyNum"]= 40000,
+  ["Intimacy"]= 800,
+  ["IsCanName"]= 1,
+  ["ItemID"]= 10901007,
+  ["LockTips"]= "GiftUnlockTips10901011",
+  ["Order"]= 8
+},
+[10901008] = {
+  ["CharmValue"]= 30,
+  ["CoupleExp"]= 3,
+  ["CurrencyId"]= 1,
+  ["CurrencyNum"]= 30000,
+  ["GiftLevel"]= 1,
+  ["Intimacy"]= 15,
+  ["IsCostTips"]= 0,
+  ["ItemID"]= 10901008,
+  ["LockTips"]= "GiftUnlockTips10901003",
+  ["Order"]= 16
+},
+[10901009] = {
+  ["CharmValue"]= 200,
+  ["CoupleExp"]= 20,
+  ["CurrencyNum"]= 20000,
+  ["GiftLevel"]= 3,
+  ["Intimacy"]= 400,
+  ["ItemID"]= 10901009,
+  ["LockTips"]= "GiftUnlockTips10901009",
+  ["Order"]= 10
+},
+[10901010] = {
+  ["CharmValue"]= 800,
+  ["CoupleExp"]= 80,
+  ["CurrencyNum"]= 80000,
+  ["Intimacy"]= 1600,
+  ["IsCanName"]= 1,
+  ["ItemID"]= 10901010,
+  ["LockTips"]= "GiftUnlockTips10901014",
+  ["Order"]= 5
+},
+[10901011] = {
+  ["AnnouncementId"]= 21,
+  ["IsCanName"]= 1,
+  ["ItemID"]= 10901011,
+  ["LockTips"]= "GiftUnlockTips10901015",
+  ["Order"]= 1
+},
+[10901012] = {
+  ["AnnouncementId"]= 21,
+  ["IsCanName"]= 1,
+  ["ItemID"]= 10901012,
+  ["LockTips"]= "GiftUnlockTips10901016",
+  ["Order"]= 2
+},
+[10901013] = {
+  ["AnnouncementId"]= 21,
+  ["IsCanName"]= 1,
+  ["ItemID"]= 10901013,
+  ["LockTips"]= "GiftUnlockTips10901017",
+  ["Order"]= 3
+},
+[10901014] = {
+  ["AnnouncementId"]= 21,
+  ["IsCanName"]= 1,
+  ["ItemID"]= 10901014,
+  ["LockTips"]= "GiftUnlockTips10901018",
+  ["Order"]= 4
+},
+[10901015] = {
+  ["CharmValue"]= 50,
+  ["CoupleExp"]= 5,
+  ["CurrencyId"]= 1,
+  ["CurrencyNum"]= 50000,
+  ["GiftLevel"]= 2,
+  ["Intimacy"]= 25,
+  ["IsCostTips"]= 0,
+  ["ItemID"]= 10901015,
+  ["LockTips"]= "GiftUnlockTips10901004",
+  ["Order"]= 15
+},
+[10901016] = {
+  ["CharmValue"]= 100,
+  ["CoupleExp"]= 10,
+  ["CurrencyNum"]= 10000,
+  ["GiftLevel"]= 3,
+  ["Intimacy"]= 200,
+  ["ItemID"]= 10901016,
+  ["LockTips"]= "GiftUnlockTips10901007",
+  ["Order"]= 12
+},
+[10901017] = {
+  ["CharmValue"]= 80,
+  ["CoupleExp"]= 8,
+  ["CurrencyId"]= 1,
+  ["CurrencyNum"]= 80000,
+  ["GiftLevel"]= 2,
+  ["Intimacy"]= 40,
+  ["IsCostTips"]= 0,
+  ["ItemID"]= 10901017,
+  ["LockTips"]= "GiftUnlockTips10901006",
+  ["Order"]= 13
+},
+[10901018] = {
+  ["CharmValue"]= 60,
+  ["CoupleExp"]= 6,
+  ["CurrencyId"]= 1,
+  ["CurrencyNum"]= 60000,
+  ["GiftLevel"]= 2,
+  ["Intimacy"]= 30,
+  ["IsCostTips"]= 0,
+  ["ItemID"]= 10901018,
+  ["LockTips"]= "GiftUnlockTips10901005",
+  ["Order"]= 14
+}
+}
+local baseTable={
+  ["AcceptDayMaxNum"]= 1000,
+  ["AnnouncementId"]= 0,
+  ["CharmValue"]= 1000,
+  ["CoupleExp"]= 100,
+  ["CurrencyId"]= 3,
+  ["CurrencyNum"]= 99999,
+  ["DropId"]= 0,
+  ["GiftLevel"]= 4,
+  ["Intimacy"]= 2000,
+  ["IsCanName"]= 0,
+  ["IsCostTips"]= 1,
+  ["IsRareGift"]= 1,
+  ["IsShowInShop"]= 1,
+  ["IsUnlock"]= 1,
+  ["ItemID"]= 10901001,
+  ["LockTips"]= "GiftUnlockTips10901001",
+  ["Order"]= 18,
+  ["PresentDayMaxNum"]= 100,
+  ["PresentNeedIntimacy"]= 0,
+  ["UnLockCharmValue"]= 0,
+  ["UnLockMonthCard"]= 0
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

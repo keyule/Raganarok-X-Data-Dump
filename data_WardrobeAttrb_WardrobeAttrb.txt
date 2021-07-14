@@ -1,0 +1,256 @@
+TextAsset Base
+	string m_Name = "data_WardrobeAttrb_WardrobeAttrb"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["propID"]= {
+    32,
+    33
+  },
+  ["propNum"]= {
+    1000,
+    200
+  },
+  ["value"]= 40
+},
+[3] = {
+  ["propID"]= {
+    10,
+    11
+  },
+  ["value"]= 60
+},
+[4] = {
+  ["propID"]= {
+    18,
+    26
+  },
+  ["value"]= 80
+},
+[5] = {
+  ["propID"]= {
+    21,
+    31
+  },
+  ["value"]= 100
+},
+[6] = {
+  ["propNum"]= {
+    40,
+    40
+  },
+  ["value"]= 120
+},
+[7] = {
+  ["propID"]= {
+    32,
+    33
+  },
+  ["propNum"]= {
+    2000,
+    400
+  },
+  ["value"]= 140
+},
+[8] = {
+  ["propID"]= {
+    10,
+    11
+  },
+  ["propNum"]= {
+    40,
+    40
+  },
+  ["value"]= 160
+},
+[9] = {
+  ["propID"]= {
+    18,
+    26
+  },
+  ["propNum"]= {
+    40,
+    40
+  },
+  ["value"]= 180
+},
+[10] = {
+  ["propID"]= {
+    21,
+    31
+  },
+  ["propNum"]= {
+    40,
+    40
+  },
+  ["value"]= 200
+},
+[11] = {
+  ["propNum"]= {
+    60,
+    60
+  },
+  ["value"]= 250
+},
+[12] = {
+  ["propID"]= {
+    32,
+    33
+  },
+  ["propNum"]= {
+    3000,
+    600
+  },
+  ["value"]= 300
+},
+[13] = {
+  ["propID"]= {
+    10,
+    11
+  },
+  ["propNum"]= {
+    60,
+    60
+  },
+  ["value"]= 350
+},
+[14] = {
+  ["propID"]= {
+    18,
+    26
+  },
+  ["propNum"]= {
+    60,
+    60
+  },
+  ["value"]= 400
+},
+[15] = {
+  ["propID"]= {
+    21,
+    31
+  },
+  ["propNum"]= {
+    60,
+    60
+  },
+  ["value"]= 450
+},
+[16] = {
+  ["propNum"]= {
+    80,
+    80
+  },
+  ["value"]= 500
+},
+[17] = {
+  ["propID"]= {
+    32,
+    33
+  },
+  ["propNum"]= {
+    4000,
+    800
+  },
+  ["value"]= 550
+},
+[18] = {
+  ["propID"]= {
+    10,
+    11
+  },
+  ["propNum"]= {
+    80,
+    80
+  },
+  ["value"]= 600
+},
+[19] = {
+  ["propID"]= {
+    18,
+    26
+  },
+  ["propNum"]= {
+    80,
+    80
+  },
+  ["value"]= 650
+},
+[20] = {
+  ["propID"]= {
+    21,
+    31
+  },
+  ["propNum"]= {
+    80,
+    80
+  },
+  ["value"]= 700
+},
+[21] = {
+  ["propNum"]= {
+    100,
+    100
+  },
+  ["value"]= 800
+},
+[22] = {
+  ["propID"]= {
+    32,
+    33
+  },
+  ["propNum"]= {
+    5000,
+    1000
+  },
+  ["value"]= 900
+},
+[23] = {
+  ["propID"]= {
+    10,
+    11
+  },
+  ["propNum"]= {
+    100,
+    100
+  },
+  ["value"]= 1000
+},
+[24] = {
+  ["propID"]= {
+    18,
+    26
+  },
+  ["propNum"]= {
+    100,
+    100
+  },
+  ["value"]= 1100
+},
+[25] = {
+  ["propID"]= {
+    21,
+    31
+  },
+  ["propNum"]= {
+    100,
+    100
+  },
+  ["value"]= 1200
+}
+}
+local baseTable={
+  ["propID"]= {
+    23,
+    24
+  },
+  ["propNum"]= {
+    20,
+    20
+  },
+  ["value"]= 20
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

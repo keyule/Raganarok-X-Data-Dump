@@ -1,0 +1,11792 @@
+TextAsset Base
+	string m_Name = "data_tower_TowerLayer"
+	string m_Script = "return {
+[1] = {
+  ["baseExp"]= 0,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031105,
+    10031106,
+    10031107,
+    10031108
+  },
+  ["dropsId2"]= {
+    10031109,
+    10031110,
+    10031111,
+    10031112
+  },
+  ["dropsId3"]= {
+    10031113,
+    10031114,
+    10031115,
+    10031116
+  },
+  ["dropsId4"]= {
+    10031117,
+    10031118,
+    10031119,
+    10031120
+  },
+  ["jobExp"]= 0,
+  ["layer"]= 1,
+  ["level"]= 24,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53001,
+    53012,
+    53052
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[2] = {
+  ["baseExp"]= 20000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031105,
+    10031106,
+    10031107,
+    10031108
+  },
+  ["dropsId2"]= {
+    10031109,
+    10031110,
+    10031111,
+    10031112
+  },
+  ["dropsId3"]= {
+    10031113,
+    10031114,
+    10031115,
+    10031116
+  },
+  ["dropsId4"]= {
+    10031117,
+    10031118,
+    10031119,
+    10031120
+  },
+  ["jobExp"]= 20000,
+  ["layer"]= 2,
+  ["level"]= 25,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53016,
+    53024
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[3] = {
+  ["baseExp"]= 20000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031105,
+    10031106,
+    10031107,
+    10031108
+  },
+  ["dropsId2"]= {
+    10031109,
+    10031110,
+    10031111,
+    10031112
+  },
+  ["dropsId3"]= {
+    10031113,
+    10031114,
+    10031115,
+    10031116
+  },
+  ["dropsId4"]= {
+    10031117,
+    10031118,
+    10031119,
+    10031120
+  },
+  ["jobExp"]= 20000,
+  ["layer"]= 3,
+  ["level"]= 25,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53097,
+    53061,
+    53145,
+    53098,
+    53122
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[4] = {
+  ["baseExp"]= 20500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031105,
+    10031106,
+    10031107,
+    10031108
+  },
+  ["dropsId2"]= {
+    10031109,
+    10031110,
+    10031111,
+    10031112
+  },
+  ["dropsId3"]= {
+    10031113,
+    10031114,
+    10031115,
+    10031116
+  },
+  ["dropsId4"]= {
+    10031117,
+    10031118,
+    10031119,
+    10031120
+  },
+  ["jobExp"]= 20500,
+  ["layer"]= 4,
+  ["level"]= 26,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {
+    10031221,
+    10031222,
+    10031223,
+    10031224
+  },
+  ["treasurePr"]= 0.3,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53009,
+    53048,
+    53049
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[5] = {
+  ["baseExp"]= 20500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 10,
+  ["dropsId1"]= {
+    10031101,
+    10031102,
+    10031103,
+    10031104
+  },
+  ["dropsId2"]= {
+    10031105,
+    10031106,
+    10031107,
+    10031108
+  },
+  ["dropsId3"]= {
+    10031109,
+    10031110,
+    10031111,
+    10031112
+  },
+  ["dropsId4"]= {
+    10031113,
+    10031114,
+    10031115,
+    10031116
+  },
+  ["jobExp"]= 20500,
+  ["layer"]= 5,
+  ["level"]= 30,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53501,
+  ["typeList"]= {
+    5
+  }
+},
+[6] = {
+  ["baseExp"]= 20500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031105,
+    10031106,
+    10031107,
+    10031108
+  },
+  ["dropsId2"]= {
+    10031109,
+    10031110,
+    10031111,
+    10031112
+  },
+  ["dropsId3"]= {
+    10031113,
+    10031114,
+    10031115,
+    10031116
+  },
+  ["dropsId4"]= {
+    10031117,
+    10031118,
+    10031119,
+    10031120
+  },
+  ["jobExp"]= 20500,
+  ["layer"]= 6,
+  ["level"]= 26,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53027,
+    53149,
+    53105,
+    53108,
+    53106
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[7] = {
+  ["baseExp"]= 21000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031105,
+    10031106,
+    10031107,
+    10031108
+  },
+  ["dropsId2"]= {
+    10031109,
+    10031110,
+    10031111,
+    10031112
+  },
+  ["dropsId3"]= {
+    10031113,
+    10031114,
+    10031115,
+    10031116
+  },
+  ["dropsId4"]= {
+    10031117,
+    10031118,
+    10031119,
+    10031120
+  },
+  ["jobExp"]= 21000,
+  ["layer"]= 7,
+  ["level"]= 27,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53044,
+    53084
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[8] = {
+  ["baseExp"]= 21000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031105,
+    10031106,
+    10031107,
+    10031108
+  },
+  ["dropsId2"]= {
+    10031109,
+    10031110,
+    10031111,
+    10031112
+  },
+  ["dropsId3"]= {
+    10031113,
+    10031114,
+    10031115,
+    10031116
+  },
+  ["dropsId4"]= {
+    10031117,
+    10031118,
+    10031119,
+    10031120
+  },
+  ["jobExp"]= 21000,
+  ["layer"]= 8,
+  ["level"]= 27,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53039,
+    53015
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[9] = {
+  ["baseExp"]= 21500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031105,
+    10031106,
+    10031107,
+    10031108
+  },
+  ["dropsId2"]= {
+    10031109,
+    10031110,
+    10031111,
+    10031112
+  },
+  ["dropsId3"]= {
+    10031113,
+    10031114,
+    10031115,
+    10031116
+  },
+  ["dropsId4"]= {
+    10031117,
+    10031118,
+    10031119,
+    10031120
+  },
+  ["jobExp"]= 21500,
+  ["layer"]= 9,
+  ["level"]= 28,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53022,
+    53017
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[10] = {
+  ["baseExp"]= 21500,
+  ["blessPr"]= {
+    100,
+    10,
+    1,
+    0
+  },
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 20,
+  ["dropsId1"]= {
+    10031201,
+    10031202,
+    10031203,
+    10031204
+  },
+  ["dropsId2"]= {
+    10031205,
+    10031206,
+    10031207,
+    10031208
+  },
+  ["dropsId3"]= {
+    10031209,
+    10031210,
+    10031211,
+    10031212
+  },
+  ["dropsId4"]= {
+    10031213,
+    10031214,
+    10031215,
+    10031216
+  },
+  ["jobExp"]= 21500,
+  ["layer"]= 10,
+  ["level"]= 30,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53518,
+  ["typeList"]= {
+    5
+  }
+},
+[11] = {
+  ["baseExp"]= 21500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031105,
+    10031106,
+    10031107,
+    10031108
+  },
+  ["dropsId2"]= {
+    10031109,
+    10031110,
+    10031111,
+    10031112
+  },
+  ["dropsId3"]= {
+    10031113,
+    10031114,
+    10031115,
+    10031116
+  },
+  ["dropsId4"]= {
+    10031117,
+    10031118,
+    10031119,
+    10031120
+  },
+  ["jobExp"]= 21500,
+  ["layer"]= 11,
+  ["level"]= 28,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53054,
+    53027
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[12] = {
+  ["baseExp"]= 22000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031105,
+    10031106,
+    10031107,
+    10031108
+  },
+  ["dropsId2"]= {
+    10031109,
+    10031110,
+    10031111,
+    10031112
+  },
+  ["dropsId3"]= {
+    10031113,
+    10031114,
+    10031115,
+    10031116
+  },
+  ["dropsId4"]= {
+    10031117,
+    10031118,
+    10031119,
+    10031120
+  },
+  ["jobExp"]= 22000,
+  ["layer"]= 12,
+  ["level"]= 29,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53060,
+    53057,
+    53058
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[13] = {
+  ["baseExp"]= 22000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031105,
+    10031106,
+    10031107,
+    10031108
+  },
+  ["dropsId2"]= {
+    10031109,
+    10031110,
+    10031111,
+    10031112
+  },
+  ["dropsId3"]= {
+    10031113,
+    10031114,
+    10031115,
+    10031116
+  },
+  ["dropsId4"]= {
+    10031117,
+    10031118,
+    10031119,
+    10031120
+  },
+  ["jobExp"]= 22000,
+  ["layer"]= 13,
+  ["level"]= 29,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53089,
+    53090
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[14] = {
+  ["baseExp"]= 22500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031105,
+    10031106,
+    10031107,
+    10031108
+  },
+  ["dropsId2"]= {
+    10031109,
+    10031110,
+    10031111,
+    10031112
+  },
+  ["dropsId3"]= {
+    10031113,
+    10031114,
+    10031115,
+    10031116
+  },
+  ["dropsId4"]= {
+    10031117,
+    10031118,
+    10031119,
+    10031120
+  },
+  ["jobExp"]= 22500,
+  ["layer"]= 14,
+  ["level"]= 30,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {
+    10031221,
+    10031222,
+    10031223,
+    10031224
+  },
+  ["treasurePr"]= 0.3,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53158,
+    53121,
+    53123,
+    53126,
+    53127
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[15] = {
+  ["baseExp"]= 22500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 10,
+  ["dropsId1"]= {
+    10031101,
+    10031102,
+    10031103,
+    10031104
+  },
+  ["dropsId2"]= {
+    10031105,
+    10031106,
+    10031107,
+    10031108
+  },
+  ["dropsId3"]= {
+    10031109,
+    10031110,
+    10031111,
+    10031112
+  },
+  ["dropsId4"]= {
+    10031113,
+    10031114,
+    10031115,
+    10031116
+  },
+  ["jobExp"]= 22500,
+  ["layer"]= 15,
+  ["level"]= 30,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53511,
+  ["typeList"]= {
+    5
+  }
+},
+[16] = {
+  ["baseExp"]= 22500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031105,
+    10031106,
+    10031107,
+    10031108
+  },
+  ["dropsId2"]= {
+    10031109,
+    10031110,
+    10031111,
+    10031112
+  },
+  ["dropsId3"]= {
+    10031113,
+    10031114,
+    10031115,
+    10031116
+  },
+  ["dropsId4"]= {
+    10031117,
+    10031118,
+    10031119,
+    10031120
+  },
+  ["jobExp"]= 22500,
+  ["layer"]= 16,
+  ["level"]= 30,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53080,
+    53082,
+    53081
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[17] = {
+  ["baseExp"]= 23000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031105,
+    10031106,
+    10031107,
+    10031108
+  },
+  ["dropsId2"]= {
+    10031109,
+    10031110,
+    10031111,
+    10031112
+  },
+  ["dropsId3"]= {
+    10031113,
+    10031114,
+    10031115,
+    10031116
+  },
+  ["dropsId4"]= {
+    10031117,
+    10031118,
+    10031119,
+    10031120
+  },
+  ["jobExp"]= 23000,
+  ["layer"]= 17,
+  ["level"]= 31,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53056,
+    53125,
+    53006
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[18] = {
+  ["baseExp"]= 23000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031105,
+    10031106,
+    10031107,
+    10031108
+  },
+  ["dropsId2"]= {
+    10031109,
+    10031110,
+    10031111,
+    10031112
+  },
+  ["dropsId3"]= {
+    10031113,
+    10031114,
+    10031115,
+    10031116
+  },
+  ["dropsId4"]= {
+    10031117,
+    10031118,
+    10031119,
+    10031120
+  },
+  ["jobExp"]= 23000,
+  ["layer"]= 18,
+  ["level"]= 31,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53047,
+    53046
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[19] = {
+  ["baseExp"]= 23500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031105,
+    10031106,
+    10031107,
+    10031108
+  },
+  ["dropsId2"]= {
+    10031109,
+    10031110,
+    10031111,
+    10031112
+  },
+  ["dropsId3"]= {
+    10031113,
+    10031114,
+    10031115,
+    10031116
+  },
+  ["dropsId4"]= {
+    10031117,
+    10031118,
+    10031119,
+    10031120
+  },
+  ["jobExp"]= 23500,
+  ["layer"]= 19,
+  ["level"]= 32,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53072,
+    53074,
+    53079
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[20] = {
+  ["baseExp"]= 23500,
+  ["blessPr"]= {
+    100,
+    10,
+    1,
+    0
+  },
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 20,
+  ["dropsId1"]= {
+    10031201,
+    10031202,
+    10031203,
+    10031204
+  },
+  ["dropsId2"]= {
+    10031205,
+    10031206,
+    10031207,
+    10031208
+  },
+  ["dropsId3"]= {
+    10031209,
+    10031210,
+    10031211,
+    10031212
+  },
+  ["dropsId4"]= {
+    10031213,
+    10031214,
+    10031215,
+    10031216
+  },
+  ["jobExp"]= 23500,
+  ["layer"]= 20,
+  ["level"]= 32,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53517,
+  ["typeList"]= {
+    5
+  }
+},
+[21] = {
+  ["baseExp"]= 0,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {},
+  ["dropsId2"]= {},
+  ["dropsId3"]= {},
+  ["dropsId4"]= {},
+  ["jobExp"]= 0,
+  ["layer"]= 21,
+  ["level"]= 1,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53037,
+    53007
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    6
+  }
+},
+[22] = {
+  ["baseExp"]= 24000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031205,
+    10031206,
+    10031207,
+    10031208
+  },
+  ["dropsId2"]= {
+    10031209,
+    10031210,
+    10031211,
+    10031212
+  },
+  ["dropsId3"]= {
+    10031213,
+    10031214,
+    10031215,
+    10031216
+  },
+  ["dropsId4"]= {
+    10031217,
+    10031218,
+    10031219,
+    10031220
+  },
+  ["jobExp"]= 24000,
+  ["layer"]= 22,
+  ["level"]= 33,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53115,
+    53083,
+    53094
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[23] = {
+  ["baseExp"]= 24000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031205,
+    10031206,
+    10031207,
+    10031208
+  },
+  ["dropsId2"]= {
+    10031209,
+    10031210,
+    10031211,
+    10031212
+  },
+  ["dropsId3"]= {
+    10031213,
+    10031214,
+    10031215,
+    10031216
+  },
+  ["dropsId4"]= {
+    10031217,
+    10031218,
+    10031219,
+    10031220
+  },
+  ["jobExp"]= 24000,
+  ["layer"]= 23,
+  ["level"]= 33,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53083,
+    53076,
+    53074,
+    53075
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[24] = {
+  ["baseExp"]= 24500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031205,
+    10031206,
+    10031207,
+    10031208
+  },
+  ["dropsId2"]= {
+    10031209,
+    10031210,
+    10031211,
+    10031212
+  },
+  ["dropsId3"]= {
+    10031213,
+    10031214,
+    10031215,
+    10031216
+  },
+  ["dropsId4"]= {
+    10031217,
+    10031218,
+    10031219,
+    10031220
+  },
+  ["jobExp"]= 24500,
+  ["layer"]= 24,
+  ["level"]= 34,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {
+    10031421,
+    10031422,
+    10031423,
+    10031424
+  },
+  ["treasurePr"]= 0.3,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53132,
+    53037
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[25] = {
+  ["baseExp"]= 24500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 10,
+  ["dropsId1"]= {
+    10031201,
+    10031202,
+    10031203,
+    10031204
+  },
+  ["dropsId2"]= {
+    10031205,
+    10031206,
+    10031207,
+    10031208
+  },
+  ["dropsId3"]= {
+    10031209,
+    10031210,
+    10031211,
+    10031212
+  },
+  ["dropsId4"]= {
+    10031213,
+    10031214,
+    10031215,
+    10031216
+  },
+  ["jobExp"]= 24500,
+  ["layer"]= 25,
+  ["level"]= 34,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53513,
+  ["typeList"]= {
+    5
+  }
+},
+[26] = {
+  ["baseExp"]= 24500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031205,
+    10031206,
+    10031207,
+    10031208
+  },
+  ["dropsId2"]= {
+    10031209,
+    10031210,
+    10031211,
+    10031212
+  },
+  ["dropsId3"]= {
+    10031213,
+    10031214,
+    10031215,
+    10031216
+  },
+  ["dropsId4"]= {
+    10031217,
+    10031218,
+    10031219,
+    10031220
+  },
+  ["jobExp"]= 24500,
+  ["layer"]= 26,
+  ["level"]= 34,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53036,
+    53092
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[27] = {
+  ["baseExp"]= 25000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031205,
+    10031206,
+    10031207,
+    10031208
+  },
+  ["dropsId2"]= {
+    10031209,
+    10031210,
+    10031211,
+    10031212
+  },
+  ["dropsId3"]= {
+    10031213,
+    10031214,
+    10031215,
+    10031216
+  },
+  ["dropsId4"]= {
+    10031217,
+    10031218,
+    10031219,
+    10031220
+  },
+  ["jobExp"]= 25000,
+  ["layer"]= 27,
+  ["level"]= 35,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53111,
+    53112,
+    53110,
+    53109,
+    53113,
+    53114
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[28] = {
+  ["baseExp"]= 25000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031205,
+    10031206,
+    10031207,
+    10031208
+  },
+  ["dropsId2"]= {
+    10031209,
+    10031210,
+    10031211,
+    10031212
+  },
+  ["dropsId3"]= {
+    10031213,
+    10031214,
+    10031215,
+    10031216
+  },
+  ["dropsId4"]= {
+    10031217,
+    10031218,
+    10031219,
+    10031220
+  },
+  ["jobExp"]= 25000,
+  ["layer"]= 28,
+  ["level"]= 35,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53065,
+    53086
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[29] = {
+  ["baseExp"]= 25500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031205,
+    10031206,
+    10031207,
+    10031208
+  },
+  ["dropsId2"]= {
+    10031209,
+    10031210,
+    10031211,
+    10031212
+  },
+  ["dropsId3"]= {
+    10031213,
+    10031214,
+    10031215,
+    10031216
+  },
+  ["dropsId4"]= {
+    10031217,
+    10031218,
+    10031219,
+    10031220
+  },
+  ["jobExp"]= 25500,
+  ["layer"]= 29,
+  ["level"]= 36,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53010,
+    53149,
+    53019
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[30] = {
+  ["baseExp"]= 25500,
+  ["blessPr"]= {
+    89,
+    20,
+    2,
+    0
+  },
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 20,
+  ["dropsId1"]= {
+    10031301,
+    10031302,
+    10031303,
+    10031304
+  },
+  ["dropsId2"]= {
+    10031305,
+    10031306,
+    10031307,
+    10031308
+  },
+  ["dropsId3"]= {
+    10031309,
+    10031310,
+    10031311,
+    10031312
+  },
+  ["dropsId4"]= {
+    10031313,
+    10031314,
+    10031315,
+    10031316
+  },
+  ["jobExp"]= 25500,
+  ["layer"]= 30,
+  ["level"]= 36,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53502,
+  ["typeList"]= {
+    5
+  }
+},
+[31] = {
+  ["baseExp"]= 25500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031205,
+    10031206,
+    10031207,
+    10031208
+  },
+  ["dropsId2"]= {
+    10031209,
+    10031210,
+    10031211,
+    10031212
+  },
+  ["dropsId3"]= {
+    10031213,
+    10031214,
+    10031215,
+    10031216
+  },
+  ["dropsId4"]= {
+    10031217,
+    10031218,
+    10031219,
+    10031220
+  },
+  ["jobExp"]= 25500,
+  ["layer"]= 31,
+  ["level"]= 36,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53021,
+    53108
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[32] = {
+  ["baseExp"]= 26000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031205,
+    10031206,
+    10031207,
+    10031208
+  },
+  ["dropsId2"]= {
+    10031209,
+    10031210,
+    10031211,
+    10031212
+  },
+  ["dropsId3"]= {
+    10031213,
+    10031214,
+    10031215,
+    10031216
+  },
+  ["dropsId4"]= {
+    10031217,
+    10031218,
+    10031219,
+    10031220
+  },
+  ["jobExp"]= 26000,
+  ["layer"]= 32,
+  ["level"]= 37,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53111,
+    53112,
+    53110,
+    53109,
+    53113,
+    53114
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[33] = {
+  ["baseExp"]= 26000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031205,
+    10031206,
+    10031207,
+    10031208
+  },
+  ["dropsId2"]= {
+    10031209,
+    10031210,
+    10031211,
+    10031212
+  },
+  ["dropsId3"]= {
+    10031213,
+    10031214,
+    10031215,
+    10031216
+  },
+  ["dropsId4"]= {
+    10031217,
+    10031218,
+    10031219,
+    10031220
+  },
+  ["jobExp"]= 26000,
+  ["layer"]= 33,
+  ["level"]= 37,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53128,
+    53129,
+    53131,
+    53130
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[34] = {
+  ["baseExp"]= 26500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031205,
+    10031206,
+    10031207,
+    10031208
+  },
+  ["dropsId2"]= {
+    10031209,
+    10031210,
+    10031211,
+    10031212
+  },
+  ["dropsId3"]= {
+    10031213,
+    10031214,
+    10031215,
+    10031216
+  },
+  ["dropsId4"]= {
+    10031217,
+    10031218,
+    10031219,
+    10031220
+  },
+  ["jobExp"]= 26500,
+  ["layer"]= 34,
+  ["level"]= 38,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {
+    10031421,
+    10031422,
+    10031423,
+    10031424
+  },
+  ["treasurePr"]= 0.3,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53064,
+    53155
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[35] = {
+  ["baseExp"]= 26500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 10,
+  ["dropsId1"]= {
+    10031201,
+    10031202,
+    10031203,
+    10031204
+  },
+  ["dropsId2"]= {
+    10031205,
+    10031206,
+    10031207,
+    10031208
+  },
+  ["dropsId3"]= {
+    10031209,
+    10031210,
+    10031211,
+    10031212
+  },
+  ["dropsId4"]= {
+    10031213,
+    10031214,
+    10031215,
+    10031216
+  },
+  ["jobExp"]= 26500,
+  ["layer"]= 35,
+  ["level"]= 38,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53505,
+  ["typeList"]= {
+    5
+  }
+},
+[36] = {
+  ["baseExp"]= 26500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031205,
+    10031206,
+    10031207,
+    10031208
+  },
+  ["dropsId2"]= {
+    10031209,
+    10031210,
+    10031211,
+    10031212
+  },
+  ["dropsId3"]= {
+    10031213,
+    10031214,
+    10031215,
+    10031216
+  },
+  ["dropsId4"]= {
+    10031217,
+    10031218,
+    10031219,
+    10031220
+  },
+  ["jobExp"]= 26500,
+  ["layer"]= 36,
+  ["level"]= 38,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53124,
+    53091,
+    53042
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[37] = {
+  ["baseExp"]= 27000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031205,
+    10031206,
+    10031207,
+    10031208
+  },
+  ["dropsId2"]= {
+    10031209,
+    10031210,
+    10031211,
+    10031212
+  },
+  ["dropsId3"]= {
+    10031213,
+    10031214,
+    10031215,
+    10031216
+  },
+  ["dropsId4"]= {
+    10031217,
+    10031218,
+    10031219,
+    10031220
+  },
+  ["jobExp"]= 27000,
+  ["layer"]= 37,
+  ["level"]= 39,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53059,
+    53028
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[38] = {
+  ["baseExp"]= 27000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031205,
+    10031206,
+    10031207,
+    10031208
+  },
+  ["dropsId2"]= {
+    10031209,
+    10031210,
+    10031211,
+    10031212
+  },
+  ["dropsId3"]= {
+    10031213,
+    10031214,
+    10031215,
+    10031216
+  },
+  ["dropsId4"]= {
+    10031217,
+    10031218,
+    10031219,
+    10031220
+  },
+  ["jobExp"]= 27000,
+  ["layer"]= 38,
+  ["level"]= 39,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53041,
+    53156
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[39] = {
+  ["baseExp"]= 27500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031205,
+    10031206,
+    10031207,
+    10031208
+  },
+  ["dropsId2"]= {
+    10031209,
+    10031210,
+    10031211,
+    10031212
+  },
+  ["dropsId3"]= {
+    10031213,
+    10031214,
+    10031215,
+    10031216
+  },
+  ["dropsId4"]= {
+    10031217,
+    10031218,
+    10031219,
+    10031220
+  },
+  ["jobExp"]= 27500,
+  ["layer"]= 39,
+  ["level"]= 40,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53011,
+    53152
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[40] = {
+  ["baseExp"]= 27500,
+  ["blessPr"]= {
+    89,
+    20,
+    2,
+    0
+  },
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 20,
+  ["dropsId1"]= {
+    10031301,
+    10031302,
+    10031303,
+    10031304
+  },
+  ["dropsId2"]= {
+    10031305,
+    10031306,
+    10031307,
+    10031308
+  },
+  ["dropsId3"]= {
+    10031309,
+    10031310,
+    10031311,
+    10031312
+  },
+  ["dropsId4"]= {
+    10031313,
+    10031314,
+    10031315,
+    10031316
+  },
+  ["jobExp"]= 27500,
+  ["layer"]= 40,
+  ["level"]= 40,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53514,
+  ["typeList"]= {
+    5
+  }
+},
+[41] = {
+  ["baseExp"]= 0,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {},
+  ["dropsId2"]= {},
+  ["dropsId3"]= {},
+  ["dropsId4"]= {},
+  ["jobExp"]= 0,
+  ["layer"]= 41,
+  ["level"]= 1,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53018,
+    53014
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    6
+  }
+},
+[42] = {
+  ["baseExp"]= 28500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031305,
+    10031306,
+    10031307,
+    10031308
+  },
+  ["dropsId2"]= {
+    10031309,
+    10031310,
+    10031311,
+    10031312
+  },
+  ["dropsId3"]= {
+    10031313,
+    10031314,
+    10031315,
+    10031316
+  },
+  ["dropsId4"]= {
+    10031317,
+    10031318,
+    10031319,
+    10031320
+  },
+  ["jobExp"]= 28500,
+  ["layer"]= 42,
+  ["level"]= 41,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53023,
+    53018
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[43] = {
+  ["baseExp"]= 28500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031305,
+    10031306,
+    10031307,
+    10031308
+  },
+  ["dropsId2"]= {
+    10031309,
+    10031310,
+    10031311,
+    10031312
+  },
+  ["dropsId3"]= {
+    10031313,
+    10031314,
+    10031315,
+    10031316
+  },
+  ["dropsId4"]= {
+    10031317,
+    10031318,
+    10031319,
+    10031320
+  },
+  ["jobExp"]= 28500,
+  ["layer"]= 43,
+  ["level"]= 41,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53053,
+    53020,
+    53033
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[44] = {
+  ["baseExp"]= 29500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031305,
+    10031306,
+    10031307,
+    10031308
+  },
+  ["dropsId2"]= {
+    10031309,
+    10031310,
+    10031311,
+    10031312
+  },
+  ["dropsId3"]= {
+    10031313,
+    10031314,
+    10031315,
+    10031316
+  },
+  ["dropsId4"]= {
+    10031317,
+    10031318,
+    10031319,
+    10031320
+  },
+  ["jobExp"]= 29500,
+  ["layer"]= 44,
+  ["level"]= 42,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {
+    10031621,
+    10031622,
+    10031623,
+    10031624
+  },
+  ["treasurePr"]= 0.3,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53158,
+    53015,
+    53016,
+    53151
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[45] = {
+  ["baseExp"]= 29500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 10,
+  ["dropsId1"]= {
+    10031301,
+    10031302,
+    10031303,
+    10031304
+  },
+  ["dropsId2"]= {
+    10031305,
+    10031306,
+    10031307,
+    10031308
+  },
+  ["dropsId3"]= {
+    10031309,
+    10031310,
+    10031311,
+    10031312
+  },
+  ["dropsId4"]= {
+    10031313,
+    10031314,
+    10031315,
+    10031316
+  },
+  ["jobExp"]= 29500,
+  ["layer"]= 45,
+  ["level"]= 42,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53503,
+  ["typeList"]= {
+    5
+  }
+},
+[46] = {
+  ["baseExp"]= 29500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031305,
+    10031306,
+    10031307,
+    10031308
+  },
+  ["dropsId2"]= {
+    10031309,
+    10031310,
+    10031311,
+    10031312
+  },
+  ["dropsId3"]= {
+    10031313,
+    10031314,
+    10031315,
+    10031316
+  },
+  ["dropsId4"]= {
+    10031317,
+    10031318,
+    10031319,
+    10031320
+  },
+  ["jobExp"]= 29500,
+  ["layer"]= 46,
+  ["level"]= 42,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53102,
+    53088
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[47] = {
+  ["baseExp"]= 30500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031305,
+    10031306,
+    10031307,
+    10031308
+  },
+  ["dropsId2"]= {
+    10031309,
+    10031310,
+    10031311,
+    10031312
+  },
+  ["dropsId3"]= {
+    10031313,
+    10031314,
+    10031315,
+    10031316
+  },
+  ["dropsId4"]= {
+    10031317,
+    10031318,
+    10031319,
+    10031320
+  },
+  ["jobExp"]= 30500,
+  ["layer"]= 47,
+  ["level"]= 43,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53034,
+    53035
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[48] = {
+  ["baseExp"]= 30500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031305,
+    10031306,
+    10031307,
+    10031308
+  },
+  ["dropsId2"]= {
+    10031309,
+    10031310,
+    10031311,
+    10031312
+  },
+  ["dropsId3"]= {
+    10031313,
+    10031314,
+    10031315,
+    10031316
+  },
+  ["dropsId4"]= {
+    10031317,
+    10031318,
+    10031319,
+    10031320
+  },
+  ["jobExp"]= 30500,
+  ["layer"]= 48,
+  ["level"]= 43,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53100,
+    53153
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[49] = {
+  ["baseExp"]= 31500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031305,
+    10031306,
+    10031307,
+    10031308
+  },
+  ["dropsId2"]= {
+    10031309,
+    10031310,
+    10031311,
+    10031312
+  },
+  ["dropsId3"]= {
+    10031313,
+    10031314,
+    10031315,
+    10031316
+  },
+  ["dropsId4"]= {
+    10031317,
+    10031318,
+    10031319,
+    10031320
+  },
+  ["jobExp"]= 31500,
+  ["layer"]= 49,
+  ["level"]= 44,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53038,
+    53150
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[50] = {
+  ["baseExp"]= 31500,
+  ["blessPr"]= {
+    78,
+    30,
+    3,
+    0
+  },
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 20,
+  ["dropsId1"]= {
+    10031401,
+    10031402,
+    10031403,
+    10031404
+  },
+  ["dropsId2"]= {
+    10031405,
+    10031406,
+    10031407,
+    10031408
+  },
+  ["dropsId3"]= {
+    10031409,
+    10031410,
+    10031411,
+    10031412
+  },
+  ["dropsId4"]= {
+    10031413,
+    10031414,
+    10031415,
+    10031416
+  },
+  ["jobExp"]= 31500,
+  ["layer"]= 50,
+  ["level"]= 44,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53507,
+  ["typeList"]= {
+    5
+  }
+},
+[51] = {
+  ["baseExp"]= 31500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031305,
+    10031306,
+    10031307,
+    10031308
+  },
+  ["dropsId2"]= {
+    10031309,
+    10031310,
+    10031311,
+    10031312
+  },
+  ["dropsId3"]= {
+    10031313,
+    10031314,
+    10031315,
+    10031316
+  },
+  ["dropsId4"]= {
+    10031317,
+    10031318,
+    10031319,
+    10031320
+  },
+  ["jobExp"]= 31500,
+  ["layer"]= 51,
+  ["level"]= 44,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53077,
+    53078
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[52] = {
+  ["baseExp"]= 32500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031305,
+    10031306,
+    10031307,
+    10031308
+  },
+  ["dropsId2"]= {
+    10031309,
+    10031310,
+    10031311,
+    10031312
+  },
+  ["dropsId3"]= {
+    10031313,
+    10031314,
+    10031315,
+    10031316
+  },
+  ["dropsId4"]= {
+    10031317,
+    10031318,
+    10031319,
+    10031320
+  },
+  ["jobExp"]= 32500,
+  ["layer"]= 52,
+  ["level"]= 45,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53117,
+    53116
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[53] = {
+  ["baseExp"]= 32500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031305,
+    10031306,
+    10031307,
+    10031308
+  },
+  ["dropsId2"]= {
+    10031309,
+    10031310,
+    10031311,
+    10031312
+  },
+  ["dropsId3"]= {
+    10031313,
+    10031314,
+    10031315,
+    10031316
+  },
+  ["dropsId4"]= {
+    10031317,
+    10031318,
+    10031319,
+    10031320
+  },
+  ["jobExp"]= 32500,
+  ["layer"]= 53,
+  ["level"]= 45,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53029,
+    53050
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[54] = {
+  ["baseExp"]= 33500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031305,
+    10031306,
+    10031307,
+    10031308
+  },
+  ["dropsId2"]= {
+    10031309,
+    10031310,
+    10031311,
+    10031312
+  },
+  ["dropsId3"]= {
+    10031313,
+    10031314,
+    10031315,
+    10031316
+  },
+  ["dropsId4"]= {
+    10031317,
+    10031318,
+    10031319,
+    10031320
+  },
+  ["jobExp"]= 33500,
+  ["layer"]= 54,
+  ["level"]= 46,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {
+    10031621,
+    10031622,
+    10031623,
+    10031624
+  },
+  ["treasurePr"]= 0.3,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53133,
+    53134
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[55] = {
+  ["baseExp"]= 33500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 10,
+  ["dropsId1"]= {
+    10031301,
+    10031302,
+    10031303,
+    10031304
+  },
+  ["dropsId2"]= {
+    10031305,
+    10031306,
+    10031307,
+    10031308
+  },
+  ["dropsId3"]= {
+    10031309,
+    10031310,
+    10031311,
+    10031312
+  },
+  ["dropsId4"]= {
+    10031313,
+    10031314,
+    10031315,
+    10031316
+  },
+  ["jobExp"]= 33500,
+  ["layer"]= 55,
+  ["level"]= 46,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53504,
+  ["typeList"]= {
+    5
+  }
+},
+[56] = {
+  ["baseExp"]= 33500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031305,
+    10031306,
+    10031307,
+    10031308
+  },
+  ["dropsId2"]= {
+    10031309,
+    10031310,
+    10031311,
+    10031312
+  },
+  ["dropsId3"]= {
+    10031313,
+    10031314,
+    10031315,
+    10031316
+  },
+  ["dropsId4"]= {
+    10031317,
+    10031318,
+    10031319,
+    10031320
+  },
+  ["jobExp"]= 33500,
+  ["layer"]= 56,
+  ["level"]= 46,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53040,
+    53159
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[57] = {
+  ["baseExp"]= 34500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031305,
+    10031306,
+    10031307,
+    10031308
+  },
+  ["dropsId2"]= {
+    10031309,
+    10031310,
+    10031311,
+    10031312
+  },
+  ["dropsId3"]= {
+    10031313,
+    10031314,
+    10031315,
+    10031316
+  },
+  ["dropsId4"]= {
+    10031317,
+    10031318,
+    10031319,
+    10031320
+  },
+  ["jobExp"]= 34500,
+  ["layer"]= 57,
+  ["level"]= 47,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53099,
+    53154,
+    53118
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[58] = {
+  ["baseExp"]= 34500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031305,
+    10031306,
+    10031307,
+    10031308
+  },
+  ["dropsId2"]= {
+    10031309,
+    10031310,
+    10031311,
+    10031312
+  },
+  ["dropsId3"]= {
+    10031313,
+    10031314,
+    10031315,
+    10031316
+  },
+  ["dropsId4"]= {
+    10031317,
+    10031318,
+    10031319,
+    10031320
+  },
+  ["jobExp"]= 34500,
+  ["layer"]= 58,
+  ["level"]= 47,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53071,
+    53069,
+    53068
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[59] = {
+  ["baseExp"]= 35500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031305,
+    10031306,
+    10031307,
+    10031308
+  },
+  ["dropsId2"]= {
+    10031309,
+    10031310,
+    10031311,
+    10031312
+  },
+  ["dropsId3"]= {
+    10031313,
+    10031314,
+    10031315,
+    10031316
+  },
+  ["dropsId4"]= {
+    10031317,
+    10031318,
+    10031319,
+    10031320
+  },
+  ["jobExp"]= 35500,
+  ["layer"]= 59,
+  ["level"]= 48,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53025,
+    53147
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[60] = {
+  ["baseExp"]= 35500,
+  ["blessPr"]= {
+    78,
+    30,
+    3,
+    0
+  },
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 20,
+  ["dropsId1"]= {
+    10031401,
+    10031402,
+    10031403,
+    10031404
+  },
+  ["dropsId2"]= {
+    10031405,
+    10031406,
+    10031407,
+    10031408
+  },
+  ["dropsId3"]= {
+    10031409,
+    10031410,
+    10031411,
+    10031412
+  },
+  ["dropsId4"]= {
+    10031413,
+    10031414,
+    10031415,
+    10031416
+  },
+  ["jobExp"]= 35500,
+  ["layer"]= 60,
+  ["level"]= 48,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53509,
+  ["typeList"]= {
+    5
+  }
+},
+[61] = {
+  ["baseExp"]= 0,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {},
+  ["dropsId2"]= {},
+  ["dropsId3"]= {},
+  ["dropsId4"]= {},
+  ["jobExp"]= 0,
+  ["layer"]= 61,
+  ["level"]= 1,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53119,
+    53118
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    6
+  }
+},
+[62] = {
+  ["baseExp"]= 36500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031405,
+    10031406,
+    10031407,
+    10031408
+  },
+  ["dropsId2"]= {
+    10031409,
+    10031410,
+    10031411,
+    10031412
+  },
+  ["dropsId3"]= {
+    10031413,
+    10031414,
+    10031415,
+    10031416
+  },
+  ["dropsId4"]= {
+    10031417,
+    10031418,
+    10031419,
+    10031420
+  },
+  ["jobExp"]= 36500,
+  ["layer"]= 62,
+  ["level"]= 49,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53126,
+    53098
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[63] = {
+  ["baseExp"]= 36500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031405,
+    10031406,
+    10031407,
+    10031408
+  },
+  ["dropsId2"]= {
+    10031409,
+    10031410,
+    10031411,
+    10031412
+  },
+  ["dropsId3"]= {
+    10031413,
+    10031414,
+    10031415,
+    10031416
+  },
+  ["dropsId4"]= {
+    10031417,
+    10031418,
+    10031419,
+    10031420
+  },
+  ["jobExp"]= 36500,
+  ["layer"]= 63,
+  ["level"]= 49,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53088,
+    53120
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[64] = {
+  ["baseExp"]= 37500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031405,
+    10031406,
+    10031407,
+    10031408
+  },
+  ["dropsId2"]= {
+    10031409,
+    10031410,
+    10031411,
+    10031412
+  },
+  ["dropsId3"]= {
+    10031413,
+    10031414,
+    10031415,
+    10031416
+  },
+  ["dropsId4"]= {
+    10031417,
+    10031418,
+    10031419,
+    10031420
+  },
+  ["jobExp"]= 37500,
+  ["layer"]= 64,
+  ["level"]= 50,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {
+    10031821,
+    10031822,
+    10031823,
+    10031824
+  },
+  ["treasurePr"]= 0.3,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53045,
+    53063
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[65] = {
+  ["baseExp"]= 37500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 10,
+  ["dropsId1"]= {
+    10031401,
+    10031402,
+    10031403,
+    10031404
+  },
+  ["dropsId2"]= {
+    10031405,
+    10031406,
+    10031407,
+    10031408
+  },
+  ["dropsId3"]= {
+    10031409,
+    10031410,
+    10031411,
+    10031412
+  },
+  ["dropsId4"]= {
+    10031413,
+    10031414,
+    10031415,
+    10031416
+  },
+  ["jobExp"]= 37500,
+  ["layer"]= 65,
+  ["level"]= 50,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53506,
+  ["typeList"]= {
+    5
+  }
+},
+[66] = {
+  ["baseExp"]= 37500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031405,
+    10031406,
+    10031407,
+    10031408
+  },
+  ["dropsId2"]= {
+    10031409,
+    10031410,
+    10031411,
+    10031412
+  },
+  ["dropsId3"]= {
+    10031413,
+    10031414,
+    10031415,
+    10031416
+  },
+  ["dropsId4"]= {
+    10031417,
+    10031418,
+    10031419,
+    10031420
+  },
+  ["jobExp"]= 37500,
+  ["layer"]= 66,
+  ["level"]= 50,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53008,
+    53070
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[67] = {
+  ["baseExp"]= 38500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031405,
+    10031406,
+    10031407,
+    10031408
+  },
+  ["dropsId2"]= {
+    10031409,
+    10031410,
+    10031411,
+    10031412
+  },
+  ["dropsId3"]= {
+    10031413,
+    10031414,
+    10031415,
+    10031416
+  },
+  ["dropsId4"]= {
+    10031417,
+    10031418,
+    10031419,
+    10031420
+  },
+  ["jobExp"]= 38500,
+  ["layer"]= 67,
+  ["level"]= 51,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53055,
+    53030
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[68] = {
+  ["baseExp"]= 38500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031405,
+    10031406,
+    10031407,
+    10031408
+  },
+  ["dropsId2"]= {
+    10031409,
+    10031410,
+    10031411,
+    10031412
+  },
+  ["dropsId3"]= {
+    10031413,
+    10031414,
+    10031415,
+    10031416
+  },
+  ["dropsId4"]= {
+    10031417,
+    10031418,
+    10031419,
+    10031420
+  },
+  ["jobExp"]= 38500,
+  ["layer"]= 68,
+  ["level"]= 51,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53085,
+    53093
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[69] = {
+  ["baseExp"]= 39500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031405,
+    10031406,
+    10031407,
+    10031408
+  },
+  ["dropsId2"]= {
+    10031409,
+    10031410,
+    10031411,
+    10031412
+  },
+  ["dropsId3"]= {
+    10031413,
+    10031414,
+    10031415,
+    10031416
+  },
+  ["dropsId4"]= {
+    10031417,
+    10031418,
+    10031419,
+    10031420
+  },
+  ["jobExp"]= 39500,
+  ["layer"]= 69,
+  ["level"]= 52,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53103,
+    53033
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[70] = {
+  ["baseExp"]= 39500,
+  ["blessPr"]= {
+    77,
+    30,
+    4,
+    0
+  },
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 20,
+  ["dropsId1"]= {
+    10031501,
+    10031502,
+    10031503,
+    10031504
+  },
+  ["dropsId2"]= {
+    10031505,
+    10031506,
+    10031507,
+    10031508
+  },
+  ["dropsId3"]= {
+    10031509,
+    10031510,
+    10031511,
+    10031512
+  },
+  ["dropsId4"]= {
+    10031513,
+    10031514,
+    10031515,
+    10031516
+  },
+  ["jobExp"]= 39500,
+  ["layer"]= 70,
+  ["level"]= 52,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53510,
+  ["typeList"]= {
+    5
+  }
+},
+[71] = {
+  ["baseExp"]= 39500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031405,
+    10031406,
+    10031407,
+    10031408
+  },
+  ["dropsId2"]= {
+    10031409,
+    10031410,
+    10031411,
+    10031412
+  },
+  ["dropsId3"]= {
+    10031413,
+    10031414,
+    10031415,
+    10031416
+  },
+  ["dropsId4"]= {
+    10031417,
+    10031418,
+    10031419,
+    10031420
+  },
+  ["jobExp"]= 39500,
+  ["layer"]= 71,
+  ["level"]= 52,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53148,
+    53087
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[72] = {
+  ["baseExp"]= 40500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031405,
+    10031406,
+    10031407,
+    10031408
+  },
+  ["dropsId2"]= {
+    10031409,
+    10031410,
+    10031411,
+    10031412
+  },
+  ["dropsId3"]= {
+    10031413,
+    10031414,
+    10031415,
+    10031416
+  },
+  ["dropsId4"]= {
+    10031417,
+    10031418,
+    10031419,
+    10031420
+  },
+  ["jobExp"]= 40500,
+  ["layer"]= 72,
+  ["level"]= 53,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53106,
+    53031
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[73] = {
+  ["baseExp"]= 40500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031405,
+    10031406,
+    10031407,
+    10031408
+  },
+  ["dropsId2"]= {
+    10031409,
+    10031410,
+    10031411,
+    10031412
+  },
+  ["dropsId3"]= {
+    10031413,
+    10031414,
+    10031415,
+    10031416
+  },
+  ["dropsId4"]= {
+    10031417,
+    10031418,
+    10031419,
+    10031420
+  },
+  ["jobExp"]= 40500,
+  ["layer"]= 73,
+  ["level"]= 53,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53092,
+    53099
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[74] = {
+  ["baseExp"]= 41500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031405,
+    10031406,
+    10031407,
+    10031408
+  },
+  ["dropsId2"]= {
+    10031409,
+    10031410,
+    10031411,
+    10031412
+  },
+  ["dropsId3"]= {
+    10031413,
+    10031414,
+    10031415,
+    10031416
+  },
+  ["dropsId4"]= {
+    10031417,
+    10031418,
+    10031419,
+    10031420
+  },
+  ["jobExp"]= 41500,
+  ["layer"]= 74,
+  ["level"]= 54,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {
+    10031821,
+    10031822,
+    10031823,
+    10031824
+  },
+  ["treasurePr"]= 0.3,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53095,
+    53096
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[75] = {
+  ["baseExp"]= 41500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 10,
+  ["dropsId1"]= {
+    10031401,
+    10031402,
+    10031403,
+    10031404
+  },
+  ["dropsId2"]= {
+    10031405,
+    10031406,
+    10031407,
+    10031408
+  },
+  ["dropsId3"]= {
+    10031409,
+    10031410,
+    10031411,
+    10031412
+  },
+  ["dropsId4"]= {
+    10031413,
+    10031414,
+    10031415,
+    10031416
+  },
+  ["jobExp"]= 41500,
+  ["layer"]= 75,
+  ["level"]= 54,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53508,
+  ["typeList"]= {
+    5
+  }
+},
+[76] = {
+  ["baseExp"]= 41500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031405,
+    10031406,
+    10031407,
+    10031408
+  },
+  ["dropsId2"]= {
+    10031409,
+    10031410,
+    10031411,
+    10031412
+  },
+  ["dropsId3"]= {
+    10031413,
+    10031414,
+    10031415,
+    10031416
+  },
+  ["dropsId4"]= {
+    10031417,
+    10031418,
+    10031419,
+    10031420
+  },
+  ["jobExp"]= 41500,
+  ["layer"]= 76,
+  ["level"]= 54,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53151,
+    53164
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[77] = {
+  ["baseExp"]= 42500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031405,
+    10031406,
+    10031407,
+    10031408
+  },
+  ["dropsId2"]= {
+    10031409,
+    10031410,
+    10031411,
+    10031412
+  },
+  ["dropsId3"]= {
+    10031413,
+    10031414,
+    10031415,
+    10031416
+  },
+  ["dropsId4"]= {
+    10031417,
+    10031418,
+    10031419,
+    10031420
+  },
+  ["jobExp"]= 42500,
+  ["layer"]= 77,
+  ["level"]= 55,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53101,
+    53104
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[78] = {
+  ["baseExp"]= 42500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031405,
+    10031406,
+    10031407,
+    10031408
+  },
+  ["dropsId2"]= {
+    10031409,
+    10031410,
+    10031411,
+    10031412
+  },
+  ["dropsId3"]= {
+    10031413,
+    10031414,
+    10031415,
+    10031416
+  },
+  ["dropsId4"]= {
+    10031417,
+    10031418,
+    10031419,
+    10031420
+  },
+  ["jobExp"]= 42500,
+  ["layer"]= 78,
+  ["level"]= 55,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53128,
+    53129,
+    53131
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[79] = {
+  ["baseExp"]= 43500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031405,
+    10031406,
+    10031407,
+    10031408
+  },
+  ["dropsId2"]= {
+    10031409,
+    10031410,
+    10031411,
+    10031412
+  },
+  ["dropsId3"]= {
+    10031413,
+    10031414,
+    10031415,
+    10031416
+  },
+  ["dropsId4"]= {
+    10031417,
+    10031418,
+    10031419,
+    10031420
+  },
+  ["jobExp"]= 43500,
+  ["layer"]= 79,
+  ["level"]= 56,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53154,
+    53119
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[80] = {
+  ["baseExp"]= 43500,
+  ["blessPr"]= {
+    77,
+    30,
+    4,
+    0
+  },
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 20,
+  ["dropsId1"]= {
+    10031501,
+    10031502,
+    10031503,
+    10031504
+  },
+  ["dropsId2"]= {
+    10031505,
+    10031506,
+    10031507,
+    10031508
+  },
+  ["dropsId3"]= {
+    10031509,
+    10031510,
+    10031511,
+    10031512
+  },
+  ["dropsId4"]= {
+    10031513,
+    10031514,
+    10031515,
+    10031516
+  },
+  ["jobExp"]= 43500,
+  ["layer"]= 80,
+  ["level"]= 56,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53512,
+  ["typeList"]= {
+    5
+  }
+},
+[81] = {
+  ["baseExp"]= 0,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {},
+  ["dropsId2"]= {},
+  ["dropsId3"]= {},
+  ["dropsId4"]= {},
+  ["jobExp"]= 0,
+  ["layer"]= 81,
+  ["level"]= 1,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53001,
+    53012,
+    53052
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    6
+  }
+},
+[82] = {
+  ["baseExp"]= 44500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031505,
+    10031506,
+    10031507,
+    10031508
+  },
+  ["dropsId2"]= {
+    10031509,
+    10031510,
+    10031511,
+    10031512
+  },
+  ["dropsId3"]= {
+    10031513,
+    10031514,
+    10031515,
+    10031516
+  },
+  ["dropsId4"]= {
+    10031517,
+    10031518,
+    10031519,
+    10031520
+  },
+  ["jobExp"]= 44500,
+  ["layer"]= 82,
+  ["level"]= 57,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53016,
+    53024
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[83] = {
+  ["baseExp"]= 44500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031505,
+    10031506,
+    10031507,
+    10031508
+  },
+  ["dropsId2"]= {
+    10031509,
+    10031510,
+    10031511,
+    10031512
+  },
+  ["dropsId3"]= {
+    10031513,
+    10031514,
+    10031515,
+    10031516
+  },
+  ["dropsId4"]= {
+    10031517,
+    10031518,
+    10031519,
+    10031520
+  },
+  ["jobExp"]= 44500,
+  ["layer"]= 83,
+  ["level"]= 57,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53097,
+    53061,
+    53145,
+    53098,
+    53122
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[84] = {
+  ["baseExp"]= 45500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031505,
+    10031506,
+    10031507,
+    10031508
+  },
+  ["dropsId2"]= {
+    10031509,
+    10031510,
+    10031511,
+    10031512
+  },
+  ["dropsId3"]= {
+    10031513,
+    10031514,
+    10031515,
+    10031516
+  },
+  ["dropsId4"]= {
+    10031517,
+    10031518,
+    10031519,
+    10031520
+  },
+  ["jobExp"]= 45500,
+  ["layer"]= 84,
+  ["level"]= 58,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {
+    10032021,
+    10032022,
+    10032023,
+    10032024
+  },
+  ["treasurePr"]= 0.3,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53009,
+    53048,
+    53049
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[85] = {
+  ["baseExp"]= 45500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 10,
+  ["dropsId1"]= {
+    10031501,
+    10031502,
+    10031503,
+    10031504
+  },
+  ["dropsId2"]= {
+    10031505,
+    10031506,
+    10031507,
+    10031508
+  },
+  ["dropsId3"]= {
+    10031509,
+    10031510,
+    10031511,
+    10031512
+  },
+  ["dropsId4"]= {
+    10031513,
+    10031514,
+    10031515,
+    10031516
+  },
+  ["jobExp"]= 45500,
+  ["layer"]= 85,
+  ["level"]= 58,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53520,
+  ["typeList"]= {
+    5
+  }
+},
+[86] = {
+  ["baseExp"]= 45500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031505,
+    10031506,
+    10031507,
+    10031508
+  },
+  ["dropsId2"]= {
+    10031509,
+    10031510,
+    10031511,
+    10031512
+  },
+  ["dropsId3"]= {
+    10031513,
+    10031514,
+    10031515,
+    10031516
+  },
+  ["dropsId4"]= {
+    10031517,
+    10031518,
+    10031519,
+    10031520
+  },
+  ["jobExp"]= 45500,
+  ["layer"]= 86,
+  ["level"]= 58,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53027,
+    53149,
+    53105,
+    53108,
+    53106
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[87] = {
+  ["baseExp"]= 46500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031505,
+    10031506,
+    10031507,
+    10031508
+  },
+  ["dropsId2"]= {
+    10031509,
+    10031510,
+    10031511,
+    10031512
+  },
+  ["dropsId3"]= {
+    10031513,
+    10031514,
+    10031515,
+    10031516
+  },
+  ["dropsId4"]= {
+    10031517,
+    10031518,
+    10031519,
+    10031520
+  },
+  ["jobExp"]= 46500,
+  ["layer"]= 87,
+  ["level"]= 59,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53044,
+    53084
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[88] = {
+  ["baseExp"]= 46500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031505,
+    10031506,
+    10031507,
+    10031508
+  },
+  ["dropsId2"]= {
+    10031509,
+    10031510,
+    10031511,
+    10031512
+  },
+  ["dropsId3"]= {
+    10031513,
+    10031514,
+    10031515,
+    10031516
+  },
+  ["dropsId4"]= {
+    10031517,
+    10031518,
+    10031519,
+    10031520
+  },
+  ["jobExp"]= 46500,
+  ["layer"]= 88,
+  ["level"]= 59,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53039,
+    53015
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[89] = {
+  ["baseExp"]= 47500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031505,
+    10031506,
+    10031507,
+    10031508
+  },
+  ["dropsId2"]= {
+    10031509,
+    10031510,
+    10031511,
+    10031512
+  },
+  ["dropsId3"]= {
+    10031513,
+    10031514,
+    10031515,
+    10031516
+  },
+  ["dropsId4"]= {
+    10031517,
+    10031518,
+    10031519,
+    10031520
+  },
+  ["jobExp"]= 47500,
+  ["layer"]= 89,
+  ["level"]= 60,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53022,
+    53017
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[90] = {
+  ["baseExp"]= 47500,
+  ["blessPr"]= {
+    76,
+    30,
+    5,
+    0
+  },
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 20,
+  ["dropsId1"]= {
+    10032201,
+    10032202,
+    10032203,
+    10032204
+  },
+  ["dropsId2"]= {
+    10032205,
+    10032206,
+    10032207,
+    10032208
+  },
+  ["dropsId3"]= {
+    10032209,
+    10032210,
+    10032211,
+    10032212
+  },
+  ["dropsId4"]= {
+    10032213,
+    10032214,
+    10032215,
+    10032216
+  },
+  ["jobExp"]= 47500,
+  ["layer"]= 90,
+  ["level"]= 60,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53515,
+  ["typeList"]= {
+    5
+  }
+},
+[91] = {
+  ["baseExp"]= 47500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031505,
+    10031506,
+    10031507,
+    10031508
+  },
+  ["dropsId2"]= {
+    10031509,
+    10031510,
+    10031511,
+    10031512
+  },
+  ["dropsId3"]= {
+    10031513,
+    10031514,
+    10031515,
+    10031516
+  },
+  ["dropsId4"]= {
+    10031517,
+    10031518,
+    10031519,
+    10031520
+  },
+  ["jobExp"]= 47500,
+  ["layer"]= 91,
+  ["level"]= 60,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53054,
+    53027
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[92] = {
+  ["baseExp"]= 49000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031505,
+    10031506,
+    10031507,
+    10031508
+  },
+  ["dropsId2"]= {
+    10031509,
+    10031510,
+    10031511,
+    10031512
+  },
+  ["dropsId3"]= {
+    10031513,
+    10031514,
+    10031515,
+    10031516
+  },
+  ["dropsId4"]= {
+    10031517,
+    10031518,
+    10031519,
+    10031520
+  },
+  ["jobExp"]= 49000,
+  ["layer"]= 92,
+  ["level"]= 61,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53060,
+    53057,
+    53058
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[93] = {
+  ["baseExp"]= 49000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031505,
+    10031506,
+    10031507,
+    10031508
+  },
+  ["dropsId2"]= {
+    10031509,
+    10031510,
+    10031511,
+    10031512
+  },
+  ["dropsId3"]= {
+    10031513,
+    10031514,
+    10031515,
+    10031516
+  },
+  ["dropsId4"]= {
+    10031517,
+    10031518,
+    10031519,
+    10031520
+  },
+  ["jobExp"]= 49000,
+  ["layer"]= 93,
+  ["level"]= 61,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53089,
+    53090
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[94] = {
+  ["baseExp"]= 50500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031505,
+    10031506,
+    10031507,
+    10031508
+  },
+  ["dropsId2"]= {
+    10031509,
+    10031510,
+    10031511,
+    10031512
+  },
+  ["dropsId3"]= {
+    10031513,
+    10031514,
+    10031515,
+    10031516
+  },
+  ["dropsId4"]= {
+    10031517,
+    10031518,
+    10031519,
+    10031520
+  },
+  ["jobExp"]= 50500,
+  ["layer"]= 94,
+  ["level"]= 62,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {
+    10032021,
+    10032022,
+    10032023,
+    10032024
+  },
+  ["treasurePr"]= 0.3,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53158,
+    53121,
+    53123,
+    53126,
+    53127
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[95] = {
+  ["baseExp"]= 50500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 10,
+  ["dropsId1"]= {
+    10031501,
+    10031502,
+    10031503,
+    10031504
+  },
+  ["dropsId2"]= {
+    10031505,
+    10031506,
+    10031507,
+    10031508
+  },
+  ["dropsId3"]= {
+    10031509,
+    10031510,
+    10031511,
+    10031512
+  },
+  ["dropsId4"]= {
+    10031513,
+    10031514,
+    10031515,
+    10031516
+  },
+  ["jobExp"]= 50500,
+  ["layer"]= 95,
+  ["level"]= 62,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53516,
+  ["typeList"]= {
+    5
+  }
+},
+[96] = {
+  ["baseExp"]= 50500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031505,
+    10031506,
+    10031507,
+    10031508
+  },
+  ["dropsId2"]= {
+    10031509,
+    10031510,
+    10031511,
+    10031512
+  },
+  ["dropsId3"]= {
+    10031513,
+    10031514,
+    10031515,
+    10031516
+  },
+  ["dropsId4"]= {
+    10031517,
+    10031518,
+    10031519,
+    10031520
+  },
+  ["jobExp"]= 50500,
+  ["layer"]= 96,
+  ["level"]= 62,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53080,
+    53082,
+    53081
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[97] = {
+  ["baseExp"]= 52000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031505,
+    10031506,
+    10031507,
+    10031508
+  },
+  ["dropsId2"]= {
+    10031509,
+    10031510,
+    10031511,
+    10031512
+  },
+  ["dropsId3"]= {
+    10031513,
+    10031514,
+    10031515,
+    10031516
+  },
+  ["dropsId4"]= {
+    10031517,
+    10031518,
+    10031519,
+    10031520
+  },
+  ["jobExp"]= 52000,
+  ["layer"]= 97,
+  ["level"]= 63,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53056,
+    53125,
+    53006
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[98] = {
+  ["baseExp"]= 52000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031505,
+    10031506,
+    10031507,
+    10031508
+  },
+  ["dropsId2"]= {
+    10031509,
+    10031510,
+    10031511,
+    10031512
+  },
+  ["dropsId3"]= {
+    10031513,
+    10031514,
+    10031515,
+    10031516
+  },
+  ["dropsId4"]= {
+    10031517,
+    10031518,
+    10031519,
+    10031520
+  },
+  ["jobExp"]= 52000,
+  ["layer"]= 98,
+  ["level"]= 63,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53047,
+    53046
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[99] = {
+  ["baseExp"]= 53500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031505,
+    10031506,
+    10031507,
+    10031508
+  },
+  ["dropsId2"]= {
+    10031509,
+    10031510,
+    10031511,
+    10031512
+  },
+  ["dropsId3"]= {
+    10031513,
+    10031514,
+    10031515,
+    10031516
+  },
+  ["dropsId4"]= {
+    10031517,
+    10031518,
+    10031519,
+    10031520
+  },
+  ["jobExp"]= 53500,
+  ["layer"]= 99,
+  ["level"]= 64,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53072,
+    53074,
+    53079
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[100] = {
+  ["baseExp"]= 53500,
+  ["blessPr"]= {
+    76,
+    30,
+    5,
+    0
+  },
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 20,
+  ["dropsId1"]= {
+    10031601,
+    10031602,
+    10031603,
+    10031604
+  },
+  ["dropsId2"]= {
+    10031605,
+    10031606,
+    10031607,
+    10031608
+  },
+  ["dropsId3"]= {
+    10031609,
+    10031610,
+    10031611,
+    10031612
+  },
+  ["dropsId4"]= {
+    10031613,
+    10031614,
+    10031615,
+    10031616
+  },
+  ["jobExp"]= 53500,
+  ["layer"]= 100,
+  ["level"]= 64,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53519,
+  ["typeList"]= {
+    5
+  }
+},
+[101] = {
+  ["baseExp"]= 0,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {},
+  ["dropsId2"]= {},
+  ["dropsId3"]= {},
+  ["dropsId4"]= {},
+  ["jobExp"]= 0,
+  ["layer"]= 101,
+  ["level"]= 1,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53037,
+    53007
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    6
+  }
+},
+[102] = {
+  ["baseExp"]= 55000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031605,
+    10031606,
+    10031607,
+    10031608
+  },
+  ["dropsId2"]= {
+    10031609,
+    10031610,
+    10031611,
+    10031612
+  },
+  ["dropsId3"]= {
+    10031613,
+    10031614,
+    10031615,
+    10031616
+  },
+  ["dropsId4"]= {
+    10031617,
+    10031618,
+    10031619,
+    10031620
+  },
+  ["jobExp"]= 55000,
+  ["layer"]= 102,
+  ["level"]= 65,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53115,
+    53083,
+    53094
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[103] = {
+  ["baseExp"]= 55000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031605,
+    10031606,
+    10031607,
+    10031608
+  },
+  ["dropsId2"]= {
+    10031609,
+    10031610,
+    10031611,
+    10031612
+  },
+  ["dropsId3"]= {
+    10031613,
+    10031614,
+    10031615,
+    10031616
+  },
+  ["dropsId4"]= {
+    10031617,
+    10031618,
+    10031619,
+    10031620
+  },
+  ["jobExp"]= 55000,
+  ["layer"]= 103,
+  ["level"]= 65,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53083,
+    53076,
+    53074,
+    53075
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[104] = {
+  ["baseExp"]= 56500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031605,
+    10031606,
+    10031607,
+    10031608
+  },
+  ["dropsId2"]= {
+    10031609,
+    10031610,
+    10031611,
+    10031612
+  },
+  ["dropsId3"]= {
+    10031613,
+    10031614,
+    10031615,
+    10031616
+  },
+  ["dropsId4"]= {
+    10031617,
+    10031618,
+    10031619,
+    10031620
+  },
+  ["jobExp"]= 56500,
+  ["layer"]= 104,
+  ["level"]= 66,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {
+    10032221,
+    10032222,
+    10032223,
+    10032224
+  },
+  ["treasurePr"]= 0.3,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53132,
+    53037
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[105] = {
+  ["baseExp"]= 56500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 10,
+  ["dropsId1"]= {
+    10031601,
+    10031602,
+    10031603,
+    10031604
+  },
+  ["dropsId2"]= {
+    10031605,
+    10031606,
+    10031607,
+    10031608
+  },
+  ["dropsId3"]= {
+    10031609,
+    10031610,
+    10031611,
+    10031612
+  },
+  ["dropsId4"]= {
+    10031613,
+    10031614,
+    10031615,
+    10031616
+  },
+  ["jobExp"]= 56500,
+  ["layer"]= 105,
+  ["level"]= 66,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53503,
+  ["typeList"]= {
+    5
+  }
+},
+[106] = {
+  ["baseExp"]= 56500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031605,
+    10031606,
+    10031607,
+    10031608
+  },
+  ["dropsId2"]= {
+    10031609,
+    10031610,
+    10031611,
+    10031612
+  },
+  ["dropsId3"]= {
+    10031613,
+    10031614,
+    10031615,
+    10031616
+  },
+  ["dropsId4"]= {
+    10031617,
+    10031618,
+    10031619,
+    10031620
+  },
+  ["jobExp"]= 56500,
+  ["layer"]= 106,
+  ["level"]= 66,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53036,
+    53092
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[107] = {
+  ["baseExp"]= 58000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031605,
+    10031606,
+    10031607,
+    10031608
+  },
+  ["dropsId2"]= {
+    10031609,
+    10031610,
+    10031611,
+    10031612
+  },
+  ["dropsId3"]= {
+    10031613,
+    10031614,
+    10031615,
+    10031616
+  },
+  ["dropsId4"]= {
+    10031617,
+    10031618,
+    10031619,
+    10031620
+  },
+  ["jobExp"]= 58000,
+  ["layer"]= 107,
+  ["level"]= 67,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53111,
+    53112,
+    53110,
+    53109,
+    53113,
+    53114
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[108] = {
+  ["baseExp"]= 58000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031605,
+    10031606,
+    10031607,
+    10031608
+  },
+  ["dropsId2"]= {
+    10031609,
+    10031610,
+    10031611,
+    10031612
+  },
+  ["dropsId3"]= {
+    10031613,
+    10031614,
+    10031615,
+    10031616
+  },
+  ["dropsId4"]= {
+    10031617,
+    10031618,
+    10031619,
+    10031620
+  },
+  ["jobExp"]= 58000,
+  ["layer"]= 108,
+  ["level"]= 67,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53065,
+    53086
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[109] = {
+  ["baseExp"]= 59500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031605,
+    10031606,
+    10031607,
+    10031608
+  },
+  ["dropsId2"]= {
+    10031609,
+    10031610,
+    10031611,
+    10031612
+  },
+  ["dropsId3"]= {
+    10031613,
+    10031614,
+    10031615,
+    10031616
+  },
+  ["dropsId4"]= {
+    10031617,
+    10031618,
+    10031619,
+    10031620
+  },
+  ["jobExp"]= 59500,
+  ["layer"]= 109,
+  ["level"]= 68,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53010,
+    53149,
+    53019
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[110] = {
+  ["baseExp"]= 59500,
+  ["blessPr"]= {
+    75,
+    30,
+    6,
+    0
+  },
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 20,
+  ["dropsId1"]= {
+    10031701,
+    10031702,
+    10031703,
+    10031704
+  },
+  ["dropsId2"]= {
+    10031705,
+    10031706,
+    10031707,
+    10031708
+  },
+  ["dropsId3"]= {
+    10031709,
+    10031710,
+    10031711,
+    10031712
+  },
+  ["dropsId4"]= {
+    10031713,
+    10031714,
+    10031715,
+    10031716
+  },
+  ["jobExp"]= 59500,
+  ["layer"]= 110,
+  ["level"]= 68,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53507,
+  ["typeList"]= {
+    5
+  }
+},
+[111] = {
+  ["baseExp"]= 59500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031605,
+    10031606,
+    10031607,
+    10031608
+  },
+  ["dropsId2"]= {
+    10031609,
+    10031610,
+    10031611,
+    10031612
+  },
+  ["dropsId3"]= {
+    10031613,
+    10031614,
+    10031615,
+    10031616
+  },
+  ["dropsId4"]= {
+    10031617,
+    10031618,
+    10031619,
+    10031620
+  },
+  ["jobExp"]= 59500,
+  ["layer"]= 111,
+  ["level"]= 68,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53021,
+    53108
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[112] = {
+  ["baseExp"]= 61000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031605,
+    10031606,
+    10031607,
+    10031608
+  },
+  ["dropsId2"]= {
+    10031609,
+    10031610,
+    10031611,
+    10031612
+  },
+  ["dropsId3"]= {
+    10031613,
+    10031614,
+    10031615,
+    10031616
+  },
+  ["dropsId4"]= {
+    10031617,
+    10031618,
+    10031619,
+    10031620
+  },
+  ["jobExp"]= 61000,
+  ["layer"]= 112,
+  ["level"]= 69,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53111,
+    53112,
+    53110,
+    53109,
+    53113,
+    53114
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[113] = {
+  ["baseExp"]= 61000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031605,
+    10031606,
+    10031607,
+    10031608
+  },
+  ["dropsId2"]= {
+    10031609,
+    10031610,
+    10031611,
+    10031612
+  },
+  ["dropsId3"]= {
+    10031613,
+    10031614,
+    10031615,
+    10031616
+  },
+  ["dropsId4"]= {
+    10031617,
+    10031618,
+    10031619,
+    10031620
+  },
+  ["jobExp"]= 61000,
+  ["layer"]= 113,
+  ["level"]= 69,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53128,
+    53129,
+    53131,
+    53130
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[114] = {
+  ["baseExp"]= 62500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031605,
+    10031606,
+    10031607,
+    10031608
+  },
+  ["dropsId2"]= {
+    10031609,
+    10031610,
+    10031611,
+    10031612
+  },
+  ["dropsId3"]= {
+    10031613,
+    10031614,
+    10031615,
+    10031616
+  },
+  ["dropsId4"]= {
+    10031617,
+    10031618,
+    10031619,
+    10031620
+  },
+  ["jobExp"]= 62500,
+  ["layer"]= 114,
+  ["level"]= 70,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {
+    10032221,
+    10032222,
+    10032223,
+    10032224
+  },
+  ["treasurePr"]= 0.3,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53064,
+    53155
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[115] = {
+  ["baseExp"]= 62500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 10,
+  ["dropsId1"]= {
+    10031601,
+    10031602,
+    10031603,
+    10031604
+  },
+  ["dropsId2"]= {
+    10031605,
+    10031606,
+    10031607,
+    10031608
+  },
+  ["dropsId3"]= {
+    10031609,
+    10031610,
+    10031611,
+    10031612
+  },
+  ["dropsId4"]= {
+    10031613,
+    10031614,
+    10031615,
+    10031616
+  },
+  ["jobExp"]= 62500,
+  ["layer"]= 115,
+  ["level"]= 70,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53504,
+  ["typeList"]= {
+    5
+  }
+},
+[116] = {
+  ["baseExp"]= 62500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031605,
+    10031606,
+    10031607,
+    10031608
+  },
+  ["dropsId2"]= {
+    10031609,
+    10031610,
+    10031611,
+    10031612
+  },
+  ["dropsId3"]= {
+    10031613,
+    10031614,
+    10031615,
+    10031616
+  },
+  ["dropsId4"]= {
+    10031617,
+    10031618,
+    10031619,
+    10031620
+  },
+  ["jobExp"]= 62500,
+  ["layer"]= 116,
+  ["level"]= 70,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53124,
+    53091,
+    53042
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[117] = {
+  ["baseExp"]= 64000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031605,
+    10031606,
+    10031607,
+    10031608
+  },
+  ["dropsId2"]= {
+    10031609,
+    10031610,
+    10031611,
+    10031612
+  },
+  ["dropsId3"]= {
+    10031613,
+    10031614,
+    10031615,
+    10031616
+  },
+  ["dropsId4"]= {
+    10031617,
+    10031618,
+    10031619,
+    10031620
+  },
+  ["jobExp"]= 64000,
+  ["layer"]= 117,
+  ["level"]= 71,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53059,
+    53028
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[118] = {
+  ["baseExp"]= 64000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031605,
+    10031606,
+    10031607,
+    10031608
+  },
+  ["dropsId2"]= {
+    10031609,
+    10031610,
+    10031611,
+    10031612
+  },
+  ["dropsId3"]= {
+    10031613,
+    10031614,
+    10031615,
+    10031616
+  },
+  ["dropsId4"]= {
+    10031617,
+    10031618,
+    10031619,
+    10031620
+  },
+  ["jobExp"]= 64000,
+  ["layer"]= 118,
+  ["level"]= 71,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53041,
+    53156
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[119] = {
+  ["baseExp"]= 65500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031605,
+    10031606,
+    10031607,
+    10031608
+  },
+  ["dropsId2"]= {
+    10031609,
+    10031610,
+    10031611,
+    10031612
+  },
+  ["dropsId3"]= {
+    10031613,
+    10031614,
+    10031615,
+    10031616
+  },
+  ["dropsId4"]= {
+    10031617,
+    10031618,
+    10031619,
+    10031620
+  },
+  ["jobExp"]= 65500,
+  ["layer"]= 119,
+  ["level"]= 72,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53011,
+    53152
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[120] = {
+  ["baseExp"]= 65500,
+  ["blessPr"]= {
+    75,
+    30,
+    6,
+    0
+  },
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 20,
+  ["dropsId1"]= {
+    10031701,
+    10031702,
+    10031703,
+    10031704
+  },
+  ["dropsId2"]= {
+    10031705,
+    10031706,
+    10031707,
+    10031708
+  },
+  ["dropsId3"]= {
+    10031709,
+    10031710,
+    10031711,
+    10031712
+  },
+  ["dropsId4"]= {
+    10031713,
+    10031714,
+    10031715,
+    10031716
+  },
+  ["jobExp"]= 65500,
+  ["layer"]= 120,
+  ["level"]= 72,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53509,
+  ["typeList"]= {
+    5
+  }
+},
+[121] = {
+  ["baseExp"]= 0,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {},
+  ["dropsId2"]= {},
+  ["dropsId3"]= {},
+  ["dropsId4"]= {},
+  ["jobExp"]= 0,
+  ["layer"]= 121,
+  ["level"]= 1,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53018,
+    53014
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    6
+  }
+},
+[122] = {
+  ["baseExp"]= 67000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031705,
+    10031706,
+    10031707,
+    10031708
+  },
+  ["dropsId2"]= {
+    10031709,
+    10031710,
+    10031711,
+    10031712
+  },
+  ["dropsId3"]= {
+    10031713,
+    10031714,
+    10031715,
+    10031716
+  },
+  ["dropsId4"]= {
+    10031717,
+    10031718,
+    10031719,
+    10031720
+  },
+  ["jobExp"]= 67000,
+  ["layer"]= 122,
+  ["level"]= 73,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53023,
+    53018
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[123] = {
+  ["baseExp"]= 67000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031705,
+    10031706,
+    10031707,
+    10031708
+  },
+  ["dropsId2"]= {
+    10031709,
+    10031710,
+    10031711,
+    10031712
+  },
+  ["dropsId3"]= {
+    10031713,
+    10031714,
+    10031715,
+    10031716
+  },
+  ["dropsId4"]= {
+    10031717,
+    10031718,
+    10031719,
+    10031720
+  },
+  ["jobExp"]= 67000,
+  ["layer"]= 123,
+  ["level"]= 73,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53053,
+    53020,
+    53033
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[124] = {
+  ["baseExp"]= 68500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031705,
+    10031706,
+    10031707,
+    10031708
+  },
+  ["dropsId2"]= {
+    10031709,
+    10031710,
+    10031711,
+    10031712
+  },
+  ["dropsId3"]= {
+    10031713,
+    10031714,
+    10031715,
+    10031716
+  },
+  ["dropsId4"]= {
+    10031717,
+    10031718,
+    10031719,
+    10031720
+  },
+  ["jobExp"]= 68500,
+  ["layer"]= 124,
+  ["level"]= 74,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {
+    10032221,
+    10032222,
+    10032223,
+    10032224,
+    10031221,
+    10031222,
+    10031223,
+    10031224
+  },
+  ["treasurePr"]= 0.3,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53158,
+    53015,
+    53016,
+    53151
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[125] = {
+  ["baseExp"]= 68500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 10,
+  ["dropsId1"]= {
+    10031701,
+    10031702,
+    10031703,
+    10031704
+  },
+  ["dropsId2"]= {
+    10031705,
+    10031706,
+    10031707,
+    10031708
+  },
+  ["dropsId3"]= {
+    10031709,
+    10031710,
+    10031711,
+    10031712
+  },
+  ["dropsId4"]= {
+    10031713,
+    10031714,
+    10031715,
+    10031716
+  },
+  ["jobExp"]= 68500,
+  ["layer"]= 125,
+  ["level"]= 74,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53506,
+  ["typeList"]= {
+    5
+  }
+},
+[126] = {
+  ["baseExp"]= 68500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031705,
+    10031706,
+    10031707,
+    10031708
+  },
+  ["dropsId2"]= {
+    10031709,
+    10031710,
+    10031711,
+    10031712
+  },
+  ["dropsId3"]= {
+    10031713,
+    10031714,
+    10031715,
+    10031716
+  },
+  ["dropsId4"]= {
+    10031717,
+    10031718,
+    10031719,
+    10031720
+  },
+  ["jobExp"]= 68500,
+  ["layer"]= 126,
+  ["level"]= 74,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53102,
+    53088
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[127] = {
+  ["baseExp"]= 70000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031705,
+    10031706,
+    10031707,
+    10031708
+  },
+  ["dropsId2"]= {
+    10031709,
+    10031710,
+    10031711,
+    10031712
+  },
+  ["dropsId3"]= {
+    10031713,
+    10031714,
+    10031715,
+    10031716
+  },
+  ["dropsId4"]= {
+    10031717,
+    10031718,
+    10031719,
+    10031720
+  },
+  ["jobExp"]= 70000,
+  ["layer"]= 127,
+  ["level"]= 75,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53034,
+    53035
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[128] = {
+  ["baseExp"]= 70000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031705,
+    10031706,
+    10031707,
+    10031708
+  },
+  ["dropsId2"]= {
+    10031709,
+    10031710,
+    10031711,
+    10031712
+  },
+  ["dropsId3"]= {
+    10031713,
+    10031714,
+    10031715,
+    10031716
+  },
+  ["dropsId4"]= {
+    10031717,
+    10031718,
+    10031719,
+    10031720
+  },
+  ["jobExp"]= 70000,
+  ["layer"]= 128,
+  ["level"]= 75,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53100,
+    53153
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[129] = {
+  ["baseExp"]= 71500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031705,
+    10031706,
+    10031707,
+    10031708
+  },
+  ["dropsId2"]= {
+    10031709,
+    10031710,
+    10031711,
+    10031712
+  },
+  ["dropsId3"]= {
+    10031713,
+    10031714,
+    10031715,
+    10031716
+  },
+  ["dropsId4"]= {
+    10031717,
+    10031718,
+    10031719,
+    10031720
+  },
+  ["jobExp"]= 71500,
+  ["layer"]= 129,
+  ["level"]= 76,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53038,
+    53150
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[130] = {
+  ["baseExp"]= 71500,
+  ["blessPr"]= {
+    74,
+    30,
+    7,
+    0
+  },
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 20,
+  ["dropsId1"]= {
+    10031805,
+    10031806,
+    10031807,
+    10031808
+  },
+  ["dropsId2"]= {
+    10031809,
+    10031810,
+    10031811,
+    10031812
+  },
+  ["dropsId3"]= {
+    10031813,
+    10031814,
+    10031815,
+    10031816
+  },
+  ["dropsId4"]= {
+    10031817,
+    10031818,
+    10031819,
+    10031820
+  },
+  ["jobExp"]= 71500,
+  ["layer"]= 130,
+  ["level"]= 76,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53510,
+  ["typeList"]= {
+    5
+  }
+},
+[131] = {
+  ["baseExp"]= 71500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031721,
+    10031722,
+    10031723,
+    10031724
+  },
+  ["dropsId2"]= {
+    10031725,
+    10031726,
+    10031727,
+    10031728
+  },
+  ["dropsId3"]= {
+    10031729,
+    10031730,
+    10031731,
+    10031732
+  },
+  ["dropsId4"]= {
+    10031733,
+    10031734,
+    10031735,
+    10031736
+  },
+  ["jobExp"]= 71500,
+  ["layer"]= 131,
+  ["level"]= 76,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53077,
+    53078
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[132] = {
+  ["baseExp"]= 73000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031705,
+    10031706,
+    10031707,
+    10031708
+  },
+  ["dropsId2"]= {
+    10031709,
+    10031710,
+    10031711,
+    10031712
+  },
+  ["dropsId3"]= {
+    10031713,
+    10031714,
+    10031715,
+    10031716
+  },
+  ["dropsId4"]= {
+    10031717,
+    10031718,
+    10031719,
+    10031720
+  },
+  ["jobExp"]= 73000,
+  ["layer"]= 132,
+  ["level"]= 77,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53117,
+    53116
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[133] = {
+  ["baseExp"]= 73000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031705,
+    10031706,
+    10031707,
+    10031708
+  },
+  ["dropsId2"]= {
+    10031709,
+    10031710,
+    10031711,
+    10031712
+  },
+  ["dropsId3"]= {
+    10031713,
+    10031714,
+    10031715,
+    10031716
+  },
+  ["dropsId4"]= {
+    10031717,
+    10031718,
+    10031719,
+    10031720
+  },
+  ["jobExp"]= 73000,
+  ["layer"]= 133,
+  ["level"]= 77,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53029,
+    53050
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[134] = {
+  ["baseExp"]= 74500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031705,
+    10031706,
+    10031707,
+    10031708
+  },
+  ["dropsId2"]= {
+    10031709,
+    10031710,
+    10031711,
+    10031712
+  },
+  ["dropsId3"]= {
+    10031713,
+    10031714,
+    10031715,
+    10031716
+  },
+  ["dropsId4"]= {
+    10031717,
+    10031718,
+    10031719,
+    10031720
+  },
+  ["jobExp"]= 74500,
+  ["layer"]= 134,
+  ["level"]= 78,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {
+    10032221,
+    10032222,
+    10032223,
+    10032224,
+    10031221,
+    10031222,
+    10031223,
+    10031224
+  },
+  ["treasurePr"]= 0.3,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53133,
+    53134
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[135] = {
+  ["baseExp"]= 74500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 10,
+  ["dropsId1"]= {
+    10031701,
+    10031702,
+    10031703,
+    10031704
+  },
+  ["dropsId2"]= {
+    10031705,
+    10031706,
+    10031707,
+    10031708
+  },
+  ["dropsId3"]= {
+    10031709,
+    10031710,
+    10031711,
+    10031712
+  },
+  ["dropsId4"]= {
+    10031713,
+    10031714,
+    10031715,
+    10031716
+  },
+  ["jobExp"]= 74500,
+  ["layer"]= 135,
+  ["level"]= 78,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53508,
+  ["typeList"]= {
+    5
+  }
+},
+[136] = {
+  ["baseExp"]= 74500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031705,
+    10031706,
+    10031707,
+    10031708
+  },
+  ["dropsId2"]= {
+    10031709,
+    10031710,
+    10031711,
+    10031712
+  },
+  ["dropsId3"]= {
+    10031713,
+    10031714,
+    10031715,
+    10031716
+  },
+  ["dropsId4"]= {
+    10031717,
+    10031718,
+    10031719,
+    10031720
+  },
+  ["jobExp"]= 74500,
+  ["layer"]= 136,
+  ["level"]= 78,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53040,
+    53159
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[137] = {
+  ["baseExp"]= 76000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031705,
+    10031706,
+    10031707,
+    10031708
+  },
+  ["dropsId2"]= {
+    10031709,
+    10031710,
+    10031711,
+    10031712
+  },
+  ["dropsId3"]= {
+    10031713,
+    10031714,
+    10031715,
+    10031716
+  },
+  ["dropsId4"]= {
+    10031717,
+    10031718,
+    10031719,
+    10031720
+  },
+  ["jobExp"]= 76000,
+  ["layer"]= 137,
+  ["level"]= 79,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53099,
+    53154,
+    53118
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[138] = {
+  ["baseExp"]= 76000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031705,
+    10031706,
+    10031707,
+    10031708
+  },
+  ["dropsId2"]= {
+    10031709,
+    10031710,
+    10031711,
+    10031712
+  },
+  ["dropsId3"]= {
+    10031713,
+    10031714,
+    10031715,
+    10031716
+  },
+  ["dropsId4"]= {
+    10031717,
+    10031718,
+    10031719,
+    10031720
+  },
+  ["jobExp"]= 76000,
+  ["layer"]= 138,
+  ["level"]= 79,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53071,
+    53069,
+    53068
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[139] = {
+  ["baseExp"]= 77500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031705,
+    10031706,
+    10031707,
+    10031708
+  },
+  ["dropsId2"]= {
+    10031709,
+    10031710,
+    10031711,
+    10031712
+  },
+  ["dropsId3"]= {
+    10031713,
+    10031714,
+    10031715,
+    10031716
+  },
+  ["dropsId4"]= {
+    10031717,
+    10031718,
+    10031719,
+    10031720
+  },
+  ["jobExp"]= 77500,
+  ["layer"]= 139,
+  ["level"]= 80,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53025,
+    53147
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[140] = {
+  ["baseExp"]= 77500,
+  ["blessPr"]= {
+    74,
+    30,
+    7,
+    0
+  },
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 20,
+  ["dropsId1"]= {
+    10031801,
+    10031802,
+    10031803,
+    10031804
+  },
+  ["dropsId2"]= {
+    10031805,
+    10031806,
+    10031807,
+    10031808
+  },
+  ["dropsId3"]= {
+    10031809,
+    10031810,
+    10031811,
+    10031812
+  },
+  ["dropsId4"]= {
+    10031813,
+    10031814,
+    10031815,
+    10031816
+  },
+  ["jobExp"]= 77500,
+  ["layer"]= 140,
+  ["level"]= 80,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53512,
+  ["typeList"]= {
+    5
+  }
+},
+[141] = {
+  ["baseExp"]= 0,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {},
+  ["dropsId2"]= {},
+  ["dropsId3"]= {},
+  ["dropsId4"]= {},
+  ["jobExp"]= 0,
+  ["layer"]= 141,
+  ["level"]= 1,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53119,
+    53118
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    6
+  }
+},
+[142] = {
+  ["baseExp"]= 79000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031805,
+    10031806,
+    10031807,
+    10031808
+  },
+  ["dropsId2"]= {
+    10031809,
+    10031810,
+    10031811,
+    10031812
+  },
+  ["dropsId3"]= {
+    10031813,
+    10031814,
+    10031815,
+    10031816
+  },
+  ["dropsId4"]= {
+    10031817,
+    10031818,
+    10031819,
+    10031820
+  },
+  ["jobExp"]= 79000,
+  ["layer"]= 142,
+  ["level"]= 81,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53126,
+    53098
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[143] = {
+  ["baseExp"]= 79000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031805,
+    10031806,
+    10031807,
+    10031808
+  },
+  ["dropsId2"]= {
+    10031809,
+    10031810,
+    10031811,
+    10031812
+  },
+  ["dropsId3"]= {
+    10031813,
+    10031814,
+    10031815,
+    10031816
+  },
+  ["dropsId4"]= {
+    10031817,
+    10031818,
+    10031819,
+    10031820
+  },
+  ["jobExp"]= 79000,
+  ["layer"]= 143,
+  ["level"]= 81,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53088,
+    53120
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[144] = {
+  ["baseExp"]= 80500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031805,
+    10031806,
+    10031807,
+    10031808
+  },
+  ["dropsId2"]= {
+    10031809,
+    10031810,
+    10031811,
+    10031812
+  },
+  ["dropsId3"]= {
+    10031813,
+    10031814,
+    10031815,
+    10031816
+  },
+  ["dropsId4"]= {
+    10031817,
+    10031818,
+    10031819,
+    10031820
+  },
+  ["jobExp"]= 80500,
+  ["layer"]= 144,
+  ["level"]= 82,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {
+    10032221,
+    10032222,
+    10032223,
+    10032224,
+    10031421,
+    10031422,
+    10031423,
+    10031424
+  },
+  ["treasurePr"]= 0.3,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53045,
+    53063
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[145] = {
+  ["baseExp"]= 80500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 10,
+  ["dropsId1"]= {
+    10031801,
+    10031802,
+    10031803,
+    10031804
+  },
+  ["dropsId2"]= {
+    10031805,
+    10031806,
+    10031807,
+    10031808
+  },
+  ["dropsId3"]= {
+    10031809,
+    10031810,
+    10031811,
+    10031812
+  },
+  ["dropsId4"]= {
+    10031813,
+    10031814,
+    10031815,
+    10031816
+  },
+  ["jobExp"]= 80500,
+  ["layer"]= 145,
+  ["level"]= 82,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53520,
+  ["typeList"]= {
+    5
+  }
+},
+[146] = {
+  ["baseExp"]= 80500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031805,
+    10031806,
+    10031807,
+    10031808
+  },
+  ["dropsId2"]= {
+    10031809,
+    10031810,
+    10031811,
+    10031812
+  },
+  ["dropsId3"]= {
+    10031813,
+    10031814,
+    10031815,
+    10031816
+  },
+  ["dropsId4"]= {
+    10031817,
+    10031818,
+    10031819,
+    10031820
+  },
+  ["jobExp"]= 80500,
+  ["layer"]= 146,
+  ["level"]= 82,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53008,
+    53070
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[147] = {
+  ["baseExp"]= 82000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031805,
+    10031806,
+    10031807,
+    10031808
+  },
+  ["dropsId2"]= {
+    10031809,
+    10031810,
+    10031811,
+    10031812
+  },
+  ["dropsId3"]= {
+    10031813,
+    10031814,
+    10031815,
+    10031816
+  },
+  ["dropsId4"]= {
+    10031817,
+    10031818,
+    10031819,
+    10031820
+  },
+  ["jobExp"]= 82000,
+  ["layer"]= 147,
+  ["level"]= 83,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53055,
+    53030
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[148] = {
+  ["baseExp"]= 82000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031805,
+    10031806,
+    10031807,
+    10031808
+  },
+  ["dropsId2"]= {
+    10031809,
+    10031810,
+    10031811,
+    10031812
+  },
+  ["dropsId3"]= {
+    10031813,
+    10031814,
+    10031815,
+    10031816
+  },
+  ["dropsId4"]= {
+    10031817,
+    10031818,
+    10031819,
+    10031820
+  },
+  ["jobExp"]= 82000,
+  ["layer"]= 148,
+  ["level"]= 83,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53085,
+    53093
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[149] = {
+  ["baseExp"]= 83500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031805,
+    10031806,
+    10031807,
+    10031808
+  },
+  ["dropsId2"]= {
+    10031809,
+    10031810,
+    10031811,
+    10031812
+  },
+  ["dropsId3"]= {
+    10031813,
+    10031814,
+    10031815,
+    10031816
+  },
+  ["dropsId4"]= {
+    10031817,
+    10031818,
+    10031819,
+    10031820
+  },
+  ["jobExp"]= 83500,
+  ["layer"]= 149,
+  ["level"]= 84,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53103,
+    53033
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[150] = {
+  ["baseExp"]= 83500,
+  ["blessPr"]= {
+    73,
+    30,
+    8,
+    0
+  },
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 20,
+  ["dropsId1"]= {
+    10031901,
+    10031902,
+    10031903,
+    10031904
+  },
+  ["dropsId2"]= {
+    10031905,
+    10031906,
+    10031907,
+    10031908
+  },
+  ["dropsId3"]= {
+    10031909,
+    10031910,
+    10031911,
+    10031912
+  },
+  ["dropsId4"]= {
+    10031913,
+    10031914,
+    10031915,
+    10031916
+  },
+  ["jobExp"]= 83500,
+  ["layer"]= 150,
+  ["level"]= 84,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53515,
+  ["typeList"]= {
+    5
+  }
+},
+[151] = {
+  ["baseExp"]= 83500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031805,
+    10031806,
+    10031807,
+    10031808
+  },
+  ["dropsId2"]= {
+    10031809,
+    10031810,
+    10031811,
+    10031812
+  },
+  ["dropsId3"]= {
+    10031813,
+    10031814,
+    10031815,
+    10031816
+  },
+  ["dropsId4"]= {
+    10031817,
+    10031818,
+    10031819,
+    10031820
+  },
+  ["jobExp"]= 83500,
+  ["layer"]= 151,
+  ["level"]= 84,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53148,
+    53087
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[152] = {
+  ["baseExp"]= 85000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031805,
+    10031806,
+    10031807,
+    10031808
+  },
+  ["dropsId2"]= {
+    10031809,
+    10031810,
+    10031811,
+    10031812
+  },
+  ["dropsId3"]= {
+    10031813,
+    10031814,
+    10031815,
+    10031816
+  },
+  ["dropsId4"]= {
+    10031817,
+    10031818,
+    10031819,
+    10031820
+  },
+  ["jobExp"]= 85000,
+  ["layer"]= 152,
+  ["level"]= 85,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53106,
+    53031
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[153] = {
+  ["baseExp"]= 85000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031805,
+    10031806,
+    10031807,
+    10031808
+  },
+  ["dropsId2"]= {
+    10031809,
+    10031810,
+    10031811,
+    10031812
+  },
+  ["dropsId3"]= {
+    10031813,
+    10031814,
+    10031815,
+    10031816
+  },
+  ["dropsId4"]= {
+    10031817,
+    10031818,
+    10031819,
+    10031820
+  },
+  ["jobExp"]= 85000,
+  ["layer"]= 153,
+  ["level"]= 85,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53092,
+    53099
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[154] = {
+  ["baseExp"]= 86500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031805,
+    10031806,
+    10031807,
+    10031808
+  },
+  ["dropsId2"]= {
+    10031809,
+    10031810,
+    10031811,
+    10031812
+  },
+  ["dropsId3"]= {
+    10031813,
+    10031814,
+    10031815,
+    10031816
+  },
+  ["dropsId4"]= {
+    10031817,
+    10031818,
+    10031819,
+    10031820
+  },
+  ["jobExp"]= 86500,
+  ["layer"]= 154,
+  ["level"]= 86,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {
+    10032221,
+    10032222,
+    10032223,
+    10032224,
+    10031421,
+    10031422,
+    10031423,
+    10031424
+  },
+  ["treasurePr"]= 0.3,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53095,
+    53096
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[155] = {
+  ["baseExp"]= 86500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 10,
+  ["dropsId1"]= {
+    10031801,
+    10031802,
+    10031803,
+    10031804
+  },
+  ["dropsId2"]= {
+    10031805,
+    10031806,
+    10031807,
+    10031808
+  },
+  ["dropsId3"]= {
+    10031809,
+    10031810,
+    10031811,
+    10031812
+  },
+  ["dropsId4"]= {
+    10031813,
+    10031814,
+    10031815,
+    10031816
+  },
+  ["jobExp"]= 86500,
+  ["layer"]= 155,
+  ["level"]= 86,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53516,
+  ["typeList"]= {
+    5
+  }
+},
+[156] = {
+  ["baseExp"]= 86500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031805,
+    10031806,
+    10031807,
+    10031808
+  },
+  ["dropsId2"]= {
+    10031809,
+    10031810,
+    10031811,
+    10031812
+  },
+  ["dropsId3"]= {
+    10031813,
+    10031814,
+    10031815,
+    10031816
+  },
+  ["dropsId4"]= {
+    10031817,
+    10031818,
+    10031819,
+    10031820
+  },
+  ["jobExp"]= 86500,
+  ["layer"]= 156,
+  ["level"]= 86,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53151,
+    53164
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[157] = {
+  ["baseExp"]= 88000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031805,
+    10031806,
+    10031807,
+    10031808
+  },
+  ["dropsId2"]= {
+    10031809,
+    10031810,
+    10031811,
+    10031812
+  },
+  ["dropsId3"]= {
+    10031813,
+    10031814,
+    10031815,
+    10031816
+  },
+  ["dropsId4"]= {
+    10031817,
+    10031818,
+    10031819,
+    10031820
+  },
+  ["jobExp"]= 88000,
+  ["layer"]= 157,
+  ["level"]= 87,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53101,
+    53104
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[158] = {
+  ["baseExp"]= 88000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031805,
+    10031806,
+    10031807,
+    10031808
+  },
+  ["dropsId2"]= {
+    10031809,
+    10031810,
+    10031811,
+    10031812
+  },
+  ["dropsId3"]= {
+    10031813,
+    10031814,
+    10031815,
+    10031816
+  },
+  ["dropsId4"]= {
+    10031817,
+    10031818,
+    10031819,
+    10031820
+  },
+  ["jobExp"]= 88000,
+  ["layer"]= 158,
+  ["level"]= 87,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53128,
+    53129,
+    53131
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[159] = {
+  ["baseExp"]= 89500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031805,
+    10031806,
+    10031807,
+    10031808
+  },
+  ["dropsId2"]= {
+    10031809,
+    10031810,
+    10031811,
+    10031812
+  },
+  ["dropsId3"]= {
+    10031813,
+    10031814,
+    10031815,
+    10031816
+  },
+  ["dropsId4"]= {
+    10031817,
+    10031818,
+    10031819,
+    10031820
+  },
+  ["jobExp"]= 89500,
+  ["layer"]= 159,
+  ["level"]= 88,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53154,
+    53119
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[160] = {
+  ["baseExp"]= 89500,
+  ["blessPr"]= {
+    73,
+    30,
+    8,
+    0
+  },
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 20,
+  ["dropsId1"]= {
+    10031901,
+    10031902,
+    10031903,
+    10031904
+  },
+  ["dropsId2"]= {
+    10031905,
+    10031906,
+    10031907,
+    10031908
+  },
+  ["dropsId3"]= {
+    10031909,
+    10031910,
+    10031911,
+    10031912
+  },
+  ["dropsId4"]= {
+    10031913,
+    10031914,
+    10031915,
+    10031916
+  },
+  ["jobExp"]= 89500,
+  ["layer"]= 160,
+  ["level"]= 88,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53519,
+  ["typeList"]= {
+    5
+  }
+},
+[161] = {
+  ["baseExp"]= 0,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {},
+  ["dropsId2"]= {},
+  ["dropsId3"]= {},
+  ["dropsId4"]= {},
+  ["jobExp"]= 0,
+  ["layer"]= 161,
+  ["level"]= 88,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53001,
+    53012,
+    53052
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    6
+  }
+},
+[162] = {
+  ["baseExp"]= 91000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031905,
+    10031906,
+    10031907,
+    10031908
+  },
+  ["dropsId2"]= {
+    10031909,
+    10031910,
+    10031911,
+    10031912
+  },
+  ["dropsId3"]= {
+    10031913,
+    10031914,
+    10031915,
+    10031916
+  },
+  ["dropsId4"]= {
+    10031917,
+    10031918,
+    10031919,
+    10031920
+  },
+  ["jobExp"]= 91000,
+  ["layer"]= 162,
+  ["level"]= 89,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53016,
+    53024
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[163] = {
+  ["baseExp"]= 91000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031905,
+    10031906,
+    10031907,
+    10031908
+  },
+  ["dropsId2"]= {
+    10031909,
+    10031910,
+    10031911,
+    10031912
+  },
+  ["dropsId3"]= {
+    10031913,
+    10031914,
+    10031915,
+    10031916
+  },
+  ["dropsId4"]= {
+    10031917,
+    10031918,
+    10031919,
+    10031920
+  },
+  ["jobExp"]= 91000,
+  ["layer"]= 163,
+  ["level"]= 89,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53097,
+    53061,
+    53145,
+    53098,
+    53122
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[164] = {
+  ["baseExp"]= 92500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031905,
+    10031906,
+    10031907,
+    10031908
+  },
+  ["dropsId2"]= {
+    10031909,
+    10031910,
+    10031911,
+    10031912
+  },
+  ["dropsId3"]= {
+    10031913,
+    10031914,
+    10031915,
+    10031916
+  },
+  ["dropsId4"]= {
+    10031917,
+    10031918,
+    10031919,
+    10031920
+  },
+  ["jobExp"]= 92500,
+  ["layer"]= 164,
+  ["level"]= 90,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {
+    10032221,
+    10032222,
+    10032223,
+    10032224,
+    10031621,
+    10031622,
+    10031623,
+    10031624
+  },
+  ["treasurePr"]= 0.3,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53009,
+    53048,
+    53049
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[165] = {
+  ["baseExp"]= 92500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 10,
+  ["dropsId1"]= {
+    10031901,
+    10031902,
+    10031903,
+    10031904
+  },
+  ["dropsId2"]= {
+    10031905,
+    10031906,
+    10031907,
+    10031908
+  },
+  ["dropsId3"]= {
+    10031909,
+    10031910,
+    10031911,
+    10031912
+  },
+  ["dropsId4"]= {
+    10031913,
+    10031914,
+    10031915,
+    10031916
+  },
+  ["jobExp"]= 92500,
+  ["layer"]= 165,
+  ["level"]= 90,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53520,
+  ["typeList"]= {
+    5
+  }
+},
+[166] = {
+  ["baseExp"]= 92500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031905,
+    10031906,
+    10031907,
+    10031908
+  },
+  ["dropsId2"]= {
+    10031909,
+    10031910,
+    10031911,
+    10031912
+  },
+  ["dropsId3"]= {
+    10031913,
+    10031914,
+    10031915,
+    10031916
+  },
+  ["dropsId4"]= {
+    10031917,
+    10031918,
+    10031919,
+    10031920
+  },
+  ["jobExp"]= 92500,
+  ["layer"]= 166,
+  ["level"]= 90,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53027,
+    53149,
+    53105,
+    53108,
+    53106
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[167] = {
+  ["baseExp"]= 94000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031905,
+    10031906,
+    10031907,
+    10031908
+  },
+  ["dropsId2"]= {
+    10031909,
+    10031910,
+    10031911,
+    10031912
+  },
+  ["dropsId3"]= {
+    10031913,
+    10031914,
+    10031915,
+    10031916
+  },
+  ["dropsId4"]= {
+    10031917,
+    10031918,
+    10031919,
+    10031920
+  },
+  ["jobExp"]= 94000,
+  ["layer"]= 167,
+  ["level"]= 91,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53044,
+    53084
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[168] = {
+  ["baseExp"]= 94000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031905,
+    10031906,
+    10031907,
+    10031908
+  },
+  ["dropsId2"]= {
+    10031909,
+    10031910,
+    10031911,
+    10031912
+  },
+  ["dropsId3"]= {
+    10031913,
+    10031914,
+    10031915,
+    10031916
+  },
+  ["dropsId4"]= {
+    10031917,
+    10031918,
+    10031919,
+    10031920
+  },
+  ["jobExp"]= 94000,
+  ["layer"]= 168,
+  ["level"]= 91,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53039,
+    53015
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[169] = {
+  ["baseExp"]= 95500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031905,
+    10031906,
+    10031907,
+    10031908
+  },
+  ["dropsId2"]= {
+    10031909,
+    10031910,
+    10031911,
+    10031912
+  },
+  ["dropsId3"]= {
+    10031913,
+    10031914,
+    10031915,
+    10031916
+  },
+  ["dropsId4"]= {
+    10031917,
+    10031918,
+    10031919,
+    10031920
+  },
+  ["jobExp"]= 95500,
+  ["layer"]= 169,
+  ["level"]= 92,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53022,
+    53017
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[170] = {
+  ["baseExp"]= 95500,
+  ["blessPr"]= {
+    72,
+    30,
+    9,
+    0
+  },
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 20,
+  ["dropsId1"]= {
+    10032001,
+    10032002,
+    10032003,
+    10032004
+  },
+  ["dropsId2"]= {
+    10032005,
+    10032006,
+    10032007,
+    10032008
+  },
+  ["dropsId3"]= {
+    10032009,
+    10032010,
+    10032011,
+    10032012
+  },
+  ["dropsId4"]= {
+    10032013,
+    10032014,
+    10032015,
+    10032016
+  },
+  ["jobExp"]= 95500,
+  ["layer"]= 170,
+  ["level"]= 92,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53515,
+  ["typeList"]= {
+    5
+  }
+},
+[171] = {
+  ["baseExp"]= 95500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031905,
+    10031906,
+    10031907,
+    10031908
+  },
+  ["dropsId2"]= {
+    10031909,
+    10031910,
+    10031911,
+    10031912
+  },
+  ["dropsId3"]= {
+    10031913,
+    10031914,
+    10031915,
+    10031916
+  },
+  ["dropsId4"]= {
+    10031917,
+    10031918,
+    10031919,
+    10031920
+  },
+  ["jobExp"]= 95500,
+  ["layer"]= 171,
+  ["level"]= 92,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53054,
+    53027
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[172] = {
+  ["baseExp"]= 97000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031905,
+    10031906,
+    10031907,
+    10031908
+  },
+  ["dropsId2"]= {
+    10031909,
+    10031910,
+    10031911,
+    10031912
+  },
+  ["dropsId3"]= {
+    10031913,
+    10031914,
+    10031915,
+    10031916
+  },
+  ["dropsId4"]= {
+    10031917,
+    10031918,
+    10031919,
+    10031920
+  },
+  ["jobExp"]= 97000,
+  ["layer"]= 172,
+  ["level"]= 93,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53060,
+    53057,
+    53058
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[173] = {
+  ["baseExp"]= 97000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031905,
+    10031906,
+    10031907,
+    10031908
+  },
+  ["dropsId2"]= {
+    10031909,
+    10031910,
+    10031911,
+    10031912
+  },
+  ["dropsId3"]= {
+    10031913,
+    10031914,
+    10031915,
+    10031916
+  },
+  ["dropsId4"]= {
+    10031917,
+    10031918,
+    10031919,
+    10031920
+  },
+  ["jobExp"]= 97000,
+  ["layer"]= 173,
+  ["level"]= 93,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53089,
+    53090
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[174] = {
+  ["baseExp"]= 98500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031921,
+    10031922,
+    10031923,
+    10031924
+  },
+  ["dropsId2"]= {
+    10031925,
+    10031926,
+    10031927,
+    10031928
+  },
+  ["dropsId3"]= {
+    10031929,
+    10031930,
+    10031931,
+    10031932
+  },
+  ["dropsId4"]= {
+    10031933,
+    10031934,
+    10031935,
+    10031936
+  },
+  ["jobExp"]= 98500,
+  ["layer"]= 174,
+  ["level"]= 94,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {
+    10032221,
+    10032222,
+    10032223,
+    10032224,
+    10031621,
+    10031622,
+    10031623,
+    10031624
+  },
+  ["treasurePr"]= 0.3,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53158,
+    53121,
+    53123,
+    53126,
+    53127
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[175] = {
+  ["baseExp"]= 98500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 10,
+  ["dropsId1"]= {
+    10031905,
+    10031906,
+    10031907,
+    10031908
+  },
+  ["dropsId2"]= {
+    10031909,
+    10031910,
+    10031911,
+    10031912
+  },
+  ["dropsId3"]= {
+    10031913,
+    10031914,
+    10031915,
+    10031916
+  },
+  ["dropsId4"]= {
+    10031917,
+    10031918,
+    10031919,
+    10031920
+  },
+  ["jobExp"]= 98500,
+  ["layer"]= 175,
+  ["level"]= 94,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53516,
+  ["typeList"]= {
+    5
+  }
+},
+[176] = {
+  ["baseExp"]= 98500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031905,
+    10031906,
+    10031907,
+    10031908
+  },
+  ["dropsId2"]= {
+    10031909,
+    10031910,
+    10031911,
+    10031912
+  },
+  ["dropsId3"]= {
+    10031913,
+    10031914,
+    10031915,
+    10031916
+  },
+  ["dropsId4"]= {
+    10031917,
+    10031918,
+    10031919,
+    10031920
+  },
+  ["jobExp"]= 98500,
+  ["layer"]= 176,
+  ["level"]= 94,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53080,
+    53082,
+    53081
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[177] = {
+  ["baseExp"]= 100000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031905,
+    10031906,
+    10031907,
+    10031908
+  },
+  ["dropsId2"]= {
+    10031909,
+    10031910,
+    10031911,
+    10031912
+  },
+  ["dropsId3"]= {
+    10031913,
+    10031914,
+    10031915,
+    10031916
+  },
+  ["dropsId4"]= {
+    10031917,
+    10031918,
+    10031919,
+    10031920
+  },
+  ["jobExp"]= 100000,
+  ["layer"]= 177,
+  ["level"]= 95,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53056,
+    53125,
+    53006
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[178] = {
+  ["baseExp"]= 100000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031905,
+    10031906,
+    10031907,
+    10031908
+  },
+  ["dropsId2"]= {
+    10031909,
+    10031910,
+    10031911,
+    10031912
+  },
+  ["dropsId3"]= {
+    10031913,
+    10031914,
+    10031915,
+    10031916
+  },
+  ["dropsId4"]= {
+    10031917,
+    10031918,
+    10031919,
+    10031920
+  },
+  ["jobExp"]= 100000,
+  ["layer"]= 178,
+  ["level"]= 95,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53047,
+    53046
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[179] = {
+  ["baseExp"]= 101500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10031905,
+    10031906,
+    10031907,
+    10031908
+  },
+  ["dropsId2"]= {
+    10031909,
+    10031910,
+    10031911,
+    10031912
+  },
+  ["dropsId3"]= {
+    10031913,
+    10031914,
+    10031915,
+    10031916
+  },
+  ["dropsId4"]= {
+    10031917,
+    10031918,
+    10031919,
+    10031920
+  },
+  ["jobExp"]= 101500,
+  ["layer"]= 179,
+  ["level"]= 96,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53072,
+    53074,
+    53079
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[180] = {
+  ["baseExp"]= 101500,
+  ["blessPr"]= {
+    72,
+    30,
+    9,
+    0
+  },
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 20,
+  ["dropsId1"]= {
+    10032001,
+    10032002,
+    10032003,
+    10032004
+  },
+  ["dropsId2"]= {
+    10032005,
+    10032006,
+    10032007,
+    10032008
+  },
+  ["dropsId3"]= {
+    10032009,
+    10032010,
+    10032011,
+    10032012
+  },
+  ["dropsId4"]= {
+    10032013,
+    10032014,
+    10032015,
+    10032016
+  },
+  ["jobExp"]= 101500,
+  ["layer"]= 180,
+  ["level"]= 96,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53519,
+  ["typeList"]= {
+    5
+  }
+},
+[181] = {
+  ["baseExp"]= 0,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {},
+  ["dropsId2"]= {},
+  ["dropsId3"]= {},
+  ["dropsId4"]= {},
+  ["jobExp"]= 0,
+  ["layer"]= 181,
+  ["level"]= 1,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53037,
+    53007
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    6
+  }
+},
+[182] = {
+  ["baseExp"]= 103000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032005,
+    10032006,
+    10032007,
+    10032008
+  },
+  ["dropsId2"]= {
+    10032009,
+    10032010,
+    10032011,
+    10032012
+  },
+  ["dropsId3"]= {
+    10032013,
+    10032014,
+    10032015,
+    10032016
+  },
+  ["dropsId4"]= {
+    10032017,
+    10032018,
+    10032019,
+    10032020
+  },
+  ["jobExp"]= 103000,
+  ["layer"]= 182,
+  ["level"]= 97,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53115,
+    53083,
+    53094
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[183] = {
+  ["baseExp"]= 103000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032005,
+    10032006,
+    10032007,
+    10032008
+  },
+  ["dropsId2"]= {
+    10032009,
+    10032010,
+    10032011,
+    10032012
+  },
+  ["dropsId3"]= {
+    10032013,
+    10032014,
+    10032015,
+    10032016
+  },
+  ["dropsId4"]= {
+    10032017,
+    10032018,
+    10032019,
+    10032020
+  },
+  ["jobExp"]= 103000,
+  ["layer"]= 183,
+  ["level"]= 97,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53083,
+    53076,
+    53074,
+    53075
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[184] = {
+  ["baseExp"]= 104500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032005,
+    10032006,
+    10032007,
+    10032008
+  },
+  ["dropsId2"]= {
+    10032009,
+    10032010,
+    10032011,
+    10032012
+  },
+  ["dropsId3"]= {
+    10032013,
+    10032014,
+    10032015,
+    10032016
+  },
+  ["dropsId4"]= {
+    10032017,
+    10032018,
+    10032019,
+    10032020
+  },
+  ["jobExp"]= 104500,
+  ["layer"]= 184,
+  ["level"]= 98,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {
+    10032021,
+    10032022,
+    10032023,
+    10032024,
+    10032021,
+    10032022,
+    10032023,
+    10032024
+  },
+  ["treasurePr"]= 0.3,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53132,
+    53037
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[185] = {
+  ["baseExp"]= 104500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 10,
+  ["dropsId1"]= {
+    10032001,
+    10032002,
+    10032003,
+    10032004
+  },
+  ["dropsId2"]= {
+    10032005,
+    10032006,
+    10032007,
+    10032008
+  },
+  ["dropsId3"]= {
+    10032009,
+    10032010,
+    10032011,
+    10032012
+  },
+  ["dropsId4"]= {
+    10032013,
+    10032014,
+    10032015,
+    10032016
+  },
+  ["jobExp"]= 104500,
+  ["layer"]= 185,
+  ["level"]= 98,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53503,
+  ["typeList"]= {
+    5
+  }
+},
+[186] = {
+  ["baseExp"]= 104500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032005,
+    10032006,
+    10032007,
+    10032008
+  },
+  ["dropsId2"]= {
+    10032009,
+    10032010,
+    10032011,
+    10032012
+  },
+  ["dropsId3"]= {
+    10032013,
+    10032014,
+    10032015,
+    10032016
+  },
+  ["dropsId4"]= {
+    10032017,
+    10032018,
+    10032019,
+    10032020
+  },
+  ["jobExp"]= 104500,
+  ["layer"]= 186,
+  ["level"]= 98,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53036,
+    53092
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[187] = {
+  ["baseExp"]= 106000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032005,
+    10032006,
+    10032007,
+    10032008
+  },
+  ["dropsId2"]= {
+    10032009,
+    10032010,
+    10032011,
+    10032012
+  },
+  ["dropsId3"]= {
+    10032013,
+    10032014,
+    10032015,
+    10032016
+  },
+  ["dropsId4"]= {
+    10032017,
+    10032018,
+    10032019,
+    10032020
+  },
+  ["jobExp"]= 106000,
+  ["layer"]= 187,
+  ["level"]= 99,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53111,
+    53112,
+    53110,
+    53109,
+    53113,
+    53114
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[188] = {
+  ["baseExp"]= 106000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032005,
+    10032006,
+    10032007,
+    10032008
+  },
+  ["dropsId2"]= {
+    10032009,
+    10032010,
+    10032011,
+    10032012
+  },
+  ["dropsId3"]= {
+    10032013,
+    10032014,
+    10032015,
+    10032016
+  },
+  ["dropsId4"]= {
+    10032017,
+    10032018,
+    10032019,
+    10032020
+  },
+  ["jobExp"]= 106000,
+  ["layer"]= 188,
+  ["level"]= 99,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53065,
+    53086
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[189] = {
+  ["baseExp"]= 107500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032005,
+    10032006,
+    10032007,
+    10032008
+  },
+  ["dropsId2"]= {
+    10032009,
+    10032010,
+    10032011,
+    10032012
+  },
+  ["dropsId3"]= {
+    10032013,
+    10032014,
+    10032015,
+    10032016
+  },
+  ["dropsId4"]= {
+    10032017,
+    10032018,
+    10032019,
+    10032020
+  },
+  ["jobExp"]= 107500,
+  ["layer"]= 189,
+  ["level"]= 100,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53010,
+    53149,
+    53019
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[190] = {
+  ["baseExp"]= 107500,
+  ["blessPr"]= {
+    71,
+    30,
+    10,
+    0
+  },
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 20,
+  ["dropsId1"]= {
+    10032101,
+    10032102,
+    10032103,
+    10032104
+  },
+  ["dropsId2"]= {
+    10032105,
+    10032106,
+    10032107,
+    10032108
+  },
+  ["dropsId3"]= {
+    10032109,
+    10032110,
+    10032111,
+    10032112
+  },
+  ["dropsId4"]= {
+    10032113,
+    10032114,
+    10032115,
+    10032116
+  },
+  ["jobExp"]= 107500,
+  ["layer"]= 190,
+  ["level"]= 100,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53507,
+  ["typeList"]= {
+    5
+  }
+},
+[191] = {
+  ["baseExp"]= 107500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032005,
+    10032006,
+    10032007,
+    10032008
+  },
+  ["dropsId2"]= {
+    10032009,
+    10032010,
+    10032011,
+    10032012
+  },
+  ["dropsId3"]= {
+    10032013,
+    10032014,
+    10032015,
+    10032016
+  },
+  ["dropsId4"]= {
+    10032017,
+    10032018,
+    10032019,
+    10032020
+  },
+  ["jobExp"]= 107500,
+  ["layer"]= 191,
+  ["level"]= 100,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53021,
+    53108
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[192] = {
+  ["baseExp"]= 109000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032005,
+    10032006,
+    10032007,
+    10032008
+  },
+  ["dropsId2"]= {
+    10032009,
+    10032010,
+    10032011,
+    10032012
+  },
+  ["dropsId3"]= {
+    10032013,
+    10032014,
+    10032015,
+    10032016
+  },
+  ["dropsId4"]= {
+    10032017,
+    10032018,
+    10032019,
+    10032020
+  },
+  ["jobExp"]= 109000,
+  ["layer"]= 192,
+  ["level"]= 101,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53111,
+    53112,
+    53110,
+    53109,
+    53113,
+    53114
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[193] = {
+  ["baseExp"]= 109000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032005,
+    10032006,
+    10032007,
+    10032008
+  },
+  ["dropsId2"]= {
+    10032009,
+    10032010,
+    10032011,
+    10032012
+  },
+  ["dropsId3"]= {
+    10032013,
+    10032014,
+    10032015,
+    10032016
+  },
+  ["dropsId4"]= {
+    10032017,
+    10032018,
+    10032019,
+    10032020
+  },
+  ["jobExp"]= 109000,
+  ["layer"]= 193,
+  ["level"]= 101,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53128,
+    53129,
+    53131,
+    53130
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[194] = {
+  ["baseExp"]= 110500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032005,
+    10032006,
+    10032007,
+    10032008
+  },
+  ["dropsId2"]= {
+    10032009,
+    10032010,
+    10032011,
+    10032012
+  },
+  ["dropsId3"]= {
+    10032013,
+    10032014,
+    10032015,
+    10032016
+  },
+  ["dropsId4"]= {
+    10032017,
+    10032018,
+    10032019,
+    10032020
+  },
+  ["jobExp"]= 110500,
+  ["layer"]= 194,
+  ["level"]= 102,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {
+    10032021,
+    10032022,
+    10032023,
+    10032024,
+    10032021,
+    10032022,
+    10032023,
+    10032024
+  },
+  ["treasurePr"]= 0.3,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53064,
+    53155
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[195] = {
+  ["baseExp"]= 110500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 10,
+  ["dropsId1"]= {
+    10032001,
+    10032002,
+    10032003,
+    10032004
+  },
+  ["dropsId2"]= {
+    10032005,
+    10032006,
+    10032007,
+    10032008
+  },
+  ["dropsId3"]= {
+    10032009,
+    10032010,
+    10032011,
+    10032012
+  },
+  ["dropsId4"]= {
+    10032013,
+    10032014,
+    10032015,
+    10032016
+  },
+  ["jobExp"]= 110500,
+  ["layer"]= 195,
+  ["level"]= 102,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53504,
+  ["typeList"]= {
+    5
+  }
+},
+[196] = {
+  ["baseExp"]= 110500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032005,
+    10032006,
+    10032007,
+    10032008
+  },
+  ["dropsId2"]= {
+    10032009,
+    10032010,
+    10032011,
+    10032012
+  },
+  ["dropsId3"]= {
+    10032013,
+    10032014,
+    10032015,
+    10032016
+  },
+  ["dropsId4"]= {
+    10032017,
+    10032018,
+    10032019,
+    10032020
+  },
+  ["jobExp"]= 110500,
+  ["layer"]= 196,
+  ["level"]= 102,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53124,
+    53091,
+    53042
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[197] = {
+  ["baseExp"]= 112000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032005,
+    10032006,
+    10032007,
+    10032008
+  },
+  ["dropsId2"]= {
+    10032009,
+    10032010,
+    10032011,
+    10032012
+  },
+  ["dropsId3"]= {
+    10032013,
+    10032014,
+    10032015,
+    10032016
+  },
+  ["dropsId4"]= {
+    10032017,
+    10032018,
+    10032019,
+    10032020
+  },
+  ["jobExp"]= 112000,
+  ["layer"]= 197,
+  ["level"]= 103,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53059,
+    53028
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[198] = {
+  ["baseExp"]= 112000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032005,
+    10032006,
+    10032007,
+    10032008
+  },
+  ["dropsId2"]= {
+    10032009,
+    10032010,
+    10032011,
+    10032012
+  },
+  ["dropsId3"]= {
+    10032013,
+    10032014,
+    10032015,
+    10032016
+  },
+  ["dropsId4"]= {
+    10032017,
+    10032018,
+    10032019,
+    10032020
+  },
+  ["jobExp"]= 112000,
+  ["layer"]= 198,
+  ["level"]= 103,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53041,
+    53156
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[199] = {
+  ["baseExp"]= 113500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032005,
+    10032006,
+    10032007,
+    10032008
+  },
+  ["dropsId2"]= {
+    10032009,
+    10032010,
+    10032011,
+    10032012
+  },
+  ["dropsId3"]= {
+    10032013,
+    10032014,
+    10032015,
+    10032016
+  },
+  ["dropsId4"]= {
+    10032017,
+    10032018,
+    10032019,
+    10032020
+  },
+  ["jobExp"]= 113500,
+  ["layer"]= 199,
+  ["level"]= 104,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53011,
+    53152
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[200] = {
+  ["baseExp"]= 113500,
+  ["blessPr"]= {
+    71,
+    30,
+    10,
+    0
+  },
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 20,
+  ["dropsId1"]= {
+    10032101,
+    10032102,
+    10032103,
+    10032104
+  },
+  ["dropsId2"]= {
+    10032105,
+    10032106,
+    10032107,
+    10032108
+  },
+  ["dropsId3"]= {
+    10032109,
+    10032110,
+    10032111,
+    10032112
+  },
+  ["dropsId4"]= {
+    10032113,
+    10032114,
+    10032115,
+    10032116
+  },
+  ["jobExp"]= 113500,
+  ["layer"]= 200,
+  ["level"]= 104,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53509,
+  ["typeList"]= {
+    5
+  }
+},
+[201] = {
+  ["baseExp"]= 0,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {},
+  ["dropsId2"]= {},
+  ["dropsId3"]= {},
+  ["dropsId4"]= {},
+  ["jobExp"]= 0,
+  ["layer"]= 201,
+  ["level"]= 1,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53018,
+    53014
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    6
+  }
+},
+[202] = {
+  ["baseExp"]= 115000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032105,
+    10032106,
+    10032107,
+    10032108
+  },
+  ["dropsId2"]= {
+    10032109,
+    10032110,
+    10032111,
+    10032112
+  },
+  ["dropsId3"]= {
+    10032113,
+    10032114,
+    10032115,
+    10032116
+  },
+  ["dropsId4"]= {
+    10032117,
+    10032118,
+    10032119,
+    10032120
+  },
+  ["jobExp"]= 115000,
+  ["layer"]= 202,
+  ["level"]= 105,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53023,
+    53018
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[203] = {
+  ["baseExp"]= 115000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032105,
+    10032106,
+    10032107,
+    10032108
+  },
+  ["dropsId2"]= {
+    10032109,
+    10032110,
+    10032111,
+    10032112
+  },
+  ["dropsId3"]= {
+    10032113,
+    10032114,
+    10032115,
+    10032116
+  },
+  ["dropsId4"]= {
+    10032117,
+    10032118,
+    10032119,
+    10032120
+  },
+  ["jobExp"]= 115000,
+  ["layer"]= 203,
+  ["level"]= 105,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53053,
+    53020,
+    53033
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[204] = {
+  ["baseExp"]= 116500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032105,
+    10032106,
+    10032107,
+    10032108
+  },
+  ["dropsId2"]= {
+    10032109,
+    10032110,
+    10032111,
+    10032112
+  },
+  ["dropsId3"]= {
+    10032113,
+    10032114,
+    10032115,
+    10032116
+  },
+  ["dropsId4"]= {
+    10032117,
+    10032118,
+    10032119,
+    10032120
+  },
+  ["jobExp"]= 116500,
+  ["layer"]= 204,
+  ["level"]= 106,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {
+    10032021,
+    10032022,
+    10032023,
+    10032024,
+    10032021,
+    10032022,
+    10032023,
+    10032024
+  },
+  ["treasurePr"]= 0.3,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53158,
+    53015,
+    53016,
+    53151
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[205] = {
+  ["baseExp"]= 116500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 10,
+  ["dropsId1"]= {
+    10032101,
+    10032102,
+    10032103,
+    10032104
+  },
+  ["dropsId2"]= {
+    10032105,
+    10032106,
+    10032107,
+    10032108
+  },
+  ["dropsId3"]= {
+    10032109,
+    10032110,
+    10032111,
+    10032112
+  },
+  ["dropsId4"]= {
+    10032113,
+    10032114,
+    10032115,
+    10032116
+  },
+  ["jobExp"]= 116500,
+  ["layer"]= 205,
+  ["level"]= 106,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53506,
+  ["typeList"]= {
+    5
+  }
+},
+[206] = {
+  ["baseExp"]= 116500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032105,
+    10032106,
+    10032107,
+    10032108
+  },
+  ["dropsId2"]= {
+    10032109,
+    10032110,
+    10032111,
+    10032112
+  },
+  ["dropsId3"]= {
+    10032113,
+    10032114,
+    10032115,
+    10032116
+  },
+  ["dropsId4"]= {
+    10032117,
+    10032118,
+    10032119,
+    10032120
+  },
+  ["jobExp"]= 116500,
+  ["layer"]= 206,
+  ["level"]= 106,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53102,
+    53088
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[207] = {
+  ["baseExp"]= 118000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032105,
+    10032106,
+    10032107,
+    10032108
+  },
+  ["dropsId2"]= {
+    10032109,
+    10032110,
+    10032111,
+    10032112
+  },
+  ["dropsId3"]= {
+    10032113,
+    10032114,
+    10032115,
+    10032116
+  },
+  ["dropsId4"]= {
+    10032117,
+    10032118,
+    10032119,
+    10032120
+  },
+  ["jobExp"]= 118000,
+  ["layer"]= 207,
+  ["level"]= 107,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53034,
+    53035
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[208] = {
+  ["baseExp"]= 118000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032105,
+    10032106,
+    10032107,
+    10032108
+  },
+  ["dropsId2"]= {
+    10032109,
+    10032110,
+    10032111,
+    10032112
+  },
+  ["dropsId3"]= {
+    10032113,
+    10032114,
+    10032115,
+    10032116
+  },
+  ["dropsId4"]= {
+    10032117,
+    10032118,
+    10032119,
+    10032120
+  },
+  ["jobExp"]= 118000,
+  ["layer"]= 208,
+  ["level"]= 107,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53100,
+    53153
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[209] = {
+  ["baseExp"]= 119500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032105,
+    10032106,
+    10032107,
+    10032108
+  },
+  ["dropsId2"]= {
+    10032109,
+    10032110,
+    10032111,
+    10032112
+  },
+  ["dropsId3"]= {
+    10032113,
+    10032114,
+    10032115,
+    10032116
+  },
+  ["dropsId4"]= {
+    10032117,
+    10032118,
+    10032119,
+    10032120
+  },
+  ["jobExp"]= 119500,
+  ["layer"]= 209,
+  ["level"]= 108,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53038,
+    53150
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[210] = {
+  ["baseExp"]= 119500,
+  ["blessPr"]= {
+    70,
+    30,
+    11,
+    0
+  },
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 20,
+  ["dropsId1"]= {
+    10032201,
+    10032202,
+    10032203,
+    10032204
+  },
+  ["dropsId2"]= {
+    10032205,
+    10032206,
+    10032207,
+    10032208
+  },
+  ["dropsId3"]= {
+    10032209,
+    10032210,
+    10032211,
+    10032212
+  },
+  ["dropsId4"]= {
+    10032213,
+    10032214,
+    10032215,
+    10032216
+  },
+  ["jobExp"]= 119500,
+  ["layer"]= 210,
+  ["level"]= 108,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53510,
+  ["typeList"]= {
+    5
+  }
+},
+[211] = {
+  ["baseExp"]= 119500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032105,
+    10032106,
+    10032107,
+    10032108
+  },
+  ["dropsId2"]= {
+    10032109,
+    10032110,
+    10032111,
+    10032112
+  },
+  ["dropsId3"]= {
+    10032113,
+    10032114,
+    10032115,
+    10032116
+  },
+  ["dropsId4"]= {
+    10032117,
+    10032118,
+    10032119,
+    10032120
+  },
+  ["jobExp"]= 119500,
+  ["layer"]= 211,
+  ["level"]= 108,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53077,
+    53078
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[212] = {
+  ["baseExp"]= 121000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032105,
+    10032106,
+    10032107,
+    10032108
+  },
+  ["dropsId2"]= {
+    10032109,
+    10032110,
+    10032111,
+    10032112
+  },
+  ["dropsId3"]= {
+    10032113,
+    10032114,
+    10032115,
+    10032116
+  },
+  ["dropsId4"]= {
+    10032117,
+    10032118,
+    10032119,
+    10032120
+  },
+  ["jobExp"]= 121000,
+  ["layer"]= 212,
+  ["level"]= 109,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53117,
+    53116
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[213] = {
+  ["baseExp"]= 121000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032105,
+    10032106,
+    10032107,
+    10032108
+  },
+  ["dropsId2"]= {
+    10032109,
+    10032110,
+    10032111,
+    10032112
+  },
+  ["dropsId3"]= {
+    10032113,
+    10032114,
+    10032115,
+    10032116
+  },
+  ["dropsId4"]= {
+    10032117,
+    10032118,
+    10032119,
+    10032120
+  },
+  ["jobExp"]= 121000,
+  ["layer"]= 213,
+  ["level"]= 109,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53029,
+    53050
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[214] = {
+  ["baseExp"]= 122500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032105,
+    10032106,
+    10032107,
+    10032108
+  },
+  ["dropsId2"]= {
+    10032109,
+    10032110,
+    10032111,
+    10032112
+  },
+  ["dropsId3"]= {
+    10032113,
+    10032114,
+    10032115,
+    10032116
+  },
+  ["dropsId4"]= {
+    10032117,
+    10032118,
+    10032119,
+    10032120
+  },
+  ["jobExp"]= 122500,
+  ["layer"]= 214,
+  ["level"]= 110,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {
+    10032021,
+    10032022,
+    10032023,
+    10032024,
+    10032021,
+    10032022,
+    10032023,
+    10032024
+  },
+  ["treasurePr"]= 0.3,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53133,
+    53134
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[215] = {
+  ["baseExp"]= 122500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 10,
+  ["dropsId1"]= {
+    10032101,
+    10032102,
+    10032103,
+    10032104
+  },
+  ["dropsId2"]= {
+    10032105,
+    10032106,
+    10032107,
+    10032108
+  },
+  ["dropsId3"]= {
+    10032109,
+    10032110,
+    10032111,
+    10032112
+  },
+  ["dropsId4"]= {
+    10032113,
+    10032114,
+    10032115,
+    10032116
+  },
+  ["jobExp"]= 122500,
+  ["layer"]= 215,
+  ["level"]= 110,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53508,
+  ["typeList"]= {
+    5
+  }
+},
+[216] = {
+  ["baseExp"]= 122500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032105,
+    10032106,
+    10032107,
+    10032108
+  },
+  ["dropsId2"]= {
+    10032109,
+    10032110,
+    10032111,
+    10032112
+  },
+  ["dropsId3"]= {
+    10032113,
+    10032114,
+    10032115,
+    10032116
+  },
+  ["dropsId4"]= {
+    10032117,
+    10032118,
+    10032119,
+    10032120
+  },
+  ["jobExp"]= 122500,
+  ["layer"]= 216,
+  ["level"]= 110,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53040,
+    53159
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[217] = {
+  ["baseExp"]= 124000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032105,
+    10032106,
+    10032107,
+    10032108
+  },
+  ["dropsId2"]= {
+    10032109,
+    10032110,
+    10032111,
+    10032112
+  },
+  ["dropsId3"]= {
+    10032113,
+    10032114,
+    10032115,
+    10032116
+  },
+  ["dropsId4"]= {
+    10032117,
+    10032118,
+    10032119,
+    10032120
+  },
+  ["jobExp"]= 124000,
+  ["layer"]= 217,
+  ["level"]= 111,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53099,
+    53154,
+    53118
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[218] = {
+  ["baseExp"]= 124000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032105,
+    10032106,
+    10032107,
+    10032108
+  },
+  ["dropsId2"]= {
+    10032109,
+    10032110,
+    10032111,
+    10032112
+  },
+  ["dropsId3"]= {
+    10032113,
+    10032114,
+    10032115,
+    10032116
+  },
+  ["dropsId4"]= {
+    10032117,
+    10032118,
+    10032119,
+    10032120
+  },
+  ["jobExp"]= 124000,
+  ["layer"]= 218,
+  ["level"]= 111,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53071,
+    53069,
+    53068
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[219] = {
+  ["baseExp"]= 125500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032105,
+    10032106,
+    10032107,
+    10032108
+  },
+  ["dropsId2"]= {
+    10032109,
+    10032110,
+    10032111,
+    10032112
+  },
+  ["dropsId3"]= {
+    10032113,
+    10032114,
+    10032115,
+    10032116
+  },
+  ["dropsId4"]= {
+    10032117,
+    10032118,
+    10032119,
+    10032120
+  },
+  ["jobExp"]= 125500,
+  ["layer"]= 219,
+  ["level"]= 112,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53025,
+    53147
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[220] = {
+  ["baseExp"]= 125500,
+  ["blessPr"]= {
+    70,
+    30,
+    11,
+    0
+  },
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 20,
+  ["dropsId1"]= {
+    10032201,
+    10032202,
+    10032203,
+    10032204
+  },
+  ["dropsId2"]= {
+    10032205,
+    10032206,
+    10032207,
+    10032208
+  },
+  ["dropsId3"]= {
+    10032209,
+    10032210,
+    10032211,
+    10032212
+  },
+  ["dropsId4"]= {
+    10032213,
+    10032214,
+    10032215,
+    10032216
+  },
+  ["jobExp"]= 125500,
+  ["layer"]= 220,
+  ["level"]= 112,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53512,
+  ["typeList"]= {
+    5
+  }
+},
+[221] = {
+  ["baseExp"]= 0,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {},
+  ["dropsId2"]= {},
+  ["dropsId3"]= {},
+  ["dropsId4"]= {},
+  ["jobExp"]= 0,
+  ["layer"]= 221,
+  ["level"]= 1,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53119,
+    53118
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    6
+  }
+},
+[222] = {
+  ["baseExp"]= 127000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032205,
+    10032206,
+    10032207,
+    10032208
+  },
+  ["dropsId2"]= {
+    10032209,
+    10032210,
+    10032211,
+    10032212
+  },
+  ["dropsId3"]= {
+    10032213,
+    10032214,
+    10032215,
+    10032216
+  },
+  ["dropsId4"]= {
+    10032217,
+    10032218,
+    10032219,
+    10032220
+  },
+  ["jobExp"]= 127000,
+  ["layer"]= 222,
+  ["level"]= 113,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53126,
+    53098
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[223] = {
+  ["baseExp"]= 127000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032205,
+    10032206,
+    10032207,
+    10032208
+  },
+  ["dropsId2"]= {
+    10032209,
+    10032210,
+    10032211,
+    10032212
+  },
+  ["dropsId3"]= {
+    10032213,
+    10032214,
+    10032215,
+    10032216
+  },
+  ["dropsId4"]= {
+    10032217,
+    10032218,
+    10032219,
+    10032220
+  },
+  ["jobExp"]= 127000,
+  ["layer"]= 223,
+  ["level"]= 113,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53088,
+    53120
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[224] = {
+  ["baseExp"]= 128500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032205,
+    10032206,
+    10032207,
+    10032208
+  },
+  ["dropsId2"]= {
+    10032209,
+    10032210,
+    10032211,
+    10032212
+  },
+  ["dropsId3"]= {
+    10032213,
+    10032214,
+    10032215,
+    10032216
+  },
+  ["dropsId4"]= {
+    10032217,
+    10032218,
+    10032219,
+    10032220
+  },
+  ["jobExp"]= 128500,
+  ["layer"]= 224,
+  ["level"]= 114,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {
+    10032221,
+    10032222,
+    10032223,
+    10032224,
+    10032221,
+    10032222,
+    10032223,
+    10032224
+  },
+  ["treasurePr"]= 0.3,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53045,
+    53063
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[225] = {
+  ["baseExp"]= 128500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 10,
+  ["dropsId1"]= {
+    10032201,
+    10032202,
+    10032203,
+    10032204
+  },
+  ["dropsId2"]= {
+    10032205,
+    10032206,
+    10032207,
+    10032208
+  },
+  ["dropsId3"]= {
+    10032209,
+    10032210,
+    10032211,
+    10032212
+  },
+  ["dropsId4"]= {
+    10032213,
+    10032214,
+    10032215,
+    10032216
+  },
+  ["jobExp"]= 128500,
+  ["layer"]= 225,
+  ["level"]= 114,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53520,
+  ["typeList"]= {
+    5
+  }
+},
+[226] = {
+  ["baseExp"]= 128500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032205,
+    10032206,
+    10032207,
+    10032208
+  },
+  ["dropsId2"]= {
+    10032209,
+    10032210,
+    10032211,
+    10032212
+  },
+  ["dropsId3"]= {
+    10032213,
+    10032214,
+    10032215,
+    10032216
+  },
+  ["dropsId4"]= {
+    10032217,
+    10032218,
+    10032219,
+    10032220
+  },
+  ["jobExp"]= 128500,
+  ["layer"]= 226,
+  ["level"]= 114,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53008,
+    53070
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[227] = {
+  ["baseExp"]= 130000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032205,
+    10032206,
+    10032207,
+    10032208
+  },
+  ["dropsId2"]= {
+    10032209,
+    10032210,
+    10032211,
+    10032212
+  },
+  ["dropsId3"]= {
+    10032213,
+    10032214,
+    10032215,
+    10032216
+  },
+  ["dropsId4"]= {
+    10032217,
+    10032218,
+    10032219,
+    10032220
+  },
+  ["jobExp"]= 130000,
+  ["layer"]= 227,
+  ["level"]= 115,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53055,
+    53030
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[228] = {
+  ["baseExp"]= 130000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032205,
+    10032206,
+    10032207,
+    10032208
+  },
+  ["dropsId2"]= {
+    10032209,
+    10032210,
+    10032211,
+    10032212
+  },
+  ["dropsId3"]= {
+    10032213,
+    10032214,
+    10032215,
+    10032216
+  },
+  ["dropsId4"]= {
+    10032217,
+    10032218,
+    10032219,
+    10032220
+  },
+  ["jobExp"]= 130000,
+  ["layer"]= 228,
+  ["level"]= 115,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53085,
+    53093
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[229] = {
+  ["baseExp"]= 131500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032205,
+    10032206,
+    10032207,
+    10032208
+  },
+  ["dropsId2"]= {
+    10032209,
+    10032210,
+    10032211,
+    10032212
+  },
+  ["dropsId3"]= {
+    10032213,
+    10032214,
+    10032215,
+    10032216
+  },
+  ["dropsId4"]= {
+    10032217,
+    10032218,
+    10032219,
+    10032220
+  },
+  ["jobExp"]= 131500,
+  ["layer"]= 229,
+  ["level"]= 116,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53103,
+    53033
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[230] = {
+  ["baseExp"]= 131500,
+  ["blessPr"]= {
+    0,
+    70,
+    30,
+    0
+  },
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 20,
+  ["dropsId1"]= {
+    10032301,
+    10032302,
+    10032303,
+    10032304
+  },
+  ["dropsId2"]= {
+    10032305,
+    10032306,
+    10032307,
+    10032308
+  },
+  ["dropsId3"]= {
+    10032309,
+    10032310,
+    10032311,
+    10032312
+  },
+  ["dropsId4"]= {
+    10032313,
+    10032314,
+    10032315,
+    10032316
+  },
+  ["jobExp"]= 131500,
+  ["layer"]= 230,
+  ["level"]= 116,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53515,
+  ["typeList"]= {
+    5
+  }
+},
+[231] = {
+  ["baseExp"]= 131500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032205,
+    10032206,
+    10032207,
+    10032208
+  },
+  ["dropsId2"]= {
+    10032209,
+    10032210,
+    10032211,
+    10032212
+  },
+  ["dropsId3"]= {
+    10032213,
+    10032214,
+    10032215,
+    10032216
+  },
+  ["dropsId4"]= {
+    10032217,
+    10032218,
+    10032219,
+    10032220
+  },
+  ["jobExp"]= 131500,
+  ["layer"]= 231,
+  ["level"]= 116,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53148,
+    53087
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[232] = {
+  ["baseExp"]= 133000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032205,
+    10032206,
+    10032207,
+    10032208
+  },
+  ["dropsId2"]= {
+    10032209,
+    10032210,
+    10032211,
+    10032212
+  },
+  ["dropsId3"]= {
+    10032213,
+    10032214,
+    10032215,
+    10032216
+  },
+  ["dropsId4"]= {
+    10032217,
+    10032218,
+    10032219,
+    10032220
+  },
+  ["jobExp"]= 133000,
+  ["layer"]= 232,
+  ["level"]= 117,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53106,
+    53031
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[233] = {
+  ["baseExp"]= 133000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032205,
+    10032206,
+    10032207,
+    10032208
+  },
+  ["dropsId2"]= {
+    10032209,
+    10032210,
+    10032211,
+    10032212
+  },
+  ["dropsId3"]= {
+    10032213,
+    10032214,
+    10032215,
+    10032216
+  },
+  ["dropsId4"]= {
+    10032217,
+    10032218,
+    10032219,
+    10032220
+  },
+  ["jobExp"]= 133000,
+  ["layer"]= 233,
+  ["level"]= 117,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53092,
+    53099
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[234] = {
+  ["baseExp"]= 134500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032205,
+    10032206,
+    10032207,
+    10032208
+  },
+  ["dropsId2"]= {
+    10032209,
+    10032210,
+    10032211,
+    10032212
+  },
+  ["dropsId3"]= {
+    10032213,
+    10032214,
+    10032215,
+    10032216
+  },
+  ["dropsId4"]= {
+    10032217,
+    10032218,
+    10032219,
+    10032220
+  },
+  ["jobExp"]= 134500,
+  ["layer"]= 234,
+  ["level"]= 118,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {
+    10032221,
+    10032222,
+    10032223,
+    10032224,
+    10032221,
+    10032222,
+    10032223,
+    10032224
+  },
+  ["treasurePr"]= 0.3,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53095,
+    53096
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[235] = {
+  ["baseExp"]= 134500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 10,
+  ["dropsId1"]= {
+    10032201,
+    10032202,
+    10032203,
+    10032204
+  },
+  ["dropsId2"]= {
+    10032205,
+    10032206,
+    10032207,
+    10032208
+  },
+  ["dropsId3"]= {
+    10032209,
+    10032210,
+    10032211,
+    10032212
+  },
+  ["dropsId4"]= {
+    10032213,
+    10032214,
+    10032215,
+    10032216
+  },
+  ["jobExp"]= 134500,
+  ["layer"]= 235,
+  ["level"]= 118,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53516,
+  ["typeList"]= {
+    5
+  }
+},
+[236] = {
+  ["baseExp"]= 134500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032205,
+    10032206,
+    10032207,
+    10032208
+  },
+  ["dropsId2"]= {
+    10032209,
+    10032210,
+    10032211,
+    10032212
+  },
+  ["dropsId3"]= {
+    10032213,
+    10032214,
+    10032215,
+    10032216
+  },
+  ["dropsId4"]= {
+    10032217,
+    10032218,
+    10032219,
+    10032220
+  },
+  ["jobExp"]= 134500,
+  ["layer"]= 236,
+  ["level"]= 118,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53151,
+    53164
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[237] = {
+  ["baseExp"]= 136000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032205,
+    10032206,
+    10032207,
+    10032208
+  },
+  ["dropsId2"]= {
+    10032209,
+    10032210,
+    10032211,
+    10032212
+  },
+  ["dropsId3"]= {
+    10032213,
+    10032214,
+    10032215,
+    10032216
+  },
+  ["dropsId4"]= {
+    10032217,
+    10032218,
+    10032219,
+    10032220
+  },
+  ["jobExp"]= 136000,
+  ["layer"]= 237,
+  ["level"]= 119,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53101,
+    53104
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[238] = {
+  ["baseExp"]= 136000,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032205,
+    10032206,
+    10032207,
+    10032208
+  },
+  ["dropsId2"]= {
+    10032209,
+    10032210,
+    10032211,
+    10032212
+  },
+  ["dropsId3"]= {
+    10032213,
+    10032214,
+    10032215,
+    10032216
+  },
+  ["dropsId4"]= {
+    10032217,
+    10032218,
+    10032219,
+    10032220
+  },
+  ["jobExp"]= 136000,
+  ["layer"]= 238,
+  ["level"]= 119,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53128,
+    53129,
+    53131
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[239] = {
+  ["baseExp"]= 137500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 0,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 0,
+  ["dropsId1"]= {
+    10032205,
+    10032206,
+    10032207,
+    10032208
+  },
+  ["dropsId2"]= {
+    10032209,
+    10032210,
+    10032211,
+    10032212
+  },
+  ["dropsId3"]= {
+    10032213,
+    10032214,
+    10032215,
+    10032216
+  },
+  ["dropsId4"]= {
+    10032217,
+    10032218,
+    10032219,
+    10032220
+  },
+  ["jobExp"]= 137500,
+  ["layer"]= 239,
+  ["level"]= 120,
+  ["poisonFogAppearTime"]= 300,
+  ["poisonFogTrigger"]= 3020301,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {
+    53154,
+    53119
+  },
+  ["type_5"]= 0,
+  ["typeList"]= {
+    1
+  }
+},
+[240] = {
+  ["baseExp"]= 137500,
+  ["blessPr"]= {},
+  ["bossMapType"]= 11,
+  ["buffList"]= {},
+  ["buffPr"]= 0,
+  ["coin"]= 20,
+  ["dropsId1"]= {
+    10032301,
+    10032302,
+    10032303,
+    10032304
+  },
+  ["dropsId2"]= {
+    10032305,
+    10032306,
+    10032307,
+    10032308
+  },
+  ["dropsId3"]= {
+    10032309,
+    10032310,
+    10032311,
+    10032312
+  },
+  ["dropsId4"]= {
+    10032313,
+    10032314,
+    10032315,
+    10032316
+  },
+  ["jobExp"]= 137500,
+  ["layer"]= 240,
+  ["level"]= 120,
+  ["poisonFogAppearTime"]= 0,
+  ["poisonFogTrigger"]= 0,
+  ["treasureDropsId"]= {},
+  ["treasurePr"]= 0,
+  ["triggerList"]= {},
+  ["triggerPr"]= 0,
+  ["type_1"]= {},
+  ["type_5"]= 53519,
+  ["typeList"]= {
+    5
+  }
+}
+}
+"

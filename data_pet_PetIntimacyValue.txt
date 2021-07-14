@@ -1,0 +1,73 @@
+TextAsset Base
+	string m_Name = "data_pet_PetIntimacyValue"
+	string m_Script = "return {
+[1] = {
+  ["Emoticon"]= {
+    5,
+    6,
+    13,
+    16,
+    19
+  },
+  ["Id"]= 1,
+  ["IntimacyMax"]= 100,
+  ["IntimacyMin"]= 0,
+  ["PetDeadCDRedValue"]= 0
+},
+[2] = {
+  ["Emoticon"]= {
+    1,
+    13,
+    12,
+    20,
+    7,
+    8,
+    25
+  },
+  ["Id"]= 2,
+  ["IntimacyMax"]= 250,
+  ["IntimacyMin"]= 101,
+  ["PetDeadCDRedValue"]= 0.05
+},
+[3] = {
+  ["Emoticon"]= {
+    24,
+    2,
+    1,
+    12,
+    20,
+    7
+  },
+  ["Id"]= 3,
+  ["IntimacyMax"]= 750,
+  ["IntimacyMin"]= 251,
+  ["PetDeadCDRedValue"]= 0.125
+},
+[4] = {
+  ["Emoticon"]= {
+    8,
+    22,
+    25,
+    7,
+    12,
+    1,
+    2
+  },
+  ["Id"]= 4,
+  ["IntimacyMax"]= 910,
+  ["IntimacyMin"]= 751,
+  ["PetDeadCDRedValue"]= 0.25
+},
+[5] = {
+  ["Emoticon"]= {
+    18,
+    7,
+    10
+  },
+  ["Id"]= 5,
+  ["IntimacyMax"]= 1000,
+  ["IntimacyMin"]= 911,
+  ["PetDeadCDRedValue"]= 0.4
+}
+}
+"

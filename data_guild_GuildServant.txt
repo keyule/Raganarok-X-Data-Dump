@@ -1,0 +1,34 @@
+TextAsset Base
+	string m_Name = "data_guild_GuildServant"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["Desc"]= "ServantDesc_2",
+  ["Icon"]= "Icons/Guild/maid/Img_touxiang_NP2",
+  ["Name"]= "ServantName_2",
+  ["NPCGuid"]= 60001011,
+  ["servantId"]= 60001011,
+  ["vipCardNum"]= 2
+},
+[3] = {
+  ["Desc"]= "ServantDesc_3",
+  ["Icon"]= "Icons/Guild/maid/Img_touxiang_NP3",
+  ["Name"]= "ServantName_3",
+  ["NPCGuid"]= 60001012,
+  ["servantId"]= 60001012,
+  ["vipCardNum"]= 3
+}
+}
+local baseTable={
+  ["actionID"]= 2,
+  ["Desc"]= "ServantDesc_1",
+  ["Icon"]= "Icons/Guild/maid/Img_touxiang_NP1",
+  ["Name"]= "ServantName_1",
+  ["NPCGuid"]= 60001010,
+  ["servantId"]= 60001010,
+  ["vipCardNum"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

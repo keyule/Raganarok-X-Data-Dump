@@ -1,0 +1,65 @@
+TextAsset Base
+	string m_Name = "data_pet_PetTendencyCoe"
+	string m_Script = "return {
+[1] = {
+  ["HPCoe"]= 1.3,
+  ["Id"]= 1,
+  ["MagAtkCoe"]= 1,
+  ["MagDefCoe"]= 1.1,
+  ["PhyAtkCoe"]= 1,
+  ["PhyDefCoe"]= 1.2,
+  ["TendencyDesc"]= "TendencyDesc_1",
+  ["TendencyName"]= "TendencyName_1"
+},
+[2] = {
+  ["HPCoe"]= 1,
+  ["Id"]= 2,
+  ["MagAtkCoe"]= 1.1,
+  ["MagDefCoe"]= 1.2,
+  ["PhyAtkCoe"]= 1,
+  ["PhyDefCoe"]= 1.2,
+  ["TendencyDesc"]= "TendencyDesc_2",
+  ["TendencyName"]= "TendencyName_2"
+},
+[3] = {
+  ["HPCoe"]= 1,
+  ["Id"]= 3,
+  ["MagAtkCoe"]= 1.3,
+  ["MagDefCoe"]= 1.1,
+  ["PhyAtkCoe"]= 1,
+  ["PhyDefCoe"]= 1,
+  ["TendencyDesc"]= "TendencyDesc_3",
+  ["TendencyName"]= "TendencyName_3"
+},
+[4] = {
+  ["HPCoe"]= 1.2,
+  ["Id"]= 4,
+  ["MagAtkCoe"]= 1,
+  ["MagDefCoe"]= 1,
+  ["PhyAtkCoe"]= 1.2,
+  ["PhyDefCoe"]= 1.1,
+  ["TendencyDesc"]= "TendencyDesc_4",
+  ["TendencyName"]= "TendencyName_4"
+},
+[5] = {
+  ["HPCoe"]= 1,
+  ["Id"]= 5,
+  ["MagAtkCoe"]= 1.1,
+  ["MagDefCoe"]= 1,
+  ["PhyAtkCoe"]= 1.4,
+  ["PhyDefCoe"]= 1,
+  ["TendencyDesc"]= "TendencyDesc_5",
+  ["TendencyName"]= "TendencyName_5"
+},
+[6] = {
+  ["HPCoe"]= 1,
+  ["Id"]= 6,
+  ["MagAtkCoe"]= 1,
+  ["MagDefCoe"]= 1,
+  ["PhyAtkCoe"]= 1.4,
+  ["PhyDefCoe"]= 1,
+  ["TendencyDesc"]= "TendencyDesc_6",
+  ["TendencyName"]= "TendencyName_6"
+}
+}
+"

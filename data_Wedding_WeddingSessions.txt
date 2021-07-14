@@ -1,0 +1,567 @@
+TextAsset Base
+	string m_Name = "data_Wedding_WeddingSessions"
+	string m_Script = "local table= {
+[50001] = {},
+[50002] = {
+  ["ID"]= 50002,
+  ["WeddingSessions"]= 2,
+  ["WeddingStartTime"]= 36000
+},
+[50003] = {
+  ["ID"]= 50003,
+  ["WeddingSessions"]= 3,
+  ["WeddingStartTime"]= 39600
+},
+[50004] = {
+  ["ID"]= 50004,
+  ["IsHotTime"]= 1,
+  ["WeddingSessions"]= 4,
+  ["WeddingStartTime"]= 43200
+},
+[50005] = {
+  ["ID"]= 50005,
+  ["IsHotTime"]= 1,
+  ["WeddingSessions"]= 5,
+  ["WeddingStartTime"]= 46800
+},
+[50006] = {
+  ["ID"]= 50006,
+  ["WeddingSessions"]= 6,
+  ["WeddingStartTime"]= 50400
+},
+[50007] = {
+  ["ID"]= 50007,
+  ["WeddingSessions"]= 7,
+  ["WeddingStartTime"]= 54000
+},
+[50008] = {
+  ["ID"]= 50008,
+  ["WeddingSessions"]= 8,
+  ["WeddingStartTime"]= 57600
+},
+[50009] = {
+  ["ID"]= 50009,
+  ["WeddingSessions"]= 9,
+  ["WeddingStartTime"]= 61200
+},
+[50010] = {
+  ["ID"]= 50010,
+  ["WeddingSessions"]= 10,
+  ["WeddingStartTime"]= 64800
+},
+[50011] = {
+  ["ID"]= 50011,
+  ["IsHotTime"]= 1,
+  ["WeddingSessions"]= 11,
+  ["WeddingStartTime"]= 68400
+},
+[50012] = {
+  ["ID"]= 50012,
+  ["IsHotTime"]= 1,
+  ["WeddingSessions"]= 12,
+  ["WeddingStartTime"]= 72000
+},
+[50013] = {
+  ["ID"]= 50013,
+  ["IsHotTime"]= 1,
+  ["WeddingSessions"]= 13,
+  ["WeddingStartTime"]= 75600
+},
+[50014] = {
+  ["ID"]= 50014,
+  ["WeeksType"]= 2
+},
+[50015] = {
+  ["ID"]= 50015,
+  ["WeddingSessions"]= 2,
+  ["WeddingStartTime"]= 36000,
+  ["WeeksType"]= 2
+},
+[50016] = {
+  ["ID"]= 50016,
+  ["WeddingSessions"]= 3,
+  ["WeddingStartTime"]= 39600,
+  ["WeeksType"]= 2
+},
+[50017] = {
+  ["ID"]= 50017,
+  ["IsHotTime"]= 1,
+  ["WeddingSessions"]= 4,
+  ["WeddingStartTime"]= 43200,
+  ["WeeksType"]= 2
+},
+[50018] = {
+  ["ID"]= 50018,
+  ["IsHotTime"]= 1,
+  ["WeddingSessions"]= 5,
+  ["WeddingStartTime"]= 46800,
+  ["WeeksType"]= 2
+},
+[50019] = {
+  ["ID"]= 50019,
+  ["WeddingSessions"]= 6,
+  ["WeddingStartTime"]= 50400,
+  ["WeeksType"]= 2
+},
+[50020] = {
+  ["ID"]= 50020,
+  ["WeddingSessions"]= 7,
+  ["WeddingStartTime"]= 54000,
+  ["WeeksType"]= 2
+},
+[50021] = {
+  ["ID"]= 50021,
+  ["WeddingSessions"]= 8,
+  ["WeddingStartTime"]= 57600,
+  ["WeeksType"]= 2
+},
+[50022] = {
+  ["ID"]= 50022,
+  ["WeddingSessions"]= 9,
+  ["WeddingStartTime"]= 61200,
+  ["WeeksType"]= 2
+},
+[50023] = {
+  ["ID"]= 50023,
+  ["WeddingSessions"]= 10,
+  ["WeddingStartTime"]= 64800,
+  ["WeeksType"]= 2
+},
+[50024] = {
+  ["ID"]= 50024,
+  ["IsHotTime"]= 1,
+  ["WeddingSessions"]= 11,
+  ["WeddingStartTime"]= 68400,
+  ["WeeksType"]= 2
+},
+[50025] = {
+  ["ID"]= 50025,
+  ["IsHotTime"]= 1,
+  ["WeddingSessions"]= 12,
+  ["WeddingStartTime"]= 72000,
+  ["WeeksType"]= 2
+},
+[50026] = {
+  ["ID"]= 50026,
+  ["IsHotTime"]= 1,
+  ["WeddingSessions"]= 13,
+  ["WeddingStartTime"]= 75600,
+  ["WeeksType"]= 2
+},
+[50027] = {
+  ["ID"]= 50027,
+  ["WeeksType"]= 3
+},
+[50028] = {
+  ["ID"]= 50028,
+  ["WeddingSessions"]= 2,
+  ["WeddingStartTime"]= 36000,
+  ["WeeksType"]= 3
+},
+[50029] = {
+  ["ID"]= 50029,
+  ["WeddingSessions"]= 3,
+  ["WeddingStartTime"]= 39600,
+  ["WeeksType"]= 3
+},
+[50030] = {
+  ["ID"]= 50030,
+  ["IsHotTime"]= 1,
+  ["WeddingSessions"]= 4,
+  ["WeddingStartTime"]= 43200,
+  ["WeeksType"]= 3
+},
+[50031] = {
+  ["ID"]= 50031,
+  ["IsHotTime"]= 1,
+  ["WeddingSessions"]= 5,
+  ["WeddingStartTime"]= 46800,
+  ["WeeksType"]= 3
+},
+[50032] = {
+  ["ID"]= 50032,
+  ["WeddingSessions"]= 6,
+  ["WeddingStartTime"]= 50400,
+  ["WeeksType"]= 3
+},
+[50033] = {
+  ["ID"]= 50033,
+  ["WeddingSessions"]= 7,
+  ["WeddingStartTime"]= 54000,
+  ["WeeksType"]= 3
+},
+[50034] = {
+  ["ID"]= 50034,
+  ["WeddingSessions"]= 8,
+  ["WeddingStartTime"]= 57600,
+  ["WeeksType"]= 3
+},
+[50035] = {
+  ["ID"]= 50035,
+  ["WeddingSessions"]= 9,
+  ["WeddingStartTime"]= 61200,
+  ["WeeksType"]= 3
+},
+[50036] = {
+  ["ID"]= 50036,
+  ["WeddingSessions"]= 10,
+  ["WeddingStartTime"]= 64800,
+  ["WeeksType"]= 3
+},
+[50037] = {
+  ["ID"]= 50037,
+  ["IsHotTime"]= 1,
+  ["WeddingSessions"]= 11,
+  ["WeddingStartTime"]= 68400,
+  ["WeeksType"]= 3
+},
+[50038] = {
+  ["ID"]= 50038,
+  ["IsHotTime"]= 1,
+  ["WeddingSessions"]= 12,
+  ["WeddingStartTime"]= 72000,
+  ["WeeksType"]= 3
+},
+[50039] = {
+  ["ID"]= 50039,
+  ["IsHotTime"]= 1,
+  ["WeddingSessions"]= 13,
+  ["WeddingStartTime"]= 75600,
+  ["WeeksType"]= 3
+},
+[50040] = {
+  ["ID"]= 50040,
+  ["WeeksType"]= 4
+},
+[50041] = {
+  ["ID"]= 50041,
+  ["WeddingSessions"]= 2,
+  ["WeddingStartTime"]= 36000,
+  ["WeeksType"]= 4
+},
+[50042] = {
+  ["ID"]= 50042,
+  ["WeddingSessions"]= 3,
+  ["WeddingStartTime"]= 39600,
+  ["WeeksType"]= 4
+},
+[50043] = {
+  ["ID"]= 50043,
+  ["IsHotTime"]= 1,
+  ["WeddingSessions"]= 4,
+  ["WeddingStartTime"]= 43200,
+  ["WeeksType"]= 4
+},
+[50044] = {
+  ["ID"]= 50044,
+  ["IsHotTime"]= 1,
+  ["WeddingSessions"]= 5,
+  ["WeddingStartTime"]= 46800,
+  ["WeeksType"]= 4
+},
+[50045] = {
+  ["ID"]= 50045,
+  ["WeddingSessions"]= 6,
+  ["WeddingStartTime"]= 50400,
+  ["WeeksType"]= 4
+},
+[50046] = {
+  ["ID"]= 50046,
+  ["WeddingSessions"]= 7,
+  ["WeddingStartTime"]= 54000,
+  ["WeeksType"]= 4
+},
+[50047] = {
+  ["ID"]= 50047,
+  ["WeddingSessions"]= 8,
+  ["WeddingStartTime"]= 57600,
+  ["WeeksType"]= 4
+},
+[50048] = {
+  ["ID"]= 50048,
+  ["WeddingSessions"]= 9,
+  ["WeddingStartTime"]= 61200,
+  ["WeeksType"]= 4
+},
+[50049] = {
+  ["ID"]= 50049,
+  ["WeddingSessions"]= 10,
+  ["WeddingStartTime"]= 64800,
+  ["WeeksType"]= 4
+},
+[50050] = {
+  ["ID"]= 50050,
+  ["IsHotTime"]= 1,
+  ["WeddingSessions"]= 11,
+  ["WeddingStartTime"]= 68400,
+  ["WeeksType"]= 4
+},
+[50051] = {
+  ["ID"]= 50051,
+  ["IsHotTime"]= 1,
+  ["WeddingSessions"]= 12,
+  ["WeddingStartTime"]= 72000,
+  ["WeeksType"]= 4
+},
+[50052] = {
+  ["ID"]= 50052,
+  ["IsHotTime"]= 1,
+  ["WeddingSessions"]= 13,
+  ["WeddingStartTime"]= 75600,
+  ["WeeksType"]= 4
+},
+[50053] = {
+  ["ID"]= 50053,
+  ["WeeksType"]= 5
+},
+[50054] = {
+  ["ID"]= 50054,
+  ["WeddingSessions"]= 2,
+  ["WeddingStartTime"]= 36000,
+  ["WeeksType"]= 5
+},
+[50055] = {
+  ["ID"]= 50055,
+  ["WeddingSessions"]= 3,
+  ["WeddingStartTime"]= 39600,
+  ["WeeksType"]= 5
+},
+[50056] = {
+  ["ID"]= 50056,
+  ["IsHotTime"]= 1,
+  ["WeddingSessions"]= 4,
+  ["WeddingStartTime"]= 43200,
+  ["WeeksType"]= 5
+},
+[50057] = {
+  ["ID"]= 50057,
+  ["IsHotTime"]= 1,
+  ["WeddingSessions"]= 5,
+  ["WeddingStartTime"]= 46800,
+  ["WeeksType"]= 5
+},
+[50058] = {
+  ["ID"]= 50058,
+  ["WeddingSessions"]= 6,
+  ["WeddingStartTime"]= 50400,
+  ["WeeksType"]= 5
+},
+[50059] = {
+  ["ID"]= 50059,
+  ["WeddingSessions"]= 7,
+  ["WeddingStartTime"]= 54000,
+  ["WeeksType"]= 5
+},
+[50060] = {
+  ["ID"]= 50060,
+  ["WeddingSessions"]= 8,
+  ["WeddingStartTime"]= 57600,
+  ["WeeksType"]= 5
+},
+[50061] = {
+  ["ID"]= 50061,
+  ["WeddingSessions"]= 9,
+  ["WeddingStartTime"]= 61200,
+  ["WeeksType"]= 5
+},
+[50062] = {
+  ["ID"]= 50062,
+  ["WeddingSessions"]= 10,
+  ["WeddingStartTime"]= 64800,
+  ["WeeksType"]= 5
+},
+[50063] = {
+  ["ID"]= 50063,
+  ["IsHotTime"]= 1,
+  ["WeddingSessions"]= 11,
+  ["WeddingStartTime"]= 68400,
+  ["WeeksType"]= 5
+},
+[50064] = {
+  ["ID"]= 50064,
+  ["IsHotTime"]= 1,
+  ["WeddingSessions"]= 12,
+  ["WeddingStartTime"]= 72000,
+  ["WeeksType"]= 5
+},
+[50065] = {
+  ["ID"]= 50065,
+  ["IsHotTime"]= 1,
+  ["WeddingSessions"]= 13,
+  ["WeddingStartTime"]= 75600,
+  ["WeeksType"]= 5
+},
+[50066] = {
+  ["ID"]= 50066,
+  ["WeeksType"]= 6
+},
+[50067] = {
+  ["ID"]= 50067,
+  ["WeddingSessions"]= 2,
+  ["WeddingStartTime"]= 36000,
+  ["WeeksType"]= 6
+},
+[50068] = {
+  ["ID"]= 50068,
+  ["WeddingSessions"]= 3,
+  ["WeddingStartTime"]= 39600,
+  ["WeeksType"]= 6
+},
+[50069] = {
+  ["ID"]= 50069,
+  ["IsHotTime"]= 1,
+  ["WeddingSessions"]= 4,
+  ["WeddingStartTime"]= 43200,
+  ["WeeksType"]= 6
+},
+[50070] = {
+  ["ID"]= 50070,
+  ["IsHotTime"]= 1,
+  ["WeddingSessions"]= 5,
+  ["WeddingStartTime"]= 46800,
+  ["WeeksType"]= 6
+},
+[50071] = {
+  ["ID"]= 50071,
+  ["WeddingSessions"]= 6,
+  ["WeddingStartTime"]= 50400,
+  ["WeeksType"]= 6
+},
+[50072] = {
+  ["ID"]= 50072,
+  ["WeddingSessions"]= 7,
+  ["WeddingStartTime"]= 54000,
+  ["WeeksType"]= 6
+},
+[50073] = {
+  ["ID"]= 50073,
+  ["WeddingSessions"]= 8,
+  ["WeddingStartTime"]= 57600,
+  ["WeeksType"]= 6
+},
+[50074] = {
+  ["ID"]= 50074,
+  ["WeddingSessions"]= 9,
+  ["WeddingStartTime"]= 61200,
+  ["WeeksType"]= 6
+},
+[50075] = {
+  ["ID"]= 50075,
+  ["WeddingSessions"]= 10,
+  ["WeddingStartTime"]= 64800,
+  ["WeeksType"]= 6
+},
+[50076] = {
+  ["ID"]= 50076,
+  ["IsHotTime"]= 1,
+  ["WeddingSessions"]= 11,
+  ["WeddingStartTime"]= 68400,
+  ["WeeksType"]= 6
+},
+[50077] = {
+  ["ID"]= 50077,
+  ["IsHotTime"]= 1,
+  ["WeddingSessions"]= 12,
+  ["WeddingStartTime"]= 72000,
+  ["WeeksType"]= 6
+},
+[50078] = {
+  ["ID"]= 50078,
+  ["IsHotTime"]= 1,
+  ["WeddingSessions"]= 13,
+  ["WeddingStartTime"]= 75600,
+  ["WeeksType"]= 6
+},
+[50079] = {
+  ["ID"]= 50079,
+  ["WeeksType"]= 7
+},
+[50080] = {
+  ["ID"]= 50080,
+  ["WeddingSessions"]= 2,
+  ["WeddingStartTime"]= 36000,
+  ["WeeksType"]= 7
+},
+[50081] = {
+  ["ID"]= 50081,
+  ["WeddingSessions"]= 3,
+  ["WeddingStartTime"]= 39600,
+  ["WeeksType"]= 7
+},
+[50082] = {
+  ["ID"]= 50082,
+  ["IsHotTime"]= 1,
+  ["WeddingSessions"]= 4,
+  ["WeddingStartTime"]= 43200,
+  ["WeeksType"]= 7
+},
+[50083] = {
+  ["ID"]= 50083,
+  ["IsHotTime"]= 1,
+  ["WeddingSessions"]= 5,
+  ["WeddingStartTime"]= 46800,
+  ["WeeksType"]= 7
+},
+[50084] = {
+  ["ID"]= 50084,
+  ["WeddingSessions"]= 6,
+  ["WeddingStartTime"]= 50400,
+  ["WeeksType"]= 7
+},
+[50085] = {
+  ["ID"]= 50085,
+  ["WeddingSessions"]= 7,
+  ["WeddingStartTime"]= 54000,
+  ["WeeksType"]= 7
+},
+[50086] = {
+  ["ID"]= 50086,
+  ["WeddingSessions"]= 8,
+  ["WeddingStartTime"]= 57600,
+  ["WeeksType"]= 7
+},
+[50087] = {
+  ["ID"]= 50087,
+  ["WeddingSessions"]= 9,
+  ["WeddingStartTime"]= 61200,
+  ["WeeksType"]= 7
+},
+[50088] = {
+  ["ID"]= 50088,
+  ["WeddingSessions"]= 10,
+  ["WeddingStartTime"]= 64800,
+  ["WeeksType"]= 7
+},
+[50089] = {
+  ["ID"]= 50089,
+  ["IsHotTime"]= 1,
+  ["WeddingSessions"]= 11,
+  ["WeddingStartTime"]= 68400,
+  ["WeeksType"]= 7
+},
+[50090] = {
+  ["ID"]= 50090,
+  ["IsHotTime"]= 1,
+  ["WeddingSessions"]= 12,
+  ["WeddingStartTime"]= 72000,
+  ["WeeksType"]= 7
+},
+[50091] = {
+  ["ID"]= 50091,
+  ["IsHotTime"]= 1,
+  ["WeddingSessions"]= 13,
+  ["WeddingStartTime"]= 75600,
+  ["WeeksType"]= 7
+}
+}
+local baseTable={
+  ["ID"]= 50001,
+  ["IsHotTime"]= 0,
+  ["WeddingSessions"]= 1,
+  ["WeddingStartTime"]= 32400,
+  ["WeeksType"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

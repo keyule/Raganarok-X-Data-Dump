@@ -1,0 +1,1770 @@
+TextAsset Base
+	string m_Name = "data_lifeSkill_LifeProduce"
+	string m_Script = "local table= {
+[10201008] = {
+  ["Energy"]= 2,
+  ["Exp"]= 2,
+  ["Level"]= 4,
+  ["LifeLevel"]= 4,
+  ["ProduceDesc"]= "LifeSkill_041",
+  ["Type"]= 5
+},
+[10201028] = {
+  ["ComposeId"]= 10201028,
+  ["ItemId"]= 10201028,
+  ["Level"]= 5,
+  ["LifeLevel"]= 5,
+  ["Name"]= "火属性抵抗药水",
+  ["Rank"]= 22,
+  ["Type"]= 5
+},
+[10201029] = {
+  ["ComposeId"]= 10201029,
+  ["ItemId"]= 10201029,
+  ["Name"]= "水属性抵抗药水",
+  ["Rank"]= 27,
+  ["Type"]= 5
+},
+[10201030] = {
+  ["ComposeId"]= 10201030,
+  ["ItemId"]= 10201030,
+  ["Level"]= 7,
+  ["LifeLevel"]= 7,
+  ["Name"]= "风属性抵抗药水",
+  ["ProduceDesc"]= "LifeSkill_055",
+  ["Rank"]= 32,
+  ["Type"]= 5
+},
+[10201031] = {
+  ["ComposeId"]= 10201031,
+  ["ItemId"]= 10201031,
+  ["Level"]= 8,
+  ["LifeLevel"]= 8,
+  ["Name"]= "地属性抵抗药水",
+  ["ProduceDesc"]= "LifeDes_10406621",
+  ["Rank"]= 37,
+  ["Type"]= 5
+},
+[10202024] = {
+  ["ComposeId"]= 10202024,
+  ["Energy"]= 1,
+  ["Exp"]= 1,
+  ["ItemId"]= 10202024,
+  ["Level"]= 3,
+  ["LifeLevel"]= 3,
+  ["Name"]= "天地树叶子",
+  ["ProduceDesc"]= "LifeSkill_040",
+  ["Rank"]= 11,
+  ["Type"]= 5
+},
+[10202029] = {
+  ["ComposeId"]= 10202029,
+  ["ItemId"]= 10202029,
+  ["Level"]= 5,
+  ["LifeLevel"]= 5,
+  ["Name"]= "火之元素卷轴",
+  ["Rank"]= 23,
+  ["Type"]= 5
+},
+[10202030] = {
+  ["ComposeId"]= 10202030,
+  ["ItemId"]= 10202030,
+  ["Name"]= "水之元素卷轴",
+  ["ProduceDesc"]= "",
+  ["Rank"]= 28,
+  ["Type"]= 5
+},
+[10202031] = {
+  ["ComposeId"]= 10202031,
+  ["ItemId"]= 10202031,
+  ["Level"]= 7,
+  ["LifeLevel"]= 7,
+  ["Name"]= "风之元素卷轴",
+  ["ProduceDesc"]= "",
+  ["Rank"]= 33,
+  ["Type"]= 5
+},
+[10202032] = {
+  ["ComposeId"]= 10202032,
+  ["ItemId"]= 10202032,
+  ["Level"]= 8,
+  ["LifeLevel"]= 8,
+  ["Name"]= "地之元素卷轴",
+  ["ProduceDesc"]= "",
+  ["Rank"]= 38,
+  ["Type"]= 5
+},
+[10204066] = {
+  ["ComposeId"]= 10204066,
+  ["Energy"]= 1,
+  ["Exp"]= 1,
+  ["ItemId"]= 10204066,
+  ["Level"]= 1,
+  ["LifeLevel"]= 1,
+  ["Name"]= "红色药箱",
+  ["ProduceDesc"]= "LifeSkill_052",
+  ["Rank"]= 1,
+  ["Type"]= 5
+},
+[10204067] = {
+  ["ComposeId"]= 10204067,
+  ["Energy"]= 2,
+  ["Exp"]= 2,
+  ["ItemId"]= 10204067,
+  ["Level"]= 1,
+  ["LifeLevel"]= 1,
+  ["Name"]= "苍蝇翅膀堆",
+  ["ProduceDesc"]= "LifeSkill_055",
+  ["Rank"]= 4,
+  ["Type"]= 5
+},
+[10204068] = {
+  ["ComposeId"]= 10204068,
+  ["Energy"]= 4,
+  ["Exp"]= 4,
+  ["ItemId"]= 10204068,
+  ["Level"]= 2,
+  ["LifeLevel"]= 2,
+  ["Name"]= "蝴蝶翅膀堆",
+  ["ProduceDesc"]= "LifeSkill_055",
+  ["Rank"]= 8,
+  ["Type"]= 5
+},
+[10204069] = {
+  ["ComposeId"]= 10204069,
+  ["ItemId"]= 10204069,
+  ["Level"]= 8,
+  ["LifeLevel"]= 8,
+  ["Name"]= "白色药箱",
+  ["ProduceDesc"]= "LifeSkill_050",
+  ["Rank"]= 34,
+  ["Type"]= 5
+},
+[10204070] = {
+  ["ComposeId"]= 10204070,
+  ["Energy"]= 2,
+  ["Exp"]= 2,
+  ["ItemId"]= 10204070,
+  ["Level"]= 1,
+  ["LifeLevel"]= 1,
+  ["Name"]= "PVP红色药箱",
+  ["ProduceDesc"]= "LifeSkill_054",
+  ["Rank"]= 2,
+  ["Type"]= 5
+},
+[10204071] = {
+  ["ComposeId"]= 10204071,
+  ["Energy"]= 20,
+  ["Exp"]= 20,
+  ["ItemId"]= 10204071,
+  ["Level"]= 8,
+  ["LifeLevel"]= 8,
+  ["Name"]= "PVP白色药箱",
+  ["ProduceDesc"]= "LifeDes_10406621",
+  ["Rank"]= 35,
+  ["Type"]= 5
+},
+[10204072] = {
+  ["ComposeId"]= 10204072,
+  ["Energy"]= 4,
+  ["Exp"]= 4,
+  ["ItemId"]= 10204072,
+  ["Level"]= 4,
+  ["LifeLevel"]= 4,
+  ["Name"]= "毒药箱",
+  ["ProduceDesc"]= "LifeSkill_042",
+  ["Rank"]= 17,
+  ["Type"]= 5
+},
+[10204073] = {
+  ["ComposeId"]= 10204073,
+  ["Energy"]= 4,
+  ["Exp"]= 4,
+  ["ItemId"]= 10204073,
+  ["Level"]= 4,
+  ["LifeLevel"]= 4,
+  ["Name"]= "陷阱组",
+  ["ProduceDesc"]= "LifeSkill_041",
+  ["Rank"]= 16,
+  ["Type"]= 5
+},
+[10204074] = {
+  ["ComposeId"]= 10204074,
+  ["Energy"]= 1,
+  ["Exp"]= 1,
+  ["ItemId"]= 10204074,
+  ["Level"]= 3,
+  ["LifeLevel"]= 3,
+  ["Name"]= "银箭矢筒",
+  ["ProduceDesc"]= "LifeSkill_040",
+  ["Rank"]= 13,
+  ["Type"]= 5
+},
+[10204075] = {
+  ["ComposeId"]= 10204075,
+  ["Energy"]= 2,
+  ["Exp"]= 2,
+  ["ItemId"]= 10204075,
+  ["Level"]= 5,
+  ["LifeLevel"]= 5,
+  ["Name"]= "火箭矢筒",
+  ["ProduceDesc"]= "LifeSkill_043",
+  ["Rank"]= 21,
+  ["Type"]= 5
+},
+[10204076] = {
+  ["ComposeId"]= 10204076,
+  ["Energy"]= 2,
+  ["Exp"]= 2,
+  ["ItemId"]= 10204076,
+  ["Name"]= "冰箭矢筒",
+  ["Rank"]= 26,
+  ["Type"]= 5
+},
+[10204077] = {
+  ["ComposeId"]= 10204077,
+  ["Energy"]= 2,
+  ["Exp"]= 2,
+  ["ItemId"]= 10204077,
+  ["Level"]= 7,
+  ["LifeLevel"]= 7,
+  ["Name"]= "风灵箭矢筒",
+  ["ProduceDesc"]= "LifeSkill_055",
+  ["Rank"]= 31,
+  ["Type"]= 5
+},
+[10204078] = {
+  ["ComposeId"]= 10204078,
+  ["Energy"]= 2,
+  ["Exp"]= 2,
+  ["ItemId"]= 10204078,
+  ["Level"]= 2,
+  ["LifeLevel"]= 2,
+  ["Name"]= "蓝色药箱",
+  ["ProduceDesc"]= "LifeSkill_055",
+  ["Rank"]= 5,
+  ["Type"]= 5
+},
+[10204079] = {
+  ["ComposeId"]= 10204079,
+  ["Energy"]= 1,
+  ["Exp"]= 1,
+  ["ItemId"]= 10204079,
+  ["Level"]= 2,
+  ["LifeLevel"]= 2,
+  ["Name"]= "天地树芽袋",
+  ["ProduceDesc"]= "LifeSkill_055",
+  ["Rank"]= 7,
+  ["Type"]= 5
+},
+[10204080] = {
+  ["ComposeId"]= 10204080,
+  ["Energy"]= 2,
+  ["Exp"]= 2,
+  ["ItemId"]= 10204080,
+  ["Level"]= 8,
+  ["LifeLevel"]= 8,
+  ["Name"]= "地灵箭矢筒",
+  ["ProduceDesc"]= "LifeDes_10406621",
+  ["Rank"]= 36,
+  ["Type"]= 5
+},
+[10204082] = {
+  ["ComposeId"]= 10204082,
+  ["Energy"]= 4,
+  ["Exp"]= 4,
+  ["ItemId"]= 10204082,
+  ["Level"]= 2,
+  ["LifeLevel"]= 2,
+  ["Name"]= "PVP蓝色药箱",
+  ["ProduceDesc"]= "LifeSkill_055",
+  ["Rank"]= 6,
+  ["Type"]= 5
+},
+[10204085] = {
+  ["ComposeId"]= 10204085,
+  ["Energy"]= 8,
+  ["Exp"]= 8,
+  ["ItemId"]= 10204085,
+  ["Level"]= 5,
+  ["LifeLevel"]= 5,
+  ["Name"]= "万能药箱",
+  ["ProduceDesc"]= "LifeSkill_041",
+  ["Rank"]= 19,
+  ["Type"]= 5
+},
+[10204086] = {
+  ["ComposeId"]= 10204086,
+  ["Energy"]= 3,
+  ["Exp"]= 3,
+  ["ItemId"]= 10204086,
+  ["Level"]= 3,
+  ["LifeLevel"]= 3,
+  ["Name"]= "黄色药箱",
+  ["ProduceDesc"]= "LifeSkill_055",
+  ["Rank"]= 9,
+  ["Type"]= 5
+},
+[10204087] = {
+  ["ComposeId"]= 10204087,
+  ["Energy"]= 6,
+  ["Exp"]= 6,
+  ["ItemId"]= 10204087,
+  ["Level"]= 3,
+  ["LifeLevel"]= 3,
+  ["Name"]= "PVP黄色药箱",
+  ["ProduceDesc"]= "LifeSkill_040",
+  ["Rank"]= 10,
+  ["Type"]= 5
+},
+[10207002] = {
+  ["ComposeId"]= 10207002,
+  ["Energy"]= 6,
+  ["Exp"]= 6,
+  ["ItemId"]= 10207002,
+  ["Level"]= 4,
+  ["LifeLevel"]= 4,
+  ["Name"]= "高级矿镐",
+  ["ProduceDesc"]= "LifeSkill_042",
+  ["Rank"]= 15,
+  ["Type"]= 5
+},
+[10207004] = {
+  ["ComposeId"]= 10207004,
+  ["Energy"]= 2,
+  ["Exp"]= 2,
+  ["ItemId"]= 10207004,
+  ["Level"]= 1,
+  ["LifeLevel"]= 1,
+  ["Name"]= "普通矿镐",
+  ["ProduceDesc"]= "LifeSkill_054",
+  ["Rank"]= 3,
+  ["Type"]= 5
+},
+[10211001] = {
+  ["ComposeId"]= 10211001,
+  ["ItemId"]= 10211001,
+  ["Level"]= 1,
+  ["LifeLevel"]= 1,
+  ["Name"]= "强化武器金属Ⅰ",
+  ["Rank"]= 1
+},
+[10211002] = {
+  ["ComposeId"]= 10211002,
+  ["ItemId"]= 10211002,
+  ["Level"]= 3,
+  ["LifeLevel"]= 3,
+  ["Name"]= "强化武器金属Ⅱ",
+  ["Rank"]= 25
+},
+[10211003] = {
+  ["ComposeId"]= 10211003,
+  ["ItemId"]= 10211003,
+  ["Level"]= 5,
+  ["LifeLevel"]= 5,
+  ["Name"]= "强化武器金属Ⅲ",
+  ["Rank"]= 43
+},
+[10211007] = {
+  ["ComposeId"]= 10211007,
+  ["ItemId"]= 10211007,
+  ["Level"]= 1,
+  ["LifeLevel"]= 1,
+  ["Name"]= "强化防具金属Ⅰ",
+  ["Rank"]= 2
+},
+[10211008] = {
+  ["ComposeId"]= 10211008,
+  ["ItemId"]= 10211008,
+  ["Level"]= 3,
+  ["LifeLevel"]= 3,
+  ["Name"]= "强化防具金属Ⅱ",
+  ["Rank"]= 26
+},
+[10211009] = {
+  ["ComposeId"]= 10211009,
+  ["ItemId"]= 10211009,
+  ["Level"]= 5,
+  ["LifeLevel"]= 5,
+  ["Name"]= "强化防具金属Ⅲ",
+  ["ProduceDesc"]= "LifeSkill_050",
+  ["Rank"]= 44
+},
+[10211013] = {
+  ["ComposeId"]= 10211013,
+  ["ItemId"]= 10211013,
+  ["Level"]= 1,
+  ["LifeLevel"]= 1,
+  ["Name"]= "强化饰品金属Ⅰ",
+  ["Rank"]= 3
+},
+[10211014] = {
+  ["ComposeId"]= 10211014,
+  ["ItemId"]= 10211014,
+  ["Level"]= 3,
+  ["LifeLevel"]= 3,
+  ["Name"]= "强化饰品金属Ⅱ",
+  ["Rank"]= 27
+},
+[10211015] = {
+  ["ComposeId"]= 10211015,
+  ["ItemId"]= 10211015,
+  ["Level"]= 5,
+  ["LifeLevel"]= 5,
+  ["Name"]= "强化饰品金属Ⅲ",
+  ["Rank"]= 45
+},
+[10402002] = {
+  ["ComposeId"]= 10402002,
+  ["ItemId"]= 10402002,
+  ["Level"]= 1,
+  ["LifeLevel"]= 1,
+  ["Name"]= "铝",
+  ["Rank"]= 7
+},
+[10402003] = {
+  ["ComposeId"]= 10402003,
+  ["ItemId"]= 10402003,
+  ["Level"]= 4,
+  ["LifeLevel"]= 4,
+  ["Name"]= "浓缩铝",
+  ["Rank"]= 31
+},
+[10402005] = {
+  ["ComposeId"]= 10402005,
+  ["ItemId"]= 10402005,
+  ["Level"]= 1,
+  ["LifeLevel"]= 1,
+  ["Name"]= "神之金属",
+  ["Rank"]= 8
+},
+[10402006] = {
+  ["ComposeId"]= 10402006,
+  ["ItemId"]= 10402006,
+  ["Level"]= 4,
+  ["LifeLevel"]= 4,
+  ["Name"]= "浓缩神之金属",
+  ["Rank"]= 32
+},
+[10406401] = {
+  ["ComposeId"]= 10406401,
+  ["ItemId"]= 10406401,
+  ["Level"]= 2,
+  ["LifeLevel"]= 2,
+  ["Name"]= "铁Ⅰ",
+  ["Rank"]= 16
+},
+[10406402] = {
+  ["ComposeId"]= 10406402,
+  ["ItemId"]= 10406402,
+  ["Level"]= 2,
+  ["LifeLevel"]= 2,
+  ["Name"]= "金Ⅰ",
+  ["Rank"]= 18
+},
+[10406403] = {
+  ["ComposeId"]= 10406403,
+  ["ItemId"]= 10406403,
+  ["Level"]= 1,
+  ["LifeLevel"]= 1,
+  ["Name"]= "魔力之石",
+  ["Rank"]= 9
+},
+[10406404] = {
+  ["ComposeId"]= 10406404,
+  ["ItemId"]= 10406404,
+  ["Name"]= "敏捷宝石Ⅱ",
+  ["ProduceDesc"]= "LifeSkill_041",
+  ["Rank"]= 56
+},
+[10406405] = {
+  ["ComposeId"]= 10406405,
+  ["ItemId"]= 10406405,
+  ["Name"]= "智力宝石Ⅱ",
+  ["ProduceDesc"]= "LifeSkill_042",
+  ["Rank"]= 57
+},
+[10406406] = {
+  ["ComposeId"]= 10406406,
+  ["ItemId"]= 10406406,
+  ["Name"]= "体质宝石Ⅱ",
+  ["ProduceDesc"]= "LifeSkill_040",
+  ["Rank"]= 58
+},
+[10406407] = {
+  ["ComposeId"]= 10406407,
+  ["ItemId"]= 10406407,
+  ["Level"]= 7,
+  ["LifeLevel"]= 7,
+  ["Name"]= "高浓缩神之金属",
+  ["ProduceDesc"]= "LifeSkill_056",
+  ["Rank"]= 74
+},
+[10406408] = {
+  ["ComposeId"]= 10406408,
+  ["ItemId"]= 10406408,
+  ["Name"]= "力量宝石Ⅱ",
+  ["ProduceDesc"]= "LifeSkill_048",
+  ["Rank"]= 55
+},
+[10406409] = {
+  ["ComposeId"]= 10406409,
+  ["ItemId"]= 10406409,
+  ["Level"]= 7,
+  ["LifeLevel"]= 7,
+  ["Name"]= "高浓缩铝",
+  ["ProduceDesc"]= "LifeSkill_056",
+  ["Rank"]= 73
+},
+[10406410] = {
+  ["ComposeId"]= 10406410,
+  ["ItemId"]= 10406410,
+  ["Level"]= 7,
+  ["LifeLevel"]= 7,
+  ["Name"]= "高浓缩魔力之石",
+  ["Rank"]= 75
+},
+[10406411] = {
+  ["ComposeId"]= 10406411,
+  ["ItemId"]= 10406411,
+  ["Name"]= "幸运宝石Ⅱ",
+  ["Rank"]= 59
+},
+[10406412] = {
+  ["ComposeId"]= 10406412,
+  ["ItemId"]= 10406412,
+  ["Name"]= "灵巧宝石Ⅱ",
+  ["Rank"]= 60
+},
+[10406413] = {
+  ["ComposeId"]= 10406413,
+  ["ItemId"]= 10406413,
+  ["Name"]= "铁Ⅱ",
+  ["Rank"]= 61
+},
+[10406414] = {
+  ["ComposeId"]= 10406414,
+  ["ItemId"]= 10406414,
+  ["Name"]= "银Ⅱ",
+  ["Rank"]= 62
+},
+[10406415] = {
+  ["ComposeId"]= 10406415,
+  ["ItemId"]= 10406415,
+  ["Level"]= 2,
+  ["LifeLevel"]= 2,
+  ["Name"]= "银Ⅰ",
+  ["Rank"]= 17
+},
+[10406416] = {
+  ["ComposeId"]= 10406416,
+  ["ItemId"]= 10406416,
+  ["Level"]= 3,
+  ["LifeLevel"]= 3,
+  ["Name"]= "炽灼之附魔石",
+  ["Rank"]= 28
+},
+[10406417] = {
+  ["ComposeId"]= 10406417,
+  ["ItemId"]= 10406417,
+  ["Level"]= 3,
+  ["LifeLevel"]= 3,
+  ["Name"]= "固化之附魔石",
+  ["Rank"]= 29
+},
+[10406418] = {
+  ["ComposeId"]= 10406418,
+  ["ItemId"]= 10406418,
+  ["Level"]= 2,
+  ["LifeLevel"]= 2,
+  ["Name"]= "力量宝石Ⅰ",
+  ["Rank"]= 10
+},
+[10406419] = {
+  ["ComposeId"]= 10406419,
+  ["ItemId"]= 10406419,
+  ["Level"]= 2,
+  ["LifeLevel"]= 2,
+  ["Name"]= "敏捷宝石Ⅰ",
+  ["Rank"]= 11
+},
+[10406420] = {
+  ["ComposeId"]= 10406420,
+  ["ItemId"]= 10406420,
+  ["Level"]= 2,
+  ["LifeLevel"]= 2,
+  ["Name"]= "智力宝石Ⅰ",
+  ["Rank"]= 12
+},
+[10406421] = {
+  ["ComposeId"]= 10406421,
+  ["ItemId"]= 10406421,
+  ["Level"]= 2,
+  ["LifeLevel"]= 2,
+  ["Name"]= "体质宝石Ⅰ",
+  ["Rank"]= 13
+},
+[10406422] = {
+  ["ComposeId"]= 10406422,
+  ["ItemId"]= 10406422,
+  ["Level"]= 2,
+  ["LifeLevel"]= 2,
+  ["Name"]= "幸运宝石Ⅰ"
+},
+[10406423] = {
+  ["ComposeId"]= 10406423,
+  ["ItemId"]= 10406423,
+  ["Level"]= 2,
+  ["LifeLevel"]= 2,
+  ["Name"]= "灵巧宝石Ⅰ",
+  ["Rank"]= 15
+},
+[10406424] = {
+  ["ComposeId"]= 10406424,
+  ["ItemId"]= 10406424,
+  ["Level"]= 1,
+  ["LifeLevel"]= 1,
+  ["Name"]= "砥砺之附魔石",
+  ["Rank"]= 4
+},
+[10406425] = {
+  ["ComposeId"]= 10406425,
+  ["ItemId"]= 10406425,
+  ["Level"]= 1,
+  ["LifeLevel"]= 1,
+  ["Name"]= "韧化之附魔石",
+  ["Rank"]= 5
+},
+[10406426] = {
+  ["ComposeId"]= 10406426,
+  ["ItemId"]= 10406426,
+  ["Level"]= 1,
+  ["LifeLevel"]= 1,
+  ["Name"]= "秘尘之附魔石",
+  ["Rank"]= 6
+},
+[10406427] = {
+  ["ComposeId"]= 10406427,
+  ["ItemId"]= 10406427,
+  ["Name"]= "金Ⅱ",
+  ["Rank"]= 63
+},
+[10406428] = {
+  ["ComposeId"]= 10406428,
+  ["ItemId"]= 10406428,
+  ["Level"]= 8,
+  ["LifeLevel"]= 8,
+  ["Name"]= "强化武器金属Ⅳ",
+  ["ProduceDesc"]= "LifeSkill_050",
+  ["Rank"]= 85
+},
+[10406429] = {
+  ["ComposeId"]= 10406429,
+  ["ItemId"]= 10406429,
+  ["Level"]= 8,
+  ["LifeLevel"]= 8,
+  ["Name"]= "强化防具金属Ⅳ",
+  ["ProduceDesc"]= "LifeSkill_051",
+  ["Rank"]= 86
+},
+[10406430] = {
+  ["ComposeId"]= 10406430,
+  ["ItemId"]= 10406430,
+  ["Level"]= 8,
+  ["LifeLevel"]= 8,
+  ["Name"]= "强化饰品金属Ⅳ",
+  ["ProduceDesc"]= "LifeSkill_051",
+  ["Rank"]= 87
+},
+[10406431] = {
+  ["ComposeId"]= 10406431,
+  ["ItemId"]= 10406431,
+  ["Level"]= 3,
+  ["LifeLevel"]= 3,
+  ["Name"]= "深金之附魔石",
+  ["Rank"]= 30
+},
+[10406432] = {
+  ["ComposeId"]= 10406432,
+  ["ItemId"]= 10406432,
+  ["Level"]= 7,
+  ["LifeLevel"]= 7,
+  ["Name"]= "武器祝福石Ⅱ",
+  ["ProduceDesc"]= "LifeSkill_043",
+  ["Rank"]= 76
+},
+[10406433] = {
+  ["ComposeId"]= 10406433,
+  ["ItemId"]= 10406433,
+  ["Level"]= 7,
+  ["LifeLevel"]= 7,
+  ["Name"]= "防具祝福石Ⅱ",
+  ["ProduceDesc"]= "LifeSkill_043",
+  ["Rank"]= 77
+},
+[10406434] = {
+  ["ComposeId"]= 10406434,
+  ["ItemId"]= 10406434,
+  ["Level"]= 7,
+  ["LifeLevel"]= 7,
+  ["Name"]= "饰品祝福石Ⅱ",
+  ["ProduceDesc"]= "LifeSkill_043",
+  ["Rank"]= 78
+},
+[10406435] = {
+  ["ComposeId"]= 10406435,
+  ["ItemId"]= 10406435,
+  ["Level"]= 7,
+  ["LifeLevel"]= 7,
+  ["Name"]= "阴沉之附魔石",
+  ["Rank"]= 70
+},
+[10406436] = {
+  ["ComposeId"]= 10406436,
+  ["ItemId"]= 10406436,
+  ["Level"]= 7,
+  ["LifeLevel"]= 7,
+  ["Name"]= "岩化之附魔石",
+  ["ProduceDesc"]= "LifeSkill_040",
+  ["Rank"]= 71
+},
+[10406437] = {
+  ["ComposeId"]= 10406437,
+  ["ItemId"]= 10406437,
+  ["Level"]= 7,
+  ["LifeLevel"]= 7,
+  ["Name"]= "银灵之附魔石",
+  ["ProduceDesc"]= "LifeSkill_056",
+  ["Rank"]= 72
+},
+[10406441] = {
+  ["ComposeId"]= 10406441,
+  ["ItemId"]= 10406441,
+  ["Level"]= 8,
+  ["LifeLevel"]= 8,
+  ["Name"]= "寒辉之附魔石",
+  ["Rank"]= 88
+},
+[10406442] = {
+  ["ComposeId"]= 10406442,
+  ["ItemId"]= 10406442,
+  ["Level"]= 8,
+  ["LifeLevel"]= 8,
+  ["Name"]= "祈化之附魔石",
+  ["Rank"]= 89
+},
+[10406443] = {
+  ["ComposeId"]= 10406443,
+  ["ItemId"]= 10406443,
+  ["Level"]= 8,
+  ["LifeLevel"]= 8,
+  ["Name"]= "瑰晶之附魔石",
+  ["Rank"]= 90
+},
+[10406444] = {
+  ["ComposeId"]= 10406444,
+  ["ItemId"]= 10406444,
+  ["Level"]= 4,
+  ["LifeLevel"]= 4,
+  ["Name"]= "武器祝福石Ⅰ",
+  ["ProduceDesc"]= "LifeSkill_053",
+  ["Rank"]= 34
+},
+[10406445] = {
+  ["ComposeId"]= 10406445,
+  ["ItemId"]= 10406445,
+  ["Level"]= 4,
+  ["LifeLevel"]= 4,
+  ["Name"]= "防具祝福石Ⅰ",
+  ["Rank"]= 35
+},
+[10406446] = {
+  ["ComposeId"]= 10406446,
+  ["ItemId"]= 10406446,
+  ["Level"]= 4,
+  ["LifeLevel"]= 4,
+  ["Name"]= "饰品祝福石Ⅰ",
+  ["Rank"]= 36
+},
+[10406447] = {
+  ["ComposeId"]= 10406447,
+  ["ItemId"]= 10406447,
+  ["Level"]= 2,
+  ["LifeLevel"]= 2,
+  ["Name"]= "轻型晶石",
+  ["Rank"]= 19
+},
+[10406448] = {
+  ["ComposeId"]= 10406448,
+  ["ItemId"]= 10406448,
+  ["Level"]= 2,
+  ["LifeLevel"]= 2,
+  ["Name"]= "花朵结晶",
+  ["Rank"]= 20
+},
+[10406449] = {
+  ["ComposeId"]= 10406449,
+  ["ItemId"]= 10406449,
+  ["Level"]= 2,
+  ["LifeLevel"]= 2,
+  ["Name"]= "尖牙之核",
+  ["Rank"]= 21
+},
+[10406450] = {
+  ["ComposeId"]= 10406450,
+  ["ItemId"]= 10406450,
+  ["Level"]= 3,
+  ["LifeLevel"]= 3,
+  ["Name"]= "粘合布料",
+  ["Rank"]= 22
+},
+[10406451] = {
+  ["ComposeId"]= 10406451,
+  ["ItemId"]= 10406451,
+  ["Level"]= 3,
+  ["LifeLevel"]= 3,
+  ["Name"]= "绒壳织物",
+  ["Rank"]= 23
+},
+[10406452] = {
+  ["ComposeId"]= 10406452,
+  ["ItemId"]= 10406452,
+  ["Level"]= 3,
+  ["LifeLevel"]= 3,
+  ["Name"]= "脆弱缝线",
+  ["Rank"]= 24
+},
+[10406453] = {
+  ["ComposeId"]= 10406453,
+  ["ItemId"]= 10406453,
+  ["Level"]= 4,
+  ["LifeLevel"]= 4,
+  ["Name"]= "灰骸晶石",
+  ["ProduceDesc"]= "LifeSkill_053",
+  ["Rank"]= 37
+},
+[10406454] = {
+  ["ComposeId"]= 10406454,
+  ["ItemId"]= 10406454,
+  ["Level"]= 4,
+  ["LifeLevel"]= 4,
+  ["Name"]= "旧辰结晶",
+  ["Rank"]= 38
+},
+[10406455] = {
+  ["ComposeId"]= 10406455,
+  ["ItemId"]= 10406455,
+  ["Level"]= 4,
+  ["LifeLevel"]= 4,
+  ["Name"]= "锐利之核",
+  ["Rank"]= 39
+},
+[10406456] = {
+  ["ComposeId"]= 10406456,
+  ["ItemId"]= 10406456,
+  ["Level"]= 4,
+  ["LifeLevel"]= 4,
+  ["Name"]= "硬化布料",
+  ["ProduceDesc"]= "LifeSkill_049",
+  ["Rank"]= 40
+},
+[10406457] = {
+  ["ComposeId"]= 10406457,
+  ["ItemId"]= 10406457,
+  ["Level"]= 4,
+  ["LifeLevel"]= 4,
+  ["Name"]= "旧皮织物",
+  ["Rank"]= 41
+},
+[10406458] = {
+  ["ComposeId"]= 10406458,
+  ["ItemId"]= 10406458,
+  ["Level"]= 4,
+  ["LifeLevel"]= 4,
+  ["Name"]= "纤维缝线",
+  ["Rank"]= 42
+},
+[10406459] = {
+  ["ComposeId"]= 10406459,
+  ["ItemId"]= 10406459,
+  ["Level"]= 5,
+  ["LifeLevel"]= 5,
+  ["Name"]= "朽毒晶石",
+  ["ProduceDesc"]= "LifeSkill_055",
+  ["Rank"]= 49
+},
+[10406460] = {
+  ["ComposeId"]= 10406460,
+  ["ItemId"]= 10406460,
+  ["Level"]= 5,
+  ["LifeLevel"]= 5,
+  ["Name"]= "异化结晶",
+  ["ProduceDesc"]= "LifeSkill_055",
+  ["Rank"]= 50
+},
+[10406461] = {
+  ["ComposeId"]= 10406461,
+  ["ItemId"]= 10406461,
+  ["Level"]= 5,
+  ["LifeLevel"]= 5,
+  ["Name"]= "锋锐之核",
+  ["ProduceDesc"]= "LifeSkill_043",
+  ["Rank"]= 51
+},
+[10406462] = {
+  ["ComposeId"]= 10406462,
+  ["ItemId"]= 10406462,
+  ["Level"]= 5,
+  ["LifeLevel"]= 5,
+  ["Name"]= "粗质布料",
+  ["ProduceDesc"]= "LifeSkill_055",
+  ["Rank"]= 52
+},
+[10406463] = {
+  ["ComposeId"]= 10406463,
+  ["ItemId"]= 10406463,
+  ["Level"]= 5,
+  ["LifeLevel"]= 5,
+  ["Name"]= "加固织物",
+  ["ProduceDesc"]= "LifeSkill_043",
+  ["Rank"]= 53
+},
+[10406464] = {
+  ["ComposeId"]= 10406464,
+  ["ItemId"]= 10406464,
+  ["Level"]= 5,
+  ["LifeLevel"]= 5,
+  ["Name"]= "轻巧缝线",
+  ["ProduceDesc"]= "LifeSkill_043",
+  ["Rank"]= 54
+},
+[10406465] = {
+  ["ComposeId"]= 10406465,
+  ["ItemId"]= 10406465,
+  ["Name"]= "萎心晶石",
+  ["Rank"]= 64
+},
+[10406466] = {
+  ["ComposeId"]= 10406466,
+  ["ItemId"]= 10406466,
+  ["Name"]= "蒙尘结晶",
+  ["Rank"]= 65
+},
+[10406467] = {
+  ["ComposeId"]= 10406467,
+  ["ItemId"]= 10406467,
+  ["Name"]= "水生之核",
+  ["Rank"]= 66
+},
+[10406468] = {
+  ["ComposeId"]= 10406468,
+  ["ItemId"]= 10406468,
+  ["Name"]= "华美布料",
+  ["Rank"]= 67
+},
+[10406469] = {
+  ["ComposeId"]= 10406469,
+  ["ItemId"]= 10406469,
+  ["Name"]= "轻皮织物",
+  ["Rank"]= 68
+},
+[10406470] = {
+  ["ComposeId"]= 10406470,
+  ["ItemId"]= 10406470,
+  ["Name"]= "硬绳缝线",
+  ["Rank"]= 69
+},
+[10406471] = {
+  ["ComposeId"]= 10406471,
+  ["ItemId"]= 10406471,
+  ["Level"]= 7,
+  ["LifeLevel"]= 7,
+  ["Name"]= "预知晶石",
+  ["ProduceDesc"]= "LifeSkill_043",
+  ["Rank"]= 79
+},
+[10406472] = {
+  ["ComposeId"]= 10406472,
+  ["ItemId"]= 10406472,
+  ["Level"]= 7,
+  ["LifeLevel"]= 7,
+  ["Name"]= "永火结晶",
+  ["ProduceDesc"]= "LifeSkill_043",
+  ["Rank"]= 80
+},
+[10406473] = {
+  ["ComposeId"]= 10406473,
+  ["ItemId"]= 10406473,
+  ["Level"]= 7,
+  ["LifeLevel"]= 7,
+  ["Name"]= "野性之核",
+  ["ProduceDesc"]= "LifeSkill_043",
+  ["Rank"]= 81
+},
+[10406474] = {
+  ["ComposeId"]= 10406474,
+  ["ItemId"]= 10406474,
+  ["Level"]= 7,
+  ["LifeLevel"]= 7,
+  ["Name"]= "柔软布料",
+  ["Rank"]= 82
+},
+[10406475] = {
+  ["ComposeId"]= 10406475,
+  ["ItemId"]= 10406475,
+  ["Level"]= 7,
+  ["LifeLevel"]= 7,
+  ["Name"]= "精纱织物",
+  ["Rank"]= 83
+},
+[10406476] = {
+  ["ComposeId"]= 10406476,
+  ["ItemId"]= 10406476,
+  ["Level"]= 7,
+  ["LifeLevel"]= 7,
+  ["Name"]= "透明缝线",
+  ["Rank"]= 84
+},
+[10406477] = {
+  ["ComposeId"]= 10406477,
+  ["ItemId"]= 10406477,
+  ["Level"]= 8,
+  ["LifeLevel"]= 8,
+  ["Name"]= "英魂晶石",
+  ["Rank"]= 91
+},
+[10406478] = {
+  ["ComposeId"]= 10406478,
+  ["ItemId"]= 10406478,
+  ["Level"]= 8,
+  ["LifeLevel"]= 8,
+  ["Name"]= "狡犬结晶",
+  ["Rank"]= 92
+},
+[10406479] = {
+  ["ComposeId"]= 10406479,
+  ["ItemId"]= 10406479,
+  ["Level"]= 8,
+  ["LifeLevel"]= 8,
+  ["Name"]= "恶龙之核",
+  ["Rank"]= 93
+},
+[10406480] = {
+  ["ComposeId"]= 10406480,
+  ["ItemId"]= 10406480,
+  ["Level"]= 8,
+  ["LifeLevel"]= 8,
+  ["Name"]= "狼毛布料",
+  ["ProduceDesc"]= "LifeSkill_051",
+  ["Rank"]= 94
+},
+[10406481] = {
+  ["ComposeId"]= 10406481,
+  ["ItemId"]= 10406481,
+  ["Level"]= 8,
+  ["LifeLevel"]= 8,
+  ["Name"]= "镂甲织物",
+  ["ProduceDesc"]= "",
+  ["Rank"]= 95
+},
+[10406482] = {
+  ["ComposeId"]= 10406482,
+  ["ItemId"]= 10406482,
+  ["Level"]= 8,
+  ["LifeLevel"]= 8,
+  ["Name"]= "魂鳞缝线",
+  ["ProduceDesc"]= "",
+  ["Rank"]= 96
+},
+[10406483] = {
+  ["ComposeId"]= 10406483,
+  ["ItemId"]= 10406483,
+  ["Level"]= 5,
+  ["LifeLevel"]= 5,
+  ["Name"]= "汐流之附魔石",
+  ["ProduceDesc"]= "",
+  ["Rank"]= 46
+},
+[10406484] = {
+  ["ComposeId"]= 10406484,
+  ["ItemId"]= 10406484,
+  ["Level"]= 5,
+  ["LifeLevel"]= 5,
+  ["Name"]= "晶化之附魔石",
+  ["ProduceDesc"]= "",
+  ["Rank"]= 47
+},
+[10406485] = {
+  ["ComposeId"]= 10406485,
+  ["ItemId"]= 10406485,
+  ["Level"]= 5,
+  ["LifeLevel"]= 5,
+  ["Name"]= "萤星之附魔石",
+  ["ProduceDesc"]= "",
+  ["Rank"]= 48
+},
+[10406501] = {
+  ["ComposeId"]= 10406501,
+  ["Energy"]= 2,
+  ["Exp"]= 2,
+  ["ItemId"]= 10406501,
+  ["Level"]= 3,
+  ["LifeLevel"]= 3,
+  ["Name"]= "高级烹饪用具",
+  ["ProduceDesc"]= "LifeSkill_040",
+  ["Rank"]= 12,
+  ["Type"]= 5
+},
+[10406502] = {
+  ["ComposeId"]= 10406502,
+  ["ItemId"]= 10406502,
+  ["Level"]= 4,
+  ["LifeLevel"]= 4,
+  ["Name"]= "普通修理工具",
+  ["ProduceDesc"]= "LifeSkill_043",
+  ["Rank"]= 18,
+  ["Type"]= 5
+},
+[10406503] = {
+  ["ComposeId"]= 10406503,
+  ["Energy"]= 20,
+  ["Exp"]= 20,
+  ["ItemId"]= 10406503,
+  ["Level"]= 7,
+  ["LifeLevel"]= 7,
+  ["Name"]= "高级修理工具",
+  ["ProduceDesc"]= "LifeSkill_055",
+  ["Rank"]= 29,
+  ["Type"]= 5
+},
+[10406511] = {
+  ["ComposeId"]= 10406511,
+  ["ItemId"]= 10406511,
+  ["Level"]= 4,
+  ["LifeLevel"]= 4,
+  ["Name"]= "浓缩魔力之石",
+  ["Rank"]= 33
+},
+[10406601] = {
+  ["ComposeId"]= 10406601,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10406601,
+  ["Level"]= 5,
+  ["LifeLevel"]= 5,
+  ["Name"]= "煎烤厚肉Ⅰ",
+  ["ProduceDesc"]= "LifeDes_10406621",
+  ["Rank"]= 27,
+  ["Type"]= 6
+},
+[10406602] = {
+  ["ComposeId"]= 10406602,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10406602,
+  ["Level"]= 5,
+  ["LifeLevel"]= 5,
+  ["Name"]= "鱿鱼煎蛋Ⅰ",
+  ["ProduceDesc"]= "LifeDes_10406621",
+  ["Rank"]= 28,
+  ["Type"]= 6
+},
+[10406603] = {
+  ["ComposeId"]= 10406603,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10406603,
+  ["Name"]= "芳香龙鱼排Ⅰ",
+  ["ProduceDesc"]= "LifeDes_10406621",
+  ["Rank"]= 34,
+  ["Type"]= 6
+},
+[10406604] = {
+  ["ComposeId"]= 10406604,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10406604,
+  ["Name"]= "生鲜刺拼盘Ⅰ",
+  ["Rank"]= 35,
+  ["Type"]= 6
+},
+[10406605] = {
+  ["ComposeId"]= 10406605,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10406605,
+  ["Name"]= "鲢鱼便当Ⅰ",
+  ["ProduceDesc"]= "LifeDes_10406621",
+  ["Rank"]= 36,
+  ["Type"]= 6
+},
+[10406606] = {
+  ["ComposeId"]= 10406606,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10406606,
+  ["Level"]= 7,
+  ["LifeLevel"]= 7,
+  ["Name"]= "盐焗鳟鱼Ⅰ",
+  ["ProduceDesc"]= "LifeDes_10406621",
+  ["Rank"]= 41,
+  ["Type"]= 6
+},
+[10406607] = {
+  ["ComposeId"]= 10406607,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10406607,
+  ["Level"]= 7,
+  ["LifeLevel"]= 7,
+  ["Name"]= "藻泥鳗鱼Ⅰ",
+  ["ProduceDesc"]= "LifeDes_10406621",
+  ["Rank"]= 42,
+  ["Type"]= 6
+},
+[10406608] = {
+  ["ComposeId"]= 10406608,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10406608,
+  ["Level"]= 8,
+  ["LifeLevel"]= 8,
+  ["Name"]= "茶香果饮Ⅰ",
+  ["ProduceDesc"]= "LifeDes_10406621",
+  ["Rank"]= 43,
+  ["Type"]= 6
+},
+[10406609] = {
+  ["ComposeId"]= 10406609,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10406609,
+  ["Level"]= 8,
+  ["LifeLevel"]= 8,
+  ["Name"]= "鱼肉丝饭团Ⅰ",
+  ["ProduceDesc"]= "LifeDes_10406621",
+  ["Rank"]= 45,
+  ["Type"]= 6
+},
+[10406610] = {
+  ["ComposeId"]= 10406610,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10406610,
+  ["Level"]= 8,
+  ["LifeLevel"]= 8,
+  ["Name"]= "不详的鱼肉罐头Ⅰ",
+  ["Rank"]= 46,
+  ["Type"]= 6
+},
+[10406611] = {
+  ["ComposeId"]= 10406611,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10406611,
+  ["Level"]= 8,
+  ["LifeLevel"]= 8,
+  ["Name"]= "烟熏龙肉Ⅰ",
+  ["Rank"]= 47,
+  ["Type"]= 6
+},
+[10406612] = {
+  ["ComposeId"]= 10406612,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10406612,
+  ["Level"]= 8,
+  ["LifeLevel"]= 8,
+  ["Name"]= "油辣炸鳅Ⅰ",
+  ["Rank"]= 48,
+  ["Type"]= 6
+},
+[10406652] = {
+  ["ComposeId"]= 10406652,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10406652,
+  ["Level"]= 1,
+  ["LifeLevel"]= 1,
+  ["Name"]= "水草色拉Ⅰ",
+  ["ProduceDesc"]= "LifeDes_10406621",
+  ["Rank"]= 3,
+  ["Type"]= 6
+},
+[10406653] = {
+  ["ComposeId"]= 10406653,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10406653,
+  ["Level"]= 1,
+  ["LifeLevel"]= 1,
+  ["Name"]= "曼陀罗大虾Ⅰ",
+  ["ProduceDesc"]= "LifeDes_10406621",
+  ["Rank"]= 4,
+  ["Type"]= 6
+},
+[10406654] = {
+  ["ComposeId"]= 10406654,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10406654,
+  ["Level"]= 1,
+  ["LifeLevel"]= 1,
+  ["Name"]= "营养蛙肉Ⅰ",
+  ["ProduceDesc"]= "LifeDes_10406621",
+  ["Rank"]= 5,
+  ["Type"]= 6
+},
+[10406655] = {
+  ["ComposeId"]= 10406655,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10406655,
+  ["Level"]= 1,
+  ["LifeLevel"]= 1,
+  ["Name"]= "南瓜焗肉Ⅰ",
+  ["ProduceDesc"]= "LifeDes_10406621",
+  ["Rank"]= 1,
+  ["Type"]= 6
+},
+[10406656] = {
+  ["ComposeId"]= 10406656,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10406656,
+  ["Level"]= 1,
+  ["LifeLevel"]= 1,
+  ["Name"]= "健康配餐Ⅰ",
+  ["ProduceDesc"]= "LifeDes_10406621",
+  ["Rank"]= 2,
+  ["Type"]= 6
+},
+[10406657] = {
+  ["ComposeId"]= 10406657,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10406657,
+  ["Level"]= 1,
+  ["LifeLevel"]= 1,
+  ["Name"]= "鱼肉蒸蛋Ⅰ",
+  ["Rank"]= 6,
+  ["Type"]= 6
+},
+[10406658] = {
+  ["ComposeId"]= 10406658,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10406658,
+  ["Level"]= 2,
+  ["LifeLevel"]= 2,
+  ["Name"]= "香菇莲子粥Ⅰ",
+  ["ProduceDesc"]= "LifeSkill_055",
+  ["Rank"]= 9,
+  ["Type"]= 6
+},
+[10406659] = {
+  ["ComposeId"]= 10406659,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10406659,
+  ["Level"]= 2,
+  ["LifeLevel"]= 2,
+  ["Name"]= "果酱鱿鱼须Ⅰ",
+  ["Rank"]= 7,
+  ["Type"]= 6
+},
+[10406660] = {
+  ["ComposeId"]= 10406660,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10406660,
+  ["Level"]= 2,
+  ["LifeLevel"]= 2,
+  ["Name"]= "蛙蹼鲫鱼汤Ⅰ",
+  ["ProduceDesc"]= "LifeSkill_055",
+  ["Rank"]= 10,
+  ["Type"]= 6
+},
+[10406661] = {
+  ["ComposeId"]= 10406661,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10406661,
+  ["Level"]= 2,
+  ["LifeLevel"]= 2,
+  ["Name"]= "辣味油炸虫腿Ⅰ",
+  ["Rank"]= 8,
+  ["Type"]= 6
+},
+[10406662] = {
+  ["ComposeId"]= 10406662,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10406662,
+  ["Level"]= 2,
+  ["LifeLevel"]= 2,
+  ["Name"]= "药用蝇腿偏方Ⅰ",
+  ["ProduceDesc"]= "LifeSkill_055",
+  ["Rank"]= 12,
+  ["Type"]= 6
+},
+[10406663] = {
+  ["ComposeId"]= 10406663,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10406663,
+  ["Level"]= 2,
+  ["LifeLevel"]= 2,
+  ["Name"]= "清爽鱼排Ⅰ",
+  ["ProduceDesc"]= "LifeSkill_055",
+  ["Rank"]= 11,
+  ["Type"]= 6
+},
+[10406664] = {
+  ["ComposeId"]= 10406664,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10406664,
+  ["Level"]= 3,
+  ["LifeLevel"]= 3,
+  ["Name"]= "鲜味蛇肉Ⅰ",
+  ["ProduceDesc"]= "LifeDes_10406621",
+  ["Rank"]= 15,
+  ["Type"]= 6
+},
+[10406665] = {
+  ["ComposeId"]= 10406665,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10406665,
+  ["Level"]= 3,
+  ["LifeLevel"]= 3,
+  ["Name"]= "茄汁鼠肉烤串Ⅰ",
+  ["ProduceDesc"]= "LifeSkill_055",
+  ["Type"]= 6
+},
+[10406666] = {
+  ["ComposeId"]= 10406666,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10406666,
+  ["Level"]= 3,
+  ["LifeLevel"]= 3,
+  ["Name"]= "节肢虾肉串Ⅰ",
+  ["ProduceDesc"]= "LifeSkill_055",
+  ["Rank"]= 16,
+  ["Type"]= 6
+},
+[10406667] = {
+  ["ComposeId"]= 10406667,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10406667,
+  ["Level"]= 3,
+  ["LifeLevel"]= 3,
+  ["Name"]= "清甜虾肉Ⅰ",
+  ["ProduceDesc"]= "LifeDes_10406621",
+  ["Rank"]= 17,
+  ["Type"]= 6
+},
+[10406668] = {
+  ["ComposeId"]= 10406668,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10406668,
+  ["Level"]= 3,
+  ["LifeLevel"]= 3,
+  ["Name"]= "虫腿色拉Ⅰ",
+  ["ProduceDesc"]= "LifeSkill_055",
+  ["Rank"]= 13,
+  ["Type"]= 6
+},
+[10406669] = {
+  ["ComposeId"]= 10406669,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10406669,
+  ["Level"]= 3,
+  ["LifeLevel"]= 3,
+  ["Name"]= "酥脆鱼肉Ⅰ",
+  ["ProduceDesc"]= "LifeSkill_055",
+  ["Rank"]= 18,
+  ["Type"]= 6
+},
+[10406670] = {
+  ["ComposeId"]= 10406670,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10406670,
+  ["Level"]= 4,
+  ["LifeLevel"]= 4,
+  ["Name"]= "焖煮熊掌Ⅰ",
+  ["ProduceDesc"]= "LifeDes_10406621",
+  ["Rank"]= 21,
+  ["Type"]= 6
+},
+[10406671] = {
+  ["ComposeId"]= 10406671,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10406671,
+  ["Level"]= 4,
+  ["LifeLevel"]= 4,
+  ["Name"]= "酸味螺肉Ⅰ",
+  ["ProduceDesc"]= "LifeDes_10406621",
+  ["Rank"]= 22,
+  ["Type"]= 6
+},
+[10406672] = {
+  ["ComposeId"]= 10406672,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10406672,
+  ["Level"]= 4,
+  ["LifeLevel"]= 4,
+  ["Name"]= "凉拌海蜇Ⅰ",
+  ["ProduceDesc"]= "LifeDes_10406621",
+  ["Rank"]= 20,
+  ["Type"]= 6
+},
+[10406673] = {
+  ["ComposeId"]= 10406673,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10406673,
+  ["Level"]= 4,
+  ["LifeLevel"]= 4,
+  ["Name"]= "鱼蟹拼盘Ⅰ",
+  ["ProduceDesc"]= "LifeDes_10406621",
+  ["Rank"]= 23,
+  ["Type"]= 6
+},
+[10406674] = {
+  ["ComposeId"]= 10406674,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10406674,
+  ["Level"]= 4,
+  ["LifeLevel"]= 4,
+  ["Name"]= "爽滑蛤蜊肉Ⅰ",
+  ["ProduceDesc"]= "LifeDes_10406621",
+  ["Rank"]= 19,
+  ["Type"]= 6
+},
+[10406675] = {
+  ["ComposeId"]= 10406675,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10406675,
+  ["Level"]= 4,
+  ["LifeLevel"]= 4,
+  ["Name"]= "苦味鱼Ⅰ",
+  ["ProduceDesc"]= "LifeDes_10406621",
+  ["Rank"]= 24,
+  ["Type"]= 6
+},
+[10406676] = {
+  ["ComposeId"]= 10406676,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10406676,
+  ["Level"]= 5,
+  ["LifeLevel"]= 5,
+  ["Name"]= "海带炖肉Ⅰ",
+  ["ProduceDesc"]= "LifeDes_10406621",
+  ["Rank"]= 26,
+  ["Type"]= 6
+},
+[10406679] = {
+  ["ComposeId"]= 10406679,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10406679,
+  ["Level"]= 5,
+  ["LifeLevel"]= 5,
+  ["Name"]= "鱼肉乱炖锅Ⅰ",
+  ["ProduceDesc"]= "LifeDes_10406621",
+  ["Rank"]= 29,
+  ["Type"]= 6
+},
+[10413048] = {
+  ["ComposeId"]= 10413048,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10413048,
+  ["Level"]= 5,
+  ["LifeLevel"]= 5,
+  ["Name"]= "野外烹饪用具",
+  ["ProduceDesc"]= "LifeSkill_042",
+  ["Rank"]= 20,
+  ["Type"]= 5
+},
+[10413072] = {
+  ["ComposeId"]= 10413072,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10413072,
+  ["Level"]= 5,
+  ["LifeLevel"]= 5,
+  ["Name"]= "旧传魔力软膏Ⅰ",
+  ["ProduceDesc"]= "LifeDes_10406621",
+  ["Rank"]= 25,
+  ["Type"]= 6
+},
+[10413073] = {
+  ["ComposeId"]= 10413073,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10413073,
+  ["Name"]= "菊香烤肉Ⅰ",
+  ["ProduceDesc"]= "LifeDes_10406621",
+  ["Rank"]= 31,
+  ["Type"]= 6
+},
+[10413074] = {
+  ["ComposeId"]= 10413074,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10413074,
+  ["Level"]= 5,
+  ["LifeLevel"]= 5,
+  ["Name"]= "金枪鱼刺身盘Ⅰ",
+  ["ProduceDesc"]= "LifeDes_10406621",
+  ["Rank"]= 30,
+  ["Type"]= 6
+},
+[10413075] = {
+  ["ComposeId"]= 10413075,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10413075,
+  ["Name"]= "笋干信子Ⅰ",
+  ["ProduceDesc"]= "LifeDes_10406621",
+  ["Rank"]= 32,
+  ["Type"]= 6
+},
+[10413076] = {
+  ["ComposeId"]= 10413076,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10413076,
+  ["Name"]= "鲜味河豚Ⅰ",
+  ["ProduceDesc"]= "LifeDes_10406621",
+  ["Rank"]= 33,
+  ["Type"]= 6
+},
+[10413077] = {
+  ["ComposeId"]= 10413077,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10413077,
+  ["Level"]= 7,
+  ["LifeLevel"]= 7,
+  ["Name"]= "香草风味炸串Ⅰ",
+  ["ProduceDesc"]= "LifeDes_10406621",
+  ["Rank"]= 37,
+  ["Type"]= 6
+},
+[10413078] = {
+  ["ComposeId"]= 10413078,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10413078,
+  ["Level"]= 7,
+  ["LifeLevel"]= 7,
+  ["Name"]= "水果甜点Ⅰ",
+  ["ProduceDesc"]= "LifeDes_10406621",
+  ["Rank"]= 38,
+  ["Type"]= 6
+},
+[10413079] = {
+  ["ComposeId"]= 10413079,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10413079,
+  ["Level"]= 7,
+  ["LifeLevel"]= 7,
+  ["Name"]= "薄荷烤肉Ⅰ",
+  ["ProduceDesc"]= "LifeDes_10406621",
+  ["Rank"]= 39,
+  ["Type"]= 6
+},
+[10413080] = {
+  ["ComposeId"]= 10413080,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10413080,
+  ["Level"]= 7,
+  ["LifeLevel"]= 7,
+  ["Name"]= "炭烤蚌肉Ⅰ",
+  ["ProduceDesc"]= "LifeDes_10406621",
+  ["Rank"]= 40,
+  ["Type"]= 6
+},
+[10413081] = {
+  ["ComposeId"]= 10413081,
+  ["Energy"]= 5,
+  ["Exp"]= 5,
+  ["ItemId"]= 10413081,
+  ["Level"]= 8,
+  ["LifeLevel"]= 8,
+  ["Name"]= "醒神烤肉Ⅰ",
+  ["ProduceDesc"]= "LifeDes_10406621",
+  ["Rank"]= 44,
+  ["Type"]= 6
+},
+[10413082] = {
+  ["ComposeId"]= 10413082,
+  ["ItemId"]= 10413082,
+  ["Level"]= 7,
+  ["LifeLevel"]= 7,
+  ["Name"]= "家庭烹饪用具",
+  ["ProduceDesc"]= "LifeSkill_055",
+  ["Rank"]= 30,
+  ["Type"]= 5
+},
+[10413121] = {
+  ["ComposeId"]= 10413121,
+  ["Energy"]= 4,
+  ["Exp"]= 4,
+  ["ItemId"]= 10413121,
+  ["Name"]= "紫色药箱",
+  ["Rank"]= 24,
+  ["Type"]= 5
+},
+[10413122] = {
+  ["ComposeId"]= 10413122,
+  ["Energy"]= 8,
+  ["Exp"]= 8,
+  ["ItemId"]= 10413122,
+  ["Name"]= "PVP紫色药箱",
+  ["Rank"]= 25,
+  ["Type"]= 5
+}
+}
+local baseTable={
+  ["AdvancedItemId"]= 0,
+  ["AdvancedLevel"]= 1,
+  ["ComposeId"]= 10201008,
+  ["CriticalNum"]= 0,
+  ["CriticalRate"]= 0,
+  ["Energy"]= 10,
+  ["Exp"]= 10,
+  ["ItemId"]= 10201008,
+  ["Level"]= 6,
+  ["LifeLevel"]= 6,
+  ["Name"]= "天地树果实",
+  ["PrepositiveItemId"]= 0,
+  ["ProduceDesc"]= "LifeSkill_031",
+  ["ProduceLimit"]= 0,
+  ["ProduceRate"]= 0,
+  ["Rank"]= 14,
+  ["Type"]= 4,
+  ["UnlockCondition"]= 52,
+  ["UnlockItemId"]= {},
+  ["UnlockItemNum"]= {}
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

@@ -1,0 +1,206 @@
+TextAsset Base
+	string m_Name = "data_GVG_GvgHomepage"
+	string m_Script = "local table= {
+[1] = {},
+[4] = {
+  ["attackerDir"]= {
+    0,
+    1
+  },
+  ["attackerPoint"]= {
+    7.3,
+    -51
+  },
+  ["attackResurrected"]= {
+    7.3,
+    -51
+  },
+  ["attackResurrectedDir"]= {
+    0,
+    1
+  },
+  ["cityname"]= "GVG_city_1004",
+  ["defenderPoint"]= {
+    772.6,
+    1.8
+  },
+  ["defenderResurrected"]= {
+    772.6,
+    1.8
+  },
+  ["Dungeon"]= 4506,
+  ["id"]= 4,
+  ["maincity"]= 1310,
+  ["npc"]= 1310411,
+  ["revivePos"]= {
+    22.62,
+    227.71
+  },
+  ["reviveSceneId"]= 4506,
+  ["teleport"]= 1310411
+},
+[7] = {
+  ["attackerDir"]= {
+    -0.7071068,
+    0.7071067
+  },
+  ["attackerPoint"]= {
+    11.4,
+    88.3
+  },
+  ["attackResurrected"]= {
+    11.4,
+    88.3
+  },
+  ["attackResurrectedDir"]= {
+    -0.7071068,
+    0.7071067
+  },
+  ["cityname"]= "GVG_city_1007",
+  ["defenderPoint"]= {
+    -45.3,
+    751.6
+  },
+  ["defenderResurrected"]= {
+    -45.3,
+    751.6
+  },
+  ["Dungeon"]= 4507,
+  ["id"]= 7,
+  ["maincity"]= 1180,
+  ["npc"]= 1180411,
+  ["revivePos"]= {
+    35,
+    9.7
+  },
+  ["reviveSceneId"]= 4507,
+  ["teleport"]= 1180411
+},
+[9] = {
+  ["attackerDir"]= {
+    0,
+    1
+  },
+  ["attackerPoint"]= {
+    112.54,
+    64.8
+  },
+  ["attackResurrected"]= {
+    112.54,
+    64.8
+  },
+  ["attackResurrectedDir"]= {
+    0,
+    1
+  },
+  ["cityname"]= "GVG_city_1009",
+  ["defenderDir"]= {
+    0,
+    1
+  },
+  ["defenderPoint"]= {
+    625.31,
+    115
+  },
+  ["defenderResurrected"]= {
+    625.31,
+    115
+  },
+  ["defenderResurrectedDir"]= {
+    0,
+    1
+  },
+  ["Dungeon"]= 4509,
+  ["id"]= 9,
+  ["maincity"]= 1410,
+  ["npc"]= 1410411,
+  ["revivePos"]= {
+    161.79,
+    159
+  },
+  ["reviveSceneId"]= 4509,
+  ["teleport"]= 1410411
+},
+[13] = {
+  ["attackerPoint"]= {
+    -5.83,
+    182.61
+  },
+  ["attackResurrected"]= {
+    -5.83,
+    182.61
+  },
+  ["cityname"]= "GVG_city_1013",
+  ["defenderPoint"]= {
+    -31.3,
+    864.84
+  },
+  ["defenderResurrected"]= {
+    -31.3,
+    864.84
+  },
+  ["Dungeon"]= 4510,
+  ["id"]= 13,
+  ["maincity"]= 1210,
+  ["npc"]= 1210411,
+  ["revivePos"]= {
+    -9.29,
+    1
+  },
+  ["reviveSceneId"]= 4510,
+  ["teleport"]= 1210411
+}
+}
+local baseTable={
+  ["attackerDir"]= {
+    -8.742278E-08,
+    -1
+  },
+  ["attackerPoint"]= {
+    829.21,
+    45
+  },
+  ["attackResurrected"]= {
+    829.21,
+    45
+  },
+  ["attackResurrectedDir"]= {
+    -8.742278E-08,
+    -1
+  },
+  ["Battleground"]= 4601,
+  ["battletime"]= 900000,
+  ["city"]= 0,
+  ["cityname"]= "GVG_city_1001",
+  ["defenderDir"]= {
+    0.99999994,
+    5.96046448E-08
+  },
+  ["defenderPoint"]= {
+    1142.07,
+    13.96
+  },
+  ["defenderResurrected"]= {
+    1142.07,
+    13.96
+  },
+  ["defenderResurrectedDir"]= {
+    0.99999994,
+    5.96046448E-08
+  },
+  ["Dungeon"]= 4508,
+  ["id"]= 1,
+  ["maincity"]= 1110,
+  ["npc"]= 1110411,
+  ["pausetime"]= 30000,
+  ["revivePos"]= {
+    34,
+    -28.44
+  },
+  ["reviveSceneId"]= 4508,
+  ["teleport"]= 1110411
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

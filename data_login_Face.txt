@@ -1,0 +1,176 @@
+TextAsset Base
+	string m_Name = "data_login_Face"
+	string m_Script = "local table= {
+[1101] = {
+  ["NameLocalized"]= "英气"
+},
+[1102] = {
+  ["Id"]= 1102,
+  ["Name"]= "Face_Male_2",
+  ["NameLocalized"]= "随和",
+  ["Order"]= 3
+},
+[1103] = {
+  ["Id"]= 1103,
+  ["Name"]= "Face_Male_3",
+  ["NameLocalized"]= "呆萌",
+  ["Order"]= 4
+},
+[1104] = {
+  ["Id"]= 1104,
+  ["Name"]= "Face_Male_4",
+  ["NameLocalized"]= "坏坏",
+  ["Order"]= 2
+},
+[1105] = {
+  ["Id"]= 1105,
+  ["Name"]= "Face_Male_5",
+  ["NameLocalized"]= "有神",
+  ["Order"]= 5
+},
+[1108] = {
+  ["Id"]= 1108,
+  ["IsLoginUnlock"]= 0,
+  ["Name"]= "Face_Male_1108",
+  ["Order"]= 6
+},
+[1109] = {
+  ["Id"]= 1109,
+  ["IsLoginUnlock"]= 0,
+  ["Name"]= "Face_Male_1109",
+  ["NameLocalized"]= "无口",
+  ["Order"]= 7
+},
+[1110] = {
+  ["Id"]= 1110,
+  ["IsLoginUnlock"]= 0,
+  ["Name"]= "Face_Male_1110",
+  ["NameLocalized"]= "自信",
+  ["Order"]= 8
+},
+[1111] = {
+  ["Id"]= 1111,
+  ["IsLoginUnlock"]= 0,
+  ["Name"]= "Face_Male_1111",
+  ["NameLocalized"]= "高贵",
+  ["Order"]= 9
+},
+[1112] = {
+  ["Id"]= 1112,
+  ["IsLoginUnlock"]= 0,
+  ["Name"]= "Face_Male_1112",
+  ["NameLocalized"]= "委屈",
+  ["Order"]= 10
+},
+[1201] = {
+  ["Id"]= 1201,
+  ["isMale"]= 0,
+  ["Name"]= "Face_Female_1",
+  ["NameLocalized"]= "知性",
+  ["TierInPortrait"]= 3
+},
+[1202] = {
+  ["Id"]= 1202,
+  ["isMale"]= 0,
+  ["Name"]= "Face_Female_2",
+  ["NameLocalized"]= "发呆",
+  ["Order"]= 3
+},
+[1203] = {
+  ["Id"]= 1203,
+  ["isMale"]= 0,
+  ["Name"]= "Face_Female_3",
+  ["NameLocalized"]= "卡通",
+  ["Order"]= 4
+},
+[1204] = {
+  ["Id"]= 1204,
+  ["isMale"]= 0,
+  ["Name"]= "Face_Female_4",
+  ["NameLocalized"]= "小情绪",
+  ["Order"]= 2
+},
+[1205] = {
+  ["Id"]= 1205,
+  ["isMale"]= 0,
+  ["Name"]= "Face_Female_5",
+  ["NameLocalized"]= "期待",
+  ["Order"]= 5
+},
+[1208] = {
+  ["Id"]= 1208,
+  ["IsLoginUnlock"]= 0,
+  ["isMale"]= 0,
+  ["Name"]= "Face_Female_1208",
+  ["Order"]= 6
+},
+[1209] = {
+  ["Id"]= 1209,
+  ["IsLoginUnlock"]= 0,
+  ["isMale"]= 0,
+  ["Name"]= "Face_Female_1209",
+  ["NameLocalized"]= "无口",
+  ["Order"]= 7
+},
+[1210] = {
+  ["Id"]= 1210,
+  ["IsLoginUnlock"]= 0,
+  ["isMale"]= 0,
+  ["Name"]= "Face_Female_1210",
+  ["NameLocalized"]= "自信",
+  ["Order"]= 8
+},
+[1211] = {
+  ["Id"]= 1211,
+  ["IsLoginUnlock"]= 0,
+  ["isMale"]= 0,
+  ["Name"]= "Face_Female_1211",
+  ["NameLocalized"]= "高贵",
+  ["Order"]= 9
+},
+[1212] = {
+  ["Id"]= 1212,
+  ["IsLoginUnlock"]= 0,
+  ["isMale"]= 0,
+  ["Name"]= "Face_Female_1212",
+  ["NameLocalized"]= "委屈",
+  ["Order"]= 10
+}
+}
+local baseTable={
+  ["colorId"]= {
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["Id"]= 1101,
+  ["IsLoginOpen"]= 1,
+  ["IsLoginUnlock"]= 1,
+  ["isMale"]= 1,
+  ["ItemID"]= {
+    10403045
+  },
+  ["ItemNum"]= {
+    1
+  },
+  ["LockDes"]= "",
+  ["Name"]= "Face_Male_1",
+  ["NameLocalized"]= "天然",
+  ["Order"]= 1,
+  ["ShowInWardrobe"]= 1,
+  ["TierInPortrait"]= 0,
+  ["UnlockNum"]= 0,
+  ["UnlockType"]= 0,
+  ["Zeny"]= 20000
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

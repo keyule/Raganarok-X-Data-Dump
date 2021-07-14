@@ -1,0 +1,798 @@
+TextAsset Base
+	string m_Name = "data_pet_PetColorMatch"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["AttributeId"]= 2,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjblue"
+},
+[3] = {
+  ["AttributeId"]= 3,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjorange"
+},
+[4] = {
+  ["AttributeId"]= 4,
+  ["PotentialUpBg"]= "Img_num_jjpink"
+},
+[5] = {
+  ["AttributeId"]= 5,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjpurple"
+},
+[6] = {
+  ["AttributeId"]= 6,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjred"
+},
+[7] = {
+  ["AttributeId"]= 10,
+  ["PotentialUpBg"]= "Img_num_jjyellow"
+},
+[8] = {
+  ["AttributeId"]= 11,
+  ["LevelUpBg"]= "Img_lantiao"
+},
+[9] = {
+  ["AttributeId"]= 12,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjblue"
+},
+[10] = {
+  ["AttributeId"]= 13,
+  ["PotentialUpBg"]= "Img_num_jjorange"
+},
+[11] = {
+  ["AttributeId"]= 14,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjpink"
+},
+[12] = {
+  ["AttributeId"]= 15,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjpurple"
+},
+[13] = {
+  ["AttributeId"]= 16,
+  ["PotentialUpBg"]= "Img_num_jjred"
+},
+[14] = {
+  ["AttributeId"]= 17,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjyellow"
+},
+[15] = {
+  ["AttributeId"]= 18,
+  ["LevelUpBg"]= "Img_chengtiao"
+},
+[16] = {
+  ["AttributeId"]= 19,
+  ["PotentialUpBg"]= "Img_num_jjblue"
+},
+[17] = {
+  ["AttributeId"]= 20,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjorange"
+},
+[18] = {
+  ["AttributeId"]= 21,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjpink"
+},
+[19] = {
+  ["AttributeId"]= 22,
+  ["PotentialUpBg"]= "Img_num_jjpurple"
+},
+[20] = {
+  ["AttributeId"]= 23,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjred"
+},
+[21] = {
+  ["AttributeId"]= 24,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjyellow"
+},
+[22] = {
+  ["AttributeId"]= 25
+},
+[23] = {
+  ["AttributeId"]= 26,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjblue"
+},
+[24] = {
+  ["AttributeId"]= 27,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjorange"
+},
+[25] = {
+  ["AttributeId"]= 28,
+  ["PotentialUpBg"]= "Img_num_jjpink"
+},
+[26] = {
+  ["AttributeId"]= 29,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjpurple"
+},
+[27] = {
+  ["AttributeId"]= 30,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjred"
+},
+[28] = {
+  ["AttributeId"]= 31,
+  ["PotentialUpBg"]= "Img_num_jjyellow"
+},
+[29] = {
+  ["AttributeId"]= 32,
+  ["LevelUpBg"]= "Img_lantiao"
+},
+[30] = {
+  ["AttributeId"]= 33,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjblue"
+},
+[31] = {
+  ["AttributeId"]= 34,
+  ["PotentialUpBg"]= "Img_num_jjorange"
+},
+[32] = {
+  ["AttributeId"]= 35,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjpink"
+},
+[33] = {
+  ["AttributeId"]= 36,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjpurple"
+},
+[34] = {
+  ["AttributeId"]= 37,
+  ["PotentialUpBg"]= "Img_num_jjred"
+},
+[35] = {
+  ["AttributeId"]= 38,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjyellow"
+},
+[36] = {
+  ["AttributeId"]= 39,
+  ["LevelUpBg"]= "Img_chengtiao"
+},
+[37] = {
+  ["AttributeId"]= 40,
+  ["PotentialUpBg"]= "Img_num_jjblue"
+},
+[38] = {
+  ["AttributeId"]= 41,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjorange"
+},
+[39] = {
+  ["AttributeId"]= 42,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjpink"
+},
+[40] = {
+  ["AttributeId"]= 43,
+  ["PotentialUpBg"]= "Img_num_jjpurple"
+},
+[41] = {
+  ["AttributeId"]= 44,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjred"
+},
+[42] = {
+  ["AttributeId"]= 45,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjyellow"
+},
+[43] = {
+  ["AttributeId"]= 46
+},
+[44] = {
+  ["AttributeId"]= 47,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjblue"
+},
+[45] = {
+  ["AttributeId"]= 48,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjorange"
+},
+[46] = {
+  ["AttributeId"]= 49,
+  ["PotentialUpBg"]= "Img_num_jjpink"
+},
+[47] = {
+  ["AttributeId"]= 50,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjpurple"
+},
+[48] = {
+  ["AttributeId"]= 51,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjred"
+},
+[49] = {
+  ["AttributeId"]= 52,
+  ["PotentialUpBg"]= "Img_num_jjyellow"
+},
+[50] = {
+  ["AttributeId"]= 53,
+  ["LevelUpBg"]= "Img_lantiao"
+},
+[51] = {
+  ["AttributeId"]= 54,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjblue"
+},
+[52] = {
+  ["AttributeId"]= 55,
+  ["PotentialUpBg"]= "Img_num_jjorange"
+},
+[53] = {
+  ["AttributeId"]= 56,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjpink"
+},
+[54] = {
+  ["AttributeId"]= 57,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjpurple"
+},
+[55] = {
+  ["AttributeId"]= 58,
+  ["PotentialUpBg"]= "Img_num_jjred"
+},
+[56] = {
+  ["AttributeId"]= 59,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjyellow"
+},
+[57] = {
+  ["AttributeId"]= 60,
+  ["LevelUpBg"]= "Img_chengtiao"
+},
+[58] = {
+  ["AttributeId"]= 61,
+  ["PotentialUpBg"]= "Img_num_jjblue"
+},
+[59] = {
+  ["AttributeId"]= 62,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjorange"
+},
+[60] = {
+  ["AttributeId"]= 63,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjpink"
+},
+[61] = {
+  ["AttributeId"]= 64,
+  ["PotentialUpBg"]= "Img_num_jjpurple"
+},
+[62] = {
+  ["AttributeId"]= 65,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjred"
+},
+[63] = {
+  ["AttributeId"]= 66,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjyellow"
+},
+[64] = {
+  ["AttributeId"]= 67
+},
+[65] = {
+  ["AttributeId"]= 68,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjblue"
+},
+[66] = {
+  ["AttributeId"]= 69,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjorange"
+},
+[67] = {
+  ["AttributeId"]= 70,
+  ["PotentialUpBg"]= "Img_num_jjpink"
+},
+[68] = {
+  ["AttributeId"]= 71,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjpurple"
+},
+[69] = {
+  ["AttributeId"]= 72,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjred"
+},
+[70] = {
+  ["AttributeId"]= 73,
+  ["PotentialUpBg"]= "Img_num_jjyellow"
+},
+[71] = {
+  ["AttributeId"]= 74,
+  ["LevelUpBg"]= "Img_lantiao"
+},
+[72] = {
+  ["AttributeId"]= 75,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjblue"
+},
+[73] = {
+  ["AttributeId"]= 76,
+  ["PotentialUpBg"]= "Img_num_jjorange"
+},
+[74] = {
+  ["AttributeId"]= 77,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjpink"
+},
+[75] = {
+  ["AttributeId"]= 78,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjpurple"
+},
+[76] = {
+  ["AttributeId"]= 79,
+  ["PotentialUpBg"]= "Img_num_jjred"
+},
+[77] = {
+  ["AttributeId"]= 80,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjyellow"
+},
+[78] = {
+  ["AttributeId"]= 81,
+  ["LevelUpBg"]= "Img_chengtiao"
+},
+[79] = {
+  ["AttributeId"]= 82,
+  ["PotentialUpBg"]= "Img_num_jjblue"
+},
+[80] = {
+  ["AttributeId"]= 83,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjorange"
+},
+[81] = {
+  ["AttributeId"]= 84,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjpink"
+},
+[82] = {
+  ["AttributeId"]= 85,
+  ["PotentialUpBg"]= "Img_num_jjpurple"
+},
+[83] = {
+  ["AttributeId"]= 86,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjred"
+},
+[84] = {
+  ["AttributeId"]= 87,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjyellow"
+},
+[85] = {
+  ["AttributeId"]= 100
+},
+[86] = {
+  ["AttributeId"]= 101,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjblue"
+},
+[87] = {
+  ["AttributeId"]= 102,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjorange"
+},
+[88] = {
+  ["AttributeId"]= 103,
+  ["PotentialUpBg"]= "Img_num_jjpink"
+},
+[89] = {
+  ["AttributeId"]= 104,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjpurple"
+},
+[90] = {
+  ["AttributeId"]= 105,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjred"
+},
+[91] = {
+  ["AttributeId"]= 106,
+  ["PotentialUpBg"]= "Img_num_jjyellow"
+},
+[92] = {
+  ["AttributeId"]= 107,
+  ["LevelUpBg"]= "Img_lantiao"
+},
+[93] = {
+  ["AttributeId"]= 108,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjblue"
+},
+[94] = {
+  ["AttributeId"]= 109,
+  ["PotentialUpBg"]= "Img_num_jjorange"
+},
+[95] = {
+  ["AttributeId"]= 110,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjpink"
+},
+[96] = {
+  ["AttributeId"]= 111,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjpurple"
+},
+[97] = {
+  ["AttributeId"]= 112,
+  ["PotentialUpBg"]= "Img_num_jjred"
+},
+[98] = {
+  ["AttributeId"]= 113,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjyellow"
+},
+[99] = {
+  ["AttributeId"]= 114,
+  ["LevelUpBg"]= "Img_chengtiao"
+},
+[100] = {
+  ["AttributeId"]= 115,
+  ["PotentialUpBg"]= "Img_num_jjblue"
+},
+[101] = {
+  ["AttributeId"]= 116,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjorange"
+},
+[102] = {
+  ["AttributeId"]= 117,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjpink"
+},
+[103] = {
+  ["AttributeId"]= 118,
+  ["PotentialUpBg"]= "Img_num_jjpurple"
+},
+[104] = {
+  ["AttributeId"]= 119,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjred"
+},
+[105] = {
+  ["AttributeId"]= 120,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjyellow"
+},
+[106] = {
+  ["AttributeId"]= 121
+},
+[107] = {
+  ["AttributeId"]= 122,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjblue"
+},
+[108] = {
+  ["AttributeId"]= 123,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjorange"
+},
+[109] = {
+  ["AttributeId"]= 124,
+  ["PotentialUpBg"]= "Img_num_jjpink"
+},
+[110] = {
+  ["AttributeId"]= 125,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjpurple"
+},
+[111] = {
+  ["AttributeId"]= 126,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjred"
+},
+[112] = {
+  ["AttributeId"]= 127,
+  ["PotentialUpBg"]= "Img_num_jjyellow"
+},
+[113] = {
+  ["AttributeId"]= 128,
+  ["LevelUpBg"]= "Img_lantiao"
+},
+[114] = {
+  ["AttributeId"]= 129,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjblue"
+},
+[115] = {
+  ["AttributeId"]= 130,
+  ["PotentialUpBg"]= "Img_num_jjorange"
+},
+[116] = {
+  ["AttributeId"]= 131,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjpink"
+},
+[117] = {
+  ["AttributeId"]= 132,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjpurple"
+},
+[118] = {
+  ["AttributeId"]= 133,
+  ["PotentialUpBg"]= "Img_num_jjred"
+},
+[119] = {
+  ["AttributeId"]= 134,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjyellow"
+},
+[120] = {
+  ["AttributeId"]= 135,
+  ["LevelUpBg"]= "Img_chengtiao"
+},
+[121] = {
+  ["AttributeId"]= 136,
+  ["PotentialUpBg"]= "Img_num_jjblue"
+},
+[122] = {
+  ["AttributeId"]= 137,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjorange"
+},
+[123] = {
+  ["AttributeId"]= 138,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjpink"
+},
+[124] = {
+  ["AttributeId"]= 139,
+  ["PotentialUpBg"]= "Img_num_jjpurple"
+},
+[125] = {
+  ["AttributeId"]= 140,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjred"
+},
+[126] = {
+  ["AttributeId"]= 141,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjyellow"
+},
+[127] = {
+  ["AttributeId"]= 142
+},
+[128] = {
+  ["AttributeId"]= 143,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjblue"
+},
+[129] = {
+  ["AttributeId"]= 144,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjorange"
+},
+[130] = {
+  ["AttributeId"]= 145,
+  ["PotentialUpBg"]= "Img_num_jjpink"
+},
+[131] = {
+  ["AttributeId"]= 146,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjpurple"
+},
+[132] = {
+  ["AttributeId"]= 147,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjred"
+},
+[133] = {
+  ["AttributeId"]= 148,
+  ["PotentialUpBg"]= "Img_num_jjyellow"
+},
+[134] = {
+  ["AttributeId"]= 149,
+  ["LevelUpBg"]= "Img_lantiao"
+},
+[135] = {
+  ["AttributeId"]= 150,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjblue"
+},
+[136] = {
+  ["AttributeId"]= 151,
+  ["PotentialUpBg"]= "Img_num_jjorange"
+},
+[137] = {
+  ["AttributeId"]= 152,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjpink"
+},
+[138] = {
+  ["AttributeId"]= 153,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjpurple"
+},
+[139] = {
+  ["AttributeId"]= 154,
+  ["PotentialUpBg"]= "Img_num_jjred"
+},
+[140] = {
+  ["AttributeId"]= 155,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjyellow"
+},
+[141] = {
+  ["AttributeId"]= 301,
+  ["LevelUpBg"]= "Img_chengtiao"
+},
+[142] = {
+  ["AttributeId"]= 302,
+  ["PotentialUpBg"]= "Img_num_jjblue"
+},
+[143] = {
+  ["AttributeId"]= 303,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjorange"
+},
+[144] = {
+  ["AttributeId"]= 304,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjpink"
+},
+[145] = {
+  ["AttributeId"]= 305,
+  ["PotentialUpBg"]= "Img_num_jjpurple"
+},
+[146] = {
+  ["AttributeId"]= 306,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjred"
+},
+[147] = {
+  ["AttributeId"]= 307,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjyellow"
+},
+[148] = {
+  ["AttributeId"]= 308
+},
+[149] = {
+  ["AttributeId"]= 309,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjblue"
+},
+[150] = {
+  ["AttributeId"]= 310,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjorange"
+},
+[151] = {
+  ["AttributeId"]= 311,
+  ["PotentialUpBg"]= "Img_num_jjpink"
+},
+[152] = {
+  ["AttributeId"]= 312,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjpurple"
+},
+[153] = {
+  ["AttributeId"]= 313,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjred"
+},
+[154] = {
+  ["AttributeId"]= 314,
+  ["PotentialUpBg"]= "Img_num_jjyellow"
+},
+[155] = {
+  ["AttributeId"]= 315,
+  ["LevelUpBg"]= "Img_lantiao"
+},
+[156] = {
+  ["AttributeId"]= 316,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjblue"
+},
+[157] = {
+  ["AttributeId"]= 317,
+  ["PotentialUpBg"]= "Img_num_jjorange"
+},
+[158] = {
+  ["AttributeId"]= 318,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjpink"
+},
+[159] = {
+  ["AttributeId"]= 320,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjpurple"
+},
+[160] = {
+  ["AttributeId"]= 321,
+  ["PotentialUpBg"]= "Img_num_jjred"
+},
+[161] = {
+  ["AttributeId"]= 322,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjyellow"
+},
+[162] = {
+  ["AttributeId"]= 323,
+  ["LevelUpBg"]= "Img_chengtiao"
+},
+[163] = {
+  ["AttributeId"]= 324,
+  ["PotentialUpBg"]= "Img_num_jjblue"
+},
+[164] = {
+  ["AttributeId"]= 325,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjorange"
+},
+[165] = {
+  ["AttributeId"]= 326,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjpink"
+},
+[166] = {
+  ["AttributeId"]= 327,
+  ["PotentialUpBg"]= "Img_num_jjpurple"
+},
+[167] = {
+  ["AttributeId"]= 328,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjred"
+},
+[168] = {
+  ["AttributeId"]= 329,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjyellow"
+},
+[169] = {
+  ["AttributeId"]= 330
+},
+[170] = {
+  ["AttributeId"]= 331,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjblue"
+},
+[171] = {
+  ["AttributeId"]= 332,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjorange"
+},
+[172] = {
+  ["AttributeId"]= 333,
+  ["PotentialUpBg"]= "Img_num_jjpink"
+},
+[173] = {
+  ["AttributeId"]= 334,
+  ["LevelUpBg"]= "Img_lantiao",
+  ["PotentialUpBg"]= "Img_num_jjpurple"
+},
+[174] = {
+  ["AttributeId"]= 335,
+  ["LevelUpBg"]= "Img_chengtiao",
+  ["PotentialUpBg"]= "Img_num_jjred"
+}
+}
+local baseTable={
+  ["AttributeId"]= 1,
+  ["LevelUpBg"]= "Img_lvtiao",
+  ["PotentialUpBg"]= "Img_num_jjgreen"
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

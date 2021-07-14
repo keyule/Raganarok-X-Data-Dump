@@ -1,0 +1,316 @@
+TextAsset Base
+	string m_Name = "data_ChangeJobInstance_ChangeJobInstance"
+	string m_Script = "local table= {
+[1110] = {
+  ["mountId"]= 80001
+},
+[1210] = {
+  ["attr"]= {
+    {
+      ["attr"]= 1,
+      ["val"]= 150
+    },
+    {
+      ["attr"]= 2,
+      ["val"]= 20
+    },
+    {
+      ["attr"]= 3,
+      ["val"]= 200
+    },
+    {
+      ["attr"]= 4,
+      ["val"]= 150
+    },
+    {
+      ["attr"]= 5,
+      ["val"]= 150
+    },
+    {
+      ["attr"]= 6,
+      ["val"]= 20
+    },
+    {
+      ["attr"]= 35,
+      ["val"]= 100
+    }
+  },
+  ["defaultClothes"]= 2401211,
+  ["defaultEquip"]= {
+    1107002
+  },
+  ["fightSkills"]= {
+    1200129,
+    1210121,
+    1210125,
+    1200127,
+    1210128,
+    1210132
+  },
+  ["jobId"]= 1210,
+  ["name"]= "牧师",
+  ["passiveSkills"]= {
+    1210136
+  }
+},
+[1310] = {
+  ["attr"]= {
+    {
+      ["attr"]= 1,
+      ["val"]= 20
+    },
+    {
+      ["attr"]= 2,
+      ["val"]= 20
+    },
+    {
+      ["attr"]= 3,
+      ["val"]= 200
+    },
+    {
+      ["attr"]= 4,
+      ["val"]= 100
+    },
+    {
+      ["attr"]= 5,
+      ["val"]= 150
+    },
+    {
+      ["attr"]= 6,
+      ["val"]= 20
+    },
+    {
+      ["attr"]= 35,
+      ["val"]= 100
+    }
+  },
+  ["defaultClothes"]= 2401311,
+  ["defaultEquip"]= {
+    1306008
+  },
+  ["fightSkills"]= {
+    1311123,
+    1310133,
+    1310123,
+    1310128,
+    1310122,
+    1300124,
+    1311122
+  },
+  ["jobId"]= 1310,
+  ["name"]= "巫师",
+  ["passiveSkills"]= {}
+},
+[1410] = {
+  ["attr"]= {
+    {
+      ["attr"]= 1,
+      ["val"]= 150
+    },
+    {
+      ["attr"]= 2,
+      ["val"]= 50
+    },
+    {
+      ["attr"]= 3,
+      ["val"]= 200
+    },
+    {
+      ["attr"]= 4,
+      ["val"]= 20
+    },
+    {
+      ["attr"]= 4,
+      ["val"]= 20
+    },
+    {
+      ["attr"]= 6,
+      ["val"]= 10
+    },
+    {
+      ["attr"]= 35,
+      ["val"]= 100
+    }
+  },
+  ["defaultClothes"]= 2401411,
+  ["defaultEquip"]= {
+    1304035
+  },
+  ["fightSkills"]= {
+    1400125,
+    1411999,
+    1410125,
+    1410133,
+    1410128,
+    1410131
+  },
+  ["jobId"]= 1410,
+  ["name"]= "刺客",
+  ["passiveSkills"]= {
+    1410136,
+    1410123,
+    1410122
+  }
+},
+[1510] = {
+  ["attr"]= {
+    {
+      ["attr"]= 1,
+      ["val"]= 150
+    },
+    {
+      ["attr"]= 2,
+      ["val"]= 50
+    },
+    {
+      ["attr"]= 3,
+      ["val"]= 200
+    },
+    {
+      ["attr"]= 4,
+      ["val"]= 20
+    },
+    {
+      ["attr"]= 5,
+      ["val"]= 150
+    },
+    {
+      ["attr"]= 6,
+      ["val"]= 20
+    },
+    {
+      ["attr"]= 35,
+      ["val"]= 100
+    }
+  },
+  ["defaultClothes"]= 2401511,
+  ["defaultEquip"]= {
+    1305012
+  },
+  ["fightSkills"]= {
+    1510125,
+    1510127,
+    1510132,
+    1510129,
+    1510123,
+    1510133
+  },
+  ["jobId"]= 1510,
+  ["name"]= "弓箭手",
+  ["passiveSkills"]= {
+    1510122,
+    1510124
+  },
+  ["pendantId"]= {
+    83001
+  }
+},
+[1610] = {
+  ["attr"]= {
+    {
+      ["attr"]= 1,
+      ["val"]= 150
+    },
+    {
+      ["attr"]= 2,
+      ["val"]= 50
+    },
+    {
+      ["attr"]= 3,
+      ["val"]= 200
+    },
+    {
+      ["attr"]= 4,
+      ["val"]= 100
+    },
+    {
+      ["attr"]= 5,
+      ["val"]= 150
+    },
+    {
+      ["attr"]= 6,
+      ["val"]= 20
+    },
+    {
+      ["attr"]= 35,
+      ["val"]= 100
+    }
+  },
+  ["defaultClothes"]= 2401611,
+  ["defaultEquip"]= {
+    1102010,
+    1201066
+  },
+  ["fightSkills"]= {
+    1610006,
+    1610007,
+    1610009,
+    1610010
+  },
+  ["jobId"]= 1610,
+  ["name"]= "铁匠",
+  ["passiveSkills"]= {
+    1600004
+  },
+  ["pendantId"]= {
+    83010
+  }
+}
+}
+local baseTable={
+  ["attr"]= {
+    {
+      ["attr"]= 1,
+      ["val"]= 150
+    },
+    {
+      ["attr"]= 2,
+      ["val"]= 40
+    },
+    {
+      ["attr"]= 3,
+      ["val"]= 200
+    },
+    {
+      ["attr"]= 4,
+      ["val"]= 20
+    },
+    {
+      ["attr"]= 5,
+      ["val"]= 50
+    },
+    {
+      ["attr"]= 6,
+      ["val"]= 20
+    },
+    {
+      ["attr"]= 35,
+      ["val"]= 100
+    }
+  },
+  ["baseLevel"]= 40,
+  ["defaultClothes"]= 2401111,
+  ["defaultEquip"]= {
+    1303017
+  },
+  ["fightSkills"]= {
+    1110123,
+    1110124,
+    1110125,
+    1110126,
+    1110128,
+    1110134
+  },
+  ["jobId"]= 1110,
+  ["mountId"]= 0,
+  ["name"]= "骑士",
+  ["passiveSkills"]= {
+    1110132,
+    1110129
+  },
+  ["pendantId"]= {}
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

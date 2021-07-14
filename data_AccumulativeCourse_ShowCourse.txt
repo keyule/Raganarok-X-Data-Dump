@@ -1,0 +1,101 @@
+TextAsset Base
+	string m_Name = "data_AccumulativeCourse_ShowCourse"
+	string m_Script = "return {
+[1] = {
+  ["Condition"]= 0,
+  ["id"]= 1,
+  ["missionId"]= {
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  },
+  ["name"]= "Course_1",
+  ["pictureSite"]= "Img_card_level",
+  ["pictureUISite"]= "Img_class_orange"
+},
+[2] = {
+  ["Condition"]= 1016,
+  ["id"]= 2,
+  ["missionId"]= {
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47
+  },
+  ["name"]= "Course_5",
+  ["pictureSite"]= "Img_card_qianghua",
+  ["pictureUISite"]= "Img_class_blue"
+},
+[3] = {
+  ["Condition"]= 1023,
+  ["id"]= 3,
+  ["missionId"]= {
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  },
+  ["name"]= "Course_2",
+  ["pictureSite"]= "Img_card_card",
+  ["pictureUISite"]= "Img_class_orange"
+},
+[4] = {
+  ["Condition"]= 1025,
+  ["id"]= 4,
+  ["missionId"]= {
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37
+  },
+  ["name"]= "Course_4",
+  ["pictureSite"]= "Img_card_fumo",
+  ["pictureUISite"]= "Img_class_blue"
+},
+[5] = {
+  ["Condition"]= 1030,
+  ["id"]= 5,
+  ["missionId"]= {
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57
+  },
+  ["name"]= "Course_6",
+  ["pictureSite"]= "Img_card_jinglian",
+  ["pictureUISite"]= "Img_class_orange"
+},
+[6] = {
+  ["Condition"]= 210099,
+  ["id"]= 6,
+  ["missionId"]= {
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+  },
+  ["name"]= "Course_3",
+  ["pictureSite"]= "Img_card_chongwu",
+  ["pictureUISite"]= "Img_class_blue"
+}
+}
+"

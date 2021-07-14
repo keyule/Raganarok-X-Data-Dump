@@ -1,0 +1,97 @@
+TextAsset Base
+	string m_Name = "data_WorldShopAILocation_WorldShopAILocation"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["LocationID"]= 2,
+  ["NPCID"]= 10101064
+},
+[3] = {
+  ["LocationID"]= 3,
+  ["NPCID"]= 10101066
+},
+[4] = {
+  ["LocationID"]= 4,
+  ["NPCID"]= 11101051,
+  ["SceneID"]= 1110
+},
+[5] = {
+  ["LocationID"]= 5,
+  ["NPCID"]= 11101052,
+  ["SceneID"]= 1110
+},
+[6] = {
+  ["LocationID"]= 6,
+  ["NPCID"]= 11101053,
+  ["SceneID"]= 1110
+},
+[7] = {
+  ["LocationID"]= 7,
+  ["NPCID"]= 13101050,
+  ["SceneID"]= 1310
+},
+[8] = {
+  ["LocationID"]= 8,
+  ["NPCID"]= 13101051,
+  ["SceneID"]= 1310
+},
+[9] = {
+  ["LocationID"]= 9,
+  ["NPCID"]= 13101052,
+  ["SceneID"]= 1310
+},
+[10] = {
+  ["LocationID"]= 10,
+  ["NPCID"]= 11801051,
+  ["SceneID"]= 1180
+},
+[11] = {
+  ["LocationID"]= 11,
+  ["NPCID"]= 11801052,
+  ["SceneID"]= 1180
+},
+[12] = {
+  ["LocationID"]= 12,
+  ["NPCID"]= 11801053,
+  ["SceneID"]= 1180
+},
+[13] = {
+  ["LocationID"]= 13,
+  ["NPCID"]= 14101047,
+  ["SceneID"]= 1410
+},
+[14] = {
+  ["LocationID"]= 14,
+  ["NPCID"]= 14101048,
+  ["SceneID"]= 1410
+},
+[15] = {
+  ["LocationID"]= 15,
+  ["NPCID"]= 14101049,
+  ["SceneID"]= 1410
+},
+[16] = {
+  ["LocationID"]= 16,
+  ["NPCID"]= 12101047,
+  ["SceneID"]= 1210
+},
+[17] = {
+  ["LocationID"]= 17,
+  ["NPCID"]= 12101048,
+  ["SceneID"]= 1210
+},
+[18] = {
+  ["LocationID"]= 18,
+  ["NPCID"]= 12101049,
+  ["SceneID"]= 1210
+}
+}
+local baseTable={
+  ["LocationID"]= 1,
+  ["NPCID"]= 10101063,
+  ["SceneID"]= 1010
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

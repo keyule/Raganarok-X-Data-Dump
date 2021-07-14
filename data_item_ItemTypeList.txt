@@ -1,0 +1,26 @@
+TextAsset Base
+	string m_Name = "data_item_ItemTypeList"
+	string m_Script = "return {
+[1] = {
+  ["costtype"]= 1,
+  ["popularity"]= 1,
+  ["presentcost"]= 10,
+  ["presentid"]= 1,
+  ["presentname"]= "presentname_01"
+},
+[2] = {
+  ["costtype"]= 1,
+  ["popularity"]= 10,
+  ["presentcost"]= 100,
+  ["presentid"]= 2,
+  ["presentname"]= "presentname_02"
+},
+[3] = {
+  ["costtype"]= 1,
+  ["popularity"]= 100,
+  ["presentcost"]= 1000,
+  ["presentid"]= 3,
+  ["presentname"]= "presentname_03"
+}
+}
+"

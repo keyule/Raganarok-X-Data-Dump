@@ -1,0 +1,69 @@
+TextAsset Base
+	string m_Name = "data_MessageNotifyClientConfig"
+	string m_Script = "local table= {
+[101] = {
+  ["weekday"]= 3
+},
+[102] = {
+  ["identifier"]= 102,
+  ["weekday"]= 5
+},
+[103] = {
+  ["conditionList"]= {
+    600201,
+    600203
+  },
+  ["identifier"]= 103,
+  ["weekday"]= 1
+},
+[104] = {
+  ["body"]= "MessageNotifyBody_104",
+  ["conditionList"]= {
+    600201,
+    600203
+  },
+  ["hour"]= 20,
+  ["identifier"]= 104,
+  ["minute"]= 30,
+  ["weekday"]= 7
+},
+[105] = {
+  ["body"]= "MessageNotifyBody_105",
+  ["conditionList"]= {},
+  ["hour"]= 20,
+  ["identifier"]= 105,
+  ["type"]= 4
+},
+[106] = {
+  ["body"]= "MessageNotifyBody_106",
+  ["conditionList"]= {},
+  ["identifier"]= 106,
+  ["isPush"]= 0,
+  ["type"]= 4
+}
+}
+local baseTable={
+  ["body"]= "MessageNotifyBody_101",
+  ["conditionList"]= {
+    600201,
+    600202
+  },
+  ["day"]= 0,
+  ["hour"]= 21,
+  ["identifier"]= 101,
+  ["isPush"]= 1,
+  ["minute"]= 0,
+  ["month"]= 0,
+  ["second"]= 0,
+  ["subTitle"]= "",
+  ["timeInterval"]= 0,
+  ["title"]= "",
+  ["type"]= 5,
+  ["week"]= 0,
+  ["weekday"]= 0,
+  ["year"]= 0
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

@@ -1,0 +1,85 @@
+TextAsset Base
+	string m_Name = "data_activity_GameplayType"
+	string m_Script = "return {
+	[1] = {
+		["ActivityID"] = {100001,100002},
+		["Vitality"] = 50,
+		["Duration"] = 5,
+		["ARRAYID"] = 1,
+		["Name"] = "GamePlay_name_1",
+		["Desc"] = "GamePlay_desc_1"
+	},
+	[2] = {
+		["ActivityID"] = {100001,100003},
+		["Vitality"] = 50,
+		["Duration"] = 5,
+		["ARRAYID"] = 2,
+		["Name"] = "GamePlay_name_2",
+		["Desc"] = "GamePlay_desc_2"
+	},
+	[3] = {
+		["ActivityID"] = {100001,100002},
+		["Vitality"] = 50,
+		["Duration"] = 5,
+		["ARRAYID"] = 3,
+		["Name"] = "GamePlay_name_3",
+		["Desc"] = "GamePlay_desc_3"
+	},
+	[4] = {
+		["ActivityID"] = {100001,100002},
+		["Vitality"] = 50,
+		["Duration"] = 5,
+		["ARRAYID"] = 4,
+		["Name"] = "GamePlay_name_4",
+		["Desc"] = "GamePlay_desc_4"
+	},
+	[5] = {
+		["ActivityID"] = {100001,100002},
+		["Vitality"] = 50,
+		["Duration"] = 5,
+		["ARRAYID"] = 5,
+		["Name"] = "GamePlay_name_5",
+		["Desc"] = "GamePlay_desc_5"
+	},
+	[6] = {
+		["ActivityID"] = {100001,100002},
+		["Vitality"] = 50,
+		["Duration"] = 5,
+		["ARRAYID"] = 6,
+		["Name"] = "GamePlay_name_6",
+		["Desc"] = "GamePlay_desc_6"
+	},
+	[7] = {
+		["ActivityID"] = {100001,100002},
+		["Vitality"] = 50,
+		["Duration"] = 5,
+		["ARRAYID"] = 7,
+		["Name"] = "GamePlay_name_7",
+		["Desc"] = "GamePlay_desc_7"
+	},
+	[8] = {
+		["ActivityID"] = {100001,100002},
+		["Vitality"] = 50,
+		["Duration"] = 5,
+		["ARRAYID"] = 8,
+		["Name"] = "GamePlay_name_8",
+		["Desc"] = "GamePlay_desc_8"
+	},
+	[9] = {
+		["ActivityID"] = {100001,100002},
+		["Vitality"] = 50,
+		["Duration"] = 5,
+		["ARRAYID"] = 9,
+		["Name"] = "GamePlay_name_9",
+		["Desc"] = "GamePlay_desc_9"
+	},
+	[10] = {
+		["ActivityID"] = {100001,100002},
+		["Vitality"] = 50,
+		["Duration"] = 5,
+		["ARRAYID"] = 10,
+		["Name"] = "GamePlay_name_10",
+		["Desc"] = "GamePlay_desc_10"
+	}
+}
+"

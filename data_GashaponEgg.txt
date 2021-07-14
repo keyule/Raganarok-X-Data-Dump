@@ -1,0 +1,29 @@
+TextAsset Base
+	string m_Name = "data_GashaponEgg"
+	string m_Script = "return {
+	[1] = {
+		["Quality"] = 4,
+		["Amount"] = 1,
+		["id"] = 1,
+		["MainPic"] = "Surprise_Great"
+	},
+	[2] = {
+		["Quality"] = 3,
+		["Amount"] = 3,
+		["id"] = 2,
+		["MainPic"] = "Surprise_Great"
+	},
+	[3] = {
+		["Quality"] = 3,
+		["Amount"] = 1,
+		["id"] = 3,
+		["MainPic"] = "Surprise_GOOD"
+	},
+	[4] = {
+		["Quality"] = 1,
+		["Amount"] = 1,
+		["id"] = 4,
+		["MainPic"] = "Surprise_Nomal"
+	}
+}
+"

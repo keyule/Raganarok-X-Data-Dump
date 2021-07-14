@@ -1,0 +1,1724 @@
+TextAsset Base
+	string m_Name = "data_mvpboss_MVP"
+	string m_Script = "local table= {
+[21030] = {
+  ["AnnouncTime"]= 1800,
+  ["DailyRefreshLimit"]= 3,
+  ["dropRateUpActivityType"]= 0,
+  ["FirstDownCrystalClient"]= 0,
+  ["FirstDownCrystalPrize"]= 0,
+  ["fixedRefreshTime"]= 1800,
+  ["IfHasFirstDown"]= 0,
+  ["MVPActivityFDPoints"]= 0,
+  ["MVPActivityLDPoints"]= 0,
+  ["MVPActivityPartPoints"]= 0,
+  ["MVPActivityRank"]= {},
+  ["MVPActivityRankPoints"]= {},
+  ["MVPSortEnum"]= 2,
+  ["skilllist"]= {
+    30007102,
+    30007103,
+    30007104
+  },
+  ["upRate"]= 0
+},
+[21031] = {
+  ["AnnouncTime"]= 1800,
+  ["DailyRefreshLimit"]= 3,
+  ["description"]= "MVPDes_21031",
+  ["descriptionLocalized"]= "皮里恩的原意为“吞天”，布满了利齿的舌头和大嘴，仿佛想把世间万物都吞下去。传言它是受到毒龙诅咒的英雄，因贪欲而化身魔物，终日游荡在深渊回廊之中，不想成为它的食物，就多加小心吧。",
+  ["droplist"]= {
+    10424045,
+    10424043,
+    10424034,
+    10424047,
+    10424005,
+    10424009,
+    10424013,
+    10424017,
+    10424021,
+    10204046
+  },
+  ["dropRateUpActivityType"]= 0,
+  ["FirstDownCrystalClient"]= 0,
+  ["FirstDownCrystalPrize"]= 0,
+  ["fixedRefreshTime"]= 1800,
+  ["id"]= 21031,
+  ["IfHasFirstDown"]= 0,
+  ["MVPActivityFDPoints"]= 0,
+  ["MVPActivityLDPoints"]= 0,
+  ["MVPActivityPartPoints"]= 0,
+  ["MVPActivityRank"]= {},
+  ["MVPActivityRankPoints"]= {},
+  ["MVPRareDropShow"]= {
+    10424045,
+    10424043,
+    10424034,
+    10424047,
+    10424005,
+    10424009,
+    10424013,
+    10424017,
+    10424021
+  },
+  ["MVPSortEnum"]= 2,
+  ["mvpStaticId"]= 21031,
+  ["name"]= "MVPName_21031",
+  ["nameLocalized"]= "深渊皮里恩",
+  ["skilllist"]= {
+    30008102,
+    30008103,
+    30008104
+  },
+  ["upRate"]= 0
+},
+[21032] = {
+  ["AnnouncTime"]= 1800,
+  ["DailyRefreshLimit"]= 3,
+  ["description"]= "MVPDes_21032",
+  ["descriptionLocalized"]= "被冠以“克拉肯”之名的海上霸主，传闻中见过它第三只眼睛的人都没能走出海洋漩涡，深渊回廊中的滔天巨浪即将因它而掀起……",
+  ["droplist"]= {
+    10424040,
+    10424036,
+    10424039,
+    10424042,
+    10424046,
+    10424005,
+    10424009,
+    10424013,
+    10424017,
+    10424021,
+    10204046
+  },
+  ["dropRateUpActivityType"]= 0,
+  ["FirstDownCrystalClient"]= 0,
+  ["FirstDownCrystalPrize"]= 0,
+  ["fixedRefreshTime"]= 1800,
+  ["id"]= 21032,
+  ["IfHasFirstDown"]= 0,
+  ["MVPActivityFDPoints"]= 0,
+  ["MVPActivityLDPoints"]= 0,
+  ["MVPActivityPartPoints"]= 0,
+  ["MVPActivityRank"]= {},
+  ["MVPActivityRankPoints"]= {},
+  ["MVPRareDropShow"]= {
+    10424040,
+    10424036,
+    10424039,
+    10424042,
+    10424046,
+    10424005,
+    10424009,
+    10424013,
+    10424017,
+    10424021
+  },
+  ["MVPSortEnum"]= 2,
+  ["mvpStaticId"]= 21032,
+  ["name"]= "MVPName_21032",
+  ["nameLocalized"]= "深渊魔鬼大乌贼",
+  ["skilllist"]= {
+    30023102,
+    30023104,
+    30023108
+  },
+  ["upRate"]= 0
+},
+[21033] = {
+  ["AnnouncTime"]= 1800,
+  ["DailyRefreshLimit"]= 3,
+  ["description"]= "MVPDes_21033",
+  ["descriptionLocalized"]= "以绅士和格斗作为信仰的虎王战士出现在了深渊回廊之中，它手中的烟斗可不仅仅是用来吸烟和凹造型的，如果你不幸成为他的对手，那可要小心了。",
+  ["droplist"]= {
+    10424037,
+    10424033,
+    10424044,
+    10424046,
+    10424005,
+    10424009,
+    10424013,
+    10424017,
+    10424021,
+    10204046
+  },
+  ["dropRateUpActivityType"]= 0,
+  ["FirstDownCrystalClient"]= 0,
+  ["FirstDownCrystalPrize"]= 0,
+  ["fixedRefreshTime"]= 1800,
+  ["id"]= 21033,
+  ["IfHasFirstDown"]= 0,
+  ["MVPActivityFDPoints"]= 0,
+  ["MVPActivityLDPoints"]= 0,
+  ["MVPActivityPartPoints"]= 0,
+  ["MVPActivityRank"]= {},
+  ["MVPActivityRankPoints"]= {},
+  ["MVPRareDropShow"]= {
+    10424037,
+    10424033,
+    10424044,
+    10424046,
+    10424005,
+    10424009,
+    10424013,
+    10424017,
+    10424021
+  },
+  ["MVPSortEnum"]= 2,
+  ["mvpStaticId"]= 21033,
+  ["name"]= "MVPName_21033",
+  ["nameLocalized"]= "深渊虎王",
+  ["skilllist"]= {
+    30010102,
+    30010103,
+    30010104
+  },
+  ["upRate"]= 0
+},
+[21034] = {
+  ["AnnouncTime"]= 1800,
+  ["DailyRefreshLimit"]= 3,
+  ["description"]= "MVPDes_21034",
+  ["descriptionLocalized"]= "蚂蚁密穴的统领者，传言它原是被附身的魔法师，但抢回身体控制权后再也无法恢复原样了，成为了真正的蚁后，妖艳而美丽的外表迷惑着深渊回廊中所有的生物……",
+  ["droplist"]= {
+    10424115,
+    10424133,
+    10424085,
+    10424169,
+    10424006,
+    10424010,
+    10424014,
+    10424018,
+    10424022,
+    10204046
+  },
+  ["dropRateUpActivityType"]= 0,
+  ["FirstDownCrystalClient"]= 0,
+  ["FirstDownCrystalPrize"]= 0,
+  ["fixedRefreshTime"]= 1800,
+  ["id"]= 21034,
+  ["IfHasFirstDown"]= 0,
+  ["MVPActivityFDPoints"]= 0,
+  ["MVPActivityLDPoints"]= 0,
+  ["MVPActivityPartPoints"]= 0,
+  ["MVPActivityRank"]= {},
+  ["MVPActivityRankPoints"]= {},
+  ["MVPRareDropShow"]= {
+    10424115,
+    10424133,
+    10424085,
+    10424169,
+    10424006,
+    10424010,
+    10424014,
+    10424018,
+    10424022
+  },
+  ["MVPSortEnum"]= 2,
+  ["mvpStaticId"]= 21034,
+  ["name"]= "MVPName_21034",
+  ["nameLocalized"]= "深渊蚁后",
+  ["skilllist"]= {
+    30009102,
+    30009105,
+    30009106
+  },
+  ["upRate"]= 0
+},
+[21035] = {
+  ["AnnouncTime"]= 1800,
+  ["DailyRefreshLimit"]= 3,
+  ["description"]= "MVPDes_21035",
+  ["descriptionLocalized"]= "深渊回廊中最强大的兽人战士，非同一般的摇滚视觉系红发，，欢迎一切强者找他挑战，从不屑于耍卑鄙手段，堂堂正正的决一胜负，才是兽人的荣耀之路。",
+  ["droplist"]= {
+    10424157,
+    10424145,
+    10424091,
+    10424169,
+    10424006,
+    10424010,
+    10424014,
+    10424018,
+    10424022,
+    10204046
+  },
+  ["dropRateUpActivityType"]= 0,
+  ["FirstDownCrystalClient"]= 0,
+  ["FirstDownCrystalPrize"]= 0,
+  ["fixedRefreshTime"]= 1800,
+  ["id"]= 21035,
+  ["IfHasFirstDown"]= 0,
+  ["MVPActivityFDPoints"]= 0,
+  ["MVPActivityLDPoints"]= 0,
+  ["MVPActivityPartPoints"]= 0,
+  ["MVPActivityRank"]= {},
+  ["MVPActivityRankPoints"]= {},
+  ["MVPRareDropShow"]= {
+    10424157,
+    10424145,
+    10424091,
+    10424169,
+    10424006,
+    10424010,
+    10424014,
+    10424018,
+    10424022
+  },
+  ["MVPSortEnum"]= 2,
+  ["mvpStaticId"]= 21035,
+  ["name"]= "MVPName_21035",
+  ["nameLocalized"]= "深渊兽人英雄",
+  ["skilllist"]= {
+    30012102,
+    30012103,
+    30012104,
+    30012105
+  },
+  ["upRate"]= 0
+},
+[21036] = {
+  ["AnnouncTime"]= 1800,
+  ["DailyRefreshLimit"]= 3,
+  ["description"]= "MVPDes_21036",
+  ["descriptionLocalized"]= "无人能敌的蛮力之王，即使在深渊回廊中，要是有人胆敢挑战酋长的尊严，可能会落得和挂在他腰间那两枚头颅的主人一样的下场……",
+  ["droplist"]= {
+    10424127,
+    10424103,
+    10424121,
+    10424139,
+    10424163,
+    10424006,
+    10424010,
+    10424014,
+    10424018,
+    10424022,
+    10204046
+  },
+  ["dropRateUpActivityType"]= 0,
+  ["FirstDownCrystalClient"]= 0,
+  ["FirstDownCrystalPrize"]= 0,
+  ["fixedRefreshTime"]= 1800,
+  ["id"]= 21036,
+  ["IfHasFirstDown"]= 0,
+  ["MVPActivityFDPoints"]= 0,
+  ["MVPActivityLDPoints"]= 0,
+  ["MVPActivityPartPoints"]= 0,
+  ["MVPActivityRank"]= {},
+  ["MVPActivityRankPoints"]= {},
+  ["MVPRareDropShow"]= {
+    10424127,
+    10424103,
+    10424121,
+    10424139,
+    10424163,
+    10424006,
+    10424010,
+    10424014,
+    10424018,
+    10424022
+  },
+  ["MVPSortEnum"]= 2,
+  ["mvpStaticId"]= 21036,
+  ["name"]= "MVPName_21036",
+  ["nameLocalized"]= "深渊兽人酋长",
+  ["skilllist"]= {
+    30015103,
+    30015104,
+    30015105
+  },
+  ["upRate"]= 0
+},
+[21037] = {
+  ["AnnouncTime"]= 1800,
+  ["DailyRefreshLimit"]= 3,
+  ["description"]= "MVPDes_21037",
+  ["descriptionLocalized"]= "沙漠地带的昔日帝王，在深渊回廊中寻找着自己遗失的辉煌过往，即使往日英姿不再，也无人可以挑战法老的威严……",
+  ["droplist"]= {
+    10424109,
+    10424097,
+    10424151,
+    10424163,
+    10424006,
+    10424010,
+    10424014,
+    10424018,
+    10424022,
+    10204046
+  },
+  ["dropRateUpActivityType"]= 0,
+  ["FirstDownCrystalClient"]= 0,
+  ["FirstDownCrystalPrize"]= 0,
+  ["fixedRefreshTime"]= 1800,
+  ["id"]= 21037,
+  ["IfHasFirstDown"]= 0,
+  ["MVPActivityFDPoints"]= 0,
+  ["MVPActivityLDPoints"]= 0,
+  ["MVPActivityPartPoints"]= 0,
+  ["MVPActivityRank"]= {},
+  ["MVPActivityRankPoints"]= {},
+  ["MVPRareDropShow"]= {
+    10424109,
+    10424097,
+    10424151,
+    10424163,
+    10424006,
+    10424010,
+    10424014,
+    10424018,
+    10424022
+  },
+  ["MVPSortEnum"]= 2,
+  ["mvpStaticId"]= 21037,
+  ["name"]= "MVPName_21037",
+  ["nameLocalized"]= "深渊法老王",
+  ["skilllist"]= {
+    30017102,
+    30017103,
+    30017104
+  },
+  ["upRate"]= 0
+},
+[30001] = {
+  ["Background_Color"]= 2,
+  ["BossType"]= 2,
+  ["description"]= "MVPDes_30001",
+  ["descriptionLocalized"]= "女武神遗留在人间的宠物，天性善良，无忧无虑。很乐意帮助冒险者们变强，当然前提是通过它的武力考验。",
+  ["discoveryDropId"]= 3000012,
+  ["droplist"]= {
+    10102018,
+    10101080,
+    10106043,
+    3101263,
+    3101264,
+    3201196,
+    3201197,
+    4101018,
+    10405070,
+    10204047
+  },
+  ["FirstDownItemPrize"]= 3000017,
+  ["FirstDownItemPrizeClient"]= {
+    10102018,
+    10101080,
+    10106043,
+    3101263,
+    3101264,
+    3201196,
+    3201197
+  },
+  ["fixedRefreshTime"]= 6300,
+  ["id"]= 30001,
+  ["killDropId"]= 3000013,
+  ["LastRaidDuration"]= 180,
+  ["MVPFirstHitShow"]= {
+    10204047
+  },
+  ["MVPLastHitShow"]= {
+    10204047
+  },
+  ["MVPLiveDropShow"]= {
+    10204047
+  },
+  ["MVPRankDropShow"]= {
+    10204047
+  },
+  ["MVPRareDropShow"]= {
+    10102018,
+    10101080,
+    10106043,
+    3101263,
+    3101264,
+    3201196,
+    3201197,
+    4101018,
+    10405070
+  },
+  ["mvpStaticId"]= 30001,
+  ["name"]= "MVPName_30001",
+  ["nameLocalized"]= "天使波利",
+  ["sceneId"]= 1020,
+  ["showAnnouncement"]= 3,
+  ["skilllist"]= {
+    30001102,
+    30001104,
+    30001105
+  }
+},
+[30003] = {
+  ["Background_Color"]= 3,
+  ["BossType"]= 2,
+  ["description"]= "MVPDes_30003",
+  ["descriptionLocalized"]= "人类恶之意志的化身，永生不灭，对于恶作剧的行为十分热衷，“每天都变得更坏一点”是它的人生信条。",
+  ["discoveryDropId"]= 3000012,
+  ["droplist"]= {
+    10103017,
+    10101079,
+    10105023,
+    3101261,
+    3101262,
+    3201194,
+    3201195,
+    4101016,
+    10413222,
+    10405070,
+    10204047
+  },
+  ["FirstDownItemPrize"]= 3000018,
+  ["FirstDownItemPrizeClient"]= {
+    10103017,
+    10101079,
+    10105023,
+    3101261,
+    3101262,
+    3201194,
+    3201195
+  },
+  ["fixedRefreshTime"]= 6300,
+  ["id"]= 30003,
+  ["killDropId"]= 3000013,
+  ["LastRaidDuration"]= 180,
+  ["MVPFirstHitShow"]= {
+    10204047
+  },
+  ["MVPLastHitShow"]= {
+    10204047
+  },
+  ["MVPLiveDropShow"]= {
+    10204047
+  },
+  ["MVPRankDropShow"]= {
+    10204047
+  },
+  ["MVPRareDropShow"]= {
+    10103017,
+    10101079,
+    10105023,
+    3101261,
+    3101262,
+    3201194,
+    3201195,
+    4101016,
+    10413222,
+    10405070
+  },
+  ["mvpStaticId"]= 30003,
+  ["name"]= "MVPName_30003",
+  ["nameLocalized"]= "恶魔波利",
+  ["sceneId"]= 1030,
+  ["skilllist"]= {
+    30003102,
+    30003104,
+    30003105
+  }
+},
+[30007] = {
+  ["ActivityDiscoveryDrop"]= 5520218,
+  ["ActivityId"]= 8,
+  ["ActivityKillDrop"]= 5520219,
+  ["ActivityLiveDrop"]= 5520216,
+  ["Background_Color"]= 2,
+  ["description"]= "MVPDes_30007",
+  ["descriptionLocalized"]= "统领着蜂群的女王，是维系蜂族团结与繁衍的核心，本身的实力也不可小觑，非常擅长迷惑自己的敌人。",
+  ["droplist"]= {
+    10105010,
+    10101072,
+    10104018,
+    1302035,
+    1306009,
+    1301034,
+    1201016,
+    4101014,
+    10405071,
+    10204046
+  },
+  ["FirstDownItemPrize"]= 3000019,
+  ["FirstDownItemPrizeClient"]= {
+    10105010,
+    10101072,
+    10104018,
+    1302035,
+    1306009,
+    1301034,
+    1201016
+  },
+  ["id"]= 30007,
+  ["invadeAnnouncement"]= 17,
+  ["invadeBosslist"]= {
+    {
+      ["monsterId"]= 34002,
+      ["weight"]= 1
+    },
+    {
+      ["monsterId"]= 34004,
+      ["weight"]= 1
+    },
+    {
+      ["monsterId"]= 34013,
+      ["weight"]= 1
+    },
+    {
+      ["monsterId"]= 34005,
+      ["weight"]= 1
+    },
+    {
+      ["monsterId"]= 34011,
+      ["weight"]= 1
+    }
+  },
+  ["MVPRareDropShow"]= {
+    10105010,
+    10101072,
+    10104018,
+    1302035,
+    1306009,
+    1301034,
+    1201016,
+    4101014,
+    10405071
+  },
+  ["mvpStaticId"]= 30007,
+  ["name"]= "MVPName_30007",
+  ["nameLocalized"]= "蜂后",
+  ["sceneId"]= 1220,
+  ["skilllist"]= {
+    30007102,
+    30007103,
+    30007104
+  }
+},
+[30008] = {
+  ["ActivityDiscoveryDrop"]= 5520218,
+  ["ActivityId"]= 8,
+  ["ActivityKillDrop"]= 5520219,
+  ["ActivityLiveDrop"]= 5520216,
+  ["Background_Color"]= 4,
+  ["description"]= "MVPDes_30008",
+  ["descriptionLocalized"]= "似乎曾是某位英雄人物，但在受到毒龙的诅咒后，吞食一切的贪欲逐渐取代了他的意志，变成长有恐怖巨口的强大魔物。",
+  ["droplist"]= {
+    10101046,
+    10102026,
+    10105021,
+    1304035,
+    1305016,
+    1303005,
+    1201100,
+    4102011,
+    10413229,
+    10405071,
+    10204046
+  },
+  ["FirstDownItemPrize"]= 3000020,
+  ["FirstDownItemPrizeClient"]= {
+    10101046,
+    10102026,
+    10105021,
+    1304035,
+    1305016,
+    1303005,
+    1201100
+  },
+  ["id"]= 30008,
+  ["invadeAnnouncement"]= 17,
+  ["invadeBosslist"]= {
+    {
+      ["monsterId"]= 34002,
+      ["weight"]= 1
+    },
+    {
+      ["monsterId"]= 34004,
+      ["weight"]= 1
+    },
+    {
+      ["monsterId"]= 34013,
+      ["weight"]= 1
+    },
+    {
+      ["monsterId"]= 34005,
+      ["weight"]= 1
+    },
+    {
+      ["monsterId"]= 34011,
+      ["weight"]= 1
+    }
+  },
+  ["MVPRareDropShow"]= {
+    10101046,
+    10102026,
+    10105021,
+    1304035,
+    1305016,
+    1303005,
+    1201100,
+    4102011,
+    10413229,
+    10405071
+  },
+  ["mvpStaticId"]= 30008,
+  ["name"]= "MVPName_30008",
+  ["nameLocalized"]= "皮里恩",
+  ["sceneId"]= 1320,
+  ["skilllist"]= {
+    30008102,
+    30008103,
+    30008104
+  }
+},
+[30009] = {
+  ["ActivityDiscoveryDrop"]= 5520218,
+  ["ActivityId"]= 8,
+  ["ActivityKillDrop"]= 5520219,
+  ["ActivityLiveDrop"]= 5520216,
+  ["Background_Color"]= 4,
+  ["description"]= "MVPDes_30009",
+  ["descriptionLocalized"]= "所有蚁兵的母亲，是蚂蚁地狱当之无愧的女王，如果不小心被那美艳的外表俘虏，就会沦为她饲育子嗣的食粮……",
+  ["droplist"]= {
+    10107016,
+    10106044,
+    10105024,
+    1302008,
+    1306005,
+    1301036,
+    1201106,
+    4101041,
+    10405072,
+    10204046
+  },
+  ["FirstDownItemPrize"]= 3000021,
+  ["FirstDownItemPrizeClient"]= {
+    10107016,
+    10106044,
+    10105024,
+    1302008,
+    1306005,
+    1301036,
+    1201106
+  },
+  ["id"]= 30009,
+  ["invadeAnnouncement"]= 17,
+  ["invadeBosslist"]= {
+    {
+      ["monsterId"]= 34002,
+      ["weight"]= 1
+    },
+    {
+      ["monsterId"]= 34004,
+      ["weight"]= 1
+    },
+    {
+      ["monsterId"]= 34013,
+      ["weight"]= 1
+    },
+    {
+      ["monsterId"]= 34005,
+      ["weight"]= 1
+    },
+    {
+      ["monsterId"]= 34011,
+      ["weight"]= 1
+    }
+  },
+  ["MVPRareDropShow"]= {
+    10107016,
+    10106044,
+    10105024,
+    1302008,
+    1306005,
+    1301036,
+    1201106,
+    4101041,
+    10405072
+  },
+  ["mvpStaticId"]= 30009,
+  ["name"]= "MVPName_30009",
+  ["nameLocalized"]= "蚁后",
+  ["sceneId"]= 1350,
+  ["skilllist"]= {
+    30009102,
+    30009105,
+    30009106
+  }
+},
+[30010] = {
+  ["ActivityDiscoveryDrop"]= 5520218,
+  ["ActivityId"]= 8,
+  ["ActivityKillDrop"]= 5520219,
+  ["ActivityLiveDrop"]= 5520216,
+  ["Background_Color"]= 2,
+  ["description"]= "MVPDes_30010",
+  ["descriptionLocalized"]= "力量强大，却极具绅士风度的兽人，常年戴着礼帽、叼着烟斗，似乎还通晓着人类的语言。",
+  ["droplist"]= {
+    10104010,
+    10105022,
+    10101074,
+    1101034,
+    1102009,
+    1105018,
+    1201099,
+    4103001,
+    10405071,
+    10204046
+  },
+  ["FirstDownItemPrize"]= 3000022,
+  ["FirstDownItemPrizeClient"]= {
+    10104010,
+    10105022,
+    10101074,
+    1101034,
+    1102009,
+    1105018,
+    1201099
+  },
+  ["id"]= 30010,
+  ["invadeAnnouncement"]= 17,
+  ["invadeBosslist"]= {
+    {
+      ["monsterId"]= 34002,
+      ["weight"]= 1
+    },
+    {
+      ["monsterId"]= 34004,
+      ["weight"]= 1
+    },
+    {
+      ["monsterId"]= 34013,
+      ["weight"]= 1
+    },
+    {
+      ["monsterId"]= 34005,
+      ["weight"]= 1
+    },
+    {
+      ["monsterId"]= 34011,
+      ["weight"]= 1
+    }
+  },
+  ["MVPRareDropShow"]= {
+    10104010,
+    10105022,
+    10101074,
+    1101034,
+    1102009,
+    1105018,
+    1201099,
+    4103001,
+    10405071
+  },
+  ["mvpStaticId"]= 30010,
+  ["name"]= "MVPName_30010",
+  ["nameLocalized"]= "虎王",
+  ["sceneId"]= 1420,
+  ["skilllist"]= {
+    30010102,
+    30010103,
+    30010104
+  }
+},
+[30012] = {
+  ["ActivityDiscoveryDrop"]= 5520218,
+  ["ActivityId"]= 8,
+  ["ActivityKillDrop"]= 5520219,
+  ["ActivityLiveDrop"]= 5520216,
+  ["Background_Color"]= 2,
+  ["description"]= "MVPDes_30012",
+  ["descriptionLocalized"]= "恪守战士的骄傲，作为兽人中最强的存在被冠以“英雄”之名，象征着整个部族的荣誉与力量。",
+  ["droplist"]= {
+    10105011,
+    10104020,
+    10106045,
+    1303035,
+    1304009,
+    1305005,
+    1201105,
+    4101007,
+    10405072,
+    10204046
+  },
+  ["FirstDownItemPrize"]= 3000023,
+  ["FirstDownItemPrizeClient"]= {
+    10105011,
+    10104020,
+    10106045,
+    1303035,
+    1304009,
+    1305005,
+    1201105
+  },
+  ["id"]= 30012,
+  ["invadeAnnouncement"]= 17,
+  ["invadeBosslist"]= {
+    {
+      ["monsterId"]= 34002,
+      ["weight"]= 1
+    },
+    {
+      ["monsterId"]= 34004,
+      ["weight"]= 1
+    },
+    {
+      ["monsterId"]= 34005,
+      ["weight"]= 1
+    },
+    {
+      ["monsterId"]= 34011,
+      ["weight"]= 1
+    },
+    {
+      ["monsterId"]= 34013,
+      ["weight"]= 1
+    }
+  },
+  ["MVPRareDropShow"]= {
+    10105011,
+    10104020,
+    10106045,
+    1303035,
+    1304009,
+    1305005,
+    1201105,
+    4101007,
+    10405072
+  },
+  ["mvpStaticId"]= 30012,
+  ["name"]= "MVPName_30012",
+  ["nameLocalized"]= "兽人英雄",
+  ["sceneId"]= 1240,
+  ["skilllist"]= {
+    30012102,
+    30012103,
+    30012104,
+    30012105
+  }
+},
+[30015] = {
+  ["ActivityDiscoveryDrop"]= 5520218,
+  ["ActivityId"]= 8,
+  ["ActivityKillDrop"]= 5520219,
+  ["ActivityLiveDrop"]= 5520216,
+  ["Background_Color"]= 2,
+  ["description"]= "MVPDes_30015",
+  ["descriptionLocalized"]= "兽人部落的首领，虽然已经上了年纪，但蛮力依旧惊人，如果有人胆敢挑战酋长的尊严，可能会落得和挂在他腰间那两枚头颅的主人一样的下场……",
+  ["droplist"]= {
+    10102024,
+    10101082,
+    10105025,
+    1107036,
+    1307005,
+    1103006,
+    1104008,
+    1201038,
+    4101069,
+    10405072,
+    10204046
+  },
+  ["FirstDownItemPrize"]= 3000024,
+  ["FirstDownItemPrizeClient"]= {
+    10102024,
+    10101082,
+    10105025,
+    1107036,
+    1307005,
+    1103006,
+    1104008,
+    1201038
+  },
+  ["id"]= 30015,
+  ["invadeAnnouncement"]= 17,
+  ["invadeBosslist"]= {
+    {
+      ["monsterId"]= 34002,
+      ["weight"]= 1
+    },
+    {
+      ["monsterId"]= 34004,
+      ["weight"]= 1
+    },
+    {
+      ["monsterId"]= 34013,
+      ["weight"]= 1
+    },
+    {
+      ["monsterId"]= 34005,
+      ["weight"]= 1
+    },
+    {
+      ["monsterId"]= 34011,
+      ["weight"]= 1
+    }
+  },
+  ["MVPRareDropShow"]= {
+    10102024,
+    10101082,
+    10105025,
+    1107036,
+    1307005,
+    1103006,
+    1104008,
+    1201038,
+    4101069,
+    10405072
+  },
+  ["mvpStaticId"]= 30015,
+  ["name"]= "MVPName_30015",
+  ["nameLocalized"]= "兽人酋长",
+  ["sceneId"]= 1270,
+  ["skilllist"]= {
+    30015103,
+    30015104,
+    30015105
+  }
+},
+[30017] = {
+  ["ActivityDiscoveryDrop"]= 5520218,
+  ["ActivityId"]= 8,
+  ["ActivityKillDrop"]= 5520219,
+  ["ActivityLiveDrop"]= 5520216,
+  ["Background_Color"]= 4,
+  ["description"]= "MVPDes_30017",
+  ["descriptionLocalized"]= "沙漠地带的昔日帝王，在年轻时迷失在斯芬克斯的迷宫中，从此遗忘了自己的姓名和身份，甚至也遗忘了岁月的流逝……",
+  ["droplist"]= {
+    10105014,
+    10101081,
+    10106046,
+    1102008,
+    1101014,
+    1105016,
+    1201039,
+    4101070,
+    10405072,
+    10204046
+  },
+  ["FirstDownItemPrize"]= 3000025,
+  ["FirstDownItemPrizeClient"]= {
+    10105014,
+    10101081,
+    10106046,
+    1102008,
+    1101014,
+    1105016,
+    1201039
+  },
+  ["id"]= 30017,
+  ["invadeAnnouncement"]= 17,
+  ["invadeBosslist"]= {
+    {
+      ["monsterId"]= 34002,
+      ["weight"]= 1
+    },
+    {
+      ["monsterId"]= 34004,
+      ["weight"]= 1
+    },
+    {
+      ["monsterId"]= 34013,
+      ["weight"]= 1
+    },
+    {
+      ["monsterId"]= 34005,
+      ["weight"]= 1
+    },
+    {
+      ["monsterId"]= 34011,
+      ["weight"]= 1
+    }
+  },
+  ["MVPRareDropShow"]= {
+    10105014,
+    10101081,
+    10106046,
+    1102008,
+    1101014,
+    1105016,
+    1201039,
+    4101070,
+    10405072
+  },
+  ["mvpStaticId"]= 30017,
+  ["name"]= "MVPName_30017",
+  ["nameLocalized"]= "法老王",
+  ["sceneId"]= 1360,
+  ["skilllist"]= {
+    30017102,
+    30017103,
+    30017104
+  }
+},
+[30023] = {
+  ["ActivityDiscoveryDrop"]= 5520218,
+  ["ActivityId"]= 8,
+  ["ActivityKillDrop"]= 5520219,
+  ["ActivityLiveDrop"]= 5520216,
+  ["Background_Color"]= 1,
+  ["description"]= "MVPDes_30023",
+  ["descriptionLocalized"]= "曾经在海域兴风作浪的魔物，被冠以“克拉肯”之名，据传看到它第三只眼的人都将无法生还。",
+  ["droplist"]= {
+    10103021,
+    10101073,
+    10106040,
+    1107034,
+    1307016,
+    1104013,
+    1103007,
+    1201024,
+    4101172,
+    10405071,
+    10204046
+  },
+  ["FirstDownItemPrize"]= 3000026,
+  ["FirstDownItemPrizeClient"]= {
+    10103021,
+    10101073,
+    10106040,
+    1107034,
+    1307016,
+    1104013,
+    1103007,
+    1201024
+  },
+  ["id"]= 30023,
+  ["invadeAnnouncement"]= 17,
+  ["invadeBosslist"]= {
+    {
+      ["monsterId"]= 34002,
+      ["weight"]= 1
+    },
+    {
+      ["monsterId"]= 34004,
+      ["weight"]= 1
+    },
+    {
+      ["monsterId"]= 34013,
+      ["weight"]= 1
+    },
+    {
+      ["monsterId"]= 34005,
+      ["weight"]= 1
+    },
+    {
+      ["monsterId"]= 34011,
+      ["weight"]= 1
+    }
+  },
+  ["MVPRareDropShow"]= {
+    10103021,
+    10101073,
+    10106040,
+    1107034,
+    1307016,
+    1104013,
+    1103007,
+    1201024,
+    4101172,
+    10405071
+  },
+  ["mvpStaticId"]= 30023,
+  ["name"]= "MVPName_30023",
+  ["nameLocalized"]= "魔鬼大乌贼",
+  ["sceneId"]= 1150,
+  ["skilllist"]= {
+    30023102,
+    30023104,
+    30023108
+  }
+},
+[30099] = {
+  ["Background_Color"]= 5,
+  ["countOfRaidDuration"]= 1,
+  ["description"]= "MVPDes_30099",
+  ["descriptionLocalized"]= "年兽是传说中的恶兽，每到年末会占领村庄残酷的屠杀。年兽具有强大的护甲，但<color=#FF0000>爆竹</color>可有效破甲。没有护甲的年兽惧怕<color=#FF0000>鞭炮</color>。年兽感到危险会奋力跳走逃脱。",
+  ["droplist"]= {
+    10204042,
+    10204041,
+    10105026,
+    10105027,
+    1302035,
+    1306009,
+    1301034,
+    1304035,
+    1305016,
+    1303005,
+    1107034,
+    1307016,
+    1105018,
+    1103007,
+    1104013,
+    1101034,
+    1102009,
+    1201024,
+    1201100,
+    1201016,
+    1201099,
+    1302008,
+    1306005,
+    1301036,
+    1303035,
+    1304009,
+    1305005,
+    1107036,
+    1307005,
+    1105016,
+    1103006,
+    1104008,
+    1102008,
+    1101014,
+    1201105,
+    1201106,
+    1201038,
+    1201039,
+    10217030,
+    10204046
+  },
+  ["dropRateUpActivityType"]= 0,
+  ["FirstDownCrystalClient"]= 0,
+  ["FirstDownCrystalPrize"]= 0,
+  ["id"]= 30099,
+  ["IfHasFirstDown"]= 0,
+  ["MVPActivityFDPoints"]= 0,
+  ["MVPActivityLDPoints"]= 0,
+  ["MVPActivityPartPoints"]= 0,
+  ["MVPActivityRank"]= {},
+  ["MVPActivityRankPoints"]= {},
+  ["MVPRareDropShow"]= {
+    10204042,
+    10204041,
+    10105026,
+    10105027,
+    1302035,
+    1306009,
+    1301034,
+    1304035,
+    1305016,
+    1303005,
+    1107034,
+    1307016,
+    1105018,
+    1103007,
+    1104013,
+    1101034,
+    1102009,
+    1201024,
+    1201100,
+    1201016,
+    1201099,
+    1302008,
+    1306005,
+    1301036,
+    1303035,
+    1304009,
+    1305005,
+    1107036,
+    1307005,
+    1105016,
+    1103006,
+    1104008,
+    1102008,
+    1101014,
+    1201105,
+    1201106,
+    1201038,
+    1201039,
+    10217030
+  },
+  ["mvpStaticId"]= 30099,
+  ["name"]= "MonsterName30099",
+  ["nameLocalized"]= "年兽",
+  ["relatedGMActivityType"]= {
+    6
+  },
+  ["sceneId"]= 1410,
+  ["skilllist"]= {
+    30099102,
+    30099103,
+    30099104
+  },
+  ["upRate"]= 0
+},
+[31001] = {
+  ["Background_Color"]= 2,
+  ["BossType"]= 2,
+  ["description"]= "MVPDes_31001",
+  ["descriptionLocalized"]= "罗达蛙中的佼佼者，行动迟缓，爱好歌唱，自认为歌声比人鱼更胜一筹，但海底的其他生物似乎都不这么觉得……",
+  ["discoveryDropId"]= 3000012,
+  ["droplist"]= {
+    10103011,
+    10101078,
+    10106042,
+    3101257,
+    3101258,
+    3201190,
+    3201191,
+    4101053,
+    10405070,
+    10204047
+  },
+  ["FirstDownItemPrize"]= 3000027,
+  ["FirstDownItemPrizeClient"]= {
+    10103011,
+    10101078,
+    10106042,
+    3101257,
+    3101258,
+    3201190,
+    3201191
+  },
+  ["fixedRefreshTime"]= 6300,
+  ["id"]= 31001,
+  ["killDropId"]= 3000013,
+  ["LastRaidDuration"]= 180,
+  ["MVPFirstHitShow"]= {
+    10204047
+  },
+  ["MVPLastHitShow"]= {
+    10204047
+  },
+  ["MVPLiveDropShow"]= {
+    10204047
+  },
+  ["MVPRankDropShow"]= {
+    10204047
+  },
+  ["MVPRareDropShow"]= {
+    10103011,
+    10101078,
+    10106042,
+    3101257,
+    3101258,
+    3201190,
+    3201191,
+    4101053,
+    10405070
+  },
+  ["mvpStaticId"]= 31001,
+  ["name"]= "MVPName_31001",
+  ["nameLocalized"]= "蛙王",
+  ["sceneId"]= 1160,
+  ["skilllist"]= {
+    31001104,
+    31001105
+  }
+},
+[31002] = {
+  ["Background_Color"]= 1,
+  ["BossType"]= 2,
+  ["description"]= "MVPDes_31002",
+  ["descriptionLocalized"]= "波利家族的国王，穿戴着威风凛凛的披风与头冠，带领着小波利们征战四方的样子极富威严。",
+  ["discoveryDropId"]= 3000012,
+  ["droplist"]= {
+    10103012,
+    10105020,
+    10106039,
+    3101226,
+    3101227,
+    3101228,
+    3201134,
+    3201135,
+    4101028,
+    10405069,
+    10204047
+  },
+  ["FirstDownItemPrize"]= 3000028,
+  ["FirstDownItemPrizeClient"]= {
+    10103012,
+    10105020,
+    10106039,
+    3101226,
+    3101227,
+    3101228,
+    3201134,
+    3201135
+  },
+  ["fixedRefreshTime"]= 6300,
+  ["id"]= 31002,
+  ["killDropId"]= 3000013,
+  ["LastRaidDuration"]= 180,
+  ["MVPFirstHitShow"]= {
+    10204047
+  },
+  ["MVPLastHitShow"]= {
+    10204047
+  },
+  ["MVPLiveDropShow"]= {
+    10204047
+  },
+  ["MVPRankDropShow"]= {
+    10204047
+  },
+  ["MVPRareDropShow"]= {
+    10103012,
+    10105020,
+    10106039,
+    3101226,
+    3101227,
+    3101228,
+    3201134,
+    3201135,
+    4101028,
+    10405069
+  },
+  ["mvpStaticId"]= 31002,
+  ["name"]= "MVPName_31002",
+  ["nameLocalized"]= "波利之王",
+  ["sceneId"]= 1040
+},
+[31004] = {
+  ["Background_Color"]= 2,
+  ["BossType"]= 2,
+  ["description"]= "MVPDes_31004",
+  ["descriptionLocalized"]= "苍蝇中的佼佼者，在战斗方面天赋异禀，小巧的体型使它的刺杀静谧而迅捷。",
+  ["discoveryDropId"]= 3000012,
+  ["droplist"]= {
+    10103013,
+    10101069,
+    10105019,
+    3101221,
+    3101222,
+    3201130,
+    3201131,
+    4101020,
+    10405069,
+    10204047
+  },
+  ["FirstDownItemPrize"]= 3000029,
+  ["FirstDownItemPrizeClient"]= {
+    10103013,
+    10101069,
+    10105019,
+    3101221,
+    3101222,
+    3201130,
+    3201131
+  },
+  ["fixedRefreshTime"]= 6300,
+  ["id"]= 31004,
+  ["killDropId"]= 3000013,
+  ["LastRaidDuration"]= 180,
+  ["MVPFirstHitShow"]= {
+    10204047
+  },
+  ["MVPLastHitShow"]= {
+    10204047
+  },
+  ["MVPLiveDropShow"]= {
+    10204047
+  },
+  ["MVPRankDropShow"]= {
+    10204047
+  },
+  ["MVPRareDropShow"]= {
+    10103013,
+    10101069,
+    10105019,
+    3101221,
+    3101222,
+    3201130,
+    3201131,
+    4101020,
+    10405069
+  },
+  ["mvpStaticId"]= 31004,
+  ["name"]= "MVPName_31004",
+  ["nameLocalized"]= "龙蝇",
+  ["sceneId"]= 1320,
+  ["skilllist"]= {
+    31004104,
+    55006102
+  }
+},
+[31006] = {
+  ["Background_Color"]= 1,
+  ["BossType"]= 2,
+  ["description"]= "MVPDes_31006",
+  ["descriptionLocalized"]= "蓝色毛皮的疯兔，虽然看上去依旧人畜无害，但没事还是不要招惹它比较好……",
+  ["discoveryDropId"]= 3000012,
+  ["droplist"]= {
+    10103015,
+    10105018,
+    10106038,
+    3101215,
+    3101216,
+    3101217,
+    3101218,
+    3101219,
+    3101220,
+    4101022,
+    10405069,
+    10204047
+  },
+  ["FirstDownItemPrize"]= 3000030,
+  ["FirstDownItemPrizeClient"]= {
+    10103015,
+    10105018,
+    10106038,
+    3101215,
+    3101216,
+    3101217,
+    3101218,
+    3101219,
+    3101220
+  },
+  ["fixedRefreshTime"]= 6300,
+  ["id"]= 31006,
+  ["killDropId"]= 3000013,
+  ["LastRaidDuration"]= 180,
+  ["MVPFirstHitShow"]= {
+    10204047
+  },
+  ["MVPLastHitShow"]= {
+    10204047
+  },
+  ["MVPLiveDropShow"]= {
+    10204047
+  },
+  ["MVPRankDropShow"]= {
+    10204047
+  },
+  ["MVPRareDropShow"]= {
+    10103015,
+    10105018,
+    10106038,
+    3101215,
+    3101216,
+    3101217,
+    3101218,
+    3101219,
+    3101220,
+    4101022,
+    10405069
+  },
+  ["mvpStaticId"]= 31006,
+  ["name"]= "MVPName_31006",
+  ["nameLocalized"]= "蓝疯兔",
+  ["sceneId"]= 1020,
+  ["skilllist"]= {
+    55004102
+  }
+},
+[31008] = {
+  ["Background_Color"]= 3,
+  ["BossType"]= 2,
+  ["description"]= "MVPDes_31008",
+  ["descriptionLocalized"]= "亡灵们怨念的化身，徘徊在沉船中永不消逝。只要靠近它就能感受到强烈的负面情绪，是十分危险的魔物。",
+  ["discoveryDropId"]= 3000012,
+  ["droplist"]= {
+    10102017,
+    10101071,
+    10104017,
+    3101223,
+    3101224,
+    3101225,
+    3201132,
+    3201133,
+    4101024,
+    10405069,
+    10204047
+  },
+  ["FirstDownItemPrize"]= 3000031,
+  ["FirstDownItemPrizeClient"]= {
+    10102017,
+    10101071,
+    10104017,
+    3101223,
+    3101224,
+    3101225,
+    3201132,
+    3201133
+  },
+  ["fixedRefreshTime"]= 6300,
+  ["id"]= 31008,
+  ["killDropId"]= 3000013,
+  ["LastRaidDuration"]= 180,
+  ["MVPFirstHitShow"]= {
+    10204047
+  },
+  ["MVPLastHitShow"]= {
+    10204047
+  },
+  ["MVPLiveDropShow"]= {
+    10204047
+  },
+  ["MVPRankDropShow"]= {
+    10204047
+  },
+  ["MVPRareDropShow"]= {
+    10102017,
+    10101071,
+    10104017,
+    3101223,
+    3101224,
+    3101225,
+    3201132,
+    3201133,
+    4101024,
+    10405069
+  },
+  ["mvpStaticId"]= 31008,
+  ["name"]= "MVPName_31008",
+  ["nameLocalized"]= "幽灵波利",
+  ["sceneId"]= 1120
+},
+[31009] = {
+  ["Background_Color"]= 1,
+  ["BossType"]= 2,
+  ["description"]= "MVPDes_31009",
+  ["descriptionLocalized"]= "隐匿在海底的巨大魔物，据说年幼时从某位厨子的铁锅中侥幸逃生，突变出锐利的巨钳与坚不可摧的盔甲，但外形上仍能看出被火灼烧过的红色斑块。",
+  ["discoveryDropId"]= 3000012,
+  ["droplist"]= {
+    10105017,
+    10104019,
+    10106041,
+    3101259,
+    3101260,
+    3201192,
+    3201193,
+    4101171,
+    10405070,
+    10204047
+  },
+  ["FirstDownItemPrize"]= 3000032,
+  ["FirstDownItemPrizeClient"]= {
+    10105017,
+    10104019,
+    10106041,
+    3101259,
+    3101260,
+    3201192,
+    3201193
+  },
+  ["fixedRefreshTime"]= 6300,
+  ["id"]= 31009,
+  ["killDropId"]= 3000013,
+  ["LastRaidDuration"]= 180,
+  ["MVPFirstHitShow"]= {
+    10204047
+  },
+  ["MVPLastHitShow"]= {
+    10204047
+  },
+  ["MVPLiveDropShow"]= {
+    10204047
+  },
+  ["MVPRankDropShow"]= {
+    10204047
+  },
+  ["MVPRareDropShow"]= {
+    10105017,
+    10104019,
+    10106041,
+    3101259,
+    3101260,
+    3201192,
+    3201193,
+    4101171,
+    10405070
+  },
+  ["mvpStaticId"]= 31009,
+  ["name"]= "MVPName_31009",
+  ["nameLocalized"]= "大脚龙虾",
+  ["sceneId"]= 1150
+}
+}
+local baseTable={
+  ["ActivityDiscoveryDrop"]= 0,
+  ["ActivityId"]= 0,
+  ["ActivityKillDrop"]= 0,
+  ["ActivityLiveDrop"]= 0,
+  ["AnnouncTime"]= 600,
+  ["Background_Color"]= 6,
+  ["BossType"]= 1,
+  ["countOfRaidDuration"]= 6,
+  ["DailyRefreshLimit"]= 0,
+  ["description"]= "MVPDes_21030",
+  ["descriptionLocalized"]= "蜂兵的首领，所有蜂兵的母亲，一只蜂后就足够发展出一个蜂群，在蜂兵部落中是力量与美丽的双重象征。尖刺进化成为刺轮，在深渊回廊中舞动着……",
+  ["dieNpcLastTime"]= 0,
+  ["dieNpcStaticId"]= 0,
+  ["discoveryDropId"]= 3000006,
+  ["discoveryMailTemplateId"]= 1007,
+  ["droplist"]= {
+    10424038,
+    10424041,
+    10424035,
+    10424047,
+    10424005,
+    10424009,
+    10424013,
+    10424017,
+    10424021,
+    10204046
+  },
+  ["dropRateUpActivityType"]= 9,
+  ["FirstDownCrystalClient"]= 1003,
+  ["FirstDownCrystalPrize"]= 70000,
+  ["FirstDownItemPrize"]= 0,
+  ["FirstDownItemPrizeClient"]= {},
+  ["fixedRefreshTime"]= 9900,
+  ["id"]= 21030,
+  ["IfHasFirstDown"]= 1,
+  ["invadeAnnouncement"]= 0,
+  ["invadeBosslist"]= {},
+  ["killDropId"]= 3000007,
+  ["LastRaidDuration"]= 210,
+  ["maxLevel"]= 120,
+  ["MVPActivityFDPoints"]= 10,
+  ["MVPActivityLDPoints"]= 15,
+  ["MVPActivityPartPoints"]= 5,
+  ["MVPActivityRank"]= {
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["MVPActivityRankPoints"]= {
+    50,
+    45,
+    40,
+    35,
+    30,
+    25,
+    20,
+    15,
+    10,
+    5
+  },
+  ["MVPFirstHitShow"]= {
+    10204046
+  },
+  ["MVPLastHitShow"]= {
+    10204046
+  },
+  ["MVPLiveDropShow"]= {
+    10204046
+  },
+  ["MVPRankDropShow"]= {
+    10204046
+  },
+  ["MVPRareDropShow"]= {
+    10424038,
+    10424041,
+    10424035,
+    10424047,
+    10424005,
+    10424009,
+    10424013,
+    10424017,
+    10424021
+  },
+  ["MVPSortEnum"]= 1,
+  ["mvpStaticId"]= 21030,
+  ["name"]= "MVPName_21030",
+  ["nameLocalized"]= "深渊蜂后",
+  ["randomRefreshTime"]= 1800,
+  ["relatedGMActivityType"]= {},
+  ["RestartExtraRefreshTime"]= 0,
+  ["sceneId"]= 4601,
+  ["showAnnouncement"]= 0,
+  ["skilllist"]= {},
+  ["upRate"]= 0.5
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

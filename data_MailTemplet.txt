@@ -1,0 +1,905 @@
+TextAsset Base
+	string m_Name = "data_MailTemplet"
+	string m_Script = "local table= {
+[1] = {
+  ["content"]= "MailContent_1",
+  ["title"]= "MailTitle_1"
+},
+[1001] = {
+  ["content"]= "MailContent_1001",
+  ["ContentParamType"]= {
+    5
+  },
+  ["id"]= 1001,
+  ["title"]= "MailTitle_1001"
+},
+[1002] = {
+  ["content"]= "MailContent_1002",
+  ["ContentParamType"]= {
+    6
+  },
+  ["id"]= 1002,
+  ["title"]= "MailTitle_1002"
+},
+[1003] = {
+  ["content"]= "MailContent_1003",
+  ["ContentParamType"]= {
+    5
+  },
+  ["id"]= 1003,
+  ["title"]= "MailTitle_1003"
+},
+[1004] = {
+  ["content"]= "MailContent_1004",
+  ["id"]= 1004,
+  ["title"]= "MailTitle_1004"
+},
+[1005] = {
+  ["content"]= "MailContent_1005",
+  ["id"]= 1005,
+  ["title"]= "MailTitle_1005"
+},
+[1006] = {
+  ["content"]= "MailContent_1006",
+  ["ContentParamType"]= {
+    6
+  },
+  ["id"]= 1006,
+  ["title"]= "MailTitle_1006"
+},
+[1007] = {
+  ["content"]= "MailContent_1007",
+  ["ContentParamType"]= {
+    4
+  },
+  ["id"]= 1007,
+  ["title"]= "MailTitle_1007"
+},
+[1008] = {
+  ["content"]= "MailContent_1008",
+  ["ContentParamType"]= {
+    5
+  },
+  ["id"]= 1008,
+  ["title"]= "MailTitle_1008"
+},
+[1009] = {
+  ["content"]= "MailContent_1009",
+  ["id"]= 1009,
+  ["title"]= "MailTitle_1009"
+},
+[1010] = {
+  ["content"]= "MailContent_1010",
+  ["id"]= 1010,
+  ["title"]= "MailTitle_1010"
+},
+[1011] = {
+  ["content"]= "MailContent_1011",
+  ["id"]= 1011,
+  ["title"]= "MailTitle_1011"
+},
+[1012] = {
+  ["content"]= "MailContent_1012",
+  ["id"]= 1012,
+  ["title"]= "MailTitle_1012"
+},
+[1013] = {
+  ["content"]= "MailContent_1013",
+  ["ContentParamType"]= {
+    5,
+    5
+  },
+  ["id"]= 1013,
+  ["title"]= "MailTitle_1013"
+},
+[1014] = {
+  ["content"]= "MailContent_1014",
+  ["id"]= 1014,
+  ["lifetime"]= 365,
+  ["title"]= "MailTitle_1014"
+},
+[1015] = {
+  ["content"]= "MailContent_1015",
+  ["id"]= 1015,
+  ["title"]= "MailTitle_1015"
+},
+[1016] = {
+  ["content"]= "MailContent_1016",
+  ["ContentParamType"]= {
+    8
+  },
+  ["id"]= 1016,
+  ["title"]= "MailTitle_1016"
+},
+[1017] = {
+  ["content"]= "MailContent_1017",
+  ["id"]= 1017,
+  ["title"]= "MailTitle_1017"
+},
+[1018] = {
+  ["content"]= "MailContent_1018",
+  ["id"]= 1018,
+  ["title"]= "MailTitle_1018"
+},
+[1019] = {
+  ["content"]= "MailContent_1019",
+  ["ContentParamType"]= {
+    5
+  },
+  ["id"]= 1019,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_1019"
+},
+[1101] = {
+  ["content"]= "MailContent_1101",
+  ["id"]= 1101,
+  ["title"]= "MailTitle_1101"
+},
+[1102] = {
+  ["id"]= 1102
+},
+[1103] = {
+  ["id"]= 1103
+},
+[1201] = {
+  ["content"]= "MailContent_1201",
+  ["ContentParamType"]= {
+    7
+  },
+  ["id"]= 1201,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_1201"
+},
+[1202] = {
+  ["content"]= "MailContent_1202",
+  ["ContentParamType"]= {
+    7
+  },
+  ["id"]= 1202,
+  ["title"]= "MailTitle_1202"
+},
+[1301] = {
+  ["content"]= "MailContent_1301",
+  ["id"]= 1301,
+  ["title"]= "MailTitle_1301"
+},
+[1302] = {
+  ["content"]= "MailContent_1302",
+  ["id"]= 1302,
+  ["title"]= "MailTitle_1302"
+},
+[1303] = {
+  ["content"]= "MailContent_1303",
+  ["id"]= 1303,
+  ["title"]= "MailTitle_1303"
+},
+[1304] = {
+  ["content"]= "MailContent_1304",
+  ["id"]= 1304,
+  ["title"]= "MailTitle_1304"
+},
+[1305] = {
+  ["content"]= "MailContent_1305",
+  ["ContentParamType"]= {
+    5,
+    11
+  },
+  ["id"]= 1305,
+  ["title"]= "MailTitle_1305"
+},
+[1311] = {
+  ["content"]= "MailContent_1311",
+  ["id"]= 1311,
+  ["title"]= "MailTitle_1311"
+},
+[1312] = {
+  ["content"]= "MailContent_1312",
+  ["id"]= 1312,
+  ["title"]= "MailTitle_1312"
+},
+[1313] = {
+  ["content"]= "MailContent_1313",
+  ["id"]= 1313,
+  ["title"]= "MailTitle_1313"
+},
+[1314] = {
+  ["content"]= "MailContent_1314",
+  ["id"]= 1314,
+  ["title"]= "MailTitle_1314"
+},
+[1315] = {
+  ["content"]= "MailContent_1315",
+  ["id"]= 1315,
+  ["title"]= "MailTitle_1315"
+},
+[1401] = {
+  ["content"]= "MailContent_1401",
+  ["id"]= 1401,
+  ["title"]= "MailTitle_1401"
+},
+[2001] = {
+  ["content"]= "MailContent_2001",
+  ["id"]= 2001,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2001"
+},
+[2002] = {
+  ["content"]= "MailContent_2002",
+  ["id"]= 2002,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2002"
+},
+[2003] = {
+  ["content"]= "MailContent_2003",
+  ["id"]= 2003,
+  ["title"]= "MailTitle_2003"
+},
+[2004] = {
+  ["content"]= "MailContent_2004",
+  ["id"]= 2004,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2004"
+},
+[2005] = {
+  ["content"]= "MailContent_2005",
+  ["id"]= 2005,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2005"
+},
+[2006] = {
+  ["content"]= "MailContent_2006",
+  ["ContentParamType"]= {
+    5,
+    5
+  },
+  ["id"]= 2006,
+  ["title"]= "MailTitle_2006"
+},
+[2007] = {
+  ["content"]= "MailContent_2007",
+  ["id"]= 2007,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2007"
+},
+[2008] = {
+  ["content"]= "MailContent_2008",
+  ["id"]= 2008,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2008"
+},
+[2009] = {
+  ["content"]= "MailContent_2009",
+  ["id"]= 2009,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2009"
+},
+[2010] = {
+  ["content"]= "MailContent_2010",
+  ["id"]= 2010,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2010"
+},
+[2011] = {
+  ["content"]= "MailContent_2011",
+  ["id"]= 2011,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2011"
+},
+[2012] = {
+  ["content"]= "MailContent_2012",
+  ["id"]= 2012,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2012"
+},
+[2013] = {
+  ["content"]= "MailContent_2013",
+  ["id"]= 2013,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2013"
+},
+[2014] = {
+  ["content"]= "MailContent_2014",
+  ["id"]= 2014,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2014"
+},
+[2101] = {
+  ["content"]= "MailContent_2101",
+  ["ContentParamType"]= {
+    7
+  },
+  ["id"]= 2101,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2101"
+},
+[2102] = {
+  ["content"]= "MailContent_2102",
+  ["ContentParamType"]= {
+    7
+  },
+  ["id"]= 2102,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2102"
+},
+[2103] = {
+  ["content"]= "MailContent_2103",
+  ["ContentParamType"]= {
+    7
+  },
+  ["id"]= 2103,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2103"
+},
+[2104] = {
+  ["content"]= "MailContent_2104",
+  ["ContentParamType"]= {
+    7
+  },
+  ["id"]= 2104,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2104"
+},
+[2105] = {
+  ["content"]= "MailContent_2105",
+  ["ContentParamType"]= {
+    7
+  },
+  ["id"]= 2105,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2105"
+},
+[2106] = {
+  ["content"]= "MailContent_2106",
+  ["ContentParamType"]= {
+    7
+  },
+  ["id"]= 2106,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2106"
+},
+[2107] = {
+  ["content"]= "MailContent_2107",
+  ["ContentParamType"]= {
+    5
+  },
+  ["id"]= 2107,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2107"
+},
+[2108] = {
+  ["content"]= "MailContent_2108",
+  ["ContentParamType"]= {
+    7
+  },
+  ["id"]= 2108,
+  ["lifetime"]= 1,
+  ["title"]= "MailTitle_2108"
+},
+[2109] = {
+  ["content"]= "MailContent_2109",
+  ["id"]= 2109,
+  ["title"]= "MailTitle_2109"
+},
+[2201] = {
+  ["content"]= "MailContent_2201",
+  ["id"]= 2201,
+  ["lifetime"]= 1,
+  ["title"]= "MailTitle_2201"
+},
+[2202] = {
+  ["content"]= "MailContent_2202",
+  ["id"]= 2202,
+  ["lifetime"]= 1,
+  ["title"]= "MailTitle_2202"
+},
+[2301] = {
+  ["content"]= "MailContent_2301",
+  ["id"]= 2301,
+  ["lifetime"]= 1,
+  ["title"]= "MailTitle_2301"
+},
+[2302] = {
+  ["content"]= "MailContent_2302",
+  ["id"]= 2302,
+  ["lifetime"]= 1,
+  ["title"]= "MailTitle_2302"
+},
+[2401] = {
+  ["content"]= "MailContent_2401",
+  ["ContentParamType"]= {
+    5
+  },
+  ["id"]= 2401,
+  ["title"]= "MailTitle_2401"
+},
+[2501] = {
+  ["content"]= "MailContent_2501",
+  ["ContentParamType"]= {
+    2
+  },
+  ["id"]= 2501,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_2501"
+},
+[3001] = {
+  ["content"]= "MailContent_3001",
+  ["ContentForDynamicActivity"]= {
+    "300101",
+    "300102",
+    "300103"
+  },
+  ["id"]= 3001,
+  ["lifetime"]= 30,
+  ["MailType"]= 2,
+  ["title"]= "MailTitle_3001"
+},
+[3002] = {
+  ["content"]= "MailContent_3002",
+  ["id"]= 3002,
+  ["title"]= "MailTitle_3002"
+},
+[3003] = {
+  ["content"]= "MailContent_3003",
+  ["id"]= 3003,
+  ["title"]= "MailTitle_3003"
+},
+[3004] = {
+  ["content"]= "MailContent_3004",
+  ["ContentParamType"]= {
+    5
+  },
+  ["id"]= 3004,
+  ["title"]= "MailTitle_3004"
+},
+[3005] = {
+  ["content"]= "MailContent_3005",
+  ["id"]= 3005,
+  ["title"]= "MailTitle_3005"
+},
+[3006] = {
+  ["content"]= "MailContent_3006",
+  ["id"]= 3006,
+  ["title"]= "MailTitle_3006"
+},
+[3007] = {
+  ["content"]= "MailContent_3007",
+  ["id"]= 3007,
+  ["title"]= "MailTitle_3007"
+},
+[3008] = {
+  ["content"]= "MailContent_3008",
+  ["id"]= 3008,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_3008"
+},
+[3009] = {
+  ["content"]= "MailContent_3009",
+  ["ContentForDynamicActivity"]= {
+    "300901",
+    "300902",
+    "300903"
+  },
+  ["id"]= 3009,
+  ["lifetime"]= 10,
+  ["MailType"]= 2,
+  ["title"]= "MailTitle_3009"
+},
+[3010] = {
+  ["content"]= "MailContent_3010",
+  ["id"]= 3010,
+  ["lifetime"]= 3,
+  ["title"]= "MailTitle_3010"
+},
+[3011] = {
+  ["content"]= "MailContent_3011",
+  ["id"]= 3011,
+  ["MailType"]= 5,
+  ["title"]= "MailTitle_3011"
+},
+[3012] = {
+  ["content"]= "MailContent_3012",
+  ["id"]= 3012,
+  ["MailType"]= 5,
+  ["title"]= "MailTitle_3012"
+},
+[3013] = {
+  ["content"]= "MailContent_3013",
+  ["id"]= 3013,
+  ["MailType"]= 5,
+  ["title"]= "MailTitle_3013"
+},
+[3014] = {
+  ["content"]= "MailContent_3014",
+  ["ContentForDynamicActivity"]= {
+    "301401",
+    "301402"
+  },
+  ["id"]= 3014,
+  ["lifetime"]= 15,
+  ["MailType"]= 2,
+  ["title"]= "MailTitle_3014"
+},
+[4000] = {
+  ["content"]= "MailContent_4000",
+  ["id"]= 4000,
+  ["title"]= "MailTitle_4000"
+},
+[4001] = {
+  ["content"]= "MailContent_4001",
+  ["id"]= 4001,
+  ["title"]= "MailTitle_4001"
+},
+[4002] = {
+  ["content"]= "MailContent_4002",
+  ["id"]= 4002,
+  ["title"]= "MailTitle_4002"
+},
+[4003] = {
+  ["content"]= "MailContent_4003",
+  ["id"]= 4003,
+  ["title"]= "MailTitle_4003"
+},
+[5001] = {
+  ["content"]= "MailContent_5001",
+  ["id"]= 5001,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_5001"
+},
+[9001] = {
+  ["content"]= "MailContent_9001",
+  ["id"]= 9001,
+  ["MailType"]= 3,
+  ["title"]= "MailTitle_9001"
+},
+[9002] = {
+  ["content"]= "MailContent_9002",
+  ["id"]= 9002,
+  ["title"]= "MailTitle_9002"
+},
+[11001] = {
+  ["content"]= "WeddingMailContent001",
+  ["ContentParamType"]= {
+    9,
+    5,
+    1,
+    12
+  },
+  ["id"]= 11001,
+  ["lifetime"]= 14,
+  ["title"]= "WeddingMailTitle001",
+  ["TitleParamType"]= {
+    12
+  }
+},
+[11002] = {
+  ["content"]= "WeddingMailContent002",
+  ["ContentParamType"]= {
+    9,
+    5
+  },
+  ["id"]= 11002,
+  ["lifetime"]= 14,
+  ["MailType"]= 4,
+  ["title"]= "WeddingMailTitle002",
+  ["TitleParamType"]= {
+    5
+  }
+},
+[11003] = {
+  ["content"]= "WeddingMailContent003",
+  ["ContentParamType"]= {
+    9,
+    5
+  },
+  ["id"]= 11003,
+  ["lifetime"]= 14,
+  ["title"]= "WeddingMailTitle003"
+},
+[11004] = {
+  ["content"]= "WeddingMailContent004",
+  ["ContentParamType"]= {
+    9,
+    5
+  },
+  ["id"]= 11004,
+  ["lifetime"]= 14,
+  ["title"]= "WeddingMailTitle004"
+},
+[11005] = {
+  ["content"]= "WeddingMailContent005",
+  ["ContentParamType"]= {
+    9,
+    5
+  },
+  ["id"]= 11005,
+  ["lifetime"]= 14,
+  ["title"]= "WeddingMailTitle005"
+},
+[11006] = {
+  ["content"]= "WeddingMailContent006",
+  ["ContentParamType"]= {
+    9,
+    5
+  },
+  ["id"]= 11006,
+  ["lifetime"]= 14,
+  ["title"]= "WeddingMailTitle006"
+},
+[11007] = {
+  ["content"]= "WeddingMailContent007",
+  ["ContentParamType"]= {
+    9,
+    5
+  },
+  ["id"]= 11007,
+  ["lifetime"]= 14,
+  ["MailType"]= 4,
+  ["title"]= "WeddingMailTitle007",
+  ["TitleParamType"]= {
+    5
+  }
+},
+[11008] = {
+  ["content"]= "WeddingMailContent008",
+  ["ContentParamType"]= {
+    9,
+    5
+  },
+  ["id"]= 11008,
+  ["lifetime"]= 14,
+  ["title"]= "WeddingMailTitle008"
+},
+[11009] = {
+  ["content"]= "WeddingMailContent009",
+  ["ContentParamType"]= {
+    9,
+    5
+  },
+  ["id"]= 11009,
+  ["lifetime"]= 14,
+  ["title"]= "WeddingMailTitle009"
+},
+[11010] = {
+  ["content"]= "WeddingMailContent010",
+  ["ContentParamType"]= {
+    9,
+    5
+  },
+  ["id"]= 11010,
+  ["lifetime"]= 14,
+  ["title"]= "WeddingMailTitle010"
+},
+[11011] = {
+  ["content"]= "WeddingMailContent011",
+  ["ContentParamType"]= {
+    9,
+    5
+  },
+  ["id"]= 11011,
+  ["lifetime"]= 14,
+  ["title"]= "WeddingMailTitle011"
+},
+[11012] = {
+  ["content"]= "WeddingMailContent012",
+  ["ContentParamType"]= {
+    9,
+    5
+  },
+  ["id"]= 11012,
+  ["title"]= "WeddingMailTitle012"
+},
+[11013] = {
+  ["content"]= "WeddingMailContent013",
+  ["ContentParamType"]= {
+    9,
+    5
+  },
+  ["id"]= 11013,
+  ["lifetime"]= 14,
+  ["title"]= "WeddingMailTitle013"
+},
+[11014] = {
+  ["content"]= "WeddingMailContent014",
+  ["ContentParamType"]= {
+    9,
+    5,
+    12,
+    5
+  },
+  ["id"]= 11014,
+  ["lifetime"]= 30,
+  ["title"]= "WeddingMailTitle014"
+},
+[11015] = {
+  ["content"]= "WeddingMailContent015",
+  ["ContentParamType"]= {
+    9,
+    2
+  },
+  ["id"]= 11015,
+  ["title"]= "WeddingMailTitle015"
+},
+[12001] = {
+  ["content"]= "MailContent_12001",
+  ["id"]= 12001,
+  ["lifetime"]= 14,
+  ["title"]= "MailTitle_12001"
+},
+[12002] = {
+  ["content"]= "MailContent_12002",
+  ["id"]= 12002,
+  ["lifetime"]= 14,
+  ["title"]= "MailTitle_12002"
+},
+[13001] = {
+  ["content"]= "MailContent_5002",
+  ["ContentParamType"]= {
+    9,
+    10
+  },
+  ["id"]= 13001,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_5002"
+},
+[13002] = {
+  ["content"]= "MailContent_5003",
+  ["ContentParamType"]= {
+    9,
+    10,
+    5
+  },
+  ["id"]= 13002,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_5003"
+},
+[14001] = {
+  ["content"]= "MailContent_14001",
+  ["ContentParamType"]= {
+    9
+  },
+  ["id"]= 14001,
+  ["title"]= "MailTitle_14001"
+},
+[14002] = {
+  ["content"]= "MailContent_14002",
+  ["ContentParamType"]= {
+    9
+  },
+  ["id"]= 14002,
+  ["title"]= "MailTitle_14002"
+},
+[14003] = {
+  ["content"]= "MailContent_14003",
+  ["ContentParamType"]= {
+    9,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+  },
+  ["id"]= 14003,
+  ["title"]= "MailTitle_14003"
+},
+[14004] = {
+  ["content"]= "MailContent_14004",
+  ["ContentParamType"]= {
+    9,
+    5
+  },
+  ["id"]= 14004,
+  ["title"]= "MailTitle_14004"
+},
+[14005] = {
+  ["content"]= "MailContent_14005",
+  ["ContentParamType"]= {
+    9
+  },
+  ["id"]= 14005,
+  ["title"]= "MailTitle_14005"
+},
+[14006] = {
+  ["content"]= "MailContent_14006",
+  ["ContentParamType"]= {
+    9,
+    5
+  },
+  ["id"]= 14006,
+  ["title"]= "MailTitle_14006"
+},
+[14007] = {
+  ["content"]= "MailContent_14007",
+  ["ContentParamType"]= {
+    9
+  },
+  ["id"]= 14007,
+  ["title"]= "MailTitle_14007"
+},
+[14008] = {
+  ["content"]= "MailContent_14008",
+  ["ContentParamType"]= {
+    9
+  },
+  ["id"]= 14008,
+  ["title"]= "MailTitle_14007"
+},
+[14009] = {
+  ["content"]= "MailContent_14009",
+  ["ContentParamType"]= {
+    9
+  },
+  ["id"]= 14009,
+  ["title"]= "MailTitle_14009"
+},
+[14010] = {
+  ["content"]= "MailContent_14010",
+  ["id"]= 14010,
+  ["title"]= "MailTitle_14010"
+},
+[15001] = {
+  ["content"]= "MailContent_15001",
+  ["ContentParamType"]= {
+    9
+  },
+  ["id"]= 15001,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_15001"
+},
+[15002] = {
+  ["content"]= "MailContent_15002",
+  ["ContentParamType"]= {
+    2
+  },
+  ["id"]= 15002,
+  ["title"]= "MailTitle_15002"
+},
+[15003] = {
+  ["content"]= "MailContent_15003",
+  ["ContentParamType"]= {
+    9
+  },
+  ["id"]= 15003,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_15003"
+},
+[15004] = {
+  ["content"]= "MailContent_15004",
+  ["ContentParamType"]= {
+    2
+  },
+  ["id"]= 15004,
+  ["title"]= "MailTitle_15004"
+},
+[15005] = {
+  ["content"]= "MailContent_15005",
+  ["ContentParamType"]= {
+    9
+  },
+  ["id"]= 15005,
+  ["lifetime"]= 30,
+  ["title"]= "MailTitle_15005"
+},
+[15006] = {
+  ["content"]= "MailContent_15006",
+  ["ContentParamType"]= {
+    2
+  },
+  ["id"]= 15006,
+  ["title"]= "MailTitle_15006"
+}
+}
+local baseTable={
+  ["content"]= "MailContent_1102",
+  ["ContentForDynamicActivity"]= {},
+  ["ContentParamType"]= {},
+  ["id"]= 1,
+  ["lifetime"]= 7,
+  ["MailType"]= 1,
+  ["title"]= "MailTitle_1102",
+  ["TitleParamType"]= {}
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

@@ -1,0 +1,14 @@
+TextAsset Base
+	string m_Name = "data_pet_PetAbandonment"
+	string m_Script = "local table= {
+[1] = {}
+}
+local baseTable={
+  ["Id"]= 1,
+  ["Item"]= "10102001,10",
+  ["PetId"]= 82001
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

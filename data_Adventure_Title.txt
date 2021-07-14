@@ -1,0 +1,1142 @@
+TextAsset Base
+	string m_Name = "data_Adventure_Title"
+	string m_Script = "local table= {
+[1] = {
+  ["AccessDesc"]= "AccessDesc_Title_1001",
+  ["PropAddValue"]= {
+    10
+  },
+  ["PropID"]= {
+    33
+  },
+  ["Quality"]= 1
+},
+[2] = {
+  ["AccessDesc"]= "AccessDesc_Title_1002",
+  ["id"]= 1002,
+  ["Name"]= "Title_1002",
+  ["PropAddValue"]= {
+    20
+  },
+  ["PropID"]= {
+    32
+  },
+  ["Quality"]= 1,
+  ["Remarks"]= "初心冒险家"
+},
+[3] = {
+  ["AccessDesc"]= "AccessDesc_Title_1003",
+  ["id"]= 1003,
+  ["Name"]= "Title_1003",
+  ["PropAddValue"]= {
+    50
+  },
+  ["PropID"]= {
+    32
+  },
+  ["Quality"]= 2,
+  ["Remarks"]= "二转探险家"
+},
+[4] = {
+  ["AccessDesc"]= "AccessDesc_Title_1004",
+  ["id"]= 1004,
+  ["Name"]= "Title_1004",
+  ["PropAddValue"]= {
+    100
+  },
+  ["PropID"]= {
+    32
+  },
+  ["Quality"]= 3,
+  ["Remarks"]= "进阶开拓者"
+},
+[5] = {
+  ["AccessDesc"]= "AccessDesc_Title_1005",
+  ["id"]= 1005,
+  ["Name"]= "Title_1005",
+  ["PropID"]= {
+    18
+  },
+  ["Quality"]= 1,
+  ["Remarks"]= "魔物学者"
+},
+[6] = {
+  ["AccessDesc"]= "AccessDesc_Title_1006",
+  ["id"]= 1006,
+  ["Name"]= "Title_1006",
+  ["PropID"]= {
+    26
+  },
+  ["Quality"]= 1,
+  ["Remarks"]= "MINI学者"
+},
+[7] = {
+  ["AccessDesc"]= "AccessDesc_Title_1007",
+  ["id"]= 1007,
+  ["Name"]= "Title_1007",
+  ["PropID"]= {
+    21
+  },
+  ["Quality"]= 1,
+  ["Remarks"]= "MVP学者"
+},
+[8] = {
+  ["AccessDesc"]= "AccessDesc_Title_1009",
+  ["id"]= 1009,
+  ["Name"]= "Title_1009",
+  ["PropID"]= {
+    31
+  },
+  ["Quality"]= 1,
+  ["Remarks"]= "冲向无限塔"
+},
+[9] = {
+  ["AccessDesc"]= "AccessDesc_Title_1010",
+  ["id"]= 1010,
+  ["Name"]= "Title_1010",
+  ["PropID"]= {
+    31
+  },
+  ["Quality"]= 2,
+  ["Remarks"]= "自由摄影家"
+},
+[10] = {
+  ["AccessDesc"]= "AccessDesc_Title_1011",
+  ["id"]= 1011,
+  ["Name"]= "Title_1011",
+  ["PropID"]= {
+    14
+  },
+  ["Quality"]= 2,
+  ["Remarks"]= "国境之南"
+},
+[11] = {
+  ["AccessDesc"]= "AccessDesc_Title_1012",
+  ["id"]= 1012,
+  ["Name"]= "Title_1012",
+  ["PropID"]= {
+    21
+  },
+  ["Quality"]= 2,
+  ["Remarks"]= "扭蛋达人"
+},
+[12] = {
+  ["AccessDesc"]= "AccessDesc_Title_1013",
+  ["id"]= 1013,
+  ["Name"]= "Title_1013",
+  ["PropID"]= {
+    16
+  },
+  ["Quality"]= 2,
+  ["Remarks"]= "像少年啦飞驰"
+},
+[13] = {
+  ["AccessDesc"]= "AccessDesc_Title_1014",
+  ["id"]= 1014,
+  ["Name"]= "Title_1014",
+  ["PropID"]= {
+    18
+  },
+  ["Quality"]= 2,
+  ["Remarks"]= "垂钓专家"
+},
+[14] = {
+  ["AccessDesc"]= "AccessDesc_Title_1015",
+  ["id"]= 1015,
+  ["Name"]= "Title_1015",
+  ["PropID"]= {
+    12
+  },
+  ["Quality"]= 2,
+  ["Remarks"]= "挖矿专家"
+},
+[15] = {
+  ["AccessDesc"]= "AccessDesc_Title_1016",
+  ["id"]= 1016,
+  ["Name"]= "Title_1016",
+  ["PropID"]= {
+    13
+  },
+  ["Quality"]= 2,
+  ["Remarks"]= "园艺专家"
+},
+[16] = {
+  ["AccessDesc"]= "AccessDesc_Title_1017",
+  ["id"]= 1017,
+  ["Name"]= "Title_1017",
+  ["PropID"]= {
+    18
+  },
+  ["Quality"]= 2,
+  ["Remarks"]= "捉宠专家",
+  ["ShowCondition"]= {
+    12001
+  }
+},
+[17] = {
+  ["AccessDesc"]= "AccessDesc_Title_1018",
+  ["id"]= 1018,
+  ["Name"]= "Title_1018",
+  ["PropAddValue"]= {
+    10
+  },
+  ["PropID"]= {
+    35
+  },
+  ["Quality"]= 2,
+  ["Remarks"]= "炼造专家"
+},
+[18] = {
+  ["AccessDesc"]= "AccessDesc_Title_1019",
+  ["id"]= 1019,
+  ["Name"]= "Title_1019",
+  ["PropAddValue"]= {
+    2
+  },
+  ["PropID"]= {
+    36
+  },
+  ["Quality"]= 2,
+  ["Remarks"]= "料理专家"
+},
+[19] = {
+  ["AccessDesc"]= "AccessDesc_Title_1020",
+  ["id"]= 1020,
+  ["Name"]= "Title_1020",
+  ["PropAddValue"]= {
+    2
+  },
+  ["PropID"]= {
+    23
+  },
+  ["Quality"]= 3,
+  ["Remarks"]= "磐石之力"
+},
+[20] = {
+  ["AccessDesc"]= "AccessDesc_Title_1021",
+  ["id"]= 1021,
+  ["Name"]= "Title_1021",
+  ["PropAddValue"]= {
+    2
+  },
+  ["PropID"]= {
+    24
+  },
+  ["Quality"]= 3,
+  ["Remarks"]= "魔力之泉"
+},
+[21] = {
+  ["AccessDesc"]= "AccessDesc_Title_1022",
+  ["id"]= 1022,
+  ["Name"]= "Title_1022",
+  ["PropAddValue"]= {
+    2
+  },
+  ["PropID"]= {
+    10
+  },
+  ["Quality"]= 3,
+  ["Remarks"]= "专注之心"
+},
+[22] = {
+  ["AccessDesc"]= "AccessDesc_Title_1023",
+  ["id"]= 1023,
+  ["Name"]= "Title_1023",
+  ["PropAddValue"]= {
+    2
+  },
+  ["PropID"]= {
+    11
+  },
+  ["Quality"]= 3,
+  ["Remarks"]= "典藏之海"
+},
+[23] = {
+  ["AccessDesc"]= "AccessDesc_Title_1024",
+  ["id"]= 1024,
+  ["Name"]= "Title_1024",
+  ["PropAddValue"]= {
+    2
+  },
+  ["PropID"]= {
+    26
+  },
+  ["Quality"]= 3,
+  ["Remarks"]= "闪耀之光"
+},
+[24] = {
+  ["AccessDesc"]= "AccessDesc_Title_1025",
+  ["id"]= 1025,
+  ["Name"]= "Title_1025",
+  ["PropAddValue"]= {
+    2
+  },
+  ["PropID"]= {
+    31
+  },
+  ["Quality"]= 3,
+  ["Remarks"]= "皇家记者"
+},
+[25] = {
+  ["AccessDesc"]= "AccessDesc_Title_1026",
+  ["id"]= 1026,
+  ["Name"]= "Title_1026",
+  ["PropAddValue"]= {
+    2
+  },
+  ["PropID"]= {
+    14
+  },
+  ["Quality"]= 3,
+  ["Remarks"]= "环游世界"
+},
+[26] = {
+  ["AccessDesc"]= "AccessDesc_Title_1027",
+  ["id"]= 1027,
+  ["Name"]= "Title_1027",
+  ["PropAddValue"]= {
+    2
+  },
+  ["PropID"]= {
+    21
+  },
+  ["Quality"]= 3,
+  ["Remarks"]= "幸运眷顾"
+},
+[27] = {
+  ["AccessDesc"]= "AccessDesc_Title_1028",
+  ["id"]= 1028,
+  ["Name"]= "Title_1028",
+  ["PropAddValue"]= {
+    2
+  },
+  ["PropID"]= {
+    16
+  },
+  ["Quality"]= 3,
+  ["Remarks"]= "金色闪电"
+},
+[28] = {
+  ["AccessDesc"]= "AccessDesc_Title_1029",
+  ["id"]= 1029,
+  ["Name"]= "Title_1029",
+  ["PropAddValue"]= {
+    2
+  },
+  ["PropID"]= {
+    18
+  },
+  ["Quality"]= 3,
+  ["Remarks"]= "垂钓大师"
+},
+[29] = {
+  ["AccessDesc"]= "AccessDesc_Title_1030",
+  ["id"]= 1030,
+  ["Name"]= "Title_1030",
+  ["PropAddValue"]= {
+    2
+  },
+  ["PropID"]= {
+    12
+  },
+  ["Quality"]= 3,
+  ["Remarks"]= "挖矿大师"
+},
+[30] = {
+  ["AccessDesc"]= "AccessDesc_Title_1031",
+  ["id"]= 1031,
+  ["Name"]= "Title_1031",
+  ["PropAddValue"]= {
+    2
+  },
+  ["PropID"]= {
+    13
+  },
+  ["Quality"]= 3,
+  ["Remarks"]= "园艺大师"
+},
+[31] = {
+  ["AccessDesc"]= "AccessDesc_Title_1032",
+  ["id"]= 1032,
+  ["Name"]= "Title_1032",
+  ["PropAddValue"]= {
+    2
+  },
+  ["PropID"]= {
+    18
+  },
+  ["Quality"]= 3,
+  ["Remarks"]= "捉宠大师",
+  ["ShowCondition"]= {
+    12001
+  }
+},
+[32] = {
+  ["AccessDesc"]= "AccessDesc_Title_1033",
+  ["id"]= 1033,
+  ["Name"]= "Title_1033",
+  ["PropAddValue"]= {
+    20
+  },
+  ["PropID"]= {
+    35
+  },
+  ["Quality"]= 3,
+  ["Remarks"]= "炼造大师"
+},
+[33] = {
+  ["AccessDesc"]= "AccessDesc_Title_1034",
+  ["id"]= 1034,
+  ["Name"]= "Title_1034",
+  ["PropAddValue"]= {
+    5
+  },
+  ["PropID"]= {
+    36
+  },
+  ["Quality"]= 3,
+  ["Remarks"]= "料理大师"
+},
+[34] = {
+  ["AccessDesc"]= "AccessDesc_Title_1035",
+  ["id"]= 1035,
+  ["Name"]= "Title_1035",
+  ["PropAddValue"]= {
+    2
+  },
+  ["PropID"]= {
+    23
+  },
+  ["Quality"]= 3,
+  ["Remarks"]= "国士无双"
+},
+[35] = {
+  ["AccessDesc"]= "AccessDesc_Title_1036",
+  ["id"]= 1036,
+  ["Name"]= "Title_1036",
+  ["PropAddValue"]= {
+    2
+  },
+  ["PropID"]= {
+    24
+  },
+  ["Quality"]= 3,
+  ["Remarks"]= "商业天才"
+},
+[36] = {
+  ["AccessDesc"]= "AccessDesc_Title_1037",
+  ["id"]= 1037,
+  ["Name"]= "Title_1037",
+  ["PropAddValue"]= {
+    5
+  },
+  ["PropID"]= {
+    18
+  },
+  ["Remarks"]= "芬里尔之颚"
+},
+[37] = {
+  ["AccessDesc"]= "AccessDesc_Title_1038",
+  ["id"]= 1038,
+  ["Name"]= "Title_1038",
+  ["PropAddValue"]= {
+    5
+  },
+  ["PropID"]= {
+    26
+  },
+  ["Remarks"]= "维达的铁蹄"
+},
+[38] = {
+  ["AccessDesc"]= "AccessDesc_Title_1039",
+  ["id"]= 1039,
+  ["Name"]= "Title_1039",
+  ["PropAddValue"]= {
+    5
+  },
+  ["PropID"]= {
+    21
+  },
+  ["Remarks"]= "提尔的不朽"
+},
+[39] = {
+  ["AccessDesc"]= "AccessDesc_Title_1041",
+  ["id"]= 1041,
+  ["Name"]= "Title_1041",
+  ["PropAddValue"]= {
+    5
+  },
+  ["PropID"]= {
+    31
+  },
+  ["Remarks"]= "弗雷的施言"
+},
+[40] = {
+  ["AccessDesc"]= "AccessDesc_Title_1042",
+  ["id"]= 1042,
+  ["Name"]= "Title_1042",
+  ["PropID"]= {
+    1
+  },
+  ["Remarks"]= "洛基的永罚"
+},
+[41] = {
+  ["AccessDesc"]= "AccessDesc_Title_1043",
+  ["id"]= 1043,
+  ["Name"]= "Title_1043",
+  ["PropID"]= {
+    4
+  },
+  ["Remarks"]= "里格的守望"
+},
+[42] = {
+  ["AccessDesc"]= "AccessDesc_Title_1044",
+  ["id"]= 1044,
+  ["Name"]= "Title_1044",
+  ["PropID"]= {
+    5
+  },
+  ["Remarks"]= "托尔的威严"
+},
+[43] = {
+  ["AccessDesc"]= "AccessDesc_Title_1045",
+  ["id"]= 1045,
+  ["Name"]= "Title_1045",
+  ["PropID"]= {
+    6
+  },
+  ["Remarks"]= "弗丽嘉之匙"
+},
+[44] = {
+  ["AccessDesc"]= "AccessDesc_Title_1046",
+  ["id"]= 1046,
+  ["Name"]= "Title_1046",
+  ["Remarks"]= "伊登的花冠"
+},
+[45] = {
+  ["AccessDesc"]= "AccessDesc_Title_1047",
+  ["id"]= 1047,
+  ["Name"]= "Title_1047",
+  ["Quality"]= 1,
+  ["Remarks"]= "友谊之歌"
+},
+[46] = {
+  ["AccessDesc"]= "AccessDesc_Title_1048",
+  ["id"]= 1048,
+  ["Name"]= "Title_1048",
+  ["Quality"]= 1,
+  ["Remarks"]= "完全不够打！"
+},
+[47] = {
+  ["AccessDesc"]= "AccessDesc_Title_1049",
+  ["id"]= 1049,
+  ["Name"]= "Title_1049",
+  ["Quality"]= 1,
+  ["Remarks"]= "烈性美酒"
+},
+[48] = {
+  ["AccessDesc"]= "AccessDesc_Title_1050",
+  ["id"]= 1050,
+  ["Name"]= "Title_1050",
+  ["Quality"]= 1,
+  ["Remarks"]= "深海之吻"
+},
+[49] = {
+  ["AccessDesc"]= "AccessDesc_Title_1051",
+  ["id"]= 1051,
+  ["Name"]= "Title_1051",
+  ["Quality"]= 1,
+  ["Remarks"]= "逐浪的少女"
+},
+[50] = {
+  ["AccessDesc"]= "AccessDesc_Title_1052",
+  ["id"]= 1052,
+  ["Name"]= "Title_1052",
+  ["Quality"]= 1,
+  ["Remarks"]= "既定的结局"
+},
+[51] = {
+  ["AccessDesc"]= "AccessDesc_Title_1053",
+  ["id"]= 1053,
+  ["Name"]= "Title_1053",
+  ["Quality"]= 1,
+  ["Remarks"]= "船长之愿"
+},
+[52] = {
+  ["AccessDesc"]= "AccessDesc_Title_1054",
+  ["id"]= 1054,
+  ["Name"]= "Title_1054",
+  ["Quality"]= 1,
+  ["Remarks"]= "最后的伙伴"
+},
+[53] = {
+  ["AccessDesc"]= "AccessDesc_Title_1055",
+  ["id"]= 1055,
+  ["Name"]= "Title_1055",
+  ["Quality"]= 1,
+  ["Remarks"]= "魔神信奉者"
+},
+[54] = {
+  ["AccessDesc"]= "AccessDesc_Title_1056",
+  ["id"]= 1056,
+  ["Name"]= "Title_1056",
+  ["Quality"]= 1,
+  ["Remarks"]= "冒险者的真谛"
+},
+[55] = {
+  ["AccessDesc"]= "AccessDesc_Title_1057",
+  ["id"]= 1057,
+  ["Name"]= "Title_1057",
+  ["Quality"]= 1,
+  ["Remarks"]= "文物收集Ⅱ"
+},
+[56] = {
+  ["AccessDesc"]= "AccessDesc_Title_1058",
+  ["id"]= 1058,
+  ["Name"]= "Title_1058",
+  ["PropAddValue"]= {
+    20
+  },
+  ["PropID"]= {
+    32
+  },
+  ["Quality"]= 1,
+  ["Remarks"]= "新世代冒险家"
+},
+[57] = {
+  ["AccessDesc"]= "AccessDesc_Title_1059",
+  ["id"]= 1059,
+  ["Name"]= "Title_1059",
+  ["PropAddValue"]= {
+    20
+  },
+  ["PropID"]= {
+    32
+  },
+  ["Quality"]= 1,
+  ["Remarks"]= "Early Bird",
+  ["ShowCondition"]= {
+    12001
+  }
+},
+[58] = {
+  ["AccessDesc"]= "AccessDesc_Title_1060",
+  ["id"]= 1060,
+  ["Name"]= "Title_1060",
+  ["PropAddValue"]= {
+    100,
+    100
+  },
+  ["PropID"]= {
+    32,
+    33
+  },
+  ["Quality"]= 3,
+  ["Remarks"]= "异界杀手"
+},
+[59] = {
+  ["AccessDesc"]= "AccessDesc_Title_1061",
+  ["id"]= 1061,
+  ["Name"]= "Title_1061",
+  ["PropAddValue"]= {
+    14,
+    14
+  },
+  ["PropID"]= {
+    10,
+    11
+  },
+  ["Remarks"]= "异界之主"
+},
+[60] = {
+  ["AccessDesc"]= "AccessDesc_Title_1062",
+  ["id"]= 1062,
+  ["Name"]= "Title_1062",
+  ["PropAddValue"]= {
+    5
+  },
+  ["PropID"]= {
+    1
+  },
+  ["Remarks"]= "扬名立万"
+},
+[61] = {
+  ["AccessDesc"]= "AccessDesc_Title_1063",
+  ["id"]= 1063,
+  ["Name"]= "Title_1063",
+  ["PropAddValue"]= {
+    5
+  },
+  ["PropID"]= {
+    4
+  },
+  ["Remarks"]= "天从人愿"
+},
+[62] = {
+  ["AccessDesc"]= "AccessDesc_Title_1064",
+  ["id"]= 1064,
+  ["IsCouple"]= 1,
+  ["Name"]= "Title_1064",
+  ["PropAddValue"]= {
+    20
+  },
+  ["PropID"]= {
+    32
+  },
+  ["Quality"]= 1,
+  ["Remarks"]= "甜蜜呼唤",
+  ["UseCondition"]= {
+    1201
+  }
+},
+[63] = {
+  ["AccessDesc"]= "AccessDesc_Title_1065",
+  ["id"]= 1065,
+  ["IsCouple"]= 1,
+  ["Name"]= "Title_1065",
+  ["PropAddValue"]= {
+    100
+  },
+  ["PropID"]= {
+    32
+  },
+  ["Remarks"]= "想见你",
+  ["UseCondition"]= {
+    1201
+  }
+},
+[64] = {
+  ["AccessDesc"]= "AccessDesc_Title_1066",
+  ["id"]= 1066,
+  ["IsCouple"]= 1,
+  ["Name"]= "Title_1066",
+  ["PropAddValue"]= {
+    20
+  },
+  ["PropID"]= {
+    33
+  },
+  ["Quality"]= 1,
+  ["Remarks"]= "伊人迢迢",
+  ["UseCondition"]= {
+    1201
+  }
+},
+[65] = {
+  ["AccessDesc"]= "AccessDesc_Title_1067",
+  ["id"]= 1067,
+  ["IsCouple"]= 1,
+  ["Name"]= "Title_1067",
+  ["PropAddValue"]= {
+    100
+  },
+  ["PropID"]= {
+    33
+  },
+  ["Remarks"]= "追光者",
+  ["UseCondition"]= {
+    1201
+  }
+},
+[66] = {
+  ["AccessDesc"]= "AccessDesc_Title_1068",
+  ["id"]= 1068,
+  ["IsCouple"]= 1,
+  ["Name"]= "Title_1068",
+  ["Quality"]= 1,
+  ["Remarks"]= "情有所属",
+  ["UseCondition"]= {
+    1201
+  }
+},
+[67] = {
+  ["AccessDesc"]= "AccessDesc_Title_1069",
+  ["id"]= 1069,
+  ["IsCouple"]= 1,
+  ["Name"]= "Title_1069",
+  ["PropAddValue"]= {
+    5
+  },
+  ["Remarks"]= "恋心如焚",
+  ["UseCondition"]= {
+    1201
+  }
+},
+[68] = {
+  ["AccessDesc"]= "AccessDesc_Title_1070",
+  ["id"]= 1070,
+  ["IsCouple"]= 1,
+  ["Name"]= "Title_1070",
+  ["PropID"]= {
+    1
+  },
+  ["Quality"]= 1,
+  ["Remarks"]= "予你星辰",
+  ["UseCondition"]= {
+    1201
+  }
+},
+[69] = {
+  ["AccessDesc"]= "AccessDesc_Title_1071",
+  ["id"]= 1071,
+  ["IsCouple"]= 1,
+  ["Name"]= "Title_1071",
+  ["PropAddValue"]= {
+    5
+  },
+  ["PropID"]= {
+    1
+  },
+  ["Remarks"]= "所念星河皆是你",
+  ["UseCondition"]= {
+    1201
+  }
+},
+[70] = {
+  ["AccessDesc"]= "AccessDesc_Title_1072",
+  ["id"]= 1072,
+  ["IsCouple"]= 1,
+  ["Name"]= "Title_1072",
+  ["PropID"]= {
+    4
+  },
+  ["Quality"]= 1,
+  ["Remarks"]= "一心人",
+  ["UseCondition"]= {
+    1201
+  }
+},
+[71] = {
+  ["AccessDesc"]= "AccessDesc_Title_1073",
+  ["id"]= 1073,
+  ["IsCouple"]= 1,
+  ["Name"]= "Title_1073",
+  ["PropAddValue"]= {
+    5
+  },
+  ["PropID"]= {
+    4
+  },
+  ["Remarks"]= "与子成说",
+  ["UseCondition"]= {
+    1201
+  }
+},
+[72] = {
+  ["AccessDesc"]= "AccessDesc_Title_1075",
+  ["id"]= 1075,
+  ["Name"]= "Title_1075",
+  ["PropAddValue"]= {
+    14,
+    14
+  },
+  ["PropID"]= {
+    10,
+    11
+  },
+  ["Remarks"]= "千金散尽"
+},
+[73] = {
+  ["AccessDesc"]= "AccessDesc_Title_1076",
+  ["id"]= 1076,
+  ["Name"]= "Title_1076",
+  ["PropAddValue"]= {
+    100
+  },
+  ["PropID"]= {
+    32
+  },
+  ["Remarks"]= "散财童子"
+},
+[74] = {
+  ["AccessDesc"]= "AccessDesc_Title_1077",
+  ["id"]= 1077,
+  ["Name"]= "Title_1077",
+  ["PropAddValue"]= {
+    100
+  },
+  ["PropID"]= {
+    33
+  },
+  ["Remarks"]= "财大气粗"
+},
+[75] = {
+  ["AccessDesc"]= "AccessDesc_Title_1078",
+  ["id"]= 1078,
+  ["Name"]= "Title_1078",
+  ["PropAddValue"]= {
+    5
+  },
+  ["PropID"]= {
+    6
+  },
+  ["Remarks"]= "腰缠万贯"
+},
+[76] = {
+  ["AccessDesc"]= "AccessDesc_Title_1079",
+  ["id"]= 1079,
+  ["Name"]= "Title_1079",
+  ["PropAddValue"]= {
+    5
+  },
+  ["PropID"]= {
+    5
+  },
+  ["Remarks"]= "金玉满堂"
+},
+[77] = {
+  ["AccessDesc"]= "AccessDesc_Title_1080",
+  ["id"]= 1080,
+  ["Name"]= "Title_1080",
+  ["PropAddValue"]= {
+    5
+  },
+  ["PropID"]= {
+    4
+  },
+  ["Remarks"]= "Social Butterfly",
+  ["ShowCondition"]= {
+    12001
+  }
+},
+[78] = {
+  ["AccessDesc"]= "AccessDesc_Title_1080",
+  ["id"]= 1081,
+  ["Name"]= "Title_1081",
+  ["PropAddValue"]= {
+    5
+  },
+  ["PropID"]= {
+    6
+  },
+  ["Remarks"]= "艷壓群芳",
+  ["ShowCondition"]= {
+    12001
+  }
+},
+[79] = {
+  ["AccessDesc"]= "AccessDesc_Title_1080",
+  ["id"]= 1082,
+  ["Name"]= "Title_1082",
+  ["PropAddValue"]= {
+    5
+  },
+  ["PropID"]= {
+    5
+  },
+  ["Remarks"]= "帥到分手",
+  ["ShowCondition"]= {
+    12001
+  }
+},
+[80] = {
+  ["id"]= 1083,
+  ["Name"]= "Title_1083",
+  ["PropAddValue"]= {
+    5
+  },
+  ["PropID"]= {
+    4
+  },
+  ["Remarks"]= "超人气画师",
+  ["ShowCondition"]= {
+    12001
+  }
+},
+[81] = {
+  ["id"]= 1084,
+  ["Name"]= "Title_1084",
+  ["PropAddValue"]= {
+    5
+  },
+  ["PropID"]= {
+    4
+  },
+  ["Remarks"]= "灵魂画手",
+  ["ShowCondition"]= {
+    12001
+  }
+},
+[82] = {
+  ["id"]= 1085,
+  ["Name"]= "Title_1085",
+  ["PropAddValue"]= {
+    5
+  },
+  ["PropID"]= {
+    4
+  },
+  ["Remarks"]= "美术股长",
+  ["ShowCondition"]= {
+    12001
+  }
+},
+[83] = {
+  ["id"]= 1086,
+  ["Name"]= "Title_1086",
+  ["PropAddValue"]= {
+    5
+  },
+  ["PropID"]= {
+    4
+  },
+  ["Remarks"]= "新世代小画家",
+  ["ShowCondition"]= {
+    12001
+  }
+},
+[84] = {
+  ["id"]= 1087,
+  ["Name"]= "Title_1087",
+  ["PropAddValue"]= {
+    5
+  },
+  ["PropID"]= {
+    4
+  },
+  ["Remarks"]= "神笔马良",
+  ["ShowCondition"]= {
+    12001
+  }
+},
+[85] = {
+  ["AccessDesc"]= "AccessDesc_Title_1082",
+  ["id"]= 1088,
+  ["Name"]= "Title_1088",
+  ["PropAddValue"]= {
+    3
+  },
+  ["PropID"]= {
+    6
+  },
+  ["Remarks"]= "美饌廚神",
+  ["ShowCondition"]= {
+    12001
+  }
+},
+[86] = {
+  ["AccessDesc"]= "AccessDesc_Title_1082",
+  ["id"]= 1089,
+  ["Name"]= "Title_1089",
+  ["PropAddValue"]= {
+    3
+  },
+  ["PropID"]= {
+    5
+  },
+  ["Remarks"]= "地獄廚神",
+  ["ShowCondition"]= {
+    12001
+  }
+},
+[87] = {
+  ["AccessDesc"]= "AccessDesc_Title_1082",
+  ["id"]= 1090,
+  ["Name"]= "Title_1090",
+  ["PropAddValue"]= {
+    3
+  },
+  ["PropID"]= {
+    3
+  },
+  ["Remarks"]= "新世代店小二",
+  ["ShowCondition"]= {
+    12001
+  }
+},
+[88] = {
+  ["AccessDesc"]= "AccessDesc_Title_1083",
+  ["id"]= 1091,
+  ["Name"]= "Title_1091",
+  ["PropAddValue"]= {
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  },
+  ["PropID"]= {
+    1,
+    5,
+    4,
+    3,
+    6,
+    2
+  },
+  ["Remarks"]= "荣耀之巅",
+  ["ShowCondition"]= {
+    12002
+  }
+},
+[89] = {
+  ["AccessDesc"]= "AccessDesc_Title_1084",
+  ["id"]= 1092,
+  ["Name"]= "Title_1092",
+  ["PropAddValue"]= {
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  },
+  ["PropID"]= {
+    1,
+    5,
+    4,
+    3,
+    6,
+    2
+  },
+  ["Remarks"]= "王者的调和"
+},
+[90] = {
+  ["AccessDesc"]= "AccessDesc_Title_1084",
+  ["id"]= 1093,
+  ["Name"]= "Title_1093",
+  ["PropAddValue"]= {
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  },
+  ["PropID"]= {
+    1,
+    5,
+    4,
+    3,
+    6,
+    2
+  },
+  ["Remarks"]= "星海之巅",
+  ["ShowCondition"]= {
+    12002
+  }
+}
+}
+local baseTable={
+  ["Access"]= 25,
+  ["AccessDesc"]= "AccessDesc_Title_1081",
+  ["id"]= 1001,
+  ["IsCouple"]= 0,
+  ["Name"]= "Title_1001",
+  ["PropAddValue"]= {
+    1
+  },
+  ["PropID"]= {
+    2
+  },
+  ["Quality"]= 4,
+  ["Remarks"]= "逐梦之旅",
+  ["ShowCondition"]= {
+    12003
+  },
+  ["UseCondition"]= {}
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

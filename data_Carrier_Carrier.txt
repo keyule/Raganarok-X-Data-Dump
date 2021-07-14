@@ -1,0 +1,5672 @@
+TextAsset Base
+	string m_Name = "data_Carrier_Carrier"
+	string m_Script = "local table= {
+[1] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "ClimbUpStand"
+    },
+    {
+      ["actionName"]= "ClimbUpLoop"
+    },
+    {
+      ["actionName"]= "ClimbUp"
+    }
+  },
+  ["astrictMoveMode"]= 0,
+  ["behaviorId"]= 6,
+  ["buttonText"]= "CollectionButton65",
+  ["Capacity"]= 1,
+  ["customDisId"]= 1,
+  ["endArea"]= 1020208,
+  ["endPoint"]= {
+    -94.64446,
+    21.06728,
+    95.40082
+  },
+  ["exitActiveArea"]= 1020227,
+  ["isResetCoordinate"]= 1,
+  ["loadType"]= 0,
+  ["name"]= "南门-攀爬上",
+  ["orientation"]= {
+    -0.9862856,
+    -0.165047646
+  },
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["period"]= 6000,
+  ["Route"]= "1020/panpa",
+  ["shinPoint"]= {
+    -88.01338,
+    13.06871,
+    96.92203
+  },
+  ["sitSound"]= 0,
+  ["startAreaId"]= 1020207,
+  ["startPoint"]= {
+    -88.01338,
+    13.06871,
+    96.92203
+  },
+  ["triggerType"]= 0,
+  ["type"]= 1
+},
+[2] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "ClimbDownStand"
+    },
+    {
+      ["actionName"]= "ClimbDownLoop"
+    },
+    {
+      ["actionName"]= "ClimbDown"
+    }
+  },
+  ["astrictMoveMode"]= 0,
+  ["behaviorId"]= 7,
+  ["buttonText"]= "CollectionButton65",
+  ["Capacity"]= 1,
+  ["customDisId"]= 1,
+  ["endArea"]= 1020207,
+  ["endPoint"]= {
+    -88.01338,
+    13.05594,
+    96.92203
+  },
+  ["exitActiveArea"]= 1020227,
+  ["Id"]= 2,
+  ["isResetCoordinate"]= 1,
+  ["loadType"]= 0,
+  ["name"]= "南门-攀爬下",
+  ["orientation"]= {
+    0.993372738,
+    -0.114937186
+  },
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["period"]= 6000,
+  ["reverse"]= 1,
+  ["Route"]= "1020/panpa",
+  ["shinPoint"]= {
+    -92.7501,
+    21.06651,
+    95.35448
+  },
+  ["sitSound"]= 0,
+  ["startAreaId"]= 1020208,
+  ["startPoint"]= {
+    -94.22053,
+    21.20001,
+    96.25127
+  },
+  ["triggerType"]= 0,
+  ["type"]= 1
+},
+[3] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "Sit_train_M"
+    },
+    {
+      ["actionName"]= "Sit_train_W"
+    }
+  },
+  ["areaId"]= {
+    10206701,
+    10206702,
+    10206703,
+    10206704
+  },
+  ["bgmCarryOn"]= "SceneEvent_DingDingTrain",
+  ["buttonText"]= "ui_Main_030",
+  ["Capacity"]= 8,
+  ["customDisId"]= 2,
+  ["Id"]= 3,
+  ["idleClip"]= "huoche",
+  ["loadRes"]= "Roles/Carrier/huoche",
+  ["loadType"]= 2,
+  ["name"]= "小火车",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["randomMusic"]= "Audio/Effect/Misc/SceneEvent_DingDingTrain",
+  ["Rate"]= {
+    0,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45,
+    50,
+    55,
+    60,
+    65,
+    70,
+    75,
+    80,
+    85,
+    90,
+    95,
+    100
+  },
+  ["rideMusic"]= "Audio/Effect/Misc/SceneEvent_DingDingTrain",
+  ["rotateY"]= 5.044,
+  ["sitSound"]= 0,
+  ["timelineRate"]= {
+    0,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9,
+    0.95,
+    1
+  },
+  ["type"]= 2,
+  ["x"]= 88.6,
+  ["y"]= 13.56,
+  ["z"]= 147.7
+},
+[4] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "Sit_train_M"
+    },
+    {
+      ["actionName"]= "Sit_train_W"
+    }
+  },
+  ["areaId"]= {
+    70036001,
+    70036002,
+    70036003,
+    70036004
+  },
+  ["buttonText"]= "ui_Main_030",
+  ["canGetOff"]= 0,
+  ["Capacity"]= 8,
+  ["customDisId"]= 2,
+  ["Id"]= 4,
+  ["idleClip"]= "huoche_mission",
+  ["isStartedNotMoving"]= 1,
+  ["loadRes"]= "Roles/Carrier/huoche",
+  ["loadType"]= 2,
+  ["name"]= "新手-小火车",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {
+    70032004,
+    70032005,
+    70032006,
+    70032007,
+    70032008
+  },
+  ["passengerSeat"]= {
+    1,
+    3,
+    4,
+    6,
+    7
+  },
+  ["randomMusic"]= "Audio/Effect/Misc/SceneEvent_DingDingTrain",
+  ["Rate"]= {
+    0,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45,
+    50,
+    55,
+    60,
+    65,
+    70,
+    75,
+    80,
+    85,
+    90,
+    95,
+    100
+  },
+  ["rideMusic"]= "Audio/Effect/Misc/SceneEvent_DingDingTrain",
+  ["sitSound"]= 0,
+  ["timelineRate"]= {
+    0,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9,
+    0.95,
+    1
+  },
+  ["type"]= 2,
+  ["x"]= 98.07,
+  ["y"]= 13.44,
+  ["z"]= 131.23
+},
+[5] = {
+  ["areaId"]= {
+    10206711
+  },
+  ["Capacity"]= 6,
+  ["customDisId"]= 8,
+  ["Id"]= 5,
+  ["loadPath"]= "nm_newbench101 (3)",
+  ["name"]= "南门椅子",
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["type"]= 8
+},
+[6] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "SitOn_Loop_M"
+    },
+    {
+      ["actionName"]= "SitOn_Loop_W"
+    },
+    {
+      ["actionName"]= "qiuqian_idle"
+    },
+    {
+      ["actionName"]= "qiuqian_20"
+    },
+    {
+      ["actionName"]= "qiuqian_40"
+    },
+    {
+      ["actionName"]= "qiuqian_60"
+    },
+    {
+      ["actionName"]= "qiuqian_Fall"
+    }
+  },
+  ["areaId"]= {
+    10206799
+  },
+  ["CarrierButtonSound"]= 1,
+  ["customDisId"]= 4,
+  ["fallCurve"]= "UI/Curve/TestConstantData1",
+  ["focusingCarrier"]= 1,
+  ["Id"]= 6,
+  ["loadPath"]= "qiuqian",
+  ["name"]= "南门秋千",
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["type"]= 4
+},
+[7] = {
+  ["actionList"]= {},
+  ["areaId"]= {
+    1510301
+  },
+  ["buttonText"]= "",
+  ["Capacity"]= 0,
+  ["customDisId"]= 5,
+  ["functionName"]= "UI_EjectBook",
+  ["functionParam"]= {
+    1,
+    5,
+    2,
+    3,
+    6,
+    4
+  },
+  ["Id"]= 7,
+  ["loadType"]= 2,
+  ["name"]= "拿书区域",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["sitSound"]= 0,
+  ["timelineID"]= 70008,
+  ["triggerType"]= 1,
+  ["type"]= 5,
+  ["x"]= -45.56,
+  ["y"]= 5.28959,
+  ["z"]= 23.26
+},
+[8] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "Idle"
+    },
+    {
+      ["actionName"]= "Idle1start"
+    },
+    {
+      ["actionName"]= "Idle2Loop"
+    }
+  },
+  ["areaId"]= {
+    1530301
+  },
+  ["buttonText"]= "",
+  ["Capacity"]= 0,
+  ["customDisId"]= 6,
+  ["Id"]= 8,
+  ["loadPath"]= "Jukebox",
+  ["musicID"]= 11,
+  ["name"]= "点唱机",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["sitSound"]= 0,
+  ["triggerType"]= 1,
+  ["type"]= 6,
+  ["volume"]= 0.6
+},
+[9] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "ClimbUpStand"
+    },
+    {
+      ["actionName"]= "ClimbUpLoop"
+    },
+    {
+      ["actionName"]= "ClimbUp"
+    }
+  },
+  ["astrictMoveMode"]= 0,
+  ["behaviorId"]= 6,
+  ["buttonText"]= "CollectionButton65",
+  ["Capacity"]= 1,
+  ["customDisId"]= 1,
+  ["endArea"]= 1010234,
+  ["endPoint"]= {
+    -19.9,
+    5.195667,
+    -59.21
+  },
+  ["Id"]= 9,
+  ["loadType"]= 0,
+  ["name"]= "普隆德拉城墙-攀爬上",
+  ["orientation"]= {
+    0.9862856,
+    -0.165047646
+  },
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["period"]= 6000,
+  ["Route"]= "1020/panpa_pldl",
+  ["shinPoint"]= {
+    -20,
+    0.01361084,
+    -56.5
+  },
+  ["sitSound"]= 0,
+  ["startAreaId"]= 1010233,
+  ["startPoint"]= {
+    -20,
+    0.01361084,
+    -56.5
+  },
+  ["triggerType"]= 0,
+  ["type"]= 1
+},
+[10] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "ClimbDownStand"
+    },
+    {
+      ["actionName"]= "ClimbDownLoop"
+    },
+    {
+      ["actionName"]= "ClimbDown"
+    }
+  },
+  ["astrictMoveMode"]= 0,
+  ["behaviorId"]= 7,
+  ["buttonText"]= "CollectionButton65",
+  ["Capacity"]= 1,
+  ["customDisId"]= 1,
+  ["endArea"]= 1010233,
+  ["endPoint"]= {
+    -20,
+    0.01361084,
+    -56.5
+  },
+  ["Id"]= 10,
+  ["loadType"]= 0,
+  ["name"]= "普隆德拉城墙-攀爬下",
+  ["orientation"]= {
+    0.993372738,
+    -0.114937186
+  },
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["period"]= 6000,
+  ["reverse"]= 9,
+  ["Route"]= "1020/panpa_pldl",
+  ["shinPoint"]= {
+    -19.9,
+    5.195667,
+    -59.21
+  },
+  ["sitSound"]= 0,
+  ["startAreaId"]= 1010234,
+  ["startPoint"]= {
+    -19.9,
+    5.195667,
+    -59.21
+  },
+  ["triggerType"]= 0,
+  ["type"]= 1
+},
+[11] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "Sit_hours"
+    },
+    {
+      ["actionName"]= "Sit_Car_W"
+    },
+    {
+      ["actionName"]= "Sit_Car_M"
+    }
+  },
+  ["animationTime"]= 25.113,
+  ["AnnouncementId"]= 101,
+  ["areaId"]= {
+    1010201
+  },
+  ["bgmCarryOn"]= "BGM_Horse",
+  ["bonusHeadCntInterval"]= 100,
+  ["bonusHeadCntSpecialNum"]= {
+    9999999
+  },
+  ["buttonText"]= "ui_Main_030",
+  ["Capacity"]= 12,
+  ["customDisId"]= 7,
+  ["doubleFallDeviation"]= 6,
+  ["doubles"]= {
+    9,
+    10,
+    11,
+    12
+  },
+  ["doubleTicket"]= 10204015,
+  ["Id"]= 11,
+  ["idleClip"]= "muma_boliwang",
+  ["loadPath"]= "MumaArea_1010201",
+  ["name"]= "木马",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["playMinutes"]= 3,
+  ["playRewardBuff"]= 1998,
+  ["playRewardBuffDuration"]= 3600,
+  ["Rate"]= {
+    0,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45,
+    50,
+    55,
+    60,
+    65,
+    70,
+    75,
+    80,
+    85,
+    90,
+    95,
+    100
+  },
+  ["singleFallDeviation"]= 10,
+  ["singles"]= {
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  },
+  ["singleTicket"]= 10204014,
+  ["sitSound"]= 0,
+  ["timelineRate"]= {
+    0,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9,
+    0.95,
+    1
+  },
+  ["triggerRadius"]= 40,
+  ["type"]= 7,
+  ["x"]= 111.2,
+  ["y"]= 13.52,
+  ["z"]= 154.5
+},
+[12] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "Sit_hours"
+    },
+    {
+      ["actionName"]= "Sit_Car_W"
+    },
+    {
+      ["actionName"]= "Sit_Car_M"
+    }
+  },
+  ["animationTime"]= 60,
+  ["AnnouncementId"]= 101,
+  ["areaId"]= {
+    1020220
+  },
+  ["bgmCarryOn"]= "BGM_Octopus",
+  ["bonusHeadCntInterval"]= 100,
+  ["bonusHeadCntSpecialNum"]= {
+    9999999
+  },
+  ["buttonText"]= "ui_Main_030",
+  ["Capacity"]= 10,
+  ["customDisId"]= 7,
+  ["doubleFallDeviation"]= 9,
+  ["doubles"]= {
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["doubleTicket"]= 10204015,
+  ["Id"]= 12,
+  ["idleClip"]= "nm_jellyfish_ani",
+  ["isIgnoreRule"]= 1,
+  ["loadPath"]= "nm_jellyfish_ani",
+  ["name"]= "八抓鱼",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["playMinutes"]= 3,
+  ["playRewardBuff"]= 1998,
+  ["playRewardBuffDuration"]= 3600,
+  ["Rate"]= {
+    0,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45,
+    50,
+    55,
+    60,
+    65,
+    70,
+    75,
+    80,
+    85,
+    90,
+    95,
+    100
+  },
+  ["singleFallDeviation"]= 9,
+  ["singleTicket"]= 10204014,
+  ["sitSound"]= 0,
+  ["timelineRate"]= {
+    0,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9,
+    0.95,
+    1
+  },
+  ["triggerRadius"]= 40,
+  ["type"]= 7,
+  ["x"]= 61.69,
+  ["y"]= 13.49883,
+  ["z"]= 136.45
+},
+[13] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "Bear_Pig"
+    },
+    {
+      ["actionName"]= "Bear_Pig"
+    }
+  },
+  ["areaId"]= {
+    1020221
+  },
+  ["buttonText"]= "ui_Main_055",
+  ["Capacity"]= 1,
+  ["customDisId"]= 9,
+  ["Id"]= 13,
+  ["isShowShadow"]= 0,
+  ["loadPath"]= "nm_bear101",
+  ["name"]= "摇椅-熊",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["triggerRadius"]= 40,
+  ["type"]= 9
+},
+[14] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "qiaoqiaoban_Idle"
+    },
+    {
+      ["actionName"]= "qiaoqiaoban_Idle"
+    }
+  },
+  ["animationTime"]= 900,
+  ["areaId"]= {
+    1020222,
+    1020223
+  },
+  ["CarrierButtonSound"]= 1,
+  ["customDisId"]= 8,
+  ["Id"]= 14,
+  ["isAreaInSeat"]= 1,
+  ["loadPath"]= "nm_alpaca101",
+  ["name"]= "跷跷板",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["sitSound"]= 0,
+  ["triggerRadius"]= 40,
+  ["type"]= 8
+},
+[15] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "SitOn_Loop_M"
+    },
+    {
+      ["actionName"]= "SitOn_Loop_W"
+    }
+  },
+  ["areaId"]= {
+    1020224
+  },
+  ["CarrierButtonSound"]= 1,
+  ["customDisId"]= 9,
+  ["focusingCarrier"]= 1,
+  ["Id"]= 15,
+  ["loadPath"]= "nm_swing201",
+  ["name"]= "普通秋千",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["triggerRadius"]= 40,
+  ["type"]= 9
+},
+[16] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "Hourse"
+    },
+    {
+      ["actionName"]= "Hourse"
+    }
+  },
+  ["areaId"]= {
+    1020225
+  },
+  ["buttonText"]= "ui_Main_055",
+  ["Capacity"]= 1,
+  ["customDisId"]= 9,
+  ["Id"]= 16,
+  ["isShowShadow"]= 0,
+  ["loadPath"]= "nm_horse101",
+  ["name"]= "摇椅-马",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["triggerRadius"]= 40,
+  ["type"]= 9
+},
+[17] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "Bear_Pig"
+    },
+    {
+      ["actionName"]= "Bear_Pig"
+    }
+  },
+  ["areaId"]= {
+    1020226
+  },
+  ["buttonText"]= "ui_Main_055",
+  ["Capacity"]= 1,
+  ["customDisId"]= 9,
+  ["Id"]= 17,
+  ["isShowShadow"]= 0,
+  ["loadPath"]= "nm_pig101",
+  ["name"]= "摇椅-猪",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["triggerRadius"]= 40,
+  ["type"]= 9
+},
+[18] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "Idle_Mount160077_M"
+    },
+    {
+      ["actionName"]= "Idle_Mount160077_W"
+    }
+  },
+  ["areaId"]= {
+    1010235,
+    1010236,
+    1010237,
+    1010238,
+    1010239,
+    1010240,
+    1010241,
+    1010242,
+    1010243,
+    1010244
+  },
+  ["buttonText"]= "ui_Main_030",
+  ["Capacity"]= 20,
+  ["customDisId"]= 13,
+  ["Id"]= 18,
+  ["idleClip"]= "Idle_wedding",
+  ["isShowShadow"]= 0,
+  ["isStartedNotMoving"]= 1,
+  ["loadRes"]= "Roles/Carrier/huochepldl",
+  ["loadType"]= 2,
+  ["name"]= "婚车-3列",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["randomMusic"]= "Audio/Effect/Misc/SceneEvent_DingDingTrain",
+  ["Rate"]= {
+    0,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45,
+    50,
+    55,
+    60,
+    65,
+    70,
+    75,
+    80,
+    85,
+    90,
+    95,
+    100
+  },
+  ["rideMusic"]= "Audio/Effect/Misc/SceneEvent_DingDingTrain",
+  ["sitSound"]= 0,
+  ["timelineRate"]= {
+    0,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9,
+    0.95,
+    1
+  },
+  ["type"]= 13,
+  ["z"]= 22.2
+},
+[19] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "Idle_Mount160077_M"
+    },
+    {
+      ["actionName"]= "Idle_Mount160077_W"
+    }
+  },
+  ["areaId"]= {
+    1010235,
+    1010236,
+    1010237,
+    1010238,
+    1010239,
+    1010240,
+    1010241,
+    1010242,
+    1010243,
+    1010244
+  },
+  ["buttonText"]= "ui_Main_030",
+  ["Capacity"]= 20,
+  ["customDisId"]= 13,
+  ["Id"]= 19,
+  ["idleClip"]= "Idle_wedding",
+  ["isShowShadow"]= 0,
+  ["isStartedNotMoving"]= 1,
+  ["loadRes"]= "Roles/Carrier/huochepldl",
+  ["loadType"]= 2,
+  ["name"]= "婚车-5列",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["randomMusic"]= "Audio/Effect/Misc/SceneEvent_DingDingTrain",
+  ["Rate"]= {
+    0,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45,
+    50,
+    55,
+    60,
+    65,
+    70,
+    75,
+    80,
+    85,
+    90,
+    95,
+    100
+  },
+  ["rideMusic"]= "Audio/Effect/Misc/SceneEvent_DingDingTrain",
+  ["sitSound"]= 0,
+  ["timelineRate"]= {
+    0,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9,
+    0.95,
+    1
+  },
+  ["type"]= 13,
+  ["z"]= 22.2
+},
+[20] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "Idle_Mount160077_M"
+    },
+    {
+      ["actionName"]= "Idle_Mount160077_W"
+    }
+  },
+  ["areaId"]= {
+    1010235,
+    1010236,
+    1010237,
+    1010238,
+    1010239,
+    1010240,
+    1010241,
+    1010242,
+    1010243,
+    1010244
+  },
+  ["buttonText"]= "ui_Main_030",
+  ["Capacity"]= 20,
+  ["customDisId"]= 13,
+  ["Id"]= 20,
+  ["idleClip"]= "Idle_wedding",
+  ["isShowShadow"]= 0,
+  ["isStartedNotMoving"]= 1,
+  ["loadRes"]= "Roles/Carrier/huochepldl",
+  ["loadType"]= 2,
+  ["name"]= "婚车-10列",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["randomMusic"]= "Audio/Effect/Misc/SceneEvent_DingDingTrain",
+  ["Rate"]= {
+    0,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45,
+    50,
+    55,
+    60,
+    65,
+    70,
+    75,
+    80,
+    85,
+    90,
+    95,
+    100
+  },
+  ["rideMusic"]= "Audio/Effect/Misc/SceneEvent_DingDingTrain",
+  ["sitSound"]= 0,
+  ["timelineRate"]= {
+    0,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9,
+    0.95,
+    1
+  },
+  ["type"]= 13,
+  ["z"]= 22.2
+},
+[101] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "ClimbUpStand"
+    },
+    {
+      ["actionName"]= "ClimbUpLoop"
+    },
+    {
+      ["actionName"]= "ClimbUp"
+    }
+  },
+  ["astrictMoveMode"]= 0,
+  ["behaviorId"]= 6,
+  ["buttonText"]= "CollectionButton65",
+  ["Capacity"]= 1,
+  ["customDisId"]= 1,
+  ["endArea"]= 1020219,
+  ["endPoint"]= {
+    125.9674,
+    22.44187,
+    50.96149
+  },
+  ["Id"]= 101,
+  ["loadType"]= 0,
+  ["name"]= "南门悬崖2-攀爬上",
+  ["orientation"]= {
+    0.9862856,
+    -0.165047646
+  },
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["period"]= 6000,
+  ["Route"]= "1020/panpa_nm2",
+  ["shinPoint"]= {
+    131.0636,
+    13.2913,
+    50.82433
+  },
+  ["sitSound"]= 0,
+  ["startAreaId"]= 1020218,
+  ["startPoint"]= {
+    131.0636,
+    13.2913,
+    50.82433
+  },
+  ["triggerType"]= 0,
+  ["type"]= 1
+},
+[102] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "ClimbDownStand"
+    },
+    {
+      ["actionName"]= "ClimbDownLoop"
+    },
+    {
+      ["actionName"]= "ClimbDown"
+    }
+  },
+  ["astrictMoveMode"]= 0,
+  ["behaviorId"]= 7,
+  ["buttonText"]= "CollectionButton65",
+  ["Capacity"]= 1,
+  ["customDisId"]= 1,
+  ["endArea"]= 1020218,
+  ["endPoint"]= {
+    131.0636,
+    13.2913,
+    50.82433
+  },
+  ["Id"]= 102,
+  ["loadType"]= 0,
+  ["name"]= "南门悬崖2-攀爬下",
+  ["orientation"]= {
+    0.993372738,
+    -0.114937186
+  },
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["period"]= 6000,
+  ["reverse"]= 101,
+  ["Route"]= "1020/panpa_nm2",
+  ["shinPoint"]= {
+    125.9674,
+    22.44187,
+    50.96149
+  },
+  ["sitSound"]= 0,
+  ["startAreaId"]= 1020219,
+  ["startPoint"]= {
+    125.9674,
+    22.44187,
+    50.96149
+  },
+  ["triggerType"]= 0,
+  ["type"]= 1
+},
+[103] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "ClimbUpStand"
+    },
+    {
+      ["actionName"]= "ClimbUpLoop"
+    },
+    {
+      ["actionName"]= "ClimbUp"
+    }
+  },
+  ["astrictMoveMode"]= 0,
+  ["behaviorId"]= 6,
+  ["buttonText"]= "CollectionButton65",
+  ["Capacity"]= 1,
+  ["customDisId"]= 1,
+  ["endArea"]= 1420302,
+  ["endPoint"]= {
+    256.6947,
+    9.96,
+    178.6124
+  },
+  ["Id"]= 103,
+  ["loadType"]= 0,
+  ["name"]= "斐杨东-攀爬上",
+  ["orientation"]= {
+    0.9862856,
+    -0.165047646
+  },
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["period"]= 6017,
+  ["reverse"]= 104,
+  ["Route"]= "1020/panpa_fyd",
+  ["shinPoint"]= {
+    263.27,
+    1.986233,
+    180.4
+  },
+  ["sitSound"]= 0,
+  ["startAreaId"]= 1420301,
+  ["startPoint"]= {
+    263.27,
+    1.986233,
+    180.4
+  },
+  ["triggerType"]= 0,
+  ["type"]= 1
+},
+[104] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "ClimbDownStand"
+    },
+    {
+      ["actionName"]= "ClimbDownLoop"
+    },
+    {
+      ["actionName"]= "ClimbDown"
+    }
+  },
+  ["astrictMoveMode"]= 0,
+  ["behaviorId"]= 7,
+  ["buttonText"]= "CollectionButton65",
+  ["Capacity"]= 1,
+  ["customDisId"]= 1,
+  ["endArea"]= 1420301,
+  ["endPoint"]= {
+    263.27,
+    1.986233,
+    180.4
+  },
+  ["Id"]= 104,
+  ["loadType"]= 0,
+  ["name"]= "斐杨东-攀爬下",
+  ["orientation"]= {
+    0.993372738,
+    -0.114937186
+  },
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["period"]= 6017,
+  ["Route"]= "1020/panpa_fyd",
+  ["shinPoint"]= {
+    256.6947,
+    9.96,
+    178.6124
+  },
+  ["sitSound"]= 0,
+  ["startAreaId"]= 1420302,
+  ["startPoint"]= {
+    256.6947,
+    9.96,
+    178.6124
+  },
+  ["triggerType"]= 0,
+  ["type"]= 1
+},
+[105] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "ClimbUpStand"
+    },
+    {
+      ["actionName"]= "ClimbUpLoop"
+    },
+    {
+      ["actionName"]= "ClimbUp"
+    }
+  },
+  ["astrictMoveMode"]= 0,
+  ["behaviorId"]= 6,
+  ["buttonText"]= "CollectionButton65",
+  ["Capacity"]= 1,
+  ["customDisId"]= 1,
+  ["endArea"]= 2040310,
+  ["endPoint"]= {
+    14.78,
+    73.33,
+    66.59
+  },
+  ["Id"]= 105,
+  ["isResetCoordinate"]= 1,
+  ["loadType"]= 0,
+  ["name"]= "俄赛里斯-攀爬上",
+  ["orientation"]= {
+    -0.99999994,
+    5.96046448E-08
+  },
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["period"]= 8000,
+  ["Route"]= "1020/panpa_osiris",
+  ["shinPoint"]= {
+    17.74517,
+    60.25,
+    66.18722
+  },
+  ["sitSound"]= 0,
+  ["startAreaId"]= 2040309,
+  ["startPoint"]= {
+    18.35914,
+    60.25,
+    66.45
+  },
+  ["triggerType"]= 0,
+  ["type"]= 1
+},
+[106] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "ClimbUpStand"
+    },
+    {
+      ["actionName"]= "ClimbUpLoop"
+    },
+    {
+      ["actionName"]= "ClimbUp"
+    }
+  },
+  ["astrictMoveMode"]= 0,
+  ["behaviorId"]= 6,
+  ["buttonText"]= "CollectionButton65",
+  ["Capacity"]= 1,
+  ["customDisId"]= 1,
+  ["endArea"]= 2041310,
+  ["endPoint"]= {
+    14.78,
+    73.33,
+    66.59
+  },
+  ["Id"]= 106,
+  ["isResetCoordinate"]= 1,
+  ["loadType"]= 0,
+  ["name"]= "俄赛里斯（困难）-攀爬上",
+  ["orientation"]= {
+    -0.99999994,
+    5.96046448E-08
+  },
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["period"]= 8000,
+  ["Route"]= "1020/panpa_osiris",
+  ["shinPoint"]= {
+    17.74517,
+    60.25,
+    66.18722
+  },
+  ["sitSound"]= 0,
+  ["startAreaId"]= 2041309,
+  ["startPoint"]= {
+    18.35914,
+    60.25,
+    66.45
+  },
+  ["triggerType"]= 0,
+  ["type"]= 1
+},
+[107] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "ClimbUpStand"
+    },
+    {
+      ["actionName"]= "ClimbUpLoop"
+    },
+    {
+      ["actionName"]= "ClimbUp"
+    }
+  },
+  ["astrictMoveMode"]= 0,
+  ["behaviorId"]= 6,
+  ["buttonText"]= "CollectionButton65",
+  ["Capacity"]= 1,
+  ["customDisId"]= 1,
+  ["endArea"]= 8013202,
+  ["endPoint"]= {
+    125.9674,
+    22.44187,
+    50.96149
+  },
+  ["Id"]= 107,
+  ["loadType"]= 0,
+  ["name"]= "分组南门悬崖2-攀爬上",
+  ["orientation"]= {
+    0.9862856,
+    -0.165047646
+  },
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["period"]= 6000,
+  ["Route"]= "1020/panpa_nm2",
+  ["shinPoint"]= {
+    131.0636,
+    13.2913,
+    50.82433
+  },
+  ["sitSound"]= 0,
+  ["startAreaId"]= 8013201,
+  ["startPoint"]= {
+    131.0636,
+    13.2913,
+    50.82433
+  },
+  ["triggerType"]= 0,
+  ["type"]= 1
+},
+[108] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "ClimbDownStand"
+    },
+    {
+      ["actionName"]= "ClimbDownLoop"
+    },
+    {
+      ["actionName"]= "ClimbDown"
+    }
+  },
+  ["astrictMoveMode"]= 0,
+  ["behaviorId"]= 7,
+  ["buttonText"]= "CollectionButton65",
+  ["Capacity"]= 1,
+  ["customDisId"]= 1,
+  ["endArea"]= 8013201,
+  ["endPoint"]= {
+    131.0636,
+    13.2913,
+    50.82433
+  },
+  ["Id"]= 108,
+  ["loadType"]= 0,
+  ["name"]= "分组南门悬崖2-攀爬下",
+  ["orientation"]= {
+    0.993372738,
+    -0.114937186
+  },
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["period"]= 6000,
+  ["reverse"]= 107,
+  ["Route"]= "1020/panpa_nm2",
+  ["shinPoint"]= {
+    125.9674,
+    22.44187,
+    50.96149
+  },
+  ["sitSound"]= 0,
+  ["startAreaId"]= 8013202,
+  ["startPoint"]= {
+    125.9674,
+    22.44187,
+    50.96149
+  },
+  ["triggerType"]= 0,
+  ["type"]= 1
+},
+[109] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "ClimbUpStand"
+    },
+    {
+      ["actionName"]= "ClimbUpLoop"
+    },
+    {
+      ["actionName"]= "ClimbUp"
+    }
+  },
+  ["astrictMoveMode"]= 0,
+  ["behaviorId"]= 6,
+  ["buttonText"]= "CollectionButton65",
+  ["Capacity"]= 1,
+  ["customDisId"]= 1,
+  ["endArea"]= 2042310,
+  ["endPoint"]= {
+    14.78,
+    73.33,
+    66.59
+  },
+  ["Id"]= 109,
+  ["isResetCoordinate"]= 1,
+  ["loadType"]= 0,
+  ["name"]= "俄赛里斯（炼狱）-攀爬上",
+  ["orientation"]= {
+    -0.99999994,
+    5.96046448E-08
+  },
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["period"]= 8000,
+  ["Route"]= "1020/panpa_osiris",
+  ["shinPoint"]= {
+    17.74517,
+    60.25,
+    66.18722
+  },
+  ["sitSound"]= 0,
+  ["startAreaId"]= 2042309,
+  ["startPoint"]= {
+    18.35914,
+    60.25,
+    66.45
+  },
+  ["triggerType"]= 0,
+  ["type"]= 1
+},
+[200] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "Sit_train_M"
+    },
+    {
+      ["actionName"]= "Sit_train_W"
+    }
+  },
+  ["bgmCarryOn"]= "SceneEvent_DingDingTrain",
+  ["buttonText"]= "",
+  ["customDisId"]= 15,
+  ["Id"]= 200,
+  ["loadType"]= 3,
+  ["name"]= "双人坐骑-测试",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["sitSound"]= 0,
+  ["type"]= 12
+},
+[201] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "Sit_train_M"
+    },
+    {
+      ["actionName"]= "Sit_train_W"
+    }
+  },
+  ["bgmCarryOn"]= "SceneEvent_DingDingTrain",
+  ["buttonText"]= "",
+  ["customDisId"]= 16,
+  ["Id"]= 201,
+  ["loadType"]= 3,
+  ["name"]= "双人动作-测试",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["sitSound"]= 0,
+  ["type"]= 14
+},
+[1001] = {
+  ["actionList"]= {},
+  ["areaId"]= {
+    1170301
+  },
+  ["buttonText"]= "CollectionButton56",
+  ["Capacity"]= 0,
+  ["customDisId"]= 5,
+  ["functionName"]= "UI_EjectBook",
+  ["functionParam"]= {
+    100101,
+    100102,
+    100103,
+    100104,
+    100105
+  },
+  ["Id"]= 1001,
+  ["loadType"]= 2,
+  ["name"]= "拿书-新手-大陆史",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["sitSound"]= 0,
+  ["timelineID"]= 70008,
+  ["triggerType"]= 1,
+  ["type"]= 5,
+  ["x"]= 62.42,
+  ["y"]= 0.95959,
+  ["z"]= 7.06
+},
+[1002] = {
+  ["actionList"]= {},
+  ["areaId"]= {
+    7004301
+  },
+  ["buttonText"]= "CollectionButton15",
+  ["Capacity"]= 0,
+  ["customDisId"]= 5,
+  ["functionName"]= "UI_EjectLetter",
+  ["functionParam"]= {
+    100201,
+    100202
+  },
+  ["Id"]= 1002,
+  ["loadType"]= 2,
+  ["name"]= "信件-篇章1-第二个装置",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["sitSound"]= 0,
+  ["timelineID"]= 70011,
+  ["triggerType"]= 1,
+  ["type"]= 5,
+  ["x"]= 131.12,
+  ["y"]= 12.54767,
+  ["z"]= -13.82
+},
+[1003] = {
+  ["actionList"]= {},
+  ["areaId"]= {
+    1510303
+  },
+  ["buttonText"]= "CollectionButton56",
+  ["Capacity"]= 0,
+  ["customDisId"]= 5,
+  ["functionName"]= "UI_EjectBook",
+  ["functionParam"]= {
+    100301,
+    100302,
+    100303
+  },
+  ["Id"]= 1003,
+  ["loadType"]= 2,
+  ["name"]= "拿书-篇章1-伊米尔之心",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["sitSound"]= 0,
+  ["timelineID"]= 70008,
+  ["triggerType"]= 1,
+  ["type"]= 5,
+  ["x"]= -42.76,
+  ["y"]= 0.95959,
+  ["z"]= -6.07
+},
+[1004] = {
+  ["actionList"]= {},
+  ["areaId"]= {
+    1510302
+  },
+  ["buttonText"]= "CollectionButton56",
+  ["Capacity"]= 0,
+  ["customDisId"]= 5,
+  ["functionName"]= "UI_EjectBook",
+  ["functionParam"]= {
+    100401,
+    100402,
+    100403
+  },
+  ["Id"]= 1004,
+  ["loadType"]= 2,
+  ["name"]= "拿书-篇章1-黄金虫",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["sitSound"]= 0,
+  ["timelineID"]= 70008,
+  ["triggerType"]= 1,
+  ["type"]= 5,
+  ["x"]= -51.31,
+  ["y"]= 5.289,
+  ["z"]= 22.73
+},
+[1005] = {
+  ["actionList"]= {},
+  ["areaId"]= {
+    1040301
+  },
+  ["buttonText"]= "",
+  ["Capacity"]= 0,
+  ["customDisId"]= 5,
+  ["functionName"]= "UI_EjectLetter",
+  ["functionParam"]= {
+    100501,
+    100502
+  },
+  ["Id"]= 1005,
+  ["loadType"]= 2,
+  ["name"]= "信件-篇章2-魔女信件",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["sitSound"]= 0,
+  ["timelineID"]= 70011,
+  ["triggerType"]= 1,
+  ["type"]= 5,
+  ["visibleTaskId"]= {
+    100003119
+  },
+  ["x"]= 28.731,
+  ["y"]= 76.21213,
+  ["z"]= 222.8966
+},
+[1006] = {
+  ["actionList"]= {},
+  ["areaId"]= {
+    1560301
+  },
+  ["buttonText"]= "CollectionButton56",
+  ["Capacity"]= 0,
+  ["customDisId"]= 5,
+  ["functionName"]= "UI_EjectBook",
+  ["functionParam"]= {
+    100601,
+    100602,
+    100603,
+    100604
+  },
+  ["Id"]= 1006,
+  ["loadType"]= 2,
+  ["name"]= "拿书-篇章6-吉芬塔书架",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["sitSound"]= 0,
+  ["timelineID"]= 70008,
+  ["triggerType"]= 1,
+  ["type"]= 5,
+  ["x"]= 86.47,
+  ["y"]= 1E-05,
+  ["z"]= 8.22201
+},
+[1007] = {
+  ["actionList"]= {},
+  ["areaId"]= {
+    1640301
+  },
+  ["buttonText"]= "CollectionButton56",
+  ["Capacity"]= 0,
+  ["customDisId"]= 5,
+  ["functionName"]= "UI_EjectBook",
+  ["functionParam"]= {
+    100701,
+    100702
+  },
+  ["Id"]= 1007,
+  ["loadType"]= 2,
+  ["name"]= "书籍-篇章7-古城骑士团",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["sitSound"]= 0,
+  ["timelineID"]= 70008,
+  ["triggerType"]= 1,
+  ["type"]= 5,
+  ["x"]= 147,
+  ["y"]= 43,
+  ["z"]= 242.5
+},
+[2001] = {
+  ["actionList"]= {},
+  ["areaId"]= {
+    80006101
+  },
+  ["buttonText"]= "CollectionButton15",
+  ["Capacity"]= 0,
+  ["customDisId"]= 5,
+  ["functionName"]= "UI_EjectBook",
+  ["functionParam"]= {
+    200101,
+    200102,
+    200103,
+    200104
+  },
+  ["Id"]= 2001,
+  ["loadType"]= 2,
+  ["name"]= "支线-序章-帕尼的日记",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["sitSound"]= 0,
+  ["timelineID"]= 70011,
+  ["triggerType"]= 1,
+  ["type"]= 5,
+  ["x"]= 92.43,
+  ["y"]= 0.01363,
+  ["z"]= 94.23
+},
+[2002] = {
+  ["actionList"]= {},
+  ["areaId"]= {
+    15106101
+  },
+  ["buttonText"]= "CollectionButton56",
+  ["Capacity"]= 0,
+  ["customDisId"]= 5,
+  ["functionName"]= "UI_EjectBook",
+  ["functionParam"]= {
+    200201,
+    200202,
+    200203
+  },
+  ["Id"]= 2002,
+  ["loadType"]= 2,
+  ["name"]= "支线-序章-普隆德拉的书架",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["sitSound"]= 0,
+  ["timelineID"]= 70008,
+  ["triggerType"]= 1,
+  ["type"]= 5,
+  ["x"]= -49.56435,
+  ["y"]= 0.96,
+  ["z"]= -15.4
+},
+[2003] = {
+  ["actionList"]= {},
+  ["areaId"]= {
+    80056102
+  },
+  ["buttonText"]= "CollectionButton15",
+  ["Capacity"]= 0,
+  ["customDisId"]= 5,
+  ["functionName"]= "UI_EjectLetter",
+  ["functionParam"]= {
+    200301,
+    200302
+  },
+  ["Id"]= 2003,
+  ["loadType"]= 2,
+  ["name"]= "重度支线02-第二封绑架信",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["sitSound"]= 0,
+  ["timelineID"]= 70011,
+  ["triggerType"]= 1,
+  ["type"]= 5,
+  ["x"]= -40.62,
+  ["y"]= 1.0709,
+  ["z"]= 1.1
+},
+[2004] = {
+  ["actionList"]= {},
+  ["areaId"]= {
+    80066104
+  },
+  ["buttonText"]= "CollectionButton15",
+  ["Capacity"]= 0,
+  ["customDisId"]= 5,
+  ["functionName"]= "UI_EjectLetter",
+  ["functionParam"]= {
+    200401,
+    200402
+  },
+  ["Id"]= 2004,
+  ["loadType"]= 2,
+  ["name"]= "重度支线02-交付赎金-信",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["sitSound"]= 0,
+  ["timelineID"]= 70011,
+  ["triggerType"]= 1,
+  ["type"]= 5,
+  ["x"]= 168,
+  ["y"]= 20.92174,
+  ["z"]= 79.39
+},
+[2005] = {
+  ["actionList"]= {},
+  ["areaId"]= {
+    80326101
+  },
+  ["buttonText"]= "CollectionButton15",
+  ["Capacity"]= 0,
+  ["customDisId"]= 5,
+  ["functionName"]= "UI_EjectBook",
+  ["functionParam"]= {
+    200501,
+    200502
+  },
+  ["Id"]= 2005,
+  ["loadType"]= 2,
+  ["name"]= "篇章2轻度支线-读信1",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["sitSound"]= 0,
+  ["timelineID"]= 70008,
+  ["triggerType"]= 1,
+  ["type"]= 5,
+  ["x"]= 9.48,
+  ["y"]= 0.0405,
+  ["z"]= -0.56
+},
+[2006] = {
+  ["actionList"]= {},
+  ["areaId"]= {
+    80336101
+  },
+  ["buttonText"]= "CollectionButton15",
+  ["Capacity"]= 0,
+  ["customDisId"]= 5,
+  ["functionName"]= "UI_EjectBook",
+  ["functionParam"]= {
+    200601,
+    200602
+  },
+  ["Id"]= 2006,
+  ["loadType"]= 2,
+  ["name"]= "篇章2轻度支线-读信2",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["sitSound"]= 0,
+  ["timelineID"]= 70008,
+  ["triggerType"]= 1,
+  ["type"]= 5,
+  ["x"]= 43.74,
+  ["y"]= 0.0405,
+  ["z"]= 20.59
+},
+[2007] = {
+  ["actionList"]= {},
+  ["areaId"]= {
+    80346101
+  },
+  ["buttonText"]= "CollectionButton15",
+  ["Capacity"]= 0,
+  ["customDisId"]= 5,
+  ["functionName"]= "UI_EjectBook",
+  ["functionParam"]= {
+    200701,
+    200702
+  },
+  ["Id"]= 2007,
+  ["loadType"]= 2,
+  ["name"]= "篇章2轻度支线-读信3",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["sitSound"]= 0,
+  ["timelineID"]= 70008,
+  ["triggerType"]= 1,
+  ["type"]= 5,
+  ["x"]= 55.72,
+  ["y"]= 0.0405,
+  ["z"]= -25.65
+},
+[2008] = {
+  ["actionList"]= {},
+  ["areaId"]= {
+    80356101
+  },
+  ["buttonText"]= "CollectionButton15",
+  ["Capacity"]= 0,
+  ["customDisId"]= 5,
+  ["functionName"]= "UI_EjectBook",
+  ["functionParam"]= {
+    200801,
+    200802
+  },
+  ["Id"]= 2008,
+  ["loadType"]= 2,
+  ["name"]= "七日登陆任务-读信",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["sitSound"]= 0,
+  ["timelineID"]= 70008,
+  ["triggerType"]= 1,
+  ["type"]= 5,
+  ["x"]= 80,
+  ["z"]= -14.99
+},
+[2009] = {
+  ["actionList"]= {},
+  ["areaId"]= {
+    12706105
+  },
+  ["buttonText"]= "CollectionButton15",
+  ["Capacity"]= 0,
+  ["customDisId"]= 5,
+  ["functionName"]= "UI_EjectBook",
+  ["functionParam"]= {
+    200901,
+    200902,
+    200903,
+    200904
+  },
+  ["Id"]= 2009,
+  ["loadType"]= 2,
+  ["name"]= "重度任务-海涅-日记",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["sitSound"]= 0,
+  ["timelineID"]= 70008,
+  ["triggerType"]= 1,
+  ["type"]= 5,
+  ["x"]= 26.17,
+  ["y"]= 27.13838,
+  ["z"]= 72.76
+},
+[2010] = {
+  ["actionList"]= {},
+  ["areaId"]= {
+    12106121
+  },
+  ["buttonText"]= "CollectionButton15",
+  ["Capacity"]= 0,
+  ["customDisId"]= 5,
+  ["functionName"]= "UI_EjectBook",
+  ["functionParam"]= {
+    201001,
+    201002,
+    201003
+  },
+  ["Id"]= 2010,
+  ["loadType"]= 2,
+  ["name"]= "中度任务-死灵-信",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["sitSound"]= 0,
+  ["timelineID"]= 70008,
+  ["triggerType"]= 1,
+  ["type"]= 5,
+  ["x"]= -86.31,
+  ["z"]= 59.33
+},
+[2012] = {
+  ["actionList"]= {},
+  ["areaId"]= {
+    13206125
+  },
+  ["buttonText"]= "CollectionButton15",
+  ["Capacity"]= 0,
+  ["customDisId"]= 5,
+  ["functionName"]= "UI_EjectLetter",
+  ["functionParam"]= {
+    201201,
+    201202
+  },
+  ["Id"]= 2012,
+  ["loadType"]= 2,
+  ["name"]= "中度任务-歌帝-价目",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["sitSound"]= 0,
+  ["timelineID"]= 70011,
+  ["triggerType"]= 1,
+  ["type"]= 5,
+  ["visibleTaskId"]= {
+    110112105
+  },
+  ["x"]= 205.01,
+  ["y"]= 17.70349,
+  ["z"]= 165.72
+},
+[2013] = {
+  ["actionList"]= {},
+  ["areaId"]= {
+    10106315
+  },
+  ["buttonText"]= "CollectionButton15",
+  ["Capacity"]= 0,
+  ["customDisId"]= 5,
+  ["functionName"]= "UI_EjectLetter",
+  ["functionParam"]= {
+    201301
+  },
+  ["Id"]= 2013,
+  ["loadType"]= 2,
+  ["name"]= "好感度-魔法炉-谜题",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["sitSound"]= 0,
+  ["timelineID"]= 70011,
+  ["triggerRadius"]= 1,
+  ["triggerType"]= 1,
+  ["type"]= 5,
+  ["visibleTaskId"]= {
+    110318107
+  },
+  ["x"]= 16.51,
+  ["y"]= 0.01362,
+  ["z"]= 17.14
+},
+[2014] = {
+  ["actionList"]= {},
+  ["areaId"]= {
+    15106303
+  },
+  ["buttonText"]= "CollectionButton15",
+  ["Capacity"]= 0,
+  ["customDisId"]= 5,
+  ["functionName"]= "UI_EjectBook",
+  ["functionParam"]= {
+    201401,
+    201402
+  },
+  ["Id"]= 2014,
+  ["loadType"]= 2,
+  ["name"]= "好感度-魔法炉-查书",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["sitSound"]= 0,
+  ["timelineID"]= 70008,
+  ["triggerType"]= 1,
+  ["type"]= 5,
+  ["visibleTaskId"]= {
+    110319104
+  },
+  ["x"]= -56.209,
+  ["y"]= 5.28959,
+  ["z"]= 18.03
+},
+[2015] = {
+  ["actionList"]= {},
+  ["areaId"]= {
+    16106133
+  },
+  ["buttonText"]= "CollectionButton15",
+  ["Capacity"]= 0,
+  ["customDisId"]= 5,
+  ["functionName"]= "UI_EjectBook",
+  ["functionParam"]= {
+    201501,
+    201502,
+    201503,
+    201504
+  },
+  ["Id"]= 2015,
+  ["loadType"]= 2,
+  ["name"]= "轻度25-查看日记本",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["sitSound"]= 0,
+  ["timelineID"]= 70008,
+  ["triggerType"]= 1,
+  ["type"]= 5,
+  ["x"]= 50.99,
+  ["y"]= -2.61069,
+  ["z"]= 207.95
+},
+[2016] = {
+  ["actionList"]= {},
+  ["areaId"]= {
+    15106304
+  },
+  ["buttonText"]= "CollectionButton15",
+  ["Capacity"]= 0,
+  ["customDisId"]= 5,
+  ["functionName"]= "UI_EjectBook",
+  ["functionParam"]= {
+    201601,
+    201602,
+    201603
+  },
+  ["Id"]= 2016,
+  ["loadType"]= 2,
+  ["name"]= "中度13-查书",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["sitSound"]= 0,
+  ["timelineID"]= 70008,
+  ["triggerType"]= 1,
+  ["type"]= 5,
+  ["visibleTaskId"]= {
+    110113106
+  },
+  ["x"]= -47.30355,
+  ["y"]= 5.28959,
+  ["z"]= 22.50464
+},
+[2017] = {
+  ["actionList"]= {},
+  ["areaId"]= {
+    1760301
+  },
+  ["buttonText"]= "CollectionButton15",
+  ["Capacity"]= 0,
+  ["customDisId"]= 5,
+  ["functionName"]= "UI_EjectLetter",
+  ["functionParam"]= {
+    201701,
+    201702
+  },
+  ["Id"]= 2017,
+  ["loadType"]= 2,
+  ["name"]= "篇章8轻度支线27-读信1",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["sitSound"]= 0,
+  ["timelineID"]= 70011,
+  ["triggerType"]= 1,
+  ["type"]= 5,
+  ["visibleTaskId"]= {
+    110227102
+  },
+  ["x"]= 8.404947,
+  ["y"]= 3.992094,
+  ["z"]= 6.609844
+},
+[2018] = {
+  ["actionList"]= {},
+  ["areaId"]= {
+    1760302
+  },
+  ["buttonText"]= "CollectionButton15",
+  ["Capacity"]= 0,
+  ["customDisId"]= 5,
+  ["functionName"]= "UI_EjectLetter",
+  ["functionParam"]= {
+    201801,
+    201802
+  },
+  ["Id"]= 2018,
+  ["loadType"]= 2,
+  ["name"]= "篇章8轻度支线27-读信2",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["sitSound"]= 0,
+  ["timelineID"]= 70011,
+  ["triggerType"]= 1,
+  ["type"]= 5,
+  ["visibleTaskId"]= {
+    110227102
+  },
+  ["x"]= 8.043556,
+  ["y"]= 17.63802,
+  ["z"]= 114.3598
+},
+[2019] = {
+  ["actionList"]= {},
+  ["areaId"]= {
+    1760303
+  },
+  ["buttonText"]= "CollectionButton15",
+  ["Capacity"]= 0,
+  ["customDisId"]= 5,
+  ["functionName"]= "UI_EjectLetter",
+  ["functionParam"]= {
+    201901,
+    201902
+  },
+  ["Id"]= 2019,
+  ["loadType"]= 2,
+  ["name"]= "篇章8轻度支线27-读信3",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["sitSound"]= 0,
+  ["timelineID"]= 70011,
+  ["triggerType"]= 1,
+  ["type"]= 5,
+  ["visibleTaskId"]= {
+    110227103
+  },
+  ["x"]= -31.83903,
+  ["y"]= 25.11369,
+  ["z"]= 62.47707
+},
+[2020] = {
+  ["actionList"]= {},
+  ["areaId"]= {
+    1760304
+  },
+  ["buttonText"]= "CollectionButton15",
+  ["Capacity"]= 0,
+  ["customDisId"]= 5,
+  ["functionName"]= "UI_EjectLetter",
+  ["functionParam"]= {
+    202001,
+    202002
+  },
+  ["Id"]= 2020,
+  ["loadType"]= 2,
+  ["name"]= "篇章8轻度支线27-读信4",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["sitSound"]= 0,
+  ["timelineID"]= 70011,
+  ["triggerType"]= 1,
+  ["type"]= 5,
+  ["visibleTaskId"]= {
+    110227103
+  },
+  ["x"]= -86.12353,
+  ["y"]= 25.24313,
+  ["z"]= -9.42
+},
+[2021] = {
+  ["actionList"]= {},
+  ["areaId"]= {
+    1720304
+  },
+  ["buttonText"]= "CollectionButton15",
+  ["Capacity"]= 0,
+  ["customDisId"]= 5,
+  ["functionName"]= "UI_EjectLetter",
+  ["functionParam"]= {
+    202101,
+    202102
+  },
+  ["Id"]= 2021,
+  ["loadType"]= 2,
+  ["name"]= "篇章8轻度支线27-读信5",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["sitSound"]= 0,
+  ["timelineID"]= 70011,
+  ["triggerType"]= 1,
+  ["type"]= 5,
+  ["visibleTaskId"]= {
+    110227105
+  },
+  ["x"]= 60.63873,
+  ["y"]= -1.122247,
+  ["z"]= 51.34
+},
+[2022] = {
+  ["actionList"]= {},
+  ["areaId"]= {
+    10206124
+  },
+  ["buttonText"]= "CollectionButton15",
+  ["Capacity"]= 0,
+  ["customDisId"]= 5,
+  ["functionName"]= "UI_EjectLetter",
+  ["functionParam"]= {
+    202201,
+    202202
+  },
+  ["Id"]= 2022,
+  ["loadType"]= 2,
+  ["name"]= "篇章8重度支线7-读信1",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["sitSound"]= 0,
+  ["timelineID"]= 70011,
+  ["triggerType"]= 1,
+  ["type"]= 5,
+  ["visibleTaskId"]= {
+    110010101
+  },
+  ["x"]= 6.276855,
+  ["y"]= 14.80771,
+  ["z"]= 12.73477
+},
+[2023] = {
+  ["actionList"]= {},
+  ["areaId"]= {
+    1020301
+  },
+  ["buttonText"]= "CollectionButton15",
+  ["Capacity"]= 0,
+  ["customDisId"]= 5,
+  ["functionName"]= "UI_EjectLetter",
+  ["functionParam"]= {
+    202301,
+    202302
+  },
+  ["Id"]= 2023,
+  ["loadType"]= 2,
+  ["name"]= "篇章8重度支线7-读信2",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["sitSound"]= 0,
+  ["timelineID"]= 70011,
+  ["triggerType"]= 1,
+  ["type"]= 5,
+  ["x"]= 60.63873,
+  ["y"]= -1.122247,
+  ["z"]= 51.34
+},
+[2024] = {
+  ["actionList"]= {},
+  ["areaId"]= {
+    1020301
+  },
+  ["buttonText"]= "CollectionButton15",
+  ["Capacity"]= 0,
+  ["customDisId"]= 5,
+  ["functionName"]= "UI_EjectLetter",
+  ["functionParam"]= {
+    202401,
+    202402
+  },
+  ["Id"]= 2024,
+  ["loadType"]= 2,
+  ["name"]= "篇章8重度支线7-读信3",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["sitSound"]= 0,
+  ["timelineID"]= 70011,
+  ["triggerType"]= 1,
+  ["type"]= 5,
+  ["x"]= 60.63873,
+  ["y"]= -1.122247,
+  ["z"]= 51.34
+},
+[3001] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= ""
+    },
+    {
+      ["actionName"]= ""
+    }
+  },
+  ["areaId"]= {
+    1210301
+  },
+  ["astrictMoveMode"]= 0,
+  ["buttonText"]= "ui_Tips_019",
+  ["canUseSkill"]= 1,
+  ["Capacity"]= 1,
+  ["carrierTips"]= "Icons/Carrier/Img_HeadAim",
+  ["customDisId"]= 11,
+  ["Id"]= 3001,
+  ["isShowShadow"]= 0,
+  ["loadPath"]= "jf_paotai101",
+  ["name"]= "圣诞活动炮台1",
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["subType"]= 1,
+  ["type"]= 11
+},
+[3002] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= ""
+    },
+    {
+      ["actionName"]= ""
+    }
+  },
+  ["areaId"]= {
+    1210302
+  },
+  ["astrictMoveMode"]= 0,
+  ["buttonText"]= "ui_Tips_019",
+  ["canUseSkill"]= 1,
+  ["Capacity"]= 1,
+  ["carrierTips"]= "Icons/Carrier/Img_HeadAim",
+  ["customDisId"]= 11,
+  ["Id"]= 3002,
+  ["isShowShadow"]= 0,
+  ["loadPath"]= "jf_paotai101 (1)",
+  ["name"]= "圣诞活动炮台2",
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["subType"]= 1,
+  ["type"]= 11
+},
+[3003] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= ""
+    },
+    {
+      ["actionName"]= ""
+    }
+  },
+  ["areaId"]= {
+    1210303
+  },
+  ["astrictMoveMode"]= 0,
+  ["buttonText"]= "ui_Tips_019",
+  ["canUseSkill"]= 1,
+  ["Capacity"]= 1,
+  ["carrierTips"]= "Icons/Carrier/Img_HeadAim",
+  ["customDisId"]= 11,
+  ["Id"]= 3003,
+  ["isShowShadow"]= 0,
+  ["loadPath"]= "jf_paotai101 (2)",
+  ["name"]= "圣诞活动炮台3",
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["subType"]= 1,
+  ["type"]= 11
+},
+[3004] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= ""
+    },
+    {
+      ["actionName"]= ""
+    }
+  },
+  ["areaId"]= {
+    1210304
+  },
+  ["astrictMoveMode"]= 0,
+  ["buttonText"]= "ui_Tips_019",
+  ["canUseSkill"]= 1,
+  ["Capacity"]= 1,
+  ["carrierTips"]= "Icons/Carrier/Img_HeadAim",
+  ["customDisId"]= 11,
+  ["Id"]= 3004,
+  ["isShowShadow"]= 0,
+  ["loadPath"]= "jf_paotai101 (3)",
+  ["name"]= "圣诞活动炮台4",
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["subType"]= 1,
+  ["type"]= 11
+},
+[3005] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= ""
+    },
+    {
+      ["actionName"]= ""
+    }
+  },
+  ["areaId"]= {
+    1210305
+  },
+  ["astrictMoveMode"]= 0,
+  ["buttonText"]= "ui_Tips_019",
+  ["canUseSkill"]= 1,
+  ["Capacity"]= 1,
+  ["carrierTips"]= "Icons/Carrier/Img_HeadAim",
+  ["customDisId"]= 11,
+  ["Id"]= 3005,
+  ["isShowShadow"]= 0,
+  ["loadPath"]= "jf_paotai101 (4)",
+  ["name"]= "圣诞活动炮台5",
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["subType"]= 1,
+  ["type"]= 11
+},
+[3006] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= ""
+    },
+    {
+      ["actionName"]= ""
+    }
+  },
+  ["areaId"]= {
+    1210306
+  },
+  ["astrictMoveMode"]= 0,
+  ["buttonText"]= "ui_Tips_019",
+  ["canUseSkill"]= 1,
+  ["Capacity"]= 1,
+  ["carrierTips"]= "Icons/Carrier/Img_HeadAim",
+  ["customDisId"]= 11,
+  ["Id"]= 3006,
+  ["isShowShadow"]= 0,
+  ["loadPath"]= "jf_paotai101 (5)",
+  ["name"]= "圣诞活动炮台6",
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["subType"]= 1,
+  ["type"]= 11
+},
+[3007] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= ""
+    },
+    {
+      ["actionName"]= ""
+    }
+  },
+  ["areaId"]= {
+    1210307
+  },
+  ["astrictMoveMode"]= 0,
+  ["buttonText"]= "ui_Tips_019",
+  ["canUseSkill"]= 1,
+  ["Capacity"]= 1,
+  ["carrierTips"]= "Icons/Carrier/Img_HeadAim",
+  ["customDisId"]= 11,
+  ["Id"]= 3007,
+  ["isShowShadow"]= 0,
+  ["loadPath"]= "jf_paotai101 (6)",
+  ["name"]= "圣诞活动炮台7",
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["subType"]= 1,
+  ["type"]= 11
+},
+[3008] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= ""
+    },
+    {
+      ["actionName"]= ""
+    }
+  },
+  ["areaId"]= {
+    1210308
+  },
+  ["astrictMoveMode"]= 0,
+  ["buttonText"]= "ui_Tips_019",
+  ["canUseSkill"]= 1,
+  ["Capacity"]= 1,
+  ["carrierTips"]= "Icons/Carrier/Img_HeadAim",
+  ["customDisId"]= 11,
+  ["Id"]= 3008,
+  ["isShowShadow"]= 0,
+  ["loadPath"]= "jf_paotai101 (7)",
+  ["name"]= "圣诞活动炮台8",
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["subType"]= 1,
+  ["type"]= 11
+},
+[3011] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= ""
+    },
+    {
+      ["actionName"]= ""
+    }
+  },
+  ["areaId"]= {
+    1020311
+  },
+  ["astrictMoveMode"]= 0,
+  ["buttonText"]= "ui_Tips_019",
+  ["canUseSkill"]= 1,
+  ["Capacity"]= 1,
+  ["carrierTips"]= "Icons/Carrier/Img_HeadAim",
+  ["condition"]= 250011,
+  ["customDisId"]= 14,
+  ["Id"]= 3011,
+  ["isShowShadow"]= 0,
+  ["loadPath"]= "jf_paotai101",
+  ["name"]= "儿童节活动炮台1",
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["subType"]= 2,
+  ["type"]= 11
+},
+[3012] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= ""
+    },
+    {
+      ["actionName"]= ""
+    }
+  },
+  ["areaId"]= {
+    1020312
+  },
+  ["astrictMoveMode"]= 0,
+  ["buttonText"]= "ui_Tips_019",
+  ["canUseSkill"]= 1,
+  ["Capacity"]= 1,
+  ["carrierTips"]= "Icons/Carrier/Img_HeadAim",
+  ["condition"]= 250011,
+  ["customDisId"]= 14,
+  ["Id"]= 3012,
+  ["isShowShadow"]= 0,
+  ["loadPath"]= "jf_paotai101 (1)",
+  ["name"]= "儿童节活动炮台2",
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["subType"]= 2,
+  ["type"]= 11
+},
+[3013] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= ""
+    },
+    {
+      ["actionName"]= ""
+    }
+  },
+  ["areaId"]= {
+    1020313
+  },
+  ["astrictMoveMode"]= 0,
+  ["buttonText"]= "ui_Tips_019",
+  ["canUseSkill"]= 1,
+  ["Capacity"]= 1,
+  ["carrierTips"]= "Icons/Carrier/Img_HeadAim",
+  ["condition"]= 250011,
+  ["customDisId"]= 14,
+  ["Id"]= 3013,
+  ["isShowShadow"]= 0,
+  ["loadPath"]= "jf_paotai101 (2)",
+  ["name"]= "儿童节活动炮台3",
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["subType"]= 2,
+  ["type"]= 11
+},
+[3014] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= ""
+    },
+    {
+      ["actionName"]= ""
+    }
+  },
+  ["areaId"]= {
+    1020314
+  },
+  ["astrictMoveMode"]= 0,
+  ["buttonText"]= "ui_Tips_019",
+  ["canUseSkill"]= 1,
+  ["Capacity"]= 1,
+  ["carrierTips"]= "Icons/Carrier/Img_HeadAim",
+  ["condition"]= 250011,
+  ["customDisId"]= 14,
+  ["Id"]= 3014,
+  ["isShowShadow"]= 0,
+  ["loadPath"]= "jf_paotai101 (3)",
+  ["name"]= "儿童节活动炮台4",
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["subType"]= 2,
+  ["type"]= 11
+},
+[3015] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= ""
+    },
+    {
+      ["actionName"]= ""
+    }
+  },
+  ["areaId"]= {
+    1020315
+  },
+  ["astrictMoveMode"]= 0,
+  ["buttonText"]= "ui_Tips_019",
+  ["canUseSkill"]= 1,
+  ["Capacity"]= 1,
+  ["carrierTips"]= "Icons/Carrier/Img_HeadAim",
+  ["condition"]= 250011,
+  ["customDisId"]= 14,
+  ["Id"]= 3015,
+  ["isShowShadow"]= 0,
+  ["loadPath"]= "jf_paotai101 (4)",
+  ["name"]= "儿童节活动炮台5",
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["subType"]= 2,
+  ["type"]= 11
+},
+[3016] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= ""
+    },
+    {
+      ["actionName"]= ""
+    }
+  },
+  ["areaId"]= {
+    1020316
+  },
+  ["astrictMoveMode"]= 0,
+  ["buttonText"]= "ui_Tips_019",
+  ["canUseSkill"]= 1,
+  ["Capacity"]= 1,
+  ["carrierTips"]= "Icons/Carrier/Img_HeadAim",
+  ["condition"]= 250011,
+  ["customDisId"]= 14,
+  ["Id"]= 3016,
+  ["isShowShadow"]= 0,
+  ["loadPath"]= "jf_paotai101 (5)",
+  ["name"]= "儿童节活动炮台6",
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["subType"]= 2,
+  ["type"]= 11
+},
+[3017] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= ""
+    },
+    {
+      ["actionName"]= ""
+    }
+  },
+  ["areaId"]= {
+    9996301
+  },
+  ["astrictMoveMode"]= 0,
+  ["buttonText"]= "ui_Tips_019",
+  ["canUseSkill"]= 1,
+  ["Capacity"]= 1,
+  ["carrierTips"]= "Icons/Carrier/Img_HeadAim",
+  ["customDisId"]= 14,
+  ["Id"]= 3017,
+  ["isShowShadow"]= 0,
+  ["loadPath"]= "jf_paotai101",
+  ["name"]= "测试炮台",
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["shootSkill"]= {
+    4001101,
+    4001102,
+    4001103,
+    4001104,
+    4001105
+  },
+  ["subType"]= 3,
+  ["type"]= 11
+},
+[3020] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= ""
+    },
+    {
+      ["actionName"]= ""
+    }
+  },
+  ["areaId"]= {
+    2510401
+  },
+  ["astrictMoveMode"]= 0,
+  ["buttonText"]= "ui_Tips_019",
+  ["canUseSkill"]= 1,
+  ["Capacity"]= 1,
+  ["carrierTips"]= "Icons/Carrier/Img_HeadAim",
+  ["customDisId"]= 14,
+  ["Id"]= 3020,
+  ["isShowShadow"]= 0,
+  ["loadPath"]= "2510_paotai101 (2)",
+  ["name"]= "测试炮台",
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["shootSkill"]= {
+    4001101,
+    4001102,
+    4001103,
+    4001104,
+    4001105
+  },
+  ["subType"]= 3,
+  ["type"]= 11,
+  ["x"]= -27.3,
+  ["y"]= 6.412005,
+  ["z"]= 41.5
+},
+[51010000] = {
+  ["areaId"]= {
+    10109000
+  },
+  ["Id"]= 51010000,
+  ["loadPath"]= "pldl_life301",
+  ["name"]= "普隆德拉椅子"
+},
+[51010001] = {
+  ["areaId"]= {
+    10109001
+  },
+  ["Id"]= 51010001,
+  ["loadPath"]= "pldl_life301 (1)",
+  ["name"]= "普隆德拉椅子"
+},
+[51010002] = {
+  ["areaId"]= {
+    10109002
+  },
+  ["Id"]= 51010002,
+  ["loadPath"]= "pldl_life301 (2)",
+  ["name"]= "普隆德拉椅子"
+},
+[51010003] = {
+  ["areaId"]= {
+    10109003
+  },
+  ["Id"]= 51010003,
+  ["loadPath"]= "pldl_life301 (3)",
+  ["name"]= "普隆德拉椅子"
+},
+[51010004] = {
+  ["areaId"]= {
+    10109004
+  },
+  ["Id"]= 51010004,
+  ["loadPath"]= "pldl_life301 (4)",
+  ["name"]= "普隆德拉椅子"
+},
+[51010005] = {
+  ["areaId"]= {
+    10109005
+  },
+  ["Id"]= 51010005,
+  ["loadPath"]= "pldl_life301 (5)",
+  ["name"]= "普隆德拉椅子"
+},
+[51010006] = {
+  ["areaId"]= {
+    10109006
+  },
+  ["Id"]= 51010006,
+  ["loadPath"]= "pldl_life301 (6)",
+  ["name"]= "普隆德拉椅子"
+},
+[51010007] = {
+  ["areaId"]= {
+    10109007
+  },
+  ["Id"]= 51010007,
+  ["loadPath"]= "pldl_life301 (7)",
+  ["name"]= "普隆德拉椅子"
+},
+[51010008] = {
+  ["areaId"]= {
+    10109008
+  },
+  ["Id"]= 51010008,
+  ["loadPath"]= "pldl_life301 (8)",
+  ["name"]= "普隆德拉椅子"
+},
+[51010009] = {
+  ["areaId"]= {
+    10109009
+  },
+  ["Id"]= 51010009,
+  ["loadPath"]= "pldl_life301 (9)",
+  ["name"]= "普隆德拉椅子"
+},
+[51010010] = {
+  ["areaId"]= {
+    10109010
+  },
+  ["Id"]= 51010010,
+  ["loadPath"]= "pldl_life301 (10)",
+  ["name"]= "普隆德拉椅子"
+},
+[51010011] = {
+  ["areaId"]= {
+    10109011
+  },
+  ["Id"]= 51010011,
+  ["loadPath"]= "pldl_life301 (11)",
+  ["name"]= "普隆德拉椅子"
+},
+[51010012] = {
+  ["areaId"]= {
+    10109012
+  },
+  ["Id"]= 51010012,
+  ["loadPath"]= "pldl_life301 (12)",
+  ["name"]= "普隆德拉椅子"
+},
+[51010013] = {
+  ["areaId"]= {
+    10109013
+  },
+  ["Id"]= 51010013,
+  ["loadPath"]= "pldl_life301 (13)",
+  ["name"]= "普隆德拉椅子"
+},
+[51010014] = {
+  ["areaId"]= {
+    10109014
+  },
+  ["Id"]= 51010014,
+  ["loadPath"]= "pldl_life301 (14)",
+  ["name"]= "普隆德拉椅子"
+},
+[51010015] = {
+  ["areaId"]= {
+    10109015
+  },
+  ["Id"]= 51010015,
+  ["loadPath"]= "pldl_life301 (15)",
+  ["name"]= "普隆德拉椅子"
+},
+[51010016] = {
+  ["areaId"]= {
+    10109016
+  },
+  ["Id"]= 51010016,
+  ["loadPath"]= "pldl_life301 (16)",
+  ["name"]= "普隆德拉椅子"
+},
+[51010017] = {
+  ["areaId"]= {
+    10109017
+  },
+  ["Id"]= 51010017,
+  ["loadPath"]= "pldl_life301 (17)",
+  ["name"]= "普隆德拉椅子"
+},
+[51010018] = {
+  ["areaId"]= {
+    10109018
+  },
+  ["Id"]= 51010018,
+  ["loadPath"]= "pldl_life301 (18)",
+  ["name"]= "普隆德拉椅子"
+},
+[51010019] = {
+  ["areaId"]= {
+    10109019
+  },
+  ["Id"]= 51010019,
+  ["loadPath"]= "pldl_life301 (19)",
+  ["name"]= "普隆德拉椅子"
+},
+[51010020] = {
+  ["areaId"]= {
+    10109020
+  },
+  ["Id"]= 51010020,
+  ["loadPath"]= "pldl_life301 (20)",
+  ["name"]= "普隆德拉椅子"
+},
+[51010021] = {
+  ["areaId"]= {
+    10109021
+  },
+  ["Id"]= 51010021,
+  ["loadPath"]= "pldl_life301 (21)",
+  ["name"]= "普隆德拉椅子"
+},
+[51010022] = {
+  ["areaId"]= {
+    10109022
+  },
+  ["Id"]= 51010022,
+  ["loadPath"]= "pldl_life301 (22)",
+  ["name"]= "普隆德拉椅子"
+},
+[51010023] = {
+  ["areaId"]= {
+    10109023
+  },
+  ["Id"]= 51010023,
+  ["loadPath"]= "pldl_life301 (23)",
+  ["name"]= "普隆德拉椅子"
+},
+[51010024] = {
+  ["areaId"]= {
+    10109024
+  },
+  ["Id"]= 51010024,
+  ["loadPath"]= "pldl_life301 (24)",
+  ["name"]= "普隆德拉椅子"
+},
+[51010025] = {
+  ["areaId"]= {
+    10109025
+  },
+  ["Id"]= 51010025,
+  ["loadPath"]= "pldl_life301 (25)",
+  ["name"]= "普隆德拉椅子"
+},
+[51010026] = {
+  ["areaId"]= {
+    10109026
+  },
+  ["Id"]= 51010026,
+  ["loadPath"]= "pldl_life301 (26)",
+  ["name"]= "普隆德拉椅子"
+},
+[51010027] = {
+  ["areaId"]= {
+    10109027
+  },
+  ["Id"]= 51010027,
+  ["loadPath"]= "pldl_life301 (27)",
+  ["name"]= "普隆德拉椅子"
+},
+[51010028] = {
+  ["areaId"]= {
+    10109128
+  },
+  ["Id"]= 51010028,
+  ["loadPath"]= "pldl_life301 (28)",
+  ["name"]= "普隆德拉椅子"
+},
+[51010029] = {
+  ["areaId"]= {
+    10109129
+  },
+  ["Id"]= 51010029,
+  ["loadPath"]= "pldl_life301 (29)",
+  ["name"]= "普隆德拉椅子"
+},
+[51010030] = {
+  ["areaId"]= {
+    10109130
+  },
+  ["Id"]= 51010030,
+  ["loadPath"]= "pldl_life301 (30)",
+  ["name"]= "普隆德拉椅子"
+},
+[51010031] = {
+  ["areaId"]= {
+    10109131
+  },
+  ["Id"]= 51010031,
+  ["loadPath"]= "pldl_life301 (31)",
+  ["name"]= "普隆德拉椅子"
+},
+[51020001] = {
+  ["areaId"]= {
+    10209001
+  },
+  ["Id"]= 51020001,
+  ["loadPath"]= "nm_newbench101 (1)"
+},
+[51020002] = {
+  ["areaId"]= {
+    10209002
+  },
+  ["Id"]= 51020002,
+  ["loadPath"]= "nm_newbench101 (2)"
+},
+[51020003] = {
+  ["areaId"]= {
+    10209003
+  },
+  ["Id"]= 51020003,
+  ["loadPath"]= "nm_newbench101 (3)"
+},
+[51020004] = {
+  ["areaId"]= {
+    10209004
+  },
+  ["Id"]= 51020004,
+  ["loadPath"]= "nm_newbench101 (4)"
+},
+[51020005] = {
+  ["areaId"]= {
+    10209005
+  },
+  ["Id"]= 51020005,
+  ["loadPath"]= "nm_newbench101 (5)"
+},
+[51020006] = {
+  ["areaId"]= {
+    10209006
+  },
+  ["Id"]= 51020006,
+  ["loadPath"]= "nm_newbench101 (6)"
+},
+[51020007] = {
+  ["areaId"]= {
+    10209007
+  },
+  ["Id"]= 51020007,
+  ["loadPath"]= "nm_newbench101 (7)"
+},
+[51020008] = {
+  ["areaId"]= {
+    10209008
+  },
+  ["Id"]= 51020008,
+  ["loadPath"]= "nm_newbench101 (8)"
+},
+[51020009] = {
+  ["areaId"]= {
+    10209009
+  },
+  ["Id"]= 51020009,
+  ["loadPath"]= "nm_newbench101 (9)"
+},
+[51020010] = {
+  ["areaId"]= {
+    10209010
+  },
+  ["Id"]= 51020010,
+  ["loadPath"]= "nm_newbench101 (10)"
+},
+[51020011] = {
+  ["areaId"]= {
+    10209011
+  },
+  ["Id"]= 51020011,
+  ["loadPath"]= "nm_newbench101 (11)"
+},
+[51020012] = {
+  ["areaId"]= {
+    10209012
+  },
+  ["Id"]= 51020012,
+  ["loadPath"]= "nm_newbench101 (12)"
+},
+[51020013] = {
+  ["areaId"]= {
+    10209013
+  },
+  ["Id"]= 51020013,
+  ["loadPath"]= "nm_newbench101 (13)"
+},
+[51020014] = {
+  ["areaId"]= {
+    10209014
+  },
+  ["Id"]= 51020014,
+  ["loadPath"]= "nm_newbench101 (14)"
+},
+[51020015] = {
+  ["areaId"]= {
+    10209015
+  },
+  ["Id"]= 51020015,
+  ["loadPath"]= "nm_newbench101 (15)"
+},
+[51020016] = {
+  ["areaId"]= {
+    10209016
+  },
+  ["Id"]= 51020016,
+  ["loadPath"]= "nm_newbench101 (16)"
+},
+[51020017] = {
+  ["areaId"]= {
+    10209017
+  },
+  ["Id"]= 51020017,
+  ["loadPath"]= "nm_newbench101 (17)"
+},
+[51020018] = {
+  ["areaId"]= {
+    10209018
+  },
+  ["Id"]= 51020018,
+  ["loadPath"]= "nm_newbench101 (18)"
+},
+[51020019] = {
+  ["areaId"]= {
+    10209019
+  },
+  ["Id"]= 51020019,
+  ["loadPath"]= "nm_newbench101 (19)"
+},
+[51020020] = {
+  ["areaId"]= {
+    10209020
+  },
+  ["Id"]= 51020020,
+  ["loadPath"]= "nm_newbench101 (20)"
+},
+[51020021] = {
+  ["areaId"]= {
+    10209021
+  },
+  ["Id"]= 51020021,
+  ["loadPath"]= "nm_newbench101 (21)"
+},
+[51020022] = {
+  ["areaId"]= {
+    10209022
+  },
+  ["Id"]= 51020022,
+  ["loadPath"]= "nm_newbench101 (22)"
+},
+[51020023] = {
+  ["areaId"]= {
+    10209023
+  },
+  ["Id"]= 51020023,
+  ["loadPath"]= "nm_newbench101 (23)"
+},
+[51020024] = {
+  ["areaId"]= {
+    10209024
+  },
+  ["Id"]= 51020024,
+  ["loadPath"]= "nm_newbench101 (24)"
+},
+[51020025] = {
+  ["areaId"]= {
+    10209025
+  },
+  ["Id"]= 51020025,
+  ["loadPath"]= "nm_newbench101 (25)"
+},
+[51020026] = {
+  ["areaId"]= {
+    10209026
+  },
+  ["Id"]= 51020026,
+  ["loadPath"]= "nm_newbench101 (26)"
+},
+[51020027] = {
+  ["areaId"]= {
+    10209027
+  },
+  ["Id"]= 51020027,
+  ["loadPath"]= "nm_newbench101 (27)"
+},
+[51020028] = {
+  ["areaId"]= {
+    10209028
+  },
+  ["Id"]= 51020028,
+  ["loadPath"]= "nm_newbench101 (28)"
+},
+[51020029] = {
+  ["areaId"]= {
+    10209029
+  },
+  ["Id"]= 51020029,
+  ["loadPath"]= "nm_newbench101 (29)"
+},
+[51020030] = {
+  ["areaId"]= {
+    10209030
+  },
+  ["Id"]= 51020030,
+  ["loadPath"]= "nm_newbench101 (30)"
+},
+[51020031] = {
+  ["areaId"]= {
+    10209031
+  },
+  ["Id"]= 51020031,
+  ["loadPath"]= "nm_newbench101 (31)"
+},
+[51020032] = {
+  ["areaId"]= {
+    10209032
+  },
+  ["Id"]= 51020032,
+  ["loadPath"]= "nm_newbench101 (32)"
+},
+[51020033] = {
+  ["areaId"]= {
+    10209033
+  },
+  ["Id"]= 51020033,
+  ["loadPath"]= "nm_newbench101 (33)"
+},
+[51020034] = {
+  ["areaId"]= {
+    10209034
+  },
+  ["Id"]= 51020034,
+  ["loadPath"]= "nm_newbench101 (34)",
+  ["name"]= "南门椅子"
+},
+[51020035] = {
+  ["areaId"]= {
+    10209035
+  },
+  ["Id"]= 51020035,
+  ["loadPath"]= "nm_newbench101 (35)",
+  ["name"]= "南门椅子"
+},
+[51020036] = {
+  ["areaId"]= {
+    10209036
+  },
+  ["Id"]= 51020036,
+  ["loadPath"]= "nm_newbench101 (36)",
+  ["name"]= "南门椅子"
+},
+[51020037] = {
+  ["areaId"]= {
+    10209037
+  },
+  ["Id"]= 51020037,
+  ["loadPath"]= "nm_newbench101 (37)",
+  ["name"]= "南门椅子"
+},
+[51020038] = {
+  ["areaId"]= {
+    10209038
+  },
+  ["Id"]= 51020038,
+  ["loadPath"]= "nm_newbench101 (38)",
+  ["name"]= "南门椅子"
+},
+[51020039] = {
+  ["areaId"]= {
+    10209039
+  },
+  ["Id"]= 51020039,
+  ["loadPath"]= "nm_newbench101 (39)",
+  ["name"]= "南门椅子"
+},
+[51020101] = {
+  ["areaId"]= {
+    10209101
+  },
+  ["Id"]= 51020101,
+  ["loadPath"]= "nm_newbench101",
+  ["name"]= "南门椅子"
+},
+[51030001] = {
+  ["areaId"]= {
+    10309001
+  },
+  ["Id"]= 51030001,
+  ["loadPath"]= "2100_Object013 (1)",
+  ["name"]= "西门椅子"
+},
+[51030002] = {
+  ["areaId"]= {
+    10309002
+  },
+  ["Id"]= 51030002,
+  ["loadPath"]= "2100_Object013 (2)",
+  ["name"]= "西门椅子"
+},
+[51030003] = {
+  ["areaId"]= {
+    10309003
+  },
+  ["Id"]= 51030003,
+  ["loadPath"]= "2100_Object013 (3)",
+  ["name"]= "西门椅子"
+},
+[51030004] = {
+  ["areaId"]= {
+    10309004
+  },
+  ["Id"]= 51030004,
+  ["loadPath"]= "2100_Object013 (4)",
+  ["name"]= "西门椅子"
+},
+[51030005] = {
+  ["areaId"]= {
+    10309005
+  },
+  ["Id"]= 51030005,
+  ["loadPath"]= "2100_Object013 (5)",
+  ["name"]= "西门椅子"
+},
+[51030006] = {
+  ["areaId"]= {
+    10309006
+  },
+  ["Id"]= 51030006,
+  ["loadPath"]= "2100_Object013 (6)",
+  ["name"]= "西门椅子"
+},
+[51030007] = {
+  ["areaId"]= {
+    10309007
+  },
+  ["Id"]= 51030007,
+  ["loadPath"]= "2100_Object013 (7)",
+  ["name"]= "西门椅子"
+},
+[51030008] = {
+  ["areaId"]= {
+    10309008
+  },
+  ["Id"]= 51030008,
+  ["loadPath"]= "2100_Object013 (8)",
+  ["name"]= "西门椅子"
+},
+[51030009] = {
+  ["areaId"]= {
+    10309009
+  },
+  ["Id"]= 51030009,
+  ["loadPath"]= "2100_Object013 (9)",
+  ["name"]= "西门椅子"
+},
+[51030010] = {
+  ["areaId"]= {
+    10309010
+  },
+  ["Id"]= 51030010,
+  ["loadPath"]= "2100_Object013",
+  ["name"]= "西门椅子"
+},
+[51110001] = {
+  ["areaId"]= {
+    11109001
+  },
+  ["Id"]= 51110001,
+  ["loadPath"]= "pldl_life301 (1)",
+  ["name"]= "依斯鲁得椅子"
+},
+[51110002] = {
+  ["areaId"]= {
+    11109002
+  },
+  ["Id"]= 51110002,
+  ["loadPath"]= "pldl_life301 (2)",
+  ["name"]= "依斯鲁得椅子"
+},
+[51110003] = {
+  ["areaId"]= {
+    11109003
+  },
+  ["Id"]= 51110003,
+  ["loadPath"]= "pldl_life301 (3)",
+  ["name"]= "依斯鲁得椅子"
+},
+[51110004] = {
+  ["areaId"]= {
+    11109004
+  },
+  ["Id"]= 51110004,
+  ["loadPath"]= "pldl_life301 (4)",
+  ["name"]= "依斯鲁得椅子"
+},
+[51110005] = {
+  ["areaId"]= {
+    11109005
+  },
+  ["Id"]= 51110005,
+  ["loadPath"]= "pldl_life301 (5)",
+  ["name"]= "依斯鲁得椅子"
+},
+[51110006] = {
+  ["areaId"]= {
+    11109006
+  },
+  ["Id"]= 51110006,
+  ["loadPath"]= "pldl_life301 (6)",
+  ["name"]= "依斯鲁得椅子"
+},
+[51110007] = {
+  ["areaId"]= {
+    11109007
+  },
+  ["Id"]= 51110007,
+  ["loadPath"]= "pldl_life301 (7)",
+  ["name"]= "依斯鲁得椅子"
+},
+[51110008] = {
+  ["areaId"]= {
+    11109008
+  },
+  ["Id"]= 51110008,
+  ["loadPath"]= "pldl_life301 (8)",
+  ["name"]= "依斯鲁得椅子"
+},
+[51110009] = {
+  ["areaId"]= {
+    11109009
+  },
+  ["Id"]= 51110009,
+  ["loadPath"]= "pldl_life301 (9)",
+  ["name"]= "依斯鲁得椅子"
+},
+[51110010] = {
+  ["areaId"]= {
+    11109010
+  },
+  ["Id"]= 51110010,
+  ["loadPath"]= "pldl_life301 (10)",
+  ["name"]= "依斯鲁得椅子"
+},
+[51110011] = {
+  ["areaId"]= {
+    11109011
+  },
+  ["Id"]= 51110011,
+  ["loadPath"]= "pldl_life301 (11)",
+  ["name"]= "依斯鲁得椅子"
+},
+[51110012] = {
+  ["areaId"]= {
+    11109012
+  },
+  ["Id"]= 51110012,
+  ["loadPath"]= "pldl_life301 (12)",
+  ["name"]= "依斯鲁得椅子"
+},
+[51110013] = {
+  ["areaId"]= {
+    11109013
+  },
+  ["Id"]= 51110013,
+  ["loadPath"]= "pldl_life301 (13)",
+  ["name"]= "依斯鲁得椅子"
+},
+[51110014] = {
+  ["areaId"]= {
+    11109014
+  },
+  ["Id"]= 51110014,
+  ["loadPath"]= "pldl_life301 (14)",
+  ["name"]= "依斯鲁得椅子"
+},
+[51110015] = {
+  ["areaId"]= {
+    11109015
+  },
+  ["Id"]= 51110015,
+  ["loadPath"]= "pldl_life301 (15)",
+  ["name"]= "依斯鲁得椅子"
+},
+[51110016] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "SitOn_Loop_M"
+    },
+    {
+      ["actionName"]= "SitOn_Loop_W"
+    }
+  },
+  ["areaId"]= {
+    11109016
+  },
+  ["customDisId"]= 9,
+  ["Id"]= 51110016,
+  ["loadPath"]= "nm_swing201",
+  ["name"]= "依斯鲁得秋千",
+  ["operateMode"]= 1,
+  ["triggerRadius"]= 40,
+  ["type"]= 9
+},
+[51110301] = {
+  ["areaId"]= {
+    11109301
+  },
+  ["Id"]= 51110301,
+  ["loadPath"]= "pldl_life301",
+  ["name"]= "依斯鲁得椅子"
+},
+[51180006] = {
+  ["areaId"]= {
+    11809006
+  },
+  ["Id"]= 51180006,
+  ["loadPath"]= "Alberta_life301 (6)",
+  ["name"]= "艾尔贝塔椅子"
+},
+[51180007] = {
+  ["areaId"]= {
+    11809007
+  },
+  ["Id"]= 51180007,
+  ["loadPath"]= "Alberta_life301 (7)",
+  ["name"]= "艾尔贝塔椅子"
+},
+[51180015] = {
+  ["areaId"]= {
+    11809015
+  },
+  ["Id"]= 51180015,
+  ["loadPath"]= "Alberta_life301 (15)",
+  ["name"]= "艾尔贝塔椅子"
+},
+[51180017] = {
+  ["areaId"]= {
+    11809017
+  },
+  ["Id"]= 51180017,
+  ["loadPath"]= "Alberta_life301 (17)",
+  ["name"]= "艾尔贝塔椅子"
+},
+[51180018] = {
+  ["areaId"]= {
+    11809018
+  },
+  ["Id"]= 51180018,
+  ["loadPath"]= "Alberta_life301 (18)",
+  ["name"]= "艾尔贝塔椅子"
+},
+[51180019] = {
+  ["areaId"]= {
+    11809019
+  },
+  ["Id"]= 51180019,
+  ["loadPath"]= "Alberta_life301 (19)",
+  ["name"]= "艾尔贝塔椅子"
+},
+[51180020] = {
+  ["areaId"]= {
+    11809020
+  },
+  ["Id"]= 51180020,
+  ["loadPath"]= "Alberta_life301 (20)",
+  ["name"]= "艾尔贝塔椅子"
+},
+[51180021] = {
+  ["areaId"]= {
+    11809021
+  },
+  ["Id"]= 51180021,
+  ["loadPath"]= "Alberta_life301 (21)",
+  ["name"]= "艾尔贝塔椅子"
+},
+[51180022] = {
+  ["areaId"]= {
+    11809022
+  },
+  ["Id"]= 51180022,
+  ["loadPath"]= "Alberta_life301 (22)",
+  ["name"]= "艾尔贝塔椅子"
+},
+[51180023] = {
+  ["areaId"]= {
+    11809023
+  },
+  ["Id"]= 51180023,
+  ["loadPath"]= "Alberta_life301 (23)",
+  ["name"]= "艾尔贝塔椅子"
+},
+[51180025] = {
+  ["areaId"]= {
+    11809025
+  },
+  ["Id"]= 51180025,
+  ["loadPath"]= "Alberta_life301 (25)",
+  ["name"]= "艾尔贝塔椅子"
+},
+[51180026] = {
+  ["areaId"]= {
+    11809026
+  },
+  ["Id"]= 51180026,
+  ["loadPath"]= "Alberta_life301 (26)",
+  ["name"]= "艾尔贝塔椅子"
+},
+[51180027] = {
+  ["areaId"]= {
+    11809027
+  },
+  ["Id"]= 51180027,
+  ["loadPath"]= "Alberta_life301 (27)",
+  ["name"]= "艾尔贝塔椅子"
+},
+[51180028] = {
+  ["areaId"]= {
+    11809028
+  },
+  ["Id"]= 51180028,
+  ["loadPath"]= "Alberta_life301 (28)",
+  ["name"]= "艾尔贝塔椅子"
+},
+[51180301] = {
+  ["areaId"]= {
+    11809301
+  },
+  ["Id"]= 51180301,
+  ["loadPath"]= "Alberta_life301",
+  ["name"]= "依斯鲁得椅子"
+},
+[51210001] = {
+  ["areaId"]= {
+    12109001
+  },
+  ["Id"]= 51210001,
+  ["loadPath"]= "Jf_life301_01 (2)",
+  ["name"]= "吉芬椅子"
+},
+[51210002] = {
+  ["areaId"]= {
+    12109002
+  },
+  ["Id"]= 51210002,
+  ["loadPath"]= "Jf_life301_01 (3)",
+  ["name"]= "吉芬椅子"
+},
+[51210003] = {
+  ["areaId"]= {
+    12109003
+  },
+  ["Id"]= 51210003,
+  ["loadPath"]= "Jf_life301_01 (5)",
+  ["name"]= "吉芬椅子"
+},
+[51210004] = {
+  ["areaId"]= {
+    12109004
+  },
+  ["Id"]= 51210004,
+  ["loadPath"]= "Jf_life301_01 (4)",
+  ["name"]= "吉芬椅子"
+},
+[51210005] = {
+  ["areaId"]= {
+    12109005
+  },
+  ["Id"]= 51210005,
+  ["loadPath"]= "Jf_life301_01 (9)",
+  ["name"]= "吉芬椅子"
+},
+[51210006] = {
+  ["areaId"]= {
+    12109006
+  },
+  ["Id"]= 51210006,
+  ["loadPath"]= "Jf_life301_01 (10)",
+  ["name"]= "吉芬椅子"
+},
+[51210007] = {
+  ["areaId"]= {
+    12109007
+  },
+  ["Id"]= 51210007,
+  ["loadPath"]= "Jf_life301_01 (11)",
+  ["name"]= "吉芬椅子"
+},
+[51210008] = {
+  ["areaId"]= {
+    12109008
+  },
+  ["Id"]= 51210008,
+  ["loadPath"]= "Jf_life301_01 (12)",
+  ["name"]= "吉芬椅子"
+},
+[51210009] = {
+  ["areaId"]= {
+    12109009
+  },
+  ["Id"]= 51210009,
+  ["loadPath"]= "Jf_life301_01 (13)",
+  ["name"]= "吉芬椅子"
+},
+[51210010] = {
+  ["areaId"]= {
+    12109010
+  },
+  ["Id"]= 51210010,
+  ["loadPath"]= "Jf_life301_01 (17)",
+  ["name"]= "吉芬椅子"
+},
+[51210011] = {
+  ["areaId"]= {
+    12109011
+  },
+  ["Id"]= 51210011,
+  ["loadPath"]= "Jf_life301_01 (15)",
+  ["name"]= "吉芬椅子"
+},
+[51210012] = {
+  ["areaId"]= {
+    12109012
+  },
+  ["Id"]= 51210012,
+  ["loadPath"]= "Jf_life301_01 (16)",
+  ["name"]= "吉芬椅子"
+},
+[51210013] = {
+  ["areaId"]= {
+    12109013
+  },
+  ["Id"]= 51210013,
+  ["loadPath"]= "Jf_life301_01 (18)",
+  ["name"]= "吉芬椅子"
+},
+[51210014] = {
+  ["areaId"]= {
+    12109014
+  },
+  ["Id"]= 51210014,
+  ["loadPath"]= "Jf_life301_01 (21)",
+  ["name"]= "吉芬椅子"
+},
+[51210015] = {
+  ["areaId"]= {
+    12109015
+  },
+  ["Id"]= 51210015,
+  ["loadPath"]= "Jf_life301_01 (22)",
+  ["name"]= "吉芬椅子"
+},
+[51210016] = {
+  ["areaId"]= {
+    12109016
+  },
+  ["Id"]= 51210016,
+  ["loadPath"]= "Jf_life301_01 (23)",
+  ["name"]= "吉芬椅子"
+},
+[51210017] = {
+  ["areaId"]= {
+    12109017
+  },
+  ["Id"]= 51210017,
+  ["loadPath"]= "Jf_life301_01 (19)",
+  ["name"]= "吉芬椅子"
+},
+[51210018] = {
+  ["areaId"]= {
+    12109018
+  },
+  ["Id"]= 51210018,
+  ["loadPath"]= "Jf_life301_01 (24)",
+  ["name"]= "吉芬椅子"
+},
+[51210019] = {
+  ["areaId"]= {
+    12109019
+  },
+  ["Id"]= 51210019,
+  ["loadPath"]= "Jf_life301_01 (25)",
+  ["name"]= "吉芬椅子"
+},
+[51210020] = {
+  ["areaId"]= {
+    12109020
+  },
+  ["Id"]= 51210020,
+  ["loadPath"]= "Jf_life301_01 (26)",
+  ["name"]= "吉芬椅子"
+},
+[51210021] = {
+  ["areaId"]= {
+    12109021
+  },
+  ["Id"]= 51210021,
+  ["loadPath"]= "Jf_life301_01 (27)",
+  ["name"]= "吉芬椅子"
+},
+[51210022] = {
+  ["areaId"]= {
+    12109022
+  },
+  ["Id"]= 51210022,
+  ["loadPath"]= "Jf_life301_01 (28)",
+  ["name"]= "吉芬椅子"
+},
+[51210023] = {
+  ["areaId"]= {
+    12109023
+  },
+  ["Id"]= 51210023,
+  ["loadPath"]= "Jf_life301_01 (29)",
+  ["name"]= "吉芬椅子"
+},
+[51210024] = {
+  ["areaId"]= {
+    12109024
+  },
+  ["Id"]= 51210024,
+  ["loadPath"]= "Jf_life301_01 (30)",
+  ["name"]= "吉芬椅子"
+},
+[51210025] = {
+  ["areaId"]= {
+    12109025
+  },
+  ["Id"]= 51210025,
+  ["loadPath"]= "Jf_life301_01 (31)",
+  ["name"]= "吉芬椅子"
+},
+[51210026] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "SitOn_M"
+    },
+    {
+      ["actionName"]= "SitOn_M"
+    }
+  },
+  ["areaId"]= {
+    12109026
+  },
+  ["Id"]= 51210026,
+  ["loadPath"]= "Jf_life301_01 (7)",
+  ["name"]= "吉芬椅子"
+},
+[51710001] = {
+  ["areaId"]= {
+    17109001
+  },
+  ["Id"]= 51710001,
+  ["loadPath"]= "1710_Alberta_life301a (1)",
+  ["name"]= "艾尔帕兰椅子1"
+},
+[51710002] = {
+  ["areaId"]= {
+    17109002
+  },
+  ["Id"]= 51710002,
+  ["loadPath"]= "1710_Alberta_life301a (2)",
+  ["name"]= "艾尔帕兰椅子2"
+},
+[51710003] = {
+  ["areaId"]= {
+    17109003
+  },
+  ["Id"]= 51710003,
+  ["loadPath"]= "1710_Alberta_life301a (3)",
+  ["name"]= "艾尔帕兰椅子3"
+},
+[51710004] = {
+  ["areaId"]= {
+    17109004
+  },
+  ["Id"]= 51710004,
+  ["loadPath"]= "1710_Alberta_life301a (4)",
+  ["name"]= "艾尔帕兰椅子4"
+},
+[51710005] = {
+  ["areaId"]= {
+    17109005
+  },
+  ["Id"]= 51710005,
+  ["loadPath"]= "1710_Alberta_life301a (5)",
+  ["name"]= "艾尔帕兰椅子5"
+},
+[51710006] = {
+  ["areaId"]= {
+    17109006
+  },
+  ["Id"]= 51710006,
+  ["loadPath"]= "1710_Alberta_life301a (6)",
+  ["name"]= "艾尔帕兰椅子6"
+},
+[51710007] = {
+  ["areaId"]= {
+    17109007
+  },
+  ["Id"]= 51710007,
+  ["loadPath"]= "1710_Alberta_life301a (7)",
+  ["name"]= "艾尔帕兰椅子7"
+},
+[51710008] = {
+  ["areaId"]= {
+    17109008
+  },
+  ["Id"]= 51710008,
+  ["loadPath"]= "1710_Alberta_life301a (8)",
+  ["name"]= "艾尔帕兰椅子8"
+},
+[51710009] = {
+  ["areaId"]= {
+    17109009
+  },
+  ["Id"]= 51710009,
+  ["loadPath"]= "1710_Alberta_life301a (9)",
+  ["name"]= "艾尔帕兰椅子9"
+},
+[51710010] = {
+  ["areaId"]= {
+    17109010
+  },
+  ["Id"]= 51710010,
+  ["loadPath"]= "1710_Alberta_life301a (10)",
+  ["name"]= "艾尔帕兰椅子10"
+},
+[51710011] = {
+  ["areaId"]= {
+    17109011
+  },
+  ["Id"]= 51710011,
+  ["loadPath"]= "1710_Alberta_life301a (11)",
+  ["name"]= "艾尔帕兰椅子11"
+},
+[51710012] = {
+  ["areaId"]= {
+    17109012
+  },
+  ["Id"]= 51710012,
+  ["loadPath"]= "1710_Alberta_life301a (12)",
+  ["name"]= "艾尔帕兰椅子12"
+},
+[51710013] = {
+  ["areaId"]= {
+    17109013
+  },
+  ["Id"]= 51710013,
+  ["loadPath"]= "1710_Alberta_life301a (13)",
+  ["name"]= "艾尔帕兰椅子13"
+},
+[51710014] = {
+  ["areaId"]= {
+    17109014
+  },
+  ["Id"]= 51710014,
+  ["loadPath"]= "1710_Alberta_life301a (14)",
+  ["name"]= "艾尔帕兰椅子14"
+},
+[51710015] = {
+  ["areaId"]= {
+    17109015
+  },
+  ["Id"]= 51710015,
+  ["loadPath"]= "1710_Alberta_life301a (15)",
+  ["name"]= "艾尔帕兰椅子15"
+},
+[51710016] = {
+  ["areaId"]= {
+    17109016
+  },
+  ["Id"]= 51710016,
+  ["loadPath"]= "1710_Alberta_life301a (16)",
+  ["name"]= "艾尔帕兰椅子16"
+},
+[51710017] = {
+  ["areaId"]= {
+    17109017
+  },
+  ["Id"]= 51710017,
+  ["loadPath"]= "1710_Alberta_life301a (17)",
+  ["name"]= "艾尔帕兰椅子17"
+},
+[51710018] = {
+  ["areaId"]= {
+    17109018
+  },
+  ["Id"]= 51710018,
+  ["loadPath"]= "1710_Alberta_life301a (18)",
+  ["name"]= "艾尔帕兰椅子18"
+},
+[51710019] = {
+  ["areaId"]= {
+    17109019
+  },
+  ["Id"]= 51710019,
+  ["loadPath"]= "1710_Alberta_life301a (19)",
+  ["name"]= "艾尔帕兰椅子19"
+},
+[51710020] = {
+  ["areaId"]= {
+    17109020
+  },
+  ["Id"]= 51710020,
+  ["loadPath"]= "1710_Alberta_life301a (20)",
+  ["name"]= "艾尔帕兰椅子20"
+},
+[51710021] = {
+  ["areaId"]= {
+    17109021
+  },
+  ["Id"]= 51710021,
+  ["loadPath"]= "1710_Alberta_life301a (23)",
+  ["name"]= "艾尔帕兰椅子21"
+},
+[51710022] = {
+  ["areaId"]= {
+    17109022
+  },
+  ["Id"]= 51710022,
+  ["loadPath"]= "1710_Alberta_life301a (24)",
+  ["name"]= "艾尔帕兰椅子22"
+},
+[51710023] = {
+  ["areaId"]= {
+    17109022
+  },
+  ["Id"]= 51710023,
+  ["loadPath"]= "1710_Alberta_life301a",
+  ["name"]= "艾尔帕兰椅子22"
+},
+[51710108] = {
+  ["areaId"]= {
+    17109108
+  },
+  ["buttonText"]= "ui_Main_029",
+  ["Capacity"]= 1,
+  ["Id"]= 51710108,
+  ["loadPath"]= "1710_Alberta_lifeobject004 (8)+Instancing",
+  ["name"]= "艾尔帕兰单人椅1"
+},
+[51710109] = {
+  ["areaId"]= {
+    17109109
+  },
+  ["buttonText"]= "ui_Main_030",
+  ["Capacity"]= 1,
+  ["Id"]= 51710109,
+  ["loadPath"]= "1710_Alberta_lifeobject004 (9)+Instancing",
+  ["name"]= "艾尔帕兰单人椅2"
+},
+[51710110] = {
+  ["areaId"]= {
+    17109110
+  },
+  ["buttonText"]= "ui_Main_031",
+  ["Capacity"]= 1,
+  ["Id"]= 51710110,
+  ["loadPath"]= "1710_Alberta_lifeobject004 (10)+Instancing",
+  ["name"]= "艾尔帕兰单人椅3"
+},
+[51710111] = {
+  ["areaId"]= {
+    17109111
+  },
+  ["buttonText"]= "ui_Main_032",
+  ["Capacity"]= 1,
+  ["Id"]= 51710111,
+  ["loadPath"]= "1710_Alberta_lifeobject004 (11)+Instancing",
+  ["name"]= "艾尔帕兰单人椅4"
+},
+[51710112] = {
+  ["areaId"]= {
+    17109112
+  },
+  ["buttonText"]= "ui_Main_033",
+  ["Capacity"]= 1,
+  ["Id"]= 51710112,
+  ["loadPath"]= "1710_Alberta_lifeobject004 (12)+Instancing",
+  ["name"]= "艾尔帕兰单人椅5"
+},
+[51710113] = {
+  ["areaId"]= {
+    17109113
+  },
+  ["buttonText"]= "ui_Main_034",
+  ["Capacity"]= 1,
+  ["Id"]= 51710113,
+  ["loadPath"]= "1710_Alberta_lifeobject004 (13)+Instancing",
+  ["name"]= "艾尔帕兰单人椅6"
+},
+[51710114] = {
+  ["areaId"]= {
+    17109114
+  },
+  ["buttonText"]= "ui_Main_035",
+  ["Capacity"]= 1,
+  ["Id"]= 51710114,
+  ["loadPath"]= "1710_Alberta_lifeobject004 (14)+Instancing",
+  ["name"]= "艾尔帕兰单人椅7"
+},
+[51710115] = {
+  ["areaId"]= {
+    17109115
+  },
+  ["buttonText"]= "ui_Main_036",
+  ["Capacity"]= 1,
+  ["Id"]= 51710115,
+  ["loadPath"]= "1710_Alberta_lifeobject004 (15)+Instancing",
+  ["name"]= "艾尔帕兰单人椅8"
+},
+[51710116] = {
+  ["areaId"]= {
+    17109116
+  },
+  ["buttonText"]= "ui_Main_037",
+  ["Capacity"]= 1,
+  ["Id"]= 51710116,
+  ["loadPath"]= "1710_Alberta_lifeobject004 (16)+Instancing",
+  ["name"]= "艾尔帕兰单人椅9"
+},
+[51710117] = {
+  ["areaId"]= {
+    17109117
+  },
+  ["buttonText"]= "ui_Main_038",
+  ["Capacity"]= 1,
+  ["Id"]= 51710117,
+  ["loadPath"]= "1710_Alberta_lifeobject004 (17)+Instancing",
+  ["name"]= "艾尔帕兰单人椅10"
+},
+[51710118] = {
+  ["areaId"]= {
+    17109118
+  },
+  ["buttonText"]= "ui_Main_039",
+  ["Capacity"]= 1,
+  ["Id"]= 51710118,
+  ["loadPath"]= "1710_Alberta_lifeobject004 (18)+Instancing",
+  ["name"]= "艾尔帕兰单人椅11"
+},
+[51710119] = {
+  ["areaId"]= {
+    17109119
+  },
+  ["buttonText"]= "ui_Main_040",
+  ["Capacity"]= 1,
+  ["Id"]= 51710119,
+  ["loadPath"]= "1710_Alberta_lifeobject004 (19)+Instancing",
+  ["name"]= "艾尔帕兰单人椅12"
+},
+[51710120] = {
+  ["areaId"]= {
+    17109120
+  },
+  ["buttonText"]= "ui_Main_041",
+  ["Capacity"]= 1,
+  ["Id"]= 51710120,
+  ["loadPath"]= "1710_Alberta_lifeobject004 (20)+Instancing",
+  ["name"]= "艾尔帕兰单人椅13"
+},
+[51710121] = {
+  ["areaId"]= {
+    17109121
+  },
+  ["buttonText"]= "ui_Main_042",
+  ["Capacity"]= 1,
+  ["Id"]= 51710121,
+  ["loadPath"]= "1710_Alberta_lifeobject004 (21)+Instancing",
+  ["name"]= "艾尔帕兰单人椅14"
+},
+[51710122] = {
+  ["areaId"]= {
+    17109122
+  },
+  ["buttonText"]= "ui_Main_043",
+  ["Capacity"]= 1,
+  ["Id"]= 51710122,
+  ["loadPath"]= "1710_Alberta_lifeobject004 (22)+Instancing",
+  ["name"]= "艾尔帕兰单人椅15"
+},
+[51710123] = {
+  ["areaId"]= {
+    17109123
+  },
+  ["buttonText"]= "ui_Main_044",
+  ["Capacity"]= 1,
+  ["Id"]= 51710123,
+  ["loadPath"]= "1710_Alberta_lifeobject004 (23)+Instancing",
+  ["name"]= "艾尔帕兰单人椅16"
+},
+[51710124] = {
+  ["areaId"]= {
+    17109124
+  },
+  ["buttonText"]= "ui_Main_045",
+  ["Capacity"]= 1,
+  ["Id"]= 51710124,
+  ["loadPath"]= "1710_Alberta_lifeobject004 (24)+Instancing",
+  ["name"]= "艾尔帕兰单人椅17"
+},
+[51710125] = {
+  ["areaId"]= {
+    17109125
+  },
+  ["buttonText"]= "ui_Main_046",
+  ["Capacity"]= 1,
+  ["Id"]= 51710125,
+  ["loadPath"]= "1710_Alberta_lifeobject004 (25)+Instancing",
+  ["name"]= "艾尔帕兰单人椅18"
+},
+[51710126] = {
+  ["areaId"]= {
+    17109126
+  },
+  ["buttonText"]= "ui_Main_047",
+  ["Capacity"]= 1,
+  ["Id"]= 51710126,
+  ["loadPath"]= "1710_Alberta_lifeobject004 (26)+Instancing",
+  ["name"]= "艾尔帕兰单人椅19"
+},
+[51710127] = {
+  ["areaId"]= {
+    17109127
+  },
+  ["buttonText"]= "ui_Main_048",
+  ["Capacity"]= 1,
+  ["Id"]= 51710127,
+  ["loadPath"]= "1710_Alberta_lifeobject004 (27)+Instancing",
+  ["name"]= "艾尔帕兰单人椅20"
+},
+[51710128] = {
+  ["areaId"]= {
+    17109128
+  },
+  ["buttonText"]= "ui_Main_049",
+  ["Capacity"]= 1,
+  ["Id"]= 51710128,
+  ["loadPath"]= "1710_Alberta_lifeobject004 (28)+Instancing",
+  ["name"]= "艾尔帕兰单人椅21"
+},
+[51710129] = {
+  ["areaId"]= {
+    17109129
+  },
+  ["buttonText"]= "ui_Main_050",
+  ["Capacity"]= 1,
+  ["Id"]= 51710129,
+  ["loadPath"]= "1710_Alberta_lifeobject004 (29)+Instancing",
+  ["name"]= "艾尔帕兰单人椅22"
+},
+[51710130] = {
+  ["areaId"]= {
+    17109130
+  },
+  ["buttonText"]= "ui_Main_051",
+  ["Capacity"]= 1,
+  ["Id"]= 51710130,
+  ["loadPath"]= "1710_Alberta_lifeobject004 (30)+Instancing",
+  ["name"]= "艾尔帕兰单人椅23"
+},
+[51710131] = {
+  ["areaId"]= {
+    17109131
+  },
+  ["buttonText"]= "ui_Main_052",
+  ["Capacity"]= 1,
+  ["Id"]= 51710131,
+  ["loadPath"]= "1710_Alberta_lifeobject004 (31)+Instancing",
+  ["name"]= "艾尔帕兰单人椅24"
+},
+[51710132] = {
+  ["areaId"]= {
+    17109132
+  },
+  ["buttonText"]= "ui_Main_053",
+  ["Capacity"]= 1,
+  ["Id"]= 51710132,
+  ["loadPath"]= "1710_Alberta_lifeobject004 (32)+Instancing",
+  ["name"]= "艾尔帕兰单人椅25"
+},
+[51710133] = {
+  ["areaId"]= {
+    17109133
+  },
+  ["buttonText"]= "ui_Main_054",
+  ["Capacity"]= 1,
+  ["Id"]= 51710133,
+  ["loadPath"]= "1710_Alberta_lifeobject004 (33)+Instancing",
+  ["name"]= "艾尔帕兰单人椅26"
+},
+[51710134] = {
+  ["areaId"]= {
+    17109134
+  },
+  ["buttonText"]= "ui_Main_055",
+  ["Capacity"]= 1,
+  ["Id"]= 51710134,
+  ["loadPath"]= "1710_Alberta_lifeobject004 (34)+Instancing",
+  ["name"]= "艾尔帕兰单人椅27"
+},
+[51710135] = {
+  ["areaId"]= {
+    17109135
+  },
+  ["buttonText"]= "ui_Main_056",
+  ["Capacity"]= 1,
+  ["Id"]= 51710135,
+  ["loadPath"]= "1710_Alberta_lifeobject004 (35)+Instancing",
+  ["name"]= "艾尔帕兰单人椅28"
+},
+[51710136] = {
+  ["areaId"]= {
+    17109136
+  },
+  ["buttonText"]= "ui_Main_057",
+  ["Capacity"]= 1,
+  ["Id"]= 51710136,
+  ["loadPath"]= "1710_Alberta_lifeobject004 (36)+Instancing",
+  ["name"]= "艾尔帕兰单人椅29"
+},
+[51710137] = {
+  ["areaId"]= {
+    17109137
+  },
+  ["buttonText"]= "ui_Main_058",
+  ["Capacity"]= 1,
+  ["Id"]= 51710137,
+  ["loadPath"]= "1710_Alberta_lifeobject004 (37)+Instancing",
+  ["name"]= "艾尔帕兰单人椅30"
+},
+[51710138] = {
+  ["areaId"]= {
+    17109138
+  },
+  ["buttonText"]= "ui_Main_059",
+  ["Capacity"]= 1,
+  ["Id"]= 51710138,
+  ["loadPath"]= "1710_Alberta_lifeobject004 (38)+Instancing",
+  ["name"]= "艾尔帕兰单人椅31"
+},
+[56000001] = {
+  ["areaId"]= {
+    60009001
+  },
+  ["Id"]= 56000001,
+  ["loadPath"]= "nm_newbench101",
+  ["name"]= "公会椅子"
+},
+[56000002] = {
+  ["areaId"]= {
+    60009002
+  },
+  ["Id"]= 56000002,
+  ["loadPath"]= "nm_newbench101 (1)",
+  ["name"]= "公会椅子"
+},
+[56000003] = {
+  ["areaId"]= {
+    60009003
+  },
+  ["Id"]= 56000003,
+  ["loadPath"]= "nm_newbench101 (2)",
+  ["name"]= "公会椅子"
+},
+[56000004] = {
+  ["areaId"]= {
+    60009004
+  },
+  ["Id"]= 56000004,
+  ["loadPath"]= "nm_newbench101 (3)",
+  ["name"]= "公会椅子"
+},
+[56000005] = {
+  ["areaId"]= {
+    60009005
+  },
+  ["Id"]= 56000005,
+  ["loadPath"]= "nm_newbench101 (5)",
+  ["name"]= "公会椅子"
+},
+[56000006] = {
+  ["areaId"]= {
+    60009006
+  },
+  ["Id"]= 56000006,
+  ["loadPath"]= "nm_newbench101 (6)",
+  ["name"]= "公会椅子"
+},
+[56000007] = {
+  ["areaId"]= {
+    60009007
+  },
+  ["Id"]= 56000007,
+  ["loadPath"]= "nm_newbench101 (7)",
+  ["name"]= "公会椅子"
+},
+[56000008] = {
+  ["areaId"]= {
+    60009008
+  },
+  ["Id"]= 56000008,
+  ["loadPath"]= "nm_newbench101 (8)",
+  ["name"]= "公会椅子"
+},
+[56000009] = {
+  ["areaId"]= {
+    60009009
+  },
+  ["Id"]= 56000009,
+  ["loadPath"]= "nm_newbench101 (9)",
+  ["name"]= "公会椅子"
+},
+[56000010] = {
+  ["areaId"]= {
+    60009010
+  },
+  ["Id"]= 56000010,
+  ["loadPath"]= "nm_newbench101 (10)",
+  ["name"]= "公会椅子"
+},
+[56000011] = {
+  ["areaId"]= {
+    60009011
+  },
+  ["Id"]= 56000011,
+  ["loadPath"]= "nm_newbench101 (11)",
+  ["name"]= "公会椅子"
+},
+[56000012] = {
+  ["areaId"]= {
+    60009012
+  },
+  ["Id"]= 56000012,
+  ["loadPath"]= "nm_newbench101 (13)",
+  ["name"]= "公会椅子"
+},
+[56000013] = {
+  ["areaId"]= {
+    60009013
+  },
+  ["Id"]= 56000013,
+  ["loadPath"]= "nm_newbench101 (15)",
+  ["name"]= "公会椅子"
+},
+[56000014] = {
+  ["areaId"]= {
+    60009014
+  },
+  ["Id"]= 56000014,
+  ["loadPath"]= "nm_newbench101 (16)",
+  ["name"]= "公会椅子"
+},
+[56000015] = {
+  ["areaId"]= {
+    60009015
+  },
+  ["Id"]= 56000015,
+  ["loadPath"]= "nm_newbench101 (14)",
+  ["name"]= "公会椅子"
+},
+[56000016] = {
+  ["areaId"]= {
+    60009016
+  },
+  ["Id"]= 56000016,
+  ["loadPath"]= "nm_newbench101 (17)",
+  ["name"]= "公会椅子"
+},
+[56000017] = {
+  ["areaId"]= {
+    60009017
+  },
+  ["Id"]= 56000017,
+  ["loadPath"]= "nm_newbench101 (18)",
+  ["name"]= "公会椅子"
+},
+[61020001] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "Bear_Pig"
+    },
+    {
+      ["actionName"]= "Bear_Pig"
+    }
+  },
+  ["areaId"]= {
+    10209040
+  },
+  ["buttonText"]= "ui_Main_055",
+  ["Capacity"]= 1,
+  ["customDisId"]= 9,
+  ["Id"]= 61020001,
+  ["isShowShadow"]= 0,
+  ["loadPath"]= "nm_bear101 (2)",
+  ["name"]= "摇椅-熊",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["triggerRadius"]= 40,
+  ["type"]= 9
+},
+[61020002] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "Bear_Pig"
+    },
+    {
+      ["actionName"]= "Bear_Pig"
+    }
+  },
+  ["areaId"]= {
+    10209041
+  },
+  ["buttonText"]= "ui_Main_055",
+  ["Capacity"]= 1,
+  ["customDisId"]= 9,
+  ["Id"]= 61020002,
+  ["isShowShadow"]= 0,
+  ["loadPath"]= "nm_bear101 (4)",
+  ["name"]= "摇椅-熊",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["triggerRadius"]= 40,
+  ["type"]= 9
+},
+[61020003] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "Bear_Pig"
+    },
+    {
+      ["actionName"]= "Bear_Pig"
+    }
+  },
+  ["areaId"]= {
+    10209042
+  },
+  ["buttonText"]= "ui_Main_055",
+  ["Capacity"]= 1,
+  ["customDisId"]= 9,
+  ["Id"]= 61020003,
+  ["isShowShadow"]= 0,
+  ["loadPath"]= "nm_bear101 (5)",
+  ["name"]= "摇椅-熊",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["triggerRadius"]= 40,
+  ["type"]= 9
+},
+[61020004] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "Hourse"
+    },
+    {
+      ["actionName"]= "Hourse"
+    }
+  },
+  ["areaId"]= {
+    10209043
+  },
+  ["buttonText"]= "ui_Main_055",
+  ["Capacity"]= 1,
+  ["customDisId"]= 9,
+  ["Id"]= 61020004,
+  ["isShowShadow"]= 0,
+  ["loadPath"]= "nm_horse101 (2)",
+  ["name"]= "摇椅-马",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["triggerRadius"]= 40,
+  ["type"]= 9
+},
+[61020005] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "Hourse"
+    },
+    {
+      ["actionName"]= "Hourse"
+    }
+  },
+  ["areaId"]= {
+    10209044
+  },
+  ["buttonText"]= "ui_Main_055",
+  ["Capacity"]= 1,
+  ["customDisId"]= 9,
+  ["Id"]= 61020005,
+  ["isShowShadow"]= 0,
+  ["loadPath"]= "nm_horse101 (4)",
+  ["name"]= "摇椅-马",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["triggerRadius"]= 40,
+  ["type"]= 9
+},
+[61020006] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "Hourse"
+    },
+    {
+      ["actionName"]= "Hourse"
+    }
+  },
+  ["areaId"]= {
+    10209045
+  },
+  ["buttonText"]= "ui_Main_055",
+  ["Capacity"]= 1,
+  ["customDisId"]= 9,
+  ["Id"]= 61020006,
+  ["isShowShadow"]= 0,
+  ["loadPath"]= "nm_horse101 (5)",
+  ["name"]= "摇椅-马",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["triggerRadius"]= 40,
+  ["type"]= 9
+},
+[61020007] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "Bear_Pig"
+    },
+    {
+      ["actionName"]= "Bear_Pig"
+    }
+  },
+  ["areaId"]= {
+    10209046
+  },
+  ["buttonText"]= "ui_Main_055",
+  ["Capacity"]= 1,
+  ["customDisId"]= 9,
+  ["Id"]= 61020007,
+  ["isShowShadow"]= 0,
+  ["loadPath"]= "nm_pig101 (2)",
+  ["name"]= "摇椅-猪",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["triggerRadius"]= 40,
+  ["type"]= 9
+},
+[61020008] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "Bear_Pig"
+    },
+    {
+      ["actionName"]= "Bear_Pig"
+    }
+  },
+  ["areaId"]= {
+    10209047
+  },
+  ["buttonText"]= "ui_Main_055",
+  ["Capacity"]= 1,
+  ["customDisId"]= 9,
+  ["Id"]= 61020008,
+  ["isShowShadow"]= 0,
+  ["loadPath"]= "nm_pig101 (4)",
+  ["name"]= "摇椅-猪",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["triggerRadius"]= 40,
+  ["type"]= 9
+},
+[61020009] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "Bear_Pig"
+    },
+    {
+      ["actionName"]= "Bear_Pig"
+    }
+  },
+  ["areaId"]= {
+    10209048
+  },
+  ["buttonText"]= "ui_Main_055",
+  ["Capacity"]= 1,
+  ["customDisId"]= 9,
+  ["Id"]= 61020009,
+  ["isShowShadow"]= 0,
+  ["loadPath"]= "nm_pig101 (5)",
+  ["name"]= "摇椅-猪",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["triggerRadius"]= 40,
+  ["type"]= 9
+},
+[61020010] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "qiaoqiaoban_Idle"
+    },
+    {
+      ["actionName"]= "qiaoqiaoban_Idle"
+    }
+  },
+  ["animationTime"]= 900,
+  ["areaId"]= {
+    10209049,
+    10209050
+  },
+  ["CarrierButtonSound"]= 1,
+  ["customDisId"]= 8,
+  ["Id"]= 61020010,
+  ["isAreaInSeat"]= 1,
+  ["loadPath"]= "nm_alpaca101 (1)",
+  ["name"]= "跷跷板",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["sitSound"]= 0,
+  ["triggerRadius"]= 40,
+  ["type"]= 8
+},
+[61020011] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "qiaoqiaoban_Idle"
+    },
+    {
+      ["actionName"]= "qiaoqiaoban_Idle"
+    }
+  },
+  ["animationTime"]= 900,
+  ["areaId"]= {
+    10209051,
+    10209052
+  },
+  ["CarrierButtonSound"]= 1,
+  ["customDisId"]= 8,
+  ["Id"]= 61020011,
+  ["isAreaInSeat"]= 1,
+  ["loadPath"]= "nm_alpaca101 (2)",
+  ["name"]= "跷跷板",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["sitSound"]= 0,
+  ["triggerRadius"]= 40,
+  ["type"]= 8
+},
+[61020012] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "qiaoqiaoban_Idle"
+    },
+    {
+      ["actionName"]= "qiaoqiaoban_Idle"
+    }
+  },
+  ["animationTime"]= 900,
+  ["areaId"]= {
+    10209053,
+    10209054
+  },
+  ["CarrierButtonSound"]= 1,
+  ["customDisId"]= 8,
+  ["Id"]= 61020012,
+  ["isAreaInSeat"]= 1,
+  ["loadPath"]= "nm_alpaca101 (3)",
+  ["name"]= "跷跷板",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["sitSound"]= 0,
+  ["triggerRadius"]= 40,
+  ["type"]= 8
+},
+[61020013] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "SitOn_Loop_M"
+    },
+    {
+      ["actionName"]= "SitOn_Loop_W"
+    }
+  },
+  ["areaId"]= {
+    10209055
+  },
+  ["CarrierButtonSound"]= 1,
+  ["customDisId"]= 9,
+  ["focusingCarrier"]= 1,
+  ["Id"]= 61020013,
+  ["loadPath"]= "nm_swing201 (1)",
+  ["name"]= "普通秋千",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["triggerRadius"]= 40,
+  ["type"]= 9
+},
+[61020014] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "SitOn_Loop_M"
+    },
+    {
+      ["actionName"]= "SitOn_Loop_W"
+    }
+  },
+  ["areaId"]= {
+    10209056
+  },
+  ["CarrierButtonSound"]= 1,
+  ["customDisId"]= 9,
+  ["focusingCarrier"]= 1,
+  ["Id"]= 61020014,
+  ["loadPath"]= "nm_swing201 (2)",
+  ["name"]= "普通秋千",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["triggerRadius"]= 40,
+  ["type"]= 9
+},
+[61020015] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "SitOn_Loop_M"
+    },
+    {
+      ["actionName"]= "SitOn_Loop_W"
+    }
+  },
+  ["areaId"]= {
+    10209057
+  },
+  ["CarrierButtonSound"]= 1,
+  ["customDisId"]= 9,
+  ["focusingCarrier"]= 1,
+  ["Id"]= 61020015,
+  ["loadPath"]= "nm_swing201 (3)",
+  ["name"]= "普通秋千",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["triggerRadius"]= 40,
+  ["type"]= 9
+},
+[61020016] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "Bear_Pig"
+    },
+    {
+      ["actionName"]= "Bear_Pig"
+    }
+  },
+  ["areaId"]= {
+    7900301
+  },
+  ["buttonText"]= "ui_Main_055",
+  ["Capacity"]= 1,
+  ["customDisId"]= 9,
+  ["Id"]= 61020016,
+  ["isShowShadow"]= 0,
+  ["loadPath"]= "nm_bear101 (2)",
+  ["name"]= "元宵-摇椅-熊",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["triggerRadius"]= 40,
+  ["type"]= 9
+},
+[61020017] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "Bear_Pig"
+    },
+    {
+      ["actionName"]= "Bear_Pig"
+    }
+  },
+  ["areaId"]= {
+    7900302
+  },
+  ["buttonText"]= "ui_Main_055",
+  ["Capacity"]= 1,
+  ["customDisId"]= 9,
+  ["Id"]= 61020017,
+  ["isShowShadow"]= 0,
+  ["loadPath"]= "nm_bear101",
+  ["name"]= "元宵-摇椅-熊",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["triggerRadius"]= 40,
+  ["type"]= 9
+},
+[61020018] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "Bear_Pig"
+    },
+    {
+      ["actionName"]= "Bear_Pig"
+    }
+  },
+  ["areaId"]= {
+    7900303
+  },
+  ["buttonText"]= "ui_Main_055",
+  ["Capacity"]= 1,
+  ["customDisId"]= 9,
+  ["Id"]= 61020018,
+  ["isShowShadow"]= 0,
+  ["loadPath"]= "nm_pig101 (2)",
+  ["name"]= "元宵-摇椅-猪",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["triggerRadius"]= 40,
+  ["type"]= 9
+},
+[61020019] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "Bear_Pig"
+    },
+    {
+      ["actionName"]= "Bear_Pig"
+    }
+  },
+  ["areaId"]= {
+    7900304
+  },
+  ["buttonText"]= "ui_Main_055",
+  ["Capacity"]= 1,
+  ["customDisId"]= 9,
+  ["Id"]= 61020019,
+  ["isShowShadow"]= 0,
+  ["loadPath"]= "nm_pig101",
+  ["name"]= "元宵-摇椅-猪",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["triggerRadius"]= 40,
+  ["type"]= 9
+},
+[61020020] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "Hourse"
+    },
+    {
+      ["actionName"]= "Hourse"
+    }
+  },
+  ["areaId"]= {
+    7900305
+  },
+  ["buttonText"]= "ui_Main_055",
+  ["Capacity"]= 1,
+  ["customDisId"]= 9,
+  ["Id"]= 61020020,
+  ["isShowShadow"]= 0,
+  ["loadPath"]= "nm_horse101 (2)",
+  ["name"]= "元宵-摇椅-马",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["triggerRadius"]= 40,
+  ["type"]= 9
+},
+[61020021] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "Hourse"
+    },
+    {
+      ["actionName"]= "Hourse"
+    }
+  },
+  ["areaId"]= {
+    7900306
+  },
+  ["buttonText"]= "ui_Main_055",
+  ["Capacity"]= 1,
+  ["customDisId"]= 9,
+  ["Id"]= 61020021,
+  ["isShowShadow"]= 0,
+  ["loadPath"]= "nm_horse101",
+  ["name"]= "元宵-摇椅-马",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["triggerRadius"]= 40,
+  ["type"]= 9
+},
+[61110001] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "qiaoqiaoban_Idle"
+    },
+    {
+      ["actionName"]= "qiaoqiaoban_Idle"
+    }
+  },
+  ["animationTime"]= 900,
+  ["areaId"]= {
+    1110222,
+    1110223
+  },
+  ["CarrierButtonSound"]= 1,
+  ["customDisId"]= 8,
+  ["Id"]= 61110001,
+  ["isAreaInSeat"]= 1,
+  ["loadPath"]= "nm_alpaca101",
+  ["name"]= "跷跷板",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["sitSound"]= 0,
+  ["triggerRadius"]= 40,
+  ["type"]= 8
+},
+[61270001] = {
+  ["areaId"]= {
+    12709101
+  },
+  ["Capacity"]= 1,
+  ["Id"]= 61270001,
+  ["loadPath"]= "srdx_wangzuo101",
+  ["name"]= "兽人洞穴王座"
+},
+[61710001] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "SitOn_Loop_M"
+    },
+    {
+      ["actionName"]= "SitOn_Loop_W"
+    }
+  },
+  ["areaId"]= {
+    17109023
+  },
+  ["CarrierButtonSound"]= 1,
+  ["customDisId"]= 9,
+  ["focusingCarrier"]= 1,
+  ["Id"]= 61710001,
+  ["loadPath"]= "1710_newlife_003 (1)",
+  ["name"]= "艾尔帕兰秋千",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["triggerRadius"]= 40,
+  ["type"]= 9
+},
+[61710002] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "SitOn_Loop_M"
+    },
+    {
+      ["actionName"]= "SitOn_Loop_W"
+    }
+  },
+  ["areaId"]= {
+    17109024
+  },
+  ["CarrierButtonSound"]= 1,
+  ["customDisId"]= 9,
+  ["focusingCarrier"]= 1,
+  ["Id"]= 61710002,
+  ["loadPath"]= "1710_newlife_003 (2)",
+  ["name"]= "艾尔帕兰秋千",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["triggerRadius"]= 40,
+  ["type"]= 9
+},
+[61710003] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "SitOn_Loop_M"
+    },
+    {
+      ["actionName"]= "SitOn_Loop_W"
+    }
+  },
+  ["areaId"]= {
+    17109025
+  },
+  ["CarrierButtonSound"]= 1,
+  ["customDisId"]= 9,
+  ["focusingCarrier"]= 1,
+  ["Id"]= 61710003,
+  ["loadPath"]= "1710_newlife_003 (3)",
+  ["name"]= "艾尔帕兰秋千",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["triggerRadius"]= 40,
+  ["type"]= 9
+},
+[61710004] = {
+  ["actionList"]= {
+    {
+      ["actionName"]= "SitOn_Loop_M"
+    },
+    {
+      ["actionName"]= "SitOn_Loop_W"
+    }
+  },
+  ["areaId"]= {
+    17109026
+  },
+  ["CarrierButtonSound"]= 1,
+  ["customDisId"]= 9,
+  ["focusingCarrier"]= 1,
+  ["Id"]= 61710004,
+  ["loadPath"]= "1710_newlife_003 (4)",
+  ["name"]= "艾尔帕兰秋千",
+  ["operateMode"]= 1,
+  ["passengerNpcId"]= {},
+  ["passengerSeat"]= {},
+  ["triggerRadius"]= 40,
+  ["type"]= 9
+},
+[71530001] = {
+  ["areaId"]= {
+    15309101
+  },
+  ["Capacity"]= 4,
+  ["customDisId"]= 10,
+  ["gameIds"]= {
+    1
+  },
+  ["Id"]= 71530001,
+  ["loadPath"]= "gametable001",
+  ["name"]= "玫瑰红酒馆4座",
+  ["ShowNpc"]= 62011,
+  ["type"]= 10
+},
+[71530002] = {
+  ["areaId"]= {
+    15309102
+  },
+  ["Capacity"]= 6,
+  ["customDisId"]= 10,
+  ["gameIds"]= {
+    1
+  },
+  ["Id"]= 71530002,
+  ["loadPath"]= "gametable002",
+  ["name"]= "玫瑰红酒馆6座",
+  ["ShowNpc"]= 62011,
+  ["type"]= 10
+},
+[71530003] = {
+  ["areaId"]= {
+    15309103
+  },
+  ["Capacity"]= 4,
+  ["customDisId"]= 10,
+  ["gameIds"]= {
+    1
+  },
+  ["Id"]= 71530003,
+  ["loadPath"]= "gametable003",
+  ["name"]= "玫瑰红酒馆4座",
+  ["ShowNpc"]= 62011,
+  ["type"]= 10
+},
+[71530004] = {
+  ["areaId"]= {
+    15309104
+  },
+  ["Capacity"]= 4,
+  ["customDisId"]= 10,
+  ["gameIds"]= {
+    1
+  },
+  ["Id"]= 71530004,
+  ["loadPath"]= "gametable004",
+  ["name"]= "玫瑰红酒馆4座",
+  ["ShowNpc"]= 62011,
+  ["type"]= 10
+},
+[71530005] = {
+  ["areaId"]= {
+    15309105
+  },
+  ["Capacity"]= 4,
+  ["customDisId"]= 10,
+  ["gameIds"]= {
+    1
+  },
+  ["Id"]= 71530005,
+  ["loadPath"]= "gametable005",
+  ["name"]= "玫瑰红酒馆4座",
+  ["ShowNpc"]= 62011,
+  ["type"]= 10
+},
+[71530006] = {
+  ["areaId"]= {
+    15309106
+  },
+  ["Capacity"]= 6,
+  ["customDisId"]= 10,
+  ["gameIds"]= {
+    1
+  },
+  ["Id"]= 71530006,
+  ["loadPath"]= "gametable006",
+  ["name"]= "玫瑰红酒馆6座",
+  ["ShowNpc"]= 62011,
+  ["type"]= 10
+},
+[71570001] = {
+  ["areaId"]= {
+    15709101
+  },
+  ["Capacity"]= 4,
+  ["customDisId"]= 10,
+  ["gameIds"]= {
+    1
+  },
+  ["Id"]= 71570001,
+  ["loadPath"]= "gametable001",
+  ["name"]= "沙漠绿酒馆4座",
+  ["ShowNpc"]= 62047,
+  ["type"]= 10
+},
+[71570002] = {
+  ["areaId"]= {
+    15709102
+  },
+  ["Capacity"]= 4,
+  ["customDisId"]= 10,
+  ["gameIds"]= {
+    1
+  },
+  ["Id"]= 71570002,
+  ["loadPath"]= "gametable002",
+  ["name"]= "沙漠绿酒馆4座",
+  ["ShowNpc"]= 62047,
+  ["type"]= 10
+},
+[71570003] = {
+  ["areaId"]= {
+    15709103
+  },
+  ["Capacity"]= 4,
+  ["customDisId"]= 10,
+  ["gameIds"]= {
+    1
+  },
+  ["Id"]= 71570003,
+  ["loadPath"]= "gametable003",
+  ["name"]= "沙漠绿酒馆4座",
+  ["ShowNpc"]= 62047,
+  ["type"]= 10
+},
+[71570004] = {
+  ["areaId"]= {
+    15709104
+  },
+  ["Capacity"]= 4,
+  ["customDisId"]= 10,
+  ["gameIds"]= {
+    1
+  },
+  ["Id"]= 71570004,
+  ["loadPath"]= "gametable004",
+  ["name"]= "沙漠绿酒馆4座",
+  ["ShowNpc"]= 62047,
+  ["type"]= 10
+},
+[71570005] = {
+  ["areaId"]= {
+    15709105
+  },
+  ["Capacity"]= 6,
+  ["customDisId"]= 10,
+  ["gameIds"]= {
+    1
+  },
+  ["Id"]= 71570005,
+  ["loadPath"]= "gametable005",
+  ["name"]= "沙漠绿酒馆6座",
+  ["ShowNpc"]= 62047,
+  ["type"]= 10
+},
+[71570006] = {
+  ["areaId"]= {
+    15709106
+  },
+  ["Capacity"]= 6,
+  ["customDisId"]= 10,
+  ["gameIds"]= {
+    1
+  },
+  ["Id"]= 71570006,
+  ["loadPath"]= "gametable006",
+  ["name"]= "沙漠绿酒馆6座",
+  ["ShowNpc"]= 62047,
+  ["type"]= 10
+},
+[71580001] = {
+  ["areaId"]= {
+    15809101
+  },
+  ["Capacity"]= 4,
+  ["customDisId"]= 10,
+  ["gameIds"]= {
+    1
+  },
+  ["Id"]= 71580001,
+  ["loadPath"]= "gametable001",
+  ["name"]= "宝石蓝酒馆4座",
+  ["ShowNpc"]= 62140,
+  ["type"]= 10
+},
+[71580002] = {
+  ["areaId"]= {
+    15809102
+  },
+  ["Capacity"]= 4,
+  ["customDisId"]= 10,
+  ["gameIds"]= {
+    1
+  },
+  ["Id"]= 71580002,
+  ["loadPath"]= "gametable002",
+  ["name"]= "宝石蓝酒馆4座",
+  ["ShowNpc"]= 62140,
+  ["type"]= 10
+},
+[71580003] = {
+  ["areaId"]= {
+    15809103
+  },
+  ["Capacity"]= 4,
+  ["customDisId"]= 10,
+  ["gameIds"]= {
+    1
+  },
+  ["Id"]= 71580003,
+  ["loadPath"]= "gametable003",
+  ["name"]= "宝石蓝酒馆4座",
+  ["ShowNpc"]= 62140,
+  ["type"]= 10
+},
+[71580004] = {
+  ["areaId"]= {
+    15809104
+  },
+  ["Capacity"]= 4,
+  ["customDisId"]= 10,
+  ["gameIds"]= {
+    1
+  },
+  ["Id"]= 71580004,
+  ["loadPath"]= "gametable004",
+  ["name"]= "宝石蓝酒馆4座",
+  ["ShowNpc"]= 62140,
+  ["type"]= 10
+},
+[71580005] = {
+  ["areaId"]= {
+    15809105
+  },
+  ["Capacity"]= 4,
+  ["customDisId"]= 10,
+  ["gameIds"]= {
+    1
+  },
+  ["Id"]= 71580005,
+  ["loadPath"]= "gametable005",
+  ["name"]= "宝石蓝酒馆4座",
+  ["ShowNpc"]= 62140,
+  ["type"]= 10
+},
+[71580006] = {
+  ["areaId"]= {
+    15809106
+  },
+  ["Capacity"]= 6,
+  ["customDisId"]= 10,
+  ["gameIds"]= {
+    1
+  },
+  ["Id"]= 71580006,
+  ["loadPath"]= "gametable006",
+  ["name"]= "宝石蓝酒馆6座",
+  ["ShowNpc"]= 62140,
+  ["type"]= 10
+},
+[71580007] = {
+  ["areaId"]= {
+    15809107
+  },
+  ["Capacity"]= 4,
+  ["customDisId"]= 10,
+  ["gameIds"]= {
+    1
+  },
+  ["Id"]= 71580007,
+  ["loadPath"]= "gametable007",
+  ["name"]= "宝石蓝酒馆4座",
+  ["ShowNpc"]= 62140,
+  ["type"]= 10
+}
+}
+local baseTable={
+  ["actionList"]= {
+    {
+      ["actionName"]= "SitOn_M"
+    },
+    {
+      ["actionName"]= "SitOn_W"
+    }
+  },
+  ["animationTime"]= 0,
+  ["AnnouncementId"]= 0,
+  ["appearMusic"]= "",
+  ["areaId"]= {},
+  ["astrictMoveMode"]= 1,
+  ["behaviorId"]= 0,
+  ["bgmCarryOn"]= "",
+  ["bonusHeadCntInterval"]= 0,
+  ["bonusHeadCntSpecialNum"]= {},
+  ["bonusReward"]= 0,
+  ["buttonText"]= "ui_Main_028",
+  ["canGetOff"]= 1,
+  ["canUseSkill"]= 0,
+  ["Capacity"]= 2,
+  ["CarrierButtonSound"]= 0,
+  ["carrierTips"]= "",
+  ["condition"]= 0,
+  ["customDisId"]= 3,
+  ["doubleFallDeviation"]= 0,
+  ["doubles"]= {},
+  ["doubleTicket"]= 0,
+  ["endArea"]= 0,
+  ["endPoint"]= {},
+  ["exitActiveArea"]= 0,
+  ["fallCurve"]= "",
+  ["focusingCarrier"]= 0,
+  ["functionName"]= "",
+  ["functionParam"]= {},
+  ["gameIds"]= {},
+  ["Id"]= 1,
+  ["idleClip"]= "",
+  ["isAreaInSeat"]= 0,
+  ["isIgnoreRule"]= 0,
+  ["isResetCoordinate"]= 0,
+  ["isShowShadow"]= 1,
+  ["isStartedNotMoving"]= 0,
+  ["KeyFrames"]= {},
+  ["loadPath"]= "",
+  ["loadRes"]= "",
+  ["loadType"]= 1,
+  ["musicID"]= 0,
+  ["name"]= "游乐园椅子",
+  ["operateMode"]= 0,
+  ["orientation"]= {
+    0,
+    1
+  },
+  ["passengerNpcId"]= {
+    0
+  },
+  ["passengerSeat"]= {
+    0
+  },
+  ["period"]= 0,
+  ["playMinutes"]= 0,
+  ["playReward"]= 0,
+  ["playRewardBuff"]= 0,
+  ["playRewardBuffDuration"]= 0,
+  ["randomMusic"]= "",
+  ["Rate"]= {},
+  ["reverse"]= 0,
+  ["rideMusic"]= "",
+  ["rotateY"]= 0,
+  ["Route"]= "",
+  ["shinPoint"]= {},
+  ["shootSkill"]= {},
+  ["ShowNpc"]= 0,
+  ["singleFallDeviation"]= 0,
+  ["singles"]= {},
+  ["singleTicket"]= 0,
+  ["sitSound"]= 1,
+  ["startAreaId"]= 0,
+  ["startPoint"]= {},
+  ["subType"]= 0,
+  ["tiltState"]= 0,
+  ["timelineID"]= 0,
+  ["timelineRate"]= {},
+  ["triggerRadius"]= 0,
+  ["triggerType"]= 2,
+  ["type"]= 3,
+  ["visibleTaskId"]= {},
+  ["volume"]= 0,
+  ["x"]= 0,
+  ["y"]= 0,
+  ["z"]= 0
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

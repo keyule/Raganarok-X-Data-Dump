@@ -1,0 +1,71 @@
+TextAsset Base
+	string m_Name = "data_Setting_SettingValue"
+	string m_Script = "local table= {
+[1] = {}
+}
+local baseTable={
+  ["EffectNum"]= {
+    0,
+    5,
+    10,
+    15
+  },
+  ["EffectRange"]= {
+    0,
+    5,
+    10,
+    20
+  },
+  ["FloatDigitRange"]= {
+    0,
+    10,
+    20,
+    30
+  },
+  ["NameRange"]= {
+    0,
+    10,
+    20,
+    30
+  },
+  ["NPCAndMonsterMaxNum"]= {
+    20,
+    30,
+    40,
+    50
+  },
+  ["NPCAndMonsterRange"]= {
+    15,
+    20,
+    30,
+    50
+  },
+  ["numbers"]= {
+    0,
+    10,
+    15,
+    20
+  },
+  ["PlayerRange"]= {
+    15,
+    20,
+    30,
+    50
+  },
+  ["ResolutionScale"]= {
+    250,
+    320,
+    360,
+    420
+  },
+  ["SetLoadPeriod"]= {
+    0,
+    0,
+    0,
+    0
+  }
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

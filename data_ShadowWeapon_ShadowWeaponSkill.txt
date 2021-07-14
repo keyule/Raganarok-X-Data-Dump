@@ -1,0 +1,9430 @@
+TextAsset Base
+	string m_Name = "data_ShadowWeapon_ShadowWeaponSkill"
+	string m_Script = "local table= {
+[10016] = {
+  ["Name"]= "测试技能16",
+  ["ShadowWeaponLevelLimitList"]= {
+    2,
+    3,
+    4,
+    5
+  },
+  ["SkillId"]= 1211132,
+  ["SkillLevelLimitList"]= {
+    3,
+    6,
+    9,
+    12
+  }
+},
+[10017] = {
+  ["Name"]= "测试技能17",
+  ["ShadowWeaponLevelLimitList"]= {
+    2,
+    3,
+    4,
+    5
+  },
+  ["ShadowWeaponSkillId"]= 10017,
+  ["SkillId"]= 1211134,
+  ["SkillLevelLimitList"]= {
+    3,
+    6,
+    9,
+    12
+  }
+},
+[10018] = {
+  ["Name"]= "测试技能18",
+  ["ShadowWeaponLevelLimitList"]= {
+    2,
+    3,
+    4,
+    5
+  },
+  ["ShadowWeaponSkillId"]= 10018,
+  ["SkillId"]= 1311126,
+  ["SkillLevelLimitList"]= {
+    3,
+    6,
+    9,
+    12
+  },
+  ["SkillOpenLevel"]= 2
+},
+[10019] = {
+  ["Name"]= "测试技能19",
+  ["ShadowWeaponLevelLimitList"]= {
+    2,
+    3,
+    4,
+    5
+  },
+  ["ShadowWeaponSkillId"]= 10019,
+  ["SkillId"]= 1311132,
+  ["SkillLevelLimitList"]= {
+    3,
+    6,
+    9,
+    12
+  },
+  ["SkillOpenLevel"]= 3
+},
+[10020] = {
+  ["Name"]= "测试技能20",
+  ["ShadowWeaponLevelLimitList"]= {
+    2,
+    3,
+    4,
+    5
+  },
+  ["ShadowWeaponSkillId"]= 10020,
+  ["SkillId"]= 1311134,
+  ["SkillLevelLimitList"]= {
+    3,
+    6,
+    9,
+    12
+  },
+  ["SkillOpenLevel"]= 4
+},
+[11000101] = {
+  ["Name"]= "影装·呈剑",
+  ["PropGroup"]= 11000101,
+  ["ShadowWeaponSkillId"]= 11000101,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[11000102] = {
+  ["Name"]= "影装·呈剑",
+  ["PropGroup"]= 11000102,
+  ["ShadowWeaponSkillId"]= 11000102,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[11000103] = {
+  ["Name"]= "影装·呈剑",
+  ["PropGroup"]= 11000103,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 11000103,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[11000104] = {
+  ["Name"]= "影装·呈剑",
+  ["PropGroup"]= 11000104,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 11000104,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[11000105] = {
+  ["Name"]= "影装·呈剑",
+  ["PropGroup"]= 11000105,
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 11000105,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36
+  },
+  ["SkillOpenLevel"]= 3
+},
+[11000106] = {
+  ["Name"]= "影装·呈剑",
+  ["PropGroup"]= 11000106,
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 11000106,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31
+  },
+  ["SkillOpenLevel"]= 4
+},
+[11000107] = {
+  ["Name"]= "影装·呈剑",
+  ["PropGroup"]= 11000107,
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 11000107,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26
+  },
+  ["SkillOpenLevel"]= 5
+},
+[11000108] = {
+  ["Name"]= "影装·呈剑",
+  ["PropGroup"]= 11000108,
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 11000108,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21
+  },
+  ["SkillOpenLevel"]= 6
+},
+[11000109] = {
+  ["Name"]= "影装·呈剑",
+  ["PropGroup"]= 11000109,
+  ["ShadowWeaponSkillId"]= 11000109,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[11000110] = {
+  ["Name"]= "影装·呈剑",
+  ["PropGroup"]= 11000110,
+  ["ShadowWeaponSkillId"]= 11000110,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[11000111] = {
+  ["Name"]= "影装·呈剑",
+  ["PropGroup"]= 11000111,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 11000111,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[11000112] = {
+  ["Name"]= "影装·呈剑",
+  ["PropGroup"]= 11000112,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 11000112,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[11000113] = {
+  ["Name"]= "影装·呈剑",
+  ["PropGroup"]= 11000113,
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 11000113,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36
+  },
+  ["SkillOpenLevel"]= 3
+},
+[11000114] = {
+  ["Name"]= "影装·呈剑",
+  ["PropGroup"]= 11000114,
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 11000114,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31
+  },
+  ["SkillOpenLevel"]= 4
+},
+[11000115] = {
+  ["Name"]= "影装·呈剑",
+  ["PropGroup"]= 11000115,
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 11000115,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26
+  },
+  ["SkillOpenLevel"]= 5
+},
+[11000116] = {
+  ["Name"]= "影装·呈剑",
+  ["PropGroup"]= 11000116,
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 11000116,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21
+  },
+  ["SkillOpenLevel"]= 6
+},
+[11000117] = {
+  ["Name"]= "影装·呈剑",
+  ["ShadowWeaponSkillId"]= 11000117,
+  ["SkillId"]= 6130101
+},
+[11000118] = {
+  ["Name"]= "影装·呈剑",
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  },
+  ["ShadowWeaponSkillId"]= 11000118,
+  ["SkillId"]= 6130102,
+  ["SkillOpenLevel"]= 2
+},
+[11000119] = {
+  ["Name"]= "影装·呈剑",
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  },
+  ["ShadowWeaponSkillId"]= 11000119,
+  ["SkillId"]= 6130103,
+  ["SkillOpenLevel"]= 3
+},
+[11000120] = {
+  ["Name"]= "影装·呈剑",
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  },
+  ["ShadowWeaponSkillId"]= 11000120,
+  ["SkillId"]= 6130104,
+  ["SkillOpenLevel"]= 5
+},
+[11000121] = {
+  ["Name"]= "影装·呈剑",
+  ["ShadowWeaponSkillId"]= 11000121,
+  ["SkillId"]= 6130105
+},
+[11000122] = {
+  ["Name"]= "影装·呈剑",
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  },
+  ["ShadowWeaponSkillId"]= 11000122,
+  ["SkillId"]= 6130106,
+  ["SkillOpenLevel"]= 2
+},
+[11000123] = {
+  ["Name"]= "影装·呈剑",
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  },
+  ["ShadowWeaponSkillId"]= 11000123,
+  ["SkillId"]= 6130107,
+  ["SkillOpenLevel"]= 4
+},
+[11000124] = {
+  ["Name"]= "影装·呈剑",
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  },
+  ["ShadowWeaponSkillId"]= 11000124,
+  ["SkillId"]= 6130108,
+  ["SkillOpenLevel"]= 6
+},
+[11000125] = {
+  ["Name"]= "影装·呈剑",
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  },
+  ["ShadowWeaponSkillId"]= 11000125,
+  ["SkillId"]= 6130109,
+  ["SkillOpenLevel"]= 3
+},
+[11000126] = {
+  ["Name"]= "影装·呈剑",
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  },
+  ["ShadowWeaponSkillId"]= 11000126,
+  ["SkillId"]= 6130110,
+  ["SkillOpenLevel"]= 4
+},
+[11000127] = {
+  ["Name"]= "影装·呈剑",
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  },
+  ["ShadowWeaponSkillId"]= 11000127,
+  ["SkillId"]= 6130111,
+  ["SkillOpenLevel"]= 5
+},
+[11000128] = {
+  ["Name"]= "影装·呈剑",
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  },
+  ["ShadowWeaponSkillId"]= 11000128,
+  ["SkillId"]= 6130112,
+  ["SkillOpenLevel"]= 6
+},
+[11000129] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    20
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·呈剑",
+  ["ShadowWeaponLevelLimitList"]= {
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  },
+  ["ShadowWeaponSkillId"]= 11000129,
+  ["SkillId"]= 6199901,
+  ["SkillOpenLevel"]= 7
+},
+[11000130] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    20
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·呈剑",
+  ["ShadowWeaponLevelLimitList"]= {
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  },
+  ["ShadowWeaponSkillId"]= 11000130,
+  ["SkillId"]= 6199902,
+  ["SkillOpenLevel"]= 7
+},
+[11000131] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    30
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·呈剑",
+  ["ShadowWeaponLevelLimitList"]= {
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  },
+  ["ShadowWeaponSkillId"]= 11000131,
+  ["SkillId"]= 6199903,
+  ["SkillOpenLevel"]= 8
+},
+[11000132] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    30
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·呈剑",
+  ["ShadowWeaponLevelLimitList"]= {
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  },
+  ["ShadowWeaponSkillId"]= 11000132,
+  ["SkillId"]= 6199904,
+  ["SkillOpenLevel"]= 8
+},
+[11000201] = {
+  ["Name"]= "影装·征矛",
+  ["PropGroup"]= 11000201,
+  ["ShadowWeaponSkillId"]= 11000201,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[11000202] = {
+  ["Name"]= "影装·征矛",
+  ["PropGroup"]= 11000202,
+  ["ShadowWeaponSkillId"]= 11000202,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[11000203] = {
+  ["Name"]= "影装·征矛",
+  ["PropGroup"]= 11000203,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 11000203,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[11000204] = {
+  ["Name"]= "影装·征矛",
+  ["PropGroup"]= 11000204,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 11000204,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[11000205] = {
+  ["Name"]= "影装·征矛",
+  ["PropGroup"]= 11000205,
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 11000205,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36
+  },
+  ["SkillOpenLevel"]= 3
+},
+[11000206] = {
+  ["Name"]= "影装·征矛",
+  ["PropGroup"]= 11000206,
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 11000206,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31
+  },
+  ["SkillOpenLevel"]= 4
+},
+[11000207] = {
+  ["Name"]= "影装·征矛",
+  ["PropGroup"]= 11000207,
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 11000207,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26
+  },
+  ["SkillOpenLevel"]= 5
+},
+[11000208] = {
+  ["Name"]= "影装·征矛",
+  ["PropGroup"]= 11000208,
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 11000208,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21
+  },
+  ["SkillOpenLevel"]= 6
+},
+[11000209] = {
+  ["Name"]= "影装·征矛",
+  ["PropGroup"]= 11000209,
+  ["ShadowWeaponSkillId"]= 11000209,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[11000210] = {
+  ["Name"]= "影装·征矛",
+  ["PropGroup"]= 11000210,
+  ["ShadowWeaponSkillId"]= 11000210,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[11000211] = {
+  ["Name"]= "影装·征矛",
+  ["PropGroup"]= 11000211,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 11000211,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[11000212] = {
+  ["Name"]= "影装·征矛",
+  ["PropGroup"]= 11000212,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 11000212,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[11000213] = {
+  ["Name"]= "影装·征矛",
+  ["PropGroup"]= 11000213,
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 11000213,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36
+  },
+  ["SkillOpenLevel"]= 3
+},
+[11000214] = {
+  ["Name"]= "影装·征矛",
+  ["PropGroup"]= 11000214,
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 11000214,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31
+  },
+  ["SkillOpenLevel"]= 4
+},
+[11000215] = {
+  ["Name"]= "影装·征矛",
+  ["PropGroup"]= 11000215,
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 11000215,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26
+  },
+  ["SkillOpenLevel"]= 5
+},
+[11000216] = {
+  ["Name"]= "影装·征矛",
+  ["PropGroup"]= 11000216,
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 11000216,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21
+  },
+  ["SkillOpenLevel"]= 6
+},
+[11000217] = {
+  ["Name"]= "影装·征矛",
+  ["ShadowWeaponSkillId"]= 11000217,
+  ["SkillId"]= 6130301
+},
+[11000218] = {
+  ["Name"]= "影装·征矛",
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  },
+  ["ShadowWeaponSkillId"]= 11000218,
+  ["SkillId"]= 6130302,
+  ["SkillOpenLevel"]= 2
+},
+[11000219] = {
+  ["Name"]= "影装·征矛",
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  },
+  ["ShadowWeaponSkillId"]= 11000219,
+  ["SkillId"]= 6130303,
+  ["SkillOpenLevel"]= 3
+},
+[11000220] = {
+  ["Name"]= "影装·征矛",
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  },
+  ["ShadowWeaponSkillId"]= 11000220,
+  ["SkillId"]= 6130304,
+  ["SkillOpenLevel"]= 5
+},
+[11000221] = {
+  ["Name"]= "影装·征矛",
+  ["ShadowWeaponSkillId"]= 11000221,
+  ["SkillId"]= 6130305
+},
+[11000222] = {
+  ["Name"]= "影装·征矛",
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  },
+  ["ShadowWeaponSkillId"]= 11000222,
+  ["SkillId"]= 6130306,
+  ["SkillOpenLevel"]= 2
+},
+[11000223] = {
+  ["Name"]= "影装·征矛",
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  },
+  ["ShadowWeaponSkillId"]= 11000223,
+  ["SkillId"]= 6130307,
+  ["SkillOpenLevel"]= 4
+},
+[11000224] = {
+  ["Name"]= "影装·征矛",
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  },
+  ["ShadowWeaponSkillId"]= 11000224,
+  ["SkillId"]= 6130308,
+  ["SkillOpenLevel"]= 6
+},
+[11000225] = {
+  ["Name"]= "影装·征矛",
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  },
+  ["ShadowWeaponSkillId"]= 11000225,
+  ["SkillId"]= 6130309,
+  ["SkillOpenLevel"]= 3
+},
+[11000226] = {
+  ["Name"]= "影装·征矛",
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  },
+  ["ShadowWeaponSkillId"]= 11000226,
+  ["SkillId"]= 6130310,
+  ["SkillOpenLevel"]= 4
+},
+[11000227] = {
+  ["Name"]= "影装·征矛",
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  },
+  ["ShadowWeaponSkillId"]= 11000227,
+  ["SkillId"]= 6130311,
+  ["SkillOpenLevel"]= 5
+},
+[11000228] = {
+  ["Name"]= "影装·征矛",
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  },
+  ["ShadowWeaponSkillId"]= 11000228,
+  ["SkillId"]= 6130312,
+  ["SkillOpenLevel"]= 6
+},
+[11000229] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    20
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·征矛",
+  ["ShadowWeaponLevelLimitList"]= {
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  },
+  ["ShadowWeaponSkillId"]= 11000229,
+  ["SkillId"]= 6199901,
+  ["SkillOpenLevel"]= 7
+},
+[11000230] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    20
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·征矛",
+  ["ShadowWeaponLevelLimitList"]= {
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  },
+  ["ShadowWeaponSkillId"]= 11000230,
+  ["SkillId"]= 6199902,
+  ["SkillOpenLevel"]= 7
+},
+[11000231] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    30
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·征矛",
+  ["ShadowWeaponLevelLimitList"]= {
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  },
+  ["ShadowWeaponSkillId"]= 11000231,
+  ["SkillId"]= 6199903,
+  ["SkillOpenLevel"]= 8
+},
+[11000232] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    30
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·征矛",
+  ["ShadowWeaponLevelLimitList"]= {
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  },
+  ["ShadowWeaponSkillId"]= 11000232,
+  ["SkillId"]= 6199904,
+  ["SkillOpenLevel"]= 8
+},
+[11000301] = {
+  ["Name"]= "影装·侍剑义盾",
+  ["PropGroup"]= 11000301,
+  ["ShadowWeaponSkillId"]= 11000301,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[11000302] = {
+  ["Name"]= "影装·侍剑义盾",
+  ["PropGroup"]= 11000302,
+  ["ShadowWeaponSkillId"]= 11000302,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[11000303] = {
+  ["Name"]= "影装·侍剑义盾",
+  ["PropGroup"]= 11000303,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 11000303,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[11000304] = {
+  ["Name"]= "影装·侍剑义盾",
+  ["PropGroup"]= 11000304,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 11000304,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[11000305] = {
+  ["Name"]= "影装·侍剑义盾",
+  ["PropGroup"]= 11000305,
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 11000305,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36
+  },
+  ["SkillOpenLevel"]= 3
+},
+[11000306] = {
+  ["Name"]= "影装·侍剑义盾",
+  ["PropGroup"]= 11000306,
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 11000306,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31
+  },
+  ["SkillOpenLevel"]= 4
+},
+[11000307] = {
+  ["Name"]= "影装·侍剑义盾",
+  ["PropGroup"]= 11000307,
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 11000307,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26
+  },
+  ["SkillOpenLevel"]= 5
+},
+[11000308] = {
+  ["Name"]= "影装·侍剑义盾",
+  ["PropGroup"]= 11000308,
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 11000308,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21
+  },
+  ["SkillOpenLevel"]= 6
+},
+[11000309] = {
+  ["Name"]= "影装·侍剑义盾",
+  ["PropGroup"]= 11000309,
+  ["ShadowWeaponSkillId"]= 11000309,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[11000310] = {
+  ["Name"]= "影装·侍剑义盾",
+  ["PropGroup"]= 11000310,
+  ["ShadowWeaponSkillId"]= 11000310,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[11000311] = {
+  ["Name"]= "影装·侍剑义盾",
+  ["PropGroup"]= 11000311,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 11000311,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[11000312] = {
+  ["Name"]= "影装·侍剑义盾",
+  ["PropGroup"]= 11000312,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 11000312,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[11000313] = {
+  ["Name"]= "影装·侍剑义盾",
+  ["PropGroup"]= 11000313,
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 11000313,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36
+  },
+  ["SkillOpenLevel"]= 3
+},
+[11000314] = {
+  ["Name"]= "影装·侍剑义盾",
+  ["PropGroup"]= 11000314,
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 11000314,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31
+  },
+  ["SkillOpenLevel"]= 4
+},
+[11000315] = {
+  ["Name"]= "影装·侍剑义盾",
+  ["PropGroup"]= 11000315,
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 11000315,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26
+  },
+  ["SkillOpenLevel"]= 5
+},
+[11000316] = {
+  ["Name"]= "影装·侍剑义盾",
+  ["PropGroup"]= 11000316,
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 11000316,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21
+  },
+  ["SkillOpenLevel"]= 6
+},
+[11000317] = {
+  ["Name"]= "影装·侍剑义盾",
+  ["ShadowWeaponSkillId"]= 11000317,
+  ["SkillId"]= 6110101
+},
+[11000318] = {
+  ["Name"]= "影装·侍剑义盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  },
+  ["ShadowWeaponSkillId"]= 11000318,
+  ["SkillId"]= 6110102,
+  ["SkillOpenLevel"]= 2
+},
+[11000319] = {
+  ["Name"]= "影装·侍剑义盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  },
+  ["ShadowWeaponSkillId"]= 11000319,
+  ["SkillId"]= 6110103,
+  ["SkillOpenLevel"]= 3
+},
+[11000320] = {
+  ["Name"]= "影装·侍剑义盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  },
+  ["ShadowWeaponSkillId"]= 11000320,
+  ["SkillId"]= 6110104,
+  ["SkillOpenLevel"]= 5
+},
+[11000321] = {
+  ["Name"]= "影装·侍剑义盾",
+  ["ShadowWeaponSkillId"]= 11000321,
+  ["SkillId"]= 6110105
+},
+[11000322] = {
+  ["Name"]= "影装·侍剑义盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  },
+  ["ShadowWeaponSkillId"]= 11000322,
+  ["SkillId"]= 6110106,
+  ["SkillOpenLevel"]= 2
+},
+[11000323] = {
+  ["Name"]= "影装·侍剑义盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  },
+  ["ShadowWeaponSkillId"]= 11000323,
+  ["SkillId"]= 6110107,
+  ["SkillOpenLevel"]= 4
+},
+[11000324] = {
+  ["Name"]= "影装·侍剑义盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  },
+  ["ShadowWeaponSkillId"]= 11000324,
+  ["SkillId"]= 6110108,
+  ["SkillOpenLevel"]= 6
+},
+[11000325] = {
+  ["Name"]= "影装·侍剑义盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  },
+  ["ShadowWeaponSkillId"]= 11000325,
+  ["SkillId"]= 6110109,
+  ["SkillOpenLevel"]= 3
+},
+[11000326] = {
+  ["Name"]= "影装·侍剑义盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  },
+  ["ShadowWeaponSkillId"]= 11000326,
+  ["SkillId"]= 6110110,
+  ["SkillOpenLevel"]= 4
+},
+[11000327] = {
+  ["Name"]= "影装·侍剑义盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  },
+  ["ShadowWeaponSkillId"]= 11000327,
+  ["SkillId"]= 6110111,
+  ["SkillOpenLevel"]= 5
+},
+[11000328] = {
+  ["Name"]= "影装·侍剑义盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  },
+  ["ShadowWeaponSkillId"]= 11000328,
+  ["SkillId"]= 6110112,
+  ["SkillOpenLevel"]= 6
+},
+[11000329] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    20
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·侍剑义盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  },
+  ["ShadowWeaponSkillId"]= 11000329,
+  ["SkillId"]= 6199901,
+  ["SkillOpenLevel"]= 7
+},
+[11000330] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    20
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·侍剑义盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  },
+  ["ShadowWeaponSkillId"]= 11000330,
+  ["SkillId"]= 6199902,
+  ["SkillOpenLevel"]= 7
+},
+[11000331] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    30
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·侍剑义盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  },
+  ["ShadowWeaponSkillId"]= 11000331,
+  ["SkillId"]= 6199903,
+  ["SkillOpenLevel"]= 8
+},
+[11000332] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    30
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·侍剑义盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  },
+  ["ShadowWeaponSkillId"]= 11000332,
+  ["SkillId"]= 6199904,
+  ["SkillOpenLevel"]= 8
+},
+[12000101] = {
+  ["PropGroup"]= 12000101,
+  ["ShadowWeaponSkillId"]= 12000101,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[12000102] = {
+  ["PropGroup"]= 12000102,
+  ["ShadowWeaponSkillId"]= 12000102,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[12000103] = {
+  ["PropGroup"]= 12000103,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 12000103,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[12000104] = {
+  ["PropGroup"]= 12000104,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 12000104,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[12000105] = {
+  ["PropGroup"]= 12000105,
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 12000105,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36
+  },
+  ["SkillOpenLevel"]= 3
+},
+[12000106] = {
+  ["PropGroup"]= 12000106,
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 12000106,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31
+  },
+  ["SkillOpenLevel"]= 4
+},
+[12000107] = {
+  ["PropGroup"]= 12000107,
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 12000107,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26
+  },
+  ["SkillOpenLevel"]= 5
+},
+[12000108] = {
+  ["PropGroup"]= 12000108,
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 12000108,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21
+  },
+  ["SkillOpenLevel"]= 6
+},
+[12000109] = {
+  ["PropGroup"]= 12000109,
+  ["ShadowWeaponSkillId"]= 12000109,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[12000110] = {
+  ["PropGroup"]= 12000110,
+  ["ShadowWeaponSkillId"]= 12000110,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[12000111] = {
+  ["PropGroup"]= 12000111,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 12000111,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[12000112] = {
+  ["PropGroup"]= 12000112,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 12000112,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[12000113] = {
+  ["PropGroup"]= 12000113,
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 12000113,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36
+  },
+  ["SkillOpenLevel"]= 3
+},
+[12000114] = {
+  ["PropGroup"]= 12000114,
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 12000114,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31
+  },
+  ["SkillOpenLevel"]= 4
+},
+[12000115] = {
+  ["PropGroup"]= 12000115,
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 12000115,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26
+  },
+  ["SkillOpenLevel"]= 5
+},
+[12000116] = {
+  ["PropGroup"]= 12000116,
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 12000116,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21
+  },
+  ["SkillOpenLevel"]= 6
+},
+[12000117] = {
+  ["ShadowWeaponSkillId"]= 12000117,
+  ["SkillId"]= 6210401
+},
+[12000118] = {
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  },
+  ["ShadowWeaponSkillId"]= 12000118,
+  ["SkillId"]= 6210402,
+  ["SkillOpenLevel"]= 2
+},
+[12000119] = {
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  },
+  ["ShadowWeaponSkillId"]= 12000119,
+  ["SkillId"]= 6210403,
+  ["SkillOpenLevel"]= 3
+},
+[12000120] = {
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  },
+  ["ShadowWeaponSkillId"]= 12000120,
+  ["SkillId"]= 6210404,
+  ["SkillOpenLevel"]= 5
+},
+[12000121] = {
+  ["ShadowWeaponSkillId"]= 12000121,
+  ["SkillId"]= 6210405
+},
+[12000122] = {
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  },
+  ["ShadowWeaponSkillId"]= 12000122,
+  ["SkillId"]= 6210406,
+  ["SkillOpenLevel"]= 2
+},
+[12000123] = {
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  },
+  ["ShadowWeaponSkillId"]= 12000123,
+  ["SkillId"]= 6210407,
+  ["SkillOpenLevel"]= 4
+},
+[12000124] = {
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  },
+  ["ShadowWeaponSkillId"]= 12000124,
+  ["SkillId"]= 6210408,
+  ["SkillOpenLevel"]= 6
+},
+[12000125] = {
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  },
+  ["ShadowWeaponSkillId"]= 12000125,
+  ["SkillId"]= 6210409,
+  ["SkillOpenLevel"]= 3
+},
+[12000126] = {
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  },
+  ["ShadowWeaponSkillId"]= 12000126,
+  ["SkillId"]= 6210410,
+  ["SkillOpenLevel"]= 4
+},
+[12000127] = {
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  },
+  ["ShadowWeaponSkillId"]= 12000127,
+  ["SkillId"]= 6210411,
+  ["SkillOpenLevel"]= 5
+},
+[12000128] = {
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  },
+  ["ShadowWeaponSkillId"]= 12000128,
+  ["SkillId"]= 6210412,
+  ["SkillOpenLevel"]= 6
+},
+[12000129] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    20
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["ShadowWeaponLevelLimitList"]= {
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  },
+  ["ShadowWeaponSkillId"]= 12000129,
+  ["SkillId"]= 6299901,
+  ["SkillOpenLevel"]= 7
+},
+[12000130] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    20
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["ShadowWeaponLevelLimitList"]= {
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  },
+  ["ShadowWeaponSkillId"]= 12000130,
+  ["SkillId"]= 6299902,
+  ["SkillOpenLevel"]= 7
+},
+[12000131] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    30
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["ShadowWeaponLevelLimitList"]= {
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  },
+  ["ShadowWeaponSkillId"]= 12000131,
+  ["SkillId"]= 6299903,
+  ["SkillOpenLevel"]= 8
+},
+[12000132] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    30
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["ShadowWeaponLevelLimitList"]= {
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  },
+  ["ShadowWeaponSkillId"]= 12000132,
+  ["SkillId"]= 6299904,
+  ["SkillOpenLevel"]= 8
+},
+[12000201] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["PropGroup"]= 12000201,
+  ["ShadowWeaponSkillId"]= 12000201,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[12000202] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["PropGroup"]= 12000202,
+  ["ShadowWeaponSkillId"]= 12000202,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[12000203] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["PropGroup"]= 12000203,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 12000203,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[12000204] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["PropGroup"]= 12000204,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 12000204,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[12000205] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["PropGroup"]= 12000205,
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 12000205,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36
+  },
+  ["SkillOpenLevel"]= 3
+},
+[12000206] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["PropGroup"]= 12000206,
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 12000206,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31
+  },
+  ["SkillOpenLevel"]= 4
+},
+[12000207] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["PropGroup"]= 12000207,
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 12000207,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26
+  },
+  ["SkillOpenLevel"]= 5
+},
+[12000208] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["PropGroup"]= 12000208,
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 12000208,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21
+  },
+  ["SkillOpenLevel"]= 6
+},
+[12000209] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["PropGroup"]= 12000209,
+  ["ShadowWeaponSkillId"]= 12000209,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[12000210] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["PropGroup"]= 12000210,
+  ["ShadowWeaponSkillId"]= 12000210,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[12000211] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["PropGroup"]= 12000211,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 12000211,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[12000212] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["PropGroup"]= 12000212,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 12000212,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[12000213] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["PropGroup"]= 12000213,
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 12000213,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36
+  },
+  ["SkillOpenLevel"]= 3
+},
+[12000214] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["PropGroup"]= 12000214,
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 12000214,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31
+  },
+  ["SkillOpenLevel"]= 4
+},
+[12000215] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["PropGroup"]= 12000215,
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 12000215,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26
+  },
+  ["SkillOpenLevel"]= 5
+},
+[12000216] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["PropGroup"]= 12000216,
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 12000216,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21
+  },
+  ["SkillOpenLevel"]= 6
+},
+[12000217] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["ShadowWeaponSkillId"]= 12000217,
+  ["SkillId"]= 6210301
+},
+[12000218] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  },
+  ["ShadowWeaponSkillId"]= 12000218,
+  ["SkillId"]= 6210302,
+  ["SkillOpenLevel"]= 2
+},
+[12000219] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  },
+  ["ShadowWeaponSkillId"]= 12000219,
+  ["SkillId"]= 6210303,
+  ["SkillOpenLevel"]= 3
+},
+[12000220] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  },
+  ["ShadowWeaponSkillId"]= 12000220,
+  ["SkillId"]= 6210304,
+  ["SkillOpenLevel"]= 5
+},
+[12000221] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["ShadowWeaponSkillId"]= 12000221,
+  ["SkillId"]= 6210305
+},
+[12000222] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  },
+  ["ShadowWeaponSkillId"]= 12000222,
+  ["SkillId"]= 6210306,
+  ["SkillOpenLevel"]= 2
+},
+[12000223] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  },
+  ["ShadowWeaponSkillId"]= 12000223,
+  ["SkillId"]= 6210307,
+  ["SkillOpenLevel"]= 4
+},
+[12000224] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  },
+  ["ShadowWeaponSkillId"]= 12000224,
+  ["SkillId"]= 6210308,
+  ["SkillOpenLevel"]= 6
+},
+[12000225] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  },
+  ["ShadowWeaponSkillId"]= 12000225,
+  ["SkillId"]= 6210309,
+  ["SkillOpenLevel"]= 3
+},
+[12000226] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  },
+  ["ShadowWeaponSkillId"]= 12000226,
+  ["SkillId"]= 6210310,
+  ["SkillOpenLevel"]= 4
+},
+[12000227] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  },
+  ["ShadowWeaponSkillId"]= 12000227,
+  ["SkillId"]= 6210311,
+  ["SkillOpenLevel"]= 5
+},
+[12000228] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  },
+  ["ShadowWeaponSkillId"]= 12000228,
+  ["SkillId"]= 6210312,
+  ["SkillOpenLevel"]= 6
+},
+[12000229] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    20
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·祭杖羽盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  },
+  ["ShadowWeaponSkillId"]= 12000229,
+  ["SkillId"]= 6299901,
+  ["SkillOpenLevel"]= 7
+},
+[12000230] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    20
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·祭杖羽盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  },
+  ["ShadowWeaponSkillId"]= 12000230,
+  ["SkillId"]= 6299902,
+  ["SkillOpenLevel"]= 7
+},
+[12000231] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    30
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·祭杖羽盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  },
+  ["ShadowWeaponSkillId"]= 12000231,
+  ["SkillId"]= 6299903,
+  ["SkillOpenLevel"]= 8
+},
+[12000232] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    30
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·祭杖羽盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  },
+  ["ShadowWeaponSkillId"]= 12000232,
+  ["SkillId"]= 6299904,
+  ["SkillOpenLevel"]= 8
+},
+[12000301] = {
+  ["Name"]= "影装·术典",
+  ["PropGroup"]= 12000301,
+  ["ShadowWeaponSkillId"]= 12000301,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[12000302] = {
+  ["Name"]= "影装·术典",
+  ["PropGroup"]= 12000302,
+  ["ShadowWeaponSkillId"]= 12000302,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[12000303] = {
+  ["Name"]= "影装·术典",
+  ["PropGroup"]= 12000303,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 12000303,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[12000304] = {
+  ["Name"]= "影装·术典",
+  ["PropGroup"]= 12000304,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 12000304,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[12000305] = {
+  ["Name"]= "影装·术典",
+  ["PropGroup"]= 12000305,
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 12000305,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36
+  },
+  ["SkillOpenLevel"]= 3
+},
+[12000306] = {
+  ["Name"]= "影装·术典",
+  ["PropGroup"]= 12000306,
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 12000306,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31
+  },
+  ["SkillOpenLevel"]= 4
+},
+[12000307] = {
+  ["Name"]= "影装·术典",
+  ["PropGroup"]= 12000307,
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 12000307,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26
+  },
+  ["SkillOpenLevel"]= 5
+},
+[12000308] = {
+  ["Name"]= "影装·术典",
+  ["PropGroup"]= 12000308,
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 12000308,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21
+  },
+  ["SkillOpenLevel"]= 6
+},
+[12000309] = {
+  ["Name"]= "影装·术典",
+  ["PropGroup"]= 12000309,
+  ["ShadowWeaponSkillId"]= 12000309,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[12000310] = {
+  ["Name"]= "影装·术典",
+  ["PropGroup"]= 12000310,
+  ["ShadowWeaponSkillId"]= 12000310,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[12000311] = {
+  ["Name"]= "影装·术典",
+  ["PropGroup"]= 12000311,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 12000311,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[12000312] = {
+  ["Name"]= "影装·术典",
+  ["PropGroup"]= 12000312,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 12000312,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[12000313] = {
+  ["Name"]= "影装·术典",
+  ["PropGroup"]= 12000313,
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 12000313,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36
+  },
+  ["SkillOpenLevel"]= 3
+},
+[12000314] = {
+  ["Name"]= "影装·术典",
+  ["PropGroup"]= 12000314,
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 12000314,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31
+  },
+  ["SkillOpenLevel"]= 4
+},
+[12000315] = {
+  ["Name"]= "影装·术典",
+  ["PropGroup"]= 12000315,
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 12000315,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26
+  },
+  ["SkillOpenLevel"]= 5
+},
+[12000316] = {
+  ["Name"]= "影装·术典",
+  ["PropGroup"]= 12000316,
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 12000316,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21
+  },
+  ["SkillOpenLevel"]= 6
+},
+[12000317] = {
+  ["Name"]= "影装·术典",
+  ["ShadowWeaponSkillId"]= 12000317,
+  ["SkillId"]= 6210701
+},
+[12000318] = {
+  ["Name"]= "影装·术典",
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  },
+  ["ShadowWeaponSkillId"]= 12000318,
+  ["SkillId"]= 6210702,
+  ["SkillOpenLevel"]= 2
+},
+[12000319] = {
+  ["Name"]= "影装·术典",
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  },
+  ["ShadowWeaponSkillId"]= 12000319,
+  ["SkillId"]= 6210703,
+  ["SkillOpenLevel"]= 3
+},
+[12000320] = {
+  ["Name"]= "影装·术典",
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  },
+  ["ShadowWeaponSkillId"]= 12000320,
+  ["SkillId"]= 6210704,
+  ["SkillOpenLevel"]= 5
+},
+[12000321] = {
+  ["Name"]= "影装·术典",
+  ["ShadowWeaponSkillId"]= 12000321,
+  ["SkillId"]= 6210705
+},
+[12000322] = {
+  ["Name"]= "影装·术典",
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  },
+  ["ShadowWeaponSkillId"]= 12000322,
+  ["SkillId"]= 6210706,
+  ["SkillOpenLevel"]= 2
+},
+[12000323] = {
+  ["Name"]= "影装·术典",
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  },
+  ["ShadowWeaponSkillId"]= 12000323,
+  ["SkillId"]= 6210707,
+  ["SkillOpenLevel"]= 4
+},
+[12000324] = {
+  ["Name"]= "影装·术典",
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  },
+  ["ShadowWeaponSkillId"]= 12000324,
+  ["SkillId"]= 6210708,
+  ["SkillOpenLevel"]= 6
+},
+[12000325] = {
+  ["Name"]= "影装·术典",
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  },
+  ["ShadowWeaponSkillId"]= 12000325,
+  ["SkillId"]= 6210709,
+  ["SkillOpenLevel"]= 3
+},
+[12000326] = {
+  ["Name"]= "影装·术典",
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  },
+  ["ShadowWeaponSkillId"]= 12000326,
+  ["SkillId"]= 6210710,
+  ["SkillOpenLevel"]= 4
+},
+[12000327] = {
+  ["Name"]= "影装·术典",
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  },
+  ["ShadowWeaponSkillId"]= 12000327,
+  ["SkillId"]= 6210711,
+  ["SkillOpenLevel"]= 5
+},
+[12000328] = {
+  ["Name"]= "影装·术典",
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  },
+  ["ShadowWeaponSkillId"]= 12000328,
+  ["SkillId"]= 6210712,
+  ["SkillOpenLevel"]= 6
+},
+[12000329] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    20
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·术典",
+  ["ShadowWeaponLevelLimitList"]= {
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  },
+  ["ShadowWeaponSkillId"]= 12000329,
+  ["SkillId"]= 6299901,
+  ["SkillOpenLevel"]= 7
+},
+[12000330] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    20
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·术典",
+  ["ShadowWeaponLevelLimitList"]= {
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  },
+  ["ShadowWeaponSkillId"]= 12000330,
+  ["SkillId"]= 6299902,
+  ["SkillOpenLevel"]= 7
+},
+[12000331] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    30
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·术典",
+  ["ShadowWeaponLevelLimitList"]= {
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  },
+  ["ShadowWeaponSkillId"]= 12000331,
+  ["SkillId"]= 6299903,
+  ["SkillOpenLevel"]= 8
+},
+[12000332] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    30
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·术典",
+  ["ShadowWeaponLevelLimitList"]= {
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  },
+  ["ShadowWeaponSkillId"]= 12000332,
+  ["SkillId"]= 6299904,
+  ["SkillOpenLevel"]= 8
+},
+[13000101] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["PropGroup"]= 13000101,
+  ["ShadowWeaponSkillId"]= 13000101,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[13000102] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["PropGroup"]= 13000102,
+  ["ShadowWeaponSkillId"]= 13000102,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[13000103] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["PropGroup"]= 13000103,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 13000103,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[13000104] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["PropGroup"]= 13000104,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 13000104,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[13000105] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["PropGroup"]= 13000105,
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 13000105,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36
+  },
+  ["SkillOpenLevel"]= 3
+},
+[13000106] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["PropGroup"]= 13000106,
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 13000106,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31
+  },
+  ["SkillOpenLevel"]= 4
+},
+[13000107] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["PropGroup"]= 13000107,
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 13000107,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26
+  },
+  ["SkillOpenLevel"]= 5
+},
+[13000108] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["PropGroup"]= 13000108,
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 13000108,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21
+  },
+  ["SkillOpenLevel"]= 6
+},
+[13000109] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["PropGroup"]= 13000109,
+  ["ShadowWeaponSkillId"]= 13000109,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[13000110] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["PropGroup"]= 13000110,
+  ["ShadowWeaponSkillId"]= 13000110,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[13000111] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["PropGroup"]= 13000111,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 13000111,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[13000112] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["PropGroup"]= 13000112,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 13000112,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[13000113] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["PropGroup"]= 13000113,
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 13000113,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36
+  },
+  ["SkillOpenLevel"]= 3
+},
+[13000114] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["PropGroup"]= 13000114,
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 13000114,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31
+  },
+  ["SkillOpenLevel"]= 4
+},
+[13000115] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["PropGroup"]= 13000115,
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 13000115,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26
+  },
+  ["SkillOpenLevel"]= 5
+},
+[13000116] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["PropGroup"]= 13000116,
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 13000116,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21
+  },
+  ["SkillOpenLevel"]= 6
+},
+[13000117] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["ShadowWeaponSkillId"]= 13000117,
+  ["SkillId"]= 6310301
+},
+[13000118] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  },
+  ["ShadowWeaponSkillId"]= 13000118,
+  ["SkillId"]= 6310302,
+  ["SkillOpenLevel"]= 2
+},
+[13000119] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  },
+  ["ShadowWeaponSkillId"]= 13000119,
+  ["SkillId"]= 6310303,
+  ["SkillOpenLevel"]= 3
+},
+[13000120] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  },
+  ["ShadowWeaponSkillId"]= 13000120,
+  ["SkillId"]= 6310304,
+  ["SkillOpenLevel"]= 5
+},
+[13000121] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["ShadowWeaponSkillId"]= 13000121,
+  ["SkillId"]= 6310305
+},
+[13000122] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  },
+  ["ShadowWeaponSkillId"]= 13000122,
+  ["SkillId"]= 6310306,
+  ["SkillOpenLevel"]= 2
+},
+[13000123] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  },
+  ["ShadowWeaponSkillId"]= 13000123,
+  ["SkillId"]= 6310307,
+  ["SkillOpenLevel"]= 4
+},
+[13000124] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  },
+  ["ShadowWeaponSkillId"]= 13000124,
+  ["SkillId"]= 6310308,
+  ["SkillOpenLevel"]= 6
+},
+[13000125] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  },
+  ["ShadowWeaponSkillId"]= 13000125,
+  ["SkillId"]= 6310309,
+  ["SkillOpenLevel"]= 3
+},
+[13000126] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  },
+  ["ShadowWeaponSkillId"]= 13000126,
+  ["SkillId"]= 6310310,
+  ["SkillOpenLevel"]= 4
+},
+[13000127] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  },
+  ["ShadowWeaponSkillId"]= 13000127,
+  ["SkillId"]= 6310311,
+  ["SkillOpenLevel"]= 5
+},
+[13000128] = {
+  ["Name"]= "影装·祭杖羽盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  },
+  ["ShadowWeaponSkillId"]= 13000128,
+  ["SkillId"]= 6310312,
+  ["SkillOpenLevel"]= 6
+},
+[13000129] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    20
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·祭杖羽盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  },
+  ["ShadowWeaponSkillId"]= 13000129,
+  ["SkillId"]= 6399901,
+  ["SkillOpenLevel"]= 7
+},
+[13000130] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    20
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·祭杖羽盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  },
+  ["ShadowWeaponSkillId"]= 13000130,
+  ["SkillId"]= 6399902,
+  ["SkillOpenLevel"]= 7
+},
+[13000131] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    30
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·祭杖羽盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  },
+  ["ShadowWeaponSkillId"]= 13000131,
+  ["SkillId"]= 6399903,
+  ["SkillOpenLevel"]= 8
+},
+[13000132] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    30
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·祭杖羽盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  },
+  ["ShadowWeaponSkillId"]= 13000132,
+  ["SkillId"]= 6399904,
+  ["SkillOpenLevel"]= 8
+},
+[13000201] = {
+  ["Name"]= "影装·序杖",
+  ["PropGroup"]= 13000201,
+  ["ShadowWeaponSkillId"]= 13000201,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[13000202] = {
+  ["Name"]= "影装·序杖",
+  ["PropGroup"]= 13000202,
+  ["ShadowWeaponSkillId"]= 13000202,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[13000203] = {
+  ["Name"]= "影装·序杖",
+  ["PropGroup"]= 13000203,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 13000203,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[13000204] = {
+  ["Name"]= "影装·序杖",
+  ["PropGroup"]= 13000204,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 13000204,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[13000205] = {
+  ["Name"]= "影装·序杖",
+  ["PropGroup"]= 13000205,
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 13000205,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36
+  },
+  ["SkillOpenLevel"]= 3
+},
+[13000206] = {
+  ["Name"]= "影装·序杖",
+  ["PropGroup"]= 13000206,
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 13000206,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31
+  },
+  ["SkillOpenLevel"]= 4
+},
+[13000207] = {
+  ["Name"]= "影装·序杖",
+  ["PropGroup"]= 13000207,
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 13000207,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26
+  },
+  ["SkillOpenLevel"]= 5
+},
+[13000208] = {
+  ["Name"]= "影装·序杖",
+  ["PropGroup"]= 13000208,
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 13000208,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21
+  },
+  ["SkillOpenLevel"]= 6
+},
+[13000209] = {
+  ["Name"]= "影装·序杖",
+  ["PropGroup"]= 13000209,
+  ["ShadowWeaponSkillId"]= 13000209,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[13000210] = {
+  ["Name"]= "影装·序杖",
+  ["PropGroup"]= 13000210,
+  ["ShadowWeaponSkillId"]= 13000210,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[13000211] = {
+  ["Name"]= "影装·序杖",
+  ["PropGroup"]= 13000211,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 13000211,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[13000212] = {
+  ["Name"]= "影装·序杖",
+  ["PropGroup"]= 13000212,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 13000212,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[13000213] = {
+  ["Name"]= "影装·序杖",
+  ["PropGroup"]= 13000213,
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 13000213,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36
+  },
+  ["SkillOpenLevel"]= 3
+},
+[13000214] = {
+  ["Name"]= "影装·序杖",
+  ["PropGroup"]= 13000214,
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 13000214,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31
+  },
+  ["SkillOpenLevel"]= 4
+},
+[13000215] = {
+  ["Name"]= "影装·序杖",
+  ["PropGroup"]= 13000215,
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 13000215,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26
+  },
+  ["SkillOpenLevel"]= 5
+},
+[13000216] = {
+  ["Name"]= "影装·序杖",
+  ["PropGroup"]= 13000216,
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 13000216,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21
+  },
+  ["SkillOpenLevel"]= 6
+},
+[13000217] = {
+  ["Name"]= "影装·序杖",
+  ["ShadowWeaponSkillId"]= 13000217,
+  ["SkillId"]= 6330601
+},
+[13000218] = {
+  ["Name"]= "影装·序杖",
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  },
+  ["ShadowWeaponSkillId"]= 13000218,
+  ["SkillId"]= 6330602,
+  ["SkillOpenLevel"]= 2
+},
+[13000219] = {
+  ["Name"]= "影装·序杖",
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  },
+  ["ShadowWeaponSkillId"]= 13000219,
+  ["SkillId"]= 6330603,
+  ["SkillOpenLevel"]= 3
+},
+[13000220] = {
+  ["Name"]= "影装·序杖",
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  },
+  ["ShadowWeaponSkillId"]= 13000220,
+  ["SkillId"]= 6330604,
+  ["SkillOpenLevel"]= 5
+},
+[13000221] = {
+  ["Name"]= "影装·序杖",
+  ["ShadowWeaponSkillId"]= 13000221,
+  ["SkillId"]= 6330605
+},
+[13000222] = {
+  ["Name"]= "影装·序杖",
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  },
+  ["ShadowWeaponSkillId"]= 13000222,
+  ["SkillId"]= 6330606,
+  ["SkillOpenLevel"]= 2
+},
+[13000223] = {
+  ["Name"]= "影装·序杖",
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  },
+  ["ShadowWeaponSkillId"]= 13000223,
+  ["SkillId"]= 6330607,
+  ["SkillOpenLevel"]= 4
+},
+[13000224] = {
+  ["Name"]= "影装·序杖",
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  },
+  ["ShadowWeaponSkillId"]= 13000224,
+  ["SkillId"]= 6330608,
+  ["SkillOpenLevel"]= 6
+},
+[13000225] = {
+  ["Name"]= "影装·序杖",
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  },
+  ["ShadowWeaponSkillId"]= 13000225,
+  ["SkillId"]= 6330609,
+  ["SkillOpenLevel"]= 3
+},
+[13000226] = {
+  ["Name"]= "影装·序杖",
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  },
+  ["ShadowWeaponSkillId"]= 13000226,
+  ["SkillId"]= 6330610,
+  ["SkillOpenLevel"]= 4
+},
+[13000227] = {
+  ["Name"]= "影装·序杖",
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  },
+  ["ShadowWeaponSkillId"]= 13000227,
+  ["SkillId"]= 6330611,
+  ["SkillOpenLevel"]= 5
+},
+[13000228] = {
+  ["Name"]= "影装·序杖",
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  },
+  ["ShadowWeaponSkillId"]= 13000228,
+  ["SkillId"]= 6330612,
+  ["SkillOpenLevel"]= 6
+},
+[13000229] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    20
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·序杖",
+  ["ShadowWeaponLevelLimitList"]= {
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  },
+  ["ShadowWeaponSkillId"]= 13000229,
+  ["SkillId"]= 6399901,
+  ["SkillOpenLevel"]= 7
+},
+[13000230] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    20
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·序杖",
+  ["ShadowWeaponLevelLimitList"]= {
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  },
+  ["ShadowWeaponSkillId"]= 13000230,
+  ["SkillId"]= 6399902,
+  ["SkillOpenLevel"]= 7
+},
+[13000231] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    30
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·序杖",
+  ["ShadowWeaponLevelLimitList"]= {
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  },
+  ["ShadowWeaponSkillId"]= 13000231,
+  ["SkillId"]= 6399903,
+  ["SkillOpenLevel"]= 8
+},
+[13000232] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    30
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·序杖",
+  ["ShadowWeaponLevelLimitList"]= {
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  },
+  ["ShadowWeaponSkillId"]= 13000232,
+  ["SkillId"]= 6399904,
+  ["SkillOpenLevel"]= 8
+},
+[14000101] = {
+  ["Name"]= "影装·幻匕",
+  ["PropGroup"]= 14000101,
+  ["ShadowWeaponSkillId"]= 14000101,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[14000102] = {
+  ["Name"]= "影装·幻匕",
+  ["PropGroup"]= 14000102,
+  ["ShadowWeaponSkillId"]= 14000102,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[14000103] = {
+  ["Name"]= "影装·幻匕",
+  ["PropGroup"]= 14000103,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 14000103,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[14000104] = {
+  ["Name"]= "影装·幻匕",
+  ["PropGroup"]= 14000104,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 14000104,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[14000105] = {
+  ["Name"]= "影装·幻匕",
+  ["PropGroup"]= 14000105,
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 14000105,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36
+  },
+  ["SkillOpenLevel"]= 3
+},
+[14000106] = {
+  ["Name"]= "影装·幻匕",
+  ["PropGroup"]= 14000106,
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 14000106,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31
+  },
+  ["SkillOpenLevel"]= 4
+},
+[14000107] = {
+  ["Name"]= "影装·幻匕",
+  ["PropGroup"]= 14000107,
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 14000107,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26
+  },
+  ["SkillOpenLevel"]= 5
+},
+[14000108] = {
+  ["Name"]= "影装·幻匕",
+  ["PropGroup"]= 14000108,
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 14000108,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21
+  },
+  ["SkillOpenLevel"]= 6
+},
+[14000109] = {
+  ["Name"]= "影装·幻匕",
+  ["PropGroup"]= 14000109,
+  ["ShadowWeaponSkillId"]= 14000109,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[14000110] = {
+  ["Name"]= "影装·幻匕",
+  ["PropGroup"]= 14000110,
+  ["ShadowWeaponSkillId"]= 14000110,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[14000111] = {
+  ["Name"]= "影装·幻匕",
+  ["PropGroup"]= 14000111,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 14000111,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[14000112] = {
+  ["Name"]= "影装·幻匕",
+  ["PropGroup"]= 14000112,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 14000112,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[14000113] = {
+  ["Name"]= "影装·幻匕",
+  ["PropGroup"]= 14000113,
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 14000113,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36
+  },
+  ["SkillOpenLevel"]= 3
+},
+[14000114] = {
+  ["Name"]= "影装·幻匕",
+  ["PropGroup"]= 14000114,
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 14000114,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31
+  },
+  ["SkillOpenLevel"]= 4
+},
+[14000115] = {
+  ["Name"]= "影装·幻匕",
+  ["PropGroup"]= 14000115,
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 14000115,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26
+  },
+  ["SkillOpenLevel"]= 5
+},
+[14000116] = {
+  ["Name"]= "影装·幻匕",
+  ["PropGroup"]= 14000116,
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 14000116,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21
+  },
+  ["SkillOpenLevel"]= 6
+},
+[14000117] = {
+  ["Name"]= "影装·幻匕",
+  ["ShadowWeaponSkillId"]= 14000117,
+  ["SkillId"]= 6410501
+},
+[14000118] = {
+  ["Name"]= "影装·幻匕",
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  },
+  ["ShadowWeaponSkillId"]= 14000118,
+  ["SkillId"]= 6410502,
+  ["SkillOpenLevel"]= 2
+},
+[14000119] = {
+  ["Name"]= "影装·幻匕",
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  },
+  ["ShadowWeaponSkillId"]= 14000119,
+  ["SkillId"]= 6410503,
+  ["SkillOpenLevel"]= 3
+},
+[14000120] = {
+  ["Name"]= "影装·幻匕",
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  },
+  ["ShadowWeaponSkillId"]= 14000120,
+  ["SkillId"]= 6410504,
+  ["SkillOpenLevel"]= 5
+},
+[14000121] = {
+  ["Name"]= "影装·幻匕",
+  ["ShadowWeaponSkillId"]= 14000121,
+  ["SkillId"]= 6410505
+},
+[14000122] = {
+  ["Name"]= "影装·幻匕",
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  },
+  ["ShadowWeaponSkillId"]= 14000122,
+  ["SkillId"]= 6410506,
+  ["SkillOpenLevel"]= 2
+},
+[14000123] = {
+  ["Name"]= "影装·幻匕",
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  },
+  ["ShadowWeaponSkillId"]= 14000123,
+  ["SkillId"]= 6410507,
+  ["SkillOpenLevel"]= 4
+},
+[14000124] = {
+  ["Name"]= "影装·幻匕",
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  },
+  ["ShadowWeaponSkillId"]= 14000124,
+  ["SkillId"]= 6410508,
+  ["SkillOpenLevel"]= 6
+},
+[14000125] = {
+  ["Name"]= "影装·幻匕",
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  },
+  ["ShadowWeaponSkillId"]= 14000125,
+  ["SkillId"]= 6410509,
+  ["SkillOpenLevel"]= 3
+},
+[14000126] = {
+  ["Name"]= "影装·幻匕",
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  },
+  ["ShadowWeaponSkillId"]= 14000126,
+  ["SkillId"]= 6410510,
+  ["SkillOpenLevel"]= 4
+},
+[14000127] = {
+  ["Name"]= "影装·幻匕",
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  },
+  ["ShadowWeaponSkillId"]= 14000127,
+  ["SkillId"]= 6410511,
+  ["SkillOpenLevel"]= 5
+},
+[14000128] = {
+  ["Name"]= "影装·幻匕",
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  },
+  ["ShadowWeaponSkillId"]= 14000128,
+  ["SkillId"]= 6410512,
+  ["SkillOpenLevel"]= 6
+},
+[14000129] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    20
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·幻匕",
+  ["ShadowWeaponLevelLimitList"]= {
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  },
+  ["ShadowWeaponSkillId"]= 14000129,
+  ["SkillId"]= 6499901,
+  ["SkillOpenLevel"]= 7
+},
+[14000130] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    20
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·幻匕",
+  ["ShadowWeaponLevelLimitList"]= {
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  },
+  ["ShadowWeaponSkillId"]= 14000130,
+  ["SkillId"]= 6499902,
+  ["SkillOpenLevel"]= 7
+},
+[14000131] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    30
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·幻匕",
+  ["ShadowWeaponLevelLimitList"]= {
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  },
+  ["ShadowWeaponSkillId"]= 14000131,
+  ["SkillId"]= 6499903,
+  ["SkillOpenLevel"]= 8
+},
+[14000132] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    30
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·幻匕",
+  ["ShadowWeaponLevelLimitList"]= {
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  },
+  ["ShadowWeaponSkillId"]= 14000132,
+  ["SkillId"]= 6499904,
+  ["SkillOpenLevel"]= 8
+},
+[14000201] = {
+  ["Name"]= "影装·逆刃",
+  ["PropGroup"]= 14000201,
+  ["ShadowWeaponSkillId"]= 14000201,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[14000202] = {
+  ["Name"]= "影装·逆刃",
+  ["PropGroup"]= 14000202,
+  ["ShadowWeaponSkillId"]= 14000202,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[14000203] = {
+  ["Name"]= "影装·逆刃",
+  ["PropGroup"]= 14000203,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 14000203,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[14000204] = {
+  ["Name"]= "影装·逆刃",
+  ["PropGroup"]= 14000204,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 14000204,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[14000205] = {
+  ["Name"]= "影装·逆刃",
+  ["PropGroup"]= 14000205,
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 14000205,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36
+  },
+  ["SkillOpenLevel"]= 3
+},
+[14000206] = {
+  ["Name"]= "影装·逆刃",
+  ["PropGroup"]= 14000206,
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 14000206,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31
+  },
+  ["SkillOpenLevel"]= 4
+},
+[14000207] = {
+  ["Name"]= "影装·逆刃",
+  ["PropGroup"]= 14000207,
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 14000207,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26
+  },
+  ["SkillOpenLevel"]= 5
+},
+[14000208] = {
+  ["Name"]= "影装·逆刃",
+  ["PropGroup"]= 14000208,
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 14000208,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21
+  },
+  ["SkillOpenLevel"]= 6
+},
+[14000209] = {
+  ["Name"]= "影装·逆刃",
+  ["PropGroup"]= 14000209,
+  ["ShadowWeaponSkillId"]= 14000209,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[14000210] = {
+  ["Name"]= "影装·逆刃",
+  ["PropGroup"]= 14000210,
+  ["ShadowWeaponSkillId"]= 14000210,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[14000211] = {
+  ["Name"]= "影装·逆刃",
+  ["PropGroup"]= 14000211,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 14000211,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[14000212] = {
+  ["Name"]= "影装·逆刃",
+  ["PropGroup"]= 14000212,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 14000212,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[14000213] = {
+  ["Name"]= "影装·逆刃",
+  ["PropGroup"]= 14000213,
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 14000213,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36
+  },
+  ["SkillOpenLevel"]= 3
+},
+[14000214] = {
+  ["Name"]= "影装·逆刃",
+  ["PropGroup"]= 14000214,
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 14000214,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31
+  },
+  ["SkillOpenLevel"]= 4
+},
+[14000215] = {
+  ["Name"]= "影装·逆刃",
+  ["PropGroup"]= 14000215,
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 14000215,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26
+  },
+  ["SkillOpenLevel"]= 5
+},
+[14000216] = {
+  ["Name"]= "影装·逆刃",
+  ["PropGroup"]= 14000216,
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 14000216,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21
+  },
+  ["SkillOpenLevel"]= 6
+},
+[14000217] = {
+  ["Name"]= "影装·逆刃",
+  ["ShadowWeaponSkillId"]= 14000217,
+  ["SkillId"]= 6430401
+},
+[14000218] = {
+  ["Name"]= "影装·逆刃",
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  },
+  ["ShadowWeaponSkillId"]= 14000218,
+  ["SkillId"]= 6430402,
+  ["SkillOpenLevel"]= 2
+},
+[14000219] = {
+  ["Name"]= "影装·逆刃",
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  },
+  ["ShadowWeaponSkillId"]= 14000219,
+  ["SkillId"]= 6430403,
+  ["SkillOpenLevel"]= 3
+},
+[14000220] = {
+  ["Name"]= "影装·逆刃",
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  },
+  ["ShadowWeaponSkillId"]= 14000220,
+  ["SkillId"]= 6430404,
+  ["SkillOpenLevel"]= 5
+},
+[14000221] = {
+  ["Name"]= "影装·逆刃",
+  ["ShadowWeaponSkillId"]= 14000221,
+  ["SkillId"]= 6430405
+},
+[14000222] = {
+  ["Name"]= "影装·逆刃",
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  },
+  ["ShadowWeaponSkillId"]= 14000222,
+  ["SkillId"]= 6430406,
+  ["SkillOpenLevel"]= 2
+},
+[14000223] = {
+  ["Name"]= "影装·逆刃",
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  },
+  ["ShadowWeaponSkillId"]= 14000223,
+  ["SkillId"]= 6430407,
+  ["SkillOpenLevel"]= 4
+},
+[14000224] = {
+  ["Name"]= "影装·逆刃",
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  },
+  ["ShadowWeaponSkillId"]= 14000224,
+  ["SkillId"]= 6430408,
+  ["SkillOpenLevel"]= 6
+},
+[14000225] = {
+  ["Name"]= "影装·逆刃",
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  },
+  ["ShadowWeaponSkillId"]= 14000225,
+  ["SkillId"]= 6430409,
+  ["SkillOpenLevel"]= 3
+},
+[14000226] = {
+  ["Name"]= "影装·逆刃",
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  },
+  ["ShadowWeaponSkillId"]= 14000226,
+  ["SkillId"]= 6430410,
+  ["SkillOpenLevel"]= 4
+},
+[14000227] = {
+  ["Name"]= "影装·逆刃",
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  },
+  ["ShadowWeaponSkillId"]= 14000227,
+  ["SkillId"]= 6430411,
+  ["SkillOpenLevel"]= 5
+},
+[14000228] = {
+  ["Name"]= "影装·逆刃",
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  },
+  ["ShadowWeaponSkillId"]= 14000228,
+  ["SkillId"]= 6430412,
+  ["SkillOpenLevel"]= 6
+},
+[14000229] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    20
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·逆刃",
+  ["ShadowWeaponLevelLimitList"]= {
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  },
+  ["ShadowWeaponSkillId"]= 14000229,
+  ["SkillId"]= 6499901,
+  ["SkillOpenLevel"]= 7
+},
+[14000230] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    20
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·逆刃",
+  ["ShadowWeaponLevelLimitList"]= {
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  },
+  ["ShadowWeaponSkillId"]= 14000230,
+  ["SkillId"]= 6499902,
+  ["SkillOpenLevel"]= 7
+},
+[14000231] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    30
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·逆刃",
+  ["ShadowWeaponLevelLimitList"]= {
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  },
+  ["ShadowWeaponSkillId"]= 14000231,
+  ["SkillId"]= 6499903,
+  ["SkillOpenLevel"]= 8
+},
+[14000232] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    30
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·逆刃",
+  ["ShadowWeaponLevelLimitList"]= {
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  },
+  ["ShadowWeaponSkillId"]= 14000232,
+  ["SkillId"]= 6499904,
+  ["SkillOpenLevel"]= 8
+},
+[15000101] = {
+  ["Name"]= "影装·界弓",
+  ["PropGroup"]= 15000101,
+  ["ShadowWeaponSkillId"]= 15000101,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[15000102] = {
+  ["Name"]= "影装·界弓",
+  ["PropGroup"]= 15000102,
+  ["ShadowWeaponSkillId"]= 15000102,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[15000103] = {
+  ["Name"]= "影装·界弓",
+  ["PropGroup"]= 15000103,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 15000103,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[15000104] = {
+  ["Name"]= "影装·界弓",
+  ["PropGroup"]= 15000104,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 15000104,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[15000105] = {
+  ["Name"]= "影装·界弓",
+  ["PropGroup"]= 15000105,
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 15000105,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36
+  },
+  ["SkillOpenLevel"]= 3
+},
+[15000106] = {
+  ["Name"]= "影装·界弓",
+  ["PropGroup"]= 15000106,
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 15000106,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31
+  },
+  ["SkillOpenLevel"]= 4
+},
+[15000107] = {
+  ["Name"]= "影装·界弓",
+  ["PropGroup"]= 15000107,
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 15000107,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26
+  },
+  ["SkillOpenLevel"]= 5
+},
+[15000108] = {
+  ["Name"]= "影装·界弓",
+  ["PropGroup"]= 15000108,
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 15000108,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21
+  },
+  ["SkillOpenLevel"]= 6
+},
+[15000109] = {
+  ["Name"]= "影装·界弓",
+  ["PropGroup"]= 15000109,
+  ["ShadowWeaponSkillId"]= 15000109,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[15000110] = {
+  ["Name"]= "影装·界弓",
+  ["PropGroup"]= 15000110,
+  ["ShadowWeaponSkillId"]= 15000110,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[15000111] = {
+  ["Name"]= "影装·界弓",
+  ["PropGroup"]= 15000111,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 15000111,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[15000112] = {
+  ["Name"]= "影装·界弓",
+  ["PropGroup"]= 15000112,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 15000112,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[15000113] = {
+  ["Name"]= "影装·界弓",
+  ["PropGroup"]= 15000113,
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 15000113,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36
+  },
+  ["SkillOpenLevel"]= 3
+},
+[15000114] = {
+  ["Name"]= "影装·界弓",
+  ["PropGroup"]= 15000114,
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 15000114,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31
+  },
+  ["SkillOpenLevel"]= 4
+},
+[15000115] = {
+  ["Name"]= "影装·界弓",
+  ["PropGroup"]= 15000115,
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 15000115,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26
+  },
+  ["SkillOpenLevel"]= 5
+},
+[15000116] = {
+  ["Name"]= "影装·界弓",
+  ["PropGroup"]= 15000116,
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 15000116,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21
+  },
+  ["SkillOpenLevel"]= 6
+},
+[15000117] = {
+  ["Name"]= "影装·界弓",
+  ["ShadowWeaponSkillId"]= 15000117,
+  ["SkillId"]= 6530701
+},
+[15000118] = {
+  ["Name"]= "影装·界弓",
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  },
+  ["ShadowWeaponSkillId"]= 15000118,
+  ["SkillId"]= 6530702,
+  ["SkillOpenLevel"]= 2
+},
+[15000119] = {
+  ["Name"]= "影装·界弓",
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  },
+  ["ShadowWeaponSkillId"]= 15000119,
+  ["SkillId"]= 6530703,
+  ["SkillOpenLevel"]= 3
+},
+[15000120] = {
+  ["Name"]= "影装·界弓",
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  },
+  ["ShadowWeaponSkillId"]= 15000120,
+  ["SkillId"]= 6530704,
+  ["SkillOpenLevel"]= 5
+},
+[15000121] = {
+  ["Name"]= "影装·界弓",
+  ["ShadowWeaponSkillId"]= 15000121,
+  ["SkillId"]= 6530705
+},
+[15000122] = {
+  ["Name"]= "影装·界弓",
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  },
+  ["ShadowWeaponSkillId"]= 15000122,
+  ["SkillId"]= 6530706,
+  ["SkillOpenLevel"]= 2
+},
+[15000123] = {
+  ["Name"]= "影装·界弓",
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  },
+  ["ShadowWeaponSkillId"]= 15000123,
+  ["SkillId"]= 6530707,
+  ["SkillOpenLevel"]= 4
+},
+[15000124] = {
+  ["Name"]= "影装·界弓",
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  },
+  ["ShadowWeaponSkillId"]= 15000124,
+  ["SkillId"]= 6530708,
+  ["SkillOpenLevel"]= 6
+},
+[15000125] = {
+  ["Name"]= "影装·界弓",
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  },
+  ["ShadowWeaponSkillId"]= 15000125,
+  ["SkillId"]= 6530709,
+  ["SkillOpenLevel"]= 3
+},
+[15000126] = {
+  ["Name"]= "影装·界弓",
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  },
+  ["ShadowWeaponSkillId"]= 15000126,
+  ["SkillId"]= 6530710,
+  ["SkillOpenLevel"]= 4
+},
+[15000127] = {
+  ["Name"]= "影装·界弓",
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  },
+  ["ShadowWeaponSkillId"]= 15000127,
+  ["SkillId"]= 6530711,
+  ["SkillOpenLevel"]= 5
+},
+[15000128] = {
+  ["Name"]= "影装·界弓",
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  },
+  ["ShadowWeaponSkillId"]= 15000128,
+  ["SkillId"]= 6530712,
+  ["SkillOpenLevel"]= 6
+},
+[15000129] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    20
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·界弓",
+  ["ShadowWeaponLevelLimitList"]= {
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  },
+  ["ShadowWeaponSkillId"]= 15000129,
+  ["SkillId"]= 6599901,
+  ["SkillOpenLevel"]= 7
+},
+[15000130] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    20
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·界弓",
+  ["ShadowWeaponLevelLimitList"]= {
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  },
+  ["ShadowWeaponSkillId"]= 15000130,
+  ["SkillId"]= 6599902,
+  ["SkillOpenLevel"]= 7
+},
+[15000131] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    30
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·界弓",
+  ["ShadowWeaponLevelLimitList"]= {
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  },
+  ["ShadowWeaponSkillId"]= 15000131,
+  ["SkillId"]= 6599903,
+  ["SkillOpenLevel"]= 8
+},
+[15000132] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    30
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·界弓",
+  ["ShadowWeaponLevelLimitList"]= {
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  },
+  ["ShadowWeaponSkillId"]= 15000132,
+  ["SkillId"]= 6599904,
+  ["SkillOpenLevel"]= 8
+},
+[15000201] = {
+  ["Name"]= "影装·银弓",
+  ["PropGroup"]= 15000201,
+  ["ShadowWeaponSkillId"]= 15000201,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[15000202] = {
+  ["Name"]= "影装·银弓",
+  ["PropGroup"]= 15000202,
+  ["ShadowWeaponSkillId"]= 15000202,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[15000203] = {
+  ["Name"]= "影装·银弓",
+  ["PropGroup"]= 15000203,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 15000203,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[15000204] = {
+  ["Name"]= "影装·银弓",
+  ["PropGroup"]= 15000204,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 15000204,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[15000205] = {
+  ["Name"]= "影装·银弓",
+  ["PropGroup"]= 15000205,
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 15000205,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36
+  },
+  ["SkillOpenLevel"]= 3
+},
+[15000206] = {
+  ["Name"]= "影装·银弓",
+  ["PropGroup"]= 15000206,
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 15000206,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31
+  },
+  ["SkillOpenLevel"]= 4
+},
+[15000207] = {
+  ["Name"]= "影装·银弓",
+  ["PropGroup"]= 15000207,
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 15000207,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26
+  },
+  ["SkillOpenLevel"]= 5
+},
+[15000208] = {
+  ["Name"]= "影装·银弓",
+  ["PropGroup"]= 15000208,
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 15000208,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21
+  },
+  ["SkillOpenLevel"]= 6
+},
+[15000209] = {
+  ["Name"]= "影装·银弓",
+  ["PropGroup"]= 15000209,
+  ["ShadowWeaponSkillId"]= 15000209,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[15000210] = {
+  ["Name"]= "影装·银弓",
+  ["PropGroup"]= 15000210,
+  ["ShadowWeaponSkillId"]= 15000210,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[15000211] = {
+  ["Name"]= "影装·银弓",
+  ["PropGroup"]= 15000211,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 15000211,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[15000212] = {
+  ["Name"]= "影装·银弓",
+  ["PropGroup"]= 15000212,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 15000212,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[15000213] = {
+  ["Name"]= "影装·银弓",
+  ["PropGroup"]= 15000213,
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 15000213,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36
+  },
+  ["SkillOpenLevel"]= 3
+},
+[15000214] = {
+  ["Name"]= "影装·银弓",
+  ["PropGroup"]= 15000214,
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 15000214,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31
+  },
+  ["SkillOpenLevel"]= 4
+},
+[15000215] = {
+  ["Name"]= "影装·银弓",
+  ["PropGroup"]= 15000215,
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 15000215,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26
+  },
+  ["SkillOpenLevel"]= 5
+},
+[15000216] = {
+  ["Name"]= "影装·银弓",
+  ["PropGroup"]= 15000216,
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 15000216,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21
+  },
+  ["SkillOpenLevel"]= 6
+},
+[15000217] = {
+  ["Name"]= "影装·银弓",
+  ["ShadowWeaponSkillId"]= 15000217,
+  ["SkillId"]= 6530501
+},
+[15000218] = {
+  ["Name"]= "影装·银弓",
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  },
+  ["ShadowWeaponSkillId"]= 15000218,
+  ["SkillId"]= 6530502,
+  ["SkillOpenLevel"]= 2
+},
+[15000219] = {
+  ["Name"]= "影装·银弓",
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  },
+  ["ShadowWeaponSkillId"]= 15000219,
+  ["SkillId"]= 6530503,
+  ["SkillOpenLevel"]= 3
+},
+[15000220] = {
+  ["Name"]= "影装·银弓",
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  },
+  ["ShadowWeaponSkillId"]= 15000220,
+  ["SkillId"]= 6530504,
+  ["SkillOpenLevel"]= 5
+},
+[15000221] = {
+  ["Name"]= "影装·银弓",
+  ["ShadowWeaponSkillId"]= 15000221,
+  ["SkillId"]= 6530505
+},
+[15000222] = {
+  ["Name"]= "影装·银弓",
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  },
+  ["ShadowWeaponSkillId"]= 15000222,
+  ["SkillId"]= 6530506,
+  ["SkillOpenLevel"]= 2
+},
+[15000223] = {
+  ["Name"]= "影装·银弓",
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  },
+  ["ShadowWeaponSkillId"]= 15000223,
+  ["SkillId"]= 6530507,
+  ["SkillOpenLevel"]= 4
+},
+[15000224] = {
+  ["Name"]= "影装·银弓",
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  },
+  ["ShadowWeaponSkillId"]= 15000224,
+  ["SkillId"]= 6530508,
+  ["SkillOpenLevel"]= 6
+},
+[15000225] = {
+  ["Name"]= "影装·银弓",
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  },
+  ["ShadowWeaponSkillId"]= 15000225,
+  ["SkillId"]= 6530509,
+  ["SkillOpenLevel"]= 3
+},
+[15000226] = {
+  ["Name"]= "影装·银弓",
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  },
+  ["ShadowWeaponSkillId"]= 15000226,
+  ["SkillId"]= 6530510,
+  ["SkillOpenLevel"]= 4
+},
+[15000227] = {
+  ["Name"]= "影装·银弓",
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  },
+  ["ShadowWeaponSkillId"]= 15000227,
+  ["SkillId"]= 6530511,
+  ["SkillOpenLevel"]= 5
+},
+[15000228] = {
+  ["Name"]= "影装·银弓",
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  },
+  ["ShadowWeaponSkillId"]= 15000228,
+  ["SkillId"]= 6530512,
+  ["SkillOpenLevel"]= 6
+},
+[15000229] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    20
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·银弓",
+  ["ShadowWeaponLevelLimitList"]= {
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  },
+  ["ShadowWeaponSkillId"]= 15000229,
+  ["SkillId"]= 6599901,
+  ["SkillOpenLevel"]= 7
+},
+[15000230] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    20
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·银弓",
+  ["ShadowWeaponLevelLimitList"]= {
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  },
+  ["ShadowWeaponSkillId"]= 15000230,
+  ["SkillId"]= 6599902,
+  ["SkillOpenLevel"]= 7
+},
+[15000231] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    30
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·银弓",
+  ["ShadowWeaponLevelLimitList"]= {
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  },
+  ["ShadowWeaponSkillId"]= 15000231,
+  ["SkillId"]= 6599903,
+  ["SkillOpenLevel"]= 8
+},
+[15000232] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    30
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·银弓",
+  ["ShadowWeaponLevelLimitList"]= {
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  },
+  ["ShadowWeaponSkillId"]= 15000232,
+  ["SkillId"]= 6599904,
+  ["SkillOpenLevel"]= 8
+},
+[16000101] = {
+  ["PropGroup"]= 16000101,
+  ["ShadowWeaponSkillId"]= 16000101,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[16000102] = {
+  ["PropGroup"]= 16000102,
+  ["ShadowWeaponSkillId"]= 16000102,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[16000103] = {
+  ["PropGroup"]= 16000103,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 16000103,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[16000104] = {
+  ["PropGroup"]= 16000104,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 16000104,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[16000105] = {
+  ["PropGroup"]= 16000105,
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 16000105,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36
+  },
+  ["SkillOpenLevel"]= 3
+},
+[16000106] = {
+  ["PropGroup"]= 16000106,
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 16000106,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31
+  },
+  ["SkillOpenLevel"]= 4
+},
+[16000107] = {
+  ["PropGroup"]= 16000107,
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 16000107,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26
+  },
+  ["SkillOpenLevel"]= 5
+},
+[16000108] = {
+  ["PropGroup"]= 16000108,
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 16000108,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21
+  },
+  ["SkillOpenLevel"]= 6
+},
+[16000109] = {
+  ["PropGroup"]= 16000109,
+  ["ShadowWeaponSkillId"]= 16000109,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[16000110] = {
+  ["PropGroup"]= 16000110,
+  ["ShadowWeaponSkillId"]= 16000110,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[16000111] = {
+  ["PropGroup"]= 16000111,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 16000111,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[16000112] = {
+  ["PropGroup"]= 16000112,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 16000112,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[16000113] = {
+  ["PropGroup"]= 16000113,
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 16000113,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36
+  },
+  ["SkillOpenLevel"]= 3
+},
+[16000114] = {
+  ["PropGroup"]= 16000114,
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 16000114,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31
+  },
+  ["SkillOpenLevel"]= 4
+},
+[16000115] = {
+  ["PropGroup"]= 16000115,
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 16000115,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26
+  },
+  ["SkillOpenLevel"]= 5
+},
+[16000116] = {
+  ["PropGroup"]= 16000116,
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 16000116,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21
+  },
+  ["SkillOpenLevel"]= 6
+},
+[16000117] = {
+  ["ShadowWeaponSkillId"]= 16000117,
+  ["SkillId"]= 6610401
+},
+[16000118] = {
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  },
+  ["ShadowWeaponSkillId"]= 16000118,
+  ["SkillId"]= 6610402,
+  ["SkillOpenLevel"]= 2
+},
+[16000119] = {
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  },
+  ["ShadowWeaponSkillId"]= 16000119,
+  ["SkillId"]= 6610403,
+  ["SkillOpenLevel"]= 3
+},
+[16000120] = {
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  },
+  ["ShadowWeaponSkillId"]= 16000120,
+  ["SkillId"]= 6610404,
+  ["SkillOpenLevel"]= 5
+},
+[16000121] = {
+  ["ShadowWeaponSkillId"]= 16000121,
+  ["SkillId"]= 6610405
+},
+[16000122] = {
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  },
+  ["ShadowWeaponSkillId"]= 16000122,
+  ["SkillId"]= 6610406,
+  ["SkillOpenLevel"]= 2
+},
+[16000123] = {
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  },
+  ["ShadowWeaponSkillId"]= 16000123,
+  ["SkillId"]= 6610407,
+  ["SkillOpenLevel"]= 4
+},
+[16000124] = {
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  },
+  ["ShadowWeaponSkillId"]= 16000124,
+  ["SkillId"]= 6610408,
+  ["SkillOpenLevel"]= 6
+},
+[16000125] = {
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  },
+  ["ShadowWeaponSkillId"]= 16000125,
+  ["SkillId"]= 6610409,
+  ["SkillOpenLevel"]= 3
+},
+[16000126] = {
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  },
+  ["ShadowWeaponSkillId"]= 16000126,
+  ["SkillId"]= 6610410,
+  ["SkillOpenLevel"]= 4
+},
+[16000127] = {
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  },
+  ["ShadowWeaponSkillId"]= 16000127,
+  ["SkillId"]= 6610411,
+  ["SkillOpenLevel"]= 5
+},
+[16000128] = {
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  },
+  ["ShadowWeaponSkillId"]= 16000128,
+  ["SkillId"]= 6610412,
+  ["SkillOpenLevel"]= 6
+},
+[16000129] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    20
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["ShadowWeaponLevelLimitList"]= {
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  },
+  ["ShadowWeaponSkillId"]= 16000129,
+  ["SkillId"]= 6699901,
+  ["SkillOpenLevel"]= 7
+},
+[16000130] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    20
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["ShadowWeaponLevelLimitList"]= {
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  },
+  ["ShadowWeaponSkillId"]= 16000130,
+  ["SkillId"]= 6699902,
+  ["SkillOpenLevel"]= 7
+},
+[16000131] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    30
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["ShadowWeaponLevelLimitList"]= {
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  },
+  ["ShadowWeaponSkillId"]= 16000131,
+  ["SkillId"]= 6699903,
+  ["SkillOpenLevel"]= 8
+},
+[16000132] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    30
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["ShadowWeaponLevelLimitList"]= {
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  },
+  ["ShadowWeaponSkillId"]= 16000132,
+  ["SkillId"]= 6699904,
+  ["SkillOpenLevel"]= 8
+},
+[16000201] = {
+  ["Name"]= "影装·源斧义盾",
+  ["PropGroup"]= 16000201,
+  ["ShadowWeaponSkillId"]= 16000201,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[16000202] = {
+  ["Name"]= "影装·源斧义盾",
+  ["PropGroup"]= 16000202,
+  ["ShadowWeaponSkillId"]= 16000202,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[16000203] = {
+  ["Name"]= "影装·源斧义盾",
+  ["PropGroup"]= 16000203,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 16000203,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[16000204] = {
+  ["Name"]= "影装·源斧义盾",
+  ["PropGroup"]= 16000204,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 16000204,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[16000205] = {
+  ["Name"]= "影装·源斧义盾",
+  ["PropGroup"]= 16000205,
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 16000205,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36
+  },
+  ["SkillOpenLevel"]= 3
+},
+[16000206] = {
+  ["Name"]= "影装·源斧义盾",
+  ["PropGroup"]= 16000206,
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 16000206,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31
+  },
+  ["SkillOpenLevel"]= 4
+},
+[16000207] = {
+  ["Name"]= "影装·源斧义盾",
+  ["PropGroup"]= 16000207,
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 16000207,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26
+  },
+  ["SkillOpenLevel"]= 5
+},
+[16000208] = {
+  ["Name"]= "影装·源斧义盾",
+  ["PropGroup"]= 16000208,
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 16000208,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21
+  },
+  ["SkillOpenLevel"]= 6
+},
+[16000209] = {
+  ["Name"]= "影装·源斧义盾",
+  ["PropGroup"]= 16000209,
+  ["ShadowWeaponSkillId"]= 16000209,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[16000210] = {
+  ["Name"]= "影装·源斧义盾",
+  ["PropGroup"]= 16000210,
+  ["ShadowWeaponSkillId"]= 16000210,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[16000211] = {
+  ["Name"]= "影装·源斧义盾",
+  ["PropGroup"]= 16000211,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 16000211,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[16000212] = {
+  ["Name"]= "影装·源斧义盾",
+  ["PropGroup"]= 16000212,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 16000212,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[16000213] = {
+  ["Name"]= "影装·源斧义盾",
+  ["PropGroup"]= 16000213,
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 16000213,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36
+  },
+  ["SkillOpenLevel"]= 3
+},
+[16000214] = {
+  ["Name"]= "影装·源斧义盾",
+  ["PropGroup"]= 16000214,
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 16000214,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31
+  },
+  ["SkillOpenLevel"]= 4
+},
+[16000215] = {
+  ["Name"]= "影装·源斧义盾",
+  ["PropGroup"]= 16000215,
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 16000215,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26
+  },
+  ["SkillOpenLevel"]= 5
+},
+[16000216] = {
+  ["Name"]= "影装·源斧义盾",
+  ["PropGroup"]= 16000216,
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 16000216,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21
+  },
+  ["SkillOpenLevel"]= 6
+},
+[16000217] = {
+  ["Name"]= "影装·源斧义盾",
+  ["ShadowWeaponSkillId"]= 16000217,
+  ["SkillId"]= 6610201
+},
+[16000218] = {
+  ["Name"]= "影装·源斧义盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  },
+  ["ShadowWeaponSkillId"]= 16000218,
+  ["SkillId"]= 6610202,
+  ["SkillOpenLevel"]= 2
+},
+[16000219] = {
+  ["Name"]= "影装·源斧义盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  },
+  ["ShadowWeaponSkillId"]= 16000219,
+  ["SkillId"]= 6610203,
+  ["SkillOpenLevel"]= 3
+},
+[16000220] = {
+  ["Name"]= "影装·源斧义盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  },
+  ["ShadowWeaponSkillId"]= 16000220,
+  ["SkillId"]= 6610204,
+  ["SkillOpenLevel"]= 5
+},
+[16000221] = {
+  ["Name"]= "影装·源斧义盾",
+  ["ShadowWeaponSkillId"]= 16000221,
+  ["SkillId"]= 6610205
+},
+[16000222] = {
+  ["Name"]= "影装·源斧义盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  },
+  ["ShadowWeaponSkillId"]= 16000222,
+  ["SkillId"]= 6610206,
+  ["SkillOpenLevel"]= 2
+},
+[16000223] = {
+  ["Name"]= "影装·源斧义盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  },
+  ["ShadowWeaponSkillId"]= 16000223,
+  ["SkillId"]= 6610207,
+  ["SkillOpenLevel"]= 4
+},
+[16000224] = {
+  ["Name"]= "影装·源斧义盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  },
+  ["ShadowWeaponSkillId"]= 16000224,
+  ["SkillId"]= 6610208,
+  ["SkillOpenLevel"]= 6
+},
+[16000225] = {
+  ["Name"]= "影装·源斧义盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  },
+  ["ShadowWeaponSkillId"]= 16000225,
+  ["SkillId"]= 6610209,
+  ["SkillOpenLevel"]= 3
+},
+[16000226] = {
+  ["Name"]= "影装·源斧义盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  },
+  ["ShadowWeaponSkillId"]= 16000226,
+  ["SkillId"]= 6610210,
+  ["SkillOpenLevel"]= 4
+},
+[16000227] = {
+  ["Name"]= "影装·源斧义盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  },
+  ["ShadowWeaponSkillId"]= 16000227,
+  ["SkillId"]= 6610211,
+  ["SkillOpenLevel"]= 5
+},
+[16000228] = {
+  ["Name"]= "影装·源斧义盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  },
+  ["ShadowWeaponSkillId"]= 16000228,
+  ["SkillId"]= 6610212,
+  ["SkillOpenLevel"]= 6
+},
+[16000229] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    20
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·源斧义盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  },
+  ["ShadowWeaponSkillId"]= 16000229,
+  ["SkillId"]= 6699901,
+  ["SkillOpenLevel"]= 7
+},
+[16000230] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    20
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·源斧义盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  },
+  ["ShadowWeaponSkillId"]= 16000230,
+  ["SkillId"]= 6699902,
+  ["SkillOpenLevel"]= 7
+},
+[16000231] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    30
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·源斧义盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  },
+  ["ShadowWeaponSkillId"]= 16000231,
+  ["SkillId"]= 6699903,
+  ["SkillOpenLevel"]= 8
+},
+[16000232] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    30
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·源斧义盾",
+  ["ShadowWeaponLevelLimitList"]= {
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  },
+  ["ShadowWeaponSkillId"]= 16000232,
+  ["SkillId"]= 6699904,
+  ["SkillOpenLevel"]= 8
+},
+[16000301] = {
+  ["Name"]= "影装·漠斧",
+  ["PropGroup"]= 16000301,
+  ["ShadowWeaponSkillId"]= 16000301,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[16000302] = {
+  ["Name"]= "影装·漠斧",
+  ["PropGroup"]= 16000302,
+  ["ShadowWeaponSkillId"]= 16000302,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[16000303] = {
+  ["Name"]= "影装·漠斧",
+  ["PropGroup"]= 16000303,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 16000303,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[16000304] = {
+  ["Name"]= "影装·漠斧",
+  ["PropGroup"]= 16000304,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 16000304,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[16000305] = {
+  ["Name"]= "影装·漠斧",
+  ["PropGroup"]= 16000305,
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 16000305,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36
+  },
+  ["SkillOpenLevel"]= 3
+},
+[16000306] = {
+  ["Name"]= "影装·漠斧",
+  ["PropGroup"]= 16000306,
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 16000306,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31
+  },
+  ["SkillOpenLevel"]= 4
+},
+[16000307] = {
+  ["Name"]= "影装·漠斧",
+  ["PropGroup"]= 16000307,
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 16000307,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26
+  },
+  ["SkillOpenLevel"]= 5
+},
+[16000308] = {
+  ["Name"]= "影装·漠斧",
+  ["PropGroup"]= 16000308,
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 16000308,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21
+  },
+  ["SkillOpenLevel"]= 6
+},
+[16000309] = {
+  ["Name"]= "影装·漠斧",
+  ["PropGroup"]= 16000309,
+  ["ShadowWeaponSkillId"]= 16000309,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[16000310] = {
+  ["Name"]= "影装·漠斧",
+  ["PropGroup"]= 16000310,
+  ["ShadowWeaponSkillId"]= 16000310,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41,
+    46
+  }
+},
+[16000311] = {
+  ["Name"]= "影装·漠斧",
+  ["PropGroup"]= 16000311,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 16000311,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[16000312] = {
+  ["Name"]= "影装·漠斧",
+  ["PropGroup"]= 16000312,
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 16000312,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36,
+    41
+  },
+  ["SkillOpenLevel"]= 2
+},
+[16000313] = {
+  ["Name"]= "影装·漠斧",
+  ["PropGroup"]= 16000313,
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 16000313,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31,
+    36
+  },
+  ["SkillOpenLevel"]= 3
+},
+[16000314] = {
+  ["Name"]= "影装·漠斧",
+  ["PropGroup"]= 16000314,
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 16000314,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26,
+    31
+  },
+  ["SkillOpenLevel"]= 4
+},
+[16000315] = {
+  ["Name"]= "影装·漠斧",
+  ["PropGroup"]= 16000315,
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 16000315,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21,
+    26
+  },
+  ["SkillOpenLevel"]= 5
+},
+[16000316] = {
+  ["Name"]= "影装·漠斧",
+  ["PropGroup"]= 16000316,
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 16000316,
+  ["SkillLevelLimitList"]= {
+    6,
+    11,
+    16,
+    21
+  },
+  ["SkillOpenLevel"]= 6
+},
+[16000317] = {
+  ["Name"]= "影装·漠斧",
+  ["ShadowWeaponSkillId"]= 16000317,
+  ["SkillId"]= 6630201
+},
+[16000318] = {
+  ["Name"]= "影装·漠斧",
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  },
+  ["ShadowWeaponSkillId"]= 16000318,
+  ["SkillId"]= 6630202,
+  ["SkillOpenLevel"]= 2
+},
+[16000319] = {
+  ["Name"]= "影装·漠斧",
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  },
+  ["ShadowWeaponSkillId"]= 16000319,
+  ["SkillId"]= 6630203,
+  ["SkillOpenLevel"]= 3
+},
+[16000320] = {
+  ["Name"]= "影装·漠斧",
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  },
+  ["ShadowWeaponSkillId"]= 16000320,
+  ["SkillId"]= 6630204,
+  ["SkillOpenLevel"]= 5
+},
+[16000321] = {
+  ["Name"]= "影装·漠斧",
+  ["ShadowWeaponSkillId"]= 16000321,
+  ["SkillId"]= 6630205
+},
+[16000322] = {
+  ["Name"]= "影装·漠斧",
+  ["ShadowWeaponLevelLimitList"]= {
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  },
+  ["ShadowWeaponSkillId"]= 16000322,
+  ["SkillId"]= 6630206,
+  ["SkillOpenLevel"]= 2
+},
+[16000323] = {
+  ["Name"]= "影装·漠斧",
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  },
+  ["ShadowWeaponSkillId"]= 16000323,
+  ["SkillId"]= 6630207,
+  ["SkillOpenLevel"]= 4
+},
+[16000324] = {
+  ["Name"]= "影装·漠斧",
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  },
+  ["ShadowWeaponSkillId"]= 16000324,
+  ["SkillId"]= 6630208,
+  ["SkillOpenLevel"]= 6
+},
+[16000325] = {
+  ["Name"]= "影装·漠斧",
+  ["ShadowWeaponLevelLimitList"]= {
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  },
+  ["ShadowWeaponSkillId"]= 16000325,
+  ["SkillId"]= 6630209,
+  ["SkillOpenLevel"]= 3
+},
+[16000326] = {
+  ["Name"]= "影装·漠斧",
+  ["ShadowWeaponLevelLimitList"]= {
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  },
+  ["ShadowWeaponSkillId"]= 16000326,
+  ["SkillId"]= 6630210,
+  ["SkillOpenLevel"]= 4
+},
+[16000327] = {
+  ["Name"]= "影装·漠斧",
+  ["ShadowWeaponLevelLimitList"]= {
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  },
+  ["ShadowWeaponSkillId"]= 16000327,
+  ["SkillId"]= 6630211,
+  ["SkillOpenLevel"]= 5
+},
+[16000328] = {
+  ["Name"]= "影装·漠斧",
+  ["ShadowWeaponLevelLimitList"]= {
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  },
+  ["ShadowWeaponSkillId"]= 16000328,
+  ["SkillId"]= 6630212,
+  ["SkillOpenLevel"]= 6
+},
+[16000329] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    20
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·漠斧",
+  ["ShadowWeaponLevelLimitList"]= {
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  },
+  ["ShadowWeaponSkillId"]= 16000329,
+  ["SkillId"]= 6699901,
+  ["SkillOpenLevel"]= 7
+},
+[16000330] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    20
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·漠斧",
+  ["ShadowWeaponLevelLimitList"]= {
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  },
+  ["ShadowWeaponSkillId"]= 16000330,
+  ["SkillId"]= 6699902,
+  ["SkillOpenLevel"]= 7
+},
+[16000331] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    30
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·漠斧",
+  ["ShadowWeaponLevelLimitList"]= {
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  },
+  ["ShadowWeaponSkillId"]= 16000331,
+  ["SkillId"]= 6699903,
+  ["SkillOpenLevel"]= 8
+},
+[16000332] = {
+  ["ArtifactCostItemId"]= {
+    10424029
+  },
+  ["ArtifactCostNum"]= {
+    30
+  },
+  ["ArtifactCostType"]= {
+    5
+  },
+  ["ArtifactDuration"]= 72,
+  ["Name"]= "影装·漠斧",
+  ["ShadowWeaponLevelLimitList"]= {
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  },
+  ["ShadowWeaponSkillId"]= 16000332,
+  ["SkillId"]= 6699904,
+  ["SkillOpenLevel"]= 8
+}
+}
+local baseTable={
+  ["ArtifactCostItemId"]= {
+    0
+  },
+  ["ArtifactCostNum"]= {
+    0
+  },
+  ["ArtifactCostType"]= {
+    0
+  },
+  ["ArtifactDuration"]= 0,
+  ["Name"]= "影装·坚锤羽盾",
+  ["PropGroup"]= 0,
+  ["ShadowWeaponLevelLimitList"]= {
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["ShadowWeaponSkillId"]= 10016,
+  ["SkillId"]= 0,
+  ["SkillLevelLimitList"]= {
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  },
+  ["SkillOpenLevel"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

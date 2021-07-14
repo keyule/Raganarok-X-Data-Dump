@@ -1,0 +1,5 @@
+TextAsset Base
+	string m_Name = "data_FashionItemActionInfo"
+	string m_Script = "
+;7白昼魔术礼服��"seat5011*seat5011Loop08
+;7冬日暖阳服饰��"seat5023*seat5023Loop08"

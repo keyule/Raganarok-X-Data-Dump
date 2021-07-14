@@ -1,0 +1,123 @@
+TextAsset Base
+	string m_Name = "data_Wedding_CoupleLevel"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["CoupleLevel"]= 2,
+  ["LevelDropReset"]= 100053,
+  ["LevelExp"]= 600,
+  ["LevelName"]= "WeddingLevelName002",
+  ["SkillPoints"]= 6
+},
+[3] = {
+  ["CoupleLevel"]= 3,
+  ["LevelDropReset"]= 100054,
+  ["LevelExp"]= 700,
+  ["LevelName"]= "WeddingLevelName003",
+  ["SkillPoints"]= 9
+},
+[4] = {
+  ["CoupleLevel"]= 4,
+  ["LevelDropReset"]= 100049,
+  ["LevelExp"]= 800,
+  ["LevelName"]= "WeddingLevelName004",
+  ["SkillPoints"]= 12
+},
+[5] = {
+  ["CoupleLevel"]= 5,
+  ["LevelDropReset"]= 100055,
+  ["LevelExp"]= 900,
+  ["LevelName"]= "WeddingLevelName005",
+  ["SkillPoints"]= 15
+},
+[6] = {
+  ["ChallengeLevel"]= {
+    1,
+    2,
+    3
+  },
+  ["ChallengeLevelExp"]= 1000,
+  ["ChallengeMaxLevel"]= 3,
+  ["CoupleLevel"]= 6,
+  ["LevelDropReset"]= 100056,
+  ["LevelExp"]= 1000,
+  ["LevelName"]= "WeddingLevelName006",
+  ["SkillPoints"]= 18
+},
+[7] = {
+  ["ChallengeLevel"]= {
+    1,
+    2,
+    3
+  },
+  ["ChallengeLevelExp"]= 1000,
+  ["ChallengeMaxLevel"]= 3,
+  ["CoupleLevel"]= 7,
+  ["LevelDropReset"]= 100050,
+  ["LevelExp"]= 1100,
+  ["LevelName"]= "WeddingLevelName007",
+  ["SkillPoints"]= 21
+},
+[8] = {
+  ["ChallengeLevel"]= {
+    1,
+    2,
+    3
+  },
+  ["ChallengeLevelExp"]= 1000,
+  ["ChallengeMaxLevel"]= 3,
+  ["CoupleLevel"]= 8,
+  ["LevelDropReset"]= 100057,
+  ["LevelExp"]= 1200,
+  ["LevelName"]= "WeddingLevelName008",
+  ["SkillPoints"]= 24
+},
+[9] = {
+  ["ChallengeLevel"]= {
+    1,
+    2,
+    3
+  },
+  ["ChallengeLevelExp"]= 1000,
+  ["ChallengeMaxLevel"]= 3,
+  ["CoupleLevel"]= 9,
+  ["LevelDropReset"]= 100058,
+  ["LevelExp"]= 1300,
+  ["LevelName"]= "WeddingLevelName009",
+  ["SkillPoints"]= 27
+},
+[10] = {
+  ["ChallengeLevel"]= {
+    1,
+    2,
+    3,
+    4
+  },
+  ["ChallengeLevelExp"]= 1500,
+  ["ChallengeMaxLevel"]= 4,
+  ["CoupleLevel"]= 10,
+  ["LevelDropReset"]= 100052,
+  ["LevelExp"]= 1500,
+  ["LevelName"]= "WeddingLevelName010",
+  ["SkillPoints"]= 30
+}
+}
+local baseTable={
+  ["ChallengeLevel"]= {
+    1,
+    2
+  },
+  ["ChallengeLevelExp"]= 500,
+  ["ChallengeMaxLevel"]= 2,
+  ["CoupleLevel"]= 1,
+  ["LevelDrop"]= 0,
+  ["LevelDropReset"]= 100048,
+  ["LevelExp"]= 500,
+  ["LevelName"]= "WeddingLevelName001",
+  ["MailId"]= 11013,
+  ["SkillPoints"]= 3
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

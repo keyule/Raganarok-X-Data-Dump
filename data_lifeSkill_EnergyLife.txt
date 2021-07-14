@@ -1,0 +1,48 @@
+TextAsset Base
+	string m_Name = "data_lifeSkill_EnergyLife"
+	string m_Script = "local table= {
+[1] = {
+  ["CostType"]= 1,
+  ["ReduceVal"]= 10
+},
+[2] = {
+  ["CostType"]= 2,
+  ["id"]= 2,
+  ["ReduceVal"]= 2
+},
+[3] = {
+  ["CostType"]= 3,
+  ["id"]= 3,
+  ["ReduceVal"]= 8
+},
+[4] = {
+  ["id"]= 4
+},
+[5] = {
+  ["id"]= 5,
+  ["Job"]= {
+    1600,
+    1610,
+    1611
+  }
+},
+[6] = {
+  ["id"]= 6
+},
+[7] = {
+  ["id"]= 7
+},
+[8] = {
+  ["id"]= 8
+}
+}
+local baseTable={
+  ["CostType"]= 4,
+  ["id"]= 1,
+  ["Job"]= {},
+  ["ReduceVal"]= 7
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

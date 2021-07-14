@@ -1,0 +1,50 @@
+TextAsset Base
+	string m_Name = "data_SelectRolePos"
+	string m_Script = "return {
+	[1] = {
+		["id"] = 1,
+		["px"] = -9.42,
+		["py"] = 0,
+		["pz"] = 1.027,
+		["anglex"] = 0,
+		["angley"] = -93.97,
+		["anglez"] = 0
+	},
+	[2] = {
+		["id"] = 2,
+		["px"] = -9.48,
+		["py"] = 0,
+		["pz"] = 3.29,
+		["anglex"] = 0,
+		["angley"] = -111.28,
+		["anglez"] = 0
+	},
+	[3] = {
+		["id"] = 3,
+		["px"] = -9,
+		["py"] = 0,
+		["pz"] = -1.37,
+		["anglex"] = 0,
+		["angley"] = -78.85,
+		["anglez"] = 0
+	},
+	[4] = {
+		["id"] = 4,
+		["px"] = 11.28,
+		["py"] = 0,
+		["pz"] = -1.16,
+		["anglex"] = 0,
+		["angley"] = 94.83,
+		["anglez"] = 0
+	},
+	[5] = {
+		["id"] = 5,
+		["px"] = 11.16,
+		["py"] = 0,
+		["pz"] = -1.95,
+		["anglex"] = 0,
+		["angley"] = 94.83,
+		["anglez"] = 0
+	}
+}
+"

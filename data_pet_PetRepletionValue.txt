@@ -1,0 +1,40 @@
+TextAsset Base
+	string m_Name = "data_pet_PetRepletionValue"
+	string m_Script = "return {
+[1] = {
+  ["HPRecoverRate"]= 0,
+  ["Id"]= 1,
+  ["RepletionMax"]= 10,
+  ["RepletionMin"]= 0,
+  ["RepletionName"]= "RepletionName_1"
+},
+[2] = {
+  ["HPRecoverRate"]= 0,
+  ["Id"]= 2,
+  ["RepletionMax"]= 25,
+  ["RepletionMin"]= 11,
+  ["RepletionName"]= "RepletionName_2"
+},
+[3] = {
+  ["HPRecoverRate"]= 0,
+  ["Id"]= 3,
+  ["RepletionMax"]= 75,
+  ["RepletionMin"]= 26,
+  ["RepletionName"]= "RepletionName_3"
+},
+[4] = {
+  ["HPRecoverRate"]= 0,
+  ["Id"]= 4,
+  ["RepletionMax"]= 90,
+  ["RepletionMin"]= 76,
+  ["RepletionName"]= "RepletionName_4"
+},
+[5] = {
+  ["HPRecoverRate"]= 0,
+  ["Id"]= 5,
+  ["RepletionMax"]= 100,
+  ["RepletionMin"]= 91,
+  ["RepletionName"]= "RepletionName_5"
+}
+}
+"

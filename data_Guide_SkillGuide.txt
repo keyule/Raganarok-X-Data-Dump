@@ -1,0 +1,49 @@
+TextAsset Base
+	string m_Name = "data_Guide_SkillGuide"
+	string m_Script = "return {
+[1] = {
+  ["conditionId"]= {
+    210007
+  },
+  ["id"]= 1,
+  ["IgnoreConditionTime"]= 0,
+  ["skillId"]= 1000101,
+  ["skillSite"]= 1,
+  ["triggerType"]= 1,
+  ["waitType"]= 0
+},
+[2] = {
+  ["conditionId"]= {
+    210008
+  },
+  ["id"]= 2,
+  ["IgnoreConditionTime"]= 0,
+  ["skillId"]= 1000102,
+  ["skillSite"]= 2,
+  ["triggerType"]= 1,
+  ["waitType"]= 0
+},
+[3] = {
+  ["conditionId"]= {
+    210009
+  },
+  ["id"]= 3,
+  ["IgnoreConditionTime"]= 0,
+  ["skillId"]= 1000103,
+  ["skillSite"]= 3,
+  ["triggerType"]= 1,
+  ["waitType"]= 0
+},
+[4] = {
+  ["conditionId"]= {
+    210037
+  },
+  ["id"]= 4,
+  ["IgnoreConditionTime"]= 0,
+  ["skillId"]= 1000105,
+  ["skillSite"]= 1,
+  ["triggerType"]= 1,
+  ["waitType"]= 0
+}
+}
+"

@@ -1,0 +1,48 @@
+TextAsset Base
+	string m_Name = "data_Lottery_LotteryPrize"
+	string m_Script = "local table= {
+[1] = {
+  ["Tips2"]= "ui_Kingdom_038"
+},
+[2] = {
+  ["DropId"]= 10302,
+  ["Id"]= 2,
+  ["PrizeLV"]= 5,
+  ["Tips1"]= "ui_Kingdom_036"
+},
+[3] = {
+  ["DropId"]= 10303,
+  ["Id"]= 3,
+  ["PrizeLV"]= 4,
+  ["Tips1"]= "ui_Kingdom_035"
+},
+[4] = {
+  ["DropId"]= 10304,
+  ["Id"]= 4,
+  ["PrizeLV"]= 3,
+  ["Tips1"]= "ui_Kingdom_034"
+},
+[5] = {
+  ["DropId"]= 10305,
+  ["Id"]= 5,
+  ["PrizeLV"]= 2,
+  ["Tips1"]= "ui_Kingdom_033"
+},
+[6] = {
+  ["DropId"]= 10306,
+  ["Id"]= 6,
+  ["PrizeLV"]= 1,
+  ["Tips1"]= "ui_Kingdom_032"
+}
+}
+local baseTable={
+  ["DropId"]= 10301,
+  ["Id"]= 1,
+  ["PrizeLV"]= 6,
+  ["Tips1"]= "ui_Kingdom_037",
+  ["Tips2"]= "ui_Kingdom_031"
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

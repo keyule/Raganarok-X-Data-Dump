@@ -1,0 +1,29 @@
+TextAsset Base
+	string m_Name = "data_Quality_Quality"
+	string m_Script = "return {
+	[1] = {
+		["id"] = 1,
+		["type"] = 1,
+		["showShadow"] = 1,
+		["showStroke"] = 1,
+		["PostProcessing"] = 1,
+		["reducingResolution"] = 1
+	},
+	[2] = {
+		["id"] = 2,
+		["type"] = 2,
+		["showShadow"] = 1,
+		["showStroke"] = 0,
+		["PostProcessing"] = 1,
+		["reducingResolution"] = 0
+	},
+	[3] = {
+		["id"] = 3,
+		["type"] = 3,
+		["showShadow"] = 0,
+		["showStroke"] = 0,
+		["PostProcessing"] = 0,
+		["reducingResolution"] = 0
+	}
+}
+"

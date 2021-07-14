@@ -1,0 +1,225 @@
+TextAsset Base
+	string m_Name = "data_npc_ConditionDialogueList"
+	string m_Script = "local table= {
+[6100111] = {},
+[6100121] = {
+  ["defaultDialogueID"]= {
+    6100121
+  },
+  ["ListId"]= 6100121
+},
+[6100211] = {
+  ["defaultDialogueID"]= {
+    6100211
+  },
+  ["ListId"]= 6100211
+},
+[6100221] = {
+  ["defaultDialogueID"]= {
+    6100221
+  },
+  ["ListId"]= 6100221
+},
+[6100511] = {
+  ["defaultDialogueID"]= {
+    6100511
+  },
+  ["ListId"]= 6100511
+},
+[6100521] = {
+  ["defaultDialogueID"]= {
+    6100521
+  },
+  ["ListId"]= 6100521
+},
+[6100611] = {
+  ["defaultDialogueID"]= {
+    6100611
+  },
+  ["ListId"]= 6100611
+},
+[6100621] = {
+  ["defaultDialogueID"]= {
+    6100621
+  },
+  ["ListId"]= 6100621
+},
+[6100811] = {
+  ["defaultDialogueID"]= {
+    6100811
+  },
+  ["ListId"]= 6100811
+},
+[6100821] = {
+  ["defaultDialogueID"]= {
+    6100821
+  },
+  ["ListId"]= 6100821
+},
+[6100911] = {
+  ["defaultDialogueID"]= {
+    6100911
+  },
+  ["ListId"]= 6100911
+},
+[6100921] = {
+  ["defaultDialogueID"]= {
+    6100921
+  },
+  ["ListId"]= 6100921
+},
+[6101011] = {
+  ["defaultDialogueID"]= {
+    6101011
+  },
+  ["ListId"]= 6101011
+},
+[6101021] = {
+  ["defaultDialogueID"]= {
+    6101021
+  },
+  ["ListId"]= 6101021
+},
+[6101111] = {
+  ["defaultDialogueID"]= {
+    6101111
+  },
+  ["ListId"]= 6101111
+},
+[6101121] = {
+  ["defaultDialogueID"]= {
+    6101121
+  },
+  ["ListId"]= 6101121
+},
+[6101211] = {
+  ["defaultDialogueID"]= {
+    6101211
+  },
+  ["ListId"]= 6101211
+},
+[6101221] = {
+  ["defaultDialogueID"]= {
+    6109021
+  },
+  ["ListId"]= 6101221
+},
+[6101311] = {
+  ["defaultDialogueID"]= {
+    6101311
+  },
+  ["ListId"]= 6101311
+},
+[6101321] = {
+  ["defaultDialogueID"]= {
+    6101321
+  },
+  ["ListId"]= 6101321
+},
+[6107711] = {
+  ["defaultDialogueID"]= {
+    6107711
+  },
+  ["ListId"]= 6107711
+},
+[6107712] = {
+  ["defaultDialogueID"]= {
+    6107712
+  },
+  ["ListId"]= 6107712
+},
+[6109611] = {
+  ["defaultDialogueID"]= {
+    6109611
+  },
+  ["ListId"]= 6109611
+},
+[6109621] = {
+  ["defaultDialogueID"]= {
+    6109621
+  },
+  ["ListId"]= 6109621
+},
+[6113811] = {
+  ["defaultDialogueID"]= {
+    6113811
+  },
+  ["ListId"]= 6113811
+},
+[6113821] = {
+  ["defaultDialogueID"]= {
+    6113821
+  },
+  ["ListId"]= 6113821
+},
+[6116711] = {
+  ["defaultDialogueID"]= {
+    6116711
+  },
+  ["ListId"]= 6116711
+},
+[6116811] = {
+  ["defaultDialogueID"]= {
+    6116811
+  },
+  ["ListId"]= 6116811
+},
+[6121211] = {
+  ["defaultDialogueID"]= {
+    6121211
+  },
+  ["ListId"]= 6121211
+},
+[6121221] = {
+  ["defaultDialogueID"]= {
+    6121221
+  },
+  ["ListId"]= 6121221
+},
+[6215011] = {
+  ["defaultDialogueID"]= {
+    6215011
+  },
+  ["ListId"]= 6215011
+},
+[6215012] = {
+  ["defaultDialogueID"]= {
+    6215012
+  },
+  ["ListId"]= 6215012
+},
+[6215111] = {
+  ["defaultDialogueID"]= {
+    6215111
+  },
+  ["ListId"]= 6215111
+},
+[6215112] = {
+  ["defaultDialogueID"]= {
+    6215112
+  },
+  ["ListId"]= 6215112
+},
+[6215211] = {
+  ["defaultDialogueID"]= {
+    6215211
+  },
+  ["ListId"]= 6215211
+},
+[6215212] = {
+  ["defaultDialogueID"]= {
+    6215212
+  },
+  ["ListId"]= 6215212
+}
+}
+local baseTable={
+  ["defaultDialogueID"]= {
+    6100111
+  },
+  ["ListId"]= 6100111
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

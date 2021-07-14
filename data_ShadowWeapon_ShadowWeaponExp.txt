@@ -1,0 +1,41 @@
+TextAsset Base
+	string m_Name = "data_ShadowWeapon_ShadowWeaponExp"
+	string m_Script = "return {
+[1] = {
+  ["CostDesc"]= "lang",
+  ["CostItemId"]= 0,
+  ["CostName"]= "lang",
+  ["CostType"]= 1,
+  ["ExpNum"]= 10,
+  ["Id"]= 1,
+  ["Name"]= ""
+},
+[2] = {
+  ["CostDesc"]= "lang",
+  ["CostItemId"]= 0,
+  ["CostName"]= "lang",
+  ["CostType"]= 2,
+  ["ExpNum"]= 20,
+  ["Id"]= 2,
+  ["Name"]= ""
+},
+[3] = {
+  ["CostDesc"]= "lang",
+  ["CostItemId"]= 0,
+  ["CostName"]= "lang",
+  ["CostType"]= 3,
+  ["ExpNum"]= 30,
+  ["Id"]= 3,
+  ["Name"]= ""
+},
+[4] = {
+  ["CostDesc"]= "lang",
+  ["CostItemId"]= 10406603,
+  ["CostName"]= "lang",
+  ["CostType"]= 4,
+  ["ExpNum"]= 40,
+  ["Id"]= 4,
+  ["Name"]= ""
+}
+}
+"

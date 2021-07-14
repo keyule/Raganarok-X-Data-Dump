@@ -1,0 +1,41 @@
+TextAsset Base
+	string m_Name = "data_NpcFriend_NpcFriend"
+	string m_Script = "return {
+[1] = {
+  ["BadgeList"]= {
+    9,
+    6,
+    4,
+    16,
+    19
+  },
+  ["IconID"]= 130017,
+  ["Intimacy"]= 10,
+  ["ListId"]= 1,
+  ["Name"]= "NpcName62007"
+},
+[2] = {
+  ["BadgeList"]= {
+    9,
+    7
+  },
+  ["IconID"]= 130018,
+  ["Intimacy"]= 10,
+  ["ListId"]= 2,
+  ["Name"]= "NpcName62008"
+},
+[3] = {
+  ["BadgeList"]= {
+    9,
+    6,
+    5,
+    17,
+    20
+  },
+  ["IconID"]= 140005,
+  ["Intimacy"]= 10,
+  ["ListId"]= 3,
+  ["Name"]= "NpcName63001"
+}
+}
+"

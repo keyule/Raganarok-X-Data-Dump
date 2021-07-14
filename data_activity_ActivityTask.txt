@@ -1,0 +1,94 @@
+TextAsset Base
+	string m_Name = "data_activity_ActivityTask"
+	string m_Script = "local table= {
+[1] = {
+  ["TargetParameter"]= {
+    6
+  },
+  ["TargetUiType"]= 6,
+  ["TaskAwardNum"]= 5
+},
+[2] = {
+  ["DestinationType"]= 2,
+  ["DestinationValue"]= "10101010,11101011,11801005,12101005,13101007,14101005,16101019",
+  ["DropId"]= 111002,
+  ["TargetType"]= 84,
+  ["TaskAwardNum"]= 5,
+  ["TaskDes"]= "ActivityTaskDes1002",
+  ["TaskId"]= 2,
+  ["TaskOrder"]= 2,
+  ["Times"]= 10
+},
+[3] = {
+  ["DestinationValue"]= "UI_Carnival",
+  ["DropId"]= 111003,
+  ["TargetParameter"]= {
+    0
+  },
+  ["TargetType"]= 82,
+  ["TaskDes"]= "ActivityTaskDes1003",
+  ["TaskId"]= 3,
+  ["TaskOrder"]= 3
+},
+[4] = {
+  ["DropId"]= 111004,
+  ["TargetParameter"]= {
+    3
+  },
+  ["TargetUiType"]= 3,
+  ["TaskDes"]= "ActivityTaskDes1004",
+  ["TaskId"]= 4,
+  ["TaskOrder"]= 4,
+  ["Times"]= 10
+},
+[5] = {
+  ["DestinationType"]= 2,
+  ["DestinationValue"]= 11709999,
+  ["DropId"]= 111005,
+  ["TargetParameter"]= {
+    0
+  },
+  ["TargetType"]= 8,
+  ["TaskDes"]= "ActivityTaskDes1005",
+  ["TaskId"]= 5,
+  ["TaskOrder"]= 5
+},
+[6] = {
+  ["DestinationValue"]= "UI_Carnival",
+  ["DropId"]= 111006,
+  ["TargetType"]= 7,
+  ["TaskAwardNum"]= 15,
+  ["TaskDes"]= "ActivityTaskDes1006",
+  ["TaskId"]= 6,
+  ["TaskOrder"]= 6,
+  ["Times"]= 100
+},
+[7] = {
+  ["DestinationValue"]= "UI_MVPBoss",
+  ["DropId"]= 111007,
+  ["TargetType"]= 83,
+  ["TaskAwardNum"]= 25,
+  ["TaskDes"]= "ActivityTaskDes1007",
+  ["TaskId"]= 7,
+  ["TaskOrder"]= 7
+}
+}
+local baseTable={
+  ["ActivityType"]= 1,
+  ["DestinationType"]= 1,
+  ["DestinationValue"]= "UI_Life",
+  ["DropId"]= 111001,
+  ["TargetParameter"]= {},
+  ["TargetType"]= 2,
+  ["TargetUiType"]= 0,
+  ["TaskAwardId"]= 10217035,
+  ["TaskAwardNum"]= 10,
+  ["TaskDes"]= "ActivityTaskDes1001",
+  ["TaskId"]= 1,
+  ["TaskOrder"]= 1,
+  ["Times"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

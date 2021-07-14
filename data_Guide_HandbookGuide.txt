@@ -1,0 +1,188 @@
+TextAsset Base
+	string m_Name = "data_Guide_HandbookGuide"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["ID"]= 2,
+  ["name"]= "HandbookGuide_3",
+  ["Path"]= "UI/School/Img_Explain3",
+  ["photoPath"]= "Icons/School/Img_Explain3"
+},
+[3] = {
+  ["ID"]= 3,
+  ["name"]= "HandbookGuide_4",
+  ["Path"]= "UI/School/Img_Explain1",
+  ["photoPath"]= "Icons/School/Img_Explain1"
+},
+[4] = {
+  ["ID"]= 4,
+  ["name"]= "HandbookGuide_5",
+  ["Path"]= "UI/School/Img_Explain2",
+  ["photoPath"]= "Icons/School/Img_Explain2"
+},
+[5] = {
+  ["ID"]= 5,
+  ["name"]= "HandbookGuide_6",
+  ["Path"]= "UI/School/Img_Explain10",
+  ["photoPath"]= "Icons/School/Img_Explain10"
+},
+[6] = {
+  ["ID"]= 6,
+  ["name"]= "HandbookGuide_13",
+  ["Path"]= "UI/School/Img_Explain6",
+  ["photoPath"]= "Icons/School/Img_Explain6"
+},
+[7] = {
+  ["ID"]= 7,
+  ["name"]= "HandbookGuide_7",
+  ["Path"]= "UI/School/Img_JobDescription2",
+  ["photoPath"]= "Icons/School/Img_JobDescription2",
+  ["SecondMenuID"]= 2
+},
+[8] = {
+  ["ID"]= 8,
+  ["name"]= "HandbookGuide_8",
+  ["Path"]= "UI/School/Img_JobDescription5",
+  ["photoPath"]= "Icons/School/Img_JobDescription5",
+  ["SecondMenuID"]= 2
+},
+[9] = {
+  ["ID"]= 9,
+  ["name"]= "HandbookGuide_9",
+  ["Path"]= "UI/School/Img_JobDescription3",
+  ["photoPath"]= "Icons/School/Img_JobDescription3",
+  ["SecondMenuID"]= 2
+},
+[10] = {
+  ["ID"]= 10,
+  ["name"]= "HandbookGuide_10",
+  ["Path"]= "UI/School/Img_JobDescription6",
+  ["photoPath"]= "Icons/School/Img_JobDescription6",
+  ["SecondMenuID"]= 2
+},
+[11] = {
+  ["ID"]= 11,
+  ["name"]= "HandbookGuide_11",
+  ["Path"]= "UI/School/Img_JobDescription1",
+  ["photoPath"]= "Icons/School/Img_JobDescription1",
+  ["SecondMenuID"]= 2
+},
+[12] = {
+  ["ID"]= 12,
+  ["name"]= "HandbookGuide_12",
+  ["Path"]= "UI/School/Img_JobDescription4",
+  ["photoPath"]= "Icons/School/Img_JobDescription4",
+  ["SecondMenuID"]= 2
+},
+[13] = {
+  ["ID"]= 13,
+  ["name"]= "HandbookGuide_18",
+  ["Path"]= "UI/School/Img_Explain13",
+  ["photoPath"]= "Icons/School/Img_Explain13",
+  ["SecondMenuID"]= 3
+},
+[14] = {
+  ["ID"]= 14,
+  ["name"]= "HandbookGuide_22",
+  ["Path"]= "UI/School/Img_Explain12",
+  ["photoPath"]= "Icons/School/Img_Explain12",
+  ["SecondMenuID"]= 3
+},
+[15] = {
+  ["ID"]= 15,
+  ["name"]= "HandbookGuide_19",
+  ["Path"]= "UI/School/Img_Explain9",
+  ["photoPath"]= "Icons/School/Img_Explain9",
+  ["SecondMenuID"]= 3
+},
+[16] = {
+  ["ID"]= 16,
+  ["name"]= "HandbookGuide_20",
+  ["Path"]= "UI/School/Img_Explain7",
+  ["photoPath"]= "Icons/School/Img_Explain7",
+  ["SecondMenuID"]= 3
+},
+[17] = {
+  ["ID"]= 17,
+  ["name"]= "HandbookGuide_23",
+  ["Path"]= "UI/School/Img_Explain5",
+  ["photoPath"]= "Icons/School/Img_Explain5",
+  ["SecondMenuID"]= 3
+},
+[18] = {
+  ["ID"]= 18,
+  ["name"]= "HandbookGuide_25",
+  ["Path"]= "UI/School/Img_Explain8",
+  ["photoPath"]= "Icons/School/Img_Explain8",
+  ["SecondMenuID"]= 3
+},
+[19] = {
+  ["ID"]= 19,
+  ["name"]= "HandbookGuide_27",
+  ["Path"]= "UI/School/Img_Explain15",
+  ["photoPath"]= "Icons/School/Img_Explain15",
+  ["SecondMenuID"]= 4
+},
+[20] = {
+  ["ID"]= 20,
+  ["name"]= "HandbookGuide_28",
+  ["Path"]= "UI/School/Img_Explain16",
+  ["photoPath"]= "Icons/School/Img_Explain16",
+  ["SecondMenuID"]= 4
+},
+[21] = {
+  ["ID"]= 21,
+  ["name"]= "HandbookGuide_29",
+  ["Path"]= "UI/School/Img_Explain17",
+  ["photoPath"]= "Icons/School/Img_Explain17",
+  ["SecondMenuID"]= 4
+},
+[22] = {
+  ["ID"]= 22,
+  ["name"]= "HandbookGuide_30",
+  ["Path"]= "UI/School/Img_Explain18",
+  ["photoPath"]= "Icons/School/Img_Explain18",
+  ["SecondMenuID"]= 4
+},
+[23] = {
+  ["ID"]= 23,
+  ["name"]= "HandbookGuide_31",
+  ["Path"]= "UI/School/Img_Explain22",
+  ["photoPath"]= "Icons/School/Img_Explain22",
+  ["SecondMenuID"]= 5
+},
+[24] = {
+  ["ID"]= 24,
+  ["name"]= "HandbookGuide_32",
+  ["Path"]= "UI/School/Img_Explain23",
+  ["photoPath"]= "Icons/School/Img_Explain23",
+  ["SecondMenuID"]= 5
+},
+[25] = {
+  ["ID"]= 25,
+  ["name"]= "HandbookGuide_33",
+  ["Path"]= "UI/School/Img_Explain24",
+  ["photoPath"]= "Icons/School/Img_Explain24",
+  ["SecondMenuID"]= 5
+},
+[26] = {
+  ["ID"]= 26,
+  ["name"]= "HandbookGuide_34",
+  ["Path"]= "UI/School/Img_Explain50",
+  ["photoPath"]= "Icons/School/Img_Explain50",
+  ["SecondMenuID"]= 4
+}
+}
+local baseTable={
+  ["FirstMenuID"]= 1,
+  ["ID"]= 1,
+  ["IsVertical"]= 0,
+  ["name"]= "HandbookGuide_1",
+  ["Path"]= "UI/School/Img_Explain4",
+  ["photoPath"]= "Icons/School/Img_Explain4",
+  ["SecondMenuID"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

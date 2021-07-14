@@ -1,0 +1,190 @@
+TextAsset Base
+	string m_Name = "data_LeaseShop"
+	string m_Script = "return {
+[1] = {
+  ["CostCurrencyID"]= 3,
+  ["CostNum"]= 20000,
+  ["id"]= 1,
+  ["ItemID"]= 80001,
+  ["jobLimit"]= {
+    1110,
+    1111
+  },
+  ["leaseShop"]= 1,
+  ["LockDes"]= "",
+  ["Name"]= "坐骑-大嘴鸟",
+  ["npcID"]= 10104103,
+  ["NumID"]= 1,
+  ["skillLimit"]= {},
+  ["skillLvLimit"]= {},
+  ["UnlockNum"]= 0,
+  ["UnlockType"]= 0
+},
+[2] = {
+  ["CostCurrencyID"]= 3,
+  ["CostNum"]= 20000,
+  ["id"]= 2,
+  ["ItemID"]= 80003,
+  ["jobLimit"]= {
+    1310,
+    1311
+  },
+  ["leaseShop"]= 1,
+  ["LockDes"]= "",
+  ["Name"]= "坐骑-九尾狐",
+  ["npcID"]= 10104104,
+  ["NumID"]= 2,
+  ["skillLimit"]= {},
+  ["skillLvLimit"]= {},
+  ["UnlockNum"]= 0,
+  ["UnlockType"]= 0
+},
+[3] = {
+  ["CostCurrencyID"]= 1,
+  ["CostNum"]= 10000,
+  ["id"]= 3,
+  ["ItemID"]= 83001,
+  ["jobLimit"]= {
+    1510,
+    1511
+  },
+  ["leaseShop"]= 2,
+  ["LockDes"]= "",
+  ["Name"]= "猎人-猎鹰",
+  ["npcID"]= 0,
+  ["NumID"]= 1,
+  ["skillLimit"]= {
+    1510122
+  },
+  ["skillLvLimit"]= {
+    1
+  },
+  ["UnlockNum"]= 0,
+  ["UnlockType"]= 0
+},
+[4] = {
+  ["CostCurrencyID"]= 1,
+  ["CostNum"]= 10000,
+  ["id"]= 4,
+  ["ItemID"]= 83010,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["leaseShop"]= 2,
+  ["LockDes"]= "",
+  ["Name"]= "商人-手推车",
+  ["npcID"]= 10101027,
+  ["NumID"]= 1,
+  ["skillLimit"]= {
+    1600004
+  },
+  ["skillLvLimit"]= {
+    1
+  },
+  ["UnlockNum"]= 0,
+  ["UnlockType"]= 0
+},
+[5] = {
+  ["CostCurrencyID"]= 1,
+  ["CostNum"]= 10000,
+  ["id"]= 5,
+  ["ItemID"]= 83011,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["leaseShop"]= 2,
+  ["LockDes"]= "",
+  ["Name"]= "商人-木制手推车",
+  ["npcID"]= 10101027,
+  ["NumID"]= 1,
+  ["skillLimit"]= {
+    1600004
+  },
+  ["skillLvLimit"]= {
+    1
+  },
+  ["UnlockNum"]= 0,
+  ["UnlockType"]= 0
+},
+[6] = {
+  ["CostCurrencyID"]= 3,
+  ["CostNum"]= 20000,
+  ["id"]= 6,
+  ["ItemID"]= 80002,
+  ["jobLimit"]= {
+    1210,
+    1211
+  },
+  ["leaseShop"]= 1,
+  ["LockDes"]= "",
+  ["Name"]= "坐骑-羊驼",
+  ["npcID"]= 10104104,
+  ["NumID"]= 3,
+  ["skillLimit"]= {},
+  ["skillLvLimit"]= {},
+  ["UnlockNum"]= 0,
+  ["UnlockType"]= 0
+},
+[7] = {
+  ["CostCurrencyID"]= 3,
+  ["CostNum"]= 20000,
+  ["id"]= 7,
+  ["ItemID"]= 80007,
+  ["jobLimit"]= {
+    1510,
+    1511
+  },
+  ["leaseShop"]= 1,
+  ["LockDes"]= "",
+  ["Name"]= "坐骑-鸵鸟",
+  ["npcID"]= 10104104,
+  ["NumID"]= 4,
+  ["skillLimit"]= {},
+  ["skillLvLimit"]= {},
+  ["UnlockNum"]= 0,
+  ["UnlockType"]= 0
+},
+[8] = {
+  ["CostCurrencyID"]= 3,
+  ["CostNum"]= 20000,
+  ["id"]= 8,
+  ["ItemID"]= 80006,
+  ["jobLimit"]= {
+    1410,
+    1411
+  },
+  ["leaseShop"]= 1,
+  ["LockDes"]= "",
+  ["Name"]= "坐骑-斑鬣",
+  ["npcID"]= 10104104,
+  ["NumID"]= 5,
+  ["skillLimit"]= {},
+  ["skillLvLimit"]= {},
+  ["UnlockNum"]= 0,
+  ["UnlockType"]= 0
+},
+[9] = {
+  ["CostCurrencyID"]= 3,
+  ["CostNum"]= 20000,
+  ["id"]= 9,
+  ["ItemID"]= 80009,
+  ["jobLimit"]= {
+    1610,
+    1611
+  },
+  ["leaseShop"]= 1,
+  ["LockDes"]= "",
+  ["Name"]= "坐骑-野猪",
+  ["npcID"]= 10104104,
+  ["NumID"]= 6,
+  ["skillLimit"]= {},
+  ["skillLvLimit"]= {},
+  ["UnlockNum"]= 0,
+  ["UnlockType"]= 0
+}
+}
+"

@@ -1,0 +1,356 @@
+TextAsset Base
+	string m_Name = "data_tower_TowerBless"
+	string m_Script = "return {
+[1] = {
+  ["blessDes"]= "BuffDes_6011",
+  ["blessName"]= "BuffName_6011",
+  ["buffId"]= 6011,
+  ["ID"]= 1,
+  ["maxLevel"]= 10,
+  ["quality"]= 3,
+  ["type"]= 1
+},
+[2] = {
+  ["blessDes"]= "BuffDes_6012",
+  ["blessName"]= "BuffName_6012",
+  ["buffId"]= 6012,
+  ["ID"]= 2,
+  ["maxLevel"]= 10,
+  ["quality"]= 3,
+  ["type"]= 1
+},
+[3] = {
+  ["blessDes"]= "BuffDes_6013",
+  ["blessName"]= "BuffName_6013",
+  ["buffId"]= 6013,
+  ["ID"]= 3,
+  ["maxLevel"]= 10,
+  ["quality"]= 3,
+  ["type"]= 1
+},
+[4] = {
+  ["blessDes"]= "BuffDes_6111",
+  ["blessName"]= "BuffName_6111",
+  ["buffId"]= 6111,
+  ["ID"]= 4,
+  ["maxLevel"]= 10,
+  ["quality"]= 1,
+  ["type"]= 2
+},
+[5] = {
+  ["blessDes"]= "BuffDes_6112",
+  ["blessName"]= "BuffName_6112",
+  ["buffId"]= 6112,
+  ["ID"]= 5,
+  ["maxLevel"]= 10,
+  ["quality"]= 1,
+  ["type"]= 2
+},
+[6] = {
+  ["blessDes"]= "BuffDes_6113",
+  ["blessName"]= "BuffName_6113",
+  ["buffId"]= 6113,
+  ["ID"]= 6,
+  ["maxLevel"]= 10,
+  ["quality"]= 1,
+  ["type"]= 2
+},
+[7] = {
+  ["blessDes"]= "BuffDes_6121",
+  ["blessName"]= "BuffName_6121",
+  ["buffId"]= 6121,
+  ["ID"]= 7,
+  ["maxLevel"]= 10,
+  ["quality"]= 2,
+  ["type"]= 2
+},
+[8] = {
+  ["blessDes"]= "BuffDes_6122",
+  ["blessName"]= "BuffName_6122",
+  ["buffId"]= 6122,
+  ["ID"]= 8,
+  ["maxLevel"]= 10,
+  ["quality"]= 2,
+  ["type"]= 2
+},
+[9] = {
+  ["blessDes"]= "BuffDes_6123",
+  ["blessName"]= "BuffName_6123",
+  ["buffId"]= 6123,
+  ["ID"]= 9,
+  ["maxLevel"]= 10,
+  ["quality"]= 2,
+  ["type"]= 2
+},
+[10] = {
+  ["blessDes"]= "BuffDes_6131",
+  ["blessName"]= "BuffName_6131",
+  ["buffId"]= 6131,
+  ["ID"]= 10,
+  ["maxLevel"]= 10,
+  ["quality"]= 3,
+  ["type"]= 2
+},
+[11] = {
+  ["blessDes"]= "BuffDes_6132",
+  ["blessName"]= "BuffName_6132",
+  ["buffId"]= 6132,
+  ["ID"]= 11,
+  ["maxLevel"]= 10,
+  ["quality"]= 3,
+  ["type"]= 2
+},
+[12] = {
+  ["blessDes"]= "BuffDes_6133",
+  ["blessName"]= "BuffName_6133",
+  ["buffId"]= 6133,
+  ["ID"]= 12,
+  ["maxLevel"]= 10,
+  ["quality"]= 3,
+  ["type"]= 2
+},
+[13] = {
+  ["blessDes"]= "BuffDes_6211",
+  ["blessName"]= "BuffName_6211",
+  ["buffId"]= 6211,
+  ["ID"]= 13,
+  ["maxLevel"]= 10,
+  ["quality"]= 1,
+  ["type"]= 3
+},
+[14] = {
+  ["blessDes"]= "BuffDes_6212",
+  ["blessName"]= "BuffName_6212",
+  ["buffId"]= 6212,
+  ["ID"]= 14,
+  ["maxLevel"]= 10,
+  ["quality"]= 1,
+  ["type"]= 3
+},
+[15] = {
+  ["blessDes"]= "BuffDes_6213",
+  ["blessName"]= "BuffName_6213",
+  ["buffId"]= 6213,
+  ["ID"]= 15,
+  ["maxLevel"]= 10,
+  ["quality"]= 1,
+  ["type"]= 3
+},
+[16] = {
+  ["blessDes"]= "BuffDes_6221",
+  ["blessName"]= "BuffName_6221",
+  ["buffId"]= 6221,
+  ["ID"]= 16,
+  ["maxLevel"]= 10,
+  ["quality"]= 2,
+  ["type"]= 3
+},
+[17] = {
+  ["blessDes"]= "BuffDes_6222",
+  ["blessName"]= "BuffName_6222",
+  ["buffId"]= 6222,
+  ["ID"]= 17,
+  ["maxLevel"]= 10,
+  ["quality"]= 2,
+  ["type"]= 3
+},
+[18] = {
+  ["blessDes"]= "BuffDes_6223",
+  ["blessName"]= "BuffName_6223",
+  ["buffId"]= 6223,
+  ["ID"]= 18,
+  ["maxLevel"]= 10,
+  ["quality"]= 2,
+  ["type"]= 3
+},
+[19] = {
+  ["blessDes"]= "BuffDes_6231",
+  ["blessName"]= "BuffName_6231",
+  ["buffId"]= 6231,
+  ["ID"]= 19,
+  ["maxLevel"]= 10,
+  ["quality"]= 3,
+  ["type"]= 3
+},
+[20] = {
+  ["blessDes"]= "BuffDes_6232",
+  ["blessName"]= "BuffName_6232",
+  ["buffId"]= 6232,
+  ["ID"]= 20,
+  ["maxLevel"]= 10,
+  ["quality"]= 3,
+  ["type"]= 3
+},
+[21] = {
+  ["blessDes"]= "BuffDes_6233",
+  ["blessName"]= "BuffName_6233",
+  ["buffId"]= 6233,
+  ["ID"]= 21,
+  ["maxLevel"]= 10,
+  ["quality"]= 3,
+  ["type"]= 3
+},
+[22] = {
+  ["blessDes"]= "BuffDes_6311",
+  ["blessName"]= "BuffName_6311",
+  ["buffId"]= 6311,
+  ["ID"]= 22,
+  ["maxLevel"]= 10,
+  ["quality"]= 1,
+  ["type"]= 4
+},
+[23] = {
+  ["blessDes"]= "BuffDes_6312",
+  ["blessName"]= "BuffName_6312",
+  ["buffId"]= 6312,
+  ["ID"]= 23,
+  ["maxLevel"]= 10,
+  ["quality"]= 1,
+  ["type"]= 4
+},
+[24] = {
+  ["blessDes"]= "BuffDes_6313",
+  ["blessName"]= "BuffName_6313",
+  ["buffId"]= 6313,
+  ["ID"]= 24,
+  ["maxLevel"]= 10,
+  ["quality"]= 1,
+  ["type"]= 4
+},
+[25] = {
+  ["blessDes"]= "BuffDes_6321",
+  ["blessName"]= "BuffName_6321",
+  ["buffId"]= 6321,
+  ["ID"]= 25,
+  ["maxLevel"]= 10,
+  ["quality"]= 2,
+  ["type"]= 4
+},
+[26] = {
+  ["blessDes"]= "BuffDes_6322",
+  ["blessName"]= "BuffName_6322",
+  ["buffId"]= 6322,
+  ["ID"]= 26,
+  ["maxLevel"]= 10,
+  ["quality"]= 2,
+  ["type"]= 4
+},
+[27] = {
+  ["blessDes"]= "BuffDes_6323",
+  ["blessName"]= "BuffName_6323",
+  ["buffId"]= 6323,
+  ["ID"]= 27,
+  ["maxLevel"]= 10,
+  ["quality"]= 2,
+  ["type"]= 4
+},
+[28] = {
+  ["blessDes"]= "BuffDes_6331",
+  ["blessName"]= "BuffName_6331",
+  ["buffId"]= 6331,
+  ["ID"]= 28,
+  ["maxLevel"]= 10,
+  ["quality"]= 3,
+  ["type"]= 4
+},
+[29] = {
+  ["blessDes"]= "BuffDes_6332",
+  ["blessName"]= "BuffName_6332",
+  ["buffId"]= 6332,
+  ["ID"]= 29,
+  ["maxLevel"]= 10,
+  ["quality"]= 3,
+  ["type"]= 4
+},
+[30] = {
+  ["blessDes"]= "BuffDes_6333",
+  ["blessName"]= "BuffName_6333",
+  ["buffId"]= 6333,
+  ["ID"]= 30,
+  ["maxLevel"]= 10,
+  ["quality"]= 3,
+  ["type"]= 4
+},
+[31] = {
+  ["blessDes"]= "BuffDes_6411",
+  ["blessName"]= "BuffName_6411",
+  ["buffId"]= 6411,
+  ["ID"]= 31,
+  ["maxLevel"]= 10,
+  ["quality"]= 1,
+  ["type"]= 5
+},
+[32] = {
+  ["blessDes"]= "BuffDes_6412",
+  ["blessName"]= "BuffName_6412",
+  ["buffId"]= 6412,
+  ["ID"]= 32,
+  ["maxLevel"]= 10,
+  ["quality"]= 1,
+  ["type"]= 5
+},
+[33] = {
+  ["blessDes"]= "BuffDes_6413",
+  ["blessName"]= "BuffName_6413",
+  ["buffId"]= 6413,
+  ["ID"]= 33,
+  ["maxLevel"]= 10,
+  ["quality"]= 1,
+  ["type"]= 5
+},
+[34] = {
+  ["blessDes"]= "BuffDes_6421",
+  ["blessName"]= "BuffName_6421",
+  ["buffId"]= 6421,
+  ["ID"]= 34,
+  ["maxLevel"]= 10,
+  ["quality"]= 2,
+  ["type"]= 5
+},
+[35] = {
+  ["blessDes"]= "BuffDes_6422",
+  ["blessName"]= "BuffName_6422",
+  ["buffId"]= 6422,
+  ["ID"]= 35,
+  ["maxLevel"]= 10,
+  ["quality"]= 2,
+  ["type"]= 5
+},
+[36] = {
+  ["blessDes"]= "BuffDes_6423",
+  ["blessName"]= "BuffName_6423",
+  ["buffId"]= 6423,
+  ["ID"]= 36,
+  ["maxLevel"]= 10,
+  ["quality"]= 2,
+  ["type"]= 5
+},
+[37] = {
+  ["blessDes"]= "BuffDes_6431",
+  ["blessName"]= "BuffName_6431",
+  ["buffId"]= 6431,
+  ["ID"]= 37,
+  ["maxLevel"]= 10,
+  ["quality"]= 3,
+  ["type"]= 5
+},
+[38] = {
+  ["blessDes"]= "BuffDes_6432",
+  ["blessName"]= "BuffName_6432",
+  ["buffId"]= 6432,
+  ["ID"]= 38,
+  ["maxLevel"]= 10,
+  ["quality"]= 3,
+  ["type"]= 5
+},
+[39] = {
+  ["blessDes"]= "BuffDes_6433",
+  ["blessName"]= "BuffName_6433",
+  ["buffId"]= 6433,
+  ["ID"]= 39,
+  ["maxLevel"]= 10,
+  ["quality"]= 3,
+  ["type"]= 5
+}
+}
+"

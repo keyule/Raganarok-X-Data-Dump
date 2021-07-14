@@ -1,0 +1,10 @@
+TextAsset Base
+	string m_Name = "data_Bait_Bait"
+	string m_Script = "return {
+	[1] = {
+		["Id"] = 1,
+		["BaitId"] = 10406001,
+		["BaitLevel"] = 1
+	}
+}
+"

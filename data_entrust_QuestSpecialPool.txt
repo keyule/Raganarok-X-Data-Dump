@@ -1,0 +1,66 @@
+TextAsset Base
+	string m_Name = "data_entrust_QuestSpecialPool"
+	string m_Script = "local table= {
+[28001] = {
+  ["refreshTime"]= 1
+},
+[29001] = {
+  ["completionCondition"]= 700012,
+  ["id"]= 29001,
+  ["refreshTime"]= 300,
+  ["triggerCondition"]= 700011
+},
+[29002] = {
+  ["completionCondition"]= 700022,
+  ["id"]= 29002,
+  ["refreshTime"]= 300,
+  ["triggerCondition"]= 700021
+},
+[29003] = {
+  ["completionCondition"]= 700032,
+  ["id"]= 29003,
+  ["refreshTime"]= 300,
+  ["triggerCondition"]= 700031
+},
+[29004] = {
+  ["completionCondition"]= 700042,
+  ["id"]= 29004,
+  ["refreshTime"]= 300,
+  ["triggerCondition"]= 700041
+},
+[29050] = {
+  ["completionCondition"]= 700502,
+  ["id"]= 29050,
+  ["triggerCondition"]= 700501
+},
+[29051] = {
+  ["completionCondition"]= 700512,
+  ["id"]= 29051,
+  ["triggerCondition"]= 700511
+},
+[29052] = {
+  ["completionCondition"]= 700522,
+  ["id"]= 29052,
+  ["triggerCondition"]= 700521
+},
+[29053] = {
+  ["completionCondition"]= 700532,
+  ["id"]= 29053,
+  ["triggerCondition"]= 700531
+},
+[29054] = {
+  ["completionCondition"]= 700542,
+  ["id"]= 29054,
+  ["triggerCondition"]= 700541
+}
+}
+local baseTable={
+  ["completionCondition"]= 210001,
+  ["id"]= 28001,
+  ["refreshTime"]= 4,
+  ["triggerCondition"]= 250006
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

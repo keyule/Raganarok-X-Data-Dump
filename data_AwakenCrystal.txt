@@ -1,0 +1,33 @@
+TextAsset Base
+	string m_Name = "data_AwakenCrystal"
+	string m_Script = "return {
+[1] = {
+  ["FunctionId"]= 10052,
+  ["Id"]= 1,
+  ["name"]= "awaken_002",
+  ["resource"]= "cry1",
+  ["transparency"]= 0.5
+},
+[2] = {
+  ["FunctionId"]= 10053,
+  ["Id"]= 2,
+  ["name"]= "awaken_003",
+  ["resource"]= "cry2",
+  ["transparency"]= 0.5
+},
+[3] = {
+  ["FunctionId"]= 10054,
+  ["Id"]= 3,
+  ["name"]= "awaken_004",
+  ["resource"]= "cry3",
+  ["transparency"]= 1
+},
+[4] = {
+  ["FunctionId"]= 10055,
+  ["Id"]= 4,
+  ["name"]= "awaken_005",
+  ["resource"]= "cry4",
+  ["transparency"]= 1
+}
+}
+"

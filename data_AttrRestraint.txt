@@ -1,0 +1,101 @@
+TextAsset Base
+	string m_Name = "data_AttrRestraint"
+	string m_Script = "return {
+	[1] = {
+		["AttrId"] = 1,
+		["AttrName"] = "无",
+		["Retrain"] = {},
+		["Restrained"] = {
+			{["AttrId"] = 9,["Value"] = 1.25}
+		}
+	},
+	[10] = {
+		["AttrId"] = 10,
+		["AttrName"] = "不死",
+		["Retrain"] = {
+			{["AttrId"] = 7,["Value"] = 0.75}
+		},
+		["Restrained"] = {
+			{["AttrId"] = 8,["Value"] = 1.25}
+		}
+	},
+	[2] = {
+		["AttrId"] = 2,
+		["AttrName"] = "火",
+		["Retrain"] = {
+			{["AttrId"] = 5,["Value"] = 0.75}
+		},
+		["Restrained"] = {
+			{["AttrId"] = 2,["Value"] = 1.25}
+		}
+	},
+	[3] = {
+		["AttrId"] = 3,
+		["AttrName"] = "水",
+		["Retrain"] = {
+			{["AttrId"] = 3,["Value"] = 0.75}
+		},
+		["Restrained"] = {
+			{["AttrId"] = 4,["Value"] = 1.25}
+		}
+	},
+	[4] = {
+		["AttrId"] = 4,
+		["AttrName"] = "风",
+		["Retrain"] = {
+			{["AttrId"] = 3,["Value"] = 0.75}
+		},
+		["Restrained"] = {
+			{["AttrId"] = 5,["Value"] = 1.25}
+		}
+	},
+	[5] = {
+		["AttrId"] = 5,
+		["AttrName"] = "地",
+		["Retrain"] = {
+			{["AttrId"] = 4,["Value"] = 0.75}
+		},
+		["Restrained"] = {
+			{["AttrId"] = 3,["Value"] = 1.25}
+		}
+	},
+	[6] = {
+		["AttrId"] = 6,
+		["AttrName"] = "毒",
+		["Retrain"] = {
+			{["AttrId"] = 6,["Value"] = 0.75}
+		},
+		["Restrained"] = {
+			{["AttrId"] = 7,["Value"] = 1.25}
+		}
+	},
+	[7] = {
+		["AttrId"] = 7,
+		["AttrName"] = "圣",
+		["Retrain"] = {
+			{["AttrId"] = 8,["Value"] = 0.75}
+		},
+		["Restrained"] = {
+			{["AttrId"] = 6,["Value"] = 1.25}
+		}
+	},
+	[8] = {
+		["AttrId"] = 8,
+		["AttrName"] = "暗",
+		["Retrain"] = {
+			{["AttrId"] = 10,["Value"] = 0.75}
+		},
+		["Restrained"] = {
+			{["AttrId"] = 7,["Value"] = 1.25}
+		}
+	},
+	[9] = {
+		["AttrId"] = 9,
+		["AttrName"] = "念",
+		["Retrain"] = {
+			{["AttrId"] = 1,["Value"] = 0.9}
+		},
+		["Restrained"] = {}
+	}
+}
+"

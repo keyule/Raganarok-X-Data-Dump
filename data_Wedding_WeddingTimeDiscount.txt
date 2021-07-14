@@ -1,0 +1,37 @@
+TextAsset Base
+	string m_Name = "data_Wedding_WeddingTimeDiscount"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["Discount"]= 80,
+  ["Id"]= 2
+},
+[3] = {
+  ["Discount"]= 90,
+  ["Id"]= 3
+},
+[4] = {
+  ["Discount"]= 100,
+  ["Id"]= 4
+},
+[5] = {
+  ["Discount"]= 110,
+  ["Id"]= 5
+},
+[6] = {
+  ["Discount"]= 120,
+  ["Id"]= 6
+},
+[7] = {
+  ["Discount"]= 130,
+  ["Id"]= 7
+}
+}
+local baseTable={
+  ["Discount"]= 70,
+  ["Id"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

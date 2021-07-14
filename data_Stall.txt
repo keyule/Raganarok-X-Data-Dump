@@ -1,0 +1,21 @@
+TextAsset Base
+	string m_Name = "data_Stall"
+	string m_Script = "return 
+{
+  ["BuyFeeRate"]= 0.1,
+  ["BuyGridLimit"]= "16,18,20,22,24,26,28,30,32,34",
+  ["BuyPriceRange"]= "0.2,1.2",
+  ["NameLength"]= "2,30",
+  ["PetSellArea"]= "1010402",
+  ["PetSellGrid"]= 16,
+  ["PetSkillId"]= 1000106,
+  ["PetStallOnlineTime"]= 14400,
+  ["prefixStall"]= 6,
+  ["radarId"]= 10409002,
+  ["SellFeeRate"]= 0.1,
+  ["SellGridLimit"]= "16,18,20,22,24,26,28,30,32,34",
+  ["SellPriceRange"]= "0.2,1.2",
+  ["SkillId"]= 1600010,
+  ["StallBaseLevelLimit"]= 35,
+  ["StallCreateTimeLimit"]= 172800
+}"

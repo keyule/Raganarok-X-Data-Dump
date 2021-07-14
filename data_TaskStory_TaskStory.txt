@@ -1,0 +1,3716 @@
+TextAsset Base
+	string m_Name = "data_TaskStory_TaskStory"
+	string m_Script = "local table= {
+[1] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["cameraX"]= -22.3024,
+          ["cameraY"]= 20.16543,
+          ["cameraZ"]= 192.1199,
+          ["clientType"]= "callingCamera",
+          ["closeConditionId"]= 0,
+          ["posx"]= -11.85,
+          ["posy"]= 12.50076,
+          ["posz"]= 210.16
+        }
+      },
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 40004,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 10202100
+        }
+      },
+      ["time"]= 2
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "returnCamera",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 4
+    }
+  },
+  ["isLock"]= 1,
+  ["showSkip"]= 1,
+  ["showUI"]= 0
+},
+[1001] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 310003,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 11102002
+        },
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 310004,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 11102003
+        },
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 310005,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 11102001
+        }
+      },
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "returnCamera",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 13
+    }
+  },
+  ["storyId"]= 1001
+},
+[1002] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "returnCamera",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 4
+    }
+  },
+  ["showPlayer"]= 0,
+  ["storyId"]= 1002
+},
+[1003] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {},
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "returnCamera",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 8
+    }
+  },
+  ["showPlayer"]= 0,
+  ["storyId"]= 1003
+},
+[1004] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {},
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "returnCamera",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 4
+    }
+  },
+  ["showPlayer"]= 0,
+  ["storyId"]= 1004
+},
+[1005] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 310001,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 15306001
+        },
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 310002,
+              ["actionType"]= 1,
+              ["delay"]= 4000,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 15302002
+        }
+      },
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 304,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 15302002
+        }
+      },
+      ["time"]= 2
+    }
+  },
+  ["storyId"]= 1005
+},
+[1006] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["cameraX"]= -60.5,
+          ["cameraY"]= 17.8,
+          ["cameraZ"]= 185.225,
+          ["clientType"]= "callingCamera",
+          ["closeConditionId"]= 0,
+          ["posx"]= -56.35,
+          ["posy"]= 12.5,
+          ["posz"]= 167.67
+        }
+      },
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "CameraResetAction",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 3
+    }
+  },
+  ["storyId"]= 1006
+},
+[1007] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["cameraX"]= 0,
+          ["cameraY"]= 7,
+          ["cameraZ"]= 95,
+          ["clientType"]= "callingCamera",
+          ["closeConditionId"]= 0,
+          ["posx"]= 0,
+          ["posy"]= 4,
+          ["posz"]= 90
+        }
+      },
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "returnCamera",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 4
+    }
+  },
+  ["isLock"]= 1,
+  ["showUI"]= 0,
+  ["storyId"]= 1007
+},
+[1101] = {
+  ["isLock"]= 1,
+  ["storyId"]= 1101
+},
+[1102] = {
+  ["isLock"]= 1,
+  ["storyId"]= 1102
+},
+[1103] = {
+  ["isLock"]= 1,
+  ["storyId"]= 1103
+},
+[1104] = {
+  ["isLock"]= 1,
+  ["storyId"]= 1104
+},
+[1105] = {
+  ["isLock"]= 1,
+  ["storyId"]= 1105
+},
+[1106] = {
+  ["isLock"]= 1,
+  ["storyId"]= 1106
+},
+[1107] = {
+  ["isLock"]= 1,
+  ["storyId"]= 1107
+},
+[1108] = {
+  ["storyId"]= 1108
+},
+[1201] = {
+  ["storyId"]= 1201
+},
+[1202] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 1,
+              ["actionType"]= 5,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            },
+            {
+              ["actionId"]= 310202,
+              ["actionType"]= 1,
+              ["delay"]= 200,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 10402005
+        }
+      },
+      ["time"]= 1
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "returnCamera",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 2
+    }
+  },
+  ["storyId"]= 1202
+},
+[1203] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {},
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 310305,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 12202002
+        },
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 310306,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 12202005
+        },
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 310307,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 12202003
+        }
+      },
+      ["time"]= 0
+    }
+  },
+  ["storyId"]= 1203
+},
+[1204] = {
+  ["EventList"]= {},
+  ["storyId"]= 1204
+},
+[1205] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "returnCamera",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 3
+    }
+  },
+  ["storyId"]= 1205
+},
+[1301] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {},
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "InitiativeMoveNPCOccur",
+          ["closeConditionId"]= 0,
+          ["NpcId"]= 62061,
+          ["NpcInstance"]= 100,
+          ["NpcPatrolLocation"]= {
+            {
+              ["NpcPatrolLocationX"]= 89.65545,
+              ["NpcPatrolLocationY"]= 18.03197,
+              ["NpcPatrolLocationZ"]= 72.66011
+            },
+            {
+              ["NpcPatrolLocationX"]= 71.15858,
+              ["NpcPatrolLocationY"]= 17.99708,
+              ["NpcPatrolLocationZ"]= 57.05672
+            }
+          },
+          ["NpcSpeed"]= 6
+        }
+      },
+      ["time"]= 2
+    }
+  },
+  ["storyId"]= 1301
+},
+[2000] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 320001,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 11106009
+        }
+      },
+      ["time"]= 1
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 320002,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 11106010
+        }
+      },
+      ["time"]= 3
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 320003,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 11106011
+        }
+      },
+      ["time"]= 5
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 320004,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 11106012
+        }
+      },
+      ["time"]= 7
+    }
+  },
+  ["storyId"]= 2000
+},
+[2001] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 320005,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 11107002
+        }
+      },
+      ["time"]= 1
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 320009,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 11106009
+        },
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 320009,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 11106010
+        },
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 320009,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 11106011
+        },
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 320009,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 11106012
+        }
+      },
+      ["time"]= 9
+    }
+  },
+  ["storyId"]= 2001
+},
+[2002] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 320010,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 80037001
+        }
+      },
+      ["time"]= 1
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 320011,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 80037002
+        }
+      },
+      ["time"]= 8
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 320012,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 80037003
+        }
+      },
+      ["time"]= 13
+    }
+  },
+  ["storyId"]= 2002
+},
+[2003] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 220310,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 15806002
+        }
+      },
+      ["time"]= 1
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 220311,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 15806003
+        },
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 220312,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 15806004
+        },
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 220313,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 15806005
+        }
+      },
+      ["time"]= 5
+    }
+  },
+  ["storyId"]= 2003
+},
+[2004] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 320301,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 11807026
+        }
+      },
+      ["time"]= 1
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 320302,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 11807017
+        },
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 320303,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 11807018
+        },
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 320304,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 11807019
+        }
+      },
+      ["time"]= 6
+    }
+  },
+  ["storyId"]= 2004
+},
+[2005] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 320305,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 11807023
+        }
+      },
+      ["time"]= 1
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 320306,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 11806002
+        }
+      },
+      ["time"]= 7
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 320307,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 11807024
+        },
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 320308,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 11807025
+        }
+      },
+      ["time"]= 9
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 320309,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 11806002
+        }
+      },
+      ["time"]= 11
+    }
+  },
+  ["storyId"]= 2005
+},
+[2006] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 330701,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 80517004
+        }
+      },
+      ["time"]= 1
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 330702,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 80517002
+        }
+      },
+      ["time"]= 3
+    }
+  },
+  ["storyId"]= 2006
+},
+[2007] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 330704,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 80527012
+        }
+      },
+      ["time"]= 1
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 330705,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 80527011
+        }
+      },
+      ["time"]= 3
+    }
+  },
+  ["storyId"]= 2007
+},
+[2008] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 230306,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 80282003
+        }
+      },
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 230307,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 80282002
+        }
+      },
+      ["time"]= 4
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 230308,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 80282004
+        },
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 230308,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 80282005
+        },
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 230308,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 80282006
+        },
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 230308,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 80282007
+        }
+      },
+      ["time"]= 6
+    }
+  },
+  ["storyId"]= 2008
+},
+[2009] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 320213,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            },
+            {
+              ["actionId"]= 320215,
+              ["actionType"]= 1,
+              ["delay"]= 2000,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            },
+            {
+              ["actionId"]= 320217,
+              ["actionType"]= 1,
+              ["delay"]= 9000,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 80137004
+        }
+      },
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 320214,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            },
+            {
+              ["actionId"]= 320216,
+              ["actionType"]= 1,
+              ["delay"]= 4000,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 80137003
+        }
+      },
+      ["time"]= 3
+    }
+  },
+  ["storyId"]= 2009
+},
+[2010] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["cameraX"]= 42,
+          ["cameraY"]= 22,
+          ["cameraZ"]= -6,
+          ["clientType"]= "callingCamera",
+          ["closeConditionId"]= 0,
+          ["posx"]= 38.82,
+          ["posy"]= 15,
+          ["posz"]= 13.22
+        }
+      },
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 1016,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            },
+            {
+              ["actionId"]= 3101,
+              ["actionLimited"]= "",
+              ["actionType"]= 2,
+              ["delay"]= 2,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 80847001
+        }
+      },
+      ["time"]= 2
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "returnCamera",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 5
+    }
+  },
+  ["storyId"]= 2010
+},
+[2011] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["cameraX"]= -111,
+          ["cameraY"]= 20,
+          ["cameraZ"]= 37,
+          ["clientType"]= "callingCamera",
+          ["closeConditionId"]= 0,
+          ["posx"]= -117,
+          ["posy"]= 15,
+          ["posz"]= 60
+        }
+      },
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "InitiativeMoveNPCOccur",
+          ["closeConditionId"]= 0,
+          ["NpcId"]= 64162,
+          ["NpcInstance"]= 50,
+          ["NpcPatrolLocation"]= {
+            {
+              ["NpcPatrolLocationX"]= -97.87,
+              ["NpcPatrolLocationY"]= 14.5,
+              ["NpcPatrolLocationZ"]= 71.73
+            },
+            {
+              ["NpcPatrolLocationX"]= -126.84,
+              ["NpcPatrolLocationY"]= 14.5,
+              ["NpcPatrolLocationZ"]= 62.63
+            },
+            {
+              ["NpcPatrolLocationX"]= -127.2,
+              ["NpcPatrolLocationY"]= 14.5,
+              ["NpcPatrolLocationZ"]= 56
+            },
+            {
+              ["NpcPatrolLocationX"]= -112,
+              ["NpcPatrolLocationY"]= 14.5,
+              ["NpcPatrolLocationZ"]= 51
+            }
+          },
+          ["NpcSpeed"]= 7
+        }
+      },
+      ["time"]= 1
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "InitiativeMoveNPCOccur",
+          ["closeConditionId"]= 0,
+          ["NpcId"]= 64163,
+          ["NpcInstance"]= 50,
+          ["NpcPatrolLocation"]= {
+            {
+              ["NpcPatrolLocationX"]= -97.87,
+              ["NpcPatrolLocationY"]= 14.5,
+              ["NpcPatrolLocationZ"]= 71.73
+            },
+            {
+              ["NpcPatrolLocationX"]= -126.84,
+              ["NpcPatrolLocationY"]= 14.5,
+              ["NpcPatrolLocationZ"]= 62.63
+            },
+            {
+              ["NpcPatrolLocationX"]= -127,
+              ["NpcPatrolLocationY"]= 14.5,
+              ["NpcPatrolLocationZ"]= 56
+            },
+            {
+              ["NpcPatrolLocationX"]= -115.96,
+              ["NpcPatrolLocationY"]= 14.5,
+              ["NpcPatrolLocationZ"]= 54.47
+            }
+          },
+          ["NpcSpeed"]= 7
+        }
+      },
+      ["time"]= 2
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "InitiativeMoveNPCLeave",
+          ["closeConditionId"]= 0,
+          ["NpcId"]= 64162
+        },
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 307,
+              ["actionLimited"]= "",
+              ["actionType"]= 2,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            },
+            {
+              ["actionId"]= 14,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 80857001
+        }
+      },
+      ["time"]= 30
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "InitiativeMoveNPCLeave",
+          ["closeConditionId"]= 0,
+          ["NpcId"]= 64162
+        }
+      },
+      ["time"]= 32
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "returnCamera",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 35
+    }
+  },
+  ["storyId"]= 2011
+},
+[2012] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["cameraX"]= -108.12,
+          ["cameraY"]= 20,
+          ["cameraZ"]= 56,
+          ["clientType"]= "callingCamera",
+          ["closeConditionId"]= 0,
+          ["posx"]= -115.87,
+          ["posy"]= 14.8,
+          ["posz"]= 54.47
+        }
+      },
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 281804,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 12307008
+        }
+      },
+      ["time"]= 1
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actionId"]= 100,
+          ["activeConditionId"]= 0,
+          ["clientType"]= "screenJitter",
+          ["closeConditionId"]= 0,
+          ["delay"]= 0,
+          ["duration"]= 2
+        }
+      },
+      ["time"]= 3
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "PlayEffectAction",
+          ["closeConditionId"]= 0,
+          ["delay"]= 0,
+          ["effectId"]= "Dialogue_UIeffect_4"
+        }
+      },
+      ["time"]= 5
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "returnCamera",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 7
+    }
+  },
+  ["storyId"]= 2012
+},
+[2013] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["cameraX"]= -100,
+          ["cameraY"]= 25,
+          ["cameraZ"]= 54,
+          ["clientType"]= "callingCamera",
+          ["closeConditionId"]= 0,
+          ["posx"]= -115.87,
+          ["posy"]= 16,
+          ["posz"]= 54.47
+        }
+      },
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 281805,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 12307008
+        }
+      },
+      ["time"]= 1
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actionId"]= 100,
+          ["activeConditionId"]= 0,
+          ["clientType"]= "screenJitter",
+          ["closeConditionId"]= 0,
+          ["delay"]= 0,
+          ["duration"]= 2
+        }
+      },
+      ["time"]= 4
+    }
+  },
+  ["storyId"]= 2013
+},
+[2014] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "returnCamera",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 0
+    }
+  },
+  ["storyId"]= 2014
+},
+[2015] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["cameraX"]= 9,
+          ["cameraY"]= 22,
+          ["cameraZ"]= 45,
+          ["clientType"]= "callingCamera",
+          ["closeConditionId"]= 0,
+          ["posx"]= 25,
+          ["posy"]= 15,
+          ["posz"]= 49
+        }
+      },
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 282005,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 80997002
+        }
+      },
+      ["time"]= 1
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 282006,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 80997003
+        }
+      },
+      ["time"]= 3
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "returnCamera",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 5
+    }
+  },
+  ["storyId"]= 2015
+},
+[2016] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["cameraX"]= -111,
+          ["cameraY"]= 20,
+          ["cameraZ"]= 37,
+          ["clientType"]= "callingCamera",
+          ["closeConditionId"]= 0,
+          ["posx"]= -117,
+          ["posy"]= 15,
+          ["posz"]= 60
+        }
+      },
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 307,
+              ["actionLimited"]= "",
+              ["actionType"]= 2,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            },
+            {
+              ["actionId"]= 14,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 80857001
+        }
+      },
+      ["time"]= 1
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 1016,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 80857002
+        }
+      },
+      ["time"]= 3
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "returnCamera",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 5
+    }
+  },
+  ["storyId"]= 2016
+},
+[2017] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["cameraX"]= -4,
+          ["cameraY"]= 14,
+          ["cameraZ"]= 96,
+          ["clientType"]= "callingCamera",
+          ["closeConditionId"]= 0,
+          ["posx"]= -2.5,
+          ["posy"]= 5,
+          ["posz"]= 113
+        }
+      },
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 210758,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 70802001
+        }
+      },
+      ["time"]= 1
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 210759,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 70802002
+        }
+      },
+      ["time"]= 3
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "returnCamera",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 5
+    }
+  },
+  ["storyId"]= 2017
+},
+[2018] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["cameraX"]= 110,
+          ["cameraY"]= 37,
+          ["cameraZ"]= 156,
+          ["clientType"]= "callingCamera",
+          ["closeConditionId"]= 0,
+          ["posx"]= 110,
+          ["posy"]= 44,
+          ["posz"]= 136
+        }
+      },
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actionId"]= 100,
+          ["activeConditionId"]= 0,
+          ["clientType"]= "screenJitter",
+          ["closeConditionId"]= 0,
+          ["delay"]= 0,
+          ["duration"]= 2500
+        }
+      },
+      ["time"]= 1
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 210766,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 16406001
+        }
+      },
+      ["time"]= 3
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "returnCamera",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 6
+    }
+  },
+  ["storyId"]= 2018
+},
+[2019] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["cameraX"]= 110,
+          ["cameraY"]= 37,
+          ["cameraZ"]= 156,
+          ["clientType"]= "callingCamera",
+          ["closeConditionId"]= 0,
+          ["posx"]= 110,
+          ["posy"]= 44,
+          ["posz"]= 176
+        }
+      },
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actionId"]= 100,
+          ["activeConditionId"]= 0,
+          ["clientType"]= "screenJitter",
+          ["closeConditionId"]= 0,
+          ["delay"]= 0,
+          ["duration"]= 2500
+        }
+      },
+      ["time"]= 1
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "returnCamera",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 4
+    }
+  },
+  ["storyId"]= 2019
+},
+[2020] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["cameraX"]= 89.89902,
+          ["cameraY"]= 2.610908,
+          ["cameraZ"]= 91.20743,
+          ["clientType"]= "callingCamera",
+          ["closeConditionId"]= 0,
+          ["posx"]= 86.36382,
+          ["posy"]= 2.01363373,
+          ["posz"]= 105.4454
+        }
+      },
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 320516,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 1
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 10107019
+        }
+      },
+      ["time"]= 1
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 320517,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 1
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 10107019
+        }
+      },
+      ["time"]= 4
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 320518,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 1
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 10107018
+        }
+      },
+      ["time"]= 7
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 320519,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 1
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 10107019
+        }
+      },
+      ["time"]= 10
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "returnCamera",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 13
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 320520,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 1
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 10107019
+        }
+      },
+      ["time"]= 14
+    }
+  },
+  ["storyId"]= 2020
+},
+[2021] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["cameraX"]= 69.10519,
+          ["cameraY"]= 16.60234,
+          ["cameraZ"]= 65.1322,
+          ["clientType"]= "callingCamera",
+          ["closeConditionId"]= 0,
+          ["posx"]= 83.45673,
+          ["posy"]= 15.55063,
+          ["posz"]= 70.85394
+        }
+      },
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 320504,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 1
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 81001001
+        }
+      },
+      ["time"]= 1
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 320505,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 1
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 81001001
+        }
+      },
+      ["time"]= 3
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 320506,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 1
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 81001003
+        }
+      },
+      ["time"]= 5
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "returnCamera",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 7
+    }
+  },
+  ["storyId"]= 2021
+},
+[2022] = {
+  ["EventList"]= {},
+  ["showMonster"]= 0,
+  ["showNpc"]= 0,
+  ["showPlayer"]= 0,
+  ["showUI"]= 0,
+  ["storyId"]= 2022
+},
+[2023] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["cameraX"]= 127,
+          ["cameraY"]= 37,
+          ["cameraZ"]= 156,
+          ["clientType"]= "callingCamera",
+          ["closeConditionId"]= 0,
+          ["posx"]= 127,
+          ["posy"]= 44,
+          ["posz"]= 176
+        }
+      },
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actionId"]= 100,
+          ["activeConditionId"]= 0,
+          ["clientType"]= "screenJitter",
+          ["closeConditionId"]= 0,
+          ["delay"]= 0,
+          ["duration"]= 2500
+        }
+      },
+      ["time"]= 1
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "returnCamera",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 4
+    }
+  },
+  ["storyId"]= 2023
+},
+[2024] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["cameraX"]= 163.5,
+          ["cameraY"]= 37,
+          ["cameraZ"]= 156,
+          ["clientType"]= "callingCamera",
+          ["closeConditionId"]= 0,
+          ["posx"]= 163.5,
+          ["posy"]= 44,
+          ["posz"]= 176
+        }
+      },
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actionId"]= 101,
+          ["activeConditionId"]= 0,
+          ["clientType"]= "screenJitter",
+          ["closeConditionId"]= 0,
+          ["delay"]= 0,
+          ["duration"]= 2500
+        }
+      },
+      ["time"]= 1
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "returnCamera",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 4
+    }
+  },
+  ["storyId"]= 2024
+},
+[2025] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["cameraX"]= 180,
+          ["cameraY"]= 37,
+          ["cameraZ"]= 158,
+          ["clientType"]= "callingCamera",
+          ["closeConditionId"]= 0,
+          ["posx"]= 180,
+          ["posy"]= 44,
+          ["posz"]= 176
+        }
+      },
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actionId"]= 102,
+          ["activeConditionId"]= 0,
+          ["clientType"]= "screenJitter",
+          ["closeConditionId"]= 0,
+          ["delay"]= 0,
+          ["duration"]= 2500
+        }
+      },
+      ["time"]= 1
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "returnCamera",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 4
+    }
+  },
+  ["storyId"]= 2025
+},
+[2026] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["cameraX"]= 177,
+          ["cameraY"]= 43,
+          ["cameraZ"]= 160,
+          ["clientType"]= "callingCamera",
+          ["closeConditionId"]= 0,
+          ["posx"]= 181,
+          ["posy"]= 39,
+          ["posz"]= 136
+        }
+      },
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 210767,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 16402005
+        }
+      },
+      ["time"]= 1
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actionId"]= 103,
+          ["activeConditionId"]= 0,
+          ["clientType"]= "screenJitter",
+          ["closeConditionId"]= 0,
+          ["delay"]= 0,
+          ["duration"]= 2500
+        }
+      },
+      ["time"]= 4
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "returnCamera",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 7
+    }
+  },
+  ["storyId"]= 2026
+},
+[2027] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["cameraX"]= 163.5,
+          ["cameraY"]= 37,
+          ["cameraZ"]= 156,
+          ["clientType"]= "callingCamera",
+          ["closeConditionId"]= 0,
+          ["posx"]= 163.5,
+          ["posy"]= 45,
+          ["posz"]= 136.5
+        }
+      },
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actionId"]= 104,
+          ["activeConditionId"]= 0,
+          ["clientType"]= "screenJitter",
+          ["closeConditionId"]= 0,
+          ["delay"]= 0,
+          ["duration"]= 2500
+        }
+      },
+      ["time"]= 1
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "returnCamera",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 4
+    }
+  },
+  ["storyId"]= 2027
+},
+[2028] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["cameraX"]= 176,
+          ["cameraY"]= 47,
+          ["cameraZ"]= 156,
+          ["clientType"]= "callingCamera",
+          ["closeConditionId"]= 0,
+          ["posx"]= 214,
+          ["posy"]= 47,
+          ["posz"]= 158
+        }
+      },
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actionId"]= 100,
+          ["activeConditionId"]= 0,
+          ["clientType"]= "screenJitter",
+          ["closeConditionId"]= 0,
+          ["delay"]= 0,
+          ["duration"]= 2500
+        }
+      },
+      ["time"]= 1
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "returnCamera",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 4
+    }
+  },
+  ["storyId"]= 2028
+},
+[2029] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["cameraX"]= 69.10519,
+          ["cameraY"]= 16.60234,
+          ["cameraZ"]= 65.1322,
+          ["clientType"]= "callingCamera",
+          ["closeConditionId"]= 0,
+          ["posx"]= 83.45673,
+          ["posy"]= 15.55063,
+          ["posz"]= 70.85394
+        }
+      },
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 320533,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 1
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 81001005
+        }
+      },
+      ["time"]= 1
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 320534,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 1
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 81001003
+        }
+      },
+      ["time"]= 3
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "returnCamera",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 5
+    }
+  },
+  ["storyId"]= 2029
+},
+[2030] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["cameraX"]= 35.67068,
+          ["cameraY"]= 7.234711,
+          ["cameraZ"]= 178.689,
+          ["clientType"]= "callingCamera",
+          ["closeConditionId"]= 0,
+          ["posx"]= 62.14,
+          ["posy"]= 0.297817,
+          ["posz"]= 184.94
+        }
+      },
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 282304,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 1
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 16107013
+        }
+      },
+      ["time"]= 2
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 282305,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 1
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 16107014
+        }
+      },
+      ["time"]= 4
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 282306,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 1
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 16107015
+        }
+      },
+      ["time"]= 6
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "CameraResetAction",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 8
+    }
+  },
+  ["storyId"]= 2030
+},
+[2031] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["cameraX"]= -8.307965,
+          ["cameraY"]= 9.71789,
+          ["cameraZ"]= -73.03593,
+          ["clientType"]= "callingCamera",
+          ["closeConditionId"]= 0,
+          ["posx"]= 15.044,
+          ["posy"]= -2.409999,
+          ["posz"]= -75.12
+        }
+      },
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 282307,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 1
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 81047002
+        }
+      },
+      ["time"]= 2
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 282308,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 1
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 16307006
+        }
+      },
+      ["time"]= 4
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 282309,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 1
+            },
+            {
+              ["actionId"]= 304,
+              ["actionLimited"]= "",
+              ["actionType"]= 2,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 81047003
+        }
+      },
+      ["time"]= 6
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 282310,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 1
+            },
+            {
+              ["actionId"]= 304,
+              ["actionLimited"]= "",
+              ["actionType"]= 2,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 81047004
+        }
+      },
+      ["time"]= 8
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "returnCamera",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 10
+    }
+  },
+  ["storyId"]= 2031
+},
+[2032] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["cameraX"]= 144,
+          ["cameraY"]= 9,
+          ["cameraZ"]= 161,
+          ["clientType"]= "callingCamera",
+          ["closeConditionId"]= 0,
+          ["posx"]= 132,
+          ["posy"]= 2,
+          ["posz"]= 176
+        }
+      },
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "returnCamera",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 4
+    }
+  },
+  ["storyId"]= 2032
+},
+[2033] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["cameraX"]= 207.4076,
+          ["cameraY"]= 7.780083,
+          ["cameraZ"]= 168.9077,
+          ["clientType"]= "callingCamera",
+          ["closeConditionId"]= 0,
+          ["posx"]= 226.0774,
+          ["posy"]= 0.604976,
+          ["posz"]= 149.8572
+        }
+      },
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 282403,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 1
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 16107023
+        }
+      },
+      ["time"]= 2
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 282404,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 1
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 16107024
+        }
+      },
+      ["time"]= 4
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 282405,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 1
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 16106006
+        }
+      },
+      ["time"]= 6
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "returnCamera",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 6
+    }
+  },
+  ["storyId"]= 2033
+},
+[2034] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["cameraX"]= -15,
+          ["cameraY"]= 13,
+          ["cameraZ"]= 46,
+          ["clientType"]= "callingCamera",
+          ["closeConditionId"]= 0,
+          ["posx"]= 1,
+          ["posy"]= 7,
+          ["posz"]= 49
+        }
+      },
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 210776,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 16202003
+        }
+      },
+      ["time"]= 1
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "returnCamera",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 3
+    }
+  },
+  ["storyId"]= 2034
+},
+[2035] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["cameraX"]= -25,
+          ["cameraY"]= 8,
+          ["cameraZ"]= 818,
+          ["clientType"]= "callingCamera",
+          ["closeConditionId"]= 0,
+          ["posx"]= -24,
+          ["posy"]= 2,
+          ["posz"]= 803
+        }
+      },
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 210780,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 16602001
+        }
+      },
+      ["time"]= 1
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "returnCamera",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 5
+    }
+  },
+  ["storyId"]= 2035
+},
+[2036] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["cameraX"]= 61.01003,
+          ["cameraY"]= 4.019191,
+          ["cameraZ"]= 185.9627,
+          ["clientType"]= "callingCamera",
+          ["closeConditionId"]= 0,
+          ["posx"]= 64.63,
+          ["posy"]= 0.797818,
+          ["posz"]= 211.76
+        }
+      },
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 282502,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 1
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 16107039
+        }
+      },
+      ["time"]= 2
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 304,
+              ["actionLimited"]= "",
+              ["actionType"]= 2,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 16107039
+        }
+      },
+      ["time"]= 3
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "returnCamera",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 5
+    }
+  },
+  ["storyId"]= 2036
+},
+[2037] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["cameraX"]= -105.2649,
+          ["cameraY"]= 25.142,
+          ["cameraZ"]= 731.1243,
+          ["clientType"]= "callingCamera",
+          ["closeConditionId"]= 0,
+          ["posx"]= -120.66,
+          ["posy"]= 16.61016,
+          ["posz"]= 757.45
+        }
+      },
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 282602,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 1
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 81067001
+        }
+      },
+      ["time"]= 2
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "returnCamera",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 4
+    }
+  },
+  ["storyId"]= 2037
+},
+[2038] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["cameraX"]= -0.1928692,
+          ["cameraY"]= 9.219482,
+          ["cameraZ"]= -53.66319,
+          ["clientType"]= "callingCamera",
+          ["closeConditionId"]= 0,
+          ["posx"]= 29.17087,
+          ["posy"]= 0.4172649,
+          ["posz"]= -54.27289
+        }
+      },
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "InitiativeMoveNPCOccur",
+          ["closeConditionId"]= 0,
+          ["NpcId"]= 64221,
+          ["NpcInstance"]= 100,
+          ["NpcPatrolLocation"]= {
+            {
+              ["NpcPatrolLocationX"]= 38.29,
+              ["NpcPatrolLocationY"]= 0.4172649,
+              ["NpcPatrolLocationZ"]= -53.95
+            },
+            {
+              ["NpcPatrolLocationX"]= 25.85,
+              ["NpcPatrolLocationY"]= 0.4172649,
+              ["NpcPatrolLocationZ"]= -53.83
+            }
+          },
+          ["NpcSpeed"]= 3
+        }
+      },
+      ["time"]= 1
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "InitiativeMoveNPCLeave",
+          ["closeConditionId"]= 0,
+          ["NpcId"]= 64221
+        }
+      },
+      ["time"]= 3
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "returnCamera",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 5
+    }
+  },
+  ["storyId"]= 2038
+},
+[2039] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["cameraX"]= 87.57,
+          ["cameraY"]= 11.59,
+          ["cameraZ"]= -41.68,
+          ["clientType"]= "callingCamera",
+          ["closeConditionId"]= 0,
+          ["posx"]= 90.35,
+          ["posy"]= 9.44,
+          ["posz"]= -41.29
+        },
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 231411,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 16207055
+        },
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 231412,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 16207056
+        }
+      },
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 231413,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 16107059
+        }
+      },
+      ["time"]= 2
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "CameraResetAction",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 6
+    }
+  },
+  ["showSkip"]= 1,
+  ["storyId"]= 2039
+},
+[2040] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["cameraX"]= 127.8,
+          ["cameraY"]= 10.98,
+          ["cameraZ"]= 10.43,
+          ["clientType"]= "callingCamera",
+          ["closeConditionId"]= 0,
+          ["posx"]= 130,
+          ["posy"]= 7.65,
+          ["posz"]= 3.31
+        }
+      },
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 231416,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 16107055
+        },
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 231415,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 16107056
+        }
+      },
+      ["time"]= 1
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "returnCamera",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 9
+    }
+  },
+  ["showSkip"]= 1,
+  ["storyId"]= 2040
+},
+[2041] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["cameraX"]= 75.06,
+          ["cameraY"]= 2.58,
+          ["cameraZ"]= 109.6,
+          ["clientType"]= "callingCamera",
+          ["closeConditionId"]= 0,
+          ["posx"]= 75.43,
+          ["posy"]= 1.63,
+          ["posz"]= 111.8
+        }
+      },
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "returnCamera",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 3
+    }
+  },
+  ["showSkip"]= 1,
+  ["storyId"]= 2041
+},
+[2042] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["cameraX"]= 185.62,
+          ["cameraY"]= 6.06,
+          ["cameraZ"]= 103.51,
+          ["clientType"]= "callingCamera",
+          ["closeConditionId"]= 0,
+          ["posx"]= 188.47,
+          ["posy"]= 3.37,
+          ["posz"]= 104.19
+        }
+      },
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "returnCamera",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 3
+    }
+  },
+  ["showSkip"]= 1,
+  ["storyId"]= 2042
+},
+[2043] = {
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["cameraX"]= -65.054,
+          ["cameraY"]= -3.806,
+          ["cameraZ"]= -84.775,
+          ["clientType"]= "callingCamera",
+          ["closeConditionId"]= 0,
+          ["posx"]= -76.53,
+          ["posy"]= -2.46,
+          ["posz"]= -74.51
+        }
+      },
+      ["time"]= 0
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "InitiativeMoveNPCOccur",
+          ["closeConditionId"]= 0,
+          ["NpcId"]= 64256,
+          ["NpcInstance"]= 100,
+          ["NpcPatrolLocation"]= {
+            {
+              ["NpcPatrolLocationX"]= -83.216,
+              ["NpcPatrolLocationY"]= -5.049931,
+              ["NpcPatrolLocationZ"]= -58.154
+            },
+            {
+              ["NpcPatrolLocationX"]= -83.216,
+              ["NpcPatrolLocationY"]= -5.049931,
+              ["NpcPatrolLocationZ"]= -69.297
+            }
+          },
+          ["NpcSpeed"]= 5
+        },
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "InitiativeMoveNPCOccur",
+          ["closeConditionId"]= 0,
+          ["NpcId"]= 64260,
+          ["NpcInstance"]= 100,
+          ["NpcPatrolLocation"]= {
+            {
+              ["NpcPatrolLocationX"]= -81.681,
+              ["NpcPatrolLocationY"]= -5.049931,
+              ["NpcPatrolLocationZ"]= -58.165
+            },
+            {
+              ["NpcPatrolLocationX"]= -81.681,
+              ["NpcPatrolLocationY"]= -5.049931,
+              ["NpcPatrolLocationZ"]= -69.297
+            }
+          },
+          ["NpcSpeed"]= 5
+        }
+      },
+      ["time"]= 1
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 282907,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 17107014
+        }
+      },
+      ["time"]= 4
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["actions"]= {
+            {
+              ["actionId"]= 282908,
+              ["actionType"]= 1,
+              ["delay"]= 0,
+              ["IsRandomDelay"]= 0,
+              ["MaxDelay"]= 0,
+              ["MinDelay"]= 0,
+              ["origin"]= 0
+            }
+          },
+          ["activeConditionId"]= 0,
+          ["clientType"]= "clientSceneNpcAction",
+          ["closeConditionId"]= 0,
+          ["sceneNpcId"]= 17107004
+        }
+      },
+      ["time"]= 5
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "InitiativeMoveNPCLeave",
+          ["closeConditionId"]= 0,
+          ["NpcId"]= 64256
+        },
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "InitiativeMoveNPCLeave",
+          ["closeConditionId"]= 0,
+          ["NpcId"]= 64260
+        }
+      },
+      ["time"]= 7
+    },
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "returnCamera",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 10
+    }
+  },
+  ["showSkip"]= 1,
+  ["storyId"]= 2043
+}
+}
+local baseTable={
+  ["EventList"]= {
+    {
+      ["clientActions"]= {
+        {
+          ["activeConditionId"]= 0,
+          ["clientType"]= "returnCamera",
+          ["closeConditionId"]= 0
+        }
+      },
+      ["time"]= 2
+    }
+  },
+  ["isLock"]= 0,
+  ["showMonster"]= 1,
+  ["showNpc"]= 1,
+  ["showPlayer"]= 1,
+  ["showSkip"]= 0,
+  ["showUI"]= 1,
+  ["storyId"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

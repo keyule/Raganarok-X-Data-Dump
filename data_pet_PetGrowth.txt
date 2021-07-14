@@ -1,0 +1,725 @@
+TextAsset Base
+	string m_Name = "data_pet_PetGrowth"
+	string m_Script = "return {
+[1] = {
+  ["ID"]= 1,
+  ["magicDefense"]= 0,
+  ["magicDps"]= 2,
+  ["maxHp"]= 100,
+  ["physicDefense"]= 0,
+  ["physicDps"]= 2
+},
+[2] = {
+  ["ID"]= 2,
+  ["magicDefense"]= 1,
+  ["magicDps"]= 4,
+  ["maxHp"]= 200,
+  ["physicDefense"]= 1,
+  ["physicDps"]= 4
+},
+[3] = {
+  ["ID"]= 3,
+  ["magicDefense"]= 1,
+  ["magicDps"]= 6,
+  ["maxHp"]= 300,
+  ["physicDefense"]= 1,
+  ["physicDps"]= 6
+},
+[4] = {
+  ["ID"]= 4,
+  ["magicDefense"]= 2,
+  ["magicDps"]= 10,
+  ["maxHp"]= 500,
+  ["physicDefense"]= 2,
+  ["physicDps"]= 10
+},
+[5] = {
+  ["ID"]= 5,
+  ["magicDefense"]= 3,
+  ["magicDps"]= 14,
+  ["maxHp"]= 700,
+  ["physicDefense"]= 3,
+  ["physicDps"]= 14
+},
+[6] = {
+  ["ID"]= 6,
+  ["magicDefense"]= 4,
+  ["magicDps"]= 18,
+  ["maxHp"]= 900,
+  ["physicDefense"]= 4,
+  ["physicDps"]= 18
+},
+[7] = {
+  ["ID"]= 7,
+  ["magicDefense"]= 5,
+  ["magicDps"]= 24,
+  ["maxHp"]= 1200,
+  ["physicDefense"]= 5,
+  ["physicDps"]= 24
+},
+[8] = {
+  ["ID"]= 8,
+  ["magicDefense"]= 6,
+  ["magicDps"]= 30,
+  ["maxHp"]= 1500,
+  ["physicDefense"]= 6,
+  ["physicDps"]= 30
+},
+[9] = {
+  ["ID"]= 9,
+  ["magicDefense"]= 7,
+  ["magicDps"]= 36,
+  ["maxHp"]= 1800,
+  ["physicDefense"]= 7,
+  ["physicDps"]= 36
+},
+[10] = {
+  ["ID"]= 10,
+  ["magicDefense"]= 9,
+  ["magicDps"]= 44,
+  ["maxHp"]= 2200,
+  ["physicDefense"]= 9,
+  ["physicDps"]= 44
+},
+[11] = {
+  ["ID"]= 11,
+  ["magicDefense"]= 10,
+  ["magicDps"]= 52,
+  ["maxHp"]= 2600,
+  ["physicDefense"]= 10,
+  ["physicDps"]= 52
+},
+[12] = {
+  ["ID"]= 12,
+  ["magicDefense"]= 12,
+  ["magicDps"]= 60,
+  ["maxHp"]= 3000,
+  ["physicDefense"]= 12,
+  ["physicDps"]= 60
+},
+[13] = {
+  ["ID"]= 13,
+  ["magicDefense"]= 14,
+  ["magicDps"]= 72,
+  ["maxHp"]= 3550,
+  ["physicDefense"]= 14,
+  ["physicDps"]= 72
+},
+[14] = {
+  ["ID"]= 14,
+  ["magicDefense"]= 17,
+  ["magicDps"]= 84,
+  ["maxHp"]= 4100,
+  ["physicDefense"]= 17,
+  ["physicDps"]= 84
+},
+[15] = {
+  ["ID"]= 15,
+  ["magicDefense"]= 19,
+  ["magicDps"]= 96,
+  ["maxHp"]= 4650,
+  ["physicDefense"]= 19,
+  ["physicDps"]= 96
+},
+[16] = {
+  ["ID"]= 16,
+  ["magicDefense"]= 22,
+  ["magicDps"]= 112,
+  ["maxHp"]= 5350,
+  ["physicDefense"]= 22,
+  ["physicDps"]= 112
+},
+[17] = {
+  ["ID"]= 17,
+  ["magicDefense"]= 26,
+  ["magicDps"]= 128,
+  ["maxHp"]= 6050,
+  ["physicDefense"]= 26,
+  ["physicDps"]= 128
+},
+[18] = {
+  ["ID"]= 18,
+  ["magicDefense"]= 29,
+  ["magicDps"]= 144,
+  ["maxHp"]= 6750,
+  ["physicDefense"]= 29,
+  ["physicDps"]= 144
+},
+[19] = {
+  ["ID"]= 19,
+  ["magicDefense"]= 33,
+  ["magicDps"]= 164,
+  ["maxHp"]= 7600,
+  ["physicDefense"]= 33,
+  ["physicDps"]= 164
+},
+[20] = {
+  ["ID"]= 20,
+  ["magicDefense"]= 37,
+  ["magicDps"]= 184,
+  ["maxHp"]= 8450,
+  ["physicDefense"]= 37,
+  ["physicDps"]= 184
+},
+[21] = {
+  ["ID"]= 21,
+  ["magicDefense"]= 41,
+  ["magicDps"]= 204,
+  ["maxHp"]= 9300,
+  ["physicDefense"]= 41,
+  ["physicDps"]= 204
+},
+[22] = {
+  ["ID"]= 22,
+  ["magicDefense"]= 46,
+  ["magicDps"]= 228,
+  ["maxHp"]= 10300,
+  ["physicDefense"]= 46,
+  ["physicDps"]= 228
+},
+[23] = {
+  ["ID"]= 23,
+  ["magicDefense"]= 50,
+  ["magicDps"]= 252,
+  ["maxHp"]= 11300,
+  ["physicDefense"]= 50,
+  ["physicDps"]= 252
+},
+[24] = {
+  ["ID"]= 24,
+  ["magicDefense"]= 55,
+  ["magicDps"]= 276,
+  ["maxHp"]= 12300,
+  ["physicDefense"]= 55,
+  ["physicDps"]= 276
+},
+[25] = {
+  ["ID"]= 25,
+  ["magicDefense"]= 61,
+  ["magicDps"]= 306,
+  ["maxHp"]= 13500,
+  ["physicDefense"]= 61,
+  ["physicDps"]= 306
+},
+[26] = {
+  ["ID"]= 26,
+  ["magicDefense"]= 67,
+  ["magicDps"]= 336,
+  ["maxHp"]= 14700,
+  ["physicDefense"]= 67,
+  ["physicDps"]= 336
+},
+[27] = {
+  ["ID"]= 27,
+  ["magicDefense"]= 73,
+  ["magicDps"]= 366,
+  ["maxHp"]= 15900,
+  ["physicDefense"]= 73,
+  ["physicDps"]= 366
+},
+[28] = {
+  ["ID"]= 28,
+  ["magicDefense"]= 80,
+  ["magicDps"]= 402,
+  ["maxHp"]= 17300,
+  ["physicDefense"]= 80,
+  ["physicDps"]= 402
+},
+[29] = {
+  ["ID"]= 29,
+  ["magicDefense"]= 88,
+  ["magicDps"]= 438,
+  ["maxHp"]= 18700,
+  ["physicDefense"]= 88,
+  ["physicDps"]= 438
+},
+[30] = {
+  ["ID"]= 30,
+  ["magicDefense"]= 95,
+  ["magicDps"]= 474,
+  ["maxHp"]= 20100,
+  ["physicDefense"]= 95,
+  ["physicDps"]= 474
+},
+[31] = {
+  ["ID"]= 31,
+  ["magicDefense"]= 103,
+  ["magicDps"]= 516,
+  ["maxHp"]= 21700,
+  ["physicDefense"]= 103,
+  ["physicDps"]= 516
+},
+[32] = {
+  ["ID"]= 32,
+  ["magicDefense"]= 112,
+  ["magicDps"]= 558,
+  ["maxHp"]= 23300,
+  ["physicDefense"]= 112,
+  ["physicDps"]= 558
+},
+[33] = {
+  ["ID"]= 33,
+  ["magicDefense"]= 120,
+  ["magicDps"]= 600,
+  ["maxHp"]= 24900,
+  ["physicDefense"]= 120,
+  ["physicDps"]= 600
+},
+[34] = {
+  ["ID"]= 34,
+  ["magicDefense"]= 130,
+  ["magicDps"]= 648,
+  ["maxHp"]= 26700,
+  ["physicDefense"]= 130,
+  ["physicDps"]= 648
+},
+[35] = {
+  ["ID"]= 35,
+  ["magicDefense"]= 139,
+  ["magicDps"]= 696,
+  ["maxHp"]= 28500,
+  ["physicDefense"]= 139,
+  ["physicDps"]= 696
+},
+[36] = {
+  ["ID"]= 36,
+  ["magicDefense"]= 149,
+  ["magicDps"]= 744,
+  ["maxHp"]= 30300,
+  ["physicDefense"]= 149,
+  ["physicDps"]= 744
+},
+[37] = {
+  ["ID"]= 37,
+  ["magicDefense"]= 160,
+  ["magicDps"]= 800,
+  ["maxHp"]= 32350,
+  ["physicDefense"]= 160,
+  ["physicDps"]= 800
+},
+[38] = {
+  ["ID"]= 38,
+  ["magicDefense"]= 171,
+  ["magicDps"]= 856,
+  ["maxHp"]= 34400,
+  ["physicDefense"]= 171,
+  ["physicDps"]= 856
+},
+[39] = {
+  ["ID"]= 39,
+  ["magicDefense"]= 182,
+  ["magicDps"]= 912,
+  ["maxHp"]= 36450,
+  ["physicDefense"]= 182,
+  ["physicDps"]= 912
+},
+[40] = {
+  ["ID"]= 40,
+  ["magicDefense"]= 196,
+  ["magicDps"]= 978,
+  ["maxHp"]= 38800,
+  ["physicDefense"]= 196,
+  ["physicDps"]= 978
+},
+[41] = {
+  ["ID"]= 41,
+  ["magicDefense"]= 209,
+  ["magicDps"]= 1044,
+  ["maxHp"]= 41150,
+  ["physicDefense"]= 209,
+  ["physicDps"]= 1044
+},
+[42] = {
+  ["ID"]= 42,
+  ["magicDefense"]= 222,
+  ["magicDps"]= 1110,
+  ["maxHp"]= 43500,
+  ["physicDefense"]= 222,
+  ["physicDps"]= 1110
+},
+[43] = {
+  ["ID"]= 43,
+  ["magicDefense"]= 238,
+  ["magicDps"]= 1188,
+  ["maxHp"]= 46200,
+  ["physicDefense"]= 238,
+  ["physicDps"]= 1188
+},
+[44] = {
+  ["ID"]= 44,
+  ["magicDefense"]= 253,
+  ["magicDps"]= 1266,
+  ["maxHp"]= 48900,
+  ["physicDefense"]= 253,
+  ["physicDps"]= 1266
+},
+[45] = {
+  ["ID"]= 45,
+  ["magicDefense"]= 269,
+  ["magicDps"]= 1344,
+  ["maxHp"]= 51600,
+  ["physicDefense"]= 269,
+  ["physicDps"]= 1344
+},
+[46] = {
+  ["ID"]= 46,
+  ["magicDefense"]= 287,
+  ["magicDps"]= 1436,
+  ["maxHp"]= 54700,
+  ["physicDefense"]= 287,
+  ["physicDps"]= 1436
+},
+[47] = {
+  ["ID"]= 47,
+  ["magicDefense"]= 306,
+  ["magicDps"]= 1528,
+  ["maxHp"]= 57800,
+  ["physicDefense"]= 306,
+  ["physicDps"]= 1528
+},
+[48] = {
+  ["ID"]= 48,
+  ["magicDefense"]= 324,
+  ["magicDps"]= 1620,
+  ["maxHp"]= 60900,
+  ["physicDefense"]= 324,
+  ["physicDps"]= 1620
+},
+[49] = {
+  ["ID"]= 49,
+  ["magicDefense"]= 346,
+  ["magicDps"]= 1728,
+  ["maxHp"]= 64450,
+  ["physicDefense"]= 346,
+  ["physicDps"]= 1728
+},
+[50] = {
+  ["ID"]= 50,
+  ["magicDefense"]= 367,
+  ["magicDps"]= 1836,
+  ["maxHp"]= 68000,
+  ["physicDefense"]= 367,
+  ["physicDps"]= 1836
+},
+[51] = {
+  ["ID"]= 51,
+  ["magicDefense"]= 389,
+  ["magicDps"]= 1944,
+  ["maxHp"]= 71550,
+  ["physicDefense"]= 389,
+  ["physicDps"]= 1944
+},
+[52] = {
+  ["ID"]= 52,
+  ["magicDefense"]= 414,
+  ["magicDps"]= 2070,
+  ["maxHp"]= 75600,
+  ["physicDefense"]= 414,
+  ["physicDps"]= 2070
+},
+[53] = {
+  ["ID"]= 53,
+  ["magicDefense"]= 439,
+  ["magicDps"]= 2196,
+  ["maxHp"]= 79650,
+  ["physicDefense"]= 439,
+  ["physicDps"]= 2196
+},
+[54] = {
+  ["ID"]= 54,
+  ["magicDefense"]= 464,
+  ["magicDps"]= 2322,
+  ["maxHp"]= 83700,
+  ["physicDefense"]= 464,
+  ["physicDps"]= 2322
+},
+[55] = {
+  ["ID"]= 55,
+  ["magicDefense"]= 494,
+  ["magicDps"]= 2468,
+  ["maxHp"]= 88300,
+  ["physicDefense"]= 494,
+  ["physicDps"]= 2468
+},
+[56] = {
+  ["ID"]= 56,
+  ["magicDefense"]= 523,
+  ["magicDps"]= 2614,
+  ["maxHp"]= 92900,
+  ["physicDefense"]= 523,
+  ["physicDps"]= 2614
+},
+[57] = {
+  ["ID"]= 57,
+  ["magicDefense"]= 552,
+  ["magicDps"]= 2760,
+  ["maxHp"]= 97500,
+  ["physicDefense"]= 552,
+  ["physicDps"]= 2760
+},
+[58] = {
+  ["ID"]= 58,
+  ["magicDefense"]= 586,
+  ["magicDps"]= 2928,
+  ["maxHp"]= 102700,
+  ["physicDefense"]= 586,
+  ["physicDps"]= 2928
+},
+[59] = {
+  ["ID"]= 59,
+  ["magicDefense"]= 619,
+  ["magicDps"]= 3096,
+  ["maxHp"]= 107900,
+  ["physicDefense"]= 619,
+  ["physicDps"]= 3096
+},
+[60] = {
+  ["ID"]= 60,
+  ["magicDefense"]= 653,
+  ["magicDps"]= 3264,
+  ["maxHp"]= 113100,
+  ["physicDefense"]= 653,
+  ["physicDps"]= 3264
+},
+[61] = {
+  ["ID"]= 61,
+  ["magicDefense"]= 691,
+  ["magicDps"]= 3456,
+  ["maxHp"]= 118950,
+  ["physicDefense"]= 691,
+  ["physicDps"]= 3456
+},
+[62] = {
+  ["ID"]= 62,
+  ["magicDefense"]= 730,
+  ["magicDps"]= 3648,
+  ["maxHp"]= 124800,
+  ["physicDefense"]= 730,
+  ["physicDps"]= 3648
+},
+[63] = {
+  ["ID"]= 63,
+  ["magicDefense"]= 768,
+  ["magicDps"]= 3840,
+  ["maxHp"]= 130650,
+  ["physicDefense"]= 768,
+  ["physicDps"]= 3840
+},
+[64] = {
+  ["ID"]= 64,
+  ["magicDefense"]= 812,
+  ["magicDps"]= 4058,
+  ["maxHp"]= 137200,
+  ["physicDefense"]= 812,
+  ["physicDps"]= 4058
+},
+[65] = {
+  ["ID"]= 65,
+  ["magicDefense"]= 855,
+  ["magicDps"]= 4276,
+  ["maxHp"]= 143750,
+  ["physicDefense"]= 855,
+  ["physicDps"]= 4276
+},
+[66] = {
+  ["ID"]= 66,
+  ["magicDefense"]= 899,
+  ["magicDps"]= 4494,
+  ["maxHp"]= 150300,
+  ["physicDefense"]= 899,
+  ["physicDps"]= 4494
+},
+[67] = {
+  ["ID"]= 67,
+  ["magicDefense"]= 948,
+  ["magicDps"]= 4740,
+  ["maxHp"]= 157600,
+  ["physicDefense"]= 948,
+  ["physicDps"]= 4740
+},
+[68] = {
+  ["ID"]= 68,
+  ["magicDefense"]= 997,
+  ["magicDps"]= 4986,
+  ["maxHp"]= 164900,
+  ["physicDefense"]= 997,
+  ["physicDps"]= 4986
+},
+[69] = {
+  ["ID"]= 69,
+  ["magicDefense"]= 1046,
+  ["magicDps"]= 5232,
+  ["maxHp"]= 172200,
+  ["physicDefense"]= 1046,
+  ["physicDps"]= 5232
+},
+[70] = {
+  ["ID"]= 70,
+  ["magicDefense"]= 1102,
+  ["magicDps"]= 5508,
+  ["maxHp"]= 180300,
+  ["physicDefense"]= 1102,
+  ["physicDps"]= 5508
+},
+[71] = {
+  ["ID"]= 71,
+  ["magicDefense"]= 1157,
+  ["magicDps"]= 5784,
+  ["maxHp"]= 188400,
+  ["physicDefense"]= 1157,
+  ["physicDps"]= 5784
+},
+[72] = {
+  ["ID"]= 72,
+  ["magicDefense"]= 1212,
+  ["magicDps"]= 6060,
+  ["maxHp"]= 196500,
+  ["physicDefense"]= 1212,
+  ["physicDps"]= 6060
+},
+[73] = {
+  ["ID"]= 73,
+  ["magicDefense"]= 1274,
+  ["magicDps"]= 6368,
+  ["maxHp"]= 205450,
+  ["physicDefense"]= 1274,
+  ["physicDps"]= 6368
+},
+[74] = {
+  ["ID"]= 74,
+  ["magicDefense"]= 1335,
+  ["magicDps"]= 6676,
+  ["maxHp"]= 214400,
+  ["physicDefense"]= 1335,
+  ["physicDps"]= 6676
+},
+[75] = {
+  ["ID"]= 75,
+  ["magicDefense"]= 1397,
+  ["magicDps"]= 6984,
+  ["maxHp"]= 223350,
+  ["physicDefense"]= 1397,
+  ["physicDps"]= 6984
+},
+[76] = {
+  ["ID"]= 76,
+  ["magicDefense"]= 1465,
+  ["magicDps"]= 7326,
+  ["maxHp"]= 233200,
+  ["physicDefense"]= 1465,
+  ["physicDps"]= 7326
+},
+[77] = {
+  ["ID"]= 77,
+  ["magicDefense"]= 1534,
+  ["magicDps"]= 7668,
+  ["maxHp"]= 243050,
+  ["physicDefense"]= 1534,
+  ["physicDps"]= 7668
+},
+[78] = {
+  ["ID"]= 78,
+  ["magicDefense"]= 1602,
+  ["magicDps"]= 8010,
+  ["maxHp"]= 252900,
+  ["physicDefense"]= 1602,
+  ["physicDps"]= 8010
+},
+[79] = {
+  ["ID"]= 79,
+  ["magicDefense"]= 1678,
+  ["magicDps"]= 8388,
+  ["maxHp"]= 263700,
+  ["physicDefense"]= 1678,
+  ["physicDps"]= 8388
+},
+[80] = {
+  ["ID"]= 80,
+  ["magicDefense"]= 1753,
+  ["magicDps"]= 8766,
+  ["maxHp"]= 274500,
+  ["physicDefense"]= 1753,
+  ["physicDps"]= 8766
+},
+[81] = {
+  ["ID"]= 81,
+  ["magicDefense"]= 1829,
+  ["magicDps"]= 9144,
+  ["maxHp"]= 285300,
+  ["physicDefense"]= 1829,
+  ["physicDps"]= 9144
+},
+[82] = {
+  ["ID"]= 82,
+  ["magicDefense"]= 1912,
+  ["magicDps"]= 9560,
+  ["maxHp"]= 297100,
+  ["physicDefense"]= 1912,
+  ["physicDps"]= 9560
+},
+[83] = {
+  ["ID"]= 83,
+  ["magicDefense"]= 1995,
+  ["magicDps"]= 9976,
+  ["maxHp"]= 308900,
+  ["physicDefense"]= 1995,
+  ["physicDps"]= 9976
+},
+[84] = {
+  ["ID"]= 84,
+  ["magicDefense"]= 2078,
+  ["magicDps"]= 10392,
+  ["maxHp"]= 320700,
+  ["physicDefense"]= 2078,
+  ["physicDps"]= 10392
+},
+[85] = {
+  ["ID"]= 85,
+  ["magicDefense"]= 2170,
+  ["magicDps"]= 10848,
+  ["maxHp"]= 333550,
+  ["physicDefense"]= 2170,
+  ["physicDps"]= 10848
+},
+[86] = {
+  ["ID"]= 86,
+  ["magicDefense"]= 2261,
+  ["magicDps"]= 11304,
+  ["maxHp"]= 346400,
+  ["physicDefense"]= 2261,
+  ["physicDps"]= 11304
+},
+[87] = {
+  ["ID"]= 87,
+  ["magicDefense"]= 2352,
+  ["magicDps"]= 11760,
+  ["maxHp"]= 359250,
+  ["physicDefense"]= 2352,
+  ["physicDps"]= 11760
+},
+[88] = {
+  ["ID"]= 88,
+  ["magicDefense"]= 2452,
+  ["magicDps"]= 12258,
+  ["maxHp"]= 373200,
+  ["physicDefense"]= 2452,
+  ["physicDps"]= 12258
+},
+[89] = {
+  ["ID"]= 89,
+  ["magicDefense"]= 2551,
+  ["magicDps"]= 12756,
+  ["maxHp"]= 387150,
+  ["physicDefense"]= 2551,
+  ["physicDps"]= 12756
+},
+[90] = {
+  ["ID"]= 90,
+  ["magicDefense"]= 2651,
+  ["magicDps"]= 13254,
+  ["maxHp"]= 401100,
+  ["physicDefense"]= 2651,
+  ["physicDps"]= 13254
+}
+}
+"

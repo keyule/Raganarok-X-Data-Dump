@@ -1,0 +1,746 @@
+TextAsset Base
+	string m_Name = "data_guild_guildSkill"
+	string m_Script = "local table= {
+[11001] = {},
+[11002] = {
+  ["Sequence"]= 3,
+  ["SkillId"]= 11002,
+  ["SkillLevel"]= {
+    {
+      ["Attr"]= {},
+      ["EffectDes"]= "GuildSkill_11002_Des",
+      ["Level"]= 1,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 11001,
+        ["PreSkillLevel"]= 1
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0.07,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 2
+      }
+    },
+    {
+      ["Attr"]= {},
+      ["EffectDes"]= "GuildSkill_11002_Des",
+      ["Level"]= 2,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 11001,
+        ["PreSkillLevel"]= 2
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0.09,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 2
+      }
+    },
+    {
+      ["Attr"]= {},
+      ["EffectDes"]= "GuildSkill_11002_Des",
+      ["Level"]= 3,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 11001,
+        ["PreSkillLevel"]= 3
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0.11,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 2
+      }
+    },
+    {
+      ["Attr"]= {},
+      ["EffectDes"]= "GuildSkill_11002_Des",
+      ["Level"]= 4,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 11001,
+        ["PreSkillLevel"]= 4
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0.13,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 2
+      }
+    },
+    {
+      ["Attr"]= {},
+      ["EffectDes"]= "GuildSkill_11002_Des",
+      ["Level"]= 5,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 11001,
+        ["PreSkillLevel"]= 5
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0.15,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 2
+      }
+    },
+    {
+      ["Attr"]= {},
+      ["EffectDes"]= "GuildSkill_11002_Des",
+      ["Level"]= 0,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 11001,
+        ["PreSkillLevel"]= 1
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0.07,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 2
+      }
+    }
+  },
+  ["SkillName"]= "GuildSkill_11002_Name",
+  ["SkillType"]= 2
+},
+[11003] = {
+  ["IconRoute"]= "Skills/1210130",
+  ["Sequence"]= 6,
+  ["SkillId"]= 11003,
+  ["SkillLevel"]= {
+    {
+      ["Attr"]= {},
+      ["EffectDes"]= "GuildSkill_11003_Des",
+      ["Level"]= 1,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 11002,
+        ["PreSkillLevel"]= 1
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0.1,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 3
+      }
+    },
+    {
+      ["Attr"]= {},
+      ["EffectDes"]= "GuildSkill_11003_Des",
+      ["Level"]= 2,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 11002,
+        ["PreSkillLevel"]= 3
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0.15,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 3
+      }
+    },
+    {
+      ["Attr"]= {},
+      ["EffectDes"]= "GuildSkill_11003_Des",
+      ["Level"]= 3,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 11002,
+        ["PreSkillLevel"]= 5
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0.2,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 3
+      }
+    },
+    {
+      ["Attr"]= {},
+      ["EffectDes"]= "GuildSkill_11003_Des",
+      ["Level"]= 0,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 11002,
+        ["PreSkillLevel"]= 1
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0.1,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 3
+      }
+    }
+  },
+  ["SkillName"]= "GuildSkill_11003_Name"
+},
+[12001] = {
+  ["IconRoute"]= "Skills/1210131",
+  ["Sequence"]= 4,
+  ["SkillId"]= 12001,
+  ["SkillLevel"]= {
+    {
+      ["Attr"]= {},
+      ["EffectDes"]= "GuildSkill_12001_Des",
+      ["Level"]= 1,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 0,
+        ["PreSkillLevel"]= 0
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0.07,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 2
+      }
+    },
+    {
+      ["Attr"]= {},
+      ["EffectDes"]= "GuildSkill_12001_Des",
+      ["Level"]= 2,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 0,
+        ["PreSkillLevel"]= 0
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0.09,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 2
+      }
+    },
+    {
+      ["Attr"]= {},
+      ["EffectDes"]= "GuildSkill_12001_Des",
+      ["Level"]= 3,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 0,
+        ["PreSkillLevel"]= 0
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0.11,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 2
+      }
+    },
+    {
+      ["Attr"]= {},
+      ["EffectDes"]= "GuildSkill_12001_Des",
+      ["Level"]= 4,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 0,
+        ["PreSkillLevel"]= 0
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0.13,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 2
+      }
+    },
+    {
+      ["Attr"]= {},
+      ["EffectDes"]= "GuildSkill_12001_Des",
+      ["Level"]= 5,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 0,
+        ["PreSkillLevel"]= 0
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0.15,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 2
+      }
+    },
+    {
+      ["Attr"]= {},
+      ["EffectDes"]= "GuildSkill_12001_Des",
+      ["Level"]= 0,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 0,
+        ["PreSkillLevel"]= 0
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0.07,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 2
+      }
+    }
+  },
+  ["SkillName"]= "GuildSkill_12001_Name",
+  ["SkillType"]= 3,
+  ["SkillTypeDesc"]= "GuildSkillTypeDesc_2"
+},
+[12002] = {
+  ["IconRoute"]= "Skills/1400127",
+  ["Sequence"]= 7,
+  ["SkillId"]= 12002,
+  ["SkillLevel"]= {
+    {
+      ["Attr"]= {},
+      ["EffectDes"]= "GuildSkill_12002_Des",
+      ["Level"]= 1,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 12001,
+        ["PreSkillLevel"]= 1
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0.1,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 3
+      }
+    },
+    {
+      ["Attr"]= {},
+      ["EffectDes"]= "GuildSkill_12002_Des",
+      ["Level"]= 2,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 12001,
+        ["PreSkillLevel"]= 3
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0.15,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 3
+      }
+    },
+    {
+      ["Attr"]= {},
+      ["EffectDes"]= "GuildSkill_12002_Des",
+      ["Level"]= 3,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 12001,
+        ["PreSkillLevel"]= 5
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0.2,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 3
+      }
+    },
+    {
+      ["Attr"]= {},
+      ["EffectDes"]= "GuildSkill_12002_Des",
+      ["Level"]= 0,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 12001,
+        ["PreSkillLevel"]= 1
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0.1,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 3
+      }
+    }
+  },
+  ["SkillName"]= "GuildSkill_12002_Name",
+  ["SkillType"]= 4,
+  ["SkillTypeDesc"]= "GuildSkillTypeDesc_2"
+},
+[13001] = {
+  ["IconRoute"]= "Skills/1400127",
+  ["Sequence"]= 5,
+  ["SkillId"]= 13001,
+  ["SkillLevel"]= {
+    {
+      ["Attr"]= {},
+      ["EffectDes"]= "GuildSkill_13001_Des",
+      ["Level"]= 1,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 0,
+        ["PreSkillLevel"]= 0
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0.07,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 2
+      }
+    },
+    {
+      ["Attr"]= {},
+      ["EffectDes"]= "GuildSkill_13001_Des",
+      ["Level"]= 2,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 0,
+        ["PreSkillLevel"]= 0
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0.09,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 2
+      }
+    },
+    {
+      ["Attr"]= {},
+      ["EffectDes"]= "GuildSkill_13001_Des",
+      ["Level"]= 3,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 0,
+        ["PreSkillLevel"]= 0
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0.11,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 2
+      }
+    },
+    {
+      ["Attr"]= {},
+      ["EffectDes"]= "GuildSkill_13001_Des",
+      ["Level"]= 4,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 0,
+        ["PreSkillLevel"]= 0
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0.13,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 2
+      }
+    },
+    {
+      ["Attr"]= {},
+      ["EffectDes"]= "GuildSkill_13001_Des",
+      ["Level"]= 5,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 0,
+        ["PreSkillLevel"]= 0
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0.15,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 2
+      }
+    },
+    {
+      ["Attr"]= {},
+      ["EffectDes"]= "GuildSkill_13001_Des",
+      ["Level"]= 0,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 0,
+        ["PreSkillLevel"]= 0
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0.07,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 2
+      }
+    }
+  },
+  ["SkillName"]= "GuildSkill_13001_Name",
+  ["SkillType"]= 3,
+  ["SkillTypeDesc"]= "GuildSkillTypeDesc_2"
+},
+[14001] = {
+  ["IconRoute"]= "Skills/1110127",
+  ["Sequence"]= 2,
+  ["SkillId"]= 14001,
+  ["SkillLevel"]= {
+    {
+      ["Attr"]= {},
+      ["EffectDes"]= "GuildSkill_14001_Des",
+      ["Level"]= 1,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 0,
+        ["PreSkillLevel"]= 0
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0.1,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 1
+      }
+    },
+    {
+      ["Attr"]= {},
+      ["EffectDes"]= "GuildSkill_14001_Des",
+      ["Level"]= 2,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 0,
+        ["PreSkillLevel"]= 0
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0.12,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 1
+      }
+    },
+    {
+      ["Attr"]= {},
+      ["EffectDes"]= "GuildSkill_14001_Des",
+      ["Level"]= 3,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 0,
+        ["PreSkillLevel"]= 0
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0.14,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 1
+      }
+    },
+    {
+      ["Attr"]= {},
+      ["EffectDes"]= "GuildSkill_14001_Des",
+      ["Level"]= 4,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 0,
+        ["PreSkillLevel"]= 0
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0.16,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 1
+      }
+    },
+    {
+      ["Attr"]= {},
+      ["EffectDes"]= "GuildSkill_14001_Des",
+      ["Level"]= 5,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 0,
+        ["PreSkillLevel"]= 0
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0.18,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 1
+      }
+    },
+    {
+      ["Attr"]= {},
+      ["EffectDes"]= "GuildSkill_14001_Des",
+      ["Level"]= 0,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 0,
+        ["PreSkillLevel"]= 0
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0.1,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 1
+      }
+    }
+  },
+  ["SkillName"]= "GuildSkill_14001_Name",
+  ["SkillType"]= 6,
+  ["SkillTypeDesc"]= "GuildSkillTypeDesc_3"
+},
+[14002] = {
+  ["IconRoute"]= "Skills/1111127",
+  ["IfShowInPercent"]= 0,
+  ["Sequence"]= 8,
+  ["SkillId"]= 14002,
+  ["SkillLevel"]= {
+    {
+      ["Attr"]= {
+        ["1"]= 1,
+        ["2"]= 1,
+        ["3"]= 1,
+        ["4"]= 1,
+        ["5"]= 1,
+        ["6"]= 1
+      },
+      ["EffectDes"]= "GuildSkill_14002_Des",
+      ["Level"]= 1,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 14001,
+        ["PreSkillLevel"]= 1
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 3
+      }
+    },
+    {
+      ["Attr"]= {
+        ["1"]= 2,
+        ["2"]= 2,
+        ["3"]= 2,
+        ["4"]= 2,
+        ["5"]= 2,
+        ["6"]= 2
+      },
+      ["EffectDes"]= "GuildSkill_14002_Des",
+      ["Level"]= 2,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 14001,
+        ["PreSkillLevel"]= 3
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 3
+      }
+    },
+    {
+      ["Attr"]= {
+        ["1"]= 3,
+        ["2"]= 3,
+        ["3"]= 3,
+        ["4"]= 3,
+        ["5"]= 3,
+        ["6"]= 3
+      },
+      ["EffectDes"]= "GuildSkill_14002_Des",
+      ["Level"]= 3,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 14001,
+        ["PreSkillLevel"]= 5
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 3
+      }
+    },
+    {
+      ["Attr"]= {
+        ["1"]= 1,
+        ["2"]= 1,
+        ["3"]= 1,
+        ["4"]= 1,
+        ["5"]= 1,
+        ["6"]= 1
+      },
+      ["EffectDes"]= "GuildSkill_14002_Des",
+      ["Level"]= 0,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 14001,
+        ["PreSkillLevel"]= 1
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 3
+      }
+    }
+  },
+  ["SkillName"]= "GuildSkill_14002_Name",
+  ["SkillType"]= 7,
+  ["SkillTypeDesc"]= "GuildSkillTypeDesc_3"
+}
+}
+local baseTable={
+  ["IconRoute"]= "Skills/1210121",
+  ["IfShowInPercent"]= 1,
+  ["Sequence"]= 1,
+  ["SkillId"]= 11001,
+  ["SkillLabel"]= 0,
+  ["SkillLevel"]= {
+    {
+      ["Attr"]= {},
+      ["EffectDes"]= "GuildSkill_11001_Des",
+      ["Level"]= 1,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 0,
+        ["PreSkillLevel"]= 0
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0.07,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 1
+      }
+    },
+    {
+      ["Attr"]= {},
+      ["EffectDes"]= "GuildSkill_11001_Des",
+      ["Level"]= 2,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 0,
+        ["PreSkillLevel"]= 0
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0.09,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 1
+      }
+    },
+    {
+      ["Attr"]= {},
+      ["EffectDes"]= "GuildSkill_11001_Des",
+      ["Level"]= 3,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 0,
+        ["PreSkillLevel"]= 0
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0.11,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 1
+      }
+    },
+    {
+      ["Attr"]= {},
+      ["EffectDes"]= "GuildSkill_11001_Des",
+      ["Level"]= 4,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 0,
+        ["PreSkillLevel"]= 0
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0.13,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 1
+      }
+    },
+    {
+      ["Attr"]= {},
+      ["EffectDes"]= "GuildSkill_11001_Des",
+      ["Level"]= 5,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 0,
+        ["PreSkillLevel"]= 0
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0.15,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 1
+      }
+    },
+    {
+      ["Attr"]= {},
+      ["EffectDes"]= "GuildSkill_11001_Des",
+      ["Level"]= 0,
+      ["ResearchCondition"]= {
+        ["PreSkillId"]= 0,
+        ["PreSkillLevel"]= 0
+      },
+      ["ResearchCost"]= 100000,
+      ["ResearchTime"]= 3600,
+      ["SkillEffect"]= 0.07,
+      ["UnlockCondition"]= {
+        ["AlchemyLabLevel"]= 1
+      }
+    }
+  },
+  ["SkillName"]= "GuildSkill_11001_Name",
+  ["SkillType"]= 1,
+  ["SkillTypeDesc"]= "GuildSkillTypeDesc_1"
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

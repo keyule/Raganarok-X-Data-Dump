@@ -1,0 +1,38 @@
+TextAsset Base
+	string m_Name = "data_item_CdGroup"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["Id"]= 2,
+  ["Name"]= "sp普通药水统一CD"
+},
+[3] = {
+  ["CD"]= 10000,
+  ["Id"]= 3,
+  ["Name"]= "属性抗性药水"
+},
+[4] = {
+  ["CD"]= 10000,
+  ["Id"]= 4,
+  ["Name"]= "属性卷轴"
+},
+[5] = {
+  ["CD"]= 30000,
+  ["Id"]= 5,
+  ["Name"]= "hppk药水统一CD"
+},
+[6] = {
+  ["CD"]= 30000,
+  ["Id"]= 6,
+  ["Name"]= "sppk药水统一CD"
+}
+}
+local baseTable={
+  ["CD"]= 15000,
+  ["Id"]= 1,
+  ["Name"]= "hp普通药水统一CD"
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

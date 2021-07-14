@@ -1,0 +1,93 @@
+TextAsset Base
+	string m_Name = "data_equip_RefineSlotInherit"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["inherit_slot"]= 101,
+  ["slot"]= 101
+},
+[3] = {
+  ["inherit_slot"]= 102,
+  ["slot"]= 102
+},
+[4] = {
+  ["inherit_slot"]= 103,
+  ["slot"]= 103
+},
+[5] = {
+  ["inherit_slot"]= 104,
+  ["slot"]= 104
+},
+[6] = {
+  ["inherit_slot"]= 105,
+  ["slot"]= 105
+},
+[7] = {
+  ["inherit_slot"]= 106,
+  ["slot"]= 106
+},
+[8] = {
+  ["inherit_slot"]= 107,
+  ["slot"]= 107
+},
+[9] = {
+  ["inherit_slot"]= 201,
+  ["slot"]= 201
+},
+[10] = {
+  ["inherit_slot"]= 301,
+  ["slot"]= 301
+},
+[11] = {
+  ["inherit_slot"]= 302,
+  ["slot"]= 302
+},
+[12] = {
+  ["inherit_slot"]= 303,
+  ["slot"]= 303
+},
+[13] = {
+  ["inherit_slot"]= 304,
+  ["slot"]= 304
+},
+[14] = {
+  ["inherit_slot"]= 305,
+  ["slot"]= 305
+},
+[15] = {
+  ["inherit_slot"]= 306,
+  ["slot"]= 306
+},
+[16] = {
+  ["inherit_slot"]= 307,
+  ["slot"]= 307
+},
+[17] = {
+  ["inherit_slot"]= 308,
+  ["slot"]= 308
+},
+[18] = {
+  ["inherit_slot"]= 401,
+  ["slot"]= 401
+},
+[19] = {
+  ["inherit_slot"]= 402,
+  ["slot"]= 402
+},
+[20] = {
+  ["inherit_slot"]= 403,
+  ["slot"]= 403
+},
+[21] = {
+  ["inherit_slot"]= 501,
+  ["slot"]= 501
+}
+}
+local baseTable={
+  ["inherit_slot"]= 100,
+  ["slot"]= 100
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

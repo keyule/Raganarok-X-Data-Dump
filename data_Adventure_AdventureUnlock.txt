@@ -1,0 +1,367 @@
+TextAsset Base
+	string m_Name = "data_Adventure_AdventureUnlock"
+	string m_Script = "local table= {
+[1] = {
+  ["ConditionDesc"]= "Sys_Condition_2",
+  ["Desc"]= "LockedDescribe_2",
+  ["FlyType"]= 1,
+  ["IsMainShow"]= 1,
+  ["JoinTypeParameter"]= "UI_HandBook",
+  ["LockCondition"]= 1002,
+  ["LockIcon"]= "btn_School_N",
+  ["Name"]= "Sys_Name_2"
+},
+[2] = {
+  ["ConditionDesc"]= "Sys_Condition_3",
+  ["Desc"]= "LockedDescribe_3",
+  ["FlyType"]= 4,
+  ["id"]= 2,
+  ["IsMainShow"]= 1,
+  ["JoinType"]= 2,
+  ["JoinTypeParameter"]= "UI_Friend",
+  ["LockCondition"]= 1003,
+  ["LockIcon"]= "Btn_Friends_N",
+  ["Name"]= "Sys_Name_3",
+  ["systemId"]= 130000
+},
+[3] = {
+  ["ConditionDesc"]= "Sys_Condition_26",
+  ["Desc"]= "LockedDescribe_26",
+  ["id"]= 3,
+  ["LockCondition"]= 1003,
+  ["LockIcon"]= "Btn_Fission",
+  ["Name"]= "Sys_Name_26",
+  ["systemId"]= 440000
+},
+[4] = {
+  ["ConditionDesc"]= "Sys_Condition_9",
+  ["Desc"]= "LockedDescribe_8",
+  ["FlyType"]= 2,
+  ["id"]= 4,
+  ["IsMainShow"]= 1,
+  ["JoinType"]= 2,
+  ["JoinTypeParameter"]= "UI_Mount",
+  ["LockCondition"]= 1008,
+  ["LockIcon"]= "Btn_Mounts_N",
+  ["Name"]= "Sys_Name_9",
+  ["systemId"]= 80000
+},
+[5] = {
+  ["ConditionDesc"]= "Sys_Condition_5",
+  ["Desc"]= "LockedDescribe_5",
+  ["FlyType"]= 2,
+  ["id"]= 5,
+  ["IsMainShow"]= 1,
+  ["JoinType"]= 2,
+  ["JoinTypeParameter"]= "UI_ExteriorNew",
+  ["LockCondition"]= 1009,
+  ["LockIcon"]= "Btn_Wardrobe",
+  ["Name"]= "Sys_Name_5",
+  ["systemId"]= 160000
+},
+[6] = {
+  ["ConditionDesc"]= "Sys_Condition_6",
+  ["Desc"]= "LockedDescribe_6",
+  ["FlyType"]= 3,
+  ["id"]= 6,
+  ["IsMainShow"]= 1,
+  ["LockCondition"]= 1010,
+  ["LockIcon"]= "Btn_Achievement",
+  ["Name"]= "Sys_Name_6",
+  ["systemId"]= 170200
+},
+[7] = {
+  ["ConditionDesc"]= "Sys_Condition_21",
+  ["Desc"]= "LockedDescribe_21",
+  ["FlyType"]= 2,
+  ["id"]= 7,
+  ["JoinType"]= 2,
+  ["JoinTypeParameter"]= "UI_Professionalskill",
+  ["LockCondition"]= 1011,
+  ["LockIcon"]= "btn_Book_n",
+  ["Name"]= "Sys_Name_21",
+  ["systemId"]= 100000
+},
+[8] = {
+  ["ConditionDesc"]= "Sys_Condition_8",
+  ["Desc"]= "LockedDescribe_9",
+  ["FlyType"]= 3,
+  ["id"]= 8,
+  ["IsMainShow"]= 1,
+  ["JoinType"]= 1,
+  ["JoinTypeParameter"]= 10101008,
+  ["LockCondition"]= 1012,
+  ["LockIcon"]= "btn_Equipe_N1",
+  ["Name"]= "Sys_Name_8",
+  ["systemId"]= 120200
+},
+[9] = {
+  ["ConditionDesc"]= "Sys_Condition_4",
+  ["Desc"]= "LockedDescribe_4",
+  ["FlyType"]= 1,
+  ["id"]= 9,
+  ["JoinTypeParameter"]= "UI_HandBook",
+  ["LockCondition"]= 1014,
+  ["LockIcon"]= "Btn_SecondaryJob",
+  ["Name"]= "Sys_Name_4",
+  ["systemId"]= 290000
+},
+[10] = {
+  ["ConditionDesc"]= "Sys_Condition_24",
+  ["Desc"]= "LockedDescribe_24",
+  ["id"]= 10,
+  ["LockIcon"]= "Btn_Welfare",
+  ["Name"]= "Sys_Name_24",
+  ["systemId"]= 280000
+},
+[11] = {
+  ["ConditionDesc"]= "Sys_Condition_25",
+  ["Desc"]= "LockedDescribe_25",
+  ["id"]= 11,
+  ["LockIcon"]= "Btn_CofC",
+  ["Name"]= "Sys_Name_25",
+  ["systemId"]= 310000
+},
+[12] = {
+  ["ConditionDesc"]= "Sys_Condition_27",
+  ["Desc"]= "LockedDescribe_27",
+  ["id"]= 12,
+  ["LockIcon"]= "Btn_OpenServerActivity",
+  ["Name"]= "Sys_Name_27",
+  ["systemId"]= 450000
+},
+[13] = {
+  ["ConditionDesc"]= "Sys_Condition_30",
+  ["Desc"]= "LockedDescribe_30",
+  ["id"]= 13,
+  ["LockIcon"]= "Btn_LimitGift",
+  ["Name"]= "Sys_Name_30",
+  ["systemId"]= 500000
+},
+[14] = {
+  ["id"]= 14,
+  ["LockCondition"]= 1010,
+  ["LockIcon"]= "LanternFestivalBtnUI",
+  ["systemId"]= 540000
+},
+[15] = {
+  ["ConditionDesc"]= "Sys_Condition_31",
+  ["Desc"]= "LockedDescribe_31",
+  ["id"]= 15,
+  ["LockIcon"]= "FestivalBtnUI",
+  ["Name"]= "Sys_Name_31",
+  ["systemId"]= 510000
+},
+[16] = {
+  ["ConditionDesc"]= "Sys_Condition_32",
+  ["Desc"]= "LockedDescribe_32",
+  ["id"]= 16,
+  ["LockIcon"]= "ValentineBtnUI",
+  ["Name"]= "Sys_Name_32",
+  ["systemId"]= 530000
+},
+[17] = {
+  ["ConditionDesc"]= "Sys_Condition_33",
+  ["Desc"]= "LockedDescribe_33",
+  ["id"]= 17,
+  ["LockIcon"]= "BattleBeeBtnUI",
+  ["Name"]= "Sys_Name_33",
+  ["systemId"]= 560000
+},
+[18] = {
+  ["id"]= 18,
+  ["LockCondition"]= 1025,
+  ["LockIcon"]= "Btn_ByteDanceNineTalesII",
+  ["systemId"]= 600000
+},
+[19] = {
+  ["ConditionDesc"]= "Sys_Condition_35",
+  ["Desc"]= "LockedDescribe_35",
+  ["id"]= 19,
+  ["Name"]= "Sys_Name_35",
+  ["systemId"]= 630000
+},
+[20] = {
+  ["ConditionDesc"]= "Sys_Condition_36",
+  ["Desc"]= "LockedDescribe_36",
+  ["FlyType"]= 6,
+  ["id"]= 20,
+  ["LockCondition"]= 1025,
+  ["systemId"]= 660000
+},
+[21] = {
+  ["ConditionDesc"]= "Sys_Condition_10",
+  ["Desc"]= "LockedDescribe_13",
+  ["FlyType"]= 2,
+  ["id"]= 21,
+  ["IsMainShow"]= 1,
+  ["JoinType"]= 2,
+  ["JoinTypeParameter"]= "UI_GuildHall",
+  ["LockCondition"]= 1020,
+  ["LockIcon"]= "Btn_Guild",
+  ["Name"]= "Sys_Name_10",
+  ["systemId"]= 210000
+},
+[22] = {
+  ["ConditionDesc"]= "Sys_Condition_11",
+  ["Desc"]= "LockedDescribe_10",
+  ["FlyType"]= 1,
+  ["id"]= 22,
+  ["IsMainShow"]= 1,
+  ["JoinType"]= 2,
+  ["JoinTypeParameter"]= "UI_Carnival",
+  ["LockCondition"]= 1021,
+  ["LockIcon"]= "btn_Carnival_N",
+  ["Name"]= "Sys_Name_11",
+  ["systemId"]= 30000
+},
+[23] = {
+  ["ConditionDesc"]= "Sys_Condition_7",
+  ["Desc"]= "LockedDescribe_7",
+  ["FlyType"]= 3,
+  ["id"]= 23,
+  ["IsMainShow"]= 1,
+  ["JoinType"]= 1,
+  ["JoinTypeParameter"]= 10101013,
+  ["LockCondition"]= 1022,
+  ["LockIcon"]= "btn_Entrust_Up",
+  ["Name"]= "Sys_Name_7",
+  ["systemId"]= 30200
+},
+[24] = {
+  ["ConditionDesc"]= "Sys_Condition_16",
+  ["Desc"]= "LockedDescribe_11",
+  ["FlyType"]= 1,
+  ["id"]= 24,
+  ["JoinType"]= 2,
+  ["JoinTypeParameter"]= "UI_Instance",
+  ["LockCondition"]= 1022,
+  ["LockIcon"]= "Btn_Pve_N",
+  ["Name"]= "Sys_Name_12",
+  ["systemId"]= 70000
+},
+[25] = {
+  ["ConditionDesc"]= "Sys_Condition_15",
+  ["Desc"]= "LockedDescribe_12",
+  ["FlyType"]= 2,
+  ["id"]= 25,
+  ["IsMainShow"]= 1,
+  ["JoinType"]= 2,
+  ["JoinTypeParameter"]= "UI_Bag",
+  ["LockCondition"]= 1023,
+  ["LockIcon"]= "Btn_Card",
+  ["Name"]= "Sys_Name_15",
+  ["systemId"]= 120300
+},
+[26] = {
+  ["ConditionDesc"]= "Sys_Condition_28",
+  ["Desc"]= "LockedDescribe_28",
+  ["id"]= 26,
+  ["LockCondition"]= 1999,
+  ["LockIcon"]= "Btn_ByteDanceCeremony",
+  ["Name"]= "Sys_Name_28",
+  ["systemId"]= 400000
+},
+[27] = {
+  ["ConditionDesc"]= "Sys_Condition_22",
+  ["Desc"]= "LockedDescribe_15",
+  ["FlyType"]= 3,
+  ["id"]= 27,
+  ["IsMainShow"]= 1,
+  ["JoinType"]= 1,
+  ["JoinTypeParameter"]= 10101022,
+  ["LockCondition"]= 1026,
+  ["LockIcon"]= "btn_Equipe_N2",
+  ["Name"]= "Sys_Name_16",
+  ["systemId"]= 120500
+},
+[28] = {
+  ["ConditionDesc"]= "Sys_Condition_17",
+  ["Desc"]= "LockedDescribe_16",
+  ["FlyType"]= 1,
+  ["id"]= 28,
+  ["IsMainShow"]= 1,
+  ["JoinType"]= 2,
+  ["JoinTypeParameter"]= "UI_MVPBoss",
+  ["LockCondition"]= 1029,
+  ["LockIcon"]= "btn_MVP_N",
+  ["Name"]= "Sys_Name_17",
+  ["systemId"]= 60000
+},
+[29] = {
+  ["ConditionDesc"]= "Sys_Condition_13",
+  ["Desc"]= "LockedDescribe_20",
+  ["FlyType"]= 3,
+  ["id"]= 29,
+  ["IsMainShow"]= 1,
+  ["JoinType"]= 1,
+  ["JoinTypeParameter"]= 10101004,
+  ["LockCondition"]= 1030,
+  ["LockIcon"]= "Btn_Equipe_N4",
+  ["Name"]= "Sys_Name_13",
+  ["systemId"]= 180000
+},
+[30] = {
+  ["ConditionDesc"]= "Sys_Condition_18",
+  ["Desc"]= "LockedDescribe_17",
+  ["FlyType"]= 3,
+  ["id"]= 30,
+  ["JoinType"]= 1,
+  ["JoinTypeParameter"]= 10101004,
+  ["LockCondition"]= 1030,
+  ["LockIcon"]= "Btn_Refine",
+  ["Name"]= "Sys_Name_18",
+  ["systemId"]= 120400
+},
+[31] = {
+  ["ConditionDesc"]= "Sys_Condition_29",
+  ["Desc"]= "LockedDescribe_29",
+  ["id"]= 31,
+  ["LockCondition"]= 1035,
+  ["LockIcon"]= "Btn_Halloween",
+  ["Name"]= "Sys_Name_29",
+  ["systemId"]= 470000
+},
+[32] = {
+  ["ConditionDesc"]= "Sys_Condition_20",
+  ["Desc"]= "LockedDescribe_19",
+  ["FlyType"]= 3,
+  ["id"]= 32,
+  ["IsMainShow"]= 1,
+  ["JoinType"]= 1,
+  ["JoinTypeParameter"]= 11401001,
+  ["LockCondition"]= 1035,
+  ["LockIcon"]= "Btn_Pve_N",
+  ["Name"]= "Sys_Name_20",
+  ["systemId"]= 30100
+},
+[33] = {
+  ["ConditionDesc"]= "Sys_Condition_19",
+  ["Desc"]= "LockedDescribe_18",
+  ["FlyType"]= 1,
+  ["id"]= 33,
+  ["IsMainShow"]= 1,
+  ["JoinType"]= 2,
+  ["LockCondition"]= 1040,
+  ["LockIcon"]= "btn_KVM_N",
+  ["Name"]= "Sys_Name_19",
+  ["systemId"]= 250000
+}
+}
+local baseTable={
+  ["ConditionDesc"]= "Sys_Condition_34",
+  ["Desc"]= "LockedDescribe_34",
+  ["FlyType"]= 5,
+  ["id"]= 1,
+  ["IsMainShow"]= 0,
+  ["JoinType"]= -1,
+  ["JoinTypeParameter"]= "",
+  ["LockCondition"]= 1017,
+  ["LockIcon"]= "HalfAnniversaryUI",
+  ["Name"]= "Sys_Name_34",
+  ["systemId"]= 260000
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

@@ -1,0 +1,2277 @@
+TextAsset Base
+	string m_Name = "data_Guide_Guide"
+	string m_Script = "local table= {
+[101] = {
+  ["Condition"]= 210014,
+  ["Level"]= 101
+},
+[102] = {
+  ["Condition"]= 210003,
+  ["id"]= 102,
+  ["Level"]= 102,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "主界面采集icon",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "ButtonGroup/ButtonCaiji/Image",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_MagicalButtons"
+    }
+  }
+},
+[103] = {
+  ["Condition"]= 210002,
+  ["id"]= 103,
+  ["Level"]= 103,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "点击任务拍照",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "rootTr/Btn",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_TaskInteraction"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_1301",
+      ["LidType"]= 2,
+      ["location"]= 3,
+      ["name"]= "点击拍照按钮",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "CameraFunction/BtnGroup/Btn_Photograph",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Camera"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_1302",
+      ["LidType"]= 2,
+      ["location"]= 2,
+      ["name"]= "点击关闭按钮",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "Title/Close_Btn",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_PhotoPreview"
+    }
+  }
+},
+[104] = {
+  ["Condition"]= 210015,
+  ["id"]= 104,
+  ["Level"]= 104,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "主界面icon",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/Right/BtnGroupLayout/Btn_Activity_Switch",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_3104",
+      ["LidType"]= 2,
+      ["location"]= 2,
+      ["name"]= "主界面学院手册icon",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/Right/BtnGroupLayout/ActivityMenu/Btn_Handbook",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "点击领取",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 2,
+      ["TargetPath"]= "Content/Homepage/Achievement/Adventure/Bg",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_HandBook",
+      ["x"]= 0,
+      ["y"]= 7
+    }
+  }
+},
+[105] = {
+  ["Condition"]= 210042,
+  ["id"]= 105,
+  ["Level"]= 105,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "CheckMark",
+      ["TargetSparePath"]= "BackGround",
+      ["TargetTreePath"]= "Content/Homepage/ListTab/achievementXTree",
+      ["TargetType"]= 6,
+      ["TargetUI"]= "UI_HandBook",
+      ["TargetValue"]= {
+        1008
+      },
+      ["TargetValueType"]= 1
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "Btn_Branch/Btn_Receive",
+      ["TargetSparePath"]= "",
+      ["TargetTreePath"]= "Content/Homepage/ListTab/achievementXTree",
+      ["TargetType"]= 6,
+      ["TargetUI"]= "UI_HandBook",
+      ["TargetValue"]= {
+        1008,
+        801
+      },
+      ["TargetValueType"]= 1
+    }
+  }
+},
+[106] = {
+  ["Condition"]= 210061,
+  ["id"]= 106,
+  ["Level"]= 102,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "主界面icon",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/Right/BtnGroupLayout/Btn_Activity_Switch",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_1801",
+      ["LidType"]= 2,
+      ["location"]= 2,
+      ["name"]= "主界面学院手册icon",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/Right/BtnGroupLayout/ActivityMenu/Btn_Handbook",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_3102",
+      ["LidType"]= 2,
+      ["location"]= 2,
+      ["name"]= "点击领取",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "Content/Homepage/Btn/animBtn",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_HandBook"
+    }
+  }
+},
+[107] = {
+  ["Condition"]= 210018,
+  ["id"]= 107,
+  ["Level"]= 107,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "点唱机icon",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/Battle/OtherCarrier/BtnOtherCarrier",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main"
+    }
+  }
+},
+[108] = {
+  ["Condition"]= 210004,
+  ["id"]= 108,
+  ["Level"]= 108,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_601",
+      ["LidType"]= 2,
+      ["location"]= 3,
+      ["name"]= "",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/ChatView/XMainChat(Clone)/BtnGroup/Btn_Friend",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_602",
+      ["LidType"]= 2,
+      ["location"]= 1,
+      ["name"]= "",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 2,
+      ["TargetPath"]= "Content/UIGroup/Btn_Add",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Friend",
+      ["x"]= 14,
+      ["y"]= 0
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_603",
+      ["LidType"]= 2,
+      ["location"]= 2,
+      ["name"]= "",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetList"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetList"]= "Btn_Add",
+      ["TargetPath"]= "Content/FriendTable",
+      ["TargetType"]= 2,
+      ["TargetUI"]= "UI_AddFriends",
+      ["TargetValue"]= "0",
+      ["TargetValueType"]= 3
+    }
+  }
+},
+[109] = {
+  ["Condition"]= 210034,
+  ["id"]= 109,
+  ["Level"]= 109,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_604",
+      ["LidType"]= 2,
+      ["location"]= 3,
+      ["name"]= "关闭好友界面",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "Title/Close_Btn",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_AddFriends"
+    }
+  }
+},
+[110] = {
+  ["Condition"]= 210035,
+  ["id"]= 110,
+  ["Level"]= 110,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "关闭好友总界面",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "Title/Close_Btn",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Friend"
+    }
+  }
+},
+[111] = {
+  ["Condition"]= 210021,
+  ["id"]= 111,
+  ["Level"]= 111,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_3801",
+      ["LidType"]= 2,
+      ["location"]= 2,
+      ["name"]= "引导装备短剑",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "UseConfirmPanel(Clone)/Agree",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main"
+    }
+  }
+},
+[112] = {
+  ["Condition"]= 210032,
+  ["id"]= 112,
+  ["Level"]= 112,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_1901",
+      ["LidType"]= 2,
+      ["location"]= 3,
+      ["name"]= "",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/Battle/Mask/SkillRlease/Skill_0",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main"
+    }
+  }
+},
+[113] = {
+  ["Condition"]= 210007,
+  ["id"]= 113,
+  ["Level"]= 113,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_1501",
+      ["LidType"]= 2,
+      ["location"]= 3,
+      ["name"]= "指向对象",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/Battle/Mask/SkillRlease/SkillGroup1",
+      ["TargetType"]= 3,
+      ["TargetUI"]= "UI_Main",
+      ["TargetValue"]= "1000101"
+    }
+  }
+},
+[114] = {
+  ["Condition"]= 210009,
+  ["id"]= 114,
+  ["Level"]= 114,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_1601",
+      ["LidType"]= 2,
+      ["location"]= 3,
+      ["name"]= "",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/Battle/Mask/SkillRlease/SkillGroup1",
+      ["TargetType"]= 3,
+      ["TargetUI"]= "UI_Main",
+      ["TargetValue"]= "1000103"
+    }
+  }
+},
+[115] = {
+  ["Condition"]= 210008,
+  ["id"]= 115,
+  ["Level"]= 115,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_401",
+      ["LidType"]= 2,
+      ["location"]= 3,
+      ["name"]= "技能栏02",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/Battle/Mask/SkillRlease/SkillGroup1",
+      ["TargetType"]= 3,
+      ["TargetUI"]= "UI_Main",
+      ["TargetValue"]= "1000102"
+    }
+  }
+},
+[116] = {
+  ["Condition"]= 210013,
+  ["id"]= 116,
+  ["Level"]= 116,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "主界面攀爬icon",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "ButtonGroup/ButtonTansuo/Image",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_MagicalButtons"
+    }
+  }
+},
+[117] = {
+  ["Condition"]= 210005,
+  ["id"]= 117,
+  ["Level"]= 117,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_1401",
+      ["LidType"]= 2,
+      ["location"]= 1,
+      ["name"]= "npc对话界面icon",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "FunctionNode/Buttons/NpcButton(Clone)nil/Button",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Npc"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_1402",
+      ["LidType"]= 2,
+      ["location"]= 1,
+      ["name"]= "上交界面上交icon",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "Content/UIGroup/BtnLayout/Btn_Handin",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_HandInItem"
+    }
+  }
+},
+[118] = {
+  ["Condition"]= 210023,
+  ["id"]= 118,
+  ["Level"]= 118,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_3201",
+      ["LidType"]= 2,
+      ["location"]= 4,
+      ["name"]= "坐骑icon",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/Btn_Mounts",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main"
+    }
+  }
+},
+[119] = {
+  ["Condition"]= 210006,
+  ["id"]= 119,
+  ["Level"]= 119,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_901",
+      ["LidType"]= 2,
+      ["location"]= 1,
+      ["name"]= "NPC对话栏的头饰制造",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "FunctionNode/Buttons/NpcButton(Clone)10035/Button",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Npc"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_902",
+      ["LidType"]= 2,
+      ["location"]= 4,
+      ["name"]= "制造界面选择指定图纸",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetList"]= "Checkmark",
+      ["TargetBoxOffset"]= 1,
+      ["TargetList"]= "Background",
+      ["TargetPath"]= "HeadWearList",
+      ["TargetType"]= 2,
+      ["TargetUI"]= "UI_HeadWear",
+      ["TargetValue"]= "999999998",
+      ["TargetValueType"]= 5
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_903",
+      ["LidType"]= 2,
+      ["location"]= 1,
+      ["name"]= "制作按钮",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "Right/Btn_Make",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_HeadWear"
+    }
+  }
+},
+[120] = {
+  ["Condition"]= 210016,
+  ["id"]= 120,
+  ["Level"]= 120,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "点击主角头像",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 2,
+      ["TargetPath"]= "MainHome/Left/HeadInfo/Btn_HeadSculpture",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main",
+      ["x"]= 5,
+      ["y"]= -10
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_502",
+      ["LidType"]= 2,
+      ["location"]= 3,
+      ["name"]= "点击加点分页",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "Menu/Toggle2/Background",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_RoleInfo"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_503",
+      ["LidType"]= 2,
+      ["location"]= 1,
+      ["name"]= "点击推荐加点",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "AddPoint/Common/Btn_Recommend",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_RoleInfo"
+    }
+  }
+},
+[121] = {
+  ["Condition"]= 210022,
+  ["id"]= 121,
+  ["Level"]= 121,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "主界面icon",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/Right/MiddleRight/Btn_Right_Switch",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_3601",
+      ["LidType"]= 2,
+      ["location"]= 1,
+      ["name"]= "主界面技能icon",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/Right/MenuNode/Btn_Occupation",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main"
+    }
+  }
+},
+[122] = {
+  ["Condition"]= 210030,
+  ["id"]= 122,
+  ["Level"]= 122,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/Right/MiddleRight/Btn_Bag",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "Right/ToggleGroup/expendableTab/Background",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Bag"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "点击使用",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetList"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetList"]= "ClickImage",
+      ["TargetPath"]= "Right/itemTable",
+      ["TargetType"]= 2,
+      ["TargetUI"]= "UI_Bag",
+      ["TargetValue"]= "10201004",
+      ["TargetValueType"]= 2
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "点击自动设置",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "Content/BtnGroup/Btn_AutoSet/Content/blue",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_ItemTip"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "点击一键添加",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "AutoMedicineTableView/Content/MedicineSetCell/Button",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_AutoMedicine"
+    }
+  }
+},
+[123] = {
+  ["Condition"]= 210019,
+  ["id"]= 123,
+  ["Level"]= 123,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_2501",
+      ["LidType"]= 2,
+      ["location"]= 1,
+      ["name"]= "NPC对话栏的强化",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "FunctionNode/Buttons/NpcButton(Clone)10005/Button",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Npc"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_2502",
+      ["LidType"]= 2,
+      ["location"]= 1,
+      ["name"]= "强化按钮",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "Content/Right/Btn_Strengthen",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_EquipStrengthen"
+    }
+  }
+},
+[124] = {
+  ["Condition"]= 210020,
+  ["id"]= 124,
+  ["Level"]= 124,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "NPC对话栏的储存点",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "FunctionNode/Buttons/NpcButton(Clone)10030/Button",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Npc"
+    }
+  }
+},
+[125] = {
+  ["Condition"]= 500104,
+  ["id"]= 125,
+  ["Level"]= 125,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "引导交易行合约",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "引导交易行合约",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "FunctionNode/Buttons/NpcButton(Clone)10051/Button",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Npc"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "Content/Des/OtherBtns/Btn_Agree",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_JobberContract"
+    }
+  }
+},
+[126] = {
+  ["Condition"]= 210029,
+  ["id"]= 126,
+  ["Level"]= 126,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_2901",
+      ["LidType"]= 2,
+      ["location"]= 4,
+      ["name"]= "主界面icon",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 2,
+      ["TargetPath"]= "MainHome/Left/Odin/Bg_G",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main",
+      ["x"]= 0,
+      ["y"]= 0
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_2902",
+      ["LidType"]= 2,
+      ["location"]= 4,
+      ["name"]= "前往奥丁icon",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "Content/Content/Group/Btn_BlessingOpen",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_OdinBlessing"
+    }
+  }
+},
+[127] = {
+  ["Condition"]= 210031,
+  ["id"]= 127,
+  ["Level"]= 127,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 2,
+      ["location"]= 4,
+      ["name"]= "主界面icon",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "Content/Content/Group/Btn_Get",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_OdinBlessing"
+    }
+  }
+},
+[128] = {
+  ["Condition"]= 1020,
+  ["id"]= 128,
+  ["Level"]= 128,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_4901",
+      ["LidType"]= 2,
+      ["location"]= 1,
+      ["name"]= "",
+      ["picturePath"]= {},
+      ["SecondTargetPath"]= "RewardList",
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetList"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetList"]= "Btn_Exchange",
+      ["TargetPath"]= "Content/TeamRoleGroup",
+      ["TargetType"]= 5,
+      ["TargetUI"]= "UI_PveSettlement",
+      ["TargetValueType"]= 3
+    }
+  }
+},
+[129] = {
+  ["Condition"]= 210041,
+  ["id"]= 129,
+  ["Level"]= 129,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/Right/MapTopGroup/LineProgress/Title/Btn_Down",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/Right/MapTopGroup/LineProgress/DropDown/Cell(Clone)0/Background",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main"
+    }
+  }
+},
+[130] = {
+  ["Condition"]= 210036,
+  ["id"]= 130,
+  ["Level"]= 130,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "点击旋钮",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/Right/MiddleRight/Btn_Right_Switch",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "点击宠物",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/Right/MenuNode/Btn_Pet",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "点击出战",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "Content/PetInfo/Btn_Battle",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Pets"
+    }
+  }
+},
+[131] = {
+  ["Condition"]= 210038,
+  ["id"]= 131,
+  ["Level"]= 131,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "点击旋钮",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "Content/petSkill/Btn_Study",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Pets"
+    }
+  }
+},
+[132] = {
+  ["Condition"]= 210039,
+  ["id"]= 132,
+  ["Level"]= 132,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "打开旋钮",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/Right/MiddleRight/Btn_Bag",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "打开背包",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "Right/ToggleGroup/equipTab/Background",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Bag"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "引导",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetList"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetList"]= "ClickImage",
+      ["TargetPath"]= "Right/itemTable",
+      ["TargetType"]= 2,
+      ["TargetUI"]= "UI_Bag",
+      ["TargetValue"]= "1999998",
+      ["TargetValueType"]= 2
+    }
+  }
+},
+[133] = {
+  ["Condition"]= 210040,
+  ["id"]= 133,
+  ["Level"]= 133,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "点击旋钮",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/Right/MiddleRight/Btn_Right_Switch",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "点击弹丸添加",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/Battle/Mask/SkillRlease/Btn_Archer/none",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "点击1号弹丸坑",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "Group/ItemGroup/Item_1/add",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_LoadableWeaponSetting"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "点击确定",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "Info/Btn_confirm",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_PopupChooseItemFromList"
+    }
+  }
+},
+[134] = {
+  ["Condition"]= 500105,
+  ["id"]= 134,
+  ["Level"]= 134,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "引导交易行合约",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "引导王国竞猜",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "FunctionNode/Buttons/NpcButton(Clone)30022/Button",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Npc"
+    }
+  }
+},
+[135] = {
+  ["Condition"]= 210047,
+  ["id"]= 135,
+  ["Level"]= 135,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_1802",
+      ["LidType"]= 2,
+      ["location"]= 3,
+      ["name"]= "点击领取",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "FunctionNode/Buttons/NpcButton(Clone)10058/Button",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Npc"
+    }
+  }
+},
+[136] = {
+  ["Condition"]= 210048,
+  ["id"]= 136,
+  ["Level"]= 136,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "点击领取",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 2,
+      ["TargetPath"]= "Content/ToggleGroup1/All/Checkmark",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_HandBook",
+      ["x"]= -5,
+      ["y"]= 0
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_1806",
+      ["LidType"]= 2,
+      ["location"]= 2,
+      ["name"]= "",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "Content/Homepage/Btn_GoAnswer",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_HandBook"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_1804",
+      ["LidType"]= 2,
+      ["location"]= 3,
+      ["name"]= "",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "FunctionNode/Buttons/NpcButton(Clone)10056/Button",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Npc"
+    }
+  }
+},
+[137] = {
+  ["Condition"]= 210049,
+  ["id"]= 137,
+  ["Level"]= 137,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "点击领取",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/ChatView/Btn_Fish",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_2001",
+      ["LidType"]= 2,
+      ["location"]= 1,
+      ["name"]= "",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "Other/Btn_Bait/bg",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_FishingAndMining"
+    }
+  }
+},
+[138] = {
+  ["Condition"]= 210050,
+  ["id"]= 138,
+  ["Level"]= 138,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "点击领取",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/Right/MiddleRight/Btn_Bag",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "Right/WeighInfo/Btn_Plus",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Bag"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "Content/Title/ButtonConfirm",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_AlertWithItem"
+    }
+  }
+},
+[139] = {
+  ["Condition"]= 210052,
+  ["id"]= 139,
+  ["Level"]= 139,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "点击领取",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/ChatView/Btn_Fish",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_2002",
+      ["LidType"]= 2,
+      ["location"]= 1,
+      ["name"]= "",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "Other/Btn_Bait/bg",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_FishingAndMining"
+    }
+  }
+},
+[140] = {
+  ["Condition"]= 210053,
+  ["id"]= 140,
+  ["Level"]= 140,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "点击领取",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/Right/MiddleRight/Btn_Bag",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetList"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetList"]= "ClickImage",
+      ["TargetPath"]= "Right/itemTable",
+      ["TargetType"]= 2,
+      ["TargetUI"]= "UI_Bag",
+      ["TargetValue"]= "10202033",
+      ["TargetValueType"]= 2
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "Content/BtnGroup/Btn_Use/Content/Green",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_ItemTip"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "Content/Title/ButtonConfirm",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_AlertWithItem"
+    }
+  }
+},
+[141] = {
+  ["Condition"]= 210055,
+  ["id"]= 141,
+  ["Level"]= 141,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "点击领取",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/Right/BtnGroupLayout/Btn_Activity_Switch",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/Right/BtnGroupLayout/ActivityMenu/Btn_Bank",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main"
+    }
+  }
+},
+[142] = {
+  ["Condition"]= 210057,
+  ["id"]= 142,
+  ["Level"]= 142,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_3101",
+      ["LidType"]= 2,
+      ["location"]= 2,
+      ["name"]= "点击领取",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "btnGroup/Btn_Tip",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Jobber"
+    }
+  }
+},
+[143] = {
+  ["Condition"]= 210058,
+  ["id"]= 143,
+  ["Level"]= 143,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_3102",
+      ["LidType"]= 2,
+      ["location"]= 2,
+      ["name"]= "点击领取",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "Content/Custom/Btn_Question",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_FightAuto"
+    }
+  }
+},
+[144] = {
+  ["Condition"]= 210059,
+  ["id"]= 144,
+  ["Level"]= 122,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_3602",
+      ["LidType"]= 2,
+      ["location"]= 1,
+      ["name"]= "点击推荐加点",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "UIGroup/AddPointGroup/Btn_AddPoint",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Professionalskill"
+    }
+  }
+},
+[145] = {
+  ["Condition"]= 210060,
+  ["id"]= 145,
+  ["Level"]= 122,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_3103",
+      ["LidType"]= 2,
+      ["location"]= 3,
+      ["name"]= "点击推荐加点",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/Battle/Mask/SkillRlease/Btn_ChangeSkill",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main"
+    }
+  }
+},
+[146] = {
+  ["Condition"]= 210062,
+  ["id"]= 146,
+  ["Level"]= 144,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "点击推荐加点",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "FunctionNode/Buttons/NpcButton(Clone)10036/Button",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Npc"
+    }
+  }
+},
+[147] = {
+  ["Condition"]= 210063,
+  ["id"]= 147,
+  ["Level"]= 144,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_3105",
+      ["LidType"]= 2,
+      ["location"]= 1,
+      ["name"]= "点击推荐装备",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "Left/ButtonRec",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Bag"
+    }
+  }
+},
+[148] = {
+  ["Condition"]= 210064,
+  ["id"]= 148,
+  ["Level"]= 144,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_3106",
+      ["LidType"]= 2,
+      ["location"]= 3,
+      ["name"]= "点击仓库",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "FunctionNode/Buttons/NpcButton(Clone)10044/Button",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Npc"
+    }
+  }
+},
+[149] = {
+  ["Condition"]= 210066,
+  ["id"]= 149,
+  ["Level"]= 149,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "点击仓库",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "ButtonGroup/ButtonCaiji/Image",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_MagicalButtons"
+    }
+  }
+},
+[150] = {
+  ["Condition"]= 46000001,
+  ["id"]= 150,
+  ["Level"]= 150,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/Right/MiddleRight/Btn_Right_Switch",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/Right/MenuNode/Btn_Shadow",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main"
+    }
+  }
+},
+[501] = {
+  ["Condition"]= 250001,
+  ["id"]= 501,
+  ["isServer"]= 2,
+  ["Level"]= 501,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "FunctionNode/Buttons/NpcButton(Clone)10049/Button",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Npc"
+    }
+  }
+},
+[502] = {
+  ["Condition"]= 250002,
+  ["id"]= 502,
+  ["isServer"]= 2,
+  ["Level"]= 502,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "FunctionNode/Buttons/NpcButton(Clone)10050/Button",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Npc"
+    }
+  }
+},
+[987] = {
+  ["id"]= 987,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "主界面icon",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "FunctionNode/Buttons/NpcButton(Clone)60010/Button",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Npc"
+    }
+  }
+},
+[988] = {
+  ["id"]= 988,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_3001",
+      ["LidType"]= 2,
+      ["location"]= 4,
+      ["name"]= "委托版",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "EntrustList/Entrust (1)/Background",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "EntrustList/Entrust (1)/Checkmark",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_TaskBar"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_3002",
+      ["LidType"]= 2,
+      ["location"]= 1,
+      ["name"]= "委托版接取icon",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "Content/UIGroup/Btn_Accept",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_TaskDetail"
+    }
+  }
+},
+[989] = {
+  ["id"]= 989,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "NPC对话栏的强化",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "FunctionNode/Buttons/NpcButton(Clone)10028/Button",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Npc"
+    }
+  }
+},
+[991] = {
+  ["id"]= 991,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "NPC对话栏的强化",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "FunctionNode/Buttons/NpcButton(Clone)10034/Button",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Npc"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "强化按钮",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "Right/rightBottom/Btn_Baptize",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_EquipEnchant"
+    }
+  }
+},
+[992] = {
+  ["id"]= 992,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "主界面icon",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/Right/BtnGroupLayout/Btn_Activity_Switch",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "主界面嘉年华icon",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/Right/BtnGroupLayout/ActivityMenu/Btn_Activity",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "爬塔icon",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "Content/ActivityName/100010",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Carnival"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "前往icon",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "Content/Btn",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_CarnivalDetails"
+    }
+  }
+},
+[993] = {
+  ["id"]= 993,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "主界面icon",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/Right/BtnGroupLayout/Btn_Activity_Switch",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "主界面嘉年华icon",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/Right/BtnGroupLayout/ActivityMenu/Btn_Activity",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "活跃值",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "Content/Btn_Vitality/Btn_Bg/Chest",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Carnival"
+    }
+  }
+},
+[994] = {
+  ["id"]= 994,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "主界面icon",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/Right/MiddleRight/Btn_Right_Switch",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "主界面公会icon",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/Right/MenuNode/Btn_Guild",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main"
+    }
+  }
+},
+[995] = {
+  ["id"]= 995,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "主界面icon",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/Right/MiddleRight/Btn_Right_Switch",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_2701",
+      ["LidType"]= 2,
+      ["location"]= 3,
+      ["name"]= "主界面坐骑icon",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/Right/MenuNode/Btn_Mount",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main"
+    }
+  }
+},
+[996] = {
+  ["id"]= 996,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "主界面icon",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/Right/MiddleRight/Btn_Right_Switch",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "LeadText_2401",
+      ["LidType"]= 2,
+      ["location"]= 1,
+      ["name"]= "主界面衣橱icon",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/Right/MenuNode/Btn_Wardrobe",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main"
+    }
+  }
+},
+[997] = {
+  ["id"]= 997,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "主界面icon",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/Right/BtnGroupLayout/Btn_Activity_Switch",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "主界面学院手册icon",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/Right/BtnGroupLayout/ActivityMenu/Btn_Handbook",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "学院手册界面相册icon",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "ToggleGroup2/Photo/Background",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_HandBook"
+    }
+  }
+},
+[998] = {
+  ["id"]= 998,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "TaskUI_Personality1",
+      ["LidType"]= 2,
+      ["location"]= 1,
+      ["name"]= "",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "MainHome/Right/MiddleRight/Btn_Bag",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Main"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "TaskUI_Personality1",
+      ["LidType"]= 2,
+      ["location"]= 3,
+      ["name"]= "",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "Right/ToggleGroup/equipTab/Background",
+      ["TargetType"]= 1,
+      ["TargetUI"]= "UI_Bag"
+    },
+    {
+      ["Audio"]= "",
+      ["Lid"]= "TaskUI_Personality1",
+      ["LidType"]= 2,
+      ["location"]= 4,
+      ["name"]= "",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetList"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetList"]= "ClickImage",
+      ["TargetPath"]= "Right/itemTable",
+      ["TargetType"]= 2,
+      ["TargetUI"]= "UI_Bag",
+      ["TargetValue"]= "1101005",
+      ["TargetValueType"]= 2
+    }
+  }
+},
+[999] = {
+  ["id"]= 999,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "TaskUI_Personality1",
+      ["LidType"]= 2,
+      ["location"]= 1,
+      ["name"]= "主界面的任务列表",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetList"]= "Background",
+      ["TargetBoxOffset"]= 1,
+      ["TargetList"]= "Checkmark",
+      ["TargetPath"]= "MainHome/Left/TaskTeamPanel/TaskTableView",
+      ["TargetType"]= 2,
+      ["TargetUI"]= "UI_Main",
+      ["TargetValue"]= "100001101",
+      ["TargetValueType"]= 1
+    }
+  },
+  ["Type"]= 1
+},
+[2000] = {
+  ["Condition"]= 210059,
+  ["id"]= 2000,
+  ["Level"]= 122,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "",
+      ["picturePath"]= {
+        "Img_Explain16"
+      },
+      ["skipCondition"]= 210051,
+      ["SkipType"]= 4,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "",
+      ["TargetType"]= 1,
+      ["TargetUI"]= ""
+    }
+  },
+  ["Type"]= 3
+},
+[2001] = {
+  ["Condition"]= 210056,
+  ["id"]= 2001,
+  ["Level"]= 142,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "",
+      ["picturePath"]= {
+        "Img_Explain22",
+        "Img_Explain23",
+        "Img_Explain24"
+      },
+      ["skipCondition"]= 210056,
+      ["SkipType"]= 4,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "",
+      ["TargetType"]= 1,
+      ["TargetUI"]= ""
+    }
+  },
+  ["Type"]= 3
+},
+[2002] = {
+  ["Condition"]= 1001,
+  ["id"]= 2002,
+  ["Level"]= 122,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "",
+      ["picturePath"]= {
+        "Img_Explain29"
+      },
+      ["skipCondition"]= 2014,
+      ["SkipType"]= 4,
+      ["subTargetPath"]= "",
+      ["TargetBoxOffset"]= 1,
+      ["TargetPath"]= "",
+      ["TargetType"]= 1,
+      ["TargetUI"]= ""
+    }
+  },
+  ["Type"]= 3
+}
+}
+local baseTable={
+  ["Condition"]= 210001,
+  ["id"]= 101,
+  ["isServer"]= 1,
+  ["Level"]= 1,
+  ["SkipType"]= {
+    {
+      ["Audio"]= "",
+      ["Lid"]= "",
+      ["LidType"]= 1,
+      ["name"]= "主界面的任务列表",
+      ["picturePath"]= {},
+      ["skipCondition"]= 0,
+      ["SkipType"]= 1,
+      ["subTargetList"]= "Background",
+      ["TargetBoxOffset"]= 1,
+      ["TargetList"]= "Checkmark",
+      ["TargetPath"]= "MainHome/Left/TaskTeamPanel/Task/TaskTableView",
+      ["TargetType"]= 2,
+      ["TargetUI"]= "UI_Main",
+      ["TargetValue"]= "100001101",
+      ["TargetValueType"]= 1
+    }
+  },
+  ["Type"]= 2
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

@@ -1,0 +1,2718 @@
+TextAsset Base
+	string m_Name = "data_NPCIntimacyItem_NPCIntimacyItem"
+	string m_Script = "local table= {
+[1] = {
+  ["DisgustingValue"]= 5,
+  ["LikeValue"]= {
+    10,
+    5
+  },
+  ["SpNpcId"]= {
+    61001,
+    61172
+  },
+  ["typeid"]= 1
+},
+[2] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406841,
+  ["LikeValue"]= {
+    5
+  },
+  ["name"]= "星星的粉末",
+  ["SpNpcId"]= {
+    61172
+  },
+  ["typeid"]= 1
+},
+[3] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406866,
+  ["LikeValue"]= {
+    10,
+    5
+  },
+  ["name"]= "黯淡的宝石",
+  ["SpNpcId"]= {
+    61104,
+    61172
+  },
+  ["typeid"]= 1
+},
+[4] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406865,
+  ["LikeValue"]= {
+    10,
+    5
+  },
+  ["name"]= "华丽金饰",
+  ["SpNpcId"]= {
+    61103,
+    61172
+  },
+  ["typeid"]= 1
+},
+[5] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406860,
+  ["LikeValue"]= {
+    5
+  },
+  ["name"]= "赛依伐",
+  ["SpNpcId"]= {
+    61172
+  },
+  ["typeid"]= 1
+},
+[6] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406861,
+  ["LikeValue"]= {
+    10,
+    5
+  },
+  ["name"]= "布里刊",
+  ["SpNpcId"]= {
+    61010,
+    61172
+  },
+  ["typeid"]= 1
+},
+[7] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10401005,
+  ["LikeValue"]= {
+    10,
+    5
+  },
+  ["name"]= "加勒结晶",
+  ["SpNpcId"]= {
+    61104,
+    61172
+  },
+  ["typeid"]= 1
+},
+[8] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10401007,
+  ["LikeValue"]= {
+    5
+  },
+  ["name"]= "刹勒空结晶",
+  ["SpNpcId"]= {
+    61172
+  },
+  ["typeid"]= 1
+},
+[9] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10401006,
+  ["LikeValue"]= {
+    5
+  },
+  ["name"]= "雪勒结晶",
+  ["SpNpcId"]= {
+    61172
+  },
+  ["typeid"]= 1
+},
+[10] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10401004,
+  ["LikeValue"]= {
+    5
+  },
+  ["name"]= "杰勒比结晶",
+  ["SpNpcId"]= {
+    61172
+  },
+  ["typeid"]= 1
+},
+[11] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406105,
+  ["LikeValue"]= {
+    5
+  },
+  ["name"]= "红色魔力矿石",
+  ["SpNpcId"]= {
+    61172
+  },
+  ["typeid"]= 1
+},
+[12] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10204020,
+  ["LikeValue"]= {
+    5
+  },
+  ["name"]= "蓝色魔力矿石",
+  ["SpNpcId"]= {
+    61172
+  },
+  ["typeid"]= 1
+},
+[13] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406106,
+  ["LikeValue"]= {
+    10,
+    5
+  },
+  ["name"]= "黄色魔力矿石",
+  ["SpNpcId"]= {
+    61067,
+    61172
+  },
+  ["typeid"]= 1
+},
+[14] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406104,
+  ["LikeValue"]= {
+    10,
+    5
+  },
+  ["name"]= "水灵原石",
+  ["SpNpcId"]= {
+    61159,
+    61172
+  },
+  ["typeid"]= 1
+},
+[15] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406102,
+  ["LikeValue"]= {
+    10,
+    5
+  },
+  ["name"]= "火灵原石",
+  ["SpNpcId"]= {
+    61066,
+    61172
+  },
+  ["typeid"]= 1
+},
+[16] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406103,
+  ["LikeValue"]= {
+    5
+  },
+  ["name"]= "风灵原石",
+  ["SpNpcId"]= {
+    61172
+  },
+  ["typeid"]= 1
+},
+[17] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406101,
+  ["LikeValue"]= {
+    5
+  },
+  ["name"]= "地灵原石",
+  ["SpNpcId"]= {
+    61172
+  },
+  ["typeid"]= 1
+},
+[18] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406804,
+  ["name"]= "丝线",
+  ["typeid"]= 2
+},
+[19] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406588,
+  ["name"]= "柔毛",
+  ["typeid"]= 2
+},
+[20] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406831,
+  ["name"]= "毒腺",
+  ["typeid"]= 2
+},
+[21] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413144,
+  ["name"]= "石料",
+  ["typeid"]= 2
+},
+[22] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406852,
+  ["name"]= "墨汁",
+  ["typeid"]= 2
+},
+[23] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406684,
+  ["LikeValue"]= {
+    10
+  },
+  ["name"]= "南瓜头",
+  ["SpNpcId"]= {
+    61037
+  },
+  ["typeid"]= 2
+},
+[24] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413055,
+  ["name"]= "金属废料",
+  ["typeid"]= 2
+},
+[25] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413057,
+  ["name"]= "金属扣",
+  ["typeid"]= 2
+},
+[26] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413058,
+  ["LikeValue"]= {
+    10
+  },
+  ["name"]= "弹力球",
+  ["SpNpcId"]= {
+    61037
+  },
+  ["typeid"]= 2
+},
+[27] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413100,
+  ["name"]= "强力粘液",
+  ["typeid"]= 2
+},
+[28] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406808,
+  ["name"]= "绒毛",
+  ["typeid"]= 2
+},
+[29] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413112,
+  ["name"]= "纤维",
+  ["typeid"]= 2
+},
+[30] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413118,
+  ["name"]= "硬质木",
+  ["typeid"]= 2
+},
+[31] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10401009,
+  ["name"]= "透明之布",
+  ["typeid"]= 2
+},
+[32] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406857,
+  ["LikeValue"]= {
+    10
+  },
+  ["name"]= "隐形丝线",
+  ["SpNpcId"]= {
+    61138
+  },
+  ["typeid"]= 2
+},
+[33] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413003,
+  ["LikeValue"]= {
+    10
+  },
+  ["name"]= "坚固甲片",
+  ["SpNpcId"]= {
+    61073
+  },
+  ["typeid"]= 2
+},
+[34] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406863,
+  ["LikeValue"]= {
+    10
+  },
+  ["name"]= "金属甲片",
+  ["SpNpcId"]= {
+    61151
+  },
+  ["typeid"]= 2
+},
+[35] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413157,
+  ["LikeValue"]= {
+    10
+  },
+  ["name"]= "合金金属片",
+  ["SpNpcId"]= {
+    61073
+  },
+  ["typeid"]= 2
+},
+[36] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413067,
+  ["name"]= "尖刺皮革",
+  ["typeid"]= 2
+},
+[37] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406790,
+  ["name"]= "空瓶子",
+  ["typeid"]= 2
+},
+[38] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413197,
+  ["name"]= "胶水",
+  ["typeid"]= 2
+},
+[39] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413064,
+  ["name"]= "酒精",
+  ["typeid"]= 2
+},
+[40] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413132,
+  ["name"]= "砥砺石",
+  ["typeid"]= 2
+},
+[41] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413131,
+  ["name"]= "硅砂",
+  ["typeid"]= 2
+},
+[42] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413127,
+  ["name"]= "锤子",
+  ["typeid"]= 2
+},
+[43] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413051,
+  ["LikeValue"]= {
+    10
+  },
+  ["name"]= "平底锅",
+  ["SpNpcId"]= {
+    61095
+  },
+  ["typeid"]= 2
+},
+[44] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413130,
+  ["name"]= "试管",
+  ["typeid"]= 2
+},
+[45] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413198,
+  ["name"]= "毒液",
+  ["typeid"]= 2
+},
+[46] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413146,
+  ["LikeValue"]= {
+    10
+  },
+  ["name"]= "碎石碑",
+  ["SpNpcId"]= {
+    61069
+  },
+  ["typeid"]= 3
+},
+[47] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413154,
+  ["name"]= "撕毁的书页",
+  ["typeid"]= 3
+},
+[48] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413056,
+  ["name"]= "亡灵遗骨",
+  ["typeid"]= 3
+},
+[49] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413061,
+  ["LikeValue"]= {
+    10
+  },
+  ["name"]= "古书碎片",
+  ["SpNpcId"]= {
+    61107
+  },
+  ["typeid"]= 3
+},
+[50] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406816,
+  ["LikeValue"]= {
+    10
+  },
+  ["name"]= "古旧硬币",
+  ["SpNpcId"]= {
+    61011
+  },
+  ["typeid"]= 3
+},
+[51] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413066,
+  ["name"]= "古典甲片",
+  ["typeid"]= 3
+},
+[52] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413068,
+  ["name"]= "禁锢之锁",
+  ["typeid"]= 3
+},
+[53] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10403011,
+  ["name"]= "亡者遗物",
+  ["typeid"]= 3
+},
+[54] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406854,
+  ["LikeValue"]= {
+    10
+  },
+  ["name"]= "老旧卷轴",
+  ["SpNpcId"]= {
+    61063
+  },
+  ["typeid"]= 3
+},
+[55] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413200,
+  ["name"]= "光滑的皮",
+  ["typeid"]= 4
+},
+[56] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406837,
+  ["LikeValue"]= {
+    10
+  },
+  ["name"]= "狼皮",
+  ["SpNpcId"]= {
+    61109
+  },
+  ["typeid"]= 4
+},
+[57] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406805,
+  ["name"]= "坚硬外皮",
+  ["typeid"]= 4
+},
+[58] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413111,
+  ["name"]= "薄毛皮",
+  ["typeid"]= 4
+},
+[59] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406823,
+  ["name"]= "软毛",
+  ["typeid"]= 4
+},
+[60] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406565,
+  ["name"]= "粗毛",
+  ["typeid"]= 4
+},
+[61] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406566,
+  ["name"]= "动物外皮",
+  ["typeid"]= 4
+},
+[62] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413103,
+  ["name"]= "轻盈的皮",
+  ["typeid"]= 4
+},
+[63] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413002,
+  ["name"]= "厚皮革",
+  ["typeid"]= 4
+},
+[64] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413106,
+  ["LikeValue"]= {
+    10
+  },
+  ["name"]= "柔顺毛皮",
+  ["SpNpcId"]= {
+    61109
+  },
+  ["typeid"]= 4
+},
+[65] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413119,
+  ["name"]= "完整皮革",
+  ["typeid"]= 4
+},
+[66] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413152,
+  ["LikeValue"]= {
+    10
+  },
+  ["name"]= "龙泪",
+  ["SpNpcId"]= {
+    61008
+  },
+  ["typeid"]= 5
+},
+[67] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413060,
+  ["LikeValue"]= {
+    10
+  },
+  ["name"]= "透明骨片",
+  ["SpNpcId"]= {
+    61163
+  },
+  ["typeid"]= 5
+},
+[68] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406794,
+  ["LikeValue"]= {
+    10
+  },
+  ["name"]= "石心",
+  ["SpNpcId"]= {
+    61064
+  },
+  ["typeid"]= 5
+},
+[69] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413102,
+  ["LikeValue"]= {
+    10
+  },
+  ["name"]= "魔物核心",
+  ["SpNpcId"]= {
+    61072
+  },
+  ["typeid"]= 5
+},
+[70] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406564,
+  ["LikeValue"]= {
+    10
+  },
+  ["name"]= "不死心脏",
+  ["SpNpcId"]= {
+    61070
+  },
+  ["typeid"]= 5
+},
+[71] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413033,
+  ["LikeValue"]= {
+    10
+  },
+  ["name"]= "慧眼",
+  ["SpNpcId"]= {
+    61072
+  },
+  ["typeid"]= 5
+},
+[72] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406788,
+  ["LikeValue"]= {
+    10
+  },
+  ["name"]= "返魂符",
+  ["SpNpcId"]= {
+    61070
+  },
+  ["typeid"]= 5
+},
+[73] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406563,
+  ["LikeValue"]= {
+    10
+  },
+  ["name"]= "不灭之火",
+  ["SpNpcId"]= {
+    61099
+  },
+  ["typeid"]= 5
+},
+[74] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406583,
+  ["LikeValue"]= {
+    10
+  },
+  ["name"]= "泯灭之心",
+  ["SpNpcId"]= {
+    61160
+  },
+  ["typeid"]= 5
+},
+[75] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406581,
+  ["name"]= "龙牙",
+  ["typeid"]= 5
+},
+[76] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413203,
+  ["LikeValue"]= {
+    10
+  },
+  ["name"]= "作祟之心",
+  ["SpNpcId"]= {
+    61074
+  },
+  ["typeid"]= 5
+},
+[77] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413063,
+  ["name"]= "诅咒刃片",
+  ["typeid"]= 5
+},
+[78] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413107,
+  ["LikeValue"]= {
+    10
+  },
+  ["name"]= "安魂砂",
+  ["SpNpcId"]= {
+    61108
+  },
+  ["typeid"]= 5
+},
+[79] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406580,
+  ["name"]= "龙鳞",
+  ["typeid"]= 5
+},
+[80] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406877,
+  ["name"]= "赤焰鬃毛",
+  ["typeid"]= 5
+},
+[81] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406868,
+  ["name"]= "不死契约",
+  ["typeid"]= 5
+},
+[82] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406513,
+  ["name"]= "亡灵气息",
+  ["typeid"]= 5
+},
+[83] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406802,
+  ["name"]= "曼陀罗叶"
+},
+[84] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10201013,
+  ["name"]= "小块肉"
+},
+[85] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406810,
+  ["name"]= "蛋"
+},
+[86] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406835,
+  ["name"]= "大块肉"
+},
+[87] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406687,
+  ["name"]= "香菇芽孢"
+},
+[88] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10206002,
+  ["name"]= "触须"
+},
+[89] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413083,
+  ["name"]= "花蜜"
+},
+[90] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413087,
+  ["name"]= "植物汁液"
+},
+[91] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406688,
+  ["name"]= "熊掌"
+},
+[92] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413089,
+  ["name"]= "蛇胆"
+},
+[93] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413090,
+  ["name"]= "海蜇"
+},
+[94] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406685,
+  ["name"]= "钳子"
+},
+[95] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406825,
+  ["name"]= "蛤蜊肉"
+},
+[96] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413006,
+  ["name"]= "兽肉"
+},
+[97] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413007,
+  ["name"]= "蛋液"
+},
+[98] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413093,
+  ["name"]= "厚脚掌"
+},
+[99] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406678,
+  ["name"]= "背鳍"
+},
+[100] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413094,
+  ["name"]= "清香树液"
+},
+[101] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413008,
+  ["name"]= "风干肉"
+},
+[102] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413009,
+  ["name"]= "粗粮"
+},
+[103] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413096,
+  ["name"]= "野兽血"
+},
+[104] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406691,
+  ["LikeValue"]= {
+    10
+  },
+  ["name"]= "章鱼足",
+  ["SpNpcId"]= {
+    61162
+  }
+},
+[105] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413097,
+  ["name"]= "藻泥"
+},
+[106] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413098,
+  ["name"]= "焦炭"
+},
+[107] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413099,
+  ["name"]= "不明野味"
+},
+[108] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413010,
+  ["name"]= "盐粒"
+},
+[109] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413011,
+  ["LikeValue"]= {
+    10
+  },
+  ["name"]= "糖果",
+  ["SpNpcId"]= {
+    61154
+  }
+},
+[110] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413018,
+  ["name"]= "犬妖之肉"
+},
+[111] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413019,
+  ["LikeValue"]= {
+    10
+  },
+  ["name"]= "旅人干粮",
+  ["SpNpcId"]= {
+    61004
+  }
+},
+[112] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413020,
+  ["LikeValue"]= {
+    10
+  },
+  ["name"]= "兽人香料",
+  ["SpNpcId"]= {
+    61106
+  }
+},
+[113] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413021,
+  ["name"]= "恶魔之血"
+},
+[114] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413022,
+  ["name"]= "酸涩树果"
+},
+[115] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413023,
+  ["name"]= "龙肉"
+},
+[116] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413024,
+  ["name"]= "生肉罐头"
+},
+[117] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413025,
+  ["name"]= "高温燃料"
+},
+[118] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413045,
+  ["name"]= "牛头肉"
+},
+[119] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413046,
+  ["name"]= "恶意巧克力"
+},
+[120] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413047,
+  ["name"]= "荆棘花瓣"
+},
+[121] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413001,
+  ["LikeValue"]= {
+    10
+  },
+  ["name"]= "藤条",
+  ["SpNpcId"]= {
+    61096
+  },
+  ["typeid"]= 7
+},
+[122] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413004,
+  ["LikeValue"]= {
+    10
+  },
+  ["name"]= "绿棉幼虫",
+  ["SpNpcId"]= {
+    61031
+  },
+  ["typeid"]= 7
+},
+[123] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413005,
+  ["name"]= "鼠尾",
+  ["typeid"]= 7
+},
+[124] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406567,
+  ["name"]= "毒魔菇芽孢",
+  ["typeid"]= 7
+},
+[125] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406686,
+  ["name"]= "青蛙蛋",
+  ["typeid"]= 7
+},
+[126] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413028,
+  ["LikeValue"]= {
+    10
+  },
+  ["name"]= "刺猬皮",
+  ["SpNpcId"]= {
+    61110
+  },
+  ["typeid"]= 7
+},
+[127] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406886,
+  ["name"]= "猴子尾巴",
+  ["typeid"]= 7
+},
+[128] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406842,
+  ["LikeValue"]= {
+    10
+  },
+  ["name"]= "老妖精胡须",
+  ["SpNpcId"]= {
+    61068
+  },
+  ["typeid"]= 7
+},
+[129] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406832,
+  ["name"]= "蜘蛛丝",
+  ["typeid"]= 7
+},
+[130] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413158,
+  ["LikeValue"]= {
+    10
+  },
+  ["name"]= "凝固蛋",
+  ["SpNpcId"]= {
+    61100
+  },
+  ["typeid"]= 7
+},
+[131] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406845,
+  ["name"]= "蚂蚁卵",
+  ["typeid"]= 7
+},
+[132] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10206004,
+  ["LikeValue"]= {
+    10
+  },
+  ["name"]= "蚯蚓皮",
+  ["SpNpcId"]= {
+    61098
+  },
+  ["typeid"]= 7
+},
+[133] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406893,
+  ["name"]= "牛鼻环",
+  ["typeid"]= 7
+},
+[134] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406582,
+  ["name"]= "魅惑蛇眼",
+  ["typeid"]= 7
+},
+[135] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413159,
+  ["LikeValue"]= {
+    10
+  },
+  ["name"]= "土人牙",
+  ["SpNpcId"]= {
+    61164
+  },
+  ["typeid"]= 7
+},
+[136] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413012,
+  ["LikeValue"]= {
+    10
+  },
+  ["name"]= "锯齿牙",
+  ["SpNpcId"]= {
+    61071
+  },
+  ["typeid"]= 7
+},
+[137] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413013,
+  ["LikeValue"]= {
+    10
+  },
+  ["name"]= "卷曲壳",
+  ["SpNpcId"]= {
+    61161
+  },
+  ["typeid"]= 7
+},
+[138] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413014,
+  ["name"]= "旋转的壳",
+  ["typeid"]= 7
+},
+[139] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413015,
+  ["name"]= "绿腐肉",
+  ["typeid"]= 7
+},
+[140] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413016,
+  ["name"]= "灰蚤",
+  ["typeid"]= 7
+},
+[141] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413017,
+  ["LikeValue"]= {
+    10
+  },
+  ["name"]= "小块蜂巢",
+  ["SpNpcId"]= {
+    61097
+  },
+  ["typeid"]= 7
+},
+[142] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413069,
+  ["name"]= "浮尘虫",
+  ["typeid"]= 7
+},
+[143] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413070,
+  ["name"]= "蠕动荆棘",
+  ["typeid"]= 7
+},
+[144] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413123,
+  ["name"]= "生锈铁钉",
+  ["typeid"]= 7
+},
+[145] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10403010,
+  ["LikeValue"]= {
+    10,
+    5
+  },
+  ["name"]= "三叶幸运草",
+  ["SpNpcId"]= {
+    61153,
+    61172
+  },
+  ["typeid"]= 8
+},
+[146] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406888,
+  ["LikeValue"]= {
+    10,
+    5
+  },
+  ["name"]= "小花",
+  ["SpNpcId"]= {
+    61165,
+    61172
+  },
+  ["typeid"]= 8
+},
+[147] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406882,
+  ["LikeValue"]= {
+    10,
+    5
+  },
+  ["name"]= "变身叶子",
+  ["SpNpcId"]= {
+    61165,
+    61172
+  },
+  ["typeid"]= 8
+},
+[148] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406892,
+  ["LikeValue"]= {
+    5
+  },
+  ["name"]= "玛哪树枝",
+  ["SpNpcId"]= {
+    61172
+  },
+  ["typeid"]= 8
+},
+[149] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406819,
+  ["LikeValue"]= {
+    5
+  },
+  ["name"]= "西纳雷花",
+  ["SpNpcId"]= {
+    61172
+  },
+  ["typeid"]= 8
+},
+[150] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406850,
+  ["LikeValue"]= {
+    10,
+    5
+  },
+  ["name"]= "永恒玫瑰",
+  ["SpNpcId"]= {
+    61152,
+    61172
+  },
+  ["typeid"]= 8
+},
+[151] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406801,
+  ["LikeValue"]= {
+    10,
+    5
+  },
+  ["name"]= "四叶幸运草",
+  ["SpNpcId"]= {
+    61002,
+    61172
+  },
+  ["typeid"]= 8
+},
+[152] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406599,
+  ["LikeValue"]= {
+    10,
+    5
+  },
+  ["name"]= "植物精华",
+  ["SpNpcId"]= {
+    61153,
+    61172
+  },
+  ["typeid"]= 8
+},
+[153] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406848,
+  ["LikeValue"]= {
+    5
+  },
+  ["name"]= "智慧树枝",
+  ["SpNpcId"]= {
+    61172
+  },
+  ["typeid"]= 8
+},
+[154] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413128,
+  ["LikeValue"]= {
+    5
+  },
+  ["name"]= "天地树露水",
+  ["SpNpcId"]= {
+    61172
+  },
+  ["typeid"]= 8
+},
+[155] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10413039,
+  ["LikeValue"]= {
+    5
+  },
+  ["name"]= "天地树枝",
+  ["SpNpcId"]= {
+    61172
+  },
+  ["typeid"]= 8
+},
+[156] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10201015,
+  ["LikeValue"]= {
+    5
+  },
+  ["name"]= "红色药草",
+  ["SpNpcId"]= {
+    61172
+  },
+  ["typeid"]= 8
+},
+[157] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10201014,
+  ["LikeValue"]= {
+    5
+  },
+  ["name"]= "蓝色药草",
+  ["SpNpcId"]= {
+    61172
+  },
+  ["typeid"]= 8
+},
+[158] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10201016,
+  ["LikeValue"]= {
+    5
+  },
+  ["name"]= "黄色药草",
+  ["SpNpcId"]= {
+    61172
+  },
+  ["typeid"]= 8
+},
+[159] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10406236,
+  ["LikeValue"]= {
+    5
+  },
+  ["name"]= "紫色药草",
+  ["SpNpcId"]= {
+    61172
+  },
+  ["typeid"]= 8
+},
+[160] = {
+  ["DisgustingValue"]= 5,
+  ["ItemId"]= 10201017,
+  ["LikeValue"]= {
+    5
+  },
+  ["name"]= "白色药草",
+  ["SpNpcId"]= {
+    61172
+  },
+  ["typeid"]= 8
+},
+[161] = {
+  ["ItemId"]= 10406231,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "碎晶蘑菇",
+  ["SpNpcId"]= {
+    61064
+  },
+  ["typeid"]= 9,
+  ["Value"]= 15
+},
+[162] = {
+  ["ItemId"]= 10406210,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "坚韧藤",
+  ["SpNpcId"]= {
+    61163
+  },
+  ["typeid"]= 9,
+  ["Value"]= 15
+},
+[163] = {
+  ["ItemId"]= 10406232,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "奥秘之花",
+  ["SpNpcId"]= {
+    61063
+  },
+  ["typeid"]= 9,
+  ["Value"]= 15
+},
+[164] = {
+  ["ItemId"]= 10406217,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "黄金花",
+  ["SpNpcId"]= {
+    61067
+  },
+  ["typeid"]= 9,
+  ["Value"]= 15
+},
+[165] = {
+  ["ItemId"]= 10406218,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "炎地蘑菇",
+  ["SpNpcId"]= {
+    61066
+  },
+  ["typeid"]= 9,
+  ["Value"]= 15
+},
+[166] = {
+  ["ItemId"]= 10406212,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "枯叶荆",
+  ["SpNpcId"]= {
+    61068
+  },
+  ["typeid"]= 9,
+  ["Value"]= 15
+},
+[167] = {
+  ["ItemId"]= 10406246,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "迎汐花",
+  ["SpNpcId"]= {
+    61159
+  },
+  ["typeid"]= 9,
+  ["Value"]= 15
+},
+[168] = {
+  ["ItemId"]= 10406247,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "海晶草",
+  ["SpNpcId"]= {
+    61161
+  },
+  ["typeid"]= 9,
+  ["Value"]= 15
+},
+[169] = {
+  ["ItemId"]= 10406248,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "晚萤叶",
+  ["SpNpcId"]= {
+    61162
+  },
+  ["typeid"]= 9,
+  ["Value"]= 15
+},
+[170] = {
+  ["ItemId"]= 10406229,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "阴气草",
+  ["SpNpcId"]= {
+    61070
+  },
+  ["typeid"]= 9,
+  ["Value"]= 15
+},
+[171] = {
+  ["ItemId"]= 10406226,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "静谧花",
+  ["SpNpcId"]= {
+    61069
+  },
+  ["typeid"]= 9,
+  ["Value"]= 15
+},
+[172] = {
+  ["ItemId"]= 10406233,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "赭色花苗",
+  ["SpNpcId"]= {
+    61071
+  },
+  ["typeid"]= 9,
+  ["Value"]= 15
+},
+[173] = {
+  ["ItemId"]= 10406225,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "月光花",
+  ["SpNpcId"]= {
+    61164
+  },
+  ["typeid"]= 9,
+  ["Value"]= 15
+},
+[174] = {
+  ["ItemId"]= 10406234,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "默祷花",
+  ["SpNpcId"]= {
+    61073
+  },
+  ["typeid"]= 9,
+  ["Value"]= 15
+},
+[175] = {
+  ["ItemId"]= 10406235,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "青晶蔷薇",
+  ["SpNpcId"]= {
+    61074
+  },
+  ["typeid"]= 9,
+  ["Value"]= 15
+},
+[176] = {
+  ["ItemId"]= 10406243,
+  ["name"]= "腐根草",
+  ["typeid"]= 10,
+  ["Value"]= 15
+},
+[177] = {
+  ["ItemId"]= 10406244,
+  ["name"]= "石芯菇",
+  ["typeid"]= 10,
+  ["Value"]= 15
+},
+[178] = {
+  ["ItemId"]= 10406245,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "引路草",
+  ["SpNpcId"]= {
+    61008
+  },
+  ["typeid"]= 10,
+  ["Value"]= 15
+},
+[179] = {
+  ["ItemId"]= 10406206,
+  ["name"]= "水生芦",
+  ["typeid"]= 10,
+  ["Value"]= 15
+},
+[180] = {
+  ["ItemId"]= 10406216,
+  ["name"]= "灯笼草",
+  ["typeid"]= 10,
+  ["Value"]= 15
+},
+[181] = {
+  ["ItemId"]= 10406207,
+  ["name"]= "哀唱草",
+  ["typeid"]= 10,
+  ["Value"]= 15
+},
+[182] = {
+  ["ItemId"]= 10406201,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "南瓜",
+  ["SpNpcId"]= {
+    61095
+  },
+  ["typeid"]= 11,
+  ["Value"]= 15
+},
+[183] = {
+  ["ItemId"]= 10406202,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "麦穗",
+  ["SpNpcId"]= {
+    61095
+  },
+  ["typeid"]= 11,
+  ["Value"]= 15
+},
+[184] = {
+  ["ItemId"]= 10406237,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "浆果",
+  ["SpNpcId"]= {
+    61031
+  },
+  ["typeid"]= 11,
+  ["Value"]= 15
+},
+[185] = {
+  ["ItemId"]= 10406238,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "辣椒",
+  ["SpNpcId"]= {
+    61096
+  },
+  ["typeid"]= 11,
+  ["Value"]= 15
+},
+[186] = {
+  ["ItemId"]= 10406214,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "仙人掌",
+  ["SpNpcId"]= {
+    61097
+  },
+  ["typeid"]= 11,
+  ["Value"]= 15
+},
+[187] = {
+  ["ItemId"]= 10406213,
+  ["name"]= "沙漠番茄",
+  ["typeid"]= 11,
+  ["Value"]= 15
+},
+[188] = {
+  ["ItemId"]= 10406242,
+  ["name"]= "赤绛草",
+  ["typeid"]= 11,
+  ["Value"]= 15
+},
+[189] = {
+  ["ItemId"]= 10406240,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "芦荟",
+  ["SpNpcId"]= {
+    61001
+  },
+  ["typeid"]= 11,
+  ["Value"]= 15
+},
+[190] = {
+  ["ItemId"]= 10406241,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "沙棘",
+  ["SpNpcId"]= {
+    61138
+  },
+  ["typeid"]= 11,
+  ["Value"]= 15
+},
+[191] = {
+  ["ItemId"]= 10406239,
+  ["name"]= "紫菜",
+  ["typeid"]= 11,
+  ["Value"]= 15
+},
+[192] = {
+  ["ItemId"]= 10406014,
+  ["name"]= "海带",
+  ["typeid"]= 11,
+  ["Value"]= 15
+},
+[193] = {
+  ["ItemId"]= 10406015,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "海藻",
+  ["SpNpcId"]= {
+    61106
+  },
+  ["typeid"]= 11,
+  ["Value"]= 15
+},
+[194] = {
+  ["ItemId"]= 10406203,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "竹笋",
+  ["SpNpcId"]= {
+    61098
+  },
+  ["typeid"]= 11,
+  ["Value"]= 15
+},
+[195] = {
+  ["ItemId"]= 10406221,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "野菊",
+  ["SpNpcId"]= {
+    61108
+  },
+  ["typeid"]= 11,
+  ["Value"]= 15
+},
+[196] = {
+  ["ItemId"]= 10406254,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "青薄荷",
+  ["SpNpcId"]= {
+    61099
+  },
+  ["typeid"]= 11,
+  ["Value"]= 15
+},
+[197] = {
+  ["ItemId"]= 10406252,
+  ["LikeValue"]= {
+    25,
+    25
+  },
+  ["name"]= "洞窟香草",
+  ["SpNpcId"]= {
+    61069,
+    61004
+  },
+  ["typeid"]= 11,
+  ["Value"]= 15
+},
+[198] = {
+  ["ItemId"]= 10406253,
+  ["name"]= "酸果",
+  ["typeid"]= 11,
+  ["Value"]= 15
+},
+[199] = {
+  ["ItemId"]= 10406222,
+  ["name"]= "茶树",
+  ["typeid"]= 11,
+  ["Value"]= 15
+},
+[200] = {
+  ["ItemId"]= 10406224,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "薰衣草",
+  ["SpNpcId"]= {
+    61002
+  },
+  ["typeid"]= 11,
+  ["Value"]= 15
+},
+[201] = {
+  ["ItemId"]= 10406017,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "星光螺",
+  ["SpNpcId"]= {
+    61008
+  },
+  ["typeid"]= 12,
+  ["Value"]= 15
+},
+[202] = {
+  ["ItemId"]= 10406023,
+  ["name"]= "浮灯鱼",
+  ["typeid"]= 12,
+  ["Value"]= 15
+},
+[203] = {
+  ["ItemId"]= 10406034,
+  ["name"]= "夜光珍珠",
+  ["typeid"]= 12,
+  ["Value"]= 15
+},
+[204] = {
+  ["ItemId"]= 10406026,
+  ["name"]= "幽灵鱼",
+  ["typeid"]= 12,
+  ["Value"]= 15
+},
+[205] = {
+  ["ItemId"]= 10406029,
+  ["name"]= "恶鬼鱼",
+  ["typeid"]= 12,
+  ["Value"]= 15
+},
+[206] = {
+  ["ItemId"]= 10406025,
+  ["name"]= "清水明珠",
+  ["typeid"]= 12,
+  ["Value"]= 15
+},
+[207] = {
+  ["ItemId"]= 10406047,
+  ["name"]= "纱水母",
+  ["typeid"]= 12,
+  ["Value"]= 15
+},
+[208] = {
+  ["ItemId"]= 10406048,
+  ["name"]= "吞砂鱼",
+  ["typeid"]= 12,
+  ["Value"]= 15
+},
+[209] = {
+  ["ItemId"]= 10406049,
+  ["name"]= "枫叶鱼",
+  ["typeid"]= 12,
+  ["Value"]= 15
+},
+[210] = {
+  ["ItemId"]= 10406054,
+  ["name"]= "临暮鱼",
+  ["typeid"]= 12,
+  ["Value"]= 15
+},
+[211] = {
+  ["ItemId"]= 10406055,
+  ["name"]= "盔甲蟹",
+  ["typeid"]= 12,
+  ["Value"]= 15
+},
+[212] = {
+  ["ItemId"]= 10406056,
+  ["name"]= "刻纹螺",
+  ["typeid"]= 12,
+  ["Value"]= 15
+},
+[213] = {
+  ["ItemId"]= 10406050,
+  ["name"]= "鲤鱼",
+  ["typeid"]= 13,
+  ["Value"]= 15
+},
+[214] = {
+  ["ItemId"]= 10406006,
+  ["name"]= "水草",
+  ["typeid"]= 13,
+  ["Value"]= 15
+},
+[215] = {
+  ["ItemId"]= 10406004,
+  ["name"]= "草虾",
+  ["typeid"]= 13,
+  ["Value"]= 15
+},
+[216] = {
+  ["ItemId"]= 10406007,
+  ["name"]= "青蛙",
+  ["typeid"]= 13,
+  ["Value"]= 15
+},
+[217] = {
+  ["ItemId"]= 10406003,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "草鱼",
+  ["SpNpcId"]= {
+    61068
+  },
+  ["typeid"]= 13,
+  ["Value"]= 15
+},
+[218] = {
+  ["ItemId"]= 10406036,
+  ["name"]= "莲蓬",
+  ["typeid"]= 13,
+  ["Value"]= 15
+},
+[219] = {
+  ["ItemId"]= 10406001,
+  ["name"]= "鲫鱼",
+  ["typeid"]= 13,
+  ["Value"]= 15
+},
+[220] = {
+  ["ItemId"]= 10406041,
+  ["name"]= "河蟹",
+  ["typeid"]= 13,
+  ["Value"]= 15
+},
+[221] = {
+  ["ItemId"]= 10406008,
+  ["name"]= "水蛇",
+  ["typeid"]= 13,
+  ["Value"]= 15
+},
+[222] = {
+  ["ItemId"]= 10406035,
+  ["name"]= "小龙虾",
+  ["typeid"]= 13,
+  ["Value"]= 15
+},
+[223] = {
+  ["ItemId"]= 10406030,
+  ["name"]= "磷光虾",
+  ["typeid"]= 13,
+  ["Value"]= 15
+},
+[224] = {
+  ["ItemId"]= 10406040,
+  ["name"]= "鲶鱼",
+  ["typeid"]= 13,
+  ["Value"]= 15
+},
+[225] = {
+  ["ItemId"]= 10406005,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "清水螺",
+  ["SpNpcId"]= {
+    61096
+  },
+  ["typeid"]= 13,
+  ["Value"]= 15
+},
+[226] = {
+  ["ItemId"]= 10406002,
+  ["name"]= "鲈鱼",
+  ["typeid"]= 13,
+  ["Value"]= 15
+},
+[227] = {
+  ["ItemId"]= 10406046,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "尖嘴鱼",
+  ["SpNpcId"]= {
+    61161
+  },
+  ["typeid"]= 13,
+  ["Value"]= 15
+},
+[228] = {
+  ["ItemId"]= 10406010,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "金枪鱼",
+  ["SpNpcId"]= {
+    61100
+  },
+  ["typeid"]= 13,
+  ["Value"]= 15
+},
+[229] = {
+  ["ItemId"]= 10406011,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "鱿鱼",
+  ["SpNpcId"]= {
+    61031
+  },
+  ["typeid"]= 13,
+  ["Value"]= 15
+},
+[230] = {
+  ["ItemId"]= 10406013,
+  ["name"]= "带鱼",
+  ["typeid"]= 13,
+  ["Value"]= 15
+},
+[231] = {
+  ["ItemId"]= 10406024,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "龙鱼",
+  ["SpNpcId"]= {
+    61071
+  },
+  ["typeid"]= 13,
+  ["Value"]= 15
+},
+[232] = {
+  ["ItemId"]= 10406012,
+  ["name"]= "河豚",
+  ["typeid"]= 13,
+  ["Value"]= 15
+},
+[233] = {
+  ["ItemId"]= 10406031,
+  ["name"]= "巨爬虾",
+  ["typeid"]= 13,
+  ["Value"]= 15
+},
+[234] = {
+  ["ItemId"]= 10406045,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "鲢鱼",
+  ["SpNpcId"]= {
+    61110
+  },
+  ["typeid"]= 13,
+  ["Value"]= 15
+},
+[235] = {
+  ["ItemId"]= 10406052,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "鳟鱼",
+  ["SpNpcId"]= {
+    61074
+  },
+  ["typeid"]= 13,
+  ["Value"]= 15
+},
+[236] = {
+  ["ItemId"]= 10406051,
+  ["name"]= "灰壳蚌",
+  ["typeid"]= 13,
+  ["Value"]= 15
+},
+[237] = {
+  ["ItemId"]= 10406053,
+  ["name"]= "河鳗",
+  ["typeid"]= 13,
+  ["Value"]= 15
+},
+[238] = {
+  ["ItemId"]= 10406057,
+  ["name"]= "青背鱼",
+  ["typeid"]= 13,
+  ["Value"]= 15
+},
+[239] = {
+  ["ItemId"]= 10406058,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "水虎鱼",
+  ["SpNpcId"]= {
+    61107
+  },
+  ["typeid"]= 13,
+  ["Value"]= 15
+},
+[240] = {
+  ["ItemId"]= 10406059,
+  ["name"]= "黄虾蛄",
+  ["typeid"]= 13,
+  ["Value"]= 15
+},
+[241] = {
+  ["ItemId"]= 10406060,
+  ["name"]= "无目鳅",
+  ["typeid"]= 13,
+  ["Value"]= 15
+},
+[242] = {
+  ["ItemId"]= 10406037,
+  ["name"]= "贝壳",
+  ["typeid"]= 14,
+  ["Value"]= 15
+},
+[243] = {
+  ["ItemId"]= 10406038,
+  ["name"]= "绿松石",
+  ["typeid"]= 14,
+  ["Value"]= 15
+},
+[244] = {
+  ["ItemId"]= 10406039,
+  ["name"]= "鹅卵石",
+  ["typeid"]= 14,
+  ["Value"]= 15
+},
+[245] = {
+  ["ItemId"]= 10406028,
+  ["name"]= "火神鱼",
+  ["typeid"]= 14,
+  ["Value"]= 15
+},
+[246] = {
+  ["ItemId"]= 10406032,
+  ["name"]= "坚壳蟹",
+  ["typeid"]= 14,
+  ["Value"]= 15
+},
+[247] = {
+  ["ItemId"]= 10406022,
+  ["name"]= "烬鱼",
+  ["typeid"]= 14,
+  ["Value"]= 15
+},
+[248] = {
+  ["ItemId"]= 10406018,
+  ["name"]= "蝴蝶贝",
+  ["typeid"]= 14,
+  ["Value"]= 15
+},
+[249] = {
+  ["ItemId"]= 10406019,
+  ["name"]= "白羽贝",
+  ["typeid"]= 14,
+  ["Value"]= 15
+},
+[250] = {
+  ["ItemId"]= 10406020,
+  ["name"]= "秘能蚌",
+  ["typeid"]= 14,
+  ["Value"]= 15
+},
+[251] = {
+  ["ItemId"]= 10406061,
+  ["name"]= "钢刀鱼",
+  ["typeid"]= 14,
+  ["Value"]= 15
+},
+[252] = {
+  ["ItemId"]= 10406062,
+  ["name"]= "凶猎鱼",
+  ["typeid"]= 14,
+  ["Value"]= 15
+},
+[253] = {
+  ["ItemId"]= 10406063,
+  ["name"]= "晶棘鱼",
+  ["typeid"]= 14,
+  ["Value"]= 15
+},
+[254] = {
+  ["ItemId"]= 10413160,
+  ["name"]= "【合成兑换】黄金虫的翅翼",
+  ["typeid"]= 15,
+  ["Value"]= 15
+},
+[255] = {
+  ["ItemId"]= 10413163,
+  ["name"]= "【合成兑换】黄金虫的刺棘",
+  ["typeid"]= 15,
+  ["Value"]= 15
+},
+[256] = {
+  ["ItemId"]= 10413165,
+  ["name"]= "【合成兑换】黄金虫的灰烬",
+  ["typeid"]= 15,
+  ["Value"]= 15
+},
+[257] = {
+  ["ItemId"]= 10413164,
+  ["name"]= "【合成兑换】黄金虫的甲壳",
+  ["typeid"]= 15,
+  ["Value"]= 15
+},
+[258] = {
+  ["ItemId"]= 10413161,
+  ["name"]= "【合成兑换】黄金虫的血液",
+  ["typeid"]= 15,
+  ["Value"]= 15
+},
+[259] = {
+  ["ItemId"]= 10413162,
+  ["name"]= "【合成兑换】黄金虫的硬角",
+  ["typeid"]= 15,
+  ["Value"]= 15
+},
+[260] = {
+  ["ItemId"]= 10413166,
+  ["name"]= "【合成兑换】海盗船长的断牙",
+  ["typeid"]= 15,
+  ["Value"]= 15
+},
+[261] = {
+  ["ItemId"]= 10413170,
+  ["name"]= "【合成兑换】海盗船长的骨骸",
+  ["typeid"]= 15,
+  ["Value"]= 15
+},
+[262] = {
+  ["ItemId"]= 10413167,
+  ["name"]= "【合成兑换】海盗船长的假腿",
+  ["typeid"]= 15,
+  ["Value"]= 15
+},
+[263] = {
+  ["ItemId"]= 10413169,
+  ["name"]= "【合成兑换】海盗船长的链钩",
+  ["typeid"]= 15,
+  ["Value"]= 15
+},
+[264] = {
+  ["ItemId"]= 10413171,
+  ["name"]= "【合成兑换】海盗船长的鸦羽",
+  ["typeid"]= 15,
+  ["Value"]= 15
+},
+[265] = {
+  ["ItemId"]= 10413168,
+  ["name"]= "【合成兑换】海盗船长的烟斗",
+  ["typeid"]= 15,
+  ["Value"]= 15
+},
+[266] = {
+  ["ItemId"]= 10413176,
+  ["name"]= "【合成兑换】俄塞里斯的绷带",
+  ["typeid"]= 15,
+  ["Value"]= 15
+},
+[267] = {
+  ["ItemId"]= 10413173,
+  ["name"]= "【合成兑换】俄塞里斯的枯心",
+  ["typeid"]= 15,
+  ["Value"]= 15
+},
+[268] = {
+  ["ItemId"]= 10413174,
+  ["name"]= "【合成兑换】俄塞里斯的魔核",
+  ["typeid"]= 15,
+  ["Value"]= 15
+},
+[269] = {
+  ["ItemId"]= 10413177,
+  ["name"]= "【合成兑换】俄塞里斯的遗珠",
+  ["typeid"]= 15,
+  ["Value"]= 15
+},
+[270] = {
+  ["ItemId"]= 10413175,
+  ["name"]= "【合成兑换】俄塞里斯的怨念",
+  ["typeid"]= 15,
+  ["Value"]= 15
+},
+[271] = {
+  ["ItemId"]= 10413172,
+  ["name"]= "【合成兑换】俄塞里斯的肢骸",
+  ["typeid"]= 15,
+  ["Value"]= 15
+},
+[272] = {
+  ["ItemId"]= 10413181,
+  ["name"]= "【合成兑换】远古海神的断戟",
+  ["typeid"]= 15,
+  ["Value"]= 15
+},
+[273] = {
+  ["ItemId"]= 10413183,
+  ["name"]= "【合成兑换】远古海神的晶核",
+  ["typeid"]= 15,
+  ["Value"]= 15
+},
+[274] = {
+  ["ItemId"]= 10413179,
+  ["name"]= "【合成兑换】远古海神的怒意",
+  ["typeid"]= 15,
+  ["Value"]= 15
+},
+[275] = {
+  ["ItemId"]= 10413182,
+  ["name"]= "【合成兑换】远古海神的鳍翅",
+  ["typeid"]= 15,
+  ["Value"]= 15
+},
+[276] = {
+  ["ItemId"]= 10413178,
+  ["name"]= "【合成兑换】远古海神的涡流",
+  ["typeid"]= 15,
+  ["Value"]= 15
+},
+[277] = {
+  ["ItemId"]= 10413180,
+  ["name"]= "【合成兑换】远古海神的长须",
+  ["typeid"]= 15,
+  ["Value"]= 15
+},
+[278] = {
+  ["ItemId"]= 10413188,
+  ["name"]= "【合成兑换】月野猫的绒腕",
+  ["typeid"]= 15,
+  ["Value"]= 15
+},
+[279] = {
+  ["ItemId"]= 10413186,
+  ["name"]= "【合成兑换】月野猫的绒尾",
+  ["typeid"]= 15,
+  ["Value"]= 15
+},
+[280] = {
+  ["ItemId"]= 10413185,
+  ["name"]= "【合成兑换】月野猫的兽心",
+  ["typeid"]= 15,
+  ["Value"]= 15
+},
+[281] = {
+  ["ItemId"]= 10413184,
+  ["name"]= "【合成兑换】月野猫的兽牙",
+  ["typeid"]= 15,
+  ["Value"]= 15
+},
+[282] = {
+  ["ItemId"]= 10413189,
+  ["name"]= "【合成兑换】月野猫的兽爪",
+  ["typeid"]= 15,
+  ["Value"]= 15
+},
+[283] = {
+  ["ItemId"]= 10413187,
+  ["name"]= "【合成兑换】月野猫的铜钟",
+  ["typeid"]= 15,
+  ["Value"]= 15
+},
+[284] = {
+  ["ItemId"]= 10413191,
+  ["name"]= "【合成兑换】德古拉男爵的暗焰",
+  ["typeid"]= 15,
+  ["Value"]= 15
+},
+[285] = {
+  ["ItemId"]= 10413193,
+  ["name"]= "【合成兑换】德古拉男爵的尖牙",
+  ["typeid"]= 15,
+  ["Value"]= 15
+},
+[286] = {
+  ["ItemId"]= 10413190,
+  ["name"]= "【合成兑换】德古拉男爵的酒杯",
+  ["typeid"]= 15,
+  ["Value"]= 15
+},
+[287] = {
+  ["ItemId"]= 10413194,
+  ["name"]= "【合成兑换】德古拉男爵的围领",
+  ["typeid"]= 15,
+  ["Value"]= 15
+},
+[288] = {
+  ["ItemId"]= 10413192,
+  ["name"]= "【合成兑换】德古拉男爵的心脏",
+  ["typeid"]= 15,
+  ["Value"]= 15
+},
+[289] = {
+  ["ItemId"]= 10413195,
+  ["name"]= "【合成兑换】德古拉男爵的指甲",
+  ["typeid"]= 15,
+  ["Value"]= 15
+},
+[290] = {
+  ["ItemId"]= 10406042,
+  ["name"]= "卷壳螺",
+  ["typeid"]= 16,
+  ["Value"]= 15
+},
+[291] = {
+  ["ItemId"]= 10406043,
+  ["name"]= "白云鱼",
+  ["typeid"]= 16,
+  ["Value"]= 15
+},
+[292] = {
+  ["ItemId"]= 10406044,
+  ["name"]= "净水鲟",
+  ["typeid"]= 16,
+  ["Value"]= 15
+},
+[293] = {
+  ["ItemId"]= 10406021,
+  ["name"]= "鞭尾鱼",
+  ["typeid"]= 16,
+  ["Value"]= 15
+},
+[294] = {
+  ["ItemId"]= 10406027,
+  ["name"]= "锯鳞鱼",
+  ["typeid"]= 16,
+  ["Value"]= 15
+},
+[295] = {
+  ["ItemId"]= 10406033,
+  ["name"]= "彩虹珊瑚",
+  ["typeid"]= 16,
+  ["Value"]= 15
+},
+[296] = {
+  ["ItemId"]= 10406208,
+  ["name"]= "厚土叶",
+  ["typeid"]= 17,
+  ["Value"]= 15
+},
+[297] = {
+  ["ItemId"]= 10406209,
+  ["name"]= "微风兰",
+  ["typeid"]= 17,
+  ["Value"]= 15
+},
+[298] = {
+  ["ItemId"]= 10406220,
+  ["name"]= "灵气之花",
+  ["typeid"]= 17,
+  ["Value"]= 15
+},
+[299] = {
+  ["ItemId"]= 10406249,
+  ["name"]= "拘魂堇",
+  ["typeid"]= 17,
+  ["Value"]= 15
+},
+[300] = {
+  ["ItemId"]= 10406250,
+  ["name"]= "绒荧草",
+  ["typeid"]= 17,
+  ["Value"]= 15
+},
+[301] = {
+  ["ItemId"]= 10406251,
+  ["name"]= "结霜草",
+  ["typeid"]= 17,
+  ["Value"]= 15
+},
+[302] = {
+  ["ItemId"]= 10413218,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "清凉露水",
+  ["SpNpcId"]= {
+    61160
+  },
+  ["typeid"]= 18,
+  ["Value"]= 15
+},
+[303] = {
+  ["ItemId"]= 10413219,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "金色鸟羽",
+  ["SpNpcId"]= {
+    61064
+  },
+  ["typeid"]= 18,
+  ["Value"]= 15
+},
+[304] = {
+  ["ItemId"]= 10413220,
+  ["LikeValue"]= {
+    25,
+    25
+  },
+  ["name"]= "魔力腐殖",
+  ["SpNpcId"]= {
+    61072,
+    61100
+  },
+  ["typeid"]= 18,
+  ["Value"]= 15
+},
+[305] = {
+  ["ItemId"]= 10413221,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "叶片书签",
+  ["SpNpcId"]= {
+    61163
+  },
+  ["typeid"]= 18,
+  ["Value"]= 15
+},
+[306] = {
+  ["ItemId"]= 10413214,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "黄玉",
+  ["SpNpcId"]= {
+    61109
+  },
+  ["typeid"]= 19,
+  ["Value"]= 15
+},
+[307] = {
+  ["ItemId"]= 10413215,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "黑曜石",
+  ["SpNpcId"]= {
+    61097
+  },
+  ["typeid"]= 19,
+  ["Value"]= 15
+},
+[308] = {
+  ["ItemId"]= 10413216,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "紫宝石",
+  ["SpNpcId"]= {
+    61010
+  },
+  ["typeid"]= 19,
+  ["Value"]= 15
+},
+[309] = {
+  ["ItemId"]= 10413217,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "灵辉石",
+  ["SpNpcId"]= {
+    61104
+  },
+  ["typeid"]= 19,
+  ["Value"]= 15
+},
+[310] = {
+  ["ItemId"]= 10413210,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "发光鳞片",
+  ["SpNpcId"]= {
+    61164
+  },
+  ["typeid"]= 20,
+  ["Value"]= 15
+},
+[311] = {
+  ["ItemId"]= 10413211,
+  ["name"]= "珊瑚结晶",
+  ["typeid"]= 20,
+  ["Value"]= 15
+},
+[312] = {
+  ["ItemId"]= 10413212,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "遗落宝藏",
+  ["SpNpcId"]= {
+    61098
+  },
+  ["typeid"]= 20,
+  ["Value"]= 15
+},
+[313] = {
+  ["ItemId"]= 10413213,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "湖底珍珠",
+  ["SpNpcId"]= {
+    61001
+  },
+  ["typeid"]= 20,
+  ["Value"]= 15
+},
+[314] = {
+  ["ItemId"]= 10413204,
+  ["LikeValue"]= {
+    25,
+    25
+  },
+  ["name"]= "香叶桂枝",
+  ["SpNpcId"]= {
+    61160,
+    61153
+  },
+  ["typeid"]= 21,
+  ["Value"]= 15
+},
+[315] = {
+  ["ItemId"]= 10413205,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "旧式武器",
+  ["SpNpcId"]= {
+    61151
+  },
+  ["typeid"]= 21,
+  ["Value"]= 15
+},
+[316] = {
+  ["ItemId"]= 10413206,
+  ["LikeValue"]= {
+    25,
+    25
+  },
+  ["name"]= "鲜红之酒",
+  ["SpNpcId"]= {
+    61066,
+    61152
+  },
+  ["typeid"]= 21,
+  ["Value"]= 15
+},
+[317] = {
+  ["ItemId"]= 10413207,
+  ["LikeValue"]= {
+    25
+  },
+  ["name"]= "无主金镯",
+  ["SpNpcId"]= {
+    61103
+  },
+  ["typeid"]= 21,
+  ["Value"]= 15
+},
+[318] = {
+  ["ItemId"]= 10413208,
+  ["LikeValue"]= {
+    25,
+    25
+  },
+  ["name"]= "枫糖打糕",
+  ["SpNpcId"]= {
+    61011,
+    61154
+  },
+  ["typeid"]= 21,
+  ["Value"]= 15
+},
+[319] = {
+  ["ItemId"]= 10413209,
+  ["LikeValue"]= {
+    25,
+    25,
+    25
+  },
+  ["name"]= "布偶挂件",
+  ["SpNpcId"]= {
+    61002,
+    61165,
+    61037
+  },
+  ["typeid"]= 21,
+  ["Value"]= 15
+},
+[320] = {
+  ["ItemId"]= 10413225,
+  ["name"]= "好感度测试道具",
+  ["typeid"]= 999,
+  ["Value"]= 300
+},
+[321] = {
+  ["ItemId"]= 10413226,
+  ["name"]= "赛车手办1",
+  ["typeid"]= 22
+},
+[322] = {
+  ["ItemId"]= 10413227,
+  ["name"]= "赛车手办2",
+  ["typeid"]= 22,
+  ["Value"]= 10
+},
+[323] = {
+  ["ItemId"]= 10413228,
+  ["name"]= "赛车手办3",
+  ["typeid"]= 22,
+  ["Value"]= 20
+}
+}
+local baseTable={
+  ["DisgustingValue"]= 0,
+  ["ItemId"]= 10413108,
+  ["LikeValue"]= {},
+  ["name"]= "漂浮碎晶",
+  ["SpNpcId"]= {},
+  ["typeid"]= 6,
+  ["Value"]= 8
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

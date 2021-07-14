@@ -1,0 +1,306 @@
+TextAsset Base
+	string m_Name = "data_platforms_dream_Recharge"
+	string m_Script = "return {
+[1] = {
+  ["Desc"]= "RechargeDesc_1",
+  ["goodPriceDes"]= "goodPriceDes_1",
+  ["Id"]= 1,
+  ["Key"]= "rogt.monthcard.1",
+  ["MailTemplate"]= 2001,
+  ["Name"]= "月卡",
+  ["Price"]= "14.99",
+  ["PriceHKD"]= "118",
+  ["PriceRMB"]= "98",
+  ["PriceUSD"]= "14.99",
+  ["Recharge"]= {
+    ["type"]= 2
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_2"
+},
+[2] = {
+  ["Desc"]= "RechargeDesc_2",
+  ["goodPriceDes"]= "goodPriceDes_2",
+  ["Id"]= 2,
+  ["Key"]= "rogt.giftpack.1",
+  ["MailTemplate"]= 2001,
+  ["Name"]= "（测试）300钻石",
+  ["Price"]= "33",
+  ["PriceHKD"]= "8",
+  ["PriceRMB"]= "6",
+  ["PriceUSD"]= "0.99",
+  ["Recharge"]= {
+    ["Diamond"]= 0,
+    ["DiamondBonus"]= 0,
+    ["IfHasBonus"]= 0,
+    ["type"]= 5
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_2"
+},
+[3] = {
+  ["Desc"]= "RechargeDesc_3",
+  ["goodPriceDes"]= "goodPriceDes_3",
+  ["Id"]= 3,
+  ["Key"]= "rogt.diamond.2500",
+  ["MailTemplate"]= 2001,
+  ["Name"]= "2500钻石",
+  ["Price"]= "4.99",
+  ["PriceHKD"]= "38",
+  ["PriceRMB"]= "30",
+  ["PriceUSD"]= "4.99",
+  ["Recharge"]= {
+    ["Diamond"]= 2500,
+    ["DiamondBonus"]= 25000,
+    ["IfHasBonus"]= 1,
+    ["type"]= 1
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_3"
+},
+[4] = {
+  ["Desc"]= "RechargeDesc_4",
+  ["goodPriceDes"]= "goodPriceDes_4",
+  ["Id"]= 4,
+  ["Key"]= "rogt.diamond.5000",
+  ["MailTemplate"]= 2001,
+  ["Name"]= "4900钻石",
+  ["Price"]= "9.99",
+  ["PriceHKD"]= "78",
+  ["PriceRMB"]= "68",
+  ["PriceUSD"]= "9.99",
+  ["Recharge"]= {
+    ["Diamond"]= 4900,
+    ["DiamondBonus"]= 49000,
+    ["IfHasBonus"]= 1,
+    ["type"]= 1
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_4"
+},
+[5] = {
+  ["Desc"]= "RechargeDesc_5",
+  ["goodPriceDes"]= "goodPriceDes_5",
+  ["Id"]= 5,
+  ["Key"]= "rogt.diamond.10000",
+  ["MailTemplate"]= 2001,
+  ["Name"]= "10000钻石",
+  ["Price"]= "19.99",
+  ["PriceHKD"]= "158",
+  ["PriceRMB"]= "128",
+  ["PriceUSD"]= "19.99",
+  ["Recharge"]= {
+    ["Diamond"]= 10000,
+    ["DiamondBonus"]= 100000,
+    ["IfHasBonus"]= 1,
+    ["type"]= 1
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_5"
+},
+[6] = {
+  ["Desc"]= "RechargeDesc_6",
+  ["goodPriceDes"]= "goodPriceDes_6",
+  ["Id"]= 6,
+  ["Key"]= "rogt.diamond.25500",
+  ["MailTemplate"]= 2001,
+  ["Name"]= "26000钻石",
+  ["Price"]= "49.99",
+  ["PriceHKD"]= "398",
+  ["PriceRMB"]= "328",
+  ["PriceUSD"]= "49.99",
+  ["Recharge"]= {
+    ["Diamond"]= 26000,
+    ["DiamondBonus"]= 260000,
+    ["IfHasBonus"]= 1,
+    ["type"]= 1
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_6"
+},
+[7] = {
+  ["Desc"]= "RechargeDesc_7",
+  ["goodPriceDes"]= "goodPriceDes_7",
+  ["Id"]= 7,
+  ["Key"]= "rogt.diamond.49500",
+  ["MailTemplate"]= 2001,
+  ["Name"]= "51000钻石",
+  ["Price"]= "99.99",
+  ["PriceHKD"]= "788",
+  ["PriceRMB"]= "648",
+  ["PriceUSD"]= "99.99",
+  ["Recharge"]= {
+    ["Diamond"]= 51000,
+    ["DiamondBonus"]= 510000,
+    ["IfHasBonus"]= 1,
+    ["type"]= 1
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_7"
+},
+[8] = {
+  ["Desc"]= "RechargeDesc_8",
+  ["goodPriceDes"]= "goodPriceDes_8",
+  ["Id"]= 8,
+  ["Key"]= "rogt.double.300",
+  ["MailTemplate"]= 2001,
+  ["Name"]= "（测试）月卡双倍共计600钻石",
+  ["Price"]= "33",
+  ["PriceHKD"]= "8",
+  ["PriceRMB"]= "6",
+  ["PriceUSD"]= "0.99",
+  ["Recharge"]= {
+    ["Diamond"]= 300,
+    ["DiamondBonus"]= 300,
+    ["IfHasBonus"]= 1,
+    ["type"]= 5
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_2"
+},
+[9] = {
+  ["Desc"]= "RechargeDesc_9",
+  ["goodPriceDes"]= "goodPriceDes_9",
+  ["Id"]= 9,
+  ["Key"]= "rogt.double.2500",
+  ["MailTemplate"]= 2001,
+  ["Name"]= "月卡双倍2500钻石",
+  ["Price"]= "4.99",
+  ["PriceHKD"]= "38",
+  ["PriceRMB"]= "30",
+  ["PriceUSD"]= "4.99",
+  ["Recharge"]= {
+    ["Diamond"]= 2500,
+    ["DiamondBonus"]= 25000,
+    ["RelatedProductId"]= 3,
+    ["type"]= 4
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_3"
+},
+[10] = {
+  ["Desc"]= "RechargeDesc_10",
+  ["goodPriceDes"]= "goodPriceDes_10",
+  ["Id"]= 10,
+  ["Key"]= "rogt.double.5000",
+  ["MailTemplate"]= 2001,
+  ["Name"]= "月卡双倍4900钻石",
+  ["Price"]= "9.99",
+  ["PriceHKD"]= "78",
+  ["PriceRMB"]= "68",
+  ["PriceUSD"]= "9.99",
+  ["Recharge"]= {
+    ["Diamond"]= 4900,
+    ["DiamondBonus"]= 49000,
+    ["RelatedProductId"]= 4,
+    ["type"]= 4
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_4"
+},
+[11] = {
+  ["Desc"]= "RechargeDesc_11",
+  ["goodPriceDes"]= "goodPriceDes_11",
+  ["Id"]= 11,
+  ["Key"]= "rogt.double.10000",
+  ["MailTemplate"]= 2001,
+  ["Name"]= "月卡双倍10000钻石",
+  ["Price"]= "19.99",
+  ["PriceHKD"]= "158",
+  ["PriceRMB"]= "128",
+  ["PriceUSD"]= "19.99",
+  ["Recharge"]= {
+    ["Diamond"]= 10000,
+    ["DiamondBonus"]= 100000,
+    ["RelatedProductId"]= 5,
+    ["type"]= 4
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_5"
+},
+[12] = {
+  ["Desc"]= "RechargeDesc_12",
+  ["goodPriceDes"]= "goodPriceDes_12",
+  ["Id"]= 12,
+  ["Key"]= "rogt.double.25500",
+  ["MailTemplate"]= 2001,
+  ["Name"]= "月卡双倍26000钻石",
+  ["Price"]= "49.99",
+  ["PriceHKD"]= "398",
+  ["PriceRMB"]= "328",
+  ["PriceUSD"]= "49.99",
+  ["Recharge"]= {
+    ["Diamond"]= 26000,
+    ["DiamondBonus"]= 260000,
+    ["RelatedProductId"]= 6,
+    ["type"]= 4
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_6"
+},
+[13] = {
+  ["Desc"]= "RechargeDesc_13",
+  ["goodPriceDes"]= "goodPriceDes_13",
+  ["Id"]= 13,
+  ["Key"]= "rogt.double.49500",
+  ["MailTemplate"]= 2001,
+  ["Name"]= "月卡双倍51000钻石",
+  ["Price"]= "99.99",
+  ["PriceHKD"]= "788",
+  ["PriceRMB"]= "648",
+  ["PriceUSD"]= "99.99",
+  ["Recharge"]= {
+    ["Diamond"]= 51000,
+    ["DiamondBonus"]= 510000,
+    ["RelatedProductId"]= 7,
+    ["type"]= 4
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_7"
+},
+[14] = {
+  ["Desc"]= 0,
+  ["goodPriceDes"]= "goodPriceDes_14",
+  ["Id"]= 14,
+  ["Key"]= "TheDream.cc_rommo_ios_14_1.00",
+  ["MailTemplate"]= 2001,
+  ["Name"]= "充值测试",
+  ["Price"]= "0.01",
+  ["PriceHKD"]= "0.01",
+  ["PriceRMB"]= "0.01",
+  ["PriceUSD"]= "0.01",
+  ["Recharge"]= {
+    ["Diamond"]= 10,
+    ["DiamondBonus"]= 10,
+    ["IfHasBonus"]= 0,
+    ["type"]= 5
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_2"
+},
+[15] = {
+  ["Desc"]= "RechargeDesc_15",
+  ["goodPriceDes"]= "goodPriceDes_15",
+  ["Id"]= 15,
+  ["Key"]= "rogt.diamond.14800",
+  ["MailTemplate"]= 2001,
+  ["Name"]= "15000钻石",
+  ["Price"]= "29.99",
+  ["PriceHKD"]= "238",
+  ["PriceRMB"]= "198",
+  ["PriceUSD"]= "29.99",
+  ["Recharge"]= {
+    ["Diamond"]= 15000,
+    ["DiamondBonus"]= 150000,
+    ["IfHasBonus"]= 1,
+    ["type"]= 1
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_15"
+},
+[16] = {
+  ["Desc"]= "RechargeDesc_16",
+  ["goodPriceDes"]= "goodPriceDes_16",
+  ["Id"]= 16,
+  ["Key"]= "rogt.double.14800",
+  ["MailTemplate"]= 2001,
+  ["Name"]= "月卡双倍15000钻石",
+  ["Price"]= "29.99",
+  ["PriceHKD"]= "238",
+  ["PriceRMB"]= "198",
+  ["PriceUSD"]= "29.99",
+  ["Recharge"]= {
+    ["Diamond"]= 15000,
+    ["DiamondBonus"]= 150000,
+    ["RelatedProductId"]= 15,
+    ["type"]= 4
+  },
+  ["RechargeBonusDesc"]= "RechargeBonus_16"
+}
+}
+"

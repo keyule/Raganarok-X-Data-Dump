@@ -1,0 +1,891 @@
+TextAsset Base
+	string m_Name = "data_Wedding_WeddingChoices"
+	string m_Script = "local table= {
+[10001] = {
+  ["CurrencyNum"]= 50000,
+  ["Des"]= "WeddingGoodsDes10001",
+  ["ListDes"]= "WeddingListDes10001",
+  ["Name"]= "WeddingGoodsName10001",
+  ["Step"]= 1,
+  ["Style"]= {
+    10001
+  },
+  ["Type"]= 101
+},
+[10002] = {
+  ["CurrencyNum"]= 50000,
+  ["Des"]= "WeddingGoodsDes10002",
+  ["Id"]= 10002,
+  ["IsOpen"]= 0,
+  ["ListDes"]= "WeddingListDes10002",
+  ["Name"]= "WeddingGoodsName10002",
+  ["Order"]= 2,
+  ["Step"]= 1,
+  ["Style"]= {
+    10002
+  },
+  ["Type"]= 101
+},
+[10003] = {
+  ["CurrencyNum"]= 50000,
+  ["Des"]= "WeddingGoodsDes10003",
+  ["Id"]= 10003,
+  ["IsOpen"]= 0,
+  ["ListDes"]= "WeddingListDes10003",
+  ["Name"]= "WeddingGoodsName10003",
+  ["Order"]= 3,
+  ["Step"]= 1,
+  ["Style"]= {
+    10003
+  },
+  ["Type"]= 101
+},
+[10004] = {
+  ["CurrencyNum"]= 50000,
+  ["Des"]= "WeddingGoodsDes10004",
+  ["Id"]= 10004,
+  ["IsOpen"]= 0,
+  ["ListDes"]= "WeddingListDes10004",
+  ["Name"]= "WeddingGoodsName10004",
+  ["Order"]= 4,
+  ["Step"]= 1,
+  ["Style"]= {
+    10004
+  },
+  ["Type"]= 101
+},
+[20001] = {
+  ["CoupleDropId"]= 10309,
+  ["CurrencyNum"]= 200000,
+  ["Des"]= "WeddingGoodsDes20001",
+  ["GroupsDropId"]= 10309,
+  ["GuestsDropId"]= 10309,
+  ["Id"]= 20001,
+  ["ListDes"]= "WeddingListDes20001",
+  ["Name"]= "WeddingGoodsName20001",
+  ["Order"]= 5,
+  ["Step"]= 2,
+  ["Type"]= 201
+},
+[20002] = {
+  ["CoupleDropId"]= 10310,
+  ["CurrencyNum"]= 250000,
+  ["Des"]= "WeddingGoodsDes20002",
+  ["GroupsDropId"]= 10310,
+  ["GuestsDropId"]= 10310,
+  ["Id"]= 20002,
+  ["ListDes"]= "WeddingListDes20002",
+  ["Name"]= "WeddingGoodsName20002",
+  ["Order"]= 6,
+  ["Step"]= 2,
+  ["Type"]= 201
+},
+[20003] = {
+  ["CoupleDropId"]= 10311,
+  ["CurrencyNum"]= 300000,
+  ["Des"]= "WeddingGoodsDes20003",
+  ["GroupsDropId"]= 10311,
+  ["GuestsDropId"]= 10311,
+  ["Id"]= 20003,
+  ["ListDes"]= "WeddingListDes20003",
+  ["Name"]= "WeddingGoodsName20003",
+  ["Order"]= 7,
+  ["Step"]= 2,
+  ["Type"]= 201
+},
+[20004] = {
+  ["CoupleDropId"]= 10312,
+  ["CurrencyNum"]= 400000,
+  ["Des"]= "WeddingGoodsDes20004",
+  ["GroupsDropId"]= 10312,
+  ["GuestsDropId"]= 10312,
+  ["Id"]= 20004,
+  ["ListDes"]= "WeddingListDes20004",
+  ["Name"]= "WeddingGoodsName20004",
+  ["Order"]= 8,
+  ["Step"]= 2,
+  ["Type"]= 201
+},
+[30001] = {
+  ["CoupleDropId"]= 10309,
+  ["CurrencyNum"]= 5000,
+  ["Des"]= "WeddingGoodsDes30001",
+  ["GroupsDropId"]= 10309,
+  ["GuestsDropId"]= 10309,
+  ["Id"]= 30001,
+  ["ListDes"]= "WeddingListDes30001",
+  ["Name"]= "WeddingGoodsName30001",
+  ["Order"]= 9,
+  ["Step"]= 3,
+  ["Type"]= 301
+},
+[30002] = {
+  ["CoupleDropId"]= 10310,
+  ["CurrencyNum"]= 10000,
+  ["Des"]= "WeddingGoodsDes30002",
+  ["GroupsDropId"]= 10310,
+  ["GuestsDropId"]= 10310,
+  ["Id"]= 30002,
+  ["ListDes"]= "WeddingListDes30002",
+  ["Name"]= "WeddingGoodsName30002",
+  ["Order"]= 10,
+  ["Step"]= 3,
+  ["Type"]= 301
+},
+[30003] = {
+  ["CoupleDropId"]= 10311,
+  ["CurrencyNum"]= 15000,
+  ["Des"]= "WeddingGoodsDes30003",
+  ["GroupsDropId"]= 10311,
+  ["GuestsDropId"]= 10311,
+  ["Id"]= 30003,
+  ["ListDes"]= "WeddingListDes30003",
+  ["Name"]= "WeddingGoodsName30003",
+  ["Order"]= 11,
+  ["Step"]= 3,
+  ["Type"]= 301
+},
+[30004] = {
+  ["CoupleDropId"]= 10312,
+  ["CurrencyNum"]= 20000,
+  ["Des"]= "WeddingGoodsDes30004",
+  ["GroupsDropId"]= 10312,
+  ["GuestsDropId"]= 10312,
+  ["Id"]= 30004,
+  ["ListDes"]= "WeddingListDes30004",
+  ["Name"]= "WeddingGoodsName30004",
+  ["Order"]= 12,
+  ["Step"]= 3,
+  ["Type"]= 301
+},
+[30005] = {
+  ["CoupleDropId"]= 10309,
+  ["CurrencyNum"]= 5000,
+  ["Des"]= "WeddingGoodsDes30005",
+  ["GroupsDropId"]= 10309,
+  ["GuestsDropId"]= 10309,
+  ["Id"]= 30005,
+  ["ListDes"]= "WeddingListDes30005",
+  ["Name"]= "WeddingGoodsName30005",
+  ["Order"]= 13,
+  ["Step"]= 3,
+  ["Type"]= 302
+},
+[30006] = {
+  ["CoupleDropId"]= 10310,
+  ["CurrencyNum"]= 10000,
+  ["Des"]= "WeddingGoodsDes30006",
+  ["GroupsDropId"]= 10310,
+  ["GuestsDropId"]= 10310,
+  ["Id"]= 30006,
+  ["ListDes"]= "WeddingListDes30006",
+  ["Name"]= "WeddingGoodsName30006",
+  ["Order"]= 14,
+  ["Step"]= 3,
+  ["Type"]= 302
+},
+[30007] = {
+  ["CoupleDropId"]= 10311,
+  ["CurrencyNum"]= 15000,
+  ["Des"]= "WeddingGoodsDes30007",
+  ["GroupsDropId"]= 10311,
+  ["GuestsDropId"]= 10311,
+  ["Id"]= 30007,
+  ["ListDes"]= "WeddingListDes30007",
+  ["Name"]= "WeddingGoodsName30007",
+  ["Order"]= 15,
+  ["Step"]= 3,
+  ["Type"]= 302
+},
+[30008] = {
+  ["CoupleDropId"]= 10312,
+  ["CurrencyNum"]= 20000,
+  ["Des"]= "WeddingGoodsDes30008",
+  ["GroupsDropId"]= 10312,
+  ["GuestsDropId"]= 10312,
+  ["Id"]= 30008,
+  ["ListDes"]= "WeddingListDes30008",
+  ["Name"]= "WeddingGoodsName30008",
+  ["Order"]= 16,
+  ["Step"]= 3,
+  ["Type"]= 302
+},
+[30009] = {
+  ["CoupleDropId"]= 10309,
+  ["CurrencyNum"]= 5000,
+  ["Des"]= "WeddingGoodsDes30009",
+  ["GroupsDropId"]= 10309,
+  ["GuestsDropId"]= 10309,
+  ["Id"]= 30009,
+  ["ListDes"]= "WeddingListDes30009",
+  ["Name"]= "WeddingGoodsName30009",
+  ["Order"]= 17,
+  ["Step"]= 3,
+  ["Type"]= 303
+},
+[30010] = {
+  ["CoupleDropId"]= 10310,
+  ["CurrencyNum"]= 10000,
+  ["Des"]= "WeddingGoodsDes30010",
+  ["GroupsDropId"]= 10310,
+  ["GuestsDropId"]= 10310,
+  ["Id"]= 30010,
+  ["ListDes"]= "WeddingListDes30010",
+  ["Name"]= "WeddingGoodsName30010",
+  ["Order"]= 18,
+  ["Step"]= 3,
+  ["Type"]= 303
+},
+[30011] = {
+  ["CoupleDropId"]= 10311,
+  ["CurrencyNum"]= 15000,
+  ["Des"]= "WeddingGoodsDes30011",
+  ["GroupsDropId"]= 10311,
+  ["GuestsDropId"]= 10311,
+  ["Id"]= 30011,
+  ["ListDes"]= "WeddingListDes30011",
+  ["Name"]= "WeddingGoodsName30011",
+  ["Order"]= 19,
+  ["Step"]= 3,
+  ["Type"]= 303
+},
+[30012] = {
+  ["CoupleDropId"]= 10312,
+  ["CurrencyNum"]= 20000,
+  ["Des"]= "WeddingGoodsDes30012",
+  ["GroupsDropId"]= 10312,
+  ["GuestsDropId"]= 10312,
+  ["Id"]= 30012,
+  ["ListDes"]= "WeddingListDes30012",
+  ["Name"]= "WeddingGoodsName30012",
+  ["Order"]= 20,
+  ["Step"]= 3,
+  ["Type"]= 303
+},
+[30013] = {
+  ["CoupleDropId"]= 10309,
+  ["CurrencyNum"]= 5000,
+  ["Des"]= "WeddingGoodsDes30013",
+  ["GroupsDropId"]= 10309,
+  ["GuestsDropId"]= 10309,
+  ["Id"]= 30013,
+  ["ListDes"]= "WeddingListDes30013",
+  ["Name"]= "WeddingGoodsName30013",
+  ["Order"]= 21,
+  ["Step"]= 3,
+  ["Type"]= 304
+},
+[30014] = {
+  ["CoupleDropId"]= 10310,
+  ["CurrencyNum"]= 10000,
+  ["Des"]= "WeddingGoodsDes30014",
+  ["GroupsDropId"]= 10310,
+  ["GuestsDropId"]= 10310,
+  ["Id"]= 30014,
+  ["ListDes"]= "WeddingListDes30014",
+  ["Name"]= "WeddingGoodsName30014",
+  ["Order"]= 22,
+  ["Step"]= 3,
+  ["Type"]= 304
+},
+[30015] = {
+  ["CoupleDropId"]= 10311,
+  ["CurrencyNum"]= 15000,
+  ["Des"]= "WeddingGoodsDes30015",
+  ["GroupsDropId"]= 10311,
+  ["GuestsDropId"]= 10311,
+  ["Id"]= 30015,
+  ["ListDes"]= "WeddingListDes30015",
+  ["Name"]= "WeddingGoodsName30015",
+  ["Order"]= 23,
+  ["Step"]= 3,
+  ["Type"]= 304
+},
+[30016] = {
+  ["CoupleDropId"]= 10312,
+  ["CurrencyNum"]= 20000,
+  ["Des"]= "WeddingGoodsDes30016",
+  ["GroupsDropId"]= 10312,
+  ["GuestsDropId"]= 10312,
+  ["Id"]= 30016,
+  ["ListDes"]= "WeddingListDes30016",
+  ["Name"]= "WeddingGoodsName30016",
+  ["Order"]= 24,
+  ["Step"]= 3,
+  ["Type"]= 304
+},
+[30017] = {
+  ["CoupleDropId"]= 10309,
+  ["CurrencyNum"]= 5000,
+  ["Des"]= "WeddingGoodsDes30017",
+  ["GroupsDropId"]= 10309,
+  ["GuestsDropId"]= 10309,
+  ["Id"]= 30017,
+  ["ListDes"]= "WeddingListDes30017",
+  ["Name"]= "WeddingGoodsName30017",
+  ["Order"]= 25,
+  ["Step"]= 3,
+  ["Type"]= 305
+},
+[30018] = {
+  ["CoupleDropId"]= 10310,
+  ["CurrencyNum"]= 10000,
+  ["Des"]= "WeddingGoodsDes30018",
+  ["GroupsDropId"]= 10310,
+  ["GuestsDropId"]= 10310,
+  ["Id"]= 30018,
+  ["ListDes"]= "WeddingListDes30018",
+  ["Name"]= "WeddingGoodsName30018",
+  ["Order"]= 26,
+  ["Step"]= 3,
+  ["Type"]= 305
+},
+[30019] = {
+  ["CoupleDropId"]= 10311,
+  ["CurrencyNum"]= 15000,
+  ["Des"]= "WeddingGoodsDes30019",
+  ["GroupsDropId"]= 10311,
+  ["GuestsDropId"]= 10311,
+  ["Id"]= 30019,
+  ["ListDes"]= "WeddingListDes30019",
+  ["Name"]= "WeddingGoodsName30019",
+  ["Order"]= 27,
+  ["Step"]= 3,
+  ["Type"]= 305
+},
+[30020] = {
+  ["CoupleDropId"]= 10312,
+  ["CurrencyNum"]= 20000,
+  ["Des"]= "WeddingGoodsDes30020",
+  ["GroupsDropId"]= 10312,
+  ["GuestsDropId"]= 10312,
+  ["Id"]= 30020,
+  ["ListDes"]= "WeddingListDes30020",
+  ["Name"]= "WeddingGoodsName30020",
+  ["Order"]= 28,
+  ["Step"]= 3,
+  ["Type"]= 305
+},
+[30021] = {
+  ["CoupleDropId"]= 10309,
+  ["CurrencyNum"]= 5000,
+  ["Des"]= "WeddingGoodsDes30021",
+  ["GroupsDropId"]= 10309,
+  ["GuestsDropId"]= 10309,
+  ["Id"]= 30021,
+  ["ListDes"]= "WeddingListDes30021",
+  ["Name"]= "WeddingGoodsName30021",
+  ["Order"]= 29,
+  ["Step"]= 3,
+  ["Type"]= 306
+},
+[30022] = {
+  ["CoupleDropId"]= 10310,
+  ["CurrencyNum"]= 10000,
+  ["Des"]= "WeddingGoodsDes30022",
+  ["GroupsDropId"]= 10310,
+  ["GuestsDropId"]= 10310,
+  ["Id"]= 30022,
+  ["ListDes"]= "WeddingListDes30022",
+  ["Name"]= "WeddingGoodsName30022",
+  ["Order"]= 30,
+  ["Step"]= 3,
+  ["Type"]= 306
+},
+[30023] = {
+  ["CoupleDropId"]= 10311,
+  ["CurrencyNum"]= 15000,
+  ["Des"]= "WeddingGoodsDes30023",
+  ["GroupsDropId"]= 10311,
+  ["GuestsDropId"]= 10311,
+  ["Id"]= 30023,
+  ["ListDes"]= "WeddingListDes30023",
+  ["Name"]= "WeddingGoodsName30023",
+  ["Order"]= 31,
+  ["Step"]= 3,
+  ["Type"]= 306
+},
+[30024] = {
+  ["CoupleDropId"]= 10312,
+  ["CurrencyNum"]= 20000,
+  ["Des"]= "WeddingGoodsDes30024",
+  ["GroupsDropId"]= 10312,
+  ["GuestsDropId"]= 10312,
+  ["Id"]= 30024,
+  ["ListDes"]= "WeddingListDes30024",
+  ["Name"]= "WeddingGoodsName30024",
+  ["Order"]= 32,
+  ["Step"]= 3,
+  ["Type"]= 306
+},
+[40002] = {
+  ["CurrencyNum"]= 360000,
+  ["Des"]= "WeddingGoodsDes40002",
+  ["Id"]= 40002,
+  ["ListDes"]= "WeddingListDes40002",
+  ["Name"]= "WeddingGoodsName40002",
+  ["Order"]= 34,
+  ["Step"]= 4,
+  ["Type"]= 401
+},
+[40003] = {
+  ["CurrencyNum"]= 660000,
+  ["Des"]= "WeddingGoodsDes40003",
+  ["Id"]= 40003,
+  ["ListDes"]= "WeddingListDes40003",
+  ["Name"]= "WeddingGoodsName40003",
+  ["Order"]= 35,
+  ["Step"]= 4,
+  ["Type"]= 401
+},
+[40004] = {
+  ["CurrencyNum"]= 990000,
+  ["Des"]= "WeddingGoodsDes40004",
+  ["Id"]= 40004,
+  ["ListDes"]= "WeddingListDes40004",
+  ["Name"]= "WeddingGoodsName40004",
+  ["Order"]= 36,
+  ["Step"]= 4,
+  ["Type"]= 401
+},
+[50001] = {
+  ["Id"]= 50001,
+  ["Order"]= 45
+},
+[50002] = {
+  ["Id"]= 50002,
+  ["Order"]= 46
+},
+[50003] = {
+  ["Id"]= 50003,
+  ["Order"]= 47
+},
+[50004] = {
+  ["CurrencyNum"]= 150000,
+  ["Id"]= 50004,
+  ["Order"]= 48
+},
+[50005] = {
+  ["CurrencyNum"]= 150000,
+  ["Id"]= 50005,
+  ["Order"]= 49
+},
+[50006] = {
+  ["Id"]= 50006,
+  ["Order"]= 50
+},
+[50007] = {
+  ["Id"]= 50007,
+  ["Order"]= 51
+},
+[50008] = {
+  ["Id"]= 50008,
+  ["Order"]= 52
+},
+[50009] = {
+  ["Id"]= 50009,
+  ["Order"]= 53
+},
+[50010] = {
+  ["Id"]= 50010,
+  ["Order"]= 54
+},
+[50011] = {
+  ["CurrencyNum"]= 200000,
+  ["Id"]= 50011,
+  ["Order"]= 55
+},
+[50012] = {
+  ["CurrencyNum"]= 200000,
+  ["Id"]= 50012,
+  ["Order"]= 56
+},
+[50013] = {
+  ["CurrencyNum"]= 200000,
+  ["Id"]= 50013,
+  ["Order"]= 57
+},
+[50014] = {
+  ["Id"]= 50014,
+  ["Order"]= 58
+},
+[50015] = {
+  ["Id"]= 50015,
+  ["Order"]= 59
+},
+[50016] = {
+  ["Id"]= 50016,
+  ["Order"]= 60
+},
+[50017] = {
+  ["CurrencyNum"]= 150000,
+  ["Id"]= 50017,
+  ["Order"]= 61
+},
+[50018] = {
+  ["CurrencyNum"]= 150000,
+  ["Id"]= 50018,
+  ["Order"]= 62
+},
+[50019] = {
+  ["Id"]= 50019,
+  ["Order"]= 63
+},
+[50020] = {
+  ["Id"]= 50020,
+  ["Order"]= 64
+},
+[50021] = {
+  ["Id"]= 50021,
+  ["Order"]= 65
+},
+[50022] = {
+  ["Id"]= 50022,
+  ["Order"]= 66
+},
+[50023] = {
+  ["Id"]= 50023,
+  ["Order"]= 67
+},
+[50024] = {
+  ["CurrencyNum"]= 200000,
+  ["Id"]= 50024,
+  ["Order"]= 68
+},
+[50025] = {
+  ["CurrencyNum"]= 200000,
+  ["Id"]= 50025,
+  ["Order"]= 69
+},
+[50026] = {
+  ["CurrencyNum"]= 200000,
+  ["Id"]= 50026,
+  ["Order"]= 70
+},
+[50027] = {
+  ["Id"]= 50027,
+  ["Order"]= 71
+},
+[50028] = {
+  ["Id"]= 50028,
+  ["Order"]= 72
+},
+[50029] = {
+  ["Id"]= 50029,
+  ["Order"]= 73
+},
+[50030] = {
+  ["CurrencyNum"]= 150000,
+  ["Id"]= 50030,
+  ["Order"]= 74
+},
+[50031] = {
+  ["CurrencyNum"]= 150000,
+  ["Id"]= 50031,
+  ["Order"]= 75
+},
+[50032] = {
+  ["Id"]= 50032,
+  ["Order"]= 76
+},
+[50033] = {
+  ["Id"]= 50033,
+  ["Order"]= 77
+},
+[50034] = {
+  ["Id"]= 50034,
+  ["Order"]= 78
+},
+[50035] = {
+  ["Id"]= 50035,
+  ["Order"]= 79
+},
+[50036] = {
+  ["Id"]= 50036,
+  ["Order"]= 80
+},
+[50037] = {
+  ["CurrencyNum"]= 200000,
+  ["Id"]= 50037,
+  ["Order"]= 81
+},
+[50038] = {
+  ["CurrencyNum"]= 200000,
+  ["Id"]= 50038,
+  ["Order"]= 82
+},
+[50039] = {
+  ["CurrencyNum"]= 200000,
+  ["Id"]= 50039,
+  ["Order"]= 83
+},
+[50040] = {
+  ["Id"]= 50040,
+  ["Order"]= 84
+},
+[50041] = {
+  ["Id"]= 50041,
+  ["Order"]= 85
+},
+[50042] = {
+  ["Id"]= 50042,
+  ["Order"]= 86
+},
+[50043] = {
+  ["CurrencyNum"]= 150000,
+  ["Id"]= 50043,
+  ["Order"]= 87
+},
+[50044] = {
+  ["CurrencyNum"]= 150000,
+  ["Id"]= 50044,
+  ["Order"]= 88
+},
+[50045] = {
+  ["Id"]= 50045,
+  ["Order"]= 89
+},
+[50046] = {
+  ["Id"]= 50046,
+  ["Order"]= 90
+},
+[50047] = {
+  ["Id"]= 50047,
+  ["Order"]= 91
+},
+[50048] = {
+  ["Id"]= 50048,
+  ["Order"]= 92
+},
+[50049] = {
+  ["Id"]= 50049,
+  ["Order"]= 93
+},
+[50050] = {
+  ["CurrencyNum"]= 200000,
+  ["Id"]= 50050,
+  ["Order"]= 94
+},
+[50051] = {
+  ["CurrencyNum"]= 200000,
+  ["Id"]= 50051,
+  ["Order"]= 95
+},
+[50052] = {
+  ["CurrencyNum"]= 200000,
+  ["Id"]= 50052,
+  ["Order"]= 96
+},
+[50053] = {
+  ["Id"]= 50053,
+  ["Order"]= 97
+},
+[50054] = {
+  ["Id"]= 50054,
+  ["Order"]= 98
+},
+[50055] = {
+  ["Id"]= 50055,
+  ["Order"]= 99
+},
+[50056] = {
+  ["CurrencyNum"]= 150000,
+  ["Id"]= 50056,
+  ["Order"]= 100
+},
+[50057] = {
+  ["CurrencyNum"]= 150000,
+  ["Id"]= 50057,
+  ["Order"]= 101
+},
+[50058] = {
+  ["Id"]= 50058,
+  ["Order"]= 102
+},
+[50059] = {
+  ["Id"]= 50059,
+  ["Order"]= 103
+},
+[50060] = {
+  ["Id"]= 50060,
+  ["Order"]= 104
+},
+[50061] = {
+  ["Id"]= 50061,
+  ["Order"]= 105
+},
+[50062] = {
+  ["Id"]= 50062,
+  ["Order"]= 106
+},
+[50063] = {
+  ["CurrencyNum"]= 200000,
+  ["Id"]= 50063,
+  ["Order"]= 107
+},
+[50064] = {
+  ["CurrencyNum"]= 200000,
+  ["Id"]= 50064,
+  ["Order"]= 108
+},
+[50065] = {
+  ["CurrencyNum"]= 200000,
+  ["Id"]= 50065,
+  ["Order"]= 109
+},
+[50066] = {
+  ["CurrencyNum"]= 300000,
+  ["Id"]= 50066,
+  ["Order"]= 110
+},
+[50067] = {
+  ["CurrencyNum"]= 300000,
+  ["Id"]= 50067,
+  ["Order"]= 111
+},
+[50068] = {
+  ["CurrencyNum"]= 300000,
+  ["Id"]= 50068,
+  ["Order"]= 112
+},
+[50069] = {
+  ["CurrencyNum"]= 450000,
+  ["Id"]= 50069,
+  ["Order"]= 113
+},
+[50070] = {
+  ["CurrencyNum"]= 450000,
+  ["Id"]= 50070,
+  ["Order"]= 114
+},
+[50071] = {
+  ["CurrencyNum"]= 300000,
+  ["Id"]= 50071,
+  ["Order"]= 115
+},
+[50072] = {
+  ["CurrencyNum"]= 300000,
+  ["Id"]= 50072,
+  ["Order"]= 116
+},
+[50073] = {
+  ["CurrencyNum"]= 300000,
+  ["Id"]= 50073,
+  ["Order"]= 117
+},
+[50074] = {
+  ["CurrencyNum"]= 300000,
+  ["Id"]= 50074,
+  ["Order"]= 118
+},
+[50075] = {
+  ["CurrencyNum"]= 300000,
+  ["Id"]= 50075,
+  ["Order"]= 119
+},
+[50076] = {
+  ["CurrencyNum"]= 600000,
+  ["Id"]= 50076,
+  ["Order"]= 120
+},
+[50077] = {
+  ["CurrencyNum"]= 600000,
+  ["Id"]= 50077,
+  ["Order"]= 121
+},
+[50078] = {
+  ["CurrencyNum"]= 600000,
+  ["Id"]= 50078,
+  ["Order"]= 122
+},
+[50079] = {
+  ["CurrencyNum"]= 300000,
+  ["Id"]= 50079,
+  ["Order"]= 123
+},
+[50080] = {
+  ["CurrencyNum"]= 300000,
+  ["Id"]= 50080,
+  ["Order"]= 124
+},
+[50081] = {
+  ["CurrencyNum"]= 300000,
+  ["Id"]= 50081,
+  ["Order"]= 125
+},
+[50082] = {
+  ["CurrencyNum"]= 450000,
+  ["Id"]= 50082,
+  ["Order"]= 126
+},
+[50083] = {
+  ["CurrencyNum"]= 450000,
+  ["Id"]= 50083,
+  ["Order"]= 127
+},
+[50084] = {
+  ["CurrencyNum"]= 300000,
+  ["Id"]= 50084,
+  ["Order"]= 128
+},
+[50085] = {
+  ["CurrencyNum"]= 300000,
+  ["Id"]= 50085,
+  ["Order"]= 129
+},
+[50086] = {
+  ["CurrencyNum"]= 300000,
+  ["Id"]= 50086,
+  ["Order"]= 130
+},
+[50087] = {
+  ["CurrencyNum"]= 300000,
+  ["Id"]= 50087,
+  ["Order"]= 131
+},
+[50088] = {
+  ["CurrencyNum"]= 300000,
+  ["Id"]= 50088,
+  ["Order"]= 132
+},
+[50089] = {
+  ["CurrencyNum"]= 600000,
+  ["Id"]= 50089,
+  ["Order"]= 133
+},
+[50090] = {
+  ["CurrencyNum"]= 600000,
+  ["Id"]= 50090,
+  ["Order"]= 134
+},
+[50091] = {
+  ["CurrencyNum"]= 600000,
+  ["Id"]= 50091,
+  ["Order"]= 135
+}
+}
+local baseTable={
+  ["CoupleDropId"]= 0,
+  ["CurrencyNum"]= 100000,
+  ["CurrencyType"]= 3,
+  ["Des"]= "",
+  ["GroupsDropId"]= 0,
+  ["GuestsDropId"]= 0,
+  ["Id"]= 10001,
+  ["IsOpen"]= 1,
+  ["ListDes"]= "",
+  ["Name"]= "",
+  ["Order"]= 1,
+  ["Step"]= 5,
+  ["Style"]= {
+    10001,
+    10002,
+    10003,
+    10004
+  },
+  ["Type"]= 501
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

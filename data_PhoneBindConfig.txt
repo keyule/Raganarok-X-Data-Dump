@@ -1,0 +1,54 @@
+TextAsset Base
+	string m_Name = "data_PhoneBindConfig"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["DistrictName"]= "Setting_Info_23",
+  ["DistrictNumber"]= "+63",
+  ["id"]= 2
+},
+[3] = {
+  ["DistrictName"]= "Setting_Info_24",
+  ["DistrictNumber"]= "+66",
+  ["id"]= 3
+},
+[4] = {
+  ["DistrictName"]= "Setting_Info_25",
+  ["DistrictNumber"]= "+84",
+  ["id"]= 4
+},
+[5] = {
+  ["DistrictName"]= "Setting_Info_26",
+  ["DistrictNumber"]= "+60",
+  ["id"]= 5
+},
+[6] = {
+  ["DistrictName"]= "Setting_Info_27",
+  ["DistrictNumber"]= "+65",
+  ["id"]= 6
+},
+[7] = {
+  ["DistrictName"]= "Setting_Info_28",
+  ["DistrictNumber"]= "+852",
+  ["id"]= 7
+},
+[8] = {
+  ["DistrictName"]= "Setting_Info_29",
+  ["DistrictNumber"]= "+853",
+  ["id"]= 8
+},
+[9] = {
+  ["DistrictName"]= "Setting_Info_30",
+  ["DistrictNumber"]= "+886",
+  ["id"]= 9
+}
+}
+local baseTable={
+  ["DistrictName"]= "Setting_Info_22",
+  ["DistrictNumber"]= "+62",
+  ["id"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

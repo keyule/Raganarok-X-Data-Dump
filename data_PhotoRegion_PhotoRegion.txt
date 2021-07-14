@@ -1,0 +1,55 @@
+TextAsset Base
+	string m_Name = "data_PhotoRegion_PhotoRegion"
+	string m_Script = "return {
+[1] = {
+  ["ChannelId"]= 0,
+  ["id"]= 1,
+  ["LogoPath"]= "Logo_01"
+},
+[2] = {
+  ["ChannelId"]= 1,
+  ["id"]= 2,
+  ["LogoPath"]= "Logo_01"
+},
+[3] = {
+  ["ChannelId"]= 2,
+  ["id"]= 3,
+  ["LogoPath"]= "Logo_01"
+},
+[4] = {
+  ["ChannelId"]= 3,
+  ["id"]= 4,
+  ["LogoPath"]= "Logo_01"
+},
+[5] = {
+  ["ChannelId"]= 4,
+  ["id"]= 5,
+  ["LogoPath"]= "Logo_01"
+},
+[6] = {
+  ["ChannelId"]= 5,
+  ["id"]= 6,
+  ["LogoPath"]= "Logo_01"
+},
+[7] = {
+  ["ChannelId"]= 6,
+  ["id"]= 7,
+  ["LogoPath"]= "Logo_02"
+},
+[9] = {
+  ["ChannelId"]= 8,
+  ["id"]= 9,
+  ["LogoPath"]= "Logo_01"
+},
+[10] = {
+  ["ChannelId"]= 9,
+  ["id"]= 10,
+  ["LogoPath"]= "Logo_02"
+},
+[11] = {
+  ["ChannelId"]= 10,
+  ["id"]= 11,
+  ["LogoPath"]= "Logo_02"
+}
+}
+"

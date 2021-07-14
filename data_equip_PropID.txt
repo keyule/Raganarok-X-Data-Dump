@@ -1,0 +1,837 @@
+TextAsset Base
+	string m_Name = "data_equip_PropID"
+	string m_Script = "return {
+	[1] = {
+		["propType"] = 1,
+		["data_type"] = 1,
+		["name"] = "Property1",
+		["decs"] = "Property1_Des",
+		["ifPercentage"] = 0,
+		["ifInverse"] = 0
+	},
+	[2] = {
+		["propType"] = 1,
+		["data_type"] = 2,
+		["name"] = "Property2",
+		["decs"] = "Property2_Des",
+		["ifPercentage"] = 0,
+		["ifInverse"] = 0
+	},
+	[3] = {
+		["propType"] = 1,
+		["data_type"] = 3,
+		["name"] = "Property3",
+		["decs"] = "Property3_Des",
+		["ifPercentage"] = 0,
+		["ifInverse"] = 0
+	},
+	[4] = {
+		["propType"] = 1,
+		["data_type"] = 4,
+		["name"] = "Property4",
+		["decs"] = "Property4_Des",
+		["ifPercentage"] = 0,
+		["ifInverse"] = 0
+	},
+	[5] = {
+		["propType"] = 1,
+		["data_type"] = 5,
+		["name"] = "Property5",
+		["decs"] = "Property5_Des",
+		["ifPercentage"] = 0,
+		["ifInverse"] = 0
+	},
+	[6] = {
+		["propType"] = 1,
+		["data_type"] = 6,
+		["name"] = "Property6",
+		["decs"] = "Property6_Des",
+		["ifPercentage"] = 0,
+		["ifInverse"] = 0
+	},
+	[10] = {
+		["propType"] = 2,
+		["data_type"] = 10,
+		["name"] = "Property10",
+		["decs"] = "Property10_Des",
+		["ifPercentage"] = 0,
+		["ifInverse"] = 0
+	},
+	[11] = {
+		["propType"] = 2,
+		["data_type"] = 11,
+		["name"] = "Property11",
+		["decs"] = "Property11_Des",
+		["ifPercentage"] = 0,
+		["ifInverse"] = 0
+	},
+	[12] = {
+		["propType"] = 2,
+		["data_type"] = 12,
+		["name"] = "Property12",
+		["decs"] = "Property12_Des",
+		["ifPercentage"] = 0,
+		["ifInverse"] = 0
+	},
+	[13] = {
+		["propType"] = 2,
+		["data_type"] = 13,
+		["name"] = "Property13",
+		["decs"] = "Property13_Des",
+		["ifPercentage"] = 0,
+		["ifInverse"] = 0
+	},
+	[14] = {
+		["propType"] = 2,
+		["data_type"] = 14,
+		["name"] = "Property14",
+		["decs"] = "Property14_Des",
+		["ifPercentage"] = 0,
+		["ifInverse"] = 0
+	},
+	[15] = {
+		["propType"] = 0,
+		["data_type"] = 15,
+		["name"] = "Property15",
+		["decs"] = "Property15_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[16] = {
+		["propType"] = 2,
+		["data_type"] = 16,
+		["name"] = "Property16",
+		["decs"] = "Property16_Des",
+		["ifPercentage"] = 0,
+		["ifInverse"] = 0
+	},
+	[17] = {
+		["propType"] = 0,
+		["data_type"] = 17,
+		["name"] = "Property17",
+		["decs"] = "Property17_Des",
+		["ifPercentage"] = 0,
+		["ifInverse"] = 0
+	},
+	[18] = {
+		["propType"] = 2,
+		["data_type"] = 18,
+		["name"] = "Property18",
+		["decs"] = "Property18_Des",
+		["ifPercentage"] = 0,
+		["ifInverse"] = 0
+	},
+	[19] = {
+		["propType"] = 2,
+		["data_type"] = 19,
+		["name"] = "Property19",
+		["decs"] = "Property19_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[20] = {
+		["propType"] = 0,
+		["data_type"] = 20,
+		["name"] = "Property20",
+		["decs"] = "Property20_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[21] = {
+		["propType"] = 2,
+		["data_type"] = 21,
+		["name"] = "Property21",
+		["decs"] = "Property21_Des",
+		["ifPercentage"] = 0,
+		["ifInverse"] = 0
+	},
+	[22] = {
+		["propType"] = 2,
+		["data_type"] = 22,
+		["name"] = "Property22",
+		["decs"] = "Property22_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[23] = {
+		["propType"] = 3,
+		["data_type"] = 23,
+		["name"] = "Property23",
+		["decs"] = "Property23_Des",
+		["ifPercentage"] = 0,
+		["ifInverse"] = 0
+	},
+	[24] = {
+		["propType"] = 3,
+		["data_type"] = 24,
+		["name"] = "Property24",
+		["decs"] = "Property24_Des",
+		["ifPercentage"] = 0,
+		["ifInverse"] = 0
+	},
+	[25] = {
+		["propType"] = 0,
+		["data_type"] = 25,
+		["name"] = "Property25",
+		["decs"] = "Property25_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[26] = {
+		["propType"] = 3,
+		["data_type"] = 26,
+		["name"] = "Property26",
+		["decs"] = "Property26_Des",
+		["ifPercentage"] = 0,
+		["ifInverse"] = 0
+	},
+	[27] = {
+		["propType"] = 0,
+		["data_type"] = 27,
+		["name"] = "Property27",
+		["decs"] = "Property27_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[28] = {
+		["propType"] = 3,
+		["data_type"] = 28,
+		["name"] = "Property28",
+		["decs"] = "Property28_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 1
+	},
+	[29] = {
+		["propType"] = 3,
+		["data_type"] = 29,
+		["name"] = "Property29",
+		["decs"] = "Property29_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[30] = {
+		["propType"] = 3,
+		["data_type"] = 30,
+		["name"] = "Property30",
+		["decs"] = "Property30_Des",
+		["ifPercentage"] = 0,
+		["ifInverse"] = 0
+	},
+	[31] = {
+		["propType"] = 3,
+		["data_type"] = 31,
+		["name"] = "Property31",
+		["decs"] = "Property31_Des",
+		["ifPercentage"] = 0,
+		["ifInverse"] = 0
+	},
+	[32] = {
+		["propType"] = 4,
+		["data_type"] = 32,
+		["name"] = "Property32",
+		["decs"] = "Property32_Des",
+		["ifPercentage"] = 0,
+		["ifInverse"] = 0
+	},
+	[33] = {
+		["propType"] = 4,
+		["data_type"] = 33,
+		["name"] = "Property33",
+		["decs"] = "Property33_Des",
+		["ifPercentage"] = 0,
+		["ifInverse"] = 0
+	},
+	[34] = {
+		["propType"] = 0,
+		["data_type"] = 34,
+		["name"] = "Property34",
+		["decs"] = "Property34_Des",
+		["ifPercentage"] = 0,
+		["ifInverse"] = 0
+	},
+	[35] = {
+		["propType"] = 4,
+		["data_type"] = 35,
+		["name"] = "Property35",
+		["decs"] = "Property35_Des",
+		["ifPercentage"] = 0,
+		["ifInverse"] = 0
+	},
+	[36] = {
+		["propType"] = 4,
+		["data_type"] = 36,
+		["name"] = "Property36",
+		["decs"] = "Property36_Des",
+		["ifPercentage"] = 0,
+		["ifInverse"] = 0
+	},
+	[37] = {
+		["propType"] = 0,
+		["data_type"] = 37,
+		["name"] = "Property37",
+		["decs"] = "Property37_Des",
+		["ifPercentage"] = 0,
+		["ifInverse"] = 0
+	},
+	[38] = {
+		["propType"] = 4,
+		["data_type"] = 38,
+		["name"] = "Property38",
+		["decs"] = "Property38_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[39] = {
+		["propType"] = 4,
+		["data_type"] = 39,
+		["name"] = "Property39",
+		["decs"] = "Property39_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[40] = {
+		["propType"] = 4,
+		["data_type"] = 40,
+		["name"] = "Property40",
+		["decs"] = "Property40_Des",
+		["ifPercentage"] = 0,
+		["ifInverse"] = 0
+	},
+	[41] = {
+		["propType"] = 0,
+		["data_type"] = 41,
+		["name"] = "Property41",
+		["decs"] = "Property41_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[42] = {
+		["propType"] = 0,
+		["data_type"] = 42,
+		["name"] = "Property42",
+		["decs"] = "Property42_Des",
+		["ifPercentage"] = 0,
+		["ifInverse"] = 0
+	},
+	[43] = {
+		["propType"] = 0,
+		["data_type"] = 43,
+		["name"] = "Property43",
+		["decs"] = "Property43_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[44] = {
+		["propType"] = 0,
+		["data_type"] = 44,
+		["name"] = "Property44",
+		["decs"] = "Property44_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[45] = {
+		["propType"] = 0,
+		["data_type"] = 45,
+		["name"] = "Property45",
+		["decs"] = "Property45_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[46] = {
+		["propType"] = 0,
+		["data_type"] = 46,
+		["name"] = "Property46",
+		["decs"] = "Property46_Des",
+		["ifPercentage"] = 0,
+		["ifInverse"] = 0
+	},
+	[47] = {
+		["propType"] = 0,
+		["data_type"] = 47,
+		["name"] = "Property47",
+		["decs"] = "Property47_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[48] = {
+		["propType"] = 0,
+		["data_type"] = 48,
+		["name"] = "Property48",
+		["decs"] = "Property48_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[49] = {
+		["propType"] = 0,
+		["data_type"] = 49,
+		["name"] = "Property49",
+		["decs"] = "Property49_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[50] = {
+		["propType"] = 0,
+		["data_type"] = 50,
+		["name"] = "Property50",
+		["decs"] = "Property50_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[51] = {
+		["propType"] = 0,
+		["data_type"] = 51,
+		["name"] = "Property51",
+		["decs"] = "Property51_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[52] = {
+		["propType"] = 0,
+		["data_type"] = 52,
+		["name"] = "Property52",
+		["decs"] = "Property52_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[53] = {
+		["propType"] = 0,
+		["data_type"] = 53,
+		["name"] = "Property53",
+		["decs"] = "Property53_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[54] = {
+		["propType"] = 0,
+		["data_type"] = 54,
+		["name"] = "Property54",
+		["decs"] = "Property54_Des",
+		["ifPercentage"] = 0,
+		["ifInverse"] = 0
+	},
+	[55] = {
+		["propType"] = 0,
+		["data_type"] = 55,
+		["name"] = "Property55",
+		["decs"] = "Property55_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[56] = {
+		["propType"] = 0,
+		["data_type"] = 56,
+		["name"] = "Property56",
+		["decs"] = "Property56_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[57] = {
+		["propType"] = 0,
+		["data_type"] = 57,
+		["name"] = "Property57",
+		["decs"] = "Property57_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[58] = {
+		["propType"] = 0,
+		["data_type"] = 58,
+		["name"] = "Property58",
+		["decs"] = "Property58_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[59] = {
+		["propType"] = 0,
+		["data_type"] = 59,
+		["name"] = "Property59",
+		["decs"] = "Property59_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[60] = {
+		["propType"] = 0,
+		["data_type"] = 60,
+		["name"] = "Property60",
+		["decs"] = "Property60_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[61] = {
+		["propType"] = 0,
+		["data_type"] = 61,
+		["name"] = "Property61",
+		["decs"] = "Property61_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[100] = {
+		["propType"] = 0,
+		["data_type"] = 100,
+		["name"] = "Property100",
+		["decs"] = "Property100_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[101] = {
+		["propType"] = 0,
+		["data_type"] = 101,
+		["name"] = "Property101",
+		["decs"] = "Property101_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[102] = {
+		["propType"] = 0,
+		["data_type"] = 102,
+		["name"] = "Property102",
+		["decs"] = "Property102_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[103] = {
+		["propType"] = 0,
+		["data_type"] = 103,
+		["name"] = "Property103",
+		["decs"] = "Property103_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[104] = {
+		["propType"] = 0,
+		["data_type"] = 104,
+		["name"] = "Property104",
+		["decs"] = "Property104_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[105] = {
+		["propType"] = 0,
+		["data_type"] = 105,
+		["name"] = "Property105",
+		["decs"] = "Property105_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[106] = {
+		["propType"] = 0,
+		["data_type"] = 106,
+		["name"] = "Property106",
+		["decs"] = "Property106_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[107] = {
+		["propType"] = 0,
+		["data_type"] = 107,
+		["name"] = "Property107",
+		["decs"] = "Property107_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[108] = {
+		["propType"] = 0,
+		["data_type"] = 108,
+		["name"] = "Property108",
+		["decs"] = "Property108_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[109] = {
+		["propType"] = 0,
+		["data_type"] = 109,
+		["name"] = "Property109",
+		["decs"] = "Property109_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[110] = {
+		["propType"] = 0,
+		["data_type"] = 110,
+		["name"] = "Property110",
+		["decs"] = "Property110_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[111] = {
+		["propType"] = 0,
+		["data_type"] = 111,
+		["name"] = "Property111",
+		["decs"] = "Property111_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[112] = {
+		["propType"] = 0,
+		["data_type"] = 112,
+		["name"] = "Property112",
+		["decs"] = "Property112_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[113] = {
+		["propType"] = 0,
+		["data_type"] = 113,
+		["name"] = "Property113",
+		["decs"] = "Property113_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[114] = {
+		["propType"] = 0,
+		["data_type"] = 114,
+		["name"] = "Property114",
+		["decs"] = "Property114_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[115] = {
+		["propType"] = 0,
+		["data_type"] = 115,
+		["name"] = "Property115",
+		["decs"] = "Property115_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[116] = {
+		["propType"] = 0,
+		["data_type"] = 116,
+		["name"] = "Property116",
+		["decs"] = "Property116_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[117] = {
+		["propType"] = 0,
+		["data_type"] = 117,
+		["name"] = "Property117",
+		["decs"] = "Property117_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[118] = {
+		["propType"] = 0,
+		["data_type"] = 118,
+		["name"] = "Property118",
+		["decs"] = "Property118_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[119] = {
+		["propType"] = 0,
+		["data_type"] = 119,
+		["name"] = "Property119",
+		["decs"] = "Property119_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[120] = {
+		["propType"] = 0,
+		["data_type"] = 120,
+		["name"] = "Property120",
+		["decs"] = "Property120_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[121] = {
+		["propType"] = 0,
+		["data_type"] = 121,
+		["name"] = "Property121",
+		["decs"] = "Property121_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[122] = {
+		["propType"] = 0,
+		["data_type"] = 122,
+		["name"] = "Property122",
+		["decs"] = "Property122_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 0
+	},
+	[123] = {
+		["propType"] = 0,
+		["data_type"] = 123,
+		["name"] = "Property123",
+		["decs"] = "Property123_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 1
+	},
+	[124] = {
+		["propType"] = 0,
+		["data_type"] = 124,
+		["name"] = "Property124",
+		["decs"] = "Property124_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 1
+	},
+	[125] = {
+		["propType"] = 0,
+		["data_type"] = 125,
+		["name"] = "Property125",
+		["decs"] = "Property125_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 1
+	},
+	[126] = {
+		["propType"] = 0,
+		["data_type"] = 126,
+		["name"] = "Property126",
+		["decs"] = "Property126_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 1
+	},
+	[127] = {
+		["propType"] = 0,
+		["data_type"] = 127,
+		["name"] = "Property127",
+		["decs"] = "Property127_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 1
+	},
+	[128] = {
+		["propType"] = 0,
+		["data_type"] = 128,
+		["name"] = "Property128",
+		["decs"] = "Property128_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 1
+	},
+	[129] = {
+		["propType"] = 0,
+		["data_type"] = 129,
+		["name"] = "Property129",
+		["decs"] = "Property129_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 1
+	},
+	[130] = {
+		["propType"] = 0,
+		["data_type"] = 130,
+		["name"] = "Property130",
+		["decs"] = "Property130_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 1
+	},
+	[131] = {
+		["propType"] = 0,
+		["data_type"] = 131,
+		["name"] = "Property131",
+		["decs"] = "Property131_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 1
+	},
+	[132] = {
+		["propType"] = 0,
+		["data_type"] = 132,
+		["name"] = "Property132",
+		["decs"] = "Property132_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 1
+	},
+	[133] = {
+		["propType"] = 0,
+		["data_type"] = 133,
+		["name"] = "Property133",
+		["decs"] = "Property133_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 1
+	},
+	[134] = {
+		["propType"] = 0,
+		["data_type"] = 134,
+		["name"] = "Property134",
+		["decs"] = "Property134_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 1
+	},
+	[135] = {
+		["propType"] = 0,
+		["data_type"] = 135,
+		["name"] = "Property135",
+		["decs"] = "Property135_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 1
+	},
+	[136] = {
+		["propType"] = 0,
+		["data_type"] = 136,
+		["name"] = "Property136",
+		["decs"] = "Property136_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 1
+	},
+	[137] = {
+		["propType"] = 0,
+		["data_type"] = 137,
+		["name"] = "Property137",
+		["decs"] = "Property137_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 1
+	},
+	[138] = {
+		["propType"] = 0,
+		["data_type"] = 138,
+		["name"] = "Property138",
+		["decs"] = "Property138_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 1
+	},
+	[139] = {
+		["propType"] = 0,
+		["data_type"] = 139,
+		["name"] = "Property139",
+		["decs"] = "Property139_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 1
+	},
+	[140] = {
+		["propType"] = 0,
+		["data_type"] = 140,
+		["name"] = "Property140",
+		["decs"] = "Property140_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 1
+	},
+	[141] = {
+		["propType"] = 0,
+		["data_type"] = 141,
+		["name"] = "Property141",
+		["decs"] = "Property141_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 1
+	},
+	[142] = {
+		["propType"] = 0,
+		["data_type"] = 142,
+		["name"] = "Property142",
+		["decs"] = "Property142_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 1
+	},
+	[143] = {
+		["propType"] = 0,
+		["data_type"] = 143,
+		["name"] = "Property143",
+		["decs"] = "Property143_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 1
+	},
+	[144] = {
+		["propType"] = 0,
+		["data_type"] = 144,
+		["name"] = "Property144",
+		["decs"] = "Property144_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 1
+	},
+	[145] = {
+		["propType"] = 0,
+		["data_type"] = 145,
+		["name"] = "Property145",
+		["decs"] = "Property145_Des",
+		["ifPercentage"] = 1,
+		["ifInverse"] = 1
+	}
+}
+"

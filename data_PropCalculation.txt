@@ -1,0 +1,1405 @@
+TextAsset Base
+	string m_Name = "data_PropCalculation"
+	string m_Script = "local table= {
+[1] = {
+  ["propValue"]= 25
+},
+[2] = {
+  ["phase"]= 2,
+  ["propValue"]= 75,
+  ["staticId"]= 2,
+  ["total"]= 0.1
+},
+[3] = {
+  ["phase"]= 3,
+  ["staticId"]= 3,
+  ["total"]= 0.15
+},
+[4] = {
+  ["phase"]= 4,
+  ["propValue"]= 250,
+  ["staticId"]= 4,
+  ["total"]= 0.2
+},
+[5] = {
+  ["phase"]= 5,
+  ["propValue"]= 375,
+  ["staticId"]= 5,
+  ["total"]= 0.25
+},
+[6] = {
+  ["phase"]= 6,
+  ["propValue"]= 525,
+  ["staticId"]= 6,
+  ["total"]= 0.3
+},
+[7] = {
+  ["phase"]= 7,
+  ["propValue"]= 700,
+  ["staticId"]= 7,
+  ["total"]= 0.35
+},
+[8] = {
+  ["phase"]= 8,
+  ["propValue"]= 900,
+  ["staticId"]= 8,
+  ["total"]= 0.4
+},
+[9] = {
+  ["phase"]= 9,
+  ["propValue"]= 1125,
+  ["staticId"]= 9,
+  ["total"]= 0.45
+},
+[10] = {
+  ["phase"]= 10,
+  ["propValue"]= 1375,
+  ["staticId"]= 10,
+  ["total"]= 0.5
+},
+[11] = {
+  ["phase"]= 11,
+  ["propValue"]= 1650,
+  ["staticId"]= 11,
+  ["total"]= 0.55
+},
+[12] = {
+  ["phase"]= 12,
+  ["propValue"]= 1950,
+  ["staticId"]= 12,
+  ["total"]= 0.6
+},
+[13] = {
+  ["phase"]= 13,
+  ["propValue"]= 2275,
+  ["staticId"]= 13,
+  ["total"]= 0.65
+},
+[14] = {
+  ["phase"]= 14,
+  ["propValue"]= 2625,
+  ["staticId"]= 14,
+  ["total"]= 0.7
+},
+[15] = {
+  ["phase"]= 15,
+  ["propValue"]= 3000,
+  ["staticId"]= 15,
+  ["total"]= 0.75
+},
+[16] = {
+  ["phase"]= 16,
+  ["propValue"]= 3400,
+  ["staticId"]= 16,
+  ["total"]= 0.8
+},
+[17] = {
+  ["phase"]= 17,
+  ["propValue"]= 3825,
+  ["staticId"]= 17,
+  ["total"]= 0.85
+},
+[18] = {
+  ["phase"]= 18,
+  ["propValue"]= 4275,
+  ["staticId"]= 18,
+  ["total"]= 0.9
+},
+[19] = {
+  ["phase"]= 19,
+  ["propValue"]= 4750,
+  ["staticId"]= 19,
+  ["total"]= 0.95
+},
+[20] = {
+  ["phase"]= 20,
+  ["propValue"]= 5250,
+  ["staticId"]= 20,
+  ["total"]= 1
+},
+[21] = {
+  ["propId"]= 24,
+  ["propValue"]= 25,
+  ["staticId"]= 21
+},
+[22] = {
+  ["phase"]= 2,
+  ["propId"]= 24,
+  ["propValue"]= 75,
+  ["staticId"]= 22,
+  ["total"]= 0.1
+},
+[23] = {
+  ["phase"]= 3,
+  ["propId"]= 24,
+  ["staticId"]= 23,
+  ["total"]= 0.15
+},
+[24] = {
+  ["phase"]= 4,
+  ["propId"]= 24,
+  ["propValue"]= 250,
+  ["staticId"]= 24,
+  ["total"]= 0.2
+},
+[25] = {
+  ["phase"]= 5,
+  ["propId"]= 24,
+  ["propValue"]= 375,
+  ["staticId"]= 25,
+  ["total"]= 0.25
+},
+[26] = {
+  ["phase"]= 6,
+  ["propId"]= 24,
+  ["propValue"]= 525,
+  ["staticId"]= 26,
+  ["total"]= 0.3
+},
+[27] = {
+  ["phase"]= 7,
+  ["propId"]= 24,
+  ["propValue"]= 700,
+  ["staticId"]= 27,
+  ["total"]= 0.35
+},
+[28] = {
+  ["phase"]= 8,
+  ["propId"]= 24,
+  ["propValue"]= 900,
+  ["staticId"]= 28,
+  ["total"]= 0.4
+},
+[29] = {
+  ["phase"]= 9,
+  ["propId"]= 24,
+  ["propValue"]= 1125,
+  ["staticId"]= 29,
+  ["total"]= 0.45
+},
+[30] = {
+  ["phase"]= 10,
+  ["propId"]= 24,
+  ["propValue"]= 1375,
+  ["staticId"]= 30,
+  ["total"]= 0.5
+},
+[31] = {
+  ["phase"]= 11,
+  ["propId"]= 24,
+  ["propValue"]= 1650,
+  ["staticId"]= 31,
+  ["total"]= 0.55
+},
+[32] = {
+  ["phase"]= 12,
+  ["propId"]= 24,
+  ["propValue"]= 1950,
+  ["staticId"]= 32,
+  ["total"]= 0.6
+},
+[33] = {
+  ["phase"]= 13,
+  ["propId"]= 24,
+  ["propValue"]= 2275,
+  ["staticId"]= 33,
+  ["total"]= 0.65
+},
+[34] = {
+  ["phase"]= 14,
+  ["propId"]= 24,
+  ["propValue"]= 2625,
+  ["staticId"]= 34,
+  ["total"]= 0.7
+},
+[35] = {
+  ["phase"]= 15,
+  ["propId"]= 24,
+  ["propValue"]= 3000,
+  ["staticId"]= 35,
+  ["total"]= 0.75
+},
+[36] = {
+  ["phase"]= 16,
+  ["propId"]= 24,
+  ["propValue"]= 3400,
+  ["staticId"]= 36,
+  ["total"]= 0.8
+},
+[37] = {
+  ["phase"]= 17,
+  ["propId"]= 24,
+  ["propValue"]= 3825,
+  ["staticId"]= 37,
+  ["total"]= 0.85
+},
+[38] = {
+  ["phase"]= 18,
+  ["propId"]= 24,
+  ["propValue"]= 4275,
+  ["staticId"]= 38,
+  ["total"]= 0.9
+},
+[39] = {
+  ["phase"]= 19,
+  ["propId"]= 24,
+  ["propValue"]= 4750,
+  ["staticId"]= 39,
+  ["total"]= 0.95
+},
+[40] = {
+  ["phase"]= 20,
+  ["propId"]= 24,
+  ["propValue"]= 5250,
+  ["staticId"]= 40,
+  ["total"]= 1
+},
+[41] = {
+  ["propId"]= 12,
+  ["propValue"]= 25,
+  ["staticId"]= 41
+},
+[42] = {
+  ["phase"]= 2,
+  ["propId"]= 12,
+  ["propValue"]= 75,
+  ["staticId"]= 42,
+  ["total"]= 0.1
+},
+[43] = {
+  ["phase"]= 3,
+  ["propId"]= 12,
+  ["staticId"]= 43,
+  ["total"]= 0.15
+},
+[44] = {
+  ["phase"]= 4,
+  ["propId"]= 12,
+  ["propValue"]= 250,
+  ["staticId"]= 44,
+  ["total"]= 0.2
+},
+[45] = {
+  ["phase"]= 5,
+  ["propId"]= 12,
+  ["propValue"]= 375,
+  ["staticId"]= 45,
+  ["total"]= 0.25
+},
+[46] = {
+  ["phase"]= 6,
+  ["propId"]= 12,
+  ["propValue"]= 525,
+  ["staticId"]= 46,
+  ["total"]= 0.3
+},
+[47] = {
+  ["phase"]= 7,
+  ["propId"]= 12,
+  ["propValue"]= 700,
+  ["staticId"]= 47,
+  ["total"]= 0.35
+},
+[48] = {
+  ["phase"]= 8,
+  ["propId"]= 12,
+  ["propValue"]= 900,
+  ["staticId"]= 48,
+  ["total"]= 0.4
+},
+[49] = {
+  ["phase"]= 9,
+  ["propId"]= 12,
+  ["propValue"]= 1125,
+  ["staticId"]= 49,
+  ["total"]= 0.45
+},
+[50] = {
+  ["phase"]= 10,
+  ["propId"]= 12,
+  ["propValue"]= 1375,
+  ["staticId"]= 50,
+  ["total"]= 0.5
+},
+[51] = {
+  ["phase"]= 11,
+  ["propId"]= 12,
+  ["propValue"]= 1650,
+  ["staticId"]= 51,
+  ["total"]= 0.55
+},
+[52] = {
+  ["phase"]= 12,
+  ["propId"]= 12,
+  ["propValue"]= 1950,
+  ["staticId"]= 52,
+  ["total"]= 0.6
+},
+[53] = {
+  ["phase"]= 13,
+  ["propId"]= 12,
+  ["propValue"]= 2275,
+  ["staticId"]= 53,
+  ["total"]= 0.65
+},
+[54] = {
+  ["phase"]= 14,
+  ["propId"]= 12,
+  ["propValue"]= 2625,
+  ["staticId"]= 54,
+  ["total"]= 0.7
+},
+[55] = {
+  ["phase"]= 15,
+  ["propId"]= 12,
+  ["propValue"]= 3000,
+  ["staticId"]= 55,
+  ["total"]= 0.75
+},
+[56] = {
+  ["phase"]= 16,
+  ["propId"]= 12,
+  ["propValue"]= 3400,
+  ["staticId"]= 56,
+  ["total"]= 0.8
+},
+[57] = {
+  ["phase"]= 17,
+  ["propId"]= 12,
+  ["propValue"]= 3825,
+  ["staticId"]= 57,
+  ["total"]= 0.85
+},
+[58] = {
+  ["phase"]= 18,
+  ["propId"]= 12,
+  ["propValue"]= 4275,
+  ["staticId"]= 58,
+  ["total"]= 0.9
+},
+[59] = {
+  ["phase"]= 19,
+  ["propId"]= 12,
+  ["propValue"]= 4750,
+  ["staticId"]= 59,
+  ["total"]= 0.95
+},
+[60] = {
+  ["phase"]= 20,
+  ["propId"]= 12,
+  ["propValue"]= 5250,
+  ["staticId"]= 60,
+  ["total"]= 1
+},
+[61] = {
+  ["propId"]= 13,
+  ["propValue"]= 25,
+  ["staticId"]= 61
+},
+[62] = {
+  ["phase"]= 2,
+  ["propId"]= 13,
+  ["propValue"]= 75,
+  ["staticId"]= 62,
+  ["total"]= 0.1
+},
+[63] = {
+  ["phase"]= 3,
+  ["propId"]= 13,
+  ["staticId"]= 63,
+  ["total"]= 0.15
+},
+[64] = {
+  ["phase"]= 4,
+  ["propId"]= 13,
+  ["propValue"]= 250,
+  ["staticId"]= 64,
+  ["total"]= 0.2
+},
+[65] = {
+  ["phase"]= 5,
+  ["propId"]= 13,
+  ["propValue"]= 375,
+  ["staticId"]= 65,
+  ["total"]= 0.25
+},
+[66] = {
+  ["phase"]= 6,
+  ["propId"]= 13,
+  ["propValue"]= 525,
+  ["staticId"]= 66,
+  ["total"]= 0.3
+},
+[67] = {
+  ["phase"]= 7,
+  ["propId"]= 13,
+  ["propValue"]= 700,
+  ["staticId"]= 67,
+  ["total"]= 0.35
+},
+[68] = {
+  ["phase"]= 8,
+  ["propId"]= 13,
+  ["propValue"]= 900,
+  ["staticId"]= 68,
+  ["total"]= 0.4
+},
+[69] = {
+  ["phase"]= 9,
+  ["propId"]= 13,
+  ["propValue"]= 1125,
+  ["staticId"]= 69,
+  ["total"]= 0.45
+},
+[70] = {
+  ["phase"]= 10,
+  ["propId"]= 13,
+  ["propValue"]= 1375,
+  ["staticId"]= 70,
+  ["total"]= 0.5
+},
+[71] = {
+  ["phase"]= 11,
+  ["propId"]= 13,
+  ["propValue"]= 1650,
+  ["staticId"]= 71,
+  ["total"]= 0.55
+},
+[72] = {
+  ["phase"]= 12,
+  ["propId"]= 13,
+  ["propValue"]= 1950,
+  ["staticId"]= 72,
+  ["total"]= 0.6
+},
+[73] = {
+  ["phase"]= 13,
+  ["propId"]= 13,
+  ["propValue"]= 2275,
+  ["staticId"]= 73,
+  ["total"]= 0.65
+},
+[74] = {
+  ["phase"]= 14,
+  ["propId"]= 13,
+  ["propValue"]= 2625,
+  ["staticId"]= 74,
+  ["total"]= 0.7
+},
+[75] = {
+  ["phase"]= 15,
+  ["propId"]= 13,
+  ["propValue"]= 3000,
+  ["staticId"]= 75,
+  ["total"]= 0.75
+},
+[76] = {
+  ["phase"]= 16,
+  ["propId"]= 13,
+  ["propValue"]= 3400,
+  ["staticId"]= 76,
+  ["total"]= 0.8
+},
+[77] = {
+  ["phase"]= 17,
+  ["propId"]= 13,
+  ["propValue"]= 3825,
+  ["staticId"]= 77,
+  ["total"]= 0.85
+},
+[78] = {
+  ["phase"]= 18,
+  ["propId"]= 13,
+  ["propValue"]= 4275,
+  ["staticId"]= 78,
+  ["total"]= 0.9
+},
+[79] = {
+  ["phase"]= 19,
+  ["propId"]= 13,
+  ["propValue"]= 4750,
+  ["staticId"]= 79,
+  ["total"]= 0.95
+},
+[80] = {
+  ["phase"]= 20,
+  ["propId"]= 13,
+  ["propValue"]= 5250,
+  ["staticId"]= 80,
+  ["total"]= 1
+},
+[81] = {
+  ["propId"]= 18,
+  ["propValue"]= 25,
+  ["staticId"]= 81
+},
+[82] = {
+  ["phase"]= 2,
+  ["propId"]= 18,
+  ["propValue"]= 75,
+  ["staticId"]= 82,
+  ["total"]= 0.1
+},
+[83] = {
+  ["phase"]= 3,
+  ["propId"]= 18,
+  ["staticId"]= 83,
+  ["total"]= 0.15
+},
+[84] = {
+  ["phase"]= 4,
+  ["propId"]= 18,
+  ["propValue"]= 250,
+  ["staticId"]= 84,
+  ["total"]= 0.2
+},
+[85] = {
+  ["phase"]= 5,
+  ["propId"]= 18,
+  ["propValue"]= 375,
+  ["staticId"]= 85,
+  ["total"]= 0.25
+},
+[86] = {
+  ["phase"]= 6,
+  ["propId"]= 18,
+  ["propValue"]= 525,
+  ["staticId"]= 86,
+  ["total"]= 0.3
+},
+[87] = {
+  ["phase"]= 7,
+  ["propId"]= 18,
+  ["propValue"]= 700,
+  ["staticId"]= 87,
+  ["total"]= 0.35
+},
+[88] = {
+  ["phase"]= 8,
+  ["propId"]= 18,
+  ["propValue"]= 900,
+  ["staticId"]= 88,
+  ["total"]= 0.4
+},
+[89] = {
+  ["phase"]= 9,
+  ["propId"]= 18,
+  ["propValue"]= 1125,
+  ["staticId"]= 89,
+  ["total"]= 0.45
+},
+[90] = {
+  ["phase"]= 10,
+  ["propId"]= 18,
+  ["propValue"]= 1375,
+  ["staticId"]= 90,
+  ["total"]= 0.5
+},
+[91] = {
+  ["phase"]= 11,
+  ["propId"]= 18,
+  ["propValue"]= 1650,
+  ["staticId"]= 91,
+  ["total"]= 0.55
+},
+[92] = {
+  ["phase"]= 12,
+  ["propId"]= 18,
+  ["propValue"]= 1950,
+  ["staticId"]= 92,
+  ["total"]= 0.6
+},
+[93] = {
+  ["phase"]= 13,
+  ["propId"]= 18,
+  ["propValue"]= 2275,
+  ["staticId"]= 93,
+  ["total"]= 0.65
+},
+[94] = {
+  ["phase"]= 14,
+  ["propId"]= 18,
+  ["propValue"]= 2625,
+  ["staticId"]= 94,
+  ["total"]= 0.7
+},
+[95] = {
+  ["phase"]= 15,
+  ["propId"]= 18,
+  ["propValue"]= 3000,
+  ["staticId"]= 95,
+  ["total"]= 0.75
+},
+[96] = {
+  ["phase"]= 16,
+  ["propId"]= 18,
+  ["propValue"]= 3400,
+  ["staticId"]= 96,
+  ["total"]= 0.8
+},
+[97] = {
+  ["phase"]= 17,
+  ["propId"]= 18,
+  ["propValue"]= 3825,
+  ["staticId"]= 97,
+  ["total"]= 0.85
+},
+[98] = {
+  ["phase"]= 18,
+  ["propId"]= 18,
+  ["propValue"]= 4275,
+  ["staticId"]= 98,
+  ["total"]= 0.9
+},
+[99] = {
+  ["phase"]= 19,
+  ["propId"]= 18,
+  ["propValue"]= 4750,
+  ["staticId"]= 99,
+  ["total"]= 0.95
+},
+[100] = {
+  ["phase"]= 20,
+  ["propId"]= 18,
+  ["propValue"]= 5250,
+  ["staticId"]= 100,
+  ["total"]= 1
+},
+[101] = {
+  ["propId"]= 26,
+  ["propValue"]= 25,
+  ["staticId"]= 101
+},
+[102] = {
+  ["phase"]= 2,
+  ["propId"]= 26,
+  ["propValue"]= 75,
+  ["staticId"]= 102,
+  ["total"]= 0.1
+},
+[103] = {
+  ["phase"]= 3,
+  ["propId"]= 26,
+  ["staticId"]= 103,
+  ["total"]= 0.15
+},
+[104] = {
+  ["phase"]= 4,
+  ["propId"]= 26,
+  ["propValue"]= 250,
+  ["staticId"]= 104,
+  ["total"]= 0.2
+},
+[105] = {
+  ["phase"]= 5,
+  ["propId"]= 26,
+  ["propValue"]= 375,
+  ["staticId"]= 105,
+  ["total"]= 0.25
+},
+[106] = {
+  ["phase"]= 6,
+  ["propId"]= 26,
+  ["propValue"]= 525,
+  ["staticId"]= 106,
+  ["total"]= 0.3
+},
+[107] = {
+  ["phase"]= 7,
+  ["propId"]= 26,
+  ["propValue"]= 700,
+  ["staticId"]= 107,
+  ["total"]= 0.35
+},
+[108] = {
+  ["phase"]= 8,
+  ["propId"]= 26,
+  ["propValue"]= 900,
+  ["staticId"]= 108,
+  ["total"]= 0.4
+},
+[109] = {
+  ["phase"]= 9,
+  ["propId"]= 26,
+  ["propValue"]= 1125,
+  ["staticId"]= 109,
+  ["total"]= 0.45
+},
+[110] = {
+  ["phase"]= 10,
+  ["propId"]= 26,
+  ["propValue"]= 1375,
+  ["staticId"]= 110,
+  ["total"]= 0.5
+},
+[111] = {
+  ["phase"]= 11,
+  ["propId"]= 26,
+  ["propValue"]= 1650,
+  ["staticId"]= 111,
+  ["total"]= 0.55
+},
+[112] = {
+  ["phase"]= 12,
+  ["propId"]= 26,
+  ["propValue"]= 1950,
+  ["staticId"]= 112,
+  ["total"]= 0.6
+},
+[113] = {
+  ["phase"]= 13,
+  ["propId"]= 26,
+  ["propValue"]= 2275,
+  ["staticId"]= 113,
+  ["total"]= 0.65
+},
+[114] = {
+  ["phase"]= 14,
+  ["propId"]= 26,
+  ["propValue"]= 2625,
+  ["staticId"]= 114,
+  ["total"]= 0.7
+},
+[115] = {
+  ["phase"]= 15,
+  ["propId"]= 26,
+  ["propValue"]= 3000,
+  ["staticId"]= 115,
+  ["total"]= 0.75
+},
+[116] = {
+  ["phase"]= 16,
+  ["propId"]= 26,
+  ["propValue"]= 3400,
+  ["staticId"]= 116,
+  ["total"]= 0.8
+},
+[117] = {
+  ["phase"]= 17,
+  ["propId"]= 26,
+  ["propValue"]= 3825,
+  ["staticId"]= 117,
+  ["total"]= 0.85
+},
+[118] = {
+  ["phase"]= 18,
+  ["propId"]= 26,
+  ["propValue"]= 4275,
+  ["staticId"]= 118,
+  ["total"]= 0.9
+},
+[119] = {
+  ["phase"]= 19,
+  ["propId"]= 26,
+  ["propValue"]= 4750,
+  ["staticId"]= 119,
+  ["total"]= 0.95
+},
+[120] = {
+  ["phase"]= 20,
+  ["propId"]= 26,
+  ["propValue"]= 5250,
+  ["staticId"]= 120,
+  ["total"]= 1
+},
+[121] = {
+  ["propId"]= 21,
+  ["propValue"]= 25,
+  ["staticId"]= 121
+},
+[122] = {
+  ["phase"]= 2,
+  ["propId"]= 21,
+  ["propValue"]= 75,
+  ["staticId"]= 122,
+  ["total"]= 0.1
+},
+[123] = {
+  ["phase"]= 3,
+  ["propId"]= 21,
+  ["staticId"]= 123,
+  ["total"]= 0.15
+},
+[124] = {
+  ["phase"]= 4,
+  ["propId"]= 21,
+  ["propValue"]= 250,
+  ["staticId"]= 124,
+  ["total"]= 0.2
+},
+[125] = {
+  ["phase"]= 5,
+  ["propId"]= 21,
+  ["propValue"]= 375,
+  ["staticId"]= 125,
+  ["total"]= 0.25
+},
+[126] = {
+  ["phase"]= 6,
+  ["propId"]= 21,
+  ["propValue"]= 525,
+  ["staticId"]= 126,
+  ["total"]= 0.3
+},
+[127] = {
+  ["phase"]= 7,
+  ["propId"]= 21,
+  ["propValue"]= 700,
+  ["staticId"]= 127,
+  ["total"]= 0.35
+},
+[128] = {
+  ["phase"]= 8,
+  ["propId"]= 21,
+  ["propValue"]= 900,
+  ["staticId"]= 128,
+  ["total"]= 0.4
+},
+[129] = {
+  ["phase"]= 9,
+  ["propId"]= 21,
+  ["propValue"]= 1125,
+  ["staticId"]= 129,
+  ["total"]= 0.45
+},
+[130] = {
+  ["phase"]= 10,
+  ["propId"]= 21,
+  ["propValue"]= 1375,
+  ["staticId"]= 130,
+  ["total"]= 0.5
+},
+[131] = {
+  ["phase"]= 11,
+  ["propId"]= 21,
+  ["propValue"]= 1650,
+  ["staticId"]= 131,
+  ["total"]= 0.55
+},
+[132] = {
+  ["phase"]= 12,
+  ["propId"]= 21,
+  ["propValue"]= 1950,
+  ["staticId"]= 132,
+  ["total"]= 0.6
+},
+[133] = {
+  ["phase"]= 13,
+  ["propId"]= 21,
+  ["propValue"]= 2275,
+  ["staticId"]= 133,
+  ["total"]= 0.65
+},
+[134] = {
+  ["phase"]= 14,
+  ["propId"]= 21,
+  ["propValue"]= 2625,
+  ["staticId"]= 134,
+  ["total"]= 0.7
+},
+[135] = {
+  ["phase"]= 15,
+  ["propId"]= 21,
+  ["propValue"]= 3000,
+  ["staticId"]= 135,
+  ["total"]= 0.75
+},
+[136] = {
+  ["phase"]= 16,
+  ["propId"]= 21,
+  ["propValue"]= 3400,
+  ["staticId"]= 136,
+  ["total"]= 0.8
+},
+[137] = {
+  ["phase"]= 17,
+  ["propId"]= 21,
+  ["propValue"]= 3825,
+  ["staticId"]= 137,
+  ["total"]= 0.85
+},
+[138] = {
+  ["phase"]= 18,
+  ["propId"]= 21,
+  ["propValue"]= 4275,
+  ["staticId"]= 138,
+  ["total"]= 0.9
+},
+[139] = {
+  ["phase"]= 19,
+  ["propId"]= 21,
+  ["propValue"]= 4750,
+  ["staticId"]= 139,
+  ["total"]= 0.95
+},
+[140] = {
+  ["phase"]= 20,
+  ["propId"]= 21,
+  ["propValue"]= 5250,
+  ["staticId"]= 140,
+  ["total"]= 1
+},
+[141] = {
+  ["propId"]= 31,
+  ["propValue"]= 25,
+  ["staticId"]= 141
+},
+[142] = {
+  ["phase"]= 2,
+  ["propId"]= 31,
+  ["propValue"]= 75,
+  ["staticId"]= 142,
+  ["total"]= 0.1
+},
+[143] = {
+  ["phase"]= 3,
+  ["propId"]= 31,
+  ["staticId"]= 143,
+  ["total"]= 0.15
+},
+[144] = {
+  ["phase"]= 4,
+  ["propId"]= 31,
+  ["propValue"]= 250,
+  ["staticId"]= 144,
+  ["total"]= 0.2
+},
+[145] = {
+  ["phase"]= 5,
+  ["propId"]= 31,
+  ["propValue"]= 375,
+  ["staticId"]= 145,
+  ["total"]= 0.25
+},
+[146] = {
+  ["phase"]= 6,
+  ["propId"]= 31,
+  ["propValue"]= 525,
+  ["staticId"]= 146,
+  ["total"]= 0.3
+},
+[147] = {
+  ["phase"]= 7,
+  ["propId"]= 31,
+  ["propValue"]= 700,
+  ["staticId"]= 147,
+  ["total"]= 0.35
+},
+[148] = {
+  ["phase"]= 8,
+  ["propId"]= 31,
+  ["propValue"]= 900,
+  ["staticId"]= 148,
+  ["total"]= 0.4
+},
+[149] = {
+  ["phase"]= 9,
+  ["propId"]= 31,
+  ["propValue"]= 1125,
+  ["staticId"]= 149,
+  ["total"]= 0.45
+},
+[150] = {
+  ["phase"]= 10,
+  ["propId"]= 31,
+  ["propValue"]= 1375,
+  ["staticId"]= 150,
+  ["total"]= 0.5
+},
+[151] = {
+  ["phase"]= 11,
+  ["propId"]= 31,
+  ["propValue"]= 1650,
+  ["staticId"]= 151,
+  ["total"]= 0.55
+},
+[152] = {
+  ["phase"]= 12,
+  ["propId"]= 31,
+  ["propValue"]= 1950,
+  ["staticId"]= 152,
+  ["total"]= 0.6
+},
+[153] = {
+  ["phase"]= 13,
+  ["propId"]= 31,
+  ["propValue"]= 2275,
+  ["staticId"]= 153,
+  ["total"]= 0.65
+},
+[154] = {
+  ["phase"]= 14,
+  ["propId"]= 31,
+  ["propValue"]= 2625,
+  ["staticId"]= 154,
+  ["total"]= 0.7
+},
+[155] = {
+  ["phase"]= 15,
+  ["propId"]= 31,
+  ["propValue"]= 3000,
+  ["staticId"]= 155,
+  ["total"]= 0.75
+},
+[156] = {
+  ["phase"]= 16,
+  ["propId"]= 31,
+  ["propValue"]= 3400,
+  ["staticId"]= 156,
+  ["total"]= 0.8
+},
+[157] = {
+  ["phase"]= 17,
+  ["propId"]= 31,
+  ["propValue"]= 3825,
+  ["staticId"]= 157,
+  ["total"]= 0.85
+},
+[158] = {
+  ["phase"]= 18,
+  ["propId"]= 31,
+  ["propValue"]= 4275,
+  ["staticId"]= 158,
+  ["total"]= 0.9
+},
+[159] = {
+  ["phase"]= 19,
+  ["propId"]= 31,
+  ["propValue"]= 4750,
+  ["staticId"]= 159,
+  ["total"]= 0.95
+},
+[160] = {
+  ["phase"]= 20,
+  ["propId"]= 31,
+  ["propValue"]= 5250,
+  ["staticId"]= 160,
+  ["total"]= 1
+},
+[161] = {
+  ["phaseValue"]= 0.001,
+  ["propId"]= 14,
+  ["propValue"]= 50,
+  ["staticId"]= 161
+},
+[162] = {
+  ["phase"]= 2,
+  ["phaseValue"]= 0.001,
+  ["propId"]= 14,
+  ["staticId"]= 162,
+  ["total"]= 0.1
+},
+[163] = {
+  ["phase"]= 3,
+  ["phaseValue"]= 0.001,
+  ["propId"]= 14,
+  ["propValue"]= 300,
+  ["staticId"]= 163,
+  ["total"]= 0.15
+},
+[164] = {
+  ["phase"]= 4,
+  ["phaseValue"]= 0.001,
+  ["propId"]= 14,
+  ["propValue"]= 500,
+  ["staticId"]= 164,
+  ["total"]= 0.2
+},
+[165] = {
+  ["phase"]= 5,
+  ["phaseValue"]= 0.001,
+  ["propId"]= 14,
+  ["propValue"]= 750,
+  ["staticId"]= 165,
+  ["total"]= 0.25
+},
+[166] = {
+  ["phase"]= 6,
+  ["phaseValue"]= 0.001,
+  ["propId"]= 14,
+  ["propValue"]= 1050,
+  ["staticId"]= 166,
+  ["total"]= 0.3
+},
+[167] = {
+  ["phase"]= 7,
+  ["phaseValue"]= 0.001,
+  ["propId"]= 14,
+  ["propValue"]= 1400,
+  ["staticId"]= 167,
+  ["total"]= 0.35
+},
+[168] = {
+  ["phase"]= 8,
+  ["phaseValue"]= 0.001,
+  ["propId"]= 14,
+  ["propValue"]= 1800,
+  ["staticId"]= 168,
+  ["total"]= 0.4
+},
+[169] = {
+  ["phase"]= 9,
+  ["phaseValue"]= 0.001,
+  ["propId"]= 14,
+  ["propValue"]= 2250,
+  ["staticId"]= 169,
+  ["total"]= 0.45
+},
+[170] = {
+  ["phase"]= 10,
+  ["phaseValue"]= 0.001,
+  ["propId"]= 14,
+  ["propValue"]= 2750,
+  ["staticId"]= 170,
+  ["total"]= 0.5
+},
+[171] = {
+  ["phase"]= 11,
+  ["phaseValue"]= 0.001,
+  ["propId"]= 14,
+  ["propValue"]= 3300,
+  ["staticId"]= 171,
+  ["total"]= 0.55
+},
+[172] = {
+  ["phase"]= 12,
+  ["phaseValue"]= 0.001,
+  ["propId"]= 14,
+  ["propValue"]= 3900,
+  ["staticId"]= 172,
+  ["total"]= 0.6
+},
+[173] = {
+  ["phase"]= 13,
+  ["phaseValue"]= 0.001,
+  ["propId"]= 14,
+  ["propValue"]= 4550,
+  ["staticId"]= 173,
+  ["total"]= 0.65
+},
+[174] = {
+  ["phase"]= 14,
+  ["phaseValue"]= 0.001,
+  ["propId"]= 14,
+  ["propValue"]= 5250,
+  ["staticId"]= 174,
+  ["total"]= 0.7
+},
+[175] = {
+  ["phase"]= 15,
+  ["phaseValue"]= 0.001,
+  ["propId"]= 14,
+  ["propValue"]= 6000,
+  ["staticId"]= 175,
+  ["total"]= 0.75
+},
+[176] = {
+  ["phase"]= 16,
+  ["phaseValue"]= 0.001,
+  ["propId"]= 14,
+  ["propValue"]= 6800,
+  ["staticId"]= 176,
+  ["total"]= 0.8
+},
+[177] = {
+  ["phase"]= 17,
+  ["phaseValue"]= 0.001,
+  ["propId"]= 14,
+  ["propValue"]= 7650,
+  ["staticId"]= 177,
+  ["total"]= 0.85
+},
+[178] = {
+  ["phase"]= 18,
+  ["phaseValue"]= 0.001,
+  ["propId"]= 14,
+  ["propValue"]= 8550,
+  ["staticId"]= 178,
+  ["total"]= 0.9
+},
+[179] = {
+  ["phase"]= 19,
+  ["phaseValue"]= 0.001,
+  ["propId"]= 14,
+  ["propValue"]= 9500,
+  ["staticId"]= 179,
+  ["total"]= 0.95
+},
+[180] = {
+  ["phase"]= 20,
+  ["phaseValue"]= 0.001,
+  ["propId"]= 14,
+  ["propValue"]= 10500,
+  ["staticId"]= 180,
+  ["total"]= 1
+},
+[181] = {
+  ["phaseValue"]= 0.001,
+  ["propId"]= 16,
+  ["propValue"]= 50,
+  ["staticId"]= 181
+},
+[182] = {
+  ["phase"]= 2,
+  ["phaseValue"]= 0.001,
+  ["propId"]= 16,
+  ["staticId"]= 182,
+  ["total"]= 0.1
+},
+[183] = {
+  ["phase"]= 3,
+  ["phaseValue"]= 0.001,
+  ["propId"]= 16,
+  ["propValue"]= 300,
+  ["staticId"]= 183,
+  ["total"]= 0.15
+},
+[184] = {
+  ["phase"]= 4,
+  ["phaseValue"]= 0.001,
+  ["propId"]= 16,
+  ["propValue"]= 500,
+  ["staticId"]= 184,
+  ["total"]= 0.2
+},
+[185] = {
+  ["phase"]= 5,
+  ["phaseValue"]= 0.001,
+  ["propId"]= 16,
+  ["propValue"]= 750,
+  ["staticId"]= 185,
+  ["total"]= 0.25
+},
+[186] = {
+  ["phase"]= 6,
+  ["phaseValue"]= 0.001,
+  ["propId"]= 16,
+  ["propValue"]= 1050,
+  ["staticId"]= 186,
+  ["total"]= 0.3
+},
+[187] = {
+  ["phase"]= 7,
+  ["phaseValue"]= 0.001,
+  ["propId"]= 16,
+  ["propValue"]= 1400,
+  ["staticId"]= 187,
+  ["total"]= 0.35
+},
+[188] = {
+  ["phase"]= 8,
+  ["phaseValue"]= 0.001,
+  ["propId"]= 16,
+  ["propValue"]= 1800,
+  ["staticId"]= 188,
+  ["total"]= 0.4
+},
+[189] = {
+  ["phase"]= 9,
+  ["phaseValue"]= 0.001,
+  ["propId"]= 16,
+  ["propValue"]= 2250,
+  ["staticId"]= 189,
+  ["total"]= 0.45
+},
+[190] = {
+  ["phase"]= 10,
+  ["phaseValue"]= 0.001,
+  ["propId"]= 16,
+  ["propValue"]= 2750,
+  ["staticId"]= 190,
+  ["total"]= 0.5
+},
+[191] = {
+  ["phase"]= 11,
+  ["phaseValue"]= 0.001,
+  ["propId"]= 16,
+  ["propValue"]= 3300,
+  ["staticId"]= 191,
+  ["total"]= 0.55
+},
+[192] = {
+  ["phase"]= 12,
+  ["phaseValue"]= 0.001,
+  ["propId"]= 16,
+  ["propValue"]= 3900,
+  ["staticId"]= 192,
+  ["total"]= 0.6
+},
+[193] = {
+  ["phase"]= 13,
+  ["phaseValue"]= 0.001,
+  ["propId"]= 16,
+  ["propValue"]= 4550,
+  ["staticId"]= 193,
+  ["total"]= 0.65
+},
+[194] = {
+  ["phase"]= 14,
+  ["phaseValue"]= 0.001,
+  ["propId"]= 16,
+  ["propValue"]= 5250,
+  ["staticId"]= 194,
+  ["total"]= 0.7
+},
+[195] = {
+  ["phase"]= 15,
+  ["phaseValue"]= 0.001,
+  ["propId"]= 16,
+  ["propValue"]= 6000,
+  ["staticId"]= 195,
+  ["total"]= 0.75
+},
+[196] = {
+  ["phase"]= 16,
+  ["phaseValue"]= 0.001,
+  ["propId"]= 16,
+  ["propValue"]= 6800,
+  ["staticId"]= 196,
+  ["total"]= 0.8
+},
+[197] = {
+  ["phase"]= 17,
+  ["phaseValue"]= 0.001,
+  ["propId"]= 16,
+  ["propValue"]= 7650,
+  ["staticId"]= 197,
+  ["total"]= 0.85
+},
+[198] = {
+  ["phase"]= 18,
+  ["phaseValue"]= 0.001,
+  ["propId"]= 16,
+  ["propValue"]= 8550,
+  ["staticId"]= 198,
+  ["total"]= 0.9
+},
+[199] = {
+  ["phase"]= 19,
+  ["phaseValue"]= 0.001,
+  ["propId"]= 16,
+  ["propValue"]= 9500,
+  ["staticId"]= 199,
+  ["total"]= 0.95
+},
+[200] = {
+  ["phase"]= 20,
+  ["phaseValue"]= 0.001,
+  ["propId"]= 16,
+  ["propValue"]= 10500,
+  ["staticId"]= 200,
+  ["total"]= 1
+}
+}
+local baseTable={
+  ["phase"]= 1,
+  ["phaseValue"]= 0.002,
+  ["propId"]= 23,
+  ["propValue"]= 150,
+  ["staticId"]= 1,
+  ["total"]= 0.05
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

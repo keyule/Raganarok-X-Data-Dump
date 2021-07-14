@@ -1,0 +1,38 @@
+TextAsset Base
+	string m_Name = "data_pettask_PetTask"
+	string m_Script = "return {
+[1] = {
+  ["Enengy"]= 60,
+  ["Fishing"]= 20,
+  ["Mine"]= 60,
+  ["MonsterBig"]= 120,
+  ["MonsterMid"]= 180,
+  ["MonsterSmall"]= 360,
+  ["Plant1"]= 60,
+  ["Plant10"]= 6,
+  ["Time"]= 1
+},
+[2] = {
+  ["Enengy"]= 120,
+  ["Fishing"]= 40,
+  ["Mine"]= 120,
+  ["MonsterBig"]= 240,
+  ["MonsterMid"]= 360,
+  ["MonsterSmall"]= 720,
+  ["Plant1"]= 120,
+  ["Plant10"]= 12,
+  ["Time"]= 2
+},
+[3] = {
+  ["Enengy"]= 180,
+  ["Fishing"]= 60,
+  ["Mine"]= 180,
+  ["MonsterBig"]= 360,
+  ["MonsterMid"]= 540,
+  ["MonsterSmall"]= 1080,
+  ["Plant1"]= 180,
+  ["Plant10"]= 18,
+  ["Time"]= 3
+}
+}
+"

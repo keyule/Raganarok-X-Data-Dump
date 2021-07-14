@@ -1,0 +1,49 @@
+TextAsset Base
+	string m_Name = "data_KvmRank_KvmRank"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["KvmPointLimit"]= 120,
+  ["MaxPoint"]= 1400,
+  ["MinPoint"]= 1101,
+  ["RankID"]= 2,
+  ["RankName"]= "RankName_2",
+  ["ResId"]= "Grade_shushou"
+},
+[3] = {
+  ["KvmPointLimit"]= 130,
+  ["MaxPoint"]= 1700,
+  ["MinPoint"]= 1401,
+  ["RankID"]= 3,
+  ["RankName"]= "RankName_3",
+  ["ResId"]= "Grade_douzhe"
+},
+[4] = {
+  ["KvmPointLimit"]= 140,
+  ["MaxPoint"]= 2000,
+  ["MinPoint"]= 1701,
+  ["RankID"]= 4,
+  ["RankName"]= "RankName_4",
+  ["ResId"]= "Grade_yongshi"
+},
+[5] = {
+  ["KvmPointLimit"]= 160,
+  ["MaxPoint"]= 99999,
+  ["MinPoint"]= 2001,
+  ["RankID"]= 5,
+  ["RankName"]= "RankName_5",
+  ["ResId"]= "Grade_dashi"
+}
+}
+local baseTable={
+  ["KvmPointLimit"]= 100,
+  ["MaxPoint"]= 1100,
+  ["MinPoint"]= 1,
+  ["RankID"]= 1,
+  ["RankName"]= "RankName_1",
+  ["ResId"]= "Grade_menxin"
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

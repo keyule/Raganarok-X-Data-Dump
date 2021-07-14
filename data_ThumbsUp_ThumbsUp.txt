@@ -1,0 +1,34 @@
+TextAsset Base
+	string m_Name = "data_ThumbsUp_ThumbsUp"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["Tips"]= "ThumbsUpTips2",
+  ["Type"]= 2
+},
+[3] = {
+  ["CurrencyId"]= 3,
+  ["CurrencyNums"]= 100,
+  ["DayMaxNum"]= 50,
+  ["Tips"]= "ThumbsUpTips3",
+  ["Type"]= 3
+},
+[4] = {
+  ["CurrencyId"]= 3,
+  ["CurrencyNums"]= 100,
+  ["DayMaxNum"]= 50,
+  ["Tips"]= "ThumbsUpTips4",
+  ["Type"]= 4
+}
+}
+local baseTable={
+  ["CurrencyId"]= 1,
+  ["CurrencyNums"]= 0,
+  ["DayMaxNum"]= 99999,
+  ["Tips"]= "ThumbsUpTips1",
+  ["Type"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

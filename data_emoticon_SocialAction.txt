@@ -1,0 +1,1096 @@
+TextAsset Base
+	string m_Name = "data_emoticon_SocialAction"
+	string m_Script = "local table= {
+[1] = {
+  ["distinguishSex"]= 1,
+  ["EffectId"]= 90002,
+  ["groupId"]= 528,
+  ["hasState"]= 0,
+  ["Icon"]= "01",
+  ["ListDisplay"]= 1,
+  ["randomPlay"]= 1,
+  ["sceneEffectSound"]= {
+    ["insideSound"]= 1,
+    ["soundDelay"]= 0.23,
+    ["soundID"]= "Action_HandHeart",
+    ["soundLoop"]= 0
+  },
+  ["SocialActionName"]= "SocialActionName_01",
+  ["sound"]= {
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0,
+      ["soundIDM"]= "Greet01_M",
+      ["soundIDW"]= "Greet01_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0,
+      ["soundIDM"]= "Greet02_M",
+      ["soundIDW"]= "Greet02_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0,
+      ["soundIDM"]= "",
+      ["soundIDW"]= "Greet03_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0,
+      ["soundIDM"]= "",
+      ["soundIDW"]= "Greet04_W",
+      ["soundLoop"]= 0
+    }
+  },
+  ["Times"]= 3,
+  ["UnableChangeScheme"]= 0
+},
+[2] = {
+  ["ActionName"]= "kiss",
+  ["EffectId"]= 90001,
+  ["groupId"]= 544,
+  ["hasState"]= 0,
+  ["Icon"]= "02",
+  ["id"]= 2,
+  ["ListDisplay"]= 1,
+  ["name"]= "飞吻",
+  ["randomPlay"]= 1,
+  ["sceneEffectSound"]= {
+    ["insideSound"]= 1,
+    ["soundDelay"]= 0.1,
+    ["soundID"]= "Action_Kiss",
+    ["soundLoop"]= 0
+  },
+  ["SocialActionName"]= "SocialActionName_02",
+  ["sound"]= {
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0.3,
+      ["soundIDM"]= "Kiss01_M",
+      ["soundIDW"]= "Kiss01_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0.3,
+      ["soundIDM"]= "Kiss02_M",
+      ["soundIDW"]= "Kiss02_W",
+      ["soundLoop"]= 0
+    }
+  },
+  ["Times"]= 2,
+  ["UnableChangeScheme"]= 0
+},
+[3] = {
+  ["ActionLoopName"]= "Lean_Loop",
+  ["ActionName"]= "Lean",
+  ["distinguishSex"]= 1,
+  ["groupId"]= 64,
+  ["Icon"]= "03",
+  ["id"]= 3,
+  ["ListDisplay"]= 1,
+  ["name"]= "壁咚",
+  ["SocialActionName"]= "SocialActionName_03",
+  ["sound"]= {
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0,
+      ["soundIDM"]= "Hey04_M",
+      ["soundIDW"]= "Force01_W",
+      ["soundLoop"]= 0
+    }
+  },
+  ["UnableChangeScheme"]= 0
+},
+[4] = {
+  ["ActionLoopName"]= "Lie_Loop",
+  ["ActionName"]= "Lie",
+  ["distinguishSex"]= 1,
+  ["groupId"]= 4,
+  ["Icon"]= "04",
+  ["id"]= 4,
+  ["ListDisplay"]= 1,
+  ["name"]= "躺",
+  ["randomPlay"]= 1,
+  ["SocialActionName"]= "SocialActionName_04",
+  ["sound"]= {
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0,
+      ["soundIDM"]= "Rest01_M",
+      ["soundIDW"]= "Rest01_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0,
+      ["soundIDM"]= "Rest05_M",
+      ["soundIDW"]= "Rest02_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0,
+      ["soundIDM"]= "Rest06_M",
+      ["soundIDW"]= "Rest03_W",
+      ["soundLoop"]= 0
+    }
+  },
+  ["UnableChangeScheme"]= 0
+},
+[5] = {
+  ["ActionLoopName"]= "Sit_Loop",
+  ["ActionName"]= "Sit",
+  ["ActionType"]= 1,
+  ["BuffId"]= 1996,
+  ["DistinguishJob"]= 1,
+  ["distinguishSex"]= 1,
+  ["groupId"]= 8,
+  ["Icon"]= "05",
+  ["id"]= 5,
+  ["IfCanSetStall"]= 1,
+  ["ListDisplay"]= 1,
+  ["name"]= "坐地上",
+  ["PermittedSteering"]= 1,
+  ["randomPlay"]= 1,
+  ["SocialActionName"]= "SocialActionName_05",
+  ["sound"]= {
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0,
+      ["soundIDM"]= "Rest01_M",
+      ["soundIDW"]= "Rest01_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0,
+      ["soundIDM"]= "Rest02_M",
+      ["soundIDW"]= "Rest02_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0,
+      ["soundIDM"]= "Rest03_M",
+      ["soundIDW"]= "Rest03_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0,
+      ["soundIDM"]= "Rest04_M",
+      ["soundIDW"]= "Rest04_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0,
+      ["soundIDM"]= "Rest05_M",
+      ["soundIDW"]= "Rest05_W",
+      ["soundLoop"]= 0
+    }
+  }
+},
+[6] = {
+  ["ActionLoopName"]= "ClimbUpLoop",
+  ["ActionName"]= "SpeelUp",
+  ["ActionPosition"]= 1,
+  ["id"]= 6,
+  ["IfNotCancelWhenEnterBattle"]= 1,
+  ["IfNotCancelWhenHit"]= 1,
+  ["IsDiscontinueAction"]= 0,
+  ["name"]= "向上攀爬",
+  ["sceneEffectSound"]= {
+    ["insideSound"]= 0,
+    ["soundDelay"]= 0,
+    ["soundID"]= "",
+    ["soundLoop"]= 0
+  }
+},
+[7] = {
+  ["ActionLoopName"]= "ClimbDownLoop",
+  ["ActionName"]= "SpeelDown",
+  ["ActionPosition"]= 1,
+  ["id"]= 7,
+  ["IfNotCancelWhenEnterBattle"]= 1,
+  ["IfNotCancelWhenHit"]= 1,
+  ["IsDiscontinueAction"]= 0,
+  ["name"]= "向下攀爬",
+  ["sceneEffectSound"]= {
+    ["insideSound"]= 0,
+    ["soundDelay"]= 0,
+    ["soundID"]= "",
+    ["soundLoop"]= 0
+  }
+},
+[8] = {
+  ["ActionLoopName"]= "cook_sit_Loop",
+  ["ActionName"]= "cook_sit",
+  ["ActionType"]= 2,
+  ["distinguishSex"]= 1,
+  ["id"]= 8,
+  ["name"]= "烹饪-坐下",
+  ["PermittedSteering"]= 1,
+  ["sceneEffectSound"]= {
+    ["insideSound"]= 0,
+    ["soundDelay"]= 0,
+    ["soundID"]= "",
+    ["soundLoop"]= 0
+  }
+},
+[9] = {
+  ["ActionLoopName"]= "cook_roastfish_Loop",
+  ["ActionName"]= "cook_roastfish",
+  ["ActionType"]= 2,
+  ["Binding"]= 1,
+  ["distinguishSex"]= 1,
+  ["id"]= 9,
+  ["ModelPath"]= 170003,
+  ["name"]= "烹饪-烤鱼",
+  ["sceneEffectSound"]= {
+    ["insideSound"]= 0,
+    ["soundDelay"]= 0,
+    ["soundID"]= "",
+    ["soundLoop"]= 0
+  }
+},
+[10] = {
+  ["ActionLoopName"]= "cook_finish_Loop",
+  ["ActionName"]= "cook_finish",
+  ["ActionType"]= 2,
+  ["Binding"]= 1,
+  ["distinguishSex"]= 1,
+  ["id"]= 10,
+  ["ModelPath"]= 170003,
+  ["name"]= "烹饪-收起烤鱼",
+  ["sceneEffectSound"]= {
+    ["insideSound"]= 0,
+    ["soundDelay"]= 0,
+    ["soundID"]= "",
+    ["soundLoop"]= 0
+  }
+},
+[11] = {
+  ["ActionLoopName"]= "fishing_start_Loop",
+  ["ActionName"]= "fishing_start",
+  ["ActionType"]= 3,
+  ["Binding"]= 2,
+  ["id"]= 11,
+  ["ModelAction"]= "fishing_start",
+  ["ModelActionLoop"]= "fishing_start_Loop",
+  ["ModelPath"]= 170002,
+  ["name"]= "钓鱼-拿出鱼竿",
+  ["PermittedSteering"]= 1,
+  ["sceneEffectSound"]= {
+    ["insideSound"]= 0,
+    ["soundDelay"]= 0,
+    ["soundID"]= "",
+    ["soundLoop"]= 0
+  }
+},
+[12] = {
+  ["ActionLoopName"]= "fishing_paogan_Loop",
+  ["ActionName"]= "fishing_paogan",
+  ["ActionType"]= 3,
+  ["Binding"]= 2,
+  ["id"]= 12,
+  ["ModelAction"]= "fishing_paogan",
+  ["ModelActionLoop"]= "fishing_paogan_Loop",
+  ["ModelPath"]= 170002,
+  ["name"]= "钓鱼-抛竿",
+  ["randomPlay"]= 1,
+  ["sceneEffectSound"]= {
+    ["insideSound"]= 0,
+    ["soundDelay"]= 0.35,
+    ["soundID"]= "Action_Fishing01",
+    ["soundLoop"]= 0
+  },
+  ["sound"]= {
+    {
+      ["insideSound"]= 0,
+      ["soundDelay"]= 0.3,
+      ["soundIDM"]= "Hey01_M",
+      ["soundIDW"]= "Hey01_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 0,
+      ["soundDelay"]= 0.3,
+      ["soundIDM"]= "Hey02_M",
+      ["soundIDW"]= "Hey02_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 0,
+      ["soundDelay"]= 0.3,
+      ["soundIDM"]= "Hey03_M",
+      ["soundIDW"]= "Hey03_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 0,
+      ["soundDelay"]= 0.3,
+      ["soundIDM"]= "Hey04_M",
+      ["soundIDW"]= "Hey04_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 0,
+      ["soundDelay"]= 0.3,
+      ["soundIDM"]= "Force07_M",
+      ["soundIDW"]= "",
+      ["soundLoop"]= 0
+    }
+  }
+},
+[13] = {
+  ["ActionLoopName"]= "fishing_start_Loop",
+  ["ActionName"]= "fishing_normalfish",
+  ["ActionType"]= 3,
+  ["Binding"]= 2,
+  ["id"]= 13,
+  ["ModelAction"]= "fishing_normalfish",
+  ["ModelActionLoop"]= "fishing_start_Loop",
+  ["ModelPath"]= 170002,
+  ["name"]= "钓鱼-钓起普通鱼",
+  ["randomPlay"]= 1,
+  ["sceneEffectSound"]= {
+    ["insideSound"]= 0,
+    ["soundDelay"]= 0,
+    ["soundID"]= "Action_Fishing02",
+    ["soundLoop"]= 0
+  },
+  ["sound"]= {
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0.2,
+      ["soundIDM"]= "Joy03_M",
+      ["soundIDW"]= "YeahHey01_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0.2,
+      ["soundIDM"]= "Joy04_M",
+      ["soundIDW"]= "Joy01_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0.2,
+      ["soundIDM"]= "Joy05_M",
+      ["soundIDW"]= "Joy02_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0.2,
+      ["soundIDM"]= "YeahHey01_M",
+      ["soundIDW"]= "YeahHey02_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0.2,
+      ["soundIDM"]= "Joy07_M",
+      ["soundIDW"]= "Joy04_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0.2,
+      ["soundIDM"]= "Greet02_M",
+      ["soundIDW"]= "Joy05_W",
+      ["soundLoop"]= 0
+    }
+  }
+},
+[14] = {
+  ["ActionLoopName"]= "fishing_start_Loop",
+  ["ActionName"]= "fishing_nothing",
+  ["ActionType"]= 3,
+  ["Binding"]= 2,
+  ["id"]= 14,
+  ["ModelAction"]= "fishing_nothing",
+  ["ModelActionLoop"]= "fishing_start_Loop",
+  ["ModelPath"]= 170002,
+  ["name"]= "钓鱼-一无所获",
+  ["randomPlay"]= 1,
+  ["sceneEffectSound"]= {
+    ["insideSound"]= 0,
+    ["soundDelay"]= 0,
+    ["soundID"]= "Action_Fishing02",
+    ["soundLoop"]= 0
+  },
+  ["sound"]= {
+    {
+      ["insideSound"]= 0,
+      ["soundDelay"]= 0.8,
+      ["soundIDM"]= "Sad01_M",
+      ["soundIDW"]= "Sad01_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 0,
+      ["soundDelay"]= 0.8,
+      ["soundIDM"]= "Sad02_M",
+      ["soundIDW"]= "Sad02_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 0,
+      ["soundDelay"]= 0.8,
+      ["soundIDM"]= "Sad03_M",
+      ["soundIDW"]= "Sad03_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 0,
+      ["soundDelay"]= 0.8,
+      ["soundIDM"]= "Sad04_M",
+      ["soundIDW"]= "Sad04_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 0,
+      ["soundDelay"]= 0.8,
+      ["soundIDM"]= "Sad05_M",
+      ["soundIDW"]= "Sad05_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 0,
+      ["soundDelay"]= 0.8,
+      ["soundIDM"]= "Sad06_M",
+      ["soundIDW"]= "Sad06_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 0,
+      ["soundDelay"]= 0.8,
+      ["soundIDM"]= "Sad07_M",
+      ["soundIDW"]= "Sad01_W",
+      ["soundLoop"]= 0
+    }
+  }
+},
+[15] = {
+  ["ActionName"]= "BiXin1",
+  ["distinguishSex"]= 1,
+  ["EffectId"]= 90003,
+  ["groupId"]= 514,
+  ["hasState"]= 0,
+  ["id"]= 15,
+  ["randomPlay"]= 1,
+  ["sound"]= {
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0,
+      ["soundIDM"]= "Greet01_M",
+      ["soundIDW"]= "Greet01_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0,
+      ["soundIDM"]= "Greet02_M",
+      ["soundIDW"]= "Greet02_W",
+      ["soundLoop"]= 1
+    },
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0,
+      ["soundIDM"]= "Greet01_M",
+      ["soundIDW"]= "Greet03_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0,
+      ["soundIDM"]= "Greet02_M",
+      ["soundIDW"]= "Greet04_W",
+      ["soundLoop"]= 0
+    }
+  },
+  ["UnableChangeScheme"]= 0
+},
+[16] = {
+  ["ActionName"]= "qingzhu",
+  ["ActionType"]= 4,
+  ["Distance"]= 11.5,
+  ["groupId"]= 136,
+  ["Icon"]= 16,
+  ["id"]= 16,
+  ["IfNotCancelWhenEnterBattle"]= 1,
+  ["IfNotCancelWhenHit"]= 1,
+  ["ListDisplay"]= 1,
+  ["name"]= "庆祝",
+  ["randomPlay"]= 1,
+  ["RunTimes"]= 3.433,
+  ["SocialActionName"]= "SocialActionName_16",
+  ["sound"]= {
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 2.43,
+      ["soundIDM"]= "Hey01_M",
+      ["soundIDW"]= "Hey01_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 2.43,
+      ["soundIDM"]= "YeahHey01_M",
+      ["soundIDW"]= "YeahHey02_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 2.43,
+      ["soundIDM"]= "Hey02_M",
+      ["soundIDW"]= "YeahHey02_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 2.43,
+      ["soundIDM"]= "Hey03_M",
+      ["soundIDW"]= "Hey03_W",
+      ["soundLoop"]= 0
+    }
+  },
+  ["Times"]= 3.433,
+  ["UnableChangeScheme"]= 0
+},
+[17] = {
+  ["ActionLoopName"]= "qiqiu_Loop",
+  ["ActionName"]= "qiqiu",
+  ["ActionType"]= 7,
+  ["Binding"]= 2,
+  ["groupId"]= 160,
+  ["Icon"]= 17,
+  ["id"]= 17,
+  ["IfNotCancelWhenEnterBattle"]= 1,
+  ["IfNotCancelWhenHit"]= 1,
+  ["ListDisplay"]= 1,
+  ["ModelAction"]= "qiqiu_Loop",
+  ["ModelActionLoop"]= "qiqiu_Loop",
+  ["ModelPath"]= "jiaohu_qiqiu",
+  ["name"]= "气球",
+  ["randomPlay"]= 1,
+  ["sceneEffectSound"]= {
+    ["insideSound"]= 1,
+    ["soundDelay"]= 0.27,
+    ["soundID"]= "Action_Balloon",
+    ["soundLoop"]= 0
+  },
+  ["SocialActionName"]= "SocialActionName_17",
+  ["sound"]= {
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0,
+      ["soundIDM"]= "Joy02_M",
+      ["soundIDW"]= "Joy01_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0,
+      ["soundIDM"]= "Joy05_M",
+      ["soundIDW"]= "Joy02_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0,
+      ["soundIDM"]= "Joy02_M",
+      ["soundIDW"]= "Joy03_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0,
+      ["soundIDM"]= "Joy08_M",
+      ["soundIDW"]= "Joy04_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0,
+      ["soundIDM"]= "Joy06_M",
+      ["soundIDW"]= "Joy05_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0,
+      ["soundIDM"]= "",
+      ["soundIDW"]= "YeahHey01_W",
+      ["soundLoop"]= 0
+    }
+  },
+  ["UnableChangeScheme"]= 0
+},
+[18] = {
+  ["ActionName"]= "backpack",
+  ["groupId"]= 264,
+  ["hasState"]= 0,
+  ["Icon"]= 18,
+  ["id"]= 18,
+  ["ListDisplay"]= 1,
+  ["name"]= "backpack",
+  ["randomPlay"]= 1,
+  ["SocialActionName"]= "SocialActionName_18",
+  ["sound"]= {
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0,
+      ["soundIDM"]= "Hum01_M",
+      ["soundIDW"]= "Hum01_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0,
+      ["soundIDM"]= "Hum02_M",
+      ["soundIDW"]= "Hum02_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0,
+      ["soundIDM"]= "Hum03_M",
+      ["soundIDW"]= "Hum03_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0,
+      ["soundIDM"]= "Hum04_M",
+      ["soundIDW"]= "Hum04_W",
+      ["soundLoop"]= 0
+    }
+  },
+  ["UnableChangeScheme"]= 0
+},
+[19] = {
+  ["ActionName"]= "spin",
+  ["groupId"]= 257,
+  ["hasState"]= 0,
+  ["Icon"]= 19,
+  ["id"]= 19,
+  ["ListDisplay"]= 1,
+  ["name"]= "旋转",
+  ["randomPlay"]= 1,
+  ["SocialActionName"]= "SocialActionName_19",
+  ["sound"]= {
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0,
+      ["soundIDM"]= "Hum01_M",
+      ["soundIDW"]= "Hum01_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0,
+      ["soundIDM"]= "Hum02_M",
+      ["soundIDW"]= "Hum02_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0,
+      ["soundIDM"]= "Hum03_M",
+      ["soundIDW"]= "Hum03_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0,
+      ["soundIDM"]= "Hum04_M",
+      ["soundIDW"]= "Hum04_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0,
+      ["soundIDM"]= "Joy05_M",
+      ["soundIDW"]= "Joy03_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0,
+      ["soundIDM"]= "Joy06_M",
+      ["soundIDW"]= "Joy04_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0,
+      ["soundIDM"]= "Joy07_M",
+      ["soundIDW"]= "Joy05_W",
+      ["soundLoop"]= 1
+    }
+  },
+  ["UnableChangeScheme"]= 0
+},
+[20] = {
+  ["ActionName"]= "jiangshi",
+  ["ActionType"]= 4,
+  ["BufferTime"]= 0.3,
+  ["CycleTime"]= 1.333,
+  ["Distance"]= 3,
+  ["groupId"]= 8,
+  ["Icon"]= 20,
+  ["id"]= 20,
+  ["IfNotCancelWhenEnterBattle"]= 1,
+  ["IfNotCancelWhenHit"]= 1,
+  ["ListDisplay"]= 1,
+  ["MoveTime"]= 0.667,
+  ["name"]= "僵尸跳",
+  ["randomPlay"]= 1,
+  ["RunTimes"]= 1.1,
+  ["sceneEffectSound"]= {
+    ["insideSound"]= 1,
+    ["soundDelay"]= 0,
+    ["soundID"]= "Action_Spring",
+    ["soundLoop"]= 0
+  },
+  ["SocialActionName"]= "SocialActionName_20",
+  ["Times"]= 4,
+  ["UnableChangeScheme"]= 0
+},
+[21] = {
+  ["ActionLoopName"]= "Fakedeath_Loop",
+  ["ActionName"]= "Fakedeath",
+  ["ActionPosition"]= 1,
+  ["BufferTime"]= 0.3,
+  ["BuffId"]= 10003031,
+  ["id"]= 21,
+  ["IfNotCancelWhenEnterBattle"]= 1,
+  ["IfNotCancelWhenHit"]= 1,
+  ["IfStopEyeAnimation"]= 1,
+  ["InterruptSkillId"]= 1000104,
+  ["name"]= "装死（从idle到趴下）",
+  ["randomPlay"]= 1,
+  ["sceneEffectSound"]= {
+    ["insideSound"]= 0,
+    ["soundDelay"]= 0,
+    ["soundID"]= "",
+    ["soundLoop"]= 0
+  }
+},
+[22] = {
+  ["ActionName"]= "Fakedeath_Getup",
+  ["ActionType"]= 1,
+  ["BufferTime"]= 0.3,
+  ["hasState"]= 0,
+  ["id"]= 22,
+  ["IfNotCancelWhenEnterBattle"]= 1,
+  ["IfNotCancelWhenHit"]= 1,
+  ["name"]= "装死（起身）",
+  ["sceneEffectSound"]= {
+    ["insideSound"]= 0,
+    ["soundDelay"]= 0,
+    ["soundID"]= "",
+    ["soundLoop"]= 0
+  }
+},
+[23] = {
+  ["ActionLoopName"]= "mining_stand_Loop",
+  ["ActionName"]= "mining_start",
+  ["ActionType"]= 3,
+  ["Binding"]= 2,
+  ["id"]= 23,
+  ["ModelPath"]= 170006,
+  ["name"]= "采矿-拿出镐-待命",
+  ["randomPlay"]= 1,
+  ["sceneEffectSound"]= {
+    ["insideSound"]= 0,
+    ["soundDelay"]= 0.39,
+    ["soundID"]= "Action_Wave",
+    ["soundLoop"]= 0
+  },
+  ["sound"]= {
+    {
+      ["insideSound"]= 0,
+      ["soundDelay"]= 0.35,
+      ["soundIDM"]= "Hey01_M",
+      ["soundIDW"]= "Hey01_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 0,
+      ["soundDelay"]= 0.35,
+      ["soundIDM"]= "Hey02_M",
+      ["soundIDW"]= "Hey02_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 0,
+      ["soundDelay"]= 0.35,
+      ["soundIDM"]= "Hey03_M",
+      ["soundIDW"]= "Hey01_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 0,
+      ["soundDelay"]= 0.35,
+      ["soundIDM"]= "Hey04_M",
+      ["soundIDW"]= "Hey02_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 0,
+      ["soundDelay"]= 0.35,
+      ["soundIDM"]= "Force05_M",
+      ["soundIDW"]= "Hey03_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 0,
+      ["soundDelay"]= 0.35,
+      ["soundIDM"]= "Force06_M",
+      ["soundIDW"]= "Hey04_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 0,
+      ["soundDelay"]= 0.35,
+      ["soundIDM"]= "Force07_M",
+      ["soundIDW"]= "",
+      ["soundLoop"]= 0
+    }
+  }
+},
+[24] = {
+  ["ActionLoopName"]= "mining_Loop",
+  ["ActionName"]= "mining_Loop",
+  ["ActionType"]= 3,
+  ["Binding"]= 2,
+  ["id"]= 24,
+  ["ModelPath"]= 170006,
+  ["name"]= "采矿中"
+},
+[25] = {
+  ["ActionName"]= "mining_end",
+  ["ActionType"]= 3,
+  ["Binding"]= 2,
+  ["hasState"]= 0,
+  ["id"]= 25,
+  ["ModelPath"]= 170006,
+  ["name"]= "采矿-收回矿镐"
+},
+[27] = {
+  ["ActionLoopName"]= "pick_loop",
+  ["ActionName"]= "pick_start",
+  ["ActionType"]= 5,
+  ["id"]= 27,
+  ["name"]= "园艺-蹲下-地上摸",
+  ["sceneEffectSound"]= {
+    ["insideSound"]= 0,
+    ["soundDelay"]= 0,
+    ["soundID"]= "Action_Gardening",
+    ["soundLoop"]= 1
+  }
+},
+[28] = {
+  ["ActionName"]= "pick_end",
+  ["ActionType"]= 5,
+  ["hasState"]= 0,
+  ["id"]= 28,
+  ["name"]= "园艺-采集结束"
+},
+[29] = {
+  ["ActionLoopName"]= "mining_stand_Loop",
+  ["ActionName"]= "mining_stand_Loop",
+  ["ActionType"]= 3,
+  ["Binding"]= 2,
+  ["id"]= 29,
+  ["ModelPath"]= 170006,
+  ["name"]= "采矿-暂停采矿"
+},
+[30] = {
+  ["ActionLoopName"]= "photo_startLoop",
+  ["ActionName"]= "photo_start",
+  ["Binding"]= 1,
+  ["distinguishSex"]= 1,
+  ["id"]= 30,
+  ["IfNotCancelWhenEnterBattle"]= 1,
+  ["IfNotCancelWhenHit"]= 1,
+  ["IsDiscontinueAction"]= 0,
+  ["ModelAction"]= "photo_start",
+  ["ModelActionLoop"]= "photo_startLoop",
+  ["ModelPath"]= 190002,
+  ["name"]= "拍照动作",
+  ["replaceIdle"]= "photo_startLoop",
+  ["UnableChangeScheme"]= 0
+},
+[31] = {
+  ["ActionLoopName"]= "photo_handup_loop",
+  ["ActionName"]= "photo_handup",
+  ["ActionType"]= 6,
+  ["distinguishSex"]= 1,
+  ["id"]= 31,
+  ["IfNotCancelWhenEnterBattle"]= 1,
+  ["IfNotCancelWhenHit"]= 1,
+  ["IsDiscontinueAction"]= 0,
+  ["ModelPath"]= 190001,
+  ["name"]= "自拍动作",
+  ["replaceIdle"]= "photo_handup_loop",
+  ["replaceRun"]= "MoveForward_photo",
+  ["UnableChangeScheme"]= 0
+},
+[32] = {
+  ["ActionLoopName"]= "Claphands_Loop",
+  ["ActionName"]= "Claphands",
+  ["distinguishSex"]= 1,
+  ["FemaleFacialExpressionId"]= 16,
+  ["groupId"]= 3,
+  ["Icon"]= 32,
+  ["id"]= 32,
+  ["ListDisplay"]= 1,
+  ["MaleFacialExpressionId"]= 6,
+  ["name"]= "拍手",
+  ["randomPlay"]= 1,
+  ["sceneEffectSound"]= {
+    ["insideSound"]= 1,
+    ["soundDelay"]= 0.8,
+    ["soundID"]= "Action_Clap",
+    ["soundLoop"]= 1
+  },
+  ["SocialActionName"]= "SocialActionName_32",
+  ["sound"]= {
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0,
+      ["soundIDM"]= "Praise01_M",
+      ["soundIDW"]= "Praise01_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0,
+      ["soundIDM"]= "Praise02_M",
+      ["soundIDW"]= "Praise02_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0,
+      ["soundIDM"]= "Praise03_M",
+      ["soundIDW"]= "Praise03_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0,
+      ["soundIDM"]= "Praise04_M",
+      ["soundIDW"]= "Praise04_W",
+      ["soundLoop"]= 0
+    },
+    {
+      ["insideSound"]= 1,
+      ["soundDelay"]= 0,
+      ["soundIDM"]= "",
+      ["soundIDW"]= "Praise05_W",
+      ["soundLoop"]= 0
+    }
+  },
+  ["UnableChangeScheme"]= 0
+},
+[33] = {
+  ["ActionLoopName"]= "Pray_Loop",
+  ["ActionName"]= "Pray",
+  ["groupId"]= 8,
+  ["Icon"]= "33",
+  ["id"]= 33,
+  ["name"]= "祈祷",
+  ["sceneEffectSound"]= {
+    ["insideSound"]= 0,
+    ["soundDelay"]= 0,
+    ["soundID"]= "",
+    ["soundLoop"]= 0
+  },
+  ["SocialActionName"]= "SocialActionName_33",
+  ["UnableChangeScheme"]= 0
+},
+[34] = {
+  ["ActionLoopName"]= "0",
+  ["ActionName"]= "0",
+  ["Icon"]= "34",
+  ["id"]= 34,
+  ["name"]= "双人动作判断条件用",
+  ["sceneEffectSound"]= {
+    ["insideSound"]= 0,
+    ["soundDelay"]= 0,
+    ["soundID"]= "",
+    ["soundLoop"]= 0
+  },
+  ["SocialActionName"]= "SocialActionName_34",
+  ["UnableChangeScheme"]= 0
+}
+}
+local baseTable={
+  ["ActionLoopName"]= "",
+  ["ActionName"]= "BiXin",
+  ["ActionPosition"]= 0,
+  ["ActionType"]= 0,
+  ["Binding"]= 0,
+  ["BufferTime"]= 0,
+  ["BuffId"]= 0,
+  ["CycleTime"]= 0,
+  ["Distance"]= 0,
+  ["DistinguishJob"]= 0,
+  ["distinguishSex"]= 0,
+  ["EffectId"]= 0,
+  ["FemaleFacialExpressionId"]= 0,
+  ["groupId"]= 0,
+  ["hasState"]= 1,
+  ["Icon"]= "",
+  ["id"]= 1,
+  ["IfCanSetStall"]= 0,
+  ["IfNotCancelWhenEnterBattle"]= 0,
+  ["IfNotCancelWhenHit"]= 0,
+  ["IfStopEyeAnimation"]= 0,
+  ["InterruptSkillId"]= 0,
+  ["IsCouple"]= 0,
+  ["IsDiscontinueAction"]= 1,
+  ["isLock"]= 0,
+  ["ListDisplay"]= 0,
+  ["lockTips"]= "",
+  ["MaleFacialExpressionId"]= 0,
+  ["ModelAction"]= "",
+  ["ModelActionLoop"]= "",
+  ["ModelPath"]= "",
+  ["MoveTime"]= 0,
+  ["name"]= "比心",
+  ["PermittedSteering"]= 0,
+  ["randomPlay"]= 0,
+  ["replaceIdle"]= "",
+  ["replaceRun"]= "",
+  ["RideOnMerryGoRound"]= 0,
+  ["RidingCondition"]= 0,
+  ["RunTimes"]= 0,
+  ["sceneEffectSound"]= {
+    ["insideSound"]= 1,
+    ["soundDelay"]= 0,
+    ["soundID"]= "",
+    ["soundLoop"]= 0
+  },
+  ["SceneInteraction"]= 0,
+  ["SocialActionName"]= "",
+  ["sound"]= {},
+  ["Times"]= 0,
+  ["UnableChangeScheme"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

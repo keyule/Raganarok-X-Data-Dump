@@ -1,0 +1,4705 @@
+TextAsset Base
+	string m_Name = "data_Adventure_Resonate"
+	string m_Script = "local table= {
+[1001] = {
+  ["EquipExtra"]= 0.1,
+  ["Group"]= 1,
+  ["IsEquipResonate"]= 1,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateTextDesc"]= "ResonateDesc_11",
+  ["TargetParameter"]= {
+    60,
+    30,
+    15
+  },
+  ["TargetType"]= 58,
+  ["Times"]= 2,
+  ["Type"]= 1,
+  ["TypeDesc"]= "TypeDesc_1"
+},
+[1002] = {
+  ["EquipExtra"]= 0.2,
+  ["Group"]= 1,
+  ["id"]= 1002,
+  ["IsEquipResonate"]= 1,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1002",
+  ["ResonateTextDesc"]= "ResonateDesc_12",
+  ["Seq"]= 2,
+  ["TargetParameter"]= {
+    80,
+    40,
+    20
+  },
+  ["TargetType"]= 58,
+  ["Times"]= 4,
+  ["Type"]= 1,
+  ["TypeDesc"]= "TypeDesc_1"
+},
+[1003] = {
+  ["EquipExtra"]= 0.3,
+  ["Group"]= 1,
+  ["id"]= 1003,
+  ["IsEquipResonate"]= 1,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1003",
+  ["ResonateTextDesc"]= "ResonateDesc_13",
+  ["Seq"]= 3,
+  ["TargetParameter"]= {
+    100,
+    50,
+    25
+  },
+  ["TargetType"]= 58,
+  ["Times"]= 6,
+  ["Type"]= 1,
+  ["TypeDesc"]= "TypeDesc_1"
+},
+[1004] = {
+  ["EquipExtra"]= 0.4,
+  ["Group"]= 1,
+  ["id"]= 1004,
+  ["IsEquipResonate"]= 1,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1004",
+  ["ResonateTextDesc"]= "ResonateDesc_14",
+  ["Seq"]= 4,
+  ["TargetParameter"]= {
+    120,
+    60,
+    30
+  },
+  ["TargetType"]= 58,
+  ["Type"]= 1,
+  ["TypeDesc"]= "TypeDesc_1"
+},
+[1005] = {
+  ["EquipExtra"]= 0.5,
+  ["Group"]= 2,
+  ["id"]= 1005,
+  ["IsEquipResonate"]= 1,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1005",
+  ["ResonateTextDesc"]= "ResonateDesc_15",
+  ["Seq"]= 5,
+  ["TargetParameter"]= {
+    140,
+    70,
+    35
+  },
+  ["TargetType"]= 58,
+  ["Type"]= 1,
+  ["TypeDesc"]= "TypeDesc_1"
+},
+[1006] = {
+  ["EquipExtra"]= 0.6,
+  ["Group"]= 2,
+  ["id"]= 1006,
+  ["IsEquipResonate"]= 1,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1006",
+  ["ResonateTextDesc"]= "ResonateDesc_16",
+  ["Seq"]= 6,
+  ["TargetParameter"]= {
+    160,
+    80,
+    40
+  },
+  ["TargetType"]= 58,
+  ["Type"]= 1,
+  ["TypeDesc"]= "TypeDesc_1"
+},
+[1007] = {
+  ["EquipExtra"]= 0.7,
+  ["Group"]= 2,
+  ["id"]= 1007,
+  ["IsEquipResonate"]= 1,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1007",
+  ["ResonateTextDesc"]= "ResonateDesc_17",
+  ["Seq"]= 7,
+  ["TargetParameter"]= {
+    180,
+    90,
+    45
+  },
+  ["TargetType"]= 58,
+  ["Type"]= 1,
+  ["TypeDesc"]= "TypeDesc_1"
+},
+[1008] = {
+  ["EquipExtra"]= 0.8,
+  ["Group"]= 2,
+  ["id"]= 1008,
+  ["IsEquipResonate"]= 1,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1008",
+  ["ResonateTextDesc"]= "ResonateDesc_18",
+  ["Seq"]= 8,
+  ["TargetParameter"]= {
+    200,
+    100,
+    50
+  },
+  ["TargetType"]= 58,
+  ["Type"]= 1,
+  ["TypeDesc"]= "TypeDesc_1"
+},
+[1009] = {
+  ["EquipExtra"]= 0.9,
+  ["Group"]= 3,
+  ["id"]= 1009,
+  ["IsEquipResonate"]= 1,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1009",
+  ["ResonateTextDesc"]= "ResonateDesc_19",
+  ["Seq"]= 9,
+  ["TargetParameter"]= {
+    220,
+    110,
+    55
+  },
+  ["TargetType"]= 58,
+  ["Type"]= 1,
+  ["TypeDesc"]= "TypeDesc_1"
+},
+[1010] = {
+  ["EquipExtra"]= 1,
+  ["Group"]= 3,
+  ["id"]= 1010,
+  ["IsEquipResonate"]= 1,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1010",
+  ["ResonateTextDesc"]= "ResonateDesc_20",
+  ["Seq"]= 10,
+  ["TargetParameter"]= {
+    240,
+    120,
+    60
+  },
+  ["TargetType"]= 58,
+  ["Type"]= 1,
+  ["TypeDesc"]= "TypeDesc_1"
+},
+[1013] = {
+  ["EquipExtra"]= 0.1,
+  ["Group"]= 1,
+  ["id"]= 1013,
+  ["IsEquipResonate"]= 1,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1016",
+  ["ResonateTextDesc"]= "ResonateDesc_21",
+  ["TargetParameter"]= {
+    18
+  },
+  ["TargetType"]= 34,
+  ["Times"]= 2,
+  ["Type"]= 2,
+  ["TypeDesc"]= "TypeDesc_2"
+},
+[1014] = {
+  ["EquipExtra"]= 0.2,
+  ["Group"]= 1,
+  ["id"]= 1014,
+  ["IsEquipResonate"]= 1,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1017",
+  ["ResonateTextDesc"]= "ResonateDesc_22",
+  ["Seq"]= 2,
+  ["TargetParameter"]= {
+    21
+  },
+  ["TargetType"]= 34,
+  ["Times"]= 4,
+  ["Type"]= 2,
+  ["TypeDesc"]= "TypeDesc_2"
+},
+[1015] = {
+  ["EquipExtra"]= 0.3,
+  ["Group"]= 1,
+  ["id"]= 1015,
+  ["IsEquipResonate"]= 1,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1018",
+  ["ResonateTextDesc"]= "ResonateDesc_23",
+  ["Seq"]= 3,
+  ["TargetParameter"]= {
+    24
+  },
+  ["TargetType"]= 34,
+  ["Times"]= 6,
+  ["Type"]= 2,
+  ["TypeDesc"]= "TypeDesc_2"
+},
+[1016] = {
+  ["EquipExtra"]= 0.4,
+  ["Group"]= 1,
+  ["id"]= 1016,
+  ["IsEquipResonate"]= 1,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1019",
+  ["ResonateTextDesc"]= "ResonateDesc_24",
+  ["Seq"]= 4,
+  ["TargetParameter"]= {
+    27
+  },
+  ["TargetType"]= 34,
+  ["Type"]= 2,
+  ["TypeDesc"]= "TypeDesc_2"
+},
+[1017] = {
+  ["EquipExtra"]= 0.5,
+  ["Group"]= 2,
+  ["id"]= 1017,
+  ["IsEquipResonate"]= 1,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1020",
+  ["ResonateTextDesc"]= "ResonateDesc_25",
+  ["Seq"]= 5,
+  ["TargetParameter"]= {
+    30
+  },
+  ["TargetType"]= 34,
+  ["Type"]= 2,
+  ["TypeDesc"]= "TypeDesc_2"
+},
+[1018] = {
+  ["EquipExtra"]= 0.6,
+  ["Group"]= 2,
+  ["id"]= 1018,
+  ["IsEquipResonate"]= 1,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1021",
+  ["ResonateTextDesc"]= "ResonateDesc_26",
+  ["Seq"]= 6,
+  ["TargetParameter"]= {
+    33
+  },
+  ["TargetType"]= 34,
+  ["Type"]= 2,
+  ["TypeDesc"]= "TypeDesc_3"
+},
+[1019] = {
+  ["EquipExtra"]= 0.7,
+  ["Group"]= 2,
+  ["id"]= 1019,
+  ["IsEquipResonate"]= 1,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1022",
+  ["ResonateTextDesc"]= "ResonateDesc_27",
+  ["Seq"]= 7,
+  ["TargetParameter"]= {
+    36
+  },
+  ["TargetType"]= 34,
+  ["Type"]= 2,
+  ["TypeDesc"]= "TypeDesc_3"
+},
+[1020] = {
+  ["EquipExtra"]= 0.8,
+  ["Group"]= 2,
+  ["id"]= 1020,
+  ["IsEquipResonate"]= 1,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1023",
+  ["ResonateTextDesc"]= "ResonateDesc_28",
+  ["Seq"]= 8,
+  ["TargetParameter"]= {
+    39
+  },
+  ["TargetType"]= 34,
+  ["Type"]= 2,
+  ["TypeDesc"]= "TypeDesc_3"
+},
+[1021] = {
+  ["EquipExtra"]= 0.9,
+  ["Group"]= 3,
+  ["id"]= 1021,
+  ["IsEquipResonate"]= 1,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1024",
+  ["ResonateTextDesc"]= "ResonateDesc_29",
+  ["Seq"]= 9,
+  ["TargetParameter"]= {
+    42
+  },
+  ["TargetType"]= 34,
+  ["Type"]= 2,
+  ["TypeDesc"]= "TypeDesc_3"
+},
+[1022] = {
+  ["EquipExtra"]= 1,
+  ["Group"]= 3,
+  ["id"]= 1022,
+  ["IsEquipResonate"]= 1,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1025",
+  ["ResonateTextDesc"]= "ResonateDesc_30",
+  ["Seq"]= 10,
+  ["TargetParameter"]= {
+    45
+  },
+  ["TargetType"]= 34,
+  ["Type"]= 2,
+  ["TypeDesc"]= "TypeDesc_3"
+},
+[1025] = {
+  ["EquipExtra"]= 0.1,
+  ["Group"]= 1,
+  ["id"]= 1025,
+  ["IsEquipResonate"]= 1,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1031",
+  ["ResonateTextDesc"]= "ResonateDesc_31",
+  ["TargetType"]= 35,
+  ["Times"]= 2,
+  ["Type"]= 3,
+  ["TypeDesc"]= "TypeDesc_3"
+},
+[1026] = {
+  ["EquipExtra"]= 0.2,
+  ["Group"]= 1,
+  ["id"]= 1026,
+  ["IsEquipResonate"]= 1,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1032",
+  ["ResonateTextDesc"]= "ResonateDesc_32",
+  ["Seq"]= 2,
+  ["TargetParameter"]= {
+    7
+  },
+  ["TargetType"]= 35,
+  ["Times"]= 4,
+  ["Type"]= 3,
+  ["TypeDesc"]= "TypeDesc_3"
+},
+[1027] = {
+  ["EquipExtra"]= 0.3,
+  ["Group"]= 1,
+  ["id"]= 1027,
+  ["IsEquipResonate"]= 1,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1033",
+  ["ResonateTextDesc"]= "ResonateDesc_33",
+  ["Seq"]= 3,
+  ["TargetParameter"]= {
+    8
+  },
+  ["TargetType"]= 35,
+  ["Times"]= 6,
+  ["Type"]= 3,
+  ["TypeDesc"]= "TypeDesc_3"
+},
+[1028] = {
+  ["EquipExtra"]= 0.4,
+  ["Group"]= 1,
+  ["id"]= 1028,
+  ["IsEquipResonate"]= 1,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1034",
+  ["ResonateTextDesc"]= "ResonateDesc_34",
+  ["Seq"]= 4,
+  ["TargetParameter"]= {
+    9
+  },
+  ["TargetType"]= 35,
+  ["Type"]= 3,
+  ["TypeDesc"]= "TypeDesc_3"
+},
+[1029] = {
+  ["EquipExtra"]= 0.5,
+  ["Group"]= 2,
+  ["id"]= 1029,
+  ["IsEquipResonate"]= 1,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1035",
+  ["ResonateTextDesc"]= "ResonateDesc_35",
+  ["Seq"]= 5,
+  ["TargetParameter"]= {
+    10
+  },
+  ["TargetType"]= 35,
+  ["Type"]= 3,
+  ["TypeDesc"]= "TypeDesc_3"
+},
+[1030] = {
+  ["EquipExtra"]= 0.6,
+  ["Group"]= 2,
+  ["id"]= 1030,
+  ["IsEquipResonate"]= 1,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1036",
+  ["ResonateTextDesc"]= "ResonateDesc_36",
+  ["Seq"]= 6,
+  ["TargetParameter"]= {
+    11
+  },
+  ["TargetType"]= 35,
+  ["Type"]= 3,
+  ["TypeDesc"]= "TypeDesc_3"
+},
+[1031] = {
+  ["EquipExtra"]= 0.7,
+  ["Group"]= 2,
+  ["id"]= 1031,
+  ["IsEquipResonate"]= 1,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1037",
+  ["ResonateTextDesc"]= "ResonateDesc_37",
+  ["Seq"]= 7,
+  ["TargetParameter"]= {
+    12
+  },
+  ["TargetType"]= 35,
+  ["Type"]= 3,
+  ["TypeDesc"]= "TypeDesc_3"
+},
+[1032] = {
+  ["EquipExtra"]= 0.8,
+  ["Group"]= 2,
+  ["id"]= 1032,
+  ["IsEquipResonate"]= 1,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1038",
+  ["ResonateTextDesc"]= "ResonateDesc_38",
+  ["Seq"]= 8,
+  ["TargetParameter"]= {
+    13
+  },
+  ["TargetType"]= 35,
+  ["Type"]= 3,
+  ["TypeDesc"]= "TypeDesc_3"
+},
+[1033] = {
+  ["EquipExtra"]= 0.9,
+  ["Group"]= 3,
+  ["id"]= 1033,
+  ["IsEquipResonate"]= 1,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1039",
+  ["ResonateTextDesc"]= "ResonateDesc_39",
+  ["Seq"]= 9,
+  ["TargetParameter"]= {
+    14
+  },
+  ["TargetType"]= 35,
+  ["Type"]= 3,
+  ["TypeDesc"]= "TypeDesc_3"
+},
+[1034] = {
+  ["EquipExtra"]= 1,
+  ["Group"]= 3,
+  ["id"]= 1034,
+  ["IsEquipResonate"]= 1,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1040",
+  ["ResonateTextDesc"]= "ResonateDesc_40",
+  ["Seq"]= 10,
+  ["TargetParameter"]= {
+    15
+  },
+  ["TargetType"]= 35,
+  ["Type"]= 3,
+  ["TypeDesc"]= "TypeDesc_3"
+},
+[1101] = {
+  ["id"]= 1101,
+  ["PropID"]= {
+    10
+  },
+  ["PropParam"]= 1.05,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1101",
+  ["TargetParameter"]= {
+    1
+  },
+  ["Times"]= 100
+},
+[1102] = {
+  ["id"]= 1102,
+  ["PropID"]= {
+    10
+  },
+  ["PropParam"]= 1.1,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1102",
+  ["Seq"]= 2,
+  ["TargetParameter"]= {
+    1
+  },
+  ["Times"]= 200
+},
+[1103] = {
+  ["id"]= 1103,
+  ["PropID"]= {
+    10
+  },
+  ["PropParam"]= 1.15,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1103",
+  ["Seq"]= 3,
+  ["TargetParameter"]= {
+    1
+  },
+  ["Times"]= 300
+},
+[1104] = {
+  ["id"]= 1104,
+  ["PropID"]= {
+    10
+  },
+  ["PropParam"]= 1.2,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1104",
+  ["Seq"]= 4,
+  ["TargetParameter"]= {
+    1
+  },
+  ["Times"]= 400
+},
+[1105] = {
+  ["id"]= 1105,
+  ["PropID"]= {
+    10
+  },
+  ["PropParam"]= 1.25,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1105",
+  ["Seq"]= 5,
+  ["TargetParameter"]= {
+    1
+  },
+  ["Times"]= 500
+},
+[1106] = {
+  ["id"]= 1106,
+  ["PropID"]= {
+    10
+  },
+  ["PropParam"]= 1.3,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1106",
+  ["Seq"]= 6,
+  ["TargetParameter"]= {
+    1
+  },
+  ["Times"]= 600
+},
+[1107] = {
+  ["id"]= 1107,
+  ["PropID"]= {
+    10
+  },
+  ["PropParam"]= 1.35,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1107",
+  ["Seq"]= 7,
+  ["TargetParameter"]= {
+    1
+  },
+  ["Times"]= 700
+},
+[1108] = {
+  ["id"]= 1108,
+  ["PropID"]= {
+    10
+  },
+  ["PropParam"]= 1.4,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1108",
+  ["Seq"]= 8,
+  ["TargetParameter"]= {
+    1
+  },
+  ["Times"]= 800
+},
+[1109] = {
+  ["id"]= 1109,
+  ["PropID"]= {
+    10
+  },
+  ["PropParam"]= 1.45,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1109",
+  ["Seq"]= 9,
+  ["TargetParameter"]= {
+    1
+  },
+  ["Times"]= 900
+},
+[1110] = {
+  ["id"]= 1110,
+  ["PropID"]= {
+    10
+  },
+  ["PropParam"]= 1.5,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1110",
+  ["Seq"]= 10,
+  ["TargetParameter"]= {
+    1
+  },
+  ["Times"]= 1000
+},
+[1111] = {
+  ["id"]= 1111,
+  ["PropID"]= {
+    10
+  },
+  ["PropParam"]= 1.55,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1111",
+  ["Seq"]= 11,
+  ["TargetParameter"]= {
+    1
+  },
+  ["Times"]= 1100
+},
+[1112] = {
+  ["id"]= 1112,
+  ["PropID"]= {
+    10
+  },
+  ["PropParam"]= 1.6,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1112",
+  ["Seq"]= 12,
+  ["TargetParameter"]= {
+    1
+  },
+  ["Times"]= 1200
+},
+[1113] = {
+  ["id"]= 1113,
+  ["PropID"]= {
+    10
+  },
+  ["PropParam"]= 1.65,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1113",
+  ["Seq"]= 13,
+  ["TargetParameter"]= {
+    1
+  },
+  ["Times"]= 1300
+},
+[1114] = {
+  ["id"]= 1114,
+  ["PropID"]= {
+    10
+  },
+  ["PropParam"]= 1.7,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1114",
+  ["Seq"]= 14,
+  ["TargetParameter"]= {
+    1
+  },
+  ["Times"]= 1400
+},
+[1115] = {
+  ["id"]= 1115,
+  ["PropID"]= {
+    10
+  },
+  ["PropParam"]= 1.75,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1115",
+  ["Seq"]= 15,
+  ["TargetParameter"]= {
+    1
+  },
+  ["Times"]= 1500
+},
+[1116] = {
+  ["id"]= 1116,
+  ["PropID"]= {
+    10
+  },
+  ["PropParam"]= 1.8,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1116",
+  ["Seq"]= 16,
+  ["TargetParameter"]= {
+    1
+  },
+  ["Times"]= 1600
+},
+[1117] = {
+  ["id"]= 1117,
+  ["PropID"]= {
+    10
+  },
+  ["PropParam"]= 1.85,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1117",
+  ["Seq"]= 17,
+  ["TargetParameter"]= {
+    1
+  },
+  ["Times"]= 1700
+},
+[1118] = {
+  ["id"]= 1118,
+  ["PropID"]= {
+    10
+  },
+  ["PropParam"]= 1.9,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1118",
+  ["Seq"]= 18,
+  ["TargetParameter"]= {
+    1
+  },
+  ["Times"]= 1800
+},
+[1119] = {
+  ["id"]= 1119,
+  ["PropID"]= {
+    10
+  },
+  ["PropParam"]= 1.95,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1119",
+  ["Seq"]= 19,
+  ["TargetParameter"]= {
+    1
+  },
+  ["Times"]= 1900
+},
+[1120] = {
+  ["id"]= 1120,
+  ["PropID"]= {
+    10
+  },
+  ["PropParam"]= 2,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1120",
+  ["Seq"]= 20,
+  ["TargetParameter"]= {
+    1
+  },
+  ["Times"]= 2000
+},
+[1121] = {
+  ["id"]= 1121,
+  ["PropID"]= {
+    10
+  },
+  ["PropParam"]= 2.05,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1121",
+  ["Seq"]= 21,
+  ["TargetParameter"]= {
+    1
+  },
+  ["Times"]= 2100
+},
+[1122] = {
+  ["id"]= 1122,
+  ["PropID"]= {
+    10
+  },
+  ["PropParam"]= 2.1,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1122",
+  ["Seq"]= 22,
+  ["TargetParameter"]= {
+    1
+  },
+  ["Times"]= 2200
+},
+[1123] = {
+  ["id"]= 1123,
+  ["PropID"]= {
+    10
+  },
+  ["PropParam"]= 2.15,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1123",
+  ["Seq"]= 23,
+  ["TargetParameter"]= {
+    1
+  },
+  ["Times"]= 2300
+},
+[1124] = {
+  ["id"]= 1124,
+  ["PropID"]= {
+    10
+  },
+  ["PropParam"]= 2.2,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1124",
+  ["Seq"]= 24,
+  ["TargetParameter"]= {
+    1
+  },
+  ["Times"]= 2400
+},
+[1125] = {
+  ["id"]= 1125,
+  ["PropID"]= {
+    10
+  },
+  ["PropParam"]= 2.25,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1125",
+  ["Seq"]= 25,
+  ["TargetParameter"]= {
+    1
+  },
+  ["Times"]= 2500
+},
+[1126] = {
+  ["id"]= 1126,
+  ["PropID"]= {
+    10
+  },
+  ["PropParam"]= 2.3,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1126",
+  ["Seq"]= 26,
+  ["TargetParameter"]= {
+    1
+  },
+  ["Times"]= 2600
+},
+[1127] = {
+  ["id"]= 1127,
+  ["PropID"]= {
+    10
+  },
+  ["PropParam"]= 2.35,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1127",
+  ["Seq"]= 27,
+  ["TargetParameter"]= {
+    1
+  },
+  ["Times"]= 2700
+},
+[1128] = {
+  ["id"]= 1128,
+  ["PropID"]= {
+    10
+  },
+  ["PropParam"]= 2.4,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1128",
+  ["Seq"]= 28,
+  ["TargetParameter"]= {
+    1
+  },
+  ["Times"]= 2800
+},
+[1129] = {
+  ["id"]= 1129,
+  ["PropID"]= {
+    10
+  },
+  ["PropParam"]= 2.45,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1129",
+  ["Seq"]= 29,
+  ["TargetParameter"]= {
+    1
+  },
+  ["Times"]= 2900
+},
+[1130] = {
+  ["id"]= 1130,
+  ["PropID"]= {
+    10
+  },
+  ["PropParam"]= 2.5,
+  ["PropValue"]= {
+    0
+  },
+  ["PropValueArcher"]= {
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1130",
+  ["Seq"]= 30,
+  ["TargetParameter"]= {
+    1
+  },
+  ["Times"]= 3000
+},
+[1201] = {
+  ["id"]= 1201,
+  ["PropID"]= {
+    14,
+    26
+  },
+  ["PropIDArcher"]= {
+    14,
+    26
+  },
+  ["PropParam"]= 1.05,
+  ["ResonateDesc"]= "ResonateDesc_1201",
+  ["TargetParameter"]= {
+    2
+  },
+  ["Times"]= 100,
+  ["Type"]= 5,
+  ["TypeDesc"]= "TypeDesc_5"
+},
+[1202] = {
+  ["id"]= 1202,
+  ["PropID"]= {
+    14,
+    26
+  },
+  ["PropIDArcher"]= {
+    14,
+    26
+  },
+  ["PropParam"]= 1.1,
+  ["ResonateDesc"]= "ResonateDesc_1202",
+  ["Seq"]= 2,
+  ["TargetParameter"]= {
+    2
+  },
+  ["Times"]= 200,
+  ["Type"]= 5,
+  ["TypeDesc"]= "TypeDesc_5"
+},
+[1203] = {
+  ["id"]= 1203,
+  ["PropID"]= {
+    14,
+    26
+  },
+  ["PropIDArcher"]= {
+    14,
+    26
+  },
+  ["PropParam"]= 1.15,
+  ["ResonateDesc"]= "ResonateDesc_1203",
+  ["Seq"]= 3,
+  ["TargetParameter"]= {
+    2
+  },
+  ["Times"]= 300,
+  ["Type"]= 5,
+  ["TypeDesc"]= "TypeDesc_5"
+},
+[1204] = {
+  ["id"]= 1204,
+  ["PropID"]= {
+    14,
+    26
+  },
+  ["PropIDArcher"]= {
+    14,
+    26
+  },
+  ["PropParam"]= 1.2,
+  ["ResonateDesc"]= "ResonateDesc_1204",
+  ["Seq"]= 4,
+  ["TargetParameter"]= {
+    2
+  },
+  ["Times"]= 400,
+  ["Type"]= 5,
+  ["TypeDesc"]= "TypeDesc_5"
+},
+[1205] = {
+  ["id"]= 1205,
+  ["PropID"]= {
+    14,
+    26
+  },
+  ["PropIDArcher"]= {
+    14,
+    26
+  },
+  ["PropParam"]= 1.25,
+  ["ResonateDesc"]= "ResonateDesc_1205",
+  ["Seq"]= 5,
+  ["TargetParameter"]= {
+    2
+  },
+  ["Times"]= 500,
+  ["Type"]= 5,
+  ["TypeDesc"]= "TypeDesc_5"
+},
+[1206] = {
+  ["id"]= 1206,
+  ["PropID"]= {
+    14,
+    26
+  },
+  ["PropIDArcher"]= {
+    14,
+    26
+  },
+  ["PropParam"]= 1.3,
+  ["ResonateDesc"]= "ResonateDesc_1206",
+  ["Seq"]= 6,
+  ["TargetParameter"]= {
+    2
+  },
+  ["Times"]= 600,
+  ["Type"]= 5,
+  ["TypeDesc"]= "TypeDesc_5"
+},
+[1207] = {
+  ["id"]= 1207,
+  ["PropID"]= {
+    14,
+    26
+  },
+  ["PropIDArcher"]= {
+    14,
+    26
+  },
+  ["PropParam"]= 1.35,
+  ["ResonateDesc"]= "ResonateDesc_1207",
+  ["Seq"]= 7,
+  ["TargetParameter"]= {
+    2
+  },
+  ["Times"]= 700,
+  ["Type"]= 5,
+  ["TypeDesc"]= "TypeDesc_5"
+},
+[1208] = {
+  ["id"]= 1208,
+  ["PropID"]= {
+    14,
+    26
+  },
+  ["PropIDArcher"]= {
+    14,
+    26
+  },
+  ["PropParam"]= 1.4,
+  ["ResonateDesc"]= "ResonateDesc_1208",
+  ["Seq"]= 8,
+  ["TargetParameter"]= {
+    2
+  },
+  ["Times"]= 800,
+  ["Type"]= 5,
+  ["TypeDesc"]= "TypeDesc_5"
+},
+[1209] = {
+  ["id"]= 1209,
+  ["PropID"]= {
+    14,
+    26
+  },
+  ["PropIDArcher"]= {
+    14,
+    26
+  },
+  ["PropParam"]= 1.45,
+  ["ResonateDesc"]= "ResonateDesc_1209",
+  ["Seq"]= 9,
+  ["TargetParameter"]= {
+    2
+  },
+  ["Times"]= 900,
+  ["Type"]= 5,
+  ["TypeDesc"]= "TypeDesc_5"
+},
+[1210] = {
+  ["id"]= 1210,
+  ["PropID"]= {
+    14,
+    26
+  },
+  ["PropIDArcher"]= {
+    14,
+    26
+  },
+  ["PropParam"]= 1.5,
+  ["ResonateDesc"]= "ResonateDesc_1210",
+  ["Seq"]= 10,
+  ["TargetParameter"]= {
+    2
+  },
+  ["Times"]= 1000,
+  ["Type"]= 5,
+  ["TypeDesc"]= "TypeDesc_5"
+},
+[1211] = {
+  ["id"]= 1211,
+  ["PropID"]= {
+    14,
+    26
+  },
+  ["PropIDArcher"]= {
+    14,
+    26
+  },
+  ["PropParam"]= 1.55,
+  ["ResonateDesc"]= "ResonateDesc_1211",
+  ["Seq"]= 11,
+  ["TargetParameter"]= {
+    2
+  },
+  ["Times"]= 1100,
+  ["Type"]= 5,
+  ["TypeDesc"]= "TypeDesc_5"
+},
+[1212] = {
+  ["id"]= 1212,
+  ["PropID"]= {
+    14,
+    26
+  },
+  ["PropIDArcher"]= {
+    14,
+    26
+  },
+  ["PropParam"]= 1.6,
+  ["ResonateDesc"]= "ResonateDesc_1212",
+  ["Seq"]= 12,
+  ["TargetParameter"]= {
+    2
+  },
+  ["Times"]= 1200,
+  ["Type"]= 5,
+  ["TypeDesc"]= "TypeDesc_5"
+},
+[1213] = {
+  ["id"]= 1213,
+  ["PropID"]= {
+    14,
+    26
+  },
+  ["PropIDArcher"]= {
+    14,
+    26
+  },
+  ["PropParam"]= 1.65,
+  ["ResonateDesc"]= "ResonateDesc_1213",
+  ["Seq"]= 13,
+  ["TargetParameter"]= {
+    2
+  },
+  ["Times"]= 1300,
+  ["Type"]= 5,
+  ["TypeDesc"]= "TypeDesc_5"
+},
+[1214] = {
+  ["id"]= 1214,
+  ["PropID"]= {
+    14,
+    26
+  },
+  ["PropIDArcher"]= {
+    14,
+    26
+  },
+  ["PropParam"]= 1.7,
+  ["ResonateDesc"]= "ResonateDesc_1214",
+  ["Seq"]= 14,
+  ["TargetParameter"]= {
+    2
+  },
+  ["Times"]= 1400,
+  ["Type"]= 5,
+  ["TypeDesc"]= "TypeDesc_5"
+},
+[1215] = {
+  ["id"]= 1215,
+  ["PropID"]= {
+    14,
+    26
+  },
+  ["PropIDArcher"]= {
+    14,
+    26
+  },
+  ["PropParam"]= 1.75,
+  ["ResonateDesc"]= "ResonateDesc_1215",
+  ["Seq"]= 15,
+  ["TargetParameter"]= {
+    2
+  },
+  ["Times"]= 1500,
+  ["Type"]= 5,
+  ["TypeDesc"]= "TypeDesc_5"
+},
+[1216] = {
+  ["id"]= 1216,
+  ["PropID"]= {
+    14,
+    26
+  },
+  ["PropIDArcher"]= {
+    14,
+    26
+  },
+  ["PropParam"]= 1.8,
+  ["ResonateDesc"]= "ResonateDesc_1216",
+  ["Seq"]= 16,
+  ["TargetParameter"]= {
+    2
+  },
+  ["Times"]= 1600,
+  ["Type"]= 5,
+  ["TypeDesc"]= "TypeDesc_5"
+},
+[1217] = {
+  ["id"]= 1217,
+  ["PropID"]= {
+    14,
+    26
+  },
+  ["PropIDArcher"]= {
+    14,
+    26
+  },
+  ["PropParam"]= 1.85,
+  ["ResonateDesc"]= "ResonateDesc_1217",
+  ["Seq"]= 17,
+  ["TargetParameter"]= {
+    2
+  },
+  ["Times"]= 1700,
+  ["Type"]= 5,
+  ["TypeDesc"]= "TypeDesc_5"
+},
+[1218] = {
+  ["id"]= 1218,
+  ["PropID"]= {
+    14,
+    26
+  },
+  ["PropIDArcher"]= {
+    14,
+    26
+  },
+  ["PropParam"]= 1.9,
+  ["ResonateDesc"]= "ResonateDesc_1218",
+  ["Seq"]= 18,
+  ["TargetParameter"]= {
+    2
+  },
+  ["Times"]= 1800,
+  ["Type"]= 5,
+  ["TypeDesc"]= "TypeDesc_5"
+},
+[1219] = {
+  ["id"]= 1219,
+  ["PropID"]= {
+    14,
+    26
+  },
+  ["PropIDArcher"]= {
+    14,
+    26
+  },
+  ["PropParam"]= 1.95,
+  ["ResonateDesc"]= "ResonateDesc_1219",
+  ["Seq"]= 19,
+  ["TargetParameter"]= {
+    2
+  },
+  ["Times"]= 1900,
+  ["Type"]= 5,
+  ["TypeDesc"]= "TypeDesc_5"
+},
+[1220] = {
+  ["id"]= 1220,
+  ["PropID"]= {
+    14,
+    26
+  },
+  ["PropIDArcher"]= {
+    14,
+    26
+  },
+  ["PropParam"]= 2,
+  ["ResonateDesc"]= "ResonateDesc_1220",
+  ["Seq"]= 20,
+  ["TargetParameter"]= {
+    2
+  },
+  ["Times"]= 2000,
+  ["Type"]= 5,
+  ["TypeDesc"]= "TypeDesc_5"
+},
+[1221] = {
+  ["id"]= 1221,
+  ["PropID"]= {
+    14,
+    26
+  },
+  ["PropIDArcher"]= {
+    14,
+    26
+  },
+  ["PropParam"]= 2.05,
+  ["ResonateDesc"]= "ResonateDesc_1221",
+  ["Seq"]= 21,
+  ["TargetParameter"]= {
+    2
+  },
+  ["Times"]= 2100,
+  ["Type"]= 5,
+  ["TypeDesc"]= "TypeDesc_5"
+},
+[1222] = {
+  ["id"]= 1222,
+  ["PropID"]= {
+    14,
+    26
+  },
+  ["PropIDArcher"]= {
+    14,
+    26
+  },
+  ["PropParam"]= 2.1,
+  ["ResonateDesc"]= "ResonateDesc_1222",
+  ["Seq"]= 22,
+  ["TargetParameter"]= {
+    2
+  },
+  ["Times"]= 2200,
+  ["Type"]= 5,
+  ["TypeDesc"]= "TypeDesc_5"
+},
+[1223] = {
+  ["id"]= 1223,
+  ["PropID"]= {
+    14,
+    26
+  },
+  ["PropIDArcher"]= {
+    14,
+    26
+  },
+  ["PropParam"]= 2.15,
+  ["ResonateDesc"]= "ResonateDesc_1223",
+  ["Seq"]= 23,
+  ["TargetParameter"]= {
+    2
+  },
+  ["Times"]= 2300,
+  ["Type"]= 5,
+  ["TypeDesc"]= "TypeDesc_5"
+},
+[1224] = {
+  ["id"]= 1224,
+  ["PropID"]= {
+    14,
+    26
+  },
+  ["PropIDArcher"]= {
+    14,
+    26
+  },
+  ["PropParam"]= 2.2,
+  ["ResonateDesc"]= "ResonateDesc_1224",
+  ["Seq"]= 24,
+  ["TargetParameter"]= {
+    2
+  },
+  ["Times"]= 2400,
+  ["Type"]= 5,
+  ["TypeDesc"]= "TypeDesc_5"
+},
+[1225] = {
+  ["id"]= 1225,
+  ["PropID"]= {
+    14,
+    26
+  },
+  ["PropIDArcher"]= {
+    14,
+    26
+  },
+  ["PropParam"]= 2.25,
+  ["ResonateDesc"]= "ResonateDesc_1225",
+  ["Seq"]= 25,
+  ["TargetParameter"]= {
+    2
+  },
+  ["Times"]= 2500,
+  ["Type"]= 5,
+  ["TypeDesc"]= "TypeDesc_5"
+},
+[1226] = {
+  ["id"]= 1226,
+  ["PropID"]= {
+    14,
+    26
+  },
+  ["PropIDArcher"]= {
+    14,
+    26
+  },
+  ["PropParam"]= 2.3,
+  ["ResonateDesc"]= "ResonateDesc_1226",
+  ["Seq"]= 26,
+  ["TargetParameter"]= {
+    2
+  },
+  ["Times"]= 2600,
+  ["Type"]= 5,
+  ["TypeDesc"]= "TypeDesc_5"
+},
+[1227] = {
+  ["id"]= 1227,
+  ["PropID"]= {
+    14,
+    26
+  },
+  ["PropIDArcher"]= {
+    14,
+    26
+  },
+  ["PropParam"]= 2.35,
+  ["ResonateDesc"]= "ResonateDesc_1227",
+  ["Seq"]= 27,
+  ["TargetParameter"]= {
+    2
+  },
+  ["Times"]= 2700,
+  ["Type"]= 5,
+  ["TypeDesc"]= "TypeDesc_5"
+},
+[1228] = {
+  ["id"]= 1228,
+  ["PropID"]= {
+    14,
+    26
+  },
+  ["PropIDArcher"]= {
+    14,
+    26
+  },
+  ["PropParam"]= 2.4,
+  ["ResonateDesc"]= "ResonateDesc_1228",
+  ["Seq"]= 28,
+  ["TargetParameter"]= {
+    2
+  },
+  ["Times"]= 2800,
+  ["Type"]= 5,
+  ["TypeDesc"]= "TypeDesc_5"
+},
+[1229] = {
+  ["id"]= 1229,
+  ["PropID"]= {
+    14,
+    26
+  },
+  ["PropIDArcher"]= {
+    14,
+    26
+  },
+  ["PropParam"]= 2.45,
+  ["ResonateDesc"]= "ResonateDesc_1229",
+  ["Seq"]= 29,
+  ["TargetParameter"]= {
+    2
+  },
+  ["Times"]= 2900,
+  ["Type"]= 5,
+  ["TypeDesc"]= "TypeDesc_5"
+},
+[1230] = {
+  ["id"]= 1230,
+  ["PropID"]= {
+    14,
+    26
+  },
+  ["PropIDArcher"]= {
+    14,
+    26
+  },
+  ["PropParam"]= 2.5,
+  ["ResonateDesc"]= "ResonateDesc_1230",
+  ["Seq"]= 30,
+  ["TargetParameter"]= {
+    2
+  },
+  ["Times"]= 3000,
+  ["Type"]= 5,
+  ["TypeDesc"]= "TypeDesc_5"
+},
+[1301] = {
+  ["id"]= 1301,
+  ["PropID"]= {
+    32,
+    23
+  },
+  ["PropIDArcher"]= {
+    32,
+    23
+  },
+  ["PropParam"]= 1.05,
+  ["ResonateDesc"]= "ResonateDesc_1301",
+  ["TargetParameter"]= {
+    3
+  },
+  ["Times"]= 100,
+  ["Type"]= 6,
+  ["TypeDesc"]= "TypeDesc_6"
+},
+[1302] = {
+  ["id"]= 1302,
+  ["PropID"]= {
+    32,
+    23
+  },
+  ["PropIDArcher"]= {
+    32,
+    23
+  },
+  ["PropParam"]= 1.1,
+  ["ResonateDesc"]= "ResonateDesc_1302",
+  ["Seq"]= 2,
+  ["TargetParameter"]= {
+    3
+  },
+  ["Times"]= 200,
+  ["Type"]= 6,
+  ["TypeDesc"]= "TypeDesc_6"
+},
+[1303] = {
+  ["id"]= 1303,
+  ["PropID"]= {
+    32,
+    23
+  },
+  ["PropIDArcher"]= {
+    32,
+    23
+  },
+  ["PropParam"]= 1.15,
+  ["ResonateDesc"]= "ResonateDesc_1303",
+  ["Seq"]= 3,
+  ["TargetParameter"]= {
+    3
+  },
+  ["Times"]= 300,
+  ["Type"]= 6,
+  ["TypeDesc"]= "TypeDesc_6"
+},
+[1304] = {
+  ["id"]= 1304,
+  ["PropID"]= {
+    32,
+    23
+  },
+  ["PropIDArcher"]= {
+    32,
+    23
+  },
+  ["PropParam"]= 1.2,
+  ["ResonateDesc"]= "ResonateDesc_1304",
+  ["Seq"]= 4,
+  ["TargetParameter"]= {
+    3
+  },
+  ["Times"]= 400,
+  ["Type"]= 6,
+  ["TypeDesc"]= "TypeDesc_6"
+},
+[1305] = {
+  ["id"]= 1305,
+  ["PropID"]= {
+    32,
+    23
+  },
+  ["PropIDArcher"]= {
+    32,
+    23
+  },
+  ["PropParam"]= 1.25,
+  ["ResonateDesc"]= "ResonateDesc_1305",
+  ["Seq"]= 5,
+  ["TargetParameter"]= {
+    3
+  },
+  ["Times"]= 500,
+  ["Type"]= 6,
+  ["TypeDesc"]= "TypeDesc_6"
+},
+[1306] = {
+  ["id"]= 1306,
+  ["PropID"]= {
+    32,
+    23
+  },
+  ["PropIDArcher"]= {
+    32,
+    23
+  },
+  ["PropParam"]= 1.3,
+  ["ResonateDesc"]= "ResonateDesc_1306",
+  ["Seq"]= 6,
+  ["TargetParameter"]= {
+    3
+  },
+  ["Times"]= 600,
+  ["Type"]= 6,
+  ["TypeDesc"]= "TypeDesc_6"
+},
+[1307] = {
+  ["id"]= 1307,
+  ["PropID"]= {
+    32,
+    23
+  },
+  ["PropIDArcher"]= {
+    32,
+    23
+  },
+  ["PropParam"]= 1.35,
+  ["ResonateDesc"]= "ResonateDesc_1307",
+  ["Seq"]= 7,
+  ["TargetParameter"]= {
+    3
+  },
+  ["Times"]= 700,
+  ["Type"]= 6,
+  ["TypeDesc"]= "TypeDesc_6"
+},
+[1308] = {
+  ["id"]= 1308,
+  ["PropID"]= {
+    32,
+    23
+  },
+  ["PropIDArcher"]= {
+    32,
+    23
+  },
+  ["PropParam"]= 1.4,
+  ["ResonateDesc"]= "ResonateDesc_1308",
+  ["Seq"]= 8,
+  ["TargetParameter"]= {
+    3
+  },
+  ["Times"]= 800,
+  ["Type"]= 6,
+  ["TypeDesc"]= "TypeDesc_6"
+},
+[1309] = {
+  ["id"]= 1309,
+  ["PropID"]= {
+    32,
+    23
+  },
+  ["PropIDArcher"]= {
+    32,
+    23
+  },
+  ["PropParam"]= 1.45,
+  ["ResonateDesc"]= "ResonateDesc_1309",
+  ["Seq"]= 9,
+  ["TargetParameter"]= {
+    3
+  },
+  ["Times"]= 900,
+  ["Type"]= 6,
+  ["TypeDesc"]= "TypeDesc_6"
+},
+[1310] = {
+  ["id"]= 1310,
+  ["PropID"]= {
+    32,
+    23
+  },
+  ["PropIDArcher"]= {
+    32,
+    23
+  },
+  ["PropParam"]= 1.5,
+  ["ResonateDesc"]= "ResonateDesc_1310",
+  ["Seq"]= 10,
+  ["TargetParameter"]= {
+    3
+  },
+  ["Times"]= 1000,
+  ["Type"]= 6,
+  ["TypeDesc"]= "TypeDesc_6"
+},
+[1311] = {
+  ["id"]= 1311,
+  ["PropID"]= {
+    32,
+    23
+  },
+  ["PropIDArcher"]= {
+    32,
+    23
+  },
+  ["PropParam"]= 1.55,
+  ["ResonateDesc"]= "ResonateDesc_1311",
+  ["Seq"]= 11,
+  ["TargetParameter"]= {
+    3
+  },
+  ["Times"]= 1100,
+  ["Type"]= 6,
+  ["TypeDesc"]= "TypeDesc_6"
+},
+[1312] = {
+  ["id"]= 1312,
+  ["PropID"]= {
+    32,
+    23
+  },
+  ["PropIDArcher"]= {
+    32,
+    23
+  },
+  ["PropParam"]= 1.6,
+  ["ResonateDesc"]= "ResonateDesc_1312",
+  ["Seq"]= 12,
+  ["TargetParameter"]= {
+    3
+  },
+  ["Times"]= 1200,
+  ["Type"]= 6,
+  ["TypeDesc"]= "TypeDesc_6"
+},
+[1313] = {
+  ["id"]= 1313,
+  ["PropID"]= {
+    32,
+    23
+  },
+  ["PropIDArcher"]= {
+    32,
+    23
+  },
+  ["PropParam"]= 1.65,
+  ["ResonateDesc"]= "ResonateDesc_1313",
+  ["Seq"]= 13,
+  ["TargetParameter"]= {
+    3
+  },
+  ["Times"]= 1300,
+  ["Type"]= 6,
+  ["TypeDesc"]= "TypeDesc_6"
+},
+[1314] = {
+  ["id"]= 1314,
+  ["PropID"]= {
+    32,
+    23
+  },
+  ["PropIDArcher"]= {
+    32,
+    23
+  },
+  ["PropParam"]= 1.7,
+  ["ResonateDesc"]= "ResonateDesc_1314",
+  ["Seq"]= 14,
+  ["TargetParameter"]= {
+    3
+  },
+  ["Times"]= 1400,
+  ["Type"]= 6,
+  ["TypeDesc"]= "TypeDesc_6"
+},
+[1315] = {
+  ["id"]= 1315,
+  ["PropID"]= {
+    32,
+    23
+  },
+  ["PropIDArcher"]= {
+    32,
+    23
+  },
+  ["PropParam"]= 1.75,
+  ["ResonateDesc"]= "ResonateDesc_1315",
+  ["Seq"]= 15,
+  ["TargetParameter"]= {
+    3
+  },
+  ["Times"]= 1500,
+  ["Type"]= 6,
+  ["TypeDesc"]= "TypeDesc_6"
+},
+[1316] = {
+  ["id"]= 1316,
+  ["PropID"]= {
+    32,
+    23
+  },
+  ["PropIDArcher"]= {
+    32,
+    23
+  },
+  ["PropParam"]= 1.8,
+  ["ResonateDesc"]= "ResonateDesc_1316",
+  ["Seq"]= 16,
+  ["TargetParameter"]= {
+    3
+  },
+  ["Times"]= 1600,
+  ["Type"]= 6,
+  ["TypeDesc"]= "TypeDesc_6"
+},
+[1317] = {
+  ["id"]= 1317,
+  ["PropID"]= {
+    32,
+    23
+  },
+  ["PropIDArcher"]= {
+    32,
+    23
+  },
+  ["PropParam"]= 1.85,
+  ["ResonateDesc"]= "ResonateDesc_1317",
+  ["Seq"]= 17,
+  ["TargetParameter"]= {
+    3
+  },
+  ["Times"]= 1700,
+  ["Type"]= 6,
+  ["TypeDesc"]= "TypeDesc_6"
+},
+[1318] = {
+  ["id"]= 1318,
+  ["PropID"]= {
+    32,
+    23
+  },
+  ["PropIDArcher"]= {
+    32,
+    23
+  },
+  ["PropParam"]= 1.9,
+  ["ResonateDesc"]= "ResonateDesc_1318",
+  ["Seq"]= 18,
+  ["TargetParameter"]= {
+    3
+  },
+  ["Times"]= 1800,
+  ["Type"]= 6,
+  ["TypeDesc"]= "TypeDesc_6"
+},
+[1319] = {
+  ["id"]= 1319,
+  ["PropID"]= {
+    32,
+    23
+  },
+  ["PropIDArcher"]= {
+    32,
+    23
+  },
+  ["PropParam"]= 1.95,
+  ["ResonateDesc"]= "ResonateDesc_1319",
+  ["Seq"]= 19,
+  ["TargetParameter"]= {
+    3
+  },
+  ["Times"]= 1900,
+  ["Type"]= 6,
+  ["TypeDesc"]= "TypeDesc_6"
+},
+[1320] = {
+  ["id"]= 1320,
+  ["PropID"]= {
+    32,
+    23
+  },
+  ["PropIDArcher"]= {
+    32,
+    23
+  },
+  ["PropParam"]= 2,
+  ["ResonateDesc"]= "ResonateDesc_1320",
+  ["Seq"]= 20,
+  ["TargetParameter"]= {
+    3
+  },
+  ["Times"]= 2000,
+  ["Type"]= 6,
+  ["TypeDesc"]= "TypeDesc_6"
+},
+[1321] = {
+  ["id"]= 1321,
+  ["PropID"]= {
+    32,
+    23
+  },
+  ["PropIDArcher"]= {
+    32,
+    23
+  },
+  ["PropParam"]= 2.05,
+  ["ResonateDesc"]= "ResonateDesc_1321",
+  ["Seq"]= 21,
+  ["TargetParameter"]= {
+    3
+  },
+  ["Times"]= 2100,
+  ["Type"]= 6,
+  ["TypeDesc"]= "TypeDesc_6"
+},
+[1322] = {
+  ["id"]= 1322,
+  ["PropID"]= {
+    32,
+    23
+  },
+  ["PropIDArcher"]= {
+    32,
+    23
+  },
+  ["PropParam"]= 2.1,
+  ["ResonateDesc"]= "ResonateDesc_1322",
+  ["Seq"]= 22,
+  ["TargetParameter"]= {
+    3
+  },
+  ["Times"]= 2200,
+  ["Type"]= 6,
+  ["TypeDesc"]= "TypeDesc_6"
+},
+[1323] = {
+  ["id"]= 1323,
+  ["PropID"]= {
+    32,
+    23
+  },
+  ["PropIDArcher"]= {
+    32,
+    23
+  },
+  ["PropParam"]= 2.15,
+  ["ResonateDesc"]= "ResonateDesc_1323",
+  ["Seq"]= 23,
+  ["TargetParameter"]= {
+    3
+  },
+  ["Times"]= 2300,
+  ["Type"]= 6,
+  ["TypeDesc"]= "TypeDesc_6"
+},
+[1324] = {
+  ["id"]= 1324,
+  ["PropID"]= {
+    32,
+    23
+  },
+  ["PropIDArcher"]= {
+    32,
+    23
+  },
+  ["PropParam"]= 2.2,
+  ["ResonateDesc"]= "ResonateDesc_1324",
+  ["Seq"]= 24,
+  ["TargetParameter"]= {
+    3
+  },
+  ["Times"]= 2400,
+  ["Type"]= 6,
+  ["TypeDesc"]= "TypeDesc_6"
+},
+[1325] = {
+  ["id"]= 1325,
+  ["PropID"]= {
+    32,
+    23
+  },
+  ["PropIDArcher"]= {
+    32,
+    23
+  },
+  ["PropParam"]= 2.25,
+  ["ResonateDesc"]= "ResonateDesc_1325",
+  ["Seq"]= 25,
+  ["TargetParameter"]= {
+    3
+  },
+  ["Times"]= 2500,
+  ["Type"]= 6,
+  ["TypeDesc"]= "TypeDesc_6"
+},
+[1326] = {
+  ["id"]= 1326,
+  ["PropID"]= {
+    32,
+    23
+  },
+  ["PropIDArcher"]= {
+    32,
+    23
+  },
+  ["PropParam"]= 2.3,
+  ["ResonateDesc"]= "ResonateDesc_1326",
+  ["Seq"]= 26,
+  ["TargetParameter"]= {
+    3
+  },
+  ["Times"]= 2600,
+  ["Type"]= 6,
+  ["TypeDesc"]= "TypeDesc_6"
+},
+[1327] = {
+  ["id"]= 1327,
+  ["PropID"]= {
+    32,
+    23
+  },
+  ["PropIDArcher"]= {
+    32,
+    23
+  },
+  ["PropParam"]= 2.35,
+  ["ResonateDesc"]= "ResonateDesc_1327",
+  ["Seq"]= 27,
+  ["TargetParameter"]= {
+    3
+  },
+  ["Times"]= 2700,
+  ["Type"]= 6,
+  ["TypeDesc"]= "TypeDesc_6"
+},
+[1328] = {
+  ["id"]= 1328,
+  ["PropID"]= {
+    32,
+    23
+  },
+  ["PropIDArcher"]= {
+    32,
+    23
+  },
+  ["PropParam"]= 2.4,
+  ["ResonateDesc"]= "ResonateDesc_1328",
+  ["Seq"]= 28,
+  ["TargetParameter"]= {
+    3
+  },
+  ["Times"]= 2800,
+  ["Type"]= 6,
+  ["TypeDesc"]= "TypeDesc_6"
+},
+[1329] = {
+  ["id"]= 1329,
+  ["PropID"]= {
+    32,
+    23
+  },
+  ["PropIDArcher"]= {
+    32,
+    23
+  },
+  ["PropParam"]= 2.45,
+  ["ResonateDesc"]= "ResonateDesc_1329",
+  ["Seq"]= 29,
+  ["TargetParameter"]= {
+    3
+  },
+  ["Times"]= 2900,
+  ["Type"]= 6,
+  ["TypeDesc"]= "TypeDesc_6"
+},
+[1330] = {
+  ["id"]= 1330,
+  ["PropID"]= {
+    32,
+    23
+  },
+  ["PropIDArcher"]= {
+    32,
+    23
+  },
+  ["PropParam"]= 2.5,
+  ["ResonateDesc"]= "ResonateDesc_1330",
+  ["Seq"]= 30,
+  ["TargetParameter"]= {
+    3
+  },
+  ["Times"]= 3000,
+  ["Type"]= 6,
+  ["TypeDesc"]= "TypeDesc_6"
+},
+[1401] = {
+  ["id"]= 1401,
+  ["PropID"]= {
+    33,
+    11,
+    24
+  },
+  ["PropIDArcher"]= {
+    33,
+    11,
+    24
+  },
+  ["PropParam"]= 1.05,
+  ["PropValue"]= {
+    0,
+    0,
+    0
+  },
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1401",
+  ["TargetParameter"]= {
+    4
+  },
+  ["Times"]= 100,
+  ["Type"]= 7,
+  ["TypeDesc"]= "TypeDesc_7"
+},
+[1402] = {
+  ["id"]= 1402,
+  ["PropID"]= {
+    33,
+    11,
+    24
+  },
+  ["PropIDArcher"]= {
+    33,
+    11,
+    24
+  },
+  ["PropParam"]= 1.1,
+  ["PropValue"]= {
+    0,
+    0,
+    0
+  },
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1402",
+  ["Seq"]= 2,
+  ["TargetParameter"]= {
+    4
+  },
+  ["Times"]= 200,
+  ["Type"]= 7,
+  ["TypeDesc"]= "TypeDesc_7"
+},
+[1403] = {
+  ["id"]= 1403,
+  ["PropID"]= {
+    33,
+    11,
+    24
+  },
+  ["PropIDArcher"]= {
+    33,
+    11,
+    24
+  },
+  ["PropParam"]= 1.15,
+  ["PropValue"]= {
+    0,
+    0,
+    0
+  },
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1403",
+  ["Seq"]= 3,
+  ["TargetParameter"]= {
+    4
+  },
+  ["Times"]= 300,
+  ["Type"]= 7,
+  ["TypeDesc"]= "TypeDesc_7"
+},
+[1404] = {
+  ["id"]= 1404,
+  ["PropID"]= {
+    33,
+    11,
+    24
+  },
+  ["PropIDArcher"]= {
+    33,
+    11,
+    24
+  },
+  ["PropParam"]= 1.2,
+  ["PropValue"]= {
+    0,
+    0,
+    0
+  },
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1404",
+  ["Seq"]= 4,
+  ["TargetParameter"]= {
+    4
+  },
+  ["Times"]= 400,
+  ["Type"]= 7,
+  ["TypeDesc"]= "TypeDesc_7"
+},
+[1405] = {
+  ["id"]= 1405,
+  ["PropID"]= {
+    33,
+    11,
+    24
+  },
+  ["PropIDArcher"]= {
+    33,
+    11,
+    24
+  },
+  ["PropParam"]= 1.25,
+  ["PropValue"]= {
+    0,
+    0,
+    0
+  },
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1405",
+  ["Seq"]= 5,
+  ["TargetParameter"]= {
+    4
+  },
+  ["Times"]= 500,
+  ["Type"]= 7,
+  ["TypeDesc"]= "TypeDesc_7"
+},
+[1406] = {
+  ["id"]= 1406,
+  ["PropID"]= {
+    33,
+    11,
+    24
+  },
+  ["PropIDArcher"]= {
+    33,
+    11,
+    24
+  },
+  ["PropParam"]= 1.3,
+  ["PropValue"]= {
+    0,
+    0,
+    0
+  },
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1406",
+  ["Seq"]= 6,
+  ["TargetParameter"]= {
+    4
+  },
+  ["Times"]= 600,
+  ["Type"]= 7,
+  ["TypeDesc"]= "TypeDesc_7"
+},
+[1407] = {
+  ["id"]= 1407,
+  ["PropID"]= {
+    33,
+    11,
+    24
+  },
+  ["PropIDArcher"]= {
+    33,
+    11,
+    24
+  },
+  ["PropParam"]= 1.35,
+  ["PropValue"]= {
+    0,
+    0,
+    0
+  },
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1407",
+  ["Seq"]= 7,
+  ["TargetParameter"]= {
+    4
+  },
+  ["Times"]= 700,
+  ["Type"]= 7,
+  ["TypeDesc"]= "TypeDesc_7"
+},
+[1408] = {
+  ["id"]= 1408,
+  ["PropID"]= {
+    33,
+    11,
+    24
+  },
+  ["PropIDArcher"]= {
+    33,
+    11,
+    24
+  },
+  ["PropParam"]= 1.4,
+  ["PropValue"]= {
+    0,
+    0,
+    0
+  },
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1408",
+  ["Seq"]= 8,
+  ["TargetParameter"]= {
+    4
+  },
+  ["Times"]= 800,
+  ["Type"]= 7,
+  ["TypeDesc"]= "TypeDesc_7"
+},
+[1409] = {
+  ["id"]= 1409,
+  ["PropID"]= {
+    33,
+    11,
+    24
+  },
+  ["PropIDArcher"]= {
+    33,
+    11,
+    24
+  },
+  ["PropParam"]= 1.45,
+  ["PropValue"]= {
+    0,
+    0,
+    0
+  },
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1409",
+  ["Seq"]= 9,
+  ["TargetParameter"]= {
+    4
+  },
+  ["Times"]= 900,
+  ["Type"]= 7,
+  ["TypeDesc"]= "TypeDesc_7"
+},
+[1410] = {
+  ["id"]= 1410,
+  ["PropID"]= {
+    33,
+    11,
+    24
+  },
+  ["PropIDArcher"]= {
+    33,
+    11,
+    24
+  },
+  ["PropParam"]= 1.5,
+  ["PropValue"]= {
+    0,
+    0,
+    0
+  },
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1410",
+  ["Seq"]= 10,
+  ["TargetParameter"]= {
+    4
+  },
+  ["Times"]= 1000,
+  ["Type"]= 7,
+  ["TypeDesc"]= "TypeDesc_7"
+},
+[1411] = {
+  ["id"]= 1411,
+  ["PropID"]= {
+    33,
+    11,
+    24
+  },
+  ["PropIDArcher"]= {
+    33,
+    11,
+    24
+  },
+  ["PropParam"]= 1.55,
+  ["PropValue"]= {
+    0,
+    0,
+    0
+  },
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1411",
+  ["Seq"]= 11,
+  ["TargetParameter"]= {
+    4
+  },
+  ["Times"]= 1100,
+  ["Type"]= 7,
+  ["TypeDesc"]= "TypeDesc_7"
+},
+[1412] = {
+  ["id"]= 1412,
+  ["PropID"]= {
+    33,
+    11,
+    24
+  },
+  ["PropIDArcher"]= {
+    33,
+    11,
+    24
+  },
+  ["PropParam"]= 1.6,
+  ["PropValue"]= {
+    0,
+    0,
+    0
+  },
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1412",
+  ["Seq"]= 12,
+  ["TargetParameter"]= {
+    4
+  },
+  ["Times"]= 1200,
+  ["Type"]= 7,
+  ["TypeDesc"]= "TypeDesc_7"
+},
+[1413] = {
+  ["id"]= 1413,
+  ["PropID"]= {
+    33,
+    11,
+    24
+  },
+  ["PropIDArcher"]= {
+    33,
+    11,
+    24
+  },
+  ["PropParam"]= 1.65,
+  ["PropValue"]= {
+    0,
+    0,
+    0
+  },
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1413",
+  ["Seq"]= 13,
+  ["TargetParameter"]= {
+    4
+  },
+  ["Times"]= 1300,
+  ["Type"]= 7,
+  ["TypeDesc"]= "TypeDesc_7"
+},
+[1414] = {
+  ["id"]= 1414,
+  ["PropID"]= {
+    33,
+    11,
+    24
+  },
+  ["PropIDArcher"]= {
+    33,
+    11,
+    24
+  },
+  ["PropParam"]= 1.7,
+  ["PropValue"]= {
+    0,
+    0,
+    0
+  },
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1414",
+  ["Seq"]= 14,
+  ["TargetParameter"]= {
+    4
+  },
+  ["Times"]= 1400,
+  ["Type"]= 7,
+  ["TypeDesc"]= "TypeDesc_7"
+},
+[1415] = {
+  ["id"]= 1415,
+  ["PropID"]= {
+    33,
+    11,
+    24
+  },
+  ["PropIDArcher"]= {
+    33,
+    11,
+    24
+  },
+  ["PropParam"]= 1.75,
+  ["PropValue"]= {
+    0,
+    0,
+    0
+  },
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1415",
+  ["Seq"]= 15,
+  ["TargetParameter"]= {
+    4
+  },
+  ["Times"]= 1500,
+  ["Type"]= 7,
+  ["TypeDesc"]= "TypeDesc_7"
+},
+[1416] = {
+  ["id"]= 1416,
+  ["PropID"]= {
+    33,
+    11,
+    24
+  },
+  ["PropIDArcher"]= {
+    33,
+    11,
+    24
+  },
+  ["PropParam"]= 1.8,
+  ["PropValue"]= {
+    0,
+    0,
+    0
+  },
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1416",
+  ["Seq"]= 16,
+  ["TargetParameter"]= {
+    4
+  },
+  ["Times"]= 1600,
+  ["Type"]= 7,
+  ["TypeDesc"]= "TypeDesc_7"
+},
+[1417] = {
+  ["id"]= 1417,
+  ["PropID"]= {
+    33,
+    11,
+    24
+  },
+  ["PropIDArcher"]= {
+    33,
+    11,
+    24
+  },
+  ["PropParam"]= 1.85,
+  ["PropValue"]= {
+    0,
+    0,
+    0
+  },
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1417",
+  ["Seq"]= 17,
+  ["TargetParameter"]= {
+    4
+  },
+  ["Times"]= 1700,
+  ["Type"]= 7,
+  ["TypeDesc"]= "TypeDesc_7"
+},
+[1418] = {
+  ["id"]= 1418,
+  ["PropID"]= {
+    33,
+    11,
+    24
+  },
+  ["PropIDArcher"]= {
+    33,
+    11,
+    24
+  },
+  ["PropParam"]= 1.9,
+  ["PropValue"]= {
+    0,
+    0,
+    0
+  },
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1418",
+  ["Seq"]= 18,
+  ["TargetParameter"]= {
+    4
+  },
+  ["Times"]= 1800,
+  ["Type"]= 7,
+  ["TypeDesc"]= "TypeDesc_7"
+},
+[1419] = {
+  ["id"]= 1419,
+  ["PropID"]= {
+    33,
+    11,
+    24
+  },
+  ["PropIDArcher"]= {
+    33,
+    11,
+    24
+  },
+  ["PropParam"]= 1.95,
+  ["PropValue"]= {
+    0,
+    0,
+    0
+  },
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1419",
+  ["Seq"]= 19,
+  ["TargetParameter"]= {
+    4
+  },
+  ["Times"]= 1900,
+  ["Type"]= 7,
+  ["TypeDesc"]= "TypeDesc_7"
+},
+[1420] = {
+  ["id"]= 1420,
+  ["PropID"]= {
+    33,
+    11,
+    24
+  },
+  ["PropIDArcher"]= {
+    33,
+    11,
+    24
+  },
+  ["PropParam"]= 2,
+  ["PropValue"]= {
+    0,
+    0,
+    0
+  },
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1420",
+  ["Seq"]= 20,
+  ["TargetParameter"]= {
+    4
+  },
+  ["Times"]= 2000,
+  ["Type"]= 7,
+  ["TypeDesc"]= "TypeDesc_7"
+},
+[1421] = {
+  ["id"]= 1421,
+  ["PropID"]= {
+    33,
+    11,
+    24
+  },
+  ["PropIDArcher"]= {
+    33,
+    11,
+    24
+  },
+  ["PropParam"]= 2.05,
+  ["PropValue"]= {
+    0,
+    0,
+    0
+  },
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1421",
+  ["Seq"]= 21,
+  ["TargetParameter"]= {
+    4
+  },
+  ["Times"]= 2100,
+  ["Type"]= 7,
+  ["TypeDesc"]= "TypeDesc_7"
+},
+[1422] = {
+  ["id"]= 1422,
+  ["PropID"]= {
+    33,
+    11,
+    24
+  },
+  ["PropIDArcher"]= {
+    33,
+    11,
+    24
+  },
+  ["PropParam"]= 2.1,
+  ["PropValue"]= {
+    0,
+    0,
+    0
+  },
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1422",
+  ["Seq"]= 22,
+  ["TargetParameter"]= {
+    4
+  },
+  ["Times"]= 2200,
+  ["Type"]= 7,
+  ["TypeDesc"]= "TypeDesc_7"
+},
+[1423] = {
+  ["id"]= 1423,
+  ["PropID"]= {
+    33,
+    11,
+    24
+  },
+  ["PropIDArcher"]= {
+    33,
+    11,
+    24
+  },
+  ["PropParam"]= 2.15,
+  ["PropValue"]= {
+    0,
+    0,
+    0
+  },
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1423",
+  ["Seq"]= 23,
+  ["TargetParameter"]= {
+    4
+  },
+  ["Times"]= 2300,
+  ["Type"]= 7,
+  ["TypeDesc"]= "TypeDesc_7"
+},
+[1424] = {
+  ["id"]= 1424,
+  ["PropID"]= {
+    33,
+    11,
+    24
+  },
+  ["PropIDArcher"]= {
+    33,
+    11,
+    24
+  },
+  ["PropParam"]= 2.2,
+  ["PropValue"]= {
+    0,
+    0,
+    0
+  },
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1424",
+  ["Seq"]= 24,
+  ["TargetParameter"]= {
+    4
+  },
+  ["Times"]= 2400,
+  ["Type"]= 7,
+  ["TypeDesc"]= "TypeDesc_7"
+},
+[1425] = {
+  ["id"]= 1425,
+  ["PropID"]= {
+    33,
+    11,
+    24
+  },
+  ["PropIDArcher"]= {
+    33,
+    11,
+    24
+  },
+  ["PropParam"]= 2.25,
+  ["PropValue"]= {
+    0,
+    0,
+    0
+  },
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1425",
+  ["Seq"]= 25,
+  ["TargetParameter"]= {
+    4
+  },
+  ["Times"]= 2500,
+  ["Type"]= 7,
+  ["TypeDesc"]= "TypeDesc_7"
+},
+[1426] = {
+  ["id"]= 1426,
+  ["PropID"]= {
+    33,
+    11,
+    24
+  },
+  ["PropIDArcher"]= {
+    33,
+    11,
+    24
+  },
+  ["PropParam"]= 2.3,
+  ["PropValue"]= {
+    0,
+    0,
+    0
+  },
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1426",
+  ["Seq"]= 26,
+  ["TargetParameter"]= {
+    4
+  },
+  ["Times"]= 2600,
+  ["Type"]= 7,
+  ["TypeDesc"]= "TypeDesc_7"
+},
+[1427] = {
+  ["id"]= 1427,
+  ["PropID"]= {
+    33,
+    11,
+    24
+  },
+  ["PropIDArcher"]= {
+    33,
+    11,
+    24
+  },
+  ["PropParam"]= 2.35,
+  ["PropValue"]= {
+    0,
+    0,
+    0
+  },
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1427",
+  ["Seq"]= 27,
+  ["TargetParameter"]= {
+    4
+  },
+  ["Times"]= 2700,
+  ["Type"]= 7,
+  ["TypeDesc"]= "TypeDesc_7"
+},
+[1428] = {
+  ["id"]= 1428,
+  ["PropID"]= {
+    33,
+    11,
+    24
+  },
+  ["PropIDArcher"]= {
+    33,
+    11,
+    24
+  },
+  ["PropParam"]= 2.4,
+  ["PropValue"]= {
+    0,
+    0,
+    0
+  },
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1428",
+  ["Seq"]= 28,
+  ["TargetParameter"]= {
+    4
+  },
+  ["Times"]= 2800,
+  ["Type"]= 7,
+  ["TypeDesc"]= "TypeDesc_7"
+},
+[1429] = {
+  ["id"]= 1429,
+  ["PropID"]= {
+    33,
+    11,
+    24
+  },
+  ["PropIDArcher"]= {
+    33,
+    11,
+    24
+  },
+  ["PropParam"]= 2.45,
+  ["PropValue"]= {
+    0,
+    0,
+    0
+  },
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1429",
+  ["Seq"]= 29,
+  ["TargetParameter"]= {
+    4
+  },
+  ["Times"]= 2900,
+  ["Type"]= 7,
+  ["TypeDesc"]= "TypeDesc_7"
+},
+[1430] = {
+  ["id"]= 1430,
+  ["PropID"]= {
+    33,
+    11,
+    24
+  },
+  ["PropIDArcher"]= {
+    33,
+    11,
+    24
+  },
+  ["PropParam"]= 2.5,
+  ["PropValue"]= {
+    0,
+    0,
+    0
+  },
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1430",
+  ["Seq"]= 30,
+  ["TargetParameter"]= {
+    4
+  },
+  ["Times"]= 3000,
+  ["Type"]= 7,
+  ["TypeDesc"]= "TypeDesc_7"
+},
+[1501] = {
+  ["id"]= 1501,
+  ["PropID"]= {
+    18,
+    16
+  },
+  ["PropIDArcher"]= {
+    10,
+    18,
+    16
+  },
+  ["PropParam"]= 1.05,
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1501",
+  ["TargetParameter"]= {
+    5
+  },
+  ["Times"]= 100,
+  ["Type"]= 8,
+  ["TypeDesc"]= "TypeDesc_8"
+},
+[1502] = {
+  ["id"]= 1502,
+  ["PropID"]= {
+    18,
+    16
+  },
+  ["PropIDArcher"]= {
+    10,
+    18,
+    16
+  },
+  ["PropParam"]= 1.1,
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1502",
+  ["Seq"]= 2,
+  ["TargetParameter"]= {
+    5
+  },
+  ["Times"]= 200,
+  ["Type"]= 8,
+  ["TypeDesc"]= "TypeDesc_8"
+},
+[1503] = {
+  ["id"]= 1503,
+  ["PropID"]= {
+    18,
+    16
+  },
+  ["PropIDArcher"]= {
+    10,
+    18,
+    16
+  },
+  ["PropParam"]= 1.15,
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1503",
+  ["Seq"]= 3,
+  ["TargetParameter"]= {
+    5
+  },
+  ["Times"]= 300,
+  ["Type"]= 8,
+  ["TypeDesc"]= "TypeDesc_8"
+},
+[1504] = {
+  ["id"]= 1504,
+  ["PropID"]= {
+    18,
+    16
+  },
+  ["PropIDArcher"]= {
+    10,
+    18,
+    16
+  },
+  ["PropParam"]= 1.2,
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1504",
+  ["Seq"]= 4,
+  ["TargetParameter"]= {
+    5
+  },
+  ["Times"]= 400,
+  ["Type"]= 8,
+  ["TypeDesc"]= "TypeDesc_8"
+},
+[1505] = {
+  ["id"]= 1505,
+  ["PropID"]= {
+    18,
+    16
+  },
+  ["PropIDArcher"]= {
+    10,
+    18,
+    16
+  },
+  ["PropParam"]= 1.25,
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1505",
+  ["Seq"]= 5,
+  ["TargetParameter"]= {
+    5
+  },
+  ["Times"]= 500,
+  ["Type"]= 8,
+  ["TypeDesc"]= "TypeDesc_8"
+},
+[1506] = {
+  ["id"]= 1506,
+  ["PropID"]= {
+    18,
+    16
+  },
+  ["PropIDArcher"]= {
+    10,
+    18,
+    16
+  },
+  ["PropParam"]= 1.3,
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1506",
+  ["Seq"]= 6,
+  ["TargetParameter"]= {
+    5
+  },
+  ["Times"]= 600,
+  ["Type"]= 8,
+  ["TypeDesc"]= "TypeDesc_8"
+},
+[1507] = {
+  ["id"]= 1507,
+  ["PropID"]= {
+    18,
+    16
+  },
+  ["PropIDArcher"]= {
+    10,
+    18,
+    16
+  },
+  ["PropParam"]= 1.35,
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1507",
+  ["Seq"]= 7,
+  ["TargetParameter"]= {
+    5
+  },
+  ["Times"]= 700,
+  ["Type"]= 8,
+  ["TypeDesc"]= "TypeDesc_8"
+},
+[1508] = {
+  ["id"]= 1508,
+  ["PropID"]= {
+    18,
+    16
+  },
+  ["PropIDArcher"]= {
+    10,
+    18,
+    16
+  },
+  ["PropParam"]= 1.4,
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1508",
+  ["Seq"]= 8,
+  ["TargetParameter"]= {
+    5
+  },
+  ["Times"]= 800,
+  ["Type"]= 8,
+  ["TypeDesc"]= "TypeDesc_8"
+},
+[1509] = {
+  ["id"]= 1509,
+  ["PropID"]= {
+    18,
+    16
+  },
+  ["PropIDArcher"]= {
+    10,
+    18,
+    16
+  },
+  ["PropParam"]= 1.45,
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1509",
+  ["Seq"]= 9,
+  ["TargetParameter"]= {
+    5
+  },
+  ["Times"]= 900,
+  ["Type"]= 8,
+  ["TypeDesc"]= "TypeDesc_8"
+},
+[1510] = {
+  ["id"]= 1510,
+  ["PropID"]= {
+    18,
+    16
+  },
+  ["PropIDArcher"]= {
+    10,
+    18,
+    16
+  },
+  ["PropParam"]= 1.5,
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1510",
+  ["Seq"]= 10,
+  ["TargetParameter"]= {
+    5
+  },
+  ["Times"]= 1000,
+  ["Type"]= 8,
+  ["TypeDesc"]= "TypeDesc_8"
+},
+[1511] = {
+  ["id"]= 1511,
+  ["PropID"]= {
+    18,
+    16
+  },
+  ["PropIDArcher"]= {
+    10,
+    18,
+    16
+  },
+  ["PropParam"]= 1.55,
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1511",
+  ["Seq"]= 11,
+  ["TargetParameter"]= {
+    5
+  },
+  ["Times"]= 1100,
+  ["Type"]= 8,
+  ["TypeDesc"]= "TypeDesc_8"
+},
+[1512] = {
+  ["id"]= 1512,
+  ["PropID"]= {
+    18,
+    16
+  },
+  ["PropIDArcher"]= {
+    10,
+    18,
+    16
+  },
+  ["PropParam"]= 1.6,
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1512",
+  ["Seq"]= 12,
+  ["TargetParameter"]= {
+    5
+  },
+  ["Times"]= 1200,
+  ["Type"]= 8,
+  ["TypeDesc"]= "TypeDesc_8"
+},
+[1513] = {
+  ["id"]= 1513,
+  ["PropID"]= {
+    18,
+    16
+  },
+  ["PropIDArcher"]= {
+    10,
+    18,
+    16
+  },
+  ["PropParam"]= 1.65,
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1513",
+  ["Seq"]= 13,
+  ["TargetParameter"]= {
+    5
+  },
+  ["Times"]= 1300,
+  ["Type"]= 8,
+  ["TypeDesc"]= "TypeDesc_8"
+},
+[1514] = {
+  ["id"]= 1514,
+  ["PropID"]= {
+    18,
+    16
+  },
+  ["PropIDArcher"]= {
+    10,
+    18,
+    16
+  },
+  ["PropParam"]= 1.7,
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1514",
+  ["Seq"]= 14,
+  ["TargetParameter"]= {
+    5
+  },
+  ["Times"]= 1400,
+  ["Type"]= 8,
+  ["TypeDesc"]= "TypeDesc_8"
+},
+[1515] = {
+  ["id"]= 1515,
+  ["PropID"]= {
+    18,
+    16
+  },
+  ["PropIDArcher"]= {
+    10,
+    18,
+    16
+  },
+  ["PropParam"]= 1.75,
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1515",
+  ["Seq"]= 15,
+  ["TargetParameter"]= {
+    5
+  },
+  ["Times"]= 1500,
+  ["Type"]= 8,
+  ["TypeDesc"]= "TypeDesc_8"
+},
+[1516] = {
+  ["id"]= 1516,
+  ["PropID"]= {
+    18,
+    16
+  },
+  ["PropIDArcher"]= {
+    10,
+    18,
+    16
+  },
+  ["PropParam"]= 1.8,
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1516",
+  ["Seq"]= 16,
+  ["TargetParameter"]= {
+    5
+  },
+  ["Times"]= 1600,
+  ["Type"]= 8,
+  ["TypeDesc"]= "TypeDesc_8"
+},
+[1517] = {
+  ["id"]= 1517,
+  ["PropID"]= {
+    18,
+    16
+  },
+  ["PropIDArcher"]= {
+    10,
+    18,
+    16
+  },
+  ["PropParam"]= 1.85,
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1517",
+  ["Seq"]= 17,
+  ["TargetParameter"]= {
+    5
+  },
+  ["Times"]= 1700,
+  ["Type"]= 8,
+  ["TypeDesc"]= "TypeDesc_8"
+},
+[1518] = {
+  ["id"]= 1518,
+  ["PropID"]= {
+    18,
+    16
+  },
+  ["PropIDArcher"]= {
+    10,
+    18,
+    16
+  },
+  ["PropParam"]= 1.9,
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1518",
+  ["Seq"]= 18,
+  ["TargetParameter"]= {
+    5
+  },
+  ["Times"]= 1800,
+  ["Type"]= 8,
+  ["TypeDesc"]= "TypeDesc_8"
+},
+[1519] = {
+  ["id"]= 1519,
+  ["PropID"]= {
+    18,
+    16
+  },
+  ["PropIDArcher"]= {
+    10,
+    18,
+    16
+  },
+  ["PropParam"]= 1.95,
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1519",
+  ["Seq"]= 19,
+  ["TargetParameter"]= {
+    5
+  },
+  ["Times"]= 1900,
+  ["Type"]= 8,
+  ["TypeDesc"]= "TypeDesc_8"
+},
+[1520] = {
+  ["id"]= 1520,
+  ["PropID"]= {
+    18,
+    16
+  },
+  ["PropIDArcher"]= {
+    10,
+    18,
+    16
+  },
+  ["PropParam"]= 2,
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1520",
+  ["Seq"]= 20,
+  ["TargetParameter"]= {
+    5
+  },
+  ["Times"]= 2000,
+  ["Type"]= 8,
+  ["TypeDesc"]= "TypeDesc_8"
+},
+[1521] = {
+  ["id"]= 1521,
+  ["PropID"]= {
+    18,
+    16
+  },
+  ["PropIDArcher"]= {
+    10,
+    18,
+    16
+  },
+  ["PropParam"]= 2.05,
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1521",
+  ["Seq"]= 21,
+  ["TargetParameter"]= {
+    5
+  },
+  ["Times"]= 2100,
+  ["Type"]= 8,
+  ["TypeDesc"]= "TypeDesc_8"
+},
+[1522] = {
+  ["id"]= 1522,
+  ["PropID"]= {
+    18,
+    16
+  },
+  ["PropIDArcher"]= {
+    10,
+    18,
+    16
+  },
+  ["PropParam"]= 2.1,
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1522",
+  ["Seq"]= 22,
+  ["TargetParameter"]= {
+    5
+  },
+  ["Times"]= 2200,
+  ["Type"]= 8,
+  ["TypeDesc"]= "TypeDesc_8"
+},
+[1523] = {
+  ["id"]= 1523,
+  ["PropID"]= {
+    18,
+    16
+  },
+  ["PropIDArcher"]= {
+    10,
+    18,
+    16
+  },
+  ["PropParam"]= 2.15,
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1523",
+  ["Seq"]= 23,
+  ["TargetParameter"]= {
+    5
+  },
+  ["Times"]= 2300,
+  ["Type"]= 8,
+  ["TypeDesc"]= "TypeDesc_8"
+},
+[1524] = {
+  ["id"]= 1524,
+  ["PropID"]= {
+    18,
+    16
+  },
+  ["PropIDArcher"]= {
+    10,
+    18,
+    16
+  },
+  ["PropParam"]= 2.2,
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1524",
+  ["Seq"]= 24,
+  ["TargetParameter"]= {
+    5
+  },
+  ["Times"]= 2400,
+  ["Type"]= 8,
+  ["TypeDesc"]= "TypeDesc_8"
+},
+[1525] = {
+  ["id"]= 1525,
+  ["PropID"]= {
+    18,
+    16
+  },
+  ["PropIDArcher"]= {
+    10,
+    18,
+    16
+  },
+  ["PropParam"]= 2.25,
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1525",
+  ["Seq"]= 25,
+  ["TargetParameter"]= {
+    5
+  },
+  ["Times"]= 2500,
+  ["Type"]= 8,
+  ["TypeDesc"]= "TypeDesc_8"
+},
+[1526] = {
+  ["id"]= 1526,
+  ["PropID"]= {
+    18,
+    16
+  },
+  ["PropIDArcher"]= {
+    10,
+    18,
+    16
+  },
+  ["PropParam"]= 2.3,
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1526",
+  ["Seq"]= 26,
+  ["TargetParameter"]= {
+    5
+  },
+  ["Times"]= 2600,
+  ["Type"]= 8,
+  ["TypeDesc"]= "TypeDesc_8"
+},
+[1527] = {
+  ["id"]= 1527,
+  ["PropID"]= {
+    18,
+    16
+  },
+  ["PropIDArcher"]= {
+    10,
+    18,
+    16
+  },
+  ["PropParam"]= 2.35,
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1527",
+  ["Seq"]= 27,
+  ["TargetParameter"]= {
+    5
+  },
+  ["Times"]= 2700,
+  ["Type"]= 8,
+  ["TypeDesc"]= "TypeDesc_8"
+},
+[1528] = {
+  ["id"]= 1528,
+  ["PropID"]= {
+    18,
+    16
+  },
+  ["PropIDArcher"]= {
+    10,
+    18,
+    16
+  },
+  ["PropParam"]= 2.4,
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1528",
+  ["Seq"]= 28,
+  ["TargetParameter"]= {
+    5
+  },
+  ["Times"]= 2800,
+  ["Type"]= 8,
+  ["TypeDesc"]= "TypeDesc_8"
+},
+[1529] = {
+  ["id"]= 1529,
+  ["PropID"]= {
+    18,
+    16
+  },
+  ["PropIDArcher"]= {
+    10,
+    18,
+    16
+  },
+  ["PropParam"]= 2.45,
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1529",
+  ["Seq"]= 29,
+  ["TargetParameter"]= {
+    5
+  },
+  ["Times"]= 2900,
+  ["Type"]= 8,
+  ["TypeDesc"]= "TypeDesc_8"
+},
+[1530] = {
+  ["id"]= 1530,
+  ["PropID"]= {
+    18,
+    16
+  },
+  ["PropIDArcher"]= {
+    10,
+    18,
+    16
+  },
+  ["PropParam"]= 2.5,
+  ["PropValueArcher"]= {
+    0,
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1530",
+  ["Seq"]= 30,
+  ["TargetParameter"]= {
+    5
+  },
+  ["Times"]= 3000,
+  ["Type"]= 8,
+  ["TypeDesc"]= "TypeDesc_8"
+},
+[1601] = {
+  ["id"]= 1601,
+  ["PropID"]= {
+    21,
+    31
+  },
+  ["PropIDArcher"]= {
+    21,
+    31
+  },
+  ["PropParam"]= 1.05,
+  ["ResonateDesc"]= "ResonateDesc_1601",
+  ["Times"]= 100,
+  ["Type"]= 9,
+  ["TypeDesc"]= "TypeDesc_9"
+},
+[1602] = {
+  ["id"]= 1602,
+  ["PropID"]= {
+    21,
+    31
+  },
+  ["PropIDArcher"]= {
+    21,
+    31
+  },
+  ["PropParam"]= 1.1,
+  ["ResonateDesc"]= "ResonateDesc_1602",
+  ["Seq"]= 2,
+  ["Times"]= 200,
+  ["Type"]= 9,
+  ["TypeDesc"]= "TypeDesc_9"
+},
+[1603] = {
+  ["id"]= 1603,
+  ["PropID"]= {
+    21,
+    31
+  },
+  ["PropIDArcher"]= {
+    21,
+    31
+  },
+  ["PropParam"]= 1.15,
+  ["ResonateDesc"]= "ResonateDesc_1603",
+  ["Seq"]= 3,
+  ["Times"]= 300,
+  ["Type"]= 9,
+  ["TypeDesc"]= "TypeDesc_9"
+},
+[1604] = {
+  ["id"]= 1604,
+  ["PropID"]= {
+    21,
+    31
+  },
+  ["PropIDArcher"]= {
+    21,
+    31
+  },
+  ["PropParam"]= 1.2,
+  ["ResonateDesc"]= "ResonateDesc_1604",
+  ["Seq"]= 4,
+  ["Times"]= 400,
+  ["Type"]= 9,
+  ["TypeDesc"]= "TypeDesc_9"
+},
+[1605] = {
+  ["id"]= 1605,
+  ["PropID"]= {
+    21,
+    31
+  },
+  ["PropIDArcher"]= {
+    21,
+    31
+  },
+  ["PropParam"]= 1.25,
+  ["ResonateDesc"]= "ResonateDesc_1605",
+  ["Seq"]= 5,
+  ["Times"]= 500,
+  ["Type"]= 9,
+  ["TypeDesc"]= "TypeDesc_9"
+},
+[1606] = {
+  ["id"]= 1606,
+  ["PropID"]= {
+    21,
+    31
+  },
+  ["PropIDArcher"]= {
+    21,
+    31
+  },
+  ["PropParam"]= 1.3,
+  ["ResonateDesc"]= "ResonateDesc_1606",
+  ["Seq"]= 6,
+  ["Times"]= 600,
+  ["Type"]= 9,
+  ["TypeDesc"]= "TypeDesc_9"
+},
+[1607] = {
+  ["id"]= 1607,
+  ["PropID"]= {
+    21,
+    31
+  },
+  ["PropIDArcher"]= {
+    21,
+    31
+  },
+  ["PropParam"]= 1.35,
+  ["ResonateDesc"]= "ResonateDesc_1607",
+  ["Seq"]= 7,
+  ["Times"]= 700,
+  ["Type"]= 9,
+  ["TypeDesc"]= "TypeDesc_9"
+},
+[1608] = {
+  ["id"]= 1608,
+  ["PropID"]= {
+    21,
+    31
+  },
+  ["PropIDArcher"]= {
+    21,
+    31
+  },
+  ["PropParam"]= 1.4,
+  ["ResonateDesc"]= "ResonateDesc_1608",
+  ["Seq"]= 8,
+  ["Times"]= 800,
+  ["Type"]= 9,
+  ["TypeDesc"]= "TypeDesc_9"
+},
+[1609] = {
+  ["id"]= 1609,
+  ["PropID"]= {
+    21,
+    31
+  },
+  ["PropIDArcher"]= {
+    21,
+    31
+  },
+  ["PropParam"]= 1.45,
+  ["ResonateDesc"]= "ResonateDesc_1609",
+  ["Seq"]= 9,
+  ["Times"]= 900,
+  ["Type"]= 9,
+  ["TypeDesc"]= "TypeDesc_9"
+},
+[1610] = {
+  ["id"]= 1610,
+  ["PropID"]= {
+    21,
+    31
+  },
+  ["PropIDArcher"]= {
+    21,
+    31
+  },
+  ["PropParam"]= 1.5,
+  ["ResonateDesc"]= "ResonateDesc_1610",
+  ["Seq"]= 10,
+  ["Times"]= 1000,
+  ["Type"]= 9,
+  ["TypeDesc"]= "TypeDesc_9"
+},
+[1611] = {
+  ["id"]= 1611,
+  ["PropID"]= {
+    21,
+    31
+  },
+  ["PropIDArcher"]= {
+    21,
+    31
+  },
+  ["PropParam"]= 1.55,
+  ["ResonateDesc"]= "ResonateDesc_1611",
+  ["Seq"]= 11,
+  ["Times"]= 1100,
+  ["Type"]= 9,
+  ["TypeDesc"]= "TypeDesc_9"
+},
+[1612] = {
+  ["id"]= 1612,
+  ["PropID"]= {
+    21,
+    31
+  },
+  ["PropIDArcher"]= {
+    21,
+    31
+  },
+  ["PropParam"]= 1.6,
+  ["ResonateDesc"]= "ResonateDesc_1612",
+  ["Seq"]= 12,
+  ["Times"]= 1200,
+  ["Type"]= 9,
+  ["TypeDesc"]= "TypeDesc_9"
+},
+[1613] = {
+  ["id"]= 1613,
+  ["PropID"]= {
+    21,
+    31
+  },
+  ["PropIDArcher"]= {
+    21,
+    31
+  },
+  ["PropParam"]= 1.65,
+  ["ResonateDesc"]= "ResonateDesc_1613",
+  ["Seq"]= 13,
+  ["Times"]= 1300,
+  ["Type"]= 9,
+  ["TypeDesc"]= "TypeDesc_9"
+},
+[1614] = {
+  ["id"]= 1614,
+  ["PropID"]= {
+    21,
+    31
+  },
+  ["PropIDArcher"]= {
+    21,
+    31
+  },
+  ["PropParam"]= 1.7,
+  ["ResonateDesc"]= "ResonateDesc_1614",
+  ["Seq"]= 14,
+  ["Times"]= 1400,
+  ["Type"]= 9,
+  ["TypeDesc"]= "TypeDesc_9"
+},
+[1615] = {
+  ["id"]= 1615,
+  ["PropID"]= {
+    21,
+    31
+  },
+  ["PropIDArcher"]= {
+    21,
+    31
+  },
+  ["PropParam"]= 1.75,
+  ["ResonateDesc"]= "ResonateDesc_1615",
+  ["Seq"]= 15,
+  ["Times"]= 1500,
+  ["Type"]= 9,
+  ["TypeDesc"]= "TypeDesc_9"
+},
+[1616] = {
+  ["id"]= 1616,
+  ["PropID"]= {
+    21,
+    31
+  },
+  ["PropIDArcher"]= {
+    21,
+    31
+  },
+  ["PropParam"]= 1.8,
+  ["ResonateDesc"]= "ResonateDesc_1616",
+  ["Seq"]= 16,
+  ["Times"]= 1600,
+  ["Type"]= 9,
+  ["TypeDesc"]= "TypeDesc_9"
+},
+[1617] = {
+  ["id"]= 1617,
+  ["PropID"]= {
+    21,
+    31
+  },
+  ["PropIDArcher"]= {
+    21,
+    31
+  },
+  ["PropParam"]= 1.85,
+  ["ResonateDesc"]= "ResonateDesc_1617",
+  ["Seq"]= 17,
+  ["Times"]= 1700,
+  ["Type"]= 9,
+  ["TypeDesc"]= "TypeDesc_9"
+},
+[1618] = {
+  ["id"]= 1618,
+  ["PropID"]= {
+    21,
+    31
+  },
+  ["PropIDArcher"]= {
+    21,
+    31
+  },
+  ["PropParam"]= 1.9,
+  ["ResonateDesc"]= "ResonateDesc_1618",
+  ["Seq"]= 18,
+  ["Times"]= 1800,
+  ["Type"]= 9,
+  ["TypeDesc"]= "TypeDesc_9"
+},
+[1619] = {
+  ["id"]= 1619,
+  ["PropID"]= {
+    21,
+    31
+  },
+  ["PropIDArcher"]= {
+    21,
+    31
+  },
+  ["PropParam"]= 1.95,
+  ["ResonateDesc"]= "ResonateDesc_1619",
+  ["Seq"]= 19,
+  ["Times"]= 1900,
+  ["Type"]= 9,
+  ["TypeDesc"]= "TypeDesc_9"
+},
+[1620] = {
+  ["id"]= 1620,
+  ["PropID"]= {
+    21,
+    31
+  },
+  ["PropIDArcher"]= {
+    21,
+    31
+  },
+  ["PropParam"]= 2,
+  ["ResonateDesc"]= "ResonateDesc_1620",
+  ["Seq"]= 20,
+  ["Times"]= 2000,
+  ["Type"]= 9,
+  ["TypeDesc"]= "TypeDesc_9"
+},
+[1621] = {
+  ["id"]= 1621,
+  ["PropID"]= {
+    21,
+    31
+  },
+  ["PropIDArcher"]= {
+    21,
+    31
+  },
+  ["PropParam"]= 2.05,
+  ["ResonateDesc"]= "ResonateDesc_1621",
+  ["Seq"]= 21,
+  ["Times"]= 2100,
+  ["Type"]= 9,
+  ["TypeDesc"]= "TypeDesc_9"
+},
+[1622] = {
+  ["id"]= 1622,
+  ["PropID"]= {
+    21,
+    31
+  },
+  ["PropIDArcher"]= {
+    21,
+    31
+  },
+  ["PropParam"]= 2.1,
+  ["ResonateDesc"]= "ResonateDesc_1622",
+  ["Seq"]= 22,
+  ["Times"]= 2200,
+  ["Type"]= 9,
+  ["TypeDesc"]= "TypeDesc_9"
+},
+[1623] = {
+  ["id"]= 1623,
+  ["PropID"]= {
+    21,
+    31
+  },
+  ["PropIDArcher"]= {
+    21,
+    31
+  },
+  ["PropParam"]= 2.15,
+  ["ResonateDesc"]= "ResonateDesc_1623",
+  ["Seq"]= 23,
+  ["Times"]= 2300,
+  ["Type"]= 9,
+  ["TypeDesc"]= "TypeDesc_9"
+},
+[1624] = {
+  ["id"]= 1624,
+  ["PropID"]= {
+    21,
+    31
+  },
+  ["PropIDArcher"]= {
+    21,
+    31
+  },
+  ["PropParam"]= 2.2,
+  ["ResonateDesc"]= "ResonateDesc_1624",
+  ["Seq"]= 24,
+  ["Times"]= 2400,
+  ["Type"]= 9,
+  ["TypeDesc"]= "TypeDesc_9"
+},
+[1625] = {
+  ["id"]= 1625,
+  ["PropID"]= {
+    21,
+    31
+  },
+  ["PropIDArcher"]= {
+    21,
+    31
+  },
+  ["PropParam"]= 2.25,
+  ["ResonateDesc"]= "ResonateDesc_1625",
+  ["Seq"]= 25,
+  ["Times"]= 2500,
+  ["Type"]= 9,
+  ["TypeDesc"]= "TypeDesc_9"
+},
+[1626] = {
+  ["id"]= 1626,
+  ["PropID"]= {
+    21,
+    31
+  },
+  ["PropIDArcher"]= {
+    21,
+    31
+  },
+  ["PropParam"]= 2.3,
+  ["ResonateDesc"]= "ResonateDesc_1626",
+  ["Seq"]= 26,
+  ["Times"]= 2600,
+  ["Type"]= 9,
+  ["TypeDesc"]= "TypeDesc_9"
+},
+[1627] = {
+  ["id"]= 1627,
+  ["PropID"]= {
+    21,
+    31
+  },
+  ["PropIDArcher"]= {
+    21,
+    31
+  },
+  ["PropParam"]= 2.35,
+  ["ResonateDesc"]= "ResonateDesc_1627",
+  ["Seq"]= 27,
+  ["Times"]= 2700,
+  ["Type"]= 9,
+  ["TypeDesc"]= "TypeDesc_9"
+},
+[1628] = {
+  ["id"]= 1628,
+  ["PropID"]= {
+    21,
+    31
+  },
+  ["PropIDArcher"]= {
+    21,
+    31
+  },
+  ["PropParam"]= 2.4,
+  ["ResonateDesc"]= "ResonateDesc_1628",
+  ["Seq"]= 28,
+  ["Times"]= 2800,
+  ["Type"]= 9,
+  ["TypeDesc"]= "TypeDesc_9"
+},
+[1629] = {
+  ["id"]= 1629,
+  ["PropID"]= {
+    21,
+    31
+  },
+  ["PropIDArcher"]= {
+    21,
+    31
+  },
+  ["PropParam"]= 2.45,
+  ["ResonateDesc"]= "ResonateDesc_1629",
+  ["Seq"]= 29,
+  ["Times"]= 2900,
+  ["Type"]= 9,
+  ["TypeDesc"]= "TypeDesc_9"
+},
+[1630] = {
+  ["id"]= 1630,
+  ["PropID"]= {
+    21,
+    31
+  },
+  ["PropIDArcher"]= {
+    21,
+    31
+  },
+  ["PropParam"]= 2.5,
+  ["ResonateDesc"]= "ResonateDesc_1630",
+  ["Seq"]= 30,
+  ["Times"]= 3000,
+  ["Type"]= 9,
+  ["TypeDesc"]= "TypeDesc_9"
+}
+}
+local baseTable={
+  ["Condition"]= 1040,
+  ["EquipExtra"]= 0,
+  ["Group"]= 0,
+  ["id"]= 1001,
+  ["IsEquipResonate"]= 0,
+  ["PropID"]= {
+    0
+  },
+  ["PropIDArcher"]= {
+    0
+  },
+  ["PropParam"]= 0,
+  ["PropValue"]= {
+    0,
+    0
+  },
+  ["PropValueArcher"]= {
+    0,
+    0
+  },
+  ["ResonateDesc"]= "ResonateDesc_1001",
+  ["ResonateTextDesc"]= 0,
+  ["Seq"]= 1,
+  ["TargetParameter"]= {
+    6
+  },
+  ["TargetType"]= 57,
+  ["Times"]= 8,
+  ["Type"]= 4,
+  ["TypeDesc"]= "TypeDesc_4"
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

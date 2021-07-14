@@ -1,0 +1,5 @@
+TextAsset Base
+	string m_Name = "data_drop_SPDrop"
+	string m_Script = "return {
+}
+"

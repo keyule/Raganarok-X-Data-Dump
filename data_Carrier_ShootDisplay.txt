@@ -1,0 +1,26 @@
+TextAsset Base
+	string m_Name = "data_Carrier_ShootDisplay"
+	string m_Script = "local table= {
+[2] = {
+  ["minY"]= -60
+},
+[3] = {
+  ["shootType"]= 3
+},
+[4] = {
+  ["shootType"]= 4,
+  ["uiName"]= "UI_SkillShoot"
+}
+}
+local baseTable={
+  ["maxX"]= 999,
+  ["maxY"]= 70,
+  ["minX"]= -999,
+  ["minY"]= -50,
+  ["shootType"]= 2,
+  ["uiName"]= "UI_ChristmasMagic"
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

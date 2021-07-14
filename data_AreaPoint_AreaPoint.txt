@@ -1,0 +1,1276 @@
+TextAsset Base
+	string m_Name = "data_AreaPoint_AreaPoint"
+	string m_Script = "local table= {
+[1010225] = {
+  ["Id"]= 1,
+  ["MapId"]= 1010,
+  ["name"]= "areaname1010225",
+  ["SceneId"]= 1010,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[1010226] = {
+  ["areaid"]= 1010226,
+  ["Id"]= 2,
+  ["MapId"]= 1010,
+  ["name"]= "areaname1010226",
+  ["SceneId"]= 1010,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[1010227] = {
+  ["areaid"]= 1010227,
+  ["Id"]= 3,
+  ["MapId"]= 1010,
+  ["name"]= "areaname1010227",
+  ["SceneId"]= 1010,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[1010228] = {
+  ["areaid"]= 1010228,
+  ["Id"]= 4,
+  ["MapId"]= 1010,
+  ["name"]= "areaname1010228",
+  ["SceneId"]= 1010,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[1010229] = {
+  ["areaid"]= 1010229,
+  ["Id"]= 5,
+  ["MapId"]= 1010,
+  ["name"]= "areaname1010229",
+  ["SceneId"]= 1010,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[1020202] = {
+  ["areaid"]= 1020202,
+  ["Id"]= 6,
+  ["name"]= "areaname1020202"
+},
+[1020203] = {
+  ["areaid"]= 1020203,
+  ["Id"]= 7,
+  ["name"]= "areaname1020203"
+},
+[1020204] = {
+  ["areaid"]= 1020204,
+  ["Id"]= 8,
+  ["name"]= "areaname1020204"
+},
+[1020205] = {
+  ["areaid"]= 1020205,
+  ["Id"]= 9,
+  ["name"]= "areaname1020205"
+},
+[1020206] = {
+  ["areaid"]= 1020206,
+  ["Id"]= 10,
+  ["name"]= "areaname1020206",
+  ["ShowType"]= 3
+},
+[1020214] = {
+  ["areaid"]= 1020214,
+  ["Id"]= 11,
+  ["name"]= "areaname1020214"
+},
+[1020215] = {
+  ["areaid"]= 1020215,
+  ["Id"]= 12,
+  ["name"]= "areaname1020215"
+},
+[1020217] = {
+  ["areaid"]= 1020217,
+  ["Id"]= 13,
+  ["name"]= "areaname1020217",
+  ["ShowType"]= 3
+},
+[1030201] = {
+  ["areaid"]= 1030201,
+  ["Id"]= 14,
+  ["MapId"]= 1030,
+  ["name"]= "areaname1030201",
+  ["SceneId"]= 1030
+},
+[1030202] = {
+  ["areaid"]= 1030202,
+  ["Id"]= 15,
+  ["MapId"]= 1030,
+  ["name"]= "areaname1030202",
+  ["SceneId"]= 1030
+},
+[1030203] = {
+  ["areaid"]= 1030203,
+  ["Id"]= 16,
+  ["MapId"]= 1030,
+  ["name"]= "areaname1030203",
+  ["SceneId"]= 1030
+},
+[1030205] = {
+  ["areaid"]= 1030205,
+  ["Id"]= 17,
+  ["MapId"]= 1030,
+  ["name"]= "areaname1030205",
+  ["SceneId"]= 1030,
+  ["ShowType"]= 3
+},
+[1040201] = {
+  ["areaid"]= 1040201,
+  ["Id"]= 18,
+  ["MapId"]= 1040,
+  ["name"]= "areaname1040201",
+  ["SceneId"]= 1040,
+  ["ShowType"]= 3
+},
+[1050201] = {
+  ["areaid"]= 1050201,
+  ["Id"]= 19,
+  ["MapId"]= 1050,
+  ["name"]= "areaname1050201",
+  ["SceneId"]= 1050
+},
+[1050202] = {
+  ["areaid"]= 1050202,
+  ["Id"]= 20,
+  ["MapId"]= 1050,
+  ["name"]= "areaname1050202",
+  ["SceneId"]= 1050
+},
+[1060201] = {
+  ["areaid"]= 1060201,
+  ["Id"]= 21,
+  ["MapId"]= 1060,
+  ["name"]= "areaname1060201",
+  ["SceneId"]= 1060,
+  ["ShowType"]= 3
+},
+[1060202] = {
+  ["areaid"]= 1060202,
+  ["Id"]= 22,
+  ["MapId"]= 1060,
+  ["name"]= "areaname1060202",
+  ["SceneId"]= 1060,
+  ["ShowType"]= 3
+},
+[1110201] = {
+  ["areaid"]= 1110201,
+  ["Id"]= 23,
+  ["MapId"]= 1110,
+  ["name"]= "areaname1110201",
+  ["SceneId"]= 1110,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[1110202] = {
+  ["areaid"]= 1110202,
+  ["Id"]= 24,
+  ["MapId"]= 1110,
+  ["name"]= "areaname1110202",
+  ["SceneId"]= 1110,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[1110203] = {
+  ["areaid"]= 1110203,
+  ["Id"]= 25,
+  ["MapId"]= 1110,
+  ["name"]= "areaname1110203",
+  ["SceneId"]= 1110,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[1110204] = {
+  ["areaid"]= 1110204,
+  ["Id"]= 26,
+  ["MapId"]= 1110,
+  ["name"]= "areaname1110204",
+  ["SceneId"]= 1110,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[1110205] = {
+  ["areaid"]= 1110205,
+  ["Id"]= 27,
+  ["MapId"]= 1110,
+  ["name"]= "areaname1110205",
+  ["SceneId"]= 1110,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[1110206] = {
+  ["areaid"]= 1110206,
+  ["Id"]= 28,
+  ["MapId"]= 1110,
+  ["name"]= "areaname1110206",
+  ["SceneId"]= 1110,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[1120201] = {
+  ["areaid"]= 1120201,
+  ["Id"]= 29,
+  ["MapId"]= 11203,
+  ["name"]= "areaname1120201",
+  ["SceneId"]= 1120,
+  ["ShowType"]= 3
+},
+[1120202] = {
+  ["areaid"]= 1120202,
+  ["Id"]= 30,
+  ["MapId"]= 11201,
+  ["name"]= "areaname1120202",
+  ["SceneId"]= 1120,
+  ["ShowType"]= 3
+},
+[1120203] = {
+  ["areaid"]= 1120203,
+  ["Id"]= 31,
+  ["MapId"]= 11201,
+  ["name"]= "areaname1120203",
+  ["SceneId"]= 1120,
+  ["ShowType"]= 3
+},
+[1120204] = {
+  ["areaid"]= 1120204,
+  ["Id"]= 32,
+  ["MapId"]= 11202,
+  ["name"]= "areaname1120204",
+  ["SceneId"]= 1120
+},
+[1130201] = {
+  ["areaid"]= 1130201,
+  ["Id"]= 33,
+  ["MapId"]= 11303,
+  ["name"]= "areaname1130201",
+  ["SceneId"]= 1130
+},
+[1130202] = {
+  ["areaid"]= 1130202,
+  ["Id"]= 34,
+  ["MapId"]= 11301,
+  ["name"]= "areaname1130202",
+  ["SceneId"]= 1130,
+  ["ShowType"]= 3
+},
+[1130203] = {
+  ["areaid"]= 1130203,
+  ["Id"]= 35,
+  ["MapId"]= 11302,
+  ["name"]= "areaname1130203",
+  ["SceneId"]= 1130
+},
+[1140201] = {
+  ["areaid"]= 1140201,
+  ["Id"]= 36,
+  ["MapId"]= 1140,
+  ["name"]= "areaname1140201",
+  ["SceneId"]= 1140,
+  ["ShowType"]= 3
+},
+[1150201] = {
+  ["areaid"]= 1150201,
+  ["Id"]= 37,
+  ["MapId"]= 1150,
+  ["name"]= "areaname1150201",
+  ["SceneId"]= 1150
+},
+[1150202] = {
+  ["areaid"]= 1150202,
+  ["Id"]= 38,
+  ["MapId"]= 1150,
+  ["name"]= "areaname1150202",
+  ["SceneId"]= 1150
+},
+[1150203] = {
+  ["areaid"]= 1150203,
+  ["Id"]= 39,
+  ["MapId"]= 1150,
+  ["name"]= "areaname1150203",
+  ["SceneId"]= 1150
+},
+[1150204] = {
+  ["areaid"]= 1150204,
+  ["Id"]= 40,
+  ["MapId"]= 1150,
+  ["name"]= "areaname1150204",
+  ["SceneId"]= 1150,
+  ["ShowType"]= 3
+},
+[1150205] = {
+  ["areaid"]= 1150205,
+  ["Id"]= 41,
+  ["MapId"]= 1150,
+  ["name"]= "areaname1150205",
+  ["SceneId"]= 1150
+},
+[1160201] = {
+  ["areaid"]= 1160201,
+  ["Id"]= 42,
+  ["MapId"]= 1160,
+  ["name"]= "areaname1160201",
+  ["SceneId"]= 1160
+},
+[1160202] = {
+  ["areaid"]= 1160202,
+  ["Id"]= 43,
+  ["MapId"]= 1160,
+  ["name"]= "areaname1160202",
+  ["SceneId"]= 1160
+},
+[1160203] = {
+  ["areaid"]= 1160203,
+  ["Id"]= 44,
+  ["MapId"]= 1160,
+  ["name"]= "areaname1160203",
+  ["SceneId"]= 1160
+},
+[1160204] = {
+  ["areaid"]= 1160204,
+  ["Id"]= 45,
+  ["MapId"]= 1160,
+  ["name"]= "areaname1160204",
+  ["SceneId"]= 1160
+},
+[1160205] = {
+  ["areaid"]= 1160205,
+  ["Id"]= 46,
+  ["MapId"]= 1160,
+  ["name"]= "areaname1160205",
+  ["SceneId"]= 1160
+},
+[1170204] = {
+  ["areaid"]= 1170204,
+  ["Id"]= 47,
+  ["MapId"]= 11701,
+  ["name"]= "areaname1170204",
+  ["SceneId"]= 1170,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[1170206] = {
+  ["areaid"]= 1170206,
+  ["Id"]= 48,
+  ["MapId"]= 11702,
+  ["name"]= "areaname1170206",
+  ["SceneId"]= 1170,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[1170207] = {
+  ["areaid"]= 1170207,
+  ["Id"]= 49,
+  ["MapId"]= 11702,
+  ["name"]= "areaname1170207",
+  ["SceneId"]= 1170,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[1180201] = {
+  ["areaid"]= 1180201,
+  ["Id"]= 50,
+  ["MapId"]= 1180,
+  ["name"]= "areaname1180201",
+  ["SceneId"]= 1180,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[1180202] = {
+  ["areaid"]= 1180202,
+  ["Id"]= 51,
+  ["MapId"]= 1180,
+  ["name"]= "areaname1180202",
+  ["SceneId"]= 1180,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[1180203] = {
+  ["areaid"]= 1180203,
+  ["Id"]= 52,
+  ["MapId"]= 1180,
+  ["name"]= "areaname1180203",
+  ["SceneId"]= 1180,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[1180204] = {
+  ["areaid"]= 1180204,
+  ["Id"]= 53,
+  ["MapId"]= 1180,
+  ["name"]= "areaname1180204",
+  ["SceneId"]= 1180,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[1180205] = {
+  ["areaid"]= 1180205,
+  ["Id"]= 54,
+  ["MapId"]= 1180,
+  ["name"]= "areaname1180205",
+  ["SceneId"]= 1180,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[1180207] = {
+  ["areaid"]= 1180207,
+  ["Id"]= 55,
+  ["MapId"]= 1180,
+  ["name"]= "areaname1180207",
+  ["SceneId"]= 1180,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[1210201] = {
+  ["areaid"]= 1210201,
+  ["Id"]= 56,
+  ["MapId"]= 1210,
+  ["name"]= "areaname1210201",
+  ["SceneId"]= 1210,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[1220201] = {
+  ["areaid"]= 1220201,
+  ["Id"]= 57,
+  ["MapId"]= 1220,
+  ["name"]= "areaname1220201",
+  ["SceneId"]= 1220
+},
+[1220202] = {
+  ["areaid"]= 1220202,
+  ["Id"]= 58,
+  ["MapId"]= 1220,
+  ["name"]= "areaname1220202",
+  ["SceneId"]= 1220
+},
+[1220203] = {
+  ["areaid"]= 1220203,
+  ["Id"]= 59,
+  ["MapId"]= 1220,
+  ["name"]= "areaname1220203",
+  ["SceneId"]= 1220
+},
+[1230201] = {
+  ["areaid"]= 1230201,
+  ["MapId"]= 1230,
+  ["name"]= "areaname1230201",
+  ["SceneId"]= 1230,
+  ["type"]= 0
+},
+[1230202] = {
+  ["areaid"]= 1230202,
+  ["MapId"]= 1230,
+  ["name"]= "areaname1230202",
+  ["SceneId"]= 1230,
+  ["type"]= 0
+},
+[1230203] = {
+  ["areaid"]= 1230203,
+  ["MapId"]= 1230,
+  ["name"]= "areaname1230203",
+  ["SceneId"]= 1230,
+  ["type"]= 0
+},
+[1240201] = {
+  ["areaid"]= 1240201,
+  ["MapId"]= 1240,
+  ["name"]= "areaname1240201",
+  ["SceneId"]= 1240,
+  ["type"]= 0
+},
+[1240202] = {
+  ["areaid"]= 1240202,
+  ["MapId"]= 1240,
+  ["name"]= "areaname1240202",
+  ["SceneId"]= 1240,
+  ["type"]= 0
+},
+[1240203] = {
+  ["areaid"]= 1240203,
+  ["MapId"]= 1240,
+  ["name"]= "areaname1240203",
+  ["SceneId"]= 1240,
+  ["type"]= 0
+},
+[1240204] = {
+  ["areaid"]= 1240204,
+  ["MapId"]= 1240,
+  ["name"]= "areaname1240204",
+  ["SceneId"]= 1240,
+  ["type"]= 0
+},
+[1250201] = {
+  ["areaid"]= 1250201,
+  ["MapId"]= 1250,
+  ["name"]= "areaname1250201",
+  ["SceneId"]= 1250,
+  ["type"]= 0
+},
+[1250202] = {
+  ["areaid"]= 1250202,
+  ["MapId"]= 1250,
+  ["name"]= "areaname1250202",
+  ["SceneId"]= 1250,
+  ["type"]= 0
+},
+[1250203] = {
+  ["areaid"]= 1250203,
+  ["MapId"]= 1250,
+  ["name"]= "areaname1250203",
+  ["SceneId"]= 1250,
+  ["type"]= 0
+},
+[1280202] = {
+  ["areaid"]= 1280202,
+  ["Id"]= 70,
+  ["MapId"]= 1280,
+  ["name"]= "areaname1280202",
+  ["SceneId"]= 1280
+},
+[1280203] = {
+  ["areaid"]= 1280203,
+  ["Id"]= 71,
+  ["MapId"]= 1280,
+  ["name"]= "areaname1280203",
+  ["SceneId"]= 1280
+},
+[1280204] = {
+  ["areaid"]= 1280204,
+  ["Id"]= 72,
+  ["MapId"]= 1280,
+  ["name"]= "areaname1280204",
+  ["SceneId"]= 1280
+},
+[1310202] = {
+  ["areaid"]= 1310202,
+  ["Id"]= 73,
+  ["MapId"]= 1310,
+  ["name"]= "areaname1310202",
+  ["SceneId"]= 1310,
+  ["type"]= 1
+},
+[1310203] = {
+  ["areaid"]= 1310203,
+  ["Id"]= 74,
+  ["MapId"]= 1310,
+  ["name"]= "areaname1310203",
+  ["SceneId"]= 1310,
+  ["type"]= 1
+},
+[1310204] = {
+  ["areaid"]= 1310204,
+  ["Id"]= 75,
+  ["MapId"]= 1310,
+  ["name"]= "areaname1310204",
+  ["SceneId"]= 1310,
+  ["type"]= 1
+},
+[1310205] = {
+  ["areaid"]= 1310205,
+  ["Id"]= 76,
+  ["MapId"]= 1310,
+  ["name"]= "areaname1310205",
+  ["SceneId"]= 1310,
+  ["type"]= 1
+},
+[1320201] = {
+  ["areaid"]= 1320201,
+  ["Id"]= 77,
+  ["MapId"]= 1320,
+  ["name"]= "areaname1320201",
+  ["SceneId"]= 1320
+},
+[1320202] = {
+  ["areaid"]= 1320202,
+  ["Id"]= 78,
+  ["MapId"]= 1320,
+  ["name"]= "areaname1320202",
+  ["SceneId"]= 1320
+},
+[1320214] = {
+  ["areaid"]= 1320214,
+  ["Id"]= 79,
+  ["MapId"]= 1320,
+  ["name"]= "areaname1320214",
+  ["SceneId"]= 1320,
+  ["ShowType"]= 3
+},
+[1320215] = {
+  ["areaid"]= 1320215,
+  ["Id"]= 80,
+  ["MapId"]= 1320,
+  ["name"]= "areaname1320215",
+  ["SceneId"]= 1320,
+  ["ShowType"]= 3
+},
+[1330201] = {
+  ["areaid"]= 1330201,
+  ["Id"]= 81,
+  ["MapId"]= 1330,
+  ["name"]= "areaname1330201",
+  ["SceneId"]= 1330,
+  ["ShowType"]= 3
+},
+[1340201] = {
+  ["areaid"]= 1340201,
+  ["Id"]= 82,
+  ["MapId"]= 1340,
+  ["name"]= "areaname1340201",
+  ["SceneId"]= 1340,
+  ["ShowType"]= 3
+},
+[1350201] = {
+  ["areaid"]= 1350201,
+  ["Id"]= 83,
+  ["MapId"]= 1350,
+  ["name"]= "areaname1350201",
+  ["SceneId"]= 1350
+},
+[1350202] = {
+  ["areaid"]= 1350202,
+  ["Id"]= 84,
+  ["MapId"]= 1350,
+  ["name"]= "areaname1350202",
+  ["SceneId"]= 1350
+},
+[1350203] = {
+  ["areaid"]= 1350203,
+  ["Id"]= 85,
+  ["MapId"]= 1350,
+  ["name"]= "areaname1350203",
+  ["SceneId"]= 1350
+},
+[1360201] = {
+  ["areaid"]= 1360201,
+  ["Id"]= 86,
+  ["MapId"]= 1360,
+  ["name"]= "areaname1360201",
+  ["SceneId"]= 1360
+},
+[1360202] = {
+  ["areaid"]= 1360202,
+  ["Id"]= 87,
+  ["MapId"]= 1360,
+  ["name"]= "areaname1360202",
+  ["SceneId"]= 1360
+},
+[1360203] = {
+  ["areaid"]= 1360203,
+  ["Id"]= 88,
+  ["MapId"]= 1360,
+  ["name"]= "areaname1360203",
+  ["SceneId"]= 1360
+},
+[1360204] = {
+  ["areaid"]= 1360204,
+  ["Id"]= 89,
+  ["MapId"]= 1360,
+  ["name"]= "areaname1360204",
+  ["SceneId"]= 1360,
+  ["ShowType"]= 3
+},
+[1410201] = {
+  ["areaid"]= 1410201,
+  ["Id"]= 90,
+  ["MapId"]= 14101,
+  ["name"]= "areaname1410201",
+  ["SceneId"]= 1410,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[1410202] = {
+  ["areaid"]= 1410202,
+  ["Id"]= 91,
+  ["MapId"]= 14101,
+  ["name"]= "areaname1410202",
+  ["SceneId"]= 1410,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[1410203] = {
+  ["areaid"]= 1410203,
+  ["Id"]= 92,
+  ["MapId"]= 14101,
+  ["name"]= "areaname1410203",
+  ["SceneId"]= 1410,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[1410204] = {
+  ["areaid"]= 1410204,
+  ["Id"]= 93,
+  ["MapId"]= 14101,
+  ["name"]= "areaname1410204",
+  ["SceneId"]= 1410,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[1410205] = {
+  ["areaid"]= 1410205,
+  ["Id"]= 94,
+  ["MapId"]= 14101,
+  ["name"]= "areaname1410205",
+  ["SceneId"]= 1410,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[1410206] = {
+  ["areaid"]= 1410206,
+  ["Id"]= 95,
+  ["MapId"]= 14101,
+  ["name"]= "areaname1410206",
+  ["SceneId"]= 1410,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[1410207] = {
+  ["areaid"]= 1410207,
+  ["Id"]= 96,
+  ["MapId"]= 14102,
+  ["name"]= "areaname1410207",
+  ["SceneId"]= 1410,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[1410208] = {
+  ["areaid"]= 1410208,
+  ["Id"]= 97,
+  ["MapId"]= 14102,
+  ["name"]= "areaname1410208",
+  ["SceneId"]= 1410,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[1420201] = {
+  ["areaid"]= 1420201,
+  ["Id"]= 98,
+  ["MapId"]= 1420,
+  ["name"]= "areaname1420201",
+  ["SceneId"]= 1420
+},
+[1420202] = {
+  ["areaid"]= 1420202,
+  ["Id"]= 99,
+  ["MapId"]= 1420,
+  ["name"]= "areaname1420202",
+  ["SceneId"]= 1420
+},
+[1420203] = {
+  ["areaid"]= 1420203,
+  ["Id"]= 100,
+  ["MapId"]= 1420,
+  ["name"]= "areaname1420203",
+  ["SceneId"]= 1420
+},
+[1420204] = {
+  ["areaid"]= 1420204,
+  ["Id"]= 101,
+  ["MapId"]= 1420,
+  ["name"]= "areaname1420204",
+  ["SceneId"]= 1420
+},
+[1420205] = {
+  ["areaid"]= 1420205,
+  ["Id"]= 102,
+  ["MapId"]= 1420,
+  ["name"]= "areaname1420205",
+  ["SceneId"]= 1420
+},
+[1430205] = {
+  ["areaid"]= 1430205,
+  ["Id"]= 103,
+  ["MapId"]= 1430,
+  ["name"]= "areaname1430205",
+  ["SceneId"]= 1430
+},
+[1430206] = {
+  ["areaid"]= 1430206,
+  ["Id"]= 104,
+  ["MapId"]= 1430,
+  ["name"]= "areaname1430206",
+  ["SceneId"]= 1430
+},
+[1430207] = {
+  ["areaid"]= 1430207,
+  ["Id"]= 105,
+  ["MapId"]= 1430,
+  ["name"]= "areaname1430207",
+  ["SceneId"]= 1430
+},
+[1430208] = {
+  ["areaid"]= 1430208,
+  ["Id"]= 106,
+  ["MapId"]= 1430,
+  ["name"]= "areaname1430208",
+  ["SceneId"]= 1430
+},
+[1430209] = {
+  ["areaid"]= 1430209,
+  ["Id"]= 107,
+  ["MapId"]= 1430,
+  ["name"]= "areaname1430209",
+  ["SceneId"]= 1430,
+  ["ShowType"]= 3
+},
+[1440205] = {
+  ["areaid"]= 1440205,
+  ["Id"]= 108,
+  ["MapId"]= 1440,
+  ["name"]= "areaname1440205",
+  ["SceneId"]= 1440
+},
+[1440206] = {
+  ["areaid"]= 1440206,
+  ["Id"]= 109,
+  ["MapId"]= 1440,
+  ["name"]= "areaname1440206",
+  ["SceneId"]= 1440
+},
+[1440207] = {
+  ["areaid"]= 1440207,
+  ["Id"]= 110,
+  ["MapId"]= 1440,
+  ["name"]= "areaname1440207",
+  ["SceneId"]= 1440
+},
+[1440208] = {
+  ["areaid"]= 1440208,
+  ["Id"]= 111,
+  ["MapId"]= 1440,
+  ["name"]= "areaname1440208",
+  ["SceneId"]= 1440
+},
+[1440209] = {
+  ["areaid"]= 1440209,
+  ["Id"]= 112,
+  ["MapId"]= 1440,
+  ["name"]= "areaname1440209",
+  ["SceneId"]= 1440,
+  ["ShowType"]= 3
+},
+[1450201] = {
+  ["areaid"]= 1450201,
+  ["Id"]= 113,
+  ["MapId"]= 1450,
+  ["name"]= "areaname1450201",
+  ["SceneId"]= 1450
+},
+[1450202] = {
+  ["areaid"]= 1450202,
+  ["Id"]= 114,
+  ["MapId"]= 1450,
+  ["name"]= "areaname1450202",
+  ["SceneId"]= 1450
+},
+[1450203] = {
+  ["areaid"]= 1450203,
+  ["Id"]= 115,
+  ["MapId"]= 1450,
+  ["name"]= "areaname1450203",
+  ["SceneId"]= 1450
+},
+[1460201] = {
+  ["areaid"]= 1460201,
+  ["Id"]= 116,
+  ["MapId"]= 1460,
+  ["name"]= "areaname1460201",
+  ["SceneId"]= 1460
+},
+[1460202] = {
+  ["areaid"]= 1460202,
+  ["Id"]= 117,
+  ["MapId"]= 1460,
+  ["name"]= "areaname1460202",
+  ["SceneId"]= 1460
+},
+[1460203] = {
+  ["areaid"]= 1460203,
+  ["Id"]= 118,
+  ["MapId"]= 1460,
+  ["name"]= "areaname1460203",
+  ["SceneId"]= 1460
+},
+[1460204] = {
+  ["areaid"]= 1460204,
+  ["Id"]= 119,
+  ["MapId"]= 1460,
+  ["name"]= "areaname1460204",
+  ["SceneId"]= 1460
+},
+[1460205] = {
+  ["areaid"]= 1460205,
+  ["Id"]= 120,
+  ["MapId"]= 1460,
+  ["name"]= "areaname1460205",
+  ["SceneId"]= 1460
+},
+[1510201] = {
+  ["areaid"]= 1510201,
+  ["Id"]= 121,
+  ["MapId"]= 1510,
+  ["name"]= "areaname1510201",
+  ["SceneId"]= 1510,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[1520201] = {
+  ["areaid"]= 1520201,
+  ["Id"]= 122,
+  ["MapId"]= 1520,
+  ["name"]= "areaname1520201",
+  ["SceneId"]= 1520,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[1530201] = {
+  ["areaid"]= 1530201,
+  ["Id"]= 123,
+  ["MapId"]= 1530,
+  ["name"]= "areaname1530201",
+  ["SceneId"]= 1530,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[1530202] = {
+  ["areaid"]= 1530202,
+  ["Id"]= 124,
+  ["MapId"]= 1530,
+  ["name"]= "areaname1530202",
+  ["SceneId"]= 1530,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[1530203] = {
+  ["areaid"]= 1530203,
+  ["Id"]= 125,
+  ["MapId"]= 1530,
+  ["name"]= "areaname1530203",
+  ["SceneId"]= 1530,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[1530204] = {
+  ["areaid"]= 1530204,
+  ["Id"]= 126,
+  ["MapId"]= 1530,
+  ["name"]= "areaname1530204",
+  ["SceneId"]= 1530,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[1550201] = {
+  ["areaid"]= 1550201,
+  ["Id"]= 127,
+  ["MapId"]= 1550,
+  ["name"]= "areaname1550201",
+  ["SceneId"]= 1550,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[1570201] = {
+  ["areaid"]= 1570201,
+  ["Id"]= 128,
+  ["MapId"]= 1570,
+  ["name"]= "areaname1570201",
+  ["SceneId"]= 1570,
+  ["ShowType"]= 3
+},
+[1570202] = {
+  ["areaid"]= 1570202,
+  ["Id"]= 129,
+  ["MapId"]= 1570,
+  ["name"]= "areaname1570202",
+  ["SceneId"]= 1570,
+  ["ShowType"]= 3
+},
+[1580201] = {
+  ["areaid"]= 1580201,
+  ["Id"]= 130,
+  ["MapId"]= 1580,
+  ["name"]= "areaname1580201",
+  ["SceneId"]= 1580,
+  ["ShowType"]= 3
+},
+[1590201] = {
+  ["areaid"]= 1590201,
+  ["Id"]= 131,
+  ["MapId"]= 1590,
+  ["name"]= "areaname1590201",
+  ["SceneId"]= 1590,
+  ["ShowType"]= 3
+},
+[1610201] = {
+  ["areaid"]= 1610201,
+  ["Id"]= 132,
+  ["MapId"]= 1610,
+  ["name"]= "areaname1610201",
+  ["SceneId"]= 1610,
+  ["type"]= 1
+},
+[1610202] = {
+  ["areaid"]= 1610202,
+  ["Id"]= 133,
+  ["MapId"]= 1610,
+  ["name"]= "areaname1610202",
+  ["SceneId"]= 1610,
+  ["type"]= 1
+},
+[1610203] = {
+  ["areaid"]= 1610203,
+  ["Id"]= 134,
+  ["MapId"]= 1610,
+  ["name"]= "areaname1610203",
+  ["SceneId"]= 1610,
+  ["type"]= 1
+},
+[1610204] = {
+  ["areaid"]= 1610204,
+  ["Id"]= 135,
+  ["MapId"]= 1610,
+  ["name"]= "areaname1610204",
+  ["SceneId"]= 1610,
+  ["type"]= 1
+},
+[1620201] = {
+  ["areaid"]= 1620201,
+  ["Id"]= 136,
+  ["MapId"]= 1620,
+  ["name"]= "areaname1620201",
+  ["SceneId"]= 1620,
+  ["type"]= 1
+},
+[1620202] = {
+  ["areaid"]= 1620202,
+  ["Id"]= 137,
+  ["MapId"]= 1620,
+  ["name"]= "areaname1620202",
+  ["SceneId"]= 1620,
+  ["type"]= 1
+},
+[1620203] = {
+  ["areaid"]= 1620203,
+  ["Id"]= 138,
+  ["MapId"]= 1620,
+  ["name"]= "areaname1620203",
+  ["SceneId"]= 1620,
+  ["type"]= 1
+},
+[1630201] = {
+  ["areaid"]= 1630201,
+  ["Id"]= 145,
+  ["MapId"]= 1630,
+  ["name"]= "areaname1630201",
+  ["SceneId"]= 1630,
+  ["type"]= 1
+},
+[1630202] = {
+  ["areaid"]= 1630202,
+  ["Id"]= 146,
+  ["MapId"]= 1630,
+  ["name"]= "areaname1630202",
+  ["SceneId"]= 1630,
+  ["type"]= 1
+},
+[1630203] = {
+  ["areaid"]= 1630203,
+  ["Id"]= 147,
+  ["MapId"]= 1630,
+  ["name"]= "areaname1630203",
+  ["SceneId"]= 1630,
+  ["type"]= 1
+},
+[1630204] = {
+  ["areaid"]= 1630204,
+  ["Id"]= 148,
+  ["MapId"]= 1630,
+  ["name"]= "areaname1630204",
+  ["SceneId"]= 1630,
+  ["type"]= 1
+},
+[1640201] = {
+  ["areaid"]= 1640201,
+  ["Id"]= 149,
+  ["MapId"]= 1640,
+  ["name"]= "areaname1640201",
+  ["SceneId"]= 1640,
+  ["type"]= 1
+},
+[1640202] = {
+  ["areaid"]= 1640202,
+  ["Id"]= 150,
+  ["MapId"]= 1640,
+  ["name"]= "areaname1640202",
+  ["SceneId"]= 1640,
+  ["type"]= 1
+},
+[1640203] = {
+  ["areaid"]= 1640203,
+  ["Id"]= 151,
+  ["MapId"]= 1640,
+  ["name"]= "areaname1640203",
+  ["SceneId"]= 1640,
+  ["type"]= 1
+},
+[1640204] = {
+  ["areaid"]= 1640204,
+  ["Id"]= 152,
+  ["MapId"]= 1640,
+  ["name"]= "areaname1640204",
+  ["SceneId"]= 1640,
+  ["type"]= 1
+},
+[1640205] = {
+  ["areaid"]= 1640205,
+  ["Id"]= 153,
+  ["MapId"]= 1640,
+  ["name"]= "areaname1640205",
+  ["SceneId"]= 1640,
+  ["type"]= 1
+},
+[1650201] = {
+  ["areaid"]= 1650201,
+  ["Id"]= 139,
+  ["MapId"]= 1650,
+  ["name"]= "areaname1650201",
+  ["SceneId"]= 1650,
+  ["type"]= 1
+},
+[1650202] = {
+  ["areaid"]= 1650202,
+  ["Id"]= 140,
+  ["MapId"]= 1650,
+  ["name"]= "areaname1650202",
+  ["SceneId"]= 1650,
+  ["type"]= 1
+},
+[1650203] = {
+  ["areaid"]= 1650203,
+  ["Id"]= 141,
+  ["MapId"]= 1650,
+  ["name"]= "areaname1650203",
+  ["SceneId"]= 1650,
+  ["type"]= 1
+},
+[1660201] = {
+  ["areaid"]= 1660201,
+  ["Id"]= 142,
+  ["MapId"]= 1660,
+  ["name"]= "areaname1660201",
+  ["SceneId"]= 1660,
+  ["type"]= 1
+},
+[1660202] = {
+  ["areaid"]= 1660202,
+  ["Id"]= 143,
+  ["MapId"]= 1660,
+  ["name"]= "areaname1660202",
+  ["SceneId"]= 1660,
+  ["type"]= 1
+},
+[1660203] = {
+  ["areaid"]= 1660203,
+  ["Id"]= 144,
+  ["MapId"]= 1660,
+  ["name"]= "areaname1660203",
+  ["SceneId"]= 1660,
+  ["type"]= 1
+},
+[3010201] = {
+  ["areaid"]= 3010201,
+  ["Id"]= 154,
+  ["MapId"]= 3010,
+  ["name"]= "areaname3010201",
+  ["SceneId"]= 3010,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[3010202] = {
+  ["areaid"]= 3010202,
+  ["Id"]= 155,
+  ["MapId"]= 3010,
+  ["name"]= "areaname3010202",
+  ["SceneId"]= 3010,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[4506201] = {
+  ["areaid"]= 4506201,
+  ["Id"]= 156,
+  ["MapId"]= 45061,
+  ["SceneId"]= 4506,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[4507201] = {
+  ["areaid"]= 4507201,
+  ["Id"]= 157,
+  ["MapId"]= 45071,
+  ["SceneId"]= 4507,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[4508201] = {
+  ["areaid"]= 4508201,
+  ["Id"]= 158,
+  ["MapId"]= 45081,
+  ["SceneId"]= 4508,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[4509201] = {
+  ["areaid"]= 4509201,
+  ["Id"]= 159,
+  ["MapId"]= 45091,
+  ["SceneId"]= 4509,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[4510201] = {
+  ["areaid"]= 4510201,
+  ["Id"]= 160,
+  ["MapId"]= 45101,
+  ["SceneId"]= 4510,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[4601201] = {
+  ["areaid"]= 4601201,
+  ["Id"]= 163,
+  ["MapId"]= 4601,
+  ["SceneId"]= 4601,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[6000201] = {
+  ["areaid"]= 6000201,
+  ["Id"]= 161,
+  ["MapId"]= 6000,
+  ["name"]= "areaname6000201",
+  ["SceneId"]= 6000,
+  ["ShowType"]= 3,
+  ["type"]= 1
+},
+[6000202] = {
+  ["areaid"]= 6000202,
+  ["Id"]= 162,
+  ["MapId"]= 6000,
+  ["name"]= "areaname6000202",
+  ["SceneId"]= 6000,
+  ["ShowType"]= 3,
+  ["type"]= 1
+}
+}
+local baseTable={
+  ["areaid"]= 1010225,
+  ["Id"]= 0,
+  ["MapId"]= 1020,
+  ["name"]= "areaname4506202",
+  ["SceneId"]= 1020,
+  ["ShowType"]= 1,
+  ["type"]= 2
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

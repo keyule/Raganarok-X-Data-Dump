@@ -1,0 +1,1144 @@
+TextAsset Base
+	string m_Name = "data_Bullet_Bullet"
+	string m_Script = "local table= {
+[1001] = {
+  ["BulletEffectSound"]= "Bullet/BulletEffect1001",
+  ["BulletEffectSoundCrit"]= "Skill/Crit",
+  ["Name"]= "法杖普通攻击",
+  ["ResId"]= 1001
+},
+[1002] = {
+  ["BulletEffectSound"]= "Bullet/BulletEffect1002",
+  ["BulletEffectSoundCrit"]= "Skill/Crit",
+  ["BulletEffectWhileCrit"]= "1002/BulletEffectCrit",
+  ["BulletId"]= 1002,
+  ["Name"]= "弓箭普通攻击",
+  ["ResId"]= 1002
+},
+[1003] = {
+  ["BulletEffectSound"]= "Bullet/BulletEffect1002",
+  ["BulletId"]= 1003,
+  ["Name"]= "白色尖刺",
+  ["ResId"]= 1003
+},
+[1004] = {
+  ["BulletId"]= 1004,
+  ["HasBulletTrail"]= 0,
+  ["IfShow"]= 0,
+  ["Name"]= "蓝色水球",
+  ["ResId"]= 1004
+},
+[1005] = {
+  ["BulletEffectSound"]= "Bullet/BulletEffect1002",
+  ["BulletId"]= 1005,
+  ["Name"]= "圆石头",
+  ["ResId"]= 1005
+},
+[1100] = {
+  ["BulletEffectSound"]= "Skill/SkillEffect25000",
+  ["BulletEffectSoundCrit"]= "Skill/SkillEffect25000",
+  ["BulletEffectWhileCrit"]= "1100/BulletEffect",
+  ["BulletId"]= 1100,
+  ["DestroyEffectRoute"]= "1100/BulletEffect",
+  ["isFromPos"]= 1,
+  ["Name"]= "星星弹丸",
+  ["ResId"]= 1100
+},
+[1101] = {
+  ["BulletEffectSound"]= "Skill/SkillEffect25000",
+  ["BulletEffectSoundCrit"]= "Skill/SkillEffect25000",
+  ["BulletEffectWhileCrit"]= "1101/BulletEffect",
+  ["BulletId"]= 1101,
+  ["DestroyEffectRoute"]= "1101/BulletEffect",
+  ["isFromPos"]= 1,
+  ["Name"]= "陨石弹丸",
+  ["ResId"]= 1101
+},
+[1102] = {
+  ["BulletEffectSound"]= "Skill/SkillEffect25000",
+  ["BulletEffectSoundCrit"]= "Skill/SkillEffect25000",
+  ["BulletEffectWhileCrit"]= "1102/BulletEffect",
+  ["BulletId"]= 1102,
+  ["DestroyEffectRoute"]= "1102/BulletEffect",
+  ["isFromPos"]= 1,
+  ["Name"]= "冰锥弹丸",
+  ["ResId"]= 1102
+},
+[1103] = {
+  ["BulletEffectSound"]= "Skill/SkillEffect25000",
+  ["BulletEffectSoundCrit"]= "Skill/SkillEffect25000",
+  ["BulletEffectWhileCrit"]= "1103/BulletEffect",
+  ["BulletId"]= 1103,
+  ["DestroyEffectRoute"]= "1103/BulletEffect",
+  ["isFromPos"]= 1,
+  ["Name"]= "加农炮弹",
+  ["ResId"]= 1103
+},
+[1104] = {
+  ["BulletId"]= 1104,
+  ["BulletType"]= 1,
+  ["HasBulletTrail"]= 0,
+  ["Name"]= "元宵连线",
+  ["ResId"]= 1104
+},
+[1105] = {
+  ["BulletEffectSound"]= "Skill/SkillEffect25000",
+  ["BulletEffectSoundCrit"]= "Skill/SkillEffect25000",
+  ["BulletEffectWhileCrit"]= "1105/BulletEffect",
+  ["BulletId"]= 1105,
+  ["DestroyEffectRoute"]= "1105/BulletEffect",
+  ["isFromPos"]= 1,
+  ["Name"]= "太妃糖弹丸",
+  ["ResId"]= 1105
+},
+[1106] = {
+  ["BulletEffectSound"]= "Skill/SkillEffect25000",
+  ["BulletEffectSoundCrit"]= "Skill/SkillEffect25000",
+  ["BulletEffectWhileCrit"]= "1106/BulletEffect",
+  ["BulletId"]= 1106,
+  ["DestroyEffectRoute"]= "1106/BulletEffect",
+  ["isFromPos"]= 1,
+  ["Name"]= "棉花糖弹丸",
+  ["ResId"]= 1106
+},
+[1107] = {
+  ["BulletEffectSound"]= "Skill/SkillEffect25000",
+  ["BulletEffectSoundCrit"]= "Skill/SkillEffect25000",
+  ["BulletEffectWhileCrit"]= "1107/BulletEffect",
+  ["BulletId"]= 1107,
+  ["DestroyEffectRoute"]= "1107/BulletEffect",
+  ["isFromPos"]= 1,
+  ["Name"]= "棒棒糖弹丸",
+  ["ResId"]= 1107
+},
+[1200] = {
+  ["BulletId"]= 1200,
+  ["isFromPos"]= 1,
+  ["Name"]= "王牌猎人击退子弹",
+  ["ResId"]= 1200
+},
+[1201] = {
+  ["BulletId"]= 1201,
+  ["isFromPos"]= 1,
+  ["Name"]= "王牌猎人定身子弹",
+  ["ResId"]= 1201
+},
+[1202] = {
+  ["BulletId"]= 1202,
+  ["isFromPos"]= 1,
+  ["Name"]= "王牌猎人混乱子弹",
+  ["ResId"]= 1202
+},
+[1203] = {
+  ["BulletId"]= 1203,
+  ["isFromPos"]= 1,
+  ["Name"]= "王牌猎人黑暗子弹",
+  ["ResId"]= 1203
+},
+[1204] = {
+  ["BulletId"]= 1204,
+  ["isFromPos"]= 1,
+  ["Name"]= "王牌猎人沉默子弹",
+  ["ResId"]= 1204
+},
+[4001401] = {
+  ["BulletEffectSound"]= "Skill/SkillEffect25000",
+  ["BulletEffectSoundCrit"]= "Skill/SkillEffect25000",
+  ["BulletEffectWhileCrit"]= "1105/BulletEffect",
+  ["BulletId"]= 4001401,
+  ["DestroyEffectRoute"]= "1105/BulletEffect",
+  ["isFromPos"]= 1,
+  ["Name"]= "太妃糖弹丸",
+  ["ResId"]= 1105
+},
+[4001402] = {
+  ["BulletEffectSound"]= "Skill/SkillEffect25000",
+  ["BulletEffectSoundCrit"]= "Skill/SkillEffect25000",
+  ["BulletEffectWhileCrit"]= "1106/BulletEffect",
+  ["BulletId"]= 4001402,
+  ["DestroyEffectRoute"]= "1106/BulletEffect",
+  ["isFromPos"]= 1,
+  ["Name"]= "棉花糖弹丸",
+  ["ResId"]= 1106
+},
+[4001403] = {
+  ["BulletEffectSound"]= "Skill/SkillEffect25000",
+  ["BulletEffectSoundCrit"]= "Skill/SkillEffect25000",
+  ["BulletEffectWhileCrit"]= "1107/BulletEffect",
+  ["BulletId"]= 4001403,
+  ["DestroyEffectRoute"]= "1107/BulletEffect",
+  ["isFromPos"]= 1,
+  ["Name"]= "棒棒糖弹丸",
+  ["ResId"]= 1107
+},
+[6130305] = {
+  ["BulletEffectSound"]= "Bullet/BulletEffect1110126",
+  ["BulletId"]= 6130305,
+  ["BulletType"]= 2,
+  ["EffectShake"]= {
+    {
+      ["ShakeDelay"]= 0,
+      ["ShakeId"]= 102,
+      ["ShakeLast"]= 200
+    }
+  },
+  ["HasBulletTrail"]= 0,
+  ["Name"]= "投掷长矛Ⅰ"
+},
+[6130307] = {
+  ["BulletEffectSound"]= "Bullet/BulletEffect1110126",
+  ["BulletId"]= 6130307,
+  ["BulletType"]= 2,
+  ["EffectShake"]= {
+    {
+      ["ShakeDelay"]= 0,
+      ["ShakeId"]= 102,
+      ["ShakeLast"]= 200
+    }
+  },
+  ["HasBulletTrail"]= 0,
+  ["Name"]= "投掷长矛Ⅱ"
+},
+[10004051] = {
+  ["BulletId"]= 10004051,
+  ["HasBulletTrail"]= 0,
+  ["Name"]= "抓捕宠物子弹",
+  ["ResId"]= 10004051
+},
+[10130401] = {
+  ["BulletEffectSound"]= "Bullet/BulletEffect1510131",
+  ["BulletEffectSoundCrit"]= "Bullet/BulletEffect1510131",
+  ["BulletEffectWhileCrit"]= "1002/BulletEffectCrit",
+  ["BulletId"]= 10130401,
+  ["Name"]= "火属性弓箭",
+  ["ResId"]= 15104311
+},
+[10170401] = {
+  ["BulletEffectSound"]= "Bullet/BulletEffect1500126",
+  ["BulletId"]= 10170401,
+  ["Name"]= "怪物-冲锋箭",
+  ["ResId"]= 15004261
+},
+[10408001] = {
+  ["Acceleration"]= 50,
+  ["BulletId"]= 10408001,
+  ["HorzontalSpeedType"]= 1,
+  ["Name"]= "初级宠物弹丸",
+  ["ResId"]= 10408001
+},
+[10408002] = {
+  ["Acceleration"]= 50,
+  ["BulletId"]= 10408002,
+  ["HorzontalSpeedType"]= 1,
+  ["Name"]= "中级宠物弹丸",
+  ["ResId"]= 10408002
+},
+[10408003] = {
+  ["Acceleration"]= 50,
+  ["BulletId"]= 10408003,
+  ["HorzontalSpeedType"]= 1,
+  ["Name"]= "高级宠物弹丸",
+  ["ResId"]= 10408003
+},
+[11104261] = {
+  ["BulletEffectSound"]= "Bullet/BulletEffect1110126",
+  ["BulletId"]= 11104261,
+  ["BulletType"]= 2,
+  ["EffectShake"]= {
+    {
+      ["ShakeDelay"]= 0,
+      ["ShakeId"]= 102,
+      ["ShakeLast"]= 200
+    }
+  },
+  ["HasBulletTrail"]= 0,
+  ["Name"]= "投掷长矛"
+},
+[11104281] = {
+  ["BulletEffectSound"]= "Bullet/BulletEffect1110128",
+  ["BulletId"]= 11104281,
+  ["EffectShake"]= {
+    {
+      ["ShakeDelay"]= 0,
+      ["ShakeId"]= 102,
+      ["ShakeLast"]= 200
+    }
+  },
+  ["HasBulletTrail"]= 0,
+  ["IfShow"]= 0,
+  ["Name"]= "冲锋攻击",
+  ["ResId"]= 11104281
+},
+[12123071] = {
+  ["BulletId"]= 12123071,
+  ["BulletType"]= 1,
+  ["HasBulletTrail"]= 0,
+  ["Name"]= "光之束缚",
+  ["ResId"]= 12123071
+},
+[13004231] = {
+  ["BulletEffectSound"]= "Bullet/BulletEffect13004231",
+  ["BulletId"]= 13004231,
+  ["DestroyEffectRoute"]= "13004231/BulletOver",
+  ["Name"]= "火球术",
+  ["ResId"]= 13004231
+},
+[13004251] = {
+  ["BulletEffectSound"]= "Bullet/BulletEffect1300125",
+  ["BulletId"]= 13004251,
+  ["HasBulletTrail"]= 0,
+  ["IfShow"]= 0,
+  ["Name"]= "圣灵召唤",
+  ["ResId"]= 13004251
+},
+[13104231] = {
+  ["Acceleration"]= 20,
+  ["BulletEffectSound"]= "Bullet/BulletEffect1310123",
+  ["BulletId"]= 13104231,
+  ["HasBulletTrail"]= 0,
+  ["HorzontalSpeedType"]= 1,
+  ["Name"]= "雷鸣术",
+  ["ResId"]= 13104231
+},
+[13114331] = {
+  ["Acceleration"]= 80,
+  ["BulletEffectSound"]= "Bullet/BulletEffect1311133",
+  ["BulletId"]= 13114331,
+  ["HorzontalSpeedType"]= 1,
+  ["Name"]= "连锁闪电",
+  ["ResId"]= 1310401
+},
+[13123070] = {
+  ["BulletId"]= 13123070,
+  ["BulletType"]= 2,
+  ["HasBulletTrail"]= 0,
+  ["Name"]= "元素漩涡-无",
+  ["ResId"]= 13123070
+},
+[13123071] = {
+  ["BulletId"]= 13123071,
+  ["BulletType"]= 2,
+  ["HasBulletTrail"]= 0,
+  ["Name"]= "元素漩涡-风",
+  ["ResId"]= 13123071
+},
+[13123072] = {
+  ["BulletId"]= 13123072,
+  ["BulletType"]= 2,
+  ["HasBulletTrail"]= 0,
+  ["Name"]= "元素漩涡-地",
+  ["ResId"]= 13123072
+},
+[13123073] = {
+  ["BulletId"]= 13123073,
+  ["BulletType"]= 2,
+  ["HasBulletTrail"]= 0,
+  ["Name"]= "元素漩涡-水",
+  ["ResId"]= 13123073
+},
+[13123074] = {
+  ["BulletId"]= 13123074,
+  ["BulletType"]= 2,
+  ["HasBulletTrail"]= 0,
+  ["Name"]= "元素漩涡-火",
+  ["ResId"]= 13123074
+},
+[13123091] = {
+  ["BulletId"]= 13123091,
+  ["HasBulletTrail"]= 0,
+  ["Name"]= "感电链",
+  ["ResId"]= 13123091
+},
+[13123131] = {
+  ["BulletId"]= 13123131,
+  ["HasBulletTrail"]= 0,
+  ["Name"]= "烈焰冲击",
+  ["ResId"]= 13123131
+},
+[14104261] = {
+  ["Acceleration"]= 50,
+  ["BulletEffectSound"]= "Bullet/BulletEffect1410126",
+  ["BulletId"]= 14104261,
+  ["EffectShake"]= {
+    {
+      ["ShakeDelay"]= 0,
+      ["ShakeId"]= 107,
+      ["ShakeLast"]= 100
+    }
+  },
+  ["HorzontalSpeedType"]= 1,
+  ["Name"]= "无影之牙",
+  ["ResId"]= 14104261
+},
+[14104291] = {
+  ["Acceleration"]= 20,
+  ["BulletId"]= 14104291,
+  ["DestroyEffectRoute"]= "14104291/BulletDestroyEffect",
+  ["HasBulletTrail"]= 0,
+  ["HorzontalSpeedType"]= 1,
+  ["Name"]= "病毒散播",
+  ["ResId"]= 14104291
+},
+[14104311] = {
+  ["Acceleration"]= 50,
+  ["BulletEffectSound"]= "Bullet/BulletEffect1410131",
+  ["BulletId"]= 14104311,
+  ["EffectShake"]= {
+    {
+      ["ShakeDelay"]= 0,
+      ["ShakeId"]= 102,
+      ["ShakeLast"]= 200
+    }
+  },
+  ["HorzontalSpeedType"]= 1,
+  ["Name"]= "剧毒暗器",
+  ["ResId"]= 14104311
+},
+[14104331] = {
+  ["BulletId"]= 14104331,
+  ["BulletSound"]= "Bullet/Bullet1410133",
+  ["HasBulletTrail"]= 0,
+  ["IfShow"]= 0,
+  ["Name"]= "翻滚回避",
+  ["ResId"]= 0
+},
+[14114221] = {
+  ["BulletEffectSound"]= "Bullet/BulletEffect1411122",
+  ["BulletId"]= 14114221,
+  ["Name"]= "心灵震波",
+  ["ResId"]= 14114221
+},
+[15004211] = {
+  ["BulletEffectSound"]= "Bullet/BulletEffect1500121",
+  ["BulletId"]= 15004211,
+  ["Name"]= "二连矢普通",
+  ["ResId"]= 15004211
+},
+[15004212] = {
+  ["BulletEffectSound"]= "Bullet/BulletEffect15004212",
+  ["BulletId"]= 15004212,
+  ["Name"]= "二连矢圣",
+  ["ResId"]= 15004212
+},
+[15004213] = {
+  ["BulletEffectSound"]= "Bullet/BulletEffect15004213",
+  ["BulletId"]= 15004213,
+  ["Name"]= "二连矢火",
+  ["ResId"]= 15004213
+},
+[15004214] = {
+  ["BulletEffectSound"]= "Bullet/BulletEffect15004214",
+  ["BulletId"]= 15004214,
+  ["Name"]= "二连矢水",
+  ["ResId"]= 15004214
+},
+[15004215] = {
+  ["BulletId"]= 15004215,
+  ["Name"]= "二连矢风",
+  ["ResId"]= 15004215
+},
+[15004216] = {
+  ["BulletId"]= 15004216,
+  ["Name"]= "二连矢地",
+  ["ResId"]= 15004216
+},
+[15004261] = {
+  ["BulletEffectSound"]= "Bullet/BulletEffect1500126",
+  ["BulletId"]= 15004261,
+  ["EffectShake"]= {
+    {
+      ["ShakeDelay"]= 0,
+      ["ShakeId"]= 102,
+      ["ShakeLast"]= 200
+    }
+  },
+  ["Name"]= "冲锋箭普通",
+  ["ResId"]= 15004261
+},
+[15004262] = {
+  ["BulletEffectSound"]= "Bullet/BulletEffect1511130",
+  ["BulletId"]= 15004262,
+  ["EffectShake"]= {
+    {
+      ["ShakeDelay"]= 0,
+      ["ShakeId"]= 102,
+      ["ShakeLast"]= 200
+    }
+  },
+  ["Name"]= "冲锋箭圣",
+  ["ResId"]= 15004262
+},
+[15004263] = {
+  ["BulletEffectSound"]= "Bullet/BulletEffect1510131",
+  ["BulletId"]= 15004263,
+  ["EffectShake"]= {
+    {
+      ["ShakeDelay"]= 0,
+      ["ShakeId"]= 102,
+      ["ShakeLast"]= 200
+    }
+  },
+  ["Name"]= "冲锋箭火",
+  ["ResId"]= 15004263
+},
+[15004264] = {
+  ["BulletEffectSound"]= "Bullet/BulletEffect1511130",
+  ["BulletId"]= 15004264,
+  ["EffectShake"]= {
+    {
+      ["ShakeDelay"]= 0,
+      ["ShakeId"]= 102,
+      ["ShakeLast"]= 200
+    }
+  },
+  ["Name"]= "冲锋箭水",
+  ["ResId"]= 15004264
+},
+[15004265] = {
+  ["BulletId"]= 15004265,
+  ["EffectShake"]= {
+    {
+      ["ShakeDelay"]= 0,
+      ["ShakeId"]= 102,
+      ["ShakeLast"]= 200
+    }
+  },
+  ["Name"]= "冲锋箭风",
+  ["ResId"]= 15004265
+},
+[15004266] = {
+  ["BulletId"]= 15004266,
+  ["EffectShake"]= {
+    {
+      ["ShakeDelay"]= 0,
+      ["ShakeId"]= 102,
+      ["ShakeLast"]= 200
+    }
+  },
+  ["Name"]= "冲锋箭水",
+  ["ResId"]= 15004266
+},
+[15004281] = {
+  ["BulletEffectSound"]= "Bullet/BulletEffect1500128",
+  ["BulletEffectSoundCrit"]= "Bullet/BulletEffect1500128",
+  ["BulletEffectWhileCrit"]= "1002/BulletEffectCrit",
+  ["BulletId"]= 15004281,
+  ["ResId"]= 15004281
+},
+[15004301] = {
+  ["BulletEffectWhileCrit"]= "1002/BulletEffectCrit",
+  ["BulletId"]= 15004301,
+  ["Name"]= "弓箭射击（风元素）",
+  ["ResId"]= 15004301
+},
+[15004302] = {
+  ["BulletEffectWhileCrit"]= "1002/BulletEffectCrit",
+  ["BulletId"]= 15004302,
+  ["Name"]= "弓箭射击（地元素）",
+  ["ResId"]= 15004302
+},
+[15104221] = {
+  ["BulletEffectSound"]= "Bullet/BulletEffect15104221",
+  ["BulletId"]= 15104221,
+  ["ContinueFlyingDistance"]= 3,
+  ["HideEagle"]= 1,
+  ["Name"]= "驯鹰术子弹",
+  ["ResId"]= 15104221,
+  ["WhetherToReturn"]= 1
+},
+[15104231] = {
+  ["BulletEffectSound"]= "Bullet/BulletEffect15114211",
+  ["BulletId"]= 15104231,
+  ["ContinueFlyingDistance"]= 3,
+  ["HideEagle"]= 1,
+  ["Name"]= "闪电冲击",
+  ["ResId"]= 15114211,
+  ["WhetherToReturn"]= 1
+},
+[15104311] = {
+  ["BulletEffectSound"]= "Bullet/BulletEffect1510131",
+  ["BulletEffectSoundCrit"]= "Bullet/BulletEffect1510131",
+  ["BulletEffectWhileCrit"]= "1002/BulletEffectCrit",
+  ["BulletId"]= 15104311,
+  ["ResId"]= 15104311
+},
+[15104331] = {
+  ["BulletEffectSound"]= "Bullet/BulletEffect1500126",
+  ["BulletId"]= 15104331,
+  ["EffectShake"]= {
+    {
+      ["ShakeDelay"]= 0,
+      ["ShakeId"]= 102,
+      ["ShakeLast"]= 200
+    }
+  },
+  ["Name"]= "专注射击普通",
+  ["ResId"]= 15104331
+},
+[15104332] = {
+  ["BulletEffectSound"]= "Bullet/BulletEffect1511130",
+  ["BulletId"]= 15104332,
+  ["EffectShake"]= {
+    {
+      ["ShakeDelay"]= 0,
+      ["ShakeId"]= 102,
+      ["ShakeLast"]= 200
+    }
+  },
+  ["Name"]= "专注射击圣",
+  ["ResId"]= 15104332
+},
+[15104333] = {
+  ["BulletEffectSound"]= "Bullet/BulletEffect1510131",
+  ["BulletId"]= 15104333,
+  ["EffectShake"]= {
+    {
+      ["ShakeDelay"]= 0,
+      ["ShakeId"]= 102,
+      ["ShakeLast"]= 200
+    }
+  },
+  ["Name"]= "专注射击火",
+  ["ResId"]= 15104333
+},
+[15104334] = {
+  ["BulletEffectSound"]= "Bullet/BulletEffect1511130",
+  ["BulletId"]= 15104334,
+  ["EffectShake"]= {
+    {
+      ["ShakeDelay"]= 0,
+      ["ShakeId"]= 102,
+      ["ShakeLast"]= 200
+    }
+  },
+  ["Name"]= "专注射击水",
+  ["ResId"]= 15104334
+},
+[15104335] = {
+  ["BulletId"]= 15104335,
+  ["EffectShake"]= {
+    {
+      ["ShakeDelay"]= 0,
+      ["ShakeId"]= 102,
+      ["ShakeLast"]= 200
+    }
+  },
+  ["Name"]= "专注射击风",
+  ["ResId"]= 15104335
+},
+[15104336] = {
+  ["BulletId"]= 15104336,
+  ["EffectShake"]= {
+    {
+      ["ShakeDelay"]= 0,
+      ["ShakeId"]= 102,
+      ["ShakeLast"]= 200
+    }
+  },
+  ["Name"]= "专注射击地",
+  ["ResId"]= 15104336
+},
+[15114211] = {
+  ["BulletEffectSound"]= "Bullet/BulletEffect15114211",
+  ["BulletId"]= 15114211,
+  ["ContinueFlyingDistance"]= 3,
+  ["HideEagle"]= 1,
+  ["Name"]= "猎鹰突击",
+  ["ResId"]= 15114211,
+  ["WhetherToReturn"]= 1
+},
+[15114221] = {
+  ["BulletId"]= 15114221,
+  ["HasBulletTrail"]= 0,
+  ["Name"]= "锐利射击",
+  ["ResId"]= 15114221
+},
+[15114251] = {
+  ["BulletId"]= 15114251,
+  ["HasBulletTrail"]= 0,
+  ["Name"]= "幻影箭",
+  ["ResId"]= 15114251
+},
+[15114301] = {
+  ["BulletEffectSound"]= "Bullet/BulletEffect1511130",
+  ["BulletEffectSoundCrit"]= "Bullet/BulletEffect1511130",
+  ["BulletEffectWhileCrit"]= "1002/BulletEffectCrit",
+  ["BulletId"]= 15114301,
+  ["ResId"]= 15114301
+},
+[15114311] = {
+  ["BulletEffectSound"]= "Bullet/BulletEffect1500126",
+  ["BulletId"]= 15114311,
+  ["EffectShake"]= {
+    {
+      ["ShakeDelay"]= 0,
+      ["ShakeId"]= 102,
+      ["ShakeLast"]= 200
+    }
+  },
+  ["Name"]= "锐利射击普通",
+  ["ResId"]= 15114311
+},
+[15114312] = {
+  ["BulletEffectSound"]= "Bullet/BulletEffect1511130",
+  ["BulletId"]= 15114312,
+  ["EffectShake"]= {
+    {
+      ["ShakeDelay"]= 0,
+      ["ShakeId"]= 102,
+      ["ShakeLast"]= 200
+    }
+  },
+  ["Name"]= "锐利射击圣",
+  ["ResId"]= 15114312
+},
+[15114313] = {
+  ["BulletEffectSound"]= "Bullet/BulletEffect1510131",
+  ["BulletId"]= 15114313,
+  ["EffectShake"]= {
+    {
+      ["ShakeDelay"]= 0,
+      ["ShakeId"]= 102,
+      ["ShakeLast"]= 200
+    }
+  },
+  ["Name"]= "锐利射击火",
+  ["ResId"]= 15114313
+},
+[15114314] = {
+  ["BulletEffectSound"]= "Bullet/BulletEffect1511130",
+  ["BulletId"]= 15114314,
+  ["EffectShake"]= {
+    {
+      ["ShakeDelay"]= 0,
+      ["ShakeId"]= 102,
+      ["ShakeLast"]= 200
+    }
+  },
+  ["Name"]= "锐利射击水",
+  ["ResId"]= 15114314
+},
+[15114315] = {
+  ["BulletId"]= 15114315,
+  ["EffectShake"]= {
+    {
+      ["ShakeDelay"]= 0,
+      ["ShakeId"]= 102,
+      ["ShakeLast"]= 200
+    }
+  },
+  ["Name"]= "锐利射击风",
+  ["ResId"]= 15114315
+},
+[15114316] = {
+  ["BulletId"]= 15114316,
+  ["EffectShake"]= {
+    {
+      ["ShakeDelay"]= 0,
+      ["ShakeId"]= 102,
+      ["ShakeLast"]= 200
+    }
+  },
+  ["Name"]= "锐利射击地",
+  ["ResId"]= 15114316
+},
+[16102071] = {
+  ["BulletEffectSound"]= "Bullet/BulletEffect16102071",
+  ["BulletId"]= 16102071,
+  ["FxChangesWithPendant"]= 1,
+  ["HasBulletTrail"]= 0,
+  ["HideEagle"]= 1,
+  ["Name"]= "手推车折跃",
+  ["PendantIDCorrespondingEffect"]= {
+    {
+      ["CorrespondingEffect"]= "16102071/Bullet_83011",
+      ["PendantID"]= 83011
+    },
+    {
+      ["CorrespondingEffect"]= "16102071/Bullet",
+      ["PendantID"]= 83010
+    }
+  },
+  ["ResId"]= 16102071
+},
+[16111081] = {
+  ["BulletEffectSound"]= "Bullet/BulletEffect16111081",
+  ["BulletId"]= 16111081,
+  ["DestroyEffectRoute"]= "16111081/BulletOver",
+  ["HasBulletTrail"]= 0,
+  ["HideEagle"]= 1,
+  ["Name"]= "手推车终结技",
+  ["PendantIDCorrespondingEffect"]= {
+    {
+      ["CorrespondingEffect"]= "16111081/Bullet",
+      ["PendantID"]= 83010
+    },
+    {
+      ["CorrespondingEffect"]= "16111081/Bullet_83011",
+      ["PendantID"]= 83011
+    }
+  },
+  ["ResId"]= 16111081
+},
+[16112051] = {
+  ["BulletEffectSound"]= "Bullet/BulletEffect16112051",
+  ["BulletId"]= 16112051,
+  ["HasBulletTrail"]= 0,
+  ["Name"]= "金钱投掷",
+  ["ResId"]= 16112051
+},
+[20096401] = {
+  ["BulletEffectSound"]= "Bullet/BulletEffect13004231",
+  ["BulletId"]= 20096401,
+  ["HasBulletTrail"]= 0,
+  ["Name"]= "火球术",
+  ["ResId"]= 20096401
+},
+[20129401] = {
+  ["BulletId"]= 20129401,
+  ["BulletType"]= 1,
+  ["HasBulletTrail"]= 0,
+  ["Name"]= "小巴风特连线",
+  ["ResId"]= 20129401
+},
+[20130401] = {
+  ["BulletId"]= 20130401,
+  ["BulletType"]= 1,
+  ["HasBulletTrail"]= 0,
+  ["Name"]= "恶魔之塔连线子弹",
+  ["ResId"]= 20130401
+},
+[20205401] = {
+  ["BulletEffectSound"]= "Bullet/Bullet30012401",
+  ["BulletId"]= 20205401,
+  ["HasBulletTrail"]= 0,
+  ["Name"]= "邪骸浪人 旋风斩",
+  ["ResId"]= 30012401,
+  ["warningBoxType"]= {
+    ["anchorPointOffset"]= 0,
+    ["Length"]= 30,
+    ["ShapeType"]= 6,
+    ["Width"]= 4
+  }
+},
+[30002401] = {
+  ["Acceleration"]= 50,
+  ["BulletId"]= 30002401,
+  ["HasBulletTrail"]= 0,
+  ["HorzontalSpeedType"]= 1,
+  ["IfShow"]= 0,
+  ["Name"]= "铁头撞击",
+  ["ResId"]= 30002401
+},
+[30003401] = {
+  ["BulletId"]= 30003401,
+  ["HasBulletTrail"]= 0,
+  ["Name"]= "恶魔波利-召怪子弹",
+  ["ResId"]= 30003401
+},
+[30003402] = {
+  ["BulletId"]= 30003402,
+  ["Name"]= "恶魔波利-恶魔之吻",
+  ["ResId"]= 30003402
+},
+[30004401] = {
+  ["Acceleration"]= 30,
+  ["BulletEffectSound"]= "Bullet/BulletEffect30004401",
+  ["BulletId"]= 30004401,
+  ["HasBulletTrail"]= 0,
+  ["HorzontalSpeedType"]= 1,
+  ["Name"]= "究极水炮第一阶段",
+  ["ResId"]= 30004401
+},
+[30004402] = {
+  ["BulletId"]= 30004402,
+  ["HasBulletTrail"]= 0,
+  ["Name"]= "究极水炮第二阶段",
+  ["ResId"]= 30004402,
+  ["warningBoxType"]= {
+    ["anchorPointOffset"]= 0,
+    ["Length"]= 30,
+    ["ShapeType"]= 3,
+    ["Width"]= 1.5
+  }
+},
+[30004403] = {
+  ["Acceleration"]= 50,
+  ["BulletId"]= 30004403,
+  ["HasBulletTrail"]= 0,
+  ["HorzontalSpeedType"]= 1,
+  ["IfShow"]= 0,
+  ["Name"]= "乌鸦戏水",
+  ["ResId"]= 30004403
+},
+[30004408] = {
+  ["BulletId"]= 30004408,
+  ["HasBulletTrail"]= 0,
+  ["isFromPos"]= 1,
+  ["Name"]= "幽灵船撞击",
+  ["ResId"]= 30004408,
+  ["warningBoxType"]= {
+    ["anchorPointOffset"]= 0,
+    ["Length"]= 50,
+    ["ShapeType"]= 6,
+    ["Width"]= 5
+  }
+},
+[30007401] = {
+  ["BulletId"]= 30007401,
+  ["HasBulletTrail"]= 0,
+  ["Name"]= "蜂后：死亡蜂针",
+  ["ResId"]= 30007401
+},
+[30007402] = {
+  ["BulletId"]= 30007402,
+  ["HasBulletTrail"]= 0,
+  ["Name"]= "蜂后：蜂巢轨迹",
+  ["ResId"]= 30007402
+},
+[30008401] = {
+  ["BulletId"]= 30008401,
+  ["HasBulletTrail"]= 0,
+  ["Name"]= "很高兴吃掉你",
+  ["ResId"]= 30008401
+},
+[30008402] = {
+  ["BulletId"]= 30008402,
+  ["HasBulletTrail"]= 0,
+  ["Name"]= "很高兴吃掉你 boss出特效",
+  ["ResId"]= 30008402
+},
+[30009401] = {
+  ["BulletId"]= 30009401,
+  ["HasBulletTrail"]= 0,
+  ["IfShow"]= 0,
+  ["Name"]= "蚁后冲锋",
+  ["ResId"]= 30009401
+},
+[30010401] = {
+  ["BulletId"]= 30010401,
+  ["HasBulletTrail"]= 0,
+  ["Name"]= "虎王 火焰瓶投掷",
+  ["posIsTarget"]= 1,
+  ["ResId"]= 30010401,
+  ["warningBoxType"]= {
+    ["Radius"]= 3.25,
+    ["ShapeType"]= 4
+  }
+},
+[30010402] = {
+  ["BulletId"]= 30010402,
+  ["HasBulletTrail"]= 0,
+  ["Name"]= "虎王 爪气",
+  ["ResId"]= 30010402,
+  ["warningBoxType"]= {
+    ["anchorPointOffset"]= 0,
+    ["Length"]= 25,
+    ["ShapeType"]= 3,
+    ["Width"]= 3
+  }
+},
+[30012401] = {
+  ["BulletEffectSound"]= "Bullet/Bullet30012401",
+  ["BulletId"]= 30012401,
+  ["HasBulletTrail"]= 0,
+  ["Name"]= "兽人英雄 旋风斩",
+  ["ResId"]= 30012401
+},
+[30013401] = {
+  ["BulletId"]= 30013401,
+  ["BulletType"]= 1,
+  ["HasBulletTrail"]= 0,
+  ["isFromPos"]= 1,
+  ["Name"]= "俄赛里斯黑线",
+  ["ResId"]= 30013401
+},
+[30013402] = {
+  ["Acceleration"]= 10,
+  ["BulletId"]= 30013402,
+  ["HorzontalSpeedType"]= 1,
+  ["Name"]= "吐痰",
+  ["posIsTarget"]= 1,
+  ["ResId"]= 30013402,
+  ["warningBoxType"]= {
+    ["Radius"]= 3,
+    ["ShapeType"]= 4
+  }
+},
+[30014401] = {
+  ["BulletId"]= 30014401,
+  ["HasBulletTrail"]= 0,
+  ["IfShow"]= 0,
+  ["Name"]= "居合斩冲锋",
+  ["ResId"]= 0
+},
+[30016401] = {
+  ["BulletId"]= 30016401,
+  ["HasBulletTrail"]= 0,
+  ["isFromPos"]= 1,
+  ["Name"]= "德古拉：血珠子弹",
+  ["ResId"]= 30016401
+},
+[30017401] = {
+  ["BulletId"]= 30017401,
+  ["BulletType"]= 1,
+  ["HasBulletTrail"]= 0,
+  ["Name"]= "法老王红线",
+  ["ResId"]= 30017401
+},
+[30020401] = {
+  ["BulletId"]= 30020401,
+  ["HasBulletTrail"]= 0,
+  ["IfShow"]= 0,
+  ["isFromPos"]= 1,
+  ["Name"]= "古埃及王-普攻吸血子弹",
+  ["ResId"]= 30020401
+},
+[30020402] = {
+  ["BulletId"]= 30020402,
+  ["BulletType"]= 1,
+  ["HasBulletTrail"]= 0,
+  ["Name"]= "锁链特效流光子弹",
+  ["ResId"]= 30020402
+},
+[30020403] = {
+  ["BulletId"]= 30020403,
+  ["HasBulletTrail"]= 0,
+  ["IfShow"]= 0,
+  ["Name"]= "锁链伤害子弹",
+  ["ResId"]= 30020402
+},
+[30020404] = {
+  ["BulletId"]= 30020404,
+  ["BulletType"]= 1,
+  ["HasBulletTrail"]= 0,
+  ["Name"]= "锁链子弹",
+  ["ResId"]= 30020404
+},
+[30099401] = {
+  ["BulletId"]= 30099401,
+  ["Name"]= "闪电链子弹",
+  ["ResId"]= 30099401
+},
+[30099402] = {
+  ["BulletId"]= 30099402,
+  ["Name"]= "闪电链子弹",
+  ["ResId"]= 30099402
+},
+[30099403] = {
+  ["BulletId"]= 30099403,
+  ["BulletSound"]= "Bullet/Bullet30099403",
+  ["Name"]= "火球子弹",
+  ["ResId"]= 30099403
+},
+[31008401] = {
+  ["Acceleration"]= 10,
+  ["BulletId"]= 31008401,
+  ["DestroyEffectRoute"]= "31008401/BulletOver",
+  ["HorzontalSpeedType"]= 1,
+  ["Name"]= "吐痰",
+  ["posIsTarget"]= 1,
+  ["ResId"]= 31008401,
+  ["warningBoxType"]= {
+    ["Radius"]= 3,
+    ["ShapeType"]= 4
+  }
+},
+[33011401] = {
+  ["BulletId"]= 33011401,
+  ["HasBulletTrail"]= 0,
+  ["Name"]= "卡利斯格冲锋",
+  ["ResId"]= 30009401
+},
+[50011031] = {
+  ["BulletId"]= 50011031,
+  ["Name"]= "宠物技能暗影箭",
+  ["ResId"]= 50011041
+},
+[51019011] = {
+  ["BulletId"]= 51019011,
+  ["DestroyEffectRoute"]= "51019011/BulletOver",
+  ["Name"]= "宠物技能大嘴鸟子弹",
+  ["ResId"]= 51019011
+},
+[51026011] = {
+  ["BulletId"]= 51026011,
+  ["Name"]= "宠物邪骸弓箭手子弹1",
+  ["ResId"]= 51026011
+},
+[51026012] = {
+  ["BulletId"]= 51026012,
+  ["Name"]= "宠物邪骸弓箭手子弹2",
+  ["ResId"]= 51026012
+},
+[71006401] = {
+  ["BulletId"]= 71006401,
+  ["BulletType"]= 1,
+  ["HasBulletTrail"]= 0,
+  ["Name"]= "炼狱词缀-连线子弹",
+  ["ResId"]= 71006401
+},
+[71008401] = {
+  ["BulletId"]= 71008401,
+  ["Name"]= "炼狱词缀-投掷子弹",
+  ["posIsTarget"]= 1,
+  ["ResId"]= 71008401,
+  ["warningBoxType"]= {
+    ["Radius"]= 3.25,
+    ["ShapeType"]= 4
+  }
+},
+[81500121] = {
+  ["BulletEffectSound"]= "Bullet/BulletEffect1500121",
+  ["BulletId"]= 81500121,
+  ["Name"]= "二连矢",
+  ["ResId"]= 15004211
+},
+[82060000] = {
+  ["BulletId"]= 82060000,
+  ["HasBulletTrail"]= 0,
+  ["isFromPos"]= 1,
+  ["Name"]= "德古拉自爆蝙蝠",
+  ["ResId"]= 82060000
+},
+[84020000] = {
+  ["Acceleration"]= 80,
+  ["BulletEffectSound"]= "Bullet/BulletEffect1311133",
+  ["BulletId"]= 84020000,
+  ["HorzontalSpeedType"]= 1,
+  ["Name"]= "连锁闪电",
+  ["ResId"]= 1310401
+}
+}
+local baseTable={
+  ["BuffList"]= {},
+  ["BulletEffectSound"]= "",
+  ["BulletEffectSoundCrit"]= "",
+  ["BulletEffectWhileCrit"]= "",
+  ["BulletId"]= 1001,
+  ["BulletSound"]= "",
+  ["BulletType"]= 0,
+  ["ContinueFlyingDistance"]= 0,
+  ["DestroyEffectRoute"]= "",
+  ["EffectShake"]= {},
+  ["EffectSoundId"]= 0,
+  ["FxChangesWithPendant"]= 0,
+  ["HasBulletTrail"]= 1,
+  ["HideEagle"]= 0,
+  ["HorzontalSpeedType"]= 0,
+  ["IfShow"]= 1,
+  ["isFromPos"]= 0,
+  ["Name"]= "弓箭射击",
+  ["PendantIDCorrespondingEffect"]= {},
+  ["posIsTarget"]= 0,
+  ["ResId"]= 11104261,
+  ["SoundId"]= 0,
+  ["warningBoxType"]= {
+    ["ShapeType"]= 0
+  },
+  ["WhetherToReturn"]= 0
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

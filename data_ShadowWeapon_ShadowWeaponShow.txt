@@ -1,0 +1,32 @@
+TextAsset Base
+	string m_Name = "data_ShadowWeapon_ShadowWeaponShow"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["Id"]= 2,
+  ["Name"]= "钻石",
+  ["Type"]= 2
+},
+[3] = {
+  ["Id"]= 3,
+  ["Name"]= "水晶",
+  ["Type"]= 3
+},
+[4] = {
+  ["Id"]= 4,
+  ["ItemId"]= 10204103,
+  ["Name"]= "公会贡献",
+  ["Type"]= 5
+}
+}
+local baseTable={
+  ["Id"]= 1,
+  ["ItemId"]= 0,
+  ["Name"]= "Zeny",
+  ["ShowType"]= 1,
+  ["Type"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

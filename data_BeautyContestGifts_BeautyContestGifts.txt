@@ -1,0 +1,79 @@
+TextAsset Base
+	string m_Name = "data_BeautyContestGifts_BeautyContestGifts"
+	string m_Script = "local table= {
+[1] = {
+  ["CurrencyId"]= 1,
+  ["GiftNum"]= {
+    1,
+    10
+  },
+  ["PresentDayMaxNum"]= 20
+},
+[2] = {
+  ["AssistanceValue"]= 10,
+  ["CurrencyNum"]= 10000,
+  ["ItemIcon"]= 10202127,
+  ["ItemID"]= 10202127,
+  ["ItemName"]= "ItemName_10202127",
+  ["Name"]= "庆典香槟",
+  ["Order"]= 2
+},
+[3] = {
+  ["AssistanceValue"]= 20,
+  ["CurrencyNum"]= 19800,
+  ["ItemIcon"]= 10202128,
+  ["ItemID"]= 10202128,
+  ["ItemName"]= "ItemName_10202128",
+  ["Name"]= "宝石项链",
+  ["Order"]= 3
+},
+[4] = {
+  ["AssistanceValue"]= 40,
+  ["CurrencyNum"]= 38000,
+  ["ItemIcon"]= 10202129,
+  ["ItemID"]= 10202129,
+  ["ItemName"]= "ItemName_10202129",
+  ["Name"]= "钻石戒指",
+  ["Order"]= 4
+},
+[5] = {
+  ["AssistanceValue"]= 60,
+  ["CurrencyNum"]= 54000,
+  ["ItemIcon"]= 10202130,
+  ["ItemID"]= 10202130,
+  ["ItemName"]= "ItemName_10202130",
+  ["Name"]= "天使耳环",
+  ["Order"]= 5
+},
+[6] = {
+  ["AssistanceValue"]= 100,
+  ["CurrencyNum"]= 88888,
+  ["ItemIcon"]= 10202131,
+  ["ItemID"]= 10202131,
+  ["ItemName"]= "ItemName_10202131",
+  ["Name"]= "水晶皇冠",
+  ["Order"]= 6
+}
+}
+local baseTable={
+  ["AssistanceValue"]= 5,
+  ["CurrencyId"]= 2,
+  ["CurrencyNum"]= 30000,
+  ["GiftNum"]= {
+    1,
+    10,
+    30,
+    50,
+    99
+  },
+  ["ItemIcon"]= 10202126,
+  ["ItemID"]= 10202126,
+  ["ItemName"]= "ItemName_10202126",
+  ["Name"]= "鲜红玫瑰",
+  ["Order"]= 1,
+  ["PresentDayMaxNum"]= 0
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

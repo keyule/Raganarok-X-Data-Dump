@@ -1,0 +1,3326 @@
+TextAsset Base
+	string m_Name = "data_question_question"
+	string m_Script = "local table= {
+[1] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question001_1",
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question001"
+},
+[2] = {
+  ["id"]= 2,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question002"
+},
+[3] = {
+  ["id"]= 3,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question003"
+},
+[4] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question004_1",
+  ["id"]= 4,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question004"
+},
+[5] = {
+  ["id"]= 5,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question005"
+},
+[6] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question006_1",
+  ["id"]= 6,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question006"
+},
+[7] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question007_1",
+  ["id"]= 7,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question007"
+},
+[8] = {
+  ["id"]= 8,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question008"
+},
+[9] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question009_1",
+  ["id"]= 9,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question009"
+},
+[10] = {
+  ["id"]= 10,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question010"
+},
+[11] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question011_1",
+  ["id"]= 11,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question011"
+},
+[12] = {
+  ["id"]= 12,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question012"
+},
+[13] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question013_1",
+  ["id"]= 13,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question013"
+},
+[14] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question014_1",
+  ["id"]= 14,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question014"
+},
+[15] = {
+  ["id"]= 15,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question015"
+},
+[16] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question016_1",
+  ["id"]= 16,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question016"
+},
+[17] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question017_1",
+  ["id"]= 17,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question017"
+},
+[18] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question018_1",
+  ["id"]= 18,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question018"
+},
+[19] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question019_1",
+  ["id"]= 19,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question019"
+},
+[20] = {
+  ["id"]= 20,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question020"
+},
+[21] = {
+  ["id"]= 21,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question021"
+},
+[22] = {
+  ["id"]= 22,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question022"
+},
+[23] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question023_1",
+  ["id"]= 23,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question023"
+},
+[24] = {
+  ["id"]= 24,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question024"
+},
+[25] = {
+  ["id"]= 25,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question025"
+},
+[26] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question026_1",
+  ["id"]= 26,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question026"
+},
+[27] = {
+  ["id"]= 27,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question027"
+},
+[28] = {
+  ["id"]= 28,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question028"
+},
+[29] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question029_1",
+  ["id"]= 29,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question029"
+},
+[30] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question030_1",
+  ["id"]= 30,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question030"
+},
+[31] = {
+  ["id"]= 31,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question031"
+},
+[32] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question032_1",
+  ["id"]= 32,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question032"
+},
+[33] = {
+  ["id"]= 33,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question033"
+},
+[34] = {
+  ["id"]= 34,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question034"
+},
+[35] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question035_1",
+  ["id"]= 35,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question035"
+},
+[36] = {
+  ["id"]= 36,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question036"
+},
+[37] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question037_1",
+  ["id"]= 37,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question037"
+},
+[38] = {
+  ["id"]= 38,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question038"
+},
+[39] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question039_1",
+  ["id"]= 39,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question039"
+},
+[40] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question040_1",
+  ["id"]= 40,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question040"
+},
+[41] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question041_1",
+  ["id"]= 41,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question041"
+},
+[42] = {
+  ["id"]= 42,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question042"
+},
+[43] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question043_1",
+  ["id"]= 43,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question043"
+},
+[44] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question044_1",
+  ["id"]= 44,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question044"
+},
+[45] = {
+  ["id"]= 45,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question045"
+},
+[46] = {
+  ["id"]= 46,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question046"
+},
+[47] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question047_1",
+  ["id"]= 47,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question047"
+},
+[48] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question048_1",
+  ["id"]= 48,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question048"
+},
+[49] = {
+  ["id"]= 49,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question049"
+},
+[50] = {
+  ["id"]= 50,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question050"
+},
+[51] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question051_1",
+  ["id"]= 51,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question051"
+},
+[52] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question052_1",
+  ["id"]= 52,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question052"
+},
+[53] = {
+  ["id"]= 53,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question053"
+},
+[54] = {
+  ["id"]= 54,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question054"
+},
+[55] = {
+  ["id"]= 55,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question055"
+},
+[56] = {
+  ["id"]= 56,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question056"
+},
+[57] = {
+  ["id"]= 57,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question057"
+},
+[58] = {
+  ["id"]= 58,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question058"
+},
+[59] = {
+  ["id"]= 59,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question059"
+},
+[60] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question060_1",
+  ["id"]= 60,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question060"
+},
+[61] = {
+  ["id"]= 61,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question061"
+},
+[62] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question062_1",
+  ["id"]= 62,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question062"
+},
+[63] = {
+  ["id"]= 63,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question063"
+},
+[64] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question064_1",
+  ["id"]= 64,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question064"
+},
+[65] = {
+  ["id"]= 65,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question065"
+},
+[66] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question066_1",
+  ["id"]= 66,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question066"
+},
+[67] = {
+  ["id"]= 67,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question067"
+},
+[68] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question068_1",
+  ["id"]= 68,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question068"
+},
+[69] = {
+  ["id"]= 69,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question069"
+},
+[70] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question070_1",
+  ["id"]= 70,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question070"
+},
+[71] = {
+  ["id"]= 71,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question071"
+},
+[72] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question072_1",
+  ["id"]= 72,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question072"
+},
+[73] = {
+  ["id"]= 73,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question073"
+},
+[74] = {
+  ["id"]= 74,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question074"
+},
+[75] = {
+  ["id"]= 75,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question075"
+},
+[76] = {
+  ["id"]= 76,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question076"
+},
+[77] = {
+  ["id"]= 77,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question077"
+},
+[78] = {
+  ["id"]= 78,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question078"
+},
+[79] = {
+  ["id"]= 79,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question079"
+},
+[80] = {
+  ["id"]= 80,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question080"
+},
+[81] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question081_1",
+  ["id"]= 81,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question081"
+},
+[82] = {
+  ["id"]= 82,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question082"
+},
+[83] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question083_1",
+  ["id"]= 83,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question083"
+},
+[84] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question084_1",
+  ["id"]= 84,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question084"
+},
+[85] = {
+  ["id"]= 85,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question085"
+},
+[86] = {
+  ["id"]= 86,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question086"
+},
+[87] = {
+  ["id"]= 87,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question087"
+},
+[88] = {
+  ["id"]= 88,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question088"
+},
+[89] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question089_1",
+  ["id"]= 89,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question089"
+},
+[90] = {
+  ["id"]= 90,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question090"
+},
+[91] = {
+  ["id"]= 91,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question091"
+},
+[92] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question092_1",
+  ["id"]= 92,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question092"
+},
+[93] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question093_1",
+  ["id"]= 93,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question093"
+},
+[94] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question094_1",
+  ["id"]= 94,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question094"
+},
+[95] = {
+  ["id"]= 95,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question095"
+},
+[96] = {
+  ["id"]= 96,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question096"
+},
+[97] = {
+  ["id"]= 97,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question097"
+},
+[98] = {
+  ["id"]= 98,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question098"
+},
+[99] = {
+  ["id"]= 99,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question099"
+},
+[100] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question100_1",
+  ["id"]= 100,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question100"
+},
+[101] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question101_1",
+  ["id"]= 101,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question101"
+},
+[102] = {
+  ["id"]= 102,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question102"
+},
+[103] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question103_1",
+  ["id"]= 103,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question103"
+},
+[104] = {
+  ["id"]= 104,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question104"
+},
+[105] = {
+  ["id"]= 105,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question105"
+},
+[106] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question106_1",
+  ["id"]= 106,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question106"
+},
+[107] = {
+  ["id"]= 107,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question107"
+},
+[108] = {
+  ["id"]= 108,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question108"
+},
+[109] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question109_1",
+  ["id"]= 109,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question109"
+},
+[110] = {
+  ["id"]= 110,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question110"
+},
+[111] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question113_1",
+  ["id"]= 111,
+  ["level"]= 1
+},
+[112] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question114_1",
+  ["id"]= 112,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question114"
+},
+[113] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question113_1",
+  ["id"]= 113,
+  ["level"]= 1
+},
+[114] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question114_1",
+  ["id"]= 114,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question114"
+},
+[115] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question115_1",
+  ["id"]= 115,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question115"
+},
+[116] = {
+  ["id"]= 116,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question116"
+},
+[117] = {
+  ["id"]= 117,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question118"
+},
+[118] = {
+  ["id"]= 118,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question118"
+},
+[119] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question119_1",
+  ["id"]= 119,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question119"
+},
+[120] = {
+  ["id"]= 120,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question120"
+},
+[121] = {
+  ["id"]= 121,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question121"
+},
+[122] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question122_1",
+  ["id"]= 122,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question122"
+},
+[123] = {
+  ["id"]= 123,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question123"
+},
+[124] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question124_1",
+  ["id"]= 124,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question124"
+},
+[125] = {
+  ["id"]= 125,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question125"
+},
+[126] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question126_1",
+  ["id"]= 126,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question126"
+},
+[127] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question127_1",
+  ["id"]= 127,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question127"
+},
+[128] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question128_1",
+  ["id"]= 128,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question128"
+},
+[129] = {
+  ["id"]= 129,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question129"
+},
+[130] = {
+  ["id"]= 130,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question130"
+},
+[131] = {
+  ["id"]= 131,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question130"
+},
+[132] = {
+  ["id"]= 132,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question132"
+},
+[133] = {
+  ["id"]= 133,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question133"
+},
+[134] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question134_1",
+  ["id"]= 134,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question134"
+},
+[135] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question135_1",
+  ["id"]= 135,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question135"
+},
+[136] = {
+  ["id"]= 136,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question136"
+},
+[137] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question137_1",
+  ["id"]= 137,
+  ["level"]= 1,
+  ["questionLid"]= "OXExam_Question137"
+},
+[138] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question138_1",
+  ["id"]= 138,
+  ["questionLid"]= "OXExam_Question138"
+},
+[139] = {
+  ["id"]= 139,
+  ["questionLid"]= "OXExam_Question139"
+},
+[140] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question140_1",
+  ["id"]= 140,
+  ["questionLid"]= "OXExam_Question140"
+},
+[141] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question141_1",
+  ["id"]= 141,
+  ["questionLid"]= "OXExam_Question141"
+},
+[142] = {
+  ["id"]= 142,
+  ["questionLid"]= "OXExam_Question142"
+},
+[143] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question143_1",
+  ["id"]= 143,
+  ["questionLid"]= "OXExam_Question143"
+},
+[144] = {
+  ["id"]= 144,
+  ["questionLid"]= "OXExam_Question144"
+},
+[145] = {
+  ["id"]= 145,
+  ["questionLid"]= "OXExam_Question145"
+},
+[146] = {
+  ["id"]= 146,
+  ["questionLid"]= "OXExam_Question146"
+},
+[147] = {
+  ["id"]= 147,
+  ["questionLid"]= "OXExam_Question147"
+},
+[148] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question148_1",
+  ["id"]= 148,
+  ["questionLid"]= "OXExam_Question148"
+},
+[149] = {
+  ["id"]= 149,
+  ["questionLid"]= "OXExam_Question149"
+},
+[150] = {
+  ["id"]= 150,
+  ["questionLid"]= "OXExam_Question150"
+},
+[151] = {
+  ["id"]= 151,
+  ["questionLid"]= "OXExam_Question151"
+},
+[152] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question152_1",
+  ["id"]= 152,
+  ["questionLid"]= "OXExam_Question152"
+},
+[153] = {
+  ["id"]= 153,
+  ["questionLid"]= "OXExam_Question153"
+},
+[154] = {
+  ["id"]= 154,
+  ["questionLid"]= "OXExam_Question154"
+},
+[155] = {
+  ["id"]= 155,
+  ["questionLid"]= "OXExam_Question155"
+},
+[156] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question156_1",
+  ["id"]= 156,
+  ["questionLid"]= "OXExam_Question156"
+},
+[157] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question157_1",
+  ["id"]= 157,
+  ["questionLid"]= "OXExam_Question157"
+},
+[158] = {
+  ["id"]= 158,
+  ["questionLid"]= "OXExam_Question158"
+},
+[159] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question159_1",
+  ["id"]= 159,
+  ["questionLid"]= "OXExam_Question159"
+},
+[160] = {
+  ["id"]= 160,
+  ["questionLid"]= "OXExam_Question160"
+},
+[161] = {
+  ["id"]= 161,
+  ["questionLid"]= "OXExam_Question161"
+},
+[162] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXExam_Question162_1",
+  ["id"]= 162,
+  ["questionLid"]= "OXExam_Question162"
+},
+[163] = {
+  ["id"]= 163,
+  ["questionLid"]= "OXExam_Question163"
+},
+[164] = {
+  ["id"]= 164,
+  ["questionLid"]= "OXExam_Question164"
+},
+[165] = {
+  ["id"]= 165,
+  ["questionLid"]= "OXExam_Question165"
+},
+[166] = {
+  ["id"]= 166,
+  ["questionLid"]= "OXLanternQuestion001"
+},
+[167] = {
+  ["id"]= 167,
+  ["questionLid"]= "OXLanternQuestion002"
+},
+[168] = {
+  ["id"]= 168,
+  ["questionLid"]= "OXLanternQuestion003"
+},
+[169] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion004_1",
+  ["id"]= 169,
+  ["questionLid"]= "OXLanternQuestion004"
+},
+[170] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion005_1",
+  ["id"]= 170,
+  ["questionLid"]= "OXLanternQuestion005"
+},
+[171] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion006_1",
+  ["id"]= 171,
+  ["questionLid"]= "OXLanternQuestion006"
+},
+[172] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion007_1",
+  ["id"]= 172,
+  ["questionLid"]= "OXLanternQuestion007"
+},
+[173] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion008_1",
+  ["id"]= 173,
+  ["questionLid"]= "OXLanternQuestion008"
+},
+[174] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion009_1",
+  ["id"]= 174,
+  ["questionLid"]= "OXLanternQuestion009"
+},
+[175] = {
+  ["id"]= 175,
+  ["questionLid"]= "OXLanternQuestion010"
+},
+[176] = {
+  ["id"]= 176,
+  ["questionLid"]= "OXLanternQuestion011"
+},
+[177] = {
+  ["id"]= 177,
+  ["questionLid"]= "OXLanternQuestion012"
+},
+[178] = {
+  ["id"]= 178,
+  ["questionLid"]= "OXLanternQuestion013"
+},
+[179] = {
+  ["id"]= 179,
+  ["questionLid"]= "OXLanternQuestion014"
+},
+[180] = {
+  ["id"]= 180,
+  ["questionLid"]= "OXLanternQuestion015"
+},
+[181] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion016_1",
+  ["id"]= 181,
+  ["questionLid"]= "OXLanternQuestion016"
+},
+[182] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion017_1",
+  ["id"]= 182,
+  ["questionLid"]= "OXLanternQuestion017"
+},
+[183] = {
+  ["id"]= 183,
+  ["questionLid"]= "OXLanternQuestion018"
+},
+[184] = {
+  ["id"]= 184,
+  ["questionLid"]= "OXLanternQuestion019"
+},
+[185] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion020_1",
+  ["id"]= 185,
+  ["questionLid"]= "OXLanternQuestion020"
+},
+[186] = {
+  ["id"]= 186,
+  ["questionLid"]= "OXLanternQuestion021"
+},
+[187] = {
+  ["id"]= 187,
+  ["questionLid"]= "OXLanternQuestion022"
+},
+[188] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion023_1",
+  ["id"]= 188,
+  ["questionLid"]= "OXLanternQuestion023"
+},
+[189] = {
+  ["id"]= 189,
+  ["questionLid"]= "OXLanternQuestion024"
+},
+[190] = {
+  ["id"]= 190,
+  ["questionLid"]= "OXLanternQuestion025"
+},
+[191] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion026_1",
+  ["id"]= 191,
+  ["questionLid"]= "OXLanternQuestion026"
+},
+[192] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion027_1",
+  ["id"]= 192,
+  ["questionLid"]= "OXLanternQuestion027"
+},
+[193] = {
+  ["id"]= 193,
+  ["questionLid"]= "OXLanternQuestion028"
+},
+[194] = {
+  ["id"]= 194,
+  ["questionLid"]= "OXLanternQuestion029"
+},
+[195] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion030_1",
+  ["id"]= 195,
+  ["questionLid"]= "OXLanternQuestion030"
+},
+[196] = {
+  ["id"]= 196,
+  ["questionLid"]= "OXLanternQuestion031"
+},
+[197] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion032_1",
+  ["id"]= 197,
+  ["questionLid"]= "OXLanternQuestion032"
+},
+[198] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion033_1",
+  ["id"]= 198,
+  ["questionLid"]= "OXLanternQuestion033"
+},
+[199] = {
+  ["id"]= 199,
+  ["questionLid"]= "OXLanternQuestion034"
+},
+[200] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion035_1",
+  ["id"]= 200,
+  ["questionLid"]= "OXLanternQuestion035"
+},
+[201] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion036_1",
+  ["id"]= 201,
+  ["questionLid"]= "OXLanternQuestion036"
+},
+[202] = {
+  ["id"]= 202,
+  ["questionLid"]= "OXLanternQuestion037"
+},
+[203] = {
+  ["id"]= 203,
+  ["questionLid"]= "OXLanternQuestion038"
+},
+[204] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion039_1",
+  ["id"]= 204,
+  ["questionLid"]= "OXLanternQuestion039"
+},
+[205] = {
+  ["id"]= 205,
+  ["questionLid"]= "OXLanternQuestion040"
+},
+[206] = {
+  ["id"]= 206,
+  ["questionLid"]= "OXLanternQuestion041"
+},
+[207] = {
+  ["id"]= 207,
+  ["questionLid"]= "OXLanternQuestion042"
+},
+[208] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion043_1",
+  ["id"]= 208,
+  ["questionLid"]= "OXLanternQuestion043"
+},
+[209] = {
+  ["id"]= 209,
+  ["questionLid"]= "OXLanternQuestion044"
+},
+[210] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion045_1",
+  ["id"]= 210,
+  ["questionLid"]= "OXLanternQuestion045"
+},
+[211] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion046_1",
+  ["id"]= 211,
+  ["questionLid"]= "OXLanternQuestion046"
+},
+[212] = {
+  ["id"]= 212,
+  ["questionLid"]= "OXLanternQuestion047"
+},
+[213] = {
+  ["id"]= 213,
+  ["questionLid"]= "OXLanternQuestion048"
+},
+[214] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion049_1",
+  ["id"]= 214,
+  ["questionLid"]= "OXLanternQuestion049"
+},
+[215] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion050_1",
+  ["id"]= 215,
+  ["questionLid"]= "OXLanternQuestion050"
+},
+[216] = {
+  ["id"]= 216,
+  ["questionLid"]= "OXLanternQuestion051"
+},
+[217] = {
+  ["id"]= 217,
+  ["questionLid"]= "OXLanternQuestion052"
+},
+[218] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion053_1",
+  ["id"]= 218,
+  ["questionLid"]= "OXLanternQuestion053"
+},
+[219] = {
+  ["id"]= 219,
+  ["questionLid"]= "OXLanternQuestion054"
+},
+[220] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion055_1",
+  ["id"]= 220,
+  ["questionLid"]= "OXLanternQuestion055"
+},
+[221] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion056_1",
+  ["id"]= 221,
+  ["questionLid"]= "OXLanternQuestion056"
+},
+[222] = {
+  ["id"]= 222,
+  ["questionLid"]= "OXLanternQuestion057"
+},
+[223] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion058_1",
+  ["id"]= 223,
+  ["questionLid"]= "OXLanternQuestion058"
+},
+[224] = {
+  ["id"]= 224,
+  ["questionLid"]= "OXLanternQuestion059"
+},
+[225] = {
+  ["id"]= 225,
+  ["questionLid"]= "OXLanternQuestion060"
+},
+[226] = {
+  ["id"]= 226,
+  ["questionLid"]= "OXLanternQuestion061"
+},
+[227] = {
+  ["id"]= 227,
+  ["questionLid"]= "OXLanternQuestion062"
+},
+[228] = {
+  ["id"]= 228,
+  ["questionLid"]= "OXLanternQuestion063"
+},
+[229] = {
+  ["id"]= 229,
+  ["questionLid"]= "OXLanternQuestion064"
+},
+[230] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion065_1",
+  ["id"]= 230,
+  ["questionLid"]= "OXLanternQuestion065"
+},
+[231] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion066_1",
+  ["id"]= 231,
+  ["questionLid"]= "OXLanternQuestion066"
+},
+[232] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion067_1",
+  ["id"]= 232,
+  ["questionLid"]= "OXLanternQuestion067"
+},
+[233] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion068_1",
+  ["id"]= 233,
+  ["questionLid"]= "OXLanternQuestion068"
+},
+[234] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion069_1",
+  ["id"]= 234,
+  ["questionLid"]= "OXLanternQuestion069"
+},
+[235] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion070_1",
+  ["id"]= 235,
+  ["questionLid"]= "OXLanternQuestion070"
+},
+[236] = {
+  ["id"]= 236,
+  ["questionLid"]= "OXLanternQuestion071"
+},
+[237] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion072_1",
+  ["id"]= 237,
+  ["questionLid"]= "OXLanternQuestion072"
+},
+[238] = {
+  ["id"]= 238,
+  ["questionLid"]= "OXLanternQuestion073"
+},
+[239] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion074_1",
+  ["id"]= 239,
+  ["questionLid"]= "OXLanternQuestion074"
+},
+[240] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion075_1",
+  ["id"]= 240,
+  ["questionLid"]= "OXLanternQuestion075"
+},
+[241] = {
+  ["id"]= 241,
+  ["questionLid"]= "OXLanternQuestion076"
+},
+[242] = {
+  ["id"]= 242,
+  ["questionLid"]= "OXLanternQuestion077"
+},
+[243] = {
+  ["id"]= 243,
+  ["questionLid"]= "OXLanternQuestion078"
+},
+[244] = {
+  ["id"]= 244,
+  ["questionLid"]= "OXLanternQuestion079"
+},
+[245] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion080_1",
+  ["id"]= 245,
+  ["questionLid"]= "OXLanternQuestion080"
+},
+[246] = {
+  ["id"]= 246,
+  ["questionLid"]= "OXLanternQuestion081"
+},
+[247] = {
+  ["id"]= 247,
+  ["questionLid"]= "OXLanternQuestion082"
+},
+[248] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion083_1",
+  ["id"]= 248,
+  ["questionLid"]= "OXLanternQuestion083"
+},
+[249] = {
+  ["id"]= 249,
+  ["questionLid"]= "OXLanternQuestion084"
+},
+[250] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion085_1",
+  ["id"]= 250,
+  ["questionLid"]= "OXLanternQuestion085"
+},
+[251] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion086_1",
+  ["id"]= 251,
+  ["questionLid"]= "OXLanternQuestion086"
+},
+[252] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion087_1",
+  ["id"]= 252,
+  ["questionLid"]= "OXLanternQuestion087"
+},
+[253] = {
+  ["id"]= 253,
+  ["questionLid"]= "OXLanternQuestion088"
+},
+[254] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion089_1",
+  ["id"]= 254,
+  ["questionLid"]= "OXLanternQuestion089"
+},
+[255] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion090_1",
+  ["id"]= 255,
+  ["questionLid"]= "OXLanternQuestion090"
+},
+[256] = {
+  ["id"]= 256,
+  ["questionLid"]= "OXLanternQuestion091"
+},
+[257] = {
+  ["id"]= 257,
+  ["questionLid"]= "OXLanternQuestion092"
+},
+[258] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion093_1",
+  ["id"]= 258,
+  ["questionLid"]= "OXLanternQuestion093"
+},
+[259] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion094_1",
+  ["id"]= 259,
+  ["questionLid"]= "OXLanternQuestion094"
+},
+[260] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion095_1",
+  ["id"]= 260,
+  ["questionLid"]= "OXLanternQuestion095"
+},
+[261] = {
+  ["id"]= 261,
+  ["questionLid"]= "OXLanternQuestion096"
+},
+[262] = {
+  ["id"]= 262,
+  ["questionLid"]= "OXLanternQuestion097"
+},
+[263] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion098_1",
+  ["id"]= 263,
+  ["questionLid"]= "OXLanternQuestion098"
+},
+[264] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion099_1",
+  ["id"]= 264,
+  ["questionLid"]= "OXLanternQuestion099"
+},
+[265] = {
+  ["id"]= 265,
+  ["questionLid"]= "OXLanternQuestion100"
+},
+[266] = {
+  ["id"]= 266,
+  ["questionLid"]= "OXLanternQuestion101"
+},
+[267] = {
+  ["id"]= 267,
+  ["questionLid"]= "OXLanternQuestion102"
+},
+[268] = {
+  ["id"]= 268,
+  ["questionLid"]= "OXLanternQuestion103"
+},
+[269] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion104_1",
+  ["id"]= 269,
+  ["questionLid"]= "OXLanternQuestion104"
+},
+[270] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion105_1",
+  ["id"]= 270,
+  ["questionLid"]= "OXLanternQuestion105"
+},
+[271] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion106_1",
+  ["id"]= 271,
+  ["questionLid"]= "OXLanternQuestion106"
+},
+[272] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion107_1",
+  ["id"]= 272,
+  ["questionLid"]= "OXLanternQuestion107"
+},
+[273] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion108_1",
+  ["id"]= 273,
+  ["questionLid"]= "OXLanternQuestion108"
+},
+[274] = {
+  ["id"]= 274,
+  ["questionLid"]= "OXLanternQuestion109"
+},
+[275] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion110_1",
+  ["id"]= 275,
+  ["questionLid"]= "OXLanternQuestion110"
+},
+[276] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion111_1",
+  ["id"]= 276,
+  ["questionLid"]= "OXLanternQuestion111"
+},
+[277] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion112_1",
+  ["id"]= 277,
+  ["questionLid"]= "OXLanternQuestion112"
+},
+[278] = {
+  ["id"]= 278,
+  ["questionLid"]= "OXLanternQuestion113"
+},
+[279] = {
+  ["id"]= 279,
+  ["questionLid"]= "OXLanternQuestion114"
+},
+[280] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion115_1",
+  ["id"]= 280,
+  ["questionLid"]= "OXLanternQuestion115"
+},
+[281] = {
+  ["id"]= 281,
+  ["questionLid"]= "OXLanternQuestion116"
+},
+[282] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion117_1",
+  ["id"]= 282,
+  ["questionLid"]= "OXLanternQuestion117"
+},
+[283] = {
+  ["id"]= 283,
+  ["questionLid"]= "OXLanternQuestion118"
+},
+[284] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion119_1",
+  ["id"]= 284,
+  ["questionLid"]= "OXLanternQuestion119"
+},
+[285] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion120_1",
+  ["id"]= 285,
+  ["questionLid"]= "OXLanternQuestion120"
+},
+[286] = {
+  ["id"]= 286,
+  ["questionLid"]= "OXLanternQuestion121"
+},
+[287] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion122_1",
+  ["id"]= 287,
+  ["questionLid"]= "OXLanternQuestion122"
+},
+[288] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion123_1",
+  ["id"]= 288,
+  ["questionLid"]= "OXLanternQuestion123"
+},
+[289] = {
+  ["id"]= 289,
+  ["questionLid"]= "OXLanternQuestion124"
+},
+[290] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion125_1",
+  ["id"]= 290,
+  ["questionLid"]= "OXLanternQuestion125"
+},
+[291] = {
+  ["id"]= 291,
+  ["questionLid"]= "OXLanternQuestion126"
+},
+[292] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion127_1",
+  ["id"]= 292,
+  ["questionLid"]= "OXLanternQuestion127"
+},
+[293] = {
+  ["id"]= 293,
+  ["questionLid"]= "OXLanternQuestion128"
+},
+[294] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion129_1",
+  ["id"]= 294,
+  ["questionLid"]= "OXLanternQuestion129"
+},
+[295] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion130_1",
+  ["id"]= 295,
+  ["questionLid"]= "OXLanternQuestion130"
+},
+[296] = {
+  ["id"]= 296,
+  ["questionLid"]= "OXLanternQuestion131"
+},
+[297] = {
+  ["id"]= 297,
+  ["questionLid"]= "OXLanternQuestion132"
+},
+[298] = {
+  ["id"]= 298,
+  ["questionLid"]= "OXLanternQuestion133"
+},
+[299] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion134_1",
+  ["id"]= 299,
+  ["questionLid"]= "OXLanternQuestion134"
+},
+[300] = {
+  ["id"]= 300,
+  ["questionLid"]= "OXLanternQuestion135"
+},
+[301] = {
+  ["id"]= 301,
+  ["questionLid"]= "OXLanternQuestion136"
+},
+[302] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion137_1",
+  ["id"]= 302,
+  ["questionLid"]= "OXLanternQuestion137"
+},
+[303] = {
+  ["id"]= 303,
+  ["questionLid"]= "OXLanternQuestion138"
+},
+[304] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion139_1",
+  ["id"]= 304,
+  ["questionLid"]= "OXLanternQuestion139"
+},
+[305] = {
+  ["id"]= 305,
+  ["questionLid"]= "OXLanternQuestion140"
+},
+[306] = {
+  ["id"]= 306,
+  ["questionLid"]= "OXLanternQuestion141"
+},
+[307] = {
+  ["id"]= 307,
+  ["questionLid"]= "OXLanternQuestion142"
+},
+[308] = {
+  ["id"]= 308,
+  ["questionLid"]= "OXLanternQuestion143"
+},
+[309] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion144_1",
+  ["id"]= 309,
+  ["questionLid"]= "OXLanternQuestion144"
+},
+[310] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion145_1",
+  ["id"]= 310,
+  ["questionLid"]= "OXLanternQuestion145"
+},
+[311] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion146_1",
+  ["id"]= 311,
+  ["questionLid"]= "OXLanternQuestion146"
+},
+[312] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion147_1",
+  ["id"]= 312,
+  ["questionLid"]= "OXLanternQuestion147"
+},
+[313] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion148_1",
+  ["id"]= 313,
+  ["questionLid"]= "OXLanternQuestion148"
+},
+[314] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion149_1",
+  ["id"]= 314,
+  ["questionLid"]= "OXLanternQuestion149"
+},
+[315] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion150_1",
+  ["id"]= 315,
+  ["questionLid"]= "OXLanternQuestion150"
+},
+[316] = {
+  ["id"]= 316,
+  ["questionLid"]= "OXLanternQuestion151"
+},
+[317] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion152_1",
+  ["id"]= 317,
+  ["questionLid"]= "OXLanternQuestion152"
+},
+[318] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion153_1",
+  ["id"]= 318,
+  ["questionLid"]= "OXLanternQuestion153"
+},
+[319] = {
+  ["id"]= 319,
+  ["questionLid"]= "OXLanternQuestion154"
+},
+[320] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion155_1",
+  ["id"]= 320,
+  ["questionLid"]= "OXLanternQuestion155"
+},
+[321] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion156_1",
+  ["id"]= 321,
+  ["questionLid"]= "OXLanternQuestion156"
+},
+[322] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion157_1",
+  ["id"]= 322,
+  ["questionLid"]= "OXLanternQuestion157"
+},
+[323] = {
+  ["id"]= 323,
+  ["questionLid"]= "OXLanternQuestion158"
+},
+[324] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion159_1",
+  ["id"]= 324,
+  ["questionLid"]= "OXLanternQuestion159"
+},
+[325] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion160_1",
+  ["id"]= 325,
+  ["questionLid"]= "OXLanternQuestion160"
+},
+[326] = {
+  ["id"]= 326,
+  ["questionLid"]= "OXLanternQuestion161"
+},
+[327] = {
+  ["id"]= 327,
+  ["questionLid"]= "OXLanternQuestion162"
+},
+[328] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion163_1",
+  ["id"]= 328,
+  ["questionLid"]= "OXLanternQuestion163"
+},
+[329] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion164_1",
+  ["id"]= 329,
+  ["questionLid"]= "OXLanternQuestion164"
+},
+[330] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion165_1",
+  ["id"]= 330,
+  ["questionLid"]= "OXLanternQuestion165"
+},
+[331] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion166_1",
+  ["id"]= 331,
+  ["questionLid"]= "OXLanternQuestion166"
+},
+[332] = {
+  ["id"]= 332,
+  ["questionLid"]= "OXLanternQuestion167"
+},
+[333] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion168_1",
+  ["id"]= 333,
+  ["questionLid"]= "OXLanternQuestion168"
+},
+[334] = {
+  ["id"]= 334,
+  ["questionLid"]= "OXLanternQuestion169"
+},
+[335] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion170_1",
+  ["id"]= 335,
+  ["questionLid"]= "OXLanternQuestion170"
+},
+[336] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion171_1",
+  ["id"]= 336,
+  ["questionLid"]= "OXLanternQuestion171"
+},
+[337] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion172_1",
+  ["id"]= 337,
+  ["questionLid"]= "OXLanternQuestion172"
+},
+[338] = {
+  ["id"]= 338,
+  ["questionLid"]= "OXLanternQuestion173"
+},
+[339] = {
+  ["id"]= 339,
+  ["questionLid"]= "OXLanternQuestion174"
+},
+[340] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion175_1",
+  ["id"]= 340,
+  ["questionLid"]= "OXLanternQuestion175"
+},
+[341] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion176_1",
+  ["id"]= 341,
+  ["questionLid"]= "OXLanternQuestion176"
+},
+[342] = {
+  ["id"]= 342,
+  ["questionLid"]= "OXLanternQuestion177"
+},
+[343] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion178_1",
+  ["id"]= 343,
+  ["questionLid"]= "OXLanternQuestion178"
+},
+[344] = {
+  ["id"]= 344,
+  ["questionLid"]= "OXLanternQuestion179"
+},
+[345] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion180_1",
+  ["id"]= 345,
+  ["questionLid"]= "OXLanternQuestion180"
+},
+[346] = {
+  ["id"]= 346,
+  ["questionLid"]= "OXLanternQuestion181"
+},
+[347] = {
+  ["id"]= 347,
+  ["questionLid"]= "OXLanternQuestion182"
+},
+[348] = {
+  ["id"]= 348,
+  ["questionLid"]= "OXLanternQuestion183"
+},
+[349] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion184_1",
+  ["id"]= 349,
+  ["questionLid"]= "OXLanternQuestion184"
+},
+[350] = {
+  ["id"]= 350,
+  ["questionLid"]= "OXLanternQuestion185"
+},
+[351] = {
+  ["id"]= 351,
+  ["questionLid"]= "OXLanternQuestion186"
+},
+[352] = {
+  ["id"]= 352,
+  ["questionLid"]= "OXLanternQuestion187"
+},
+[353] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion188_1",
+  ["id"]= 353,
+  ["questionLid"]= "OXLanternQuestion188"
+},
+[354] = {
+  ["id"]= 354,
+  ["questionLid"]= "OXLanternQuestion189"
+},
+[355] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion190_1",
+  ["id"]= 355,
+  ["questionLid"]= "OXLanternQuestion190"
+},
+[356] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion191_1",
+  ["id"]= 356,
+  ["questionLid"]= "OXLanternQuestion191"
+},
+[357] = {
+  ["id"]= 357,
+  ["questionLid"]= "OXLanternQuestion192"
+},
+[358] = {
+  ["id"]= 358,
+  ["questionLid"]= "OXLanternQuestion193"
+},
+[359] = {
+  ["id"]= 359,
+  ["questionLid"]= "OXLanternQuestion194"
+},
+[360] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion195_1",
+  ["id"]= 360,
+  ["questionLid"]= "OXLanternQuestion195"
+},
+[361] = {
+  ["id"]= 361,
+  ["questionLid"]= "OXLanternQuestion196"
+},
+[362] = {
+  ["id"]= 362,
+  ["questionLid"]= "OXLanternQuestion197"
+},
+[363] = {
+  ["id"]= 363,
+  ["questionLid"]= "OXLanternQuestion198"
+},
+[364] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion199_1",
+  ["id"]= 364,
+  ["questionLid"]= "OXLanternQuestion199"
+},
+[365] = {
+  ["id"]= 365,
+  ["questionLid"]= "OXLanternQuestion200"
+},
+[366] = {
+  ["id"]= 366,
+  ["questionLid"]= "OXLanternQuestion201"
+},
+[367] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion202_1",
+  ["id"]= 367,
+  ["questionLid"]= "OXLanternQuestion202"
+},
+[368] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion203_1",
+  ["id"]= 368,
+  ["questionLid"]= "OXLanternQuestion203"
+},
+[369] = {
+  ["id"]= 369,
+  ["questionLid"]= "OXLanternQuestion204"
+},
+[370] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion205_1",
+  ["id"]= 370,
+  ["questionLid"]= "OXLanternQuestion205"
+},
+[371] = {
+  ["id"]= 371,
+  ["questionLid"]= "OXLanternQuestion206"
+},
+[372] = {
+  ["id"]= 372,
+  ["questionLid"]= "OXLanternQuestion207"
+},
+[373] = {
+  ["id"]= 373,
+  ["questionLid"]= "OXLanternQuestion208"
+},
+[374] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion209_1",
+  ["id"]= 374,
+  ["questionLid"]= "OXLanternQuestion209"
+},
+[375] = {
+  ["id"]= 375,
+  ["questionLid"]= "OXLanternQuestion210"
+},
+[376] = {
+  ["id"]= 376,
+  ["questionLid"]= "OXLanternQuestion211"
+},
+[377] = {
+  ["id"]= 377,
+  ["questionLid"]= "OXLanternQuestion212"
+},
+[378] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion213_1",
+  ["id"]= 378,
+  ["questionLid"]= "OXLanternQuestion213"
+},
+[379] = {
+  ["id"]= 379,
+  ["questionLid"]= "OXLanternQuestion214"
+},
+[380] = {
+  ["id"]= 380,
+  ["questionLid"]= "OXLanternQuestion215"
+},
+[381] = {
+  ["id"]= 381,
+  ["questionLid"]= "OXLanternQuestion216"
+},
+[382] = {
+  ["id"]= 382,
+  ["questionLid"]= "OXLanternQuestion217"
+},
+[383] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion218_1",
+  ["id"]= 383,
+  ["questionLid"]= "OXLanternQuestion218"
+},
+[384] = {
+  ["id"]= 384,
+  ["questionLid"]= "OXLanternQuestion219"
+},
+[385] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion220_1",
+  ["id"]= 385,
+  ["questionLid"]= "OXLanternQuestion220"
+},
+[386] = {
+  ["id"]= 386,
+  ["questionLid"]= "OXLanternQuestion221"
+},
+[387] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion222_1",
+  ["id"]= 387,
+  ["questionLid"]= "OXLanternQuestion222"
+},
+[388] = {
+  ["id"]= 388,
+  ["questionLid"]= "OXLanternQuestion223"
+},
+[389] = {
+  ["id"]= 389,
+  ["questionLid"]= "OXLanternQuestion224"
+},
+[390] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion225_1",
+  ["id"]= 390,
+  ["questionLid"]= "OXLanternQuestion225"
+},
+[391] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion226_1",
+  ["id"]= 391,
+  ["questionLid"]= "OXLanternQuestion226"
+},
+[392] = {
+  ["id"]= 392,
+  ["questionLid"]= "OXLanternQuestion227"
+},
+[393] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion228_1",
+  ["id"]= 393,
+  ["questionLid"]= "OXLanternQuestion228"
+},
+[394] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion229_1",
+  ["id"]= 394,
+  ["questionLid"]= "OXLanternQuestion229"
+},
+[395] = {
+  ["id"]= 395,
+  ["questionLid"]= "OXLanternQuestion230"
+},
+[396] = {
+  ["id"]= 396,
+  ["questionLid"]= "OXLanternQuestion231"
+},
+[397] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion232_1",
+  ["id"]= 397,
+  ["questionLid"]= "OXLanternQuestion232"
+},
+[398] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion233_1",
+  ["id"]= 398,
+  ["questionLid"]= "OXLanternQuestion233"
+},
+[399] = {
+  ["id"]= 399,
+  ["questionLid"]= "OXLanternQuestion234"
+},
+[400] = {
+  ["id"]= 400,
+  ["questionLid"]= "OXLanternQuestion235"
+},
+[401] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion236_1",
+  ["id"]= 401,
+  ["questionLid"]= "OXLanternQuestion236"
+},
+[402] = {
+  ["id"]= 402,
+  ["questionLid"]= "OXLanternQuestion237"
+},
+[403] = {
+  ["id"]= 403,
+  ["questionLid"]= "OXLanternQuestion238"
+},
+[404] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion239_1",
+  ["id"]= 404,
+  ["questionLid"]= "OXLanternQuestion239"
+},
+[405] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion240_1",
+  ["id"]= 405,
+  ["questionLid"]= "OXLanternQuestion240"
+},
+[406] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion241_1",
+  ["id"]= 406,
+  ["questionLid"]= "OXLanternQuestion241"
+},
+[407] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion242_1",
+  ["id"]= 407,
+  ["questionLid"]= "OXLanternQuestion242"
+},
+[408] = {
+  ["id"]= 408,
+  ["questionLid"]= "OXLanternQuestion243"
+},
+[409] = {
+  ["id"]= 409,
+  ["questionLid"]= "OXLanternQuestion244"
+},
+[410] = {
+  ["id"]= 410,
+  ["questionLid"]= "OXLanternQuestion245"
+},
+[411] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion246_1",
+  ["id"]= 411,
+  ["questionLid"]= "OXLanternQuestion246"
+},
+[412] = {
+  ["id"]= 412,
+  ["questionLid"]= "OXLanternQuestion247"
+},
+[413] = {
+  ["id"]= 413,
+  ["questionLid"]= "OXLanternQuestion248"
+},
+[414] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion249_1",
+  ["id"]= 414,
+  ["questionLid"]= "OXLanternQuestion249"
+},
+[415] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion250_1",
+  ["id"]= 415,
+  ["questionLid"]= "OXLanternQuestion250"
+},
+[416] = {
+  ["id"]= 416,
+  ["questionLid"]= "OXLanternQuestion251"
+},
+[417] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion252_1",
+  ["id"]= 417,
+  ["questionLid"]= "OXLanternQuestion252"
+},
+[418] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion253_1",
+  ["id"]= 418,
+  ["questionLid"]= "OXLanternQuestion253"
+},
+[419] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion254_1",
+  ["id"]= 419,
+  ["questionLid"]= "OXLanternQuestion254"
+},
+[420] = {
+  ["id"]= 420,
+  ["questionLid"]= "OXLanternQuestion255"
+},
+[421] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion256_1",
+  ["id"]= 421,
+  ["questionLid"]= "OXLanternQuestion256"
+},
+[422] = {
+  ["id"]= 422,
+  ["questionLid"]= "OXLanternQuestion257"
+},
+[423] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion258_1",
+  ["id"]= 423,
+  ["questionLid"]= "OXLanternQuestion258"
+},
+[424] = {
+  ["id"]= 424,
+  ["questionLid"]= "OXLanternQuestion259"
+},
+[425] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion260_1",
+  ["id"]= 425,
+  ["questionLid"]= "OXLanternQuestion260"
+},
+[426] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion261_1",
+  ["id"]= 426,
+  ["questionLid"]= "OXLanternQuestion261"
+},
+[427] = {
+  ["id"]= 427,
+  ["questionLid"]= "OXLanternQuestion262"
+},
+[428] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion263_1",
+  ["id"]= 428,
+  ["questionLid"]= "OXLanternQuestion263"
+},
+[429] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion264_1",
+  ["id"]= 429,
+  ["questionLid"]= "OXLanternQuestion264"
+},
+[430] = {
+  ["answerIndex"]= 2,
+  ["answerLid"]= "OXLanternQuestion265_1",
+  ["id"]= 430,
+  ["questionLid"]= "OXLanternQuestion265"
+},
+[431] = {
+  ["id"]= 431,
+  ["questionLid"]= "OXLanternQuestion266"
+},
+[432] = {
+  ["id"]= 432,
+  ["questionLid"]= "OXLanternQuestion267"
+},
+[433] = {
+  ["id"]= 433,
+  ["questionLid"]= "OXLanternQuestion268"
+},
+[434] = {
+  ["id"]= 434,
+  ["questionLid"]= "OXLanternQuestion269"
+},
+[435] = {
+  ["id"]= 435,
+  ["questionLid"]= "OXLanternQuestion270"
+},
+[436] = {
+  ["id"]= 436,
+  ["questionLid"]= "OXLanternQuestion271"
+},
+[437] = {
+  ["id"]= 437,
+  ["questionLid"]= "OXLanternQuestion272"
+},
+[438] = {
+  ["id"]= 438,
+  ["questionLid"]= "OXLanternQuestion273"
+},
+[439] = {
+  ["id"]= 439,
+  ["questionLid"]= "OXLanternQuestion274"
+},
+[440] = {
+  ["id"]= 440,
+  ["questionLid"]= "OXLanternQuestion275"
+},
+[1000] = {
+  ["id"]= 1000,
+  ["level"]= 2,
+  ["libId"]= 2,
+  ["optionLid"]= {
+    "AdventureQuestion2_1A",
+    "AdventureQuestion2_1B",
+    "AdventureQuestion2_1C",
+    "AdventureQuestion2_1D"
+  },
+  ["questionLid"]= "AdventureQuestion2_1"
+},
+[1001] = {
+  ["answerIndex"]= 3,
+  ["id"]= 1001,
+  ["level"]= 2,
+  ["libId"]= 2,
+  ["optionLid"]= {
+    "AdventureQuestion2_2A",
+    "AdventureQuestion2_2B",
+    "AdventureQuestion2_2C",
+    "AdventureQuestion2_2D"
+  },
+  ["questionLid"]= "AdventureQuestion2_2"
+},
+[1002] = {
+  ["answerIndex"]= 4,
+  ["id"]= 1002,
+  ["level"]= 2,
+  ["libId"]= 2,
+  ["optionLid"]= {
+    "AdventureQuestion2_3A",
+    "AdventureQuestion2_3B",
+    "AdventureQuestion2_3C",
+    "AdventureQuestion2_3D"
+  },
+  ["questionLid"]= "AdventureQuestion2_3"
+},
+[1003] = {
+  ["answerIndex"]= 2,
+  ["id"]= 1003,
+  ["level"]= 2,
+  ["libId"]= 2,
+  ["optionLid"]= {
+    "AdventureQuestion2_4A",
+    "AdventureQuestion2_4B",
+    "AdventureQuestion2_4C",
+    "AdventureQuestion2_4D"
+  },
+  ["questionLid"]= "AdventureQuestion2_4"
+},
+[1004] = {
+  ["answerIndex"]= 3,
+  ["id"]= 1004,
+  ["level"]= 2,
+  ["libId"]= 2,
+  ["optionLid"]= {
+    "AdventureQuestion2_5A",
+    "AdventureQuestion2_5B",
+    "AdventureQuestion2_5C",
+    "AdventureQuestion2_5D"
+  },
+  ["questionLid"]= "AdventureQuestion2_5"
+},
+[1005] = {
+  ["answerIndex"]= 4,
+  ["id"]= 1005,
+  ["level"]= 2,
+  ["libId"]= 2,
+  ["optionLid"]= {
+    "AdventureQuestion2_6A",
+    "AdventureQuestion2_6B",
+    "AdventureQuestion2_6C",
+    "AdventureQuestion2_6D"
+  },
+  ["questionLid"]= "AdventureQuestion2_6"
+},
+[1006] = {
+  ["answerIndex"]= 4,
+  ["id"]= 1006,
+  ["level"]= 2,
+  ["libId"]= 2,
+  ["optionLid"]= {
+    "AdventureQuestion2_8A",
+    "AdventureQuestion2_8B",
+    "AdventureQuestion2_8C",
+    "AdventureQuestion2_8D"
+  },
+  ["questionLid"]= "AdventureQuestion2_8"
+},
+[1007] = {
+  ["answerIndex"]= 4,
+  ["id"]= 1007,
+  ["level"]= 2,
+  ["libId"]= 2,
+  ["optionLid"]= {
+    "AdventureQuestion2_9A",
+    "AdventureQuestion2_9B",
+    "AdventureQuestion2_9C",
+    "AdventureQuestion2_9D"
+  },
+  ["questionLid"]= "AdventureQuestion2_9"
+},
+[1008] = {
+  ["id"]= 1008,
+  ["level"]= 2,
+  ["libId"]= 2,
+  ["optionLid"]= {
+    "AdventureQuestion2_10A",
+    "AdventureQuestion2_10B",
+    "AdventureQuestion2_10C",
+    "AdventureQuestion2_10D"
+  },
+  ["questionLid"]= "AdventureQuestion2_10"
+},
+[1009] = {
+  ["answerIndex"]= 2,
+  ["id"]= 1009,
+  ["level"]= 2,
+  ["libId"]= 2,
+  ["optionLid"]= {
+    "AdventureQuestion2_11A",
+    "AdventureQuestion2_11B",
+    "AdventureQuestion2_11C",
+    "AdventureQuestion2_11D"
+  },
+  ["questionLid"]= "AdventureQuestion2_11"
+},
+[1010] = {
+  ["id"]= 1010,
+  ["level"]= 2,
+  ["libId"]= 2,
+  ["optionLid"]= {
+    "AdventureQuestion2_12A",
+    "AdventureQuestion2_12B",
+    "AdventureQuestion2_12C",
+    "AdventureQuestion2_12D"
+  },
+  ["questionLid"]= "AdventureQuestion2_12"
+},
+[1011] = {
+  ["id"]= 1011,
+  ["level"]= 2,
+  ["libId"]= 2,
+  ["optionLid"]= {
+    "AdventureQuestion2_13A",
+    "AdventureQuestion2_13B",
+    "AdventureQuestion2_13C",
+    "AdventureQuestion2_13D"
+  },
+  ["questionLid"]= "AdventureQuestion2_13"
+},
+[1012] = {
+  ["id"]= 1012,
+  ["level"]= 2,
+  ["libId"]= 2,
+  ["optionLid"]= {
+    "AdventureQuestion2_14A",
+    "AdventureQuestion2_14B",
+    "AdventureQuestion2_14C",
+    "AdventureQuestion2_14D"
+  },
+  ["questionLid"]= "AdventureQuestion2_14"
+},
+[1013] = {
+  ["answerIndex"]= 3,
+  ["id"]= 1013,
+  ["level"]= 2,
+  ["libId"]= 2,
+  ["optionLid"]= {
+    "AdventureQuestion2_15A",
+    "AdventureQuestion2_15B",
+    "AdventureQuestion2_15C",
+    "AdventureQuestion2_15D"
+  },
+  ["questionLid"]= "AdventureQuestion2_15"
+},
+[1014] = {
+  ["answerIndex"]= 3,
+  ["id"]= 1014,
+  ["level"]= 2,
+  ["libId"]= 2,
+  ["optionLid"]= {
+    "AdventureQuestion2_16A",
+    "AdventureQuestion2_16B",
+    "AdventureQuestion2_16C",
+    "AdventureQuestion2_16D"
+  },
+  ["questionLid"]= "AdventureQuestion2_16"
+},
+[1015] = {
+  ["answerIndex"]= 3,
+  ["id"]= 1015,
+  ["level"]= 2,
+  ["libId"]= 2,
+  ["optionLid"]= {
+    "AdventureQuestion2_17A",
+    "AdventureQuestion2_17B",
+    "AdventureQuestion2_17C",
+    "AdventureQuestion2_17D"
+  },
+  ["questionLid"]= "AdventureQuestion2_17"
+},
+[1016] = {
+  ["answerIndex"]= 3,
+  ["id"]= 1016,
+  ["level"]= 2,
+  ["libId"]= 2,
+  ["optionLid"]= {
+    "AdventureQuestion2_18A",
+    "AdventureQuestion2_18B",
+    "AdventureQuestion2_18C",
+    "AdventureQuestion2_18D"
+  },
+  ["questionLid"]= "AdventureQuestion2_18"
+},
+[1017] = {
+  ["answerIndex"]= 4,
+  ["id"]= 1017,
+  ["level"]= 4,
+  ["libId"]= 4,
+  ["optionLid"]= {
+    "AdventureQuestion4_1A",
+    "AdventureQuestion4_1B",
+    "AdventureQuestion4_1C",
+    "AdventureQuestion4_1D"
+  },
+  ["questionLid"]= "AdventureQuestion4_1"
+},
+[1018] = {
+  ["answerIndex"]= 4,
+  ["id"]= 1018,
+  ["level"]= 4,
+  ["libId"]= 4,
+  ["optionLid"]= {
+    "AdventureQuestion4_2A",
+    "AdventureQuestion4_2B",
+    "AdventureQuestion4_2C",
+    "AdventureQuestion4_2D"
+  },
+  ["questionLid"]= "AdventureQuestion4_2"
+},
+[1019] = {
+  ["answerIndex"]= 3,
+  ["id"]= 1019,
+  ["level"]= 4,
+  ["libId"]= 4,
+  ["optionLid"]= {
+    "AdventureQuestion4_3A",
+    "AdventureQuestion4_3B",
+    "AdventureQuestion4_3C",
+    "AdventureQuestion4_3D"
+  },
+  ["questionLid"]= "AdventureQuestion4_3"
+},
+[1020] = {
+  ["answerIndex"]= 4,
+  ["id"]= 1020,
+  ["level"]= 4,
+  ["libId"]= 4,
+  ["optionLid"]= {
+    "AdventureQuestion4_5A",
+    "AdventureQuestion4_5B",
+    "AdventureQuestion4_5C",
+    "AdventureQuestion4_5D"
+  },
+  ["questionLid"]= "AdventureQuestion4_5"
+},
+[1021] = {
+  ["id"]= 1021,
+  ["level"]= 4,
+  ["libId"]= 4,
+  ["optionLid"]= {
+    "AdventureQuestion4_6A",
+    "AdventureQuestion4_6B",
+    "AdventureQuestion4_6C",
+    "AdventureQuestion4_6D"
+  },
+  ["questionLid"]= "AdventureQuestion4_6"
+},
+[1022] = {
+  ["answerIndex"]= 2,
+  ["id"]= 1022,
+  ["level"]= 4,
+  ["libId"]= 4,
+  ["optionLid"]= {
+    "AdventureQuestion4_7A",
+    "AdventureQuestion4_7B",
+    "AdventureQuestion4_7C",
+    "AdventureQuestion4_7D"
+  },
+  ["questionLid"]= "AdventureQuestion4_7"
+},
+[1023] = {
+  ["answerIndex"]= 2,
+  ["id"]= 1023,
+  ["level"]= 4,
+  ["libId"]= 4,
+  ["optionLid"]= {
+    "AdventureQuestion4_8A",
+    "AdventureQuestion4_8B",
+    "AdventureQuestion4_8C",
+    "AdventureQuestion4_8D"
+  },
+  ["questionLid"]= "AdventureQuestion4_8"
+},
+[1024] = {
+  ["id"]= 1024,
+  ["level"]= 4,
+  ["libId"]= 4,
+  ["optionLid"]= {
+    "AdventureQuestion4_9A",
+    "AdventureQuestion4_9B",
+    "AdventureQuestion4_9C",
+    "AdventureQuestion4_9D"
+  },
+  ["questionLid"]= "AdventureQuestion4_9"
+},
+[1025] = {
+  ["id"]= 1025,
+  ["level"]= 4,
+  ["libId"]= 4,
+  ["optionLid"]= {
+    "AdventureQuestion4_10A",
+    "AdventureQuestion4_10B",
+    "AdventureQuestion4_10C",
+    "AdventureQuestion4_10D"
+  },
+  ["questionLid"]= "AdventureQuestion4_10"
+},
+[1026] = {
+  ["answerIndex"]= 3,
+  ["id"]= 1026,
+  ["level"]= 4,
+  ["libId"]= 4,
+  ["optionLid"]= {
+    "AdventureQuestion4_12A",
+    "AdventureQuestion4_12B",
+    "AdventureQuestion4_12C",
+    "AdventureQuestion4_12D"
+  },
+  ["questionLid"]= "AdventureQuestion4_12"
+},
+[1027] = {
+  ["answerIndex"]= 2,
+  ["id"]= 1027,
+  ["level"]= 4,
+  ["libId"]= 4,
+  ["optionLid"]= {
+    "AdventureQuestion4_13A",
+    "AdventureQuestion4_13B",
+    "AdventureQuestion4_13C",
+    "AdventureQuestion4_13D"
+  },
+  ["questionLid"]= "AdventureQuestion4_13"
+},
+[1028] = {
+  ["answerIndex"]= 2,
+  ["id"]= 1028,
+  ["level"]= 4,
+  ["libId"]= 4,
+  ["optionLid"]= {
+    "AdventureQuestion4_14A",
+    "AdventureQuestion4_14B",
+    "AdventureQuestion4_14C",
+    "AdventureQuestion4_14D"
+  },
+  ["questionLid"]= "AdventureQuestion4_14"
+},
+[1029] = {
+  ["answerIndex"]= 2,
+  ["id"]= 1029,
+  ["level"]= 4,
+  ["libId"]= 4,
+  ["optionLid"]= {
+    "AdventureQuestion4_15A",
+    "AdventureQuestion4_15B",
+    "AdventureQuestion4_15C",
+    "AdventureQuestion4_15D"
+  },
+  ["questionLid"]= "AdventureQuestion4_15"
+},
+[1030] = {
+  ["answerIndex"]= 3,
+  ["id"]= 1030,
+  ["level"]= 4,
+  ["libId"]= 4,
+  ["optionLid"]= {
+    "AdventureQuestion4_16A",
+    "AdventureQuestion4_16B",
+    "AdventureQuestion4_16C",
+    "AdventureQuestion4_16D"
+  },
+  ["questionLid"]= "AdventureQuestion4_16"
+},
+[1031] = {
+  ["answerIndex"]= 4,
+  ["id"]= 1031,
+  ["level"]= 4,
+  ["libId"]= 4,
+  ["optionLid"]= {
+    "AdventureQuestion4_17A",
+    "AdventureQuestion4_17B",
+    "AdventureQuestion4_17C",
+    "AdventureQuestion4_17D"
+  },
+  ["questionLid"]= "AdventureQuestion4_17"
+},
+[1032] = {
+  ["id"]= 1032,
+  ["level"]= 4,
+  ["libId"]= 4,
+  ["optionLid"]= {
+    "AdventureQuestion4_18A",
+    "AdventureQuestion4_18B",
+    "AdventureQuestion4_18C",
+    "AdventureQuestion4_18D"
+  },
+  ["questionLid"]= "AdventureQuestion4_18"
+},
+[1033] = {
+  ["answerIndex"]= 3,
+  ["id"]= 1033,
+  ["level"]= 6,
+  ["libId"]= 6,
+  ["optionLid"]= {
+    "AdventureQuestion6_1A",
+    "AdventureQuestion6_1B",
+    "AdventureQuestion6_1C",
+    "AdventureQuestion6_1D"
+  },
+  ["questionLid"]= "AdventureQuestion6_1"
+},
+[1034] = {
+  ["answerIndex"]= 3,
+  ["id"]= 1034,
+  ["level"]= 6,
+  ["libId"]= 6,
+  ["optionLid"]= {
+    "AdventureQuestion6_2A",
+    "AdventureQuestion6_2B",
+    "AdventureQuestion6_2C",
+    "AdventureQuestion6_2D"
+  },
+  ["questionLid"]= "AdventureQuestion6_2"
+},
+[1035] = {
+  ["answerIndex"]= 2,
+  ["id"]= 1035,
+  ["level"]= 6,
+  ["libId"]= 6,
+  ["optionLid"]= {
+    "AdventureQuestion6_3A",
+    "AdventureQuestion6_3B",
+    "AdventureQuestion6_3C",
+    "AdventureQuestion6_3D"
+  },
+  ["questionLid"]= "AdventureQuestion6_3"
+},
+[1036] = {
+  ["answerIndex"]= 2,
+  ["id"]= 1036,
+  ["level"]= 6,
+  ["libId"]= 6,
+  ["optionLid"]= {
+    "AdventureQuestion6_4A",
+    "AdventureQuestion6_4B",
+    "AdventureQuestion6_4C",
+    "AdventureQuestion6_4D"
+  },
+  ["questionLid"]= "AdventureQuestion6_4"
+},
+[1037] = {
+  ["answerIndex"]= 3,
+  ["id"]= 1037,
+  ["level"]= 6,
+  ["libId"]= 6,
+  ["optionLid"]= {
+    "AdventureQuestion6_5A",
+    "AdventureQuestion6_5B",
+    "AdventureQuestion6_5C",
+    "AdventureQuestion6_5D"
+  },
+  ["questionLid"]= "AdventureQuestion6_5"
+},
+[1038] = {
+  ["answerIndex"]= 2,
+  ["id"]= 1038,
+  ["level"]= 6,
+  ["libId"]= 6,
+  ["optionLid"]= {
+    "AdventureQuestion6_6A",
+    "AdventureQuestion6_6B",
+    "AdventureQuestion6_6C",
+    "AdventureQuestion6_6D"
+  },
+  ["questionLid"]= "AdventureQuestion6_6"
+},
+[1039] = {
+  ["answerIndex"]= 4,
+  ["id"]= 1039,
+  ["level"]= 6,
+  ["libId"]= 6,
+  ["optionLid"]= {
+    "AdventureQuestion6_7A",
+    "AdventureQuestion6_7B",
+    "AdventureQuestion6_7C",
+    "AdventureQuestion6_7D"
+  },
+  ["questionLid"]= "AdventureQuestion6_7"
+},
+[1040] = {
+  ["answerIndex"]= 4,
+  ["id"]= 1040,
+  ["level"]= 6,
+  ["libId"]= 6,
+  ["optionLid"]= {
+    "AdventureQuestion6_8A",
+    "AdventureQuestion6_8B",
+    "AdventureQuestion6_8C",
+    "AdventureQuestion6_8D"
+  },
+  ["questionLid"]= "AdventureQuestion6_8"
+},
+[1041] = {
+  ["id"]= 1041,
+  ["level"]= 6,
+  ["libId"]= 6,
+  ["optionLid"]= {
+    "AdventureQuestion6_9A",
+    "AdventureQuestion6_9B",
+    "AdventureQuestion6_9C",
+    "AdventureQuestion6_9D"
+  },
+  ["questionLid"]= "AdventureQuestion6_9"
+},
+[1042] = {
+  ["answerIndex"]= 2,
+  ["id"]= 1042,
+  ["level"]= 6,
+  ["libId"]= 6,
+  ["optionLid"]= {
+    "AdventureQuestion6_10A",
+    "AdventureQuestion6_10B",
+    "AdventureQuestion6_10C",
+    "AdventureQuestion6_10D"
+  },
+  ["questionLid"]= "AdventureQuestion6_10"
+},
+[1043] = {
+  ["answerIndex"]= 2,
+  ["id"]= 1043,
+  ["level"]= 6,
+  ["libId"]= 6,
+  ["optionLid"]= {
+    "AdventureQuestion6_11A",
+    "AdventureQuestion6_11B",
+    "AdventureQuestion6_11C",
+    "AdventureQuestion6_11D"
+  },
+  ["questionLid"]= "AdventureQuestion6_11"
+},
+[1044] = {
+  ["answerIndex"]= 2,
+  ["id"]= 1044,
+  ["level"]= 6,
+  ["libId"]= 6,
+  ["optionLid"]= {
+    "AdventureQuestion6_12A",
+    "AdventureQuestion6_12B",
+    "AdventureQuestion6_12C",
+    "AdventureQuestion6_12D"
+  },
+  ["questionLid"]= "AdventureQuestion6_12"
+},
+[1045] = {
+  ["answerIndex"]= 3,
+  ["id"]= 1045,
+  ["level"]= 6,
+  ["libId"]= 6,
+  ["optionLid"]= {
+    "AdventureQuestion6_13A",
+    "AdventureQuestion6_13B",
+    "AdventureQuestion6_13C",
+    "AdventureQuestion6_13D"
+  },
+  ["questionLid"]= "AdventureQuestion6_13"
+},
+[1046] = {
+  ["answerIndex"]= 2,
+  ["id"]= 1046,
+  ["level"]= 6,
+  ["libId"]= 6,
+  ["optionLid"]= {
+    "AdventureQuestion6_14A",
+    "AdventureQuestion6_14B",
+    "AdventureQuestion6_14C",
+    "AdventureQuestion6_14D"
+  },
+  ["questionLid"]= "AdventureQuestion6_14"
+},
+[1047] = {
+  ["id"]= 1047,
+  ["level"]= 6,
+  ["libId"]= 6,
+  ["optionLid"]= {
+    "AdventureQuestion6_15A",
+    "AdventureQuestion6_15B",
+    "AdventureQuestion6_15C",
+    "AdventureQuestion6_15D"
+  },
+  ["questionLid"]= "AdventureQuestion6_15"
+},
+[1048] = {
+  ["answerIndex"]= 3,
+  ["id"]= 1048,
+  ["level"]= 6,
+  ["libId"]= 6,
+  ["optionLid"]= {
+    "AdventureQuestion6_16A",
+    "AdventureQuestion6_16B",
+    "AdventureQuestion6_16C",
+    "AdventureQuestion6_16D"
+  },
+  ["questionLid"]= "AdventureQuestion6_16"
+},
+[1049] = {
+  ["id"]= 1049,
+  ["level"]= 6,
+  ["libId"]= 6,
+  ["optionLid"]= {
+    "AdventureQuestion6_17A",
+    "AdventureQuestion6_17B",
+    "AdventureQuestion6_17C",
+    "AdventureQuestion6_17D"
+  },
+  ["questionLid"]= "AdventureQuestion6_17"
+},
+[1050] = {
+  ["id"]= 1050,
+  ["level"]= 6,
+  ["libId"]= 6,
+  ["optionLid"]= {
+    "AdventureQuestion6_18A",
+    "AdventureQuestion6_18B",
+    "AdventureQuestion6_18C",
+    "AdventureQuestion6_18D"
+  },
+  ["questionLid"]= "AdventureQuestion6_18"
+},
+[1051] = {
+  ["answerIndex"]= 2,
+  ["id"]= 1051,
+  ["level"]= 6,
+  ["libId"]= 6,
+  ["optionLid"]= {
+    "AdventureQuestion6_19A",
+    "AdventureQuestion6_19B",
+    "AdventureQuestion6_19C",
+    "AdventureQuestion6_19D"
+  },
+  ["questionLid"]= "AdventureQuestion6_19"
+},
+[1052] = {
+  ["answerIndex"]= 3,
+  ["id"]= 1052,
+  ["level"]= 6,
+  ["libId"]= 6,
+  ["optionLid"]= {
+    "AdventureQuestion6_20A",
+    "AdventureQuestion6_20B",
+    "AdventureQuestion6_20C",
+    "AdventureQuestion6_20D"
+  },
+  ["questionLid"]= "AdventureQuestion6_20"
+},
+[1053] = {
+  ["answerIndex"]= 3,
+  ["id"]= 1053,
+  ["level"]= 6,
+  ["libId"]= 6,
+  ["optionLid"]= {
+    "AdventureQuestion6_21A",
+    "AdventureQuestion6_21B",
+    "AdventureQuestion6_21C",
+    "AdventureQuestion6_21D"
+  },
+  ["questionLid"]= "AdventureQuestion6_21"
+},
+[1054] = {
+  ["answerIndex"]= 4,
+  ["id"]= 1054,
+  ["level"]= 6,
+  ["libId"]= 6,
+  ["optionLid"]= {
+    "AdventureQuestion6_22A",
+    "AdventureQuestion6_22B",
+    "AdventureQuestion6_22C",
+    "AdventureQuestion6_22D"
+  },
+  ["questionLid"]= "AdventureQuestion6_22"
+},
+[1055] = {
+  ["answerIndex"]= 3,
+  ["id"]= 1055,
+  ["level"]= 8,
+  ["libId"]= 8,
+  ["optionLid"]= {
+    "AdventureQuestion8_1A",
+    "AdventureQuestion8_1B",
+    "AdventureQuestion8_1C",
+    "AdventureQuestion8_1D"
+  },
+  ["questionLid"]= "AdventureQuestion8_1"
+},
+[1056] = {
+  ["answerIndex"]= 4,
+  ["id"]= 1056,
+  ["level"]= 8,
+  ["libId"]= 8,
+  ["optionLid"]= {
+    "AdventureQuestion8_2A",
+    "AdventureQuestion8_2B",
+    "AdventureQuestion8_2C",
+    "AdventureQuestion8_2D"
+  },
+  ["questionLid"]= "AdventureQuestion8_2"
+},
+[1057] = {
+  ["answerIndex"]= 2,
+  ["id"]= 1057,
+  ["level"]= 8,
+  ["libId"]= 8,
+  ["optionLid"]= {
+    "AdventureQuestion8_4A",
+    "AdventureQuestion8_4B",
+    "AdventureQuestion8_4C",
+    "AdventureQuestion8_4D"
+  },
+  ["questionLid"]= "AdventureQuestion8_4"
+},
+[1058] = {
+  ["answerIndex"]= 2,
+  ["id"]= 1058,
+  ["level"]= 8,
+  ["libId"]= 8,
+  ["optionLid"]= {
+    "AdventureQuestion8_5A",
+    "AdventureQuestion8_5B",
+    "AdventureQuestion8_5C",
+    "AdventureQuestion8_5D"
+  },
+  ["questionLid"]= "AdventureQuestion8_5"
+},
+[1059] = {
+  ["answerIndex"]= 2,
+  ["id"]= 1059,
+  ["level"]= 8,
+  ["libId"]= 8,
+  ["optionLid"]= {
+    "AdventureQuestion8_6A",
+    "AdventureQuestion8_6B",
+    "AdventureQuestion8_6C",
+    "AdventureQuestion8_6D"
+  },
+  ["questionLid"]= "AdventureQuestion8_6"
+},
+[1060] = {
+  ["id"]= 1060,
+  ["level"]= 8,
+  ["libId"]= 8,
+  ["optionLid"]= {
+    "AdventureQuestion8_7A",
+    "AdventureQuestion8_7B",
+    "AdventureQuestion8_7C",
+    "AdventureQuestion8_7D"
+  },
+  ["questionLid"]= "AdventureQuestion8_7"
+},
+[1061] = {
+  ["answerIndex"]= 3,
+  ["id"]= 1061,
+  ["level"]= 8,
+  ["libId"]= 8,
+  ["optionLid"]= {
+    "AdventureQuestion8_8A",
+    "AdventureQuestion8_8B",
+    "AdventureQuestion8_8C",
+    "AdventureQuestion8_8D"
+  },
+  ["questionLid"]= "AdventureQuestion8_8"
+},
+[1062] = {
+  ["answerIndex"]= 3,
+  ["id"]= 1062,
+  ["level"]= 8,
+  ["libId"]= 8,
+  ["optionLid"]= {
+    "AdventureQuestion8_9A",
+    "AdventureQuestion8_9B",
+    "AdventureQuestion8_9C",
+    "AdventureQuestion8_9D"
+  },
+  ["questionLid"]= "AdventureQuestion8_9"
+},
+[1063] = {
+  ["answerIndex"]= 2,
+  ["id"]= 1063,
+  ["level"]= 8,
+  ["libId"]= 8,
+  ["optionLid"]= {
+    "AdventureQuestion8_10A",
+    "AdventureQuestion8_10B",
+    "AdventureQuestion8_10C",
+    "AdventureQuestion8_10D"
+  },
+  ["questionLid"]= "AdventureQuestion8_10"
+},
+[1064] = {
+  ["id"]= 1064,
+  ["level"]= 8,
+  ["libId"]= 8,
+  ["optionLid"]= {
+    "AdventureQuestion8_11A",
+    "AdventureQuestion8_11B",
+    "AdventureQuestion8_11C",
+    "AdventureQuestion8_11D"
+  },
+  ["questionLid"]= "AdventureQuestion8_11"
+},
+[1065] = {
+  ["id"]= 1065,
+  ["level"]= 8,
+  ["libId"]= 8,
+  ["optionLid"]= {
+    "AdventureQuestion8_12A",
+    "AdventureQuestion8_12B",
+    "AdventureQuestion8_12C",
+    "AdventureQuestion8_12D"
+  },
+  ["questionLid"]= "AdventureQuestion8_12"
+},
+[1066] = {
+  ["answerIndex"]= 2,
+  ["id"]= 1066,
+  ["level"]= 8,
+  ["libId"]= 8,
+  ["optionLid"]= {
+    "AdventureQuestion8_13A",
+    "AdventureQuestion8_13B",
+    "AdventureQuestion8_13C",
+    "AdventureQuestion8_13D"
+  },
+  ["questionLid"]= "AdventureQuestion8_13"
+},
+[1067] = {
+  ["answerIndex"]= 4,
+  ["id"]= 1067,
+  ["level"]= 8,
+  ["libId"]= 8,
+  ["optionLid"]= {
+    "AdventureQuestion8_14A",
+    "AdventureQuestion8_14B",
+    "AdventureQuestion8_14C",
+    "AdventureQuestion8_14D"
+  },
+  ["questionLid"]= "AdventureQuestion8_14"
+},
+[1068] = {
+  ["id"]= 1068,
+  ["level"]= 8,
+  ["libId"]= 8,
+  ["optionLid"]= {
+    "AdventureQuestion8_15A",
+    "AdventureQuestion8_15B",
+    "AdventureQuestion8_15C",
+    "AdventureQuestion8_15D"
+  },
+  ["questionLid"]= "AdventureQuestion8_15"
+},
+[1069] = {
+  ["answerIndex"]= 4,
+  ["id"]= 1069,
+  ["level"]= 8,
+  ["libId"]= 8,
+  ["optionLid"]= {
+    "AdventureQuestion8_16A",
+    "AdventureQuestion8_16B",
+    "AdventureQuestion8_16C",
+    "AdventureQuestion8_16D"
+  },
+  ["questionLid"]= "AdventureQuestion8_16"
+},
+[1070] = {
+  ["id"]= 1070,
+  ["level"]= 8,
+  ["libId"]= 8,
+  ["optionLid"]= {
+    "AdventureQuestion8_17A",
+    "AdventureQuestion8_17B",
+    "AdventureQuestion8_17C",
+    "AdventureQuestion8_17D"
+  },
+  ["questionLid"]= "AdventureQuestion8_17"
+},
+[1071] = {
+  ["id"]= 1071,
+  ["level"]= 8,
+  ["libId"]= 8,
+  ["optionLid"]= {
+    "AdventureQuestion8_18A",
+    "AdventureQuestion8_18B",
+    "AdventureQuestion8_18C",
+    "AdventureQuestion8_18D"
+  },
+  ["questionLid"]= "AdventureQuestion8_18"
+},
+[1072] = {
+  ["answerIndex"]= 4,
+  ["id"]= 1072,
+  ["level"]= 8,
+  ["libId"]= 8,
+  ["optionLid"]= {
+    "AdventureQuestion8_19A",
+    "AdventureQuestion8_19B",
+    "AdventureQuestion8_19C",
+    "AdventureQuestion8_19D"
+  },
+  ["questionLid"]= "AdventureQuestion8_19"
+},
+[1073] = {
+  ["answerIndex"]= 4,
+  ["id"]= 1073,
+  ["level"]= 8,
+  ["libId"]= 8,
+  ["optionLid"]= {
+    "AdventureQuestion8_20A",
+    "AdventureQuestion8_20B",
+    "AdventureQuestion8_20C",
+    "AdventureQuestion8_20D"
+  },
+  ["questionLid"]= "AdventureQuestion8_20"
+},
+[1074] = {
+  ["answerIndex"]= 3,
+  ["id"]= 1074,
+  ["level"]= 8,
+  ["libId"]= 8,
+  ["optionLid"]= {
+    "AdventureQuestion8_21A",
+    "AdventureQuestion8_21B",
+    "AdventureQuestion8_21C",
+    "AdventureQuestion8_21D"
+  },
+  ["questionLid"]= "AdventureQuestion8_21"
+},
+[1075] = {
+  ["answerIndex"]= 2,
+  ["id"]= 1075,
+  ["level"]= 8,
+  ["libId"]= 8,
+  ["optionLid"]= {
+    "AdventureQuestion8_22A",
+    "AdventureQuestion8_22B",
+    "AdventureQuestion8_22C",
+    "AdventureQuestion8_22D"
+  },
+  ["questionLid"]= "AdventureQuestion8_22"
+},
+[1076] = {
+  ["id"]= 1076,
+  ["level"]= 8,
+  ["libId"]= 8,
+  ["optionLid"]= {
+    "AdventureQuestion8_23A",
+    "AdventureQuestion8_23B",
+    "AdventureQuestion8_23C",
+    "AdventureQuestion8_23D"
+  },
+  ["questionLid"]= "AdventureQuestion8_23"
+},
+[1077] = {
+  ["answerIndex"]= 3,
+  ["id"]= 1077,
+  ["level"]= 8,
+  ["libId"]= 8,
+  ["optionLid"]= {
+    "AdventureQuestion8_24A",
+    "AdventureQuestion8_24B",
+    "AdventureQuestion8_24C",
+    "AdventureQuestion8_24D"
+  },
+  ["questionLid"]= "AdventureQuestion8_24"
+},
+[1078] = {
+  ["answerIndex"]= 2,
+  ["id"]= 1078,
+  ["level"]= 8,
+  ["libId"]= 8,
+  ["optionLid"]= {
+    "AdventureQuestion8_25A",
+    "AdventureQuestion8_25B",
+    "AdventureQuestion8_25C",
+    "AdventureQuestion8_25D"
+  },
+  ["questionLid"]= "AdventureQuestion8_25"
+}
+}
+local baseTable={
+  ["answerIndex"]= 1,
+  ["answerLid"]= "",
+  ["id"]= 1,
+  ["level"]= 99,
+  ["libId"]= 1,
+  ["optionLid"]= {},
+  ["questionLid"]= "OXExam_Question113"
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

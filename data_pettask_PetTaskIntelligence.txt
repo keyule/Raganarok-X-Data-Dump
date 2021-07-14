@@ -1,0 +1,25 @@
+TextAsset Base
+	string m_Name = "data_pettask_PetTaskIntelligence"
+	string m_Script = "return {
+[1] = {
+  ["IntelligenceSum"]= 250,
+  ["MultiplyFastlyEfficiency"]= 1.2
+},
+[2] = {
+  ["IntelligenceSum"]= 225,
+  ["MultiplyFastlyEfficiency"]= 1.1
+},
+[3] = {
+  ["IntelligenceSum"]= 200,
+  ["MultiplyFastlyEfficiency"]= 1
+},
+[4] = {
+  ["IntelligenceSum"]= 175,
+  ["MultiplyFastlyEfficiency"]= 0.9
+},
+[5] = {
+  ["IntelligenceSum"]= 150,
+  ["MultiplyFastlyEfficiency"]= 0.8
+}
+}
+"

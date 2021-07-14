@@ -1,0 +1,95 @@
+TextAsset Base
+	string m_Name = "data_OperatingActivities_OperatingActivities"
+	string m_Script = "return {
+[1] = {
+  ["id"]= 1,
+  ["lineId"]= 1,
+  ["name"]= "摇摇椅",
+  ["posX"]= 15.5,
+  ["posY"]= 165,
+  ["sceneId"]= 1020,
+  ["type"]= 1,
+  ["uiId"]= 0
+},
+[2] = {
+  ["id"]= 2,
+  ["lineId"]= 1,
+  ["name"]= "日常副本",
+  ["posX"]= 0.1,
+  ["posY"]= -89.4,
+  ["sceneId"]= 1170,
+  ["type"]= 1,
+  ["uiId"]= 0
+},
+[3] = {
+  ["id"]= 3,
+  ["lineId"]= 1,
+  ["name"]= "委托板任务",
+  ["posX"]= -7.2,
+  ["posY"]= -31.8,
+  ["sceneId"]= 1010,
+  ["type"]= 1,
+  ["uiId"]= 0
+},
+[4] = {
+  ["id"]= 4,
+  ["lineId"]= 0,
+  ["name"]= "交易行交易",
+  ["posX"]= 0,
+  ["posY"]= 0,
+  ["sceneId"]= 0,
+  ["type"]= 2,
+  ["uiId"]= "UI_Jobber"
+},
+[5] = {
+  ["id"]= 5,
+  ["lineId"]= 1,
+  ["name"]= "酒馆小游戏",
+  ["posX"]= -8,
+  ["posY"]= 29.2,
+  ["sceneId"]= 1530,
+  ["type"]= 1,
+  ["uiId"]= 0
+},
+[6] = {
+  ["id"]= 6,
+  ["lineId"]= 1,
+  ["name"]= "热气球拍照",
+  ["posX"]= 45,
+  ["posY"]= -70,
+  ["sceneId"]= 1010,
+  ["type"]= 1,
+  ["uiId"]= 0
+},
+[7] = {
+  ["id"]= 7,
+  ["lineId"]= 1,
+  ["name"]= "对话摩尔托斯",
+  ["posX"]= 12.5,
+  ["posY"]= 116.3,
+  ["sceneId"]= 1020,
+  ["type"]= 1,
+  ["uiId"]= 0
+},
+[8] = {
+  ["id"]= 8,
+  ["lineId"]= 1,
+  ["name"]= "乘坐小火车",
+  ["posX"]= 86.3,
+  ["posY"]= 147.2,
+  ["sceneId"]= 1020,
+  ["type"]= 1,
+  ["uiId"]= 0
+},
+[9] = {
+  ["id"]= 9,
+  ["lineId"]= 1,
+  ["name"]= "乘坐木马",
+  ["posX"]= 99.1,
+  ["posY"]= 139.8,
+  ["sceneId"]= 1020,
+  ["type"]= 1,
+  ["uiId"]= 0
+}
+}
+"

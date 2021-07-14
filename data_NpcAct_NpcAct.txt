@@ -1,0 +1,23 @@
+TextAsset Base
+	string m_Name = "data_NpcAct_NpcAct"
+	string m_Script = "return {
+[1001] = {
+  ["ActList"]= {
+    {
+      ["actionId"]= 2,
+      ["isLoop"]= 0
+    },
+    {
+      ["actionId"]= 4,
+      ["isLoop"]= 0
+    },
+    {
+      ["actionId"]= 2,
+      ["isLoop"]= 1
+    }
+  },
+  ["ActText"]= "测试数据",
+  ["NpcActId"]= 1001
+}
+}
+"

@@ -1,0 +1,190 @@
+TextAsset Base
+	string m_Name = "data_AccumulativeLogin_AccumulativeLogin"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["days"]= 2,
+  ["dropId"]= 10038,
+  ["endText"]= "AccumulativeLogin_10",
+  ["ID"]= 2,
+  ["rewardsItem"]= {
+    10202026,
+    1001,
+    10204129,
+    10204064
+  },
+  ["rewardsNum"]= {
+    1,
+    40000,
+    4,
+    2
+  },
+  ["showText"]= "AccumulativeLogin_2",
+  ["taskDropId"]= 10457,
+  ["taskId"]= {
+    120002101,
+    120002102,
+    120002103
+  },
+  ["taskText"]= "AccumulativeTask_2"
+},
+[3] = {
+  ["days"]= 3,
+  ["dropId"]= 10039,
+  ["endText"]= "AccumulativeLogin_11",
+  ["ID"]= 3,
+  ["rewardsItem"]= {
+    10202025,
+    1001,
+    10204129,
+    10204065
+  },
+  ["rewardsNum"]= {
+    1,
+    60000,
+    6,
+    1
+  },
+  ["showText"]= "AccumulativeLogin_3",
+  ["taskDropId"]= 10458,
+  ["taskId"]= {
+    120003101,
+    120003102,
+    120003103
+  },
+  ["taskText"]= "AccumulativeTask_3"
+},
+[4] = {
+  ["days"]= 4,
+  ["dropId"]= 10040,
+  ["endText"]= "AccumulativeLogin_12",
+  ["ID"]= 4,
+  ["rewardsItem"]= {
+    10204108,
+    1001,
+    10204129,
+    10204065
+  },
+  ["rewardsNum"]= {
+    1,
+    80000,
+    8,
+    2
+  },
+  ["showText"]= "AccumulativeLogin_4",
+  ["taskDropId"]= 10459,
+  ["taskId"]= {
+    120004101,
+    120004102,
+    120004103
+  },
+  ["taskText"]= "AccumulativeTask_4"
+},
+[5] = {
+  ["days"]= 5,
+  ["dropId"]= 10041,
+  ["endText"]= "AccumulativeLogin_13",
+  ["ID"]= 5,
+  ["rewardsItem"]= {
+    10207003,
+    1001,
+    10204129,
+    10204112
+  },
+  ["rewardsNum"]= {
+    1,
+    100000,
+    10,
+    1
+  },
+  ["showText"]= "AccumulativeLogin_5",
+  ["taskDropId"]= 10460,
+  ["taskId"]= {
+    120005101,
+    120005102,
+    120005103
+  },
+  ["taskText"]= "AccumulativeTask_5"
+},
+[6] = {
+  ["days"]= 6,
+  ["dropId"]= 10042,
+  ["endText"]= "AccumulativeLogin_14",
+  ["ID"]= 6,
+  ["rewardsItem"]= {
+    10204062,
+    1001,
+    10204129,
+    10204113
+  },
+  ["rewardsNum"]= {
+    1,
+    120000,
+    12,
+    1
+  },
+  ["showText"]= "AccumulativeLogin_6",
+  ["taskDropId"]= 10461,
+  ["taskId"]= {
+    120006101,
+    120006102,
+    120006103
+  },
+  ["taskText"]= "AccumulativeTask_6"
+},
+[7] = {
+  ["days"]= 7,
+  ["dropId"]= 10043,
+  ["endText"]= "AccumulativeLogin_15",
+  ["ID"]= 7,
+  ["rewardsItem"]= {
+    10204109,
+    1001,
+    10204129,
+    10204114
+  },
+  ["rewardsNum"]= {
+    1,
+    140000,
+    14,
+    1
+  },
+  ["showText"]= "AccumulativeLogin_7",
+  ["taskDropId"]= 10462,
+  ["taskId"]= {
+    120007101,
+    120007102,
+    120007103
+  },
+  ["taskText"]= "AccumulativeTask_7"
+}
+}
+local baseTable={
+  ["days"]= 1,
+  ["dropId"]= 10037,
+  ["endText"]= "AccumulativeLogin_9",
+  ["ID"]= 1,
+  ["rewardsItem"]= {
+    10202027,
+    1001,
+    10204129,
+    10204064
+  },
+  ["rewardsNum"]= {
+    1,
+    20000,
+    2,
+    1
+  },
+  ["showText"]= "AccumulativeLogin_1",
+  ["taskDropId"]= 10456,
+  ["taskId"]= {
+    120001101,
+    120001102
+  },
+  ["taskText"]= "AccumulativeTask_1"
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

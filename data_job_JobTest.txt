@@ -1,0 +1,624 @@
+TextAsset Base
+	string m_Name = "data_job_JobTest"
+	string m_Script = "return {
+[1] = {
+  ["advJobLine1"]= {
+    ["advJob"]= {
+      ["skills"]= {
+        1111123,
+        1111122,
+        1111121,
+        1111126
+      }
+    },
+    ["advJobId"]= 1111,
+    ["battleSkills"]= {
+      1110123,
+      1110124,
+      1110125,
+      1110126,
+      1111123,
+      1111122,
+      1111121,
+      1111126
+    },
+    ["defaultClothes"]= 2401111,
+    ["defaultEquip"]= {
+      1303017
+    },
+    ["isOpen"]= 1,
+    ["pendantId"]= {},
+    ["seniorJob"]= {
+      ["skills"]= {
+        1110123,
+        1110124,
+        1110125,
+        1110126
+      }
+    },
+    ["seniorJobId"]= 1110
+  },
+  ["advJobLine2"]= {
+    ["advJob"]= {
+      ["skills"]= {}
+    },
+    ["advJobId"]= 1121,
+    ["battleSkills"]= {},
+    ["defaultClothes"]= 2101001,
+    ["defaultEquip"]= {
+      1303017
+    },
+    ["isOpen"]= 0,
+    ["pendantId"]= {},
+    ["seniorJob"]= {
+      ["skills"]= {}
+    },
+    ["seniorJobID"]= 1120
+  },
+  ["attr"]= {
+    {
+      ["attr"]= 1,
+      ["val"]= 150
+    },
+    {
+      ["attr"]= 2,
+      ["val"]= 40
+    },
+    {
+      ["attr"]= 3,
+      ["val"]= 200
+    },
+    {
+      ["attr"]= 4,
+      ["val"]= 20
+    },
+    {
+      ["attr"]= 5,
+      ["val"]= 50
+    },
+    {
+      ["attr"]= 6,
+      ["val"]= 20
+    },
+    {
+      ["attr"]= 35,
+      ["val"]= 100
+    }
+  },
+  ["baseLevel"]= 40,
+  ["defaultClothes"]= 2401100,
+  ["defaultEquip"]= {
+    1101014,
+    1201016
+  },
+  ["effect"]= 1100,
+  ["id"]= 1,
+  ["jobId"]= 1100,
+  ["name"]= "剑士",
+  ["pendantId"]= {},
+  ["picName"]= "Img_JobDescription2",
+  ["showSkills"]= {
+    1100121,
+    1100122,
+    1100123,
+    1100124
+  }
+},
+[2] = {
+  ["advJobLine1"]= {
+    ["advJob"]= {
+      ["skills"]= {
+        1211133,
+        1211122,
+        1211124,
+        1211125
+      }
+    },
+    ["advJobId"]= 1211,
+    ["battleSkills"]= {
+      1200129,
+      1210125,
+      1211133,
+      1210121,
+      1211123,
+      1211124,
+      1211125,
+      1210127
+    },
+    ["defaultClothes"]= 2401211,
+    ["defaultEquip"]= {
+      1107002
+    },
+    ["isOpen"]= 1,
+    ["pendantId"]= {},
+    ["seniorJob"]= {
+      ["skills"]= {
+        1210121,
+        1210127,
+        1210129,
+        1211127
+      }
+    },
+    ["seniorJobId"]= 1210
+  },
+  ["advJobLine2"]= {
+    ["advJob"]= {
+      ["skills"]= {}
+    },
+    ["advJobId"]= 1221,
+    ["battleSkills"]= {},
+    ["defaultClothes"]= 2401211,
+    ["defaultEquip"]= {
+      1103016
+    },
+    ["isOpen"]= 0,
+    ["pendantId"]= {},
+    ["seniorJob"]= {
+      ["skills"]= {}
+    },
+    ["seniorJobID"]= 1220
+  },
+  ["attr"]= {
+    {
+      ["attr"]= 1,
+      ["val"]= 150
+    },
+    {
+      ["attr"]= 2,
+      ["val"]= 20
+    },
+    {
+      ["attr"]= 3,
+      ["val"]= 200
+    },
+    {
+      ["attr"]= 4,
+      ["val"]= 150
+    },
+    {
+      ["attr"]= 5,
+      ["val"]= 150
+    },
+    {
+      ["attr"]= 6,
+      ["val"]= 20
+    },
+    {
+      ["attr"]= 35,
+      ["val"]= 100
+    }
+  },
+  ["baseLevel"]= 40,
+  ["defaultClothes"]= 2401200,
+  ["defaultEquip"]= {
+    1104008
+  },
+  ["effect"]= 1200,
+  ["id"]= 2,
+  ["jobId"]= 1200,
+  ["name"]= "服事",
+  ["pendantId"]= {},
+  ["picName"]= "Img_JobDescription3",
+  ["showSkills"]= {
+    1200121,
+    1200126,
+    1200129,
+    1210133
+  }
+},
+[3] = {
+  ["advJobLine1"]= {
+    ["advJob"]= {
+      ["skills"]= {
+        1311133,
+        1311121,
+        1310134,
+        1310129
+      }
+    },
+    ["advJobId"]= 1311,
+    ["battleSkills"]= {
+      1310130,
+      1310122,
+      1310131,
+      1310123,
+      1311133,
+      1311121,
+      1310134,
+      1310129
+    },
+    ["defaultClothes"]= 2401311,
+    ["defaultEquip"]= {
+      1306008
+    },
+    ["isOpen"]= 1,
+    ["pendantId"]= {},
+    ["seniorJob"]= {
+      ["skills"]= {
+        1310133,
+        1310122,
+        1310128,
+        1310123
+      }
+    },
+    ["seniorJobId"]= 1310
+  },
+  ["advJobLine2"]= {
+    ["advJob"]= {
+      ["skills"]= {}
+    },
+    ["advJobId"]= 1321,
+    ["battleSkills"]= {},
+    ["defaultClothes"]= 2401311,
+    ["defaultEquip"]= {
+      1103030
+    },
+    ["isOpen"]= 0,
+    ["pendantId"]= {},
+    ["seniorJob"]= {
+      ["skills"]= {}
+    },
+    ["seniorJobID"]= 1320
+  },
+  ["attr"]= {
+    {
+      ["attr"]= 1,
+      ["val"]= 20
+    },
+    {
+      ["attr"]= 2,
+      ["val"]= 20
+    },
+    {
+      ["attr"]= 3,
+      ["val"]= 200
+    },
+    {
+      ["attr"]= 4,
+      ["val"]= 100
+    },
+    {
+      ["attr"]= 5,
+      ["val"]= 150
+    },
+    {
+      ["attr"]= 6,
+      ["val"]= 20
+    },
+    {
+      ["attr"]= 35,
+      ["val"]= 100
+    }
+  },
+  ["baseLevel"]= 40,
+  ["defaultClothes"]= 2401300,
+  ["defaultEquip"]= {
+    1103005
+  },
+  ["effect"]= 1300,
+  ["id"]= 3,
+  ["jobId"]= 1300,
+  ["name"]= "魔法师",
+  ["pendantId"]= {},
+  ["picName"]= "Img_JobDescription5",
+  ["showSkills"]= {
+    1300128,
+    1300125,
+    1300129,
+    1300121
+  }
+},
+[4] = {
+  ["advJobLine1"]= {
+    ["advJob"]= {
+      ["skills"]= {
+        1411122,
+        1411123,
+        1410129,
+        1411133
+      }
+    },
+    ["advJobId"]= 1411,
+    ["battleSkills"]= {
+      1410125,
+      1411999,
+      1410131,
+      1411122,
+      1410133,
+      1411123,
+      1410129,
+      1411133
+    },
+    ["defaultClothes"]= 2401411,
+    ["defaultEquip"]= {
+      1304035
+    },
+    ["isOpen"]= 1,
+    ["pendantId"]= {},
+    ["seniorJob"]= {
+      ["skills"]= {
+        1410125,
+        1411999,
+        1410131,
+        1400133
+      }
+    },
+    ["seniorJobId"]= 1410
+  },
+  ["advJobLine2"]= {
+    ["advJob"]= {
+      ["skills"]= {}
+    },
+    ["advJobId"]= 1421,
+    ["battleSkills"]= {},
+    ["defaultClothes"]= 2401411,
+    ["defaultEquip"]= {
+      1105030
+    },
+    ["isOpen"]= 0,
+    ["pendantId"]= {},
+    ["seniorJob"]= {
+      ["skills"]= {}
+    },
+    ["seniorJobID"]= 1420
+  },
+  ["attr"]= {
+    {
+      ["attr"]= 1,
+      ["val"]= 150
+    },
+    {
+      ["attr"]= 2,
+      ["val"]= 50
+    },
+    {
+      ["attr"]= 3,
+      ["val"]= 200
+    },
+    {
+      ["attr"]= 4,
+      ["val"]= 20
+    },
+    {
+      ["attr"]= 5,
+      ["val"]= 20
+    },
+    {
+      ["attr"]= 6,
+      ["val"]= 10
+    },
+    {
+      ["attr"]= 35,
+      ["val"]= 100
+    }
+  },
+  ["baseLevel"]= 40,
+  ["defaultClothes"]= 2401400,
+  ["defaultEquip"]= {
+    1105009,
+    1105009
+  },
+  ["effect"]= 1400,
+  ["id"]= 4,
+  ["jobId"]= 1400,
+  ["name"]= "盗贼",
+  ["pendantId"]= {},
+  ["picName"]= "Img_JobDescription1",
+  ["showSkills"]= {
+    1400130,
+    1400131,
+    1400132,
+    1400125
+  }
+},
+[5] = {
+  ["advJobLine1"]= {
+    ["advJob"]= {
+      ["skills"]= {
+        1511128,
+        1511131,
+        1511121,
+        1510127
+      }
+    },
+    ["advJobId"]= 1511,
+    ["battleSkills"]= {
+      1500121,
+      1500122,
+      1511121,
+      1511126,
+      1511128,
+      1511131,
+      1510123,
+      1500127
+    },
+    ["defaultClothes"]= 2401511,
+    ["defaultEquip"]= {
+      1305012
+    },
+    ["isOpen"]= 1,
+    ["pendantId"]= {
+      83001
+    },
+    ["seniorJob"]= {
+      ["skills"]= {
+        1500125,
+        1500127,
+        1510132,
+        1510123
+      }
+    },
+    ["seniorJobId"]= 1510
+  },
+  ["advJobLine2"]= {
+    ["advJob"]= {
+      ["skills"]= {}
+    },
+    ["advJobId"]= 1521,
+    ["battleSkills"]= {},
+    ["defaultClothes"]= 2401511,
+    ["defaultEquip"]= {
+      1305030
+    },
+    ["isOpen"]= 0,
+    ["pendantId"]= {},
+    ["seniorJob"]= {
+      ["skills"]= {}
+    },
+    ["seniorJobID"]= 1520
+  },
+  ["attr"]= {
+    {
+      ["attr"]= 1,
+      ["val"]= 150
+    },
+    {
+      ["attr"]= 2,
+      ["val"]= 50
+    },
+    {
+      ["attr"]= 3,
+      ["val"]= 200
+    },
+    {
+      ["attr"]= 4,
+      ["val"]= 20
+    },
+    {
+      ["attr"]= 5,
+      ["val"]= 150
+    },
+    {
+      ["attr"]= 6,
+      ["val"]= 20
+    },
+    {
+      ["attr"]= 35,
+      ["val"]= 100
+    }
+  },
+  ["baseLevel"]= 40,
+  ["defaultClothes"]= 2401500,
+  ["defaultEquip"]= {
+    1305005
+  },
+  ["effect"]= 1500,
+  ["id"]= 5,
+  ["jobId"]= 1500,
+  ["name"]= "弓箭手",
+  ["pendantId"]= {},
+  ["picName"]= "Img_JobDescription6",
+  ["showSkills"]= {
+    1500121,
+    1500122,
+    1500126,
+    1511126
+  }
+},
+[6] = {
+  ["advJobLine1"]= {
+    ["advJob"]= {
+      ["skills"]= {
+        1611003,
+        1611007,
+        1611001,
+        1611999
+      }
+    },
+    ["advJobId"]= 1611,
+    ["battleSkills"]= {
+      1610009,
+      1610010,
+      1610007,
+      1610004,
+      1611003,
+      1611007,
+      1611001,
+      1611999
+    },
+    ["defaultClothes"]= 2401611,
+    ["defaultEquip"]= {
+      1102010,
+      1201038
+    },
+    ["isOpen"]= 1,
+    ["pendantId"]= {
+      83010
+    },
+    ["seniorJob"]= {
+      ["skills"]= {
+        1610009,
+        1610010,
+        1610007,
+        1610004
+      }
+    },
+    ["seniorJobId"]= 1610
+  },
+  ["advJobLine2"]= {
+    ["advJob"]= {
+      ["skills"]= {}
+    },
+    ["advJobId"]= 1521,
+    ["battleSkills"]= {},
+    ["defaultClothes"]= 2401511,
+    ["defaultEquip"]= {
+      1104030
+    },
+    ["isOpen"]= 0,
+    ["pendantId"]= {},
+    ["seniorJob"]= {
+      ["skills"]= {}
+    },
+    ["seniorJobID"]= 1520
+  },
+  ["attr"]= {
+    {
+      ["attr"]= 1,
+      ["val"]= 150
+    },
+    {
+      ["attr"]= 2,
+      ["val"]= 50
+    },
+    {
+      ["attr"]= 3,
+      ["val"]= 200
+    },
+    {
+      ["attr"]= 4,
+      ["val"]= 100
+    },
+    {
+      ["attr"]= 5,
+      ["val"]= 150
+    },
+    {
+      ["attr"]= 6,
+      ["val"]= 20
+    },
+    {
+      ["attr"]= 35,
+      ["val"]= 100
+    }
+  },
+  ["baseLevel"]= 40,
+  ["defaultClothes"]= 2401600,
+  ["defaultEquip"]= {
+    1302008
+  },
+  ["effect"]= 1600,
+  ["id"]= 6,
+  ["jobId"]= 1600,
+  ["name"]= "商人",
+  ["pendantId"]= {},
+  ["picName"]= "Img_JobDescription4",
+  ["showSkills"]= {
+    1600008,
+    1600009,
+    1600005,
+    1600006
+  }
+}
+}
+"

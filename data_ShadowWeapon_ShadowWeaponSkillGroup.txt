@@ -1,0 +1,1073 @@
+TextAsset Base
+	string m_Name = "data_ShadowWeapon_ShadowWeaponSkillGroup"
+	string m_Script = "local table= {
+[6] = {
+  ["ButtonForbidden"]= 1,
+  ["Condition"]= 1099,
+  ["ConditionDes"]= "ShadowWeaponConditionDes_001",
+  ["GroupName"]= "ShadowWeaponSkillGroup_006",
+  ["Name"]= "状态抗性"
+},
+[101] = {
+  ["Id"]= 101,
+  ["Name"]= "影装·呈剑-铭章",
+  ["ShadowWeaponSkillIdList"]= {
+    11000101,
+    11000102,
+    11000103,
+    11000104,
+    11000105,
+    11000106,
+    11000107,
+    11000108
+  }
+},
+[102] = {
+  ["Id"]= 102,
+  ["Name"]= "影装·征矛-铭章",
+  ["ShadowWeaponSkillIdList"]= {
+    11000201,
+    11000202,
+    11000203,
+    11000204,
+    11000205,
+    11000206,
+    11000207,
+    11000208
+  }
+},
+[103] = {
+  ["Id"]= 103,
+  ["Name"]= "影装·侍剑义盾-铭章",
+  ["ShadowWeaponSkillIdList"]= {
+    11000301,
+    11000302,
+    11000303,
+    11000304,
+    11000305,
+    11000306,
+    11000307,
+    11000308
+  }
+},
+[104] = {
+  ["Id"]= 104,
+  ["Name"]= "影装·坚锤羽盾-铭章",
+  ["ShadowWeaponSkillIdList"]= {
+    16000101,
+    16000102,
+    16000103,
+    16000104,
+    16000105,
+    16000106,
+    16000107,
+    16000108
+  }
+},
+[105] = {
+  ["Id"]= 105,
+  ["Name"]= "影装·源斧义盾-铭章",
+  ["ShadowWeaponSkillIdList"]= {
+    16000201,
+    16000202,
+    16000203,
+    16000204,
+    16000205,
+    16000206,
+    16000207,
+    16000208
+  }
+},
+[106] = {
+  ["Id"]= 106,
+  ["Name"]= "影装·漠斧-铭章",
+  ["ShadowWeaponSkillIdList"]= {
+    16000301,
+    16000302,
+    16000303,
+    16000304,
+    16000305,
+    16000306,
+    16000307,
+    16000308
+  }
+},
+[107] = {
+  ["Id"]= 107,
+  ["Name"]= "影装·坚锤羽盾-铭章",
+  ["ShadowWeaponSkillIdList"]= {
+    12000101,
+    12000102,
+    12000103,
+    12000104,
+    12000105,
+    12000106,
+    12000107,
+    12000108
+  }
+},
+[108] = {
+  ["Id"]= 108,
+  ["Name"]= "影装·祭杖羽盾-铭章",
+  ["ShadowWeaponSkillIdList"]= {
+    12000201,
+    12000202,
+    12000203,
+    12000204,
+    12000205,
+    12000206,
+    12000207,
+    12000208
+  }
+},
+[109] = {
+  ["Id"]= 109,
+  ["Name"]= "影装·术典-铭章",
+  ["ShadowWeaponSkillIdList"]= {
+    12000301,
+    12000302,
+    12000303,
+    12000304,
+    12000305,
+    12000306,
+    12000307,
+    12000308
+  }
+},
+[110] = {
+  ["Id"]= 110,
+  ["Name"]= "影装·祭杖羽盾-铭章",
+  ["ShadowWeaponSkillIdList"]= {
+    13000101,
+    13000102,
+    13000103,
+    13000104,
+    13000105,
+    13000106,
+    13000107,
+    13000108
+  }
+},
+[111] = {
+  ["Id"]= 111,
+  ["Name"]= "影装·序杖-铭章",
+  ["ShadowWeaponSkillIdList"]= {
+    13000201,
+    13000202,
+    13000203,
+    13000204,
+    13000205,
+    13000206,
+    13000207,
+    13000208
+  }
+},
+[112] = {
+  ["Id"]= 112,
+  ["Name"]= "影装·界弓-铭章",
+  ["ShadowWeaponSkillIdList"]= {
+    15000101,
+    15000102,
+    15000103,
+    15000104,
+    15000105,
+    15000106,
+    15000107,
+    15000108
+  }
+},
+[113] = {
+  ["Id"]= 113,
+  ["Name"]= "影装·银弓-铭章",
+  ["ShadowWeaponSkillIdList"]= {
+    15000201,
+    15000202,
+    15000203,
+    15000204,
+    15000205,
+    15000206,
+    15000207,
+    15000208
+  }
+},
+[114] = {
+  ["Id"]= 114,
+  ["Name"]= "影装·幻匕-铭章",
+  ["ShadowWeaponSkillIdList"]= {
+    14000101,
+    14000102,
+    14000103,
+    14000104,
+    14000105,
+    14000106,
+    14000107,
+    14000108
+  }
+},
+[115] = {
+  ["Id"]= 115,
+  ["Name"]= "影装·逆刃-铭章",
+  ["ShadowWeaponSkillIdList"]= {
+    14000201,
+    14000202,
+    14000203,
+    14000204,
+    14000205,
+    14000206,
+    14000207,
+    14000208
+  }
+},
+[201] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_002",
+  ["Id"]= 201,
+  ["Name"]= "影装·呈剑-拓文",
+  ["ShadowWeaponSkillIdList"]= {
+    11000109,
+    11000110,
+    11000111,
+    11000112,
+    11000113,
+    11000114,
+    11000115,
+    11000116
+  }
+},
+[202] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_002",
+  ["Id"]= 202,
+  ["Name"]= "影装·征矛-拓文",
+  ["ShadowWeaponSkillIdList"]= {
+    11000209,
+    11000210,
+    11000211,
+    11000212,
+    11000213,
+    11000214,
+    11000215,
+    11000216
+  }
+},
+[203] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_002",
+  ["Id"]= 203,
+  ["Name"]= "影装·侍剑义盾-拓文",
+  ["ShadowWeaponSkillIdList"]= {
+    11000309,
+    11000310,
+    11000311,
+    11000312,
+    11000313,
+    11000314,
+    11000315,
+    11000316
+  }
+},
+[204] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_002",
+  ["Id"]= 204,
+  ["Name"]= "影装·坚锤羽盾-拓文",
+  ["ShadowWeaponSkillIdList"]= {
+    16000109,
+    16000110,
+    16000111,
+    16000112,
+    16000113,
+    16000114,
+    16000115,
+    16000116
+  }
+},
+[205] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_002",
+  ["Id"]= 205,
+  ["Name"]= "影装·源斧义盾-拓文",
+  ["ShadowWeaponSkillIdList"]= {
+    16000209,
+    16000210,
+    16000211,
+    16000212,
+    16000213,
+    16000214,
+    16000215,
+    16000216
+  }
+},
+[206] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_002",
+  ["Id"]= 206,
+  ["Name"]= "影装·漠斧-拓文",
+  ["ShadowWeaponSkillIdList"]= {
+    16000309,
+    16000310,
+    16000311,
+    16000312,
+    16000313,
+    16000314,
+    16000315,
+    16000316
+  }
+},
+[207] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_002",
+  ["Id"]= 207,
+  ["Name"]= "影装·坚锤羽盾-拓文",
+  ["ShadowWeaponSkillIdList"]= {
+    12000109,
+    12000110,
+    12000111,
+    12000112,
+    12000113,
+    12000114,
+    12000115,
+    12000116
+  }
+},
+[208] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_002",
+  ["Id"]= 208,
+  ["Name"]= "影装·祭杖羽盾-拓文",
+  ["ShadowWeaponSkillIdList"]= {
+    12000209,
+    12000210,
+    12000211,
+    12000212,
+    12000213,
+    12000214,
+    12000215,
+    12000216
+  }
+},
+[209] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_002",
+  ["Id"]= 209,
+  ["Name"]= "影装·术典-拓文",
+  ["ShadowWeaponSkillIdList"]= {
+    12000309,
+    12000310,
+    12000311,
+    12000312,
+    12000313,
+    12000314,
+    12000315,
+    12000316
+  }
+},
+[210] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_002",
+  ["Id"]= 210,
+  ["Name"]= "影装·祭杖羽盾-拓文",
+  ["ShadowWeaponSkillIdList"]= {
+    13000109,
+    13000110,
+    13000111,
+    13000112,
+    13000113,
+    13000114,
+    13000115,
+    13000116
+  }
+},
+[211] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_002",
+  ["Id"]= 211,
+  ["Name"]= "影装·序杖-拓文",
+  ["ShadowWeaponSkillIdList"]= {
+    13000209,
+    13000210,
+    13000211,
+    13000212,
+    13000213,
+    13000214,
+    13000215,
+    13000216
+  }
+},
+[212] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_002",
+  ["Id"]= 212,
+  ["Name"]= "影装·界弓-拓文",
+  ["ShadowWeaponSkillIdList"]= {
+    15000109,
+    15000110,
+    15000111,
+    15000112,
+    15000113,
+    15000114,
+    15000115,
+    15000116
+  }
+},
+[213] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_002",
+  ["Id"]= 213,
+  ["Name"]= "影装·银弓-拓文",
+  ["ShadowWeaponSkillIdList"]= {
+    15000209,
+    15000210,
+    15000211,
+    15000212,
+    15000213,
+    15000214,
+    15000215,
+    15000216
+  }
+},
+[214] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_002",
+  ["Id"]= 214,
+  ["Name"]= "影装·幻匕-拓文",
+  ["ShadowWeaponSkillIdList"]= {
+    14000109,
+    14000110,
+    14000111,
+    14000112,
+    14000113,
+    14000114,
+    14000115,
+    14000116
+  }
+},
+[215] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_002",
+  ["Id"]= 215,
+  ["Name"]= "影装·逆刃-拓文",
+  ["ShadowWeaponSkillIdList"]= {
+    14000209,
+    14000210,
+    14000211,
+    14000212,
+    14000213,
+    14000214,
+    14000215,
+    14000216
+  }
+},
+[301] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_003",
+  ["Id"]= 301,
+  ["Name"]= "影装·呈剑-札页",
+  ["ShadowWeaponSkillIdList"]= {
+    11000117,
+    11000118,
+    11000119,
+    11000120
+  }
+},
+[302] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_003",
+  ["Id"]= 302,
+  ["Name"]= "影装·征矛-札页",
+  ["ShadowWeaponSkillIdList"]= {
+    11000217,
+    11000218,
+    11000219,
+    11000220
+  }
+},
+[303] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_003",
+  ["Id"]= 303,
+  ["ShadowWeaponSkillIdList"]= {
+    11000317,
+    11000318,
+    11000319,
+    11000320
+  }
+},
+[304] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_003",
+  ["Id"]= 304,
+  ["ShadowWeaponSkillIdList"]= {
+    16000117,
+    16000118,
+    16000119,
+    16000120
+  }
+},
+[305] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_003",
+  ["Id"]= 305,
+  ["ShadowWeaponSkillIdList"]= {
+    16000217,
+    16000218,
+    16000219,
+    16000220
+  }
+},
+[306] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_003",
+  ["Id"]= 306,
+  ["ShadowWeaponSkillIdList"]= {
+    16000317,
+    16000318,
+    16000319,
+    16000320
+  }
+},
+[307] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_003",
+  ["Id"]= 307,
+  ["ShadowWeaponSkillIdList"]= {
+    12000117,
+    12000118,
+    12000119,
+    12000120
+  }
+},
+[308] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_003",
+  ["Id"]= 308,
+  ["ShadowWeaponSkillIdList"]= {
+    12000217,
+    12000218,
+    12000219,
+    12000220
+  }
+},
+[309] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_003",
+  ["Id"]= 309,
+  ["ShadowWeaponSkillIdList"]= {
+    12000317,
+    12000318,
+    12000319,
+    12000320
+  }
+},
+[310] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_003",
+  ["Id"]= 310,
+  ["ShadowWeaponSkillIdList"]= {
+    13000117,
+    13000118,
+    13000119,
+    13000120
+  }
+},
+[311] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_003",
+  ["Id"]= 311,
+  ["ShadowWeaponSkillIdList"]= {
+    13000217,
+    13000218,
+    13000219,
+    13000220
+  }
+},
+[312] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_003",
+  ["Id"]= 312,
+  ["ShadowWeaponSkillIdList"]= {
+    15000117,
+    15000118,
+    15000119,
+    15000120
+  }
+},
+[313] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_003",
+  ["Id"]= 313,
+  ["ShadowWeaponSkillIdList"]= {
+    15000217,
+    15000218,
+    15000219,
+    15000220
+  }
+},
+[314] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_003",
+  ["Id"]= 314,
+  ["ShadowWeaponSkillIdList"]= {
+    14000117,
+    14000118,
+    14000119,
+    14000120
+  }
+},
+[315] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_003",
+  ["Id"]= 315,
+  ["ShadowWeaponSkillIdList"]= {
+    14000217,
+    14000218,
+    14000219,
+    14000220
+  }
+},
+[401] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_004",
+  ["Id"]= 401,
+  ["Name"]= "影装·呈剑-印刻",
+  ["ShadowWeaponSkillIdList"]= {
+    11000121,
+    11000122,
+    11000123,
+    11000124
+  }
+},
+[402] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_004",
+  ["Id"]= 402,
+  ["Name"]= "影装·征矛-印刻",
+  ["ShadowWeaponSkillIdList"]= {
+    11000221,
+    11000222,
+    11000223,
+    11000224
+  }
+},
+[403] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_004",
+  ["Id"]= 403,
+  ["ShadowWeaponSkillIdList"]= {
+    11000321,
+    11000322,
+    11000323,
+    11000324
+  }
+},
+[404] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_004",
+  ["Id"]= 404,
+  ["ShadowWeaponSkillIdList"]= {
+    16000121,
+    16000122,
+    16000123,
+    16000124
+  }
+},
+[405] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_004",
+  ["Id"]= 405,
+  ["ShadowWeaponSkillIdList"]= {
+    16000221,
+    16000222,
+    16000223,
+    16000224
+  }
+},
+[406] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_004",
+  ["Id"]= 406,
+  ["ShadowWeaponSkillIdList"]= {
+    16000321,
+    16000322,
+    16000323,
+    16000324
+  }
+},
+[407] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_004",
+  ["Id"]= 407,
+  ["ShadowWeaponSkillIdList"]= {
+    12000121,
+    12000122,
+    12000123,
+    12000124
+  }
+},
+[408] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_004",
+  ["Id"]= 408,
+  ["ShadowWeaponSkillIdList"]= {
+    12000221,
+    12000222,
+    12000223,
+    12000224
+  }
+},
+[409] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_004",
+  ["Id"]= 409,
+  ["ShadowWeaponSkillIdList"]= {
+    12000321,
+    12000322,
+    12000323,
+    12000324
+  }
+},
+[410] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_004",
+  ["Id"]= 410,
+  ["ShadowWeaponSkillIdList"]= {
+    13000121,
+    13000122,
+    13000123,
+    13000124
+  }
+},
+[411] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_004",
+  ["Id"]= 411,
+  ["ShadowWeaponSkillIdList"]= {
+    13000221,
+    13000222,
+    13000223,
+    13000224
+  }
+},
+[412] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_004",
+  ["Id"]= 412,
+  ["ShadowWeaponSkillIdList"]= {
+    15000121,
+    15000122,
+    15000123,
+    15000124
+  }
+},
+[413] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_004",
+  ["Id"]= 413,
+  ["ShadowWeaponSkillIdList"]= {
+    15000221,
+    15000222,
+    15000223,
+    15000224
+  }
+},
+[414] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_004",
+  ["Id"]= 414,
+  ["ShadowWeaponSkillIdList"]= {
+    14000121,
+    14000122,
+    14000123,
+    14000124
+  }
+},
+[415] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_004",
+  ["Id"]= 415,
+  ["ShadowWeaponSkillIdList"]= {
+    14000221,
+    14000222,
+    14000223,
+    14000224
+  }
+},
+[501] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_005",
+  ["Id"]= 501,
+  ["Name"]= "影装·呈剑-鉴书",
+  ["ShadowWeaponSkillIdList"]= {
+    11000125,
+    11000126,
+    11000127,
+    11000128
+  }
+},
+[502] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_005",
+  ["Id"]= 502,
+  ["Name"]= "影装·征矛-鉴书",
+  ["ShadowWeaponSkillIdList"]= {
+    11000225,
+    11000226,
+    11000227,
+    11000228
+  }
+},
+[503] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_005",
+  ["Id"]= 503,
+  ["ShadowWeaponSkillIdList"]= {
+    11000325,
+    11000326,
+    11000327,
+    11000328
+  }
+},
+[504] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_005",
+  ["Id"]= 504,
+  ["ShadowWeaponSkillIdList"]= {
+    16000125,
+    16000126,
+    16000127,
+    16000128
+  }
+},
+[505] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_005",
+  ["Id"]= 505,
+  ["ShadowWeaponSkillIdList"]= {
+    16000225,
+    16000226,
+    16000227,
+    16000228
+  }
+},
+[506] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_005",
+  ["Id"]= 506,
+  ["ShadowWeaponSkillIdList"]= {
+    16000325,
+    16000326,
+    16000327,
+    16000328
+  }
+},
+[507] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_005",
+  ["Id"]= 507,
+  ["ShadowWeaponSkillIdList"]= {
+    12000125,
+    12000126,
+    12000127,
+    12000128
+  }
+},
+[508] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_005",
+  ["Id"]= 508,
+  ["ShadowWeaponSkillIdList"]= {
+    12000225,
+    12000226,
+    12000227,
+    12000228
+  }
+},
+[509] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_005",
+  ["Id"]= 509,
+  ["ShadowWeaponSkillIdList"]= {
+    12000325,
+    12000326,
+    12000327,
+    12000328
+  }
+},
+[510] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_005",
+  ["Id"]= 510,
+  ["ShadowWeaponSkillIdList"]= {
+    13000125,
+    13000126,
+    13000127,
+    13000128
+  }
+},
+[511] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_005",
+  ["Id"]= 511,
+  ["ShadowWeaponSkillIdList"]= {
+    13000225,
+    13000226,
+    13000227,
+    13000228
+  }
+},
+[512] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_005",
+  ["Id"]= 512,
+  ["ShadowWeaponSkillIdList"]= {
+    15000125,
+    15000126,
+    15000127,
+    15000128
+  }
+},
+[513] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_005",
+  ["Id"]= 513,
+  ["ShadowWeaponSkillIdList"]= {
+    15000225,
+    15000226,
+    15000227,
+    15000228
+  }
+},
+[514] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_005",
+  ["Id"]= 514,
+  ["ShadowWeaponSkillIdList"]= {
+    14000125,
+    14000126,
+    14000127,
+    14000128
+  }
+},
+[515] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_005",
+  ["Id"]= 515,
+  ["ShadowWeaponSkillIdList"]= {
+    14000225,
+    14000226,
+    14000227,
+    14000228
+  }
+},
+[701] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_007",
+  ["Id"]= 701,
+  ["Name"]= "影装·呈剑-器灵",
+  ["ShadowWeaponSkillIdList"]= {
+    11000129,
+    11000130,
+    11000131,
+    11000132
+  }
+},
+[702] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_007",
+  ["Id"]= 702,
+  ["Name"]= "影装·征矛-器灵",
+  ["ShadowWeaponSkillIdList"]= {
+    11000229,
+    11000230,
+    11000231,
+    11000232
+  }
+},
+[703] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_007",
+  ["Id"]= 703,
+  ["ShadowWeaponSkillIdList"]= {
+    11000329,
+    11000330,
+    11000331,
+    11000332
+  }
+},
+[704] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_007",
+  ["Id"]= 704,
+  ["ShadowWeaponSkillIdList"]= {
+    16000129,
+    16000130,
+    16000131,
+    16000132
+  }
+},
+[705] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_007",
+  ["Id"]= 705,
+  ["ShadowWeaponSkillIdList"]= {
+    16000229,
+    16000230,
+    16000231,
+    16000232
+  }
+},
+[706] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_007",
+  ["Id"]= 706,
+  ["ShadowWeaponSkillIdList"]= {
+    16000329,
+    16000330,
+    16000331,
+    16000332
+  }
+},
+[707] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_007",
+  ["Id"]= 707,
+  ["ShadowWeaponSkillIdList"]= {
+    12000129,
+    12000130,
+    12000131,
+    12000132
+  }
+},
+[708] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_007",
+  ["Id"]= 708,
+  ["ShadowWeaponSkillIdList"]= {
+    12000229,
+    12000230,
+    12000231,
+    12000232
+  }
+},
+[709] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_007",
+  ["Id"]= 709,
+  ["ShadowWeaponSkillIdList"]= {
+    12000329,
+    12000330,
+    12000331,
+    12000332
+  }
+},
+[710] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_007",
+  ["Id"]= 710,
+  ["ShadowWeaponSkillIdList"]= {
+    13000129,
+    13000130,
+    13000131,
+    13000132
+  }
+},
+[711] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_007",
+  ["Id"]= 711,
+  ["ShadowWeaponSkillIdList"]= {
+    13000229,
+    13000230,
+    13000231,
+    13000232
+  }
+},
+[712] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_007",
+  ["Id"]= 712,
+  ["ShadowWeaponSkillIdList"]= {
+    15000129,
+    15000130,
+    15000131,
+    15000132
+  }
+},
+[713] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_007",
+  ["Id"]= 713,
+  ["ShadowWeaponSkillIdList"]= {
+    15000229,
+    15000230,
+    15000231,
+    15000232
+  }
+},
+[714] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_007",
+  ["Id"]= 714,
+  ["ShadowWeaponSkillIdList"]= {
+    14000129,
+    14000130,
+    14000131,
+    14000132
+  }
+},
+[715] = {
+  ["GroupName"]= "ShadowWeaponSkillGroup_007",
+  ["Id"]= 715,
+  ["ShadowWeaponSkillIdList"]= {
+    14000229,
+    14000230,
+    14000231,
+    14000232
+  }
+}
+}
+local baseTable={
+  ["ButtonForbidden"]= 0,
+  ["Condition"]= 1001,
+  ["ConditionDes"]= "",
+  ["GroupName"]= "ShadowWeaponSkillGroup_001",
+  ["Id"]= 6,
+  ["Name"]= "",
+  ["ShadowWeaponSkillIdList"]= {
+    10016,
+    10017,
+    10018,
+    10019,
+    10020
+  }
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

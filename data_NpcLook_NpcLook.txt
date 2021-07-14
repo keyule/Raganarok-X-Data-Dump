@@ -1,0 +1,25 @@
+TextAsset Base
+	string m_Name = "data_NpcLook_NpcLook"
+	string m_Script = "return {
+[140051] = {
+  ["Action"]= "YoungWoman6",
+  ["BodyId"]= "2236b",
+  ["BodyMat"]= "2236b",
+  ["EyeColorB"]= 15,
+  ["EyeColorG"]= 20,
+  ["EyeColorR"]= 65,
+  ["FaceMat"]= "2205f",
+  ["HairColorB"]= 15,
+  ["HairColorG"]= 0,
+  ["HairColorR"]= 255,
+  ["HairId"]= "2219h",
+  ["HairMat"]= "2219h",
+  ["HeadDecorationId"]= "4101022",
+  ["HeadId"]= "2219h",
+  ["isHairCut"]= 0,
+  ["LhandId"]= "2130b_L_Hand",
+  ["RhandId"]= "2142b_R_Hand",
+  ["StaticId"]= 140051
+}
+}
+"

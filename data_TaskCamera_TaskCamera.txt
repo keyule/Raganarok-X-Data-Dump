@@ -1,0 +1,196 @@
+TextAsset Base
+	string m_Name = "data_TaskCamera_TaskCamera"
+	string m_Script = "local table= {
+[101] = {
+  ["animationId"]= "taskCamera01_001",
+  ["blankNpc"]= {
+    10102023
+  },
+  ["playerRotationY"]= 45.91332,
+  ["showNpc"]= {
+    10102021
+  }
+},
+[102] = {
+  ["animationId"]= "taskCamera01_002",
+  ["blankNpc"]= {
+    10102023
+  },
+  ["id"]= 102,
+  ["name"]= "测试102",
+  ["playerRotationY"]= 45.91332,
+  ["showNpc"]= {
+    10102021
+  }
+},
+[103] = {
+  ["animationId"]= "taskCamera01_003",
+  ["blankNpc"]= {
+    10102023
+  },
+  ["id"]= 103,
+  ["name"]= "测试103",
+  ["showNpc"]= {
+    10102021
+  }
+},
+[104] = {
+  ["animationId"]= "taskCamera01_004",
+  ["id"]= 104,
+  ["name"]= "测试104"
+},
+[105] = {
+  ["animationId"]= "taskCamera01_005",
+  ["id"]= 105,
+  ["name"]= "测试105"
+},
+[106] = {
+  ["animationId"]= "taskCamera01_006",
+  ["id"]= 106,
+  ["name"]= "测试106"
+},
+[107] = {
+  ["animationId"]= "taskCamera01_007",
+  ["id"]= 107,
+  ["isHideOneself"]= 1,
+  ["name"]= "测试107"
+},
+[108] = {
+  ["animationId"]= "taskCamera01_008",
+  ["id"]= 108,
+  ["name"]= "测试108"
+},
+[201] = {
+  ["cameraId"]= "Path101",
+  ["id"]= 201,
+  ["isHideOneself"]= 1,
+  ["name"]= "测试201",
+  ["playerPositionX"]= -2.753,
+  ["playerPositionY"]= 84.04407,
+  ["playerPositionZ"]= 24.535,
+  ["playerRotationY"]= 0,
+  ["showNpc"]= {
+    15302006,
+    15302007
+  },
+  ["startPositionX"]= -5.753,
+  ["startPositionY"]= 84.04407,
+  ["startPositionZ"]= 23.535,
+  ["startRotationY"]= 88.6459
+},
+[202] = {
+  ["cameraId"]= "Path102",
+  ["id"]= 202,
+  ["isHideOneself"]= 1,
+  ["name"]= "测试202",
+  ["playerPositionX"]= -2.753,
+  ["playerPositionY"]= 84.04407,
+  ["playerPositionZ"]= 24.535,
+  ["playerRotationY"]= 0,
+  ["showNpc"]= {
+    15302006
+  },
+  ["startPositionX"]= -5.753,
+  ["startPositionY"]= 84.04407,
+  ["startPositionZ"]= 23.535,
+  ["startRotationY"]= 88.6459
+},
+[203] = {
+  ["cameraId"]= "Path103",
+  ["id"]= 203,
+  ["isHideOneself"]= 1,
+  ["name"]= "测试203",
+  ["playerPositionX"]= -2.753,
+  ["playerPositionY"]= 84.04407,
+  ["playerPositionZ"]= 24.535,
+  ["playerRotationY"]= 0,
+  ["showNpc"]= {
+    15302006,
+    15302007
+  },
+  ["startPositionX"]= -5.753,
+  ["startPositionY"]= 84.04407,
+  ["startPositionZ"]= 23.535,
+  ["startRotationY"]= 88.6459
+},
+[204] = {
+  ["cameraId"]= "Path104",
+  ["id"]= 204,
+  ["isHideOneself"]= 1,
+  ["name"]= "测试204",
+  ["playerPositionX"]= -2.753,
+  ["playerPositionY"]= 84.04407,
+  ["playerPositionZ"]= 24.535,
+  ["playerRotationY"]= 0,
+  ["showNpc"]= {
+    15302006,
+    15302007
+  },
+  ["startPositionX"]= -5.753,
+  ["startPositionY"]= 84.04407,
+  ["startPositionZ"]= 23.535,
+  ["startRotationY"]= 88.6459
+},
+[205] = {
+  ["cameraId"]= "Path105",
+  ["id"]= 205,
+  ["name"]= "测试205",
+  ["playerPositionX"]= -5.83,
+  ["playerPositionY"]= 84.04407,
+  ["playerPositionZ"]= 21.41,
+  ["playerRotationY"]= 15.477,
+  ["showNpc"]= {
+    15302006
+  },
+  ["startPositionX"]= -5.753,
+  ["startPositionY"]= 84.04407,
+  ["startPositionZ"]= 23.535,
+  ["startRotationY"]= 88.6459
+},
+[1001] = {
+  ["animationId"]= "taskCamera01_001",
+  ["id"]= 1001,
+  ["name"]= "镜头1",
+  ["playerPositionX"]= 0,
+  ["playerPositionY"]= 0,
+  ["playerPositionZ"]= 0,
+  ["playerRotationY"]= 0,
+  ["showNpc"]= {},
+  ["startPositionX"]= 28.9,
+  ["startPositionY"]= 37.071,
+  ["startPositionZ"]= 201.94,
+  ["startRotationY"]= 156.6
+}
+}
+local baseTable={
+  ["alignTarget"]= 0,
+  ["animationId"]= "",
+  ["blankNpc"]= {},
+  ["cameraId"]= "0",
+  ["carenaMoveNpc"]= {},
+  ["clientActions"]= {},
+  ["id"]= 101,
+  ["isHideOneself"]= 0,
+  ["movePositionX"]= {},
+  ["movePositionY"]= {},
+  ["name"]= "测试101",
+  ["playerPositionX"]= -22.9,
+  ["playerPositionY"]= -0.07999998,
+  ["playerPositionZ"]= 9.8,
+  ["playerRotationY"]= 45.913,
+  ["showNpc"]= {
+    10102021,
+    10102022,
+    10102023
+  },
+  ["startPositionX"]= -21.93,
+  ["startPositionY"]= -0.07999998,
+  ["startPositionZ"]= 11.24,
+  ["startRotationX"]= 0,
+  ["startRotationY"]= -157.331,
+  ["startRotationZ"]= 0
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

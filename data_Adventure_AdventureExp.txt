@@ -1,0 +1,115 @@
+TextAsset Base
+	string m_Name = "data_Adventure_AdventureExp"
+	string m_Script = "return {
+[1] = {
+  ["ChangeId"]= "",
+  ["GetRewardCondition"]= 0,
+  ["ID"]= 1,
+  ["LifeEnergy"]= 4000,
+  ["Limit"]= 200,
+  ["LoopId"]= "boli_1",
+  ["Prize"]= 0,
+  ["ResID"]= "Img_Boli",
+  ["TextResID"]= "Img_Mx"
+},
+[2] = {
+  ["ChangeId"]= "",
+  ["GetRewardCondition"]= 1030,
+  ["ID"]= 2,
+  ["LifeEnergy"]= 4000,
+  ["Limit"]= 500,
+  ["LoopId"]= "boli_1",
+  ["Prize"]= 4000,
+  ["ResID"]= "Img_Boli",
+  ["TextResID"]= "Img_Mx"
+},
+[3] = {
+  ["ChangeId"]= "boli_fengtu",
+  ["GetRewardCondition"]= 1040,
+  ["ID"]= 3,
+  ["LifeEnergy"]= 4000,
+  ["Limit"]= 1000,
+  ["LoopId"]= "fengtu_1",
+  ["Prize"]= 6000,
+  ["ResID"]= "Img_Fengtu",
+  ["TextResID"]= "Img_Mx1"
+},
+[4] = {
+  ["ChangeId"]= "",
+  ["GetRewardCondition"]= 1050,
+  ["ID"]= 4,
+  ["LifeEnergy"]= 4000,
+  ["Limit"]= 2000,
+  ["LoopId"]= "fengtu_1",
+  ["Prize"]= 8000,
+  ["ResID"]= "Img_Fengtu",
+  ["TextResID"]= "Img_Mx1"
+},
+[5] = {
+  ["ChangeId"]= "",
+  ["GetRewardCondition"]= 1060,
+  ["ID"]= 5,
+  ["LifeEnergy"]= 4000,
+  ["Limit"]= 5000,
+  ["LoopId"]= "fengtu_1",
+  ["Prize"]= 10000,
+  ["ResID"]= "Img_Fengtu",
+  ["TextResID"]= "Img_Mx1"
+},
+[6] = {
+  ["ChangeId"]= "fengtu_liuliuhou",
+  ["GetRewardCondition"]= 1070,
+  ["ID"]= 6,
+  ["LifeEnergy"]= 4000,
+  ["Limit"]= 10000,
+  ["LoopId"]= "liuliuhou_1",
+  ["Prize"]= 14000,
+  ["ResID"]= "Img_Llhou",
+  ["TextResID"]= "Img_Mx2"
+},
+[7] = {
+  ["ChangeId"]= "",
+  ["GetRewardCondition"]= 1080,
+  ["ID"]= 7,
+  ["LifeEnergy"]= 4000,
+  ["Limit"]= 20000,
+  ["LoopId"]= "liuliuhou_1",
+  ["Prize"]= 20000,
+  ["ResID"]= "Img_Llhou",
+  ["TextResID"]= "Img_Mx2"
+},
+[8] = {
+  ["ChangeId"]= "liuliuhou_moka",
+  ["GetRewardCondition"]= 1090,
+  ["ID"]= 8,
+  ["LifeEnergy"]= 4000,
+  ["Limit"]= 50000,
+  ["LoopId"]= "moka_1",
+  ["Prize"]= 30000,
+  ["ResID"]= "Img_Moka",
+  ["TextResID"]= "Img_Mx4"
+},
+[9] = {
+  ["ChangeId"]= "",
+  ["GetRewardCondition"]= 101006,
+  ["ID"]= 9,
+  ["LifeEnergy"]= 4000,
+  ["Limit"]= 100000,
+  ["LoopId"]= "moka_1",
+  ["Prize"]= 40000,
+  ["ResID"]= "Img_Moka",
+  ["TextResID"]= "Img_Mx4"
+},
+[10] = {
+  ["ChangeId"]= "",
+  ["GetRewardCondition"]= 101007,
+  ["ID"]= 10,
+  ["LifeEnergy"]= 4000,
+  ["Limit"]= 999999,
+  ["LoopId"]= "moka_1",
+  ["Prize"]= 60000,
+  ["ResID"]= "Img_Moka",
+  ["TextResID"]= "Img_Mx4"
+}
+}
+"

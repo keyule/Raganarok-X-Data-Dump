@@ -1,0 +1,40 @@
+TextAsset Base
+	string m_Name = "data_question_AdventureQuestionConfig"
+	string m_Script = "local table= {
+[2] = {},
+[4] = {
+  ["enableLevel"]= 50,
+  ["level"]= 4,
+  ["libId"]= 4
+},
+[6] = {
+  ["enableLevel"]= 70,
+  ["level"]= 6,
+  ["libId"]= 6,
+  ["questionSum"]= 12
+},
+[8] = {
+  ["enableLevel"]= 90,
+  ["level"]= 8,
+  ["libId"]= 8,
+  ["questionSum"]= 12
+},
+[10] = {
+  ["enableLevel"]= 110,
+  ["level"]= 10,
+  ["libId"]= 10,
+  ["questionSum"]= 15
+}
+}
+local baseTable={
+  ["enableLevel"]= 30,
+  ["level"]= 2,
+  ["libId"]= 2,
+  ["npcUniqueId"]= 11706008,
+  ["questionSum"]= 10,
+  ["sceneId"]= 1170
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

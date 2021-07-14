@@ -1,0 +1,58 @@
+TextAsset Base
+	string m_Name = "data_tower_Tower"
+	string m_Script = "return {
+[1] = {
+  ["bossLayerAreaList"]= {
+    {
+      ["areaId"]= 3020310,
+      ["effectResId"]= 10010,
+      ["npcId"]= 30201006
+    },
+    {
+      ["areaId"]= 3020311,
+      ["effectResId"]= 10011,
+      ["npcId"]= 30201007
+    },
+    {
+      ["areaId"]= 3020312,
+      ["effectResId"]= 10013,
+      ["npcId"]= 30201008
+    },
+    {
+      ["areaId"]= 3020313,
+      ["effectResId"]= 10012,
+      ["npcId"]= 30201009
+    }
+  },
+  ["healAreaId"]= 3020300,
+  ["healNpcId"]= 30201010,
+  ["Id"]= 1,
+  ["tickItemId"]= 1031,
+  ["tickItemNum"]= 1,
+  ["TowerBuffShop"]= {
+    {
+      ["buffId"]= 6001,
+      ["itemId"]= 10202034
+    },
+    {
+      ["buffId"]= 6002,
+      ["itemId"]= 10202035
+    },
+    {
+      ["buffId"]= 6003,
+      ["itemId"]= 10202036
+    },
+    {
+      ["buffId"]= 6004,
+      ["itemId"]= 10202038
+    },
+    {
+      ["buffId"]= 6006,
+      ["itemId"]= 10202037
+    }
+  },
+  ["towerTreasureLayer"]= 20,
+  ["treasureId"]= 30201011
+}
+}
+"

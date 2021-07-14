@@ -1,0 +1,129 @@
+TextAsset Base
+	string m_Name = "data_activity_MVPKillActivityAward"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["dropId"]= 26002,
+  ["staticId"]= 2
+},
+[3] = {
+  ["dropId"]= 26003,
+  ["staticId"]= 3
+},
+[4] = {
+  ["dropId"]= 26004,
+  ["staticId"]= 4
+},
+[5] = {
+  ["dropId"]= 26005,
+  ["staticId"]= 5
+},
+[6] = {
+  ["dropId"]= 26006,
+  ["staticId"]= 6
+},
+[7] = {
+  ["dropId"]= 26007,
+  ["staticId"]= 7
+},
+[8] = {
+  ["dropId"]= 26008,
+  ["staticId"]= 8
+},
+[9] = {
+  ["dropId"]= 26009,
+  ["staticId"]= 9
+},
+[10] = {
+  ["dropId"]= 26010,
+  ["staticId"]= 10
+},
+[11] = {
+  ["dropId"]= 26011,
+  ["staticId"]= 11
+},
+[12] = {
+  ["dropId"]= 26012,
+  ["staticId"]= 12
+},
+[13] = {
+  ["dropId"]= 26013,
+  ["staticId"]= 13
+},
+[14] = {
+  ["dropId"]= 26014,
+  ["staticId"]= 14
+},
+[15] = {
+  ["dropId"]= 26015,
+  ["staticId"]= 15
+},
+[16] = {
+  ["dropId"]= 26016,
+  ["staticId"]= 16
+},
+[17] = {
+  ["dropId"]= 26017,
+  ["staticId"]= 17
+},
+[18] = {
+  ["dropId"]= 26018,
+  ["staticId"]= 18
+},
+[19] = {
+  ["dropId"]= 26019,
+  ["staticId"]= 19
+},
+[20] = {
+  ["dropId"]= 26020,
+  ["staticId"]= 20
+},
+[21] = {
+  ["dropId"]= 26021,
+  ["staticId"]= 21
+},
+[22] = {
+  ["dropId"]= 26022,
+  ["staticId"]= 22
+},
+[23] = {
+  ["dropId"]= 26023,
+  ["staticId"]= 23
+},
+[24] = {
+  ["dropId"]= 26024,
+  ["staticId"]= 24
+},
+[25] = {
+  ["dropId"]= 26025,
+  ["staticId"]= 25
+},
+[26] = {
+  ["dropId"]= 26026,
+  ["staticId"]= 26
+},
+[27] = {
+  ["dropId"]= 26027,
+  ["staticId"]= 27
+},
+[28] = {
+  ["dropId"]= 26028,
+  ["staticId"]= 28
+},
+[29] = {
+  ["dropId"]= 26029,
+  ["staticId"]= 29
+},
+[30] = {
+  ["dropId"]= 26030,
+  ["staticId"]= 30
+}
+}
+local baseTable={
+  ["dropId"]= 26001,
+  ["staticId"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

@@ -1,0 +1,2517 @@
+TextAsset Base
+	string m_Name = "data_Adventure_AdventureQuest"
+	string m_Script = "local table= {
+[102] = {
+  ["Group"]= 1001,
+  ["icon"]= "Btn_Achievement_Up",
+  ["Name"]= "SystemQuestName_1_1",
+  ["NextQuest"]= 103,
+  ["TargetType"]= 29,
+  ["TaskDesc"]= "SystemQuestDes_1",
+  ["Times"]= 20,
+  ["Title"]= 1001
+},
+[103] = {
+  ["Group"]= 1001,
+  ["icon"]= "Btn_Achievement_Up",
+  ["id"]= 103,
+  ["Name"]= "SystemQuestName_1_2",
+  ["NextQuest"]= 104,
+  ["TargetType"]= 29,
+  ["TaskDesc"]= "SystemQuestDes_1",
+  ["Times"]= 30
+},
+[104] = {
+  ["Group"]= 1001,
+  ["icon"]= "Btn_Achievement_Up",
+  ["id"]= 104,
+  ["Name"]= "SystemQuestName_1_3",
+  ["NextQuest"]= 105,
+  ["TargetType"]= 29,
+  ["TaskDesc"]= "SystemQuestDes_1",
+  ["Times"]= 40
+},
+[105] = {
+  ["Drop"]= 10903002,
+  ["Group"]= 1001,
+  ["icon"]= "Btn_Achievement_Up",
+  ["id"]= 105,
+  ["Name"]= "SystemQuestName_1_4",
+  ["NextQuest"]= 106,
+  ["TargetType"]= 29,
+  ["TaskDesc"]= "SystemQuestDes_1",
+  ["Times"]= 50
+},
+[106] = {
+  ["Drop"]= 10903007,
+  ["Group"]= 1001,
+  ["icon"]= "Btn_Achievement_Up",
+  ["id"]= 106,
+  ["Name"]= "SystemQuestName_1_5",
+  ["NextQuest"]= 107,
+  ["TargetType"]= 29,
+  ["TaskDesc"]= "SystemQuestDes_1",
+  ["Times"]= 60
+},
+[107] = {
+  ["Drop"]= 10903015,
+  ["Group"]= 1001,
+  ["icon"]= "Btn_Achievement_Up",
+  ["id"]= 107,
+  ["Name"]= "SystemQuestName_1_6",
+  ["NextQuest"]= 108,
+  ["TargetType"]= 29,
+  ["TaskDesc"]= "SystemQuestDes_1",
+  ["Times"]= 70
+},
+[108] = {
+  ["Group"]= 1001,
+  ["icon"]= "Btn_Achievement_Up",
+  ["id"]= 108,
+  ["Name"]= "SystemQuestName_1_7",
+  ["TargetType"]= 29,
+  ["TaskDesc"]= "SystemQuestDes_1",
+  ["Times"]= 80
+},
+[201] = {
+  ["Drop"]= 10902009,
+  ["Group"]= 1002,
+  ["icon"]= "Btn_Achievement_Up",
+  ["id"]= 201,
+  ["Name"]= "SystemQuestName_2_1",
+  ["NextQuest"]= 202,
+  ["TargetParameter"]= {
+    1
+  },
+  ["TargetType"]= 4,
+  ["TaskDesc"]= "SystemQuestDes_2_1",
+  ["Title"]= 1002
+},
+[202] = {
+  ["Group"]= 1002,
+  ["icon"]= "Btn_Achievement_Up",
+  ["id"]= 202,
+  ["Name"]= "SystemQuestName_2_2",
+  ["NextQuest"]= 203,
+  ["TargetParameter"]= {
+    2
+  },
+  ["TargetType"]= 4,
+  ["TaskDesc"]= "SystemQuestDes_2_2",
+  ["Title"]= 1003
+},
+[203] = {
+  ["Group"]= 1002,
+  ["icon"]= "Btn_Achievement_Up",
+  ["id"]= 203,
+  ["Name"]= "SystemQuestName_2_3",
+  ["TargetParameter"]= {
+    3
+  },
+  ["TargetType"]= 4,
+  ["TaskDesc"]= "SystemQuestDes_2_3",
+  ["Title"]= 1004
+},
+[301] = {
+  ["Group"]= 1003,
+  ["icon"]= "btn_KVM_N",
+  ["id"]= 301,
+  ["Name"]= "SystemQuestName_3_1",
+  ["NextQuest"]= 302,
+  ["TargetType"]= 41,
+  ["TaskDesc"]= "SystemQuestDes_3",
+  ["Times"]= 10000
+},
+[302] = {
+  ["Group"]= 1003,
+  ["icon"]= "btn_KVM_N",
+  ["id"]= 302,
+  ["Name"]= "SystemQuestName_3_2",
+  ["NextQuest"]= 303,
+  ["TargetType"]= 41,
+  ["TaskDesc"]= "SystemQuestDes_3",
+  ["Times"]= 50000
+},
+[303] = {
+  ["Group"]= 1003,
+  ["icon"]= "btn_KVM_N",
+  ["id"]= 303,
+  ["Name"]= "SystemQuestName_3_3",
+  ["NextQuest"]= 304,
+  ["TargetType"]= 41,
+  ["TaskDesc"]= "SystemQuestDes_3",
+  ["Times"]= 250000
+},
+[304] = {
+  ["Group"]= 1003,
+  ["icon"]= "btn_KVM_N",
+  ["id"]= 304,
+  ["Name"]= "SystemQuestName_3_4",
+  ["NextQuest"]= 305,
+  ["TargetType"]= 41,
+  ["TaskDesc"]= "SystemQuestDes_3",
+  ["Times"]= 500000
+},
+[305] = {
+  ["Drop"]= 10902006,
+  ["Group"]= 1003,
+  ["icon"]= "btn_KVM_N",
+  ["id"]= 305,
+  ["Name"]= "SystemQuestName_3_5",
+  ["NextQuest"]= 306,
+  ["TargetType"]= 41,
+  ["TaskDesc"]= "SystemQuestDes_3",
+  ["Times"]= 1500000,
+  ["Title"]= 1005
+},
+[306] = {
+  ["Group"]= 1003,
+  ["icon"]= "btn_KVM_N",
+  ["id"]= 306,
+  ["Name"]= "SystemQuestName_3_6",
+  ["NextQuest"]= 307,
+  ["TargetType"]= 41,
+  ["TaskDesc"]= "SystemQuestDes_3",
+  ["Times"]= 2500000
+},
+[307] = {
+  ["Group"]= 1003,
+  ["icon"]= "btn_KVM_N",
+  ["id"]= 307,
+  ["Name"]= "SystemQuestName_3_7",
+  ["TargetType"]= 41,
+  ["TaskDesc"]= "SystemQuestDes_3",
+  ["Times"]= 5000000,
+  ["Title"]= 1037
+},
+[401] = {
+  ["Group"]= 1004,
+  ["icon"]= "btn_KVM_N",
+  ["id"]= 401,
+  ["Name"]= "SystemQuestName_4_1",
+  ["NextQuest"]= 402,
+  ["TargetType"]= 42,
+  ["TaskDesc"]= "SystemQuestDes_4",
+  ["Times"]= 3
+},
+[402] = {
+  ["Group"]= 1004,
+  ["icon"]= "btn_KVM_N",
+  ["id"]= 402,
+  ["Name"]= "SystemQuestName_4_2",
+  ["NextQuest"]= 403,
+  ["TargetType"]= 42,
+  ["TaskDesc"]= "SystemQuestDes_4",
+  ["Times"]= 9
+},
+[403] = {
+  ["Group"]= 1004,
+  ["icon"]= "btn_KVM_N",
+  ["id"]= 403,
+  ["Name"]= "SystemQuestName_4_3",
+  ["NextQuest"]= 404,
+  ["TargetType"]= 42,
+  ["TaskDesc"]= "SystemQuestDes_4",
+  ["Times"]= 15
+},
+[404] = {
+  ["Group"]= 1004,
+  ["icon"]= "btn_KVM_N",
+  ["id"]= 404,
+  ["Name"]= "SystemQuestName_4_4",
+  ["NextQuest"]= 405,
+  ["TargetType"]= 42,
+  ["TaskDesc"]= "SystemQuestDes_4",
+  ["Times"]= 30
+},
+[405] = {
+  ["Group"]= 1004,
+  ["icon"]= "btn_KVM_N",
+  ["id"]= 405,
+  ["Name"]= "SystemQuestName_4_5",
+  ["NextQuest"]= 406,
+  ["TargetType"]= 42,
+  ["TaskDesc"]= "SystemQuestDes_4",
+  ["Times"]= 90,
+  ["Title"]= 1006
+},
+[406] = {
+  ["Group"]= 1004,
+  ["icon"]= "btn_KVM_N",
+  ["id"]= 406,
+  ["Name"]= "SystemQuestName_4_6",
+  ["NextQuest"]= 407,
+  ["TargetType"]= 42,
+  ["TaskDesc"]= "SystemQuestDes_4",
+  ["Times"]= 150
+},
+[407] = {
+  ["Group"]= 1004,
+  ["icon"]= "btn_KVM_N",
+  ["id"]= 407,
+  ["Name"]= "SystemQuestName_4_7",
+  ["TargetType"]= 42,
+  ["TaskDesc"]= "SystemQuestDes_4",
+  ["Times"]= 300,
+  ["Title"]= 1038
+},
+[501] = {
+  ["Group"]= 1005,
+  ["icon"]= "btn_KVM_N",
+  ["id"]= 501,
+  ["Name"]= "SystemQuestName_5_1",
+  ["NextQuest"]= 502,
+  ["TargetType"]= 16,
+  ["TaskDesc"]= "SystemQuestDes_5",
+  ["Times"]= 3
+},
+[502] = {
+  ["Group"]= 1005,
+  ["icon"]= "btn_KVM_N",
+  ["id"]= 502,
+  ["Name"]= "SystemQuestName_5_2",
+  ["NextQuest"]= 503,
+  ["TargetType"]= 16,
+  ["TaskDesc"]= "SystemQuestDes_5",
+  ["Times"]= 9
+},
+[503] = {
+  ["Group"]= 1005,
+  ["icon"]= "btn_KVM_N",
+  ["id"]= 503,
+  ["Name"]= "SystemQuestName_5_3",
+  ["NextQuest"]= 504,
+  ["TargetType"]= 16,
+  ["TaskDesc"]= "SystemQuestDes_5",
+  ["Times"]= 15
+},
+[504] = {
+  ["Group"]= 1005,
+  ["icon"]= "btn_KVM_N",
+  ["id"]= 504,
+  ["Name"]= "SystemQuestName_5_4",
+  ["NextQuest"]= 505,
+  ["TargetType"]= 16,
+  ["TaskDesc"]= "SystemQuestDes_5",
+  ["Times"]= 30
+},
+[505] = {
+  ["Drop"]= 10902001,
+  ["Group"]= 1005,
+  ["icon"]= "btn_KVM_N",
+  ["id"]= 505,
+  ["Name"]= "SystemQuestName_5_5",
+  ["NextQuest"]= 506,
+  ["TargetType"]= 16,
+  ["TaskDesc"]= "SystemQuestDes_5",
+  ["Times"]= 90,
+  ["Title"]= 1007
+},
+[506] = {
+  ["Group"]= 1005,
+  ["icon"]= "btn_KVM_N",
+  ["id"]= 506,
+  ["Name"]= "SystemQuestName_5_6",
+  ["NextQuest"]= 507,
+  ["TargetType"]= 16,
+  ["TaskDesc"]= "SystemQuestDes_5",
+  ["Times"]= 150
+},
+[507] = {
+  ["Group"]= 1005,
+  ["icon"]= "btn_KVM_N",
+  ["id"]= 507,
+  ["Name"]= "SystemQuestName_5_7",
+  ["TargetType"]= 16,
+  ["TaskDesc"]= "SystemQuestDes_5",
+  ["Times"]= 300,
+  ["Title"]= 1039
+},
+[801] = {
+  ["Group"]= 1008,
+  ["icon"]= "Btn_Equipe_N4",
+  ["id"]= 801,
+  ["Name"]= "SystemQuestName_8_1",
+  ["NextQuest"]= 802,
+  ["TargetType"]= 52,
+  ["TaskDesc"]= "SystemQuestDes_8"
+},
+[802] = {
+  ["Group"]= 1008,
+  ["icon"]= "Btn_Equipe_N4",
+  ["id"]= 802,
+  ["Name"]= "SystemQuestName_8_2",
+  ["NextQuest"]= 803,
+  ["TargetType"]= 52,
+  ["TaskDesc"]= "SystemQuestDes_8",
+  ["Times"]= 3
+},
+[803] = {
+  ["Group"]= 1008,
+  ["icon"]= "Btn_Equipe_N4",
+  ["id"]= 803,
+  ["Name"]= "SystemQuestName_8_3",
+  ["NextQuest"]= 804,
+  ["TargetType"]= 52,
+  ["TaskDesc"]= "SystemQuestDes_8",
+  ["Times"]= 5
+},
+[804] = {
+  ["Group"]= 1008,
+  ["icon"]= "Btn_Equipe_N4",
+  ["id"]= 804,
+  ["Name"]= "SystemQuestName_8_4",
+  ["NextQuest"]= 805,
+  ["TargetType"]= 52,
+  ["TaskDesc"]= "SystemQuestDes_8",
+  ["Times"]= 10
+},
+[805] = {
+  ["Group"]= 1008,
+  ["icon"]= "Btn_Equipe_N4",
+  ["id"]= 805,
+  ["Name"]= "SystemQuestName_8_5",
+  ["NextQuest"]= 806,
+  ["TargetType"]= 52,
+  ["TaskDesc"]= "SystemQuestDes_8",
+  ["Times"]= 30,
+  ["Title"]= 1010
+},
+[806] = {
+  ["Group"]= 1008,
+  ["icon"]= "Btn_Equipe_N4",
+  ["id"]= 806,
+  ["Name"]= "SystemQuestName_8_6",
+  ["NextQuest"]= 807,
+  ["TargetType"]= 52,
+  ["TaskDesc"]= "SystemQuestDes_8",
+  ["Times"]= 50
+},
+[807] = {
+  ["Group"]= 1008,
+  ["icon"]= "Btn_Equipe_N4",
+  ["id"]= 807,
+  ["Name"]= "SystemQuestName_8_7",
+  ["TargetType"]= 52,
+  ["TaskDesc"]= "SystemQuestDes_8",
+  ["Times"]= 100,
+  ["Title"]= 1025
+},
+[901] = {
+  ["Group"]= 1009,
+  ["icon"]= "Btn_Equipe_N4",
+  ["id"]= 901,
+  ["Name"]= "SystemQuestName_9_1",
+  ["NextQuest"]= 902,
+  ["TargetType"]= 44,
+  ["TaskDesc"]= "SystemQuestDes_9",
+  ["Times"]= 3
+},
+[902] = {
+  ["Group"]= 1009,
+  ["icon"]= "Btn_Equipe_N4",
+  ["id"]= 902,
+  ["Name"]= "SystemQuestName_9_2",
+  ["NextQuest"]= 903,
+  ["TargetType"]= 44,
+  ["TaskDesc"]= "SystemQuestDes_9",
+  ["Times"]= 5
+},
+[903] = {
+  ["Group"]= 1009,
+  ["icon"]= "Btn_Equipe_N4",
+  ["id"]= 903,
+  ["Name"]= "SystemQuestName_9_3",
+  ["NextQuest"]= 904,
+  ["TargetType"]= 44,
+  ["TaskDesc"]= "SystemQuestDes_9",
+  ["Times"]= 8
+},
+[904] = {
+  ["Group"]= 1009,
+  ["icon"]= "Btn_Equipe_N4",
+  ["id"]= 904,
+  ["Name"]= "SystemQuestName_9_4",
+  ["NextQuest"]= 905,
+  ["TargetType"]= 44,
+  ["TaskDesc"]= "SystemQuestDes_9",
+  ["Times"]= 10
+},
+[905] = {
+  ["Group"]= 1009,
+  ["icon"]= "Btn_Equipe_N4",
+  ["id"]= 905,
+  ["Name"]= "SystemQuestName_9_5",
+  ["NextQuest"]= 906,
+  ["TargetType"]= 44,
+  ["TaskDesc"]= "SystemQuestDes_9",
+  ["Times"]= 15,
+  ["Title"]= 1011
+},
+[906] = {
+  ["Group"]= 1009,
+  ["icon"]= "Btn_Equipe_N4",
+  ["id"]= 906,
+  ["Name"]= "SystemQuestName_9_6",
+  ["NextQuest"]= 907,
+  ["TargetType"]= 44,
+  ["TaskDesc"]= "SystemQuestDes_9",
+  ["Times"]= 20
+},
+[907] = {
+  ["Group"]= 1009,
+  ["icon"]= "Btn_Equipe_N4",
+  ["id"]= 907,
+  ["Name"]= "SystemQuestName_9_7",
+  ["TargetType"]= 44,
+  ["TaskDesc"]= "SystemQuestDes_9",
+  ["Times"]= 25,
+  ["Title"]= 1026
+},
+[1001] = {
+  ["Group"]= 1010,
+  ["icon"]= "Btn_Equipe_N4",
+  ["id"]= 1001,
+  ["Name"]= "SystemQuestName_10_1",
+  ["NextQuest"]= 1002,
+  ["TargetType"]= 45,
+  ["TaskDesc"]= "SystemQuestDes_10"
+},
+[1002] = {
+  ["Group"]= 1010,
+  ["icon"]= "Btn_Equipe_N4",
+  ["id"]= 1002,
+  ["Name"]= "SystemQuestName_10_2",
+  ["NextQuest"]= 1003,
+  ["TargetType"]= 45,
+  ["TaskDesc"]= "SystemQuestDes_10",
+  ["Times"]= 30
+},
+[1003] = {
+  ["Group"]= 1010,
+  ["icon"]= "Btn_Equipe_N4",
+  ["id"]= 1003,
+  ["Name"]= "SystemQuestName_10_3",
+  ["NextQuest"]= 1004,
+  ["TargetType"]= 45,
+  ["TaskDesc"]= "SystemQuestDes_10",
+  ["Times"]= 50
+},
+[1004] = {
+  ["Group"]= 1010,
+  ["icon"]= "Btn_Equipe_N4",
+  ["id"]= 1004,
+  ["Name"]= "SystemQuestName_10_4",
+  ["NextQuest"]= 1005,
+  ["TargetType"]= 45,
+  ["TaskDesc"]= "SystemQuestDes_10",
+  ["Times"]= 100
+},
+[1005] = {
+  ["Group"]= 1010,
+  ["icon"]= "Btn_Equipe_N4",
+  ["id"]= 1005,
+  ["Name"]= "SystemQuestName_10_5",
+  ["NextQuest"]= 1006,
+  ["TargetType"]= 45,
+  ["TaskDesc"]= "SystemQuestDes_10",
+  ["Times"]= 300,
+  ["Title"]= 1012
+},
+[1006] = {
+  ["Group"]= 1010,
+  ["icon"]= "Btn_Equipe_N4",
+  ["id"]= 1006,
+  ["Name"]= "SystemQuestName_10_6",
+  ["NextQuest"]= 1007,
+  ["TargetType"]= 45,
+  ["TaskDesc"]= "SystemQuestDes_10",
+  ["Times"]= 500
+},
+[1007] = {
+  ["Drop"]= 10902007,
+  ["Group"]= 1010,
+  ["icon"]= "Btn_Equipe_N4",
+  ["id"]= 1007,
+  ["Name"]= "SystemQuestName_10_7",
+  ["TargetType"]= 45,
+  ["TaskDesc"]= "SystemQuestDes_10",
+  ["Times"]= 1000,
+  ["Title"]= 1027
+},
+[1101] = {
+  ["Group"]= 1011,
+  ["icon"]= "Btn_Equipe_N4",
+  ["id"]= 1101,
+  ["Name"]= "SystemQuestName_11_1",
+  ["NextQuest"]= 1102,
+  ["TargetType"]= 10,
+  ["TaskDesc"]= "SystemQuestDes_11",
+  ["Times"]= 2
+},
+[1102] = {
+  ["Group"]= 1011,
+  ["icon"]= "Btn_Equipe_N4",
+  ["id"]= 1102,
+  ["Name"]= "SystemQuestName_11_2",
+  ["NextQuest"]= 1103,
+  ["TargetType"]= 10,
+  ["TaskDesc"]= "SystemQuestDes_11",
+  ["Times"]= 6
+},
+[1103] = {
+  ["Group"]= 1011,
+  ["icon"]= "Btn_Equipe_N4",
+  ["id"]= 1103,
+  ["Name"]= "SystemQuestName_11_3",
+  ["NextQuest"]= 1104,
+  ["TargetType"]= 10,
+  ["TaskDesc"]= "SystemQuestDes_11",
+  ["Times"]= 10
+},
+[1104] = {
+  ["Group"]= 1011,
+  ["icon"]= "Btn_Equipe_N4",
+  ["id"]= 1104,
+  ["Name"]= "SystemQuestName_11_4",
+  ["NextQuest"]= 1105,
+  ["TargetType"]= 10,
+  ["TaskDesc"]= "SystemQuestDes_11",
+  ["Times"]= 20
+},
+[1105] = {
+  ["Group"]= 1011,
+  ["icon"]= "Btn_Equipe_N4",
+  ["id"]= 1105,
+  ["Name"]= "SystemQuestName_11_5",
+  ["NextQuest"]= 1106,
+  ["TargetType"]= 10,
+  ["TaskDesc"]= "SystemQuestDes_11",
+  ["Times"]= 60
+},
+[1106] = {
+  ["Group"]= 1011,
+  ["icon"]= "Btn_Equipe_N4",
+  ["id"]= 1106,
+  ["Name"]= "SystemQuestName_11_6",
+  ["NextQuest"]= 1107,
+  ["TargetType"]= 10,
+  ["TaskDesc"]= "SystemQuestDes_11",
+  ["Times"]= 100
+},
+[1107] = {
+  ["Group"]= 1011,
+  ["icon"]= "Btn_Equipe_N4",
+  ["id"]= 1107,
+  ["Name"]= "SystemQuestName_11_7",
+  ["TargetType"]= 10,
+  ["TaskDesc"]= "SystemQuestDes_11",
+  ["Times"]= 200
+},
+[1201] = {
+  ["Group"]= 1012,
+  ["icon"]= "Btn_Equipe_N4",
+  ["id"]= 1201,
+  ["Name"]= "SystemQuestName_12_1",
+  ["NextQuest"]= 1202,
+  ["TargetType"]= 6,
+  ["TaskDesc"]= "SystemQuestDes_12"
+},
+[1202] = {
+  ["Group"]= 1012,
+  ["icon"]= "Btn_Equipe_N4",
+  ["id"]= 1202,
+  ["Name"]= "SystemQuestName_12_2",
+  ["NextQuest"]= 1203,
+  ["TargetType"]= 6,
+  ["TaskDesc"]= "SystemQuestDes_12",
+  ["Times"]= 2
+},
+[1203] = {
+  ["Group"]= 1012,
+  ["icon"]= "Btn_Equipe_N4",
+  ["id"]= 1203,
+  ["Name"]= "SystemQuestName_12_3",
+  ["NextQuest"]= 1204,
+  ["TargetType"]= 6,
+  ["TaskDesc"]= "SystemQuestDes_12",
+  ["Times"]= 3
+},
+[1204] = {
+  ["Group"]= 1012,
+  ["icon"]= "Btn_Equipe_N4",
+  ["id"]= 1204,
+  ["Name"]= "SystemQuestName_12_4",
+  ["NextQuest"]= 1205,
+  ["TargetType"]= 6,
+  ["TaskDesc"]= "SystemQuestDes_12",
+  ["Times"]= 5
+},
+[1205] = {
+  ["Group"]= 1012,
+  ["icon"]= "Btn_Equipe_N4",
+  ["id"]= 1205,
+  ["Name"]= "SystemQuestName_12_5",
+  ["NextQuest"]= 1206,
+  ["TargetType"]= 6,
+  ["TaskDesc"]= "SystemQuestDes_12",
+  ["Times"]= 10,
+  ["Title"]= 1013
+},
+[1206] = {
+  ["Group"]= 1012,
+  ["icon"]= "Btn_Equipe_N4",
+  ["id"]= 1206,
+  ["Name"]= "SystemQuestName_12_6",
+  ["NextQuest"]= 1207,
+  ["TargetType"]= 6,
+  ["TaskDesc"]= "SystemQuestDes_12",
+  ["Times"]= 15
+},
+[1207] = {
+  ["Drop"]= 10902018,
+  ["Group"]= 1012,
+  ["icon"]= "Btn_Equipe_N4",
+  ["id"]= 1207,
+  ["Name"]= "SystemQuestName_12_7",
+  ["TargetType"]= 6,
+  ["TaskDesc"]= "SystemQuestDes_12",
+  ["Times"]= 20,
+  ["Title"]= 1028
+},
+[1301] = {
+  ["Group"]= 1013,
+  ["icon"]= "btn_Equipe_N1",
+  ["id"]= 1301,
+  ["Name"]= "SystemQuestName_13_1",
+  ["NextQuest"]= 1302,
+  ["TargetType"]= 23,
+  ["TaskDesc"]= "SystemQuestDes_13",
+  ["Times"]= 2
+},
+[1302] = {
+  ["Group"]= 1013,
+  ["icon"]= "btn_Equipe_N1",
+  ["id"]= 1302,
+  ["Name"]= "SystemQuestName_13_2",
+  ["NextQuest"]= 1303,
+  ["TargetType"]= 23,
+  ["TaskDesc"]= "SystemQuestDes_13",
+  ["Times"]= 6
+},
+[1303] = {
+  ["Group"]= 1013,
+  ["icon"]= "btn_Equipe_N1",
+  ["id"]= 1303,
+  ["Name"]= "SystemQuestName_13_3",
+  ["NextQuest"]= 1304,
+  ["TargetType"]= 23,
+  ["TaskDesc"]= "SystemQuestDes_13",
+  ["Times"]= 50
+},
+[1304] = {
+  ["Group"]= 1013,
+  ["icon"]= "btn_Equipe_N1",
+  ["id"]= 1304,
+  ["Name"]= "SystemQuestName_13_4",
+  ["NextQuest"]= 1305,
+  ["TargetType"]= 23,
+  ["TaskDesc"]= "SystemQuestDes_13",
+  ["Times"]= 100
+},
+[1305] = {
+  ["Group"]= 1013,
+  ["icon"]= "btn_Equipe_N1",
+  ["id"]= 1305,
+  ["Name"]= "SystemQuestName_13_5",
+  ["NextQuest"]= 1306,
+  ["TargetType"]= 23,
+  ["TaskDesc"]= "SystemQuestDes_13",
+  ["Times"]= 300
+},
+[1306] = {
+  ["Group"]= 1013,
+  ["icon"]= "btn_Equipe_N1",
+  ["id"]= 1306,
+  ["Name"]= "SystemQuestName_13_6",
+  ["NextQuest"]= 1307,
+  ["TargetType"]= 23,
+  ["TaskDesc"]= "SystemQuestDes_13",
+  ["Times"]= 500,
+  ["Title"]= 1020
+},
+[1307] = {
+  ["Group"]= 1013,
+  ["icon"]= "btn_Equipe_N1",
+  ["id"]= 1307,
+  ["Name"]= "SystemQuestName_13_7",
+  ["TargetType"]= 23,
+  ["TaskDesc"]= "SystemQuestDes_13",
+  ["Times"]= 1000,
+  ["Title"]= 1042
+},
+[1401] = {
+  ["Group"]= 1014,
+  ["icon"]= "btn_Equipe_N1",
+  ["id"]= 1401,
+  ["Name"]= "SystemQuestName_14_1",
+  ["NextQuest"]= 1402,
+  ["TargetType"]= 25,
+  ["TaskDesc"]= "SystemQuestDes_14",
+  ["Times"]= 2
+},
+[1402] = {
+  ["Group"]= 1014,
+  ["icon"]= "btn_Equipe_N1",
+  ["id"]= 1402,
+  ["Name"]= "SystemQuestName_14_2",
+  ["NextQuest"]= 1403,
+  ["TargetType"]= 25,
+  ["TaskDesc"]= "SystemQuestDes_14",
+  ["Times"]= 6
+},
+[1403] = {
+  ["Group"]= 1014,
+  ["icon"]= "btn_Equipe_N1",
+  ["id"]= 1403,
+  ["Name"]= "SystemQuestName_14_3",
+  ["NextQuest"]= 1404,
+  ["TargetType"]= 25,
+  ["TaskDesc"]= "SystemQuestDes_14",
+  ["Times"]= 50
+},
+[1404] = {
+  ["Group"]= 1014,
+  ["icon"]= "btn_Equipe_N1",
+  ["id"]= 1404,
+  ["Name"]= "SystemQuestName_14_4",
+  ["NextQuest"]= 1405,
+  ["TargetType"]= 25,
+  ["TaskDesc"]= "SystemQuestDes_14",
+  ["Times"]= 100
+},
+[1405] = {
+  ["Group"]= 1014,
+  ["icon"]= "btn_Equipe_N1",
+  ["id"]= 1405,
+  ["Name"]= "SystemQuestName_14_5",
+  ["NextQuest"]= 1406,
+  ["TargetType"]= 25,
+  ["TaskDesc"]= "SystemQuestDes_14",
+  ["Times"]= 300
+},
+[1406] = {
+  ["Group"]= 1014,
+  ["icon"]= "btn_Equipe_N1",
+  ["id"]= 1406,
+  ["Name"]= "SystemQuestName_14_6",
+  ["NextQuest"]= 1407,
+  ["TargetType"]= 25,
+  ["TaskDesc"]= "SystemQuestDes_14",
+  ["Times"]= 500,
+  ["Title"]= 1021
+},
+[1407] = {
+  ["Group"]= 1014,
+  ["icon"]= "btn_Equipe_N1",
+  ["id"]= 1407,
+  ["Name"]= "SystemQuestName_14_7",
+  ["TargetType"]= 25,
+  ["TaskDesc"]= "SystemQuestDes_14",
+  ["Times"]= 1000,
+  ["Title"]= 1043
+},
+[1501] = {
+  ["Group"]= 1015,
+  ["icon"]= "btn_Equipe_N1",
+  ["id"]= 1501,
+  ["Name"]= "SystemQuestName_15_1",
+  ["NextQuest"]= 1502,
+  ["TargetType"]= 27,
+  ["TaskDesc"]= "SystemQuestDes_15",
+  ["Times"]= 2
+},
+[1502] = {
+  ["Group"]= 1015,
+  ["icon"]= "btn_Equipe_N1",
+  ["id"]= 1502,
+  ["Name"]= "SystemQuestName_15_2",
+  ["NextQuest"]= 1503,
+  ["TargetType"]= 27,
+  ["TaskDesc"]= "SystemQuestDes_15",
+  ["Times"]= 6
+},
+[1503] = {
+  ["Group"]= 1015,
+  ["icon"]= "btn_Equipe_N1",
+  ["id"]= 1503,
+  ["Name"]= "SystemQuestName_15_3",
+  ["NextQuest"]= 1504,
+  ["TargetType"]= 27,
+  ["TaskDesc"]= "SystemQuestDes_15",
+  ["Times"]= 50
+},
+[1504] = {
+  ["Group"]= 1015,
+  ["icon"]= "btn_Equipe_N1",
+  ["id"]= 1504,
+  ["Name"]= "SystemQuestName_15_4",
+  ["NextQuest"]= 1505,
+  ["TargetType"]= 27,
+  ["TaskDesc"]= "SystemQuestDes_15",
+  ["Times"]= 100
+},
+[1505] = {
+  ["Group"]= 1015,
+  ["icon"]= "btn_Equipe_N1",
+  ["id"]= 1505,
+  ["Name"]= "SystemQuestName_15_5",
+  ["NextQuest"]= 1506,
+  ["TargetType"]= 27,
+  ["TaskDesc"]= "SystemQuestDes_15",
+  ["Times"]= 300
+},
+[1506] = {
+  ["Group"]= 1015,
+  ["icon"]= "btn_Equipe_N1",
+  ["id"]= 1506,
+  ["Name"]= "SystemQuestName_15_6",
+  ["NextQuest"]= 1507,
+  ["TargetType"]= 27,
+  ["TaskDesc"]= "SystemQuestDes_15",
+  ["Times"]= 500,
+  ["Title"]= 1022
+},
+[1507] = {
+  ["Group"]= 1015,
+  ["icon"]= "btn_Equipe_N1",
+  ["id"]= 1507,
+  ["Name"]= "SystemQuestName_15_7",
+  ["TargetType"]= 27,
+  ["TaskDesc"]= "SystemQuestDes_15",
+  ["Times"]= 1000,
+  ["Title"]= 1044
+},
+[1601] = {
+  ["Group"]= 1016,
+  ["icon"]= "btn_Equipe_N1",
+  ["id"]= 1601,
+  ["Name"]= "SystemQuestName_16_1",
+  ["NextQuest"]= 1602,
+  ["TargetType"]= 47,
+  ["TaskDesc"]= "SystemQuestDes_16"
+},
+[1602] = {
+  ["Group"]= 1016,
+  ["icon"]= "btn_Equipe_N1",
+  ["id"]= 1602,
+  ["Name"]= "SystemQuestName_16_2",
+  ["NextQuest"]= 1603,
+  ["TargetType"]= 47,
+  ["TaskDesc"]= "SystemQuestDes_16",
+  ["Times"]= 3
+},
+[1603] = {
+  ["Group"]= 1016,
+  ["icon"]= "btn_Equipe_N1",
+  ["id"]= 1603,
+  ["Name"]= "SystemQuestName_16_3",
+  ["NextQuest"]= 1604,
+  ["TargetType"]= 47,
+  ["TaskDesc"]= "SystemQuestDes_16",
+  ["Times"]= 15
+},
+[1604] = {
+  ["Group"]= 1016,
+  ["icon"]= "btn_Equipe_N1",
+  ["id"]= 1604,
+  ["Name"]= "SystemQuestName_16_4",
+  ["NextQuest"]= 1605,
+  ["TargetType"]= 47,
+  ["TaskDesc"]= "SystemQuestDes_16",
+  ["Times"]= 30
+},
+[1605] = {
+  ["Group"]= 1016,
+  ["icon"]= "btn_Equipe_N1",
+  ["id"]= 1605,
+  ["Name"]= "SystemQuestName_16_5",
+  ["NextQuest"]= 1606,
+  ["TargetType"]= 47,
+  ["TaskDesc"]= "SystemQuestDes_16",
+  ["Times"]= 45
+},
+[1606] = {
+  ["Group"]= 1016,
+  ["icon"]= "btn_Equipe_N1",
+  ["id"]= 1606,
+  ["Name"]= "SystemQuestName_16_6",
+  ["NextQuest"]= 1607,
+  ["TargetType"]= 47,
+  ["TaskDesc"]= "SystemQuestDes_16",
+  ["Times"]= 60,
+  ["Title"]= 1023
+},
+[1607] = {
+  ["Group"]= 1016,
+  ["icon"]= "btn_Equipe_N1",
+  ["id"]= 1607,
+  ["Name"]= "SystemQuestName_16_7",
+  ["TargetType"]= 47,
+  ["TaskDesc"]= "SystemQuestDes_16",
+  ["Times"]= 80,
+  ["Title"]= 1045
+},
+[1701] = {
+  ["Group"]= 1017,
+  ["icon"]= "btn_Equipe_N1",
+  ["id"]= 1701,
+  ["Name"]= "SystemQuestName_17_1",
+  ["NextQuest"]= 1702,
+  ["TargetParameter"]= {
+    602
+  },
+  ["TargetType"]= 48,
+  ["TaskDesc"]= "SystemQuestDes_17"
+},
+[1702] = {
+  ["Group"]= 1017,
+  ["icon"]= "btn_Equipe_N1",
+  ["id"]= 1702,
+  ["Name"]= "SystemQuestName_17_2",
+  ["NextQuest"]= 1703,
+  ["TargetParameter"]= {
+    602
+  },
+  ["TargetType"]= 48,
+  ["TaskDesc"]= "SystemQuestDes_17",
+  ["Times"]= 3
+},
+[1703] = {
+  ["Group"]= 1017,
+  ["icon"]= "btn_Equipe_N1",
+  ["id"]= 1703,
+  ["Name"]= "SystemQuestName_17_3",
+  ["NextQuest"]= 1704,
+  ["TargetParameter"]= {
+    602
+  },
+  ["TargetType"]= 48,
+  ["TaskDesc"]= "SystemQuestDes_17",
+  ["Times"]= 5
+},
+[1704] = {
+  ["Group"]= 1017,
+  ["icon"]= "btn_Equipe_N1",
+  ["id"]= 1704,
+  ["Name"]= "SystemQuestName_17_4",
+  ["NextQuest"]= 1705,
+  ["TargetParameter"]= {
+    602
+  },
+  ["TargetType"]= 48,
+  ["TaskDesc"]= "SystemQuestDes_17",
+  ["Times"]= 10
+},
+[1705] = {
+  ["Group"]= 1017,
+  ["icon"]= "btn_Equipe_N1",
+  ["id"]= 1705,
+  ["Name"]= "SystemQuestName_17_5",
+  ["NextQuest"]= 1706,
+  ["TargetParameter"]= {
+    602
+  },
+  ["TargetType"]= 48,
+  ["TaskDesc"]= "SystemQuestDes_17",
+  ["Times"]= 15
+},
+[1706] = {
+  ["Group"]= 1017,
+  ["icon"]= "btn_Equipe_N1",
+  ["id"]= 1706,
+  ["Name"]= "SystemQuestName_17_6",
+  ["NextQuest"]= 1707,
+  ["TargetParameter"]= {
+    602
+  },
+  ["TargetType"]= 48,
+  ["TaskDesc"]= "SystemQuestDes_17",
+  ["Times"]= 20,
+  ["Title"]= 1024
+},
+[1707] = {
+  ["Drop"]= 10902016,
+  ["Group"]= 1017,
+  ["icon"]= "btn_Equipe_N1",
+  ["id"]= 1707,
+  ["Name"]= "SystemQuestName_17_7",
+  ["TargetParameter"]= {
+    602
+  },
+  ["TargetType"]= 48,
+  ["TaskDesc"]= "SystemQuestDes_17",
+  ["Times"]= 25,
+  ["Title"]= 1046
+},
+[1801] = {
+  ["Group"]= 1018,
+  ["icon"]= "Btn_SecondaryJob",
+  ["id"]= 1801,
+  ["Name"]= "SystemQuestName_18_1",
+  ["NextQuest"]= 1802,
+  ["TargetParameter"]= {
+    1
+  },
+  ["TargetType"]= 53,
+  ["TaskDesc"]= "SystemQuestDes_18",
+  ["Times"]= 50
+},
+[1802] = {
+  ["Group"]= 1018,
+  ["icon"]= "Btn_SecondaryJob",
+  ["id"]= 1802,
+  ["Name"]= "SystemQuestName_18_2",
+  ["NextQuest"]= 1803,
+  ["TargetParameter"]= {
+    1
+  },
+  ["TargetType"]= 53,
+  ["TaskDesc"]= "SystemQuestDes_18",
+  ["Times"]= 100
+},
+[1803] = {
+  ["Group"]= 1018,
+  ["icon"]= "Btn_SecondaryJob",
+  ["id"]= 1803,
+  ["Name"]= "SystemQuestName_18_3",
+  ["NextQuest"]= 1804,
+  ["TargetParameter"]= {
+    1
+  },
+  ["TargetType"]= 53,
+  ["TaskDesc"]= "SystemQuestDes_18",
+  ["Times"]= 500
+},
+[1804] = {
+  ["Group"]= 1018,
+  ["icon"]= "Btn_SecondaryJob",
+  ["id"]= 1804,
+  ["Name"]= "SystemQuestName_18_4",
+  ["NextQuest"]= 1805,
+  ["TargetParameter"]= {
+    1
+  },
+  ["TargetType"]= 53,
+  ["TaskDesc"]= "SystemQuestDes_18",
+  ["Times"]= 1000
+},
+[1805] = {
+  ["Group"]= 1018,
+  ["icon"]= "Btn_SecondaryJob",
+  ["id"]= 1805,
+  ["Name"]= "SystemQuestName_18_5",
+  ["NextQuest"]= 1806,
+  ["TargetParameter"]= {
+    1
+  },
+  ["TargetType"]= 53,
+  ["TaskDesc"]= "SystemQuestDes_18",
+  ["Times"]= 2000,
+  ["Title"]= 1014
+},
+[1806] = {
+  ["Group"]= 1018,
+  ["icon"]= "Btn_SecondaryJob",
+  ["id"]= 1806,
+  ["Name"]= "SystemQuestName_18_6",
+  ["NextQuest"]= 1807,
+  ["TargetParameter"]= {
+    1
+  },
+  ["TargetType"]= 53,
+  ["TaskDesc"]= "SystemQuestDes_18",
+  ["Times"]= 3000
+},
+[1807] = {
+  ["Drop"]= 10902004,
+  ["Group"]= 1018,
+  ["icon"]= "Btn_SecondaryJob",
+  ["id"]= 1807,
+  ["Name"]= "SystemQuestName_18_7",
+  ["TargetParameter"]= {
+    1
+  },
+  ["TargetType"]= 53,
+  ["TaskDesc"]= "SystemQuestDes_18",
+  ["Times"]= 4000,
+  ["Title"]= 1029
+},
+[1901] = {
+  ["Group"]= 1019,
+  ["icon"]= "Btn_SecondaryJob",
+  ["id"]= 1901,
+  ["Name"]= "SystemQuestName_19_1",
+  ["NextQuest"]= 1902,
+  ["TargetParameter"]= {
+    2
+  },
+  ["TargetType"]= 53,
+  ["TaskDesc"]= "SystemQuestDes_19",
+  ["Times"]= 500
+},
+[1902] = {
+  ["Group"]= 1019,
+  ["icon"]= "Btn_SecondaryJob",
+  ["id"]= 1902,
+  ["Name"]= "SystemQuestName_19_2",
+  ["NextQuest"]= 1903,
+  ["TargetParameter"]= {
+    2
+  },
+  ["TargetType"]= 53,
+  ["TaskDesc"]= "SystemQuestDes_19",
+  ["Times"]= 1000
+},
+[1903] = {
+  ["Group"]= 1019,
+  ["icon"]= "Btn_SecondaryJob",
+  ["id"]= 1903,
+  ["Name"]= "SystemQuestName_19_3",
+  ["NextQuest"]= 1904,
+  ["TargetParameter"]= {
+    2
+  },
+  ["TargetType"]= 53,
+  ["TaskDesc"]= "SystemQuestDes_19",
+  ["Times"]= 1500
+},
+[1904] = {
+  ["Group"]= 1019,
+  ["icon"]= "Btn_SecondaryJob",
+  ["id"]= 1904,
+  ["Name"]= "SystemQuestName_19_4",
+  ["NextQuest"]= 1905,
+  ["TargetParameter"]= {
+    2
+  },
+  ["TargetType"]= 53,
+  ["TaskDesc"]= "SystemQuestDes_19",
+  ["Times"]= 3000
+},
+[1905] = {
+  ["Group"]= 1019,
+  ["icon"]= "Btn_SecondaryJob",
+  ["id"]= 1905,
+  ["Name"]= "SystemQuestName_19_5",
+  ["NextQuest"]= 1906,
+  ["TargetParameter"]= {
+    2
+  },
+  ["TargetType"]= 53,
+  ["TaskDesc"]= "SystemQuestDes_19",
+  ["Times"]= 6000,
+  ["Title"]= 1015
+},
+[1906] = {
+  ["Group"]= 1019,
+  ["icon"]= "Btn_SecondaryJob",
+  ["id"]= 1906,
+  ["Name"]= "SystemQuestName_19_6",
+  ["NextQuest"]= 1907,
+  ["TargetParameter"]= {
+    2
+  },
+  ["TargetType"]= 53,
+  ["TaskDesc"]= "SystemQuestDes_19",
+  ["Times"]= 10000
+},
+[1907] = {
+  ["Drop"]= 10902008,
+  ["Group"]= 1019,
+  ["icon"]= "Btn_SecondaryJob",
+  ["id"]= 1907,
+  ["Name"]= "SystemQuestName_19_7",
+  ["TargetParameter"]= {
+    2
+  },
+  ["TargetType"]= 53,
+  ["TaskDesc"]= "SystemQuestDes_19",
+  ["Times"]= 16000,
+  ["Title"]= 1030
+},
+[2001] = {
+  ["Group"]= 1020,
+  ["icon"]= "Btn_SecondaryJob",
+  ["id"]= 2001,
+  ["Name"]= "SystemQuestName_20_1",
+  ["NextQuest"]= 2002,
+  ["TargetParameter"]= {
+    3
+  },
+  ["TargetType"]= 53,
+  ["TaskDesc"]= "SystemQuestDes_20",
+  ["Times"]= 50
+},
+[2002] = {
+  ["Group"]= 1020,
+  ["icon"]= "Btn_SecondaryJob",
+  ["id"]= 2002,
+  ["Name"]= "SystemQuestName_20_2",
+  ["NextQuest"]= 2003,
+  ["TargetParameter"]= {
+    3
+  },
+  ["TargetType"]= 53,
+  ["TaskDesc"]= "SystemQuestDes_20",
+  ["Times"]= 100
+},
+[2003] = {
+  ["Group"]= 1020,
+  ["icon"]= "Btn_SecondaryJob",
+  ["id"]= 2003,
+  ["Name"]= "SystemQuestName_20_3",
+  ["NextQuest"]= 2004,
+  ["TargetParameter"]= {
+    3
+  },
+  ["TargetType"]= 53,
+  ["TaskDesc"]= "SystemQuestDes_20",
+  ["Times"]= 500
+},
+[2004] = {
+  ["Group"]= 1020,
+  ["icon"]= "Btn_SecondaryJob",
+  ["id"]= 2004,
+  ["Name"]= "SystemQuestName_20_4",
+  ["NextQuest"]= 2005,
+  ["TargetParameter"]= {
+    3
+  },
+  ["TargetType"]= 53,
+  ["TaskDesc"]= "SystemQuestDes_20",
+  ["Times"]= 1000
+},
+[2005] = {
+  ["Group"]= 1020,
+  ["icon"]= "Btn_SecondaryJob",
+  ["id"]= 2005,
+  ["Name"]= "SystemQuestName_20_5",
+  ["NextQuest"]= 2006,
+  ["TargetParameter"]= {
+    3
+  },
+  ["TargetType"]= 53,
+  ["TaskDesc"]= "SystemQuestDes_20",
+  ["Times"]= 2000,
+  ["Title"]= 1016
+},
+[2006] = {
+  ["Group"]= 1020,
+  ["icon"]= "Btn_SecondaryJob",
+  ["id"]= 2006,
+  ["Name"]= "SystemQuestName_20_6",
+  ["NextQuest"]= 2007,
+  ["TargetParameter"]= {
+    3
+  },
+  ["TargetType"]= 53,
+  ["TaskDesc"]= "SystemQuestDes_20",
+  ["Times"]= 3000
+},
+[2007] = {
+  ["Drop"]= 10902005,
+  ["Group"]= 1020,
+  ["icon"]= "Btn_SecondaryJob",
+  ["id"]= 2007,
+  ["Name"]= "SystemQuestName_20_7",
+  ["TargetParameter"]= {
+    3
+  },
+  ["TargetType"]= 53,
+  ["TaskDesc"]= "SystemQuestDes_20",
+  ["Times"]= 4000,
+  ["Title"]= 1031
+},
+[2201] = {
+  ["Group"]= 1022,
+  ["icon"]= "Btn_SecondaryJob",
+  ["id"]= 2201,
+  ["Name"]= "SystemQuestName_22_1",
+  ["NextQuest"]= 2202,
+  ["TargetParameter"]= {
+    4
+  },
+  ["TargetType"]= 53,
+  ["TaskDesc"]= "SystemQuestDes_22",
+  ["Times"]= 20
+},
+[2202] = {
+  ["Group"]= 1022,
+  ["icon"]= "Btn_SecondaryJob",
+  ["id"]= 2202,
+  ["Name"]= "SystemQuestName_22_2",
+  ["NextQuest"]= 2203,
+  ["TargetParameter"]= {
+    4
+  },
+  ["TargetType"]= 53,
+  ["TaskDesc"]= "SystemQuestDes_22",
+  ["Times"]= 60
+},
+[2203] = {
+  ["Group"]= 1022,
+  ["icon"]= "Btn_SecondaryJob",
+  ["id"]= 2203,
+  ["Name"]= "SystemQuestName_22_3",
+  ["NextQuest"]= 2204,
+  ["TargetParameter"]= {
+    4
+  },
+  ["TargetType"]= 53,
+  ["TaskDesc"]= "SystemQuestDes_22",
+  ["Times"]= 100
+},
+[2204] = {
+  ["Group"]= 1022,
+  ["icon"]= "Btn_SecondaryJob",
+  ["id"]= 2204,
+  ["Name"]= "SystemQuestName_22_4",
+  ["NextQuest"]= 2205,
+  ["TargetParameter"]= {
+    4
+  },
+  ["TargetType"]= 53,
+  ["TaskDesc"]= "SystemQuestDes_22",
+  ["Times"]= 200
+},
+[2205] = {
+  ["Group"]= 1022,
+  ["icon"]= "Btn_SecondaryJob",
+  ["id"]= 2205,
+  ["Name"]= "SystemQuestName_22_5",
+  ["NextQuest"]= 2206,
+  ["TargetParameter"]= {
+    4
+  },
+  ["TargetType"]= 53,
+  ["TaskDesc"]= "SystemQuestDes_22",
+  ["Times"]= 600,
+  ["Title"]= 1018
+},
+[2206] = {
+  ["Group"]= 1022,
+  ["icon"]= "Btn_SecondaryJob",
+  ["id"]= 2206,
+  ["Name"]= "SystemQuestName_22_6",
+  ["NextQuest"]= 2207,
+  ["TargetParameter"]= {
+    4
+  },
+  ["TargetType"]= 53,
+  ["TaskDesc"]= "SystemQuestDes_22",
+  ["Times"]= 1000
+},
+[2207] = {
+  ["Group"]= 1022,
+  ["icon"]= "Btn_SecondaryJob",
+  ["id"]= 2207,
+  ["Name"]= "SystemQuestName_22_7",
+  ["TargetParameter"]= {
+    4
+  },
+  ["TargetType"]= 53,
+  ["TaskDesc"]= "SystemQuestDes_22",
+  ["Times"]= 2000,
+  ["Title"]= 1033
+},
+[2301] = {
+  ["Group"]= 1023,
+  ["icon"]= "Btn_SecondaryJob",
+  ["id"]= 2301,
+  ["Name"]= "SystemQuestName_23_1",
+  ["NextQuest"]= 2302,
+  ["TargetParameter"]= {
+    6
+  },
+  ["TargetType"]= 53,
+  ["TaskDesc"]= "SystemQuestDes_23",
+  ["Times"]= 20
+},
+[2302] = {
+  ["Group"]= 1023,
+  ["icon"]= "Btn_SecondaryJob",
+  ["id"]= 2302,
+  ["Name"]= "SystemQuestName_23_2",
+  ["NextQuest"]= 2303,
+  ["TargetParameter"]= {
+    6
+  },
+  ["TargetType"]= 53,
+  ["TaskDesc"]= "SystemQuestDes_23",
+  ["Times"]= 60
+},
+[2303] = {
+  ["Group"]= 1023,
+  ["icon"]= "Btn_SecondaryJob",
+  ["id"]= 2303,
+  ["Name"]= "SystemQuestName_23_3",
+  ["NextQuest"]= 2304,
+  ["TargetParameter"]= {
+    6
+  },
+  ["TargetType"]= 53,
+  ["TaskDesc"]= "SystemQuestDes_23",
+  ["Times"]= 100
+},
+[2304] = {
+  ["Group"]= 1023,
+  ["icon"]= "Btn_SecondaryJob",
+  ["id"]= 2304,
+  ["Name"]= "SystemQuestName_23_4",
+  ["NextQuest"]= 2305,
+  ["TargetParameter"]= {
+    6
+  },
+  ["TargetType"]= 53,
+  ["TaskDesc"]= "SystemQuestDes_23",
+  ["Times"]= 200
+},
+[2305] = {
+  ["Group"]= 1023,
+  ["icon"]= "Btn_SecondaryJob",
+  ["id"]= 2305,
+  ["Name"]= "SystemQuestName_23_5",
+  ["NextQuest"]= 2306,
+  ["TargetParameter"]= {
+    6
+  },
+  ["TargetType"]= 53,
+  ["TaskDesc"]= "SystemQuestDes_23",
+  ["Times"]= 600,
+  ["Title"]= 1019
+},
+[2306] = {
+  ["Group"]= 1023,
+  ["icon"]= "Btn_SecondaryJob",
+  ["id"]= 2306,
+  ["Name"]= "SystemQuestName_23_6",
+  ["NextQuest"]= 2307,
+  ["TargetParameter"]= {
+    6
+  },
+  ["TargetType"]= 53,
+  ["TaskDesc"]= "SystemQuestDes_23",
+  ["Times"]= 1000
+},
+[2307] = {
+  ["Group"]= 1023,
+  ["icon"]= "Btn_SecondaryJob",
+  ["id"]= 2307,
+  ["Name"]= "SystemQuestName_23_7",
+  ["TargetParameter"]= {
+    6
+  },
+  ["TargetType"]= 53,
+  ["TaskDesc"]= "SystemQuestDes_23",
+  ["Times"]= 2000,
+  ["Title"]= 1034
+},
+[2601] = {
+  ["Group"]= 1026,
+  ["id"]= 2601,
+  ["Name"]= "SystemQuestName_26_1",
+  ["NextQuest"]= 2602,
+  ["TargetType"]= 54,
+  ["TaskDesc"]= "SystemQuestDes_26",
+  ["Times"]= 10
+},
+[2602] = {
+  ["Group"]= 1026,
+  ["id"]= 2602,
+  ["Name"]= "SystemQuestName_26_2",
+  ["NextQuest"]= 2603,
+  ["TargetType"]= 54,
+  ["TaskDesc"]= "SystemQuestDes_26",
+  ["Times"]= 50
+},
+[2603] = {
+  ["Group"]= 1026,
+  ["id"]= 2603,
+  ["Name"]= "SystemQuestName_26_3",
+  ["NextQuest"]= 2604,
+  ["TargetType"]= 54,
+  ["TaskDesc"]= "SystemQuestDes_26",
+  ["Times"]= 100
+},
+[2604] = {
+  ["Group"]= 1026,
+  ["id"]= 2604,
+  ["Name"]= "SystemQuestName_26_4",
+  ["NextQuest"]= 2605,
+  ["TargetType"]= 54,
+  ["TaskDesc"]= "SystemQuestDes_26",
+  ["Times"]= 500
+},
+[2605] = {
+  ["Group"]= 1026,
+  ["id"]= 2605,
+  ["Name"]= "SystemQuestName_26_5",
+  ["NextQuest"]= 2606,
+  ["TargetType"]= 54,
+  ["TaskDesc"]= "SystemQuestDes_26",
+  ["Times"]= 1000
+},
+[2606] = {
+  ["Group"]= 1026,
+  ["id"]= 2606,
+  ["Name"]= "SystemQuestName_26_6",
+  ["NextQuest"]= 2607,
+  ["TargetType"]= 54,
+  ["TaskDesc"]= "SystemQuestDes_26",
+  ["Times"]= 1500
+},
+[2607] = {
+  ["Group"]= 1026,
+  ["id"]= 2607,
+  ["Name"]= "SystemQuestName_26_7",
+  ["TargetType"]= 54,
+  ["TaskDesc"]= "SystemQuestDes_26",
+  ["Times"]= 2000,
+  ["Title"]= 1035
+},
+[2701] = {
+  ["Group"]= 1027,
+  ["id"]= 2701,
+  ["Name"]= "SystemQuestName_27_1",
+  ["NextQuest"]= 2702,
+  ["TargetType"]= 50,
+  ["TaskDesc"]= "SystemQuestDes_27",
+  ["Times"]= 10
+},
+[2702] = {
+  ["Group"]= 1027,
+  ["id"]= 2702,
+  ["Name"]= "SystemQuestName_27_2",
+  ["NextQuest"]= 2703,
+  ["TargetType"]= 50,
+  ["TaskDesc"]= "SystemQuestDes_27",
+  ["Times"]= 50
+},
+[2703] = {
+  ["Group"]= 1027,
+  ["id"]= 2703,
+  ["Name"]= "SystemQuestName_27_3",
+  ["NextQuest"]= 2704,
+  ["TargetType"]= 50,
+  ["TaskDesc"]= "SystemQuestDes_27",
+  ["Times"]= 100
+},
+[2704] = {
+  ["Group"]= 1027,
+  ["id"]= 2704,
+  ["Name"]= "SystemQuestName_27_4",
+  ["NextQuest"]= 2705,
+  ["TargetType"]= 50,
+  ["TaskDesc"]= "SystemQuestDes_27",
+  ["Times"]= 500
+},
+[2705] = {
+  ["Group"]= 1027,
+  ["id"]= 2705,
+  ["Name"]= "SystemQuestName_27_5",
+  ["NextQuest"]= 2706,
+  ["TargetType"]= 50,
+  ["TaskDesc"]= "SystemQuestDes_27",
+  ["Times"]= 1000
+},
+[2706] = {
+  ["Group"]= 1027,
+  ["id"]= 2706,
+  ["Name"]= "SystemQuestName_27_6",
+  ["NextQuest"]= 2707,
+  ["TargetType"]= 50,
+  ["TaskDesc"]= "SystemQuestDes_27",
+  ["Times"]= 1500
+},
+[2707] = {
+  ["Drop"]= 10902020,
+  ["Group"]= 1027,
+  ["id"]= 2707,
+  ["Name"]= "SystemQuestName_27_7",
+  ["TargetType"]= 50,
+  ["TaskDesc"]= "SystemQuestDes_27",
+  ["Times"]= 2000,
+  ["Title"]= 1036
+},
+[3101] = {
+  ["Group"]= 1039,
+  ["icon"]= "btn_KVM_N",
+  ["id"]= 3101,
+  ["Name"]= "SystemQuestName_39_1",
+  ["NextQuest"]= 3102,
+  ["TargetType"]= 55,
+  ["TaskDesc"]= "SystemQuestDes_39"
+},
+[3102] = {
+  ["Group"]= 1039,
+  ["icon"]= "btn_KVM_N",
+  ["id"]= 3102,
+  ["Name"]= "SystemQuestName_39_2",
+  ["NextQuest"]= 3103,
+  ["TargetType"]= 55,
+  ["TaskDesc"]= "SystemQuestDes_39",
+  ["Times"]= 5
+},
+[3103] = {
+  ["Group"]= 1039,
+  ["icon"]= "btn_KVM_N",
+  ["id"]= 3103,
+  ["Name"]= "SystemQuestName_39_3",
+  ["NextQuest"]= 3104,
+  ["TargetType"]= 55,
+  ["TaskDesc"]= "SystemQuestDes_39",
+  ["Times"]= 10
+},
+[3104] = {
+  ["Group"]= 1039,
+  ["icon"]= "btn_KVM_N",
+  ["id"]= 3104,
+  ["Name"]= "SystemQuestName_39_4",
+  ["NextQuest"]= 3105,
+  ["TargetType"]= 55,
+  ["TaskDesc"]= "SystemQuestDes_39",
+  ["Times"]= 30
+},
+[3105] = {
+  ["Group"]= 1039,
+  ["icon"]= "btn_KVM_N",
+  ["id"]= 3105,
+  ["Name"]= "SystemQuestName_39_5",
+  ["NextQuest"]= 3106,
+  ["TargetType"]= 55,
+  ["TaskDesc"]= "SystemQuestDes_39",
+  ["Times"]= 60,
+  ["Title"]= 1060
+},
+[3106] = {
+  ["Group"]= 1039,
+  ["icon"]= "btn_KVM_N",
+  ["id"]= 3106,
+  ["Name"]= "SystemQuestName_39_6",
+  ["TargetType"]= 55,
+  ["TaskDesc"]= "SystemQuestDes_39",
+  ["Times"]= 99,
+  ["Title"]= 1061
+},
+[3201] = {
+  ["Group"]= 1040,
+  ["icon"]= "btn_KVM_N",
+  ["id"]= 3201,
+  ["Name"]= "SystemQuestName_40_1",
+  ["NextQuest"]= 3202,
+  ["TargetType"]= 65,
+  ["TaskDesc"]= "SystemQuestDes_40",
+  ["Times"]= 10
+},
+[3202] = {
+  ["Group"]= 1040,
+  ["icon"]= "btn_KVM_N",
+  ["id"]= 3202,
+  ["Name"]= "SystemQuestName_40_2",
+  ["NextQuest"]= 3203,
+  ["TargetType"]= 65,
+  ["TaskDesc"]= "SystemQuestDes_40",
+  ["Times"]= 100
+},
+[3203] = {
+  ["Group"]= 1040,
+  ["icon"]= "btn_KVM_N",
+  ["id"]= 3203,
+  ["Name"]= "SystemQuestName_40_3",
+  ["NextQuest"]= 3204,
+  ["TargetType"]= 65,
+  ["TaskDesc"]= "SystemQuestDes_40",
+  ["Times"]= 300
+},
+[3204] = {
+  ["Group"]= 1040,
+  ["icon"]= "btn_KVM_N",
+  ["id"]= 3204,
+  ["Name"]= "SystemQuestName_40_4",
+  ["NextQuest"]= 3205,
+  ["TargetType"]= 65,
+  ["TaskDesc"]= "SystemQuestDes_40",
+  ["Times"]= 500
+},
+[3205] = {
+  ["Group"]= 1040,
+  ["icon"]= "btn_KVM_N",
+  ["id"]= 3205,
+  ["Name"]= "SystemQuestName_40_5",
+  ["TargetType"]= 65,
+  ["TaskDesc"]= "SystemQuestDes_40",
+  ["Times"]= 1000,
+  ["Title"]= 1062
+},
+[3301] = {
+  ["Group"]= 1041,
+  ["icon"]= "btn_KVM_N",
+  ["id"]= 3301,
+  ["Name"]= "SystemQuestName_41_1",
+  ["NextQuest"]= 3302,
+  ["TargetType"]= 66,
+  ["TaskDesc"]= "SystemQuestDes_41"
+},
+[3302] = {
+  ["Group"]= 1041,
+  ["icon"]= "btn_KVM_N",
+  ["id"]= 3302,
+  ["Name"]= "SystemQuestName_41_2",
+  ["NextQuest"]= 3303,
+  ["TargetType"]= 66,
+  ["TaskDesc"]= "SystemQuestDes_41",
+  ["Times"]= 10
+},
+[3303] = {
+  ["Group"]= 1041,
+  ["icon"]= "btn_KVM_N",
+  ["id"]= 3303,
+  ["Name"]= "SystemQuestName_41_3",
+  ["NextQuest"]= 3304,
+  ["TargetType"]= 66,
+  ["TaskDesc"]= "SystemQuestDes_41",
+  ["Times"]= 50
+},
+[3304] = {
+  ["Group"]= 1041,
+  ["icon"]= "btn_KVM_N",
+  ["id"]= 3304,
+  ["Name"]= "SystemQuestName_41_4",
+  ["NextQuest"]= 3305,
+  ["TargetType"]= 66,
+  ["TaskDesc"]= "SystemQuestDes_41",
+  ["Times"]= 100
+},
+[3305] = {
+  ["Group"]= 1041,
+  ["icon"]= "btn_KVM_N",
+  ["id"]= 3305,
+  ["Name"]= "SystemQuestName_41_5",
+  ["TargetType"]= 66,
+  ["TaskDesc"]= "SystemQuestDes_41",
+  ["Times"]= 300,
+  ["Title"]= 1063
+},
+[4001] = {
+  ["Group"]= 2001,
+  ["icon"]= "",
+  ["id"]= 4001,
+  ["Reward"]= 0,
+  ["TargetType"]= 59,
+  ["Times"]= 2,
+  ["Type"]= 1
+},
+[4002] = {
+  ["Group"]= 2001,
+  ["icon"]= "",
+  ["id"]= 4002,
+  ["Reward"]= 0,
+  ["TargetParameter"]= {
+    18,
+    61002
+  },
+  ["TargetType"]= 79,
+  ["Times"]= 100,
+  ["Type"]= 1
+},
+[4003] = {
+  ["Group"]= 2001,
+  ["icon"]= "",
+  ["id"]= 4003,
+  ["Reward"]= 0,
+  ["TargetType"]= 61,
+  ["Times"]= 2,
+  ["Type"]= 1
+},
+[4004] = {
+  ["Group"]= 2001,
+  ["icon"]= "",
+  ["id"]= 4004,
+  ["Reward"]= 0,
+  ["TargetType"]= 62,
+  ["Times"]= 2,
+  ["Type"]= 1
+},
+[4005] = {
+  ["Group"]= 2001,
+  ["icon"]= "",
+  ["id"]= 4005,
+  ["Reward"]= 0,
+  ["TargetParameter"]= {
+    11801032
+  },
+  ["TargetType"]= 63,
+  ["Times"]= 50000,
+  ["Type"]= 1
+},
+[4006] = {
+  ["Group"]= 2001,
+  ["icon"]= "",
+  ["id"]= 4006,
+  ["MailTemplateId"]= 5001,
+  ["Reward"]= 0,
+  ["TargetParameter"]= {
+    3,
+    10,
+    1
+  },
+  ["TargetType"]= 73,
+  ["Type"]= 1
+},
+[5001] = {
+  ["icon"]= "",
+  ["id"]= 5001,
+  ["Reward"]= 0,
+  ["TargetParameter"]= {
+    7999,
+    7997,
+    7998
+  },
+  ["TargetType"]= 67,
+  ["Type"]= 1
+},
+[5002] = {
+  ["icon"]= "",
+  ["id"]= 5002,
+  ["Reward"]= 0,
+  ["TargetParameter"]= {
+    11,
+    12
+  },
+  ["TargetType"]= 69,
+  ["Type"]= 1
+},
+[5003] = {
+  ["icon"]= "",
+  ["id"]= 5003,
+  ["Reward"]= 0,
+  ["TargetParameter"]= {
+    3020
+  },
+  ["TargetType"]= 67,
+  ["Type"]= 1
+},
+[5004] = {
+  ["icon"]= "",
+  ["id"]= 5004,
+  ["Reward"]= 0,
+  ["TargetParameter"]= {
+    8912
+  },
+  ["TargetType"]= 67,
+  ["Type"]= 1
+},
+[5050] = {
+  ["icon"]= "",
+  ["id"]= 5050,
+  ["Reward"]= 0,
+  ["TargetParameter"]= {
+    2011
+  },
+  ["TargetType"]= 67,
+  ["Type"]= 1
+},
+[5051] = {
+  ["icon"]= "",
+  ["id"]= 5051,
+  ["Reward"]= 0,
+  ["TargetParameter"]= {
+    2021
+  },
+  ["TargetType"]= 67,
+  ["Type"]= 1
+},
+[5052] = {
+  ["icon"]= "",
+  ["id"]= 5052,
+  ["Reward"]= 0,
+  ["TargetParameter"]= {
+    2031
+  },
+  ["TargetType"]= 67,
+  ["Type"]= 1
+},
+[5053] = {
+  ["icon"]= "",
+  ["id"]= 5053,
+  ["Reward"]= 0,
+  ["TargetParameter"]= {
+    2041
+  },
+  ["TargetType"]= 67,
+  ["Type"]= 1
+},
+[5054] = {
+  ["icon"]= "",
+  ["id"]= 5054,
+  ["Reward"]= 0,
+  ["TargetParameter"]= {
+    2051
+  },
+  ["TargetType"]= 67,
+  ["Type"]= 1
+},
+[5150] = {
+  ["icon"]= "",
+  ["id"]= 5150,
+  ["Reward"]= 0,
+  ["TargetParameter"]= {
+    2011
+  },
+  ["TargetType"]= 71,
+  ["Type"]= 1
+},
+[5151] = {
+  ["icon"]= "",
+  ["id"]= 5151,
+  ["Reward"]= 0,
+  ["TargetParameter"]= {
+    2021
+  },
+  ["TargetType"]= 71,
+  ["Type"]= 1
+},
+[5152] = {
+  ["icon"]= "",
+  ["id"]= 5152,
+  ["Reward"]= 0,
+  ["TargetParameter"]= {
+    2031
+  },
+  ["TargetType"]= 71,
+  ["Type"]= 1
+},
+[5153] = {
+  ["icon"]= "",
+  ["id"]= 5153,
+  ["Reward"]= 0,
+  ["TargetParameter"]= {
+    2041
+  },
+  ["TargetType"]= 71,
+  ["Type"]= 1
+},
+[5154] = {
+  ["icon"]= "",
+  ["id"]= 5154,
+  ["Reward"]= 0,
+  ["TargetParameter"]= {
+    2051
+  },
+  ["TargetType"]= 71,
+  ["Type"]= 1
+},
+[6101] = {
+  ["Group"]= 1028,
+  ["id"]= 6101,
+  ["Name"]= "SystemQuestName_28_1",
+  ["NextQuest"]= 6102,
+  ["TargetParameter"]= {
+    34,
+    6000001
+  },
+  ["TaskDesc"]= "SystemQuestDes_28",
+  ["Times"]= 50,
+  ["Title"]= 1064
+},
+[6102] = {
+  ["Group"]= 1028,
+  ["id"]= 6102,
+  ["Name"]= "SystemQuestName_28_2",
+  ["NextQuest"]= 6103,
+  ["TargetParameter"]= {
+    34,
+    6000001
+  },
+  ["TaskDesc"]= "SystemQuestDes_28",
+  ["Times"]= 100
+},
+[6103] = {
+  ["Group"]= 1028,
+  ["id"]= 6103,
+  ["Name"]= "SystemQuestName_28_3",
+  ["NextQuest"]= 6104,
+  ["TargetParameter"]= {
+    34,
+    6000001
+  },
+  ["TaskDesc"]= "SystemQuestDes_28",
+  ["Times"]= 500
+},
+[6104] = {
+  ["Group"]= 1028,
+  ["id"]= 6104,
+  ["Name"]= "SystemQuestName_28_4",
+  ["TargetParameter"]= {
+    34,
+    6000001
+  },
+  ["TaskDesc"]= "SystemQuestDes_28",
+  ["Times"]= 999,
+  ["Title"]= 1065
+},
+[6201] = {
+  ["Group"]= 1029,
+  ["id"]= 6201,
+  ["Name"]= "SystemQuestName_29_1",
+  ["NextQuest"]= 6202,
+  ["TargetParameter"]= {
+    34,
+    6000002
+  },
+  ["TaskDesc"]= "SystemQuestDes_29",
+  ["Times"]= 50,
+  ["Title"]= 1066
+},
+[6202] = {
+  ["Group"]= 1029,
+  ["id"]= 6202,
+  ["Name"]= "SystemQuestName_29_2",
+  ["NextQuest"]= 6203,
+  ["TargetParameter"]= {
+    34,
+    6000002
+  },
+  ["TaskDesc"]= "SystemQuestDes_29",
+  ["Times"]= 100
+},
+[6203] = {
+  ["Group"]= 1029,
+  ["id"]= 6203,
+  ["Name"]= "SystemQuestName_29_3",
+  ["NextQuest"]= 6204,
+  ["TargetParameter"]= {
+    34,
+    6000002
+  },
+  ["TaskDesc"]= "SystemQuestDes_29",
+  ["Times"]= 500
+},
+[6204] = {
+  ["Group"]= 1029,
+  ["id"]= 6204,
+  ["Name"]= "SystemQuestName_29_4",
+  ["TargetParameter"]= {
+    34,
+    6000002
+  },
+  ["TaskDesc"]= "SystemQuestDes_29",
+  ["Times"]= 999,
+  ["Title"]= 1067
+},
+[6301] = {
+  ["Group"]= 1030,
+  ["id"]= 6301,
+  ["Name"]= "SystemQuestName_30_1",
+  ["NextQuest"]= 6302,
+  ["TargetParameter"]= {
+    34,
+    6000006
+  },
+  ["TaskDesc"]= "SystemQuestDes_30",
+  ["Times"]= 50,
+  ["Title"]= 1068
+},
+[6302] = {
+  ["Group"]= 1030,
+  ["id"]= 6302,
+  ["Name"]= "SystemQuestName_30_2",
+  ["NextQuest"]= 6303,
+  ["TargetParameter"]= {
+    34,
+    6000006
+  },
+  ["TaskDesc"]= "SystemQuestDes_30",
+  ["Times"]= 100
+},
+[6303] = {
+  ["Group"]= 1030,
+  ["id"]= 6303,
+  ["Name"]= "SystemQuestName_30_3",
+  ["NextQuest"]= 6304,
+  ["TargetParameter"]= {
+    34,
+    6000006
+  },
+  ["TaskDesc"]= "SystemQuestDes_30",
+  ["Times"]= 500
+},
+[6304] = {
+  ["Group"]= 1030,
+  ["id"]= 6304,
+  ["Name"]= "SystemQuestName_30_4",
+  ["TargetParameter"]= {
+    34,
+    6000006
+  },
+  ["TaskDesc"]= "SystemQuestDes_30",
+  ["Times"]= 999,
+  ["Title"]= 1069
+},
+[6401] = {
+  ["Group"]= 1031,
+  ["id"]= 6401,
+  ["Name"]= "SystemQuestName_31_1",
+  ["NextQuest"]= 6402,
+  ["TargetParameter"]= {
+    34,
+    6000007
+  },
+  ["TaskDesc"]= "SystemQuestDes_31",
+  ["Times"]= 50,
+  ["Title"]= 1070
+},
+[6402] = {
+  ["Group"]= 1031,
+  ["id"]= 6402,
+  ["Name"]= "SystemQuestName_31_2",
+  ["NextQuest"]= 6403,
+  ["TargetParameter"]= {
+    34,
+    6000007
+  },
+  ["TaskDesc"]= "SystemQuestDes_31",
+  ["Times"]= 100
+},
+[6403] = {
+  ["Group"]= 1031,
+  ["id"]= 6403,
+  ["Name"]= "SystemQuestName_31_3",
+  ["NextQuest"]= 6404,
+  ["TargetParameter"]= {
+    34,
+    6000007
+  },
+  ["TaskDesc"]= "SystemQuestDes_31",
+  ["Times"]= 500
+},
+[6404] = {
+  ["Group"]= 1031,
+  ["id"]= 6404,
+  ["Name"]= "SystemQuestName_31_4",
+  ["TargetParameter"]= {
+    34,
+    6000007
+  },
+  ["TaskDesc"]= "SystemQuestDes_31",
+  ["Times"]= 999,
+  ["Title"]= 1071
+},
+[6501] = {
+  ["Group"]= 1032,
+  ["id"]= 6501,
+  ["Name"]= "SystemQuestName_32_1",
+  ["NextQuest"]= 6502,
+  ["TargetParameter"]= {
+    34,
+    6000008
+  },
+  ["TaskDesc"]= "SystemQuestDes_32",
+  ["Times"]= 50,
+  ["Title"]= 1072
+},
+[6502] = {
+  ["Group"]= 1032,
+  ["id"]= 6502,
+  ["Name"]= "SystemQuestName_32_2",
+  ["NextQuest"]= 6503,
+  ["TargetParameter"]= {
+    34,
+    6000008
+  },
+  ["TaskDesc"]= "SystemQuestDes_32",
+  ["Times"]= 100
+},
+[6503] = {
+  ["Group"]= 1032,
+  ["id"]= 6503,
+  ["Name"]= "SystemQuestName_32_3",
+  ["NextQuest"]= 6504,
+  ["TargetParameter"]= {
+    34,
+    6000008
+  },
+  ["TaskDesc"]= "SystemQuestDes_32",
+  ["Times"]= 500
+},
+[6504] = {
+  ["Group"]= 1032,
+  ["id"]= 6504,
+  ["Name"]= "SystemQuestName_32_4",
+  ["TargetParameter"]= {
+    34,
+    6000008
+  },
+  ["TaskDesc"]= "SystemQuestDes_32",
+  ["Times"]= 999,
+  ["Title"]= 1073
+},
+[7101] = {
+  ["Group"]= 1034,
+  ["id"]= 7101,
+  ["Name"]= "SystemQuestName_34_1",
+  ["NextQuest"]= 7102,
+  ["TargetParameter"]= {
+    36
+  },
+  ["TaskDesc"]= "SystemQuestDes_34",
+  ["Times"]= 5000
+},
+[7102] = {
+  ["Group"]= 1034,
+  ["id"]= 7102,
+  ["Name"]= "SystemQuestName_34_2",
+  ["NextQuest"]= 7103,
+  ["TargetParameter"]= {
+    36
+  },
+  ["TaskDesc"]= "SystemQuestDes_34",
+  ["Times"]= 10000
+},
+[7103] = {
+  ["Group"]= 1034,
+  ["id"]= 7103,
+  ["Name"]= "SystemQuestName_34_3",
+  ["NextQuest"]= 7104,
+  ["TargetParameter"]= {
+    36
+  },
+  ["TaskDesc"]= "SystemQuestDes_34",
+  ["Times"]= 50000
+},
+[7104] = {
+  ["Drop"]= 10903046,
+  ["Group"]= 1034,
+  ["id"]= 7104,
+  ["Name"]= "SystemQuestName_34_4",
+  ["TargetParameter"]= {
+    36
+  },
+  ["TaskDesc"]= "SystemQuestDes_34",
+  ["Times"]= 100000,
+  ["Title"]= 1075
+},
+[7201] = {
+  ["Group"]= 1035,
+  ["id"]= 7201,
+  ["Name"]= "SystemQuestName_35_1",
+  ["NextQuest"]= 7202,
+  ["TargetParameter"]= {
+    35,
+    0
+  },
+  ["TaskDesc"]= "SystemQuestDes_35",
+  ["Times"]= 100
+},
+[7202] = {
+  ["Group"]= 1035,
+  ["id"]= 7202,
+  ["Name"]= "SystemQuestName_35_2",
+  ["NextQuest"]= 7203,
+  ["TargetParameter"]= {
+    35,
+    0
+  },
+  ["TaskDesc"]= "SystemQuestDes_35",
+  ["Times"]= 200
+},
+[7203] = {
+  ["Group"]= 1035,
+  ["id"]= 7203,
+  ["Name"]= "SystemQuestName_35_3",
+  ["NextQuest"]= 7204,
+  ["TargetParameter"]= {
+    35,
+    0
+  },
+  ["TaskDesc"]= "SystemQuestDes_35",
+  ["Times"]= 500
+},
+[7204] = {
+  ["Drop"]= 10903048,
+  ["Group"]= 1035,
+  ["id"]= 7204,
+  ["Name"]= "SystemQuestName_35_4",
+  ["TargetParameter"]= {
+    35,
+    0
+  },
+  ["TaskDesc"]= "SystemQuestDes_35",
+  ["Times"]= 1000,
+  ["Title"]= 1076
+},
+[7301] = {
+  ["Group"]= 1036,
+  ["id"]= 7301,
+  ["Name"]= "SystemQuestName_36_1",
+  ["NextQuest"]= 7302,
+  ["TargetParameter"]= {
+    35,
+    1
+  },
+  ["TaskDesc"]= "SystemQuestDes_36",
+  ["Times"]= 100
+},
+[7302] = {
+  ["Group"]= 1036,
+  ["id"]= 7302,
+  ["Name"]= "SystemQuestName_36_2",
+  ["NextQuest"]= 7303,
+  ["TargetParameter"]= {
+    35,
+    1
+  },
+  ["TaskDesc"]= "SystemQuestDes_36",
+  ["Times"]= 200
+},
+[7303] = {
+  ["Group"]= 1036,
+  ["id"]= 7303,
+  ["Name"]= "SystemQuestName_36_3",
+  ["NextQuest"]= 7304,
+  ["TargetParameter"]= {
+    35,
+    1
+  },
+  ["TaskDesc"]= "SystemQuestDes_36",
+  ["Times"]= 500
+},
+[7304] = {
+  ["Drop"]= 10903047,
+  ["Group"]= 1036,
+  ["id"]= 7304,
+  ["Name"]= "SystemQuestName_36_4",
+  ["TargetParameter"]= {
+    35,
+    1
+  },
+  ["TaskDesc"]= "SystemQuestDes_36",
+  ["Times"]= 1000,
+  ["Title"]= 1077
+},
+[7401] = {
+  ["Group"]= 1037,
+  ["id"]= 7401,
+  ["Name"]= "SystemQuestName_37_1",
+  ["NextQuest"]= 7402,
+  ["TargetParameter"]= {
+    38
+  },
+  ["TaskDesc"]= "SystemQuestDes_37",
+  ["Times"]= 50000
+},
+[7402] = {
+  ["Group"]= 1037,
+  ["id"]= 7402,
+  ["Name"]= "SystemQuestName_37_2",
+  ["NextQuest"]= 7403,
+  ["TargetParameter"]= {
+    38
+  },
+  ["TaskDesc"]= "SystemQuestDes_37",
+  ["Times"]= 100000
+},
+[7403] = {
+  ["Group"]= 1037,
+  ["id"]= 7403,
+  ["Name"]= "SystemQuestName_37_3",
+  ["NextQuest"]= 7404,
+  ["TargetParameter"]= {
+    38
+  },
+  ["TaskDesc"]= "SystemQuestDes_37",
+  ["Times"]= 500000
+},
+[7404] = {
+  ["Group"]= 1037,
+  ["id"]= 7404,
+  ["Name"]= "SystemQuestName_37_4",
+  ["TargetParameter"]= {
+    38
+  },
+  ["TaskDesc"]= "SystemQuestDes_37",
+  ["Times"]= 1000000,
+  ["Title"]= 1078
+},
+[7501] = {
+  ["Group"]= 1038,
+  ["id"]= 7501,
+  ["Name"]= "SystemQuestName_38_1",
+  ["NextQuest"]= 7502,
+  ["TargetParameter"]= {
+    37,
+    0
+  },
+  ["TaskDesc"]= "SystemQuestDes_38",
+  ["Times"]= 100
+},
+[7502] = {
+  ["Group"]= 1038,
+  ["id"]= 7502,
+  ["Name"]= "SystemQuestName_38_2",
+  ["NextQuest"]= 7503,
+  ["TargetParameter"]= {
+    37,
+    0
+  },
+  ["TaskDesc"]= "SystemQuestDes_38",
+  ["Times"]= 200
+},
+[7503] = {
+  ["Group"]= 1038,
+  ["id"]= 7503,
+  ["Name"]= "SystemQuestName_38_3",
+  ["NextQuest"]= 7504,
+  ["TargetParameter"]= {
+    37,
+    0
+  },
+  ["TaskDesc"]= "SystemQuestDes_38",
+  ["Times"]= 500
+},
+[7504] = {
+  ["Group"]= 1038,
+  ["id"]= 7504,
+  ["Name"]= "SystemQuestName_38_4",
+  ["TargetParameter"]= {
+    37,
+    0
+  },
+  ["TaskDesc"]= "SystemQuestDes_38",
+  ["Times"]= 1000,
+  ["Title"]= 1079
+}
+}
+local baseTable={
+  ["Condition"]= 1001,
+  ["Drop"]= 0,
+  ["Group"]= 3001,
+  ["icon"]= "btn_Entrust_N",
+  ["id"]= 102,
+  ["MailParams"]= {},
+  ["MailTemplateId"]= 0,
+  ["Name"]= "",
+  ["NextQuest"]= 0,
+  ["Reward"]= 10054,
+  ["TargetParameter"]= {},
+  ["TargetType"]= 80,
+  ["TaskDesc"]= "",
+  ["Times"]= 1,
+  ["Title"]= 0,
+  ["Type"]= 0
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

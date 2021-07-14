@@ -1,0 +1,94 @@
+TextAsset Base
+	string m_Name = "data_guild_GuildBattlePassReward"
+	string m_Script = "local table= {
+[1] = {
+  ["advanceBattlePassCount"]= 0
+},
+[2] = {
+  ["advanceBattlePassCount"]= 0,
+  ["dropId"]= 61002,
+  ["Id"]= 2,
+  ["presidentOnly"]= 1,
+  ["progress"]= 800
+},
+[3] = {
+  ["dropId"]= 61003,
+  ["Id"]= 3,
+  ["progress"]= 1200
+},
+[4] = {
+  ["dropId"]= 61004,
+  ["Id"]= 4,
+  ["presidentOnly"]= 1,
+  ["progress"]= 1600
+},
+[5] = {
+  ["dropId"]= 61005,
+  ["Id"]= 5,
+  ["progress"]= 2000
+},
+[6] = {
+  ["dropId"]= 61006,
+  ["Id"]= 6,
+  ["presidentOnly"]= 1,
+  ["progress"]= 2400
+},
+[7] = {
+  ["advanceBattlePassCount"]= 20,
+  ["dropId"]= 61007,
+  ["Id"]= 7,
+  ["progress"]= 2800
+},
+[8] = {
+  ["advanceBattlePassCount"]= 20,
+  ["dropId"]= 61008,
+  ["Id"]= 8,
+  ["presidentOnly"]= 1,
+  ["progress"]= 3200
+},
+[9] = {
+  ["advanceBattlePassCount"]= 20,
+  ["dropId"]= 61009,
+  ["Id"]= 9,
+  ["progress"]= 3600
+},
+[10] = {
+  ["advanceBattlePassCount"]= 20,
+  ["dropId"]= 61010,
+  ["Id"]= 10,
+  ["presidentOnly"]= 1,
+  ["progress"]= 4000
+},
+[11] = {
+  ["advanceBattlePassCount"]= 0,
+  ["byLevel"]= 0,
+  ["dropId"]= 61011,
+  ["Id"]= 11,
+  ["progress"]= 60
+},
+[12] = {
+  ["byLevel"]= 0,
+  ["dropId"]= 61012,
+  ["Id"]= 12,
+  ["progress"]= 100
+},
+[13] = {
+  ["advanceBattlePassCount"]= 20,
+  ["byLevel"]= 0,
+  ["dropId"]= 61013,
+  ["Id"]= 13,
+  ["progress"]= 120
+}
+}
+local baseTable={
+  ["advanceBattlePassCount"]= 10,
+  ["byLevel"]= 1,
+  ["dropId"]= 61001,
+  ["Id"]= 1,
+  ["presidentOnly"]= 0,
+  ["progress"]= 400
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

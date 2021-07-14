@@ -1,0 +1,1589 @@
+TextAsset Base
+	string m_Name = "data_npc_CollectNPC"
+	string m_Script = "local table= {
+[10000] = {
+  ["buttonName"]= "CollectionButton46",
+  ["buttonNameLocalized"]= "激活",
+  ["conditionId"]= 210001,
+  ["dropId"]= 6304101,
+  ["isBindingTask"]= 0,
+  ["renovateTime"]= 5
+},
+[60227] = {
+  ["buttonNameLocalized"]= 0,
+  ["dialogueId"]= 31311,
+  ["renovateTime"]= 1,
+  ["staticId"]= 60227
+},
+[62093] = {
+  ["buttonNameLocalized"]= 0,
+  ["staticId"]= 62093
+},
+[62107] = {
+  ["buttonName"]= "CollectionButton17",
+  ["buttonNameLocalized"]= 0,
+  ["staticId"]= 62107
+},
+[62108] = {
+  ["buttonName"]= "CollectionButton45",
+  ["buttonNameLocalized"]= 0,
+  ["staticId"]= 62108
+},
+[62109] = {
+  ["buttonName"]= "CollectionButton15",
+  ["buttonNameLocalized"]= 0,
+  ["collectResId"]= "CollectIcon2",
+  ["staticId"]= 62109
+},
+[62114] = {
+  ["buttonName"]= "CollectionButton46",
+  ["buttonNameLocalized"]= 0,
+  ["staticId"]= 62114
+},
+[64143] = {
+  ["buttonName"]= "CollectionButton127",
+  ["buttonNameLocalized"]= 0,
+  ["collectActionId"]= 0,
+  ["collectTime"]= 0,
+  ["dialogueId"]= 31222,
+  ["staticId"]= 64143
+},
+[64144] = {
+  ["buttonName"]= "CollectionButton127",
+  ["buttonNameLocalized"]= 0,
+  ["collectActionId"]= 0,
+  ["collectTime"]= 0,
+  ["dialogueId"]= 31223,
+  ["staticId"]= 64144
+},
+[64228] = {
+  ["buttonName"]= "CollectionButton15",
+  ["buttonNameLocalized"]= "查看",
+  ["dialogueId"]= 31416,
+  ["staticId"]= 64228
+},
+[64232] = {
+  ["buttonName"]= "CollectionButton15",
+  ["buttonNameLocalized"]= "查看",
+  ["collectTime"]= 1,
+  ["dialogueId"]= 31418,
+  ["staticId"]= 64232
+},
+[64240] = {
+  ["buttonNameLocalized"]= "采集",
+  ["collectTime"]= 1,
+  ["conditionId"]= 421403,
+  ["dropId"]= 1101141032,
+  ["staticId"]= 64240
+},
+[64241] = {
+  ["buttonName"]= "CollectionButton15",
+  ["buttonNameLocalized"]= "查看",
+  ["collectTime"]= 1,
+  ["dialogueId"]= 31417,
+  ["staticId"]= 64241
+},
+[64244] = {
+  ["buttonNameLocalized"]= "采集",
+  ["conditionId"]= 421501,
+  ["dropId"]= 1101151011,
+  ["staticId"]= 64244
+},
+[64248] = {
+  ["buttonName"]= "CollectionButton38",
+  ["buttonNameLocalized"]= "观察",
+  ["collectTime"]= 1,
+  ["dialogueId"]= 31314,
+  ["staticId"]= 64248
+},
+[64249] = {
+  ["buttonName"]= "CollectionButton97",
+  ["buttonNameLocalized"]= "擦拭",
+  ["collectTime"]= 1,
+  ["dialogueId"]= 31315,
+  ["staticId"]= 64249
+},
+[65001] = {
+  ["buttonName"]= "CollectionButton83",
+  ["buttonNameLocalized"]= "触碰",
+  ["collectActionId"]= 4,
+  ["radius"]= 1.5,
+  ["staticId"]= 65001
+},
+[65002] = {
+  ["buttonName"]= "CollectionButton17",
+  ["collectResId"]= "CollectIcon2",
+  ["dialogueId"]= 6500211,
+  ["staticId"]= 65002
+},
+[65003] = {
+  ["buttonName"]= "CollectionButton17",
+  ["collectResId"]= "CollectIcon2",
+  ["dialogueId"]= 6500311,
+  ["staticId"]= 65003
+},
+[65004] = {
+  ["buttonName"]= "CollectionButton17",
+  ["collectResId"]= "CollectIcon2",
+  ["dialogueId"]= 6500411,
+  ["staticId"]= 65004
+},
+[65005] = {
+  ["buttonName"]= "CollectionButton17",
+  ["collectResId"]= "CollectIcon2",
+  ["conditionId"]= 310006,
+  ["dropId"]= 6304101,
+  ["radius"]= 2.5,
+  ["staticId"]= 65005
+},
+[65006] = {
+  ["buttonName"]= "CollectionButton54",
+  ["buttonNameLocalized"]= "骑乘",
+  ["conditionId"]= 310007,
+  ["dropId"]= 1000011132,
+  ["staticId"]= 65006
+},
+[65007] = {
+  ["buttonNameLocalized"]= "采集",
+  ["conditionId"]= 310008,
+  ["dropId"]= 6303901,
+  ["renovateTime"]= 99,
+  ["staticId"]= 65007
+},
+[65008] = {
+  ["buttonName"]= "CollectionButton22",
+  ["buttonNameLocalized"]= "修理",
+  ["collectResId"]= "CollectIcon2",
+  ["staticId"]= 65008
+},
+[65009] = {
+  ["buttonName"]= "CollectionButton42",
+  ["buttonNameLocalized"]= "获取",
+  ["collectResId"]= "CollectIcon2",
+  ["staticId"]= 65009
+},
+[65010] = {
+  ["buttonName"]= "CollectionButton57",
+  ["buttonNameLocalized"]= "拿取",
+  ["collectTime"]= 1,
+  ["staticId"]= 65010
+},
+[65011] = {
+  ["buttonName"]= "CollectionButton57",
+  ["buttonNameLocalized"]= "拿取",
+  ["collectTime"]= 1,
+  ["conditionId"]= 310109,
+  ["dropId"]= 6501101,
+  ["staticId"]= 65011
+},
+[65012] = {
+  ["buttonName"]= "CollectionButton57",
+  ["buttonNameLocalized"]= "拿取",
+  ["collectTime"]= 1,
+  ["staticId"]= 65012
+},
+[65013] = {
+  ["buttonName"]= "CollectionButton32",
+  ["buttonNameLocalized"]= "疗伤",
+  ["staticId"]= 65013
+},
+[65014] = {
+  ["buttonName"]= "CollectionButton59",
+  ["buttonNameLocalized"]= "拆解",
+  ["collectTime"]= 1,
+  ["conditionId"]= 310112,
+  ["dropId"]= 6309101,
+  ["staticId"]= 65014
+},
+[65015] = {
+  ["buttonName"]= "CollectionButton60",
+  ["buttonNameLocalized"]= "请酒",
+  ["collectTime"]= 1,
+  ["renovateTime"]= 1,
+  ["staticId"]= 65015
+},
+[65016] = {
+  ["buttonName"]= "CollectionButton6",
+  ["buttonNameLocalized"]= "乔装",
+  ["staticId"]= 65016
+},
+[65017] = {
+  ["buttonName"]= "CollectionButton86",
+  ["buttonNameLocalized"]= "打探",
+  ["collectResId"]= "CollectIcon2",
+  ["dialogueId"]= 10166,
+  ["staticId"]= 65017
+},
+[65018] = {
+  ["buttonName"]= "CollectionButton86",
+  ["buttonNameLocalized"]= "打探",
+  ["collectResId"]= "CollectIcon2",
+  ["dialogueId"]= 10167,
+  ["staticId"]= 65018
+},
+[65019] = {
+  ["buttonName"]= "CollectionButton86",
+  ["buttonNameLocalized"]= "打探",
+  ["collectResId"]= "CollectIcon2",
+  ["dialogueId"]= 10168,
+  ["staticId"]= 65019
+},
+[65020] = {
+  ["buttonName"]= "CollectionButton17",
+  ["collectResId"]= "CollectIcon2",
+  ["dialogueId"]= 10169,
+  ["staticId"]= 65020
+},
+[65021] = {
+  ["buttonName"]= "CollectionButton17",
+  ["collectResId"]= "CollectIcon2",
+  ["dialogueId"]= 10171,
+  ["staticId"]= 65021
+},
+[65022] = {
+  ["buttonName"]= "CollectionButton35",
+  ["buttonNameLocalized"]= "解救",
+  ["collectResId"]= "CollectIcon8",
+  ["staticId"]= 65022
+},
+[65023] = {
+  ["buttonName"]= "CollectionButton62",
+  ["buttonNameLocalized"]= "翻找",
+  ["conditionId"]= 310113,
+  ["dropId"]= 6307901,
+  ["staticId"]= 65023
+},
+[65024] = {
+  ["buttonName"]= "CollectionButton57",
+  ["buttonNameLocalized"]= "拿取",
+  ["staticId"]= 65024
+},
+[65025] = {
+  ["buttonName"]= "CollectionButton63",
+  ["buttonNameLocalized"]= "施力",
+  ["staticId"]= 65025
+},
+[65026] = {
+  ["buttonName"]= "CollectionButton57",
+  ["buttonNameLocalized"]= "拿取",
+  ["conditionId"]= 310213,
+  ["dropId"]= 6310801,
+  ["renovateTime"]= 999,
+  ["staticId"]= 65026
+},
+[65027] = {
+  ["buttonName"]= "CollectionButton32",
+  ["buttonNameLocalized"]= "疗伤",
+  ["radius"]= 2.5,
+  ["staticId"]= 65027
+},
+[65028] = {
+  ["buttonName"]= "CollectionButton32",
+  ["buttonNameLocalized"]= "疗伤",
+  ["radius"]= 2.5,
+  ["staticId"]= 65028
+},
+[65029] = {
+  ["buttonName"]= "CollectionButton32",
+  ["buttonNameLocalized"]= "疗伤",
+  ["radius"]= 2.5,
+  ["staticId"]= 65029
+},
+[65030] = {
+  ["buttonNameLocalized"]= "采集",
+  ["conditionId"]= 310214,
+  ["dropId"]= 6311001,
+  ["renovateTime"]= 3,
+  ["staticId"]= 65030
+},
+[65031] = {
+  ["buttonName"]= "CollectionButton15",
+  ["buttonNameLocalized"]= "查看",
+  ["dialogueId"]= 6215012,
+  ["radius"]= 2.2,
+  ["staticId"]= 65031
+},
+[65032] = {
+  ["buttonName"]= "CollectionButton15",
+  ["buttonNameLocalized"]= "查看",
+  ["dialogueId"]= 6215112,
+  ["radius"]= 2.2,
+  ["staticId"]= 65032
+},
+[65033] = {
+  ["buttonName"]= "CollectionButton88",
+  ["buttonNameLocalized"]= "打断",
+  ["staticId"]= 65033
+},
+[65034] = {
+  ["buttonNameLocalized"]= "采集",
+  ["conditionId"]= 310215,
+  ["dropId"]= 6311301,
+  ["renovateTime"]= 3,
+  ["staticId"]= 65034
+},
+[65035] = {
+  ["buttonName"]= "CollectionButton57",
+  ["buttonNameLocalized"]= "拿取",
+  ["conditionId"]= 310216,
+  ["dialogueId"]= 10273,
+  ["dropId"]= 6503501,
+  ["staticId"]= 65035
+},
+[65036] = {
+  ["buttonName"]= "CollectionButton15",
+  ["buttonNameLocalized"]= "查看",
+  ["dialogueId"]= 10274,
+  ["staticId"]= 65036
+},
+[65037] = {
+  ["buttonNameLocalized"]= "采集",
+  ["conditionId"]= 310301,
+  ["dropId"]= 6503701,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 3,
+  ["staticId"]= 65037
+},
+[65038] = {
+  ["buttonName"]= "CollectionButton90",
+  ["buttonNameLocalized"]= "扒开",
+  ["staticId"]= 65038
+},
+[65039] = {
+  ["buttonName"]= "CollectionButton15",
+  ["buttonNameLocalized"]= "查看",
+  ["dialogueId"]= 10344,
+  ["staticId"]= 65039
+},
+[65040] = {
+  ["buttonNameLocalized"]= "采集",
+  ["conditionId"]= 310302,
+  ["dropId"]= 6504001,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 3,
+  ["staticId"]= 65040
+},
+[65041] = {
+  ["buttonName"]= "CollectionButton91",
+  ["buttonNameLocalized"]= "顺时针搅动",
+  ["dialogueId"]= 10447,
+  ["staticId"]= 65041
+},
+[65042] = {
+  ["buttonName"]= "CollectionButton92",
+  ["buttonNameLocalized"]= "逆时针搅动",
+  ["dialogueId"]= 10448,
+  ["staticId"]= 65042
+},
+[65043] = {
+  ["buttonName"]= "CollectionButton93",
+  ["buttonNameLocalized"]= "灌药",
+  ["radius"]= 2.5,
+  ["staticId"]= 65043
+},
+[65044] = {
+  ["buttonName"]= "CollectionButton15",
+  ["buttonNameLocalized"]= "查看",
+  ["dialogueId"]= 10347,
+  ["radius"]= 2.5,
+  ["staticId"]= 65044
+},
+[65045] = {
+  ["buttonName"]= "CollectionButton28",
+  ["buttonNameLocalized"]= "探查",
+  ["dialogueId"]= 10348,
+  ["radius"]= 2.5,
+  ["staticId"]= 65045
+},
+[65046] = {
+  ["buttonNameLocalized"]= "采集",
+  ["collectTime"]= 1,
+  ["conditionId"]= 310303,
+  ["dropId"]= 6504601,
+  ["renovateTime"]= 3,
+  ["staticId"]= 65046
+},
+[65047] = {
+  ["buttonName"]= "CollectionButton15",
+  ["buttonNameLocalized"]= "查看",
+  ["staticId"]= 65047
+},
+[65048] = {
+  ["buttonName"]= "CollectionButton15",
+  ["buttonNameLocalized"]= "查看",
+  ["staticId"]= 65048
+},
+[65049] = {
+  ["buttonName"]= "CollectionButton18",
+  ["buttonNameLocalized"]= "采花",
+  ["staticId"]= 65049
+},
+[65050] = {
+  ["buttonName"]= "CollectionButton15",
+  ["buttonNameLocalized"]= "查看",
+  ["staticId"]= 65050
+},
+[65051] = {
+  ["buttonName"]= "CollectionButton12",
+  ["buttonNameLocalized"]= "安抚",
+  ["collectActionId"]= 4,
+  ["staticId"]= 65051
+},
+[65052] = {
+  ["buttonName"]= "CollectionButton10",
+  ["buttonNameLocalized"]= "寻找",
+  ["staticId"]= 65052
+},
+[65053] = {
+  ["buttonName"]= "CollectionButton15",
+  ["buttonNameLocalized"]= "查看",
+  ["staticId"]= 65053
+},
+[65054] = {
+  ["buttonName"]= "CollectionButton15",
+  ["buttonNameLocalized"]= "查看",
+  ["collectActionId"]= 4,
+  ["staticId"]= 65054
+},
+[65055] = {
+  ["buttonNameLocalized"]= "采集",
+  ["staticId"]= 65055
+},
+[65056] = {
+  ["buttonName"]= "CollectionButton20",
+  ["buttonNameLocalized"]= "捕捉",
+  ["staticId"]= 65056
+},
+[65057] = {
+  ["buttonNameLocalized"]= "采集",
+  ["staticId"]= 65057
+},
+[65058] = {
+  ["buttonNameLocalized"]= "采集",
+  ["staticId"]= 65058
+},
+[65059] = {
+  ["buttonNameLocalized"]= "采集",
+  ["conditionId"]= 310401,
+  ["dropId"]= 6505901,
+  ["renovateTime"]= 3,
+  ["staticId"]= 65059
+},
+[65060] = {
+  ["buttonName"]= "CollectionButton17",
+  ["dialogueId"]= 10445,
+  ["staticId"]= 65060
+},
+[65061] = {
+  ["buttonNameLocalized"]= "采集",
+  ["conditionId"]= 310402,
+  ["dropId"]= 6506101,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 3,
+  ["staticId"]= 65061
+},
+[65062] = {
+  ["buttonNameLocalized"]= "采集",
+  ["conditionId"]= 310403,
+  ["dropId"]= 6506201,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 3,
+  ["staticId"]= 65062
+},
+[65063] = {
+  ["buttonName"]= "CollectionButton15",
+  ["buttonNameLocalized"]= "查看",
+  ["radius"]= 2.5,
+  ["staticId"]= 65063
+},
+[65064] = {
+  ["buttonName"]= "CollectionButton15",
+  ["buttonNameLocalized"]= "查看",
+  ["dialogueId"]= 10446,
+  ["staticId"]= 65064
+},
+[65065] = {
+  ["buttonName"]= "CollectionButton93",
+  ["buttonNameLocalized"]= "灌药",
+  ["staticId"]= 65065
+},
+[65066] = {
+  ["buttonName"]= "CollectionButton17",
+  ["staticId"]= 65066
+},
+[65067] = {
+  ["buttonName"]= "CollectionButton17",
+  ["staticId"]= 65067
+},
+[65068] = {
+  ["buttonName"]= "CollectionButton17",
+  ["staticId"]= 65068
+},
+[65069] = {
+  ["buttonName"]= "CollectionButton7",
+  ["buttonNameLocalized"]= "挥洒",
+  ["staticId"]= 65069
+},
+[65070] = {
+  ["buttonName"]= "CollectionButton15",
+  ["buttonNameLocalized"]= "查看",
+  ["dialogueId"]= 20043,
+  ["staticId"]= 65070
+},
+[65071] = {
+  ["buttonName"]= "CollectionButton57",
+  ["buttonNameLocalized"]= "拿取",
+  ["staticId"]= 65071
+},
+[65072] = {
+  ["buttonName"]= "CollectionButton71",
+  ["buttonNameLocalized"]= "使用",
+  ["staticId"]= 65072
+},
+[65073] = {
+  ["buttonNameLocalized"]= "采集",
+  ["conditionId"]= 410204,
+  ["dropId"]= 6507301,
+  ["staticId"]= 65073
+},
+[65074] = {
+  ["buttonName"]= "CollectionButton28",
+  ["buttonNameLocalized"]= "探查",
+  ["staticId"]= 65074
+},
+[65075] = {
+  ["buttonName"]= "CollectionButton57",
+  ["buttonNameLocalized"]= "拿取",
+  ["conditionId"]= 420103,
+  ["dropId"]= 6507501,
+  ["staticId"]= 65075
+},
+[65076] = {
+  ["buttonName"]= "CollectionButton57",
+  ["buttonNameLocalized"]= "拿取",
+  ["collectTime"]= 1,
+  ["conditionId"]= 420104,
+  ["dropId"]= 6507601,
+  ["renovateTime"]= 5,
+  ["staticId"]= 65076
+},
+[65077] = {
+  ["buttonName"]= "CollectionButton33",
+  ["buttonNameLocalized"]= "搜寻",
+  ["staticId"]= 65077
+},
+[65078] = {
+  ["buttonName"]= "CollectionButton57",
+  ["buttonNameLocalized"]= "拿取",
+  ["staticId"]= 65078
+},
+[65079] = {
+  ["buttonNameLocalized"]= "采集",
+  ["collectTime"]= 1,
+  ["conditionId"]= 420105,
+  ["dropId"]= 6507901,
+  ["renovateTime"]= 3,
+  ["staticId"]= 65079
+},
+[65080] = {
+  ["buttonNameLocalized"]= "采集",
+  ["collectTime"]= 1,
+  ["conditionId"]= 410303,
+  ["dropId"]= 6508001,
+  ["staticId"]= 65080
+},
+[65081] = {
+  ["buttonName"]= "CollectionButton15",
+  ["buttonNameLocalized"]= "采集",
+  ["collectTime"]= 1,
+  ["dialogueId"]= 20234,
+  ["staticId"]= 65081
+},
+[65082] = {
+  ["buttonNameLocalized"]= "采集",
+  ["collectTime"]= 1,
+  ["dialogueId"]= 20235,
+  ["staticId"]= 65082
+},
+[65083] = {
+  ["buttonNameLocalized"]= "采集",
+  ["collectTime"]= 1,
+  ["conditionId"]= 420203,
+  ["dropId"]= 6508301,
+  ["staticId"]= 65083
+},
+[65084] = {
+  ["buttonName"]= "CollectionButton12",
+  ["buttonNameLocalized"]= "安抚",
+  ["collectTime"]= 1,
+  ["staticId"]= 65084
+},
+[65085] = {
+  ["buttonName"]= "CollectionButton35",
+  ["buttonNameLocalized"]= "解救",
+  ["collectTime"]= 1,
+  ["staticId"]= 65085
+},
+[65086] = {
+  ["buttonName"]= "CollectionButton57",
+  ["buttonNameLocalized"]= "拿取",
+  ["collectTime"]= 1,
+  ["staticId"]= 65086
+},
+[65087] = {
+  ["buttonName"]= "CollectionButton38",
+  ["buttonNameLocalized"]= "观察",
+  ["collectTime"]= 1,
+  ["staticId"]= 65087
+},
+[65088] = {
+  ["buttonNameLocalized"]= "采集",
+  ["collectTime"]= 1,
+  ["conditionId"]= 420204,
+  ["dropId"]= 6508801,
+  ["staticId"]= 65088
+},
+[65089] = {
+  ["buttonName"]= "CollectionButton33",
+  ["buttonNameLocalized"]= "搜寻",
+  ["conditionId"]= 410304,
+  ["dropId"]= 1100060702,
+  ["radius"]= 2.5,
+  ["staticId"]= 65089
+},
+[65090] = {
+  ["buttonName"]= "CollectionButton15",
+  ["buttonNameLocalized"]= "查看",
+  ["collectTime"]= 1,
+  ["dialogueId"]= 30332,
+  ["staticId"]= 65090
+},
+[65091] = {
+  ["buttonName"]= "CollectionButton103",
+  ["buttonNameLocalized"]= "喂水",
+  ["collectTime"]= 1,
+  ["dialogueId"]= 30333,
+  ["staticId"]= 65091
+},
+[65092] = {
+  ["buttonNameLocalized"]= "采集",
+  ["collectTime"]= 1,
+  ["conditionId"]= 420303,
+  ["dropId"]= 6509201,
+  ["renovateTime"]= 3,
+  ["staticId"]= 65092
+},
+[65093] = {
+  ["buttonName"]= "CollectionButton104",
+  ["buttonNameLocalized"]= "打破",
+  ["collectTime"]= 1,
+  ["conditionId"]= 420304,
+  ["dropId"]= 6509301,
+  ["renovateTime"]= 3,
+  ["staticId"]= 65093
+},
+[65094] = {
+  ["buttonNameLocalized"]= "采集",
+  ["collectTime"]= 1,
+  ["renovateTime"]= 3,
+  ["staticId"]= 65094
+},
+[65095] = {
+  ["buttonNameLocalized"]= "采集",
+  ["collectTime"]= 1,
+  ["renovateTime"]= 3,
+  ["staticId"]= 65095
+},
+[65096] = {
+  ["buttonNameLocalized"]= "采集",
+  ["collectTime"]= 1,
+  ["radius"]= 3,
+  ["renovateTime"]= 3,
+  ["staticId"]= 65096
+},
+[65097] = {
+  ["buttonName"]= "CollectionButton106",
+  ["buttonNameLocalized"]= "找回",
+  ["collectTime"]= 1,
+  ["conditionId"]= 430101,
+  ["dropId"]= 6509701,
+  ["radius"]= 3,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65097
+},
+[65098] = {
+  ["buttonName"]= "LifeSkillName_03",
+  ["buttonNameLocalized"]= "园艺",
+  ["conditionId"]= 210043,
+  ["dropId"]= 6509801,
+  ["radius"]= 3,
+  ["staticId"]= 65098
+},
+[65099] = {
+  ["buttonNameLocalized"]= "找回",
+  ["collectTime"]= 1,
+  ["conditionId"]= 310501,
+  ["dropId"]= 6509901,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65099
+},
+[65100] = {
+  ["buttonNameLocalized"]= "找回",
+  ["collectTime"]= 1,
+  ["conditionId"]= 310502,
+  ["dropId"]= 6510001,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65100
+},
+[65101] = {
+  ["buttonName"]= "CollectionButton17",
+  ["buttonNameLocalized"]= "找回",
+  ["collectResId"]= "CollectIcon2",
+  ["collectTime"]= 1,
+  ["dialogueId"]= 10556,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65101
+},
+[65102] = {
+  ["buttonName"]= "CollectionButton110",
+  ["buttonNameLocalized"]= "找回",
+  ["collectTime"]= 1,
+  ["renovateTime"]= 999,
+  ["staticId"]= 65102
+},
+[65103] = {
+  ["buttonNameLocalized"]= 0,
+  ["conditionId"]= 420503,
+  ["dropId"]= 6510301,
+  ["radius"]= 6,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65103
+},
+[65104] = {
+  ["buttonNameLocalized"]= 0,
+  ["conditionId"]= 210001,
+  ["dropId"]= 6510401,
+  ["radius"]= 4,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65104
+},
+[65105] = {
+  ["buttonNameLocalized"]= 0,
+  ["conditionId"]= 431003,
+  ["dropId"]= 6510501,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65105
+},
+[65106] = {
+  ["buttonNameLocalized"]= 0,
+  ["conditionId"]= 431103,
+  ["dropId"]= 6510601,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65106
+},
+[65107] = {
+  ["buttonName"]= "LifeSkillName_03",
+  ["buttonNameLocalized"]= 0,
+  ["conditionId"]= 210044,
+  ["dropId"]= 6510701,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65107
+},
+[65108] = {
+  ["buttonName"]= "CollectionButton57",
+  ["buttonNameLocalized"]= "拿取",
+  ["staticId"]= 65108
+},
+[65109] = {
+  ["buttonName"]= "CollectionButton57",
+  ["buttonNameLocalized"]= "拿取",
+  ["staticId"]= 65109
+},
+[65110] = {
+  ["buttonName"]= "CollectionButton57",
+  ["buttonNameLocalized"]= "拿取",
+  ["staticId"]= 65110
+},
+[65111] = {
+  ["buttonName"]= "CollectionButton57",
+  ["buttonNameLocalized"]= "拿取",
+  ["dialogueId"]= 10563,
+  ["staticId"]= 65111
+},
+[65112] = {
+  ["buttonName"]= "CollectionButton33",
+  ["buttonNameLocalized"]= "搜寻",
+  ["conditionId"]= 410403,
+  ["dropId"]= 6511201,
+  ["staticId"]= 65112
+},
+[65113] = {
+  ["buttonName"]= "CollectionButton33",
+  ["buttonNameLocalized"]= "搜寻",
+  ["conditionId"]= 410404,
+  ["dropId"]= 6511301,
+  ["staticId"]= 65113
+},
+[65114] = {
+  ["buttonName"]= "CollectionButton71",
+  ["buttonNameLocalized"]= "搜寻",
+  ["dialogueId"]= 30714,
+  ["renovateTime"]= 999,
+  ["staticId"]= 65114
+},
+[65115] = {
+  ["buttonName"]= "CollectionButton9",
+  ["buttonNameLocalized"]= "搜寻",
+  ["renovateTime"]= 999,
+  ["staticId"]= 65115
+},
+[65116] = {
+  ["buttonName"]= "CollectionButton33",
+  ["buttonNameLocalized"]= "搜寻",
+  ["renovateTime"]= 999,
+  ["staticId"]= 65116
+},
+[65117] = {
+  ["buttonName"]= "CollectionButton71",
+  ["buttonNameLocalized"]= "搜寻",
+  ["dialogueId"]= 30715,
+  ["renovateTime"]= 999,
+  ["staticId"]= 65117
+},
+[65118] = {
+  ["buttonName"]= "CollectionButton71",
+  ["buttonNameLocalized"]= "搜寻",
+  ["dialogueId"]= 30716,
+  ["renovateTime"]= 999,
+  ["staticId"]= 65118
+},
+[65119] = {
+  ["buttonName"]= "CollectionButton17",
+  ["staticId"]= 65119
+},
+[65120] = {
+  ["conditionId"]= 420803,
+  ["dropId"]= 6512001,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65120
+},
+[65121] = {
+  ["buttonName"]= "CollectionButton28",
+  ["dialogueId"]= 20135,
+  ["staticId"]= 65121
+},
+[65122] = {
+  ["buttonName"]= "CollectionButton28",
+  ["dialogueId"]= 20236,
+  ["staticId"]= 65122
+},
+[65123] = {
+  ["buttonName"]= "CollectionButton28",
+  ["dialogueId"]= 20237,
+  ["staticId"]= 65123
+},
+[65124] = {
+  ["conditionId"]= 420903,
+  ["dropId"]= 6512401,
+  ["renovateTime"]= 3,
+  ["staticId"]= 65124
+},
+[65125] = {
+  ["buttonName"]= "CollectionButton107",
+  ["collectActionId"]= 0,
+  ["staticId"]= 65125
+},
+[65126] = {
+  ["conditionId"]= 431203,
+  ["dropId"]= 6512601,
+  ["renovateTime"]= 3,
+  ["staticId"]= 65126
+},
+[65127] = {
+  ["conditionId"]= 431403,
+  ["dropId"]= 6512701,
+  ["renovateTime"]= 3,
+  ["staticId"]= 65127
+},
+[65128] = {
+  ["buttonName"]= "CollectionButton15",
+  ["collectResId"]= "CollectIcon2",
+  ["dialogueId"]= 81413,
+  ["staticId"]= 65128
+},
+[65129] = {
+  ["buttonName"]= "CollectionButton103",
+  ["staticId"]= 65129
+},
+[65130] = {
+  ["buttonName"]= "CollectionButton17",
+  ["collectResId"]= "CollectIcon2",
+  ["dialogueId"]= 81604,
+  ["staticId"]= 65130
+},
+[65131] = {
+  ["buttonName"]= "CollectionButton17",
+  ["collectResId"]= "CollectIcon2",
+  ["dialogueId"]= 81605,
+  ["staticId"]= 65131
+},
+[65132] = {
+  ["collectTime"]= 1,
+  ["conditionId"]= 410503,
+  ["dropId"]= 6513201,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65132
+},
+[65133] = {
+  ["buttonName"]= "CollectionButton62",
+  ["conditionId"]= 410504,
+  ["dropId"]= 6513301,
+  ["staticId"]= 65133
+},
+[65135] = {
+  ["buttonName"]= "CollectionButton17",
+  ["collectResId"]= "CollectIcon2",
+  ["dialogueId"]= 31021,
+  ["staticId"]= 65135
+},
+[65136] = {
+  ["buttonName"]= "CollectionButton97",
+  ["staticId"]= 65136
+},
+[65137] = {
+  ["conditionId"]= 421004,
+  ["dropId"]= 6513701,
+  ["staticId"]= 65137
+},
+[65138] = {
+  ["buttonName"]= "CollectionButton15",
+  ["staticId"]= 65138
+},
+[65139] = {
+  ["buttonName"]= "CollectionButton17",
+  ["collectResId"]= "CollectIcon2",
+  ["dialogueId"]= 31020,
+  ["staticId"]= 65139
+},
+[65140] = {
+  ["buttonName"]= "CollectionButton17",
+  ["collectResId"]= "CollectIcon2",
+  ["dialogueId"]= 31022,
+  ["staticId"]= 65140
+},
+[65141] = {
+  ["buttonName"]= "CollectionButton57",
+  ["conditionId"]= 421005,
+  ["dropId"]= 6514101,
+  ["staticId"]= 65141
+},
+[65142] = {
+  ["staticId"]= 65142
+},
+[65143] = {
+  ["buttonName"]= "CollectionButton93",
+  ["staticId"]= 65143
+},
+[65144] = {
+  ["buttonNameLocalized"]= "",
+  ["conditionId"]= 310601,
+  ["dropId"]= 10801052,
+  ["staticId"]= 65144
+},
+[65145] = {
+  ["buttonName"]= "CollectionButton17",
+  ["collectResId"]= "CollectIcon2",
+  ["dialogueId"]= 10663,
+  ["staticId"]= 65145
+},
+[65146] = {
+  ["buttonName"]= "CollectionButton17",
+  ["collectResId"]= "CollectIcon2",
+  ["dialogueId"]= 10664,
+  ["staticId"]= 65146
+},
+[65147] = {
+  ["buttonName"]= "CollectionButton17",
+  ["collectResId"]= "CollectIcon2",
+  ["dialogueId"]= 10665,
+  ["staticId"]= 65147
+},
+[65148] = {
+  ["buttonName"]= "CollectionButton17",
+  ["collectResId"]= "CollectIcon2",
+  ["dialogueId"]= 10666,
+  ["staticId"]= 65148
+},
+[65149] = {
+  ["buttonName"]= "CollectionButton17",
+  ["collectResId"]= "CollectIcon2",
+  ["dialogueId"]= 10667,
+  ["staticId"]= 65149
+},
+[65150] = {
+  ["buttonName"]= "CollectionButton17",
+  ["collectResId"]= "CollectIcon2",
+  ["dialogueId"]= 10668,
+  ["staticId"]= 65150
+},
+[65151] = {
+  ["conditionId"]= 310602,
+  ["dropId"]= 10801054,
+  ["staticId"]= 65151
+},
+[65152] = {
+  ["buttonName"]= "CollectionButton57",
+  ["staticId"]= 65152
+},
+[65153] = {
+  ["buttonName"]= "CollectionButton17",
+  ["collectResId"]= "CollectIcon2",
+  ["dialogueId"]= 10662,
+  ["staticId"]= 65153
+},
+[65154] = {
+  ["collectTime"]= 1,
+  ["conditionId"]= 421103,
+  ["dropId"]= 6515401,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65154
+},
+[65155] = {
+  ["buttonName"]= "CollectionButton17",
+  ["collectResId"]= "CollectIcon2",
+  ["staticId"]= 65155
+},
+[65156] = {
+  ["buttonNameLocalized"]= "采集",
+  ["conditionId"]= 410203,
+  ["dropId"]= 6506101,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 3,
+  ["staticId"]= 65156
+},
+[65157] = {
+  ["buttonNameLocalized"]= "采集",
+  ["conditionId"]= 440103,
+  ["dropId"]= 6515701,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65157
+},
+[65158] = {
+  ["buttonNameLocalized"]= "采集",
+  ["conditionId"]= 440603,
+  ["dropId"]= 6515801,
+  ["radius"]= 3.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65158
+},
+[65159] = {
+  ["buttonNameLocalized"]= "采集",
+  ["conditionId"]= 440803,
+  ["dropId"]= 6515901,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65159
+},
+[65160] = {
+  ["buttonNameLocalized"]= "采集",
+  ["conditionId"]= 441103,
+  ["dropId"]= 6516001,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65160
+},
+[65161] = {
+  ["buttonNameLocalized"]= "采集",
+  ["conditionId"]= 441401,
+  ["dropId"]= 10801063,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65161
+},
+[65164] = {
+  ["buttonName"]= "CollectionButton17",
+  ["buttonNameLocalized"]= "采集",
+  ["dialogueId"]= 31224,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65164
+},
+[65166] = {
+  ["buttonNameLocalized"]= "采集",
+  ["conditionId"]= 431801,
+  ["dropId"]= 6516601,
+  ["renovateTime"]= 3,
+  ["staticId"]= 65166
+},
+[65167] = {
+  ["buttonName"]= "CollectionButton93",
+  ["buttonNameLocalized"]= "喂药",
+  ["staticId"]= 65167
+},
+[65168] = {
+  ["buttonName"]= "CollectionButton17",
+  ["buttonNameLocalized"]= "采集",
+  ["dialogueId"]= 31225,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65168
+},
+[65169] = {
+  ["buttonName"]= "CollectionButton17",
+  ["buttonNameLocalized"]= "采集",
+  ["dialogueId"]= 31226,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65169
+},
+[65170] = {
+  ["buttonName"]= "CollectionButton17",
+  ["dialogueId"]= 82207,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65170
+},
+[65171] = {
+  ["buttonName"]= "CollectionButton17",
+  ["dialogueId"]= 82208,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65171
+},
+[65172] = {
+  ["buttonName"]= "CollectionButton62",
+  ["buttonNameLocalized"]= "翻找",
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65172
+},
+[65173] = {
+  ["buttonName"]= "CollectionButton17",
+  ["dialogueId"]= 82302,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65173
+},
+[65174] = {
+  ["buttonName"]= "CollectionButton17",
+  ["dialogueId"]= 82311,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65174
+},
+[65175] = {
+  ["buttonName"]= "CollectionButton28",
+  ["buttonNameLocalized"]= "翻找",
+  ["collectResId"]= "CollectIcon2",
+  ["renovateTime"]= 2,
+  ["staticId"]= 65175
+},
+[65176] = {
+  ["buttonName"]= "CollectionButton28",
+  ["buttonNameLocalized"]= "翻找",
+  ["collectResId"]= "CollectIcon2",
+  ["renovateTime"]= 2,
+  ["staticId"]= 65176
+},
+[65177] = {
+  ["buttonName"]= "CollectionButton28",
+  ["buttonNameLocalized"]= "翻找",
+  ["collectResId"]= "CollectIcon2",
+  ["renovateTime"]= 2,
+  ["staticId"]= 65177
+},
+[65178] = {
+  ["buttonName"]= "CollectionButton17",
+  ["dialogueId"]= 82304,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65178
+},
+[65179] = {
+  ["buttonName"]= "CollectionButton17",
+  ["dialogueId"]= 82305,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65179
+},
+[65180] = {
+  ["buttonName"]= "CollectionButton17",
+  ["dialogueId"]= 82306,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65180
+},
+[65181] = {
+  ["buttonName"]= "CollectionButton17",
+  ["conditionId"]= 432401,
+  ["dropId"]= 1102241021,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65181
+},
+[65182] = {
+  ["buttonNameLocalized"]= "采集",
+  ["conditionId"]= 310701,
+  ["dropId"]= 6518201,
+  ["renovateTime"]= 3,
+  ["staticId"]= 65182
+},
+[65184] = {
+  ["buttonName"]= "CollectionButton17",
+  ["collectResId"]= "CollectIcon2",
+  ["dialogueId"]= 10770,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65184
+},
+[65185] = {
+  ["buttonName"]= "CollectionButton38",
+  ["buttonNameLocalized"]= "观察",
+  ["collectActionId"]= 7,
+  ["collectResId"]= "CollectIcon2",
+  ["dialogueId"]= 10771,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65185
+},
+[65186] = {
+  ["buttonName"]= "CollectionButton17",
+  ["collectResId"]= "CollectIcon2",
+  ["dialogueId"]= 10772,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65186
+},
+[65187] = {
+  ["buttonName"]= "CollectionButton17",
+  ["collectResId"]= "CollectIcon2",
+  ["dialogueId"]= 10773,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65187
+},
+[65188] = {
+  ["buttonName"]= "CollectionButton17",
+  ["collectResId"]= "CollectIcon2",
+  ["dialogueId"]= 10774,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65188
+},
+[65190] = {
+  ["buttonName"]= "CollectionButton17",
+  ["collectResId"]= "CollectIcon2",
+  ["dialogueId"]= 10775,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65190
+},
+[65191] = {
+  ["buttonName"]= "CollectionButton17",
+  ["collectResId"]= "CollectIcon2",
+  ["dialogueId"]= 10776,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65191
+},
+[65192] = {
+  ["buttonName"]= "CollectionButton17",
+  ["collectResId"]= "CollectIcon2",
+  ["dialogueId"]= 10777,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65192
+},
+[65193] = {
+  ["buttonName"]= "CollectionButton17",
+  ["collectResId"]= "CollectIcon2",
+  ["dialogueId"]= 10778,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65193
+},
+[65194] = {
+  ["buttonName"]= "CollectionButton127",
+  ["buttonNameLocalized"]= "交谈",
+  ["collectActionId"]= 7,
+  ["dialogueId"]= 10779,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65194
+},
+[65195] = {
+  ["buttonName"]= "CollectionButton15",
+  ["buttonNameLocalized"]= "查看",
+  ["collectResId"]= "CollectIcon2",
+  ["dialogueId"]= 10780,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65195
+},
+[65196] = {
+  ["buttonName"]= "CollectionButton18",
+  ["buttonNameLocalized"]= "查看",
+  ["conditionId"]= 310702,
+  ["dropId"]= 6519601,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65196
+},
+[65197] = {
+  ["buttonName"]= "CollectionButton15",
+  ["buttonNameLocalized"]= "查看",
+  ["collectResId"]= "CollectIcon2",
+  ["dialogueId"]= 10781,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65197
+},
+[65198] = {
+  ["buttonName"]= "CollectionButton15",
+  ["buttonNameLocalized"]= "查看",
+  ["collectResId"]= "CollectIcon2",
+  ["dialogueId"]= 10783,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65198
+},
+[65199] = {
+  ["buttonName"]= "CollectionButton129",
+  ["buttonNameLocalized"]= "拾取",
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65199
+},
+[65200] = {
+  ["buttonName"]= "CollectionButton129",
+  ["buttonNameLocalized"]= "拾取",
+  ["dialogueId"]= 82505,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65200
+},
+[65201] = {
+  ["buttonName"]= "CollectionButton17",
+  ["buttonNameLocalized"]= 0,
+  ["collectTime"]= 0,
+  ["dialogueId"]= 31311,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65201
+},
+[65202] = {
+  ["buttonName"]= "CollectionButton17",
+  ["buttonNameLocalized"]= 0,
+  ["collectTime"]= 0,
+  ["dialogueId"]= 31312,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65202
+},
+[65203] = {
+  ["buttonName"]= "CollectionButton17",
+  ["buttonNameLocalized"]= 0,
+  ["collectTime"]= 0,
+  ["dialogueId"]= 31313,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65203
+},
+[65204] = {
+  ["buttonNameLocalized"]= "采集",
+  ["collectTime"]= 1,
+  ["conditionId"]= 421301,
+  ["dropId"]= 1102211061,
+  ["renovateTime"]= 1,
+  ["staticId"]= 65204
+},
+[65205] = {
+  ["buttonName"]= "CollectionButton129",
+  ["buttonNameLocalized"]= "拾取",
+  ["conditionId"]= 432501,
+  ["dropId"]= 1080314501,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65205
+},
+[65206] = {
+  ["buttonNameLocalized"]= "采集",
+  ["conditionId"]= 410603,
+  ["dropId"]= 1100091032,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65206
+},
+[65207] = {
+  ["buttonName"]= "CollectionButton17",
+  ["dialogueId"]= 20537,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65207
+},
+[65208] = {
+  ["buttonName"]= "CollectionButton107",
+  ["buttonNameLocalized"]= "泼洒",
+  ["dialogueId"]= 20538,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65208
+},
+[65209] = {
+  ["buttonNameLocalized"]= "采集",
+  ["conditionId"]= 410604,
+  ["dropId"]= 1100091152,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65209
+},
+[65210] = {
+  ["buttonNameLocalized"]= "采集",
+  ["collectTime"]= 1,
+  ["conditionId"]= 432601,
+  ["dropId"]= 1080401501,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65210
+},
+[65211] = {
+  ["buttonName"]= "CollectionButton17",
+  ["collectTime"]= 1,
+  ["dialogueId"]= 82602,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65211
+},
+[65212] = {
+  ["buttonName"]= "CollectionButton17",
+  ["collectTime"]= 1,
+  ["dialogueId"]= 82603,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65212
+},
+[65213] = {
+  ["buttonName"]= "CollectionButton17",
+  ["collectTime"]= 1,
+  ["dialogueId"]= 82604,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65213
+},
+[65214] = {
+  ["buttonName"]= "CollectionButton15",
+  ["buttonNameLocalized"]= "查看",
+  ["collectResId"]= "CollectIcon2",
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65214
+},
+[65215] = {
+  ["buttonName"]= "CollectionButton15",
+  ["buttonNameLocalized"]= "查看",
+  ["collectResId"]= "CollectIcon2",
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65215
+},
+[65216] = {
+  ["buttonName"]= "CollectionButton15",
+  ["buttonNameLocalized"]= "查看",
+  ["collectResId"]= "CollectIcon2",
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65216
+},
+[65217] = {
+  ["buttonName"]= "CollectionButton15",
+  ["buttonNameLocalized"]= "查看",
+  ["collectResId"]= "CollectIcon2",
+  ["dialogueId"]= 31520,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65217
+},
+[65218] = {
+  ["buttonNameLocalized"]= "采集",
+  ["conditionId"]= 421502,
+  ["dropId"]= 1101151012,
+  ["staticId"]= 65218
+},
+[65255] = {
+  ["buttonName"]= "CollectionButton17",
+  ["collectTime"]= 1,
+  ["dialogueId"]= 82702,
+  ["radius"]= 2.5,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65255
+},
+[65256] = {
+  ["buttonName"]= "CollectionButton15",
+  ["buttonNameLocalized"]= "查看",
+  ["collectResId"]= "CollectIcon2",
+  ["dialogueId"]= 82703,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65256
+},
+[65257] = {
+  ["buttonName"]= "CollectionButton15",
+  ["buttonNameLocalized"]= "查看",
+  ["collectResId"]= "CollectIcon2",
+  ["dialogueId"]= 82706,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65257
+},
+[65259] = {
+  ["buttonName"]= "CollectionButton129",
+  ["buttonNameLocalized"]= "拾取",
+  ["conditionId"]= 432801,
+  ["dialogueId"]= 82809,
+  ["dropId"]= 6519604,
+  ["staticId"]= 65259
+},
+[65261] = {
+  ["buttonNameLocalized"]= "采集",
+  ["conditionId"]= 441403,
+  ["dropId"]= 10801063,
+  ["renovateTime"]= 2,
+  ["staticId"]= 65261
+},
+[67188] = {
+  ["buttonName"]= "CollectionButton15",
+  ["buttonNameLocalized"]= "查看",
+  ["collectActionId"]= 7,
+  ["collectResId"]= "CollectIcon2",
+  ["dialogueId"]= 70019,
+  ["staticId"]= 67188
+},
+[67281] = {
+  ["buttonNameLocalized"]= "采集",
+  ["collectTime"]= 3,
+  ["staticId"]= 67281
+},
+[67287] = {
+  ["buttonName"]= "CollectionButton15",
+  ["buttonNameLocalized"]= "查看",
+  ["collectTime"]= 3,
+  ["conditionId"]= 210001,
+  ["dropId"]= 10055,
+  ["isBindingTask"]= 0,
+  ["renovateTime"]= 86400,
+  ["staticId"]= 67287
+}
+}
+local baseTable={
+  ["bubbleId"]= 0,
+  ["buttonName"]= "CollectionButton4",
+  ["buttonNameLocalized"]= "调查",
+  ["collectActionId"]= 1,
+  ["collectResId"]= "CollectIcon1",
+  ["collectTime"]= 2,
+  ["conditionId"]= 0,
+  ["dialogueId"]= 0,
+  ["dropId"]= 0,
+  ["isBindingTask"]= 1,
+  ["radius"]= 2,
+  ["renovateTime"]= 0,
+  ["state"]= 0,
+  ["staticId"]= 10000
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

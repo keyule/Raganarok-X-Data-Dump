@@ -1,0 +1,408 @@
+TextAsset Base
+	string m_Name = "data_guild_guildPveAward"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["id"]= 2,
+  ["round"]= 2
+},
+[3] = {
+  ["id"]= 3,
+  ["round"]= 3
+},
+[4] = {
+  ["id"]= 4,
+  ["round"]= 4
+},
+[5] = {
+  ["id"]= 5,
+  ["round"]= 5
+},
+[6] = {
+  ["id"]= 6,
+  ["round"]= 6
+},
+[7] = {
+  ["id"]= 7,
+  ["round"]= 7
+},
+[8] = {
+  ["id"]= 8,
+  ["round"]= 8
+},
+[9] = {
+  ["guildAwardamount"]= {
+    8
+  },
+  ["GuildAwardShowAmount"]= {
+    8
+  },
+  ["id"]= 9,
+  ["round"]= 9
+},
+[10] = {
+  ["guildAwardamount"]= {
+    8
+  },
+  ["GuildAwardShowAmount"]= {
+    8
+  },
+  ["id"]= 10,
+  ["round"]= 10
+},
+[11] = {
+  ["guildAwardamount"]= {
+    8
+  },
+  ["GuildAwardShowAmount"]= {
+    8
+  },
+  ["id"]= 11,
+  ["round"]= 11
+},
+[12] = {
+  ["guildAwardamount"]= {
+    8
+  },
+  ["GuildAwardShowAmount"]= {
+    8
+  },
+  ["id"]= 12,
+  ["round"]= 12
+},
+[13] = {
+  ["guildAwardamount"]= {
+    8
+  },
+  ["GuildAwardShowAmount"]= {
+    8
+  },
+  ["id"]= 13,
+  ["round"]= 13
+},
+[14] = {
+  ["guildAwardamount"]= {
+    8
+  },
+  ["GuildAwardShowAmount"]= {
+    8
+  },
+  ["id"]= 14,
+  ["round"]= 14
+},
+[15] = {
+  ["guildAwardamount"]= {
+    8
+  },
+  ["GuildAwardShowAmount"]= {
+    8
+  },
+  ["id"]= 15,
+  ["round"]= 15
+},
+[16] = {
+  ["guildAwardamount"]= {
+    8
+  },
+  ["GuildAwardShowAmount"]= {
+    8
+  },
+  ["id"]= 16,
+  ["round"]= 16
+},
+[17] = {
+  ["amount"]= {
+    2
+  },
+  ["guildAwardamount"]= {
+    12
+  },
+  ["GuildAwardShowAmount"]= {
+    12
+  },
+  ["id"]= 17,
+  ["MemberAwardShowAmount"]= {
+    2
+  },
+  ["round"]= 17
+},
+[18] = {
+  ["amount"]= {
+    2
+  },
+  ["guildAwardamount"]= {
+    12
+  },
+  ["GuildAwardShowAmount"]= {
+    12
+  },
+  ["id"]= 18,
+  ["MemberAwardShowAmount"]= {
+    2
+  },
+  ["round"]= 18
+},
+[19] = {
+  ["amount"]= {
+    2
+  },
+  ["guildAwardamount"]= {
+    12
+  },
+  ["GuildAwardShowAmount"]= {
+    12
+  },
+  ["id"]= 19,
+  ["MemberAwardShowAmount"]= {
+    2
+  },
+  ["round"]= 19
+},
+[20] = {
+  ["amount"]= {
+    2
+  },
+  ["guildAwardamount"]= {
+    12
+  },
+  ["GuildAwardShowAmount"]= {
+    12
+  },
+  ["id"]= 20,
+  ["MemberAwardShowAmount"]= {
+    2
+  },
+  ["round"]= 20
+},
+[21] = {
+  ["amount"]= {
+    2
+  },
+  ["guildAwardamount"]= {
+    12
+  },
+  ["GuildAwardShowAmount"]= {
+    12
+  },
+  ["id"]= 21,
+  ["MemberAwardShowAmount"]= {
+    2
+  },
+  ["round"]= 21
+},
+[22] = {
+  ["amount"]= {
+    2
+  },
+  ["guildAwardamount"]= {
+    12
+  },
+  ["GuildAwardShowAmount"]= {
+    12
+  },
+  ["id"]= 22,
+  ["MemberAwardShowAmount"]= {
+    2
+  },
+  ["round"]= 22
+},
+[23] = {
+  ["amount"]= {
+    2
+  },
+  ["guildAwardamount"]= {
+    12
+  },
+  ["GuildAwardShowAmount"]= {
+    12
+  },
+  ["id"]= 23,
+  ["MemberAwardShowAmount"]= {
+    2
+  },
+  ["round"]= 23
+},
+[24] = {
+  ["amount"]= {
+    2
+  },
+  ["guildAwardamount"]= {
+    12
+  },
+  ["GuildAwardShowAmount"]= {
+    12
+  },
+  ["id"]= 24,
+  ["MemberAwardShowAmount"]= {
+    2
+  },
+  ["round"]= 24
+},
+[25] = {
+  ["amount"]= {
+    2
+  },
+  ["guildAwardamount"]= {
+    16
+  },
+  ["GuildAwardShowAmount"]= {
+    16
+  },
+  ["id"]= 25,
+  ["MemberAwardShowAmount"]= {
+    2
+  },
+  ["round"]= 25
+},
+[26] = {
+  ["amount"]= {
+    2
+  },
+  ["guildAwardamount"]= {
+    16
+  },
+  ["GuildAwardShowAmount"]= {
+    16
+  },
+  ["id"]= 26,
+  ["MemberAwardShowAmount"]= {
+    2
+  },
+  ["round"]= 26
+},
+[27] = {
+  ["amount"]= {
+    2
+  },
+  ["guildAwardamount"]= {
+    16
+  },
+  ["GuildAwardShowAmount"]= {
+    16
+  },
+  ["id"]= 27,
+  ["MemberAwardShowAmount"]= {
+    2
+  },
+  ["round"]= 27
+},
+[28] = {
+  ["amount"]= {
+    2
+  },
+  ["guildAwardamount"]= {
+    16
+  },
+  ["GuildAwardShowAmount"]= {
+    16
+  },
+  ["id"]= 28,
+  ["MemberAwardShowAmount"]= {
+    2
+  },
+  ["round"]= 28
+},
+[29] = {
+  ["amount"]= {
+    2
+  },
+  ["guildAwardamount"]= {
+    16
+  },
+  ["GuildAwardShowAmount"]= {
+    16
+  },
+  ["id"]= 29,
+  ["MemberAwardShowAmount"]= {
+    2
+  },
+  ["round"]= 29
+},
+[30] = {
+  ["amount"]= {
+    2
+  },
+  ["guildAwardamount"]= {
+    16
+  },
+  ["GuildAwardShowAmount"]= {
+    16
+  },
+  ["id"]= 30,
+  ["MemberAwardShowAmount"]= {
+    2
+  },
+  ["round"]= 30
+},
+[31] = {
+  ["amount"]= {
+    2
+  },
+  ["guildAwardamount"]= {
+    16
+  },
+  ["GuildAwardShowAmount"]= {
+    16
+  },
+  ["id"]= 31,
+  ["MemberAwardShowAmount"]= {
+    2
+  },
+  ["round"]= 31
+},
+[32] = {
+  ["amount"]= {
+    2
+  },
+  ["guildAwardamount"]= {
+    16
+  },
+  ["GuildAwardShowAmount"]= {
+    16
+  },
+  ["id"]= 32,
+  ["MemberAwardShowAmount"]= {
+    2
+  },
+  ["round"]= 32
+}
+}
+local baseTable={
+  ["amount"]= {
+    1
+  },
+  ["guildAwardamount"]= {
+    4
+  },
+  ["GuildAwardShowAmount"]= {
+    4
+  },
+  ["GuildAwardShowId"]= {
+    10204187
+  },
+  ["guildAwardstaticId"]= {
+    10204187
+  },
+  ["guildAwardType"]= {
+    5
+  },
+  ["id"]= 1,
+  ["MemberAwardShowAmount"]= {
+    1
+  },
+  ["MemberAwardShowId"]= {
+    10204186
+  },
+  ["pveProgress"]= 1,
+  ["round"]= 1,
+  ["staticId"]= {
+    10204186
+  },
+  ["type"]= {
+    5
+  }
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

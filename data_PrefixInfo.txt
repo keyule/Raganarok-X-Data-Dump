@@ -1,0 +1,12 @@
+TextAsset Base
+	string m_Name = "data_PrefixInfo"
+	string m_Script = "
+40PetPetAffixName17d4c7a"PrefixMonsterName1
+40PetPetAffixName27d5c4c"PrefixMonsterName2
+40PetPetAffixName34c557d"PrefixMonsterName3
+40PetPetAffixName47d514c"PrefixMonsterName4
+40PetPetAffixName54c707d"PrefixMonsterName5
+40PetPetAffixName65c7d4c"PrefixMonsterName6
+40PetPetAffixName77d4c7a"PrefixMonsterName7
+40PetPetAffixName87d5c4c"PrefixMonsterName8
+4	0	PetPetAffixName94c557d"PrefixMonsterName9"

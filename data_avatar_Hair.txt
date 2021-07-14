@@ -1,0 +1,65 @@
+TextAsset Base
+	string m_Name = "data_avatar_Hair"
+	string m_Script = "return {
+	[2101] = {
+		["hairId"] = 2101,
+		["isMale"] = 1,
+		["colorId"] = {1,2,3,4,5,6,7}
+	},
+	[2102] = {
+		["hairId"] = 2102,
+		["isMale"] = 1,
+		["colorId"] = {1,2,3,4,5,6,7}
+	},
+	[2103] = {
+		["hairId"] = 2103,
+		["isMale"] = 1,
+		["colorId"] = {1,2,3,4,5,6,7}
+	},
+	[2104] = {
+		["hairId"] = 2104,
+		["isMale"] = 1,
+		["colorId"] = {1,2,3,4,5,6,7}
+	},
+	[2105] = {
+		["hairId"] = 2105,
+		["isMale"] = 1,
+		["colorId"] = {1,2,3,4,5,6,7}
+	},
+	[2106] = {
+		["hairId"] = 2106,
+		["isMale"] = 1,
+		["colorId"] = {1,2,3,4,5,6,7}
+	},
+	[2201] = {
+		["hairId"] = 2201,
+		["isMale"] = 0,
+		["colorId"] = {1,2,3,4,5,6,7}
+	},
+	[2202] = {
+		["hairId"] = 2202,
+		["isMale"] = 0,
+		["colorId"] = {1,2,3,4,5,6,7}
+	},
+	[2203] = {
+		["hairId"] = 2203,
+		["isMale"] = 0,
+		["colorId"] = {1,2,3,4,5,6,7}
+	},
+	[2204] = {
+		["hairId"] = 2204,
+		["isMale"] = 0,
+		["colorId"] = {1,2,3,4,5,6,7}
+	},
+	[2205] = {
+		["hairId"] = 2205,
+		["isMale"] = 0,
+		["colorId"] = {1,2,3,4,5,6,7}
+	},
+	[2206] = {
+		["hairId"] = 2206,
+		["isMale"] = 0,
+		["colorId"] = {1,2,3,4,5,6,7}
+	}
+}
+"

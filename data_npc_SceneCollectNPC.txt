@@ -1,0 +1,79 @@
+TextAsset Base
+	string m_Name = "data_npc_SceneCollectNPC"
+	string m_Script = "local table= {
+[1] = {
+  ["needClickClose"]= 1
+},
+[2] = {
+  ["buttonName"]= "CollectionButton24",
+  ["ClickStopSocial"]= 0,
+  ["collectActionId"]= 33,
+  ["collectResId"]= "CollectIcon9",
+  ["collectTime"]= 0,
+  ["id"]= 2,
+  ["IsDynamic"]= 1,
+  ["Name"]= "影装女神像",
+  ["NPCDynamicId"]= {
+    60001013
+  },
+  ["npcStaticId"]= {},
+  ["OptArticle"]= "PrayArticle",
+  ["radius"]= 15,
+  ["showConditions"]= {
+    46000002
+  },
+  ["type"]= 3
+},
+[3] = {
+  ["BirthEffectID"]= 2000101,
+  ["id"]= 3,
+  ["Name"]= "结婚花车福利",
+  ["npcState"]= 1,
+  ["npcStaticId"]= {
+    61402
+  },
+  ["radius"]= 5
+},
+[4] = {
+  ["BirthEffectID"]= 1511128,
+  ["buttonName"]= "CollectionButton46",
+  ["collectTime"]= 2,
+  ["id"]= 4,
+  ["Name"]= "团本魔法球",
+  ["npcStaticId"]= {
+    61186
+  },
+  ["radius"]= 0,
+  ["showConditions"]= {
+    6101,
+    880001
+  },
+  ["type"]= 4
+}
+}
+local baseTable={
+  ["BirthEffectBoneId"]= 0,
+  ["BirthEffectID"]= 0,
+  ["buttonName"]= "CollectionButton57",
+  ["ClickStopSocial"]= 1,
+  ["collectActionId"]= 27,
+  ["collectResId"]= "CollectIcon8",
+  ["collectTime"]= 1,
+  ["id"]= 1,
+  ["IsDynamic"]= 0,
+  ["Name"]= "GVG补给箱",
+  ["needClickClose"]= 0,
+  ["NPCDynamicId"]= {},
+  ["npcState"]= 0,
+  ["npcStaticId"]= {
+    61401
+  },
+  ["OptArticle"]= "",
+  ["radius"]= 3,
+  ["showConditions"]= {},
+  ["type"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

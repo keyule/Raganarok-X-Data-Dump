@@ -1,0 +1,2054 @@
+TextAsset Base
+	string m_Name = "data_Shop_ExchangeGoods"
+	string m_Script = "local table= {
+[1] = {
+  ["dropId"]= 302001,
+  ["materialAmount"]= {
+    12,
+    0,
+    0,
+    0
+  },
+  ["materialId"]= {
+    10204140,
+    10204144,
+    10204148,
+    10204152
+  },
+  ["maxTimes"]= 100,
+  ["unlockCondition"]= 8001
+},
+[2] = {
+  ["dropId"]= 302002,
+  ["id"]= 2,
+  ["materialAmount"]= {
+    8,
+    2,
+    0,
+    0
+  },
+  ["materialId"]= {
+    10204140,
+    10204144,
+    10204148,
+    10204152
+  },
+  ["maxTimes"]= 100,
+  ["unlockCondition"]= 8001
+},
+[3] = {
+  ["dropId"]= 302003,
+  ["id"]= 3,
+  ["materialAmount"]= {
+    4,
+    4,
+    0,
+    0
+  },
+  ["materialId"]= {
+    10204140,
+    10204144,
+    10204148,
+    10204152
+  },
+  ["maxTimes"]= 100,
+  ["unlockCondition"]= 8001
+},
+[4] = {
+  ["dropId"]= 302004,
+  ["id"]= 4,
+  ["materialAmount"]= {
+    6,
+    6,
+    2,
+    0
+  },
+  ["materialId"]= {
+    10204140,
+    10204144,
+    10204148,
+    10204152
+  },
+  ["maxTimes"]= 50,
+  ["unlockCondition"]= 8002
+},
+[5] = {
+  ["dropId"]= 302005,
+  ["id"]= 5,
+  ["materialAmount"]= {
+    4,
+    4,
+    4,
+    0
+  },
+  ["materialId"]= {
+    10204140,
+    10204144,
+    10204148,
+    10204152
+  },
+  ["maxTimes"]= 50,
+  ["unlockCondition"]= 8002
+},
+[6] = {
+  ["dropId"]= 302006,
+  ["id"]= 6,
+  ["materialAmount"]= {
+    2,
+    2,
+    6,
+    0
+  },
+  ["materialId"]= {
+    10204140,
+    10204144,
+    10204148,
+    10204152
+  },
+  ["maxTimes"]= 50,
+  ["unlockCondition"]= 8002
+},
+[7] = {
+  ["dropId"]= 302007,
+  ["id"]= 7,
+  ["materialAmount"]= {
+    6,
+    8,
+    6,
+    2
+  },
+  ["materialId"]= {
+    10204140,
+    10204144,
+    10204148,
+    10204152
+  },
+  ["maxTimes"]= 25,
+  ["unlockCondition"]= 8003
+},
+[8] = {
+  ["dropId"]= 302008,
+  ["id"]= 8,
+  ["materialAmount"]= {
+    2,
+    6,
+    6,
+    4
+  },
+  ["materialId"]= {
+    10204140,
+    10204144,
+    10204148,
+    10204152
+  },
+  ["maxTimes"]= 25,
+  ["unlockCondition"]= 8003
+},
+[9] = {
+  ["dropId"]= 302009,
+  ["id"]= 9,
+  ["materialAmount"]= {
+    2,
+    2,
+    6,
+    6
+  },
+  ["materialId"]= {
+    10204140,
+    10204144,
+    10204148,
+    10204152
+  },
+  ["maxTimes"]= 25,
+  ["unlockCondition"]= 8003
+},
+[10] = {
+  ["dropId"]= 302010,
+  ["id"]= 10,
+  ["materialAmount"]= {
+    0,
+    6,
+    12,
+    12
+  },
+  ["materialId"]= {
+    10204140,
+    10204144,
+    10204148,
+    10204152
+  },
+  ["maxTimes"]= 10,
+  ["unlockCondition"]= 8004
+},
+[11] = {
+  ["dropId"]= 302011,
+  ["id"]= 11,
+  ["materialAmount"]= {
+    0,
+    0,
+    8,
+    18
+  },
+  ["materialId"]= {
+    10204140,
+    10204144,
+    10204148,
+    10204152
+  },
+  ["maxTimes"]= 10,
+  ["unlockCondition"]= 8004
+},
+[12] = {
+  ["dropId"]= 302012,
+  ["id"]= 12,
+  ["materialAmount"]= {
+    0,
+    0,
+    0,
+    24
+  },
+  ["materialId"]= {
+    10204140,
+    10204144,
+    10204148,
+    10204152
+  },
+  ["maxTimes"]= 10,
+  ["unlockCondition"]= 8004
+},
+[13] = {
+  ["dropId"]= 302013,
+  ["id"]= 13,
+  ["label"]= 2,
+  ["materialAmount"]= {
+    6,
+    6,
+    2,
+    0
+  },
+  ["materialId"]= {
+    10204141,
+    10204145,
+    10204149,
+    10204153
+  },
+  ["maxTimes"]= 50,
+  ["unlockCondition"]= 8001
+},
+[14] = {
+  ["dropId"]= 302014,
+  ["id"]= 14,
+  ["label"]= 2,
+  ["materialAmount"]= {
+    4,
+    4,
+    4,
+    0
+  },
+  ["materialId"]= {
+    10204141,
+    10204145,
+    10204149,
+    10204153
+  },
+  ["maxTimes"]= 50,
+  ["unlockCondition"]= 8001
+},
+[15] = {
+  ["dropId"]= 302015,
+  ["id"]= 15,
+  ["label"]= 2,
+  ["materialAmount"]= {
+    2,
+    2,
+    6,
+    0
+  },
+  ["materialId"]= {
+    10204141,
+    10204145,
+    10204149,
+    10204153
+  },
+  ["maxTimes"]= 50,
+  ["unlockCondition"]= 8001
+},
+[16] = {
+  ["dropId"]= 302016,
+  ["id"]= 16,
+  ["label"]= 2,
+  ["materialAmount"]= {
+    6,
+    8,
+    6,
+    2
+  },
+  ["materialId"]= {
+    10204141,
+    10204145,
+    10204149,
+    10204153
+  },
+  ["maxTimes"]= 25,
+  ["unlockCondition"]= 8002
+},
+[17] = {
+  ["dropId"]= 302017,
+  ["id"]= 17,
+  ["label"]= 2,
+  ["materialAmount"]= {
+    2,
+    6,
+    6,
+    4
+  },
+  ["materialId"]= {
+    10204141,
+    10204145,
+    10204149,
+    10204153
+  },
+  ["maxTimes"]= 25,
+  ["unlockCondition"]= 8002
+},
+[18] = {
+  ["dropId"]= 302018,
+  ["id"]= 18,
+  ["label"]= 2,
+  ["materialAmount"]= {
+    2,
+    2,
+    6,
+    6
+  },
+  ["materialId"]= {
+    10204141,
+    10204145,
+    10204149,
+    10204153
+  },
+  ["maxTimes"]= 25,
+  ["unlockCondition"]= 8002
+},
+[19] = {
+  ["dropId"]= 302019,
+  ["id"]= 19,
+  ["label"]= 2,
+  ["materialAmount"]= {
+    0,
+    6,
+    12,
+    12
+  },
+  ["materialId"]= {
+    10204141,
+    10204145,
+    10204149,
+    10204153
+  },
+  ["maxTimes"]= 12,
+  ["unlockCondition"]= 8003
+},
+[20] = {
+  ["dropId"]= 302020,
+  ["id"]= 20,
+  ["label"]= 2,
+  ["materialAmount"]= {
+    0,
+    0,
+    8,
+    18
+  },
+  ["materialId"]= {
+    10204141,
+    10204145,
+    10204149,
+    10204153
+  },
+  ["maxTimes"]= 12,
+  ["unlockCondition"]= 8003
+},
+[21] = {
+  ["dropId"]= 302021,
+  ["id"]= 21,
+  ["label"]= 2,
+  ["materialAmount"]= {
+    0,
+    0,
+    0,
+    24
+  },
+  ["materialId"]= {
+    10204141,
+    10204145,
+    10204149,
+    10204153
+  },
+  ["maxTimes"]= 12,
+  ["unlockCondition"]= 8003
+},
+[22] = {
+  ["dropId"]= 302022,
+  ["id"]= 22,
+  ["label"]= 2,
+  ["materialAmount"]= {
+    0,
+    14,
+    28,
+    20
+  },
+  ["materialId"]= {
+    10204141,
+    10204145,
+    10204149,
+    10204153
+  },
+  ["maxTimes"]= 6,
+  ["unlockCondition"]= 8004
+},
+[23] = {
+  ["dropId"]= 302023,
+  ["id"]= 23,
+  ["label"]= 2,
+  ["materialAmount"]= {
+    0,
+    12,
+    24,
+    24
+  },
+  ["materialId"]= {
+    10204141,
+    10204145,
+    10204149,
+    10204153
+  },
+  ["maxTimes"]= 6,
+  ["unlockCondition"]= 8004
+},
+[24] = {
+  ["dropId"]= 302024,
+  ["id"]= 24,
+  ["label"]= 2,
+  ["materialAmount"]= {
+    0,
+    6,
+    20,
+    30
+  },
+  ["materialId"]= {
+    10204141,
+    10204145,
+    10204149,
+    10204153
+  },
+  ["maxTimes"]= 6,
+  ["unlockCondition"]= 8004
+},
+[25] = {
+  ["dropId"]= 302025,
+  ["id"]= 25,
+  ["label"]= 2,
+  ["materialAmount"]= {
+    0,
+    16,
+    64,
+    40
+  },
+  ["materialId"]= {
+    10204141,
+    10204145,
+    10204149,
+    10204153
+  },
+  ["maxTimes"]= 3,
+  ["unlockCondition"]= 8005
+},
+[26] = {
+  ["dropId"]= 302026,
+  ["id"]= 26,
+  ["label"]= 2,
+  ["materialAmount"]= {
+    0,
+    14,
+    52,
+    50
+  },
+  ["materialId"]= {
+    10204141,
+    10204145,
+    10204149,
+    10204153
+  },
+  ["maxTimes"]= 3,
+  ["unlockCondition"]= 8005
+},
+[27] = {
+  ["dropId"]= 302027,
+  ["id"]= 27,
+  ["label"]= 2,
+  ["materialAmount"]= {
+    0,
+    0,
+    48,
+    60
+  },
+  ["materialId"]= {
+    10204141,
+    10204145,
+    10204149,
+    10204153
+  },
+  ["maxTimes"]= 3,
+  ["unlockCondition"]= 8005
+},
+[28] = {
+  ["dropId"]= 302028,
+  ["id"]= 28,
+  ["label"]= 3,
+  ["materialAmount"]= {
+    20,
+    10,
+    0,
+    0
+  },
+  ["materialId"]= {
+    10204142,
+    10204146,
+    10204150,
+    10204154
+  },
+  ["maxTimes"]= 30,
+  ["unlockCondition"]= 8001
+},
+[29] = {
+  ["dropId"]= 302029,
+  ["id"]= 29,
+  ["label"]= 3,
+  ["materialAmount"]= {
+    16,
+    12,
+    0,
+    0
+  },
+  ["materialId"]= {
+    10204142,
+    10204146,
+    10204150,
+    10204154
+  },
+  ["maxTimes"]= 30,
+  ["unlockCondition"]= 8001
+},
+[30] = {
+  ["dropId"]= 302030,
+  ["id"]= 30,
+  ["label"]= 3,
+  ["materialAmount"]= {
+    24,
+    8,
+    0,
+    0
+  },
+  ["materialId"]= {
+    10204142,
+    10204146,
+    10204150,
+    10204154
+  },
+  ["maxTimes"]= 30,
+  ["unlockCondition"]= 8001
+},
+[31] = {
+  ["dropId"]= 302031,
+  ["id"]= 31,
+  ["label"]= 3,
+  ["materialAmount"]= {
+    10,
+    40,
+    10,
+    0
+  },
+  ["materialId"]= {
+    10204142,
+    10204146,
+    10204150,
+    10204154
+  },
+  ["maxTimes"]= 10,
+  ["unlockCondition"]= 8002
+},
+[32] = {
+  ["dropId"]= 302032,
+  ["id"]= 32,
+  ["label"]= 3,
+  ["materialAmount"]= {
+    12,
+    36,
+    12,
+    0
+  },
+  ["materialId"]= {
+    10204142,
+    10204146,
+    10204150,
+    10204154
+  },
+  ["maxTimes"]= 10,
+  ["unlockCondition"]= 8002
+},
+[33] = {
+  ["dropId"]= 302033,
+  ["id"]= 33,
+  ["label"]= 3,
+  ["materialAmount"]= {
+    14,
+    32,
+    14,
+    0
+  },
+  ["materialId"]= {
+    10204142,
+    10204146,
+    10204150,
+    10204154
+  },
+  ["maxTimes"]= 10,
+  ["unlockCondition"]= 8002
+},
+[34] = {
+  ["dropId"]= 302034,
+  ["id"]= 34,
+  ["label"]= 3,
+  ["materialAmount"]= {
+    16,
+    28,
+    16,
+    0
+  },
+  ["materialId"]= {
+    10204142,
+    10204146,
+    10204150,
+    10204154
+  },
+  ["maxTimes"]= 10,
+  ["unlockCondition"]= 8002
+},
+[35] = {
+  ["dropId"]= 302035,
+  ["id"]= 35,
+  ["label"]= 3,
+  ["materialAmount"]= {
+    18,
+    24,
+    18,
+    0
+  },
+  ["materialId"]= {
+    10204142,
+    10204146,
+    10204150,
+    10204154
+  },
+  ["maxTimes"]= 10,
+  ["unlockCondition"]= 8002
+},
+[36] = {
+  ["dropId"]= 302036,
+  ["id"]= 36,
+  ["label"]= 3,
+  ["materialAmount"]= {
+    20,
+    20,
+    20,
+    0
+  },
+  ["materialId"]= {
+    10204142,
+    10204146,
+    10204150,
+    10204154
+  },
+  ["maxTimes"]= 10,
+  ["unlockCondition"]= 8002
+},
+[37] = {
+  ["dropId"]= 302037,
+  ["id"]= 37,
+  ["label"]= 3,
+  ["materialAmount"]= {
+    0,
+    30,
+    60,
+    30
+  },
+  ["materialId"]= {
+    10204142,
+    10204146,
+    10204150,
+    10204154
+  },
+  ["maxTimes"]= 3,
+  ["unlockCondition"]= 8003
+},
+[38] = {
+  ["dropId"]= 302038,
+  ["id"]= 38,
+  ["label"]= 3,
+  ["materialAmount"]= {
+    0,
+    24,
+    56,
+    36
+  },
+  ["materialId"]= {
+    10204142,
+    10204146,
+    10204150,
+    10204154
+  },
+  ["maxTimes"]= 3,
+  ["unlockCondition"]= 8003
+},
+[39] = {
+  ["dropId"]= 302039,
+  ["id"]= 39,
+  ["label"]= 3,
+  ["materialAmount"]= {
+    0,
+    24,
+    48,
+    42
+  },
+  ["materialId"]= {
+    10204142,
+    10204146,
+    10204150,
+    10204154
+  },
+  ["maxTimes"]= 3,
+  ["unlockCondition"]= 8003
+},
+[40] = {
+  ["dropId"]= 302040,
+  ["id"]= 40,
+  ["label"]= 3,
+  ["materialAmount"]= {
+    0,
+    18,
+    44,
+    48
+  },
+  ["materialId"]= {
+    10204142,
+    10204146,
+    10204150,
+    10204154
+  },
+  ["maxTimes"]= 3,
+  ["unlockCondition"]= 8003
+},
+[41] = {
+  ["dropId"]= 302041,
+  ["id"]= 41,
+  ["label"]= 3,
+  ["materialAmount"]= {
+    0,
+    12,
+    40,
+    54
+  },
+  ["materialId"]= {
+    10204142,
+    10204146,
+    10204150,
+    10204154
+  },
+  ["maxTimes"]= 3,
+  ["unlockCondition"]= 8003
+},
+[42] = {
+  ["dropId"]= 302042,
+  ["id"]= 42,
+  ["label"]= 3,
+  ["materialAmount"]= {
+    0,
+    12,
+    32,
+    60
+  },
+  ["materialId"]= {
+    10204142,
+    10204146,
+    10204150,
+    10204154
+  },
+  ["maxTimes"]= 3,
+  ["unlockCondition"]= 8003
+},
+[43] = {
+  ["dropId"]= 302043,
+  ["id"]= 43,
+  ["label"]= 4,
+  ["materialAmount"]= {
+    180,
+    36,
+    20,
+    2
+  },
+  ["materialId"]= {
+    10204143,
+    10204147,
+    10204151,
+    10204155
+  },
+  ["maxTimes"]= 5,
+  ["unlockCondition"]= 8001
+},
+[44] = {
+  ["dropId"]= 302044,
+  ["id"]= 44,
+  ["label"]= 4,
+  ["materialAmount"]= {
+    160,
+    40,
+    24,
+    2
+  },
+  ["materialId"]= {
+    10204143,
+    10204147,
+    10204151,
+    10204155
+  },
+  ["maxTimes"]= 5,
+  ["unlockCondition"]= 8001
+},
+[45] = {
+  ["dropId"]= 302045,
+  ["id"]= 45,
+  ["label"]= 4,
+  ["materialAmount"]= {
+    200,
+    26,
+    20,
+    2
+  },
+  ["materialId"]= {
+    10204143,
+    10204147,
+    10204151,
+    10204155
+  },
+  ["maxTimes"]= 5,
+  ["unlockCondition"]= 8001
+},
+[46] = {
+  ["dropId"]= 302046,
+  ["id"]= 46,
+  ["label"]= 4,
+  ["materialAmount"]= {
+    360,
+    72,
+    40,
+    4
+  },
+  ["materialId"]= {
+    10204143,
+    10204147,
+    10204151,
+    10204155
+  },
+  ["maxTimes"]= 4,
+  ["unlockCondition"]= 8002
+},
+[47] = {
+  ["dropId"]= 302047,
+  ["id"]= 47,
+  ["label"]= 4,
+  ["materialAmount"]= {
+    320,
+    80,
+    48,
+    4
+  },
+  ["materialId"]= {
+    10204143,
+    10204147,
+    10204151,
+    10204155
+  },
+  ["maxTimes"]= 4,
+  ["unlockCondition"]= 8002
+},
+[48] = {
+  ["dropId"]= 302048,
+  ["id"]= 48,
+  ["label"]= 4,
+  ["materialAmount"]= {
+    400,
+    52,
+    40,
+    4
+  },
+  ["materialId"]= {
+    10204143,
+    10204147,
+    10204151,
+    10204155
+  },
+  ["maxTimes"]= 4,
+  ["unlockCondition"]= 8002
+},
+[49] = {
+  ["dropId"]= 302049,
+  ["id"]= 49,
+  ["label"]= 4,
+  ["materialAmount"]= {
+    400,
+    200,
+    200,
+    50
+  },
+  ["materialId"]= {
+    10204143,
+    10204147,
+    10204151,
+    10204155
+  },
+  ["maxTimes"]= 3,
+  ["unlockCondition"]= 8003
+},
+[50] = {
+  ["dropId"]= 302050,
+  ["id"]= 50,
+  ["label"]= 4,
+  ["materialAmount"]= {
+    600,
+    142,
+    172,
+    50
+  },
+  ["materialId"]= {
+    10204143,
+    10204147,
+    10204151,
+    10204155
+  },
+  ["maxTimes"]= 3,
+  ["unlockCondition"]= 8003
+},
+[51] = {
+  ["dropId"]= 302051,
+  ["id"]= 51,
+  ["label"]= 4,
+  ["materialAmount"]= {
+    800,
+    90,
+    140,
+    50
+  },
+  ["materialId"]= {
+    10204143,
+    10204147,
+    10204151,
+    10204155
+  },
+  ["maxTimes"]= 3,
+  ["unlockCondition"]= 8003
+},
+[52] = {
+  ["dropId"]= 302052,
+  ["id"]= 52,
+  ["label"]= 4,
+  ["materialAmount"]= {
+    800,
+    400,
+    400,
+    100
+  },
+  ["materialId"]= {
+    10204143,
+    10204147,
+    10204151,
+    10204155
+  },
+  ["maxTimes"]= 2,
+  ["unlockCondition"]= 8004
+},
+[53] = {
+  ["dropId"]= 302053,
+  ["id"]= 53,
+  ["label"]= 4,
+  ["materialAmount"]= {
+    1400,
+    200,
+    320,
+    110
+  },
+  ["materialId"]= {
+    10204143,
+    10204147,
+    10204151,
+    10204155
+  },
+  ["maxTimes"]= 2,
+  ["unlockCondition"]= 8004
+},
+[54] = {
+  ["dropId"]= 302054,
+  ["id"]= 54,
+  ["label"]= 4,
+  ["materialAmount"]= {
+    1600,
+    180,
+    280,
+    100
+  },
+  ["materialId"]= {
+    10204143,
+    10204147,
+    10204151,
+    10204155
+  },
+  ["maxTimes"]= 2,
+  ["unlockCondition"]= 8004
+},
+[55] = {
+  ["dropId"]= 302055,
+  ["id"]= 55,
+  ["label"]= 4,
+  ["materialAmount"]= {
+    3620,
+    720,
+    660,
+    240
+  },
+  ["materialId"]= {
+    10204143,
+    10204147,
+    10204151,
+    10204155
+  },
+  ["unlockCondition"]= 8005
+},
+[56] = {
+  ["dropId"]= 302056,
+  ["id"]= 56,
+  ["label"]= 4,
+  ["materialAmount"]= {
+    3120,
+    760,
+    800,
+    240
+  },
+  ["materialId"]= {
+    10204143,
+    10204147,
+    10204151,
+    10204155
+  },
+  ["unlockCondition"]= 8005
+},
+[57] = {
+  ["dropId"]= 302057,
+  ["id"]= 57,
+  ["label"]= 4,
+  ["materialAmount"]= {
+    2740,
+    800,
+    900,
+    240
+  },
+  ["materialId"]= {
+    10204143,
+    10204147,
+    10204151,
+    10204155
+  },
+  ["unlockCondition"]= 8005
+},
+[58] = {
+  ["dropId"]= 302058,
+  ["id"]= 58,
+  ["label"]= 5,
+  ["materialAmount"]= {
+    4500,
+    2260,
+    1500,
+    1120
+  },
+  ["materialId"]= {
+    10204156,
+    10204157,
+    10204158,
+    10204159
+  },
+  ["unlockCondition"]= 8003
+},
+[59] = {
+  ["dropId"]= 302059,
+  ["id"]= 59,
+  ["label"]= 5,
+  ["materialAmount"]= {
+    5000,
+    2080,
+    1400,
+    1160
+  },
+  ["materialId"]= {
+    10204156,
+    10204157,
+    10204158,
+    10204159
+  },
+  ["unlockCondition"]= 8003
+},
+[60] = {
+  ["dropId"]= 302060,
+  ["id"]= 60,
+  ["label"]= 5,
+  ["materialAmount"]= {
+    4000,
+    2650,
+    1300,
+    1200
+  },
+  ["materialId"]= {
+    10204156,
+    10204157,
+    10204158,
+    10204159
+  },
+  ["unlockCondition"]= 8003
+},
+[61] = {
+  ["dropId"]= 302061,
+  ["id"]= 61,
+  ["label"]= 5,
+  ["materialAmount"]= {
+    2800,
+    2100,
+    1800,
+    1400
+  },
+  ["materialId"]= {
+    10204156,
+    10204157,
+    10204158,
+    10204159
+  },
+  ["unlockCondition"]= 8003
+},
+[62] = {
+  ["dropId"]= 302062,
+  ["id"]= 62,
+  ["label"]= 5,
+  ["materialAmount"]= {
+    2400,
+    2370,
+    1700,
+    1440
+  },
+  ["materialId"]= {
+    10204156,
+    10204157,
+    10204158,
+    10204159
+  },
+  ["unlockCondition"]= 8003
+},
+[63] = {
+  ["dropId"]= 302063,
+  ["id"]= 63,
+  ["label"]= 5,
+  ["materialAmount"]= {
+    2000,
+    2360,
+    1760,
+    1500
+  },
+  ["materialId"]= {
+    10204156,
+    10204157,
+    10204158,
+    10204159
+  },
+  ["unlockCondition"]= 8003
+},
+[64] = {
+  ["dropId"]= 302064,
+  ["id"]= 64,
+  ["label"]= 5,
+  ["materialAmount"]= {
+    800,
+    1800,
+    2400,
+    1600
+  },
+  ["materialId"]= {
+    10204156,
+    10204157,
+    10204158,
+    10204159
+  },
+  ["unlockCondition"]= 8003
+},
+[65] = {
+  ["dropId"]= 302065,
+  ["id"]= 65,
+  ["label"]= 5,
+  ["materialAmount"]= {
+    1200,
+    1700,
+    2280,
+    1640
+  },
+  ["materialId"]= {
+    10204156,
+    10204157,
+    10204158,
+    10204159
+  },
+  ["unlockCondition"]= 8003
+},
+[66] = {
+  ["dropId"]= 302066,
+  ["id"]= 66,
+  ["label"]= 5,
+  ["materialAmount"]= {
+    1600,
+    1600,
+    2160,
+    1680
+  },
+  ["materialId"]= {
+    10204156,
+    10204157,
+    10204158,
+    10204159
+  },
+  ["unlockCondition"]= 8003
+},
+[67] = {
+  ["dropId"]= 5510020,
+  ["id"]= 67,
+  ["materialAmount"]= {
+    50,
+    25
+  },
+  ["materialId"]= {
+    10217005,
+    10217007
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[68] = {
+  ["dropId"]= 5510021,
+  ["id"]= 68,
+  ["materialAmount"]= {
+    50,
+    25
+  },
+  ["materialId"]= {
+    10217005,
+    10217008
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[69] = {
+  ["dropId"]= 5510022,
+  ["id"]= 69,
+  ["materialAmount"]= {
+    50,
+    50
+  },
+  ["materialId"]= {
+    10217005,
+    10217006
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[70] = {
+  ["dropId"]= 5510023,
+  ["id"]= 70,
+  ["materialAmount"]= {
+    50,
+    25
+  },
+  ["materialId"]= {
+    10217006,
+    10217007
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[71] = {
+  ["dropId"]= 5510031,
+  ["id"]= 71,
+  ["materialAmount"]= {
+    50,
+    50
+  },
+  ["materialId"]= {
+    10217006,
+    10217005
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[72] = {
+  ["dropId"]= 5510024,
+  ["id"]= 72,
+  ["materialAmount"]= {
+    100,
+    50
+  },
+  ["materialId"]= {
+    10217006,
+    10217008
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[73] = {
+  ["dropId"]= 5510025,
+  ["id"]= 73,
+  ["materialAmount"]= {
+    150,
+    100,
+    100
+  },
+  ["materialId"]= {
+    10217009,
+    10217005,
+    10217007
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[74] = {
+  ["dropId"]= 5510026,
+  ["id"]= 74,
+  ["materialAmount"]= {
+    150,
+    100,
+    100
+  },
+  ["materialId"]= {
+    10217010,
+    10217006,
+    10217008
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[75] = {
+  ["dropId"]= 5510027,
+  ["id"]= 75,
+  ["materialAmount"]= {
+    20,
+    100
+  },
+  ["materialId"]= {
+    10217011,
+    10217009
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[76] = {
+  ["dropId"]= 5510028,
+  ["id"]= 76,
+  ["materialAmount"]= {
+    20,
+    100
+  },
+  ["materialId"]= {
+    10217011,
+    10217010
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[77] = {
+  ["dropId"]= 5510032,
+  ["id"]= 77,
+  ["materialAmount"]= {
+    20,
+    100,
+    100
+  },
+  ["materialId"]= {
+    10217011,
+    10217005,
+    10217006
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[78] = {
+  ["dropId"]= 5510029,
+  ["id"]= 78,
+  ["materialAmount"]= {
+    40,
+    100,
+    100
+  },
+  ["materialId"]= {
+    10217011,
+    10217007,
+    10217008
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[79] = {
+  ["dropId"]= 5510030,
+  ["id"]= 79,
+  ["materialAmount"]= {
+    200
+  },
+  ["materialId"]= {
+    10217011
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[80] = {
+  ["dropId"]= 5520030,
+  ["id"]= 80,
+  ["materialAmount"]= {
+    50,
+    50
+  },
+  ["materialId"]= {
+    10217020,
+    10217021
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[81] = {
+  ["dropId"]= 5520031,
+  ["id"]= 81,
+  ["materialAmount"]= {
+    50,
+    50
+  },
+  ["materialId"]= {
+    10217021,
+    10217022
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[82] = {
+  ["dropId"]= 5520032,
+  ["id"]= 82,
+  ["materialAmount"]= {
+    50,
+    50
+  },
+  ["materialId"]= {
+    10217022,
+    10217023
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[83] = {
+  ["dropId"]= 5520033,
+  ["id"]= 83,
+  ["materialAmount"]= {
+    15,
+    20
+  },
+  ["materialId"]= {
+    10217024,
+    10217020
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[84] = {
+  ["dropId"]= 5520034,
+  ["id"]= 84,
+  ["materialAmount"]= {
+    35,
+    30
+  },
+  ["materialId"]= {
+    10217025,
+    10217021
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[85] = {
+  ["dropId"]= 5520035,
+  ["id"]= 85,
+  ["materialAmount"]= {
+    55,
+    40
+  },
+  ["materialId"]= {
+    10217026,
+    10217022
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[86] = {
+  ["dropId"]= 5520036,
+  ["id"]= 86,
+  ["materialAmount"]= {
+    75,
+    50
+  },
+  ["materialId"]= {
+    10217027,
+    10217023
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[87] = {
+  ["dropId"]= 5520037,
+  ["id"]= 87,
+  ["materialAmount"]= {
+    150,
+    150
+  },
+  ["materialId"]= {
+    10217024,
+    10217026
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[88] = {
+  ["dropId"]= 5520038,
+  ["id"]= 88,
+  ["materialAmount"]= {
+    300,
+    300
+  },
+  ["materialId"]= {
+    10217025,
+    10217027
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[89] = {
+  ["dropId"]= 5520039,
+  ["id"]= 89,
+  ["materialAmount"]= {
+    250,
+    250
+  },
+  ["materialId"]= {
+    10217028,
+    10217029
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[90] = {
+  ["dropId"]= 5520041,
+  ["id"]= 90,
+  ["label"]= 2,
+  ["materialId"]= {
+    10217020,
+    10217021
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[91] = {
+  ["dropId"]= 5520042,
+  ["id"]= 91,
+  ["label"]= 2,
+  ["materialId"]= {
+    10217024,
+    10217025
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[92] = {
+  ["dropId"]= 5520043,
+  ["id"]= 92,
+  ["label"]= 2,
+  ["materialId"]= {
+    10217020,
+    10217022
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[93] = {
+  ["dropId"]= 5520044,
+  ["id"]= 93,
+  ["label"]= 2,
+  ["materialId"]= {
+    10217024,
+    10217026
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[94] = {
+  ["dropId"]= 5520045,
+  ["id"]= 94,
+  ["label"]= 2,
+  ["materialId"]= {
+    10217020,
+    10217023
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[95] = {
+  ["dropId"]= 5520046,
+  ["id"]= 95,
+  ["label"]= 2,
+  ["materialId"]= {
+    10217024,
+    10217027
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[96] = {
+  ["dropId"]= 5520047,
+  ["id"]= 96,
+  ["label"]= 2,
+  ["materialId"]= {
+    10217021,
+    10217022
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[97] = {
+  ["dropId"]= 5520048,
+  ["id"]= 97,
+  ["label"]= 2,
+  ["materialId"]= {
+    10217025,
+    10217026
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[98] = {
+  ["dropId"]= 5520049,
+  ["id"]= 98,
+  ["label"]= 2,
+  ["materialId"]= {
+    10217021,
+    10217023
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[99] = {
+  ["dropId"]= 5520050,
+  ["id"]= 99,
+  ["label"]= 2,
+  ["materialId"]= {
+    10217025,
+    10217027
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[100] = {
+  ["dropId"]= 5520051,
+  ["id"]= 100,
+  ["label"]= 2,
+  ["materialId"]= {
+    10217022,
+    10217023
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[101] = {
+  ["dropId"]= 5520052,
+  ["id"]= 101,
+  ["label"]= 2,
+  ["materialId"]= {
+    10217026,
+    10217027
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[102] = {
+  ["dropId"]= 5520127,
+  ["id"]= 102,
+  ["materialAmount"]= {
+    2
+  },
+  ["maxTimes"]= 100,
+  ["ResetDaysOfWeek"]= {}
+},
+[103] = {
+  ["dropId"]= 5520111,
+  ["id"]= 103,
+  ["materialAmount"]= {
+    50
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[104] = {
+  ["dropId"]= 5520112,
+  ["id"]= 104,
+  ["materialAmount"]= {
+    75
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[105] = {
+  ["dropId"]= 5520113,
+  ["id"]= 105,
+  ["materialAmount"]= {
+    100
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[106] = {
+  ["dropId"]= 5520126,
+  ["id"]= 106,
+  ["materialAmount"]= {
+    1000
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[107] = {
+  ["dropId"]= 5520114,
+  ["id"]= 107,
+  ["label"]= 2,
+  ["materialAmount"]= {
+    25
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[108] = {
+  ["dropId"]= 5520115,
+  ["id"]= 108,
+  ["label"]= 2,
+  ["materialAmount"]= {
+    50
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[109] = {
+  ["dropId"]= 5520116,
+  ["id"]= 109,
+  ["label"]= 2,
+  ["materialAmount"]= {
+    25
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[110] = {
+  ["dropId"]= 5520117,
+  ["id"]= 110,
+  ["label"]= 2,
+  ["materialAmount"]= {
+    50
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[111] = {
+  ["dropId"]= 5520118,
+  ["id"]= 111,
+  ["label"]= 2,
+  ["materialAmount"]= {
+    25
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[112] = {
+  ["dropId"]= 5520119,
+  ["id"]= 112,
+  ["label"]= 2,
+  ["materialAmount"]= {
+    50
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[113] = {
+  ["dropId"]= 5520120,
+  ["id"]= 113,
+  ["label"]= 2,
+  ["materialAmount"]= {
+    25
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[114] = {
+  ["dropId"]= 5520121,
+  ["id"]= 114,
+  ["label"]= 2,
+  ["materialAmount"]= {
+    50
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[115] = {
+  ["dropId"]= 5520122,
+  ["id"]= 115,
+  ["label"]= 2,
+  ["materialAmount"]= {
+    25
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[116] = {
+  ["dropId"]= 5520123,
+  ["id"]= 116,
+  ["label"]= 2,
+  ["materialAmount"]= {
+    50
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[117] = {
+  ["dropId"]= 5520124,
+  ["id"]= 117,
+  ["label"]= 2,
+  ["materialAmount"]= {
+    25
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[118] = {
+  ["dropId"]= 5520125,
+  ["id"]= 118,
+  ["label"]= 2,
+  ["materialAmount"]= {
+    50
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[119] = {
+  ["id"]= 119,
+  ["label"]= 2,
+  ["materialAmount"]= {
+    4
+  },
+  ["materialId"]= {
+    10217031
+  },
+  ["maxTimes"]= 50,
+  ["ResetDaysOfWeek"]= {}
+},
+[120] = {
+  ["id"]= 120,
+  ["label"]= 2,
+  ["materialAmount"]= {
+    2
+  },
+  ["materialId"]= {
+    10217032
+  },
+  ["maxTimes"]= 50,
+  ["ResetDaysOfWeek"]= {}
+},
+[121] = {
+  ["id"]= 121,
+  ["label"]= 2,
+  ["materialAmount"]= {
+    1
+  },
+  ["materialId"]= {
+    10217033
+  },
+  ["maxTimes"]= 50,
+  ["ResetDaysOfWeek"]= {}
+},
+[122] = {
+  ["dropId"]= 5520221,
+  ["id"]= 122,
+  ["materialAmount"]= {
+    50,
+    20,
+    1
+  },
+  ["materialId"]= {
+    10217031,
+    10217032,
+    10217033
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[123] = {
+  ["dropId"]= 5520222,
+  ["id"]= 123,
+  ["materialAmount"]= {
+    300,
+    400,
+    10
+  },
+  ["materialId"]= {
+    10217031,
+    10217032,
+    10217033
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[124] = {
+  ["dropId"]= 5520223,
+  ["id"]= 124,
+  ["materialAmount"]= {
+    600,
+    600,
+    20
+  },
+  ["materialId"]= {
+    10217031,
+    10217032,
+    10217033
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[201] = {
+  ["dropId"]= 1105011083,
+  ["id"]= 201,
+  ["materialAmount"]= {
+    100
+  },
+  ["materialId"]= {
+    10403046
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[202] = {
+  ["dropId"]= 1105011084,
+  ["id"]= 202,
+  ["materialAmount"]= {
+    100
+  },
+  ["materialId"]= {
+    10403046
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[203] = {
+  ["dropId"]= 1105011085,
+  ["id"]= 203,
+  ["materialAmount"]= {
+    100
+  },
+  ["materialId"]= {
+    10403046
+  },
+  ["ResetDaysOfWeek"]= {}
+},
+[204] = {
+  ["dropId"]= 1105011086,
+  ["id"]= 204,
+  ["label"]= 2,
+  ["materialAmount"]= {
+    9
+  },
+  ["materialId"]= {
+    10403046
+  },
+  ["maxTimes"]= 5,
+  ["ResetDaysOfWeek"]= {}
+},
+[205] = {
+  ["dropId"]= 1105011087,
+  ["id"]= 205,
+  ["label"]= 2,
+  ["materialAmount"]= {
+    3
+  },
+  ["materialId"]= {
+    10403046
+  },
+  ["maxTimes"]= 5,
+  ["ResetDaysOfWeek"]= {}
+},
+[206] = {
+  ["dropId"]= 1105011088,
+  ["id"]= 206,
+  ["label"]= 2,
+  ["materialAmount"]= {
+    1
+  },
+  ["materialId"]= {
+    10403046
+  },
+  ["maxTimes"]= 5,
+  ["ResetDaysOfWeek"]= {}
+},
+[207] = {
+  ["dropId"]= 1105011089,
+  ["id"]= 207,
+  ["label"]= 2,
+  ["materialAmount"]= {
+    1
+  },
+  ["materialId"]= {
+    10403046
+  },
+  ["maxTimes"]= 5,
+  ["ResetDaysOfWeek"]= {}
+},
+[208] = {
+  ["dropId"]= 1105011091,
+  ["id"]= 208,
+  ["label"]= 2,
+  ["materialAmount"]= {
+    1
+  },
+  ["materialId"]= {
+    10403046
+  },
+  ["maxTimes"]= 5,
+  ["ResetDaysOfWeek"]= {}
+},
+[209] = {
+  ["dropId"]= 1105011083,
+  ["id"]= 209,
+  ["materialAmount"]= {
+    50
+  },
+  ["materialId"]= {
+    10217036
+  },
+  ["unlockCondition"]= 6207
+},
+[210] = {
+  ["dropId"]= 1105011084,
+  ["id"]= 210,
+  ["materialAmount"]= {
+    50
+  },
+  ["materialId"]= {
+    10217036
+  },
+  ["unlockCondition"]= 6208
+},
+[211] = {
+  ["dropId"]= 1105011085,
+  ["id"]= 211,
+  ["materialAmount"]= {
+    50
+  },
+  ["materialId"]= {
+    10217036
+  },
+  ["unlockCondition"]= 6209
+},
+[212] = {
+  ["dropId"]= 1105011086,
+  ["id"]= 212,
+  ["materialAmount"]= {
+    50
+  },
+  ["materialId"]= {
+    10217036
+  },
+  ["maxTimes"]= 5,
+  ["unlockCondition"]= 6210
+}
+}
+local baseTable={
+  ["dropId"]= 5520224,
+  ["id"]= 1,
+  ["isBind"]= 1,
+  ["label"]= 1,
+  ["materialAmount"]= {
+    25,
+    25
+  },
+  ["materialId"]= {
+    10217030
+  },
+  ["maxTimes"]= 1,
+  ["ResetDaysOfWeek"]= {
+    1
+  },
+  ["ResetTime"]= "5:00",
+  ["unlockCondition"]= 0
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

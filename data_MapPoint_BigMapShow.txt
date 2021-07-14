@@ -1,0 +1,331 @@
+TextAsset Base
+	string m_Name = "data_MapPoint_BigMapShow"
+	string m_Script = "local table= {
+[1010] = {
+  ["SceneId"]= 1010,
+  ["SceneNavi"]= 1212,
+  ["SceneType"]= 1
+},
+[1020] = {
+  ["MapId"]= 1020,
+  ["SceneId"]= 1020,
+  ["SceneName"]= "SceneName1020",
+  ["SceneType"]= 1
+},
+[1030] = {
+  ["MapId"]= 1030,
+  ["SceneId"]= 1030,
+  ["SceneName"]= "SceneName1030",
+  ["SceneType"]= 1
+},
+[1040] = {
+  ["MapId"]= 1040,
+  ["SceneId"]= 1040,
+  ["SceneName"]= "SceneName1040"
+},
+[1050] = {
+  ["MapId"]= 1050,
+  ["SceneId"]= 1050,
+  ["SceneName"]= "SceneName1050"
+},
+[1060] = {
+  ["MapId"]= 1060,
+  ["SceneId"]= 1060,
+  ["SceneName"]= "SceneName1060"
+},
+[1110] = {
+  ["MapId"]= 1110,
+  ["SceneId"]= 1110,
+  ["SceneName"]= "SceneName1110",
+  ["SceneType"]= 1
+},
+[1140] = {
+  ["MapId"]= 1140,
+  ["SceneId"]= 1140,
+  ["SceneName"]= "SceneName1140",
+  ["SceneType"]= 1
+},
+[1150] = {
+  ["MapId"]= 1150,
+  ["SceneId"]= 1150,
+  ["SceneName"]= "SceneName1150"
+},
+[1160] = {
+  ["MapId"]= 1160,
+  ["SceneId"]= 1160,
+  ["SceneName"]= "SceneName1160"
+},
+[1180] = {
+  ["MapId"]= 1180,
+  ["SceneId"]= 1180,
+  ["SceneName"]= "SceneName1180",
+  ["SceneType"]= 1
+},
+[1210] = {
+  ["MapId"]= 1210,
+  ["SceneId"]= 1210,
+  ["SceneName"]= "SceneName1210",
+  ["SceneType"]= 1
+},
+[1220] = {
+  ["MapId"]= 1220,
+  ["SceneId"]= 1220,
+  ["SceneName"]= "SceneName1220",
+  ["SceneType"]= 1
+},
+[1230] = {
+  ["MapId"]= 1230,
+  ["SceneId"]= 1230,
+  ["SceneName"]= "SceneName1230",
+  ["SceneType"]= 1
+},
+[1240] = {
+  ["MapId"]= 1240,
+  ["SceneId"]= 1240,
+  ["SceneName"]= "SceneName1240",
+  ["SceneType"]= 1
+},
+[1250] = {
+  ["MapId"]= 1250,
+  ["SceneId"]= 1250,
+  ["SceneName"]= "SceneName1250",
+  ["SceneType"]= 1
+},
+[1260] = {
+  ["MapId"]= 1260,
+  ["SceneId"]= 1260,
+  ["SceneName"]= "SceneName1260"
+},
+[1270] = {
+  ["MapId"]= 1270,
+  ["SceneId"]= 1270,
+  ["SceneName"]= "SceneName1270"
+},
+[1280] = {
+  ["MapId"]= 1280,
+  ["SceneId"]= 1280,
+  ["SceneName"]= "SceneName1280"
+},
+[1281] = {
+  ["MapId"]= 1281,
+  ["SceneId"]= 1281,
+  ["SceneName"]= "SceneName1281"
+},
+[1290] = {
+  ["MapId"]= 1290,
+  ["SceneId"]= 1290,
+  ["SceneName"]= "SceneName1290"
+},
+[1310] = {
+  ["MapId"]= 1310,
+  ["SceneId"]= 1310,
+  ["SceneName"]= "SceneName1310",
+  ["SceneType"]= 1
+},
+[1320] = {
+  ["MapId"]= 1320,
+  ["SceneId"]= 1320,
+  ["SceneName"]= "SceneName1320",
+  ["SceneType"]= 1
+},
+[1330] = {
+  ["MapId"]= 1330,
+  ["SceneId"]= 1330,
+  ["SceneName"]= "SceneName1330"
+},
+[1340] = {
+  ["MapId"]= 1340,
+  ["SceneId"]= 1340,
+  ["SceneName"]= "SceneName1340"
+},
+[1350] = {
+  ["MapId"]= 1350,
+  ["SceneId"]= 1350,
+  ["SceneName"]= "SceneName1350"
+},
+[1360] = {
+  ["MapId"]= 1360,
+  ["SceneId"]= 1360,
+  ["SceneName"]= "SceneName1360"
+},
+[1410] = {
+  ["MapId"]= 14101,
+  ["SceneId"]= 1410,
+  ["SceneName"]= "SceneName1410",
+  ["SceneType"]= 1
+},
+[1420] = {
+  ["MapId"]= 1420,
+  ["SceneId"]= 1420,
+  ["SceneName"]= "SceneName1420",
+  ["SceneType"]= 1
+},
+[1430] = {
+  ["MapId"]= 1430,
+  ["SceneId"]= 1430,
+  ["SceneName"]= "SceneName1430",
+  ["SceneType"]= 1
+},
+[1440] = {
+  ["MapId"]= 1440,
+  ["SceneId"]= 1440,
+  ["SceneName"]= "SceneName1440",
+  ["SceneType"]= 1
+},
+[1450] = {
+  ["MapId"]= 1450,
+  ["SceneId"]= 1450,
+  ["SceneName"]= "SceneName1450"
+},
+[1460] = {
+  ["MapId"]= 1460,
+  ["SceneId"]= 1460,
+  ["SceneName"]= "SceneName1460"
+},
+[1610] = {
+  ["IsBigMapShow"]= 0,
+  ["MapId"]= 1610,
+  ["SceneId"]= 1610,
+  ["SceneName"]= "SceneName1610",
+  ["SceneType"]= 1
+},
+[1620] = {
+  ["IsBigMapShow"]= 0,
+  ["MapId"]= 1620,
+  ["SceneId"]= 1620,
+  ["SceneName"]= "SceneName1620"
+},
+[1630] = {
+  ["IsBigMapShow"]= 0,
+  ["MapId"]= 1630,
+  ["SceneId"]= 1630,
+  ["SceneName"]= "SceneName1630"
+},
+[1640] = {
+  ["IsBigMapShow"]= 0,
+  ["MapId"]= 1640,
+  ["SceneId"]= 1640,
+  ["SceneName"]= "SceneName1640"
+},
+[1650] = {
+  ["IsBigMapShow"]= 0,
+  ["MapId"]= 1650,
+  ["SceneId"]= 1650,
+  ["SceneName"]= "SceneName1650"
+},
+[1660] = {
+  ["IsBigMapShow"]= 0,
+  ["MapId"]= 1660,
+  ["SceneId"]= 1660,
+  ["SceneName"]= "SceneName1660"
+},
+[1710] = {
+  ["IsBigMapShow"]= 0,
+  ["MapId"]= 1710,
+  ["SceneId"]= 1710,
+  ["SceneName"]= "SceneName1710",
+  ["SceneType"]= 1
+},
+[1720] = {
+  ["IsBigMapShow"]= 0,
+  ["MapId"]= 1720,
+  ["SceneId"]= 1720,
+  ["SceneName"]= "SceneName1720"
+},
+[1730] = {
+  ["IsBigMapShow"]= 0,
+  ["MapId"]= 1730,
+  ["SceneId"]= 1730,
+  ["SceneName"]= "SceneName1730"
+},
+[1740] = {
+  ["IsBigMapShow"]= 0,
+  ["MapId"]= 1740,
+  ["SceneId"]= 1740,
+  ["SceneName"]= "SceneName1740"
+},
+[1750] = {
+  ["IsBigMapShow"]= 0,
+  ["MapId"]= 1750,
+  ["SceneId"]= 1750,
+  ["SceneName"]= "SceneName1750"
+},
+[1760] = {
+  ["IsBigMapShow"]= 0,
+  ["MapId"]= 1760,
+  ["SceneId"]= 1760,
+  ["SceneName"]= "SceneName1760"
+},
+[2010] = {
+  ["MapId"]= 2010,
+  ["SceneId"]= 2010,
+  ["SceneName"]= "SceneName2010",
+  ["SceneNavi"]= 10605001,
+  ["SceneType"]= 3
+},
+[2020] = {
+  ["MapId"]= 2020,
+  ["SceneId"]= 2020,
+  ["SceneName"]= "SceneName2020",
+  ["SceneNavi"]= 11305001,
+  ["SceneType"]= 3
+},
+[2030] = {
+  ["MapId"]= 2030,
+  ["SceneId"]= 2030,
+  ["SceneName"]= "SceneName2030",
+  ["SceneNavi"]= 11605001,
+  ["SceneType"]= 3
+},
+[2060] = {
+  ["MapId"]= 2060,
+  ["SceneId"]= 2060,
+  ["SceneName"]= "SceneName2060",
+  ["SceneNavi"]= 13505001,
+  ["SceneType"]= 3
+},
+[11201] = {
+  ["MapId"]= 11201,
+  ["SceneName"]= "SceneName11201"
+},
+[11202] = {
+  ["MapId"]= 11202,
+  ["SceneName"]= "SceneName11202"
+},
+[11203] = {
+  ["MapId"]= 11203,
+  ["SceneName"]= "SceneName11203"
+},
+[11301] = {
+  ["MapId"]= 11301,
+  ["SceneId"]= 1130,
+  ["SceneName"]= "SceneName11301"
+},
+[11302] = {
+  ["MapId"]= 11302,
+  ["SceneId"]= 1130,
+  ["SceneName"]= "SceneName11302"
+},
+[11303] = {
+  ["MapId"]= 11303,
+  ["SceneId"]= 1130,
+  ["SceneName"]= "SceneName11303"
+},
+[15601] = {
+  ["MapId"]= 15601,
+  ["SceneId"]= 1560,
+  ["SceneName"]= "SceneName1560"
+}
+}
+local baseTable={
+  ["IsBigMapShow"]= 1,
+  ["MapId"]= 1010,
+  ["SceneId"]= 1120,
+  ["SceneName"]= "SceneName1010",
+  ["SceneNavi"]= 0,
+  ["SceneType"]= 2
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

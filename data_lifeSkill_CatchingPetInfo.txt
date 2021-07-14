@@ -1,0 +1,740 @@
+TextAsset Base
+	string m_Name = "data_lifeSkill_CatchingPetInfo"
+	string m_Script = "return {
+[82001] = {
+  ["Bodily"]= 1,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10001,
+  ["NeedCatchLevel"]= 1,
+  ["PetExp"]= 0,
+  ["PetId"]= 82001,
+  ["PetTalentDesc"]= "PetTalentDesc82001",
+  ["Property"]= 2,
+  ["Race"]= 256,
+  ["SceneId"]= {
+    1020
+  },
+  ["Tool"]= 10407001
+},
+[82002] = {
+  ["Bodily"]= 2,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10004,
+  ["NeedCatchLevel"]= 1,
+  ["PetExp"]= 0,
+  ["PetId"]= 82002,
+  ["PetTalentDesc"]= "PetTalentDesc82002",
+  ["Property"]= 0,
+  ["Race"]= 512,
+  ["SceneId"]= {
+    1020
+  },
+  ["Tool"]= 10407002
+},
+[82003] = {
+  ["Bodily"]= 1,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10014,
+  ["NeedCatchLevel"]= 1,
+  ["PetExp"]= 0,
+  ["PetId"]= 82003,
+  ["PetTalentDesc"]= "PetTalentDesc82003",
+  ["Property"]= 3,
+  ["Race"]= 512,
+  ["SceneId"]= {
+    1020
+  },
+  ["Tool"]= 10407003
+},
+[82004] = {
+  ["Bodily"]= 2,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10044,
+  ["NeedCatchLevel"]= 1,
+  ["PetExp"]= 0,
+  ["PetId"]= 82004,
+  ["PetTalentDesc"]= "PetTalentDesc82004",
+  ["Property"]= 7,
+  ["Race"]= 512,
+  ["SceneId"]= {
+    1050
+  },
+  ["Tool"]= 10407004
+},
+[82005] = {
+  ["Bodily"]= 2,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10016,
+  ["NeedCatchLevel"]= 1,
+  ["PetExp"]= 0,
+  ["PetId"]= 82005,
+  ["PetTalentDesc"]= "PetTalentDesc82005",
+  ["Property"]= 1,
+  ["Race"]= 512,
+  ["SceneId"]= {
+    1310
+  },
+  ["Tool"]= 10407005
+},
+[82006] = {
+  ["Bodily"]= 1,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10052,
+  ["NeedCatchLevel"]= 1,
+  ["PetExp"]= 0,
+  ["PetId"]= 82006,
+  ["PetTalentDesc"]= "PetTalentDesc82006",
+  ["Property"]= 5,
+  ["Race"]= 256,
+  ["SceneId"]= {
+    1430
+  },
+  ["Tool"]= 10407006
+},
+[82007] = {
+  ["Bodily"]= 2,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10027,
+  ["NeedCatchLevel"]= 1,
+  ["PetExp"]= 0,
+  ["PetId"]= 82007,
+  ["PetTalentDesc"]= "PetTalentDesc82007",
+  ["Property"]= 3,
+  ["Race"]= 8,
+  ["SceneId"]= {
+    1220
+  },
+  ["Tool"]= 10407007
+},
+[82008] = {
+  ["Bodily"]= 2,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10047,
+  ["NeedCatchLevel"]= 1,
+  ["PetExp"]= 0,
+  ["PetId"]= 82008,
+  ["PetTalentDesc"]= "PetTalentDesc82008",
+  ["Property"]= 7,
+  ["Race"]= 512,
+  ["SceneId"]= {
+    1050
+  },
+  ["Tool"]= 10407008
+},
+[82009] = {
+  ["Bodily"]= 1,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10063,
+  ["NeedCatchLevel"]= 1,
+  ["PetExp"]= 0,
+  ["PetId"]= 82009,
+  ["PetTalentDesc"]= "PetTalentDesc82009",
+  ["Property"]= 5,
+  ["Race"]= 256,
+  ["SceneId"]= {
+    1060
+  },
+  ["Tool"]= 10407009
+},
+[82010] = {
+  ["Bodily"]= 2,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10084,
+  ["NeedCatchLevel"]= 1,
+  ["PetExp"]= 0,
+  ["PetId"]= 82010,
+  ["PetTalentDesc"]= "PetTalentDesc82010",
+  ["Property"]= 7,
+  ["Race"]= 512,
+  ["SceneId"]= {
+    1060
+  },
+  ["Tool"]= 10407010
+},
+[82011] = {
+  ["Bodily"]= 2,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10055,
+  ["NeedCatchLevel"]= 2,
+  ["PetExp"]= 0,
+  ["PetId"]= 82011,
+  ["PetTalentDesc"]= "PetTalentDesc82011",
+  ["Property"]= 3,
+  ["Race"]= 8,
+  ["SceneId"]= {
+    1220
+  },
+  ["Tool"]= 10407011
+},
+[82012] = {
+  ["Bodily"]= 2,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10058,
+  ["NeedCatchLevel"]= 2,
+  ["PetExp"]= 0,
+  ["PetId"]= 82012,
+  ["PetTalentDesc"]= "PetTalentDesc82012",
+  ["Property"]= 4,
+  ["Race"]= 512,
+  ["SceneId"]= {
+    1040
+  },
+  ["Tool"]= 10407012
+},
+[82013] = {
+  ["Bodily"]= 2,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10060,
+  ["NeedCatchLevel"]= 2,
+  ["PetExp"]= 0,
+  ["PetId"]= 82013,
+  ["PetTalentDesc"]= "PetTalentDesc82013",
+  ["Property"]= 4,
+  ["Race"]= 512,
+  ["SceneId"]= {
+    1040
+  },
+  ["Tool"]= 10407013
+},
+[82014] = {
+  ["Bodily"]= 1,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10087,
+  ["NeedCatchLevel"]= 2,
+  ["PetExp"]= 0,
+  ["PetId"]= 82014,
+  ["PetTalentDesc"]= "PetTalentDesc82014",
+  ["Property"]= 9,
+  ["Race"]= 64,
+  ["SceneId"]= {
+    1130
+  },
+  ["Tool"]= 10407014
+},
+[82015] = {
+  ["Bodily"]= 1,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10148,
+  ["NeedCatchLevel"]= 2,
+  ["PetExp"]= 0,
+  ["PetId"]= 82015,
+  ["PetTalentDesc"]= "PetTalentDesc82015",
+  ["Property"]= 9,
+  ["Race"]= 64,
+  ["SceneId"]= {
+    1130
+  },
+  ["Tool"]= 10407015
+},
+[82016] = {
+  ["Bodily"]= 2,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10125,
+  ["NeedCatchLevel"]= 2,
+  ["PetExp"]= 0,
+  ["PetId"]= 82016,
+  ["PetTalentDesc"]= "PetTalentDesc82016",
+  ["Property"]= 3,
+  ["Race"]= 8,
+  ["SceneId"]= {
+    1040
+  },
+  ["Tool"]= 10407016
+},
+[82017] = {
+  ["Bodily"]= 2,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10064,
+  ["NeedCatchLevel"]= 2,
+  ["PetExp"]= 0,
+  ["PetId"]= 82017,
+  ["PetTalentDesc"]= "PetTalentDesc82017",
+  ["Property"]= 8,
+  ["Race"]= 2,
+  ["SceneId"]= {
+    1120
+  },
+  ["Tool"]= 10407017
+},
+[82018] = {
+  ["Bodily"]= 0,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10018,
+  ["NeedCatchLevel"]= 2,
+  ["PetExp"]= 0,
+  ["PetId"]= 82018,
+  ["PetTalentDesc"]= "PetTalentDesc82018",
+  ["Property"]= 4,
+  ["Race"]= 256,
+  ["SceneId"]= {
+    1310
+  },
+  ["Tool"]= 10407018
+},
+[82019] = {
+  ["Bodily"]= 0,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10017,
+  ["NeedCatchLevel"]= 2,
+  ["PetExp"]= 0,
+  ["PetId"]= 82019,
+  ["PetTalentDesc"]= "PetTalentDesc82019",
+  ["Property"]= 1,
+  ["Race"]= 512,
+  ["SceneId"]= {
+    1310
+  },
+  ["Tool"]= 10407019
+},
+[82020] = {
+  ["Bodily"]= 1,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10020,
+  ["NeedCatchLevel"]= 2,
+  ["PetExp"]= 0,
+  ["PetId"]= 82020,
+  ["PetTalentDesc"]= "PetTalentDesc82020",
+  ["Property"]= 5,
+  ["Race"]= 512,
+  ["SceneId"]= {
+    1310
+  },
+  ["Tool"]= 10407020
+},
+[82021] = {
+  ["Bodily"]= 0,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10150,
+  ["NeedCatchLevel"]= 2,
+  ["PetExp"]= 0,
+  ["PetId"]= 82021,
+  ["PetTalentDesc"]= "PetTalentDesc82021",
+  ["Property"]= 0,
+  ["Race"]= 512,
+  ["SceneId"]= {
+    1040
+  },
+  ["Tool"]= 10407021
+},
+[82022] = {
+  ["Bodily"]= 1,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10033,
+  ["NeedCatchLevel"]= 2,
+  ["PetExp"]= 0,
+  ["PetId"]= 82022,
+  ["PetTalentDesc"]= "PetTalentDesc82022",
+  ["Property"]= 5,
+  ["Race"]= 512,
+  ["SceneId"]= {
+    1330
+  },
+  ["Tool"]= 10407022
+},
+[82023] = {
+  ["Bodily"]= 0,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10022,
+  ["NeedCatchLevel"]= 2,
+  ["PetExp"]= 0,
+  ["PetId"]= 82023,
+  ["PetTalentDesc"]= "PetTalentDesc82023",
+  ["Property"]= 0,
+  ["Race"]= 4,
+  ["SceneId"]= {
+    1320
+  },
+  ["Tool"]= 10407023
+},
+[82024] = {
+  ["Bodily"]= 2,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10040,
+  ["NeedCatchLevel"]= 2,
+  ["PetExp"]= 0,
+  ["PetId"]= 82024,
+  ["PetTalentDesc"]= "PetTalentDesc82024",
+  ["Property"]= 2,
+  ["Race"]= 2,
+  ["SceneId"]= {
+    1320
+  },
+  ["Tool"]= 10407024
+},
+[82025] = {
+  ["Bodily"]= 2,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10069,
+  ["NeedCatchLevel"]= 3,
+  ["PetExp"]= 0,
+  ["PetId"]= 82025,
+  ["PetTalentDesc"]= "PetTalentDesc82025",
+  ["Property"]= 2,
+  ["Race"]= 256,
+  ["SceneId"]= {
+    1150
+  },
+  ["Tool"]= 10407025
+},
+[82026] = {
+  ["Bodily"]= 1,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10098,
+  ["NeedCatchLevel"]= 3,
+  ["PetExp"]= 0,
+  ["PetId"]= 82026,
+  ["PetTalentDesc"]= "PetTalentDesc82026",
+  ["Property"]= 9,
+  ["Race"]= 64,
+  ["SceneId"]= {
+    1330
+  },
+  ["Tool"]= 10407026
+},
+[82027] = {
+  ["Bodily"]= 0,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10103,
+  ["NeedCatchLevel"]= 3,
+  ["PetExp"]= 0,
+  ["PetId"]= 82027,
+  ["PetTalentDesc"]= "PetTalentDesc82027",
+  ["Property"]= 7,
+  ["Race"]= 2,
+  ["SceneId"]= {
+    1340
+  },
+  ["Tool"]= 10407027
+},
+[82028] = {
+  ["Bodily"]= 2,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10076,
+  ["NeedCatchLevel"]= 3,
+  ["PetExp"]= 0,
+  ["PetId"]= 82028,
+  ["PetTalentDesc"]= "PetTalentDesc82028",
+  ["Property"]= 2,
+  ["Race"]= 16,
+  ["SceneId"]= {
+    1160
+  },
+  ["Tool"]= 10407028
+},
+[82029] = {
+  ["Bodily"]= 1,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10075,
+  ["NeedCatchLevel"]= 3,
+  ["PetExp"]= 0,
+  ["PetId"]= 82029,
+  ["PetTalentDesc"]= "PetTalentDesc82029",
+  ["Property"]= 2,
+  ["Race"]= 16,
+  ["SceneId"]= {
+    1160
+  },
+  ["Tool"]= 10407029
+},
+[82030] = {
+  ["Bodily"]= 1,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10029,
+  ["NeedCatchLevel"]= 3,
+  ["PetExp"]= 0,
+  ["PetId"]= 82030,
+  ["PetTalentDesc"]= "PetTalentDesc82030",
+  ["Property"]= 4,
+  ["Race"]= 256,
+  ["SceneId"]= {
+    1430
+  },
+  ["Tool"]= 10407030
+},
+[82031] = {
+  ["Bodily"]= 1,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10089,
+  ["NeedCatchLevel"]= 3,
+  ["PetExp"]= 0,
+  ["PetId"]= 82031,
+  ["PetTalentDesc"]= "PetTalentDesc82031",
+  ["Property"]= 9,
+  ["Race"]= 64,
+  ["SceneId"]= {
+    1450
+  },
+  ["Tool"]= 10407031
+},
+[82032] = {
+  ["Bodily"]= 1,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10090,
+  ["NeedCatchLevel"]= 3,
+  ["PetExp"]= 0,
+  ["PetId"]= 82032,
+  ["PetTalentDesc"]= "PetTalentDesc82032",
+  ["Property"]= 9,
+  ["Race"]= 64,
+  ["SceneId"]= {
+    1450
+  },
+  ["Tool"]= 10407032
+},
+[82033] = {
+  ["Bodily"]= 2,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10041,
+  ["NeedCatchLevel"]= 3,
+  ["PetExp"]= 0,
+  ["PetId"]= 82033,
+  ["PetTalentDesc"]= "PetTalentDesc82033",
+  ["Property"]= 7,
+  ["Race"]= 2,
+  ["SceneId"]= {
+    1450
+  },
+  ["Tool"]= 10407033
+},
+[82034] = {
+  ["Bodily"]= 1,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10091,
+  ["NeedCatchLevel"]= 3,
+  ["PetExp"]= 0,
+  ["PetId"]= 82034,
+  ["PetTalentDesc"]= "PetTalentDesc82034",
+  ["Property"]= 2,
+  ["Race"]= 2,
+  ["SceneId"]= {
+    1460
+  },
+  ["Tool"]= 10407034
+},
+[82035] = {
+  ["Bodily"]= 1,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10092,
+  ["NeedCatchLevel"]= 3,
+  ["PetExp"]= 0,
+  ["PetId"]= 82035,
+  ["PetTalentDesc"]= "PetTalentDesc82035",
+  ["Property"]= 1,
+  ["Race"]= 512,
+  ["SceneId"]= {
+    1440
+  },
+  ["Tool"]= 10407035
+},
+[82036] = {
+  ["Bodily"]= 1,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10037,
+  ["NeedCatchLevel"]= 3,
+  ["PetExp"]= 0,
+  ["PetId"]= 82036,
+  ["PetTalentDesc"]= "PetTalentDesc82036",
+  ["Property"]= 8,
+  ["Race"]= 4,
+  ["SceneId"]= {
+    1420
+  },
+  ["Tool"]= 10407036
+},
+[82037] = {
+  ["Bodily"]= 1,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10111,
+  ["NeedCatchLevel"]= 4,
+  ["PetExp"]= 0,
+  ["PetId"]= 82037,
+  ["PetTalentDesc"]= "PetTalentDesc82037",
+  ["Property"]= 1,
+  ["Race"]= 32,
+  ["SceneId"]= {
+    1230
+  },
+  ["Tool"]= 10407037
+},
+[82038] = {
+  ["Bodily"]= 2,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10158,
+  ["NeedCatchLevel"]= 4,
+  ["PetExp"]= 0,
+  ["PetId"]= 82038,
+  ["PetTalentDesc"]= "PetTalentDesc82038",
+  ["Property"]= 4,
+  ["Race"]= 32,
+  ["SceneId"]= {
+    1240
+  },
+  ["Tool"]= 10407038
+},
+[82039] = {
+  ["Bodily"]= 1,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10128,
+  ["NeedCatchLevel"]= 4,
+  ["PetExp"]= 0,
+  ["PetId"]= 82039,
+  ["PetTalentDesc"]= "PetTalentDesc82039",
+  ["Property"]= 1,
+  ["Race"]= 32,
+  ["SceneId"]= {
+    1250
+  },
+  ["Tool"]= 10407039
+},
+[82040] = {
+  ["Bodily"]= 1,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10157,
+  ["NeedCatchLevel"]= 4,
+  ["PetExp"]= 0,
+  ["PetId"]= 82040,
+  ["PetTalentDesc"]= "PetTalentDesc82040",
+  ["Property"]= 9,
+  ["Race"]= 64,
+  ["SceneId"]= {
+    1460
+  },
+  ["Tool"]= 10407040
+},
+[82041] = {
+  ["Bodily"]= 1,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10132,
+  ["NeedCatchLevel"]= 4,
+  ["PetExp"]= 0,
+  ["PetId"]= 82041,
+  ["PetTalentDesc"]= "PetTalentDesc82041",
+  ["Property"]= 1,
+  ["Race"]= 4,
+  ["SceneId"]= {
+    1260
+  },
+  ["Tool"]= 10407041
+},
+[82042] = {
+  ["Bodily"]= 1,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10129,
+  ["NeedCatchLevel"]= 4,
+  ["PetExp"]= 0,
+  ["PetId"]= 82042,
+  ["PetTalentDesc"]= "PetTalentDesc82042",
+  ["Property"]= 5,
+  ["Race"]= 32,
+  ["SceneId"]= {
+    1250
+  },
+  ["Tool"]= 10407042
+},
+[82043] = {
+  ["Bodily"]= 1,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10112,
+  ["NeedCatchLevel"]= 4,
+  ["PetExp"]= 0,
+  ["PetId"]= 82043,
+  ["PetTalentDesc"]= "PetTalentDesc82043",
+  ["Property"]= 5,
+  ["Race"]= 32,
+  ["SceneId"]= {
+    1230
+  },
+  ["Tool"]= 10407043
+},
+[82044] = {
+  ["Bodily"]= 2,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10133,
+  ["NeedCatchLevel"]= 4,
+  ["PetExp"]= 0,
+  ["PetId"]= 82044,
+  ["PetTalentDesc"]= "PetTalentDesc82044",
+  ["Property"]= 8,
+  ["Race"]= 2,
+  ["SceneId"]= {
+    1260
+  },
+  ["Tool"]= 10407044
+},
+[82045] = {
+  ["Bodily"]= 2,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10155,
+  ["NeedCatchLevel"]= 4,
+  ["PetExp"]= 0,
+  ["PetId"]= 82045,
+  ["PetTalentDesc"]= "PetTalentDesc82045",
+  ["Property"]= 8,
+  ["Race"]= 2,
+  ["SceneId"]= {
+    1460
+  },
+  ["Tool"]= 10407045
+},
+[82046] = {
+  ["Bodily"]= 1,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10113,
+  ["NeedCatchLevel"]= 4,
+  ["PetExp"]= 0,
+  ["PetId"]= 82046,
+  ["PetTalentDesc"]= "PetTalentDesc82046",
+  ["Property"]= 3,
+  ["Race"]= 32,
+  ["SceneId"]= {
+    1230
+  },
+  ["Tool"]= 10407046
+},
+[82047] = {
+  ["Bodily"]= 1,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10034,
+  ["NeedCatchLevel"]= 4,
+  ["PetExp"]= 0,
+  ["PetId"]= 82047,
+  ["PetTalentDesc"]= "PetTalentDesc82047",
+  ["Property"]= 4,
+  ["Race"]= 128,
+  ["SceneId"]= {
+    1220
+  },
+  ["Tool"]= 10407047
+},
+[82048] = {
+  ["Bodily"]= 2,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10151,
+  ["NeedCatchLevel"]= 4,
+  ["PetExp"]= 0,
+  ["PetId"]= 82048,
+  ["PetTalentDesc"]= "PetTalentDesc82048",
+  ["Property"]= 7,
+  ["Race"]= 2,
+  ["SceneId"]= {
+    1040
+  },
+  ["Tool"]= 10407048
+},
+[82049] = {
+  ["Bodily"]= 1,
+  ["CatchingPetExp"]= 10,
+  ["Monster"]= 10035,
+  ["NeedCatchLevel"]= 4,
+  ["PetExp"]= 0,
+  ["PetId"]= 82049,
+  ["PetTalentDesc"]= "PetTalentDesc82049",
+  ["Property"]= 3,
+  ["Race"]= 128,
+  ["SceneId"]= {
+    1220
+  },
+  ["Tool"]= 10407049
+}
+}
+"

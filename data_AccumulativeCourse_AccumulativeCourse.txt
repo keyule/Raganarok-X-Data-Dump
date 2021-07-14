@@ -1,0 +1,517 @@
+TextAsset Base
+	string m_Name = "data_AccumulativeCourse_AccumulativeCourse"
+	string m_Script = "local table= {
+[1] = {
+  ["conditionText"]= "CourseContentText_1",
+  ["navigationInterface"]= "UI_HandBook",
+  ["Times"]= 20
+},
+[2] = {
+  ["awardId"]= 10402,
+  ["conditionText"]= "CourseContentText_1",
+  ["id"]= 2,
+  ["navigationInterface"]= "UI_HandBook",
+  ["priority"]= 2,
+  ["Times"]= 25
+},
+[3] = {
+  ["awardId"]= 10403,
+  ["conditionText"]= "CourseContentText_1",
+  ["id"]= 3,
+  ["navigationInterface"]= "UI_HandBook",
+  ["priority"]= 3,
+  ["Times"]= 30
+},
+[4] = {
+  ["awardId"]= 10404,
+  ["conditionText"]= "CourseContentText_1",
+  ["id"]= 4,
+  ["navigationInterface"]= "UI_HandBook",
+  ["priority"]= 4,
+  ["Times"]= 35
+},
+[5] = {
+  ["awardId"]= 10405,
+  ["conditionText"]= "CourseContentText_1",
+  ["id"]= 5,
+  ["navigationInterface"]= "UI_HandBook",
+  ["priority"]= 5,
+  ["Times"]= 40
+},
+[6] = {
+  ["awardId"]= 10406,
+  ["conditionText"]= "CourseContentText_1",
+  ["id"]= 6,
+  ["navigationInterface"]= "UI_HandBook",
+  ["priority"]= 6,
+  ["Times"]= 45
+},
+[7] = {
+  ["awardId"]= 10407,
+  ["conditionText"]= "CourseContentText_1",
+  ["id"]= 7,
+  ["navigationInterface"]= "UI_HandBook",
+  ["priority"]= 7,
+  ["Times"]= 50
+},
+[11] = {
+  ["awardId"]= 10441,
+  ["conditionText"]= "CourseContentText_2",
+  ["courseText"]= "CourseText_2",
+  ["courseType"]= 3,
+  ["id"]= 11,
+  ["navigationInterface"]= "UI_HandBook",
+  ["TargetType"]= 47,
+  ["Times"]= 1
+},
+[12] = {
+  ["awardId"]= 10442,
+  ["conditionText"]= "CourseContentText_2",
+  ["courseText"]= "CourseText_2",
+  ["courseType"]= 3,
+  ["id"]= 12,
+  ["navigationInterface"]= "UI_HandBook",
+  ["priority"]= 2,
+  ["TargetType"]= 47
+},
+[13] = {
+  ["awardId"]= 10443,
+  ["conditionText"]= "CourseContentText_2",
+  ["courseText"]= "CourseText_2",
+  ["courseType"]= 3,
+  ["id"]= 13,
+  ["navigationInterface"]= "UI_HandBook",
+  ["priority"]= 3,
+  ["TargetType"]= 47,
+  ["Times"]= 5
+},
+[14] = {
+  ["awardId"]= 10444,
+  ["conditionText"]= "CourseContentText_2",
+  ["courseText"]= "CourseText_2",
+  ["courseType"]= 3,
+  ["id"]= 14,
+  ["navigationInterface"]= "UI_HandBook",
+  ["priority"]= 4,
+  ["TargetType"]= 47,
+  ["Times"]= 10
+},
+[15] = {
+  ["awardId"]= 10445,
+  ["conditionText"]= "CourseContentText_2",
+  ["courseText"]= "CourseText_2",
+  ["courseType"]= 3,
+  ["id"]= 15,
+  ["navigationInterface"]= "UI_HandBook",
+  ["priority"]= 5,
+  ["TargetType"]= 47,
+  ["Times"]= 15
+},
+[16] = {
+  ["awardId"]= 10446,
+  ["conditionText"]= "CourseContentText_2",
+  ["courseText"]= "CourseText_2",
+  ["courseType"]= 3,
+  ["id"]= 16,
+  ["navigationInterface"]= "UI_HandBook",
+  ["priority"]= 6,
+  ["TargetType"]= 47,
+  ["Times"]= 20
+},
+[17] = {
+  ["awardId"]= 10447,
+  ["conditionText"]= "CourseContentText_2",
+  ["courseText"]= "CourseText_2",
+  ["courseType"]= 3,
+  ["id"]= 17,
+  ["navigationInterface"]= "UI_HandBook",
+  ["priority"]= 7,
+  ["TargetType"]= 47,
+  ["Times"]= 25
+},
+[21] = {
+  ["awardId"]= 10221,
+  ["conditionText"]= "CourseContentText_6",
+  ["courseText"]= "CourseText_8",
+  ["courseType"]= 6,
+  ["id"]= 21,
+  ["navigationNpc"]= 10101028,
+  ["TargetParameter"]= {
+    8
+  },
+  ["TargetType"]= 2,
+  ["Times"]= 1
+},
+[22] = {
+  ["awardId"]= 10222,
+  ["conditionText"]= "CourseContentText_6",
+  ["courseText"]= "CourseText_8",
+  ["courseType"]= 6,
+  ["id"]= 22,
+  ["navigationNpc"]= 10101028,
+  ["priority"]= 2,
+  ["TargetParameter"]= {
+    8
+  },
+  ["TargetType"]= 2
+},
+[23] = {
+  ["awardId"]= 10223,
+  ["conditionText"]= "CourseContentText_6",
+  ["courseText"]= "CourseText_8",
+  ["courseType"]= 6,
+  ["id"]= 23,
+  ["navigationNpc"]= 10101028,
+  ["priority"]= 3,
+  ["TargetParameter"]= {
+    8
+  },
+  ["TargetType"]= 2,
+  ["Times"]= 5
+},
+[24] = {
+  ["awardId"]= 10224,
+  ["conditionText"]= "CourseContentText_6",
+  ["courseText"]= "CourseText_8",
+  ["courseType"]= 6,
+  ["id"]= 24,
+  ["navigationNpc"]= 10101028,
+  ["priority"]= 4,
+  ["TargetParameter"]= {
+    8
+  },
+  ["TargetType"]= 2,
+  ["Times"]= 10
+},
+[25] = {
+  ["awardId"]= 10225,
+  ["conditionText"]= "CourseContentText_6",
+  ["courseText"]= "CourseText_8",
+  ["courseType"]= 6,
+  ["id"]= 25,
+  ["navigationNpc"]= 10101028,
+  ["priority"]= 5,
+  ["TargetParameter"]= {
+    8
+  },
+  ["TargetType"]= 2,
+  ["Times"]= 15
+},
+[26] = {
+  ["awardId"]= 10226,
+  ["conditionText"]= "CourseContentText_6",
+  ["courseText"]= "CourseText_8",
+  ["courseType"]= 6,
+  ["id"]= 26,
+  ["navigationNpc"]= 10101028,
+  ["priority"]= 6,
+  ["TargetParameter"]= {
+    8
+  },
+  ["TargetType"]= 2,
+  ["Times"]= 20
+},
+[27] = {
+  ["awardId"]= 10227,
+  ["conditionText"]= "CourseContentText_6",
+  ["courseText"]= "CourseText_8",
+  ["courseType"]= 6,
+  ["id"]= 27,
+  ["navigationNpc"]= 10101028,
+  ["priority"]= 7,
+  ["TargetParameter"]= {
+    8
+  },
+  ["TargetType"]= 2,
+  ["Times"]= 25
+},
+[31] = {
+  ["awardId"]= 10421,
+  ["courseText"]= "CourseText_5",
+  ["courseType"]= 4,
+  ["id"]= 31,
+  ["navigationNpc"]= 10101022,
+  ["TargetParameter"]= {
+    6
+  },
+  ["TargetType"]= 34,
+  ["Times"]= 2
+},
+[32] = {
+  ["awardId"]= 10422,
+  ["courseText"]= "CourseText_5",
+  ["courseType"]= 4,
+  ["id"]= 32,
+  ["navigationNpc"]= 10101022,
+  ["priority"]= 2,
+  ["TargetParameter"]= {
+    9
+  },
+  ["TargetType"]= 34
+},
+[33] = {
+  ["awardId"]= 10423,
+  ["courseText"]= "CourseText_5",
+  ["courseType"]= 4,
+  ["id"]= 33,
+  ["navigationNpc"]= 10101022,
+  ["priority"]= 3,
+  ["TargetParameter"]= {
+    12
+  },
+  ["TargetType"]= 34,
+  ["Times"]= 4
+},
+[34] = {
+  ["awardId"]= 10424,
+  ["courseText"]= "CourseText_5",
+  ["courseType"]= 4,
+  ["id"]= 34,
+  ["navigationNpc"]= 10101022,
+  ["priority"]= 4,
+  ["TargetParameter"]= {
+    15
+  },
+  ["TargetType"]= 34,
+  ["Times"]= 5
+},
+[35] = {
+  ["awardId"]= 10425,
+  ["courseText"]= "CourseText_5",
+  ["courseType"]= 4,
+  ["id"]= 35,
+  ["navigationNpc"]= 10101022,
+  ["priority"]= 5,
+  ["TargetParameter"]= {
+    18
+  },
+  ["TargetType"]= 34,
+  ["Times"]= 6
+},
+[36] = {
+  ["awardId"]= 10426,
+  ["courseText"]= "CourseText_5",
+  ["courseType"]= 4,
+  ["id"]= 36,
+  ["navigationNpc"]= 10101022,
+  ["priority"]= 6,
+  ["TargetParameter"]= {
+    21
+  },
+  ["TargetType"]= 34,
+  ["Times"]= 7
+},
+[37] = {
+  ["awardId"]= 10427,
+  ["courseText"]= "CourseText_5",
+  ["courseType"]= 4,
+  ["id"]= 37,
+  ["navigationNpc"]= 10101022,
+  ["priority"]= 7,
+  ["TargetParameter"]= {
+    24
+  },
+  ["TargetType"]= 34,
+  ["Times"]= 8
+},
+[41] = {
+  ["awardId"]= 10411,
+  ["courseText"]= "CourseText_6",
+  ["courseType"]= 2,
+  ["id"]= 41,
+  ["navigationNpc"]= 10101008,
+  ["TargetParameter"]= {
+    10
+  },
+  ["TargetType"]= 33,
+  ["Times"]= 2
+},
+[42] = {
+  ["awardId"]= 10412,
+  ["courseText"]= "CourseText_6",
+  ["courseType"]= 2,
+  ["id"]= 42,
+  ["navigationNpc"]= 10101008,
+  ["priority"]= 2,
+  ["TargetParameter"]= {
+    15
+  },
+  ["TargetType"]= 33
+},
+[43] = {
+  ["awardId"]= 10413,
+  ["courseText"]= "CourseText_6",
+  ["courseType"]= 2,
+  ["id"]= 43,
+  ["navigationNpc"]= 10101008,
+  ["priority"]= 3,
+  ["TargetParameter"]= {
+    20
+  },
+  ["TargetType"]= 33,
+  ["Times"]= 4
+},
+[44] = {
+  ["awardId"]= 10414,
+  ["courseText"]= "CourseText_6",
+  ["courseType"]= 2,
+  ["id"]= 44,
+  ["navigationNpc"]= 10101008,
+  ["priority"]= 4,
+  ["TargetParameter"]= {
+    25
+  },
+  ["TargetType"]= 33,
+  ["Times"]= 5
+},
+[45] = {
+  ["awardId"]= 10415,
+  ["courseText"]= "CourseText_6",
+  ["courseType"]= 2,
+  ["id"]= 45,
+  ["navigationNpc"]= 10101008,
+  ["priority"]= 5,
+  ["TargetParameter"]= {
+    30
+  },
+  ["TargetType"]= 33,
+  ["Times"]= 6
+},
+[46] = {
+  ["awardId"]= 10416,
+  ["courseText"]= "CourseText_6",
+  ["courseType"]= 2,
+  ["id"]= 46,
+  ["navigationNpc"]= 10101008,
+  ["priority"]= 6,
+  ["TargetParameter"]= {
+    35
+  },
+  ["TargetType"]= 33,
+  ["Times"]= 7
+},
+[47] = {
+  ["awardId"]= 10417,
+  ["courseText"]= "CourseText_6",
+  ["courseType"]= 2,
+  ["id"]= 47,
+  ["navigationNpc"]= 10101008,
+  ["priority"]= 7,
+  ["TargetParameter"]= {
+    40
+  },
+  ["TargetType"]= 33,
+  ["Times"]= 8
+},
+[51] = {
+  ["awardId"]= 10431,
+  ["courseText"]= "CourseText_7",
+  ["courseType"]= 5,
+  ["id"]= 51,
+  ["navigationNpc"]= 10101007,
+  ["TargetParameter"]= {
+    1
+  },
+  ["TargetType"]= 35,
+  ["Times"]= 2
+},
+[52] = {
+  ["awardId"]= 10432,
+  ["courseText"]= "CourseText_7",
+  ["courseType"]= 5,
+  ["id"]= 52,
+  ["navigationNpc"]= 10101007,
+  ["priority"]= 2,
+  ["TargetParameter"]= {
+    2
+  },
+  ["TargetType"]= 35
+},
+[53] = {
+  ["awardId"]= 10433,
+  ["courseText"]= "CourseText_7",
+  ["courseType"]= 5,
+  ["id"]= 53,
+  ["navigationNpc"]= 10101007,
+  ["priority"]= 3,
+  ["TargetParameter"]= {
+    3
+  },
+  ["TargetType"]= 35,
+  ["Times"]= 4
+},
+[54] = {
+  ["awardId"]= 10434,
+  ["courseText"]= "CourseText_7",
+  ["courseType"]= 5,
+  ["id"]= 54,
+  ["navigationNpc"]= 10101007,
+  ["priority"]= 4,
+  ["TargetParameter"]= {
+    4
+  },
+  ["TargetType"]= 35,
+  ["Times"]= 5
+},
+[55] = {
+  ["awardId"]= 10435,
+  ["courseText"]= "CourseText_7",
+  ["courseType"]= 5,
+  ["id"]= 55,
+  ["navigationNpc"]= 10101007,
+  ["priority"]= 5,
+  ["TargetParameter"]= {
+    5
+  },
+  ["TargetType"]= 35,
+  ["Times"]= 6
+},
+[56] = {
+  ["awardId"]= 10436,
+  ["courseText"]= "CourseText_7",
+  ["courseType"]= 5,
+  ["id"]= 56,
+  ["navigationNpc"]= 10101007,
+  ["priority"]= 6,
+  ["TargetParameter"]= {
+    6
+  },
+  ["TargetType"]= 35,
+  ["Times"]= 7
+},
+[57] = {
+  ["awardId"]= 10437,
+  ["courseText"]= "CourseText_7",
+  ["courseType"]= 5,
+  ["id"]= 57,
+  ["navigationNpc"]= 10101007,
+  ["priority"]= 7,
+  ["TargetParameter"]= {
+    7
+  },
+  ["TargetType"]= 35,
+  ["Times"]= 8
+}
+}
+local baseTable={
+  ["awardId"]= 10401,
+  ["awardType"]= 1,
+  ["Condition"]= 0,
+  ["conditionText"]= "CourseContentText_5",
+  ["courseText"]= "CourseText_1",
+  ["courseType"]= 1,
+  ["id"]= 1,
+  ["isHiddenMainInterface"]= 0,
+  ["navigationInterface"]= "",
+  ["navigationNpc"]= 0,
+  ["priority"]= 1,
+  ["TargetParameter"]= {
+    0
+  },
+  ["TargetType"]= 29,
+  ["Times"]= 3
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

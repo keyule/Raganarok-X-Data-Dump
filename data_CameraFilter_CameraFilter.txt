@@ -1,0 +1,172 @@
+TextAsset Base
+	string m_Name = "data_CameraFilter_CameraFilter"
+	string m_Script = "local table= {
+[1] = {
+  ["saturation"]= 1.01,
+  ["tint"]= 22
+},
+[2] = {
+  ["gamma"]= {
+    0.377752423,
+    0.6556209,
+    1,
+    0
+  },
+  ["iconId"]= "Img_Filter3",
+  ["id"]= 2,
+  ["neutralBlackIn"]= 0.05,
+  ["neutralWhileIn"]= 7,
+  ["neutralWhileLevel"]= 20,
+  ["neutralWhileOut"]= 1,
+  ["red"]= {
+    1.2,
+    0,
+    0.1
+  },
+  ["temperature"]= -5
+},
+[3] = {
+  ["contrast"]= 1.1,
+  ["iconId"]= "Img_Filter4",
+  ["id"]= 3,
+  ["neutralBlackIn"]= 0.04,
+  ["neutralWhileIn"]= 12.3,
+  ["neutralWhileLevel"]= 6.5,
+  ["neutralWhileOut"]= 9,
+  ["power"]= {
+    1,
+    0.218010932,
+    0.0910058,
+    0
+  },
+  ["red"]= {
+    1.28,
+    0,
+    0
+  },
+  ["saturation"]= 0.81,
+  ["temperature"]= 26
+},
+[4] = {
+  ["contrast"]= 1.1,
+  ["gamma"]= {
+    0.321685076,
+    0.867444634,
+    1,
+    0
+  },
+  ["iconId"]= "Img_Filter5",
+  ["id"]= 4,
+  ["neutralBlackIn"]= 0.044,
+  ["neutralBlackOut"]= 0.02,
+  ["neutralWhileLevel"]= 3,
+  ["neutralWhileOut"]= 7.6,
+  ["saturation"]= 0.84,
+  ["temperature"]= 35,
+  ["tint"]= -6
+},
+[5] = {
+  ["gamma"]= {
+    1,
+    0.832482338,
+    0.560767651,
+    0
+  },
+  ["iconId"]= "Img_Filter6",
+  ["id"]= 5,
+  ["neutralBlackIn"]= 0.036,
+  ["neutralWhileIn"]= 7.1,
+  ["neutralWhileLevel"]= 3.2,
+  ["temperature"]= 47,
+  ["tint"]= -1
+},
+[6] = {
+  ["contrast"]= 0.95,
+  ["iconId"]= "Img_Filter7",
+  ["id"]= 6,
+  ["neutralBlackIn"]= 0.02,
+  ["neutralWhileClip"]= 8.54,
+  ["neutralWhileIn"]= 7.3,
+  ["neutralWhileLevel"]= 1.9,
+  ["power"]= {
+    0.2808483,
+    0.0559957623,
+    1,
+    0
+  },
+  ["saturation"]= 1,
+  ["temperature"]= 59,
+  ["tint"]= -41
+}
+}
+local baseTable={
+  ["blue"]= {
+    0,
+    0,
+    1
+  },
+  ["contrast"]= 1,
+  ["gain"]= {
+    1,
+    1,
+    1,
+    0
+  },
+  ["gamma"]= {
+    1,
+    1,
+    1,
+    0
+  },
+  ["green"]= {
+    0,
+    1,
+    0
+  },
+  ["hueShift"]= 0,
+  ["iconId"]= "Img_Filter2",
+  ["id"]= 1,
+  ["lift"]= {
+    1,
+    1,
+    1,
+    0
+  },
+  ["neutralBlackIn"]= 0.029,
+  ["neutralBlackOut"]= 0,
+  ["neutralWhileClip"]= 10,
+  ["neutralWhileIn"]= 10,
+  ["neutralWhileLevel"]= 2.3,
+  ["neutralWhileOut"]= 10,
+  ["offset"]= {
+    1,
+    1,
+    1,
+    0
+  },
+  ["postExposure"]= 0,
+  ["power"]= {
+    1,
+    1,
+    1,
+    0
+  },
+  ["red"]= {
+    1,
+    0,
+    0
+  },
+  ["saturation"]= 0.8,
+  ["slope"]= {
+    1,
+    1,
+    1,
+    0
+  },
+  ["temperature"]= 30,
+  ["tint"]= -10
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

@@ -1,0 +1,28 @@
+TextAsset Base
+	string m_Name = "data_Wedding_Parade"
+	string m_Script = "local table= {
+[40001] = {},
+[40002] = {
+  ["ParadaSeats"]= 6,
+  ["ParadaType"]= 40002
+},
+[40003] = {
+  ["ParadaSeats"]= 10,
+  ["ParadaType"]= 40003
+},
+[40004] = {
+  ["ParadaSeats"]= 16,
+  ["ParadaType"]= 40004
+}
+}
+local baseTable={
+  ["announcementId"]= 37,
+  ["ParadaModelId"]= 10105003,
+  ["ParadaSceneId"]= 1010,
+  ["ParadaSeats"]= 0,
+  ["ParadaType"]= 40001
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

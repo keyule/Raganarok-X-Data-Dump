@@ -1,0 +1,1025 @@
+TextAsset Base
+	string m_Name = "data_equip_Appraisal"
+	string m_Script = "return {
+[1001] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 1000,
+  ["crystal"]= 0,
+  ["des"]= "物理攻击+12",
+  ["id"]= 1001,
+  ["itemid"]= 0,
+  ["propid"]= {
+    10
+  },
+  ["propnum"]= {
+    0.5
+  },
+  ["quality"]= 1,
+  ["skillid"]= 0,
+  ["typeName"]= "尖锐"
+},
+[1002] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 2000,
+  ["crystal"]= 0,
+  ["des"]= "物理攻击+27",
+  ["id"]= 1002,
+  ["itemid"]= 0,
+  ["propid"]= {
+    10
+  },
+  ["propnum"]= {
+    1
+  },
+  ["quality"]= 2,
+  ["skillid"]= 0,
+  ["typeName"]= "尖锐"
+},
+[1003] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 3000,
+  ["crystal"]= 0,
+  ["des"]= "物理攻击+58",
+  ["id"]= 1003,
+  ["itemid"]= 0,
+  ["propid"]= {
+    10
+  },
+  ["propnum"]= {
+    1.5
+  },
+  ["quality"]= 3,
+  ["skillid"]= 0,
+  ["typeName"]= "尖锐"
+},
+[1004] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 4000,
+  ["crystal"]= 0,
+  ["des"]= "物理攻击+128",
+  ["id"]= 1004,
+  ["itemid"]= 0,
+  ["propid"]= {
+    10
+  },
+  ["propnum"]= {
+    2
+  },
+  ["quality"]= 4,
+  ["skillid"]= 0,
+  ["typeName"]= "尖锐"
+},
+[1005] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 1000,
+  ["crystal"]= 0,
+  ["des"]= "物理防御+24",
+  ["id"]= 1005,
+  ["itemid"]= 0,
+  ["propid"]= {
+    23
+  },
+  ["propnum"]= {
+    1
+  },
+  ["quality"]= 1,
+  ["skillid"]= 0,
+  ["typeName"]= "坚决"
+},
+[1006] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 2000,
+  ["crystal"]= 0,
+  ["des"]= "物理防御+54",
+  ["id"]= 1006,
+  ["itemid"]= 0,
+  ["propid"]= {
+    23
+  },
+  ["propnum"]= {
+    2
+  },
+  ["quality"]= 2,
+  ["skillid"]= 0,
+  ["typeName"]= "坚决"
+},
+[1007] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 3000,
+  ["crystal"]= 0,
+  ["des"]= "物理防御+116",
+  ["id"]= 1007,
+  ["itemid"]= 0,
+  ["propid"]= {
+    23
+  },
+  ["propnum"]= {
+    3
+  },
+  ["quality"]= 3,
+  ["skillid"]= 0,
+  ["typeName"]= "坚决"
+},
+[1008] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 4000,
+  ["crystal"]= 0,
+  ["des"]= "物理防御+256",
+  ["id"]= 1008,
+  ["itemid"]= 0,
+  ["propid"]= {
+    23
+  },
+  ["propnum"]= {
+    4
+  },
+  ["quality"]= 4,
+  ["skillid"]= 0,
+  ["typeName"]= "坚决"
+},
+[1009] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 1000,
+  ["crystal"]= 0,
+  ["des"]= "HP+360",
+  ["id"]= 1009,
+  ["itemid"]= 0,
+  ["propid"]= {
+    32
+  },
+  ["propnum"]= {
+    10
+  },
+  ["quality"]= 1,
+  ["skillid"]= 0,
+  ["typeName"]= "不灭"
+},
+[1010] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 2000,
+  ["crystal"]= 0,
+  ["des"]= "HP+810",
+  ["id"]= 1010,
+  ["itemid"]= 0,
+  ["propid"]= {
+    32
+  },
+  ["propnum"]= {
+    20
+  },
+  ["quality"]= 2,
+  ["skillid"]= 0,
+  ["typeName"]= "不灭"
+},
+[1011] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 3000,
+  ["crystal"]= 0,
+  ["des"]= "HP+1740",
+  ["id"]= 1011,
+  ["itemid"]= 0,
+  ["propid"]= {
+    32
+  },
+  ["propnum"]= {
+    30
+  },
+  ["quality"]= 3,
+  ["skillid"]= 0,
+  ["typeName"]= "不灭"
+},
+[1012] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 4000,
+  ["crystal"]= 0,
+  ["des"]= "HP+3840",
+  ["id"]= 1012,
+  ["itemid"]= 0,
+  ["propid"]= {
+    32
+  },
+  ["propnum"]= {
+    40
+  },
+  ["quality"]= 4,
+  ["skillid"]= 0,
+  ["typeName"]= "不灭"
+},
+[1013] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 1000,
+  ["crystal"]= 0,
+  ["des"]= "魔法攻击+12",
+  ["id"]= 1013,
+  ["itemid"]= 0,
+  ["propid"]= {
+    11
+  },
+  ["propnum"]= {
+    0.5
+  },
+  ["quality"]= 1,
+  ["skillid"]= 0,
+  ["typeName"]= "毁灭"
+},
+[1014] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 2000,
+  ["crystal"]= 0,
+  ["des"]= "魔法攻击+27",
+  ["id"]= 1014,
+  ["itemid"]= 0,
+  ["propid"]= {
+    11
+  },
+  ["propnum"]= {
+    1
+  },
+  ["quality"]= 2,
+  ["skillid"]= 0,
+  ["typeName"]= "毁灭"
+},
+[1015] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 3000,
+  ["crystal"]= 0,
+  ["des"]= "魔法攻击+58",
+  ["id"]= 1015,
+  ["itemid"]= 0,
+  ["propid"]= {
+    11
+  },
+  ["propnum"]= {
+    1.5
+  },
+  ["quality"]= 3,
+  ["skillid"]= 0,
+  ["typeName"]= "毁灭"
+},
+[1016] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 4000,
+  ["crystal"]= 0,
+  ["des"]= "魔法攻击+128",
+  ["id"]= 1016,
+  ["itemid"]= 0,
+  ["propid"]= {
+    11
+  },
+  ["propnum"]= {
+    2
+  },
+  ["quality"]= 4,
+  ["skillid"]= 0,
+  ["typeName"]= "毁灭"
+},
+[1017] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 1000,
+  ["crystal"]= 0,
+  ["des"]= "魔法防御+24",
+  ["id"]= 1017,
+  ["itemid"]= 0,
+  ["propid"]= {
+    24
+  },
+  ["propnum"]= {
+    1
+  },
+  ["quality"]= 1,
+  ["skillid"]= 0,
+  ["typeName"]= "抵御"
+},
+[1018] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 2000,
+  ["crystal"]= 0,
+  ["des"]= "魔法防御+54",
+  ["id"]= 1018,
+  ["itemid"]= 0,
+  ["propid"]= {
+    24
+  },
+  ["propnum"]= {
+    2
+  },
+  ["quality"]= 2,
+  ["skillid"]= 0,
+  ["typeName"]= "抵御"
+},
+[1019] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 3000,
+  ["crystal"]= 0,
+  ["des"]= "魔法防御+116",
+  ["id"]= 1019,
+  ["itemid"]= 0,
+  ["propid"]= {
+    24
+  },
+  ["propnum"]= {
+    3
+  },
+  ["quality"]= 3,
+  ["skillid"]= 0,
+  ["typeName"]= "抵御"
+},
+[1020] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 4000,
+  ["crystal"]= 0,
+  ["des"]= "魔法防御+256",
+  ["id"]= 1020,
+  ["itemid"]= 0,
+  ["propid"]= {
+    24
+  },
+  ["propnum"]= {
+    4
+  },
+  ["quality"]= 4,
+  ["skillid"]= 0,
+  ["typeName"]= "抵御"
+},
+[1021] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 1000,
+  ["crystal"]= 0,
+  ["des"]= "命中等级+20",
+  ["id"]= 1021,
+  ["itemid"]= 0,
+  ["propid"]= {
+    18
+  },
+  ["propnum"]= {
+    1
+  },
+  ["quality"]= 1,
+  ["skillid"]= 0,
+  ["typeName"]= "精准"
+},
+[1022] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 2000,
+  ["crystal"]= 0,
+  ["des"]= "命中等级+44",
+  ["id"]= 1022,
+  ["itemid"]= 0,
+  ["propid"]= {
+    18
+  },
+  ["propnum"]= {
+    2
+  },
+  ["quality"]= 2,
+  ["skillid"]= 0,
+  ["typeName"]= "精准"
+},
+[1023] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 3000,
+  ["crystal"]= 0,
+  ["des"]= "命中等级+97",
+  ["id"]= 1023,
+  ["itemid"]= 0,
+  ["propid"]= {
+    18
+  },
+  ["propnum"]= {
+    3
+  },
+  ["quality"]= 3,
+  ["skillid"]= 0,
+  ["typeName"]= "精准"
+},
+[1024] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 4000,
+  ["crystal"]= 0,
+  ["des"]= "命中等级+213",
+  ["id"]= 1024,
+  ["itemid"]= 0,
+  ["propid"]= {
+    18
+  },
+  ["propnum"]= {
+    4
+  },
+  ["quality"]= 4,
+  ["skillid"]= 0,
+  ["typeName"]= "精准"
+},
+[1025] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 1000,
+  ["crystal"]= 0,
+  ["des"]= "急速等级+20",
+  ["id"]= 1025,
+  ["itemid"]= 0,
+  ["propid"]= {
+    16
+  },
+  ["propnum"]= {
+    1
+  },
+  ["quality"]= 1,
+  ["skillid"]= 0,
+  ["typeName"]= "急速"
+},
+[1026] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 2000,
+  ["crystal"]= 0,
+  ["des"]= "急速等级+44",
+  ["id"]= 1026,
+  ["itemid"]= 0,
+  ["propid"]= {
+    16
+  },
+  ["propnum"]= {
+    2
+  },
+  ["quality"]= 2,
+  ["skillid"]= 0,
+  ["typeName"]= "急速"
+},
+[1027] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 3000,
+  ["crystal"]= 0,
+  ["des"]= "急速等级+97",
+  ["id"]= 1027,
+  ["itemid"]= 0,
+  ["propid"]= {
+    16
+  },
+  ["propnum"]= {
+    3
+  },
+  ["quality"]= 3,
+  ["skillid"]= 0,
+  ["typeName"]= "急速"
+},
+[1028] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 4000,
+  ["crystal"]= 0,
+  ["des"]= "急速等级+213",
+  ["id"]= 1028,
+  ["itemid"]= 0,
+  ["propid"]= {
+    16
+  },
+  ["propnum"]= {
+    4
+  },
+  ["quality"]= 4,
+  ["skillid"]= 0,
+  ["typeName"]= "急速"
+},
+[1029] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 1000,
+  ["crystal"]= 0,
+  ["des"]= "攻速等级+20",
+  ["id"]= 1029,
+  ["itemid"]= 0,
+  ["propid"]= {
+    14
+  },
+  ["propnum"]= {
+    1
+  },
+  ["quality"]= 1,
+  ["skillid"]= 0,
+  ["typeName"]= "欢欣"
+},
+[1030] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 2000,
+  ["crystal"]= 0,
+  ["des"]= "攻速等级+44",
+  ["id"]= 1030,
+  ["itemid"]= 0,
+  ["propid"]= {
+    14
+  },
+  ["propnum"]= {
+    2
+  },
+  ["quality"]= 2,
+  ["skillid"]= 0,
+  ["typeName"]= "欢欣"
+},
+[1031] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 3000,
+  ["crystal"]= 0,
+  ["des"]= "攻速等级+97",
+  ["id"]= 1031,
+  ["itemid"]= 0,
+  ["propid"]= {
+    14
+  },
+  ["propnum"]= {
+    3
+  },
+  ["quality"]= 3,
+  ["skillid"]= 0,
+  ["typeName"]= "欢欣"
+},
+[1032] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 4000,
+  ["crystal"]= 0,
+  ["des"]= "攻速等级+213",
+  ["id"]= 1032,
+  ["itemid"]= 0,
+  ["propid"]= {
+    14
+  },
+  ["propnum"]= {
+    4
+  },
+  ["quality"]= 4,
+  ["skillid"]= 0,
+  ["typeName"]= "欢欣"
+},
+[1033] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 1000,
+  ["crystal"]= 0,
+  ["des"]= "闪避等级+20",
+  ["id"]= 1033,
+  ["itemid"]= 0,
+  ["propid"]= {
+    26
+  },
+  ["propnum"]= {
+    1
+  },
+  ["quality"]= 1,
+  ["skillid"]= 0,
+  ["typeName"]= "灵巧"
+},
+[1034] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 2000,
+  ["crystal"]= 0,
+  ["des"]= "闪避等级+44",
+  ["id"]= 1034,
+  ["itemid"]= 0,
+  ["propid"]= {
+    26
+  },
+  ["propnum"]= {
+    2
+  },
+  ["quality"]= 2,
+  ["skillid"]= 0,
+  ["typeName"]= "灵巧"
+},
+[1035] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 3000,
+  ["crystal"]= 0,
+  ["des"]= "闪避等级+97",
+  ["id"]= 1035,
+  ["itemid"]= 0,
+  ["propid"]= {
+    26
+  },
+  ["propnum"]= {
+    3
+  },
+  ["quality"]= 3,
+  ["skillid"]= 0,
+  ["typeName"]= "灵巧"
+},
+[1036] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 4000,
+  ["crystal"]= 0,
+  ["des"]= "闪避等级+213",
+  ["id"]= 1036,
+  ["itemid"]= 0,
+  ["propid"]= {
+    26
+  },
+  ["propnum"]= {
+    4
+  },
+  ["quality"]= 4,
+  ["skillid"]= 0,
+  ["typeName"]= "灵巧"
+},
+[1037] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 1000,
+  ["crystal"]= 0,
+  ["des"]= "暴击等级+20",
+  ["id"]= 1037,
+  ["itemid"]= 0,
+  ["propid"]= {
+    21
+  },
+  ["propnum"]= {
+    1
+  },
+  ["quality"]= 1,
+  ["skillid"]= 0,
+  ["typeName"]= "主宰"
+},
+[1038] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 2000,
+  ["crystal"]= 0,
+  ["des"]= "暴击等级+44",
+  ["id"]= 1038,
+  ["itemid"]= 0,
+  ["propid"]= {
+    21
+  },
+  ["propnum"]= {
+    2
+  },
+  ["quality"]= 2,
+  ["skillid"]= 0,
+  ["typeName"]= "主宰"
+},
+[1039] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 3000,
+  ["crystal"]= 0,
+  ["des"]= "暴击等级+97",
+  ["id"]= 1039,
+  ["itemid"]= 0,
+  ["propid"]= {
+    21
+  },
+  ["propnum"]= {
+    3
+  },
+  ["quality"]= 3,
+  ["skillid"]= 0,
+  ["typeName"]= "主宰"
+},
+[1040] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 4000,
+  ["crystal"]= 0,
+  ["des"]= "暴击等级+213",
+  ["id"]= 1040,
+  ["itemid"]= 0,
+  ["propid"]= {
+    21
+  },
+  ["propnum"]= {
+    4
+  },
+  ["quality"]= 4,
+  ["skillid"]= 0,
+  ["typeName"]= "主宰"
+},
+[1041] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 1000,
+  ["crystal"]= 0,
+  ["des"]= "免暴等级+20",
+  ["id"]= 1041,
+  ["itemid"]= 0,
+  ["propid"]= {
+    31
+  },
+  ["propnum"]= {
+    1
+  },
+  ["quality"]= 1,
+  ["skillid"]= 0,
+  ["typeName"]= "守护"
+},
+[1042] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 2000,
+  ["crystal"]= 0,
+  ["des"]= "免暴等级+44",
+  ["id"]= 1042,
+  ["itemid"]= 0,
+  ["propid"]= {
+    31
+  },
+  ["propnum"]= {
+    2
+  },
+  ["quality"]= 2,
+  ["skillid"]= 0,
+  ["typeName"]= "守护"
+},
+[1043] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 3000,
+  ["crystal"]= 0,
+  ["des"]= "免暴等级+97",
+  ["id"]= 1043,
+  ["itemid"]= 0,
+  ["propid"]= {
+    31
+  },
+  ["propnum"]= {
+    3
+  },
+  ["quality"]= 3,
+  ["skillid"]= 0,
+  ["typeName"]= "守护"
+},
+[1044] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 4000,
+  ["crystal"]= 0,
+  ["des"]= "免暴等级+213",
+  ["id"]= 1044,
+  ["itemid"]= 0,
+  ["propid"]= {
+    31
+  },
+  ["propnum"]= {
+    4
+  },
+  ["quality"]= 4,
+  ["skillid"]= 0,
+  ["typeName"]= "守护"
+},
+[1045] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 1000,
+  ["crystal"]= 0,
+  ["des"]= "物理穿透+12",
+  ["id"]= 1045,
+  ["itemid"]= 0,
+  ["propid"]= {
+    12
+  },
+  ["propnum"]= {
+    0.5
+  },
+  ["quality"]= 1,
+  ["skillid"]= 0,
+  ["typeName"]= "穿刺"
+},
+[1046] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 2000,
+  ["crystal"]= 0,
+  ["des"]= "物理穿透+27",
+  ["id"]= 1046,
+  ["itemid"]= 0,
+  ["propid"]= {
+    12
+  },
+  ["propnum"]= {
+    1
+  },
+  ["quality"]= 2,
+  ["skillid"]= 0,
+  ["typeName"]= "穿刺"
+},
+[1047] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 3000,
+  ["crystal"]= 0,
+  ["des"]= "物理穿透+58",
+  ["id"]= 1047,
+  ["itemid"]= 0,
+  ["propid"]= {
+    12
+  },
+  ["propnum"]= {
+    1.5
+  },
+  ["quality"]= 3,
+  ["skillid"]= 0,
+  ["typeName"]= "穿刺"
+},
+[1048] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 4000,
+  ["crystal"]= 0,
+  ["des"]= "物理穿透+128",
+  ["id"]= 1048,
+  ["itemid"]= 0,
+  ["propid"]= {
+    12
+  },
+  ["propnum"]= {
+    2
+  },
+  ["quality"]= 4,
+  ["skillid"]= 0,
+  ["typeName"]= "穿刺"
+},
+[1049] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 1000,
+  ["crystal"]= 0,
+  ["des"]= "魔法穿透+12",
+  ["id"]= 1049,
+  ["itemid"]= 0,
+  ["propid"]= {
+    13
+  },
+  ["propnum"]= {
+    0.5
+  },
+  ["quality"]= 1,
+  ["skillid"]= 0,
+  ["typeName"]= "洞悉"
+},
+[1050] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 2000,
+  ["crystal"]= 0,
+  ["des"]= "魔法穿透+27",
+  ["id"]= 1050,
+  ["itemid"]= 0,
+  ["propid"]= {
+    13
+  },
+  ["propnum"]= {
+    1
+  },
+  ["quality"]= 2,
+  ["skillid"]= 0,
+  ["typeName"]= "洞悉"
+},
+[1051] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 3000,
+  ["crystal"]= 0,
+  ["des"]= "魔法穿透+58",
+  ["id"]= 1051,
+  ["itemid"]= 0,
+  ["propid"]= {
+    13
+  },
+  ["propnum"]= {
+    1.5
+  },
+  ["quality"]= 3,
+  ["skillid"]= 0,
+  ["typeName"]= "洞悉"
+},
+[1052] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 4000,
+  ["crystal"]= 0,
+  ["des"]= "魔法穿透+128",
+  ["id"]= 1052,
+  ["itemid"]= 0,
+  ["propid"]= {
+    13
+  },
+  ["propnum"]= {
+    2
+  },
+  ["quality"]= 4,
+  ["skillid"]= 0,
+  ["typeName"]= "洞悉"
+},
+[1053] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 1000,
+  ["crystal"]= 0,
+  ["des"]= "SP+36",
+  ["id"]= 1053,
+  ["itemid"]= 0,
+  ["propid"]= {
+    33
+  },
+  ["propnum"]= {
+    1
+  },
+  ["quality"]= 1,
+  ["skillid"]= 0,
+  ["typeName"]= "启迪"
+},
+[1054] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 2000,
+  ["crystal"]= 0,
+  ["des"]= "SP+81",
+  ["id"]= 1054,
+  ["itemid"]= 0,
+  ["propid"]= {
+    33
+  },
+  ["propnum"]= {
+    2
+  },
+  ["quality"]= 2,
+  ["skillid"]= 0,
+  ["typeName"]= "启迪"
+},
+[1055] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 3000,
+  ["crystal"]= 0,
+  ["des"]= "SP+174",
+  ["id"]= 1055,
+  ["itemid"]= 0,
+  ["propid"]= {
+    33
+  },
+  ["propnum"]= {
+    3
+  },
+  ["quality"]= 3,
+  ["skillid"]= 0,
+  ["typeName"]= "启迪"
+},
+[1056] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 4000,
+  ["crystal"]= 0,
+  ["des"]= "SP+384",
+  ["id"]= 1056,
+  ["itemid"]= 0,
+  ["propid"]= {
+    33
+  },
+  ["propnum"]= {
+    4
+  },
+  ["quality"]= 4,
+  ["skillid"]= 0,
+  ["typeName"]= "启迪"
+},
+[1057] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 1000,
+  ["crystal"]= 0,
+  ["des"]= "移动速度+5%",
+  ["id"]= 1057,
+  ["itemid"]= 0,
+  ["propid"]= {
+    40
+  },
+  ["propnum"]= {
+    0.0005
+  },
+  ["quality"]= 1,
+  ["skillid"]= 0,
+  ["typeName"]= "迅捷"
+},
+[1058] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 2000,
+  ["crystal"]= 0,
+  ["des"]= "移动速度+10%",
+  ["id"]= 1058,
+  ["itemid"]= 0,
+  ["propid"]= {
+    40
+  },
+  ["propnum"]= {
+    0.001
+  },
+  ["quality"]= 2,
+  ["skillid"]= 0,
+  ["typeName"]= "迅捷"
+},
+[1059] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 3000,
+  ["crystal"]= 0,
+  ["des"]= "移动速度+15%",
+  ["id"]= 1059,
+  ["itemid"]= 0,
+  ["propid"]= {
+    40
+  },
+  ["propnum"]= {
+    0.0015
+  },
+  ["quality"]= 3,
+  ["skillid"]= 0,
+  ["typeName"]= "迅捷"
+},
+[1060] = {
+  ["attrRelatedWithBaseLevel"]= 1,
+  ["costZenyOfInherit"]= 4000,
+  ["crystal"]= 0,
+  ["des"]= "移动速度+20%",
+  ["id"]= 1060,
+  ["itemid"]= 0,
+  ["propid"]= {
+    40
+  },
+  ["propnum"]= {
+    0.002
+  },
+  ["quality"]= 4,
+  ["skillid"]= 0,
+  ["typeName"]= "迅捷"
+}
+}
+"

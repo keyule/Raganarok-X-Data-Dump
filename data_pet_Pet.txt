@@ -1,0 +1,1464 @@
+TextAsset Base
+	string m_Name = "data_pet_Pet"
+	string m_Script = "local table= {
+[82001] = {
+  ["Agi"]= 5,
+  ["CatchLevel"]= 10,
+  ["ExpItem"]= {
+    10411001
+  },
+  ["Int"]= 10,
+  ["Item"]= "10410001,10",
+  ["Level"]= 1,
+  ["NeedCatchLevel"]= 1,
+  ["PetEvolutionItem"]= "10410001,4;10410002,4;10410003,4",
+  ["PetPotItem"]= "10410001,4;10410002,4;10410003,4",
+  ["PetSkillRandom"]= "10410001,4;10410002,4;10410003,4",
+  ["Quality"]= 1,
+  ["Str"]= 5,
+  ["Talent"]= 1210135,
+  ["TalentDesc"]= 1210135,
+  ["TalentSkill"]= 1210135,
+  ["VitalityItem"]= {
+    10411003
+  }
+},
+[82002] = {
+  ["Agi"]= 5,
+  ["CatchItem"]= 10407002,
+  ["CatchItemId"]= {
+    10407002
+  },
+  ["CatchLevel"]= 2,
+  ["CatchMonsterId"]= {
+    10004
+  },
+  ["Dex"]= 15,
+  ["GetType"]= {
+    2
+  },
+  ["Id"]= 82002,
+  ["Int"]= 10,
+  ["IsFirstCatchSuccess"]= 1,
+  ["Level"]= 4,
+  ["Luk"]= 5,
+  ["Model"]= 82002,
+  ["Monster"]= 10004,
+  ["Name"]= "MonsterName10004",
+  ["NeedCatchLevel"]= 1,
+  ["PetCage"]= 10409004,
+  ["PetCollection"]= {
+    1.3,
+    345,
+    -0.5
+  },
+  ["PetNPC"]= 61801,
+  ["PetTalentDesc"]= "PetTalentDesc82002",
+  ["Property"]= 0,
+  ["Quality"]= 1,
+  ["Str"]= 5
+},
+[82003] = {
+  ["CatchItem"]= 10407003,
+  ["CatchItemId"]= {
+    10407003
+  },
+  ["CatchLevel"]= 3,
+  ["CatchMonsterId"]= {
+    10014
+  },
+  ["GetType"]= {
+    3
+  },
+  ["Id"]= 82003,
+  ["Int"]= 5,
+  ["Level"]= 8,
+  ["Luk"]= 5,
+  ["Model"]= 82003,
+  ["Monster"]= 10014,
+  ["Name"]= "MonsterName10014",
+  ["NeedCatchLevel"]= 1,
+  ["PetCage"]= 10409005,
+  ["PetNPC"]= 61802,
+  ["PetTalentDesc"]= "PetTalentDesc82003",
+  ["PetTendency"]= 4,
+  ["Property"]= 3,
+  ["Quality"]= 1,
+  ["Str"]= 10
+},
+[82004] = {
+  ["Agi"]= 5,
+  ["CatchItem"]= 10407004,
+  ["CatchItemId"]= {
+    10407004
+  },
+  ["CatchMonsterId"]= {
+    10044
+  },
+  ["Id"]= 82004,
+  ["Int"]= 15,
+  ["Level"]= 17,
+  ["Luk"]= 5,
+  ["Model"]= 82004,
+  ["Monster"]= 10044,
+  ["Name"]= "MonsterName10044",
+  ["NeedCatchLevel"]= 1,
+  ["PetAtkTendency"]= 2,
+  ["PetCage"]= 10409006,
+  ["PetCollection"]= {
+    1.2,
+    345,
+    -0.2
+  },
+  ["PetNPC"]= 61803,
+  ["PetTalentDesc"]= "PetTalentDesc82004",
+  ["Property"]= 7,
+  ["Quality"]= 1,
+  ["Str"]= 5
+},
+[82005] = {
+  ["CatchItem"]= 10407005,
+  ["CatchItemId"]= {
+    10407005
+  },
+  ["CatchMonsterId"]= {
+    10016
+  },
+  ["Dex"]= 5,
+  ["Id"]= 82005,
+  ["Int"]= 5,
+  ["Level"]= 18,
+  ["Luk"]= 5,
+  ["Model"]= 82005,
+  ["Monster"]= 10016,
+  ["Name"]= "MonsterName10016",
+  ["NeedCatchLevel"]= 1,
+  ["PetCage"]= 10409007,
+  ["PetCollection"]= {
+    1.2,
+    345,
+    0
+  },
+  ["PetNPC"]= 61804,
+  ["PetTalentDesc"]= "PetTalentDesc82005",
+  ["PetTendency"]= 4,
+  ["Property"]= 2,
+  ["Quality"]= 1,
+  ["Str"]= 15
+},
+[82006] = {
+  ["Agi"]= 5,
+  ["CatchItem"]= 10407006,
+  ["CatchItemId"]= {
+    10407006
+  },
+  ["CatchMonsterId"]= {
+    10052
+  },
+  ["Id"]= 82006,
+  ["Int"]= 10,
+  ["Level"]= 20,
+  ["Luk"]= 5,
+  ["Model"]= 82006,
+  ["Monster"]= 10052,
+  ["Name"]= "MonsterName10052",
+  ["NeedCatchLevel"]= 1,
+  ["PetCage"]= 10409008,
+  ["PetCollection"]= {
+    1.2,
+    345,
+    0
+  },
+  ["PetNPC"]= 61805,
+  ["PetTalentDesc"]= "PetTalentDesc82006",
+  ["Property"]= 5,
+  ["Quality"]= 1,
+  ["Str"]= 5,
+  ["Vit"]= 15
+},
+[82007] = {
+  ["CatchItem"]= 10407007,
+  ["CatchItemId"]= {
+    10407007
+  },
+  ["CatchMonsterId"]= {
+    10027
+  },
+  ["Dex"]= 15,
+  ["Id"]= 82007,
+  ["Int"]= 0,
+  ["Level"]= 22,
+  ["Model"]= 82007,
+  ["Monster"]= 10027,
+  ["Name"]= "MonsterName10027",
+  ["NeedCatchLevel"]= 1,
+  ["PetCage"]= 10409009,
+  ["PetCollection"]= {
+    1.2,
+    345,
+    0
+  },
+  ["PetNPC"]= 61806,
+  ["PetTalentDesc"]= "PetTalentDesc82007",
+  ["PetTendency"]= 6,
+  ["pointType"]= 1,
+  ["Property"]= 3,
+  ["Quality"]= 1,
+  ["Str"]= 10,
+  ["Vit"]= 5
+},
+[82008] = {
+  ["Agi"]= 5,
+  ["CatchItem"]= 10407008,
+  ["CatchItemId"]= {
+    10407008
+  },
+  ["CatchMonsterId"]= {
+    10047
+  },
+  ["Id"]= 82008,
+  ["Int"]= 5,
+  ["Level"]= 23,
+  ["Luk"]= 5,
+  ["Model"]= 82008,
+  ["Monster"]= 10047,
+  ["Name"]= "MonsterName10047",
+  ["NeedCatchLevel"]= 1,
+  ["PetCage"]= 10409010,
+  ["PetCollection"]= {
+    1.2,
+    345,
+    -0.2
+  },
+  ["PetNPC"]= 61807,
+  ["PetTalentDesc"]= "PetTalentDesc82008",
+  ["PetTendency"]= 4,
+  ["Property"]= 7,
+  ["Quality"]= 1,
+  ["Str"]= 15
+},
+[82009] = {
+  ["CatchItem"]= 10407009,
+  ["CatchItemId"]= {
+    10407009
+  },
+  ["CatchMonsterId"]= {
+    10063
+  },
+  ["Dex"]= 15,
+  ["Id"]= 82009,
+  ["Int"]= 15,
+  ["Level"]= 28,
+  ["Luk"]= 0,
+  ["Model"]= 82009,
+  ["Monster"]= 10063,
+  ["Name"]= "MonsterName10063",
+  ["NeedCatchLevel"]= 1,
+  ["PetAtkTendency"]= 2,
+  ["PetCage"]= 10409011,
+  ["PetCollection"]= {
+    3,
+    345,
+    0
+  },
+  ["PetNPC"]= 61808,
+  ["PetTalentDesc"]= "PetTalentDesc82009",
+  ["PetTendency"]= 3,
+  ["pointType"]= 1,
+  ["Property"]= 5,
+  ["Quality"]= 1
+},
+[82010] = {
+  ["Agi"]= 15,
+  ["CatchItem"]= 10407010,
+  ["CatchItemId"]= {
+    10407010
+  },
+  ["CatchMonsterId"]= {
+    10084
+  },
+  ["Dex"]= 5,
+  ["Id"]= 82010,
+  ["Int"]= 5,
+  ["Level"]= 30,
+  ["Luk"]= 5,
+  ["Model"]= 82010,
+  ["Monster"]= 10084,
+  ["Name"]= "MonsterName10084",
+  ["NeedCatchLevel"]= 1,
+  ["PetAtkTendency"]= 2,
+  ["PetCage"]= 10409012,
+  ["PetCollection"]= {
+    1,
+    345,
+    -1
+  },
+  ["PetNPC"]= 61809,
+  ["PetTalentDesc"]= "PetTalentDesc82010",
+  ["PetTendency"]= 5,
+  ["Property"]= 7,
+  ["Quality"]= 1,
+  ["Str"]= 10
+},
+[82011] = {
+  ["Agi"]= 20,
+  ["CatchItem"]= 10407011,
+  ["CatchItemId"]= {
+    10407011
+  },
+  ["CatchMonsterId"]= {
+    10055
+  },
+  ["Dex"]= 30,
+  ["Id"]= 82011,
+  ["Int"]= 30,
+  ["Level"]= 31,
+  ["Luk"]= 0,
+  ["Model"]= 82011,
+  ["Monster"]= 10055,
+  ["Name"]= "MonsterName10055",
+  ["NeedCatchLevel"]= 1,
+  ["PetAtkTendency"]= 2,
+  ["PetCage"]= 10409013,
+  ["PetNPC"]= 61810,
+  ["PetTalentDesc"]= "PetTalentDesc82011",
+  ["PetTendency"]= 3,
+  ["Property"]= 3,
+  ["Vit"]= 20
+},
+[82012] = {
+  ["CatchItem"]= 10407012,
+  ["CatchItemId"]= {
+    10407012
+  },
+  ["CatchMonsterId"]= {
+    10058
+  },
+  ["Id"]= 82012,
+  ["Level"]= 32,
+  ["Model"]= 82012,
+  ["Monster"]= 10058,
+  ["Name"]= "MonsterName10058",
+  ["NeedCatchLevel"]= 2,
+  ["PetCage"]= 10409014,
+  ["PetNPC"]= 61811,
+  ["PetTalentDesc"]= "PetTalentDesc82012",
+  ["PetTendency"]= 1,
+  ["Property"]= 4,
+  ["Str"]= 20,
+  ["Vit"]= 30
+},
+[82013] = {
+  ["Agi"]= 20,
+  ["CatchItem"]= 10407013,
+  ["CatchItemId"]= {
+    10407013
+  },
+  ["CatchMonsterId"]= {
+    10060
+  },
+  ["Dex"]= 25,
+  ["Id"]= 82013,
+  ["Int"]= 0,
+  ["Level"]= 37,
+  ["Luk"]= 25,
+  ["Model"]= 82013,
+  ["Monster"]= 10060,
+  ["Name"]= "MonsterName10060",
+  ["NeedCatchLevel"]= 2,
+  ["PetCage"]= 10409015,
+  ["PetCollection"]= {
+    1.3,
+    345,
+    0
+  },
+  ["PetNPC"]= 61812,
+  ["PetTalentDesc"]= "PetTalentDesc82013",
+  ["PetTendency"]= 6,
+  ["pointType"]= 1,
+  ["Property"]= 4,
+  ["Str"]= 20
+},
+[82014] = {
+  ["Agi"]= 20,
+  ["CatchItem"]= 10407014,
+  ["CatchItemId"]= {
+    10407014
+  },
+  ["CatchMonsterId"]= {
+    10087
+  },
+  ["Id"]= 82014,
+  ["Int"]= 10,
+  ["Level"]= 38,
+  ["Model"]= 82014,
+  ["Monster"]= 10087,
+  ["Name"]= "MonsterName10087",
+  ["NeedCatchLevel"]= 2,
+  ["PetCage"]= 10409016,
+  ["PetNPC"]= 61813,
+  ["PetTalentDesc"]= "PetTalentDesc82014",
+  ["PetTendency"]= 4,
+  ["Property"]= 9,
+  ["Str"]= 30,
+  ["Vit"]= 20
+},
+[82015] = {
+  ["CatchItem"]= 10407015,
+  ["CatchItemId"]= {
+    10407015
+  },
+  ["CatchMonsterId"]= {
+    10148
+  },
+  ["Id"]= 82015,
+  ["Int"]= 15,
+  ["Level"]= 39,
+  ["Model"]= 82015,
+  ["Monster"]= 10148,
+  ["Name"]= "MonsterName10148",
+  ["NeedCatchLevel"]= 2,
+  ["PetCage"]= 10409017,
+  ["PetNPC"]= 61814,
+  ["PetTalentDesc"]= "PetTalentDesc82015",
+  ["PetTendency"]= 1,
+  ["Property"]= 9,
+  ["Str"]= 25,
+  ["Vit"]= 30
+},
+[82016] = {
+  ["Agi"]= 30,
+  ["CatchItem"]= 10407016,
+  ["CatchItemId"]= {
+    10407016
+  },
+  ["CatchMonsterId"]= {
+    10125
+  },
+  ["Id"]= 82016,
+  ["Int"]= 10,
+  ["Level"]= 40,
+  ["Model"]= 82016,
+  ["Monster"]= 10125,
+  ["Name"]= "MonsterName10125",
+  ["NeedCatchLevel"]= 2,
+  ["PetCage"]= 10409018,
+  ["PetNPC"]= 61815,
+  ["PetTalentDesc"]= "PetTalentDesc82016",
+  ["PetTendency"]= 5,
+  ["Property"]= 3,
+  ["Str"]= 20,
+  ["Vit"]= 20
+},
+[82017] = {
+  ["CatchItem"]= 10407017,
+  ["CatchItemId"]= {
+    10407017
+  },
+  ["CatchMonsterId"]= {
+    10064
+  },
+  ["Dex"]= 25,
+  ["Id"]= 82017,
+  ["Level"]= 41,
+  ["Model"]= 82017,
+  ["Monster"]= 10064,
+  ["Name"]= "MonsterName10064",
+  ["NeedCatchLevel"]= 3,
+  ["PetCage"]= 10409019,
+  ["PetNPC"]= 61816,
+  ["PetTalentDesc"]= "PetTalentDesc82017",
+  ["Property"]= 8,
+  ["Str"]= 10,
+  ["Vit"]= 25
+},
+[82018] = {
+  ["Agi"]= 20,
+  ["CatchItem"]= 10407018,
+  ["CatchItemId"]= {
+    10407018
+  },
+  ["CatchMonsterId"]= {
+    10018
+  },
+  ["Dex"]= 30,
+  ["Id"]= 82018,
+  ["Int"]= 0,
+  ["Level"]= 42,
+  ["Luk"]= 20,
+  ["Model"]= 82018,
+  ["Monster"]= 10018,
+  ["Name"]= "MonsterName10018",
+  ["NeedCatchLevel"]= 3,
+  ["PetCage"]= 10409020,
+  ["PetCollection"]= {
+    1.6,
+    345,
+    -0.3
+  },
+  ["PetNPC"]= 61817,
+  ["PetTalentDesc"]= "PetTalentDesc82018",
+  ["PetTendency"]= 6,
+  ["pointType"]= 1,
+  ["Property"]= 4,
+  ["Str"]= 20
+},
+[82019] = {
+  ["Agi"]= 20,
+  ["CatchItem"]= 10407019,
+  ["CatchItemId"]= {
+    10407019
+  },
+  ["CatchMonsterId"]= {
+    10017
+  },
+  ["Id"]= 82019,
+  ["Int"]= 10,
+  ["Level"]= 43,
+  ["Model"]= 82019,
+  ["Monster"]= 10017,
+  ["Name"]= "MonsterName10017",
+  ["NeedCatchLevel"]= 3,
+  ["PetCage"]= 10409021,
+  ["PetCollection"]= {
+    1.3,
+    345,
+    -2
+  },
+  ["PetNPC"]= 61818,
+  ["PetTalentDesc"]= "PetTalentDesc82019",
+  ["PetTendency"]= 4,
+  ["Property"]= 2,
+  ["Str"]= 25,
+  ["Vit"]= 25
+},
+[82020] = {
+  ["Agi"]= 30,
+  ["CatchItem"]= 10407020,
+  ["CatchItemId"]= {
+    10407020
+  },
+  ["CatchMonsterId"]= {
+    10020
+  },
+  ["Id"]= 82020,
+  ["Int"]= 10,
+  ["Level"]= 45,
+  ["Model"]= 82020,
+  ["Monster"]= 10020,
+  ["Name"]= "MonsterName10020",
+  ["NeedCatchLevel"]= 3,
+  ["PetCage"]= 10409022,
+  ["PetNPC"]= 61819,
+  ["PetTalentDesc"]= "PetTalentDesc82020",
+  ["PetTendency"]= 5,
+  ["Property"]= 5,
+  ["Str"]= 25,
+  ["Vit"]= 15
+},
+[82021] = {
+  ["CatchItem"]= 10407021,
+  ["CatchItemId"]= {
+    10407021
+  },
+  ["CatchMonsterId"]= {
+    10150
+  },
+  ["Id"]= 82021,
+  ["Int"]= 15,
+  ["Level"]= 46,
+  ["Model"]= 82021,
+  ["Monster"]= 10150,
+  ["Name"]= "MonsterName10150",
+  ["NeedCatchLevel"]= 3,
+  ["PetAtkTendency"]= 2,
+  ["PetCage"]= 10409023,
+  ["PetNPC"]= 61820,
+  ["PetTalentDesc"]= "PetTalentDesc82021",
+  ["PetTendency"]= 1,
+  ["Property"]= 0,
+  ["Str"]= 20,
+  ["Vit"]= 35
+},
+[82022] = {
+  ["Agi"]= 30,
+  ["CatchItem"]= 10407022,
+  ["CatchItemId"]= {
+    10407022
+  },
+  ["CatchMonsterId"]= {
+    10033
+  },
+  ["Id"]= 82022,
+  ["Int"]= 15,
+  ["Model"]= 82022,
+  ["Monster"]= 10033,
+  ["Name"]= "MonsterName10033",
+  ["NeedCatchLevel"]= 3,
+  ["PetAtkTendency"]= 2,
+  ["PetCage"]= 10409024,
+  ["PetCollection"]= {
+    1.2,
+    345,
+    -0.5
+  },
+  ["PetNPC"]= 61821,
+  ["PetTalentDesc"]= "PetTalentDesc82022",
+  ["PetTendency"]= 5,
+  ["Property"]= 5,
+  ["Str"]= 20,
+  ["Vit"]= 15
+},
+[82023] = {
+  ["CatchItem"]= 10407023,
+  ["CatchItemId"]= {
+    10407023
+  },
+  ["CatchMonsterId"]= {
+    10022
+  },
+  ["Dex"]= 5,
+  ["Id"]= 82023,
+  ["Model"]= 82023,
+  ["Monster"]= 10022,
+  ["Name"]= "MonsterName10022",
+  ["NeedCatchLevel"]= 3,
+  ["PetCage"]= 10409025,
+  ["PetCollection"]= {
+    1.2,
+    345,
+    0
+  },
+  ["PetNPC"]= 61822,
+  ["PetTalentDesc"]= "PetTalentDesc82023",
+  ["PetTendency"]= 1,
+  ["Property"]= 0,
+  ["Str"]= 20,
+  ["Vit"]= 35
+},
+[82024] = {
+  ["CatchItem"]= 10407024,
+  ["CatchItemId"]= {
+    10407024
+  },
+  ["CatchMonsterId"]= {
+    10040
+  },
+  ["Dex"]= 30,
+  ["Id"]= 82024,
+  ["Level"]= 48,
+  ["Model"]= 82024,
+  ["Monster"]= 10040,
+  ["Name"]= "MonsterName10040",
+  ["NeedCatchLevel"]= 3,
+  ["PetAtkTendency"]= 2,
+  ["PetCage"]= 10409026,
+  ["PetNPC"]= 61823,
+  ["PetTalentDesc"]= "PetTalentDesc82024",
+  ["Str"]= 10,
+  ["Vit"]= 20
+},
+[82025] = {
+  ["Agi"]= 30,
+  ["CatchItem"]= 10407025,
+  ["CatchItemId"]= {
+    10407025
+  },
+  ["CatchMonsterId"]= {
+    10069
+  },
+  ["Dex"]= 40,
+  ["Id"]= 82025,
+  ["Int"]= 0,
+  ["Level"]= 53,
+  ["Luk"]= 35,
+  ["Model"]= 82025,
+  ["Monster"]= 10069,
+  ["Name"]= "MonsterName10069",
+  ["NeedCatchLevel"]= 4,
+  ["PetCage"]= 10409027,
+  ["PetNPC"]= 61824,
+  ["PetTalentDesc"]= "PetTalentDesc82025",
+  ["PetTendency"]= 6,
+  ["pointType"]= 1,
+  ["Quality"]= 3,
+  ["Str"]= 30,
+  ["Vit"]= 15
+},
+[82026] = {
+  ["Agi"]= 30,
+  ["CatchItem"]= 10407026,
+  ["CatchItemId"]= {
+    10407026
+  },
+  ["CatchMonsterId"]= {
+    10098
+  },
+  ["Dex"]= 45,
+  ["Id"]= 82026,
+  ["Int"]= 0,
+  ["Level"]= 53,
+  ["Luk"]= 25,
+  ["Model"]= 82026,
+  ["Monster"]= 10098,
+  ["Name"]= "MonsterName10098",
+  ["NeedCatchLevel"]= 4,
+  ["PetCage"]= 10409028,
+  ["PetNPC"]= 61825,
+  ["PetTalentDesc"]= "PetTalentDesc82026",
+  ["PetTendency"]= 6,
+  ["pointType"]= 1,
+  ["Property"]= 9,
+  ["Quality"]= 3,
+  ["Str"]= 35,
+  ["Vit"]= 15
+},
+[82027] = {
+  ["Agi"]= 30,
+  ["CatchItem"]= 10407027,
+  ["CatchItemId"]= {
+    10407027
+  },
+  ["CatchMonsterId"]= {
+    10103
+  },
+  ["Dex"]= 45,
+  ["Id"]= 82027,
+  ["Int"]= 45,
+  ["Level"]= 58,
+  ["Luk"]= 0,
+  ["Model"]= 82027,
+  ["Monster"]= 10103,
+  ["Name"]= "MonsterName10103",
+  ["NeedCatchLevel"]= 4,
+  ["PetAtkTendency"]= 2,
+  ["PetCage"]= 10409029,
+  ["PetCollection"]= {
+    1,
+    345,
+    -0.2
+  },
+  ["PetNPC"]= 61826,
+  ["PetTalentDesc"]= "PetTalentDesc82027",
+  ["PetTendency"]= 3,
+  ["pointType"]= 1,
+  ["Property"]= 7,
+  ["Quality"]= 3,
+  ["Vit"]= 30
+},
+[82028] = {
+  ["Agi"]= 30,
+  ["CatchItem"]= 10407028,
+  ["CatchItemId"]= {
+    10407028
+  },
+  ["CatchMonsterId"]= {
+    10076
+  },
+  ["Dex"]= 45,
+  ["Id"]= 82028,
+  ["Int"]= 0,
+  ["Level"]= 60,
+  ["Luk"]= 30,
+  ["Model"]= 82028,
+  ["Monster"]= 10076,
+  ["Name"]= "MonsterName10076",
+  ["NeedCatchLevel"]= 4,
+  ["PetCage"]= 10409030,
+  ["PetNPC"]= 61827,
+  ["PetTalentDesc"]= "PetTalentDesc82028",
+  ["PetTendency"]= 6,
+  ["pointType"]= 1,
+  ["Quality"]= 3,
+  ["Str"]= 30,
+  ["Vit"]= 15
+},
+[82029] = {
+  ["Agi"]= 30,
+  ["CatchItem"]= 10407029,
+  ["CatchItemId"]= {
+    10407029
+  },
+  ["CatchMonsterId"]= {
+    10075
+  },
+  ["Dex"]= 40,
+  ["Id"]= 82029,
+  ["Int"]= 45,
+  ["Level"]= 61,
+  ["Luk"]= 0,
+  ["Model"]= 82029,
+  ["Monster"]= 10075,
+  ["Name"]= "MonsterName10075",
+  ["NeedCatchLevel"]= 4,
+  ["PetAtkTendency"]= 2,
+  ["PetCage"]= 10409031,
+  ["PetNPC"]= 61828,
+  ["PetTalentDesc"]= "PetTalentDesc82029",
+  ["PetTendency"]= 3,
+  ["pointType"]= 1,
+  ["Quality"]= 3,
+  ["Vit"]= 35
+},
+[82030] = {
+  ["Agi"]= 15,
+  ["CatchItem"]= 10407030,
+  ["CatchItemId"]= {
+    10407030
+  },
+  ["CatchMonsterId"]= {
+    10029
+  },
+  ["Dex"]= 45,
+  ["Id"]= 82030,
+  ["Int"]= 30,
+  ["Level"]= 62,
+  ["Luk"]= 15,
+  ["Model"]= 82030,
+  ["Monster"]= 10029,
+  ["Name"]= "MonsterName10029",
+  ["NeedCatchLevel"]= 4,
+  ["PetAtkTendency"]= 2,
+  ["PetCage"]= 10409032,
+  ["PetCollection"]= {
+    1.3,
+    345,
+    -2
+  },
+  ["PetNPC"]= 61829,
+  ["PetTalentDesc"]= "PetTalentDesc82030",
+  ["pointType"]= 1,
+  ["Property"]= 4,
+  ["Quality"]= 3,
+  ["Str"]= 15,
+  ["Vit"]= 30
+},
+[82031] = {
+  ["Agi"]= 30,
+  ["CatchItem"]= 10407031,
+  ["CatchItemId"]= {
+    10407031
+  },
+  ["CatchMonsterId"]= {
+    10089
+  },
+  ["Dex"]= 15,
+  ["Id"]= 82031,
+  ["Int"]= 15,
+  ["Level"]= 66,
+  ["Luk"]= 15,
+  ["Model"]= 82031,
+  ["Monster"]= 10089,
+  ["Name"]= "MonsterName10089",
+  ["NeedCatchLevel"]= 4,
+  ["PetAtkTendency"]= 2,
+  ["PetCage"]= 10409033,
+  ["PetNPC"]= 61830,
+  ["PetTalentDesc"]= "PetTalentDesc82031",
+  ["PetTendency"]= 4,
+  ["Property"]= 9,
+  ["Quality"]= 3,
+  ["Str"]= 45,
+  ["Vit"]= 30
+},
+[82032] = {
+  ["Agi"]= 35,
+  ["CatchItem"]= 10407032,
+  ["CatchItemId"]= {
+    10407032
+  },
+  ["CatchMonsterId"]= {
+    10090
+  },
+  ["Dex"]= 45,
+  ["Id"]= 82032,
+  ["Int"]= 40,
+  ["Level"]= 67,
+  ["Luk"]= 0,
+  ["Model"]= 82032,
+  ["Monster"]= 10090,
+  ["Name"]= "MonsterName10090",
+  ["NeedCatchLevel"]= 4,
+  ["PetAtkTendency"]= 2,
+  ["PetCage"]= 10409034,
+  ["PetCollection"]= {
+    1.3,
+    345,
+    -1.4
+  },
+  ["PetNPC"]= 61831,
+  ["PetTalentDesc"]= "PetTalentDesc82032",
+  ["PetTendency"]= 3,
+  ["pointType"]= 1,
+  ["Property"]= 9,
+  ["Quality"]= 3,
+  ["Vit"]= 30
+},
+[82033] = {
+  ["Agi"]= 15,
+  ["CatchItem"]= 10407033,
+  ["CatchItemId"]= {
+    10407033
+  },
+  ["CatchMonsterId"]= {
+    10041
+  },
+  ["Dex"]= 15,
+  ["Id"]= 82033,
+  ["Int"]= 30,
+  ["Level"]= 68,
+  ["Luk"]= 15,
+  ["Model"]= 82033,
+  ["Monster"]= 10041,
+  ["Name"]= "MonsterName10041",
+  ["NeedCatchLevel"]= 4,
+  ["PetAtkTendency"]= 2,
+  ["PetCage"]= 10409035,
+  ["PetNPC"]= 61832,
+  ["PetTalentDesc"]= "PetTalentDesc82033",
+  ["PetTendency"]= 1,
+  ["Property"]= 7,
+  ["Quality"]= 3,
+  ["Str"]= 30,
+  ["Vit"]= 45
+},
+[82034] = {
+  ["Agi"]= 25,
+  ["CatchItem"]= 10407034,
+  ["CatchItemId"]= {
+    10407034
+  },
+  ["CatchMonsterId"]= {
+    10091
+  },
+  ["Dex"]= 45,
+  ["Id"]= 82034,
+  ["Int"]= 45,
+  ["Level"]= 69,
+  ["Luk"]= 0,
+  ["Model"]= 82034,
+  ["Monster"]= 10091,
+  ["Name"]= "MonsterName10091",
+  ["NeedCatchLevel"]= 4,
+  ["PetAtkTendency"]= 2,
+  ["PetCage"]= 10409036,
+  ["PetNPC"]= 61833,
+  ["PetTalentDesc"]= "PetTalentDesc82034",
+  ["PetTendency"]= 3,
+  ["Quality"]= 3,
+  ["Vit"]= 35
+},
+[82035] = {
+  ["Agi"]= 35,
+  ["CatchItem"]= 10407035,
+  ["CatchItemId"]= {
+    10407035
+  },
+  ["CatchMonsterId"]= {
+    10092
+  },
+  ["Dex"]= 40,
+  ["Id"]= 82035,
+  ["Int"]= 45,
+  ["Level"]= 70,
+  ["Luk"]= 0,
+  ["Model"]= 82035,
+  ["Monster"]= 10092,
+  ["Name"]= "MonsterName10092",
+  ["NeedCatchLevel"]= 4,
+  ["PetAtkTendency"]= 2,
+  ["PetCage"]= 10409037,
+  ["PetNPC"]= 61834,
+  ["PetTalentDesc"]= "PetTalentDesc82035",
+  ["PetTendency"]= 3,
+  ["pointType"]= 1,
+  ["Property"]= 2,
+  ["Quality"]= 3,
+  ["Vit"]= 30
+},
+[82036] = {
+  ["Agi"]= 15,
+  ["CatchItem"]= 10407036,
+  ["CatchItemId"]= {
+    10407036
+  },
+  ["CatchMonsterId"]= {
+    10037
+  },
+  ["Dex"]= 20,
+  ["Id"]= 82036,
+  ["Int"]= 30,
+  ["Level"]= 70,
+  ["Luk"]= 15,
+  ["Model"]= 82036,
+  ["Monster"]= 10037,
+  ["Name"]= "MonsterName10037",
+  ["NeedCatchLevel"]= 4,
+  ["PetAtkTendency"]= 2,
+  ["PetCage"]= 10409038,
+  ["PetCollection"]= {
+    1.5,
+    345,
+    0
+  },
+  ["PetNPC"]= 61835,
+  ["PetTalentDesc"]= "PetTalentDesc82036",
+  ["PetTendency"]= 1,
+  ["Property"]= 8,
+  ["Quality"]= 3,
+  ["Str"]= 25,
+  ["Vit"]= 45
+},
+[82037] = {
+  ["Agi"]= 40,
+  ["CatchItem"]= 10407037,
+  ["CatchItemId"]= {
+    10407037
+  },
+  ["CatchMonsterId"]= {
+    10111
+  },
+  ["Dex"]= 20,
+  ["Id"]= 82037,
+  ["Level"]= 71,
+  ["Luk"]= 20,
+  ["Model"]= 82037,
+  ["Monster"]= 10111,
+  ["Name"]= "MonsterName10111",
+  ["PetCage"]= 10409039,
+  ["PetNPC"]= 61836,
+  ["PetTalentDesc"]= "PetTalentDesc82037",
+  ["PetTendency"]= 4,
+  ["Property"]= 2,
+  ["Quality"]= 4,
+  ["Str"]= 60,
+  ["Vit"]= 40
+},
+[82038] = {
+  ["Agi"]= 20,
+  ["CatchItem"]= 10407038,
+  ["CatchItemId"]= {
+    10407038
+  },
+  ["CatchMonsterId"]= {
+    10158
+  },
+  ["Dex"]= 60,
+  ["Id"]= 82038,
+  ["Int"]= 35,
+  ["Level"]= 72,
+  ["Luk"]= 20,
+  ["Model"]= 82038,
+  ["Monster"]= 10158,
+  ["Name"]= "MonsterName10158",
+  ["PetCage"]= 10409040,
+  ["PetNPC"]= 61837,
+  ["PetTalentDesc"]= "PetTalentDesc82038",
+  ["Property"]= 4,
+  ["Quality"]= 4,
+  ["Str"]= 20,
+  ["Vit"]= 45
+},
+[82039] = {
+  ["Agi"]= 60,
+  ["CatchItem"]= 10407039,
+  ["CatchItemId"]= {
+    10407039
+  },
+  ["CatchMonsterId"]= {
+    10128
+  },
+  ["Dex"]= 20,
+  ["Id"]= 82039,
+  ["Level"]= 73,
+  ["Luk"]= 20,
+  ["Model"]= 82039,
+  ["Monster"]= 10128,
+  ["Name"]= "MonsterName10128",
+  ["PetCage"]= 10409041,
+  ["PetNPC"]= 61838,
+  ["PetTalentDesc"]= "PetTalentDesc82039",
+  ["PetTendency"]= 5,
+  ["Property"]= 2,
+  ["Quality"]= 4,
+  ["Str"]= 45,
+  ["Vit"]= 35
+},
+[82040] = {
+  ["Agi"]= 20,
+  ["CatchItem"]= 10407040,
+  ["CatchItemId"]= {
+    10407040
+  },
+  ["CatchMonsterId"]= {
+    10157
+  },
+  ["Dex"]= 20,
+  ["Id"]= 82040,
+  ["Int"]= 35,
+  ["Level"]= 74,
+  ["Luk"]= 20,
+  ["Model"]= 82040,
+  ["Monster"]= 10157,
+  ["Name"]= "MonsterName10157",
+  ["PetCage"]= 10409042,
+  ["PetNPC"]= 61839,
+  ["PetTalentDesc"]= "PetTalentDesc82040",
+  ["PetTendency"]= 1,
+  ["Property"]= 9,
+  ["Quality"]= 4,
+  ["Str"]= 45,
+  ["Vit"]= 60
+},
+[82041] = {
+  ["Agi"]= 20,
+  ["CatchItem"]= 10407041,
+  ["CatchItemId"]= {
+    10407041
+  },
+  ["CatchMonsterId"]= {
+    10132
+  },
+  ["Dex"]= 60,
+  ["Id"]= 82041,
+  ["Int"]= 40,
+  ["Level"]= 74,
+  ["Luk"]= 20,
+  ["Model"]= 82041,
+  ["Monster"]= 10132,
+  ["Name"]= "MonsterName10132",
+  ["PetAtkTendency"]= 2,
+  ["PetCage"]= 10409043,
+  ["PetNPC"]= 61840,
+  ["PetTalentDesc"]= "PetTalentDesc82041",
+  ["Property"]= 2,
+  ["Quality"]= 4,
+  ["Str"]= 20,
+  ["Vit"]= 40
+},
+[82042] = {
+  ["Agi"]= 35,
+  ["CatchItem"]= 10407042,
+  ["CatchItemId"]= {
+    10407042
+  },
+  ["CatchMonsterId"]= {
+    10129
+  },
+  ["Dex"]= 20,
+  ["Id"]= 82042,
+  ["Level"]= 76,
+  ["Luk"]= 20,
+  ["Model"]= 82042,
+  ["Monster"]= 10129,
+  ["Name"]= "MonsterName10129",
+  ["PetCage"]= 10409044,
+  ["PetNPC"]= 61841,
+  ["PetTalentDesc"]= "PetTalentDesc82042",
+  ["PetTendency"]= 4,
+  ["Property"]= 5,
+  ["Quality"]= 4,
+  ["Str"]= 65,
+  ["Vit"]= 40
+},
+[82043] = {
+  ["Agi"]= 20,
+  ["CatchItem"]= 10407043,
+  ["CatchItemId"]= {
+    10407043
+  },
+  ["CatchMonsterId"]= {
+    10112
+  },
+  ["Dex"]= 25,
+  ["Id"]= 82043,
+  ["Int"]= 35,
+  ["Level"]= 77,
+  ["Luk"]= 20,
+  ["Model"]= 82043,
+  ["Monster"]= 10112,
+  ["Name"]= "MonsterName10112",
+  ["PetCage"]= 10409045,
+  ["PetNPC"]= 61842,
+  ["PetTalentDesc"]= "PetTalentDesc82043",
+  ["PetTendency"]= 1,
+  ["Property"]= 5,
+  ["Quality"]= 4,
+  ["Str"]= 40,
+  ["Vit"]= 60
+},
+[82044] = {
+  ["Agi"]= 40,
+  ["CatchItem"]= 10407044,
+  ["CatchItemId"]= {
+    10407044
+  },
+  ["CatchMonsterId"]= {
+    10133
+  },
+  ["Dex"]= 60,
+  ["Id"]= 82044,
+  ["Int"]= 60,
+  ["Level"]= 78,
+  ["Luk"]= 0,
+  ["Model"]= 82044,
+  ["Monster"]= 10133,
+  ["Name"]= "MonsterName10133",
+  ["PetAtkTendency"]= 2,
+  ["PetCage"]= 10409046,
+  ["PetCollection"]= {
+    1,
+    345,
+    -0.2
+  },
+  ["PetNPC"]= 61843,
+  ["PetTalentDesc"]= "PetTalentDesc82044",
+  ["PetTendency"]= 3,
+  ["pointType"]= 1,
+  ["Property"]= 8,
+  ["Quality"]= 4,
+  ["Vit"]= 40
+},
+[82045] = {
+  ["Agi"]= 20,
+  ["CatchItem"]= 10407045,
+  ["CatchItemId"]= {
+    10407045
+  },
+  ["CatchMonsterId"]= {
+    10155
+  },
+  ["Dex"]= 20,
+  ["Id"]= 82045,
+  ["Int"]= 35,
+  ["Level"]= 78,
+  ["Luk"]= 20,
+  ["Model"]= 82045,
+  ["Monster"]= 10155,
+  ["Name"]= "MonsterName10155",
+  ["PetCage"]= 10409047,
+  ["PetNPC"]= 61844,
+  ["PetTalentDesc"]= "PetTalentDesc82045",
+  ["PetTendency"]= 1,
+  ["Property"]= 8,
+  ["Quality"]= 4,
+  ["Str"]= 40,
+  ["Vit"]= 65
+},
+[82046] = {
+  ["Agi"]= 60,
+  ["CatchItem"]= 10407046,
+  ["CatchItemId"]= {
+    10407046
+  },
+  ["CatchMonsterId"]= {
+    10113
+  },
+  ["Dex"]= 20,
+  ["Id"]= 82046,
+  ["Level"]= 79,
+  ["Luk"]= 30,
+  ["Model"]= 82046,
+  ["Monster"]= 10113,
+  ["Name"]= "MonsterName10113",
+  ["PetCage"]= 10409048,
+  ["PetNPC"]= 61845,
+  ["PetTalentDesc"]= "PetTalentDesc82046",
+  ["PetTendency"]= 5,
+  ["Property"]= 3,
+  ["Quality"]= 4,
+  ["Str"]= 40,
+  ["Vit"]= 30
+},
+[82047] = {
+  ["Agi"]= 60,
+  ["CatchItem"]= 10407047,
+  ["CatchItemId"]= {
+    10407047
+  },
+  ["CatchMonsterId"]= {
+    10034
+  },
+  ["Dex"]= 20,
+  ["Id"]= 82047,
+  ["Int"]= 25,
+  ["Level"]= 79,
+  ["Luk"]= 20,
+  ["Model"]= 82047,
+  ["Monster"]= 10034,
+  ["Name"]= "MonsterName10034",
+  ["PetAtkTendency"]= 2,
+  ["PetCage"]= 10409049,
+  ["PetCollection"]= {
+    1.3,
+    345,
+    0
+  },
+  ["PetNPC"]= 61846,
+  ["PetTalentDesc"]= "PetTalentDesc82047",
+  ["PetTendency"]= 5,
+  ["Property"]= 4,
+  ["Quality"]= 4,
+  ["Str"]= 45,
+  ["Vit"]= 30
+},
+[82048] = {
+  ["Agi"]= 40,
+  ["CatchItem"]= 10407048,
+  ["CatchItemId"]= {
+    10407048
+  },
+  ["CatchMonsterId"]= {
+    10151
+  },
+  ["Dex"]= 20,
+  ["Id"]= 82048,
+  ["Level"]= 80,
+  ["Luk"]= 20,
+  ["Model"]= 82048,
+  ["Monster"]= 10151,
+  ["Name"]= "MonsterName10151",
+  ["PetCage"]= 10409050,
+  ["PetNPC"]= 61847,
+  ["PetTalentDesc"]= "PetTalentDesc82048",
+  ["PetTendency"]= 4,
+  ["Property"]= 7,
+  ["Quality"]= 4,
+  ["Str"]= 65,
+  ["Vit"]= 35
+},
+[82049] = {
+  ["Agi"]= 40,
+  ["CatchItem"]= 10407049,
+  ["CatchItemId"]= {
+    10407049
+  },
+  ["CatchMonsterId"]= {
+    10035
+  },
+  ["Dex"]= 60,
+  ["Id"]= 82049,
+  ["Int"]= 65,
+  ["Level"]= 80,
+  ["Luk"]= 0,
+  ["Model"]= 82049,
+  ["Monster"]= 10035,
+  ["Name"]= "MonsterName10035",
+  ["PetAtkTendency"]= 2,
+  ["PetCage"]= 10409051,
+  ["PetNPC"]= 61848,
+  ["PetTalentDesc"]= "PetTalentDesc82049",
+  ["PetTendency"]= 3,
+  ["pointType"]= 1,
+  ["Property"]= 3,
+  ["Quality"]= 4,
+  ["Vit"]= 35
+}
+}
+local baseTable={
+  ["AbandonmentDialog"]= {
+    1,
+    2,
+    3,
+    4,
+    5
+  },
+  ["Agi"]= 10,
+  ["BornSkillBookItemId"]= 0,
+  ["CatchItem"]= 10407001,
+  ["CatchItemId"]= {
+    10407001
+  },
+  ["CatchItemNum"]= {
+    1
+  },
+  ["CatchLevel"]= 1,
+  ["CatchMonsterId"]= {
+    10001
+  },
+  ["Desc"]= 0,
+  ["Dex"]= 10,
+  ["EvolutionID"]= {
+    82002,
+    82003,
+    82004,
+    82005
+  },
+  ["ExpItem"]= {
+    10102001
+  },
+  ["GetType"]= {
+    1
+  },
+  ["Id"]= 82001,
+  ["Int"]= 20,
+  ["IsFirstCatchSuccess"]= 0,
+  ["Item"]= "10102001,10",
+  ["JobA"]= 0.4,
+  ["JobB"]= 200,
+  ["JobC"]= 2000,
+  ["JobD"]= 4,
+  ["JobE"]= 80,
+  ["Level"]= 47,
+  ["Luk"]= 10,
+  ["Model"]= 82001,
+  ["Monster"]= 10001,
+  ["Name"]= "MonsterName10001",
+  ["NeedCatchLevel"]= 5,
+  ["PetAbandonmentDialog"]= {
+    1,
+    2,
+    3,
+    4,
+    5
+  },
+  ["PetAtkTendency"]= 1,
+  ["PetCage"]= 10409003,
+  ["PetCollection"]= {
+    1,
+    345,
+    0
+  },
+  ["PetEquip"]= 0,
+  ["PetEvolution"]= {
+    1001
+  },
+  ["PetEvolutionItem"]= "10102001,4;10102002,4;10102003,4",
+  ["PetEvolutionLevel"]= 60,
+  ["PetEvolutionPotential"]= 9,
+  ["PetNPC"]= 61800,
+  ["PetPotItem"]= "10102001,4;10102002,4;10102003,4",
+  ["PetSkillRandom"]= "10102001,4;10102002,4;10102003,4",
+  ["PetTalentDesc"]= "PetTalentDesc82001",
+  ["PetTendency"]= 2,
+  ["pointType"]= 2,
+  ["Position"]= {},
+  ["Property"]= 1,
+  ["propID"]= {
+    10,
+    12
+  },
+  ["propNum"]= {
+    25,
+    25
+  },
+  ["Quality"]= 2,
+  ["Rotation"]= 0,
+  ["Scale"]= 0,
+  ["SkillGroup"]= 0,
+  ["SkillID"]= 1001,
+  ["Str"]= 0,
+  ["Talent"]= 0,
+  ["TalentDesc"]= 0,
+  ["TalentSkill"]= 0,
+  ["UseItemId"]= 10202045,
+  ["Vit"]= 10,
+  ["Vitality"]= 200,
+  ["VitalityItem"]= {
+    10102001
+  }
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

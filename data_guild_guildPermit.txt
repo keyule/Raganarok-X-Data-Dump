@@ -1,0 +1,102 @@
+TextAsset Base
+	string m_Name = "data_guild_guildPermit"
+	string m_Script = "local table= {
+[1] = {
+  ["announce"]= {
+    1,
+    0
+  },
+  ["approval"]= {
+    1,
+    0
+  },
+  ["changePos"]= {
+    1,
+    0
+  },
+  ["invite"]= {
+    1,
+    0
+  },
+  ["kick"]= {
+    1,
+    0
+  },
+  ["skillLevelUp"]= {
+    1,
+    0
+  }
+},
+[2] = {
+  ["announce"]= {
+    1,
+    1
+  },
+  ["approval"]= {
+    1,
+    1
+  },
+  ["changePos"]= {
+    1,
+    1
+  },
+  ["invite"]= {
+    1,
+    1
+  },
+  ["kick"]= {
+    1,
+    0
+  },
+  ["name"]= "Guild_Authority_2",
+  ["position"]= 2,
+  ["skillLevelUp"]= {
+    0,
+    1
+  }
+},
+[3] = {
+  ["name"]= "Guild_Authority_3",
+  ["position"]= 3
+},
+[4] = {
+  ["name"]= "Guild_Authority_4",
+  ["position"]= 4
+},
+[5] = {
+  ["name"]= "Guild_Authority_5",
+  ["position"]= 5
+}
+}
+local baseTable={
+  ["announce"]= {
+    0,
+    1
+  },
+  ["approval"]= {
+    0,
+    1
+  },
+  ["changePos"]= {
+    0,
+    0
+  },
+  ["invite"]= {
+    0,
+    1
+  },
+  ["kick"]= {
+    0,
+    0
+  },
+  ["name"]= "Guild_Authority_1",
+  ["position"]= 1,
+  ["skillLevelUp"]= {
+    0,
+    0
+  }
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

@@ -1,0 +1,203 @@
+TextAsset Base
+	string m_Name = "data_Wedding_WeddingGoods"
+	string m_Script = "local table= {
+[1] = {
+  ["Step"]= 1,
+  ["Style"]= {
+    10001
+  }
+},
+[2] = {
+  ["Choices"]= {
+    10002
+  },
+  ["GoodsId"]= 2,
+  ["GoodsName"]= "WeddingButtonName102",
+  ["GoodsOrder"]= 2,
+  ["Step"]= 1,
+  ["Style"]= {
+    10002
+  }
+},
+[3] = {
+  ["Choices"]= {
+    10003
+  },
+  ["GoodsId"]= 3,
+  ["GoodsName"]= "WeddingButtonName103",
+  ["GoodsOrder"]= 3,
+  ["Step"]= 1,
+  ["Style"]= {
+    10003
+  }
+},
+[4] = {
+  ["Choices"]= {
+    10004
+  },
+  ["GoodsId"]= 4,
+  ["GoodsName"]= "WeddingButtonName104",
+  ["GoodsOrder"]= 4,
+  ["Step"]= 1,
+  ["Style"]= {
+    10004
+  }
+},
+[5] = {
+  ["Choices"]= {
+    20001
+  },
+  ["GoodsId"]= 5,
+  ["GoodsName"]= "WeddingButtonName201",
+  ["GoodsOrder"]= 5,
+  ["Step"]= 2
+},
+[6] = {
+  ["Choices"]= {
+    20002
+  },
+  ["GoodsId"]= 6,
+  ["GoodsName"]= "WeddingButtonName202",
+  ["GoodsOrder"]= 6,
+  ["Step"]= 2
+},
+[7] = {
+  ["Choices"]= {
+    20003
+  },
+  ["GoodsId"]= 7,
+  ["GoodsName"]= "WeddingButtonName203",
+  ["GoodsOrder"]= 7,
+  ["Step"]= 2
+},
+[8] = {
+  ["Choices"]= {
+    20004
+  },
+  ["GoodsId"]= 8,
+  ["GoodsName"]= "WeddingButtonName204",
+  ["GoodsOrder"]= 8,
+  ["Step"]= 2
+},
+[9] = {
+  ["Choices"]= {
+    30001,
+    30002,
+    30003,
+    30004
+  },
+  ["GoodsId"]= 9,
+  ["GoodsName"]= "WeddingButtonName301",
+  ["GoodsOrder"]= 9,
+  ["Style"]= {
+    10001,
+    10002,
+    10003
+  }
+},
+[10] = {
+  ["Choices"]= {
+    30005,
+    30006,
+    30007,
+    30008
+  },
+  ["GoodsId"]= 10,
+  ["GoodsName"]= "WeddingButtonName302",
+  ["GoodsOrder"]= 10,
+  ["Style"]= {
+    10001,
+    10002,
+    10003
+  }
+},
+[11] = {
+  ["Choices"]= {
+    30009,
+    30010,
+    30011,
+    30012
+  },
+  ["GoodsId"]= 11,
+  ["GoodsName"]= "WeddingButtonName303",
+  ["GoodsOrder"]= 11,
+  ["Style"]= {
+    10001,
+    10002,
+    10003
+  }
+},
+[12] = {
+  ["Choices"]= {
+    30013,
+    30014,
+    30015,
+    30016
+  },
+  ["GoodsId"]= 12,
+  ["GoodsName"]= "WeddingButtonName304",
+  ["GoodsOrder"]= 12,
+  ["Style"]= {
+    10001,
+    10002,
+    10003
+  }
+},
+[13] = {
+  ["Choices"]= {
+    30017,
+    30018,
+    30019,
+    30020
+  },
+  ["GoodsId"]= 13,
+  ["GoodsName"]= "WeddingButtonName305",
+  ["GoodsOrder"]= 13,
+  ["Style"]= {
+    10001,
+    10002,
+    10003
+  }
+},
+[14] = {
+  ["Choices"]= {
+    30021,
+    30022,
+    30023,
+    30024
+  },
+  ["GoodsId"]= 14,
+  ["GoodsName"]= "WeddingButtonName306",
+  ["GoodsOrder"]= 14
+},
+[15] = {
+  ["Choices"]= {
+    40002,
+    40003,
+    40004
+  },
+  ["GoodsId"]= 15,
+  ["GoodsName"]= "mount_name_80046",
+  ["GoodsOrder"]= 15,
+  ["Step"]= 4
+}
+}
+local baseTable={
+  ["Choices"]= {
+    10001
+  },
+  ["GoodsId"]= 1,
+  ["GoodsName"]= "WeddingButtonName101",
+  ["GoodsOrder"]= 1,
+  ["Step"]= 3,
+  ["Style"]= {
+    10001,
+    10002,
+    10003,
+    10004
+  }
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

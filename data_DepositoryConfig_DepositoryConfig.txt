@@ -1,0 +1,55 @@
+TextAsset Base
+	string m_Name = "data_DepositoryConfig_DepositoryConfig"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["folderName"]= "Pictures/Artwork",
+  ["id"]= 2,
+  ["name"]= "原图"
+},
+[3] = {
+  ["folderName"]= "Pictures/Abbreviate",
+  ["id"]= 3,
+  ["name"]= "缩略图"
+},
+[4] = {
+  ["folderName"]= "Chat/Day",
+  ["id"]= 4,
+  ["name"]= "聊天按天"
+},
+[5] = {
+  ["folderName"]= "LoginNotice",
+  ["id"]= 5,
+  ["name"]= "登陆公告"
+},
+[6] = {
+  ["folderName"]= "PlacePhotos/Origin",
+  ["id"]= 6,
+  ["name"]= "照片原图"
+},
+[7] = {
+  ["folderName"]= "PlacePhotos/Mini",
+  ["id"]= 7,
+  ["name"]= "照片缩略图"
+},
+[8] = {
+  ["folderName"]= "GuildIcon",
+  ["id"]= 8,
+  ["name"]= "公会自定义图标"
+},
+[9] = {
+  ["folderName"]= "SharePhoto",
+  ["id"]= 9,
+  ["name"]= "分享"
+}
+}
+local baseTable={
+  ["Capacity"]= 100,
+  ["folderName"]= "Icons",
+  ["id"]= 1,
+  ["name"]= "头像"
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

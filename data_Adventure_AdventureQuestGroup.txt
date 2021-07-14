@@ -1,0 +1,564 @@
+TextAsset Base
+	string m_Name = "data_Adventure_AdventureQuestGroup"
+	string m_Script = "local table= {
+[1] = {
+  ["AchievementMainMenuDesc"]= "AchievementMainMenu_1",
+  ["AchievementMainMenuType"]= 1
+},
+[2] = {
+  ["AchievementMainMenuDesc"]= "AchievementMainMenu_1",
+  ["AchievementMainMenuType"]= 1,
+  ["AchievementSecContent"]= "AchievementSecContent_2",
+  ["AchievementSecMenuDesc"]= "AchievementSecMenu_1_2",
+  ["id"]= 1002,
+  ["PicName"]= "Cell_Bg_2",
+  ["QuestList"]= {
+    201,
+    202,
+    203
+  }
+},
+[3] = {
+  ["AchievementSecContent"]= "AchievementSecContent_3",
+  ["AchievementSecMenuDesc"]= "AchievementSecMenu_2_1",
+  ["id"]= 1003,
+  ["PicName"]= "Cell_Bg_3",
+  ["QuestList"]= {
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    307
+  }
+},
+[4] = {
+  ["AchievementSecContent"]= "AchievementSecContent_4",
+  ["AchievementSecMenuDesc"]= "AchievementSecMenu_2_2",
+  ["id"]= 1004,
+  ["PicName"]= "Cell_Bg_4",
+  ["QuestList"]= {
+    401,
+    402,
+    403,
+    404,
+    405,
+    406,
+    407
+  }
+},
+[5] = {
+  ["AchievementSecContent"]= "AchievementSecContent_5",
+  ["AchievementSecMenuDesc"]= "AchievementSecMenu_2_3",
+  ["id"]= 1005,
+  ["PicName"]= "Cell_Bg_4",
+  ["QuestList"]= {
+    501,
+    502,
+    503,
+    504,
+    505,
+    506,
+    507
+  }
+},
+[6] = {
+  ["AchievementMainMenuDesc"]= "AchievementMainMenu_3",
+  ["AchievementMainMenuType"]= 3,
+  ["AchievementSecContent"]= "AchievementSecContent_8",
+  ["AchievementSecMenuDesc"]= "AchievementSecMenu_3_1",
+  ["id"]= 1008,
+  ["QuestList"]= {
+    801,
+    802,
+    803,
+    804,
+    805,
+    806,
+    807
+  }
+},
+[7] = {
+  ["AchievementMainMenuDesc"]= "AchievementMainMenu_3",
+  ["AchievementMainMenuType"]= 3,
+  ["AchievementSecContent"]= "AchievementSecContent_9",
+  ["AchievementSecMenuDesc"]= "AchievementSecMenu_3_2",
+  ["id"]= 1009,
+  ["QuestList"]= {
+    901,
+    902,
+    903,
+    904,
+    905,
+    906,
+    907
+  }
+},
+[8] = {
+  ["AchievementMainMenuDesc"]= "AchievementMainMenu_3",
+  ["AchievementMainMenuType"]= 3,
+  ["AchievementSecContent"]= "AchievementSecContent_10",
+  ["AchievementSecMenuDesc"]= "AchievementSecMenu_3_3",
+  ["id"]= 1010,
+  ["PicName"]= "Cell_Bg_2",
+  ["QuestList"]= {
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007
+  }
+},
+[9] = {
+  ["AchievementMainMenuDesc"]= "AchievementMainMenu_3",
+  ["AchievementMainMenuType"]= 3,
+  ["AchievementSecContent"]= "AchievementSecContent_11",
+  ["AchievementSecMenuDesc"]= "AchievementSecMenu_3_4",
+  ["id"]= 1011,
+  ["PicName"]= "Cell_Bg_3",
+  ["QuestList"]= {
+    1101,
+    1102,
+    1103,
+    1104,
+    1105,
+    1106,
+    1107
+  }
+},
+[10] = {
+  ["AchievementMainMenuDesc"]= "AchievementMainMenu_3",
+  ["AchievementMainMenuType"]= 3,
+  ["AchievementSecContent"]= "AchievementSecContent_12",
+  ["AchievementSecMenuDesc"]= "AchievementSecMenu_3_5",
+  ["id"]= 1012,
+  ["PicName"]= "Cell_Bg_4",
+  ["QuestList"]= {
+    1201,
+    1202,
+    1203,
+    1204,
+    1205,
+    1206,
+    1207
+  }
+},
+[11] = {
+  ["AchievementMainMenuDesc"]= "AchievementMainMenu_4",
+  ["AchievementMainMenuType"]= 4,
+  ["AchievementSecContent"]= "AchievementSecContent_13",
+  ["AchievementSecMenuDesc"]= "AchievementSecMenu_4_1",
+  ["id"]= 1013,
+  ["PicName"]= "Cell_Bg_4",
+  ["QuestList"]= {
+    1301,
+    1302,
+    1303,
+    1304,
+    1305,
+    1306,
+    1307
+  }
+},
+[12] = {
+  ["AchievementMainMenuDesc"]= "AchievementMainMenu_4",
+  ["AchievementMainMenuType"]= 4,
+  ["AchievementSecContent"]= "AchievementSecContent_14",
+  ["AchievementSecMenuDesc"]= "AchievementSecMenu_4_2",
+  ["id"]= 1014,
+  ["PicName"]= "Cell_Bg_3",
+  ["QuestList"]= {
+    1401,
+    1402,
+    1403,
+    1404,
+    1405,
+    1406,
+    1407
+  }
+},
+[13] = {
+  ["AchievementMainMenuDesc"]= "AchievementMainMenu_4",
+  ["AchievementMainMenuType"]= 4,
+  ["AchievementSecContent"]= "AchievementSecContent_15",
+  ["AchievementSecMenuDesc"]= "AchievementSecMenu_4_3",
+  ["id"]= 1015,
+  ["PicName"]= "Cell_Bg_2",
+  ["QuestList"]= {
+    1501,
+    1502,
+    1503,
+    1504,
+    1505,
+    1506,
+    1507
+  }
+},
+[14] = {
+  ["AchievementMainMenuDesc"]= "AchievementMainMenu_4",
+  ["AchievementMainMenuType"]= 4,
+  ["AchievementSecContent"]= "AchievementSecContent_16",
+  ["AchievementSecMenuDesc"]= "AchievementSecMenu_4_4",
+  ["id"]= 1016,
+  ["QuestList"]= {
+    1601,
+    1602,
+    1603,
+    1604,
+    1605,
+    1606,
+    1607
+  }
+},
+[15] = {
+  ["AchievementMainMenuDesc"]= "AchievementMainMenu_4",
+  ["AchievementMainMenuType"]= 4,
+  ["AchievementSecContent"]= "AchievementSecContent_17",
+  ["AchievementSecMenuDesc"]= "AchievementSecMenu_4_5",
+  ["id"]= 1017,
+  ["QuestList"]= {
+    1701,
+    1702,
+    1703,
+    1704,
+    1705,
+    1706,
+    1707
+  }
+},
+[16] = {
+  ["AchievementMainMenuDesc"]= "AchievementMainMenu_5",
+  ["AchievementMainMenuType"]= 5,
+  ["AchievementSecContent"]= "AchievementSecContent_18",
+  ["AchievementSecMenuDesc"]= "AchievementSecMenu_5_1",
+  ["id"]= 1018,
+  ["PicName"]= "Cell_Bg_2",
+  ["QuestList"]= {
+    1801,
+    1802,
+    1803,
+    1804,
+    1805,
+    1806,
+    1807
+  }
+},
+[17] = {
+  ["AchievementMainMenuDesc"]= "AchievementMainMenu_5",
+  ["AchievementMainMenuType"]= 5,
+  ["AchievementSecContent"]= "AchievementSecContent_19",
+  ["AchievementSecMenuDesc"]= "AchievementSecMenu_5_2",
+  ["id"]= 1019,
+  ["PicName"]= "Cell_Bg_3",
+  ["QuestList"]= {
+    1901,
+    1902,
+    1903,
+    1904,
+    1905,
+    1906,
+    1907
+  }
+},
+[18] = {
+  ["AchievementMainMenuDesc"]= "AchievementMainMenu_5",
+  ["AchievementMainMenuType"]= 5,
+  ["AchievementSecContent"]= "AchievementSecContent_20",
+  ["AchievementSecMenuDesc"]= "AchievementSecMenu_5_3",
+  ["id"]= 1020,
+  ["PicName"]= "Cell_Bg_4",
+  ["QuestList"]= {
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007
+  }
+},
+[19] = {
+  ["AchievementMainMenuDesc"]= "AchievementMainMenu_5",
+  ["AchievementMainMenuType"]= 5,
+  ["AchievementSecContent"]= "AchievementSecContent_22",
+  ["AchievementSecMenuDesc"]= "AchievementSecMenu_5_5",
+  ["id"]= 1022,
+  ["PicName"]= "Cell_Bg_3",
+  ["QuestList"]= {
+    2201,
+    2202,
+    2203,
+    2204,
+    2205,
+    2206,
+    2207
+  }
+},
+[20] = {
+  ["AchievementMainMenuDesc"]= "AchievementMainMenu_5",
+  ["AchievementMainMenuType"]= 5,
+  ["AchievementSecContent"]= "AchievementSecContent_23",
+  ["AchievementSecMenuDesc"]= "AchievementSecMenu_5_6",
+  ["id"]= 1023,
+  ["PicName"]= "Cell_Bg_2",
+  ["QuestList"]= {
+    2301,
+    2302,
+    2303,
+    2304,
+    2305,
+    2306,
+    2307
+  }
+},
+[21] = {
+  ["AchievementMainMenuDesc"]= "AchievementMainMenu_6",
+  ["AchievementMainMenuType"]= 6,
+  ["AchievementSecContent"]= "AchievementSecContent_26",
+  ["AchievementSecMenuDesc"]= "AchievementSecMenu_6_3",
+  ["id"]= 1026,
+  ["QuestList"]= {
+    2601,
+    2602,
+    2603,
+    2604,
+    2605,
+    2606,
+    2607
+  }
+},
+[22] = {
+  ["AchievementMainMenuDesc"]= "AchievementMainMenu_6",
+  ["AchievementMainMenuType"]= 6,
+  ["AchievementSecContent"]= "AchievementSecContent_27",
+  ["AchievementSecMenuDesc"]= "AchievementSecMenu_6_4",
+  ["id"]= 1027,
+  ["PicName"]= "Cell_Bg_2",
+  ["QuestList"]= {
+    2701,
+    2702,
+    2703,
+    2704,
+    2705,
+    2706,
+    2707
+  }
+},
+[23] = {
+  ["AchievementMainMenuDesc"]= "",
+  ["AchievementMainMenuType"]= 0,
+  ["AchievementSecContent"]= "",
+  ["AchievementSecMenuDesc"]= "",
+  ["id"]= 2001,
+  ["PicName"]= "",
+  ["QuestList"]= {
+    4001,
+    4002,
+    4003,
+    4004,
+    4005,
+    4006
+  }
+},
+[24] = {
+  ["AchievementMainMenuDesc"]= "AchievementMainMenu_7",
+  ["AchievementMainMenuType"]= 7,
+  ["AchievementSecContent"]= "AchievementSecContent_28",
+  ["AchievementSecMenuDesc"]= "AchievementSecMenu_7_1",
+  ["id"]= 1028,
+  ["QuestList"]= {
+    6101,
+    6102,
+    6103,
+    6104
+  }
+},
+[25] = {
+  ["AchievementMainMenuDesc"]= "AchievementMainMenu_7",
+  ["AchievementMainMenuType"]= 7,
+  ["AchievementSecContent"]= "AchievementSecContent_29",
+  ["AchievementSecMenuDesc"]= "AchievementSecMenu_7_2",
+  ["id"]= 1029,
+  ["PicName"]= "Cell_Bg_2",
+  ["QuestList"]= {
+    6201,
+    6202,
+    6203,
+    6204
+  }
+},
+[26] = {
+  ["AchievementMainMenuDesc"]= "AchievementMainMenu_7",
+  ["AchievementMainMenuType"]= 7,
+  ["AchievementSecContent"]= "AchievementSecContent_30",
+  ["AchievementSecMenuDesc"]= "AchievementSecMenu_7_3",
+  ["id"]= 1030,
+  ["PicName"]= "Cell_Bg_3",
+  ["QuestList"]= {
+    6301,
+    6302,
+    6303,
+    6304
+  }
+},
+[27] = {
+  ["AchievementMainMenuDesc"]= "AchievementMainMenu_7",
+  ["AchievementMainMenuType"]= 7,
+  ["AchievementSecContent"]= "AchievementSecContent_31",
+  ["AchievementSecMenuDesc"]= "AchievementSecMenu_7_4",
+  ["id"]= 1031,
+  ["PicName"]= "Cell_Bg_4",
+  ["QuestList"]= {
+    6401,
+    6402,
+    6403,
+    6404
+  }
+},
+[28] = {
+  ["AchievementMainMenuDesc"]= "AchievementMainMenu_7",
+  ["AchievementMainMenuType"]= 7,
+  ["AchievementSecContent"]= "AchievementSecContent_32",
+  ["AchievementSecMenuDesc"]= "AchievementSecMenu_7_5",
+  ["id"]= 1032,
+  ["PicName"]= "Cell_Bg_4",
+  ["QuestList"]= {
+    6501,
+    6502,
+    6503,
+    6504
+  }
+},
+[29] = {
+  ["AchievementMainMenuDesc"]= "AchievementMainMenu_8",
+  ["AchievementMainMenuType"]= 8,
+  ["AchievementSecContent"]= "AchievementSecContent_34",
+  ["AchievementSecMenuDesc"]= "AchievementSecMenu_8_1",
+  ["id"]= 1034,
+  ["QuestList"]= {
+    7101,
+    7102,
+    7103,
+    7104
+  }
+},
+[30] = {
+  ["AchievementMainMenuDesc"]= "AchievementMainMenu_8",
+  ["AchievementMainMenuType"]= 8,
+  ["AchievementSecContent"]= "AchievementSecContent_35",
+  ["AchievementSecMenuDesc"]= "AchievementSecMenu_8_2",
+  ["id"]= 1035,
+  ["PicName"]= "Cell_Bg_2",
+  ["QuestList"]= {
+    7201,
+    7202,
+    7203,
+    7204
+  }
+},
+[31] = {
+  ["AchievementMainMenuDesc"]= "AchievementMainMenu_8",
+  ["AchievementMainMenuType"]= 8,
+  ["AchievementSecContent"]= "AchievementSecContent_36",
+  ["AchievementSecMenuDesc"]= "AchievementSecMenu_8_3",
+  ["id"]= 1036,
+  ["PicName"]= "Cell_Bg_3",
+  ["QuestList"]= {
+    7301,
+    7302,
+    7303,
+    7304
+  }
+},
+[32] = {
+  ["AchievementMainMenuDesc"]= "AchievementMainMenu_8",
+  ["AchievementMainMenuType"]= 8,
+  ["AchievementSecContent"]= "AchievementSecContent_37",
+  ["AchievementSecMenuDesc"]= "AchievementSecMenu_8_4",
+  ["id"]= 1037,
+  ["PicName"]= "Cell_Bg_4",
+  ["QuestList"]= {
+    7401,
+    7402,
+    7403,
+    7404
+  }
+},
+[33] = {
+  ["AchievementMainMenuDesc"]= "AchievementMainMenu_8",
+  ["AchievementMainMenuType"]= 8,
+  ["AchievementSecContent"]= "AchievementSecContent_38",
+  ["AchievementSecMenuDesc"]= "AchievementSecMenu_8_5",
+  ["id"]= 1038,
+  ["PicName"]= "Cell_Bg_4",
+  ["QuestList"]= {
+    7501,
+    7502,
+    7503,
+    7504
+  }
+},
+[34] = {
+  ["AchievementSecContent"]= "AchievementSecContent_39",
+  ["AchievementSecMenuDesc"]= "AchievementSecMenu_2_6",
+  ["id"]= 1039,
+  ["PicName"]= "Cell_Bg_3",
+  ["QuestList"]= {
+    3101,
+    3102,
+    3103,
+    3104,
+    3105,
+    3106
+  }
+},
+[35] = {
+  ["AchievementSecContent"]= "AchievementSecContent_40",
+  ["AchievementSecMenuDesc"]= "AchievementSecMenu_2_7",
+  ["id"]= 1040,
+  ["PicName"]= "Cell_Bg_2",
+  ["QuestList"]= {
+    3201,
+    3202,
+    3203,
+    3204,
+    3205
+  }
+},
+[36] = {
+  ["AchievementSecContent"]= "AchievementSecContent_41",
+  ["AchievementSecMenuDesc"]= "AchievementSecMenu_2_8",
+  ["id"]= 1041,
+  ["QuestList"]= {
+    3301,
+    3302,
+    3303,
+    3304,
+    3305
+  }
+}
+}
+local baseTable={
+  ["AchievementMainMenuDesc"]= "AchievementMainMenu_2",
+  ["AchievementMainMenuType"]= 2,
+  ["AchievementSecContent"]= "AchievementSecContent_1",
+  ["AchievementSecMenuDesc"]= "AchievementSecMenu_1_1",
+  ["id"]= 1001,
+  ["PicName"]= "Cell_Bg_1",
+  ["QuestList"]= {
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108
+  }
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

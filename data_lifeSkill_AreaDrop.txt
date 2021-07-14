@@ -1,0 +1,10602 @@
+TextAsset Base
+	string m_Name = "data_lifeSkill_AreaDrop"
+	string m_Script = "local table= {
+[10206601] = {
+  ["Areaname"]= "Areaname10206601",
+  ["BaitCriticalEnergy"]= {
+    0,
+    0,
+    0,
+    0
+  },
+  ["BaitCriticalNum"]= {
+    0,
+    0,
+    0,
+    0
+  },
+  ["BaitCriticalRate"]= {
+    0,
+    0,
+    0,
+    0
+  },
+  ["BaitDropId"]= {
+    501020003,
+    501020004,
+    501020005,
+    0
+  },
+  ["BaitId"]= {
+    10413001,
+    10413004,
+    10413005,
+    10206006
+  },
+  ["ButtonName"]= "",
+  ["Dropid"]= 501020001,
+  ["ExtraDrop"]= {
+    509999001
+  },
+  ["FishEnergy"]= 10,
+  ["FishExp"]= 10,
+  ["FishingFace"]= {
+    ["PX"]= 59,
+    ["PY"]= 11,
+    ["PZ"]= -19
+  },
+  ["GetFishCD"]= 10,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "南门钓鱼",
+  ["PickCD"]= 0,
+  ["PickEnergy"]= 0,
+  ["PickExp"]= 0,
+  ["RefreshNum"]= 0,
+  ["SceneId"]= 1020,
+  ["ShowMap"]= 1,
+  ["SingleRefreshNum"]= 0,
+  ["Time"]= {},
+  ["Type"]= 1
+},
+[10206602] = {
+  ["Areaname"]= "Areaname10406201",
+  ["Dropid"]= 521020003,
+  ["Id"]= 10206602,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "南瓜1",
+  ["NPCId"]= 10205001,
+  ["PickCD"]= 30,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1020
+},
+[10206603] = {
+  ["Areaname"]= "Areaname10406201",
+  ["Dropid"]= 521020003,
+  ["Id"]= 10206603,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "南瓜2",
+  ["NPCId"]= 10205002,
+  ["PickCD"]= 30,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1020,
+  ["ShowMap"]= 1
+},
+[10206604] = {
+  ["Areaname"]= "Areaname10406201",
+  ["Dropid"]= 521020003,
+  ["Id"]= 10206604,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "南瓜3",
+  ["NPCId"]= 10205003,
+  ["PickCD"]= 30,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1020
+},
+[10206605] = {
+  ["Areaname"]= "Areaname10406201",
+  ["Dropid"]= 521020003,
+  ["Id"]= 10206605,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "南瓜4",
+  ["NPCId"]= 10205004,
+  ["PickCD"]= 30,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1020
+},
+[10206606] = {
+  ["Areaname"]= "Areaname10406201",
+  ["Dropid"]= 521020003,
+  ["Id"]= 10206606,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "南瓜5",
+  ["NPCId"]= 10205005,
+  ["PickCD"]= 30,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1020,
+  ["ShowMap"]= 1
+},
+[10206607] = {
+  ["Areaname"]= "Areaname10406201",
+  ["Dropid"]= 521020003,
+  ["Id"]= 10206607,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "南瓜6",
+  ["NPCId"]= 10205006,
+  ["PickCD"]= 30,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1020
+},
+[10206608] = {
+  ["Areaname"]= "Areaname10406202",
+  ["Dropid"]= 521020004,
+  ["Id"]= 10206608,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "麦穗1",
+  ["NPCId"]= 10205007,
+  ["PickCD"]= 30,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1020
+},
+[10206609] = {
+  ["Areaname"]= "Areaname10406202",
+  ["Dropid"]= 521020004,
+  ["Id"]= 10206609,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "麦穗2",
+  ["NPCId"]= 10205008,
+  ["PickCD"]= 30,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1020,
+  ["ShowMap"]= 1
+},
+[10206610] = {
+  ["Areaname"]= "Areaname10406202",
+  ["Dropid"]= 521020004,
+  ["Id"]= 10206610,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "麦穗3",
+  ["NPCId"]= 10205009,
+  ["PickCD"]= 30,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1020
+},
+[10206611] = {
+  ["Areaname"]= "Areaname10406202",
+  ["Dropid"]= 521020004,
+  ["Id"]= 10206611,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "麦穗4",
+  ["NPCId"]= 10205010,
+  ["PickCD"]= 30,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1020
+},
+[10206612] = {
+  ["Areaname"]= "Areaname10406202",
+  ["Dropid"]= 521020004,
+  ["Id"]= 10206612,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "麦穗5",
+  ["NPCId"]= 10205011,
+  ["PickCD"]= 30,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1020,
+  ["ShowMap"]= 1
+},
+[10206613] = {
+  ["Areaname"]= "Areaname10406202",
+  ["Dropid"]= 521020004,
+  ["Id"]= 10206613,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "麦穗6",
+  ["NPCId"]= 10205012,
+  ["PickCD"]= 30,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1020
+},
+[10206614] = {
+  ["Areaname"]= "Areaname10201015",
+  ["Dropid"]= 521030001,
+  ["Id"]= 10206614,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "红色药草1",
+  ["NPCId"]= 10205013,
+  ["PickCD"]= 30,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1020
+},
+[10206615] = {
+  ["Areaname"]= "Areaname10201015",
+  ["Dropid"]= 521030001,
+  ["Id"]= 10206615,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "红色药草2",
+  ["NPCId"]= 10205014,
+  ["PickCD"]= 30,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1020,
+  ["ShowMap"]= 1
+},
+[10206616] = {
+  ["Areaname"]= "Areaname10201015",
+  ["Dropid"]= 521030001,
+  ["Id"]= 10206616,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "红色药草3",
+  ["NPCId"]= 10205015,
+  ["PickCD"]= 30,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1020
+},
+[10206617] = {
+  ["Areaname"]= "Areaname10201015",
+  ["Dropid"]= 521030001,
+  ["Id"]= 10206617,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "红色药草4",
+  ["NPCId"]= 10205016,
+  ["PickCD"]= 30,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1020
+},
+[10206618] = {
+  ["Areaname"]= "Areaname10201015",
+  ["Dropid"]= 521030001,
+  ["Id"]= 10206618,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "红色药草5",
+  ["NPCId"]= 10205017,
+  ["PickCD"]= 30,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1020,
+  ["ShowMap"]= 1
+},
+[10206619] = {
+  ["Areaname"]= "Areaname10201015",
+  ["Dropid"]= 521030001,
+  ["Id"]= 10206619,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "红色药草6",
+  ["NPCId"]= 10205018,
+  ["PickCD"]= 30,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1020
+},
+[10306601] = {
+  ["Areaname"]= "Areaname10306601",
+  ["BaitCriticalEnergy"]= {
+    0,
+    0,
+    0
+  },
+  ["BaitCriticalNum"]= {
+    0,
+    0,
+    0
+  },
+  ["BaitCriticalRate"]= {
+    0,
+    0,
+    0
+  },
+  ["BaitDropId"]= {
+    501030002,
+    501030003,
+    501030004
+  },
+  ["BaitId"]= {
+    10406567,
+    10406686,
+    10413028
+  },
+  ["ButtonName"]= "",
+  ["Dropid"]= 501030001,
+  ["ExtraDrop"]= {
+    509999001
+  },
+  ["FishEnergy"]= 10,
+  ["FishExp"]= 10,
+  ["FishingFace"]= {
+    ["PX"]= -40,
+    ["PY"]= 9,
+    ["PZ"]= 74
+  },
+  ["GetFishCD"]= 10,
+  ["Id"]= 10306601,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "西门钓鱼",
+  ["PickCD"]= 0,
+  ["PickEnergy"]= 0,
+  ["PickExp"]= 0,
+  ["RefreshNum"]= 0,
+  ["SceneId"]= 1030,
+  ["ShowMap"]= 1,
+  ["SingleRefreshNum"]= 0,
+  ["Time"]= {},
+  ["Type"]= 1
+},
+[10306602] = {
+  ["Areaname"]= "Areaname10406237",
+  ["Dropid"]= 521030004,
+  ["Id"]= 10306602,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "浆果1",
+  ["NPCId"]= 10305001,
+  ["PickCD"]= 30,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1030
+},
+[10306603] = {
+  ["Areaname"]= "Areaname10406237",
+  ["Dropid"]= 521030004,
+  ["Id"]= 10306603,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "浆果2",
+  ["NPCId"]= 10305002,
+  ["PickCD"]= 30,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1030,
+  ["ShowMap"]= 1
+},
+[10306604] = {
+  ["Areaname"]= "Areaname10406237",
+  ["Dropid"]= 521030004,
+  ["Id"]= 10306604,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "浆果3",
+  ["NPCId"]= 10305003,
+  ["PickCD"]= 30,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1030
+},
+[10306605] = {
+  ["Areaname"]= "Areaname10406237",
+  ["Dropid"]= 521030004,
+  ["Id"]= 10306605,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "浆果4",
+  ["NPCId"]= 10305004,
+  ["PickCD"]= 30,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1030
+},
+[10306606] = {
+  ["Areaname"]= "Areaname10406237",
+  ["Dropid"]= 521030004,
+  ["Id"]= 10306606,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "浆果5",
+  ["NPCId"]= 10305005,
+  ["PickCD"]= 30,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1030,
+  ["ShowMap"]= 1
+},
+[10306607] = {
+  ["Areaname"]= "Areaname10406237",
+  ["Dropid"]= 521030004,
+  ["Id"]= 10306607,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "浆果6",
+  ["NPCId"]= 10305006,
+  ["PickCD"]= 30,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1030
+},
+[10306608] = {
+  ["Areaname"]= "Areaname10201014",
+  ["Dropid"]= 521140001,
+  ["Id"]= 10306608,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "蓝色药草1",
+  ["NPCId"]= 10305007,
+  ["PickCD"]= 30,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1030
+},
+[10306609] = {
+  ["Areaname"]= "Areaname10201014",
+  ["Dropid"]= 521140001,
+  ["Id"]= 10306609,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "蓝色药草2",
+  ["NPCId"]= 10305008,
+  ["PickCD"]= 30,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1030,
+  ["ShowMap"]= 1
+},
+[10306610] = {
+  ["Areaname"]= "Areaname10201014",
+  ["Dropid"]= 521140001,
+  ["Id"]= 10306610,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "蓝色药草3",
+  ["NPCId"]= 10305009,
+  ["PickCD"]= 30,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1030
+},
+[10306611] = {
+  ["Areaname"]= "Areaname10201014",
+  ["Dropid"]= 521140001,
+  ["Id"]= 10306611,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "蓝色药草4",
+  ["NPCId"]= 10305010,
+  ["PickCD"]= 30,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1030
+},
+[10306612] = {
+  ["Areaname"]= "Areaname10201014",
+  ["Dropid"]= 521140001,
+  ["Id"]= 10306612,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "蓝色药草5",
+  ["NPCId"]= 10305011,
+  ["PickCD"]= 30,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1030,
+  ["ShowMap"]= 1
+},
+[10306613] = {
+  ["Areaname"]= "Areaname10201014",
+  ["Dropid"]= 521140001,
+  ["Id"]= 10306613,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "蓝色药草6",
+  ["NPCId"]= 10305012,
+  ["PickCD"]= 30,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1030
+},
+[10306614] = {
+  ["Areaname"]= "Areaname10406238",
+  ["Dropid"]= 521030005,
+  ["Id"]= 10306614,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "辣椒1",
+  ["NPCId"]= 10305013,
+  ["PickCD"]= 30,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1030
+},
+[10306618] = {
+  ["Areaname"]= "Areaname10406238",
+  ["Dropid"]= 521030005,
+  ["Id"]= 10306618,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "辣椒2",
+  ["NPCId"]= 10305014,
+  ["PickCD"]= 30,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1030,
+  ["ShowMap"]= 1
+},
+[10306619] = {
+  ["Areaname"]= "Areaname10406238",
+  ["Dropid"]= 521030005,
+  ["Id"]= 10306619,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "辣椒3",
+  ["NPCId"]= 10305015,
+  ["PickCD"]= 30,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1030
+},
+[10306620] = {
+  ["Areaname"]= "Areaname10406238",
+  ["Dropid"]= 521030005,
+  ["Id"]= 10306620,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "辣椒4",
+  ["NPCId"]= 10305016,
+  ["PickCD"]= 30,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1030
+},
+[10306621] = {
+  ["Areaname"]= "Areaname10406238",
+  ["Dropid"]= 521030005,
+  ["Id"]= 10306621,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "辣椒5",
+  ["NPCId"]= 10305017,
+  ["PickCD"]= 30,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1030,
+  ["ShowMap"]= 1
+},
+[10306622] = {
+  ["Areaname"]= "Areaname10406238",
+  ["Dropid"]= 521030005,
+  ["Id"]= 10306622,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "辣椒6",
+  ["NPCId"]= 10305018,
+  ["PickCD"]= 30,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1030
+},
+[10406601] = {
+  ["ExtraDrop"]= {
+    529999002,
+    509999004
+  },
+  ["Id"]= 10406601,
+  ["LifeLevelLimit"]= 2,
+  ["NPCId"]= 10405001,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[10406602] = {
+  ["ExtraDrop"]= {
+    529999002,
+    509999004
+  },
+  ["Id"]= 10406602,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "厚土叶2",
+  ["NPCId"]= 10405002,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[10406603] = {
+  ["ExtraDrop"]= {
+    529999002,
+    509999004
+  },
+  ["Id"]= 10406603,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "厚土叶3",
+  ["NPCId"]= 10405003,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[10406604] = {
+  ["ExtraDrop"]= {
+    529999002,
+    509999004
+  },
+  ["Id"]= 10406604,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "厚土叶4",
+  ["NPCId"]= 10405004,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[10406605] = {
+  ["ExtraDrop"]= {
+    529999002,
+    509999004
+  },
+  ["Id"]= 10406605,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "厚土叶5",
+  ["NPCId"]= 10405005,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[10406606] = {
+  ["ExtraDrop"]= {
+    529999002,
+    509999004
+  },
+  ["Id"]= 10406606,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "厚土叶6",
+  ["NPCId"]= 10405006,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[10406607] = {
+  ["Areaname"]= "Areaname10406209",
+  ["Dropid"]= 521220004,
+  ["ExtraDrop"]= {
+    529999002,
+    509999004
+  },
+  ["Id"]= 10406607,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "微风兰1",
+  ["NPCId"]= 10405007,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[10406608] = {
+  ["Areaname"]= "Areaname10406209",
+  ["Dropid"]= 521220004,
+  ["ExtraDrop"]= {
+    529999002,
+    509999004
+  },
+  ["Id"]= 10406608,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "微风兰2",
+  ["NPCId"]= 10405008,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[10406609] = {
+  ["Areaname"]= "Areaname10406209",
+  ["Dropid"]= 521220004,
+  ["ExtraDrop"]= {
+    529999002,
+    509999004
+  },
+  ["Id"]= 10406609,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "微风兰3",
+  ["NPCId"]= 10405009,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[10406610] = {
+  ["Areaname"]= "Areaname10406209",
+  ["Dropid"]= 521220004,
+  ["ExtraDrop"]= {
+    529999002,
+    509999004
+  },
+  ["Id"]= 10406610,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "微风兰4",
+  ["NPCId"]= 10405010,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[10406611] = {
+  ["Areaname"]= "Areaname10406209",
+  ["Dropid"]= 521220004,
+  ["ExtraDrop"]= {
+    529999002,
+    509999004
+  },
+  ["Id"]= 10406611,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "微风兰5",
+  ["NPCId"]= 10405011,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[10406612] = {
+  ["Areaname"]= "Areaname10406209",
+  ["Dropid"]= 521220004,
+  ["ExtraDrop"]= {
+    529999002,
+    509999004
+  },
+  ["Id"]= 10406612,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "微风兰6",
+  ["NPCId"]= 10405012,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[10406613] = {
+  ["Areaname"]= "Areaname10406220",
+  ["Dropid"]= 521040002,
+  ["ExtraDrop"]= {
+    529999002,
+    509999004
+  },
+  ["Id"]= 10406613,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "灵气之花1",
+  ["NPCId"]= 10405013,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[10406614] = {
+  ["Areaname"]= "Areaname10406220",
+  ["Dropid"]= 521040002,
+  ["ExtraDrop"]= {
+    529999002,
+    509999004
+  },
+  ["Id"]= 10406614,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "灵气之花2",
+  ["NPCId"]= 10405014,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[10406615] = {
+  ["Areaname"]= "Areaname10406220",
+  ["Dropid"]= 521040002,
+  ["ExtraDrop"]= {
+    529999002,
+    509999004
+  },
+  ["Id"]= 10406615,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "灵气之花3",
+  ["NPCId"]= 10405015,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[10406616] = {
+  ["Areaname"]= "Areaname10406220",
+  ["Dropid"]= 521040002,
+  ["ExtraDrop"]= {
+    529999002,
+    509999004
+  },
+  ["Id"]= 10406616,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "灵气之花4",
+  ["NPCId"]= 10405016,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[10406617] = {
+  ["Areaname"]= "Areaname10406220",
+  ["Dropid"]= 521040002,
+  ["ExtraDrop"]= {
+    529999002,
+    509999004
+  },
+  ["Id"]= 10406617,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "灵气之花5",
+  ["NPCId"]= 10405017,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[10406618] = {
+  ["Areaname"]= "Areaname10406220",
+  ["Dropid"]= 521040002,
+  ["ExtraDrop"]= {
+    529999002,
+    509999004
+  },
+  ["Id"]= 10406618,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "灵气之花6",
+  ["NPCId"]= 10405018,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[10406619] = {
+  ["Areaname"]= "Areaname10406231",
+  ["Dropid"]= 521130003,
+  ["ExtraDrop"]= {
+    529999001,
+    509999004
+  },
+  ["Id"]= 10406619,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "碎晶蘑菇1",
+  ["NPCId"]= 10405019,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[10406620] = {
+  ["Areaname"]= "Areaname10406231",
+  ["Dropid"]= 521130003,
+  ["ExtraDrop"]= {
+    529999001,
+    509999004
+  },
+  ["Id"]= 10406620,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "碎晶蘑菇2",
+  ["NPCId"]= 10405020,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[10406621] = {
+  ["Areaname"]= "Areaname10406231",
+  ["Dropid"]= 521130003,
+  ["ExtraDrop"]= {
+    529999001,
+    509999004
+  },
+  ["Id"]= 10406621,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "碎晶蘑菇3",
+  ["NPCId"]= 10405021,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[10406622] = {
+  ["Areaname"]= "Areaname10406231",
+  ["Dropid"]= 521130003,
+  ["ExtraDrop"]= {
+    529999001,
+    509999004
+  },
+  ["Id"]= 10406622,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "碎晶蘑菇4",
+  ["NPCId"]= 10405022,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[10406623] = {
+  ["Areaname"]= "Areaname10406231",
+  ["Dropid"]= 521130003,
+  ["ExtraDrop"]= {
+    529999001,
+    509999004
+  },
+  ["Id"]= 10406623,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "碎晶蘑菇5",
+  ["NPCId"]= 10405023,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[10406624] = {
+  ["Areaname"]= "Areaname10406231",
+  ["Dropid"]= 521130003,
+  ["ExtraDrop"]= {
+    529999001,
+    509999004
+  },
+  ["Id"]= 10406624,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "碎晶蘑菇6",
+  ["NPCId"]= 10405024,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[10406625] = {
+  ["Areaname"]= "Areaname10406210",
+  ["Dropid"]= 521220005,
+  ["ExtraDrop"]= {
+    529999001,
+    509999004
+  },
+  ["Id"]= 10406625,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "坚韧藤1",
+  ["NPCId"]= 10405025,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[10406626] = {
+  ["Areaname"]= "Areaname10406210",
+  ["Dropid"]= 521220005,
+  ["ExtraDrop"]= {
+    529999001,
+    509999004
+  },
+  ["Id"]= 10406626,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "坚韧藤2",
+  ["NPCId"]= 10405026,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[10406627] = {
+  ["Areaname"]= "Areaname10406210",
+  ["Dropid"]= 521220005,
+  ["ExtraDrop"]= {
+    529999001,
+    509999004
+  },
+  ["Id"]= 10406627,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "坚韧藤3",
+  ["NPCId"]= 10405027,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[10406628] = {
+  ["Areaname"]= "Areaname10406210",
+  ["Dropid"]= 521220005,
+  ["ExtraDrop"]= {
+    529999001,
+    509999004
+  },
+  ["Id"]= 10406628,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "坚韧藤4",
+  ["NPCId"]= 10405028,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[10406629] = {
+  ["Areaname"]= "Areaname10406210",
+  ["Dropid"]= 521220005,
+  ["ExtraDrop"]= {
+    529999001,
+    509999004
+  },
+  ["Id"]= 10406629,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "坚韧藤5",
+  ["NPCId"]= 10405029,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[10406630] = {
+  ["Areaname"]= "Areaname10406210",
+  ["Dropid"]= 521220005,
+  ["ExtraDrop"]= {
+    529999001,
+    509999004
+  },
+  ["Id"]= 10406630,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "坚韧藤6",
+  ["NPCId"]= 10405030,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[10406631] = {
+  ["Areaname"]= "Areaname10406232",
+  ["Dropid"]= 521150001,
+  ["ExtraDrop"]= {
+    529999001,
+    509999004
+  },
+  ["Id"]= 10406631,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "奥秘之花1",
+  ["NPCId"]= 10405031,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[10406632] = {
+  ["Areaname"]= "Areaname10406232",
+  ["Dropid"]= 521150001,
+  ["ExtraDrop"]= {
+    529999001,
+    509999004
+  },
+  ["Id"]= 10406632,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "奥秘之花2",
+  ["NPCId"]= 10405032,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[10406633] = {
+  ["Areaname"]= "Areaname10406232",
+  ["Dropid"]= 521150001,
+  ["ExtraDrop"]= {
+    529999001,
+    509999004
+  },
+  ["Id"]= 10406633,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "奥秘之花3",
+  ["NPCId"]= 10405033,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[10406634] = {
+  ["Areaname"]= "Areaname10406232",
+  ["Dropid"]= 521150001,
+  ["ExtraDrop"]= {
+    529999001,
+    509999004
+  },
+  ["Id"]= 10406634,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "奥秘之花4",
+  ["NPCId"]= 10405034,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[10406635] = {
+  ["Areaname"]= "Areaname10406232",
+  ["Dropid"]= 521150001,
+  ["ExtraDrop"]= {
+    529999001,
+    509999004
+  },
+  ["Id"]= 10406635,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "奥秘之花5",
+  ["NPCId"]= 10405035,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[10406636] = {
+  ["Areaname"]= "Areaname10406232",
+  ["Dropid"]= 521150001,
+  ["ExtraDrop"]= {
+    529999001,
+    509999004
+  },
+  ["Id"]= 10406636,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "奥秘之花6",
+  ["NPCId"]= 10405036,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[10406637] = {
+  ["Areaname"]= "Areaname10406637",
+  ["BaitCriticalEnergy"]= {
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  },
+  ["BaitCriticalNum"]= {
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  },
+  ["BaitCriticalRate"]= {
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  },
+  ["BaitDropId"]= {
+    501040002,
+    501040003,
+    501040004,
+    501040005,
+    501040006,
+    501040007
+  },
+  ["BaitId"]= {
+    10413158,
+    10406845,
+    10206004,
+    10406243,
+    10406244,
+    10406245
+  },
+  ["ButtonName"]= "",
+  ["Dropid"]= 501040001,
+  ["ExtraDrop"]= {
+    509999001
+  },
+  ["FishEnergy"]= 10,
+  ["FishExp"]= 10,
+  ["FishingFace"]= {
+    ["PX"]= 162,
+    ["PY"]= 71,
+    ["PZ"]= 68
+  },
+  ["GetFishCD"]= 10,
+  ["Id"]= 10406637,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "迷藏森林钓鱼",
+  ["PickCD"]= 0,
+  ["PickEnergy"]= 0,
+  ["PickExp"]= 0,
+  ["RefreshNum"]= 0,
+  ["ShowMap"]= 1,
+  ["SingleRefreshNum"]= 0,
+  ["Time"]= {},
+  ["Type"]= 1
+},
+[11106601] = {
+  ["Areaname"]= "Areaname11106601",
+  ["BaitCriticalEnergy"]= {
+    0
+  },
+  ["BaitCriticalNum"]= {
+    0
+  },
+  ["BaitCriticalRate"]= {
+    0
+  },
+  ["BaitDropId"]= {
+    0
+  },
+  ["BaitId"]= {
+    10206006
+  },
+  ["ButtonName"]= "",
+  ["Dropid"]= 501050001,
+  ["ExtraDrop"]= {},
+  ["FishExp"]= 0,
+  ["FishingFace"]= {
+    ["PX"]= -70,
+    ["PY"]= -3,
+    ["PZ"]= 22
+  },
+  ["GetFishCD"]= 10,
+  ["Id"]= 11106601,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "依斯鲁德钓鱼大赛",
+  ["PickCD"]= 0,
+  ["PickEnergy"]= 0,
+  ["PickExp"]= 0,
+  ["RefreshNum"]= 0,
+  ["SceneId"]= 1110,
+  ["ShowMap"]= 1,
+  ["SingleRefreshNum"]= 0,
+  ["Time"]= {},
+  ["Type"]= 1
+},
+[11506601] = {
+  ["Areaname"]= "Areaname11506601",
+  ["BaitCriticalEnergy"]= {
+    0,
+    0,
+    0
+  },
+  ["BaitCriticalNum"]= {
+    0,
+    0,
+    0
+  },
+  ["BaitCriticalRate"]= {
+    0,
+    0,
+    0
+  },
+  ["BaitDropId"]= {
+    501150002,
+    501150003,
+    501150004
+  },
+  ["BaitId"]= {
+    10406893,
+    10406582,
+    10413159
+  },
+  ["ButtonName"]= "",
+  ["Dropid"]= 501150001,
+  ["ExtraDrop"]= {
+    509999001
+  },
+  ["FishEnergy"]= 10,
+  ["FishExp"]= 10,
+  ["FishingFace"]= {
+    ["PX"]= 202,
+    ["PY"]= 5,
+    ["PZ"]= 225
+  },
+  ["GetFishCD"]= 10,
+  ["Id"]= 11506601,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "海洞钓鱼",
+  ["PickCD"]= 0,
+  ["PickEnergy"]= 0,
+  ["PickExp"]= 0,
+  ["RefreshNum"]= 0,
+  ["SceneId"]= 1150,
+  ["ShowMap"]= 1,
+  ["SingleRefreshNum"]= 0,
+  ["Time"]= {},
+  ["Type"]= 1
+},
+[11506602] = {
+  ["Areaname"]= "Areaname10406014",
+  ["Dropid"]= 521150002,
+  ["Id"]= 11506602,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "海带1",
+  ["NPCId"]= 11505001,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1150
+},
+[11506603] = {
+  ["Areaname"]= "Areaname10406014",
+  ["Dropid"]= 521150002,
+  ["Id"]= 11506603,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "海带2",
+  ["NPCId"]= 11505002,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1150,
+  ["ShowMap"]= 1
+},
+[11506604] = {
+  ["Areaname"]= "Areaname10406014",
+  ["Dropid"]= 521150002,
+  ["Id"]= 11506604,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "海带3",
+  ["NPCId"]= 11505003,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1150
+},
+[11506605] = {
+  ["Areaname"]= "Areaname10406014",
+  ["Dropid"]= 521150002,
+  ["Id"]= 11506605,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "海带4",
+  ["NPCId"]= 11505004,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1150
+},
+[11506606] = {
+  ["Areaname"]= "Areaname10406014",
+  ["Dropid"]= 521150002,
+  ["Id"]= 11506606,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "海带5",
+  ["NPCId"]= 11505005,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1150,
+  ["ShowMap"]= 1
+},
+[11506607] = {
+  ["Areaname"]= "Areaname10406014",
+  ["Dropid"]= 521150002,
+  ["Id"]= 11506607,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "海带6",
+  ["NPCId"]= 11505006,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1150
+},
+[11506608] = {
+  ["Areaname"]= "Areaname10406015",
+  ["Dropid"]= 521150003,
+  ["Id"]= 11506608,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "海藻1",
+  ["NPCId"]= 11505007,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1150
+},
+[11506609] = {
+  ["Areaname"]= "Areaname10406015",
+  ["Dropid"]= 521150003,
+  ["Id"]= 11506609,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "海藻2",
+  ["NPCId"]= 11505008,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1150,
+  ["ShowMap"]= 1
+},
+[11506610] = {
+  ["Areaname"]= "Areaname10406015",
+  ["Dropid"]= 521150003,
+  ["Id"]= 11506610,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "海藻3",
+  ["NPCId"]= 11505009,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1150
+},
+[11506611] = {
+  ["Areaname"]= "Areaname10406015",
+  ["Dropid"]= 521150003,
+  ["Id"]= 11506611,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "海藻4",
+  ["NPCId"]= 11505010,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1150
+},
+[11506612] = {
+  ["Areaname"]= "Areaname10406015",
+  ["Dropid"]= 521150003,
+  ["Id"]= 11506612,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "海藻5",
+  ["NPCId"]= 11505011,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1150,
+  ["ShowMap"]= 1
+},
+[11506613] = {
+  ["Areaname"]= "Areaname10406015",
+  ["Dropid"]= 521150003,
+  ["Id"]= 11506613,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "海藻6",
+  ["NPCId"]= 11505012,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1150
+},
+[11506614] = {
+  ["Areaname"]= "Areaname10406246",
+  ["Dropid"]= 521150005,
+  ["ExtraDrop"]= {
+    529999005,
+    509999004
+  },
+  ["Id"]= 11506614,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "迎汐花1",
+  ["NPCId"]= 11505013,
+  ["SceneId"]= 1150,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[11506615] = {
+  ["Areaname"]= "Areaname10406246",
+  ["Dropid"]= 521150005,
+  ["ExtraDrop"]= {
+    529999005,
+    509999004
+  },
+  ["Id"]= 11506615,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "迎汐花2",
+  ["NPCId"]= 11505014,
+  ["SceneId"]= 1150,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[11506616] = {
+  ["Areaname"]= "Areaname10406246",
+  ["Dropid"]= 521150005,
+  ["ExtraDrop"]= {
+    529999005,
+    509999004
+  },
+  ["Id"]= 11506616,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "迎汐花3",
+  ["NPCId"]= 11505015,
+  ["SceneId"]= 1150,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[11506617] = {
+  ["Areaname"]= "Areaname10406246",
+  ["Dropid"]= 521150005,
+  ["ExtraDrop"]= {
+    529999005,
+    509999004
+  },
+  ["Id"]= 11506617,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "迎汐花4",
+  ["NPCId"]= 11505016,
+  ["SceneId"]= 1150,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[11506618] = {
+  ["Areaname"]= "Areaname10406246",
+  ["Dropid"]= 521150005,
+  ["ExtraDrop"]= {
+    529999005,
+    509999004
+  },
+  ["Id"]= 11506618,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "迎汐花5",
+  ["NPCId"]= 11505017,
+  ["SceneId"]= 1150,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[11506619] = {
+  ["Areaname"]= "Areaname10406246",
+  ["Dropid"]= 521150005,
+  ["ExtraDrop"]= {
+    529999005,
+    509999004
+  },
+  ["Id"]= 11506619,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "迎汐花6",
+  ["NPCId"]= 11505018,
+  ["SceneId"]= 1150,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[11506620] = {
+  ["Areaname"]= "Areaname10406247",
+  ["Dropid"]= 521150006,
+  ["ExtraDrop"]= {
+    529999005,
+    509999004
+  },
+  ["Id"]= 11506620,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "海晶草1",
+  ["NPCId"]= 11505019,
+  ["SceneId"]= 1150,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[11506621] = {
+  ["Areaname"]= "Areaname10406247",
+  ["Dropid"]= 521150006,
+  ["ExtraDrop"]= {
+    529999005,
+    509999004
+  },
+  ["Id"]= 11506621,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "海晶草2",
+  ["NPCId"]= 11505020,
+  ["SceneId"]= 1150,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[11506622] = {
+  ["Areaname"]= "Areaname10406247",
+  ["Dropid"]= 521150006,
+  ["ExtraDrop"]= {
+    529999005,
+    509999004
+  },
+  ["Id"]= 11506622,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "海晶草3",
+  ["NPCId"]= 11505021,
+  ["SceneId"]= 1150,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[11506623] = {
+  ["Areaname"]= "Areaname10406247",
+  ["Dropid"]= 521150006,
+  ["ExtraDrop"]= {
+    529999005,
+    509999004
+  },
+  ["Id"]= 11506623,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "海晶草4",
+  ["NPCId"]= 11505022,
+  ["SceneId"]= 1150,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[11506624] = {
+  ["Areaname"]= "Areaname10406247",
+  ["Dropid"]= 521150006,
+  ["ExtraDrop"]= {
+    529999005,
+    509999004
+  },
+  ["Id"]= 11506624,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "海晶草5",
+  ["NPCId"]= 11505023,
+  ["SceneId"]= 1150,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[11506625] = {
+  ["Areaname"]= "Areaname10406247",
+  ["Dropid"]= 521150006,
+  ["ExtraDrop"]= {
+    529999005,
+    509999004
+  },
+  ["Id"]= 11506625,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "海晶草6",
+  ["NPCId"]= 11505024,
+  ["SceneId"]= 1150,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[11506626] = {
+  ["Areaname"]= "Areaname10406248",
+  ["Dropid"]= 521150007,
+  ["ExtraDrop"]= {
+    529999005,
+    509999004
+  },
+  ["Id"]= 11506626,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "晚萤叶1",
+  ["NPCId"]= 11505025,
+  ["SceneId"]= 1150,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[11506627] = {
+  ["Areaname"]= "Areaname10406248",
+  ["Dropid"]= 521150007,
+  ["ExtraDrop"]= {
+    529999005,
+    509999004
+  },
+  ["Id"]= 11506627,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "晚萤叶2",
+  ["NPCId"]= 11505026,
+  ["SceneId"]= 1150,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[11506628] = {
+  ["Areaname"]= "Areaname10406248",
+  ["Dropid"]= 521150007,
+  ["ExtraDrop"]= {
+    529999005,
+    509999004
+  },
+  ["Id"]= 11506628,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "晚萤叶3",
+  ["NPCId"]= 11505027,
+  ["SceneId"]= 1150,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[11506629] = {
+  ["Areaname"]= "Areaname10406248",
+  ["Dropid"]= 521150007,
+  ["ExtraDrop"]= {
+    529999005,
+    509999004
+  },
+  ["Id"]= 11506629,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "晚萤叶4",
+  ["NPCId"]= 11505028,
+  ["SceneId"]= 1150,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[11506630] = {
+  ["Areaname"]= "Areaname10406248",
+  ["Dropid"]= 521150007,
+  ["ExtraDrop"]= {
+    529999005,
+    509999004
+  },
+  ["Id"]= 11506630,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "晚萤叶5",
+  ["NPCId"]= 11505029,
+  ["SceneId"]= 1150,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[11506631] = {
+  ["Areaname"]= "Areaname10406248",
+  ["Dropid"]= 521150007,
+  ["ExtraDrop"]= {
+    529999005,
+    509999004
+  },
+  ["Id"]= 11506631,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "晚萤叶6",
+  ["NPCId"]= 11505030,
+  ["SceneId"]= 1150,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[11506632] = {
+  ["Areaname"]= "Areaname10406239",
+  ["Dropid"]= 521150004,
+  ["Id"]= 11506632,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "紫菜1",
+  ["NPCId"]= 11505031,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1150
+},
+[11506633] = {
+  ["Areaname"]= "Areaname10406239",
+  ["Dropid"]= 521150004,
+  ["Id"]= 11506633,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "紫菜2",
+  ["NPCId"]= 11505032,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1150,
+  ["ShowMap"]= 1
+},
+[11506634] = {
+  ["Areaname"]= "Areaname10406239",
+  ["Dropid"]= 521150004,
+  ["Id"]= 11506634,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "紫菜3",
+  ["NPCId"]= 11505033,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1150
+},
+[11506635] = {
+  ["Areaname"]= "Areaname10406239",
+  ["Dropid"]= 521150004,
+  ["Id"]= 11506635,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "紫菜4",
+  ["NPCId"]= 11505034,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1150
+},
+[11506636] = {
+  ["Areaname"]= "Areaname10406239",
+  ["Dropid"]= 521150004,
+  ["Id"]= 11506636,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "紫菜5",
+  ["NPCId"]= 11505035,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1150,
+  ["ShowMap"]= 1
+},
+[11506637] = {
+  ["Areaname"]= "Areaname10406239",
+  ["Dropid"]= 521150004,
+  ["Id"]= 11506637,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "紫菜6",
+  ["NPCId"]= 11505036,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1150
+},
+[11606601] = {
+  ["Areaname"]= "Areaname10406014",
+  ["Dropid"]= 521150002,
+  ["Id"]= 11606601,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "海带1",
+  ["NPCId"]= 11605001,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1160
+},
+[11606602] = {
+  ["Areaname"]= "Areaname10406014",
+  ["Dropid"]= 521150002,
+  ["Id"]= 11606602,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "海带2",
+  ["NPCId"]= 11605002,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1160,
+  ["ShowMap"]= 1
+},
+[11606603] = {
+  ["Areaname"]= "Areaname10406014",
+  ["Dropid"]= 521150002,
+  ["Id"]= 11606603,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "海带3",
+  ["NPCId"]= 11605003,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1160
+},
+[11606604] = {
+  ["Areaname"]= "Areaname10406014",
+  ["Dropid"]= 521150002,
+  ["Id"]= 11606604,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "海带4",
+  ["NPCId"]= 11605004,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1160
+},
+[11606605] = {
+  ["Areaname"]= "Areaname10406014",
+  ["Dropid"]= 521150002,
+  ["Id"]= 11606605,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "海带5",
+  ["NPCId"]= 11605005,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1160,
+  ["ShowMap"]= 1
+},
+[11606606] = {
+  ["Areaname"]= "Areaname10406014",
+  ["Dropid"]= 521150002,
+  ["Id"]= 11606606,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "海带6",
+  ["NPCId"]= 11605006,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1160
+},
+[11606607] = {
+  ["Areaname"]= "Areaname10406015",
+  ["Dropid"]= 521150003,
+  ["Id"]= 11606607,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "海藻1",
+  ["NPCId"]= 11605007,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1160
+},
+[11606608] = {
+  ["Areaname"]= "Areaname10406015",
+  ["Dropid"]= 521150003,
+  ["Id"]= 11606608,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "海藻2",
+  ["NPCId"]= 11605008,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1160,
+  ["ShowMap"]= 1
+},
+[11606609] = {
+  ["Areaname"]= "Areaname10406015",
+  ["Dropid"]= 521150003,
+  ["Id"]= 11606609,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "海藻3",
+  ["NPCId"]= 11605009,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1160
+},
+[11606610] = {
+  ["Areaname"]= "Areaname10406015",
+  ["Dropid"]= 521150003,
+  ["Id"]= 11606610,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "海藻4",
+  ["NPCId"]= 11605010,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1160
+},
+[11606611] = {
+  ["Areaname"]= "Areaname10406015",
+  ["Dropid"]= 521150003,
+  ["Id"]= 11606611,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "海藻5",
+  ["NPCId"]= 11605011,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1160,
+  ["ShowMap"]= 1
+},
+[11606612] = {
+  ["Areaname"]= "Areaname10406015",
+  ["Dropid"]= 521150003,
+  ["Id"]= 11606612,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "海藻6",
+  ["NPCId"]= 11605012,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1160
+},
+[11606613] = {
+  ["Areaname"]= "Areaname10406246",
+  ["Dropid"]= 521150005,
+  ["ExtraDrop"]= {
+    529999005,
+    509999004
+  },
+  ["Id"]= 11606613,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "迎汐花1",
+  ["NPCId"]= 11605013,
+  ["SceneId"]= 1160,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[11606614] = {
+  ["Areaname"]= "Areaname10406246",
+  ["Dropid"]= 521150005,
+  ["ExtraDrop"]= {
+    529999005,
+    509999004
+  },
+  ["Id"]= 11606614,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "迎汐花2",
+  ["NPCId"]= 11605014,
+  ["SceneId"]= 1160,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[11606615] = {
+  ["Areaname"]= "Areaname10406246",
+  ["Dropid"]= 521150005,
+  ["ExtraDrop"]= {
+    529999005,
+    509999004
+  },
+  ["Id"]= 11606615,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "迎汐花3",
+  ["NPCId"]= 11605015,
+  ["SceneId"]= 1160,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[11606616] = {
+  ["Areaname"]= "Areaname10406246",
+  ["Dropid"]= 521150005,
+  ["ExtraDrop"]= {
+    529999005,
+    509999004
+  },
+  ["Id"]= 11606616,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "迎汐花4",
+  ["NPCId"]= 11605016,
+  ["SceneId"]= 1160,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[11606617] = {
+  ["Areaname"]= "Areaname10406246",
+  ["Dropid"]= 521150005,
+  ["ExtraDrop"]= {
+    529999005,
+    509999004
+  },
+  ["Id"]= 11606617,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "迎汐花5",
+  ["NPCId"]= 11605017,
+  ["SceneId"]= 1160,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[11606618] = {
+  ["Areaname"]= "Areaname10406246",
+  ["Dropid"]= 521150005,
+  ["ExtraDrop"]= {
+    529999005,
+    509999004
+  },
+  ["Id"]= 11606618,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "迎汐花6",
+  ["NPCId"]= 11605018,
+  ["SceneId"]= 1160,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[11606619] = {
+  ["Areaname"]= "Areaname10406247",
+  ["Dropid"]= 521150006,
+  ["ExtraDrop"]= {
+    529999005,
+    509999004
+  },
+  ["Id"]= 11606619,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "海晶草1",
+  ["NPCId"]= 11605019,
+  ["SceneId"]= 1160,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[11606620] = {
+  ["Areaname"]= "Areaname10406247",
+  ["Dropid"]= 521150006,
+  ["ExtraDrop"]= {
+    529999005,
+    509999004
+  },
+  ["Id"]= 11606620,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "海晶草2",
+  ["NPCId"]= 11605020,
+  ["SceneId"]= 1160,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[11606621] = {
+  ["Areaname"]= "Areaname10406247",
+  ["Dropid"]= 521150006,
+  ["ExtraDrop"]= {
+    529999005,
+    509999004
+  },
+  ["Id"]= 11606621,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "海晶草3",
+  ["NPCId"]= 11605021,
+  ["SceneId"]= 1160,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[11606622] = {
+  ["Areaname"]= "Areaname10406247",
+  ["Dropid"]= 521150006,
+  ["ExtraDrop"]= {
+    529999005,
+    509999004
+  },
+  ["Id"]= 11606622,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "海晶草4",
+  ["NPCId"]= 11605022,
+  ["SceneId"]= 1160,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[11606623] = {
+  ["Areaname"]= "Areaname10406247",
+  ["Dropid"]= 521150006,
+  ["ExtraDrop"]= {
+    529999005,
+    509999004
+  },
+  ["Id"]= 11606623,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "海晶草5",
+  ["NPCId"]= 11605023,
+  ["SceneId"]= 1160,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[11606624] = {
+  ["Areaname"]= "Areaname10406247",
+  ["Dropid"]= 521150006,
+  ["ExtraDrop"]= {
+    529999005,
+    509999004
+  },
+  ["Id"]= 11606624,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "海晶草6",
+  ["NPCId"]= 11605024,
+  ["SceneId"]= 1160,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[11606625] = {
+  ["Areaname"]= "Areaname10406248",
+  ["Dropid"]= 521150007,
+  ["ExtraDrop"]= {
+    529999005,
+    509999004
+  },
+  ["Id"]= 11606625,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "晚萤叶1",
+  ["NPCId"]= 11605025,
+  ["SceneId"]= 1160,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[11606626] = {
+  ["Areaname"]= "Areaname10406248",
+  ["Dropid"]= 521150007,
+  ["ExtraDrop"]= {
+    529999005,
+    509999004
+  },
+  ["Id"]= 11606626,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "晚萤叶2",
+  ["NPCId"]= 11605026,
+  ["SceneId"]= 1160,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[11606627] = {
+  ["Areaname"]= "Areaname10406248",
+  ["Dropid"]= 521150007,
+  ["ExtraDrop"]= {
+    529999005,
+    509999004
+  },
+  ["Id"]= 11606627,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "晚萤叶3",
+  ["NPCId"]= 11605027,
+  ["SceneId"]= 1160,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[11606628] = {
+  ["Areaname"]= "Areaname10406248",
+  ["Dropid"]= 521150007,
+  ["ExtraDrop"]= {
+    529999005,
+    509999004
+  },
+  ["Id"]= 11606628,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "晚萤叶4",
+  ["NPCId"]= 11605028,
+  ["SceneId"]= 1160,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[11606629] = {
+  ["Areaname"]= "Areaname10406248",
+  ["Dropid"]= 521150007,
+  ["ExtraDrop"]= {
+    529999005,
+    509999004
+  },
+  ["Id"]= 11606629,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "晚萤叶5",
+  ["NPCId"]= 11605029,
+  ["SceneId"]= 1160,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[11606630] = {
+  ["Areaname"]= "Areaname10406248",
+  ["Dropid"]= 521150007,
+  ["ExtraDrop"]= {
+    529999005,
+    509999004
+  },
+  ["Id"]= 11606630,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "晚萤叶6",
+  ["NPCId"]= 11605030,
+  ["SceneId"]= 1160,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[11606631] = {
+  ["Areaname"]= "Areaname10406239",
+  ["Dropid"]= 521150004,
+  ["Id"]= 11606631,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "紫菜1",
+  ["NPCId"]= 11605031,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1160
+},
+[11606632] = {
+  ["Areaname"]= "Areaname10406239",
+  ["Dropid"]= 521150004,
+  ["Id"]= 11606632,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "紫菜2",
+  ["NPCId"]= 11605032,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1160,
+  ["ShowMap"]= 1
+},
+[11606633] = {
+  ["Areaname"]= "Areaname10406239",
+  ["Dropid"]= 521150004,
+  ["Id"]= 11606633,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "紫菜3",
+  ["NPCId"]= 11605033,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1160
+},
+[11606634] = {
+  ["Areaname"]= "Areaname10406239",
+  ["Dropid"]= 521150004,
+  ["Id"]= 11606634,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "紫菜4",
+  ["NPCId"]= 11605034,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1160
+},
+[11606635] = {
+  ["Areaname"]= "Areaname10406239",
+  ["Dropid"]= 521150004,
+  ["Id"]= 11606635,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "紫菜5",
+  ["NPCId"]= 11605035,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1160,
+  ["ShowMap"]= 1
+},
+[11606636] = {
+  ["Areaname"]= "Areaname10406239",
+  ["Dropid"]= 521150004,
+  ["Id"]= 11606636,
+  ["LifeLevelLimit"]= 5,
+  ["Name"]= "紫菜6",
+  ["NPCId"]= 11605036,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1160
+},
+[12206601] = {
+  ["ExtraDrop"]= {
+    529999002,
+    509999004
+  },
+  ["Id"]= 12206601,
+  ["LifeLevelLimit"]= 2,
+  ["NPCId"]= 12205001,
+  ["SceneId"]= 1220,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12206602] = {
+  ["ExtraDrop"]= {
+    529999002,
+    509999004
+  },
+  ["Id"]= 12206602,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "厚土叶2",
+  ["NPCId"]= 12205002,
+  ["SceneId"]= 1220,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12206603] = {
+  ["ExtraDrop"]= {
+    529999002,
+    509999004
+  },
+  ["Id"]= 12206603,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "厚土叶3",
+  ["NPCId"]= 12205003,
+  ["SceneId"]= 1220,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12206604] = {
+  ["ExtraDrop"]= {
+    529999002,
+    509999004
+  },
+  ["Id"]= 12206604,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "厚土叶4",
+  ["NPCId"]= 12205004,
+  ["SceneId"]= 1220,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12206605] = {
+  ["ExtraDrop"]= {
+    529999002,
+    509999004
+  },
+  ["Id"]= 12206605,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "厚土叶5",
+  ["NPCId"]= 12205005,
+  ["SceneId"]= 1220,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12206606] = {
+  ["ExtraDrop"]= {
+    529999002,
+    509999004
+  },
+  ["Id"]= 12206606,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "厚土叶6",
+  ["NPCId"]= 12205006,
+  ["SceneId"]= 1220,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12206607] = {
+  ["Areaname"]= "Areaname10406209",
+  ["Dropid"]= 521220004,
+  ["ExtraDrop"]= {
+    529999002,
+    509999004
+  },
+  ["Id"]= 12206607,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "微风兰1",
+  ["NPCId"]= 12205007,
+  ["SceneId"]= 1220,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12206608] = {
+  ["Areaname"]= "Areaname10406209",
+  ["Dropid"]= 521220004,
+  ["ExtraDrop"]= {
+    529999002,
+    509999004
+  },
+  ["Id"]= 12206608,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "微风兰2",
+  ["NPCId"]= 12205008,
+  ["SceneId"]= 1220,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12206609] = {
+  ["Areaname"]= "Areaname10406209",
+  ["Dropid"]= 521220004,
+  ["ExtraDrop"]= {
+    529999002,
+    509999004
+  },
+  ["Id"]= 12206609,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "微风兰3",
+  ["NPCId"]= 12205009,
+  ["SceneId"]= 1220,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12206610] = {
+  ["Areaname"]= "Areaname10406209",
+  ["Dropid"]= 521220004,
+  ["ExtraDrop"]= {
+    529999002,
+    509999004
+  },
+  ["Id"]= 12206610,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "微风兰4",
+  ["NPCId"]= 12205010,
+  ["SceneId"]= 1220,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12206611] = {
+  ["Areaname"]= "Areaname10406209",
+  ["Dropid"]= 521220004,
+  ["ExtraDrop"]= {
+    529999002,
+    509999004
+  },
+  ["Id"]= 12206611,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "微风兰5",
+  ["NPCId"]= 12205011,
+  ["SceneId"]= 1220,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12206612] = {
+  ["Areaname"]= "Areaname10406209",
+  ["Dropid"]= 521220004,
+  ["ExtraDrop"]= {
+    529999002,
+    509999004
+  },
+  ["Id"]= 12206612,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "微风兰6",
+  ["NPCId"]= 12205012,
+  ["SceneId"]= 1220,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12206613] = {
+  ["Areaname"]= "Areaname10406220",
+  ["Dropid"]= 521040002,
+  ["ExtraDrop"]= {
+    529999002,
+    509999004
+  },
+  ["Id"]= 12206613,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "灵气之花1",
+  ["NPCId"]= 12205013,
+  ["SceneId"]= 1220,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12206614] = {
+  ["Areaname"]= "Areaname10406220",
+  ["Dropid"]= 521040002,
+  ["ExtraDrop"]= {
+    529999002,
+    509999004
+  },
+  ["Id"]= 12206614,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "灵气之花2",
+  ["NPCId"]= 12205014,
+  ["SceneId"]= 1220,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12206615] = {
+  ["Areaname"]= "Areaname10406220",
+  ["Dropid"]= 521040002,
+  ["ExtraDrop"]= {
+    529999002,
+    509999004
+  },
+  ["Id"]= 12206615,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "灵气之花3",
+  ["NPCId"]= 12205015,
+  ["SceneId"]= 1220,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12206616] = {
+  ["Areaname"]= "Areaname10406220",
+  ["Dropid"]= 521040002,
+  ["ExtraDrop"]= {
+    529999002,
+    509999004
+  },
+  ["Id"]= 12206616,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "灵气之花4",
+  ["NPCId"]= 12205016,
+  ["SceneId"]= 1220,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12206617] = {
+  ["Areaname"]= "Areaname10406220",
+  ["Dropid"]= 521040002,
+  ["ExtraDrop"]= {
+    529999002,
+    509999004
+  },
+  ["Id"]= 12206617,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "灵气之花5",
+  ["NPCId"]= 12205017,
+  ["SceneId"]= 1220,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12206618] = {
+  ["Areaname"]= "Areaname10406220",
+  ["Dropid"]= 521040002,
+  ["ExtraDrop"]= {
+    529999002,
+    509999004
+  },
+  ["Id"]= 12206618,
+  ["LifeLevelLimit"]= 2,
+  ["Name"]= "灵气之花6",
+  ["NPCId"]= 12205018,
+  ["SceneId"]= 1220,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12206619] = {
+  ["Areaname"]= "Areaname10406231",
+  ["Dropid"]= 521130003,
+  ["ExtraDrop"]= {
+    529999001,
+    509999004
+  },
+  ["Id"]= 12206619,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "碎晶蘑菇1",
+  ["NPCId"]= 12205019,
+  ["SceneId"]= 1220,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12206620] = {
+  ["Areaname"]= "Areaname10406231",
+  ["Dropid"]= 521130003,
+  ["ExtraDrop"]= {
+    529999001,
+    509999004
+  },
+  ["Id"]= 12206620,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "碎晶蘑菇2",
+  ["NPCId"]= 12205020,
+  ["SceneId"]= 1220,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12206621] = {
+  ["Areaname"]= "Areaname10406231",
+  ["Dropid"]= 521130003,
+  ["ExtraDrop"]= {
+    529999001,
+    509999004
+  },
+  ["Id"]= 12206621,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "碎晶蘑菇3",
+  ["NPCId"]= 12205021,
+  ["SceneId"]= 1220,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12206622] = {
+  ["Areaname"]= "Areaname10406231",
+  ["Dropid"]= 521130003,
+  ["ExtraDrop"]= {
+    529999001,
+    509999004
+  },
+  ["Id"]= 12206622,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "碎晶蘑菇4",
+  ["NPCId"]= 12205022,
+  ["SceneId"]= 1220,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12206623] = {
+  ["Areaname"]= "Areaname10406231",
+  ["Dropid"]= 521130003,
+  ["ExtraDrop"]= {
+    529999001,
+    509999004
+  },
+  ["Id"]= 12206623,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "碎晶蘑菇5",
+  ["NPCId"]= 12205023,
+  ["SceneId"]= 1220,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12206624] = {
+  ["Areaname"]= "Areaname10406231",
+  ["Dropid"]= 521130003,
+  ["ExtraDrop"]= {
+    529999001,
+    509999004
+  },
+  ["Id"]= 12206624,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "碎晶蘑菇6",
+  ["NPCId"]= 12205024,
+  ["SceneId"]= 1220,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12206625] = {
+  ["Areaname"]= "Areaname10406210",
+  ["Dropid"]= 521220005,
+  ["ExtraDrop"]= {
+    529999001,
+    509999004
+  },
+  ["Id"]= 12206625,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "坚韧藤1",
+  ["NPCId"]= 12205025,
+  ["SceneId"]= 1220,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12206626] = {
+  ["Areaname"]= "Areaname10406210",
+  ["Dropid"]= 521220005,
+  ["ExtraDrop"]= {
+    529999001,
+    509999004
+  },
+  ["Id"]= 12206626,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "坚韧藤2",
+  ["NPCId"]= 12205026,
+  ["SceneId"]= 1220,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12206627] = {
+  ["Areaname"]= "Areaname10406210",
+  ["Dropid"]= 521220005,
+  ["ExtraDrop"]= {
+    529999001,
+    509999004
+  },
+  ["Id"]= 12206627,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "坚韧藤3",
+  ["NPCId"]= 12205027,
+  ["SceneId"]= 1220,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12206628] = {
+  ["Areaname"]= "Areaname10406210",
+  ["Dropid"]= 521220005,
+  ["ExtraDrop"]= {
+    529999001,
+    509999004
+  },
+  ["Id"]= 12206628,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "坚韧藤4",
+  ["NPCId"]= 12205028,
+  ["SceneId"]= 1220,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12206629] = {
+  ["Areaname"]= "Areaname10406210",
+  ["Dropid"]= 521220005,
+  ["ExtraDrop"]= {
+    529999001,
+    509999004
+  },
+  ["Id"]= 12206629,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "坚韧藤5",
+  ["NPCId"]= 12205029,
+  ["SceneId"]= 1220,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12206630] = {
+  ["Areaname"]= "Areaname10406210",
+  ["Dropid"]= 521220005,
+  ["ExtraDrop"]= {
+    529999001,
+    509999004
+  },
+  ["Id"]= 12206630,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "坚韧藤6",
+  ["NPCId"]= 12205030,
+  ["SceneId"]= 1220,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12206631] = {
+  ["Areaname"]= "Areaname10406232",
+  ["Dropid"]= 521150001,
+  ["ExtraDrop"]= {
+    529999001,
+    509999004
+  },
+  ["Id"]= 12206631,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "奥秘之花1",
+  ["NPCId"]= 12205031,
+  ["SceneId"]= 1220,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12206632] = {
+  ["Areaname"]= "Areaname10406232",
+  ["Dropid"]= 521150001,
+  ["ExtraDrop"]= {
+    529999001,
+    509999004
+  },
+  ["Id"]= 12206632,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "奥秘之花2",
+  ["NPCId"]= 12205032,
+  ["SceneId"]= 1220,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12206633] = {
+  ["Areaname"]= "Areaname10406232",
+  ["Dropid"]= 521150001,
+  ["ExtraDrop"]= {
+    529999001,
+    509999004
+  },
+  ["Id"]= 12206633,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "奥秘之花3",
+  ["NPCId"]= 12205033,
+  ["SceneId"]= 1220,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12206634] = {
+  ["Areaname"]= "Areaname10406232",
+  ["Dropid"]= 521150001,
+  ["ExtraDrop"]= {
+    529999001,
+    509999004
+  },
+  ["Id"]= 12206634,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "奥秘之花4",
+  ["NPCId"]= 12205034,
+  ["SceneId"]= 1220,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12206635] = {
+  ["Areaname"]= "Areaname10406232",
+  ["Dropid"]= 521150001,
+  ["ExtraDrop"]= {
+    529999001,
+    509999004
+  },
+  ["Id"]= 12206635,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "奥秘之花5",
+  ["NPCId"]= 12205035,
+  ["SceneId"]= 1220,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12206636] = {
+  ["Areaname"]= "Areaname10406232",
+  ["Dropid"]= 521150001,
+  ["ExtraDrop"]= {
+    529999001,
+    509999004
+  },
+  ["Id"]= 12206636,
+  ["LifeLevelLimit"]= 1,
+  ["Name"]= "奥秘之花6",
+  ["NPCId"]= 12205036,
+  ["SceneId"]= 1220,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12306601] = {
+  ["Areaname"]= "Areaname10201017",
+  ["Dropid"]= 521220001,
+  ["Id"]= 12306601,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "白色药草1",
+  ["NPCId"]= 12305001,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1230
+},
+[12306602] = {
+  ["Areaname"]= "Areaname10201017",
+  ["Dropid"]= 521220001,
+  ["Id"]= 12306602,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "白色药草2",
+  ["NPCId"]= 12305002,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1230,
+  ["ShowMap"]= 1
+},
+[12306603] = {
+  ["Areaname"]= "Areaname10201017",
+  ["Dropid"]= 521220001,
+  ["Id"]= 12306603,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "白色药草3",
+  ["NPCId"]= 12305003,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1230
+},
+[12306604] = {
+  ["Areaname"]= "Areaname10201017",
+  ["Dropid"]= 521220001,
+  ["Id"]= 12306604,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "白色药草4",
+  ["NPCId"]= 12305004,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1230
+},
+[12306605] = {
+  ["Areaname"]= "Areaname10201017",
+  ["Dropid"]= 521220001,
+  ["Id"]= 12306605,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "白色药草5",
+  ["NPCId"]= 12305005,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1230,
+  ["ShowMap"]= 1
+},
+[12306606] = {
+  ["Areaname"]= "Areaname10201017",
+  ["Dropid"]= 521220001,
+  ["Id"]= 12306606,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "白色药草6",
+  ["NPCId"]= 12305006,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1230
+},
+[12306607] = {
+  ["Areaname"]= "Areaname10406222",
+  ["Dropid"]= 521430001,
+  ["Id"]= 12306607,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "茶树1",
+  ["NPCId"]= 12305007,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1230
+},
+[12306608] = {
+  ["Areaname"]= "Areaname10406222",
+  ["Dropid"]= 521430001,
+  ["Id"]= 12306608,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "茶树2",
+  ["NPCId"]= 12305008,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1230,
+  ["ShowMap"]= 1
+},
+[12306609] = {
+  ["Areaname"]= "Areaname10406222",
+  ["Dropid"]= 521430001,
+  ["Id"]= 12306609,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "茶树3",
+  ["NPCId"]= 12305009,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1230
+},
+[12306610] = {
+  ["Areaname"]= "Areaname10406222",
+  ["Dropid"]= 521430001,
+  ["Id"]= 12306610,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "茶树4",
+  ["NPCId"]= 12305010,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1230
+},
+[12306611] = {
+  ["Areaname"]= "Areaname10406222",
+  ["Dropid"]= 521430001,
+  ["Id"]= 12306611,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "茶树5",
+  ["NPCId"]= 12305011,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1230,
+  ["ShowMap"]= 1
+},
+[12306612] = {
+  ["Areaname"]= "Areaname10406222",
+  ["Dropid"]= 521430001,
+  ["Id"]= 12306612,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "茶树6",
+  ["NPCId"]= 12305012,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1230
+},
+[12306613] = {
+  ["Areaname"]= "Areaname10406206",
+  ["Dropid"]= 521030003,
+  ["ExtraDrop"]= {
+    529999007,
+    509999005
+  },
+  ["Id"]= 12306613,
+  ["Name"]= "水生芦1",
+  ["NPCId"]= 12305013,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1230
+},
+[12306614] = {
+  ["Areaname"]= "Areaname10406206",
+  ["Dropid"]= 521030003,
+  ["ExtraDrop"]= {
+    529999007,
+    509999005
+  },
+  ["Id"]= 12306614,
+  ["Name"]= "水生芦2",
+  ["NPCId"]= 12305014,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1230,
+  ["ShowMap"]= 1
+},
+[12306615] = {
+  ["Areaname"]= "Areaname10406206",
+  ["Dropid"]= 521030003,
+  ["ExtraDrop"]= {
+    529999007,
+    509999005
+  },
+  ["Id"]= 12306615,
+  ["Name"]= "水生芦3",
+  ["NPCId"]= 12305015,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1230
+},
+[12306616] = {
+  ["Areaname"]= "Areaname10406206",
+  ["Dropid"]= 521030003,
+  ["ExtraDrop"]= {
+    529999007,
+    509999005
+  },
+  ["Id"]= 12306616,
+  ["Name"]= "水生芦4",
+  ["NPCId"]= 12305016,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1230
+},
+[12306617] = {
+  ["Areaname"]= "Areaname10406206",
+  ["Dropid"]= 521030003,
+  ["ExtraDrop"]= {
+    529999007,
+    509999005
+  },
+  ["Id"]= 12306617,
+  ["Name"]= "水生芦5",
+  ["NPCId"]= 12305017,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1230,
+  ["ShowMap"]= 1
+},
+[12306618] = {
+  ["Areaname"]= "Areaname10406206",
+  ["Dropid"]= 521030003,
+  ["ExtraDrop"]= {
+    529999007,
+    509999005
+  },
+  ["Id"]= 12306618,
+  ["Name"]= "水生芦6",
+  ["NPCId"]= 12305018,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1230
+},
+[12306619] = {
+  ["Areaname"]= "Areaname10406216",
+  ["Dropid"]= 521310003,
+  ["ExtraDrop"]= {
+    529999007,
+    509999005
+  },
+  ["Id"]= 12306619,
+  ["Name"]= "灯笼草1",
+  ["NPCId"]= 12305019,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1230
+},
+[12306620] = {
+  ["Areaname"]= "Areaname10406216",
+  ["Dropid"]= 521310003,
+  ["ExtraDrop"]= {
+    529999007,
+    509999005
+  },
+  ["Id"]= 12306620,
+  ["Name"]= "灯笼草2",
+  ["NPCId"]= 12305020,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1230,
+  ["ShowMap"]= 1
+},
+[12306621] = {
+  ["Areaname"]= "Areaname10406216",
+  ["Dropid"]= 521310003,
+  ["ExtraDrop"]= {
+    529999007,
+    509999005
+  },
+  ["Id"]= 12306621,
+  ["Name"]= "灯笼草3",
+  ["NPCId"]= 12305021,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1230
+},
+[12306622] = {
+  ["Areaname"]= "Areaname10406216",
+  ["Dropid"]= 521310003,
+  ["ExtraDrop"]= {
+    529999007,
+    509999005
+  },
+  ["Id"]= 12306622,
+  ["Name"]= "灯笼草4",
+  ["NPCId"]= 12305022,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1230
+},
+[12306623] = {
+  ["Areaname"]= "Areaname10406216",
+  ["Dropid"]= 521310003,
+  ["ExtraDrop"]= {
+    529999007,
+    509999005
+  },
+  ["Id"]= 12306623,
+  ["Name"]= "灯笼草5",
+  ["NPCId"]= 12305023,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1230,
+  ["ShowMap"]= 1
+},
+[12306624] = {
+  ["Areaname"]= "Areaname10406216",
+  ["Dropid"]= 521310003,
+  ["ExtraDrop"]= {
+    529999007,
+    509999005
+  },
+  ["Id"]= 12306624,
+  ["Name"]= "灯笼草6",
+  ["NPCId"]= 12305024,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1230
+},
+[12406601] = {
+  ["Areaname"]= "Areaname10201017",
+  ["Dropid"]= 521220001,
+  ["Id"]= 12406601,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "白色药草1",
+  ["NPCId"]= 12405001,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1240
+},
+[12406602] = {
+  ["Areaname"]= "Areaname10201017",
+  ["Dropid"]= 521220001,
+  ["Id"]= 12406602,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "白色药草2",
+  ["NPCId"]= 12405002,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1240,
+  ["ShowMap"]= 1
+},
+[12406603] = {
+  ["Areaname"]= "Areaname10201017",
+  ["Dropid"]= 521220001,
+  ["Id"]= 12406603,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "白色药草3",
+  ["NPCId"]= 12405003,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1240
+},
+[12406604] = {
+  ["Areaname"]= "Areaname10201017",
+  ["Dropid"]= 521220001,
+  ["Id"]= 12406604,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "白色药草4",
+  ["NPCId"]= 12405004,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1240
+},
+[12406605] = {
+  ["Areaname"]= "Areaname10201017",
+  ["Dropid"]= 521220001,
+  ["Id"]= 12406605,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "白色药草5",
+  ["NPCId"]= 12405005,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1240,
+  ["ShowMap"]= 1
+},
+[12406606] = {
+  ["Areaname"]= "Areaname10201017",
+  ["Dropid"]= 521220001,
+  ["Id"]= 12406606,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "白色药草6",
+  ["NPCId"]= 12405006,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1240
+},
+[12406607] = {
+  ["Areaname"]= "Areaname10406224",
+  ["Dropid"]= 521040004,
+  ["Id"]= 12406607,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "薰衣草1",
+  ["NPCId"]= 12405007,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1240
+},
+[12406608] = {
+  ["Areaname"]= "Areaname10406224",
+  ["Dropid"]= 521040004,
+  ["Id"]= 12406608,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "薰衣草2",
+  ["NPCId"]= 12405008,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1240,
+  ["ShowMap"]= 1
+},
+[12406609] = {
+  ["Areaname"]= "Areaname10406224",
+  ["Dropid"]= 521040004,
+  ["Id"]= 12406609,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "薰衣草3",
+  ["NPCId"]= 12405009,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1240
+},
+[12406610] = {
+  ["Areaname"]= "Areaname10406224",
+  ["Dropid"]= 521040004,
+  ["Id"]= 12406610,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "薰衣草4",
+  ["NPCId"]= 12405010,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1240
+},
+[12406611] = {
+  ["Areaname"]= "Areaname10406224",
+  ["Dropid"]= 521040004,
+  ["Id"]= 12406611,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "薰衣草5",
+  ["NPCId"]= 12405011,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1240,
+  ["ShowMap"]= 1
+},
+[12406612] = {
+  ["Areaname"]= "Areaname10406224",
+  ["Dropid"]= 521040004,
+  ["Id"]= 12406612,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "薰衣草6",
+  ["NPCId"]= 12405012,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1240
+},
+[12406613] = {
+  ["Areaname"]= "Areaname10406207",
+  ["Dropid"]= 521030002,
+  ["ExtraDrop"]= {
+    529999007,
+    509999005
+  },
+  ["Id"]= 12406613,
+  ["Name"]= "哀唱草1",
+  ["NPCId"]= 12405013,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1240
+},
+[12406614] = {
+  ["Areaname"]= "Areaname10406207",
+  ["Dropid"]= 521030002,
+  ["ExtraDrop"]= {
+    529999007,
+    509999005
+  },
+  ["Id"]= 12406614,
+  ["Name"]= "哀唱草2",
+  ["NPCId"]= 12405014,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1240,
+  ["ShowMap"]= 1
+},
+[12406615] = {
+  ["Areaname"]= "Areaname10406207",
+  ["Dropid"]= 521030002,
+  ["ExtraDrop"]= {
+    529999007,
+    509999005
+  },
+  ["Id"]= 12406615,
+  ["Name"]= "哀唱草3",
+  ["NPCId"]= 12405015,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1240
+},
+[12406616] = {
+  ["Areaname"]= "Areaname10406207",
+  ["Dropid"]= 521030002,
+  ["ExtraDrop"]= {
+    529999007,
+    509999005
+  },
+  ["Id"]= 12406616,
+  ["Name"]= "哀唱草4",
+  ["NPCId"]= 12405016,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1240
+},
+[12406617] = {
+  ["Areaname"]= "Areaname10406207",
+  ["Dropid"]= 521030002,
+  ["ExtraDrop"]= {
+    529999007,
+    509999005
+  },
+  ["Id"]= 12406617,
+  ["Name"]= "哀唱草5",
+  ["NPCId"]= 12405017,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1240,
+  ["ShowMap"]= 1
+},
+[12406618] = {
+  ["Areaname"]= "Areaname10406207",
+  ["Dropid"]= 521030002,
+  ["ExtraDrop"]= {
+    529999007,
+    509999005
+  },
+  ["Id"]= 12406618,
+  ["Name"]= "哀唱草6",
+  ["NPCId"]= 12405018,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1240
+},
+[12406619] = {
+  ["Areaname"]= "Areaname10406206",
+  ["Dropid"]= 521030003,
+  ["ExtraDrop"]= {
+    529999007,
+    509999005
+  },
+  ["Id"]= 12406619,
+  ["Name"]= "水生芦1",
+  ["NPCId"]= 12405019,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1240
+},
+[12406620] = {
+  ["Areaname"]= "Areaname10406206",
+  ["Dropid"]= 521030003,
+  ["ExtraDrop"]= {
+    529999007,
+    509999005
+  },
+  ["Id"]= 12406620,
+  ["Name"]= "水生芦2",
+  ["NPCId"]= 12405020,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1240,
+  ["ShowMap"]= 1
+},
+[12406621] = {
+  ["Areaname"]= "Areaname10406206",
+  ["Dropid"]= 521030003,
+  ["ExtraDrop"]= {
+    529999007,
+    509999005
+  },
+  ["Id"]= 12406621,
+  ["Name"]= "水生芦3",
+  ["NPCId"]= 12405021,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1240
+},
+[12406622] = {
+  ["Areaname"]= "Areaname10406206",
+  ["Dropid"]= 521030003,
+  ["ExtraDrop"]= {
+    529999007,
+    509999005
+  },
+  ["Id"]= 12406622,
+  ["Name"]= "水生芦4",
+  ["NPCId"]= 12405022,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1240
+},
+[12406623] = {
+  ["Areaname"]= "Areaname10406206",
+  ["Dropid"]= 521030003,
+  ["ExtraDrop"]= {
+    529999007,
+    509999005
+  },
+  ["Id"]= 12406623,
+  ["Name"]= "水生芦5",
+  ["NPCId"]= 12405023,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1240,
+  ["ShowMap"]= 1
+},
+[12406624] = {
+  ["Areaname"]= "Areaname10406206",
+  ["Dropid"]= 521030003,
+  ["ExtraDrop"]= {
+    529999007,
+    509999005
+  },
+  ["Id"]= 12406624,
+  ["Name"]= "水生芦6",
+  ["NPCId"]= 12405024,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1240
+},
+[12506601] = {
+  ["Areaname"]= "Areaname10406222",
+  ["Dropid"]= 521430001,
+  ["Id"]= 12506601,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "茶树1",
+  ["NPCId"]= 12505001,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1250
+},
+[12506602] = {
+  ["Areaname"]= "Areaname10406222",
+  ["Dropid"]= 521430001,
+  ["Id"]= 12506602,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "茶树2",
+  ["NPCId"]= 12505002,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1250,
+  ["ShowMap"]= 1
+},
+[12506603] = {
+  ["Areaname"]= "Areaname10406222",
+  ["Dropid"]= 521430001,
+  ["Id"]= 12506603,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "茶树3",
+  ["NPCId"]= 12505003,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1250
+},
+[12506604] = {
+  ["Areaname"]= "Areaname10406222",
+  ["Dropid"]= 521430001,
+  ["Id"]= 12506604,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "茶树4",
+  ["NPCId"]= 12505004,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1250
+},
+[12506605] = {
+  ["Areaname"]= "Areaname10406222",
+  ["Dropid"]= 521430001,
+  ["Id"]= 12506605,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "茶树5",
+  ["NPCId"]= 12505005,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1250,
+  ["ShowMap"]= 1
+},
+[12506606] = {
+  ["Areaname"]= "Areaname10406222",
+  ["Dropid"]= 521430001,
+  ["Id"]= 12506606,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "茶树6",
+  ["NPCId"]= 12505006,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1250
+},
+[12506607] = {
+  ["Areaname"]= "Areaname10406224",
+  ["Dropid"]= 521040004,
+  ["Id"]= 12506607,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "薰衣草1",
+  ["NPCId"]= 12505007,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1250
+},
+[12506608] = {
+  ["Areaname"]= "Areaname10406224",
+  ["Dropid"]= 521040004,
+  ["Id"]= 12506608,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "薰衣草2",
+  ["NPCId"]= 12505008,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1250,
+  ["ShowMap"]= 1
+},
+[12506609] = {
+  ["Areaname"]= "Areaname10406224",
+  ["Dropid"]= 521040004,
+  ["Id"]= 12506609,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "薰衣草3",
+  ["NPCId"]= 12505009,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1250
+},
+[12506610] = {
+  ["Areaname"]= "Areaname10406224",
+  ["Dropid"]= 521040004,
+  ["Id"]= 12506610,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "薰衣草4",
+  ["NPCId"]= 12505010,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1250
+},
+[12506611] = {
+  ["Areaname"]= "Areaname10406224",
+  ["Dropid"]= 521040004,
+  ["Id"]= 12506611,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "薰衣草5",
+  ["NPCId"]= 12505011,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1250,
+  ["ShowMap"]= 1
+},
+[12506612] = {
+  ["Areaname"]= "Areaname10406224",
+  ["Dropid"]= 521040004,
+  ["Id"]= 12506612,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "薰衣草6",
+  ["NPCId"]= 12505012,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1250
+},
+[12506613] = {
+  ["Areaname"]= "Areaname10406207",
+  ["Dropid"]= 521030002,
+  ["ExtraDrop"]= {
+    529999007,
+    509999005
+  },
+  ["Id"]= 12506613,
+  ["Name"]= "哀唱草1",
+  ["NPCId"]= 12505013,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1250
+},
+[12506614] = {
+  ["Areaname"]= "Areaname10406207",
+  ["Dropid"]= 521030002,
+  ["ExtraDrop"]= {
+    529999007,
+    509999005
+  },
+  ["Id"]= 12506614,
+  ["Name"]= "哀唱草2",
+  ["NPCId"]= 12505014,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1250,
+  ["ShowMap"]= 1
+},
+[12506615] = {
+  ["Areaname"]= "Areaname10406207",
+  ["Dropid"]= 521030002,
+  ["ExtraDrop"]= {
+    529999007,
+    509999005
+  },
+  ["Id"]= 12506615,
+  ["Name"]= "哀唱草3",
+  ["NPCId"]= 12505015,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1250
+},
+[12506616] = {
+  ["Areaname"]= "Areaname10406207",
+  ["Dropid"]= 521030002,
+  ["ExtraDrop"]= {
+    529999007,
+    509999005
+  },
+  ["Id"]= 12506616,
+  ["Name"]= "哀唱草4",
+  ["NPCId"]= 12505016,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1250
+},
+[12506617] = {
+  ["Areaname"]= "Areaname10406207",
+  ["Dropid"]= 521030002,
+  ["ExtraDrop"]= {
+    529999007,
+    509999005
+  },
+  ["Id"]= 12506617,
+  ["Name"]= "哀唱草5",
+  ["NPCId"]= 12505017,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1250,
+  ["ShowMap"]= 1
+},
+[12506618] = {
+  ["Areaname"]= "Areaname10406207",
+  ["Dropid"]= 521030002,
+  ["ExtraDrop"]= {
+    529999007,
+    509999005
+  },
+  ["Id"]= 12506618,
+  ["Name"]= "哀唱草6",
+  ["NPCId"]= 12505018,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1250
+},
+[12506619] = {
+  ["Areaname"]= "Areaname10406216",
+  ["Dropid"]= 521310003,
+  ["ExtraDrop"]= {
+    529999007,
+    509999005
+  },
+  ["Id"]= 12506619,
+  ["Name"]= "灯笼草1",
+  ["NPCId"]= 12505019,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1250
+},
+[12506620] = {
+  ["Areaname"]= "Areaname10406216",
+  ["Dropid"]= 521310003,
+  ["ExtraDrop"]= {
+    529999007,
+    509999005
+  },
+  ["Id"]= 12506620,
+  ["Name"]= "灯笼草2",
+  ["NPCId"]= 12505020,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1250,
+  ["ShowMap"]= 1
+},
+[12506621] = {
+  ["Areaname"]= "Areaname10406216",
+  ["Dropid"]= 521310003,
+  ["ExtraDrop"]= {
+    529999007,
+    509999005
+  },
+  ["Id"]= 12506621,
+  ["Name"]= "灯笼草3",
+  ["NPCId"]= 12505021,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1250
+},
+[12506622] = {
+  ["Areaname"]= "Areaname10406216",
+  ["Dropid"]= 521310003,
+  ["ExtraDrop"]= {
+    529999007,
+    509999005
+  },
+  ["Id"]= 12506622,
+  ["Name"]= "灯笼草4",
+  ["NPCId"]= 12505022,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1250
+},
+[12506623] = {
+  ["Areaname"]= "Areaname10406216",
+  ["Dropid"]= 521310003,
+  ["ExtraDrop"]= {
+    529999007,
+    509999005
+  },
+  ["Id"]= 12506623,
+  ["Name"]= "灯笼草5",
+  ["NPCId"]= 12505023,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1250,
+  ["ShowMap"]= 1
+},
+[12506624] = {
+  ["Areaname"]= "Areaname10406216",
+  ["Dropid"]= 521310003,
+  ["ExtraDrop"]= {
+    529999007,
+    509999005
+  },
+  ["Id"]= 12506624,
+  ["Name"]= "灯笼草6",
+  ["NPCId"]= 12505024,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1250
+},
+[12606601] = {
+  ["Areaname"]= "Areaname10406225",
+  ["Dropid"]= 521230001,
+  ["ExtraDrop"]= {
+    529999008,
+    509999004
+  },
+  ["Id"]= 12606601,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "月光花1",
+  ["NPCId"]= 12605001,
+  ["SceneId"]= 1260,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12606602] = {
+  ["Areaname"]= "Areaname10406225",
+  ["Dropid"]= 521230001,
+  ["ExtraDrop"]= {
+    529999008,
+    509999004
+  },
+  ["Id"]= 12606602,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "月光花2",
+  ["NPCId"]= 12605002,
+  ["SceneId"]= 1260,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12606603] = {
+  ["Areaname"]= "Areaname10406225",
+  ["Dropid"]= 521230001,
+  ["ExtraDrop"]= {
+    529999008,
+    509999004
+  },
+  ["Id"]= 12606603,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "月光花3",
+  ["NPCId"]= 12605003,
+  ["SceneId"]= 1260,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12606604] = {
+  ["Areaname"]= "Areaname10406225",
+  ["Dropid"]= 521230001,
+  ["ExtraDrop"]= {
+    529999008,
+    509999004
+  },
+  ["Id"]= 12606604,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "月光花4",
+  ["NPCId"]= 12605004,
+  ["SceneId"]= 1260,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12606605] = {
+  ["Areaname"]= "Areaname10406225",
+  ["Dropid"]= 521230001,
+  ["ExtraDrop"]= {
+    529999008,
+    509999004
+  },
+  ["Id"]= 12606605,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "月光花5",
+  ["NPCId"]= 12605005,
+  ["SceneId"]= 1260,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12606606] = {
+  ["Areaname"]= "Areaname10406225",
+  ["Dropid"]= 521230001,
+  ["ExtraDrop"]= {
+    529999008,
+    509999004
+  },
+  ["Id"]= 12606606,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "月光花6",
+  ["NPCId"]= 12605006,
+  ["SceneId"]= 1260,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12606607] = {
+  ["Areaname"]= "Areaname10406234",
+  ["Dropid"]= 521240001,
+  ["ExtraDrop"]= {
+    529999008,
+    509999004
+  },
+  ["Id"]= 12606607,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "默祷花1",
+  ["NPCId"]= 12605007,
+  ["SceneId"]= 1260,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12606608] = {
+  ["Areaname"]= "Areaname10406234",
+  ["Dropid"]= 521240001,
+  ["ExtraDrop"]= {
+    529999008,
+    509999004
+  },
+  ["Id"]= 12606608,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "默祷花2",
+  ["NPCId"]= 12605008,
+  ["SceneId"]= 1260,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12606609] = {
+  ["Areaname"]= "Areaname10406234",
+  ["Dropid"]= 521240001,
+  ["ExtraDrop"]= {
+    529999008,
+    509999004
+  },
+  ["Id"]= 12606609,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "默祷花3",
+  ["NPCId"]= 12605009,
+  ["SceneId"]= 1260,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12606610] = {
+  ["Areaname"]= "Areaname10406234",
+  ["Dropid"]= 521240001,
+  ["ExtraDrop"]= {
+    529999008,
+    509999004
+  },
+  ["Id"]= 12606610,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "默祷花4",
+  ["NPCId"]= 12605010,
+  ["SceneId"]= 1260,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12606611] = {
+  ["Areaname"]= "Areaname10406234",
+  ["Dropid"]= 521240001,
+  ["ExtraDrop"]= {
+    529999008,
+    509999004
+  },
+  ["Id"]= 12606611,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "默祷花5",
+  ["NPCId"]= 12605011,
+  ["SceneId"]= 1260,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12606612] = {
+  ["Areaname"]= "Areaname10406234",
+  ["Dropid"]= 521240001,
+  ["ExtraDrop"]= {
+    529999008,
+    509999004
+  },
+  ["Id"]= 12606612,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "默祷花6",
+  ["NPCId"]= 12605012,
+  ["SceneId"]= 1260,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12706601] = {
+  ["Areaname"]= "Areaname10406234",
+  ["Dropid"]= 521240001,
+  ["ExtraDrop"]= {
+    529999008,
+    509999004
+  },
+  ["Id"]= 12706601,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "默祷花1",
+  ["NPCId"]= 12705001,
+  ["SceneId"]= 1270,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12706602] = {
+  ["Areaname"]= "Areaname10406234",
+  ["Dropid"]= 521240001,
+  ["ExtraDrop"]= {
+    529999008,
+    509999004
+  },
+  ["Id"]= 12706602,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "默祷花2",
+  ["NPCId"]= 12705002,
+  ["SceneId"]= 1270,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12706603] = {
+  ["Areaname"]= "Areaname10406234",
+  ["Dropid"]= 521240001,
+  ["ExtraDrop"]= {
+    529999008,
+    509999004
+  },
+  ["Id"]= 12706603,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "默祷花3",
+  ["NPCId"]= 12705003,
+  ["SceneId"]= 1270,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12706604] = {
+  ["Areaname"]= "Areaname10406234",
+  ["Dropid"]= 521240001,
+  ["ExtraDrop"]= {
+    529999008,
+    509999004
+  },
+  ["Id"]= 12706604,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "默祷花4",
+  ["NPCId"]= 12705004,
+  ["SceneId"]= 1270,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12706605] = {
+  ["Areaname"]= "Areaname10406234",
+  ["Dropid"]= 521240001,
+  ["ExtraDrop"]= {
+    529999008,
+    509999004
+  },
+  ["Id"]= 12706605,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "默祷花5",
+  ["NPCId"]= 12705005,
+  ["SceneId"]= 1270,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12706606] = {
+  ["Areaname"]= "Areaname10406234",
+  ["Dropid"]= 521240001,
+  ["ExtraDrop"]= {
+    529999008,
+    509999004
+  },
+  ["Id"]= 12706606,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "默祷花6",
+  ["NPCId"]= 12705006,
+  ["SceneId"]= 1270,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12706607] = {
+  ["Areaname"]= "Areaname10406235",
+  ["Dropid"]= 521230002,
+  ["ExtraDrop"]= {
+    529999008,
+    509999004
+  },
+  ["Id"]= 12706607,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "青晶蔷薇1",
+  ["NPCId"]= 12705007,
+  ["SceneId"]= 1270,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12706608] = {
+  ["Areaname"]= "Areaname10406235",
+  ["Dropid"]= 521230002,
+  ["ExtraDrop"]= {
+    529999008,
+    509999004
+  },
+  ["Id"]= 12706608,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "青晶蔷薇2",
+  ["NPCId"]= 12705008,
+  ["SceneId"]= 1270,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12706609] = {
+  ["Areaname"]= "Areaname10406235",
+  ["Dropid"]= 521230002,
+  ["ExtraDrop"]= {
+    529999008,
+    509999004
+  },
+  ["Id"]= 12706609,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "青晶蔷薇3",
+  ["NPCId"]= 12705009,
+  ["SceneId"]= 1270,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12706610] = {
+  ["Areaname"]= "Areaname10406235",
+  ["Dropid"]= 521230002,
+  ["ExtraDrop"]= {
+    529999008,
+    509999004
+  },
+  ["Id"]= 12706610,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "青晶蔷薇4",
+  ["NPCId"]= 12705010,
+  ["SceneId"]= 1270,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12706611] = {
+  ["Areaname"]= "Areaname10406235",
+  ["Dropid"]= 521230002,
+  ["ExtraDrop"]= {
+    529999008,
+    509999004
+  },
+  ["Id"]= 12706611,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "青晶蔷薇5",
+  ["NPCId"]= 12705011,
+  ["SceneId"]= 1270,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12706612] = {
+  ["Areaname"]= "Areaname10406235",
+  ["Dropid"]= 521230002,
+  ["ExtraDrop"]= {
+    529999008,
+    509999004
+  },
+  ["Id"]= 12706612,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "青晶蔷薇6",
+  ["NPCId"]= 12705012,
+  ["SceneId"]= 1270,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12706613] = {
+  ["Areaname"]= "Areaname12706613",
+  ["BaitCriticalEnergy"]= {
+    0,
+    0,
+    0
+  },
+  ["BaitCriticalNum"]= {
+    0,
+    0,
+    0
+  },
+  ["BaitCriticalRate"]= {
+    0,
+    0,
+    0
+  },
+  ["BaitDropId"]= {
+    501270002,
+    501270003,
+    501270004
+  },
+  ["BaitId"]= {
+    10413069,
+    10413070,
+    10413123
+  },
+  ["ButtonName"]= "",
+  ["Dropid"]= 501270001,
+  ["ExtraDrop"]= {
+    509999001
+  },
+  ["FishEnergy"]= 10,
+  ["FishExp"]= 10,
+  ["FishingFace"]= {
+    ["PX"]= 125,
+    ["PY"]= 30,
+    ["PZ"]= 153
+  },
+  ["GetFishCD"]= 10,
+  ["Id"]= 12706613,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "兽人地下洞窟钓鱼",
+  ["PickCD"]= 0,
+  ["PickEnergy"]= 0,
+  ["PickExp"]= 0,
+  ["RefreshNum"]= 0,
+  ["SceneId"]= 1270,
+  ["ShowMap"]= 1,
+  ["SingleRefreshNum"]= 0,
+  ["Time"]= {},
+  ["Type"]= 1
+},
+[12816601] = {
+  ["Areaname"]= "Areaname12816601",
+  ["ButtonName"]= "",
+  ["Dropid"]= 0,
+  ["ExtraDrop"]= {
+    509999002
+  },
+  ["GetMineCD"]= {
+    7
+  },
+  ["Id"]= 12816601,
+  ["LifeLevelLimit"]= 1,
+  ["MineLevelEnergy"]= {
+    2
+  },
+  ["MineLevelLimit"]= {
+    1
+  },
+  ["MineLevelLimitDropId"]= {
+    511281001
+  },
+  ["MineStartTips"]= "MineStartTips_12816601",
+  ["MineTool"]= {
+    10207002,
+    10207004
+  },
+  ["MineToolTips"]= "LifeSkill_099",
+  ["Name"]= "矿脉Lv.1",
+  ["NPCId"]= 12815001,
+  ["PickCD"]= 0,
+  ["PickEnergy"]= 0,
+  ["PickExp"]= 0,
+  ["RefreshNum"]= 0,
+  ["RichMineEnergy"]= {
+    0
+  },
+  ["SceneId"]= 1281,
+  ["ShowMap"]= 1,
+  ["SingleRefreshNum"]= 0,
+  ["Time"]= {},
+  ["Type"]= 2
+},
+[12816602] = {
+  ["Areaname"]= "Areaname12816602",
+  ["ButtonName"]= "",
+  ["Dropid"]= 0,
+  ["ExtraDrop"]= {
+    509999002
+  },
+  ["GetMineCD"]= {
+    7
+  },
+  ["Id"]= 12816602,
+  ["LifeLevelLimit"]= 2,
+  ["MineLevelEnergy"]= {
+    2
+  },
+  ["MineLevelLimit"]= {
+    2
+  },
+  ["MineLevelLimitDropId"]= {
+    511281002
+  },
+  ["MineStartTips"]= "MineStartTips_12816602",
+  ["MineTool"]= {
+    10207002,
+    10207004
+  },
+  ["MineToolTips"]= "LifeSkill_099",
+  ["Name"]= "矿脉Lv.2",
+  ["NPCId"]= 12815002,
+  ["PickCD"]= 0,
+  ["PickEnergy"]= 0,
+  ["PickExp"]= 0,
+  ["RefreshNum"]= 0,
+  ["RichMineEnergy"]= {
+    0
+  },
+  ["SceneId"]= 1281,
+  ["ShowMap"]= 1,
+  ["SingleRefreshNum"]= 0,
+  ["Time"]= {},
+  ["Type"]= 2
+},
+[12816603] = {
+  ["Areaname"]= "Areaname12816603",
+  ["ButtonName"]= "",
+  ["Dropid"]= 0,
+  ["ExtraDrop"]= {
+    509999002
+  },
+  ["GetMineCD"]= {
+    7
+  },
+  ["Id"]= 12816603,
+  ["LifeLevelLimit"]= 3,
+  ["MineLevelEnergy"]= {
+    2
+  },
+  ["MineLevelLimit"]= {
+    3
+  },
+  ["MineLevelLimitDropId"]= {
+    511281003
+  },
+  ["MineStartTips"]= "MineStartTips_12816603",
+  ["MineTool"]= {
+    10207002,
+    10207004
+  },
+  ["MineToolTips"]= "LifeSkill_099",
+  ["Name"]= "矿脉Lv.3",
+  ["NPCId"]= 12815003,
+  ["PickCD"]= 0,
+  ["PickEnergy"]= 0,
+  ["PickExp"]= 0,
+  ["RefreshNum"]= 0,
+  ["RichMineEnergy"]= {
+    0
+  },
+  ["SceneId"]= 1281,
+  ["ShowMap"]= 1,
+  ["SingleRefreshNum"]= 0,
+  ["Time"]= {},
+  ["Type"]= 2
+},
+[12816604] = {
+  ["Areaname"]= "Areaname12816604",
+  ["ButtonName"]= "",
+  ["Dropid"]= 0,
+  ["ExtraDrop"]= {
+    509999002
+  },
+  ["GetMineCD"]= {
+    11
+  },
+  ["Id"]= 12816604,
+  ["LifeLevelLimit"]= 4,
+  ["MineLevelEnergy"]= {
+    3
+  },
+  ["MineLevelLimit"]= {
+    4
+  },
+  ["MineLevelLimitDropId"]= {
+    511281004
+  },
+  ["MineStartTips"]= "MineStartTips_12816604",
+  ["MineTool"]= {
+    10207002,
+    10207004
+  },
+  ["MineToolTips"]= "LifeSkill_099",
+  ["Name"]= "矿脉Lv.4",
+  ["NPCId"]= 12815004,
+  ["PickCD"]= 0,
+  ["PickEnergy"]= 0,
+  ["PickExp"]= 0,
+  ["RefreshNum"]= 0,
+  ["RichMineEnergy"]= {
+    0
+  },
+  ["SceneId"]= 1281,
+  ["ShowMap"]= 1,
+  ["SingleRefreshNum"]= 0,
+  ["Time"]= {},
+  ["Type"]= 2
+},
+[12816605] = {
+  ["Areaname"]= "Areaname12816605",
+  ["ButtonName"]= "",
+  ["Dropid"]= 0,
+  ["ExtraDrop"]= {
+    509999002
+  },
+  ["GetMineCD"]= {
+    11
+  },
+  ["Id"]= 12816605,
+  ["LifeLevelLimit"]= 5,
+  ["MineLevelEnergy"]= {
+    3
+  },
+  ["MineLevelLimit"]= {
+    5
+  },
+  ["MineLevelLimitDropId"]= {
+    511281005
+  },
+  ["MineStartTips"]= "MineStartTips_12816605",
+  ["MineTool"]= {
+    10207002,
+    10207004
+  },
+  ["MineToolTips"]= "LifeSkill_099",
+  ["Name"]= "矿脉Lv.5",
+  ["NPCId"]= 12815005,
+  ["PickCD"]= 0,
+  ["PickEnergy"]= 0,
+  ["PickExp"]= 0,
+  ["RefreshNum"]= 0,
+  ["RichMineEnergy"]= {
+    0
+  },
+  ["SceneId"]= 1281,
+  ["ShowMap"]= 1,
+  ["SingleRefreshNum"]= 0,
+  ["Time"]= {},
+  ["Type"]= 2
+},
+[12816606] = {
+  ["Areaname"]= "Areaname12816606",
+  ["ButtonName"]= "",
+  ["Dropid"]= 0,
+  ["ExtraDrop"]= {},
+  ["GetMineCD"]= {
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  },
+  ["Id"]= 12816606,
+  ["LifeLevelLimit"]= 0,
+  ["MineLevelEnergy"]= {
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  },
+  ["MineLevelLimit"]= {
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  },
+  ["MineLevelLimitDropId"]= {
+    511281101,
+    511281102,
+    511281103,
+    511281104,
+    511281105,
+    511281106,
+    511281107,
+    511281108,
+    511281109
+  },
+  ["MineTool"]= {
+    10207003
+  },
+  ["MineToolTips"]= "LifeSkill_067",
+  ["Name"]= "富集矿1",
+  ["NPCId"]= 12815006,
+  ["PickCD"]= 600,
+  ["PickEnergy"]= 0,
+  ["PickExp"]= 0,
+  ["RefreshNum"]= 100,
+  ["RichMine"]= 1,
+  ["RichMineEnergy"]= {
+    200,
+    200,
+    200,
+    300,
+    300,
+    300,
+    400,
+    400,
+    400
+  },
+  ["RichMineNum"]= 1,
+  ["SceneId"]= 1281,
+  ["ShowMap"]= 1,
+  ["Time"]= {},
+  ["Type"]= 2
+},
+[12816607] = {
+  ["Areaname"]= "Areaname12816606",
+  ["ButtonName"]= "",
+  ["Dropid"]= 0,
+  ["ExtraDrop"]= {},
+  ["GetMineCD"]= {
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  },
+  ["Id"]= 12816607,
+  ["LifeLevelLimit"]= 0,
+  ["MineLevelEnergy"]= {
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  },
+  ["MineLevelLimit"]= {
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  },
+  ["MineLevelLimitDropId"]= {
+    511281101,
+    511281102,
+    511281103,
+    511281104,
+    511281105,
+    511281106,
+    511281107,
+    511281108,
+    511281109
+  },
+  ["MineTool"]= {
+    10207003
+  },
+  ["MineToolTips"]= "LifeSkill_067",
+  ["Name"]= "富集矿2",
+  ["NPCId"]= 12815007,
+  ["PickCD"]= 600,
+  ["PickEnergy"]= 0,
+  ["PickExp"]= 0,
+  ["RefreshNum"]= 100,
+  ["RichMine"]= 1,
+  ["RichMineEnergy"]= {
+    200,
+    200,
+    200,
+    300,
+    300,
+    300,
+    400,
+    400,
+    400
+  },
+  ["RichMineNum"]= 1,
+  ["SceneId"]= 1281,
+  ["ShowMap"]= 1,
+  ["Time"]= {},
+  ["Type"]= 2
+},
+[12816608] = {
+  ["Areaname"]= "Areaname12816608",
+  ["ButtonName"]= "",
+  ["Dropid"]= 0,
+  ["ExtraDrop"]= {
+    509999002
+  },
+  ["GetMineCD"]= {
+    11
+  },
+  ["Id"]= 12816608,
+  ["LifeLevelLimit"]= 6,
+  ["MineLevelEnergy"]= {
+    3
+  },
+  ["MineLevelLimit"]= {
+    6
+  },
+  ["MineLevelLimitDropId"]= {
+    511281006
+  },
+  ["MineStartTips"]= "MineStartTips_12816608",
+  ["MineTool"]= {
+    10207002,
+    10207004
+  },
+  ["MineToolTips"]= "LifeSkill_099",
+  ["Name"]= "矿脉Lv.6",
+  ["NPCId"]= 12815008,
+  ["PickCD"]= 0,
+  ["PickEnergy"]= 0,
+  ["PickExp"]= 0,
+  ["RefreshNum"]= 0,
+  ["RichMineEnergy"]= {
+    0
+  },
+  ["SceneId"]= 1281,
+  ["ShowMap"]= 1,
+  ["SingleRefreshNum"]= 0,
+  ["Time"]= {},
+  ["Type"]= 2
+},
+[12816609] = {
+  ["Areaname"]= "Areaname12816609",
+  ["ButtonName"]= "",
+  ["Dropid"]= 0,
+  ["ExtraDrop"]= {
+    509999002
+  },
+  ["GetMineCD"]= {
+    14
+  },
+  ["Id"]= 12816609,
+  ["MineLevelEnergy"]= {
+    4
+  },
+  ["MineLevelLimit"]= {
+    7
+  },
+  ["MineLevelLimitDropId"]= {
+    511281007
+  },
+  ["MineStartTips"]= "MineStartTips_12816609",
+  ["MineTool"]= {
+    10207002,
+    10207004
+  },
+  ["MineToolTips"]= "LifeSkill_099",
+  ["Name"]= "矿脉Lv.7",
+  ["NPCId"]= 12815009,
+  ["PickCD"]= 0,
+  ["PickEnergy"]= 0,
+  ["PickExp"]= 0,
+  ["RefreshNum"]= 0,
+  ["RichMineEnergy"]= {
+    0
+  },
+  ["SceneId"]= 1281,
+  ["ShowMap"]= 1,
+  ["SingleRefreshNum"]= 0,
+  ["Time"]= {},
+  ["Type"]= 2
+},
+[12816610] = {
+  ["Areaname"]= "Areaname12816610",
+  ["ButtonName"]= "",
+  ["Dropid"]= 0,
+  ["ExtraDrop"]= {
+    509999002
+  },
+  ["GetMineCD"]= {
+    14
+  },
+  ["Id"]= 12816610,
+  ["LifeLevelLimit"]= 8,
+  ["MineLevelEnergy"]= {
+    4
+  },
+  ["MineLevelLimit"]= {
+    8
+  },
+  ["MineLevelLimitDropId"]= {
+    511281008
+  },
+  ["MineStartTips"]= "MineStartTips_12816610",
+  ["MineTool"]= {
+    10207002,
+    10207004
+  },
+  ["MineToolTips"]= "LifeSkill_099",
+  ["Name"]= "矿脉Lv.8",
+  ["NPCId"]= 12815010,
+  ["PickCD"]= 0,
+  ["PickEnergy"]= 0,
+  ["PickExp"]= 0,
+  ["RefreshNum"]= 0,
+  ["RichMineEnergy"]= {
+    0
+  },
+  ["SceneId"]= 1281,
+  ["ShowMap"]= 1,
+  ["SingleRefreshNum"]= 0,
+  ["Time"]= {},
+  ["Type"]= 2
+},
+[12906601] = {
+  ["Areaname"]= "Areaname10406225",
+  ["Dropid"]= 521230001,
+  ["ExtraDrop"]= {
+    529999008,
+    509999004
+  },
+  ["Id"]= 12906601,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "月光花1",
+  ["NPCId"]= 12905001,
+  ["SceneId"]= 1290,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12906602] = {
+  ["Areaname"]= "Areaname10406225",
+  ["Dropid"]= 521230001,
+  ["ExtraDrop"]= {
+    529999008,
+    509999004
+  },
+  ["Id"]= 12906602,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "月光花2",
+  ["NPCId"]= 12905002,
+  ["SceneId"]= 1290,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12906603] = {
+  ["Areaname"]= "Areaname10406225",
+  ["Dropid"]= 521230001,
+  ["ExtraDrop"]= {
+    529999008,
+    509999004
+  },
+  ["Id"]= 12906603,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "月光花3",
+  ["NPCId"]= 12905003,
+  ["SceneId"]= 1290,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12906604] = {
+  ["Areaname"]= "Areaname10406225",
+  ["Dropid"]= 521230001,
+  ["ExtraDrop"]= {
+    529999008,
+    509999004
+  },
+  ["Id"]= 12906604,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "月光花4",
+  ["NPCId"]= 12905004,
+  ["SceneId"]= 1290,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12906605] = {
+  ["Areaname"]= "Areaname10406225",
+  ["Dropid"]= 521230001,
+  ["ExtraDrop"]= {
+    529999008,
+    509999004
+  },
+  ["Id"]= 12906605,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "月光花5",
+  ["NPCId"]= 12905005,
+  ["SceneId"]= 1290,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12906606] = {
+  ["Areaname"]= "Areaname10406225",
+  ["Dropid"]= 521230001,
+  ["ExtraDrop"]= {
+    529999008,
+    509999004
+  },
+  ["Id"]= 12906606,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "月光花6",
+  ["NPCId"]= 12905006,
+  ["SceneId"]= 1290,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12906607] = {
+  ["Areaname"]= "Areaname10406235",
+  ["Dropid"]= 521230002,
+  ["ExtraDrop"]= {
+    529999008,
+    509999004
+  },
+  ["Id"]= 12906607,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "青晶蔷薇1",
+  ["NPCId"]= 12905007,
+  ["SceneId"]= 1290,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12906608] = {
+  ["Areaname"]= "Areaname10406235",
+  ["Dropid"]= 521230002,
+  ["ExtraDrop"]= {
+    529999008,
+    509999004
+  },
+  ["Id"]= 12906608,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "青晶蔷薇2",
+  ["NPCId"]= 12905008,
+  ["SceneId"]= 1290,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12906609] = {
+  ["Areaname"]= "Areaname10406235",
+  ["Dropid"]= 521230002,
+  ["ExtraDrop"]= {
+    529999008,
+    509999004
+  },
+  ["Id"]= 12906609,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "青晶蔷薇3",
+  ["NPCId"]= 12905009,
+  ["SceneId"]= 1290,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12906610] = {
+  ["Areaname"]= "Areaname10406235",
+  ["Dropid"]= 521230002,
+  ["ExtraDrop"]= {
+    529999008,
+    509999004
+  },
+  ["Id"]= 12906610,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "青晶蔷薇4",
+  ["NPCId"]= 12905010,
+  ["SceneId"]= 1290,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12906611] = {
+  ["Areaname"]= "Areaname10406235",
+  ["Dropid"]= 521230002,
+  ["ExtraDrop"]= {
+    529999008,
+    509999004
+  },
+  ["Id"]= 12906611,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "青晶蔷薇5",
+  ["NPCId"]= 12905011,
+  ["SceneId"]= 1290,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[12906612] = {
+  ["Areaname"]= "Areaname10406235",
+  ["Dropid"]= 521230002,
+  ["ExtraDrop"]= {
+    529999008,
+    509999004
+  },
+  ["Id"]= 12906612,
+  ["LifeLevelLimit"]= 8,
+  ["Name"]= "青晶蔷薇6",
+  ["NPCId"]= 12905012,
+  ["SceneId"]= 1290,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[13106601] = {
+  ["Areaname"]= "Areaname10406214",
+  ["Dropid"]= 521310001,
+  ["Id"]= 13106601,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "仙人掌1",
+  ["NPCId"]= 13105001,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1310
+},
+[13106602] = {
+  ["Areaname"]= "Areaname10406214",
+  ["Dropid"]= 521310001,
+  ["Id"]= 13106602,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "仙人掌2",
+  ["NPCId"]= 13105002,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1310,
+  ["ShowMap"]= 1
+},
+[13106603] = {
+  ["Areaname"]= "Areaname10406214",
+  ["Dropid"]= 521310001,
+  ["Id"]= 13106603,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "仙人掌3",
+  ["NPCId"]= 13105003,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1310
+},
+[13106604] = {
+  ["Areaname"]= "Areaname10406214",
+  ["Dropid"]= 521310001,
+  ["Id"]= 13106604,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "仙人掌4",
+  ["NPCId"]= 13105004,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1310
+},
+[13106605] = {
+  ["Areaname"]= "Areaname10406214",
+  ["Dropid"]= 521310001,
+  ["Id"]= 13106605,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "仙人掌5",
+  ["NPCId"]= 13105005,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1310,
+  ["ShowMap"]= 1
+},
+[13106606] = {
+  ["Areaname"]= "Areaname10406214",
+  ["Dropid"]= 521310001,
+  ["Id"]= 13106606,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "仙人掌6",
+  ["NPCId"]= 13105006,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1310
+},
+[13106607] = {
+  ["Areaname"]= "Areaname10406213",
+  ["Dropid"]= 521320001,
+  ["Id"]= 13106607,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "沙漠番茄1",
+  ["NPCId"]= 13105007,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1310
+},
+[13106608] = {
+  ["Areaname"]= "Areaname10406213",
+  ["Dropid"]= 521320001,
+  ["Id"]= 13106608,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "沙漠番茄2",
+  ["NPCId"]= 13105008,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1310,
+  ["ShowMap"]= 1
+},
+[13106609] = {
+  ["Areaname"]= "Areaname10406213",
+  ["Dropid"]= 521320001,
+  ["Id"]= 13106609,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "沙漠番茄3",
+  ["NPCId"]= 13105009,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1310
+},
+[13106610] = {
+  ["Areaname"]= "Areaname10406213",
+  ["Dropid"]= 521320001,
+  ["Id"]= 13106610,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "沙漠番茄4",
+  ["NPCId"]= 13105010,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1310
+},
+[13106611] = {
+  ["Areaname"]= "Areaname10406213",
+  ["Dropid"]= 521320001,
+  ["Id"]= 13106611,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "沙漠番茄5",
+  ["NPCId"]= 13105011,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1310,
+  ["ShowMap"]= 1
+},
+[13106612] = {
+  ["Areaname"]= "Areaname10406213",
+  ["Dropid"]= 521320001,
+  ["Id"]= 13106612,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "沙漠番茄6",
+  ["NPCId"]= 13105012,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1310
+},
+[13106614] = {
+  ["Areaname"]= "Areaname10201016",
+  ["Dropid"]= 521310005,
+  ["Id"]= 13106614,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "黄色药草1",
+  ["NPCId"]= 13105013,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1310
+},
+[13106615] = {
+  ["Areaname"]= "Areaname10201016",
+  ["Dropid"]= 521310005,
+  ["Id"]= 13106615,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "黄色药草2",
+  ["NPCId"]= 13105419,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1310,
+  ["ShowMap"]= 1
+},
+[13106616] = {
+  ["Areaname"]= "Areaname10201016",
+  ["Dropid"]= 521310005,
+  ["Id"]= 13106616,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "黄色药草3",
+  ["NPCId"]= 13105420,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1310
+},
+[13106617] = {
+  ["Areaname"]= "Areaname10201016",
+  ["Dropid"]= 521310005,
+  ["Id"]= 13106617,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "黄色药草4",
+  ["NPCId"]= 13105421,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1310
+},
+[13106618] = {
+  ["Areaname"]= "Areaname10201016",
+  ["Dropid"]= 521310005,
+  ["Id"]= 13106618,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "黄色药草5",
+  ["NPCId"]= 13105422,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1310,
+  ["ShowMap"]= 1
+},
+[13106619] = {
+  ["Areaname"]= "Areaname10201016",
+  ["Dropid"]= 521310005,
+  ["Id"]= 13106619,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "黄色药草6",
+  ["NPCId"]= 13105423,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1310
+},
+[13106620] = {
+  ["Areaname"]= "Areaname10406217",
+  ["Dropid"]= 521310004,
+  ["ExtraDrop"]= {
+    529999003,
+    509999004
+  },
+  ["Id"]= 13106620,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "黄金花1",
+  ["NPCId"]= 13105424,
+  ["SceneId"]= 1310,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[13106621] = {
+  ["Areaname"]= "Areaname10406217",
+  ["Dropid"]= 521310004,
+  ["ExtraDrop"]= {
+    529999003,
+    509999004
+  },
+  ["Id"]= 13106621,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "黄金花2",
+  ["NPCId"]= 13105425,
+  ["SceneId"]= 1310,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[13106622] = {
+  ["Areaname"]= "Areaname10406217",
+  ["Dropid"]= 521310004,
+  ["ExtraDrop"]= {
+    529999003,
+    509999004
+  },
+  ["Id"]= 13106622,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "黄金花3",
+  ["NPCId"]= 13105426,
+  ["SceneId"]= 1310,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[13106623] = {
+  ["Areaname"]= "Areaname10406217",
+  ["Dropid"]= 521310004,
+  ["ExtraDrop"]= {
+    529999003,
+    509999004
+  },
+  ["Id"]= 13106623,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "黄金花4",
+  ["NPCId"]= 13105427,
+  ["SceneId"]= 1310,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[13106624] = {
+  ["Areaname"]= "Areaname10406217",
+  ["Dropid"]= 521310004,
+  ["ExtraDrop"]= {
+    529999003,
+    509999004
+  },
+  ["Id"]= 13106624,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "黄金花5",
+  ["NPCId"]= 13105428,
+  ["SceneId"]= 1310,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[13106625] = {
+  ["Areaname"]= "Areaname10406217",
+  ["Dropid"]= 521310004,
+  ["ExtraDrop"]= {
+    529999003,
+    509999004
+  },
+  ["Id"]= 13106625,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "黄金花6",
+  ["NPCId"]= 13105429,
+  ["SceneId"]= 1310,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[13106626] = {
+  ["Areaname"]= "Areaname10406218",
+  ["Dropid"]= 521320002,
+  ["ExtraDrop"]= {
+    529999003,
+    509999004
+  },
+  ["Id"]= 13106626,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "炎地蘑菇1",
+  ["NPCId"]= 13105430,
+  ["SceneId"]= 1310,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[13106627] = {
+  ["Areaname"]= "Areaname10406218",
+  ["Dropid"]= 521320002,
+  ["ExtraDrop"]= {
+    529999003,
+    509999004
+  },
+  ["Id"]= 13106627,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "炎地蘑菇2",
+  ["NPCId"]= 13105431,
+  ["SceneId"]= 1310,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[13106628] = {
+  ["Areaname"]= "Areaname10406218",
+  ["Dropid"]= 521320002,
+  ["ExtraDrop"]= {
+    529999003,
+    509999004
+  },
+  ["Id"]= 13106628,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "炎地蘑菇3",
+  ["NPCId"]= 13105432,
+  ["SceneId"]= 1310,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[13106629] = {
+  ["Areaname"]= "Areaname10406218",
+  ["Dropid"]= 521320002,
+  ["ExtraDrop"]= {
+    529999003,
+    509999004
+  },
+  ["Id"]= 13106629,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "炎地蘑菇4",
+  ["NPCId"]= 13105433,
+  ["SceneId"]= 1310,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[13106630] = {
+  ["Areaname"]= "Areaname10406218",
+  ["Dropid"]= 521320002,
+  ["ExtraDrop"]= {
+    529999003,
+    509999004
+  },
+  ["Id"]= 13106630,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "炎地蘑菇5",
+  ["NPCId"]= 13105434,
+  ["SceneId"]= 1310,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[13106631] = {
+  ["Areaname"]= "Areaname10406218",
+  ["Dropid"]= 521320002,
+  ["ExtraDrop"]= {
+    529999003,
+    509999004
+  },
+  ["Id"]= 13106631,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "炎地蘑菇6",
+  ["NPCId"]= 13105435,
+  ["SceneId"]= 1310,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[13106632] = {
+  ["Areaname"]= "Areaname10406212",
+  ["Dropid"]= 521310006,
+  ["ExtraDrop"]= {
+    529999003,
+    509999004
+  },
+  ["Id"]= 13106632,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "枯叶荆1",
+  ["NPCId"]= 13105436,
+  ["SceneId"]= 1310,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[13106633] = {
+  ["Areaname"]= "Areaname10406212",
+  ["Dropid"]= 521310006,
+  ["ExtraDrop"]= {
+    529999003,
+    509999004
+  },
+  ["Id"]= 13106633,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "枯叶荆2",
+  ["NPCId"]= 13105437,
+  ["SceneId"]= 1310,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[13106634] = {
+  ["Areaname"]= "Areaname10406212",
+  ["Dropid"]= 521310006,
+  ["ExtraDrop"]= {
+    529999003,
+    509999004
+  },
+  ["Id"]= 13106634,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "枯叶荆3",
+  ["NPCId"]= 13105438,
+  ["SceneId"]= 1310,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[13106635] = {
+  ["Areaname"]= "Areaname10406212",
+  ["Dropid"]= 521310006,
+  ["ExtraDrop"]= {
+    529999003,
+    509999004
+  },
+  ["Id"]= 13106635,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "枯叶荆4",
+  ["NPCId"]= 13105439,
+  ["SceneId"]= 1310,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[13106636] = {
+  ["Areaname"]= "Areaname10406212",
+  ["Dropid"]= 521310006,
+  ["ExtraDrop"]= {
+    529999003,
+    509999004
+  },
+  ["Id"]= 13106636,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "枯叶荆5",
+  ["NPCId"]= 13105440,
+  ["SceneId"]= 1310,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[13106637] = {
+  ["Areaname"]= "Areaname10406212",
+  ["Dropid"]= 521310006,
+  ["ExtraDrop"]= {
+    529999003,
+    509999004
+  },
+  ["Id"]= 13106637,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "枯叶荆6",
+  ["NPCId"]= 13105441,
+  ["SceneId"]= 1310,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[13206601] = {
+  ["Areaname"]= "Areaname13206601",
+  ["BaitCriticalEnergy"]= {
+    0,
+    0,
+    0
+  },
+  ["BaitCriticalNum"]= {
+    0,
+    0,
+    0
+  },
+  ["BaitCriticalRate"]= {
+    0,
+    0,
+    0
+  },
+  ["BaitDropId"]= {
+    501320002,
+    501320003,
+    501320004
+  },
+  ["BaitId"]= {
+    10406886,
+    10406842,
+    10406832
+  },
+  ["ButtonName"]= "",
+  ["Dropid"]= 501320001,
+  ["ExtraDrop"]= {
+    509999001
+  },
+  ["FishEnergy"]= 10,
+  ["FishExp"]= 10,
+  ["FishingFace"]= {
+    ["PX"]= 117,
+    ["PY"]= 15,
+    ["PZ"]= 55
+  },
+  ["GetFishCD"]= 10,
+  ["Id"]= 13206601,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "苏克拉特钓鱼",
+  ["PickCD"]= 0,
+  ["PickEnergy"]= 0,
+  ["PickExp"]= 0,
+  ["RefreshNum"]= 0,
+  ["SceneId"]= 1320,
+  ["ShowMap"]= 1,
+  ["SingleRefreshNum"]= 0,
+  ["Time"]= {},
+  ["Type"]= 1
+},
+[13206602] = {
+  ["Areaname"]= "Areaname10406214",
+  ["Dropid"]= 521310001,
+  ["Id"]= 13206602,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "仙人掌1",
+  ["NPCId"]= 13205001,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1320
+},
+[13206603] = {
+  ["Areaname"]= "Areaname10406214",
+  ["Dropid"]= 521310001,
+  ["Id"]= 13206603,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "仙人掌2",
+  ["NPCId"]= 13205002,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1320,
+  ["ShowMap"]= 1
+},
+[13206604] = {
+  ["Areaname"]= "Areaname10406214",
+  ["Dropid"]= 521310001,
+  ["Id"]= 13206604,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "仙人掌3",
+  ["NPCId"]= 13205003,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1320
+},
+[13206605] = {
+  ["Areaname"]= "Areaname10406214",
+  ["Dropid"]= 521310001,
+  ["Id"]= 13206605,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "仙人掌4",
+  ["NPCId"]= 13205004,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1320
+},
+[13206606] = {
+  ["Areaname"]= "Areaname10406214",
+  ["Dropid"]= 521310001,
+  ["Id"]= 13206606,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "仙人掌5",
+  ["NPCId"]= 13205005,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1320,
+  ["ShowMap"]= 1
+},
+[13206607] = {
+  ["Areaname"]= "Areaname10406214",
+  ["Dropid"]= 521310001,
+  ["Id"]= 13206607,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "仙人掌6",
+  ["NPCId"]= 13205006,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1320
+},
+[13206608] = {
+  ["Areaname"]= "Areaname10406213",
+  ["Dropid"]= 521320001,
+  ["Id"]= 13206608,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "沙漠番茄1",
+  ["NPCId"]= 13205007,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1320
+},
+[13206609] = {
+  ["Areaname"]= "Areaname10406213",
+  ["Dropid"]= 521320001,
+  ["Id"]= 13206609,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "沙漠番茄2",
+  ["NPCId"]= 13205008,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1320,
+  ["ShowMap"]= 1
+},
+[13206610] = {
+  ["Areaname"]= "Areaname10406213",
+  ["Dropid"]= 521320001,
+  ["Id"]= 13206610,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "沙漠番茄3",
+  ["NPCId"]= 13205009,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1320
+},
+[13206611] = {
+  ["Areaname"]= "Areaname10406213",
+  ["Dropid"]= 521320001,
+  ["Id"]= 13206611,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "沙漠番茄4",
+  ["NPCId"]= 13205010,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1320
+},
+[13206612] = {
+  ["Areaname"]= "Areaname10406213",
+  ["Dropid"]= 521320001,
+  ["Id"]= 13206612,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "沙漠番茄5",
+  ["NPCId"]= 13205011,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1320,
+  ["ShowMap"]= 1
+},
+[13206613] = {
+  ["Areaname"]= "Areaname10406213",
+  ["Dropid"]= 521320001,
+  ["Id"]= 13206613,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "沙漠番茄6",
+  ["NPCId"]= 13205012,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1320
+},
+[13206614] = {
+  ["Areaname"]= "Areaname10201016",
+  ["Dropid"]= 521310005,
+  ["Id"]= 13206614,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "黄色药草1",
+  ["NPCId"]= 13205013,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1320
+},
+[13206615] = {
+  ["Areaname"]= "Areaname10201016",
+  ["Dropid"]= 521310005,
+  ["Id"]= 13206615,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "黄色药草2",
+  ["NPCId"]= 13205014,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1320,
+  ["ShowMap"]= 1
+},
+[13206616] = {
+  ["Areaname"]= "Areaname10201016",
+  ["Dropid"]= 521310005,
+  ["Id"]= 13206616,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "黄色药草3",
+  ["NPCId"]= 13205015,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1320
+},
+[13206617] = {
+  ["Areaname"]= "Areaname10201016",
+  ["Dropid"]= 521310005,
+  ["Id"]= 13206617,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "黄色药草4",
+  ["NPCId"]= 13205016,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1320
+},
+[13206618] = {
+  ["Areaname"]= "Areaname10201016",
+  ["Dropid"]= 521310005,
+  ["Id"]= 13206618,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "黄色药草5",
+  ["NPCId"]= 13205017,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1320,
+  ["ShowMap"]= 1
+},
+[13206619] = {
+  ["Areaname"]= "Areaname10201016",
+  ["Dropid"]= 521310005,
+  ["Id"]= 13206619,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "黄色药草6",
+  ["NPCId"]= 13205018,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1320
+},
+[13206620] = {
+  ["Areaname"]= "Areaname10406217",
+  ["Dropid"]= 521310004,
+  ["ExtraDrop"]= {
+    529999003,
+    509999004
+  },
+  ["Id"]= 13206620,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "黄金花1",
+  ["NPCId"]= 13205019,
+  ["SceneId"]= 1320,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[13206621] = {
+  ["Areaname"]= "Areaname10406217",
+  ["Dropid"]= 521310004,
+  ["ExtraDrop"]= {
+    529999003,
+    509999004
+  },
+  ["Id"]= 13206621,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "黄金花2",
+  ["NPCId"]= 13205020,
+  ["SceneId"]= 1320,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[13206622] = {
+  ["Areaname"]= "Areaname10406217",
+  ["Dropid"]= 521310004,
+  ["ExtraDrop"]= {
+    529999003,
+    509999004
+  },
+  ["Id"]= 13206622,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "黄金花3",
+  ["NPCId"]= 13205021,
+  ["SceneId"]= 1320,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[13206623] = {
+  ["Areaname"]= "Areaname10406217",
+  ["Dropid"]= 521310004,
+  ["ExtraDrop"]= {
+    529999003,
+    509999004
+  },
+  ["Id"]= 13206623,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "黄金花4",
+  ["NPCId"]= 13205022,
+  ["SceneId"]= 1320,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[13206624] = {
+  ["Areaname"]= "Areaname10406217",
+  ["Dropid"]= 521310004,
+  ["ExtraDrop"]= {
+    529999003,
+    509999004
+  },
+  ["Id"]= 13206624,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "黄金花5",
+  ["NPCId"]= 13205023,
+  ["SceneId"]= 1320,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[13206625] = {
+  ["Areaname"]= "Areaname10406217",
+  ["Dropid"]= 521310004,
+  ["ExtraDrop"]= {
+    529999003,
+    509999004
+  },
+  ["Id"]= 13206625,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "黄金花6",
+  ["NPCId"]= 13205024,
+  ["SceneId"]= 1320,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[13206626] = {
+  ["Areaname"]= "Areaname10406218",
+  ["Dropid"]= 521320002,
+  ["ExtraDrop"]= {
+    529999003,
+    509999004
+  },
+  ["Id"]= 13206626,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "炎地蘑菇1",
+  ["NPCId"]= 13205025,
+  ["SceneId"]= 1320,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[13206627] = {
+  ["Areaname"]= "Areaname10406218",
+  ["Dropid"]= 521320002,
+  ["ExtraDrop"]= {
+    529999003,
+    509999004
+  },
+  ["Id"]= 13206627,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "炎地蘑菇2",
+  ["NPCId"]= 13205026,
+  ["SceneId"]= 1320,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[13206628] = {
+  ["Areaname"]= "Areaname10406218",
+  ["Dropid"]= 521320002,
+  ["ExtraDrop"]= {
+    529999003,
+    509999004
+  },
+  ["Id"]= 13206628,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "炎地蘑菇3",
+  ["NPCId"]= 13205027,
+  ["SceneId"]= 1320,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[13206629] = {
+  ["Areaname"]= "Areaname10406218",
+  ["Dropid"]= 521320002,
+  ["ExtraDrop"]= {
+    529999003,
+    509999004
+  },
+  ["Id"]= 13206629,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "炎地蘑菇4",
+  ["NPCId"]= 13205028,
+  ["SceneId"]= 1320,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[13206630] = {
+  ["Areaname"]= "Areaname10406218",
+  ["Dropid"]= 521320002,
+  ["ExtraDrop"]= {
+    529999003,
+    509999004
+  },
+  ["Id"]= 13206630,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "炎地蘑菇5",
+  ["NPCId"]= 13205029,
+  ["SceneId"]= 1320,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[13206631] = {
+  ["Areaname"]= "Areaname10406218",
+  ["Dropid"]= 521320002,
+  ["ExtraDrop"]= {
+    529999003,
+    509999004
+  },
+  ["Id"]= 13206631,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "炎地蘑菇6",
+  ["NPCId"]= 13205030,
+  ["SceneId"]= 1320,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[13206632] = {
+  ["Areaname"]= "Areaname10406212",
+  ["Dropid"]= 521310006,
+  ["ExtraDrop"]= {
+    529999003,
+    509999004
+  },
+  ["Id"]= 13206632,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "枯叶荆1",
+  ["NPCId"]= 13205031,
+  ["SceneId"]= 1320,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[13206633] = {
+  ["Areaname"]= "Areaname10406212",
+  ["Dropid"]= 521310006,
+  ["ExtraDrop"]= {
+    529999003,
+    509999004
+  },
+  ["Id"]= 13206633,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "枯叶荆2",
+  ["NPCId"]= 13205032,
+  ["SceneId"]= 1320,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[13206634] = {
+  ["Areaname"]= "Areaname10406212",
+  ["Dropid"]= 521310006,
+  ["ExtraDrop"]= {
+    529999003,
+    509999004
+  },
+  ["Id"]= 13206634,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "枯叶荆3",
+  ["NPCId"]= 13205033,
+  ["SceneId"]= 1320,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[13206635] = {
+  ["Areaname"]= "Areaname10406212",
+  ["Dropid"]= 521310006,
+  ["ExtraDrop"]= {
+    529999003,
+    509999004
+  },
+  ["Id"]= 13206635,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "枯叶荆4",
+  ["NPCId"]= 13205034,
+  ["SceneId"]= 1320,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[13206636] = {
+  ["Areaname"]= "Areaname10406212",
+  ["Dropid"]= 521310006,
+  ["ExtraDrop"]= {
+    529999003,
+    509999004
+  },
+  ["Id"]= 13206636,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "枯叶荆5",
+  ["NPCId"]= 13205035,
+  ["SceneId"]= 1320,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[13206637] = {
+  ["Areaname"]= "Areaname10406212",
+  ["Dropid"]= 521310006,
+  ["ExtraDrop"]= {
+    529999003,
+    509999004
+  },
+  ["Id"]= 13206637,
+  ["LifeLevelLimit"]= 3,
+  ["Name"]= "枯叶荆6",
+  ["NPCId"]= 13205036,
+  ["SceneId"]= 1320,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[13306601] = {
+  ["Areaname"]= "Areaname10406240",
+  ["Dropid"]= 521330001,
+  ["Id"]= 13306601,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "芦荟1",
+  ["NPCId"]= 13305001,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1330
+},
+[13306602] = {
+  ["Areaname"]= "Areaname10406240",
+  ["Dropid"]= 521330001,
+  ["Id"]= 13306602,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "芦荟2",
+  ["NPCId"]= 13305002,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1330,
+  ["ShowMap"]= 1
+},
+[13306603] = {
+  ["Areaname"]= "Areaname10406240",
+  ["Dropid"]= 521330001,
+  ["Id"]= 13306603,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "芦荟3",
+  ["NPCId"]= 13305003,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1330
+},
+[13306604] = {
+  ["Areaname"]= "Areaname10406240",
+  ["Dropid"]= 521330001,
+  ["Id"]= 13306604,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "芦荟4",
+  ["NPCId"]= 13305004,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1330
+},
+[13306605] = {
+  ["Areaname"]= "Areaname10406240",
+  ["Dropid"]= 521330001,
+  ["Id"]= 13306605,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "芦荟5",
+  ["NPCId"]= 13305005,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1330,
+  ["ShowMap"]= 1
+},
+[13306606] = {
+  ["Areaname"]= "Areaname10406240",
+  ["Dropid"]= 521330001,
+  ["Id"]= 13306606,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "芦荟6",
+  ["NPCId"]= 13305006,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1330
+},
+[13306607] = {
+  ["Areaname"]= "Areaname10406242",
+  ["Dropid"]= 521330003,
+  ["Id"]= 13306607,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "赤绛草1",
+  ["NPCId"]= 13305007,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1330
+},
+[13306608] = {
+  ["Areaname"]= "Areaname10406242",
+  ["Dropid"]= 521330003,
+  ["Id"]= 13306608,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "赤绛草2",
+  ["NPCId"]= 13305008,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1330,
+  ["ShowMap"]= 1
+},
+[13306609] = {
+  ["Areaname"]= "Areaname10406242",
+  ["Dropid"]= 521330003,
+  ["Id"]= 13306609,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "赤绛草3",
+  ["NPCId"]= 13305009,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1330
+},
+[13306610] = {
+  ["Areaname"]= "Areaname10406242",
+  ["Dropid"]= 521330003,
+  ["Id"]= 13306610,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "赤绛草4",
+  ["NPCId"]= 13305010,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1330
+},
+[13306611] = {
+  ["Areaname"]= "Areaname10406242",
+  ["Dropid"]= 521330003,
+  ["Id"]= 13306611,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "赤绛草5",
+  ["NPCId"]= 13305011,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1330,
+  ["ShowMap"]= 1
+},
+[13306612] = {
+  ["Areaname"]= "Areaname10406242",
+  ["Dropid"]= 521330003,
+  ["Id"]= 13306612,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "赤绛草6",
+  ["NPCId"]= 13305012,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1330
+},
+[13306613] = {
+  ["Areaname"]= "Areaname10406243",
+  ["Dropid"]= 521330004,
+  ["ExtraDrop"]= {
+    529999004,
+    509999005
+  },
+  ["Id"]= 13306613,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "腐根草1",
+  ["NPCId"]= 13305013,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1330
+},
+[13306614] = {
+  ["Areaname"]= "Areaname10406243",
+  ["Dropid"]= 521330004,
+  ["ExtraDrop"]= {
+    529999004,
+    509999005
+  },
+  ["Id"]= 13306614,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "腐根草2",
+  ["NPCId"]= 13305014,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1330,
+  ["ShowMap"]= 1
+},
+[13306615] = {
+  ["Areaname"]= "Areaname10406243",
+  ["Dropid"]= 521330004,
+  ["ExtraDrop"]= {
+    529999004,
+    509999005
+  },
+  ["Id"]= 13306615,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "腐根草3",
+  ["NPCId"]= 13305015,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1330
+},
+[13306616] = {
+  ["Areaname"]= "Areaname10406243",
+  ["Dropid"]= 521330004,
+  ["ExtraDrop"]= {
+    529999004,
+    509999005
+  },
+  ["Id"]= 13306616,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "腐根草4",
+  ["NPCId"]= 13305016,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1330
+},
+[13306617] = {
+  ["Areaname"]= "Areaname10406243",
+  ["Dropid"]= 521330004,
+  ["ExtraDrop"]= {
+    529999004,
+    509999005
+  },
+  ["Id"]= 13306617,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "腐根草5",
+  ["NPCId"]= 13305017,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1330,
+  ["ShowMap"]= 1
+},
+[13306618] = {
+  ["Areaname"]= "Areaname10406243",
+  ["Dropid"]= 521330004,
+  ["ExtraDrop"]= {
+    529999004,
+    509999005
+  },
+  ["Id"]= 13306618,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "腐根草6",
+  ["NPCId"]= 13305018,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1330
+},
+[13306619] = {
+  ["Areaname"]= "Areaname10406245",
+  ["Dropid"]= 521330006,
+  ["ExtraDrop"]= {
+    529999004,
+    509999005
+  },
+  ["Id"]= 13306619,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "引路草1",
+  ["NPCId"]= 13305019,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1330
+},
+[13306620] = {
+  ["Areaname"]= "Areaname10406245",
+  ["Dropid"]= 521330006,
+  ["ExtraDrop"]= {
+    529999004,
+    509999005
+  },
+  ["Id"]= 13306620,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "引路草2",
+  ["NPCId"]= 13305020,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1330,
+  ["ShowMap"]= 1
+},
+[13306621] = {
+  ["Areaname"]= "Areaname10406245",
+  ["Dropid"]= 521330006,
+  ["ExtraDrop"]= {
+    529999004,
+    509999005
+  },
+  ["Id"]= 13306621,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "引路草3",
+  ["NPCId"]= 13305021,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1330
+},
+[13306622] = {
+  ["Areaname"]= "Areaname10406245",
+  ["Dropid"]= 521330006,
+  ["ExtraDrop"]= {
+    529999004,
+    509999005
+  },
+  ["Id"]= 13306622,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "引路草4",
+  ["NPCId"]= 13305022,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1330
+},
+[13306623] = {
+  ["Areaname"]= "Areaname10406245",
+  ["Dropid"]= 521330006,
+  ["ExtraDrop"]= {
+    529999004,
+    509999005
+  },
+  ["Id"]= 13306623,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "引路草5",
+  ["NPCId"]= 13305023,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1330,
+  ["ShowMap"]= 1
+},
+[13306624] = {
+  ["Areaname"]= "Areaname10406245",
+  ["Dropid"]= 521330006,
+  ["ExtraDrop"]= {
+    529999004,
+    509999005
+  },
+  ["Id"]= 13306624,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "引路草6",
+  ["NPCId"]= 13305024,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1330
+},
+[13406601] = {
+  ["Areaname"]= "Areaname10406240",
+  ["Dropid"]= 521330001,
+  ["Id"]= 13406601,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "芦荟1",
+  ["NPCId"]= 13405001,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1340
+},
+[13406602] = {
+  ["Areaname"]= "Areaname10406240",
+  ["Dropid"]= 521330001,
+  ["Id"]= 13406602,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "芦荟2",
+  ["NPCId"]= 13405002,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1340,
+  ["ShowMap"]= 1
+},
+[13406603] = {
+  ["Areaname"]= "Areaname10406240",
+  ["Dropid"]= 521330001,
+  ["Id"]= 13406603,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "芦荟3",
+  ["NPCId"]= 13405003,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1340
+},
+[13406604] = {
+  ["Areaname"]= "Areaname10406240",
+  ["Dropid"]= 521330001,
+  ["Id"]= 13406604,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "芦荟4",
+  ["NPCId"]= 13405004,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1340
+},
+[13406605] = {
+  ["Areaname"]= "Areaname10406240",
+  ["Dropid"]= 521330001,
+  ["Id"]= 13406605,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "芦荟5",
+  ["NPCId"]= 13405005,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1340,
+  ["ShowMap"]= 1
+},
+[13406606] = {
+  ["Areaname"]= "Areaname10406240",
+  ["Dropid"]= 521330001,
+  ["Id"]= 13406606,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "芦荟6",
+  ["NPCId"]= 13405006,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1340
+},
+[13406607] = {
+  ["Areaname"]= "Areaname10406241",
+  ["Dropid"]= 521330002,
+  ["Id"]= 13406607,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "沙棘1",
+  ["NPCId"]= 13405007,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1340
+},
+[13406608] = {
+  ["Areaname"]= "Areaname10406241",
+  ["Dropid"]= 521330002,
+  ["Id"]= 13406608,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "沙棘2",
+  ["NPCId"]= 13405008,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1340,
+  ["ShowMap"]= 1
+},
+[13406609] = {
+  ["Areaname"]= "Areaname10406241",
+  ["Dropid"]= 521330002,
+  ["Id"]= 13406609,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "沙棘3",
+  ["NPCId"]= 13405009,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1340
+},
+[13406610] = {
+  ["Areaname"]= "Areaname10406241",
+  ["Dropid"]= 521330002,
+  ["Id"]= 13406610,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "沙棘4",
+  ["NPCId"]= 13405010,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1340
+},
+[13406611] = {
+  ["Areaname"]= "Areaname10406241",
+  ["Dropid"]= 521330002,
+  ["Id"]= 13406611,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "沙棘5",
+  ["NPCId"]= 13405011,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1340,
+  ["ShowMap"]= 1
+},
+[13406612] = {
+  ["Areaname"]= "Areaname10406241",
+  ["Dropid"]= 521330002,
+  ["Id"]= 13406612,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "沙棘6",
+  ["NPCId"]= 13405012,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1340
+},
+[13406613] = {
+  ["Areaname"]= "Areaname10406243",
+  ["Dropid"]= 521330004,
+  ["ExtraDrop"]= {
+    529999004,
+    509999005
+  },
+  ["Id"]= 13406613,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "腐根草1",
+  ["NPCId"]= 13405013,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1340
+},
+[13406614] = {
+  ["Areaname"]= "Areaname10406243",
+  ["Dropid"]= 521330004,
+  ["ExtraDrop"]= {
+    529999004,
+    509999005
+  },
+  ["Id"]= 13406614,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "腐根草2",
+  ["NPCId"]= 13405014,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1340,
+  ["ShowMap"]= 1
+},
+[13406615] = {
+  ["Areaname"]= "Areaname10406243",
+  ["Dropid"]= 521330004,
+  ["ExtraDrop"]= {
+    529999004,
+    509999005
+  },
+  ["Id"]= 13406615,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "腐根草3",
+  ["NPCId"]= 13405015,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1340
+},
+[13406616] = {
+  ["Areaname"]= "Areaname10406243",
+  ["Dropid"]= 521330004,
+  ["ExtraDrop"]= {
+    529999004,
+    509999005
+  },
+  ["Id"]= 13406616,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "腐根草4",
+  ["NPCId"]= 13405016,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1340
+},
+[13406617] = {
+  ["Areaname"]= "Areaname10406243",
+  ["Dropid"]= 521330004,
+  ["ExtraDrop"]= {
+    529999004,
+    509999005
+  },
+  ["Id"]= 13406617,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "腐根草5",
+  ["NPCId"]= 13405017,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1340,
+  ["ShowMap"]= 1
+},
+[13406618] = {
+  ["Areaname"]= "Areaname10406243",
+  ["Dropid"]= 521330004,
+  ["ExtraDrop"]= {
+    529999004,
+    509999005
+  },
+  ["Id"]= 13406618,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "腐根草6",
+  ["NPCId"]= 13405018,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1340
+},
+[13406619] = {
+  ["Areaname"]= "Areaname10406244",
+  ["Dropid"]= 521330005,
+  ["ExtraDrop"]= {
+    529999004,
+    509999005
+  },
+  ["Id"]= 13406619,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "石芯菇1",
+  ["NPCId"]= 13405019,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1340
+},
+[13406620] = {
+  ["Areaname"]= "Areaname10406244",
+  ["Dropid"]= 521330005,
+  ["ExtraDrop"]= {
+    529999004,
+    509999005
+  },
+  ["Id"]= 13406620,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "石芯菇2",
+  ["NPCId"]= 13405020,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1340,
+  ["ShowMap"]= 1
+},
+[13406621] = {
+  ["Areaname"]= "Areaname10406244",
+  ["Dropid"]= 521330005,
+  ["ExtraDrop"]= {
+    529999004,
+    509999005
+  },
+  ["Id"]= 13406621,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "石芯菇3",
+  ["NPCId"]= 13405021,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1340
+},
+[13406622] = {
+  ["Areaname"]= "Areaname10406244",
+  ["Dropid"]= 521330005,
+  ["ExtraDrop"]= {
+    529999004,
+    509999005
+  },
+  ["Id"]= 13406622,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "石芯菇4",
+  ["NPCId"]= 13405022,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1340
+},
+[13406623] = {
+  ["Areaname"]= "Areaname10406244",
+  ["Dropid"]= 521330005,
+  ["ExtraDrop"]= {
+    529999004,
+    509999005
+  },
+  ["Id"]= 13406623,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "石芯菇5",
+  ["NPCId"]= 13405023,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1340,
+  ["ShowMap"]= 1
+},
+[13406624] = {
+  ["Areaname"]= "Areaname10406244",
+  ["Dropid"]= 521330005,
+  ["ExtraDrop"]= {
+    529999004,
+    509999005
+  },
+  ["Id"]= 13406624,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "石芯菇6",
+  ["NPCId"]= 13405024,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1340
+},
+[13606601] = {
+  ["Areaname"]= "Areaname10406241",
+  ["Dropid"]= 521330002,
+  ["Id"]= 13606601,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "沙棘1",
+  ["NPCId"]= 13605001,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1360
+},
+[13606602] = {
+  ["Areaname"]= "Areaname10406241",
+  ["Dropid"]= 521330002,
+  ["Id"]= 13606602,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "沙棘2",
+  ["NPCId"]= 13605002,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1360,
+  ["ShowMap"]= 1
+},
+[13606603] = {
+  ["Areaname"]= "Areaname10406241",
+  ["Dropid"]= 521330002,
+  ["Id"]= 13606603,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "沙棘3",
+  ["NPCId"]= 13605003,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1360
+},
+[13606604] = {
+  ["Areaname"]= "Areaname10406241",
+  ["Dropid"]= 521330002,
+  ["Id"]= 13606604,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "沙棘4",
+  ["NPCId"]= 13605004,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1360
+},
+[13606605] = {
+  ["Areaname"]= "Areaname10406241",
+  ["Dropid"]= 521330002,
+  ["Id"]= 13606605,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "沙棘5",
+  ["NPCId"]= 13605005,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1360,
+  ["ShowMap"]= 1
+},
+[13606606] = {
+  ["Areaname"]= "Areaname10406241",
+  ["Dropid"]= 521330002,
+  ["Id"]= 13606606,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "沙棘6",
+  ["NPCId"]= 13605006,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1360
+},
+[13606607] = {
+  ["Areaname"]= "Areaname10406242",
+  ["Dropid"]= 521330003,
+  ["Id"]= 13606607,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "赤绛草1",
+  ["NPCId"]= 13605007,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1360
+},
+[13606608] = {
+  ["Areaname"]= "Areaname10406242",
+  ["Dropid"]= 521330003,
+  ["Id"]= 13606608,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "赤绛草2",
+  ["NPCId"]= 13605008,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1360,
+  ["ShowMap"]= 1
+},
+[13606609] = {
+  ["Areaname"]= "Areaname10406242",
+  ["Dropid"]= 521330003,
+  ["Id"]= 13606609,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "赤绛草3",
+  ["NPCId"]= 13605009,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1360
+},
+[13606610] = {
+  ["Areaname"]= "Areaname10406242",
+  ["Dropid"]= 521330003,
+  ["Id"]= 13606610,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "赤绛草4",
+  ["NPCId"]= 13605010,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1360
+},
+[13606611] = {
+  ["Areaname"]= "Areaname10406242",
+  ["Dropid"]= 521330003,
+  ["Id"]= 13606611,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "赤绛草5",
+  ["NPCId"]= 13605011,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1360,
+  ["ShowMap"]= 1
+},
+[13606612] = {
+  ["Areaname"]= "Areaname10406242",
+  ["Dropid"]= 521330003,
+  ["Id"]= 13606612,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "赤绛草6",
+  ["NPCId"]= 13605012,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1360
+},
+[13606613] = {
+  ["Areaname"]= "Areaname10406244",
+  ["Dropid"]= 521330005,
+  ["ExtraDrop"]= {
+    529999004,
+    509999005
+  },
+  ["Id"]= 13606613,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "石芯菇1",
+  ["NPCId"]= 13605013,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1360
+},
+[13606614] = {
+  ["Areaname"]= "Areaname10406244",
+  ["Dropid"]= 521330005,
+  ["ExtraDrop"]= {
+    529999004,
+    509999005
+  },
+  ["Id"]= 13606614,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "石芯菇2",
+  ["NPCId"]= 13605014,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1360,
+  ["ShowMap"]= 1
+},
+[13606615] = {
+  ["Areaname"]= "Areaname10406244",
+  ["Dropid"]= 521330005,
+  ["ExtraDrop"]= {
+    529999004,
+    509999005
+  },
+  ["Id"]= 13606615,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "石芯菇3",
+  ["NPCId"]= 13605015,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1360
+},
+[13606616] = {
+  ["Areaname"]= "Areaname10406244",
+  ["Dropid"]= 521330005,
+  ["ExtraDrop"]= {
+    529999004,
+    509999005
+  },
+  ["Id"]= 13606616,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "石芯菇4",
+  ["NPCId"]= 13605016,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1360
+},
+[13606617] = {
+  ["Areaname"]= "Areaname10406244",
+  ["Dropid"]= 521330005,
+  ["ExtraDrop"]= {
+    529999004,
+    509999005
+  },
+  ["Id"]= 13606617,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "石芯菇5",
+  ["NPCId"]= 13605017,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1360,
+  ["ShowMap"]= 1
+},
+[13606618] = {
+  ["Areaname"]= "Areaname10406244",
+  ["Dropid"]= 521330005,
+  ["ExtraDrop"]= {
+    529999004,
+    509999005
+  },
+  ["Id"]= 13606618,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "石芯菇6",
+  ["NPCId"]= 13605018,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1360
+},
+[13606619] = {
+  ["Areaname"]= "Areaname10406245",
+  ["Dropid"]= 521330006,
+  ["ExtraDrop"]= {
+    529999004,
+    509999005
+  },
+  ["Id"]= 13606619,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "引路草1",
+  ["NPCId"]= 13605019,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1360
+},
+[13606620] = {
+  ["Areaname"]= "Areaname10406245",
+  ["Dropid"]= 521330006,
+  ["ExtraDrop"]= {
+    529999004,
+    509999005
+  },
+  ["Id"]= 13606620,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "引路草2",
+  ["NPCId"]= 13605020,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1360,
+  ["ShowMap"]= 1
+},
+[13606621] = {
+  ["Areaname"]= "Areaname10406245",
+  ["Dropid"]= 521330006,
+  ["ExtraDrop"]= {
+    529999004,
+    509999005
+  },
+  ["Id"]= 13606621,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "引路草3",
+  ["NPCId"]= 13605021,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1360
+},
+[13606622] = {
+  ["Areaname"]= "Areaname10406245",
+  ["Dropid"]= 521330006,
+  ["ExtraDrop"]= {
+    529999004,
+    509999005
+  },
+  ["Id"]= 13606622,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "引路草4",
+  ["NPCId"]= 13605022,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1360
+},
+[13606623] = {
+  ["Areaname"]= "Areaname10406245",
+  ["Dropid"]= 521330006,
+  ["ExtraDrop"]= {
+    529999004,
+    509999005
+  },
+  ["Id"]= 13606623,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "引路草5",
+  ["NPCId"]= 13605023,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1360,
+  ["ShowMap"]= 1
+},
+[13606624] = {
+  ["Areaname"]= "Areaname10406245",
+  ["Dropid"]= 521330006,
+  ["ExtraDrop"]= {
+    529999004,
+    509999005
+  },
+  ["Id"]= 13606624,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "引路草6",
+  ["NPCId"]= 13605024,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 1360
+},
+[14206601] = {
+  ["Areaname"]= "Areaname14206601",
+  ["BaitCriticalEnergy"]= {
+    0,
+    0,
+    0
+  },
+  ["BaitCriticalNum"]= {
+    0,
+    0,
+    0
+  },
+  ["BaitCriticalRate"]= {
+    0,
+    0,
+    0
+  },
+  ["BaitDropId"]= {
+    501420002,
+    501420003,
+    501420004
+  },
+  ["BaitId"]= {
+    10413012,
+    10413013,
+    10413014
+  },
+  ["ButtonName"]= "",
+  ["Dropid"]= 501420001,
+  ["ExtraDrop"]= {
+    509999001
+  },
+  ["FishEnergy"]= 10,
+  ["FishExp"]= 10,
+  ["FishingFace"]= {
+    ["PX"]= 13,
+    ["PY"]= 1,
+    ["PZ"]= 131
+  },
+  ["GetFishCD"]= 10,
+  ["Id"]= 14206601,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "斐扬东钓鱼",
+  ["PickCD"]= 0,
+  ["PickEnergy"]= 0,
+  ["PickExp"]= 0,
+  ["RefreshNum"]= 0,
+  ["SceneId"]= 1420,
+  ["ShowMap"]= 1,
+  ["SingleRefreshNum"]= 0,
+  ["Time"]= {},
+  ["Type"]= 1
+},
+[14206602] = {
+  ["Areaname"]= "Areaname10406236",
+  ["Dropid"]= 521430004,
+  ["Id"]= 14206602,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "紫色药草1",
+  ["NPCId"]= 14205001,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1420
+},
+[14206603] = {
+  ["Areaname"]= "Areaname10406236",
+  ["Dropid"]= 521430004,
+  ["Id"]= 14206603,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "紫色药草2",
+  ["NPCId"]= 14205002,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1420,
+  ["ShowMap"]= 1
+},
+[14206604] = {
+  ["Areaname"]= "Areaname10406236",
+  ["Dropid"]= 521430004,
+  ["Id"]= 14206604,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "紫色药草3",
+  ["NPCId"]= 14205003,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1420
+},
+[14206605] = {
+  ["Areaname"]= "Areaname10406236",
+  ["Dropid"]= 521430004,
+  ["Id"]= 14206605,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "紫色药草4",
+  ["NPCId"]= 14205004,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1420
+},
+[14206606] = {
+  ["Areaname"]= "Areaname10406236",
+  ["Dropid"]= 521430004,
+  ["Id"]= 14206606,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "紫色药草5",
+  ["NPCId"]= 14205005,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1420,
+  ["ShowMap"]= 1
+},
+[14206607] = {
+  ["Areaname"]= "Areaname10406236",
+  ["Dropid"]= 521430004,
+  ["Id"]= 14206607,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "紫色药草6",
+  ["NPCId"]= 14205006,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1420
+},
+[14206608] = {
+  ["Areaname"]= "Areaname10406221",
+  ["Dropid"]= 521430002,
+  ["Id"]= 14206608,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "野菊1",
+  ["NPCId"]= 14205007,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1420
+},
+[14206609] = {
+  ["Areaname"]= "Areaname10406221",
+  ["Dropid"]= 521430002,
+  ["Id"]= 14206609,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "野菊2",
+  ["NPCId"]= 14205008,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1420,
+  ["ShowMap"]= 1
+},
+[14206610] = {
+  ["Areaname"]= "Areaname10406221",
+  ["Dropid"]= 521430002,
+  ["Id"]= 14206610,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "野菊3",
+  ["NPCId"]= 14205009,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1420
+},
+[14206611] = {
+  ["Areaname"]= "Areaname10406221",
+  ["Dropid"]= 521430002,
+  ["Id"]= 14206611,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "野菊4",
+  ["NPCId"]= 14205010,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1420
+},
+[14206612] = {
+  ["Areaname"]= "Areaname10406221",
+  ["Dropid"]= 521430002,
+  ["Id"]= 14206612,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "野菊5",
+  ["NPCId"]= 14205011,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1420,
+  ["ShowMap"]= 1
+},
+[14206613] = {
+  ["Areaname"]= "Areaname10406221",
+  ["Dropid"]= 521430002,
+  ["Id"]= 14206613,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "野菊6",
+  ["NPCId"]= 14205012,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1420
+},
+[14206614] = {
+  ["Areaname"]= "Areaname10406249",
+  ["Dropid"]= 521450004,
+  ["ExtraDrop"]= {
+    529999006,
+    509999004
+  },
+  ["Id"]= 14206614,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "拘魂堇1",
+  ["NPCId"]= 14205013,
+  ["SceneId"]= 1420,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14206615] = {
+  ["Areaname"]= "Areaname10406249",
+  ["Dropid"]= 521450004,
+  ["ExtraDrop"]= {
+    529999006,
+    509999004
+  },
+  ["Id"]= 14206615,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "拘魂堇2",
+  ["NPCId"]= 14205014,
+  ["SceneId"]= 1420,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14206616] = {
+  ["Areaname"]= "Areaname10406249",
+  ["Dropid"]= 521450004,
+  ["ExtraDrop"]= {
+    529999006,
+    509999004
+  },
+  ["Id"]= 14206616,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "拘魂堇3",
+  ["NPCId"]= 14205015,
+  ["SceneId"]= 1420,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14206617] = {
+  ["Areaname"]= "Areaname10406249",
+  ["Dropid"]= 521450004,
+  ["ExtraDrop"]= {
+    529999006,
+    509999004
+  },
+  ["Id"]= 14206617,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "拘魂堇4",
+  ["NPCId"]= 14205016,
+  ["SceneId"]= 1420,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14206618] = {
+  ["Areaname"]= "Areaname10406249",
+  ["Dropid"]= 521450004,
+  ["ExtraDrop"]= {
+    529999006,
+    509999004
+  },
+  ["Id"]= 14206618,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "拘魂堇5",
+  ["NPCId"]= 14205017,
+  ["SceneId"]= 1420,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14206619] = {
+  ["Areaname"]= "Areaname10406249",
+  ["Dropid"]= 521450004,
+  ["ExtraDrop"]= {
+    529999006,
+    509999004
+  },
+  ["Id"]= 14206619,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "拘魂堇6",
+  ["NPCId"]= 14205018,
+  ["SceneId"]= 1420,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14206620] = {
+  ["Areaname"]= "Areaname10406250",
+  ["Dropid"]= 521450005,
+  ["ExtraDrop"]= {
+    529999006,
+    509999004
+  },
+  ["Id"]= 14206620,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "绒荧草1",
+  ["NPCId"]= 14205019,
+  ["SceneId"]= 1420,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14206621] = {
+  ["Areaname"]= "Areaname10406250",
+  ["Dropid"]= 521450005,
+  ["ExtraDrop"]= {
+    529999006,
+    509999004
+  },
+  ["Id"]= 14206621,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "绒荧草2",
+  ["NPCId"]= 14205020,
+  ["SceneId"]= 1420,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14206622] = {
+  ["Areaname"]= "Areaname10406250",
+  ["Dropid"]= 521450005,
+  ["ExtraDrop"]= {
+    529999006,
+    509999004
+  },
+  ["Id"]= 14206622,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "绒荧草3",
+  ["NPCId"]= 14205021,
+  ["SceneId"]= 1420,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14206623] = {
+  ["Areaname"]= "Areaname10406250",
+  ["Dropid"]= 521450005,
+  ["ExtraDrop"]= {
+    529999006,
+    509999004
+  },
+  ["Id"]= 14206623,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "绒荧草4",
+  ["NPCId"]= 14205022,
+  ["SceneId"]= 1420,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14206624] = {
+  ["Areaname"]= "Areaname10406250",
+  ["Dropid"]= 521450005,
+  ["ExtraDrop"]= {
+    529999006,
+    509999004
+  },
+  ["Id"]= 14206624,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "绒荧草5",
+  ["NPCId"]= 14205023,
+  ["SceneId"]= 1420,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14206625] = {
+  ["Areaname"]= "Areaname10406250",
+  ["Dropid"]= 521450005,
+  ["ExtraDrop"]= {
+    529999006,
+    509999004
+  },
+  ["Id"]= 14206625,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "绒荧草6",
+  ["NPCId"]= 14205024,
+  ["SceneId"]= 1420,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14206626] = {
+  ["Areaname"]= "Areaname10406251",
+  ["Dropid"]= 521450006,
+  ["ExtraDrop"]= {
+    529999006,
+    509999004
+  },
+  ["Id"]= 14206626,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "结霜草1",
+  ["NPCId"]= 14205025,
+  ["SceneId"]= 1420,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14206627] = {
+  ["Areaname"]= "Areaname10406251",
+  ["Dropid"]= 521450006,
+  ["ExtraDrop"]= {
+    529999006,
+    509999004
+  },
+  ["Id"]= 14206627,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "结霜草2",
+  ["NPCId"]= 14205026,
+  ["SceneId"]= 1420,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14206628] = {
+  ["Areaname"]= "Areaname10406251",
+  ["Dropid"]= 521450006,
+  ["ExtraDrop"]= {
+    529999006,
+    509999004
+  },
+  ["Id"]= 14206628,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "结霜草3",
+  ["NPCId"]= 14205027,
+  ["SceneId"]= 1420,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14206629] = {
+  ["Areaname"]= "Areaname10406251",
+  ["Dropid"]= 521450006,
+  ["ExtraDrop"]= {
+    529999006,
+    509999004
+  },
+  ["Id"]= 14206629,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "结霜草4",
+  ["NPCId"]= 14205028,
+  ["SceneId"]= 1420,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14206630] = {
+  ["Areaname"]= "Areaname10406251",
+  ["Dropid"]= 521450006,
+  ["ExtraDrop"]= {
+    529999006,
+    509999004
+  },
+  ["Id"]= 14206630,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "结霜草5",
+  ["NPCId"]= 14205029,
+  ["SceneId"]= 1420,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14206631] = {
+  ["Areaname"]= "Areaname10406251",
+  ["Dropid"]= 521450006,
+  ["ExtraDrop"]= {
+    529999006,
+    509999004
+  },
+  ["Id"]= 14206631,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "结霜草6",
+  ["NPCId"]= 14205030,
+  ["SceneId"]= 1420,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14306601] = {
+  ["Areaname"]= "Areaname10406236",
+  ["Dropid"]= 521430004,
+  ["Id"]= 14306601,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "紫色药草1",
+  ["NPCId"]= 14305001,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1430
+},
+[14306602] = {
+  ["Areaname"]= "Areaname10406236",
+  ["Dropid"]= 521430004,
+  ["Id"]= 14306602,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "紫色药草2",
+  ["NPCId"]= 14305002,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1430,
+  ["ShowMap"]= 1
+},
+[14306603] = {
+  ["Areaname"]= "Areaname10406236",
+  ["Dropid"]= 521430004,
+  ["Id"]= 14306603,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "紫色药草3",
+  ["NPCId"]= 14305003,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1430
+},
+[14306604] = {
+  ["Areaname"]= "Areaname10406236",
+  ["Dropid"]= 521430004,
+  ["Id"]= 14306604,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "紫色药草4",
+  ["NPCId"]= 14305004,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1430
+},
+[14306605] = {
+  ["Areaname"]= "Areaname10406236",
+  ["Dropid"]= 521430004,
+  ["Id"]= 14306605,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "紫色药草5",
+  ["NPCId"]= 14305005,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1430,
+  ["ShowMap"]= 1
+},
+[14306606] = {
+  ["Areaname"]= "Areaname10406236",
+  ["Dropid"]= 521430004,
+  ["Id"]= 14306606,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "紫色药草6",
+  ["NPCId"]= 14305006,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1430
+},
+[14306607] = {
+  ["Areaname"]= "Areaname10406203",
+  ["Dropid"]= 521450003,
+  ["Id"]= 14306607,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "竹笋1",
+  ["NPCId"]= 14305007,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1430
+},
+[14306608] = {
+  ["Areaname"]= "Areaname10406203",
+  ["Dropid"]= 521450003,
+  ["Id"]= 14306608,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "竹笋2",
+  ["NPCId"]= 14305008,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1430,
+  ["ShowMap"]= 1
+},
+[14306609] = {
+  ["Areaname"]= "Areaname10406203",
+  ["Dropid"]= 521450003,
+  ["Id"]= 14306609,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "竹笋3",
+  ["NPCId"]= 14305009,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1430
+},
+[14306610] = {
+  ["Areaname"]= "Areaname10406203",
+  ["Dropid"]= 521450003,
+  ["Id"]= 14306610,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "竹笋4",
+  ["NPCId"]= 14305010,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1430
+},
+[14306611] = {
+  ["Areaname"]= "Areaname10406203",
+  ["Dropid"]= 521450003,
+  ["Id"]= 14306611,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "竹笋5",
+  ["NPCId"]= 14305011,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1430,
+  ["ShowMap"]= 1
+},
+[14306612] = {
+  ["Areaname"]= "Areaname10406203",
+  ["Dropid"]= 521450003,
+  ["Id"]= 14306612,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "竹笋6",
+  ["NPCId"]= 14305012,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1430
+},
+[14406601] = {
+  ["Areaname"]= "Areaname10406221",
+  ["Dropid"]= 521430002,
+  ["Id"]= 14406601,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "野菊1",
+  ["NPCId"]= 14405001,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1440
+},
+[14406602] = {
+  ["Areaname"]= "Areaname10406221",
+  ["Dropid"]= 521430002,
+  ["Id"]= 14406602,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "野菊2",
+  ["NPCId"]= 14405002,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1440,
+  ["ShowMap"]= 1
+},
+[14406603] = {
+  ["Areaname"]= "Areaname10406221",
+  ["Dropid"]= 521430002,
+  ["Id"]= 14406603,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "野菊3",
+  ["NPCId"]= 14405003,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1440
+},
+[14406604] = {
+  ["Areaname"]= "Areaname10406221",
+  ["Dropid"]= 521430002,
+  ["Id"]= 14406604,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "野菊4",
+  ["NPCId"]= 14405004,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1440
+},
+[14406605] = {
+  ["Areaname"]= "Areaname10406221",
+  ["Dropid"]= 521430002,
+  ["Id"]= 14406605,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "野菊5",
+  ["NPCId"]= 14405005,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1440,
+  ["ShowMap"]= 1
+},
+[14406606] = {
+  ["Areaname"]= "Areaname10406221",
+  ["Dropid"]= 521430002,
+  ["Id"]= 14406606,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "野菊6",
+  ["NPCId"]= 14405006,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1440
+},
+[14406607] = {
+  ["Areaname"]= "Areaname10406203",
+  ["Dropid"]= 521450003,
+  ["Id"]= 14406607,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "竹笋1",
+  ["NPCId"]= 14405007,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1440
+},
+[14406608] = {
+  ["Areaname"]= "Areaname10406203",
+  ["Dropid"]= 521450003,
+  ["Id"]= 14406608,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "竹笋2",
+  ["NPCId"]= 14405008,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1440,
+  ["ShowMap"]= 1
+},
+[14406609] = {
+  ["Areaname"]= "Areaname10406203",
+  ["Dropid"]= 521450003,
+  ["Id"]= 14406609,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "竹笋3",
+  ["NPCId"]= 14405009,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1440
+},
+[14406610] = {
+  ["Areaname"]= "Areaname10406203",
+  ["Dropid"]= 521450003,
+  ["Id"]= 14406610,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "竹笋4",
+  ["NPCId"]= 14405010,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1440
+},
+[14406611] = {
+  ["Areaname"]= "Areaname10406203",
+  ["Dropid"]= 521450003,
+  ["Id"]= 14406611,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "竹笋5",
+  ["NPCId"]= 14405011,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1440,
+  ["ShowMap"]= 1
+},
+[14406612] = {
+  ["Areaname"]= "Areaname10406203",
+  ["Dropid"]= 521450003,
+  ["Id"]= 14406612,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "竹笋6",
+  ["NPCId"]= 14405012,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1440
+},
+[14406613] = {
+  ["Areaname"]= "Areaname10406249",
+  ["Dropid"]= 521450004,
+  ["ExtraDrop"]= {
+    529999006,
+    509999004
+  },
+  ["Id"]= 14406613,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "拘魂堇1",
+  ["NPCId"]= 14405013,
+  ["SceneId"]= 1440,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14406614] = {
+  ["Areaname"]= "Areaname10406249",
+  ["Dropid"]= 521450004,
+  ["ExtraDrop"]= {
+    529999006,
+    509999004
+  },
+  ["Id"]= 14406614,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "拘魂堇2",
+  ["NPCId"]= 14405014,
+  ["SceneId"]= 1440,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14406615] = {
+  ["Areaname"]= "Areaname10406249",
+  ["Dropid"]= 521450004,
+  ["ExtraDrop"]= {
+    529999006,
+    509999004
+  },
+  ["Id"]= 14406615,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "拘魂堇3",
+  ["NPCId"]= 14405015,
+  ["SceneId"]= 1440,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14406616] = {
+  ["Areaname"]= "Areaname10406249",
+  ["Dropid"]= 521450004,
+  ["ExtraDrop"]= {
+    529999006,
+    509999004
+  },
+  ["Id"]= 14406616,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "拘魂堇4",
+  ["NPCId"]= 14405016,
+  ["SceneId"]= 1440,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14406617] = {
+  ["Areaname"]= "Areaname10406249",
+  ["Dropid"]= 521450004,
+  ["ExtraDrop"]= {
+    529999006,
+    509999004
+  },
+  ["Id"]= 14406617,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "拘魂堇5",
+  ["NPCId"]= 14405017,
+  ["SceneId"]= 1440,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14406618] = {
+  ["Areaname"]= "Areaname10406249",
+  ["Dropid"]= 521450004,
+  ["ExtraDrop"]= {
+    529999006,
+    509999004
+  },
+  ["Id"]= 14406618,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "拘魂堇6",
+  ["NPCId"]= 14405018,
+  ["SceneId"]= 1440,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14406619] = {
+  ["Areaname"]= "Areaname10406250",
+  ["Dropid"]= 521450005,
+  ["ExtraDrop"]= {
+    529999006,
+    509999004
+  },
+  ["Id"]= 14406619,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "绒荧草1",
+  ["NPCId"]= 14405019,
+  ["SceneId"]= 1440,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14406620] = {
+  ["Areaname"]= "Areaname10406250",
+  ["Dropid"]= 521450005,
+  ["ExtraDrop"]= {
+    529999006,
+    509999004
+  },
+  ["Id"]= 14406620,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "绒荧草2",
+  ["NPCId"]= 14405020,
+  ["SceneId"]= 1440,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14406621] = {
+  ["Areaname"]= "Areaname10406250",
+  ["Dropid"]= 521450005,
+  ["ExtraDrop"]= {
+    529999006,
+    509999004
+  },
+  ["Id"]= 14406621,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "绒荧草3",
+  ["NPCId"]= 14405021,
+  ["SceneId"]= 1440,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14406622] = {
+  ["Areaname"]= "Areaname10406250",
+  ["Dropid"]= 521450005,
+  ["ExtraDrop"]= {
+    529999006,
+    509999004
+  },
+  ["Id"]= 14406622,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "绒荧草4",
+  ["NPCId"]= 14405022,
+  ["SceneId"]= 1440,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14406623] = {
+  ["Areaname"]= "Areaname10406250",
+  ["Dropid"]= 521450005,
+  ["ExtraDrop"]= {
+    529999006,
+    509999004
+  },
+  ["Id"]= 14406623,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "绒荧草5",
+  ["NPCId"]= 14405023,
+  ["SceneId"]= 1440,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14406624] = {
+  ["Areaname"]= "Areaname10406250",
+  ["Dropid"]= 521450005,
+  ["ExtraDrop"]= {
+    529999006,
+    509999004
+  },
+  ["Id"]= 14406624,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "绒荧草6",
+  ["NPCId"]= 14405024,
+  ["SceneId"]= 1440,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14406625] = {
+  ["Areaname"]= "Areaname10406251",
+  ["Dropid"]= 521450006,
+  ["ExtraDrop"]= {
+    529999006,
+    509999004
+  },
+  ["Id"]= 14406625,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "结霜草1",
+  ["NPCId"]= 14405025,
+  ["SceneId"]= 1440,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14406626] = {
+  ["Areaname"]= "Areaname10406251",
+  ["Dropid"]= 521450006,
+  ["ExtraDrop"]= {
+    529999006,
+    509999004
+  },
+  ["Id"]= 14406626,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "结霜草2",
+  ["NPCId"]= 14405026,
+  ["SceneId"]= 1440,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14406627] = {
+  ["Areaname"]= "Areaname10406251",
+  ["Dropid"]= 521450006,
+  ["ExtraDrop"]= {
+    529999006,
+    509999004
+  },
+  ["Id"]= 14406627,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "结霜草3",
+  ["NPCId"]= 14405027,
+  ["SceneId"]= 1440,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14406628] = {
+  ["Areaname"]= "Areaname10406251",
+  ["Dropid"]= 521450006,
+  ["ExtraDrop"]= {
+    529999006,
+    509999004
+  },
+  ["Id"]= 14406628,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "结霜草4",
+  ["NPCId"]= 14405028,
+  ["SceneId"]= 1440,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14406629] = {
+  ["Areaname"]= "Areaname10406251",
+  ["Dropid"]= 521450006,
+  ["ExtraDrop"]= {
+    529999006,
+    509999004
+  },
+  ["Id"]= 14406629,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "结霜草5",
+  ["NPCId"]= 14405029,
+  ["SceneId"]= 1440,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14406630] = {
+  ["Areaname"]= "Areaname10406251",
+  ["Dropid"]= 521450006,
+  ["ExtraDrop"]= {
+    529999006,
+    509999004
+  },
+  ["Id"]= 14406630,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "结霜草6",
+  ["NPCId"]= 14405030,
+  ["SceneId"]= 1440,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14506601] = {
+  ["Areaname"]= "Areaname10406252",
+  ["Dropid"]= 521450007,
+  ["Id"]= 14506601,
+  ["Name"]= "洞窟香草1",
+  ["NPCId"]= 14505001,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1450
+},
+[14506602] = {
+  ["Areaname"]= "Areaname10406252",
+  ["Dropid"]= 521450007,
+  ["Id"]= 14506602,
+  ["Name"]= "洞窟香草2",
+  ["NPCId"]= 14505002,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1450,
+  ["ShowMap"]= 1
+},
+[14506603] = {
+  ["Areaname"]= "Areaname10406252",
+  ["Dropid"]= 521450007,
+  ["Id"]= 14506603,
+  ["Name"]= "洞窟香草3",
+  ["NPCId"]= 14505003,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1450
+},
+[14506604] = {
+  ["Areaname"]= "Areaname10406252",
+  ["Dropid"]= 521450007,
+  ["Id"]= 14506604,
+  ["Name"]= "洞窟香草4",
+  ["NPCId"]= 14505004,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1450
+},
+[14506605] = {
+  ["Areaname"]= "Areaname10406252",
+  ["Dropid"]= 521450007,
+  ["Id"]= 14506605,
+  ["Name"]= "洞窟香草5",
+  ["NPCId"]= 14505005,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1450,
+  ["ShowMap"]= 1
+},
+[14506606] = {
+  ["Areaname"]= "Areaname10406252",
+  ["Dropid"]= 521450007,
+  ["Id"]= 14506606,
+  ["Name"]= "洞窟香草6",
+  ["NPCId"]= 14505006,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1450
+},
+[14506607] = {
+  ["Areaname"]= "Areaname10406253",
+  ["Dropid"]= 521450008,
+  ["Id"]= 14506607,
+  ["Name"]= "酸果1",
+  ["NPCId"]= 14505007,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1450
+},
+[14506608] = {
+  ["Areaname"]= "Areaname10406253",
+  ["Dropid"]= 521450008,
+  ["Id"]= 14506608,
+  ["Name"]= "酸果2",
+  ["NPCId"]= 14505008,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1450,
+  ["ShowMap"]= 1
+},
+[14506609] = {
+  ["Areaname"]= "Areaname10406253",
+  ["Dropid"]= 521450008,
+  ["Id"]= 14506609,
+  ["Name"]= "酸果3",
+  ["NPCId"]= 14505009,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1450
+},
+[14506610] = {
+  ["Areaname"]= "Areaname10406253",
+  ["Dropid"]= 521450008,
+  ["Id"]= 14506610,
+  ["Name"]= "酸果4",
+  ["NPCId"]= 14505010,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1450
+},
+[14506611] = {
+  ["Areaname"]= "Areaname10406253",
+  ["Dropid"]= 521450008,
+  ["Id"]= 14506611,
+  ["Name"]= "酸果5",
+  ["NPCId"]= 14505011,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1450,
+  ["ShowMap"]= 1
+},
+[14506612] = {
+  ["Areaname"]= "Areaname10406253",
+  ["Dropid"]= 521450008,
+  ["Id"]= 14506612,
+  ["Name"]= "酸果6",
+  ["NPCId"]= 14505012,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1450
+},
+[14506613] = {
+  ["Areaname"]= "Areaname10406254",
+  ["Dropid"]= 521450009,
+  ["Id"]= 14506613,
+  ["Name"]= "青薄荷1",
+  ["NPCId"]= 14505013,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1450
+},
+[14506614] = {
+  ["Areaname"]= "Areaname10406254",
+  ["Dropid"]= 521450009,
+  ["Id"]= 14506614,
+  ["Name"]= "青薄荷2",
+  ["NPCId"]= 14505014,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1450,
+  ["ShowMap"]= 1
+},
+[14506615] = {
+  ["Areaname"]= "Areaname10406254",
+  ["Dropid"]= 521450009,
+  ["Id"]= 14506615,
+  ["Name"]= "青薄荷3",
+  ["NPCId"]= 14505015,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1450
+},
+[14506616] = {
+  ["Areaname"]= "Areaname10406254",
+  ["Dropid"]= 521450009,
+  ["Id"]= 14506616,
+  ["Name"]= "青薄荷4",
+  ["NPCId"]= 14505016,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1450
+},
+[14506617] = {
+  ["Areaname"]= "Areaname10406254",
+  ["Dropid"]= 521450009,
+  ["Id"]= 14506617,
+  ["Name"]= "青薄荷5",
+  ["NPCId"]= 14505017,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1450,
+  ["ShowMap"]= 1
+},
+[14506618] = {
+  ["Areaname"]= "Areaname10406254",
+  ["Dropid"]= 521450009,
+  ["Id"]= 14506618,
+  ["Name"]= "青薄荷6",
+  ["NPCId"]= 14505018,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1450
+},
+[14506619] = {
+  ["Areaname"]= "Areaname10406229",
+  ["Dropid"]= 521450001,
+  ["ExtraDrop"]= {
+    529999007,
+    509999004
+  },
+  ["Id"]= 14506619,
+  ["Name"]= "阴气草1",
+  ["NPCId"]= 14505019,
+  ["SceneId"]= 1450,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14506620] = {
+  ["Areaname"]= "Areaname10406229",
+  ["Dropid"]= 521450001,
+  ["ExtraDrop"]= {
+    529999007,
+    509999004
+  },
+  ["Id"]= 14506620,
+  ["Name"]= "阴气草2",
+  ["NPCId"]= 14505020,
+  ["SceneId"]= 1450,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14506621] = {
+  ["Areaname"]= "Areaname10406229",
+  ["Dropid"]= 521450001,
+  ["ExtraDrop"]= {
+    529999007,
+    509999004
+  },
+  ["Id"]= 14506621,
+  ["Name"]= "阴气草3",
+  ["NPCId"]= 14505021,
+  ["SceneId"]= 1450,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14506622] = {
+  ["Areaname"]= "Areaname10406229",
+  ["Dropid"]= 521450001,
+  ["ExtraDrop"]= {
+    529999007,
+    509999004
+  },
+  ["Id"]= 14506622,
+  ["Name"]= "阴气草4",
+  ["NPCId"]= 14505022,
+  ["SceneId"]= 1450,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14506623] = {
+  ["Areaname"]= "Areaname10406229",
+  ["Dropid"]= 521450001,
+  ["ExtraDrop"]= {
+    529999007,
+    509999004
+  },
+  ["Id"]= 14506623,
+  ["Name"]= "阴气草5",
+  ["NPCId"]= 14505023,
+  ["SceneId"]= 1450,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14506624] = {
+  ["Areaname"]= "Areaname10406229",
+  ["Dropid"]= 521450001,
+  ["ExtraDrop"]= {
+    529999007,
+    509999004
+  },
+  ["Id"]= 14506624,
+  ["Name"]= "阴气草6",
+  ["NPCId"]= 14505024,
+  ["SceneId"]= 1450,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14506625] = {
+  ["Areaname"]= "Areaname10406233",
+  ["Dropid"]= 521430003,
+  ["ExtraDrop"]= {
+    529999007,
+    509999004
+  },
+  ["Id"]= 14506625,
+  ["Name"]= "赭色花苗1",
+  ["NPCId"]= 14505025,
+  ["SceneId"]= 1450,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14506626] = {
+  ["Areaname"]= "Areaname10406233",
+  ["Dropid"]= 521430003,
+  ["ExtraDrop"]= {
+    529999007,
+    509999004
+  },
+  ["Id"]= 14506626,
+  ["Name"]= "赭色花苗2",
+  ["NPCId"]= 14505026,
+  ["SceneId"]= 1450,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14506627] = {
+  ["Areaname"]= "Areaname10406233",
+  ["Dropid"]= 521430003,
+  ["ExtraDrop"]= {
+    529999007,
+    509999004
+  },
+  ["Id"]= 14506627,
+  ["Name"]= "赭色花苗3",
+  ["NPCId"]= 14505027,
+  ["SceneId"]= 1450,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14506628] = {
+  ["Areaname"]= "Areaname10406233",
+  ["Dropid"]= 521430003,
+  ["ExtraDrop"]= {
+    529999007,
+    509999004
+  },
+  ["Id"]= 14506628,
+  ["Name"]= "赭色花苗4",
+  ["NPCId"]= 14505028,
+  ["SceneId"]= 1450,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14506629] = {
+  ["Areaname"]= "Areaname10406233",
+  ["Dropid"]= 521430003,
+  ["ExtraDrop"]= {
+    529999007,
+    509999004
+  },
+  ["Id"]= 14506629,
+  ["Name"]= "赭色花苗5",
+  ["NPCId"]= 14505029,
+  ["SceneId"]= 1450,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14506630] = {
+  ["Areaname"]= "Areaname10406233",
+  ["Dropid"]= 521430003,
+  ["ExtraDrop"]= {
+    529999007,
+    509999004
+  },
+  ["Id"]= 14506630,
+  ["Name"]= "赭色花苗6",
+  ["NPCId"]= 14505030,
+  ["SceneId"]= 1450,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14506631] = {
+  ["Areaname"]= "Areaname10406226",
+  ["Dropid"]= 521160001,
+  ["ExtraDrop"]= {
+    529999007,
+    509999004
+  },
+  ["Id"]= 14506631,
+  ["Name"]= "静谧花1",
+  ["NPCId"]= 14505031,
+  ["SceneId"]= 1450,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14506632] = {
+  ["Areaname"]= "Areaname10406226",
+  ["Dropid"]= 521160001,
+  ["ExtraDrop"]= {
+    529999007,
+    509999004
+  },
+  ["Id"]= 14506632,
+  ["Name"]= "静谧花2",
+  ["NPCId"]= 14505032,
+  ["SceneId"]= 1450,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14506633] = {
+  ["Areaname"]= "Areaname10406226",
+  ["Dropid"]= 521160001,
+  ["ExtraDrop"]= {
+    529999007,
+    509999004
+  },
+  ["Id"]= 14506633,
+  ["Name"]= "静谧花3",
+  ["NPCId"]= 14505033,
+  ["SceneId"]= 1450,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14506634] = {
+  ["Areaname"]= "Areaname10406226",
+  ["Dropid"]= 521160001,
+  ["ExtraDrop"]= {
+    529999007,
+    509999004
+  },
+  ["Id"]= 14506634,
+  ["Name"]= "静谧花4",
+  ["NPCId"]= 14505034,
+  ["SceneId"]= 1450,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14506635] = {
+  ["Areaname"]= "Areaname10406226",
+  ["Dropid"]= 521160001,
+  ["ExtraDrop"]= {
+    529999007,
+    509999004
+  },
+  ["Id"]= 14506635,
+  ["Name"]= "静谧花5",
+  ["NPCId"]= 14505035,
+  ["SceneId"]= 1450,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14506636] = {
+  ["Areaname"]= "Areaname10406226",
+  ["Dropid"]= 521160001,
+  ["ExtraDrop"]= {
+    529999007,
+    509999004
+  },
+  ["Id"]= 14506636,
+  ["Name"]= "静谧花6",
+  ["NPCId"]= 14505036,
+  ["SceneId"]= 1450,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14506637] = {
+  ["Areaname"]= "Areaname14506637",
+  ["BaitCriticalEnergy"]= {
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  },
+  ["BaitCriticalNum"]= {
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  },
+  ["BaitCriticalRate"]= {
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  },
+  ["BaitDropId"]= {
+    501450002,
+    501450003,
+    501450004,
+    501450005,
+    501450006,
+    501450007
+  },
+  ["BaitId"]= {
+    10413015,
+    10413016,
+    10413017,
+    10406206,
+    10406216,
+    10406207
+  },
+  ["ButtonName"]= "",
+  ["Dropid"]= 501450001,
+  ["ExtraDrop"]= {
+    509999001
+  },
+  ["FishEnergy"]= 10,
+  ["FishExp"]= 10,
+  ["FishingFace"]= {
+    ["PX"]= 114,
+    ["PY"]= 96,
+    ["PZ"]= 284
+  },
+  ["GetFishCD"]= 10,
+  ["Id"]= 14506637,
+  ["Name"]= "斐扬洞窟1F钓鱼",
+  ["PickCD"]= 0,
+  ["PickEnergy"]= 0,
+  ["PickExp"]= 0,
+  ["RefreshNum"]= 0,
+  ["SceneId"]= 1450,
+  ["ShowMap"]= 1,
+  ["SingleRefreshNum"]= 0,
+  ["Time"]= {},
+  ["Type"]= 1
+},
+[14606601] = {
+  ["Areaname"]= "Areaname10406252",
+  ["Dropid"]= 521450007,
+  ["Id"]= 14606601,
+  ["Name"]= "洞窟香草1",
+  ["NPCId"]= 14605001,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1460
+},
+[14606602] = {
+  ["Areaname"]= "Areaname10406252",
+  ["Dropid"]= 521450007,
+  ["Id"]= 14606602,
+  ["Name"]= "洞窟香草2",
+  ["NPCId"]= 14605002,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1460,
+  ["ShowMap"]= 1
+},
+[14606603] = {
+  ["Areaname"]= "Areaname10406252",
+  ["Dropid"]= 521450007,
+  ["Id"]= 14606603,
+  ["Name"]= "洞窟香草3",
+  ["NPCId"]= 14605003,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1460
+},
+[14606604] = {
+  ["Areaname"]= "Areaname10406252",
+  ["Dropid"]= 521450007,
+  ["Id"]= 14606604,
+  ["Name"]= "洞窟香草4",
+  ["NPCId"]= 14605004,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1460
+},
+[14606605] = {
+  ["Areaname"]= "Areaname10406252",
+  ["Dropid"]= 521450007,
+  ["Id"]= 14606605,
+  ["Name"]= "洞窟香草5",
+  ["NPCId"]= 14605005,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1460,
+  ["ShowMap"]= 1
+},
+[14606606] = {
+  ["Areaname"]= "Areaname10406252",
+  ["Dropid"]= 521450007,
+  ["Id"]= 14606606,
+  ["Name"]= "洞窟香草6",
+  ["NPCId"]= 14605006,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1460
+},
+[14606607] = {
+  ["Areaname"]= "Areaname10406253",
+  ["Dropid"]= 521450008,
+  ["Id"]= 14606607,
+  ["Name"]= "酸果1",
+  ["NPCId"]= 14605007,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1460
+},
+[14606608] = {
+  ["Areaname"]= "Areaname10406253",
+  ["Dropid"]= 521450008,
+  ["Id"]= 14606608,
+  ["Name"]= "酸果2",
+  ["NPCId"]= 14605008,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1460,
+  ["ShowMap"]= 1
+},
+[14606609] = {
+  ["Areaname"]= "Areaname10406253",
+  ["Dropid"]= 521450008,
+  ["Id"]= 14606609,
+  ["Name"]= "酸果3",
+  ["NPCId"]= 14605009,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1460
+},
+[14606610] = {
+  ["Areaname"]= "Areaname10406253",
+  ["Dropid"]= 521450008,
+  ["Id"]= 14606610,
+  ["Name"]= "酸果4",
+  ["NPCId"]= 14605010,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1460
+},
+[14606611] = {
+  ["Areaname"]= "Areaname10406253",
+  ["Dropid"]= 521450008,
+  ["Id"]= 14606611,
+  ["Name"]= "酸果5",
+  ["NPCId"]= 14605011,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1460,
+  ["ShowMap"]= 1
+},
+[14606612] = {
+  ["Areaname"]= "Areaname10406253",
+  ["Dropid"]= 521450008,
+  ["Id"]= 14606612,
+  ["Name"]= "酸果6",
+  ["NPCId"]= 14605012,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1460
+},
+[14606613] = {
+  ["Areaname"]= "Areaname10406254",
+  ["Dropid"]= 521450009,
+  ["Id"]= 14606613,
+  ["Name"]= "青薄荷1",
+  ["NPCId"]= 14605013,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1460
+},
+[14606614] = {
+  ["Areaname"]= "Areaname10406254",
+  ["Dropid"]= 521450009,
+  ["Id"]= 14606614,
+  ["Name"]= "青薄荷2",
+  ["NPCId"]= 14605014,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1460,
+  ["ShowMap"]= 1
+},
+[14606615] = {
+  ["Areaname"]= "Areaname10406254",
+  ["Dropid"]= 521450009,
+  ["Id"]= 14606615,
+  ["Name"]= "青薄荷3",
+  ["NPCId"]= 14605015,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1460
+},
+[14606616] = {
+  ["Areaname"]= "Areaname10406254",
+  ["Dropid"]= 521450009,
+  ["Id"]= 14606616,
+  ["Name"]= "青薄荷4",
+  ["NPCId"]= 14605016,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1460
+},
+[14606617] = {
+  ["Areaname"]= "Areaname10406254",
+  ["Dropid"]= 521450009,
+  ["Id"]= 14606617,
+  ["Name"]= "青薄荷5",
+  ["NPCId"]= 14605017,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1460,
+  ["ShowMap"]= 1
+},
+[14606618] = {
+  ["Areaname"]= "Areaname10406254",
+  ["Dropid"]= 521450009,
+  ["Id"]= 14606618,
+  ["Name"]= "青薄荷6",
+  ["NPCId"]= 14605018,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1460
+},
+[14606619] = {
+  ["Areaname"]= "Areaname10406229",
+  ["Dropid"]= 521450001,
+  ["ExtraDrop"]= {
+    529999007,
+    509999004
+  },
+  ["Id"]= 14606619,
+  ["Name"]= "阴气草1",
+  ["NPCId"]= 14605019,
+  ["SceneId"]= 1460,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14606620] = {
+  ["Areaname"]= "Areaname10406229",
+  ["Dropid"]= 521450001,
+  ["ExtraDrop"]= {
+    529999007,
+    509999004
+  },
+  ["Id"]= 14606620,
+  ["Name"]= "阴气草2",
+  ["NPCId"]= 14605020,
+  ["SceneId"]= 1460,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14606621] = {
+  ["Areaname"]= "Areaname10406229",
+  ["Dropid"]= 521450001,
+  ["ExtraDrop"]= {
+    529999007,
+    509999004
+  },
+  ["Id"]= 14606621,
+  ["Name"]= "阴气草3",
+  ["NPCId"]= 14605021,
+  ["SceneId"]= 1460,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14606622] = {
+  ["Areaname"]= "Areaname10406229",
+  ["Dropid"]= 521450001,
+  ["ExtraDrop"]= {
+    529999007,
+    509999004
+  },
+  ["Id"]= 14606622,
+  ["Name"]= "阴气草4",
+  ["NPCId"]= 14605022,
+  ["SceneId"]= 1460,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14606623] = {
+  ["Areaname"]= "Areaname10406229",
+  ["Dropid"]= 521450001,
+  ["ExtraDrop"]= {
+    529999007,
+    509999004
+  },
+  ["Id"]= 14606623,
+  ["Name"]= "阴气草5",
+  ["NPCId"]= 14605023,
+  ["SceneId"]= 1460,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14606624] = {
+  ["Areaname"]= "Areaname10406229",
+  ["Dropid"]= 521450001,
+  ["ExtraDrop"]= {
+    529999007,
+    509999004
+  },
+  ["Id"]= 14606624,
+  ["Name"]= "阴气草6",
+  ["NPCId"]= 14605024,
+  ["SceneId"]= 1460,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14606625] = {
+  ["Areaname"]= "Areaname10406233",
+  ["Dropid"]= 521430003,
+  ["ExtraDrop"]= {
+    529999007,
+    509999004
+  },
+  ["Id"]= 14606625,
+  ["Name"]= "赭色花苗1",
+  ["NPCId"]= 14605025,
+  ["SceneId"]= 1460,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14606626] = {
+  ["Areaname"]= "Areaname10406233",
+  ["Dropid"]= 521430003,
+  ["ExtraDrop"]= {
+    529999007,
+    509999004
+  },
+  ["Id"]= 14606626,
+  ["Name"]= "赭色花苗2",
+  ["NPCId"]= 14605026,
+  ["SceneId"]= 1460,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14606627] = {
+  ["Areaname"]= "Areaname10406233",
+  ["Dropid"]= 521430003,
+  ["ExtraDrop"]= {
+    529999007,
+    509999004
+  },
+  ["Id"]= 14606627,
+  ["Name"]= "赭色花苗3",
+  ["NPCId"]= 14605027,
+  ["SceneId"]= 1460,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14606628] = {
+  ["Areaname"]= "Areaname10406233",
+  ["Dropid"]= 521430003,
+  ["ExtraDrop"]= {
+    529999007,
+    509999004
+  },
+  ["Id"]= 14606628,
+  ["Name"]= "赭色花苗4",
+  ["NPCId"]= 14605028,
+  ["SceneId"]= 1460,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14606629] = {
+  ["Areaname"]= "Areaname10406233",
+  ["Dropid"]= 521430003,
+  ["ExtraDrop"]= {
+    529999007,
+    509999004
+  },
+  ["Id"]= 14606629,
+  ["Name"]= "赭色花苗5",
+  ["NPCId"]= 14605029,
+  ["SceneId"]= 1460,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14606630] = {
+  ["Areaname"]= "Areaname10406233",
+  ["Dropid"]= 521430003,
+  ["ExtraDrop"]= {
+    529999007,
+    509999004
+  },
+  ["Id"]= 14606630,
+  ["Name"]= "赭色花苗6",
+  ["NPCId"]= 14605030,
+  ["SceneId"]= 1460,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14606631] = {
+  ["Areaname"]= "Areaname10406226",
+  ["Dropid"]= 521160001,
+  ["ExtraDrop"]= {
+    529999007,
+    509999004
+  },
+  ["Id"]= 14606631,
+  ["Name"]= "静谧花1",
+  ["NPCId"]= 14605031,
+  ["SceneId"]= 1460,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14606632] = {
+  ["Areaname"]= "Areaname10406226",
+  ["Dropid"]= 521160001,
+  ["ExtraDrop"]= {
+    529999007,
+    509999004
+  },
+  ["Id"]= 14606632,
+  ["Name"]= "静谧花2",
+  ["NPCId"]= 14605032,
+  ["SceneId"]= 1460,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14606633] = {
+  ["Areaname"]= "Areaname10406226",
+  ["Dropid"]= 521160001,
+  ["ExtraDrop"]= {
+    529999007,
+    509999004
+  },
+  ["Id"]= 14606633,
+  ["Name"]= "静谧花3",
+  ["NPCId"]= 14605033,
+  ["SceneId"]= 1460,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14606634] = {
+  ["Areaname"]= "Areaname10406226",
+  ["Dropid"]= 521160001,
+  ["ExtraDrop"]= {
+    529999007,
+    509999004
+  },
+  ["Id"]= 14606634,
+  ["Name"]= "静谧花4",
+  ["NPCId"]= 14605034,
+  ["SceneId"]= 1460,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14606635] = {
+  ["Areaname"]= "Areaname10406226",
+  ["Dropid"]= 521160001,
+  ["ExtraDrop"]= {
+    529999007,
+    509999004
+  },
+  ["Id"]= 14606635,
+  ["Name"]= "静谧花5",
+  ["NPCId"]= 14605035,
+  ["SceneId"]= 1460,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[14606636] = {
+  ["Areaname"]= "Areaname10406226",
+  ["Dropid"]= 521160001,
+  ["ExtraDrop"]= {
+    529999007,
+    509999004
+  },
+  ["Id"]= 14606636,
+  ["Name"]= "静谧花6",
+  ["NPCId"]= 14605036,
+  ["SceneId"]= 1460,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[16106601] = {
+  ["Areaname"]= "Areaname16106601",
+  ["BaitCriticalEnergy"]= {
+    0,
+    0,
+    0
+  },
+  ["BaitCriticalNum"]= {
+    0,
+    0,
+    0
+  },
+  ["BaitCriticalRate"]= {
+    0,
+    0,
+    0
+  },
+  ["BaitDropId"]= {
+    501610002,
+    501610003,
+    501610004
+  },
+  ["BaitId"]= {
+    10413236,
+    10413237,
+    10413238
+  },
+  ["ButtonName"]= "",
+  ["Dropid"]= 501610001,
+  ["ExtraDrop"]= {
+    509999001
+  },
+  ["FishEnergy"]= 10,
+  ["FishExp"]= 10,
+  ["FishingFace"]= {
+    ["PX"]= 188,
+    ["PY"]= 1,
+    ["PZ"]= 24
+  },
+  ["GetFishCD"]= 10,
+  ["Id"]= 16106601,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城外围-钓鱼",
+  ["PickCD"]= 0,
+  ["PickEnergy"]= 0,
+  ["PickExp"]= 0,
+  ["RefreshNum"]= 0,
+  ["SceneId"]= 1610,
+  ["ShowMap"]= 1,
+  ["SingleRefreshNum"]= 0,
+  ["Time"]= {},
+  ["Type"]= 1
+},
+[16106602] = {
+  ["Areaname"]= "Areaname10406255",
+  ["Dropid"]= 521610001,
+  ["FishExp"]= 0,
+  ["Id"]= 16106602,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城外围-墨橄榄1",
+  ["NPCId"]= 16105001,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1610
+},
+[16106603] = {
+  ["Areaname"]= "Areaname10406255",
+  ["Dropid"]= 521610001,
+  ["FishExp"]= 0,
+  ["Id"]= 16106603,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城外围-墨橄榄2",
+  ["NPCId"]= 16105002,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1610,
+  ["ShowMap"]= 1
+},
+[16106604] = {
+  ["Areaname"]= "Areaname10406255",
+  ["Dropid"]= 521610001,
+  ["FishExp"]= 0,
+  ["Id"]= 16106604,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城外围-墨橄榄3",
+  ["NPCId"]= 16105003,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1610
+},
+[16106605] = {
+  ["Areaname"]= "Areaname10406255",
+  ["Dropid"]= 521610001,
+  ["FishExp"]= 0,
+  ["Id"]= 16106605,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城外围-墨橄榄4",
+  ["NPCId"]= 16105004,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1610
+},
+[16106606] = {
+  ["Areaname"]= "Areaname10406255",
+  ["Dropid"]= 521610001,
+  ["FishExp"]= 0,
+  ["Id"]= 16106606,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城外围-墨橄榄5",
+  ["NPCId"]= 16105005,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1610,
+  ["ShowMap"]= 1
+},
+[16106607] = {
+  ["Areaname"]= "Areaname10406255",
+  ["Dropid"]= 521610001,
+  ["FishExp"]= 0,
+  ["Id"]= 16106607,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城外围-墨橄榄6",
+  ["NPCId"]= 16105006,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1610
+},
+[16106608] = {
+  ["Areaname"]= "Areaname10406256",
+  ["Dropid"]= 521610002,
+  ["FishExp"]= 0,
+  ["Id"]= 16106608,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城外围-红月玫瑰1",
+  ["NPCId"]= 16105007,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1610
+},
+[16106609] = {
+  ["Areaname"]= "Areaname10406256",
+  ["Dropid"]= 521610002,
+  ["FishExp"]= 0,
+  ["Id"]= 16106609,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城外围-红月玫瑰2",
+  ["NPCId"]= 16105008,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1610,
+  ["ShowMap"]= 1
+},
+[16106610] = {
+  ["Areaname"]= "Areaname10406256",
+  ["Dropid"]= 521610002,
+  ["FishExp"]= 0,
+  ["Id"]= 16106610,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城外围-红月玫瑰3",
+  ["NPCId"]= 16105009,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1610
+},
+[16106611] = {
+  ["Areaname"]= "Areaname10406256",
+  ["Dropid"]= 521610002,
+  ["FishExp"]= 0,
+  ["Id"]= 16106611,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城外围-红月玫瑰4",
+  ["NPCId"]= 16105010,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1610
+},
+[16106612] = {
+  ["Areaname"]= "Areaname10406256",
+  ["Dropid"]= 521610002,
+  ["FishExp"]= 0,
+  ["Id"]= 16106612,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城外围-红月玫瑰5",
+  ["NPCId"]= 16105011,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1610,
+  ["ShowMap"]= 1
+},
+[16106613] = {
+  ["Areaname"]= "Areaname10406256",
+  ["Dropid"]= 521610002,
+  ["FishExp"]= 0,
+  ["Id"]= 16106613,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城外围-红月玫瑰6",
+  ["NPCId"]= 16105012,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1610
+},
+[16206601] = {
+  ["Areaname"]= "Areaname10406255",
+  ["Dropid"]= 521610001,
+  ["FishExp"]= 0,
+  ["Id"]= 16206601,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城下水道-墨橄榄1",
+  ["NPCId"]= 16205001,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1620
+},
+[16206602] = {
+  ["Areaname"]= "Areaname10406255",
+  ["Dropid"]= 521610001,
+  ["FishExp"]= 0,
+  ["Id"]= 16206602,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城下水道-墨橄榄2",
+  ["NPCId"]= 16205002,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1620,
+  ["ShowMap"]= 1
+},
+[16206603] = {
+  ["Areaname"]= "Areaname10406255",
+  ["Dropid"]= 521610001,
+  ["FishExp"]= 0,
+  ["Id"]= 16206603,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城下水道-墨橄榄3",
+  ["NPCId"]= 16205003,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1620
+},
+[16206604] = {
+  ["Areaname"]= "Areaname10406255",
+  ["Dropid"]= 521610001,
+  ["FishExp"]= 0,
+  ["Id"]= 16206604,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城下水道-墨橄榄4",
+  ["NPCId"]= 16205004,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1620
+},
+[16206605] = {
+  ["Areaname"]= "Areaname10406255",
+  ["Dropid"]= 521610001,
+  ["FishExp"]= 0,
+  ["Id"]= 16206605,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城下水道-墨橄榄5",
+  ["NPCId"]= 16205005,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1620,
+  ["ShowMap"]= 1
+},
+[16206606] = {
+  ["Areaname"]= "Areaname10406255",
+  ["Dropid"]= 521610001,
+  ["FishExp"]= 0,
+  ["Id"]= 16206606,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城下水道-墨橄榄6",
+  ["NPCId"]= 16205006,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1620
+},
+[16206607] = {
+  ["Areaname"]= "Areaname10406257",
+  ["Dropid"]= 521610003,
+  ["FishExp"]= 0,
+  ["Id"]= 16206607,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城下水道-忆昔草1",
+  ["NPCId"]= 16205007,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1620
+},
+[16206608] = {
+  ["Areaname"]= "Areaname10406257",
+  ["Dropid"]= 521610003,
+  ["FishExp"]= 0,
+  ["Id"]= 16206608,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城下水道-忆昔草2",
+  ["NPCId"]= 16205008,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1620,
+  ["ShowMap"]= 1
+},
+[16206609] = {
+  ["Areaname"]= "Areaname10406257",
+  ["Dropid"]= 521610003,
+  ["FishExp"]= 0,
+  ["Id"]= 16206609,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城下水道-忆昔草3",
+  ["NPCId"]= 16205009,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1620
+},
+[16206610] = {
+  ["Areaname"]= "Areaname10406257",
+  ["Dropid"]= 521610003,
+  ["FishExp"]= 0,
+  ["Id"]= 16206610,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城下水道-忆昔草4",
+  ["NPCId"]= 16205010,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1620
+},
+[16206611] = {
+  ["Areaname"]= "Areaname10406257",
+  ["Dropid"]= 521610003,
+  ["FishExp"]= 0,
+  ["Id"]= 16206611,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城下水道-忆昔草5",
+  ["NPCId"]= 16205011,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1620,
+  ["ShowMap"]= 1
+},
+[16206612] = {
+  ["Areaname"]= "Areaname10406257",
+  ["Dropid"]= 521610003,
+  ["FishExp"]= 0,
+  ["Id"]= 16206612,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城下水道-忆昔草6",
+  ["NPCId"]= 16205012,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1620
+},
+[16306601] = {
+  ["Areaname"]= "Areaname10406261",
+  ["Dropid"]= 521610004,
+  ["ExtraDrop"]= {
+    509999004,
+    529999009
+  },
+  ["FishExp"]= 0,
+  ["Id"]= 16306601,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城修道院-徊魂叶1",
+  ["NPCId"]= 16305001,
+  ["SceneId"]= 1630,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[16306602] = {
+  ["Areaname"]= "Areaname10406261",
+  ["Dropid"]= 521610004,
+  ["ExtraDrop"]= {
+    509999004,
+    529999009
+  },
+  ["FishExp"]= 0,
+  ["Id"]= 16306602,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城修道院-徊魂叶2",
+  ["NPCId"]= 16305002,
+  ["SceneId"]= 1630,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[16306603] = {
+  ["Areaname"]= "Areaname10406261",
+  ["Dropid"]= 521610004,
+  ["ExtraDrop"]= {
+    509999004,
+    529999009
+  },
+  ["FishExp"]= 0,
+  ["Id"]= 16306603,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城修道院-徊魂叶3",
+  ["NPCId"]= 16305003,
+  ["SceneId"]= 1630,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[16306604] = {
+  ["Areaname"]= "Areaname10406261",
+  ["Dropid"]= 521610004,
+  ["ExtraDrop"]= {
+    509999004,
+    529999009
+  },
+  ["FishExp"]= 0,
+  ["Id"]= 16306604,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城修道院-徊魂叶4",
+  ["NPCId"]= 16305004,
+  ["SceneId"]= 1630,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[16306605] = {
+  ["Areaname"]= "Areaname10406261",
+  ["Dropid"]= 521610004,
+  ["ExtraDrop"]= {
+    509999004,
+    529999009
+  },
+  ["FishExp"]= 0,
+  ["Id"]= 16306605,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城修道院-徊魂叶5",
+  ["NPCId"]= 16305005,
+  ["SceneId"]= 1630,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[16306606] = {
+  ["Areaname"]= "Areaname10406261",
+  ["Dropid"]= 521610004,
+  ["ExtraDrop"]= {
+    509999004,
+    529999009
+  },
+  ["FishExp"]= 0,
+  ["Id"]= 16306606,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城修道院-徊魂叶6",
+  ["NPCId"]= 16305006,
+  ["SceneId"]= 1630,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[16306607] = {
+  ["Areaname"]= "Areaname10406262",
+  ["Dropid"]= 521610005,
+  ["ExtraDrop"]= {
+    509999004,
+    529999009
+  },
+  ["FishExp"]= 0,
+  ["Id"]= 16306607,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城修道院-辉光之花1",
+  ["NPCId"]= 16305007,
+  ["SceneId"]= 1630,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[16306608] = {
+  ["Areaname"]= "Areaname10406262",
+  ["Dropid"]= 521610005,
+  ["ExtraDrop"]= {
+    509999004,
+    529999009
+  },
+  ["FishExp"]= 0,
+  ["Id"]= 16306608,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城修道院-辉光之花2",
+  ["NPCId"]= 16305008,
+  ["SceneId"]= 1630,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[16306609] = {
+  ["Areaname"]= "Areaname10406262",
+  ["Dropid"]= 521610005,
+  ["ExtraDrop"]= {
+    509999004,
+    529999009
+  },
+  ["FishExp"]= 0,
+  ["Id"]= 16306609,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城修道院-辉光之花3",
+  ["NPCId"]= 16305009,
+  ["SceneId"]= 1630,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[16306610] = {
+  ["Areaname"]= "Areaname10406262",
+  ["Dropid"]= 521610005,
+  ["ExtraDrop"]= {
+    509999004,
+    529999009
+  },
+  ["FishExp"]= 0,
+  ["Id"]= 16306610,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城修道院-辉光之花4",
+  ["NPCId"]= 16305010,
+  ["SceneId"]= 1630,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[16306611] = {
+  ["Areaname"]= "Areaname10406262",
+  ["Dropid"]= 521610005,
+  ["ExtraDrop"]= {
+    509999004,
+    529999009
+  },
+  ["FishExp"]= 0,
+  ["Id"]= 16306611,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城修道院-辉光之花5",
+  ["NPCId"]= 16305011,
+  ["SceneId"]= 1630,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[16306612] = {
+  ["Areaname"]= "Areaname10406262",
+  ["Dropid"]= 521610005,
+  ["ExtraDrop"]= {
+    509999004,
+    529999009
+  },
+  ["FishExp"]= 0,
+  ["Id"]= 16306612,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城修道院-辉光之花6",
+  ["NPCId"]= 16305012,
+  ["SceneId"]= 1630,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[16406601] = {
+  ["Areaname"]= "Areaname10406262",
+  ["Dropid"]= 521610005,
+  ["ExtraDrop"]= {
+    509999004,
+    529999009
+  },
+  ["FishExp"]= 0,
+  ["Id"]= 16406601,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城骑士团-辉光之花1",
+  ["NPCId"]= 16405001,
+  ["SceneId"]= 1640,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[16406602] = {
+  ["Areaname"]= "Areaname10406262",
+  ["Dropid"]= 521610005,
+  ["ExtraDrop"]= {
+    509999004,
+    529999009
+  },
+  ["FishExp"]= 0,
+  ["Id"]= 16406602,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城骑士团-辉光之花2",
+  ["NPCId"]= 16405002,
+  ["SceneId"]= 1640,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[16406603] = {
+  ["Areaname"]= "Areaname10406262",
+  ["Dropid"]= 521610005,
+  ["ExtraDrop"]= {
+    509999004,
+    529999009
+  },
+  ["FishExp"]= 0,
+  ["Id"]= 16406603,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城骑士团-辉光之花3",
+  ["NPCId"]= 16405003,
+  ["SceneId"]= 1640,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[16406604] = {
+  ["Areaname"]= "Areaname10406262",
+  ["Dropid"]= 521610005,
+  ["ExtraDrop"]= {
+    509999004,
+    529999009
+  },
+  ["FishExp"]= 0,
+  ["Id"]= 16406604,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城骑士团-辉光之花4",
+  ["NPCId"]= 16405004,
+  ["SceneId"]= 1640,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[16406605] = {
+  ["Areaname"]= "Areaname10406262",
+  ["Dropid"]= 521610005,
+  ["ExtraDrop"]= {
+    509999004,
+    529999009
+  },
+  ["FishExp"]= 0,
+  ["Id"]= 16406605,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城骑士团-辉光之花5",
+  ["NPCId"]= 16405005,
+  ["SceneId"]= 1640,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[16406606] = {
+  ["Areaname"]= "Areaname10406262",
+  ["Dropid"]= 521610005,
+  ["ExtraDrop"]= {
+    509999004,
+    529999009
+  },
+  ["FishExp"]= 0,
+  ["Id"]= 16406606,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城骑士团-辉光之花6",
+  ["NPCId"]= 16405006,
+  ["SceneId"]= 1640,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[16406607] = {
+  ["Areaname"]= "Areaname10406263",
+  ["Dropid"]= 521610006,
+  ["ExtraDrop"]= {
+    509999004,
+    529999009
+  },
+  ["FishExp"]= 0,
+  ["Id"]= 16406607,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城骑士团-冷钢兰1",
+  ["NPCId"]= 16405007,
+  ["SceneId"]= 1640,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[16406608] = {
+  ["Areaname"]= "Areaname10406263",
+  ["Dropid"]= 521610006,
+  ["ExtraDrop"]= {
+    509999004,
+    529999009
+  },
+  ["FishExp"]= 0,
+  ["Id"]= 16406608,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城骑士团-冷钢兰2",
+  ["NPCId"]= 16405008,
+  ["SceneId"]= 1640,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[16406609] = {
+  ["Areaname"]= "Areaname10406263",
+  ["Dropid"]= 521610006,
+  ["ExtraDrop"]= {
+    509999004,
+    529999009
+  },
+  ["FishExp"]= 0,
+  ["Id"]= 16406609,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城骑士团-冷钢兰3",
+  ["NPCId"]= 16405009,
+  ["SceneId"]= 1640,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[16406610] = {
+  ["Areaname"]= "Areaname10406263",
+  ["Dropid"]= 521610006,
+  ["ExtraDrop"]= {
+    509999004,
+    529999009
+  },
+  ["FishExp"]= 0,
+  ["Id"]= 16406610,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城骑士团-冷钢兰4",
+  ["NPCId"]= 16405010,
+  ["SceneId"]= 1640,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[16406611] = {
+  ["Areaname"]= "Areaname10406263",
+  ["Dropid"]= 521610006,
+  ["ExtraDrop"]= {
+    509999004,
+    529999009
+  },
+  ["FishExp"]= 0,
+  ["Id"]= 16406611,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城骑士团-冷钢兰5",
+  ["NPCId"]= 16405011,
+  ["SceneId"]= 1640,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[16406612] = {
+  ["Areaname"]= "Areaname10406263",
+  ["Dropid"]= 521610006,
+  ["ExtraDrop"]= {
+    509999004,
+    529999009
+  },
+  ["FishExp"]= 0,
+  ["Id"]= 16406612,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城骑士团-冷钢兰6",
+  ["NPCId"]= 16405012,
+  ["SceneId"]= 1640,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[16506601] = {
+  ["Areaname"]= "Areaname10406261",
+  ["Dropid"]= 521610004,
+  ["ExtraDrop"]= {
+    509999004,
+    529999009
+  },
+  ["FishExp"]= 0,
+  ["Id"]= 16506601,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城监狱-徊魂叶1",
+  ["NPCId"]= 16505001,
+  ["SceneId"]= 1650,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[16506602] = {
+  ["Areaname"]= "Areaname10406261",
+  ["Dropid"]= 521610004,
+  ["ExtraDrop"]= {
+    509999004,
+    529999009
+  },
+  ["FishExp"]= 0,
+  ["Id"]= 16506602,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城监狱-徊魂叶2",
+  ["NPCId"]= 16505002,
+  ["SceneId"]= 1650,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[16506603] = {
+  ["Areaname"]= "Areaname10406261",
+  ["Dropid"]= 521610004,
+  ["ExtraDrop"]= {
+    509999004,
+    529999009
+  },
+  ["FishExp"]= 0,
+  ["Id"]= 16506603,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城监狱-徊魂叶3",
+  ["NPCId"]= 16505003,
+  ["SceneId"]= 1650,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[16506604] = {
+  ["Areaname"]= "Areaname10406261",
+  ["Dropid"]= 521610004,
+  ["ExtraDrop"]= {
+    509999004,
+    529999009
+  },
+  ["FishExp"]= 0,
+  ["Id"]= 16506604,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城监狱-徊魂叶4",
+  ["NPCId"]= 16505004,
+  ["SceneId"]= 1650,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[16506605] = {
+  ["Areaname"]= "Areaname10406261",
+  ["Dropid"]= 521610004,
+  ["ExtraDrop"]= {
+    509999004,
+    529999009
+  },
+  ["FishExp"]= 0,
+  ["Id"]= 16506605,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城监狱-徊魂叶5",
+  ["NPCId"]= 16505005,
+  ["SceneId"]= 1650,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[16506606] = {
+  ["Areaname"]= "Areaname10406261",
+  ["Dropid"]= 521610004,
+  ["ExtraDrop"]= {
+    509999004,
+    529999009
+  },
+  ["FishExp"]= 0,
+  ["Id"]= 16506606,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城监狱-徊魂叶6",
+  ["NPCId"]= 16505006,
+  ["SceneId"]= 1650,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[16506607] = {
+  ["Areaname"]= "Areaname10406263",
+  ["Dropid"]= 521610006,
+  ["ExtraDrop"]= {
+    509999004,
+    529999009
+  },
+  ["FishExp"]= 0,
+  ["Id"]= 16506607,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城监狱-冷钢兰1",
+  ["NPCId"]= 16505007,
+  ["SceneId"]= 1650,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[16506608] = {
+  ["Areaname"]= "Areaname10406263",
+  ["Dropid"]= 521610006,
+  ["ExtraDrop"]= {
+    509999004,
+    529999009
+  },
+  ["FishExp"]= 0,
+  ["Id"]= 16506608,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城监狱-冷钢兰2",
+  ["NPCId"]= 16505008,
+  ["SceneId"]= 1650,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[16506609] = {
+  ["Areaname"]= "Areaname10406263",
+  ["Dropid"]= 521610006,
+  ["ExtraDrop"]= {
+    509999004,
+    529999009
+  },
+  ["FishExp"]= 0,
+  ["Id"]= 16506609,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城监狱-冷钢兰3",
+  ["NPCId"]= 16505009,
+  ["SceneId"]= 1650,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[16506610] = {
+  ["Areaname"]= "Areaname10406263",
+  ["Dropid"]= 521610006,
+  ["ExtraDrop"]= {
+    509999004,
+    529999009
+  },
+  ["FishExp"]= 0,
+  ["Id"]= 16506610,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城监狱-冷钢兰4",
+  ["NPCId"]= 16505010,
+  ["SceneId"]= 1650,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[16506611] = {
+  ["Areaname"]= "Areaname10406263",
+  ["Dropid"]= 521610006,
+  ["ExtraDrop"]= {
+    509999004,
+    529999009
+  },
+  ["FishExp"]= 0,
+  ["Id"]= 16506611,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城监狱-冷钢兰5",
+  ["NPCId"]= 16505011,
+  ["SceneId"]= 1650,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[16506612] = {
+  ["Areaname"]= "Areaname10406263",
+  ["Dropid"]= 521610006,
+  ["ExtraDrop"]= {
+    509999004,
+    529999009
+  },
+  ["FishExp"]= 0,
+  ["Id"]= 16506612,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城监狱-冷钢兰6",
+  ["NPCId"]= 16505012,
+  ["SceneId"]= 1650,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[16606601] = {
+  ["Areaname"]= "Areaname10406256",
+  ["Dropid"]= 521610002,
+  ["FishExp"]= 0,
+  ["Id"]= 16606601,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城公墓-红月玫瑰1",
+  ["NPCId"]= 16605001,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1660
+},
+[16606602] = {
+  ["Areaname"]= "Areaname10406256",
+  ["Dropid"]= 521610002,
+  ["FishExp"]= 0,
+  ["Id"]= 16606602,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城公墓-红月玫瑰2",
+  ["NPCId"]= 16605002,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1660,
+  ["ShowMap"]= 1
+},
+[16606603] = {
+  ["Areaname"]= "Areaname10406256",
+  ["Dropid"]= 521610002,
+  ["FishExp"]= 0,
+  ["Id"]= 16606603,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城公墓-红月玫瑰3",
+  ["NPCId"]= 16605003,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1660
+},
+[16606604] = {
+  ["Areaname"]= "Areaname10406256",
+  ["Dropid"]= 521610002,
+  ["FishExp"]= 0,
+  ["Id"]= 16606604,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城公墓-红月玫瑰4",
+  ["NPCId"]= 16605004,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1660
+},
+[16606605] = {
+  ["Areaname"]= "Areaname10406256",
+  ["Dropid"]= 521610002,
+  ["FishExp"]= 0,
+  ["Id"]= 16606605,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城公墓-红月玫瑰5",
+  ["NPCId"]= 16605005,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1660,
+  ["ShowMap"]= 1
+},
+[16606606] = {
+  ["Areaname"]= "Areaname10406256",
+  ["Dropid"]= 521610002,
+  ["FishExp"]= 0,
+  ["Id"]= 16606606,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城公墓-红月玫瑰6",
+  ["NPCId"]= 16605006,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1660
+},
+[16606607] = {
+  ["Areaname"]= "Areaname10406257",
+  ["Dropid"]= 521610003,
+  ["FishExp"]= 0,
+  ["Id"]= 16606607,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城公墓-忆昔草1",
+  ["NPCId"]= 16605007,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1660
+},
+[16606608] = {
+  ["Areaname"]= "Areaname10406257",
+  ["Dropid"]= 521610003,
+  ["FishExp"]= 0,
+  ["Id"]= 16606608,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城公墓-忆昔草2",
+  ["NPCId"]= 16605008,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1660,
+  ["ShowMap"]= 1
+},
+[16606609] = {
+  ["Areaname"]= "Areaname10406257",
+  ["Dropid"]= 521610003,
+  ["FishExp"]= 0,
+  ["Id"]= 16606609,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城公墓-忆昔草3",
+  ["NPCId"]= 16605009,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1660
+},
+[16606610] = {
+  ["Areaname"]= "Areaname10406257",
+  ["Dropid"]= 521610003,
+  ["FishExp"]= 0,
+  ["Id"]= 16606610,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城公墓-忆昔草4",
+  ["NPCId"]= 16605010,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1660
+},
+[16606611] = {
+  ["Areaname"]= "Areaname10406257",
+  ["Dropid"]= 521610003,
+  ["FishExp"]= 0,
+  ["Id"]= 16606611,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城公墓-忆昔草5",
+  ["NPCId"]= 16605011,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1660,
+  ["ShowMap"]= 1
+},
+[16606612] = {
+  ["Areaname"]= "Areaname10406257",
+  ["Dropid"]= 521610003,
+  ["FishExp"]= 0,
+  ["Id"]= 16606612,
+  ["LifeLevelLimit"]= 9,
+  ["Name"]= "古城公墓-忆昔草6",
+  ["NPCId"]= 16605012,
+  ["PickEnergy"]= 1,
+  ["PickExp"]= 1,
+  ["SceneId"]= 1660
+},
+[46016601] = {
+  ["Areaname"]= "Areaname10424063",
+  ["ButtonName"]= "LifeSkill_107",
+  ["Dropid"]= 524601001,
+  ["ExtraDrop"]= {},
+  ["Id"]= 46016601,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "曜影灵石Ⅰ1",
+  ["NPCId"]= 46015001,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 4601,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[46016602] = {
+  ["Areaname"]= "Areaname10424063",
+  ["ButtonName"]= "LifeSkill_107",
+  ["Dropid"]= 524601001,
+  ["ExtraDrop"]= {},
+  ["Id"]= 46016602,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "曜影灵石Ⅰ2",
+  ["NPCId"]= 46015002,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 4601,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[46016603] = {
+  ["Areaname"]= "Areaname10424063",
+  ["ButtonName"]= "LifeSkill_107",
+  ["Dropid"]= 524601001,
+  ["ExtraDrop"]= {},
+  ["Id"]= 46016603,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "曜影灵石Ⅰ3",
+  ["NPCId"]= 46015003,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 4601,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[46016604] = {
+  ["Areaname"]= "Areaname10424063",
+  ["ButtonName"]= "LifeSkill_107",
+  ["Dropid"]= 524601001,
+  ["ExtraDrop"]= {},
+  ["Id"]= 46016604,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "曜影灵石Ⅰ4",
+  ["NPCId"]= 46015004,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 4601,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[46016605] = {
+  ["Areaname"]= "Areaname10424063",
+  ["ButtonName"]= "LifeSkill_107",
+  ["Dropid"]= 524601001,
+  ["ExtraDrop"]= {},
+  ["Id"]= 46016605,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "曜影灵石Ⅰ5",
+  ["NPCId"]= 46015005,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 4601,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[46016606] = {
+  ["Areaname"]= "Areaname10424063",
+  ["ButtonName"]= "LifeSkill_107",
+  ["Dropid"]= 524601001,
+  ["ExtraDrop"]= {},
+  ["Id"]= 46016606,
+  ["LifeLevelLimit"]= 4,
+  ["Name"]= "曜影灵石Ⅰ6",
+  ["NPCId"]= 46015006,
+  ["PickEnergy"]= 10,
+  ["PickExp"]= 10,
+  ["SceneId"]= 4601,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[46016607] = {
+  ["Areaname"]= "Areaname10424064",
+  ["ButtonName"]= "LifeSkill_107",
+  ["Dropid"]= 524601002,
+  ["ExtraDrop"]= {},
+  ["Id"]= 46016607,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "曜影灵石Ⅱ1",
+  ["NPCId"]= 46015007,
+  ["SceneId"]= 4601,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[46016608] = {
+  ["Areaname"]= "Areaname10424064",
+  ["ButtonName"]= "LifeSkill_107",
+  ["Dropid"]= 524601002,
+  ["ExtraDrop"]= {},
+  ["Id"]= 46016608,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "曜影灵石Ⅱ2",
+  ["NPCId"]= 46015008,
+  ["SceneId"]= 4601,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[46016609] = {
+  ["Areaname"]= "Areaname10424064",
+  ["ButtonName"]= "LifeSkill_107",
+  ["Dropid"]= 524601002,
+  ["ExtraDrop"]= {},
+  ["Id"]= 46016609,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "曜影灵石Ⅱ3",
+  ["NPCId"]= 46015009,
+  ["SceneId"]= 4601,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[46016610] = {
+  ["Areaname"]= "Areaname10424064",
+  ["ButtonName"]= "LifeSkill_107",
+  ["Dropid"]= 524601002,
+  ["ExtraDrop"]= {},
+  ["Id"]= 46016610,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "曜影灵石Ⅱ4",
+  ["NPCId"]= 46015010,
+  ["SceneId"]= 4601,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[46016611] = {
+  ["Areaname"]= "Areaname10424064",
+  ["ButtonName"]= "LifeSkill_107",
+  ["Dropid"]= 524601002,
+  ["ExtraDrop"]= {},
+  ["Id"]= 46016611,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "曜影灵石Ⅱ5",
+  ["NPCId"]= 46015011,
+  ["SceneId"]= 4601,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+},
+[46016612] = {
+  ["Areaname"]= "Areaname10424064",
+  ["ButtonName"]= "LifeSkill_107",
+  ["Dropid"]= 524601002,
+  ["ExtraDrop"]= {},
+  ["Id"]= 46016612,
+  ["LifeLevelLimit"]= 6,
+  ["Name"]= "曜影灵石Ⅱ6",
+  ["NPCId"]= 46015012,
+  ["SceneId"]= 4601,
+  ["ShowMap"]= 1,
+  ["Time"]= {
+    1,
+    3
+  }
+}
+}
+local baseTable={
+  ["Areaname"]= "Areaname10406208",
+  ["BaitCriticalEnergy"]= {},
+  ["BaitCriticalNum"]= {},
+  ["BaitCriticalRate"]= {},
+  ["BaitDropId"]= {},
+  ["BaitId"]= {},
+  ["ButtonName"]= "LifeSkillName_03",
+  ["CriticalEnergy"]= 0,
+  ["CriticalNum"]= 0,
+  ["CriticalRate"]= 0,
+  ["Dropid"]= 521220003,
+  ["ExtraDrop"]= {
+    509999003
+  },
+  ["FishEnergy"]= 0,
+  ["FishExp"]= 1,
+  ["FishingFace"]= {
+    ["PX"]= 0,
+    ["PY"]= 0,
+    ["PZ"]= 0
+  },
+  ["GetFishCD"]= 0,
+  ["GetMineCD"]= {},
+  ["Id"]= 10206601,
+  ["LifeLevelLimit"]= 7,
+  ["MineLevelEnergy"]= {},
+  ["MineLevelLimit"]= {},
+  ["MineLevelLimitDropId"]= {},
+  ["MineStartTips"]= "",
+  ["MineTool"]= {},
+  ["MineToolTips"]= "",
+  ["Name"]= "厚土叶1",
+  ["NPCId"]= 0,
+  ["PickCD"]= 60,
+  ["PickEnergy"]= 20,
+  ["PickExp"]= 20,
+  ["RefreshNum"]= 10,
+  ["RichMine"]= 0,
+  ["RichMineEnergy"]= {},
+  ["RichMineNum"]= 0,
+  ["SceneId"]= 1040,
+  ["ShowMap"]= 0,
+  ["SingleRefreshNum"]= 1,
+  ["Time"]= {
+    2,
+    4
+  },
+  ["Type"]= 3
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

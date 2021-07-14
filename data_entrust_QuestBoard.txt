@@ -1,0 +1,46 @@
+TextAsset Base
+	string m_Name = "data_entrust_QuestBoard"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["dailyMaximumAccept"]= 3,
+  ["Id"]= 2
+}
+}
+local baseTable={
+  ["baseRewardPercentage"]= 100,
+  ["bounusPercentagePerQuest"]= 0,
+  ["dailyMaximumAccept"]= 10,
+  ["dailyMaximumRefresh"]= 10,
+  ["entrustNpcId"]= {
+    11101014,
+    10101013,
+    13101009,
+    11801007,
+    12101007,
+    14101007,
+    16101008
+  },
+  ["Id"]= 1,
+  ["maximumRewardPercentage"]= 200,
+  ["npcIcon"]= {
+    61900,
+    61901,
+    61902,
+    61903,
+    61904,
+    61905,
+    61906,
+    61907,
+    61908,
+    61909,
+    61910,
+    61911,
+    61912,
+    61913
+  }
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

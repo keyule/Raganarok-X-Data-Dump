@@ -1,0 +1,513 @@
+TextAsset Base
+	string m_Name = "data_ShadowWeapon_ShadowWeapon"
+	string m_Script = "local table= {
+[110001] = {
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424035
+  },
+  ["Desc"]= "呈剑/圣剑",
+  ["RequireWeaponType"]= {
+    301
+  }
+},
+[110002] = {
+  ["ArtifactName"]= "ShadowWeaponName_11000202",
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424034
+  },
+  ["Desc"]= "征矛/澄矛",
+  ["GroupIdList"]= {
+    102,
+    202,
+    302,
+    402,
+    502,
+    6,
+    702
+  },
+  ["Id"]= 110002,
+  ["Name"]= "ShadowWeaponName_11000201",
+  ["RequireWeaponType"]= {
+    303
+  }
+},
+[110003] = {
+  ["ArtifactName"]= "ShadowWeaponName_11000302",
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424033,
+    10424047
+  },
+  ["CostNum"]= {
+    25600,
+    4,
+    24,
+    12
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["Desc"]= "侍剑义盾/王剑辉盾",
+  ["GroupIdList"]= {
+    103,
+    203,
+    303,
+    403,
+    503,
+    6,
+    703
+  },
+  ["Id"]= 110003,
+  ["Name"]= "ShadowWeaponName_11000301",
+  ["RequireWeaponType"]= {
+    101,
+    201
+  }
+},
+[120001] = {
+  ["ArtifactName"]= "ShadowWeaponName_12000102",
+  ["CostNum"]= {
+    25600,
+    4,
+    24,
+    12
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["GroupIdList"]= {
+    107,
+    207,
+    307,
+    407,
+    507,
+    6,
+    707
+  },
+  ["Id"]= 120001,
+  ["Job"]= {
+    1200,
+    1210,
+    1211
+  },
+  ["Name"]= "ShadowWeaponName_12000101"
+},
+[120002] = {
+  ["ArtifactName"]= "ShadowWeaponName_12000202",
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424039,
+    10424046
+  },
+  ["CostNum"]= {
+    25600,
+    4,
+    24,
+    12
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["Desc"]= "祭杖羽盾/祈杖灵盾",
+  ["GroupIdList"]= {
+    108,
+    208,
+    308,
+    408,
+    508,
+    6,
+    708
+  },
+  ["Id"]= 120002,
+  ["Job"]= {
+    1200,
+    1210,
+    1211
+  },
+  ["Name"]= "ShadowWeaponName_12000201",
+  ["RequireWeaponType"]= {
+    103,
+    201
+  }
+},
+[120003] = {
+  ["ArtifactName"]= "ShadowWeaponName_12000302",
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424040
+  },
+  ["Desc"]= "术典/神典",
+  ["GroupIdList"]= {
+    109,
+    209,
+    309,
+    409,
+    509,
+    6,
+    709
+  },
+  ["Id"]= 120003,
+  ["Job"]= {
+    1200,
+    1210,
+    1211
+  },
+  ["Name"]= "ShadowWeaponName_12000301",
+  ["RequireWeaponType"]= {
+    107
+  }
+},
+[130001] = {
+  ["ArtifactName"]= "ShadowWeaponName_13000102",
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424039,
+    10424046
+  },
+  ["CostNum"]= {
+    25600,
+    4,
+    24,
+    12
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["Desc"]= "祭杖羽盾/祈杖灵盾",
+  ["GroupIdList"]= {
+    110,
+    210,
+    310,
+    410,
+    510,
+    6,
+    710
+  },
+  ["Id"]= 130001,
+  ["Job"]= {
+    1300,
+    1310,
+    1311
+  },
+  ["Name"]= "ShadowWeaponName_13000101",
+  ["RequireWeaponType"]= {
+    103,
+    201
+  },
+  ["TaskGroupId"]= 102
+},
+[130002] = {
+  ["ArtifactName"]= "ShadowWeaponName_13000202",
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424041
+  },
+  ["Desc"]= "序杖/厄杖",
+  ["GroupIdList"]= {
+    111,
+    211,
+    311,
+    411,
+    511,
+    6,
+    711
+  },
+  ["Id"]= 130002,
+  ["Job"]= {
+    1300,
+    1310,
+    1311
+  },
+  ["Name"]= "ShadowWeaponName_13000201",
+  ["RequireWeaponType"]= {
+    306
+  },
+  ["TaskGroupId"]= 102
+},
+[140001] = {
+  ["ArtifactName"]= "ShadowWeaponName_14000102",
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424044
+  },
+  ["Desc"]= "幻匕/黯匕",
+  ["GroupIdList"]= {
+    114,
+    214,
+    314,
+    414,
+    514,
+    6,
+    714
+  },
+  ["Id"]= 140001,
+  ["Job"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["Name"]= "ShadowWeaponName_14000101",
+  ["RequireWeaponType"]= {
+    105,
+    105
+  },
+  ["TaskGroupId"]= 102
+},
+[140002] = {
+  ["ArtifactName"]= "ShadowWeaponName_14000202",
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424045
+  },
+  ["Desc"]= "逆刃/骸刃",
+  ["GroupIdList"]= {
+    115,
+    215,
+    315,
+    415,
+    515,
+    6,
+    715
+  },
+  ["Id"]= 140002,
+  ["Job"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["Name"]= "ShadowWeaponName_14000201",
+  ["RequireWeaponType"]= {
+    304
+  },
+  ["TaskGroupId"]= 102
+},
+[150001] = {
+  ["ArtifactName"]= "ShadowWeaponName_15000102",
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424042
+  },
+  ["Desc"]= "界弓/名弓",
+  ["GroupIdList"]= {
+    112,
+    212,
+    312,
+    412,
+    512,
+    6,
+    712
+  },
+  ["Id"]= 150001,
+  ["Job"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["Name"]= "ShadowWeaponName_15000101",
+  ["RequireWeaponType"]= {
+    307
+  },
+  ["TaskGroupId"]= 102
+},
+[150002] = {
+  ["ArtifactName"]= "ShadowWeaponName_15000202",
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424043
+  },
+  ["Desc"]= "银弓/星弓",
+  ["GroupIdList"]= {
+    113,
+    213,
+    313,
+    413,
+    513,
+    6,
+    713
+  },
+  ["Id"]= 150002,
+  ["Job"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["Name"]= "ShadowWeaponName_15000201",
+  ["RequireWeaponType"]= {
+    305
+  },
+  ["TaskGroupId"]= 102
+},
+[160001] = {
+  ["ArtifactName"]= "ShadowWeaponName_16000102",
+  ["CostNum"]= {
+    25600,
+    4,
+    24,
+    12
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["GroupIdList"]= {
+    104,
+    204,
+    304,
+    404,
+    504,
+    6,
+    704
+  },
+  ["Id"]= 160001,
+  ["Job"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["Name"]= "ShadowWeaponName_16000101"
+},
+[160002] = {
+  ["ArtifactName"]= "ShadowWeaponName_16000202",
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424037,
+    10424047
+  },
+  ["CostNum"]= {
+    25600,
+    4,
+    24,
+    12
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5,
+    5
+  },
+  ["Desc"]= "源斧义盾/铸斧辉盾",
+  ["GroupIdList"]= {
+    105,
+    205,
+    305,
+    405,
+    505,
+    6,
+    705
+  },
+  ["Id"]= 160002,
+  ["Job"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["Name"]= "ShadowWeaponName_16000201",
+  ["RequireWeaponType"]= {
+    102,
+    201
+  }
+},
+[160003] = {
+  ["ArtifactName"]= "ShadowWeaponName_16000302",
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424038
+  },
+  ["Desc"]= "漠斧/暝斧",
+  ["GroupIdList"]= {
+    106,
+    206,
+    306,
+    406,
+    506,
+    6,
+    706
+  },
+  ["Id"]= 160003,
+  ["Job"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["Name"]= "ShadowWeaponName_16000301",
+  ["RequireWeaponType"]= {
+    302
+  }
+}
+}
+local baseTable={
+  ["ArtifactLevel"]= 7,
+  ["ArtifactName"]= "ShadowWeaponName_11000102",
+  ["CostItemId"]= {
+    0,
+    10204103,
+    10424036,
+    10424046
+  },
+  ["CostNum"]= {
+    25600,
+    4,
+    36
+  },
+  ["CostType"]= {
+    1,
+    5,
+    5
+  },
+  ["Desc"]= "坚锤羽盾/铭锤灵盾",
+  ["GroupIdList"]= {
+    101,
+    201,
+    301,
+    401,
+    501,
+    6,
+    701
+  },
+  ["Id"]= 110001,
+  ["Job"]= {
+    1100,
+    1110,
+    1111
+  },
+  ["Name"]= "ShadowWeaponName_11000101",
+  ["RequireWeaponType"]= {
+    104,
+    201
+  },
+  ["TaskFinishNum"]= 16,
+  ["TaskGroupId"]= 101
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

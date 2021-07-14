@@ -1,0 +1,32 @@
+TextAsset Base
+	string m_Name = "data_npc_complexAction"
+	string m_Script = "local table= {
+[1] = {}
+}
+local baseTable={
+  ["actionId"]= {
+    2,
+    2
+  },
+  ["actionType"]= {
+    1,
+    2
+  },
+  ["delay"]= {
+    0,
+    0
+  },
+  ["id"]= 1,
+  ["playerActionId"]= {
+    2,
+    2
+  },
+  ["typeId"]= {
+    0,
+    1
+  }
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

@@ -1,0 +1,13 @@
+TextAsset Base
+	string m_Name = "data_Wedding_DivorcePrice"
+	string m_Script = "return {
+[1] = {
+  "Coefficient ": {
+    ["BaseLevelCount"]= {},
+    ["TimeCount"]= {},
+    ["WeddingLevelCount"]= {}
+  },
+  ["ID"]= 1
+}
+}
+"

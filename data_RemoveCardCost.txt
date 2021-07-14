@@ -1,0 +1,33 @@
+TextAsset Base
+	string m_Name = "data_RemoveCardCost"
+	string m_Script = "return {
+	[1] = {
+		["quality"] = 1,
+		["currencyType"] = 1,
+		["currencyValue"] = 50000,
+		["material"] = {
+			["10401003"] = 10,["10401001"] = 5,["10403001"] = 2}
+	},
+	[2] = {
+		["quality"] = 2,
+		["currencyType"] = 1,
+		["currencyValue"] = 50000,
+		["material"] = {
+			["10401003"] = 15,["10401001"] = 10,["10403001"] = 3}
+	},
+	[3] = {
+		["quality"] = 3,
+		["currencyType"] = 1,
+		["currencyValue"] = 50000,
+		["material"] = {
+			["10401003"] = 20,["10401001"] = 15,["10403001"] = 4}
+	},
+	[4] = {
+		["quality"] = 4,
+		["currencyType"] = 1,
+		["currencyValue"] = 50000,
+		["material"] = {
+			["10401003"] = 30,["10401001"] = 20,["10403001"] = 5}
+	}
+}
+"

@@ -1,0 +1,67 @@
+TextAsset Base
+	string m_Name = "data_scene_SceneMapIconMode"
+	string m_Script = "local table= {
+[1] = {
+  ["Couple"]= 1,
+  ["EnemyGroup"]= 0,
+  ["LifeSkillArea"]= 1,
+  ["OtherGuild"]= 0,
+  ["SecondTeamMember"]= 1,
+  ["TaskCanAccept"]= 1,
+  ["TaskDone"]= 1,
+  ["TaskInProgress"]= 1,
+  ["ThirdTeamMember"]= 1
+},
+[2] = {
+  ["FriendGroup"]= 1,
+  ["GvgChoose"]= 1,
+  ["ModeId"]= 2,
+  ["ModeName"]= "GVG",
+  ["SameGuild"]= 1
+},
+[3] = {
+  ["BossMonster"]= 0,
+  ["FirstTeamMember"]= 0,
+  ["MiniMonster"]= 0,
+  ["ModeId"]= 3,
+  ["ModeName"]= "王牌猎人战",
+  ["MvpMonster"]= 0,
+  ["NormalMonster"]= 0,
+  ["Npc"]= 0,
+  ["TeamLeader"]= 0
+}
+}
+local baseTable={
+  ["AreaName"]= 1,
+  ["AutoPathLine"]= 1,
+  ["AutoPathTarget"]= 1,
+  ["BigPortal"]= 1,
+  ["BossMonster"]= 1,
+  ["Couple"]= 0,
+  ["Crystal"]= 0,
+  ["EnemyGroup"]= 1,
+  ["FirstTeamMember"]= 1,
+  ["FriendGroup"]= 0,
+  ["GvgChoose"]= 0,
+  ["LifeSkillArea"]= 0,
+  ["MiniMonster"]= 1,
+  ["ModeId"]= 1,
+  ["ModeName"]= "大世界逻辑",
+  ["MvpMonster"]= 1,
+  ["NormalMonster"]= 1,
+  ["Npc"]= 1,
+  ["OtherGuild"]= 1,
+  ["SameGuild"]= 0,
+  ["SecondTeamMember"]= 0,
+  ["Self"]= 1,
+  ["SmallPortal"]= 1,
+  ["TaskCanAccept"]= 0,
+  ["TaskDone"]= 0,
+  ["TaskInProgress"]= 0,
+  ["TeamLeader"]= 1,
+  ["ThirdTeamMember"]= 0
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

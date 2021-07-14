@@ -1,0 +1,233 @@
+TextAsset Base
+	string m_Name = "data_Interface"
+	string m_Script = "local table= {
+[1] = {
+  ["Des"]= "InterfaceDes_1",
+  ["Interface"]= "UI_Bag"
+},
+[2] = {
+  ["Des"]= "InterfaceDes_2",
+  ["Icon"]= "btn_Shop_N",
+  ["Id"]= 2,
+  ["Interface"]= "UI_Chamber",
+  ["Name"]= "InterfaceName_2"
+},
+[3] = {
+  ["Des"]= "InterfaceDes_3",
+  ["Icon"]= "btn_Exchane_N",
+  ["Id"]= 3,
+  ["Interface"]= "UI_Jobber",
+  ["Name"]= "InterfaceName_3"
+},
+[4] = {
+  ["Des"]= "InterfaceDes_4",
+  ["Icon"]= 4,
+  ["Id"]= 4,
+  ["Interface"]= "UI_Instance",
+  ["Name"]= "InterfaceName_4"
+},
+[5] = {
+  ["Des"]= "InterfaceDes_5",
+  ["Icon"]= "btn_College_N",
+  ["Id"]= 5,
+  ["Interface"]= "UI_Carnival",
+  ["Name"]= "InterfaceName_5"
+},
+[6] = {
+  ["Des"]= "InterfaceDes_6",
+  ["Icon"]= "btn_MVP_N",
+  ["Id"]= 6,
+  ["Interface"]= "UI_MVPBoss",
+  ["Name"]= "InterfaceName_6",
+  ["UnlockCondition"]= 60000
+},
+[7] = {
+  ["Des"]= "InterfaceDes_7",
+  ["Icon"]= 7,
+  ["Id"]= 7,
+  ["Name"]= "InterfaceName_7"
+},
+[8] = {
+  ["Des"]= "InterfaceDes_8",
+  ["Icon"]= "",
+  ["Id"]= 8,
+  ["Name"]= "InterfaceName_8"
+},
+[9] = {
+  ["Des"]= "InterfaceDes_9",
+  ["Icon"]= "",
+  ["Id"]= 9,
+  ["Name"]= "InterfaceName_9"
+},
+[10] = {
+  ["Des"]= "InterfaceDes_10",
+  ["Icon"]= 7,
+  ["Id"]= 10,
+  ["Interface"]= "UI_HeadWear",
+  ["Name"]= "InterfaceName_10"
+},
+[11] = {
+  ["Des"]= "InterfaceDes_11",
+  ["Icon"]= "btn_Life_N",
+  ["Id"]= 11,
+  ["Interface"]= "UI_Life",
+  ["Name"]= "InterfaceName_11"
+},
+[12] = {
+  ["Des"]= "InterfaceDes_12",
+  ["Icon"]= "Btn_Card_N",
+  ["Id"]= 12,
+  ["Name"]= "InterfaceName_12"
+},
+[13] = {
+  ["Des"]= "InterfaceDes_13",
+  ["Id"]= 13,
+  ["Name"]= "InterfaceName_13"
+},
+[14] = {
+  ["Des"]= "InterfaceDes_14",
+  ["Id"]= 14,
+  ["Name"]= "InterfaceName_14"
+},
+[15] = {
+  ["Des"]= "InterfaceDes_15",
+  ["Id"]= 15,
+  ["Name"]= "InterfaceName_15"
+},
+[16] = {
+  ["Des"]= "InterfaceDes_16",
+  ["Id"]= 16,
+  ["Name"]= "InterfaceName_16"
+},
+[17] = {
+  ["Des"]= "InterfaceDes_17",
+  ["Id"]= 17,
+  ["Name"]= "InterfaceName_17"
+},
+[18] = {
+  ["Des"]= "InterfaceDes_18",
+  ["Id"]= 18,
+  ["Name"]= "InterfaceName_18"
+},
+[19] = {
+  ["Des"]= "InterfaceDes_19",
+  ["Id"]= 19,
+  ["Name"]= "InterfaceName_19"
+},
+[20] = {
+  ["Des"]= "InterfaceDes_20",
+  ["Id"]= 20,
+  ["Name"]= "InterfaceName_20"
+},
+[21] = {
+  ["Des"]= "InterfaceDes_21",
+  ["Id"]= 21,
+  ["Name"]= "InterfaceName_21"
+},
+[22] = {
+  ["Des"]= "InterfaceDes_22",
+  ["Id"]= 22,
+  ["Name"]= "InterfaceName_22"
+},
+[23] = {
+  ["Des"]= "InterfaceDes_23",
+  ["Id"]= 23,
+  ["Name"]= "InterfaceName_23"
+},
+[24] = {
+  ["Des"]= "InterfaceDes_24",
+  ["Icon"]= "btn_Pass_N",
+  ["Id"]= 24,
+  ["Interface"]= "UI_BattlePass",
+  ["Name"]= "InterfaceName_24"
+},
+[25] = {
+  ["Des"]= "InterfaceDes_25",
+  ["Id"]= 25,
+  ["Interface"]= "UI_HandBook",
+  ["Name"]= "InterfaceName_25",
+  ["UnlockCondition"]= 260000
+},
+[26] = {
+  ["Des"]= "InterfaceDes_33",
+  ["Icon"]= "",
+  ["Id"]= 26,
+  ["Interface"]= "UI_OdinRecommend",
+  ["Name"]= "InterfaceName_33",
+  ["UnlockCondition"]= 210033
+},
+[27] = {
+  ["Des"]= "InterfaceDes_34",
+  ["Icon"]= "",
+  ["Id"]= 27,
+  ["Interface"]= "UI_GVE",
+  ["Name"]= "InterfaceName_34",
+  ["UnlockCondition"]= 2013
+},
+[28] = {
+  ["Des"]= "InterfaceDes_35",
+  ["Icon"]= "",
+  ["Id"]= 28,
+  ["Interface"]= "UI_GuildKvm",
+  ["Name"]= "InterfaceName_35",
+  ["UnlockCondition"]= 2006
+},
+[29] = {
+  ["Des"]= "InterfaceDes_36",
+  ["Icon"]= "",
+  ["Id"]= 29,
+  ["Interface"]= "UI_GuildOrder",
+  ["Name"]= "InterfaceName_36",
+  ["UnlockCondition"]= 2013
+},
+[30] = {
+  ["Des"]= "InterfaceDes_37",
+  ["Icon"]= "",
+  ["Id"]= 30,
+  ["Interface"]= "UI_Guild",
+  ["Name"]= "InterfaceName_37",
+  ["UnlockCondition"]= 2006
+},
+[31] = {
+  ["Icon"]= "",
+  ["Id"]= 31,
+  ["Interface"]= "UI_GVGReport",
+  ["Name"]= "InterfaceName_38",
+  ["UnlockCondition"]= 2006
+},
+[32] = {
+  ["Icon"]= "btn_Life_N",
+  ["Id"]= 32,
+  ["Name"]= "InterfaceName_39"
+},
+[33] = {
+  ["Des"]= "InterfaceDes_40",
+  ["Icon"]= "btn_Life_N",
+  ["Id"]= 33,
+  ["Name"]= "InterfaceName_40"
+},
+[34] = {
+  ["Des"]= "InterfaceDes_41",
+  ["Icon"]= "btn_Life_N",
+  ["Id"]= 34,
+  ["Name"]= "InterfaceName_41"
+},
+[35] = {
+  ["Des"]= "InterfaceDes_42",
+  ["Icon"]= "btn_Life_N",
+  ["Id"]= 35,
+  ["Name"]= "InterfaceName_42"
+}
+}
+local baseTable={
+  ["Des"]= "InterfaceDes_38",
+  ["Icon"]= "btn_Bag_N",
+  ["Id"]= 1,
+  ["Interface"]= "",
+  ["Name"]= "InterfaceName_1",
+  ["UnlockCondition"]= 0
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

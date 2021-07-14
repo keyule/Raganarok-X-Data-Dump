@@ -1,0 +1,127 @@
+TextAsset Base
+	string m_Name = "data_MapPoint_Weather"
+	string m_Script = "local table= {
+[1001] = {
+  ["weatherSoundLoop"]= "SceneWeather_BirdCall"
+},
+[1002] = {
+  ["Icon"]= 1002,
+  ["Name"]= "彩虹",
+  ["WeatherDes"]= "WeatherDes_1002",
+  ["WeatherID"]= 1002
+},
+[1003] = {
+  ["Icon"]= 1003,
+  ["Name"]= "晴朗",
+  ["WeatherDes"]= "WeatherDes_1003",
+  ["WeatherID"]= 1003
+},
+[1004] = {
+  ["Icon"]= 1004,
+  ["Name"]= "晚霞",
+  ["WeatherDes"]= "WeatherDes_1004",
+  ["WeatherID"]= 1004
+},
+[1005] = {
+  ["Icon"]= 1005,
+  ["Name"]= "星空",
+  ["WeatherDes"]= "WeatherDes_1005",
+  ["WeatherID"]= 1005,
+  ["weatherSoundLoop"]= "SceneWeather_InsectsCry"
+},
+[1006] = {
+  ["Icon"]= 1006,
+  ["Name"]= "室内",
+  ["WeatherDes"]= "WeatherDes_1006",
+  ["WeatherID"]= 1006
+},
+[2001] = {
+  ["Icon"]= 2001,
+  ["Name"]= "小雨",
+  ["PickCDSpeedUp"]= 1,
+  ["PlayerBuffID"]= {
+    2004
+  },
+  ["WeatherDes"]= "WeatherDes_2001",
+  ["WeatherID"]= 2001,
+  ["weatherSoundLoop"]= "SceneWeather_FineRain"
+},
+[2002] = {
+  ["Icon"]= 2002,
+  ["Name"]= "沙暴",
+  ["PickCDSpeedUp"]= 1,
+  ["PlayerBuffID"]= {
+    2001
+  },
+  ["WeatherDes"]= "WeatherDes_2002",
+  ["WeatherID"]= 2002,
+  ["weatherSoundLoop"]= "SceneWeather_SandWind"
+},
+[2003] = {
+  ["Icon"]= 2003,
+  ["Name"]= "烈日",
+  ["PickCDSpeedUp"]= 1,
+  ["PlayerBuffID"]= {
+    2002
+  },
+  ["WeatherDes"]= "WeatherDes_2003",
+  ["WeatherID"]= 2003,
+  ["weatherSoundLoop"]= "SceneWeather_SunBurning"
+},
+[2004] = {
+  ["Icon"]= 2004,
+  ["Name"]= "雷雨",
+  ["PickCDSpeedUp"]= 1,
+  ["PlayerBuffID"]= {
+    2003
+  },
+  ["WeatherDes"]= "WeatherDes_2004",
+  ["WeatherID"]= 2004,
+  ["weatherSoundLoop"]= "SceneWeather_ThunderStorm",
+  ["weatherSoundRandom"]= {
+    "SceneEffect_Thunder"
+  }
+},
+[2005] = {
+  ["Icon"]= 2005,
+  ["Name"]= "流星雨",
+  ["PickCDSpeedUp"]= 1,
+  ["PlayerBuffID"]= {
+    2005
+  },
+  ["WeatherDes"]= "WeatherDes_2005",
+  ["WeatherID"]= 2005,
+  ["weatherSoundLoop"]= "SceneWeather_Meteor"
+},
+[3001] = {
+  ["Icon"]= 3001,
+  ["MonsterBuffID"]= {
+    2006
+  },
+  ["Name"]= "冥霭",
+  ["SkyBoxTex"]= "skyboxTex5",
+  ["TillingX"]= 2,
+  ["TillingY"]= 1,
+  ["WeatherDes"]= "WeatherDes_3001",
+  ["WeatherID"]= 3001,
+  ["weatherSoundLoop"]= "SceneWeather_DarkMist"
+}
+}
+local baseTable={
+  ["Icon"]= 1001,
+  ["MonsterBuffID"]= {},
+  ["Name"]= "黎光",
+  ["PickCDSpeedUp"]= 0,
+  ["PlayerBuffID"]= {},
+  ["SkyBoxTex"]= "",
+  ["TillingX"]= 0,
+  ["TillingY"]= 0,
+  ["WeatherDes"]= "WeatherDes_1001",
+  ["WeatherID"]= 1001,
+  ["weatherSoundLoop"]= "",
+  ["weatherSoundRandom"]= {}
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

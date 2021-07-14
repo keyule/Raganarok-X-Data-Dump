@@ -1,0 +1,135 @@
+TextAsset Base
+	string m_Name = "data_pettask_PetTaskBg"
+	string m_Script = "return {
+[1] = {
+  ["BGOffsetList"]= {
+    0,
+    0.01
+  },
+  ["BGOffsetTimeList"]= {
+    6,
+    2
+  },
+  ["Bubble"]= 0,
+  ["HasMonsterModel"]= 1,
+  ["ID"]= 1,
+  ["IsDefault"]= 1,
+  ["IsLongMap"]= 1,
+  ["MonsterHurtCount"]= 3,
+  ["MonsterMFStartPosX"]= 90,
+  ["MonsterTaskMoveList"]= {
+    0,
+    500,
+    -500
+  },
+  ["MonsterTaskMoveTimeList"]= {
+    6,
+    0,
+    2
+  },
+  ["Path"]= "Icons/Textures/Background/PetTaskMF",
+  ["PetTaskMFStartPosX"]= -294,
+  ["PetTaskMoveList"]= {
+    234,
+    0
+  },
+  ["PetTaskMoveTimeList"]= {
+    2,
+    0
+  }
+},
+[2] = {
+  ["BGOffsetList"]= {},
+  ["BGOffsetTimeList"]= {},
+  ["Bubble"]= 28,
+  ["HasMonsterModel"]= 0,
+  ["ID"]= 2,
+  ["IsDefault"]= 0,
+  ["IsLongMap"]= 0,
+  ["MonsterHurtCount"]= 0,
+  ["MonsterMFStartPosX"]= 90,
+  ["MonsterTaskMoveList"]= {},
+  ["MonsterTaskMoveTimeList"]= {},
+  ["Path"]= "Icons/Textures/Background/PetTaskFish",
+  ["PetTaskMFStartPosX"]= -294,
+  ["PetTaskMoveList"]= {
+    180,
+    0
+  },
+  ["PetTaskMoveTimeList"]= {
+    2,
+    0
+  }
+},
+[3] = {
+  ["BGOffsetList"]= {},
+  ["BGOffsetTimeList"]= {},
+  ["Bubble"]= 27,
+  ["HasMonsterModel"]= 0,
+  ["ID"]= 3,
+  ["IsDefault"]= 0,
+  ["IsLongMap"]= 0,
+  ["MonsterHurtCount"]= 0,
+  ["MonsterMFStartPosX"]= 90,
+  ["MonsterTaskMoveList"]= {},
+  ["MonsterTaskMoveTimeList"]= {},
+  ["Path"]= "Icons/Textures/Background/PetTaskMine",
+  ["PetTaskMFStartPosX"]= -294,
+  ["PetTaskMoveList"]= {
+    200,
+    0,
+    0,
+    0,
+    180,
+    0,
+    0,
+    0
+  },
+  ["PetTaskMoveTimeList"]= {
+    2,
+    1,
+    1,
+    1,
+    1.5,
+    1,
+    1,
+    1
+  }
+},
+[4] = {
+  ["BGOffsetList"]= {},
+  ["BGOffsetTimeList"]= {},
+  ["Bubble"]= 29,
+  ["HasMonsterModel"]= 0,
+  ["ID"]= 4,
+  ["IsDefault"]= 0,
+  ["IsLongMap"]= 0,
+  ["MonsterHurtCount"]= 0,
+  ["MonsterMFStartPosX"]= 90,
+  ["MonsterTaskMoveList"]= {},
+  ["MonsterTaskMoveTimeList"]= {},
+  ["Path"]= "Icons/Textures/Background/PetTaskPlant",
+  ["PetTaskMFStartPosX"]= -294,
+  ["PetTaskMoveList"]= {
+    280,
+    0,
+    180,
+    0,
+    180,
+    0,
+    100,
+    0
+  },
+  ["PetTaskMoveTimeList"]= {
+    2,
+    3,
+    2,
+    3,
+    2,
+    3,
+    2,
+    0
+  }
+}
+}
+"

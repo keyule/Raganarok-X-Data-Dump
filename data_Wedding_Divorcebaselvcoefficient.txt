@@ -1,0 +1,29 @@
+TextAsset Base
+	string m_Name = "data_Wedding_Divorcebaselvcoefficient"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["Baselv"]= 11,
+  ["Baselvcoefficient"]= 50,
+  ["ID"]= 2
+},
+[3] = {
+  ["Baselv"]= 51,
+  ["Baselvcoefficient"]= 80,
+  ["ID"]= 3
+},
+[4] = {
+  ["Baselv"]= 71,
+  ["Baselvcoefficient"]= 100,
+  ["ID"]= 4
+}
+}
+local baseTable={
+  ["Baselv"]= 0,
+  ["Baselvcoefficient"]= 0,
+  ["ID"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

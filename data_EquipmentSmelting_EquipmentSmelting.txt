@@ -1,0 +1,8412 @@
+TextAsset Base
+	string m_Name = "data_EquipmentSmelting_EquipmentSmelting"
+	string m_Script = "local table= {
+[1] = {
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 6,
+  ["outPutItemID"]= 10424047,
+  ["outPutItemNum"]= 6,
+  ["priority"]= 1
+},
+[2] = {
+  ["equipmentID"]= 1201004,
+  ["ID"]= 2,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 6,
+  ["outPutItemID"]= 10424046,
+  ["outPutItemNum"]= 6,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 2,
+  ["shadowWeaponID"]= 1201998,
+  ["shadowWeaponName"]= "ShadowEquip1_201_1"
+},
+[3] = {
+  ["equipmentID"]= 1101002,
+  ["ID"]= 3,
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 12,
+  ["outPutItemID"]= 10424033,
+  ["outPutItemNum"]= 12,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 3,
+  ["shadowWeaponID"]= 1101998,
+  ["shadowWeaponName"]= "ShadowEquip1_101"
+},
+[4] = {
+  ["equipmentID"]= 1102004,
+  ["ID"]= 4,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 12,
+  ["outPutItemID"]= 10424037,
+  ["outPutItemNum"]= 12,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 4,
+  ["shadowWeaponID"]= 1102998,
+  ["shadowWeaponName"]= "ShadowEquip1_102"
+},
+[5] = {
+  ["equipmentID"]= 1104006,
+  ["ID"]= 5,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 12,
+  ["outPutItemID"]= 10424036,
+  ["outPutItemNum"]= 12,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 5,
+  ["shadowWeaponID"]= 1104998,
+  ["shadowWeaponName"]= "ShadowEquip1_104"
+},
+[6] = {
+  ["equipmentID"]= 1103002,
+  ["ID"]= 6,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 12,
+  ["outPutItemID"]= 10424039,
+  ["outPutItemNum"]= 12,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 6,
+  ["shadowWeaponID"]= 1103998,
+  ["shadowWeaponName"]= "ShadowEquip1_103"
+},
+[7] = {
+  ["equipmentID"]= 1107008,
+  ["ID"]= 7,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 18,
+  ["outPutItemID"]= 10424040,
+  ["outPutItemNum"]= 18,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 7,
+  ["shadowWeaponID"]= 1107998,
+  ["shadowWeaponName"]= "ShadowEquip1_107"
+},
+[8] = {
+  ["equipmentID"]= 1303003,
+  ["ID"]= 8,
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 18,
+  ["outPutItemID"]= 10424034,
+  ["outPutItemNum"]= 18,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 8,
+  ["shadowWeaponID"]= 1303998,
+  ["shadowWeaponName"]= "ShadowEquip1_303"
+},
+[9] = {
+  ["equipmentID"]= 1304014,
+  ["ID"]= 9,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 18,
+  ["outPutItemID"]= 10424045,
+  ["outPutItemNum"]= 18,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 9,
+  ["shadowWeaponID"]= 1304998,
+  ["shadowWeaponName"]= "ShadowEquip1_304"
+},
+[10] = {
+  ["equipmentID"]= 1305002,
+  ["ID"]= 10,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 18,
+  ["outPutItemID"]= 10424043,
+  ["outPutItemNum"]= 18,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 10,
+  ["shadowWeaponID"]= 1305998,
+  ["shadowWeaponName"]= "ShadowEquip1_305"
+},
+[11] = {
+  ["equipmentID"]= 1307002,
+  ["ID"]= 11,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 18,
+  ["outPutItemID"]= 10424042,
+  ["outPutItemNum"]= 18,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 11,
+  ["shadowWeaponID"]= 1305996,
+  ["shadowWeaponName"]= "ShadowEquip1_307"
+},
+[12] = {
+  ["equipmentID"]= 1301014,
+  ["ID"]= 12,
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 18,
+  ["outPutItemID"]= 10424035,
+  ["outPutItemNum"]= 18,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 12,
+  ["shadowWeaponID"]= 1301998,
+  ["shadowWeaponName"]= "ShadowEquip1_301"
+},
+[13] = {
+  ["equipmentID"]= 1306003,
+  ["ID"]= 13,
+  ["jobLimit"]= {
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 18,
+  ["outPutItemID"]= 10424041,
+  ["outPutItemNum"]= 18,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 13,
+  ["shadowWeaponID"]= 1306998,
+  ["shadowWeaponName"]= "ShadowEquip1_306"
+},
+[14] = {
+  ["equipmentID"]= 1302003,
+  ["ID"]= 14,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 18,
+  ["outPutItemID"]= 10424038,
+  ["outPutItemNum"]= 18,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 14,
+  ["shadowWeaponID"]= 1302998,
+  ["shadowWeaponName"]= "ShadowEquip1_302"
+},
+[15] = {
+  ["equipmentID"]= 1105002,
+  ["ID"]= 15,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 9,
+  ["outPutItemID"]= 10424044,
+  ["outPutItemNum"]= 9,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 15,
+  ["shadowWeaponID"]= 1105998,
+  ["shadowWeaponName"]= "ShadowEquip1_105"
+},
+[16] = {
+  ["equipmentID"]= 1201047,
+  ["ID"]= 16,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 12,
+  ["outPutItemID"]= 10424047,
+  ["outPutItemNum"]= 12,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 16
+},
+[17] = {
+  ["equipmentID"]= 1201048,
+  ["ID"]= 17,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 12,
+  ["outPutItemID"]= 10424046,
+  ["outPutItemNum"]= 12,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 17,
+  ["shadowWeaponID"]= 1201998,
+  ["shadowWeaponName"]= "ShadowEquip1_201_1"
+},
+[18] = {
+  ["equipmentID"]= 1101040,
+  ["ID"]= 18,
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 24,
+  ["outPutItemID"]= 10424033,
+  ["outPutItemNum"]= 24,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 18,
+  ["shadowWeaponID"]= 1101998,
+  ["shadowWeaponName"]= "ShadowEquip1_101"
+},
+[19] = {
+  ["equipmentID"]= 1102038,
+  ["ID"]= 19,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 24,
+  ["outPutItemID"]= 10424037,
+  ["outPutItemNum"]= 24,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 19,
+  ["shadowWeaponID"]= 1102998,
+  ["shadowWeaponName"]= "ShadowEquip1_102"
+},
+[20] = {
+  ["equipmentID"]= 1104038,
+  ["ID"]= 20,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 24,
+  ["outPutItemID"]= 10424036,
+  ["outPutItemNum"]= 24,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 20,
+  ["shadowWeaponID"]= 1104998,
+  ["shadowWeaponName"]= "ShadowEquip1_104"
+},
+[21] = {
+  ["equipmentID"]= 1103038,
+  ["ID"]= 21,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 24,
+  ["outPutItemID"]= 10424039,
+  ["outPutItemNum"]= 24,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 21,
+  ["shadowWeaponID"]= 1103998,
+  ["shadowWeaponName"]= "ShadowEquip1_103"
+},
+[22] = {
+  ["equipmentID"]= 1107040,
+  ["ID"]= 22,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 36,
+  ["outPutItemID"]= 10424040,
+  ["outPutItemNum"]= 36,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 22,
+  ["shadowWeaponID"]= 1107998,
+  ["shadowWeaponName"]= "ShadowEquip1_107"
+},
+[23] = {
+  ["equipmentID"]= 1303039,
+  ["ID"]= 23,
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 36,
+  ["outPutItemID"]= 10424034,
+  ["outPutItemNum"]= 36,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 23,
+  ["shadowWeaponID"]= 1303998,
+  ["shadowWeaponName"]= "ShadowEquip1_303"
+},
+[24] = {
+  ["equipmentID"]= 1304039,
+  ["ID"]= 24,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 36,
+  ["outPutItemID"]= 10424045,
+  ["outPutItemNum"]= 36,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 24,
+  ["shadowWeaponID"]= 1304998,
+  ["shadowWeaponName"]= "ShadowEquip1_304"
+},
+[25] = {
+  ["equipmentID"]= 1305038,
+  ["ID"]= 25,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 36,
+  ["outPutItemID"]= 10424043,
+  ["outPutItemNum"]= 36,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 25,
+  ["shadowWeaponID"]= 1305998,
+  ["shadowWeaponName"]= "ShadowEquip1_305"
+},
+[26] = {
+  ["equipmentID"]= 1307038,
+  ["ID"]= 26,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 36,
+  ["outPutItemID"]= 10424042,
+  ["outPutItemNum"]= 36,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 26,
+  ["shadowWeaponID"]= 1305996,
+  ["shadowWeaponName"]= "ShadowEquip1_307"
+},
+[27] = {
+  ["equipmentID"]= 1301041,
+  ["ID"]= 27,
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 36,
+  ["outPutItemID"]= 10424035,
+  ["outPutItemNum"]= 36,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 27,
+  ["shadowWeaponID"]= 1301998,
+  ["shadowWeaponName"]= "ShadowEquip1_301"
+},
+[28] = {
+  ["equipmentID"]= 1306038,
+  ["ID"]= 28,
+  ["jobLimit"]= {
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 36,
+  ["outPutItemID"]= 10424041,
+  ["outPutItemNum"]= 36,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 28,
+  ["shadowWeaponID"]= 1306998,
+  ["shadowWeaponName"]= "ShadowEquip1_306"
+},
+[29] = {
+  ["equipmentID"]= 1302039,
+  ["ID"]= 29,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 36,
+  ["outPutItemID"]= 10424038,
+  ["outPutItemNum"]= 36,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 29,
+  ["shadowWeaponID"]= 1302998,
+  ["shadowWeaponName"]= "ShadowEquip1_302"
+},
+[30] = {
+  ["equipmentID"]= 1105038,
+  ["ID"]= 30,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 18,
+  ["outPutItemID"]= 10424044,
+  ["outPutItemNum"]= 18,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 30,
+  ["shadowWeaponID"]= 1105998,
+  ["shadowWeaponName"]= "ShadowEquip1_105"
+},
+[31] = {
+  ["equipmentID"]= 1201049,
+  ["ID"]= 31,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 30,
+  ["outPutItemNum"]= 15,
+  ["priorityWithinQuality"]= 31
+},
+[32] = {
+  ["equipmentID"]= 1201050,
+  ["ID"]= 32,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 30,
+  ["outPutItemID"]= 10424163,
+  ["outPutItemNum"]= 15,
+  ["priorityWithinQuality"]= 32,
+  ["shadowWeaponID"]= 1201998,
+  ["shadowWeaponName"]= "ShadowEquip1_201_1"
+},
+[33] = {
+  ["equipmentID"]= 1101041,
+  ["ID"]= 33,
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424033,
+  ["outPutItemNum"]= 60,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 33,
+  ["shadowWeaponID"]= 1101998,
+  ["shadowWeaponName"]= "ShadowEquip1_101"
+},
+[34] = {
+  ["equipmentID"]= 1102039,
+  ["ID"]= 34,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424037,
+  ["outPutItemNum"]= 60,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 34,
+  ["shadowWeaponID"]= 1102998,
+  ["shadowWeaponName"]= "ShadowEquip1_102"
+},
+[35] = {
+  ["equipmentID"]= 1104039,
+  ["ID"]= 35,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424036,
+  ["outPutItemNum"]= 60,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 35,
+  ["shadowWeaponID"]= 1104998,
+  ["shadowWeaponName"]= "ShadowEquip1_104"
+},
+[36] = {
+  ["equipmentID"]= 1103039,
+  ["ID"]= 36,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424039,
+  ["outPutItemNum"]= 60,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 36,
+  ["shadowWeaponID"]= 1103998,
+  ["shadowWeaponName"]= "ShadowEquip1_103"
+},
+[37] = {
+  ["equipmentID"]= 1107041,
+  ["ID"]= 37,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211
+  },
+  ["materialItemID"]= 10424063,
+  ["outPutItemID"]= 10424040,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 37,
+  ["shadowWeaponID"]= 1107998,
+  ["shadowWeaponName"]= "ShadowEquip1_107"
+},
+[38] = {
+  ["equipmentID"]= 1303040,
+  ["ID"]= 38,
+  ["materialItemID"]= 10424063,
+  ["outPutItemID"]= 10424034,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 38,
+  ["shadowWeaponID"]= 1303998,
+  ["shadowWeaponName"]= "ShadowEquip1_303"
+},
+[39] = {
+  ["equipmentID"]= 1304040,
+  ["ID"]= 39,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemID"]= 10424063,
+  ["outPutItemID"]= 10424045,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 39,
+  ["shadowWeaponID"]= 1304998,
+  ["shadowWeaponName"]= "ShadowEquip1_304"
+},
+[40] = {
+  ["equipmentID"]= 1305039,
+  ["ID"]= 40,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemID"]= 10424063,
+  ["outPutItemID"]= 10424043,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 40,
+  ["shadowWeaponID"]= 1305998,
+  ["shadowWeaponName"]= "ShadowEquip1_305"
+},
+[41] = {
+  ["equipmentID"]= 1307039,
+  ["ID"]= 41,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemID"]= 10424063,
+  ["outPutItemID"]= 10424042,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 41,
+  ["shadowWeaponID"]= 1305996,
+  ["shadowWeaponName"]= "ShadowEquip1_307"
+},
+[42] = {
+  ["equipmentID"]= 1301042,
+  ["ID"]= 42,
+  ["materialItemID"]= 10424063,
+  ["outPutItemID"]= 10424035,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 42,
+  ["shadowWeaponID"]= 1301998,
+  ["shadowWeaponName"]= "ShadowEquip1_301"
+},
+[43] = {
+  ["equipmentID"]= 1306039,
+  ["ID"]= 43,
+  ["jobLimit"]= {
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemID"]= 10424063,
+  ["outPutItemID"]= 10424041,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 43,
+  ["shadowWeaponID"]= 1306998,
+  ["shadowWeaponName"]= "ShadowEquip1_306"
+},
+[44] = {
+  ["equipmentID"]= 1302040,
+  ["ID"]= 44,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["outPutItemID"]= 10424038,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 44,
+  ["shadowWeaponID"]= 1302998,
+  ["shadowWeaponName"]= "ShadowEquip1_302"
+},
+[45] = {
+  ["equipmentID"]= 1105039,
+  ["ID"]= 45,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 45,
+  ["outPutItemID"]= 10424044,
+  ["outPutItemNum"]= 45,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 45,
+  ["shadowWeaponID"]= 1105998,
+  ["shadowWeaponName"]= "ShadowEquip1_105"
+},
+[46] = {
+  ["equipmentID"]= 1201069,
+  ["ID"]= 46,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 30,
+  ["outPutItemNum"]= 30,
+  ["priorityWithinQuality"]= 46
+},
+[47] = {
+  ["equipmentID"]= 1201070,
+  ["ID"]= 47,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 30,
+  ["outPutItemID"]= 10424163,
+  ["outPutItemNum"]= 30,
+  ["priorityWithinQuality"]= 47,
+  ["shadowWeaponID"]= 1201998,
+  ["shadowWeaponName"]= "ShadowEquip1_201_1"
+},
+[48] = {
+  ["equipmentID"]= 1101051,
+  ["ID"]= 48,
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424097,
+  ["outPutItemNum"]= 60,
+  ["priorityWithinQuality"]= 48,
+  ["shadowWeaponID"]= 1101998,
+  ["shadowWeaponName"]= "ShadowEquip1_101"
+},
+[49] = {
+  ["equipmentID"]= 1102049,
+  ["ID"]= 49,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424109,
+  ["outPutItemNum"]= 60,
+  ["priorityWithinQuality"]= 49,
+  ["shadowWeaponID"]= 1102998,
+  ["shadowWeaponName"]= "ShadowEquip1_102"
+},
+[50] = {
+  ["equipmentID"]= 1104049,
+  ["ID"]= 50,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424103,
+  ["outPutItemNum"]= 60,
+  ["priorityWithinQuality"]= 50,
+  ["shadowWeaponID"]= 1104998,
+  ["shadowWeaponName"]= "ShadowEquip1_104"
+},
+[51] = {
+  ["equipmentID"]= 1103049,
+  ["ID"]= 51,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424121,
+  ["outPutItemNum"]= 60,
+  ["priorityWithinQuality"]= 51,
+  ["shadowWeaponID"]= 1103998,
+  ["shadowWeaponName"]= "ShadowEquip1_103"
+},
+[52] = {
+  ["equipmentID"]= 1107051,
+  ["ID"]= 52,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211
+  },
+  ["outPutItemID"]= 10424127,
+  ["priorityWithinQuality"]= 52,
+  ["shadowWeaponID"]= 1107998,
+  ["shadowWeaponName"]= "ShadowEquip1_107"
+},
+[53] = {
+  ["equipmentID"]= 1303050,
+  ["ID"]= 53,
+  ["outPutItemID"]= 10424091,
+  ["priorityWithinQuality"]= 53,
+  ["shadowWeaponID"]= 1303998,
+  ["shadowWeaponName"]= "ShadowEquip1_303"
+},
+[54] = {
+  ["equipmentID"]= 1304050,
+  ["ID"]= 54,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["outPutItemID"]= 10424157,
+  ["priorityWithinQuality"]= 54,
+  ["shadowWeaponID"]= 1304998,
+  ["shadowWeaponName"]= "ShadowEquip1_304"
+},
+[55] = {
+  ["equipmentID"]= 1305049,
+  ["ID"]= 55,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["outPutItemID"]= 10424145,
+  ["priorityWithinQuality"]= 55,
+  ["shadowWeaponID"]= 1305998,
+  ["shadowWeaponName"]= "ShadowEquip1_305"
+},
+[56] = {
+  ["equipmentID"]= 1307049,
+  ["ID"]= 56,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["outPutItemID"]= 10424139,
+  ["priorityWithinQuality"]= 56,
+  ["shadowWeaponID"]= 1305996,
+  ["shadowWeaponName"]= "ShadowEquip1_307"
+},
+[57] = {
+  ["equipmentID"]= 1301052,
+  ["ID"]= 57,
+  ["outPutItemID"]= 10424085,
+  ["priorityWithinQuality"]= 57,
+  ["shadowWeaponID"]= 1301998,
+  ["shadowWeaponName"]= "ShadowEquip1_301"
+},
+[58] = {
+  ["equipmentID"]= 1306049,
+  ["ID"]= 58,
+  ["jobLimit"]= {
+    1300,
+    1310,
+    1311
+  },
+  ["outPutItemID"]= 10424133,
+  ["priorityWithinQuality"]= 58,
+  ["shadowWeaponID"]= 1306998,
+  ["shadowWeaponName"]= "ShadowEquip1_306"
+},
+[59] = {
+  ["equipmentID"]= 1302050,
+  ["ID"]= 59,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["outPutItemID"]= 10424115,
+  ["priorityWithinQuality"]= 59,
+  ["shadowWeaponID"]= 1302998,
+  ["shadowWeaponName"]= "ShadowEquip1_302"
+},
+[60] = {
+  ["equipmentID"]= 1105049,
+  ["ID"]= 60,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemNum"]= 45,
+  ["outPutItemID"]= 10424151,
+  ["outPutItemNum"]= 45,
+  ["priorityWithinQuality"]= 60,
+  ["shadowWeaponID"]= 1105998,
+  ["shadowWeaponName"]= "ShadowEquip1_105"
+},
+[61] = {
+  ["equipmentID"]= 1201071,
+  ["ID"]= 61,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 60,
+  ["outPutItemNum"]= 60,
+  ["priorityWithinQuality"]= 61
+},
+[62] = {
+  ["equipmentID"]= 1201072,
+  ["ID"]= 62,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424163,
+  ["outPutItemNum"]= 60,
+  ["priorityWithinQuality"]= 62,
+  ["shadowWeaponID"]= 1201998,
+  ["shadowWeaponName"]= "ShadowEquip1_201_1"
+},
+[63] = {
+  ["equipmentID"]= 1101052,
+  ["ID"]= 63,
+  ["materialItemNum"]= 120,
+  ["outPutItemID"]= 10424097,
+  ["outPutItemNum"]= 120,
+  ["priorityWithinQuality"]= 63,
+  ["shadowWeaponID"]= 1101998,
+  ["shadowWeaponName"]= "ShadowEquip1_101"
+},
+[64] = {
+  ["equipmentID"]= 1102050,
+  ["ID"]= 64,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 120,
+  ["outPutItemID"]= 10424109,
+  ["outPutItemNum"]= 120,
+  ["priorityWithinQuality"]= 64,
+  ["shadowWeaponID"]= 1102998,
+  ["shadowWeaponName"]= "ShadowEquip1_102"
+},
+[65] = {
+  ["equipmentID"]= 1104050,
+  ["ID"]= 65,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 120,
+  ["outPutItemID"]= 10424103,
+  ["outPutItemNum"]= 120,
+  ["priorityWithinQuality"]= 65,
+  ["shadowWeaponID"]= 1104998,
+  ["shadowWeaponName"]= "ShadowEquip1_104"
+},
+[66] = {
+  ["equipmentID"]= 1103050,
+  ["ID"]= 66,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemNum"]= 120,
+  ["outPutItemID"]= 10424121,
+  ["outPutItemNum"]= 120,
+  ["priorityWithinQuality"]= 66,
+  ["shadowWeaponID"]= 1103998,
+  ["shadowWeaponName"]= "ShadowEquip1_103"
+},
+[67] = {
+  ["equipmentID"]= 1107052,
+  ["ID"]= 67,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211
+  },
+  ["materialItemNum"]= 180,
+  ["outPutItemID"]= 10424127,
+  ["outPutItemNum"]= 180,
+  ["priorityWithinQuality"]= 67,
+  ["shadowWeaponID"]= 1107998,
+  ["shadowWeaponName"]= "ShadowEquip1_107"
+},
+[68] = {
+  ["equipmentID"]= 1303051,
+  ["ID"]= 68,
+  ["materialItemNum"]= 180,
+  ["outPutItemID"]= 10424091,
+  ["outPutItemNum"]= 180,
+  ["priorityWithinQuality"]= 68,
+  ["shadowWeaponID"]= 1303998,
+  ["shadowWeaponName"]= "ShadowEquip1_303"
+},
+[69] = {
+  ["equipmentID"]= 1304051,
+  ["ID"]= 69,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemNum"]= 180,
+  ["outPutItemID"]= 10424157,
+  ["outPutItemNum"]= 180,
+  ["priorityWithinQuality"]= 69,
+  ["shadowWeaponID"]= 1304998,
+  ["shadowWeaponName"]= "ShadowEquip1_304"
+},
+[70] = {
+  ["equipmentID"]= 1305050,
+  ["ID"]= 70,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemNum"]= 180,
+  ["outPutItemID"]= 10424145,
+  ["outPutItemNum"]= 180,
+  ["priorityWithinQuality"]= 70,
+  ["shadowWeaponID"]= 1305998,
+  ["shadowWeaponName"]= "ShadowEquip1_305"
+},
+[71] = {
+  ["equipmentID"]= 1307050,
+  ["ID"]= 71,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemNum"]= 180,
+  ["outPutItemID"]= 10424139,
+  ["outPutItemNum"]= 180,
+  ["priorityWithinQuality"]= 71,
+  ["shadowWeaponID"]= 1305996,
+  ["shadowWeaponName"]= "ShadowEquip1_307"
+},
+[72] = {
+  ["equipmentID"]= 1301053,
+  ["ID"]= 72,
+  ["materialItemNum"]= 180,
+  ["outPutItemID"]= 10424085,
+  ["outPutItemNum"]= 180,
+  ["priorityWithinQuality"]= 72,
+  ["shadowWeaponID"]= 1301998,
+  ["shadowWeaponName"]= "ShadowEquip1_301"
+},
+[73] = {
+  ["equipmentID"]= 1306050,
+  ["ID"]= 73,
+  ["jobLimit"]= {
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemNum"]= 180,
+  ["outPutItemID"]= 10424133,
+  ["outPutItemNum"]= 180,
+  ["priorityWithinQuality"]= 73,
+  ["shadowWeaponID"]= 1306998,
+  ["shadowWeaponName"]= "ShadowEquip1_306"
+},
+[74] = {
+  ["equipmentID"]= 1302051,
+  ["ID"]= 74,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 180,
+  ["outPutItemID"]= 10424115,
+  ["outPutItemNum"]= 180,
+  ["priorityWithinQuality"]= 74,
+  ["shadowWeaponID"]= 1302998,
+  ["shadowWeaponName"]= "ShadowEquip1_302"
+},
+[75] = {
+  ["equipmentID"]= 1105050,
+  ["ID"]= 75,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["outPutItemID"]= 10424151,
+  ["priorityWithinQuality"]= 75,
+  ["shadowWeaponID"]= 1105998,
+  ["shadowWeaponName"]= "ShadowEquip1_105"
+},
+[76] = {
+  ["equipmentID"]= 1201073,
+  ["ID"]= 76,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 150,
+  ["outPutItemNum"]= 150,
+  ["priorityWithinQuality"]= 76
+},
+[77] = {
+  ["equipmentID"]= 1201074,
+  ["ID"]= 77,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 150,
+  ["outPutItemID"]= 10424163,
+  ["outPutItemNum"]= 150,
+  ["priorityWithinQuality"]= 77,
+  ["shadowWeaponID"]= 1201998,
+  ["shadowWeaponName"]= "ShadowEquip1_201_1"
+},
+[78] = {
+  ["equipmentID"]= 1101053,
+  ["ID"]= 78,
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424097,
+  ["outPutItemNum"]= 300,
+  ["priorityWithinQuality"]= 78,
+  ["shadowWeaponID"]= 1101998,
+  ["shadowWeaponName"]= "ShadowEquip1_101"
+},
+[79] = {
+  ["equipmentID"]= 1102051,
+  ["ID"]= 79,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424109,
+  ["outPutItemNum"]= 300,
+  ["priorityWithinQuality"]= 79,
+  ["shadowWeaponID"]= 1102998,
+  ["shadowWeaponName"]= "ShadowEquip1_102"
+},
+[80] = {
+  ["equipmentID"]= 1104051,
+  ["ID"]= 80,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424103,
+  ["outPutItemNum"]= 300,
+  ["priorityWithinQuality"]= 80,
+  ["shadowWeaponID"]= 1104998,
+  ["shadowWeaponName"]= "ShadowEquip1_104"
+},
+[81] = {
+  ["equipmentID"]= 1103051,
+  ["ID"]= 81,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424121,
+  ["outPutItemNum"]= 300,
+  ["priorityWithinQuality"]= 81,
+  ["shadowWeaponID"]= 1103998,
+  ["shadowWeaponName"]= "ShadowEquip1_103"
+},
+[82] = {
+  ["equipmentID"]= 1107053,
+  ["ID"]= 82,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211
+  },
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424127,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 82,
+  ["shadowWeaponID"]= 1107998,
+  ["shadowWeaponName"]= "ShadowEquip1_107"
+},
+[83] = {
+  ["equipmentID"]= 1303052,
+  ["ID"]= 83,
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424091,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 83,
+  ["shadowWeaponID"]= 1303998,
+  ["shadowWeaponName"]= "ShadowEquip1_303"
+},
+[84] = {
+  ["equipmentID"]= 1304052,
+  ["ID"]= 84,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424157,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 84,
+  ["shadowWeaponID"]= 1304998,
+  ["shadowWeaponName"]= "ShadowEquip1_304"
+},
+[85] = {
+  ["equipmentID"]= 1305051,
+  ["ID"]= 85,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424145,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 85,
+  ["shadowWeaponID"]= 1305998,
+  ["shadowWeaponName"]= "ShadowEquip1_305"
+},
+[86] = {
+  ["equipmentID"]= 1307051,
+  ["ID"]= 86,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424139,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 86,
+  ["shadowWeaponID"]= 1305996,
+  ["shadowWeaponName"]= "ShadowEquip1_307"
+},
+[87] = {
+  ["equipmentID"]= 1301054,
+  ["ID"]= 87,
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424085,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 87,
+  ["shadowWeaponID"]= 1301998,
+  ["shadowWeaponName"]= "ShadowEquip1_301"
+},
+[88] = {
+  ["equipmentID"]= 1306051,
+  ["ID"]= 88,
+  ["jobLimit"]= {
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424133,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 88,
+  ["shadowWeaponID"]= 1306998,
+  ["shadowWeaponName"]= "ShadowEquip1_306"
+},
+[89] = {
+  ["equipmentID"]= 1302052,
+  ["ID"]= 89,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424115,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 89,
+  ["shadowWeaponID"]= 1302998,
+  ["shadowWeaponName"]= "ShadowEquip1_302"
+},
+[90] = {
+  ["equipmentID"]= 1105051,
+  ["ID"]= 90,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemNum"]= 225,
+  ["outPutItemID"]= 10424151,
+  ["outPutItemNum"]= 225,
+  ["priorityWithinQuality"]= 90,
+  ["shadowWeaponID"]= 1105998,
+  ["shadowWeaponName"]= "ShadowEquip1_105"
+},
+[91] = {
+  ["equipmentID"]= 1201041,
+  ["ID"]= 91,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 12,
+  ["outPutItemID"]= 10424047,
+  ["outPutItemNum"]= 12,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 106
+},
+[92] = {
+  ["equipmentID"]= 1201042,
+  ["ID"]= 92,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 12,
+  ["outPutItemID"]= 10424046,
+  ["outPutItemNum"]= 12,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 107,
+  ["shadowWeaponID"]= 1201998,
+  ["shadowWeaponName"]= "ShadowEquip1_201_1"
+},
+[93] = {
+  ["equipmentID"]= 1101037,
+  ["ID"]= 93,
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 24,
+  ["outPutItemID"]= 10424033,
+  ["outPutItemNum"]= 24,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 108,
+  ["shadowWeaponID"]= 1101998,
+  ["shadowWeaponName"]= "ShadowEquip1_101"
+},
+[94] = {
+  ["equipmentID"]= 1102035,
+  ["ID"]= 94,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 24,
+  ["outPutItemID"]= 10424037,
+  ["outPutItemNum"]= 24,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 109,
+  ["shadowWeaponID"]= 1102998,
+  ["shadowWeaponName"]= "ShadowEquip1_102"
+},
+[95] = {
+  ["equipmentID"]= 1104035,
+  ["ID"]= 95,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 24,
+  ["outPutItemID"]= 10424036,
+  ["outPutItemNum"]= 24,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 110,
+  ["shadowWeaponID"]= 1104998,
+  ["shadowWeaponName"]= "ShadowEquip1_104"
+},
+[96] = {
+  ["equipmentID"]= 1103035,
+  ["ID"]= 96,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 24,
+  ["outPutItemID"]= 10424039,
+  ["outPutItemNum"]= 24,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 111,
+  ["shadowWeaponID"]= 1103998,
+  ["shadowWeaponName"]= "ShadowEquip1_103"
+},
+[97] = {
+  ["equipmentID"]= 1107037,
+  ["ID"]= 97,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 36,
+  ["outPutItemID"]= 10424040,
+  ["outPutItemNum"]= 36,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 112,
+  ["shadowWeaponID"]= 1107998,
+  ["shadowWeaponName"]= "ShadowEquip1_107"
+},
+[98] = {
+  ["equipmentID"]= 1303036,
+  ["ID"]= 98,
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 36,
+  ["outPutItemID"]= 10424034,
+  ["outPutItemNum"]= 36,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 113,
+  ["shadowWeaponID"]= 1303998,
+  ["shadowWeaponName"]= "ShadowEquip1_303"
+},
+[99] = {
+  ["equipmentID"]= 1304036,
+  ["ID"]= 99,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 36,
+  ["outPutItemID"]= 10424045,
+  ["outPutItemNum"]= 36,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 114,
+  ["shadowWeaponID"]= 1304998,
+  ["shadowWeaponName"]= "ShadowEquip1_304"
+},
+[100] = {
+  ["equipmentID"]= 1305035,
+  ["ID"]= 100,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 36,
+  ["outPutItemID"]= 10424043,
+  ["outPutItemNum"]= 36,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 115,
+  ["shadowWeaponID"]= 1305998,
+  ["shadowWeaponName"]= "ShadowEquip1_305"
+},
+[101] = {
+  ["equipmentID"]= 1307035,
+  ["ID"]= 101,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 36,
+  ["outPutItemID"]= 10424042,
+  ["outPutItemNum"]= 36,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 116,
+  ["shadowWeaponID"]= 1305996,
+  ["shadowWeaponName"]= "ShadowEquip1_307"
+},
+[102] = {
+  ["equipmentID"]= 1301038,
+  ["ID"]= 102,
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 36,
+  ["outPutItemID"]= 10424035,
+  ["outPutItemNum"]= 36,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 117,
+  ["shadowWeaponID"]= 1301998,
+  ["shadowWeaponName"]= "ShadowEquip1_301"
+},
+[103] = {
+  ["equipmentID"]= 1306035,
+  ["ID"]= 103,
+  ["jobLimit"]= {
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 36,
+  ["outPutItemID"]= 10424041,
+  ["outPutItemNum"]= 36,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 118,
+  ["shadowWeaponID"]= 1306998,
+  ["shadowWeaponName"]= "ShadowEquip1_306"
+},
+[104] = {
+  ["equipmentID"]= 1302036,
+  ["ID"]= 104,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 36,
+  ["outPutItemID"]= 10424038,
+  ["outPutItemNum"]= 36,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 119,
+  ["shadowWeaponID"]= 1302998,
+  ["shadowWeaponName"]= "ShadowEquip1_302"
+},
+[105] = {
+  ["equipmentID"]= 1105035,
+  ["ID"]= 105,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 18,
+  ["outPutItemID"]= 10424044,
+  ["outPutItemNum"]= 18,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 120,
+  ["shadowWeaponID"]= 1105998,
+  ["shadowWeaponName"]= "ShadowEquip1_105"
+},
+[106] = {
+  ["equipmentID"]= 1201075,
+  ["ID"]= 106,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 30,
+  ["outPutItemNum"]= 15,
+  ["priorityWithinQuality"]= 121
+},
+[107] = {
+  ["equipmentID"]= 1201076,
+  ["ID"]= 107,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 30,
+  ["outPutItemID"]= 10424163,
+  ["outPutItemNum"]= 15,
+  ["priorityWithinQuality"]= 122,
+  ["shadowWeaponID"]= 1201998,
+  ["shadowWeaponName"]= "ShadowEquip1_201_1"
+},
+[108] = {
+  ["equipmentID"]= 1101054,
+  ["ID"]= 108,
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424033,
+  ["outPutItemNum"]= 60,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 123,
+  ["shadowWeaponID"]= 1101998,
+  ["shadowWeaponName"]= "ShadowEquip1_101"
+},
+[109] = {
+  ["equipmentID"]= 1102052,
+  ["ID"]= 109,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424037,
+  ["outPutItemNum"]= 60,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 124,
+  ["shadowWeaponID"]= 1102998,
+  ["shadowWeaponName"]= "ShadowEquip1_102"
+},
+[110] = {
+  ["equipmentID"]= 1104052,
+  ["ID"]= 110,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424036,
+  ["outPutItemNum"]= 60,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 125,
+  ["shadowWeaponID"]= 1104998,
+  ["shadowWeaponName"]= "ShadowEquip1_104"
+},
+[111] = {
+  ["equipmentID"]= 1103052,
+  ["ID"]= 111,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424039,
+  ["outPutItemNum"]= 60,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 126,
+  ["shadowWeaponID"]= 1103998,
+  ["shadowWeaponName"]= "ShadowEquip1_103"
+},
+[112] = {
+  ["equipmentID"]= 1107054,
+  ["ID"]= 112,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211
+  },
+  ["materialItemID"]= 10424063,
+  ["outPutItemID"]= 10424040,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 127,
+  ["shadowWeaponID"]= 1107998,
+  ["shadowWeaponName"]= "ShadowEquip1_107"
+},
+[113] = {
+  ["equipmentID"]= 1303053,
+  ["ID"]= 113,
+  ["materialItemID"]= 10424063,
+  ["outPutItemID"]= 10424034,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 128,
+  ["shadowWeaponID"]= 1303998,
+  ["shadowWeaponName"]= "ShadowEquip1_303"
+},
+[114] = {
+  ["equipmentID"]= 1304053,
+  ["ID"]= 114,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemID"]= 10424063,
+  ["outPutItemID"]= 10424045,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 129,
+  ["shadowWeaponID"]= 1304998,
+  ["shadowWeaponName"]= "ShadowEquip1_304"
+},
+[115] = {
+  ["equipmentID"]= 1305052,
+  ["ID"]= 115,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemID"]= 10424063,
+  ["outPutItemID"]= 10424043,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 130,
+  ["shadowWeaponID"]= 1305998,
+  ["shadowWeaponName"]= "ShadowEquip1_305"
+},
+[116] = {
+  ["equipmentID"]= 1307052,
+  ["ID"]= 116,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemID"]= 10424063,
+  ["outPutItemID"]= 10424042,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 131,
+  ["shadowWeaponID"]= 1305996,
+  ["shadowWeaponName"]= "ShadowEquip1_307"
+},
+[117] = {
+  ["equipmentID"]= 1301055,
+  ["ID"]= 117,
+  ["materialItemID"]= 10424063,
+  ["outPutItemID"]= 10424035,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 132,
+  ["shadowWeaponID"]= 1301998,
+  ["shadowWeaponName"]= "ShadowEquip1_301"
+},
+[118] = {
+  ["equipmentID"]= 1306052,
+  ["ID"]= 118,
+  ["jobLimit"]= {
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemID"]= 10424063,
+  ["outPutItemID"]= 10424041,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 133,
+  ["shadowWeaponID"]= 1306998,
+  ["shadowWeaponName"]= "ShadowEquip1_306"
+},
+[119] = {
+  ["equipmentID"]= 1302053,
+  ["ID"]= 119,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["outPutItemID"]= 10424038,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 134,
+  ["shadowWeaponID"]= 1302998,
+  ["shadowWeaponName"]= "ShadowEquip1_302"
+},
+[120] = {
+  ["equipmentID"]= 1105052,
+  ["ID"]= 120,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 45,
+  ["outPutItemID"]= 10424044,
+  ["outPutItemNum"]= 45,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 135,
+  ["shadowWeaponID"]= 1105998,
+  ["shadowWeaponName"]= "ShadowEquip1_105"
+},
+[121] = {
+  ["equipmentID"]= 1201077,
+  ["ID"]= 121,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 30,
+  ["outPutItemNum"]= 30,
+  ["priorityWithinQuality"]= 136
+},
+[122] = {
+  ["equipmentID"]= 1201078,
+  ["ID"]= 122,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 30,
+  ["outPutItemID"]= 10424163,
+  ["outPutItemNum"]= 30,
+  ["priorityWithinQuality"]= 137,
+  ["shadowWeaponID"]= 1201998,
+  ["shadowWeaponName"]= "ShadowEquip1_201_1"
+},
+[123] = {
+  ["equipmentID"]= 1101055,
+  ["ID"]= 123,
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424097,
+  ["outPutItemNum"]= 60,
+  ["priorityWithinQuality"]= 138,
+  ["shadowWeaponID"]= 1101998,
+  ["shadowWeaponName"]= "ShadowEquip1_101"
+},
+[124] = {
+  ["equipmentID"]= 1102053,
+  ["ID"]= 124,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424109,
+  ["outPutItemNum"]= 60,
+  ["priorityWithinQuality"]= 139,
+  ["shadowWeaponID"]= 1102998,
+  ["shadowWeaponName"]= "ShadowEquip1_102"
+},
+[125] = {
+  ["equipmentID"]= 1104053,
+  ["ID"]= 125,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424103,
+  ["outPutItemNum"]= 60,
+  ["priorityWithinQuality"]= 140,
+  ["shadowWeaponID"]= 1104998,
+  ["shadowWeaponName"]= "ShadowEquip1_104"
+},
+[126] = {
+  ["equipmentID"]= 1103053,
+  ["ID"]= 126,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424121,
+  ["outPutItemNum"]= 60,
+  ["priorityWithinQuality"]= 141,
+  ["shadowWeaponID"]= 1103998,
+  ["shadowWeaponName"]= "ShadowEquip1_103"
+},
+[127] = {
+  ["equipmentID"]= 1107055,
+  ["ID"]= 127,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211
+  },
+  ["outPutItemID"]= 10424127,
+  ["priorityWithinQuality"]= 142,
+  ["shadowWeaponID"]= 1107998,
+  ["shadowWeaponName"]= "ShadowEquip1_107"
+},
+[128] = {
+  ["equipmentID"]= 1303054,
+  ["ID"]= 128,
+  ["outPutItemID"]= 10424091,
+  ["priorityWithinQuality"]= 143,
+  ["shadowWeaponID"]= 1303998,
+  ["shadowWeaponName"]= "ShadowEquip1_303"
+},
+[129] = {
+  ["equipmentID"]= 1304054,
+  ["ID"]= 129,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["outPutItemID"]= 10424157,
+  ["priorityWithinQuality"]= 144,
+  ["shadowWeaponID"]= 1304998,
+  ["shadowWeaponName"]= "ShadowEquip1_304"
+},
+[130] = {
+  ["equipmentID"]= 1305053,
+  ["ID"]= 130,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["outPutItemID"]= 10424145,
+  ["priorityWithinQuality"]= 145,
+  ["shadowWeaponID"]= 1305998,
+  ["shadowWeaponName"]= "ShadowEquip1_305"
+},
+[131] = {
+  ["equipmentID"]= 1307053,
+  ["ID"]= 131,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["outPutItemID"]= 10424139,
+  ["priorityWithinQuality"]= 146,
+  ["shadowWeaponID"]= 1305996,
+  ["shadowWeaponName"]= "ShadowEquip1_307"
+},
+[132] = {
+  ["equipmentID"]= 1301056,
+  ["ID"]= 132,
+  ["outPutItemID"]= 10424085,
+  ["priorityWithinQuality"]= 147,
+  ["shadowWeaponID"]= 1301998,
+  ["shadowWeaponName"]= "ShadowEquip1_301"
+},
+[133] = {
+  ["equipmentID"]= 1306053,
+  ["ID"]= 133,
+  ["jobLimit"]= {
+    1300,
+    1310,
+    1311
+  },
+  ["outPutItemID"]= 10424133,
+  ["priorityWithinQuality"]= 148,
+  ["shadowWeaponID"]= 1306998,
+  ["shadowWeaponName"]= "ShadowEquip1_306"
+},
+[134] = {
+  ["equipmentID"]= 1302054,
+  ["ID"]= 134,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["outPutItemID"]= 10424115,
+  ["priorityWithinQuality"]= 149,
+  ["shadowWeaponID"]= 1302998,
+  ["shadowWeaponName"]= "ShadowEquip1_302"
+},
+[135] = {
+  ["equipmentID"]= 1105053,
+  ["ID"]= 135,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemNum"]= 45,
+  ["outPutItemID"]= 10424151,
+  ["outPutItemNum"]= 45,
+  ["priorityWithinQuality"]= 150,
+  ["shadowWeaponID"]= 1105998,
+  ["shadowWeaponName"]= "ShadowEquip1_105"
+},
+[136] = {
+  ["equipmentID"]= 1201079,
+  ["ID"]= 136,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 60,
+  ["outPutItemNum"]= 60,
+  ["priorityWithinQuality"]= 151
+},
+[137] = {
+  ["equipmentID"]= 1201080,
+  ["ID"]= 137,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424163,
+  ["outPutItemNum"]= 60,
+  ["priorityWithinQuality"]= 152,
+  ["shadowWeaponID"]= 1201998,
+  ["shadowWeaponName"]= "ShadowEquip1_201_1"
+},
+[138] = {
+  ["equipmentID"]= 1101056,
+  ["ID"]= 138,
+  ["materialItemNum"]= 120,
+  ["outPutItemID"]= 10424097,
+  ["outPutItemNum"]= 120,
+  ["priorityWithinQuality"]= 153,
+  ["shadowWeaponID"]= 1101998,
+  ["shadowWeaponName"]= "ShadowEquip1_101"
+},
+[139] = {
+  ["equipmentID"]= 1102054,
+  ["ID"]= 139,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 120,
+  ["outPutItemID"]= 10424109,
+  ["outPutItemNum"]= 120,
+  ["priorityWithinQuality"]= 154,
+  ["shadowWeaponID"]= 1102998,
+  ["shadowWeaponName"]= "ShadowEquip1_102"
+},
+[140] = {
+  ["equipmentID"]= 1104054,
+  ["ID"]= 140,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 120,
+  ["outPutItemID"]= 10424103,
+  ["outPutItemNum"]= 120,
+  ["priorityWithinQuality"]= 155,
+  ["shadowWeaponID"]= 1104998,
+  ["shadowWeaponName"]= "ShadowEquip1_104"
+},
+[141] = {
+  ["equipmentID"]= 1103054,
+  ["ID"]= 141,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemNum"]= 120,
+  ["outPutItemID"]= 10424121,
+  ["outPutItemNum"]= 120,
+  ["priorityWithinQuality"]= 156,
+  ["shadowWeaponID"]= 1103998,
+  ["shadowWeaponName"]= "ShadowEquip1_103"
+},
+[142] = {
+  ["equipmentID"]= 1107056,
+  ["ID"]= 142,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211
+  },
+  ["materialItemNum"]= 180,
+  ["outPutItemID"]= 10424127,
+  ["outPutItemNum"]= 180,
+  ["priorityWithinQuality"]= 157,
+  ["shadowWeaponID"]= 1107998,
+  ["shadowWeaponName"]= "ShadowEquip1_107"
+},
+[143] = {
+  ["equipmentID"]= 1303055,
+  ["ID"]= 143,
+  ["materialItemNum"]= 180,
+  ["outPutItemID"]= 10424091,
+  ["outPutItemNum"]= 180,
+  ["priorityWithinQuality"]= 158,
+  ["shadowWeaponID"]= 1303998,
+  ["shadowWeaponName"]= "ShadowEquip1_303"
+},
+[144] = {
+  ["equipmentID"]= 1304055,
+  ["ID"]= 144,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemNum"]= 180,
+  ["outPutItemID"]= 10424157,
+  ["outPutItemNum"]= 180,
+  ["priorityWithinQuality"]= 159,
+  ["shadowWeaponID"]= 1304998,
+  ["shadowWeaponName"]= "ShadowEquip1_304"
+},
+[145] = {
+  ["equipmentID"]= 1305054,
+  ["ID"]= 145,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemNum"]= 180,
+  ["outPutItemID"]= 10424145,
+  ["outPutItemNum"]= 180,
+  ["priorityWithinQuality"]= 160,
+  ["shadowWeaponID"]= 1305998,
+  ["shadowWeaponName"]= "ShadowEquip1_305"
+},
+[146] = {
+  ["equipmentID"]= 1307054,
+  ["ID"]= 146,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemNum"]= 180,
+  ["outPutItemID"]= 10424139,
+  ["outPutItemNum"]= 180,
+  ["priorityWithinQuality"]= 161,
+  ["shadowWeaponID"]= 1305996,
+  ["shadowWeaponName"]= "ShadowEquip1_307"
+},
+[147] = {
+  ["equipmentID"]= 1301057,
+  ["ID"]= 147,
+  ["materialItemNum"]= 180,
+  ["outPutItemID"]= 10424085,
+  ["outPutItemNum"]= 180,
+  ["priorityWithinQuality"]= 162,
+  ["shadowWeaponID"]= 1301998,
+  ["shadowWeaponName"]= "ShadowEquip1_301"
+},
+[148] = {
+  ["equipmentID"]= 1306054,
+  ["ID"]= 148,
+  ["jobLimit"]= {
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemNum"]= 180,
+  ["outPutItemID"]= 10424133,
+  ["outPutItemNum"]= 180,
+  ["priorityWithinQuality"]= 163,
+  ["shadowWeaponID"]= 1306998,
+  ["shadowWeaponName"]= "ShadowEquip1_306"
+},
+[149] = {
+  ["equipmentID"]= 1302055,
+  ["ID"]= 149,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 180,
+  ["outPutItemID"]= 10424115,
+  ["outPutItemNum"]= 180,
+  ["priorityWithinQuality"]= 164,
+  ["shadowWeaponID"]= 1302998,
+  ["shadowWeaponName"]= "ShadowEquip1_302"
+},
+[150] = {
+  ["equipmentID"]= 1105054,
+  ["ID"]= 150,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["outPutItemID"]= 10424151,
+  ["priorityWithinQuality"]= 165,
+  ["shadowWeaponID"]= 1105998,
+  ["shadowWeaponName"]= "ShadowEquip1_105"
+},
+[151] = {
+  ["equipmentID"]= 1201081,
+  ["ID"]= 151,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 150,
+  ["outPutItemNum"]= 150,
+  ["priorityWithinQuality"]= 166
+},
+[152] = {
+  ["equipmentID"]= 1201082,
+  ["ID"]= 152,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 150,
+  ["outPutItemID"]= 10424163,
+  ["outPutItemNum"]= 150,
+  ["priorityWithinQuality"]= 167,
+  ["shadowWeaponID"]= 1201998,
+  ["shadowWeaponName"]= "ShadowEquip1_201_1"
+},
+[153] = {
+  ["equipmentID"]= 1101057,
+  ["ID"]= 153,
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424097,
+  ["outPutItemNum"]= 300,
+  ["priorityWithinQuality"]= 168,
+  ["shadowWeaponID"]= 1101998,
+  ["shadowWeaponName"]= "ShadowEquip1_101"
+},
+[154] = {
+  ["equipmentID"]= 1102055,
+  ["ID"]= 154,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424109,
+  ["outPutItemNum"]= 300,
+  ["priorityWithinQuality"]= 169,
+  ["shadowWeaponID"]= 1102998,
+  ["shadowWeaponName"]= "ShadowEquip1_102"
+},
+[155] = {
+  ["equipmentID"]= 1104055,
+  ["ID"]= 155,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424103,
+  ["outPutItemNum"]= 300,
+  ["priorityWithinQuality"]= 170,
+  ["shadowWeaponID"]= 1104998,
+  ["shadowWeaponName"]= "ShadowEquip1_104"
+},
+[156] = {
+  ["equipmentID"]= 1103055,
+  ["ID"]= 156,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424121,
+  ["outPutItemNum"]= 300,
+  ["priorityWithinQuality"]= 171,
+  ["shadowWeaponID"]= 1103998,
+  ["shadowWeaponName"]= "ShadowEquip1_103"
+},
+[157] = {
+  ["equipmentID"]= 1107057,
+  ["ID"]= 157,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211
+  },
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424127,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 172,
+  ["shadowWeaponID"]= 1107998,
+  ["shadowWeaponName"]= "ShadowEquip1_107"
+},
+[158] = {
+  ["equipmentID"]= 1303056,
+  ["ID"]= 158,
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424091,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 173,
+  ["shadowWeaponID"]= 1303998,
+  ["shadowWeaponName"]= "ShadowEquip1_303"
+},
+[159] = {
+  ["equipmentID"]= 1304056,
+  ["ID"]= 159,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424157,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 174,
+  ["shadowWeaponID"]= 1304998,
+  ["shadowWeaponName"]= "ShadowEquip1_304"
+},
+[160] = {
+  ["equipmentID"]= 1305055,
+  ["ID"]= 160,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424145,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 175,
+  ["shadowWeaponID"]= 1305998,
+  ["shadowWeaponName"]= "ShadowEquip1_305"
+},
+[161] = {
+  ["equipmentID"]= 1307055,
+  ["ID"]= 161,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424139,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 176,
+  ["shadowWeaponID"]= 1305996,
+  ["shadowWeaponName"]= "ShadowEquip1_307"
+},
+[162] = {
+  ["equipmentID"]= 1301058,
+  ["ID"]= 162,
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424085,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 177,
+  ["shadowWeaponID"]= 1301998,
+  ["shadowWeaponName"]= "ShadowEquip1_301"
+},
+[163] = {
+  ["equipmentID"]= 1306055,
+  ["ID"]= 163,
+  ["jobLimit"]= {
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424133,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 178,
+  ["shadowWeaponID"]= 1306998,
+  ["shadowWeaponName"]= "ShadowEquip1_306"
+},
+[164] = {
+  ["equipmentID"]= 1302056,
+  ["ID"]= 164,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424115,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 179,
+  ["shadowWeaponID"]= 1302998,
+  ["shadowWeaponName"]= "ShadowEquip1_302"
+},
+[165] = {
+  ["equipmentID"]= 1105055,
+  ["ID"]= 165,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemNum"]= 225,
+  ["outPutItemID"]= 10424151,
+  ["outPutItemNum"]= 225,
+  ["priorityWithinQuality"]= 180,
+  ["shadowWeaponID"]= 1105998,
+  ["shadowWeaponName"]= "ShadowEquip1_105"
+},
+[166] = {
+  ["equipmentID"]= 1201019,
+  ["ID"]= 166,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 30,
+  ["outPutItemNum"]= 15,
+  ["priorityWithinQuality"]= 196
+},
+[167] = {
+  ["equipmentID"]= 1201011,
+  ["ID"]= 167,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 30,
+  ["outPutItemID"]= 10424163,
+  ["outPutItemNum"]= 15,
+  ["priorityWithinQuality"]= 197,
+  ["shadowWeaponID"]= 1201998,
+  ["shadowWeaponName"]= "ShadowEquip1_201_1"
+},
+[168] = {
+  ["equipmentID"]= 1101003,
+  ["ID"]= 168,
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424033,
+  ["outPutItemNum"]= 60,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 198,
+  ["shadowWeaponID"]= 1101998,
+  ["shadowWeaponName"]= "ShadowEquip1_101"
+},
+[169] = {
+  ["equipmentID"]= 1102006,
+  ["ID"]= 169,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424037,
+  ["outPutItemNum"]= 60,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 199,
+  ["shadowWeaponID"]= 1102998,
+  ["shadowWeaponName"]= "ShadowEquip1_102"
+},
+[170] = {
+  ["equipmentID"]= 1104002,
+  ["ID"]= 170,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424036,
+  ["outPutItemNum"]= 60,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 200,
+  ["shadowWeaponID"]= 1104998,
+  ["shadowWeaponName"]= "ShadowEquip1_104"
+},
+[171] = {
+  ["equipmentID"]= 1103003,
+  ["ID"]= 171,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424039,
+  ["outPutItemNum"]= 60,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 201,
+  ["shadowWeaponID"]= 1103998,
+  ["shadowWeaponName"]= "ShadowEquip1_103"
+},
+[172] = {
+  ["equipmentID"]= 1107011,
+  ["ID"]= 172,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211
+  },
+  ["materialItemID"]= 10424063,
+  ["outPutItemID"]= 10424040,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 202,
+  ["shadowWeaponID"]= 1107998,
+  ["shadowWeaponName"]= "ShadowEquip1_107"
+},
+[173] = {
+  ["equipmentID"]= 1303016,
+  ["ID"]= 173,
+  ["materialItemID"]= 10424063,
+  ["outPutItemID"]= 10424034,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 203,
+  ["shadowWeaponID"]= 1303998,
+  ["shadowWeaponName"]= "ShadowEquip1_303"
+},
+[174] = {
+  ["equipmentID"]= 1304011,
+  ["ID"]= 174,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemID"]= 10424063,
+  ["outPutItemID"]= 10424045,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 204,
+  ["shadowWeaponID"]= 1304998,
+  ["shadowWeaponName"]= "ShadowEquip1_304"
+},
+[175] = {
+  ["equipmentID"]= 1305003,
+  ["ID"]= 175,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemID"]= 10424063,
+  ["outPutItemID"]= 10424043,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 205,
+  ["shadowWeaponID"]= 1305998,
+  ["shadowWeaponName"]= "ShadowEquip1_305"
+},
+[176] = {
+  ["equipmentID"]= 1307003,
+  ["ID"]= 176,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemID"]= 10424063,
+  ["outPutItemID"]= 10424042,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 206,
+  ["shadowWeaponID"]= 1305996,
+  ["shadowWeaponName"]= "ShadowEquip1_307"
+},
+[177] = {
+  ["equipmentID"]= 1301003,
+  ["ID"]= 177,
+  ["materialItemID"]= 10424063,
+  ["outPutItemID"]= 10424035,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 207,
+  ["shadowWeaponID"]= 1301998,
+  ["shadowWeaponName"]= "ShadowEquip1_301"
+},
+[178] = {
+  ["equipmentID"]= 1306004,
+  ["ID"]= 178,
+  ["jobLimit"]= {
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemID"]= 10424063,
+  ["outPutItemID"]= 10424041,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 208,
+  ["shadowWeaponID"]= 1306998,
+  ["shadowWeaponName"]= "ShadowEquip1_306"
+},
+[179] = {
+  ["equipmentID"]= 1302015,
+  ["ID"]= 179,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["outPutItemID"]= 10424038,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 209,
+  ["shadowWeaponID"]= 1302998,
+  ["shadowWeaponName"]= "ShadowEquip1_302"
+},
+[180] = {
+  ["equipmentID"]= 1105004,
+  ["ID"]= 180,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 45,
+  ["outPutItemID"]= 10424044,
+  ["outPutItemNum"]= 45,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 210,
+  ["shadowWeaponID"]= 1105998,
+  ["shadowWeaponName"]= "ShadowEquip1_105"
+},
+[181] = {
+  ["equipmentID"]= 1201055,
+  ["ID"]= 181,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 30,
+  ["outPutItemNum"]= 30,
+  ["priorityWithinQuality"]= 211
+},
+[182] = {
+  ["equipmentID"]= 1201056,
+  ["ID"]= 182,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 30,
+  ["outPutItemID"]= 10424163,
+  ["outPutItemNum"]= 30,
+  ["priorityWithinQuality"]= 212,
+  ["shadowWeaponID"]= 1201998,
+  ["shadowWeaponName"]= "ShadowEquip1_201_1"
+},
+[183] = {
+  ["equipmentID"]= 1101044,
+  ["ID"]= 183,
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424097,
+  ["outPutItemNum"]= 60,
+  ["priorityWithinQuality"]= 213,
+  ["shadowWeaponID"]= 1101998,
+  ["shadowWeaponName"]= "ShadowEquip1_101"
+},
+[184] = {
+  ["equipmentID"]= 1102042,
+  ["ID"]= 184,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424109,
+  ["outPutItemNum"]= 60,
+  ["priorityWithinQuality"]= 214,
+  ["shadowWeaponID"]= 1102998,
+  ["shadowWeaponName"]= "ShadowEquip1_102"
+},
+[185] = {
+  ["equipmentID"]= 1104042,
+  ["ID"]= 185,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424103,
+  ["outPutItemNum"]= 60,
+  ["priorityWithinQuality"]= 215,
+  ["shadowWeaponID"]= 1104998,
+  ["shadowWeaponName"]= "ShadowEquip1_104"
+},
+[186] = {
+  ["equipmentID"]= 1103042,
+  ["ID"]= 186,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424121,
+  ["outPutItemNum"]= 60,
+  ["priorityWithinQuality"]= 216,
+  ["shadowWeaponID"]= 1103998,
+  ["shadowWeaponName"]= "ShadowEquip1_103"
+},
+[187] = {
+  ["equipmentID"]= 1107044,
+  ["ID"]= 187,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211
+  },
+  ["outPutItemID"]= 10424127,
+  ["priorityWithinQuality"]= 217,
+  ["shadowWeaponID"]= 1107998,
+  ["shadowWeaponName"]= "ShadowEquip1_107"
+},
+[188] = {
+  ["equipmentID"]= 1303043,
+  ["ID"]= 188,
+  ["outPutItemID"]= 10424091,
+  ["priorityWithinQuality"]= 218,
+  ["shadowWeaponID"]= 1303998,
+  ["shadowWeaponName"]= "ShadowEquip1_303"
+},
+[189] = {
+  ["equipmentID"]= 1304043,
+  ["ID"]= 189,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["outPutItemID"]= 10424157,
+  ["priorityWithinQuality"]= 219,
+  ["shadowWeaponID"]= 1304998,
+  ["shadowWeaponName"]= "ShadowEquip1_304"
+},
+[190] = {
+  ["equipmentID"]= 1305042,
+  ["ID"]= 190,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["outPutItemID"]= 10424145,
+  ["priorityWithinQuality"]= 220,
+  ["shadowWeaponID"]= 1305998,
+  ["shadowWeaponName"]= "ShadowEquip1_305"
+},
+[191] = {
+  ["equipmentID"]= 1307042,
+  ["ID"]= 191,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["outPutItemID"]= 10424139,
+  ["priorityWithinQuality"]= 221,
+  ["shadowWeaponID"]= 1305996,
+  ["shadowWeaponName"]= "ShadowEquip1_307"
+},
+[192] = {
+  ["equipmentID"]= 1301045,
+  ["ID"]= 192,
+  ["outPutItemID"]= 10424085,
+  ["priorityWithinQuality"]= 222,
+  ["shadowWeaponID"]= 1301998,
+  ["shadowWeaponName"]= "ShadowEquip1_301"
+},
+[193] = {
+  ["equipmentID"]= 1306042,
+  ["ID"]= 193,
+  ["jobLimit"]= {
+    1300,
+    1310,
+    1311
+  },
+  ["outPutItemID"]= 10424133,
+  ["priorityWithinQuality"]= 223,
+  ["shadowWeaponID"]= 1306998,
+  ["shadowWeaponName"]= "ShadowEquip1_306"
+},
+[194] = {
+  ["equipmentID"]= 1302043,
+  ["ID"]= 194,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["outPutItemID"]= 10424115,
+  ["priorityWithinQuality"]= 224,
+  ["shadowWeaponID"]= 1302998,
+  ["shadowWeaponName"]= "ShadowEquip1_302"
+},
+[195] = {
+  ["equipmentID"]= 1105042,
+  ["ID"]= 195,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemNum"]= 45,
+  ["outPutItemID"]= 10424151,
+  ["outPutItemNum"]= 45,
+  ["priorityWithinQuality"]= 225,
+  ["shadowWeaponID"]= 1105998,
+  ["shadowWeaponName"]= "ShadowEquip1_105"
+},
+[196] = {
+  ["equipmentID"]= 1201083,
+  ["ID"]= 196,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 60,
+  ["outPutItemNum"]= 60,
+  ["priorityWithinQuality"]= 226
+},
+[197] = {
+  ["equipmentID"]= 1201084,
+  ["ID"]= 197,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424163,
+  ["outPutItemNum"]= 60,
+  ["priorityWithinQuality"]= 227,
+  ["shadowWeaponID"]= 1201998,
+  ["shadowWeaponName"]= "ShadowEquip1_201_1"
+},
+[198] = {
+  ["equipmentID"]= 1101058,
+  ["ID"]= 198,
+  ["materialItemNum"]= 120,
+  ["outPutItemID"]= 10424097,
+  ["outPutItemNum"]= 120,
+  ["priorityWithinQuality"]= 228,
+  ["shadowWeaponID"]= 1101998,
+  ["shadowWeaponName"]= "ShadowEquip1_101"
+},
+[199] = {
+  ["equipmentID"]= 1102056,
+  ["ID"]= 199,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 120,
+  ["outPutItemID"]= 10424109,
+  ["outPutItemNum"]= 120,
+  ["priorityWithinQuality"]= 229,
+  ["shadowWeaponID"]= 1102998,
+  ["shadowWeaponName"]= "ShadowEquip1_102"
+},
+[200] = {
+  ["equipmentID"]= 1104056,
+  ["ID"]= 200,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 120,
+  ["outPutItemID"]= 10424103,
+  ["outPutItemNum"]= 120,
+  ["priorityWithinQuality"]= 230,
+  ["shadowWeaponID"]= 1104998,
+  ["shadowWeaponName"]= "ShadowEquip1_104"
+},
+[201] = {
+  ["equipmentID"]= 1103056,
+  ["ID"]= 201,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemNum"]= 120,
+  ["outPutItemID"]= 10424121,
+  ["outPutItemNum"]= 120,
+  ["priorityWithinQuality"]= 231,
+  ["shadowWeaponID"]= 1103998,
+  ["shadowWeaponName"]= "ShadowEquip1_103"
+},
+[202] = {
+  ["equipmentID"]= 1107058,
+  ["ID"]= 202,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211
+  },
+  ["materialItemNum"]= 180,
+  ["outPutItemID"]= 10424127,
+  ["outPutItemNum"]= 180,
+  ["priorityWithinQuality"]= 232,
+  ["shadowWeaponID"]= 1107998,
+  ["shadowWeaponName"]= "ShadowEquip1_107"
+},
+[203] = {
+  ["equipmentID"]= 1303057,
+  ["ID"]= 203,
+  ["materialItemNum"]= 180,
+  ["outPutItemID"]= 10424091,
+  ["outPutItemNum"]= 180,
+  ["priorityWithinQuality"]= 233,
+  ["shadowWeaponID"]= 1303998,
+  ["shadowWeaponName"]= "ShadowEquip1_303"
+},
+[204] = {
+  ["equipmentID"]= 1304057,
+  ["ID"]= 204,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemNum"]= 180,
+  ["outPutItemID"]= 10424157,
+  ["outPutItemNum"]= 180,
+  ["priorityWithinQuality"]= 234,
+  ["shadowWeaponID"]= 1304998,
+  ["shadowWeaponName"]= "ShadowEquip1_304"
+},
+[205] = {
+  ["equipmentID"]= 1305056,
+  ["ID"]= 205,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemNum"]= 180,
+  ["outPutItemID"]= 10424145,
+  ["outPutItemNum"]= 180,
+  ["priorityWithinQuality"]= 235,
+  ["shadowWeaponID"]= 1305998,
+  ["shadowWeaponName"]= "ShadowEquip1_305"
+},
+[206] = {
+  ["equipmentID"]= 1307056,
+  ["ID"]= 206,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemNum"]= 180,
+  ["outPutItemID"]= 10424139,
+  ["outPutItemNum"]= 180,
+  ["priorityWithinQuality"]= 236,
+  ["shadowWeaponID"]= 1305996,
+  ["shadowWeaponName"]= "ShadowEquip1_307"
+},
+[207] = {
+  ["equipmentID"]= 1301059,
+  ["ID"]= 207,
+  ["materialItemNum"]= 180,
+  ["outPutItemID"]= 10424085,
+  ["outPutItemNum"]= 180,
+  ["priorityWithinQuality"]= 237,
+  ["shadowWeaponID"]= 1301998,
+  ["shadowWeaponName"]= "ShadowEquip1_301"
+},
+[208] = {
+  ["equipmentID"]= 1306056,
+  ["ID"]= 208,
+  ["jobLimit"]= {
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemNum"]= 180,
+  ["outPutItemID"]= 10424133,
+  ["outPutItemNum"]= 180,
+  ["priorityWithinQuality"]= 238,
+  ["shadowWeaponID"]= 1306998,
+  ["shadowWeaponName"]= "ShadowEquip1_306"
+},
+[209] = {
+  ["equipmentID"]= 1302057,
+  ["ID"]= 209,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 180,
+  ["outPutItemID"]= 10424115,
+  ["outPutItemNum"]= 180,
+  ["priorityWithinQuality"]= 239,
+  ["shadowWeaponID"]= 1302998,
+  ["shadowWeaponName"]= "ShadowEquip1_302"
+},
+[210] = {
+  ["equipmentID"]= 1105056,
+  ["ID"]= 210,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["outPutItemID"]= 10424151,
+  ["priorityWithinQuality"]= 240,
+  ["shadowWeaponID"]= 1105998,
+  ["shadowWeaponName"]= "ShadowEquip1_105"
+},
+[211] = {
+  ["equipmentID"]= 1201085,
+  ["ID"]= 211,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 150,
+  ["outPutItemNum"]= 150,
+  ["priorityWithinQuality"]= 241
+},
+[212] = {
+  ["equipmentID"]= 1201086,
+  ["ID"]= 212,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 150,
+  ["outPutItemID"]= 10424163,
+  ["outPutItemNum"]= 150,
+  ["priorityWithinQuality"]= 242,
+  ["shadowWeaponID"]= 1201998,
+  ["shadowWeaponName"]= "ShadowEquip1_201_1"
+},
+[213] = {
+  ["equipmentID"]= 1101059,
+  ["ID"]= 213,
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424097,
+  ["outPutItemNum"]= 300,
+  ["priorityWithinQuality"]= 243,
+  ["shadowWeaponID"]= 1101998,
+  ["shadowWeaponName"]= "ShadowEquip1_101"
+},
+[214] = {
+  ["equipmentID"]= 1102057,
+  ["ID"]= 214,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424109,
+  ["outPutItemNum"]= 300,
+  ["priorityWithinQuality"]= 244,
+  ["shadowWeaponID"]= 1102998,
+  ["shadowWeaponName"]= "ShadowEquip1_102"
+},
+[215] = {
+  ["equipmentID"]= 1104057,
+  ["ID"]= 215,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424103,
+  ["outPutItemNum"]= 300,
+  ["priorityWithinQuality"]= 245,
+  ["shadowWeaponID"]= 1104998,
+  ["shadowWeaponName"]= "ShadowEquip1_104"
+},
+[216] = {
+  ["equipmentID"]= 1103057,
+  ["ID"]= 216,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424121,
+  ["outPutItemNum"]= 300,
+  ["priorityWithinQuality"]= 246,
+  ["shadowWeaponID"]= 1103998,
+  ["shadowWeaponName"]= "ShadowEquip1_103"
+},
+[217] = {
+  ["equipmentID"]= 1107059,
+  ["ID"]= 217,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211
+  },
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424127,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 247,
+  ["shadowWeaponID"]= 1107998,
+  ["shadowWeaponName"]= "ShadowEquip1_107"
+},
+[218] = {
+  ["equipmentID"]= 1303058,
+  ["ID"]= 218,
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424091,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 248,
+  ["shadowWeaponID"]= 1303998,
+  ["shadowWeaponName"]= "ShadowEquip1_303"
+},
+[219] = {
+  ["equipmentID"]= 1304058,
+  ["ID"]= 219,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424157,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 249,
+  ["shadowWeaponID"]= 1304998,
+  ["shadowWeaponName"]= "ShadowEquip1_304"
+},
+[220] = {
+  ["equipmentID"]= 1305057,
+  ["ID"]= 220,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424145,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 250,
+  ["shadowWeaponID"]= 1305998,
+  ["shadowWeaponName"]= "ShadowEquip1_305"
+},
+[221] = {
+  ["equipmentID"]= 1307057,
+  ["ID"]= 221,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424139,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 251,
+  ["shadowWeaponID"]= 1305996,
+  ["shadowWeaponName"]= "ShadowEquip1_307"
+},
+[222] = {
+  ["equipmentID"]= 1301060,
+  ["ID"]= 222,
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424085,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 252,
+  ["shadowWeaponID"]= 1301998,
+  ["shadowWeaponName"]= "ShadowEquip1_301"
+},
+[223] = {
+  ["equipmentID"]= 1306057,
+  ["ID"]= 223,
+  ["jobLimit"]= {
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424133,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 253,
+  ["shadowWeaponID"]= 1306998,
+  ["shadowWeaponName"]= "ShadowEquip1_306"
+},
+[224] = {
+  ["equipmentID"]= 1302058,
+  ["ID"]= 224,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424115,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 254,
+  ["shadowWeaponID"]= 1302998,
+  ["shadowWeaponName"]= "ShadowEquip1_302"
+},
+[225] = {
+  ["equipmentID"]= 1105057,
+  ["ID"]= 225,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemNum"]= 225,
+  ["outPutItemID"]= 10424151,
+  ["outPutItemNum"]= 225,
+  ["priorityWithinQuality"]= 255,
+  ["shadowWeaponID"]= 1105998,
+  ["shadowWeaponName"]= "ShadowEquip1_105"
+},
+[226] = {
+  ["equipmentID"]= 1201020,
+  ["ID"]= 226,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 30,
+  ["outPutItemNum"]= 30,
+  ["priorityWithinQuality"]= 271
+},
+[227] = {
+  ["equipmentID"]= 1201014,
+  ["ID"]= 227,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 30,
+  ["outPutItemID"]= 10424163,
+  ["outPutItemNum"]= 30,
+  ["priorityWithinQuality"]= 272,
+  ["shadowWeaponID"]= 1201998,
+  ["shadowWeaponName"]= "ShadowEquip1_201_1"
+},
+[228] = {
+  ["equipmentID"]= 1101018,
+  ["ID"]= 228,
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424097,
+  ["outPutItemNum"]= 60,
+  ["priorityWithinQuality"]= 273,
+  ["shadowWeaponID"]= 1101998,
+  ["shadowWeaponName"]= "ShadowEquip1_101"
+},
+[229] = {
+  ["equipmentID"]= 1102013,
+  ["ID"]= 229,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424109,
+  ["outPutItemNum"]= 60,
+  ["priorityWithinQuality"]= 274,
+  ["shadowWeaponID"]= 1102998,
+  ["shadowWeaponName"]= "ShadowEquip1_102"
+},
+[230] = {
+  ["equipmentID"]= 1104007,
+  ["ID"]= 230,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424103,
+  ["outPutItemNum"]= 60,
+  ["priorityWithinQuality"]= 275,
+  ["shadowWeaponID"]= 1104998,
+  ["shadowWeaponName"]= "ShadowEquip1_104"
+},
+[231] = {
+  ["equipmentID"]= 1103005,
+  ["ID"]= 231,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424121,
+  ["outPutItemNum"]= 60,
+  ["priorityWithinQuality"]= 276,
+  ["shadowWeaponID"]= 1103998,
+  ["shadowWeaponName"]= "ShadowEquip1_103"
+},
+[232] = {
+  ["equipmentID"]= 1107010,
+  ["ID"]= 232,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211
+  },
+  ["outPutItemID"]= 10424127,
+  ["priorityWithinQuality"]= 277,
+  ["shadowWeaponID"]= 1107998,
+  ["shadowWeaponName"]= "ShadowEquip1_107"
+},
+[233] = {
+  ["equipmentID"]= 1303004,
+  ["ID"]= 233,
+  ["outPutItemID"]= 10424091,
+  ["priorityWithinQuality"]= 278,
+  ["shadowWeaponID"]= 1303998,
+  ["shadowWeaponName"]= "ShadowEquip1_303"
+},
+[234] = {
+  ["equipmentID"]= 1304015,
+  ["ID"]= 234,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["outPutItemID"]= 10424157,
+  ["priorityWithinQuality"]= 279,
+  ["shadowWeaponID"]= 1304998,
+  ["shadowWeaponName"]= "ShadowEquip1_304"
+},
+[235] = {
+  ["equipmentID"]= 1305017,
+  ["ID"]= 235,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["outPutItemID"]= 10424145,
+  ["priorityWithinQuality"]= 280,
+  ["shadowWeaponID"]= 1305998,
+  ["shadowWeaponName"]= "ShadowEquip1_305"
+},
+[236] = {
+  ["equipmentID"]= 1307017,
+  ["ID"]= 236,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["outPutItemID"]= 10424139,
+  ["priorityWithinQuality"]= 281,
+  ["shadowWeaponID"]= 1305996,
+  ["shadowWeaponName"]= "ShadowEquip1_307"
+},
+[237] = {
+  ["equipmentID"]= 1301012,
+  ["ID"]= 237,
+  ["outPutItemID"]= 10424085,
+  ["priorityWithinQuality"]= 282,
+  ["shadowWeaponID"]= 1301998,
+  ["shadowWeaponName"]= "ShadowEquip1_301"
+},
+[238] = {
+  ["equipmentID"]= 1306010,
+  ["ID"]= 238,
+  ["jobLimit"]= {
+    1300,
+    1310,
+    1311
+  },
+  ["outPutItemID"]= 10424133,
+  ["priorityWithinQuality"]= 283,
+  ["shadowWeaponID"]= 1306998,
+  ["shadowWeaponName"]= "ShadowEquip1_306"
+},
+[239] = {
+  ["equipmentID"]= 1302012,
+  ["ID"]= 239,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["outPutItemID"]= 10424115,
+  ["priorityWithinQuality"]= 284,
+  ["shadowWeaponID"]= 1302998,
+  ["shadowWeaponName"]= "ShadowEquip1_302"
+},
+[240] = {
+  ["equipmentID"]= 1105005,
+  ["ID"]= 240,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemNum"]= 45,
+  ["outPutItemID"]= 10424151,
+  ["outPutItemNum"]= 45,
+  ["priorityWithinQuality"]= 285,
+  ["shadowWeaponID"]= 1105998,
+  ["shadowWeaponName"]= "ShadowEquip1_105"
+},
+[241] = {
+  ["equipmentID"]= 1201059,
+  ["ID"]= 241,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 60,
+  ["outPutItemNum"]= 60,
+  ["priorityWithinQuality"]= 286
+},
+[242] = {
+  ["equipmentID"]= 1201060,
+  ["ID"]= 242,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424163,
+  ["outPutItemNum"]= 60,
+  ["priorityWithinQuality"]= 287,
+  ["shadowWeaponID"]= 1201998,
+  ["shadowWeaponName"]= "ShadowEquip1_201_1"
+},
+[243] = {
+  ["equipmentID"]= 1101046,
+  ["ID"]= 243,
+  ["materialItemNum"]= 120,
+  ["outPutItemID"]= 10424097,
+  ["outPutItemNum"]= 120,
+  ["priorityWithinQuality"]= 288,
+  ["shadowWeaponID"]= 1101998,
+  ["shadowWeaponName"]= "ShadowEquip1_101"
+},
+[244] = {
+  ["equipmentID"]= 1102044,
+  ["ID"]= 244,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 120,
+  ["outPutItemID"]= 10424109,
+  ["outPutItemNum"]= 120,
+  ["priorityWithinQuality"]= 289,
+  ["shadowWeaponID"]= 1102998,
+  ["shadowWeaponName"]= "ShadowEquip1_102"
+},
+[245] = {
+  ["equipmentID"]= 1104044,
+  ["ID"]= 245,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 120,
+  ["outPutItemID"]= 10424103,
+  ["outPutItemNum"]= 120,
+  ["priorityWithinQuality"]= 290,
+  ["shadowWeaponID"]= 1104998,
+  ["shadowWeaponName"]= "ShadowEquip1_104"
+},
+[246] = {
+  ["equipmentID"]= 1103044,
+  ["ID"]= 246,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemNum"]= 120,
+  ["outPutItemID"]= 10424121,
+  ["outPutItemNum"]= 120,
+  ["priorityWithinQuality"]= 291,
+  ["shadowWeaponID"]= 1103998,
+  ["shadowWeaponName"]= "ShadowEquip1_103"
+},
+[247] = {
+  ["equipmentID"]= 1107046,
+  ["ID"]= 247,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211
+  },
+  ["materialItemNum"]= 180,
+  ["outPutItemID"]= 10424127,
+  ["outPutItemNum"]= 180,
+  ["priorityWithinQuality"]= 292,
+  ["shadowWeaponID"]= 1107998,
+  ["shadowWeaponName"]= "ShadowEquip1_107"
+},
+[248] = {
+  ["equipmentID"]= 1303045,
+  ["ID"]= 248,
+  ["materialItemNum"]= 180,
+  ["outPutItemID"]= 10424091,
+  ["outPutItemNum"]= 180,
+  ["priorityWithinQuality"]= 293,
+  ["shadowWeaponID"]= 1303998,
+  ["shadowWeaponName"]= "ShadowEquip1_303"
+},
+[249] = {
+  ["equipmentID"]= 1304045,
+  ["ID"]= 249,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemNum"]= 180,
+  ["outPutItemID"]= 10424157,
+  ["outPutItemNum"]= 180,
+  ["priorityWithinQuality"]= 294,
+  ["shadowWeaponID"]= 1304998,
+  ["shadowWeaponName"]= "ShadowEquip1_304"
+},
+[250] = {
+  ["equipmentID"]= 1305044,
+  ["ID"]= 250,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemNum"]= 180,
+  ["outPutItemID"]= 10424145,
+  ["outPutItemNum"]= 180,
+  ["priorityWithinQuality"]= 295,
+  ["shadowWeaponID"]= 1305998,
+  ["shadowWeaponName"]= "ShadowEquip1_305"
+},
+[251] = {
+  ["equipmentID"]= 1307044,
+  ["ID"]= 251,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemNum"]= 180,
+  ["outPutItemID"]= 10424139,
+  ["outPutItemNum"]= 180,
+  ["priorityWithinQuality"]= 296,
+  ["shadowWeaponID"]= 1305996,
+  ["shadowWeaponName"]= "ShadowEquip1_307"
+},
+[252] = {
+  ["equipmentID"]= 1301047,
+  ["ID"]= 252,
+  ["materialItemNum"]= 180,
+  ["outPutItemID"]= 10424085,
+  ["outPutItemNum"]= 180,
+  ["priorityWithinQuality"]= 297,
+  ["shadowWeaponID"]= 1301998,
+  ["shadowWeaponName"]= "ShadowEquip1_301"
+},
+[253] = {
+  ["equipmentID"]= 1306044,
+  ["ID"]= 253,
+  ["jobLimit"]= {
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemNum"]= 180,
+  ["outPutItemID"]= 10424133,
+  ["outPutItemNum"]= 180,
+  ["priorityWithinQuality"]= 298,
+  ["shadowWeaponID"]= 1306998,
+  ["shadowWeaponName"]= "ShadowEquip1_306"
+},
+[254] = {
+  ["equipmentID"]= 1302045,
+  ["ID"]= 254,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 180,
+  ["outPutItemID"]= 10424115,
+  ["outPutItemNum"]= 180,
+  ["priorityWithinQuality"]= 299,
+  ["shadowWeaponID"]= 1302998,
+  ["shadowWeaponName"]= "ShadowEquip1_302"
+},
+[255] = {
+  ["equipmentID"]= 1105044,
+  ["ID"]= 255,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["outPutItemID"]= 10424151,
+  ["priorityWithinQuality"]= 300,
+  ["shadowWeaponID"]= 1105998,
+  ["shadowWeaponName"]= "ShadowEquip1_105"
+},
+[256] = {
+  ["equipmentID"]= 1201061,
+  ["ID"]= 256,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 150,
+  ["outPutItemNum"]= 150,
+  ["priorityWithinQuality"]= 301
+},
+[257] = {
+  ["equipmentID"]= 1201062,
+  ["ID"]= 257,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 150,
+  ["outPutItemID"]= 10424163,
+  ["outPutItemNum"]= 150,
+  ["priorityWithinQuality"]= 302,
+  ["shadowWeaponID"]= 1201998,
+  ["shadowWeaponName"]= "ShadowEquip1_201_1"
+},
+[258] = {
+  ["equipmentID"]= 1101047,
+  ["ID"]= 258,
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424097,
+  ["outPutItemNum"]= 300,
+  ["priorityWithinQuality"]= 303,
+  ["shadowWeaponID"]= 1101998,
+  ["shadowWeaponName"]= "ShadowEquip1_101"
+},
+[259] = {
+  ["equipmentID"]= 1102045,
+  ["ID"]= 259,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424109,
+  ["outPutItemNum"]= 300,
+  ["priorityWithinQuality"]= 304,
+  ["shadowWeaponID"]= 1102998,
+  ["shadowWeaponName"]= "ShadowEquip1_102"
+},
+[260] = {
+  ["equipmentID"]= 1104045,
+  ["ID"]= 260,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424103,
+  ["outPutItemNum"]= 300,
+  ["priorityWithinQuality"]= 305,
+  ["shadowWeaponID"]= 1104998,
+  ["shadowWeaponName"]= "ShadowEquip1_104"
+},
+[261] = {
+  ["equipmentID"]= 1103045,
+  ["ID"]= 261,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424121,
+  ["outPutItemNum"]= 300,
+  ["priorityWithinQuality"]= 306,
+  ["shadowWeaponID"]= 1103998,
+  ["shadowWeaponName"]= "ShadowEquip1_103"
+},
+[262] = {
+  ["equipmentID"]= 1107047,
+  ["ID"]= 262,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211
+  },
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424127,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 307,
+  ["shadowWeaponID"]= 1107998,
+  ["shadowWeaponName"]= "ShadowEquip1_107"
+},
+[263] = {
+  ["equipmentID"]= 1303046,
+  ["ID"]= 263,
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424091,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 308,
+  ["shadowWeaponID"]= 1303998,
+  ["shadowWeaponName"]= "ShadowEquip1_303"
+},
+[264] = {
+  ["equipmentID"]= 1304046,
+  ["ID"]= 264,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424157,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 309,
+  ["shadowWeaponID"]= 1304998,
+  ["shadowWeaponName"]= "ShadowEquip1_304"
+},
+[265] = {
+  ["equipmentID"]= 1305045,
+  ["ID"]= 265,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424145,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 310,
+  ["shadowWeaponID"]= 1305998,
+  ["shadowWeaponName"]= "ShadowEquip1_305"
+},
+[266] = {
+  ["equipmentID"]= 1307045,
+  ["ID"]= 266,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424139,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 311,
+  ["shadowWeaponID"]= 1305996,
+  ["shadowWeaponName"]= "ShadowEquip1_307"
+},
+[267] = {
+  ["equipmentID"]= 1301048,
+  ["ID"]= 267,
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424085,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 312,
+  ["shadowWeaponID"]= 1301998,
+  ["shadowWeaponName"]= "ShadowEquip1_301"
+},
+[268] = {
+  ["equipmentID"]= 1306045,
+  ["ID"]= 268,
+  ["jobLimit"]= {
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424133,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 313,
+  ["shadowWeaponID"]= 1306998,
+  ["shadowWeaponName"]= "ShadowEquip1_306"
+},
+[269] = {
+  ["equipmentID"]= 1302046,
+  ["ID"]= 269,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424115,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 314,
+  ["shadowWeaponID"]= 1302998,
+  ["shadowWeaponName"]= "ShadowEquip1_302"
+},
+[270] = {
+  ["equipmentID"]= 1105045,
+  ["ID"]= 270,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemNum"]= 225,
+  ["outPutItemID"]= 10424151,
+  ["outPutItemNum"]= 225,
+  ["priorityWithinQuality"]= 315,
+  ["shadowWeaponID"]= 1105998,
+  ["shadowWeaponName"]= "ShadowEquip1_105"
+},
+[271] = {
+  ["equipmentID"]= 1201012,
+  ["ID"]= 271,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 60,
+  ["outPutItemNum"]= 60,
+  ["priorityWithinQuality"]= 331
+},
+[272] = {
+  ["equipmentID"]= 1201010,
+  ["ID"]= 272,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424163,
+  ["outPutItemNum"]= 60,
+  ["priorityWithinQuality"]= 332,
+  ["shadowWeaponID"]= 1201998,
+  ["shadowWeaponName"]= "ShadowEquip1_201_1"
+},
+[273] = {
+  ["equipmentID"]= 1101035,
+  ["ID"]= 273,
+  ["materialItemNum"]= 120,
+  ["outPutItemID"]= 10424097,
+  ["outPutItemNum"]= 120,
+  ["priorityWithinQuality"]= 333,
+  ["shadowWeaponID"]= 1101998,
+  ["shadowWeaponName"]= "ShadowEquip1_101"
+},
+[274] = {
+  ["equipmentID"]= 1102010,
+  ["ID"]= 274,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 120,
+  ["outPutItemID"]= 10424109,
+  ["outPutItemNum"]= 120,
+  ["priorityWithinQuality"]= 334,
+  ["shadowWeaponID"]= 1102998,
+  ["shadowWeaponName"]= "ShadowEquip1_102"
+},
+[275] = {
+  ["equipmentID"]= 1104003,
+  ["ID"]= 275,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 120,
+  ["outPutItemID"]= 10424103,
+  ["outPutItemNum"]= 120,
+  ["priorityWithinQuality"]= 335,
+  ["shadowWeaponID"]= 1104998,
+  ["shadowWeaponName"]= "ShadowEquip1_104"
+},
+[276] = {
+  ["equipmentID"]= 1103004,
+  ["ID"]= 276,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemNum"]= 120,
+  ["outPutItemID"]= 10424121,
+  ["outPutItemNum"]= 120,
+  ["priorityWithinQuality"]= 336,
+  ["shadowWeaponID"]= 1103998,
+  ["shadowWeaponName"]= "ShadowEquip1_103"
+},
+[277] = {
+  ["equipmentID"]= 1107002,
+  ["ID"]= 277,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211
+  },
+  ["materialItemNum"]= 180,
+  ["outPutItemID"]= 10424127,
+  ["outPutItemNum"]= 180,
+  ["priorityWithinQuality"]= 337,
+  ["shadowWeaponID"]= 1107998,
+  ["shadowWeaponName"]= "ShadowEquip1_107"
+},
+[278] = {
+  ["equipmentID"]= 1303006,
+  ["ID"]= 278,
+  ["materialItemNum"]= 180,
+  ["outPutItemID"]= 10424091,
+  ["outPutItemNum"]= 180,
+  ["priorityWithinQuality"]= 338,
+  ["shadowWeaponID"]= 1303998,
+  ["shadowWeaponName"]= "ShadowEquip1_303"
+},
+[279] = {
+  ["equipmentID"]= 1304013,
+  ["ID"]= 279,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemNum"]= 180,
+  ["outPutItemID"]= 10424157,
+  ["outPutItemNum"]= 180,
+  ["priorityWithinQuality"]= 339,
+  ["shadowWeaponID"]= 1304998,
+  ["shadowWeaponName"]= "ShadowEquip1_304"
+},
+[280] = {
+  ["equipmentID"]= 1305004,
+  ["ID"]= 280,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemNum"]= 180,
+  ["outPutItemID"]= 10424145,
+  ["outPutItemNum"]= 180,
+  ["priorityWithinQuality"]= 340,
+  ["shadowWeaponID"]= 1305998,
+  ["shadowWeaponName"]= "ShadowEquip1_305"
+},
+[281] = {
+  ["equipmentID"]= 1307004,
+  ["ID"]= 281,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemNum"]= 180,
+  ["outPutItemID"]= 10424139,
+  ["outPutItemNum"]= 180,
+  ["priorityWithinQuality"]= 341,
+  ["shadowWeaponID"]= 1305996,
+  ["shadowWeaponName"]= "ShadowEquip1_307"
+},
+[282] = {
+  ["equipmentID"]= 1301037,
+  ["ID"]= 282,
+  ["materialItemNum"]= 180,
+  ["outPutItemID"]= 10424085,
+  ["outPutItemNum"]= 180,
+  ["priorityWithinQuality"]= 342,
+  ["shadowWeaponID"]= 1301998,
+  ["shadowWeaponName"]= "ShadowEquip1_301"
+},
+[283] = {
+  ["equipmentID"]= 1306008,
+  ["ID"]= 283,
+  ["jobLimit"]= {
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemNum"]= 180,
+  ["outPutItemID"]= 10424133,
+  ["outPutItemNum"]= 180,
+  ["priorityWithinQuality"]= 343,
+  ["shadowWeaponID"]= 1306998,
+  ["shadowWeaponName"]= "ShadowEquip1_306"
+},
+[284] = {
+  ["equipmentID"]= 1302007,
+  ["ID"]= 284,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 180,
+  ["outPutItemID"]= 10424115,
+  ["outPutItemNum"]= 180,
+  ["priorityWithinQuality"]= 344,
+  ["shadowWeaponID"]= 1302998,
+  ["shadowWeaponName"]= "ShadowEquip1_302"
+},
+[285] = {
+  ["equipmentID"]= 1105017,
+  ["ID"]= 285,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["outPutItemID"]= 10424151,
+  ["priorityWithinQuality"]= 345,
+  ["shadowWeaponID"]= 1105998,
+  ["shadowWeaponName"]= "ShadowEquip1_105"
+},
+[286] = {
+  ["equipmentID"]= 1201063,
+  ["ID"]= 286,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 150,
+  ["outPutItemNum"]= 150,
+  ["priorityWithinQuality"]= 346
+},
+[287] = {
+  ["equipmentID"]= 1201064,
+  ["ID"]= 287,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 150,
+  ["outPutItemID"]= 10424163,
+  ["outPutItemNum"]= 150,
+  ["priorityWithinQuality"]= 347,
+  ["shadowWeaponID"]= 1201998,
+  ["shadowWeaponName"]= "ShadowEquip1_201_1"
+},
+[288] = {
+  ["equipmentID"]= 1101048,
+  ["ID"]= 288,
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424097,
+  ["outPutItemNum"]= 300,
+  ["priorityWithinQuality"]= 348,
+  ["shadowWeaponID"]= 1101998,
+  ["shadowWeaponName"]= "ShadowEquip1_101"
+},
+[289] = {
+  ["equipmentID"]= 1102046,
+  ["ID"]= 289,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424109,
+  ["outPutItemNum"]= 300,
+  ["priorityWithinQuality"]= 349,
+  ["shadowWeaponID"]= 1102998,
+  ["shadowWeaponName"]= "ShadowEquip1_102"
+},
+[290] = {
+  ["equipmentID"]= 1104046,
+  ["ID"]= 290,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424103,
+  ["outPutItemNum"]= 300,
+  ["priorityWithinQuality"]= 350,
+  ["shadowWeaponID"]= 1104998,
+  ["shadowWeaponName"]= "ShadowEquip1_104"
+},
+[291] = {
+  ["equipmentID"]= 1103046,
+  ["ID"]= 291,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424121,
+  ["outPutItemNum"]= 300,
+  ["priorityWithinQuality"]= 351,
+  ["shadowWeaponID"]= 1103998,
+  ["shadowWeaponName"]= "ShadowEquip1_103"
+},
+[292] = {
+  ["equipmentID"]= 1107048,
+  ["ID"]= 292,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211
+  },
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424127,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 352,
+  ["shadowWeaponID"]= 1107998,
+  ["shadowWeaponName"]= "ShadowEquip1_107"
+},
+[293] = {
+  ["equipmentID"]= 1303047,
+  ["ID"]= 293,
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424091,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 353,
+  ["shadowWeaponID"]= 1303998,
+  ["shadowWeaponName"]= "ShadowEquip1_303"
+},
+[294] = {
+  ["equipmentID"]= 1304047,
+  ["ID"]= 294,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424157,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 354,
+  ["shadowWeaponID"]= 1304998,
+  ["shadowWeaponName"]= "ShadowEquip1_304"
+},
+[295] = {
+  ["equipmentID"]= 1305046,
+  ["ID"]= 295,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424145,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 355,
+  ["shadowWeaponID"]= 1305998,
+  ["shadowWeaponName"]= "ShadowEquip1_305"
+},
+[296] = {
+  ["equipmentID"]= 1307046,
+  ["ID"]= 296,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424139,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 356,
+  ["shadowWeaponID"]= 1305996,
+  ["shadowWeaponName"]= "ShadowEquip1_307"
+},
+[297] = {
+  ["equipmentID"]= 1301049,
+  ["ID"]= 297,
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424085,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 357,
+  ["shadowWeaponID"]= 1301998,
+  ["shadowWeaponName"]= "ShadowEquip1_301"
+},
+[298] = {
+  ["equipmentID"]= 1306046,
+  ["ID"]= 298,
+  ["jobLimit"]= {
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424133,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 358,
+  ["shadowWeaponID"]= 1306998,
+  ["shadowWeaponName"]= "ShadowEquip1_306"
+},
+[299] = {
+  ["equipmentID"]= 1302047,
+  ["ID"]= 299,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424115,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 359,
+  ["shadowWeaponID"]= 1302998,
+  ["shadowWeaponName"]= "ShadowEquip1_302"
+},
+[300] = {
+  ["equipmentID"]= 1105046,
+  ["ID"]= 300,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemNum"]= 225,
+  ["outPutItemID"]= 10424151,
+  ["outPutItemNum"]= 225,
+  ["priorityWithinQuality"]= 360,
+  ["shadowWeaponID"]= 1105998,
+  ["shadowWeaponName"]= "ShadowEquip1_105"
+},
+[301] = {
+  ["equipmentID"]= 1201005,
+  ["ID"]= 301,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 150,
+  ["outPutItemNum"]= 150,
+  ["priorityWithinQuality"]= 376
+},
+[302] = {
+  ["equipmentID"]= 1201022,
+  ["ID"]= 302,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 150,
+  ["outPutItemID"]= 10424163,
+  ["outPutItemNum"]= 150,
+  ["priorityWithinQuality"]= 377,
+  ["shadowWeaponID"]= 1201998,
+  ["shadowWeaponName"]= "ShadowEquip1_201_1"
+},
+[303] = {
+  ["equipmentID"]= 1101006,
+  ["ID"]= 303,
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424097,
+  ["outPutItemNum"]= 300,
+  ["priorityWithinQuality"]= 378,
+  ["shadowWeaponID"]= 1101998,
+  ["shadowWeaponName"]= "ShadowEquip1_101"
+},
+[304] = {
+  ["equipmentID"]= 1102007,
+  ["ID"]= 304,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424109,
+  ["outPutItemNum"]= 300,
+  ["priorityWithinQuality"]= 379,
+  ["shadowWeaponID"]= 1102998,
+  ["shadowWeaponName"]= "ShadowEquip1_102"
+},
+[305] = {
+  ["equipmentID"]= 1104004,
+  ["ID"]= 305,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424103,
+  ["outPutItemNum"]= 300,
+  ["priorityWithinQuality"]= 380,
+  ["shadowWeaponID"]= 1104998,
+  ["shadowWeaponName"]= "ShadowEquip1_104"
+},
+[306] = {
+  ["equipmentID"]= 1103016,
+  ["ID"]= 306,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424121,
+  ["outPutItemNum"]= 300,
+  ["priorityWithinQuality"]= 381,
+  ["shadowWeaponID"]= 1103998,
+  ["shadowWeaponName"]= "ShadowEquip1_103"
+},
+[307] = {
+  ["equipmentID"]= 1107014,
+  ["ID"]= 307,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211
+  },
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424127,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 382,
+  ["shadowWeaponID"]= 1107998,
+  ["shadowWeaponName"]= "ShadowEquip1_107"
+},
+[308] = {
+  ["equipmentID"]= 1303017,
+  ["ID"]= 308,
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424091,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 383,
+  ["shadowWeaponID"]= 1303998,
+  ["shadowWeaponName"]= "ShadowEquip1_303"
+},
+[309] = {
+  ["equipmentID"]= 1304003,
+  ["ID"]= 309,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424157,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 384,
+  ["shadowWeaponID"]= 1304998,
+  ["shadowWeaponName"]= "ShadowEquip1_304"
+},
+[310] = {
+  ["equipmentID"]= 1305012,
+  ["ID"]= 310,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424145,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 385,
+  ["shadowWeaponID"]= 1305998,
+  ["shadowWeaponName"]= "ShadowEquip1_305"
+},
+[311] = {
+  ["equipmentID"]= 1307012,
+  ["ID"]= 311,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424139,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 386,
+  ["shadowWeaponID"]= 1305996,
+  ["shadowWeaponName"]= "ShadowEquip1_307"
+},
+[312] = {
+  ["equipmentID"]= 1301007,
+  ["ID"]= 312,
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424085,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 387,
+  ["shadowWeaponID"]= 1301998,
+  ["shadowWeaponName"]= "ShadowEquip1_301"
+},
+[313] = {
+  ["equipmentID"]= 1306011,
+  ["ID"]= 313,
+  ["jobLimit"]= {
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424133,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 388,
+  ["shadowWeaponID"]= 1306998,
+  ["shadowWeaponName"]= "ShadowEquip1_306"
+},
+[314] = {
+  ["equipmentID"]= 1302006,
+  ["ID"]= 314,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424115,
+  ["outPutItemNum"]= 450,
+  ["priorityWithinQuality"]= 389,
+  ["shadowWeaponID"]= 1302998,
+  ["shadowWeaponName"]= "ShadowEquip1_302"
+},
+[315] = {
+  ["equipmentID"]= 1105009,
+  ["ID"]= 315,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemNum"]= 225,
+  ["outPutItemID"]= 10424151,
+  ["outPutItemNum"]= 225,
+  ["priorityWithinQuality"]= 390,
+  ["shadowWeaponID"]= 1105998,
+  ["shadowWeaponName"]= "ShadowEquip1_105"
+},
+[316] = {
+  ["equipmentID"]= 1101031,
+  ["ID"]= 316,
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 40,
+  ["outPutItemID"]= 10424033,
+  ["outPutItemNum"]= 40,
+  ["priority"]= 1,
+  ["shadowWeaponID"]= 1101998,
+  ["shadowWeaponName"]= "ShadowEquip1_101"
+},
+[317] = {
+  ["equipmentID"]= 1102031,
+  ["ID"]= 317,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 40,
+  ["outPutItemID"]= 10424037,
+  ["outPutItemNum"]= 40,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 2,
+  ["shadowWeaponID"]= 1102998,
+  ["shadowWeaponName"]= "ShadowEquip1_102"
+},
+[318] = {
+  ["equipmentID"]= 1104031,
+  ["ID"]= 318,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 40,
+  ["outPutItemID"]= 10424036,
+  ["outPutItemNum"]= 40,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 3,
+  ["shadowWeaponID"]= 1104998,
+  ["shadowWeaponName"]= "ShadowEquip1_104"
+},
+[319] = {
+  ["equipmentID"]= 1103031,
+  ["ID"]= 319,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 40,
+  ["outPutItemID"]= 10424039,
+  ["outPutItemNum"]= 40,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 4,
+  ["shadowWeaponID"]= 1103998,
+  ["shadowWeaponName"]= "ShadowEquip1_103"
+},
+[320] = {
+  ["equipmentID"]= 1107031,
+  ["ID"]= 320,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424040,
+  ["outPutItemNum"]= 60,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 5,
+  ["shadowWeaponID"]= 1107998,
+  ["shadowWeaponName"]= "ShadowEquip1_107"
+},
+[321] = {
+  ["equipmentID"]= 1303031,
+  ["ID"]= 321,
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424034,
+  ["outPutItemNum"]= 60,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 6,
+  ["shadowWeaponID"]= 1303998,
+  ["shadowWeaponName"]= "ShadowEquip1_303"
+},
+[322] = {
+  ["equipmentID"]= 1304031,
+  ["ID"]= 322,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424045,
+  ["outPutItemNum"]= 60,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 7,
+  ["shadowWeaponID"]= 1304998,
+  ["shadowWeaponName"]= "ShadowEquip1_304"
+},
+[323] = {
+  ["equipmentID"]= 1305031,
+  ["ID"]= 323,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424043,
+  ["outPutItemNum"]= 60,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 8,
+  ["shadowWeaponID"]= 1305998,
+  ["shadowWeaponName"]= "ShadowEquip1_305"
+},
+[324] = {
+  ["equipmentID"]= 1307031,
+  ["ID"]= 324,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424042,
+  ["outPutItemNum"]= 60,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 9,
+  ["shadowWeaponID"]= 1305996,
+  ["shadowWeaponName"]= "ShadowEquip1_307"
+},
+[325] = {
+  ["equipmentID"]= 1301031,
+  ["ID"]= 325,
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424035,
+  ["outPutItemNum"]= 60,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 10,
+  ["shadowWeaponID"]= 1301998,
+  ["shadowWeaponName"]= "ShadowEquip1_301"
+},
+[326] = {
+  ["equipmentID"]= 1306031,
+  ["ID"]= 326,
+  ["jobLimit"]= {
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424041,
+  ["outPutItemNum"]= 60,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 11,
+  ["shadowWeaponID"]= 1306998,
+  ["shadowWeaponName"]= "ShadowEquip1_306"
+},
+[327] = {
+  ["equipmentID"]= 1302031,
+  ["ID"]= 327,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424038,
+  ["outPutItemNum"]= 60,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 12,
+  ["shadowWeaponID"]= 1302998,
+  ["shadowWeaponName"]= "ShadowEquip1_302"
+},
+[328] = {
+  ["equipmentID"]= 1105031,
+  ["ID"]= 328,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 30,
+  ["outPutItemID"]= 10424044,
+  ["outPutItemNum"]= 30,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 13,
+  ["shadowWeaponID"]= 1105998,
+  ["shadowWeaponName"]= "ShadowEquip1_105"
+},
+[329] = {
+  ["equipmentID"]= 1201030,
+  ["ID"]= 329,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 20,
+  ["outPutItemID"]= 10424047,
+  ["outPutItemNum"]= 20,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 14
+},
+[330] = {
+  ["equipmentID"]= 1201031,
+  ["ID"]= 330,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 20,
+  ["outPutItemID"]= 10424047,
+  ["outPutItemNum"]= 20,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 15
+},
+[331] = {
+  ["equipmentID"]= 1201087,
+  ["ID"]= 331,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 20,
+  ["outPutItemID"]= 10424046,
+  ["outPutItemNum"]= 20,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 16,
+  ["shadowWeaponID"]= 1201998,
+  ["shadowWeaponName"]= "ShadowEquip1_201_1"
+},
+[332] = {
+  ["equipmentID"]= 1201088,
+  ["ID"]= 332,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 20,
+  ["outPutItemID"]= 10424046,
+  ["outPutItemNum"]= 20,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 17,
+  ["shadowWeaponID"]= 1201998,
+  ["shadowWeaponName"]= "ShadowEquip1_201_1"
+},
+[333] = {
+  ["equipmentID"]= 1101032,
+  ["ID"]= 333,
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 80,
+  ["outPutItemID"]= 10424033,
+  ["outPutItemNum"]= 80,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 18,
+  ["shadowWeaponID"]= 1101998,
+  ["shadowWeaponName"]= "ShadowEquip1_101"
+},
+[334] = {
+  ["equipmentID"]= 1102032,
+  ["ID"]= 334,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 80,
+  ["outPutItemID"]= 10424037,
+  ["outPutItemNum"]= 80,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 19,
+  ["shadowWeaponID"]= 1102998,
+  ["shadowWeaponName"]= "ShadowEquip1_102"
+},
+[335] = {
+  ["equipmentID"]= 1104032,
+  ["ID"]= 335,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 80,
+  ["outPutItemID"]= 10424036,
+  ["outPutItemNum"]= 80,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 20,
+  ["shadowWeaponID"]= 1104998,
+  ["shadowWeaponName"]= "ShadowEquip1_104"
+},
+[336] = {
+  ["equipmentID"]= 1103032,
+  ["ID"]= 336,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 80,
+  ["outPutItemID"]= 10424039,
+  ["outPutItemNum"]= 80,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 21,
+  ["shadowWeaponID"]= 1103998,
+  ["shadowWeaponName"]= "ShadowEquip1_103"
+},
+[337] = {
+  ["equipmentID"]= 1107032,
+  ["ID"]= 337,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 120,
+  ["outPutItemID"]= 10424040,
+  ["outPutItemNum"]= 120,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 22,
+  ["shadowWeaponID"]= 1107998,
+  ["shadowWeaponName"]= "ShadowEquip1_107"
+},
+[338] = {
+  ["equipmentID"]= 1303032,
+  ["ID"]= 338,
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 120,
+  ["outPutItemID"]= 10424034,
+  ["outPutItemNum"]= 120,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 23,
+  ["shadowWeaponID"]= 1303998,
+  ["shadowWeaponName"]= "ShadowEquip1_303"
+},
+[339] = {
+  ["equipmentID"]= 1304032,
+  ["ID"]= 339,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 120,
+  ["outPutItemID"]= 10424045,
+  ["outPutItemNum"]= 120,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 24,
+  ["shadowWeaponID"]= 1304998,
+  ["shadowWeaponName"]= "ShadowEquip1_304"
+},
+[340] = {
+  ["equipmentID"]= 1305032,
+  ["ID"]= 340,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 120,
+  ["outPutItemID"]= 10424043,
+  ["outPutItemNum"]= 120,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 25,
+  ["shadowWeaponID"]= 1305998,
+  ["shadowWeaponName"]= "ShadowEquip1_305"
+},
+[341] = {
+  ["equipmentID"]= 1307032,
+  ["ID"]= 341,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 120,
+  ["outPutItemID"]= 10424042,
+  ["outPutItemNum"]= 120,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 26,
+  ["shadowWeaponID"]= 1305996,
+  ["shadowWeaponName"]= "ShadowEquip1_307"
+},
+[342] = {
+  ["equipmentID"]= 1301032,
+  ["ID"]= 342,
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 120,
+  ["outPutItemID"]= 10424035,
+  ["outPutItemNum"]= 120,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 27,
+  ["shadowWeaponID"]= 1301998,
+  ["shadowWeaponName"]= "ShadowEquip1_301"
+},
+[343] = {
+  ["equipmentID"]= 1306032,
+  ["ID"]= 343,
+  ["jobLimit"]= {
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 120,
+  ["outPutItemID"]= 10424041,
+  ["outPutItemNum"]= 120,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 28,
+  ["shadowWeaponID"]= 1306998,
+  ["shadowWeaponName"]= "ShadowEquip1_306"
+},
+[344] = {
+  ["equipmentID"]= 1302032,
+  ["ID"]= 344,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 120,
+  ["outPutItemID"]= 10424038,
+  ["outPutItemNum"]= 120,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 29,
+  ["shadowWeaponID"]= 1302998,
+  ["shadowWeaponName"]= "ShadowEquip1_302"
+},
+[345] = {
+  ["equipmentID"]= 1105032,
+  ["ID"]= 345,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 60,
+  ["outPutItemID"]= 10424044,
+  ["outPutItemNum"]= 60,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 30,
+  ["shadowWeaponID"]= 1105998,
+  ["shadowWeaponName"]= "ShadowEquip1_105"
+},
+[346] = {
+  ["equipmentID"]= 1201032,
+  ["ID"]= 346,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 40,
+  ["outPutItemID"]= 10424047,
+  ["outPutItemNum"]= 40,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 31
+},
+[347] = {
+  ["equipmentID"]= 1201033,
+  ["ID"]= 347,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 40,
+  ["outPutItemID"]= 10424047,
+  ["outPutItemNum"]= 40,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 32
+},
+[348] = {
+  ["equipmentID"]= 1201089,
+  ["ID"]= 348,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 40,
+  ["outPutItemID"]= 10424046,
+  ["outPutItemNum"]= 40,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 33,
+  ["shadowWeaponID"]= 1201998,
+  ["shadowWeaponName"]= "ShadowEquip1_201_1"
+},
+[349] = {
+  ["equipmentID"]= 1201090,
+  ["ID"]= 349,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 40,
+  ["outPutItemID"]= 10424046,
+  ["outPutItemNum"]= 40,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 34,
+  ["shadowWeaponID"]= 1201998,
+  ["shadowWeaponName"]= "ShadowEquip1_201_1"
+},
+[350] = {
+  ["equipmentID"]= 1101033,
+  ["ID"]= 350,
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 200,
+  ["outPutItemID"]= 10424033,
+  ["outPutItemNum"]= 200,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 35,
+  ["shadowWeaponID"]= 1101998,
+  ["shadowWeaponName"]= "ShadowEquip1_101"
+},
+[351] = {
+  ["equipmentID"]= 1102033,
+  ["ID"]= 351,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 200,
+  ["outPutItemID"]= 10424037,
+  ["outPutItemNum"]= 200,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 36,
+  ["shadowWeaponID"]= 1102998,
+  ["shadowWeaponName"]= "ShadowEquip1_102"
+},
+[352] = {
+  ["equipmentID"]= 1104033,
+  ["ID"]= 352,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 200,
+  ["outPutItemID"]= 10424036,
+  ["outPutItemNum"]= 200,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 37,
+  ["shadowWeaponID"]= 1104998,
+  ["shadowWeaponName"]= "ShadowEquip1_104"
+},
+[353] = {
+  ["equipmentID"]= 1103033,
+  ["ID"]= 353,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 200,
+  ["outPutItemID"]= 10424039,
+  ["outPutItemNum"]= 200,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 38,
+  ["shadowWeaponID"]= 1103998,
+  ["shadowWeaponName"]= "ShadowEquip1_103"
+},
+[354] = {
+  ["equipmentID"]= 1107033,
+  ["ID"]= 354,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424040,
+  ["outPutItemNum"]= 300,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 39,
+  ["shadowWeaponID"]= 1107998,
+  ["shadowWeaponName"]= "ShadowEquip1_107"
+},
+[355] = {
+  ["equipmentID"]= 1303033,
+  ["ID"]= 355,
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424034,
+  ["outPutItemNum"]= 300,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 40,
+  ["shadowWeaponID"]= 1303998,
+  ["shadowWeaponName"]= "ShadowEquip1_303"
+},
+[356] = {
+  ["equipmentID"]= 1304033,
+  ["ID"]= 356,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424045,
+  ["outPutItemNum"]= 300,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 41,
+  ["shadowWeaponID"]= 1304998,
+  ["shadowWeaponName"]= "ShadowEquip1_304"
+},
+[357] = {
+  ["equipmentID"]= 1305033,
+  ["ID"]= 357,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424043,
+  ["outPutItemNum"]= 300,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 42,
+  ["shadowWeaponID"]= 1305998,
+  ["shadowWeaponName"]= "ShadowEquip1_305"
+},
+[358] = {
+  ["equipmentID"]= 1307033,
+  ["ID"]= 358,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424042,
+  ["outPutItemNum"]= 300,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 43,
+  ["shadowWeaponID"]= 1305996,
+  ["shadowWeaponName"]= "ShadowEquip1_307"
+},
+[359] = {
+  ["equipmentID"]= 1301033,
+  ["ID"]= 359,
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424035,
+  ["outPutItemNum"]= 300,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 44,
+  ["shadowWeaponID"]= 1301998,
+  ["shadowWeaponName"]= "ShadowEquip1_301"
+},
+[360] = {
+  ["equipmentID"]= 1306033,
+  ["ID"]= 360,
+  ["jobLimit"]= {
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424041,
+  ["outPutItemNum"]= 300,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 45,
+  ["shadowWeaponID"]= 1306998,
+  ["shadowWeaponName"]= "ShadowEquip1_306"
+},
+[361] = {
+  ["equipmentID"]= 1302033,
+  ["ID"]= 361,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424038,
+  ["outPutItemNum"]= 300,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 46,
+  ["shadowWeaponID"]= 1302998,
+  ["shadowWeaponName"]= "ShadowEquip1_302"
+},
+[362] = {
+  ["equipmentID"]= 1105033,
+  ["ID"]= 362,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 150,
+  ["outPutItemID"]= 10424044,
+  ["outPutItemNum"]= 150,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 47,
+  ["shadowWeaponID"]= 1105998,
+  ["shadowWeaponName"]= "ShadowEquip1_105"
+},
+[363] = {
+  ["equipmentID"]= 1201034,
+  ["ID"]= 363,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 100,
+  ["outPutItemID"]= 10424047,
+  ["outPutItemNum"]= 100,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 48
+},
+[364] = {
+  ["equipmentID"]= 1201035,
+  ["ID"]= 364,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 100,
+  ["outPutItemID"]= 10424047,
+  ["outPutItemNum"]= 100,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 49
+},
+[365] = {
+  ["equipmentID"]= 1201091,
+  ["ID"]= 365,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 100,
+  ["outPutItemID"]= 10424046,
+  ["outPutItemNum"]= 100,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 50,
+  ["shadowWeaponID"]= 1201998,
+  ["shadowWeaponName"]= "ShadowEquip1_201_1"
+},
+[366] = {
+  ["equipmentID"]= 1201092,
+  ["ID"]= 366,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424063,
+  ["materialItemNum"]= 100,
+  ["outPutItemID"]= 10424046,
+  ["outPutItemNum"]= 100,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 51,
+  ["shadowWeaponID"]= 1201998,
+  ["shadowWeaponName"]= "ShadowEquip1_201_1"
+},
+[367] = {
+  ["equipmentID"]= 1101038,
+  ["ID"]= 367,
+  ["materialItemNum"]= 200,
+  ["outPutItemID"]= 10424097,
+  ["outPutItemNum"]= 200,
+  ["priorityWithinQuality"]= 52,
+  ["shadowWeaponID"]= 1101998,
+  ["shadowWeaponName"]= "ShadowEquip1_101"
+},
+[368] = {
+  ["equipmentID"]= 1102036,
+  ["ID"]= 368,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 200,
+  ["outPutItemID"]= 10424109,
+  ["outPutItemNum"]= 200,
+  ["priorityWithinQuality"]= 53,
+  ["shadowWeaponID"]= 1102998,
+  ["shadowWeaponName"]= "ShadowEquip1_102"
+},
+[369] = {
+  ["equipmentID"]= 1104036,
+  ["ID"]= 369,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 200,
+  ["outPutItemID"]= 10424103,
+  ["outPutItemNum"]= 200,
+  ["priorityWithinQuality"]= 54,
+  ["shadowWeaponID"]= 1104998,
+  ["shadowWeaponName"]= "ShadowEquip1_104"
+},
+[370] = {
+  ["equipmentID"]= 1103036,
+  ["ID"]= 370,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemNum"]= 200,
+  ["outPutItemID"]= 10424121,
+  ["outPutItemNum"]= 200,
+  ["priorityWithinQuality"]= 55,
+  ["shadowWeaponID"]= 1103998,
+  ["shadowWeaponName"]= "ShadowEquip1_103"
+},
+[371] = {
+  ["equipmentID"]= 1107038,
+  ["ID"]= 371,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211
+  },
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424127,
+  ["outPutItemNum"]= 300,
+  ["priorityWithinQuality"]= 56,
+  ["shadowWeaponID"]= 1107998,
+  ["shadowWeaponName"]= "ShadowEquip1_107"
+},
+[372] = {
+  ["equipmentID"]= 1303037,
+  ["ID"]= 372,
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424091,
+  ["outPutItemNum"]= 300,
+  ["priorityWithinQuality"]= 57,
+  ["shadowWeaponID"]= 1303998,
+  ["shadowWeaponName"]= "ShadowEquip1_303"
+},
+[373] = {
+  ["equipmentID"]= 1304037,
+  ["ID"]= 373,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424157,
+  ["outPutItemNum"]= 300,
+  ["priorityWithinQuality"]= 58,
+  ["shadowWeaponID"]= 1304998,
+  ["shadowWeaponName"]= "ShadowEquip1_304"
+},
+[374] = {
+  ["equipmentID"]= 1305036,
+  ["ID"]= 374,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424145,
+  ["outPutItemNum"]= 300,
+  ["priorityWithinQuality"]= 59,
+  ["shadowWeaponID"]= 1305998,
+  ["shadowWeaponName"]= "ShadowEquip1_305"
+},
+[375] = {
+  ["equipmentID"]= 1307036,
+  ["ID"]= 375,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424139,
+  ["outPutItemNum"]= 300,
+  ["priorityWithinQuality"]= 60,
+  ["shadowWeaponID"]= 1305996,
+  ["shadowWeaponName"]= "ShadowEquip1_307"
+},
+[376] = {
+  ["equipmentID"]= 1301039,
+  ["ID"]= 376,
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424085,
+  ["outPutItemNum"]= 300,
+  ["priorityWithinQuality"]= 61,
+  ["shadowWeaponID"]= 1301998,
+  ["shadowWeaponName"]= "ShadowEquip1_301"
+},
+[377] = {
+  ["equipmentID"]= 1306036,
+  ["ID"]= 377,
+  ["jobLimit"]= {
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424133,
+  ["outPutItemNum"]= 300,
+  ["priorityWithinQuality"]= 62,
+  ["shadowWeaponID"]= 1306998,
+  ["shadowWeaponName"]= "ShadowEquip1_306"
+},
+[378] = {
+  ["equipmentID"]= 1302037,
+  ["ID"]= 378,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424115,
+  ["outPutItemNum"]= 300,
+  ["priorityWithinQuality"]= 63,
+  ["shadowWeaponID"]= 1302998,
+  ["shadowWeaponName"]= "ShadowEquip1_302"
+},
+[379] = {
+  ["equipmentID"]= 1105036,
+  ["ID"]= 379,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemNum"]= 150,
+  ["outPutItemID"]= 10424151,
+  ["outPutItemNum"]= 150,
+  ["priorityWithinQuality"]= 64,
+  ["shadowWeaponID"]= 1105998,
+  ["shadowWeaponName"]= "ShadowEquip1_105"
+},
+[380] = {
+  ["equipmentID"]= 1201043,
+  ["ID"]= 380,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 100,
+  ["outPutItemNum"]= 100,
+  ["priorityWithinQuality"]= 65
+},
+[381] = {
+  ["equipmentID"]= 1201044,
+  ["ID"]= 381,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 100,
+  ["outPutItemNum"]= 100,
+  ["priorityWithinQuality"]= 66
+},
+[382] = {
+  ["equipmentID"]= 1201093,
+  ["ID"]= 382,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 100,
+  ["outPutItemID"]= 10424163,
+  ["outPutItemNum"]= 100,
+  ["priorityWithinQuality"]= 67,
+  ["shadowWeaponID"]= 1201998,
+  ["shadowWeaponName"]= "ShadowEquip1_201_1"
+},
+[383] = {
+  ["equipmentID"]= 1201094,
+  ["ID"]= 383,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 100,
+  ["outPutItemID"]= 10424163,
+  ["outPutItemNum"]= 100,
+  ["priorityWithinQuality"]= 68,
+  ["shadowWeaponID"]= 1201998,
+  ["shadowWeaponName"]= "ShadowEquip1_201_1"
+},
+[384] = {
+  ["equipmentID"]= 1101036,
+  ["ID"]= 384,
+  ["materialItemNum"]= 400,
+  ["outPutItemID"]= 10424097,
+  ["outPutItemNum"]= 400,
+  ["priorityWithinQuality"]= 69,
+  ["shadowWeaponID"]= 1101998,
+  ["shadowWeaponName"]= "ShadowEquip1_101"
+},
+[385] = {
+  ["equipmentID"]= 1102034,
+  ["ID"]= 385,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 400,
+  ["outPutItemID"]= 10424109,
+  ["outPutItemNum"]= 400,
+  ["priorityWithinQuality"]= 70,
+  ["shadowWeaponID"]= 1102998,
+  ["shadowWeaponName"]= "ShadowEquip1_102"
+},
+[386] = {
+  ["equipmentID"]= 1104034,
+  ["ID"]= 386,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 400,
+  ["outPutItemID"]= 10424103,
+  ["outPutItemNum"]= 400,
+  ["priorityWithinQuality"]= 71,
+  ["shadowWeaponID"]= 1104998,
+  ["shadowWeaponName"]= "ShadowEquip1_104"
+},
+[387] = {
+  ["equipmentID"]= 1103034,
+  ["ID"]= 387,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemNum"]= 400,
+  ["outPutItemID"]= 10424121,
+  ["outPutItemNum"]= 400,
+  ["priorityWithinQuality"]= 72,
+  ["shadowWeaponID"]= 1103998,
+  ["shadowWeaponName"]= "ShadowEquip1_103"
+},
+[388] = {
+  ["equipmentID"]= 1107035,
+  ["ID"]= 388,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211
+  },
+  ["materialItemNum"]= 600,
+  ["outPutItemID"]= 10424127,
+  ["outPutItemNum"]= 600,
+  ["priorityWithinQuality"]= 73,
+  ["shadowWeaponID"]= 1107998,
+  ["shadowWeaponName"]= "ShadowEquip1_107"
+},
+[389] = {
+  ["equipmentID"]= 1303034,
+  ["ID"]= 389,
+  ["materialItemNum"]= 600,
+  ["outPutItemID"]= 10424091,
+  ["outPutItemNum"]= 600,
+  ["priorityWithinQuality"]= 74,
+  ["shadowWeaponID"]= 1303998,
+  ["shadowWeaponName"]= "ShadowEquip1_303"
+},
+[390] = {
+  ["equipmentID"]= 1304034,
+  ["ID"]= 390,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemNum"]= 600,
+  ["outPutItemID"]= 10424157,
+  ["outPutItemNum"]= 600,
+  ["priorityWithinQuality"]= 75,
+  ["shadowWeaponID"]= 1304998,
+  ["shadowWeaponName"]= "ShadowEquip1_304"
+},
+[391] = {
+  ["equipmentID"]= 1305034,
+  ["ID"]= 391,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemNum"]= 600,
+  ["outPutItemID"]= 10424145,
+  ["outPutItemNum"]= 600,
+  ["priorityWithinQuality"]= 76,
+  ["shadowWeaponID"]= 1305998,
+  ["shadowWeaponName"]= "ShadowEquip1_305"
+},
+[392] = {
+  ["equipmentID"]= 1307034,
+  ["ID"]= 392,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemNum"]= 600,
+  ["outPutItemID"]= 10424139,
+  ["outPutItemNum"]= 600,
+  ["priorityWithinQuality"]= 77,
+  ["shadowWeaponID"]= 1305996,
+  ["shadowWeaponName"]= "ShadowEquip1_307"
+},
+[393] = {
+  ["equipmentID"]= 1301035,
+  ["ID"]= 393,
+  ["materialItemNum"]= 600,
+  ["outPutItemID"]= 10424085,
+  ["outPutItemNum"]= 600,
+  ["priorityWithinQuality"]= 78,
+  ["shadowWeaponID"]= 1301998,
+  ["shadowWeaponName"]= "ShadowEquip1_301"
+},
+[394] = {
+  ["equipmentID"]= 1306034,
+  ["ID"]= 394,
+  ["jobLimit"]= {
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemNum"]= 600,
+  ["outPutItemID"]= 10424133,
+  ["outPutItemNum"]= 600,
+  ["priorityWithinQuality"]= 79,
+  ["shadowWeaponID"]= 1306998,
+  ["shadowWeaponName"]= "ShadowEquip1_306"
+},
+[395] = {
+  ["equipmentID"]= 1302034,
+  ["ID"]= 395,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 600,
+  ["outPutItemID"]= 10424115,
+  ["outPutItemNum"]= 600,
+  ["priorityWithinQuality"]= 80,
+  ["shadowWeaponID"]= 1302998,
+  ["shadowWeaponName"]= "ShadowEquip1_302"
+},
+[396] = {
+  ["equipmentID"]= 1105034,
+  ["ID"]= 396,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424151,
+  ["outPutItemNum"]= 300,
+  ["priorityWithinQuality"]= 81,
+  ["shadowWeaponID"]= 1105998,
+  ["shadowWeaponName"]= "ShadowEquip1_105"
+},
+[397] = {
+  ["equipmentID"]= 1201036,
+  ["ID"]= 397,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 200,
+  ["outPutItemNum"]= 200,
+  ["priorityWithinQuality"]= 82
+},
+[398] = {
+  ["equipmentID"]= 1201037,
+  ["ID"]= 398,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 200,
+  ["outPutItemNum"]= 200,
+  ["priorityWithinQuality"]= 83
+},
+[399] = {
+  ["equipmentID"]= 1201095,
+  ["ID"]= 399,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 200,
+  ["outPutItemID"]= 10424163,
+  ["outPutItemNum"]= 200,
+  ["priorityWithinQuality"]= 84,
+  ["shadowWeaponID"]= 1201998,
+  ["shadowWeaponName"]= "ShadowEquip1_201_1"
+},
+[400] = {
+  ["equipmentID"]= 1201096,
+  ["ID"]= 400,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 200,
+  ["outPutItemID"]= 10424163,
+  ["outPutItemNum"]= 200,
+  ["priorityWithinQuality"]= 85,
+  ["shadowWeaponID"]= 1201998,
+  ["shadowWeaponName"]= "ShadowEquip1_201_1"
+},
+[401] = {
+  ["equipmentID"]= 1101039,
+  ["ID"]= 401,
+  ["materialItemNum"]= 1000,
+  ["outPutItemID"]= 10424097,
+  ["outPutItemNum"]= 1000,
+  ["priorityWithinQuality"]= 86,
+  ["shadowWeaponID"]= 1101998,
+  ["shadowWeaponName"]= "ShadowEquip1_101"
+},
+[402] = {
+  ["equipmentID"]= 1102037,
+  ["ID"]= 402,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 1000,
+  ["outPutItemID"]= 10424109,
+  ["outPutItemNum"]= 1000,
+  ["priorityWithinQuality"]= 87,
+  ["shadowWeaponID"]= 1102998,
+  ["shadowWeaponName"]= "ShadowEquip1_102"
+},
+[403] = {
+  ["equipmentID"]= 1104037,
+  ["ID"]= 403,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 1000,
+  ["outPutItemID"]= 10424103,
+  ["outPutItemNum"]= 1000,
+  ["priorityWithinQuality"]= 88,
+  ["shadowWeaponID"]= 1104998,
+  ["shadowWeaponName"]= "ShadowEquip1_104"
+},
+[404] = {
+  ["equipmentID"]= 1103037,
+  ["ID"]= 404,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemNum"]= 1000,
+  ["outPutItemID"]= 10424121,
+  ["outPutItemNum"]= 1000,
+  ["priorityWithinQuality"]= 89,
+  ["shadowWeaponID"]= 1103998,
+  ["shadowWeaponName"]= "ShadowEquip1_103"
+},
+[405] = {
+  ["equipmentID"]= 1107039,
+  ["ID"]= 405,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211
+  },
+  ["materialItemNum"]= 1500,
+  ["outPutItemID"]= 10424127,
+  ["outPutItemNum"]= 1500,
+  ["priorityWithinQuality"]= 90,
+  ["shadowWeaponID"]= 1107998,
+  ["shadowWeaponName"]= "ShadowEquip1_107"
+},
+[406] = {
+  ["equipmentID"]= 1303038,
+  ["ID"]= 406,
+  ["materialItemNum"]= 1500,
+  ["outPutItemID"]= 10424091,
+  ["outPutItemNum"]= 1500,
+  ["priorityWithinQuality"]= 91,
+  ["shadowWeaponID"]= 1303998,
+  ["shadowWeaponName"]= "ShadowEquip1_303"
+},
+[407] = {
+  ["equipmentID"]= 1304038,
+  ["ID"]= 407,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemNum"]= 1500,
+  ["outPutItemID"]= 10424157,
+  ["outPutItemNum"]= 1500,
+  ["priorityWithinQuality"]= 92,
+  ["shadowWeaponID"]= 1304998,
+  ["shadowWeaponName"]= "ShadowEquip1_304"
+},
+[408] = {
+  ["equipmentID"]= 1305037,
+  ["ID"]= 408,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemNum"]= 1500,
+  ["outPutItemID"]= 10424145,
+  ["outPutItemNum"]= 1500,
+  ["priorityWithinQuality"]= 93,
+  ["shadowWeaponID"]= 1305998,
+  ["shadowWeaponName"]= "ShadowEquip1_305"
+},
+[409] = {
+  ["equipmentID"]= 1307037,
+  ["ID"]= 409,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemNum"]= 1500,
+  ["outPutItemID"]= 10424139,
+  ["outPutItemNum"]= 1500,
+  ["priorityWithinQuality"]= 94,
+  ["shadowWeaponID"]= 1305996,
+  ["shadowWeaponName"]= "ShadowEquip1_307"
+},
+[410] = {
+  ["equipmentID"]= 1301040,
+  ["ID"]= 410,
+  ["materialItemNum"]= 1500,
+  ["outPutItemID"]= 10424085,
+  ["outPutItemNum"]= 1500,
+  ["priorityWithinQuality"]= 95,
+  ["shadowWeaponID"]= 1301998,
+  ["shadowWeaponName"]= "ShadowEquip1_301"
+},
+[411] = {
+  ["equipmentID"]= 1306037,
+  ["ID"]= 411,
+  ["jobLimit"]= {
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemNum"]= 1500,
+  ["outPutItemID"]= 10424133,
+  ["outPutItemNum"]= 1500,
+  ["priorityWithinQuality"]= 96,
+  ["shadowWeaponID"]= 1306998,
+  ["shadowWeaponName"]= "ShadowEquip1_306"
+},
+[412] = {
+  ["equipmentID"]= 1302038,
+  ["ID"]= 412,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 1500,
+  ["outPutItemID"]= 10424115,
+  ["outPutItemNum"]= 1500,
+  ["priorityWithinQuality"]= 97,
+  ["shadowWeaponID"]= 1302998,
+  ["shadowWeaponName"]= "ShadowEquip1_302"
+},
+[413] = {
+  ["equipmentID"]= 1105037,
+  ["ID"]= 413,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemNum"]= 750,
+  ["outPutItemID"]= 10424151,
+  ["outPutItemNum"]= 750,
+  ["priorityWithinQuality"]= 98,
+  ["shadowWeaponID"]= 1105998,
+  ["shadowWeaponName"]= "ShadowEquip1_105"
+},
+[414] = {
+  ["equipmentID"]= 1201045,
+  ["ID"]= 414,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 500,
+  ["outPutItemNum"]= 500,
+  ["priorityWithinQuality"]= 99
+},
+[415] = {
+  ["equipmentID"]= 1201046,
+  ["ID"]= 415,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 500,
+  ["outPutItemNum"]= 500,
+  ["priorityWithinQuality"]= 100
+},
+[416] = {
+  ["equipmentID"]= 1201097,
+  ["ID"]= 416,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 500,
+  ["outPutItemID"]= 10424163,
+  ["outPutItemNum"]= 500,
+  ["priorityWithinQuality"]= 101,
+  ["shadowWeaponID"]= 1201998,
+  ["shadowWeaponName"]= "ShadowEquip1_201_1"
+},
+[417] = {
+  ["equipmentID"]= 1201098,
+  ["ID"]= 417,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemNum"]= 500,
+  ["outPutItemID"]= 10424163,
+  ["outPutItemNum"]= 500,
+  ["priorityWithinQuality"]= 102,
+  ["shadowWeaponID"]= 1201998,
+  ["shadowWeaponName"]= "ShadowEquip1_201_1"
+},
+[418] = {
+  ["equipmentID"]= 1302035,
+  ["ID"]= 418,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424067,
+  ["materialItemNum"]= 900,
+  ["outPutItemID"]= 10424053,
+  ["outPutItemNum"]= 900,
+  ["priority"]= 1,
+  ["shadowWeaponID"]= 1302999,
+  ["shadowWeaponName"]= "ShadowEquip2_302"
+},
+[419] = {
+  ["equipmentID"]= 1306009,
+  ["ID"]= 419,
+  ["jobLimit"]= {
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemID"]= 10424067,
+  ["materialItemNum"]= 900,
+  ["outPutItemID"]= 10424056,
+  ["outPutItemNum"]= 900,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 2,
+  ["shadowWeaponID"]= 1306999,
+  ["shadowWeaponName"]= "ShadowEquip2_306"
+},
+[420] = {
+  ["equipmentID"]= 1301034,
+  ["ID"]= 420,
+  ["materialItemID"]= 10424067,
+  ["materialItemNum"]= 900,
+  ["outPutItemID"]= 10424050,
+  ["outPutItemNum"]= 900,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 3,
+  ["shadowWeaponID"]= 1301999,
+  ["shadowWeaponName"]= "ShadowEquip2_301"
+},
+[421] = {
+  ["equipmentID"]= 1304035,
+  ["ID"]= 421,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemID"]= 10424067,
+  ["materialItemNum"]= 900,
+  ["outPutItemID"]= 10424060,
+  ["outPutItemNum"]= 900,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 4,
+  ["shadowWeaponID"]= 1304999,
+  ["shadowWeaponName"]= "ShadowEquip2_304"
+},
+[422] = {
+  ["equipmentID"]= 1305016,
+  ["ID"]= 422,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemID"]= 10424067,
+  ["materialItemNum"]= 900,
+  ["outPutItemID"]= 10424058,
+  ["outPutItemNum"]= 900,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 5,
+  ["shadowWeaponID"]= 1305999,
+  ["shadowWeaponName"]= "ShadowEquip2_305"
+},
+[423] = {
+  ["equipmentID"]= 1307016,
+  ["ID"]= 423,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemID"]= 10424067,
+  ["materialItemNum"]= 900,
+  ["outPutItemID"]= 10424057,
+  ["outPutItemNum"]= 900,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 6,
+  ["shadowWeaponID"]= 1305997,
+  ["shadowWeaponName"]= "ShadowEquip2_307"
+},
+[424] = {
+  ["equipmentID"]= 1303005,
+  ["ID"]= 424,
+  ["materialItemID"]= 10424067,
+  ["materialItemNum"]= 900,
+  ["outPutItemID"]= 10424049,
+  ["outPutItemNum"]= 900,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 7,
+  ["shadowWeaponID"]= 1303999,
+  ["shadowWeaponName"]= "ShadowEquip2_303"
+},
+[425] = {
+  ["equipmentID"]= 1107034,
+  ["ID"]= 425,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211
+  },
+  ["materialItemID"]= 10424067,
+  ["materialItemNum"]= 900,
+  ["outPutItemID"]= 10424055,
+  ["outPutItemNum"]= 900,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 8,
+  ["shadowWeaponID"]= 1107999,
+  ["shadowWeaponName"]= "ShadowEquip2_107"
+},
+[426] = {
+  ["equipmentID"]= 1104013,
+  ["ID"]= 426,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424067,
+  ["materialItemNum"]= 600,
+  ["outPutItemID"]= 10424051,
+  ["outPutItemNum"]= 600,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 9,
+  ["shadowWeaponID"]= 1104999,
+  ["shadowWeaponName"]= "ShadowEquip2_104"
+},
+[427] = {
+  ["equipmentID"]= 1105018,
+  ["ID"]= 427,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemID"]= 10424067,
+  ["materialItemNum"]= 450,
+  ["outPutItemID"]= 10424059,
+  ["outPutItemNum"]= 450,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 10,
+  ["shadowWeaponID"]= 1105999,
+  ["shadowWeaponName"]= "ShadowEquip2_105"
+},
+[428] = {
+  ["equipmentID"]= 1201100,
+  ["ID"]= 428,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424067,
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424062,
+  ["outPutItemNum"]= 300,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 11,
+  ["shadowWeaponID"]= 1201997,
+  ["shadowWeaponName"]= "ShadowEquip2_201_1"
+},
+[429] = {
+  ["equipmentID"]= 1201016,
+  ["ID"]= 429,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424067,
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424062,
+  ["outPutItemNum"]= 300,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 12,
+  ["shadowWeaponID"]= 1201997,
+  ["shadowWeaponName"]= "ShadowEquip2_201_1"
+},
+[430] = {
+  ["equipmentID"]= 1201099,
+  ["ID"]= 430,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424067,
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424061,
+  ["outPutItemNum"]= 300,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 13,
+  ["shadowWeaponID"]= 1201999,
+  ["shadowWeaponName"]= "ShadowEquip2_201_2"
+},
+[431] = {
+  ["equipmentID"]= 1201024,
+  ["ID"]= 431,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424067,
+  ["materialItemNum"]= 300,
+  ["outPutItemID"]= 10424061,
+  ["outPutItemNum"]= 300,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 14,
+  ["shadowWeaponID"]= 1201999,
+  ["shadowWeaponName"]= "ShadowEquip2_201_2"
+},
+[432] = {
+  ["equipmentID"]= 1102009,
+  ["ID"]= 432,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424067,
+  ["materialItemNum"]= 600,
+  ["outPutItemID"]= 10424052,
+  ["outPutItemNum"]= 600,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 15,
+  ["shadowWeaponID"]= 1102999,
+  ["shadowWeaponName"]= "ShadowEquip2_102"
+},
+[433] = {
+  ["equipmentID"]= 1101034,
+  ["ID"]= 433,
+  ["materialItemID"]= 10424067,
+  ["materialItemNum"]= 600,
+  ["outPutItemID"]= 10424048,
+  ["outPutItemNum"]= 600,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 16,
+  ["shadowWeaponID"]= 1101999,
+  ["shadowWeaponName"]= "ShadowEquip2_101"
+},
+[434] = {
+  ["equipmentID"]= 1103007,
+  ["ID"]= 434,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemID"]= 10424067,
+  ["materialItemNum"]= 600,
+  ["outPutItemID"]= 10424054,
+  ["outPutItemNum"]= 600,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 17,
+  ["shadowWeaponID"]= 1103999,
+  ["shadowWeaponName"]= "ShadowEquip2_103"
+},
+[435] = {
+  ["equipmentID"]= 1302048,
+  ["ID"]= 435,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424067,
+  ["materialItemNum"]= 1800,
+  ["outPutItemID"]= 10424053,
+  ["outPutItemNum"]= 1800,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 18,
+  ["shadowWeaponID"]= 1302999,
+  ["shadowWeaponName"]= "ShadowEquip2_302"
+},
+[436] = {
+  ["equipmentID"]= 1306047,
+  ["ID"]= 436,
+  ["jobLimit"]= {
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemID"]= 10424067,
+  ["materialItemNum"]= 1800,
+  ["outPutItemID"]= 10424056,
+  ["outPutItemNum"]= 1800,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 19,
+  ["shadowWeaponID"]= 1306999,
+  ["shadowWeaponName"]= "ShadowEquip2_306"
+},
+[437] = {
+  ["equipmentID"]= 1301050,
+  ["ID"]= 437,
+  ["materialItemID"]= 10424067,
+  ["materialItemNum"]= 1800,
+  ["outPutItemID"]= 10424050,
+  ["outPutItemNum"]= 1800,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 20,
+  ["shadowWeaponID"]= 1301999,
+  ["shadowWeaponName"]= "ShadowEquip2_301"
+},
+[438] = {
+  ["equipmentID"]= 1304048,
+  ["ID"]= 438,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemID"]= 10424067,
+  ["materialItemNum"]= 1800,
+  ["outPutItemID"]= 10424060,
+  ["outPutItemNum"]= 1800,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 21,
+  ["shadowWeaponID"]= 1304999,
+  ["shadowWeaponName"]= "ShadowEquip2_304"
+},
+[439] = {
+  ["equipmentID"]= 1305047,
+  ["ID"]= 439,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemID"]= 10424067,
+  ["materialItemNum"]= 1800,
+  ["outPutItemID"]= 10424058,
+  ["outPutItemNum"]= 1800,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 22,
+  ["shadowWeaponID"]= 1305999,
+  ["shadowWeaponName"]= "ShadowEquip2_305"
+},
+[440] = {
+  ["equipmentID"]= 1307047,
+  ["ID"]= 440,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemID"]= 10424067,
+  ["materialItemNum"]= 1800,
+  ["outPutItemID"]= 10424057,
+  ["outPutItemNum"]= 1800,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 23,
+  ["shadowWeaponID"]= 1305997,
+  ["shadowWeaponName"]= "ShadowEquip2_307"
+},
+[441] = {
+  ["equipmentID"]= 1303048,
+  ["ID"]= 441,
+  ["materialItemID"]= 10424067,
+  ["materialItemNum"]= 1800,
+  ["outPutItemID"]= 10424049,
+  ["outPutItemNum"]= 1800,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 24,
+  ["shadowWeaponID"]= 1303999,
+  ["shadowWeaponName"]= "ShadowEquip2_303"
+},
+[442] = {
+  ["equipmentID"]= 1107049,
+  ["ID"]= 442,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211
+  },
+  ["materialItemID"]= 10424067,
+  ["materialItemNum"]= 1800,
+  ["outPutItemID"]= 10424055,
+  ["outPutItemNum"]= 1800,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 25,
+  ["shadowWeaponID"]= 1107999,
+  ["shadowWeaponName"]= "ShadowEquip2_107"
+},
+[443] = {
+  ["equipmentID"]= 1104047,
+  ["ID"]= 443,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424067,
+  ["materialItemNum"]= 1200,
+  ["outPutItemID"]= 10424051,
+  ["outPutItemNum"]= 1200,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 26,
+  ["shadowWeaponID"]= 1104999,
+  ["shadowWeaponName"]= "ShadowEquip2_104"
+},
+[444] = {
+  ["equipmentID"]= 1105047,
+  ["ID"]= 444,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemID"]= 10424067,
+  ["materialItemNum"]= 900,
+  ["outPutItemID"]= 10424059,
+  ["outPutItemNum"]= 900,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 27,
+  ["shadowWeaponID"]= 1105999,
+  ["shadowWeaponName"]= "ShadowEquip2_105"
+},
+[445] = {
+  ["equipmentID"]= 1201102,
+  ["ID"]= 445,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424067,
+  ["materialItemNum"]= 600,
+  ["outPutItemID"]= 10424062,
+  ["outPutItemNum"]= 600,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 28,
+  ["shadowWeaponID"]= 1201997,
+  ["shadowWeaponName"]= "ShadowEquip2_201_1"
+},
+[446] = {
+  ["equipmentID"]= 1201066,
+  ["ID"]= 446,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424067,
+  ["materialItemNum"]= 600,
+  ["outPutItemID"]= 10424062,
+  ["outPutItemNum"]= 600,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 29,
+  ["shadowWeaponID"]= 1201997,
+  ["shadowWeaponName"]= "ShadowEquip2_201_1"
+},
+[447] = {
+  ["equipmentID"]= 1201101,
+  ["ID"]= 447,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424067,
+  ["materialItemNum"]= 600,
+  ["outPutItemID"]= 10424061,
+  ["outPutItemNum"]= 600,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 30,
+  ["shadowWeaponID"]= 1201999,
+  ["shadowWeaponName"]= "ShadowEquip2_201_2"
+},
+[448] = {
+  ["equipmentID"]= 1201065,
+  ["ID"]= 448,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424067,
+  ["materialItemNum"]= 600,
+  ["outPutItemID"]= 10424061,
+  ["outPutItemNum"]= 600,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 31,
+  ["shadowWeaponID"]= 1201999,
+  ["shadowWeaponName"]= "ShadowEquip2_201_2"
+},
+[449] = {
+  ["equipmentID"]= 1102047,
+  ["ID"]= 449,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424067,
+  ["materialItemNum"]= 1200,
+  ["outPutItemID"]= 10424052,
+  ["outPutItemNum"]= 1200,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 32,
+  ["shadowWeaponID"]= 1102999,
+  ["shadowWeaponName"]= "ShadowEquip2_102"
+},
+[450] = {
+  ["equipmentID"]= 1101049,
+  ["ID"]= 450,
+  ["materialItemID"]= 10424067,
+  ["materialItemNum"]= 1200,
+  ["outPutItemID"]= 10424048,
+  ["outPutItemNum"]= 1200,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 33,
+  ["shadowWeaponID"]= 1101999,
+  ["shadowWeaponName"]= "ShadowEquip2_101"
+},
+[451] = {
+  ["equipmentID"]= 1103047,
+  ["ID"]= 451,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemID"]= 10424067,
+  ["materialItemNum"]= 1200,
+  ["outPutItemID"]= 10424054,
+  ["outPutItemNum"]= 1200,
+  ["priority"]= 1,
+  ["priorityWithinQuality"]= 34,
+  ["shadowWeaponID"]= 1103999,
+  ["shadowWeaponName"]= "ShadowEquip2_103"
+},
+[452] = {
+  ["equipmentID"]= 1302049,
+  ["ID"]= 452,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424068,
+  ["materialItemNum"]= 2250,
+  ["outPutItemID"]= 10424118,
+  ["outPutItemNum"]= 2250,
+  ["priorityWithinQuality"]= 35,
+  ["shadowWeaponID"]= 1302999,
+  ["shadowWeaponName"]= "ShadowEquip2_302"
+},
+[453] = {
+  ["equipmentID"]= 1306048,
+  ["ID"]= 453,
+  ["jobLimit"]= {
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemID"]= 10424068,
+  ["materialItemNum"]= 2250,
+  ["outPutItemID"]= 10424136,
+  ["outPutItemNum"]= 2250,
+  ["priorityWithinQuality"]= 36,
+  ["shadowWeaponID"]= 1306999,
+  ["shadowWeaponName"]= "ShadowEquip2_306"
+},
+[454] = {
+  ["equipmentID"]= 1301051,
+  ["ID"]= 454,
+  ["materialItemID"]= 10424068,
+  ["materialItemNum"]= 2250,
+  ["outPutItemID"]= 10424088,
+  ["outPutItemNum"]= 2250,
+  ["priorityWithinQuality"]= 37,
+  ["shadowWeaponID"]= 1301999,
+  ["shadowWeaponName"]= "ShadowEquip2_301"
+},
+[455] = {
+  ["equipmentID"]= 1304049,
+  ["ID"]= 455,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemID"]= 10424068,
+  ["materialItemNum"]= 2250,
+  ["outPutItemID"]= 10424160,
+  ["outPutItemNum"]= 2250,
+  ["priorityWithinQuality"]= 38,
+  ["shadowWeaponID"]= 1304999,
+  ["shadowWeaponName"]= "ShadowEquip2_304"
+},
+[456] = {
+  ["equipmentID"]= 1305048,
+  ["ID"]= 456,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemID"]= 10424068,
+  ["materialItemNum"]= 2250,
+  ["outPutItemID"]= 10424148,
+  ["outPutItemNum"]= 2250,
+  ["priorityWithinQuality"]= 39,
+  ["shadowWeaponID"]= 1305999,
+  ["shadowWeaponName"]= "ShadowEquip2_305"
+},
+[457] = {
+  ["equipmentID"]= 1307048,
+  ["ID"]= 457,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemID"]= 10424068,
+  ["materialItemNum"]= 2250,
+  ["outPutItemID"]= 10424142,
+  ["outPutItemNum"]= 2250,
+  ["priorityWithinQuality"]= 40,
+  ["shadowWeaponID"]= 1305997,
+  ["shadowWeaponName"]= "ShadowEquip2_307"
+},
+[458] = {
+  ["equipmentID"]= 1303049,
+  ["ID"]= 458,
+  ["materialItemID"]= 10424068,
+  ["materialItemNum"]= 2250,
+  ["outPutItemID"]= 10424094,
+  ["outPutItemNum"]= 2250,
+  ["priorityWithinQuality"]= 41,
+  ["shadowWeaponID"]= 1303999,
+  ["shadowWeaponName"]= "ShadowEquip2_303"
+},
+[459] = {
+  ["equipmentID"]= 1107050,
+  ["ID"]= 459,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211
+  },
+  ["materialItemID"]= 10424068,
+  ["materialItemNum"]= 2250,
+  ["outPutItemID"]= 10424130,
+  ["outPutItemNum"]= 2250,
+  ["priorityWithinQuality"]= 42,
+  ["shadowWeaponID"]= 1107999,
+  ["shadowWeaponName"]= "ShadowEquip2_107"
+},
+[460] = {
+  ["equipmentID"]= 1104048,
+  ["ID"]= 460,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424068,
+  ["materialItemNum"]= 1500,
+  ["outPutItemID"]= 10424106,
+  ["outPutItemNum"]= 1500,
+  ["priorityWithinQuality"]= 43,
+  ["shadowWeaponID"]= 1104999,
+  ["shadowWeaponName"]= "ShadowEquip2_104"
+},
+[461] = {
+  ["equipmentID"]= 1105048,
+  ["ID"]= 461,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemID"]= 10424068,
+  ["materialItemNum"]= 1125,
+  ["outPutItemID"]= 10424154,
+  ["outPutItemNum"]= 1125,
+  ["priorityWithinQuality"]= 44,
+  ["shadowWeaponID"]= 1105999,
+  ["shadowWeaponName"]= "ShadowEquip2_105"
+},
+[462] = {
+  ["equipmentID"]= 1201104,
+  ["ID"]= 462,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424068,
+  ["materialItemNum"]= 750,
+  ["outPutItemID"]= 10424172,
+  ["outPutItemNum"]= 750,
+  ["priorityWithinQuality"]= 45,
+  ["shadowWeaponID"]= 1201997,
+  ["shadowWeaponName"]= "ShadowEquip2_201_1"
+},
+[463] = {
+  ["equipmentID"]= 1201068,
+  ["ID"]= 463,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424068,
+  ["materialItemNum"]= 750,
+  ["outPutItemID"]= 10424172,
+  ["outPutItemNum"]= 750,
+  ["priorityWithinQuality"]= 46,
+  ["shadowWeaponID"]= 1201997,
+  ["shadowWeaponName"]= "ShadowEquip2_201_1"
+},
+[464] = {
+  ["equipmentID"]= 1201103,
+  ["ID"]= 464,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424068,
+  ["materialItemNum"]= 750,
+  ["outPutItemID"]= 10424166,
+  ["outPutItemNum"]= 750,
+  ["priorityWithinQuality"]= 47,
+  ["shadowWeaponID"]= 1201999,
+  ["shadowWeaponName"]= "ShadowEquip2_201_2"
+},
+[465] = {
+  ["equipmentID"]= 1201067,
+  ["ID"]= 465,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424068,
+  ["materialItemNum"]= 750,
+  ["outPutItemID"]= 10424166,
+  ["outPutItemNum"]= 750,
+  ["priorityWithinQuality"]= 48,
+  ["shadowWeaponID"]= 1201999,
+  ["shadowWeaponName"]= "ShadowEquip2_201_2"
+},
+[466] = {
+  ["equipmentID"]= 1102048,
+  ["ID"]= 466,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424068,
+  ["materialItemNum"]= 1500,
+  ["outPutItemID"]= 10424112,
+  ["outPutItemNum"]= 1500,
+  ["priorityWithinQuality"]= 49,
+  ["shadowWeaponID"]= 1102999,
+  ["shadowWeaponName"]= "ShadowEquip2_102"
+},
+[467] = {
+  ["equipmentID"]= 1101050,
+  ["ID"]= 467,
+  ["materialItemID"]= 10424068,
+  ["materialItemNum"]= 1500,
+  ["outPutItemID"]= 10424100,
+  ["outPutItemNum"]= 1500,
+  ["priorityWithinQuality"]= 50,
+  ["shadowWeaponID"]= 1101999,
+  ["shadowWeaponName"]= "ShadowEquip2_101"
+},
+[468] = {
+  ["equipmentID"]= 1103048,
+  ["ID"]= 468,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemID"]= 10424068,
+  ["materialItemNum"]= 1500,
+  ["outPutItemID"]= 10424124,
+  ["outPutItemNum"]= 1500,
+  ["priorityWithinQuality"]= 51,
+  ["shadowWeaponID"]= 1103999,
+  ["shadowWeaponName"]= "ShadowEquip2_103"
+},
+[469] = {
+  ["equipmentID"]= 1302008,
+  ["ID"]= 469,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424068,
+  ["materialItemNum"]= 2250,
+  ["outPutItemID"]= 10424118,
+  ["outPutItemNum"]= 2250,
+  ["priorityWithinQuality"]= 69,
+  ["shadowWeaponID"]= 1302999,
+  ["shadowWeaponName"]= "ShadowEquip2_302"
+},
+[470] = {
+  ["equipmentID"]= 1306005,
+  ["ID"]= 470,
+  ["jobLimit"]= {
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemID"]= 10424068,
+  ["materialItemNum"]= 2250,
+  ["outPutItemID"]= 10424136,
+  ["outPutItemNum"]= 2250,
+  ["priorityWithinQuality"]= 70,
+  ["shadowWeaponID"]= 1306999,
+  ["shadowWeaponName"]= "ShadowEquip2_306"
+},
+[471] = {
+  ["equipmentID"]= 1301036,
+  ["ID"]= 471,
+  ["materialItemID"]= 10424068,
+  ["materialItemNum"]= 2250,
+  ["outPutItemID"]= 10424088,
+  ["outPutItemNum"]= 2250,
+  ["priorityWithinQuality"]= 71,
+  ["shadowWeaponID"]= 1301999,
+  ["shadowWeaponName"]= "ShadowEquip2_301"
+},
+[472] = {
+  ["equipmentID"]= 1304009,
+  ["ID"]= 472,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemID"]= 10424068,
+  ["materialItemNum"]= 2250,
+  ["outPutItemID"]= 10424160,
+  ["outPutItemNum"]= 2250,
+  ["priorityWithinQuality"]= 72,
+  ["shadowWeaponID"]= 1304999,
+  ["shadowWeaponName"]= "ShadowEquip2_304"
+},
+[473] = {
+  ["equipmentID"]= 1305005,
+  ["ID"]= 473,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemID"]= 10424068,
+  ["materialItemNum"]= 2250,
+  ["outPutItemID"]= 10424148,
+  ["outPutItemNum"]= 2250,
+  ["priorityWithinQuality"]= 73,
+  ["shadowWeaponID"]= 1305999,
+  ["shadowWeaponName"]= "ShadowEquip2_305"
+},
+[474] = {
+  ["equipmentID"]= 1307005,
+  ["ID"]= 474,
+  ["jobLimit"]= {
+    1500,
+    1510,
+    1511
+  },
+  ["materialItemID"]= 10424068,
+  ["materialItemNum"]= 2250,
+  ["outPutItemID"]= 10424142,
+  ["outPutItemNum"]= 2250,
+  ["priorityWithinQuality"]= 74,
+  ["shadowWeaponID"]= 1305997,
+  ["shadowWeaponName"]= "ShadowEquip2_307"
+},
+[475] = {
+  ["equipmentID"]= 1303035,
+  ["ID"]= 475,
+  ["materialItemID"]= 10424068,
+  ["materialItemNum"]= 2250,
+  ["outPutItemID"]= 10424094,
+  ["outPutItemNum"]= 2250,
+  ["priorityWithinQuality"]= 75,
+  ["shadowWeaponID"]= 1303999,
+  ["shadowWeaponName"]= "ShadowEquip2_303"
+},
+[476] = {
+  ["equipmentID"]= 1107036,
+  ["ID"]= 476,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211
+  },
+  ["materialItemID"]= 10424068,
+  ["materialItemNum"]= 2250,
+  ["outPutItemID"]= 10424130,
+  ["outPutItemNum"]= 2250,
+  ["priorityWithinQuality"]= 76,
+  ["shadowWeaponID"]= 1107999,
+  ["shadowWeaponName"]= "ShadowEquip2_107"
+},
+[477] = {
+  ["equipmentID"]= 1104008,
+  ["ID"]= 477,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424068,
+  ["materialItemNum"]= 1500,
+  ["outPutItemID"]= 10424106,
+  ["outPutItemNum"]= 1500,
+  ["priorityWithinQuality"]= 77,
+  ["shadowWeaponID"]= 1104999,
+  ["shadowWeaponName"]= "ShadowEquip2_104"
+},
+[478] = {
+  ["equipmentID"]= 1105016,
+  ["ID"]= 478,
+  ["jobLimit"]= {
+    1400,
+    1410,
+    1411
+  },
+  ["materialItemID"]= 10424068,
+  ["materialItemNum"]= 1125,
+  ["outPutItemID"]= 10424154,
+  ["outPutItemNum"]= 1125,
+  ["priorityWithinQuality"]= 78,
+  ["shadowWeaponID"]= 1105999,
+  ["shadowWeaponName"]= "ShadowEquip2_105"
+},
+[479] = {
+  ["equipmentID"]= 1201039,
+  ["ID"]= 479,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424068,
+  ["materialItemNum"]= 750,
+  ["outPutItemID"]= 10424172,
+  ["outPutItemNum"]= 750,
+  ["priorityWithinQuality"]= 79,
+  ["shadowWeaponID"]= 1201997,
+  ["shadowWeaponName"]= "ShadowEquip2_201_1"
+},
+[480] = {
+  ["equipmentID"]= 1201038,
+  ["ID"]= 480,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424068,
+  ["materialItemNum"]= 750,
+  ["outPutItemID"]= 10424172,
+  ["outPutItemNum"]= 750,
+  ["priorityWithinQuality"]= 80,
+  ["shadowWeaponID"]= 1201997,
+  ["shadowWeaponName"]= "ShadowEquip2_201_1"
+},
+[481] = {
+  ["equipmentID"]= 1201105,
+  ["ID"]= 481,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424068,
+  ["materialItemNum"]= 750,
+  ["outPutItemID"]= 10424166,
+  ["outPutItemNum"]= 750,
+  ["priorityWithinQuality"]= 81,
+  ["shadowWeaponID"]= 1201999,
+  ["shadowWeaponName"]= "ShadowEquip2_201_2"
+},
+[482] = {
+  ["equipmentID"]= 1201106,
+  ["ID"]= 482,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111,
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311,
+    1400,
+    1410,
+    1411,
+    1500,
+    1510,
+    1511,
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424068,
+  ["materialItemNum"]= 750,
+  ["outPutItemID"]= 10424166,
+  ["outPutItemNum"]= 750,
+  ["priorityWithinQuality"]= 82,
+  ["shadowWeaponID"]= 1201999,
+  ["shadowWeaponName"]= "ShadowEquip2_201_2"
+},
+[483] = {
+  ["equipmentID"]= 1102008,
+  ["ID"]= 483,
+  ["jobLimit"]= {
+    1600,
+    1610,
+    1611
+  },
+  ["materialItemID"]= 10424068,
+  ["materialItemNum"]= 1500,
+  ["outPutItemID"]= 10424112,
+  ["outPutItemNum"]= 1500,
+  ["priorityWithinQuality"]= 83,
+  ["shadowWeaponID"]= 1102999,
+  ["shadowWeaponName"]= "ShadowEquip2_102"
+},
+[484] = {
+  ["equipmentID"]= 1101014,
+  ["ID"]= 484,
+  ["materialItemID"]= 10424068,
+  ["materialItemNum"]= 1500,
+  ["outPutItemID"]= 10424100,
+  ["outPutItemNum"]= 1500,
+  ["priorityWithinQuality"]= 84,
+  ["shadowWeaponID"]= 1101999,
+  ["shadowWeaponName"]= "ShadowEquip2_101"
+},
+[485] = {
+  ["equipmentID"]= 1103006,
+  ["ID"]= 485,
+  ["jobLimit"]= {
+    1200,
+    1210,
+    1211,
+    1300,
+    1310,
+    1311
+  },
+  ["materialItemID"]= 10424068,
+  ["materialItemNum"]= 1500,
+  ["outPutItemID"]= 10424124,
+  ["outPutItemNum"]= 1500,
+  ["priorityWithinQuality"]= 85,
+  ["shadowWeaponID"]= 1103999,
+  ["shadowWeaponName"]= "ShadowEquip2_103"
+}
+}
+local baseTable={
+  ["equipmentID"]= 1201023,
+  ["ID"]= 1,
+  ["jobLimit"]= {
+    1100,
+    1110,
+    1111
+  },
+  ["materialItemID"]= 10424064,
+  ["materialItemNum"]= 90,
+  ["outPutItemID"]= 10424169,
+  ["outPutItemNum"]= 90,
+  ["priority"]= 2,
+  ["priorityWithinQuality"]= 1,
+  ["shadowWeaponID"]= 1201996,
+  ["shadowWeaponName"]= "ShadowEquip1_201_2"
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

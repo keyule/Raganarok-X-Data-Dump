@@ -1,0 +1,174 @@
+TextAsset Base
+	string m_Name = "data_school_NpcCollection"
+	string m_Script = "return {
+	[20001] = {
+		["NpcCollectionID"] = 20001,
+		["NpcStoryName"] = "StoryName20001",
+		["NpcInStory"] = {
+			{["NpcInStoryID"] = 67010,["NpcUnlockedID"] = 1},
+			{["NpcInStoryID"] = 67011,["NpcUnlockedID"] = 1}
+		},
+		["StoryContent"] = {
+			{["NpcStoryID"] = 1,["TaskID"] = 102006203,["NpcStoryDrop"] = 10008,["NpcStoryContent"] = "NpcStoryContent200011",["IsStoryContinue"] = 0}
+		}
+	},
+	[20002] = {
+		["NpcCollectionID"] = 20002,
+		["NpcStoryName"] = "StoryName20002",
+		["NpcInStory"] = {
+			{["NpcInStoryID"] = 67004,["NpcUnlockedID"] = 1},
+			{["NpcInStoryID"] = 67005,["NpcUnlockedID"] = 1}
+		},
+		["StoryContent"] = {
+			{["NpcStoryID"] = 1,["TaskID"] = 102005201,["NpcStoryDrop"] = 10008,["NpcStoryContent"] = "NpcStoryContent200021",["IsStoryContinue"] = 0},
+			{["NpcStoryID"] = 2,["TaskID"] = 104004202,["NpcStoryDrop"] = 10008,["NpcStoryContent"] = "NpcStoryContent200022",["IsStoryContinue"] = 0},
+			{["NpcStoryID"] = 3,["TaskID"] = 116004203,["NpcStoryDrop"] = 10008,["NpcStoryContent"] = "NpcStoryContent200023",["IsStoryContinue"] = 0},
+			{["NpcStoryID"] = 4,["TaskID"] = 123004202,["NpcStoryDrop"] = 10008,["NpcStoryContent"] = "NpcStoryContent200024",["IsStoryContinue"] = 0},
+			{["NpcStoryID"] = 5,["TaskID"] = 132003202,["NpcStoryDrop"] = 10008,["NpcStoryContent"] = "NpcStoryContent200025",["IsStoryContinue"] = 1}
+		}
+	},
+	[20003] = {
+		["NpcCollectionID"] = 20003,
+		["NpcStoryName"] = "StoryName20003",
+		["NpcInStory"] = {
+			{["NpcInStoryID"] = 67003,["NpcUnlockedID"] = 1}
+		},
+		["StoryContent"] = {
+			{["NpcStoryID"] = 1,["TaskID"] = 102004202,["NpcStoryDrop"] = 10008,["NpcStoryContent"] = "NpcStoryContent200031",["IsStoryContinue"] = 0},
+			{["NpcStoryID"] = 2,["TaskID"] = 132004203,["NpcStoryDrop"] = 10008,["NpcStoryContent"] = "NpcStoryContent200032",["IsStoryContinue"] = 1}
+		}
+	},
+	[20004] = {
+		["NpcCollectionID"] = 20004,
+		["NpcStoryName"] = "StoryName20004",
+		["NpcInStory"] = {
+			{["NpcInStoryID"] = 67012,["NpcUnlockedID"] = 1},
+			{["NpcInStoryID"] = 67206,["NpcUnlockedID"] = 2},
+			{["NpcInStoryID"] = 67219,["NpcUnlockedID"] = 2}
+		},
+		["StoryContent"] = {
+			{["NpcStoryID"] = 1,["TaskID"] = 101004202,["NpcStoryDrop"] = 10008,["NpcStoryContent"] = "NpcStoryContent200041",["IsStoryContinue"] = 0},
+			{["NpcStoryID"] = 2,["TaskID"] = 115004202,["NpcStoryDrop"] = 10008,["NpcStoryContent"] = "NpcStoryContent200042",["IsStoryContinue"] = 0},
+			{["NpcStoryID"] = 3,["TaskID"] = 116005203,["NpcStoryDrop"] = 10008,["NpcStoryContent"] = "NpcStoryContent200043",["IsStoryContinue"] = 0}
+		}
+	},
+	[20005] = {
+		["NpcCollectionID"] = 20005,
+		["NpcStoryName"] = "StoryName20005",
+		["NpcInStory"] = {
+			{["NpcInStoryID"] = 67025,["NpcUnlockedID"] = 1},
+			{["NpcInStoryID"] = 67032,["NpcUnlockedID"] = 1}
+		},
+		["StoryContent"] = {
+			{["NpcStoryID"] = 1,["TaskID"] = 105005202,["NpcStoryDrop"] = 10008,["NpcStoryContent"] = "NpcStoryContent200051",["IsStoryContinue"] = 0},
+			{["NpcStoryID"] = 2,["TaskID"] = 104005203,["NpcStoryDrop"] = 10008,["NpcStoryContent"] = "NpcStoryContent200052",["IsStoryContinue"] = 0},
+			{["NpcStoryID"] = 3,["TaskID"] = 113004203,["NpcStoryDrop"] = 10008,["NpcStoryContent"] = "NpcStoryContent200053",["IsStoryContinue"] = 1}
+		}
+	},
+	[20006] = {
+		["NpcCollectionID"] = 20006,
+		["NpcStoryName"] = "StoryName20006",
+		["NpcInStory"] = {
+			{["NpcInStoryID"] = 67149,["NpcUnlockedID"] = 1},
+			{["NpcInStoryID"] = 67173,["NpcUnlockedID"] = 2},
+			{["NpcInStoryID"] = 67175,["NpcUnlockedID"] = 2}
+		},
+		["StoryContent"] = {
+			{["NpcStoryID"] = 1,["TaskID"] = 103004203,["NpcStoryDrop"] = 10008,["NpcStoryContent"] = "NpcStoryContent200061",["IsStoryContinue"] = 0},
+			{["NpcStoryID"] = 2,["TaskID"] = 104002201,["NpcStoryDrop"] = 10008,["NpcStoryContent"] = "NpcStoryContent200062",["IsStoryContinue"] = 0}
+		}
+	},
+	[20008] = {
+		["NpcCollectionID"] = 20008,
+		["NpcStoryName"] = "StoryName20008",
+		["NpcInStory"] = {
+			{["NpcInStoryID"] = 67202,["NpcUnlockedID"] = 1}
+		},
+		["StoryContent"] = {
+			{["NpcStoryID"] = 1,["TaskID"] = 113005203,["NpcStoryDrop"] = 10008,["NpcStoryContent"] = "NpcStoryContent200081",["IsStoryContinue"] = 0}
+		}
+	},
+	[20009] = {
+		["NpcCollectionID"] = 20009,
+		["NpcStoryName"] = "StoryName20009",
+		["NpcInStory"] = {
+			{["NpcInStoryID"] = 67243,["NpcUnlockedID"] = 1},
+			{["NpcInStoryID"] = 67241,["NpcUnlockedID"] = 1},
+			{["NpcInStoryID"] = 67255,["NpcUnlockedID"] = 2}
+		},
+		["StoryContent"] = {
+			{["NpcStoryID"] = 1,["TaskID"] = 122004201,["NpcStoryDrop"] = 10008,["NpcStoryContent"] = "NpcStoryContent200091",["IsStoryContinue"] = 1}
+		}
+	},
+	[21001] = {
+		["NpcCollectionID"] = 21001,
+		["NpcStoryName"] = "StoryName21001",
+		["NpcInStory"] = {
+			{["NpcInStoryID"] = 67019,["NpcUnlockedID"] = 1}
+		},
+		["StoryContent"] = {
+			{["NpcStoryID"] = 1,["TaskID"] = 101002201,["NpcStoryDrop"] = 10008,["NpcStoryContent"] = "NpcStoryContent210011",["IsStoryContinue"] = 1}
+		}
+	},
+	[21002] = {
+		["NpcCollectionID"] = 21002,
+		["NpcStoryName"] = "StoryName21002",
+		["NpcInStory"] = {
+			{["NpcInStoryID"] = 67019,["NpcUnlockedID"] = 1}
+		},
+		["StoryContent"] = {
+			{["NpcStoryID"] = 1,["TaskID"] = 106002201,["NpcStoryDrop"] = 10008,["NpcStoryContent"] = "NpcStoryContent210021",["IsStoryContinue"] = 0}
+		}
+	},
+	[21003] = {
+		["NpcCollectionID"] = 21003,
+		["NpcStoryName"] = "StoryName21003",
+		["NpcInStory"] = {
+			{["NpcInStoryID"] = 67175,["NpcUnlockedID"] = 1}
+		},
+		["StoryContent"] = {
+			{["NpcStoryID"] = 1,["TaskID"] = 104002201,["NpcStoryDrop"] = 10008,["NpcStoryContent"] = "NpcStoryContent210031",["IsStoryContinue"] = 0}
+		}
+	},
+	[21004] = {
+		["NpcCollectionID"] = 21004,
+		["NpcStoryName"] = "StoryName21004",
+		["NpcInStory"] = {
+			{["NpcInStoryID"] = 67019,["NpcUnlockedID"] = 1}
+		},
+		["StoryContent"] = {
+			{["NpcStoryID"] = 1,["TaskID"] = 116003201,["NpcStoryDrop"] = 10008,["NpcStoryContent"] = "NpcStoryContent210041",["IsStoryContinue"] = 0}
+		}
+	},
+	[21005] = {
+		["NpcCollectionID"] = 21005,
+		["NpcStoryName"] = "StoryName21005",
+		["NpcInStory"] = {
+			{["NpcInStoryID"] = 67019,["NpcUnlockedID"] = 1}
+		},
+		["StoryContent"] = {
+			{["NpcStoryID"] = 1,["TaskID"] = 123002201,["NpcStoryDrop"] = 10008,["NpcStoryContent"] = "NpcStoryContent210051",["IsStoryContinue"] = 0}
+		}
+	},
+	[22001] = {
+		["NpcCollectionID"] = 22001,
+		["NpcStoryName"] = "StoryName22001",
+		["NpcInStory"] = {
+			{["NpcInStoryID"] = 67019,["NpcUnlockedID"] = 1}
+		},
+		["StoryContent"] = {
+			{["NpcStoryID"] = 1,["TaskID"] = 103002201,["NpcStoryDrop"] = 10008,["NpcStoryContent"] = "NpcStoryContent220011",["IsStoryContinue"] = 0}
+		}
+	},
+	[22002] = {
+		["NpcCollectionID"] = 22002,
+		["NpcStoryName"] = "StoryName22002",
+		["NpcInStory"] = {
+			{["NpcInStoryID"] = 67019,["NpcUnlockedID"] = 1}
+		},
+		["StoryContent"] = {
+			{["NpcStoryID"] = 1,["TaskID"] = 113002201,["NpcStoryDrop"] = 10008,["NpcStoryContent"] = "NpcStoryContent220021",["IsStoryContinue"] = 0}
+		}
+	}
+}
+"

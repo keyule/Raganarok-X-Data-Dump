@@ -1,0 +1,4548 @@
+TextAsset Base
+	string m_Name = "data_guild_guildOrder"
+	string m_Script = "local table= {
+[1] = {
+  ["PlayerLevel"]= {
+    15,
+    25
+  }
+},
+[2] = {
+  ["Id"]= 2,
+  ["ItemId"]= 10406802,
+  ["PlayerLevel"]= {
+    15,
+    25
+  }
+},
+[3] = {
+  ["Id"]= 3,
+  ["ItemId"]= 10406596,
+  ["PlayerLevel"]= {
+    15,
+    25
+  }
+},
+[4] = {
+  ["Id"]= 4,
+  ["ItemId"]= 10201013,
+  ["PlayerLevel"]= {
+    15,
+    25
+  }
+},
+[5] = {
+  ["Id"]= 5,
+  ["ItemId"]= 10406810,
+  ["PlayerLevel"]= {
+    15,
+    25
+  }
+},
+[6] = {
+  ["Id"]= 6,
+  ["ItemId"]= 10406835,
+  ["PlayerLevel"]= {
+    15,
+    25
+  }
+},
+[7] = {
+  ["Id"]= 7,
+  ["ItemId"]= 10403010,
+  ["PlayerLevel"]= {
+    15,
+    25
+  }
+},
+[8] = {
+  ["Id"]= 8,
+  ["ItemId"]= 10406598,
+  ["PlayerLevel"]= {
+    15,
+    25
+  }
+},
+[9] = {
+  ["Id"]= 9,
+  ["ItemId"]= 10406804,
+  ["PlayerLevel"]= {
+    15,
+    25
+  }
+},
+[10] = {
+  ["Id"]= 10,
+  ["ItemId"]= 10406588,
+  ["PlayerLevel"]= {
+    15,
+    25
+  }
+},
+[11] = {
+  ["Id"]= 11,
+  ["ItemId"]= 10406883,
+  ["PlayerLevel"]= {
+    15,
+    25
+  }
+},
+[12] = {
+  ["Id"]= 12,
+  ["ItemId"]= 10413027,
+  ["PlayerLevel"]= {
+    15,
+    25
+  }
+},
+[13] = {
+  ["Id"]= 13,
+  ["ItemId"]= 10406201,
+  ["PlayerLevel"]= {
+    15,
+    25
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[14] = {
+  ["Id"]= 14,
+  ["ItemId"]= 10406202,
+  ["PlayerLevel"]= {
+    15,
+    25
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[15] = {
+  ["Id"]= 15,
+  ["ItemId"]= 10201015,
+  ["PlayerLevel"]= {
+    15,
+    25
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[16] = {
+  ["Id"]= 16,
+  ["ItemId"]= 10406006,
+  ["PlayerLevel"]= {
+    15,
+    25
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[17] = {
+  ["Id"]= 17,
+  ["ItemId"]= 10406004,
+  ["PlayerLevel"]= {
+    15,
+    25
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[18] = {
+  ["Id"]= 18,
+  ["ItemId"]= 10406007,
+  ["PlayerLevel"]= {
+    15,
+    25
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[19] = {
+  ["Id"]= 19,
+  ["ItemId"]= 10406050,
+  ["PlayerLevel"]= {
+    15,
+    25
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[20] = {
+  ["Id"]= 20,
+  ["ItemId"]= 10406687,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[21] = {
+  ["Id"]= 21,
+  ["ItemId"]= 10206002,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[22] = {
+  ["Id"]= 22,
+  ["ItemId"]= 10406690,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[23] = {
+  ["Id"]= 23,
+  ["ItemId"]= 10406681,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[24] = {
+  ["Id"]= 24,
+  ["ItemId"]= 10406821,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[25] = {
+  ["Id"]= 25,
+  ["ItemId"]= 10413083,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[26] = {
+  ["Id"]= 26,
+  ["ItemId"]= 10406811,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[27] = {
+  ["Id"]= 27,
+  ["ItemId"]= 10406813,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[28] = {
+  ["Id"]= 28,
+  ["ItemId"]= 10413200,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[29] = {
+  ["Id"]= 29,
+  ["ItemId"]= 10413129,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[30] = {
+  ["Id"]= 30,
+  ["ItemId"]= 10413134,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[31] = {
+  ["Id"]= 31,
+  ["ItemId"]= 10413133,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[32] = {
+  ["Id"]= 32,
+  ["ItemId"]= 10413026,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[33] = {
+  ["Id"]= 33,
+  ["ItemId"]= 10406888,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[34] = {
+  ["Id"]= 34,
+  ["ItemId"]= 10413135,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[35] = {
+  ["Id"]= 35,
+  ["ItemId"]= 10406881,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[36] = {
+  ["Id"]= 36,
+  ["ItemId"]= 10406817,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[37] = {
+  ["Id"]= 37,
+  ["ItemId"]= 10406562,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[38] = {
+  ["Id"]= 38,
+  ["ItemId"]= 10413109,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[39] = {
+  ["Id"]= 39,
+  ["ItemId"]= 10413108,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[40] = {
+  ["Id"]= 40,
+  ["ItemId"]= 10406819,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[41] = {
+  ["Id"]= 41,
+  ["ItemId"]= 10413100,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[42] = {
+  ["Id"]= 42,
+  ["ItemId"]= 10413110,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[43] = {
+  ["Id"]= 43,
+  ["ItemId"]= 10406803,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[44] = {
+  ["Id"]= 44,
+  ["ItemId"]= 10406808,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[45] = {
+  ["Id"]= 45,
+  ["ItemId"]= 10406578,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[46] = {
+  ["Id"]= 46,
+  ["ItemId"]= 10406577,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[47] = {
+  ["Id"]= 47,
+  ["ItemId"]= 10406237,
+  ["PlayerLevel"]= {
+    25,
+    35
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[48] = {
+  ["Id"]= 48,
+  ["ItemId"]= 10406238,
+  ["PlayerLevel"]= {
+    25,
+    35
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[49] = {
+  ["Id"]= 49,
+  ["ItemId"]= 10201014,
+  ["PlayerLevel"]= {
+    25,
+    35
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[50] = {
+  ["Id"]= 50,
+  ["ItemId"]= 10406036,
+  ["PlayerLevel"]= {
+    25,
+    35
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[51] = {
+  ["Id"]= 51,
+  ["ItemId"]= 10406001,
+  ["PlayerLevel"]= {
+    25,
+    35
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[52] = {
+  ["Id"]= 52,
+  ["ItemId"]= 10406003,
+  ["PlayerLevel"]= {
+    25,
+    35
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[53] = {
+  ["Id"]= 53,
+  ["ItemId"]= 10406041,
+  ["PlayerLevel"]= {
+    25,
+    35
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[54] = {
+  ["Id"]= 54,
+  ["ItemId"]= 10413084,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[55] = {
+  ["Id"]= 55,
+  ["ItemId"]= 10413085,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[56] = {
+  ["Id"]= 56,
+  ["ItemId"]= 10413086,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[57] = {
+  ["Id"]= 57,
+  ["ItemId"]= 10413087,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[58] = {
+  ["Id"]= 58,
+  ["ItemId"]= 10413088,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[59] = {
+  ["Id"]= 59,
+  ["ItemId"]= 10406683,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[60] = {
+  ["Id"]= 60,
+  ["ItemId"]= 10413136,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[61] = {
+  ["Id"]= 61,
+  ["ItemId"]= 10413202,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[62] = {
+  ["Id"]= 62,
+  ["ItemId"]= 10413199,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[63] = {
+  ["Id"]= 63,
+  ["ItemId"]= 10406824,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[64] = {
+  ["Id"]= 64,
+  ["ItemId"]= 10406882,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[65] = {
+  ["Id"]= 65,
+  ["ItemId"]= 10413030,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[66] = {
+  ["Id"]= 66,
+  ["ItemId"]= 10403017,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[67] = {
+  ["Id"]= 67,
+  ["ItemId"]= 10413137,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[68] = {
+  ["Id"]= 68,
+  ["ItemId"]= 10406831,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[69] = {
+  ["Id"]= 69,
+  ["ItemId"]= 10406797,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[70] = {
+  ["Id"]= 70,
+  ["ItemId"]= 10406840,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[71] = {
+  ["Id"]= 71,
+  ["ItemId"]= 10413029,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[72] = {
+  ["Id"]= 72,
+  ["ItemId"]= 10406794,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[73] = {
+  ["Id"]= 73,
+  ["ItemId"]= 10406595,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[74] = {
+  ["Id"]= 74,
+  ["ItemId"]= 10406833,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[75] = {
+  ["Id"]= 75,
+  ["ItemId"]= 10406841,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[76] = {
+  ["Id"]= 76,
+  ["ItemId"]= 10406816,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[77] = {
+  ["Id"]= 77,
+  ["ItemId"]= 10413101,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[78] = {
+  ["Id"]= 78,
+  ["ItemId"]= 10406805,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[79] = {
+  ["Id"]= 79,
+  ["ItemId"]= 10406815,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[80] = {
+  ["Id"]= 80,
+  ["ItemId"]= 10413111,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[81] = {
+  ["Id"]= 81,
+  ["ItemId"]= 10406823,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[82] = {
+  ["Id"]= 82,
+  ["ItemId"]= 10413112,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[83] = {
+  ["Id"]= 83,
+  ["ItemId"]= 10406214,
+  ["PlayerLevel"]= {
+    35,
+    45
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[84] = {
+  ["Id"]= 84,
+  ["ItemId"]= 10406213,
+  ["PlayerLevel"]= {
+    35,
+    45
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[85] = {
+  ["Id"]= 85,
+  ["ItemId"]= 10201016,
+  ["PlayerLevel"]= {
+    35,
+    45
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[86] = {
+  ["Id"]= 86,
+  ["ItemId"]= 10406008,
+  ["PlayerLevel"]= {
+    35,
+    45
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[87] = {
+  ["Id"]= 87,
+  ["ItemId"]= 10406035,
+  ["PlayerLevel"]= {
+    35,
+    45
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[88] = {
+  ["Id"]= 88,
+  ["ItemId"]= 10406030,
+  ["PlayerLevel"]= {
+    35,
+    45
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[89] = {
+  ["Id"]= 89,
+  ["ItemId"]= 10406040,
+  ["PlayerLevel"]= {
+    35,
+    45
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[90] = {
+  ["Id"]= 90,
+  ["ItemId"]= 10406688,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[91] = {
+  ["Id"]= 91,
+  ["ItemId"]= 10413089,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[92] = {
+  ["Id"]= 92,
+  ["ItemId"]= 10413090,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[93] = {
+  ["Id"]= 93,
+  ["ItemId"]= 10406685,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[94] = {
+  ["Id"]= 94,
+  ["ItemId"]= 10406825,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[95] = {
+  ["Id"]= 95,
+  ["ItemId"]= 10413091,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[96] = {
+  ["Id"]= 96,
+  ["ItemId"]= 10413006,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[97] = {
+  ["Id"]= 97,
+  ["ItemId"]= 10413007,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[98] = {
+  ["Id"]= 98,
+  ["ItemId"]= 10413138,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[99] = {
+  ["Id"]= 99,
+  ["ItemId"]= 10406887,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[100] = {
+  ["Id"]= 100,
+  ["ItemId"]= 10406837,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[101] = {
+  ["Id"]= 101,
+  ["ItemId"]= 10406844,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[102] = {
+  ["Id"]= 102,
+  ["ItemId"]= 10406875,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[103] = {
+  ["Id"]= 103,
+  ["ItemId"]= 10413031,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[104] = {
+  ["Id"]= 104,
+  ["ItemId"]= 10413139,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[105] = {
+  ["Id"]= 105,
+  ["ItemId"]= 10413140,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[106] = {
+  ["Id"]= 106,
+  ["ItemId"]= 10406828,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[107] = {
+  ["Id"]= 107,
+  ["ItemId"]= 10406568,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[108] = {
+  ["Id"]= 108,
+  ["ItemId"]= 10413113,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[109] = {
+  ["Id"]= 109,
+  ["ItemId"]= 10406843,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[110] = {
+  ["Id"]= 110,
+  ["ItemId"]= 10413114,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[111] = {
+  ["Id"]= 111,
+  ["ItemId"]= 10413102,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[112] = {
+  ["Id"]= 112,
+  ["ItemId"]= 10406838,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[113] = {
+  ["Id"]= 113,
+  ["ItemId"]= 10406565,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[114] = {
+  ["Id"]= 114,
+  ["ItemId"]= 10413115,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[115] = {
+  ["Id"]= 115,
+  ["ItemId"]= 10406566,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[116] = {
+  ["Id"]= 116,
+  ["ItemId"]= 10413116,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[117] = {
+  ["Id"]= 117,
+  ["ItemId"]= 10413103,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[118] = {
+  ["Id"]= 118,
+  ["ItemId"]= 10406827,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[119] = {
+  ["Id"]= 119,
+  ["ItemId"]= 10406240,
+  ["PlayerLevel"]= {
+    45,
+    55
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[120] = {
+  ["Id"]= 120,
+  ["ItemId"]= 10406241,
+  ["PlayerLevel"]= {
+    45,
+    55
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[121] = {
+  ["Id"]= 121,
+  ["ItemId"]= 10406242,
+  ["PlayerLevel"]= {
+    45,
+    55
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[122] = {
+  ["Id"]= 122,
+  ["ItemId"]= 10406005,
+  ["PlayerLevel"]= {
+    45,
+    55
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[123] = {
+  ["Id"]= 123,
+  ["ItemId"]= 10406002,
+  ["PlayerLevel"]= {
+    45,
+    55
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[124] = {
+  ["Id"]= 124,
+  ["ItemId"]= 10406046,
+  ["PlayerLevel"]= {
+    45,
+    55
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[125] = {
+  ["Id"]= 125,
+  ["ItemId"]= 10406689,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[126] = {
+  ["Id"]= 126,
+  ["ItemId"]= 10413092,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[127] = {
+  ["Id"]= 127,
+  ["ItemId"]= 10413093,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[128] = {
+  ["Id"]= 128,
+  ["ItemId"]= 10406678,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[129] = {
+  ["Id"]= 129,
+  ["ItemId"]= 10413094,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[130] = {
+  ["Id"]= 130,
+  ["ItemId"]= 10413095,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[131] = {
+  ["Id"]= 131,
+  ["ItemId"]= 10413008,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[132] = {
+  ["Id"]= 132,
+  ["ItemId"]= 10413009,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[133] = {
+  ["Id"]= 133,
+  ["ItemId"]= 10413142,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[134] = {
+  ["Id"]= 134,
+  ["ItemId"]= 10413141,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[135] = {
+  ["Id"]= 135,
+  ["ItemId"]= 10406885,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[136] = {
+  ["Id"]= 136,
+  ["ItemId"]= 10406682,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[137] = {
+  ["Id"]= 137,
+  ["ItemId"]= 10413032,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[138] = {
+  ["Id"]= 138,
+  ["ItemId"]= 10413201,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[139] = {
+  ["Id"]= 139,
+  ["ItemId"]= 10406892,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[140] = {
+  ["Id"]= 140,
+  ["ItemId"]= 10413143,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[141] = {
+  ["Id"]= 141,
+  ["ItemId"]= 10406796,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[142] = {
+  ["Id"]= 142,
+  ["ItemId"]= 10413144,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[143] = {
+  ["Id"]= 143,
+  ["ItemId"]= 10406564,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[144] = {
+  ["Id"]= 144,
+  ["ItemId"]= 10406586,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[145] = {
+  ["Id"]= 145,
+  ["ItemId"]= 10406587,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[146] = {
+  ["Id"]= 146,
+  ["ItemId"]= 10413117,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[147] = {
+  ["Id"]= 147,
+  ["ItemId"]= 10406869,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[148] = {
+  ["Id"]= 148,
+  ["ItemId"]= 10406866,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[149] = {
+  ["Id"]= 149,
+  ["ItemId"]= 10406826,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[150] = {
+  ["Id"]= 150,
+  ["ItemId"]= 10406865,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[151] = {
+  ["Id"]= 151,
+  ["ItemId"]= 10413104,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[152] = {
+  ["Id"]= 152,
+  ["ItemId"]= 10413002,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[153] = {
+  ["Id"]= 153,
+  ["ItemId"]= 10413105,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[154] = {
+  ["Id"]= 154,
+  ["ItemId"]= 10413118,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[155] = {
+  ["Id"]= 155,
+  ["ItemId"]= 10406239,
+  ["PlayerLevel"]= {
+    55,
+    65
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[156] = {
+  ["Id"]= 156,
+  ["ItemId"]= 10406014,
+  ["PlayerLevel"]= {
+    55,
+    65
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[157] = {
+  ["Id"]= 157,
+  ["ItemId"]= 10406015,
+  ["PlayerLevel"]= {
+    55,
+    65
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[158] = {
+  ["Id"]= 158,
+  ["ItemId"]= 10406011,
+  ["PlayerLevel"]= {
+    55,
+    65
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[159] = {
+  ["Id"]= 159,
+  ["ItemId"]= 10406013,
+  ["PlayerLevel"]= {
+    55,
+    65
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[160] = {
+  ["Id"]= 160,
+  ["ItemId"]= 10406010,
+  ["PlayerLevel"]= {
+    55,
+    65
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[161] = {
+  ["Id"]= 161,
+  ["ItemId"]= 10413096
+},
+[162] = {
+  ["Id"]= 162,
+  ["ItemId"]= 10406691
+},
+[163] = {
+  ["Id"]= 163,
+  ["ItemId"]= 10413097
+},
+[164] = {
+  ["Id"]= 164,
+  ["ItemId"]= 10406851
+},
+[165] = {
+  ["Id"]= 165,
+  ["ItemId"]= 10413098
+},
+[166] = {
+  ["Id"]= 166,
+  ["ItemId"]= 10413099
+},
+[167] = {
+  ["Id"]= 167,
+  ["ItemId"]= 10413010
+},
+[168] = {
+  ["Id"]= 168,
+  ["ItemId"]= 10413011
+},
+[169] = {
+  ["Id"]= 169,
+  ["ItemId"]= 10413145
+},
+[170] = {
+  ["Id"]= 170,
+  ["ItemId"]= 10406874
+},
+[171] = {
+  ["Id"]= 171,
+  ["ItemId"]= 10413148
+},
+[172] = {
+  ["Id"]= 172,
+  ["ItemId"]= 10413147
+},
+[173] = {
+  ["Id"]= 173,
+  ["ItemId"]= 10413196
+},
+[174] = {
+  ["Id"]= 174,
+  ["ItemId"]= 10406852
+},
+[175] = {
+  ["Id"]= 175,
+  ["ItemId"]= 10406853
+},
+[176] = {
+  ["Id"]= 176,
+  ["ItemId"]= 10406856
+},
+[177] = {
+  ["Id"]= 177,
+  ["ItemId"]= 10413034
+},
+[178] = {
+  ["Id"]= 178,
+  ["ItemId"]= 10413146
+},
+[179] = {
+  ["Id"]= 179,
+  ["ItemId"]= 10406684
+},
+[180] = {
+  ["Id"]= 180,
+  ["ItemId"]= 10406899
+},
+[181] = {
+  ["Id"]= 181,
+  ["ItemId"]= 10413033
+},
+[182] = {
+  ["Id"]= 182,
+  ["ItemId"]= 10406788
+},
+[183] = {
+  ["Id"]= 183,
+  ["ItemId"]= 10406579
+},
+[184] = {
+  ["Id"]= 184,
+  ["ItemId"]= 10406864
+},
+[185] = {
+  ["Id"]= 185,
+  ["ItemId"]= 10406563
+},
+[186] = {
+  ["Id"]= 186,
+  ["ItemId"]= 10406583
+},
+[187] = {
+  ["Id"]= 187,
+  ["ItemId"]= 10413106
+},
+[188] = {
+  ["Id"]= 188,
+  ["ItemId"]= 10413119
+},
+[189] = {
+  ["Id"]= 189,
+  ["ItemId"]= 10406860
+},
+[190] = {
+  ["Id"]= 190,
+  ["ItemId"]= 10401009
+},
+[191] = {
+  ["Id"]= 191,
+  ["ItemId"]= 10406862
+},
+[192] = {
+  ["Id"]= 192,
+  ["ItemId"]= 10406857
+},
+[193] = {
+  ["Id"]= 193,
+  ["ItemId"]= 10406236,
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[194] = {
+  ["Id"]= 194,
+  ["ItemId"]= 10406221,
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[195] = {
+  ["Id"]= 195,
+  ["ItemId"]= 10406203,
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[196] = {
+  ["Id"]= 196,
+  ["ItemId"]= 10406012,
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[197] = {
+  ["Id"]= 197,
+  ["ItemId"]= 10406024,
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[198] = {
+  ["Id"]= 198,
+  ["ItemId"]= 10406031,
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[199] = {
+  ["Id"]= 199,
+  ["ItemId"]= 10406045,
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[200] = {
+  ["Id"]= 200,
+  ["ItemId"]= 10413018,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[201] = {
+  ["Id"]= 201,
+  ["ItemId"]= 10413019,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[202] = {
+  ["Id"]= 202,
+  ["ItemId"]= 10413020,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[203] = {
+  ["Id"]= 203,
+  ["ItemId"]= 10413021,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[204] = {
+  ["Id"]= 204,
+  ["ItemId"]= 10413022,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[205] = {
+  ["Id"]= 205,
+  ["ItemId"]= 10413023,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[206] = {
+  ["Id"]= 206,
+  ["ItemId"]= 10413151,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[207] = {
+  ["Id"]= 207,
+  ["ItemId"]= 10413149,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[208] = {
+  ["Id"]= 208,
+  ["ItemId"]= 10413155,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[209] = {
+  ["Id"]= 209,
+  ["ItemId"]= 10413156,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[210] = {
+  ["Id"]= 210,
+  ["ItemId"]= 10413154,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[211] = {
+  ["Id"]= 211,
+  ["ItemId"]= 10413150,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[212] = {
+  ["Id"]= 212,
+  ["ItemId"]= 10413153,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[213] = {
+  ["Id"]= 213,
+  ["ItemId"]= 10413152,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[214] = {
+  ["Id"]= 214,
+  ["ItemId"]= 10406592,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[215] = {
+  ["Id"]= 215,
+  ["ItemId"]= 10403016,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[216] = {
+  ["Id"]= 216,
+  ["ItemId"]= 10406859,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[217] = {
+  ["Id"]= 217,
+  ["ItemId"]= 10406581,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[218] = {
+  ["Id"]= 218,
+  ["ItemId"]= 10413036,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[219] = {
+  ["Id"]= 219,
+  ["ItemId"]= 10406896,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[220] = {
+  ["Id"]= 220,
+  ["ItemId"]= 10406585,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[221] = {
+  ["Id"]= 221,
+  ["ItemId"]= 10413003,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[222] = {
+  ["Id"]= 222,
+  ["ItemId"]= 10406863,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[223] = {
+  ["Id"]= 223,
+  ["ItemId"]= 10406861,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[224] = {
+  ["Id"]= 224,
+  ["ItemId"]= 10413107,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[225] = {
+  ["Id"]= 225,
+  ["ItemId"]= 10406580,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[226] = {
+  ["Id"]= 226,
+  ["ItemId"]= 10406252,
+  ["PlayerLevel"]= {
+    75,
+    85
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[227] = {
+  ["Id"]= 227,
+  ["ItemId"]= 10406253,
+  ["PlayerLevel"]= {
+    75,
+    85
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[228] = {
+  ["Id"]= 228,
+  ["ItemId"]= 10406254,
+  ["PlayerLevel"]= {
+    75,
+    85
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[229] = {
+  ["Id"]= 229,
+  ["ItemId"]= 10406051,
+  ["PlayerLevel"]= {
+    75,
+    85
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[230] = {
+  ["Id"]= 230,
+  ["ItemId"]= 10406052,
+  ["PlayerLevel"]= {
+    75,
+    85
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[231] = {
+  ["Id"]= 231,
+  ["ItemId"]= 10406053,
+  ["PlayerLevel"]= {
+    75,
+    85
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[232] = {
+  ["Id"]= 232,
+  ["ItemId"]= 10413024,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[233] = {
+  ["Id"]= 233,
+  ["ItemId"]= 10413025,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[234] = {
+  ["Id"]= 234,
+  ["ItemId"]= 10413038,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[235] = {
+  ["Id"]= 235,
+  ["ItemId"]= 10413045,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[236] = {
+  ["Id"]= 236,
+  ["ItemId"]= 10413046,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[237] = {
+  ["Id"]= 237,
+  ["ItemId"]= 10413047,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[238] = {
+  ["Id"]= 238,
+  ["ItemId"]= 10413054,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[239] = {
+  ["Id"]= 239,
+  ["ItemId"]= 10413055,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[240] = {
+  ["Id"]= 240,
+  ["ItemId"]= 10413056,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[241] = {
+  ["Id"]= 241,
+  ["ItemId"]= 10413057,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[242] = {
+  ["Id"]= 242,
+  ["ItemId"]= 10413058,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[243] = {
+  ["Id"]= 243,
+  ["ItemId"]= 10413059,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[244] = {
+  ["Id"]= 244,
+  ["ItemId"]= 10413060,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[245] = {
+  ["Id"]= 245,
+  ["ItemId"]= 10413061,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[246] = {
+  ["Id"]= 246,
+  ["ItemId"]= 10413062,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[247] = {
+  ["Id"]= 247,
+  ["ItemId"]= 10406793,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[248] = {
+  ["Id"]= 248,
+  ["ItemId"]= 10413203,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[249] = {
+  ["Id"]= 249,
+  ["ItemId"]= 10406590,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[250] = {
+  ["Id"]= 250,
+  ["ItemId"]= 10413063,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[251] = {
+  ["Id"]= 251,
+  ["ItemId"]= 10413035,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[252] = {
+  ["Id"]= 252,
+  ["ItemId"]= 10406890,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[253] = {
+  ["Id"]= 253,
+  ["ItemId"]= 10413157,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[254] = {
+  ["Id"]= 254,
+  ["ItemId"]= 10406877,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[255] = {
+  ["Id"]= 255,
+  ["ItemId"]= 10413065,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[256] = {
+  ["Id"]= 256,
+  ["ItemId"]= 10413066,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[257] = {
+  ["Id"]= 257,
+  ["ItemId"]= 10413067,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[258] = {
+  ["Id"]= 258,
+  ["ItemId"]= 10413068,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[259] = {
+  ["Id"]= 259,
+  ["ItemId"]= 10201017,
+  ["PlayerLevel"]= {
+    85,
+    95
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[260] = {
+  ["Id"]= 260,
+  ["ItemId"]= 10406222,
+  ["PlayerLevel"]= {
+    85,
+    95
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[261] = {
+  ["Id"]= 261,
+  ["ItemId"]= 10406224,
+  ["PlayerLevel"]= {
+    85,
+    95
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[262] = {
+  ["Id"]= 262,
+  ["ItemId"]= 10406057,
+  ["PlayerLevel"]= {
+    85,
+    95
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[263] = {
+  ["Id"]= 263,
+  ["ItemId"]= 10406058,
+  ["PlayerLevel"]= {
+    85,
+    95
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[264] = {
+  ["Id"]= 264,
+  ["ItemId"]= 10406059,
+  ["PlayerLevel"]= {
+    85,
+    95
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[265] = {
+  ["Id"]= 265,
+  ["ItemId"]= 10406060,
+  ["PlayerLevel"]= {
+    85,
+    95
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[266] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 266,
+  ["PlayerLevel"]= {
+    15,
+    25
+  }
+},
+[267] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 267,
+  ["ItemId"]= 10406802,
+  ["PlayerLevel"]= {
+    15,
+    25
+  }
+},
+[268] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 268,
+  ["ItemId"]= 10406596,
+  ["PlayerLevel"]= {
+    15,
+    25
+  }
+},
+[269] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 269,
+  ["ItemId"]= 10201013,
+  ["PlayerLevel"]= {
+    15,
+    25
+  }
+},
+[270] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 270,
+  ["ItemId"]= 10406810,
+  ["PlayerLevel"]= {
+    15,
+    25
+  }
+},
+[271] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 271,
+  ["ItemId"]= 10406835,
+  ["PlayerLevel"]= {
+    15,
+    25
+  }
+},
+[272] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 272,
+  ["ItemId"]= 10403010,
+  ["PlayerLevel"]= {
+    15,
+    25
+  }
+},
+[273] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 273,
+  ["ItemId"]= 10406598,
+  ["PlayerLevel"]= {
+    15,
+    25
+  }
+},
+[274] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 274,
+  ["ItemId"]= 10406804,
+  ["PlayerLevel"]= {
+    15,
+    25
+  }
+},
+[275] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 275,
+  ["ItemId"]= 10406588,
+  ["PlayerLevel"]= {
+    15,
+    25
+  }
+},
+[276] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 276,
+  ["ItemId"]= 10406883,
+  ["PlayerLevel"]= {
+    15,
+    25
+  }
+},
+[277] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 277,
+  ["ItemId"]= 10413027,
+  ["PlayerLevel"]= {
+    15,
+    25
+  }
+},
+[278] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 278,
+  ["ItemId"]= 10406201,
+  ["PlayerLevel"]= {
+    15,
+    25
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[279] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 279,
+  ["ItemId"]= 10406202,
+  ["PlayerLevel"]= {
+    15,
+    25
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[280] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 280,
+  ["ItemId"]= 10201015,
+  ["PlayerLevel"]= {
+    15,
+    25
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[281] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 281,
+  ["ItemId"]= 10406006,
+  ["PlayerLevel"]= {
+    15,
+    25
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[282] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 282,
+  ["ItemId"]= 10406004,
+  ["PlayerLevel"]= {
+    15,
+    25
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[283] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 283,
+  ["ItemId"]= 10406007,
+  ["PlayerLevel"]= {
+    15,
+    25
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[284] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 284,
+  ["ItemId"]= 10406050,
+  ["PlayerLevel"]= {
+    15,
+    25
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[285] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 285,
+  ["ItemId"]= 10406687,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[286] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 286,
+  ["ItemId"]= 10206002,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[287] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 287,
+  ["ItemId"]= 10406690,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[288] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 288,
+  ["ItemId"]= 10406681,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[289] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 289,
+  ["ItemId"]= 10406821,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[290] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 290,
+  ["ItemId"]= 10413083,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[291] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 291,
+  ["ItemId"]= 10406811,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[292] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 292,
+  ["ItemId"]= 10406813,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[293] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 293,
+  ["ItemId"]= 10413200,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[294] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 294,
+  ["ItemId"]= 10413129,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[295] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 295,
+  ["ItemId"]= 10413134,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[296] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 296,
+  ["ItemId"]= 10413133,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[297] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 297,
+  ["ItemId"]= 10413026,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[298] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 298,
+  ["ItemId"]= 10406888,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[299] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 299,
+  ["ItemId"]= 10413135,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[300] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 300,
+  ["ItemId"]= 10406881,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[301] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 301,
+  ["ItemId"]= 10406817,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[302] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 302,
+  ["ItemId"]= 10406562,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[303] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 303,
+  ["ItemId"]= 10413109,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[304] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 304,
+  ["ItemId"]= 10413108,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[305] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 305,
+  ["ItemId"]= 10406819,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[306] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 306,
+  ["ItemId"]= 10413100,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[307] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 307,
+  ["ItemId"]= 10413110,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[308] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 308,
+  ["ItemId"]= 10406803,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[309] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 309,
+  ["ItemId"]= 10406808,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[310] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 310,
+  ["ItemId"]= 10406578,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[311] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 311,
+  ["ItemId"]= 10406577,
+  ["PlayerLevel"]= {
+    25,
+    35
+  }
+},
+[312] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 312,
+  ["ItemId"]= 10406237,
+  ["PlayerLevel"]= {
+    25,
+    35
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[313] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 313,
+  ["ItemId"]= 10406238,
+  ["PlayerLevel"]= {
+    25,
+    35
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[314] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 314,
+  ["ItemId"]= 10201014,
+  ["PlayerLevel"]= {
+    25,
+    35
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[315] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 315,
+  ["ItemId"]= 10406036,
+  ["PlayerLevel"]= {
+    25,
+    35
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[316] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 316,
+  ["ItemId"]= 10406001,
+  ["PlayerLevel"]= {
+    25,
+    35
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[317] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 317,
+  ["ItemId"]= 10406003,
+  ["PlayerLevel"]= {
+    25,
+    35
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[318] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 318,
+  ["ItemId"]= 10406041,
+  ["PlayerLevel"]= {
+    25,
+    35
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[319] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 319,
+  ["ItemId"]= 10413084,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[320] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 320,
+  ["ItemId"]= 10413085,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[321] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 321,
+  ["ItemId"]= 10413086,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[322] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 322,
+  ["ItemId"]= 10413087,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[323] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 323,
+  ["ItemId"]= 10413088,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[324] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 324,
+  ["ItemId"]= 10406683,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[325] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 325,
+  ["ItemId"]= 10413136,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[326] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 326,
+  ["ItemId"]= 10413202,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[327] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 327,
+  ["ItemId"]= 10413199,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[328] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 328,
+  ["ItemId"]= 10406824,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[329] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 329,
+  ["ItemId"]= 10406882,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[330] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 330,
+  ["ItemId"]= 10413030,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[331] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 331,
+  ["ItemId"]= 10403017,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[332] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 332,
+  ["ItemId"]= 10413137,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[333] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 333,
+  ["ItemId"]= 10406831,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[334] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 334,
+  ["ItemId"]= 10406797,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[335] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 335,
+  ["ItemId"]= 10406840,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[336] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 336,
+  ["ItemId"]= 10413029,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[337] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 337,
+  ["ItemId"]= 10406794,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[338] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 338,
+  ["ItemId"]= 10406595,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[339] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 339,
+  ["ItemId"]= 10406833,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[340] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 340,
+  ["ItemId"]= 10406841,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[341] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 341,
+  ["ItemId"]= 10406816,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[342] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 342,
+  ["ItemId"]= 10413101,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[343] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 343,
+  ["ItemId"]= 10406805,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[344] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 344,
+  ["ItemId"]= 10406815,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[345] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 345,
+  ["ItemId"]= 10413111,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[346] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 346,
+  ["ItemId"]= 10406823,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[347] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 347,
+  ["ItemId"]= 10413112,
+  ["PlayerLevel"]= {
+    35,
+    45
+  }
+},
+[348] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 348,
+  ["ItemId"]= 10406214,
+  ["PlayerLevel"]= {
+    35,
+    45
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[349] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 349,
+  ["ItemId"]= 10406213,
+  ["PlayerLevel"]= {
+    35,
+    45
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[350] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 350,
+  ["ItemId"]= 10201016,
+  ["PlayerLevel"]= {
+    35,
+    45
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[351] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 351,
+  ["ItemId"]= 10406008,
+  ["PlayerLevel"]= {
+    35,
+    45
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[352] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 352,
+  ["ItemId"]= 10406035,
+  ["PlayerLevel"]= {
+    35,
+    45
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[353] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 353,
+  ["ItemId"]= 10406030,
+  ["PlayerLevel"]= {
+    35,
+    45
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[354] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 354,
+  ["ItemId"]= 10406040,
+  ["PlayerLevel"]= {
+    35,
+    45
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[355] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 355,
+  ["ItemId"]= 10406688,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[356] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 356,
+  ["ItemId"]= 10413089,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[357] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 357,
+  ["ItemId"]= 10413090,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[358] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 358,
+  ["ItemId"]= 10406685,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[359] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 359,
+  ["ItemId"]= 10406825,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[360] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 360,
+  ["ItemId"]= 10413091,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[361] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 361,
+  ["ItemId"]= 10413006,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[362] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 362,
+  ["ItemId"]= 10413007,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[363] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 363,
+  ["ItemId"]= 10413138,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[364] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 364,
+  ["ItemId"]= 10406887,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[365] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 365,
+  ["ItemId"]= 10406837,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[366] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 366,
+  ["ItemId"]= 10406844,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[367] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 367,
+  ["ItemId"]= 10406875,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[368] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 368,
+  ["ItemId"]= 10413031,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[369] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 369,
+  ["ItemId"]= 10413139,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[370] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 370,
+  ["ItemId"]= 10413140,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[371] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 371,
+  ["ItemId"]= 10406828,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[372] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 372,
+  ["ItemId"]= 10406568,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[373] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 373,
+  ["ItemId"]= 10413113,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[374] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 374,
+  ["ItemId"]= 10406843,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[375] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 375,
+  ["ItemId"]= 10413114,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[376] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 376,
+  ["ItemId"]= 10413102,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[377] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 377,
+  ["ItemId"]= 10406838,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[378] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 378,
+  ["ItemId"]= 10406565,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[379] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 379,
+  ["ItemId"]= 10413115,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[380] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 380,
+  ["ItemId"]= 10406566,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[381] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 381,
+  ["ItemId"]= 10413116,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[382] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 382,
+  ["ItemId"]= 10413103,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[383] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 383,
+  ["ItemId"]= 10406827,
+  ["PlayerLevel"]= {
+    45,
+    55
+  }
+},
+[384] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 384,
+  ["ItemId"]= 10406240,
+  ["PlayerLevel"]= {
+    45,
+    55
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[385] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 385,
+  ["ItemId"]= 10406241,
+  ["PlayerLevel"]= {
+    45,
+    55
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[386] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 386,
+  ["ItemId"]= 10406242,
+  ["PlayerLevel"]= {
+    45,
+    55
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[387] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 387,
+  ["ItemId"]= 10406005,
+  ["PlayerLevel"]= {
+    45,
+    55
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[388] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 388,
+  ["ItemId"]= 10406002,
+  ["PlayerLevel"]= {
+    45,
+    55
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[389] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 389,
+  ["ItemId"]= 10406046,
+  ["PlayerLevel"]= {
+    45,
+    55
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[390] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 390,
+  ["ItemId"]= 10406689,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[391] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 391,
+  ["ItemId"]= 10413092,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[392] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 392,
+  ["ItemId"]= 10413093,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[393] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 393,
+  ["ItemId"]= 10406678,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[394] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 394,
+  ["ItemId"]= 10413094,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[395] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 395,
+  ["ItemId"]= 10413095,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[396] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 396,
+  ["ItemId"]= 10413008,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[397] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 397,
+  ["ItemId"]= 10413009,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[398] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 398,
+  ["ItemId"]= 10413142,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[399] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 399,
+  ["ItemId"]= 10413141,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[400] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 400,
+  ["ItemId"]= 10406885,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[401] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 401,
+  ["ItemId"]= 10406682,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[402] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 402,
+  ["ItemId"]= 10413032,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[403] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 403,
+  ["ItemId"]= 10413201,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[404] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 404,
+  ["ItemId"]= 10406892,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[405] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 405,
+  ["ItemId"]= 10413143,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[406] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 406,
+  ["ItemId"]= 10406796,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[407] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 407,
+  ["ItemId"]= 10413144,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[408] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 408,
+  ["ItemId"]= 10406564,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[409] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 409,
+  ["ItemId"]= 10406586,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[410] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 410,
+  ["ItemId"]= 10406587,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[411] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 411,
+  ["ItemId"]= 10413117,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[412] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 412,
+  ["ItemId"]= 10406869,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[413] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 413,
+  ["ItemId"]= 10406866,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[414] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 414,
+  ["ItemId"]= 10406826,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[415] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 415,
+  ["ItemId"]= 10406865,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[416] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 416,
+  ["ItemId"]= 10413104,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[417] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 417,
+  ["ItemId"]= 10413002,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[418] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 418,
+  ["ItemId"]= 10413105,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[419] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 419,
+  ["ItemId"]= 10413118,
+  ["PlayerLevel"]= {
+    55,
+    65
+  }
+},
+[420] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 420,
+  ["ItemId"]= 10406239,
+  ["PlayerLevel"]= {
+    55,
+    65
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[421] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 421,
+  ["ItemId"]= 10406014,
+  ["PlayerLevel"]= {
+    55,
+    65
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[422] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 422,
+  ["ItemId"]= 10406015,
+  ["PlayerLevel"]= {
+    55,
+    65
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[423] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 423,
+  ["ItemId"]= 10406011,
+  ["PlayerLevel"]= {
+    55,
+    65
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[424] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 424,
+  ["ItemId"]= 10406013,
+  ["PlayerLevel"]= {
+    55,
+    65
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[425] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 425,
+  ["ItemId"]= 10406010,
+  ["PlayerLevel"]= {
+    55,
+    65
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[426] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 426,
+  ["ItemId"]= 10413096
+},
+[427] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 427,
+  ["ItemId"]= 10406691
+},
+[428] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 428,
+  ["ItemId"]= 10413097
+},
+[429] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 429,
+  ["ItemId"]= 10406851
+},
+[430] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 430,
+  ["ItemId"]= 10413098
+},
+[431] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 431,
+  ["ItemId"]= 10413099
+},
+[432] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 432,
+  ["ItemId"]= 10413010
+},
+[433] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 433,
+  ["ItemId"]= 10413011
+},
+[434] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 434,
+  ["ItemId"]= 10413145
+},
+[435] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 435,
+  ["ItemId"]= 10406874
+},
+[436] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 436,
+  ["ItemId"]= 10413148
+},
+[437] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 437,
+  ["ItemId"]= 10413147
+},
+[438] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 438,
+  ["ItemId"]= 10413196
+},
+[439] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 439,
+  ["ItemId"]= 10406852
+},
+[440] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 440,
+  ["ItemId"]= 10406853
+},
+[441] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 441,
+  ["ItemId"]= 10406856
+},
+[442] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 442,
+  ["ItemId"]= 10413034
+},
+[443] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 443,
+  ["ItemId"]= 10413146
+},
+[444] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 444,
+  ["ItemId"]= 10406684
+},
+[445] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 445,
+  ["ItemId"]= 10406899
+},
+[446] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 446,
+  ["ItemId"]= 10413033
+},
+[447] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 447,
+  ["ItemId"]= 10406788
+},
+[448] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 448,
+  ["ItemId"]= 10406579
+},
+[449] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 449,
+  ["ItemId"]= 10406864
+},
+[450] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 450,
+  ["ItemId"]= 10406563
+},
+[451] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 451,
+  ["ItemId"]= 10406583
+},
+[452] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 452,
+  ["ItemId"]= 10413106
+},
+[453] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 453,
+  ["ItemId"]= 10413119
+},
+[454] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 454,
+  ["ItemId"]= 10406860
+},
+[455] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 455,
+  ["ItemId"]= 10401009
+},
+[456] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 456,
+  ["ItemId"]= 10406862
+},
+[457] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 457,
+  ["ItemId"]= 10406857
+},
+[458] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 458,
+  ["ItemId"]= 10406236,
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[459] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 459,
+  ["ItemId"]= 10406221,
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[460] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 460,
+  ["ItemId"]= 10406203,
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[461] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 461,
+  ["ItemId"]= 10406012,
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[462] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 462,
+  ["ItemId"]= 10406024,
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[463] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 463,
+  ["ItemId"]= 10406031,
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[464] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 464,
+  ["ItemId"]= 10406045,
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[465] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 465,
+  ["ItemId"]= 10413018,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[466] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 466,
+  ["ItemId"]= 10413019,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[467] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 467,
+  ["ItemId"]= 10413020,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[468] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 468,
+  ["ItemId"]= 10413021,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[469] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 469,
+  ["ItemId"]= 10413022,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[470] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 470,
+  ["ItemId"]= 10413023,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[471] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 471,
+  ["ItemId"]= 10413151,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[472] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 472,
+  ["ItemId"]= 10413149,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[473] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 473,
+  ["ItemId"]= 10413155,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[474] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 474,
+  ["ItemId"]= 10413156,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[475] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 475,
+  ["ItemId"]= 10413154,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[476] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 476,
+  ["ItemId"]= 10413150,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[477] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 477,
+  ["ItemId"]= 10413153,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[478] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 478,
+  ["ItemId"]= 10413152,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[479] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 479,
+  ["ItemId"]= 10406592,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[480] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 480,
+  ["ItemId"]= 10403016,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[481] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 481,
+  ["ItemId"]= 10406859,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[482] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 482,
+  ["ItemId"]= 10406581,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[483] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 483,
+  ["ItemId"]= 10413036,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[484] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 484,
+  ["ItemId"]= 10406896,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[485] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 485,
+  ["ItemId"]= 10406585,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[486] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 486,
+  ["ItemId"]= 10413003,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[487] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 487,
+  ["ItemId"]= 10406863,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[488] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 488,
+  ["ItemId"]= 10406861,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[489] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 489,
+  ["ItemId"]= 10413107,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[490] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 490,
+  ["ItemId"]= 10406580,
+  ["PlayerLevel"]= {
+    75,
+    85
+  }
+},
+[491] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 491,
+  ["ItemId"]= 10406252,
+  ["PlayerLevel"]= {
+    75,
+    85
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[492] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 492,
+  ["ItemId"]= 10406253,
+  ["PlayerLevel"]= {
+    75,
+    85
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[493] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 493,
+  ["ItemId"]= 10406254,
+  ["PlayerLevel"]= {
+    75,
+    85
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[494] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 494,
+  ["ItemId"]= 10406051,
+  ["PlayerLevel"]= {
+    75,
+    85
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[495] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 495,
+  ["ItemId"]= 10406052,
+  ["PlayerLevel"]= {
+    75,
+    85
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[496] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 496,
+  ["ItemId"]= 10406053,
+  ["PlayerLevel"]= {
+    75,
+    85
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[497] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 497,
+  ["ItemId"]= 10413024,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[498] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 498,
+  ["ItemId"]= 10413025,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[499] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 499,
+  ["ItemId"]= 10413038,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[500] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 500,
+  ["ItemId"]= 10413045,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[501] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 501,
+  ["ItemId"]= 10413046,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[502] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 502,
+  ["ItemId"]= 10413047,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[503] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 503,
+  ["ItemId"]= 10413054,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[504] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 504,
+  ["ItemId"]= 10413055,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[505] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 505,
+  ["ItemId"]= 10413056,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[506] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 506,
+  ["ItemId"]= 10413057,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[507] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 507,
+  ["ItemId"]= 10413058,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[508] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 508,
+  ["ItemId"]= 10413059,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[509] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 509,
+  ["ItemId"]= 10413060,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[510] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 510,
+  ["ItemId"]= 10413061,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[511] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 511,
+  ["ItemId"]= 10413062,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[512] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 512,
+  ["ItemId"]= 10406793,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[513] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 513,
+  ["ItemId"]= 10413203,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[514] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 514,
+  ["ItemId"]= 10406590,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[515] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 515,
+  ["ItemId"]= 10413063,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[516] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 516,
+  ["ItemId"]= 10413035,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[517] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 517,
+  ["ItemId"]= 10406890,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[518] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 518,
+  ["ItemId"]= 10413157,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[519] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 519,
+  ["ItemId"]= 10406877,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[520] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 520,
+  ["ItemId"]= 10413065,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[521] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 521,
+  ["ItemId"]= 10413066,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[522] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 522,
+  ["ItemId"]= 10413067,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[523] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 523,
+  ["ItemId"]= 10413068,
+  ["PlayerLevel"]= {
+    85,
+    95
+  }
+},
+[524] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 524,
+  ["ItemId"]= 10201017,
+  ["PlayerLevel"]= {
+    85,
+    95
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[525] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 525,
+  ["ItemId"]= 10406222,
+  ["PlayerLevel"]= {
+    85,
+    95
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[526] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 526,
+  ["ItemId"]= 10406224,
+  ["PlayerLevel"]= {
+    85,
+    95
+  },
+  ["SubmitAmount"]= {
+    5
+  }
+},
+[527] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 527,
+  ["ItemId"]= 10406057,
+  ["PlayerLevel"]= {
+    85,
+    95
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[528] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 528,
+  ["ItemId"]= 10406058,
+  ["PlayerLevel"]= {
+    85,
+    95
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[529] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 529,
+  ["ItemId"]= 10406059,
+  ["PlayerLevel"]= {
+    85,
+    95
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+},
+[530] = {
+  ["crystalOrder"]= 1,
+  ["Id"]= 530,
+  ["ItemId"]= 10406060,
+  ["PlayerLevel"]= {
+    85,
+    95
+  },
+  ["SubmitAmount"]= {
+    1
+  }
+}
+}
+local baseTable={
+  ["AidAward"]= {
+    {
+      ["amount"]= 20000,
+      ["type"]= 1
+    }
+  },
+  ["crystalOrder"]= 0,
+  ["EmperiumAmount"]= 0,
+  ["finishOrderCostCrystal"]= 2000,
+  ["FundIconId"]= 1012,
+  ["GuildFund"]= 50,
+  ["Id"]= 1,
+  ["ItemId"]= 10403012,
+  ["OrderValue"]= 100,
+  ["PlayerLevel"]= {
+    65,
+    75
+  },
+  ["ProgressIconId"]= 1029,
+  ["pveProgress"]= 10,
+  ["SubmitAmount"]= {
+    50
+  },
+  ["SubmitAward"]= {
+    {
+      ["amount"]= 1,
+      ["staticId"]= 10204103,
+      ["type"]= 5
+    }
+  }
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

@@ -1,0 +1,177 @@
+TextAsset Base
+	string m_Name = "data_emoticon_SocialCoupleAction"
+	string m_Script = "local table= {
+[1] = {
+  ["IsLoverAction"]= 0,
+  ["SeatA"]= {
+    0,
+    0,
+    0.566,
+    180,
+    0,
+    0,
+    0.566,
+    180,
+    0,
+    0,
+    0.566,
+    180,
+    0,
+    0,
+    0.566,
+    180
+  }
+},
+[2] = {
+  ["CoupleBoyBoy"]= {
+    "huggingM_To_M",
+    "huggingM_To_M"
+  },
+  ["CoupleBoyGirl"]= {
+    "huggingM_to_W",
+    "huggingW_to_M"
+  },
+  ["CoupleGirlGirl"]= {
+    "huggingA_W_to_W",
+    "huggingB_W_to_W"
+  },
+  ["CoupleSeat"]= {},
+  ["Icon"]= 10002,
+  ["Id"]= 2,
+  ["LockTip"]= "SocialLockTip02",
+  ["Name"]= "拥抱",
+  ["SeatB"]= {
+    0.171,
+    0,
+    0.899,
+    180,
+    0,
+    0,
+    1,
+    180,
+    0,
+    0,
+    0.579,
+    180,
+    0,
+    0,
+    0,
+    0
+  },
+  ["SocialActionName"]= "CoupleActionName02",
+  ["SubType"]= 1,
+  ["UnlockNeedItemID"]= 10909002
+},
+[3] = {
+  ["CoupleSeat"]= {
+    "coupleBiXin_A",
+    "coupleBiXin_B"
+  },
+  ["Icon"]= 10003,
+  ["Id"]= 3,
+  ["LockTip"]= "SocialLockTip03",
+  ["Name"]= "比心",
+  ["SeatB"]= {
+    0,
+    0,
+    0.911,
+    180,
+    0,
+    0,
+    0.911,
+    180,
+    0,
+    0,
+    0.911,
+    180,
+    0,
+    0,
+    0.911,
+    180
+  },
+  ["SocialActionName"]= "CoupleActionName03",
+  ["UnlockNeedItemID"]= 10909003
+},
+[4] = {
+  ["ActionType"]= 2,
+  ["Icon"]= 10004,
+  ["Id"]= 4,
+  ["IsLock"]= 0,
+  ["LockTip"]= "SocialLockTip04",
+  ["Mount"]= 90001,
+  ["Name"]= "公主抱",
+  ["SocialActionName"]= "CoupleActionName04",
+  ["UnlockNeedItemID"]= 0,
+  ["UnlockNeedItemNum"]= 0
+}
+}
+local baseTable={
+  ["ActionType"]= 1,
+  ["Binding"]= 0,
+  ["Condition"]= 34,
+  ["CoupleBoyBoy"]= {},
+  ["CoupleBoyGirl"]= {},
+  ["CoupleGirlBoy"]= {},
+  ["CoupleGirlGirl"]= {},
+  ["CoupleSeat"]= {
+    "holdHands_A",
+    "holdHands_B"
+  },
+  ["EffectId"]= 0,
+  ["Icon"]= 10001,
+  ["Id"]= 1,
+  ["IsKeepPosition"]= 0,
+  ["IsListDisplay"]= 1,
+  ["IsLock"]= 1,
+  ["IsLoop"]= 0,
+  ["IsLoverAction"]= 1,
+  ["LockTip"]= "SocialLockTip01",
+  ["Mount"]= 0,
+  ["Name"]= "转圈",
+  ["SeatA"]= {
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  },
+  ["SeatB"]= {
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  },
+  ["SocialActionName"]= "CoupleActionName01",
+  ["SoundPlay"]= 0,
+  ["SubType"]= 3,
+  ["UnlockConditoin"]= {},
+  ["UnlockNeedItemID"]= 10909001,
+  ["UnlockNeedItemNum"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

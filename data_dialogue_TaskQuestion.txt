@@ -1,0 +1,218 @@
+TextAsset Base
+	string m_Name = "data_dialogue_TaskQuestion"
+	string m_Script = "local table= {
+[310001] = {},
+[310002] = {
+  ["id"]= 310002,
+  ["questionList"]= {
+    {
+      ["answer"]= 0,
+      ["content"]= "TaskQuestionTitle3100021"
+    },
+    {
+      ["answer"]= 1,
+      ["content"]= "TaskQuestionTitle3100022"
+    },
+    {
+      ["answer"]= 0,
+      ["content"]= "TaskQuestionTitle3100023"
+    }
+  },
+  ["titleContent"]= "TaskQuestion310002"
+},
+[320001] = {
+  ["id"]= 320001,
+  ["questionList"]= {
+    {
+      ["answer"]= 0,
+      ["content"]= "TaskQuestionTitle3200011"
+    },
+    {
+      ["answer"]= 1,
+      ["content"]= "TaskQuestionTitle3200012"
+    },
+    {
+      ["answer"]= 0,
+      ["content"]= "TaskQuestionTitle3200013"
+    }
+  },
+  ["titleContent"]= "TaskQuestion320001"
+},
+[320002] = {
+  ["id"]= 320002,
+  ["questionList"]= {
+    {
+      ["answer"]= 1,
+      ["content"]= "TaskQuestionTitle3200021"
+    },
+    {
+      ["answer"]= 0,
+      ["content"]= "TaskQuestionTitle3200022"
+    },
+    {
+      ["answer"]= 1,
+      ["content"]= "TaskQuestionTitle3200023"
+    }
+  },
+  ["titleContent"]= "TaskQuestion320002"
+},
+[320003] = {
+  ["id"]= 320003,
+  ["questionList"]= {
+    {
+      ["answer"]= 0,
+      ["content"]= "TaskQuestionTitle3200031"
+    },
+    {
+      ["answer"]= 0,
+      ["content"]= "TaskQuestionTitle3200032"
+    },
+    {
+      ["answer"]= 0,
+      ["content"]= "TaskQuestionTitle3200033"
+    }
+  },
+  ["titleContent"]= "TaskQuestion320003"
+},
+[320004] = {
+  ["id"]= 320004,
+  ["questionList"]= {
+    {
+      ["answer"]= 1,
+      ["content"]= "TaskQuestionTitle3200041"
+    },
+    {
+      ["answer"]= 0,
+      ["content"]= "TaskQuestionTitle3200042"
+    },
+    {
+      ["answer"]= 0,
+      ["content"]= "TaskQuestionTitle3200043"
+    }
+  },
+  ["titleContent"]= "TaskQuestion320004"
+},
+[320005] = {
+  ["id"]= 320005,
+  ["questionList"]= {
+    {
+      ["answer"]= 1,
+      ["content"]= "TaskQuestionTitle3200051"
+    },
+    {
+      ["answer"]= 0,
+      ["content"]= "TaskQuestionTitle3200052"
+    },
+    {
+      ["answer"]= 0,
+      ["content"]= "TaskQuestionTitle3200053"
+    }
+  },
+  ["titleContent"]= "TaskQuestion320005"
+},
+[320006] = {
+  ["id"]= 320006,
+  ["questionList"]= {
+    {
+      ["answer"]= 0,
+      ["content"]= "TaskQuestionTitle3200061"
+    },
+    {
+      ["answer"]= 0,
+      ["content"]= "TaskQuestionTitle3200062"
+    },
+    {
+      ["answer"]= 0,
+      ["content"]= "TaskQuestionTitle3200063"
+    }
+  },
+  ["titleContent"]= "TaskQuestion320006"
+},
+[320007] = {
+  ["id"]= 320007,
+  ["questionList"]= {
+    {
+      ["answer"]= 0,
+      ["content"]= "TaskQuestionTitle3200071"
+    },
+    {
+      ["answer"]= 1,
+      ["content"]= "TaskQuestionTitle3200072"
+    },
+    {
+      ["answer"]= 0,
+      ["content"]= "TaskQuestionTitle3200073"
+    }
+  },
+  ["titleContent"]= "TaskQuestion320007"
+},
+[330001] = {
+  ["id"]= 330001,
+  ["questionList"]= {
+    {
+      ["answer"]= 0,
+      ["content"]= "TaskQuestionTitle3300011"
+    },
+    {
+      ["answer"]= 1,
+      ["content"]= "TaskQuestionTitle3300012"
+    },
+    {
+      ["answer"]= 1,
+      ["content"]= "TaskQuestionTitle3300013"
+    },
+    {
+      ["answer"]= 0,
+      ["content"]= "TaskQuestionTitle3300014"
+    },
+    {
+      ["answer"]= 1,
+      ["content"]= "TaskQuestionTitle3300015"
+    },
+    {
+      ["answer"]= 0,
+      ["content"]= "TaskQuestionTitle3300016"
+    },
+    {
+      ["answer"]= 0,
+      ["content"]= "TaskQuestionTitle3300017"
+    },
+    {
+      ["answer"]= 1,
+      ["content"]= "TaskQuestionTitle3300018"
+    },
+    {
+      ["answer"]= 0,
+      ["content"]= "TaskQuestionTitle3300019"
+    },
+    {
+      ["answer"]= 0,
+      ["content"]= "TaskQuestionTitle33000110"
+    }
+  },
+  ["titleContent"]= "TaskQuestion330001"
+}
+}
+local baseTable={
+  ["amount"]= 3,
+  ["id"]= 310001,
+  ["questionList"]= {
+    {
+      ["answer"]= 0,
+      ["content"]= "TaskQuestionTitle3100011"
+    },
+    {
+      ["answer"]= 0,
+      ["content"]= "TaskQuestionTitle3100012"
+    },
+    {
+      ["answer"]= 0,
+      ["content"]= "TaskQuestionTitle3100013"
+    }
+  },
+  ["titleContent"]= "TaskQuestion310001"
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

@@ -1,0 +1,2292 @@
+TextAsset Base
+	string m_Name = "data_Personalize_Personalize"
+	string m_Script = "local table= {
+[1] = {
+  ["IsInitValue"]= 1,
+  ["IsUnlock"]= 1,
+  ["Localname"]= "白色",
+  ["LockTips"]= "",
+  ["SourceType"]= 0,
+  ["UnlockNeedItemID"]= {
+    0
+  },
+  ["UnlockNeedItemNum"]= {
+    0
+  }
+},
+[2] = {
+  ["FontColor"]= {
+    62,
+    71,
+    85
+  },
+  ["ID"]= 2,
+  ["IsInitValue"]= 1,
+  ["IsUnlock"]= 1,
+  ["ItemType"]= 2,
+  ["Localname"]= "黑色",
+  ["LockTips"]= "",
+  ["Order"]= 2,
+  ["QuoteColor"]= "648dac",
+  ["ResID"]= {
+    2000
+  },
+  ["SourceType"]= 0,
+  ["UnlockNeedItemID"]= {
+    0
+  },
+  ["UnlockNeedItemNum"]= {
+    0
+  }
+},
+[3] = {
+  ["FontColor"]= {},
+  ["ID"]= 3,
+  ["IsInitValue"]= 1,
+  ["IsUnlock"]= 1,
+  ["ItemType"]= 3,
+  ["Localname"]= "默认款式",
+  ["LockTips"]= "",
+  ["Order"]= 3,
+  ["ResID"]= {
+    3000
+  },
+  ["SourceType"]= 0,
+  ["UnlockNeedItemID"]= {
+    0
+  },
+  ["UnlockNeedItemNum"]= {
+    0
+  }
+},
+[4] = {
+  ["ID"]= 4,
+  ["ItemID"]= 10903001,
+  ["Localname"]= "蝙蝠骑士",
+  ["Name"]= "PersonalizeName10903001",
+  ["Order"]= 4,
+  ["ResID"]= {
+    100101,
+    100102
+  },
+  ["SourceType"]= 2
+},
+[5] = {
+  ["ID"]= 5,
+  ["ItemID"]= 10903002,
+  ["LockTips"]= "UnlockTips10903002",
+  ["Name"]= "PersonalizeName10903002",
+  ["Order"]= 5,
+  ["ResID"]= {
+    100201,
+    100202
+  },
+  ["SourceType"]= 1,
+  ["UnlockNeedItemID"]= {
+    10903002
+  }
+},
+[6] = {
+  ["FontColor"]= {
+    62,
+    71,
+    85
+  },
+  ["ID"]= 6,
+  ["ItemID"]= 10903003,
+  ["Localname"]= "天使波利",
+  ["LockTips"]= "UnlockTips10903003",
+  ["Name"]= "PersonalizeName10903003",
+  ["Order"]= 6,
+  ["ResID"]= {
+    100301,
+    100302
+  },
+  ["SourceType"]= 3,
+  ["UnlockNeedItemID"]= {
+    3
+  },
+  ["UnlockNeedItemNum"]= {
+    50000
+  }
+},
+[7] = {
+  ["FontColor"]= {
+    62,
+    71,
+    85
+  },
+  ["ID"]= 7,
+  ["ItemID"]= 10903004,
+  ["Localname"]= "囧囧小兔",
+  ["LockTips"]= "UnlockTips10903004",
+  ["Name"]= "PersonalizeName10903004",
+  ["Order"]= 7,
+  ["ResID"]= {
+    100401,
+    100402
+  },
+  ["SourceType"]= 2
+},
+[8] = {
+  ["ID"]= 8,
+  ["ItemID"]= 10903005,
+  ["Localname"]= "星夜魔法",
+  ["LockTips"]= "UnlockTips10903005",
+  ["Name"]= "PersonalizeName10903005",
+  ["Order"]= 8,
+  ["ResID"]= {
+    100501,
+    100502
+  },
+  ["SourceType"]= 3,
+  ["UnlockNeedItemID"]= {
+    3
+  },
+  ["UnlockNeedItemNum"]= {
+    50000
+  }
+},
+[9] = {
+  ["ID"]= 9,
+  ["ItemID"]= 10903006,
+  ["ItemType"]= 2,
+  ["Localname"]= "蝙蝠骑士",
+  ["LockTips"]= "UnlockTips10903006",
+  ["Name"]= "PersonalizeName10903006",
+  ["Order"]= 9,
+  ["QuoteColor"]= "c9dbff",
+  ["ResID"]= {
+    2001
+  },
+  ["SourceType"]= 2,
+  ["UnlockNeedItemID"]= {
+    10903017
+  }
+},
+[10] = {
+  ["ID"]= 10,
+  ["ItemID"]= 10903007,
+  ["ItemType"]= 2,
+  ["LockTips"]= "UnlockTips10903007",
+  ["Name"]= "PersonalizeName10903007",
+  ["Order"]= 10,
+  ["QuoteColor"]= "c9dbff",
+  ["ResID"]= {
+    2002
+  },
+  ["SourceType"]= 1,
+  ["UnlockNeedItemID"]= {
+    10903007
+  }
+},
+[11] = {
+  ["FontColor"]= {
+    62,
+    71,
+    85
+  },
+  ["ID"]= 11,
+  ["ItemID"]= 10903008,
+  ["ItemType"]= 2,
+  ["Localname"]= "天使波利",
+  ["LockTips"]= "UnlockTips10903008",
+  ["Name"]= "PersonalizeName10903008",
+  ["Order"]= 11,
+  ["QuoteColor"]= "648dac",
+  ["ResID"]= {
+    2003
+  },
+  ["SourceType"]= 3,
+  ["UnlockNeedItemID"]= {
+    3
+  },
+  ["UnlockNeedItemNum"]= {
+    50000
+  }
+},
+[12] = {
+  ["FontColor"]= {
+    62,
+    71,
+    85
+  },
+  ["ID"]= 12,
+  ["ItemID"]= 10903009,
+  ["ItemType"]= 2,
+  ["Localname"]= "囧囧小兔",
+  ["LockTips"]= "UnlockTips10903009",
+  ["Name"]= "PersonalizeName10903009",
+  ["Order"]= 12,
+  ["QuoteColor"]= "648dac",
+  ["ResID"]= {
+    2004
+  },
+  ["SourceType"]= 2,
+  ["UnlockNeedItemID"]= {
+    10903017
+  }
+},
+[13] = {
+  ["ID"]= 13,
+  ["ItemID"]= 10903010,
+  ["ItemType"]= 2,
+  ["Localname"]= "星夜魔法",
+  ["LockTips"]= "UnlockTips10903010",
+  ["Name"]= "PersonalizeName10903010",
+  ["Order"]= 13,
+  ["QuoteColor"]= "c9dbff",
+  ["ResID"]= {
+    2005
+  },
+  ["SourceType"]= 3,
+  ["UnlockNeedItemID"]= {
+    3
+  },
+  ["UnlockNeedItemNum"]= {
+    50000
+  }
+},
+[14] = {
+  ["FontColor"]= {},
+  ["ID"]= 14,
+  ["ItemID"]= 10903011,
+  ["ItemType"]= 3,
+  ["Localname"]= "憨憨海豹",
+  ["LockTips"]= "UnlockTips10903011",
+  ["Name"]= "PersonalizeName10903011",
+  ["Order"]= 14,
+  ["ResID"]= {
+    3001
+  },
+  ["SourceType"]= 3,
+  ["UnlockNeedItemID"]= {
+    3
+  },
+  ["UnlockNeedItemNum"]= {
+    50000
+  }
+},
+[15] = {
+  ["FontColor"]= {},
+  ["ID"]= 15,
+  ["ItemID"]= 10903012,
+  ["ItemType"]= 3,
+  ["Localname"]= "囧囧小兔",
+  ["LockTips"]= "UnlockTips10903012",
+  ["Name"]= "PersonalizeName10903012",
+  ["Order"]= 15,
+  ["ResID"]= {
+    3002
+  },
+  ["SourceType"]= 2,
+  ["UnlockNeedItemID"]= {
+    10903018
+  }
+},
+[16] = {
+  ["FontColor"]= {},
+  ["ID"]= 16,
+  ["ItemID"]= 10903013,
+  ["ItemType"]= 3,
+  ["Localname"]= "跳跳蘑菇",
+  ["LockTips"]= "UnlockTips10903013",
+  ["Name"]= "PersonalizeName10903013",
+  ["Order"]= 16,
+  ["QuoteColor"]= "648dac",
+  ["ResID"]= {
+    3003
+  },
+  ["SourceType"]= 2,
+  ["UnlockNeedItemID"]= {
+    10903018
+  }
+},
+[17] = {
+  ["FontColor"]= {},
+  ["ID"]= 17,
+  ["ItemID"]= 10903014,
+  ["ItemType"]= 3,
+  ["Localname"]= "翠翠绿叶",
+  ["LockTips"]= "UnlockTips10903014",
+  ["Name"]= "PersonalizeName10903014",
+  ["Order"]= 17,
+  ["ResID"]= {
+    3004
+  },
+  ["SourceType"]= 3,
+  ["UnlockNeedItemID"]= {
+    3
+  },
+  ["UnlockNeedItemNum"]= {
+    50000
+  }
+},
+[18] = {
+  ["FontColor"]= {},
+  ["ID"]= 18,
+  ["ItemID"]= 10903015,
+  ["ItemType"]= 3,
+  ["LockTips"]= "UnlockTips10903015",
+  ["Name"]= "PersonalizeName10903015",
+  ["Order"]= 18,
+  ["ResID"]= {
+    3005
+  },
+  ["SourceType"]= 1,
+  ["UnlockNeedItemID"]= {
+    10903015
+  }
+},
+[19] = {
+  ["FontColor"]= {
+    62,
+    71,
+    85
+  },
+  ["ID"]= 19,
+  ["ItemID"]= 10903019,
+  ["Localname"]= "白云朵朵",
+  ["LockTips"]= "UnlockTips10903019",
+  ["Name"]= "PersonalizeName10903019",
+  ["Order"]= 19,
+  ["QuoteColor"]= "648dac",
+  ["ResID"]= {
+    100601,
+    100602
+  },
+  ["SourceType"]= 3,
+  ["UnlockNeedItemID"]= {
+    3
+  },
+  ["UnlockNeedItemNum"]= {
+    50000
+  }
+},
+[20] = {
+  ["ChannelID"]= {
+    1,
+    10
+  },
+  ["ID"]= 20,
+  ["ItemID"]= 10903110,
+  ["Localname"]= "游戏人生",
+  ["LockTips"]= "UnlockTips10903110",
+  ["Name"]= "PersonalizeName10903052",
+  ["Order"]= 20,
+  ["QuoteColor"]= "c9dbff",
+  ["ResID"]= {
+    103701,
+    103702
+  },
+  ["UnlockItemTime"]= {
+    30
+  },
+  ["UnlockNeedItemID"]= {
+    10903110
+  }
+},
+[21] = {
+  ["FontColor"]= {
+    62,
+    71,
+    85
+  },
+  ["ID"]= 21,
+  ["ItemID"]= 10903020,
+  ["ItemType"]= 2,
+  ["Localname"]= "白云朵朵",
+  ["LockTips"]= "UnlockTips10903020",
+  ["Name"]= "PersonalizeName10903020",
+  ["Order"]= 21,
+  ["QuoteColor"]= "648dac",
+  ["ResID"]= {
+    2006
+  },
+  ["SourceType"]= 3,
+  ["UnlockNeedItemID"]= {
+    3
+  },
+  ["UnlockNeedItemNum"]= {
+    50000
+  }
+},
+[22] = {
+  ["FontColor"]= {},
+  ["ID"]= 22,
+  ["ItemID"]= 10903021,
+  ["ItemType"]= 3,
+  ["Localname"]= "白云朵朵",
+  ["LockTips"]= "UnlockTips10903020",
+  ["Name"]= "PersonalizeName10903021",
+  ["Order"]= 22,
+  ["ResID"]= {
+    3006
+  },
+  ["SourceType"]= 3,
+  ["UnlockNeedItemID"]= {
+    3
+  },
+  ["UnlockNeedItemNum"]= {
+    50000
+  }
+},
+[23] = {
+  ["ID"]= 23,
+  ["ItemID"]= 10903001,
+  ["Localname"]= "万圣派对",
+  ["Name"]= "PersonalizeName10903022",
+  ["Order"]= 23,
+  ["ResID"]= {
+    100701,
+    100702
+  },
+  ["SourceType"]= 2
+},
+[24] = {
+  ["FontColor"]= {
+    62,
+    71,
+    85
+  },
+  ["ID"]= 24,
+  ["ItemID"]= 10903006,
+  ["ItemType"]= 2,
+  ["Localname"]= "万圣派对",
+  ["LockTips"]= "UnlockTips10903006",
+  ["Name"]= "PersonalizeName10903022",
+  ["Order"]= 24,
+  ["QuoteColor"]= "648dac",
+  ["ResID"]= {
+    2007
+  },
+  ["SourceType"]= 2,
+  ["UnlockNeedItemID"]= {
+    10903017
+  }
+},
+[25] = {
+  ["FontColor"]= {},
+  ["ID"]= 25,
+  ["ItemID"]= 10903012,
+  ["ItemType"]= 3,
+  ["Localname"]= "万圣派对",
+  ["LockTips"]= "UnlockTips10903012",
+  ["Name"]= "PersonalizeName10903022",
+  ["Order"]= 25,
+  ["ResID"]= {
+    3007
+  },
+  ["SourceType"]= 2,
+  ["UnlockNeedItemID"]= {
+    10903018
+  }
+},
+[26] = {
+  ["ID"]= 26,
+  ["ItemID"]= 10903025,
+  ["Localname"]= "酷潮滑板",
+  ["Name"]= "PersonalizeName10903023",
+  ["Order"]= 26,
+  ["ResID"]= {
+    100801,
+    100802
+  },
+  ["SourceType"]= 4,
+  ["UnlockNeedItemID"]= {
+    10903025
+  }
+},
+[27] = {
+  ["ID"]= 27,
+  ["ItemID"]= 10903026,
+  ["ItemType"]= 2,
+  ["Localname"]= "酷潮滑板",
+  ["LockTips"]= "UnlockTips10903006",
+  ["Name"]= "PersonalizeName10903023",
+  ["Order"]= 27,
+  ["QuoteColor"]= "c9dbff",
+  ["ResID"]= {
+    2008
+  },
+  ["SourceType"]= 4,
+  ["UnlockNeedItemID"]= {
+    10903026
+  }
+},
+[28] = {
+  ["FontColor"]= {},
+  ["ID"]= 28,
+  ["ItemID"]= 10903027,
+  ["ItemType"]= 3,
+  ["Localname"]= "酷潮滑板",
+  ["LockTips"]= "UnlockTips10903012",
+  ["Name"]= "PersonalizeName10903023",
+  ["Order"]= 28,
+  ["ResID"]= {
+    3008
+  },
+  ["SourceType"]= 4,
+  ["UnlockNeedItemID"]= {
+    10903027
+  }
+},
+[29] = {
+  ["ChannelID"]= {
+    1,
+    9
+  },
+  ["ID"]= 29,
+  ["ItemID"]= 10903028,
+  ["Localname"]= "金色馈赠",
+  ["Name"]= "PersonalizeName10903024",
+  ["Order"]= 29,
+  ["ResID"]= {
+    100901,
+    100902
+  },
+  ["UnlockNeedItemID"]= {
+    10903028
+  }
+},
+[30] = {
+  ["ChannelID"]= {
+    1,
+    9
+  },
+  ["ID"]= 30,
+  ["ItemID"]= 10903029,
+  ["ItemType"]= 2,
+  ["Localname"]= "金色馈赠",
+  ["LockTips"]= "UnlockTips10903006",
+  ["Name"]= "PersonalizeName10903024",
+  ["Order"]= 30,
+  ["QuoteColor"]= "c9dbff",
+  ["ResID"]= {
+    2009
+  },
+  ["UnlockNeedItemID"]= {
+    10903029
+  }
+},
+[31] = {
+  ["ChannelID"]= {
+    1,
+    9
+  },
+  ["FontColor"]= {},
+  ["ID"]= 31,
+  ["ItemID"]= 10903030,
+  ["ItemType"]= 3,
+  ["Localname"]= "金色馈赠",
+  ["LockTips"]= "UnlockTips10903012",
+  ["Name"]= "PersonalizeName10903024",
+  ["Order"]= 31,
+  ["ResID"]= {
+    3009
+  },
+  ["UnlockNeedItemID"]= {
+    10903030
+  }
+},
+[32] = {
+  ["ID"]= 32,
+  ["ItemID"]= 10903001,
+  ["Localname"]= 2021,
+  ["Name"]= "PersonalizeName10903025",
+  ["Order"]= 32,
+  ["ResID"]= {
+    101001,
+    101002
+  },
+  ["SourceType"]= 2
+},
+[33] = {
+  ["ID"]= 33,
+  ["ItemID"]= 10903006,
+  ["ItemType"]= 2,
+  ["Localname"]= 2021,
+  ["LockTips"]= "UnlockTips10903006",
+  ["Name"]= "PersonalizeName10903025",
+  ["Order"]= 33,
+  ["QuoteColor"]= "c9dbff",
+  ["ResID"]= {
+    2010
+  },
+  ["SourceType"]= 2,
+  ["UnlockNeedItemID"]= {
+    10903017
+  }
+},
+[34] = {
+  ["FontColor"]= {},
+  ["ID"]= 34,
+  ["ItemID"]= 10903012,
+  ["ItemType"]= 3,
+  ["Localname"]= 2021,
+  ["LockTips"]= "UnlockTips10903012",
+  ["Name"]= "PersonalizeName10903025",
+  ["Order"]= 34,
+  ["ResID"]= {
+    3010
+  },
+  ["SourceType"]= 2,
+  ["UnlockNeedItemID"]= {
+    10903018
+  }
+},
+[35] = {
+  ["ID"]= 35,
+  ["ItemID"]= 10903034,
+  ["Localname"]= "翩跹雪花",
+  ["LockTips"]= "UnlockTips10903034",
+  ["Name"]= "PersonalizeName10903026",
+  ["Order"]= 35,
+  ["ResID"]= {
+    101101,
+    101102
+  },
+  ["SourceType"]= 2
+},
+[36] = {
+  ["FontColor"]= {
+    62,
+    71,
+    85
+  },
+  ["ID"]= 36,
+  ["ItemID"]= 10903035,
+  ["ItemType"]= 2,
+  ["Localname"]= "翩跹雪花",
+  ["LockTips"]= "UnlockTips10903035",
+  ["Name"]= "PersonalizeName10903026",
+  ["Order"]= 36,
+  ["QuoteColor"]= "648dac",
+  ["ResID"]= {
+    2011
+  },
+  ["SourceType"]= 2,
+  ["UnlockNeedItemID"]= {
+    10903017
+  }
+},
+[37] = {
+  ["FontColor"]= {},
+  ["ID"]= 37,
+  ["ItemID"]= 10903036,
+  ["ItemType"]= 3,
+  ["Localname"]= "翩跹雪花",
+  ["LockTips"]= "UnlockTips10903036",
+  ["Name"]= "PersonalizeName10903026",
+  ["Order"]= 37,
+  ["ResID"]= {
+    3011
+  },
+  ["SourceType"]= 2,
+  ["UnlockNeedItemID"]= {
+    10903018
+  }
+},
+[38] = {
+  ["ID"]= 38,
+  ["ItemID"]= 10903037,
+  ["Localname"]= "倾城之恋",
+  ["LockTips"]= "UnlockTips10903037",
+  ["Name"]= "PersonalizeName10903027",
+  ["Order"]= 38,
+  ["ResID"]= {
+    101201,
+    101202
+  },
+  ["SourceType"]= 2
+},
+[39] = {
+  ["FontColor"]= {
+    62,
+    71,
+    85
+  },
+  ["ID"]= 39,
+  ["ItemID"]= 10903038,
+  ["ItemType"]= 2,
+  ["Localname"]= "倾城之恋",
+  ["LockTips"]= "UnlockTips10903038",
+  ["Name"]= "PersonalizeName10903027",
+  ["Order"]= 39,
+  ["QuoteColor"]= "648dac",
+  ["ResID"]= {
+    2012
+  },
+  ["SourceType"]= 2,
+  ["UnlockNeedItemID"]= {
+    10903017
+  }
+},
+[40] = {
+  ["FontColor"]= {},
+  ["ID"]= 40,
+  ["ItemID"]= 10903039,
+  ["ItemType"]= 3,
+  ["Localname"]= "倾城之恋",
+  ["LockTips"]= "UnlockTips10903039",
+  ["Name"]= "PersonalizeName10903027",
+  ["Order"]= 40,
+  ["ResID"]= {
+    3012
+  },
+  ["SourceType"]= 2,
+  ["UnlockNeedItemID"]= {
+    10903018
+  }
+},
+[41] = {
+  ["ID"]= 41,
+  ["IsCouple"]= 1,
+  ["ItemID"]= 10903040,
+  ["Localname"]= "王子与公主(锁)",
+  ["LockTips"]= "UnlockTips10903040",
+  ["Name"]= "PersonalizeName10903028",
+  ["Order"]= 41,
+  ["ResID"]= {
+    101301,
+    101302
+  },
+  ["SourceType"]= 1,
+  ["UnlockNeedItemID"]= {
+    10903040
+  },
+  ["UseCondition"]= 1201
+},
+[42] = {
+  ["FontColor"]= {
+    62,
+    71,
+    85
+  },
+  ["ID"]= 42,
+  ["IsCouple"]= 1,
+  ["ItemID"]= 10903041,
+  ["ItemType"]= 2,
+  ["Localname"]= "王子与公主(锁)",
+  ["LockTips"]= "UnlockTips10903041",
+  ["Name"]= "PersonalizeName10903028",
+  ["Order"]= 42,
+  ["QuoteColor"]= "648dac",
+  ["ResID"]= {
+    2013
+  },
+  ["SourceType"]= 1,
+  ["UnlockNeedItemID"]= {
+    10903041
+  },
+  ["UseCondition"]= 1201
+},
+[43] = {
+  ["FontColor"]= {},
+  ["ID"]= 43,
+  ["IsCouple"]= 1,
+  ["ItemID"]= 10903042,
+  ["ItemType"]= 3,
+  ["Localname"]= "王子与公主(锁)",
+  ["LockTips"]= "UnlockTips10903042",
+  ["Name"]= "PersonalizeName10903028",
+  ["Order"]= 43,
+  ["ResID"]= {
+    3013
+  },
+  ["SourceType"]= 1,
+  ["UnlockNeedItemID"]= {
+    10903042
+  },
+  ["UseCondition"]= 1201
+},
+[44] = {
+  ["ID"]= 44,
+  ["IsCouple"]= 1,
+  ["ItemID"]= 10903043,
+  ["Localname"]= "王子与公主(钥)",
+  ["LockTips"]= "UnlockTips10903043",
+  ["Name"]= "PersonalizeName10903029",
+  ["Order"]= 44,
+  ["ResID"]= {
+    101401,
+    101402
+  },
+  ["SourceType"]= 1,
+  ["UnlockNeedItemID"]= {
+    10903043
+  },
+  ["UseCondition"]= 1201
+},
+[45] = {
+  ["FontColor"]= {
+    62,
+    71,
+    85
+  },
+  ["ID"]= 45,
+  ["IsCouple"]= 1,
+  ["ItemID"]= 10903044,
+  ["ItemType"]= 2,
+  ["Localname"]= "王子与公主(钥)",
+  ["LockTips"]= "UnlockTips10903044",
+  ["Name"]= "PersonalizeName10903029",
+  ["Order"]= 45,
+  ["QuoteColor"]= "648dac",
+  ["ResID"]= {
+    2014
+  },
+  ["SourceType"]= 1,
+  ["UnlockNeedItemID"]= {
+    10903044
+  },
+  ["UseCondition"]= 1201
+},
+[46] = {
+  ["FontColor"]= {},
+  ["ID"]= 46,
+  ["IsCouple"]= 1,
+  ["ItemID"]= 10903045,
+  ["ItemType"]= 3,
+  ["Localname"]= "王子与公主(钥)",
+  ["LockTips"]= "UnlockTips10903045",
+  ["Name"]= "PersonalizeName10903029",
+  ["Order"]= 46,
+  ["ResID"]= {
+    3014
+  },
+  ["SourceType"]= 1,
+  ["UnlockNeedItemID"]= {
+    10903045
+  },
+  ["UseCondition"]= 1201
+},
+[47] = {
+  ["ID"]= 47,
+  ["ItemID"]= 10903046,
+  ["Localname"]= "壕气冲天",
+  ["LockTips"]= "UnlockTips10903046",
+  ["Name"]= "PersonalizeName10903030",
+  ["Order"]= 47,
+  ["ResID"]= {
+    101501,
+    101502
+  },
+  ["SourceType"]= 1,
+  ["UnlockNeedItemID"]= {
+    10903046
+  }
+},
+[48] = {
+  ["ID"]= 48,
+  ["ItemID"]= 10903047,
+  ["ItemType"]= 2,
+  ["Localname"]= "壕气冲天",
+  ["LockTips"]= "UnlockTips10903047",
+  ["Name"]= "PersonalizeName10903030",
+  ["Order"]= 48,
+  ["QuoteColor"]= "648dac",
+  ["ResID"]= {
+    2015
+  },
+  ["SourceType"]= 1,
+  ["UnlockNeedItemID"]= {
+    10903047
+  }
+},
+[49] = {
+  ["FontColor"]= {},
+  ["ID"]= 49,
+  ["ItemID"]= 10903048,
+  ["ItemType"]= 3,
+  ["Localname"]= "壕气冲天",
+  ["LockTips"]= "UnlockTips10903048",
+  ["Name"]= "PersonalizeName10903030",
+  ["Order"]= 49,
+  ["ResID"]= {
+    3015
+  },
+  ["SourceType"]= 1,
+  ["UnlockNeedItemID"]= {
+    10903048
+  }
+},
+[50] = {
+  ["FontColor"]= {
+    62,
+    71,
+    85
+  },
+  ["ID"]= 50,
+  ["ItemID"]= 10903049,
+  ["Localname"]= "一掷千金",
+  ["LockTips"]= "UnlockTips10903049",
+  ["Name"]= "PersonalizeName10903031",
+  ["Order"]= 50,
+  ["ResID"]= {
+    101601,
+    101602
+  },
+  ["SourceType"]= 4,
+  ["UnlockNeedItemID"]= {
+    10903049
+  }
+},
+[51] = {
+  ["FontColor"]= {
+    62,
+    71,
+    85
+  },
+  ["ID"]= 51,
+  ["ItemID"]= 10903050,
+  ["ItemType"]= 2,
+  ["Localname"]= "一掷千金",
+  ["LockTips"]= "UnlockTips10903050",
+  ["Name"]= "PersonalizeName10903031",
+  ["Order"]= 51,
+  ["QuoteColor"]= "648dac",
+  ["ResID"]= {
+    2016
+  },
+  ["SourceType"]= 4,
+  ["UnlockNeedItemID"]= {
+    10903050
+  }
+},
+[52] = {
+  ["FontColor"]= {},
+  ["ID"]= 52,
+  ["ItemID"]= 10903051,
+  ["ItemType"]= 3,
+  ["Localname"]= "一掷千金",
+  ["LockTips"]= "UnlockTips10903051",
+  ["Name"]= "PersonalizeName10903031",
+  ["Order"]= 52,
+  ["ResID"]= {
+    3016
+  },
+  ["SourceType"]= 4,
+  ["UnlockNeedItemID"]= {
+    10903051
+  }
+},
+[53] = {
+  ["ChannelID"]= {
+    1,
+    9
+  },
+  ["FontColor"]= {
+    62,
+    71,
+    85
+  },
+  ["ID"]= 53,
+  ["ItemID"]= 10903052,
+  ["Localname"]= "水晶之恋",
+  ["LockTips"]= "UnlockTips10903052",
+  ["Name"]= "PersonalizeName10903032",
+  ["Order"]= 53,
+  ["ResID"]= {
+    101701,
+    101702
+  },
+  ["UnlockNeedItemID"]= {
+    10903052
+  }
+},
+[54] = {
+  ["ChannelID"]= {
+    1,
+    9
+  },
+  ["FontColor"]= {
+    62,
+    71,
+    85
+  },
+  ["ID"]= 54,
+  ["ItemID"]= 10903053,
+  ["ItemType"]= 2,
+  ["Localname"]= "水晶之恋",
+  ["LockTips"]= "UnlockTips10903053",
+  ["Name"]= "PersonalizeName10903032",
+  ["Order"]= 54,
+  ["QuoteColor"]= "648dac",
+  ["ResID"]= {
+    2017
+  },
+  ["UnlockNeedItemID"]= {
+    10903053
+  }
+},
+[55] = {
+  ["ChannelID"]= {
+    1,
+    9
+  },
+  ["FontColor"]= {},
+  ["ID"]= 55,
+  ["ItemID"]= 10903054,
+  ["ItemType"]= 3,
+  ["Localname"]= "水晶之恋",
+  ["LockTips"]= "UnlockTips10903054",
+  ["Name"]= "PersonalizeName10903032",
+  ["Order"]= 55,
+  ["ResID"]= {
+    3017
+  },
+  ["UnlockNeedItemID"]= {
+    10903054
+  }
+},
+[56] = {
+  ["ChannelID"]= {
+    1,
+    9
+  },
+  ["ID"]= 56,
+  ["ItemID"]= 10903055,
+  ["Localname"]= "古城掠影",
+  ["LockTips"]= "UnlockTips10903055",
+  ["Name"]= "PersonalizeName10903033",
+  ["Order"]= 56,
+  ["ResID"]= {
+    101801,
+    101802
+  },
+  ["UnlockNeedItemID"]= {
+    10903055
+  }
+},
+[57] = {
+  ["ChannelID"]= {
+    1,
+    9
+  },
+  ["ID"]= 57,
+  ["ItemID"]= 10903056,
+  ["ItemType"]= 2,
+  ["Localname"]= "古城掠影",
+  ["LockTips"]= "UnlockTips10903056",
+  ["Name"]= "PersonalizeName10903033",
+  ["Order"]= 57,
+  ["QuoteColor"]= "648dac",
+  ["ResID"]= {
+    2018
+  },
+  ["UnlockNeedItemID"]= {
+    10903056
+  }
+},
+[58] = {
+  ["ChannelID"]= {
+    1,
+    9
+  },
+  ["FontColor"]= {},
+  ["ID"]= 58,
+  ["ItemID"]= 10903057,
+  ["ItemType"]= 3,
+  ["Localname"]= "古城掠影",
+  ["LockTips"]= "UnlockTips10903057",
+  ["Name"]= "PersonalizeName10903033",
+  ["Order"]= 58,
+  ["ResID"]= {
+    3018
+  },
+  ["UnlockNeedItemID"]= {
+    10903057
+  }
+},
+[59] = {
+  ["ID"]= 59,
+  ["ItemID"]= 10903058,
+  ["Localname"]= "樱花爱恋",
+  ["LockTips"]= "UnlockTips10903058",
+  ["Name"]= "PersonalizeName10903034",
+  ["Order"]= 59,
+  ["ResID"]= {
+    101901,
+    101902
+  },
+  ["SourceType"]= 2
+},
+[60] = {
+  ["FontColor"]= {
+    62,
+    71,
+    85
+  },
+  ["ID"]= 60,
+  ["ItemID"]= 10903059,
+  ["ItemType"]= 2,
+  ["Localname"]= "樱花爱恋",
+  ["LockTips"]= "UnlockTips10903059",
+  ["Name"]= "PersonalizeName10903034",
+  ["Order"]= 60,
+  ["QuoteColor"]= "648dac",
+  ["ResID"]= {
+    2019
+  },
+  ["SourceType"]= 2,
+  ["UnlockNeedItemID"]= {
+    10903017
+  }
+},
+[61] = {
+  ["FontColor"]= {},
+  ["ID"]= 61,
+  ["ItemID"]= 10903060,
+  ["ItemType"]= 3,
+  ["Localname"]= "樱花爱恋",
+  ["LockTips"]= "UnlockTips10903060",
+  ["Name"]= "PersonalizeName10903034",
+  ["Order"]= 61,
+  ["ResID"]= {
+    3019
+  },
+  ["SourceType"]= 2,
+  ["UnlockNeedItemID"]= {
+    10903018
+  }
+},
+[62] = {
+  ["ChannelID"]= {
+    1,
+    9
+  },
+  ["ID"]= 62,
+  ["ItemID"]= 10903061,
+  ["Localname"]= "星空葡萄",
+  ["LockTips"]= "UnlockTips10903061",
+  ["Name"]= "PersonalizeName10903035",
+  ["Order"]= 62,
+  ["ResID"]= {
+    102001,
+    102002
+  },
+  ["UnlockNeedItemID"]= {
+    10903061
+  }
+},
+[63] = {
+  ["ChannelID"]= {
+    1,
+    9
+  },
+  ["ID"]= 63,
+  ["ItemID"]= 10903062,
+  ["ItemType"]= 2,
+  ["Localname"]= "星空葡萄",
+  ["LockTips"]= "UnlockTips10903062",
+  ["Name"]= "PersonalizeName10903035",
+  ["Order"]= 63,
+  ["QuoteColor"]= "648dac",
+  ["ResID"]= {
+    2020
+  },
+  ["UnlockNeedItemID"]= {
+    10903062
+  }
+},
+[64] = {
+  ["ChannelID"]= {
+    1,
+    9
+  },
+  ["FontColor"]= {},
+  ["ID"]= 64,
+  ["ItemID"]= 10903063,
+  ["ItemType"]= 3,
+  ["Localname"]= "星空葡萄",
+  ["LockTips"]= "UnlockTips10903063",
+  ["Name"]= "PersonalizeName10903035",
+  ["Order"]= 64,
+  ["ResID"]= {
+    3020
+  },
+  ["UnlockNeedItemID"]= {
+    10903063
+  }
+},
+[65] = {
+  ["ChannelID"]= {
+    1,
+    9
+  },
+  ["ID"]= 65,
+  ["ItemID"]= 10903064,
+  ["Localname"]= "艺术之心",
+  ["LockTips"]= "UnlockTips10903064",
+  ["Name"]= "PersonalizeName10903036",
+  ["Order"]= 65,
+  ["ResID"]= {
+    102101,
+    102102
+  },
+  ["UnlockNeedItemID"]= {
+    10903064
+  }
+},
+[66] = {
+  ["ID"]= 66,
+  ["ItemID"]= 10903065,
+  ["Localname"]= "巴风特",
+  ["LockTips"]= "UnlockTips10903065",
+  ["Name"]= "PersonalizeName10903037",
+  ["Order"]= 66,
+  ["ResID"]= {
+    102201,
+    102202
+  },
+  ["SourceType"]= 2
+},
+[67] = {
+  ["ID"]= 67,
+  ["ItemID"]= 10903066,
+  ["ItemType"]= 2,
+  ["Localname"]= "巴风特",
+  ["LockTips"]= "UnlockTips10903066",
+  ["Name"]= "PersonalizeName10903037",
+  ["Order"]= 67,
+  ["QuoteColor"]= "648dac",
+  ["ResID"]= {
+    2022
+  },
+  ["SourceType"]= 2,
+  ["UnlockNeedItemID"]= {
+    10903017
+  }
+},
+[68] = {
+  ["FontColor"]= {},
+  ["ID"]= 68,
+  ["ItemID"]= 10903067,
+  ["ItemType"]= 3,
+  ["Localname"]= "巴风特",
+  ["LockTips"]= "UnlockTips10903067",
+  ["Name"]= "PersonalizeName10903037",
+  ["Order"]= 68,
+  ["ResID"]= {
+    3022
+  },
+  ["SourceType"]= 2,
+  ["UnlockNeedItemID"]= {
+    10903018
+  }
+},
+[69] = {
+  ["ChannelID"]= {
+    1,
+    9
+  },
+  ["FontColor"]= {
+    62,
+    71,
+    85
+  },
+  ["ID"]= 69,
+  ["ItemID"]= 10903068,
+  ["Localname"]= "厨神争霸",
+  ["LockTips"]= "UnlockTips10903068",
+  ["Name"]= "PersonalizeName10903038",
+  ["Order"]= 69,
+  ["ResID"]= {
+    102301,
+    102302
+  },
+  ["UnlockNeedItemID"]= {
+    10903068
+  }
+},
+[70] = {
+  ["ChannelID"]= {
+    1,
+    9
+  },
+  ["FontColor"]= {
+    62,
+    71,
+    85
+  },
+  ["ID"]= 70,
+  ["ItemID"]= 10903069,
+  ["ItemType"]= 2,
+  ["Localname"]= "厨神争霸",
+  ["LockTips"]= "UnlockTips10903069",
+  ["Name"]= "PersonalizeName10903038",
+  ["Order"]= 70,
+  ["QuoteColor"]= "648dac",
+  ["ResID"]= {
+    2023
+  },
+  ["UnlockNeedItemID"]= {
+    10903069
+  }
+},
+[71] = {
+  ["ChannelID"]= {
+    1,
+    9
+  },
+  ["FontColor"]= {},
+  ["ID"]= 71,
+  ["ItemID"]= 10903070,
+  ["ItemType"]= 3,
+  ["Localname"]= "厨神争霸",
+  ["LockTips"]= "UnlockTips10903070",
+  ["Name"]= "PersonalizeName10903038",
+  ["Order"]= 71,
+  ["ResID"]= {
+    3023
+  },
+  ["UnlockNeedItemID"]= {
+    10903070
+  }
+},
+[72] = {
+  ["ChannelID"]= {
+    1,
+    10
+  },
+  ["ID"]= 72,
+  ["ItemID"]= 10903071,
+  ["Localname"]= "泰国地标",
+  ["LockTips"]= "UnlockTips10903071",
+  ["Name"]= "PersonalizeName10903039",
+  ["Order"]= 72,
+  ["ResID"]= {
+    102401,
+    102402
+  },
+  ["UnlockNeedItemID"]= {
+    10903071
+  }
+},
+[73] = {
+  ["ChannelID"]= {
+    1,
+    10
+  },
+  ["ID"]= 73,
+  ["ItemID"]= 10903072,
+  ["ItemType"]= 2,
+  ["Localname"]= "泰国地标",
+  ["LockTips"]= "UnlockTips10903072",
+  ["Name"]= "PersonalizeName10903039",
+  ["Order"]= 73,
+  ["QuoteColor"]= "c9dbff",
+  ["ResID"]= {
+    2024
+  },
+  ["UnlockNeedItemID"]= {
+    10903072
+  }
+},
+[74] = {
+  ["ChannelID"]= {
+    1,
+    10
+  },
+  ["FontColor"]= {},
+  ["ID"]= 74,
+  ["ItemID"]= 10903073,
+  ["ItemType"]= 3,
+  ["Localname"]= "泰国地标",
+  ["LockTips"]= "UnlockTips10903073",
+  ["Name"]= "PersonalizeName10903039",
+  ["Order"]= 74,
+  ["ResID"]= {
+    3024
+  },
+  ["UnlockNeedItemID"]= {
+    10903073
+  }
+},
+[75] = {
+  ["ChannelID"]= {
+    1,
+    10
+  },
+  ["ID"]= 75,
+  ["ItemID"]= 10903074,
+  ["Localname"]= "印度尼西亚地标",
+  ["LockTips"]= "UnlockTips10903074",
+  ["Name"]= "PersonalizeName10903040",
+  ["Order"]= 75,
+  ["ResID"]= {
+    102501,
+    102502
+  },
+  ["UnlockNeedItemID"]= {
+    10903074
+  }
+},
+[76] = {
+  ["ChannelID"]= {
+    1,
+    10
+  },
+  ["FontColor"]= {
+    62,
+    71,
+    85
+  },
+  ["ID"]= 76,
+  ["ItemID"]= 10903075,
+  ["ItemType"]= 2,
+  ["Localname"]= "印度尼西亚地标",
+  ["LockTips"]= "UnlockTips10903075",
+  ["Name"]= "PersonalizeName10903040",
+  ["Order"]= 76,
+  ["QuoteColor"]= "648dac",
+  ["ResID"]= {
+    2025
+  },
+  ["UnlockNeedItemID"]= {
+    10903075
+  }
+},
+[77] = {
+  ["ChannelID"]= {
+    1,
+    10
+  },
+  ["FontColor"]= {},
+  ["ID"]= 77,
+  ["ItemID"]= 10903076,
+  ["ItemType"]= 3,
+  ["Localname"]= "印度尼西亚地标",
+  ["LockTips"]= "UnlockTips10903076",
+  ["Name"]= "PersonalizeName10903040",
+  ["Order"]= 77,
+  ["ResID"]= {
+    3025
+  },
+  ["UnlockNeedItemID"]= {
+    10903076
+  }
+},
+[78] = {
+  ["ChannelID"]= {
+    1,
+    10
+  },
+  ["ID"]= 78,
+  ["ItemID"]= 10903077,
+  ["Localname"]= "菲律宾地标",
+  ["LockTips"]= "UnlockTips10903077",
+  ["Name"]= "PersonalizeName10903041",
+  ["Order"]= 78,
+  ["ResID"]= {
+    102601,
+    102602
+  },
+  ["UnlockNeedItemID"]= {
+    10903077
+  }
+},
+[79] = {
+  ["ChannelID"]= {
+    1,
+    10
+  },
+  ["FontColor"]= {
+    62,
+    71,
+    85
+  },
+  ["ID"]= 79,
+  ["ItemID"]= 10903078,
+  ["ItemType"]= 2,
+  ["Localname"]= "菲律宾地标",
+  ["LockTips"]= "UnlockTips10903078",
+  ["Name"]= "PersonalizeName10903041",
+  ["Order"]= 79,
+  ["QuoteColor"]= "648dac",
+  ["ResID"]= {
+    2026
+  },
+  ["UnlockNeedItemID"]= {
+    10903078
+  }
+},
+[80] = {
+  ["ChannelID"]= {
+    1,
+    10
+  },
+  ["FontColor"]= {},
+  ["ID"]= 80,
+  ["ItemID"]= 10903079,
+  ["ItemType"]= 3,
+  ["Localname"]= "菲律宾地标",
+  ["LockTips"]= "UnlockTips10903079",
+  ["Name"]= "PersonalizeName10903041",
+  ["Order"]= 80,
+  ["ResID"]= {
+    3026
+  },
+  ["UnlockNeedItemID"]= {
+    10903079
+  }
+},
+[81] = {
+  ["ChannelID"]= {
+    1,
+    10
+  },
+  ["ID"]= 81,
+  ["ItemID"]= 10903080,
+  ["Localname"]= "马来西亚地标",
+  ["LockTips"]= "UnlockTips10903080",
+  ["Name"]= "PersonalizeName10903042",
+  ["Order"]= 81,
+  ["ResID"]= {
+    102701,
+    102702
+  },
+  ["UnlockNeedItemID"]= {
+    10903080
+  }
+},
+[82] = {
+  ["ChannelID"]= {
+    1,
+    10
+  },
+  ["ID"]= 82,
+  ["ItemID"]= 10903081,
+  ["ItemType"]= 2,
+  ["Localname"]= "马来西亚地标",
+  ["LockTips"]= "UnlockTips10903081",
+  ["Name"]= "PersonalizeName10903042",
+  ["Order"]= 82,
+  ["QuoteColor"]= "c9dbff",
+  ["ResID"]= {
+    2027
+  },
+  ["UnlockNeedItemID"]= {
+    10903081
+  }
+},
+[83] = {
+  ["ChannelID"]= {
+    1,
+    10
+  },
+  ["FontColor"]= {},
+  ["ID"]= 83,
+  ["ItemID"]= 10903082,
+  ["ItemType"]= 3,
+  ["Localname"]= "马来西亚地标",
+  ["LockTips"]= "UnlockTips10903082",
+  ["Name"]= "PersonalizeName10903042",
+  ["Order"]= 83,
+  ["ResID"]= {
+    3027
+  },
+  ["UnlockNeedItemID"]= {
+    10903082
+  }
+},
+[84] = {
+  ["ChannelID"]= {
+    1,
+    10
+  },
+  ["ID"]= 84,
+  ["ItemID"]= 10903083,
+  ["Localname"]= "新加坡地标",
+  ["LockTips"]= "UnlockTips10903083",
+  ["Name"]= "PersonalizeName10903043",
+  ["Order"]= 84,
+  ["ResID"]= {
+    102801,
+    102802
+  },
+  ["UnlockNeedItemID"]= {
+    10903083
+  }
+},
+[85] = {
+  ["ChannelID"]= {
+    1,
+    10
+  },
+  ["FontColor"]= {
+    62,
+    71,
+    85
+  },
+  ["ID"]= 85,
+  ["ItemID"]= 10903084,
+  ["ItemType"]= 2,
+  ["Localname"]= "新加坡地标",
+  ["LockTips"]= "UnlockTips10903084",
+  ["Name"]= "PersonalizeName10903043",
+  ["Order"]= 85,
+  ["QuoteColor"]= "648dac",
+  ["ResID"]= {
+    2028
+  },
+  ["UnlockNeedItemID"]= {
+    10903084
+  }
+},
+[86] = {
+  ["ChannelID"]= {
+    1,
+    10
+  },
+  ["FontColor"]= {},
+  ["ID"]= 86,
+  ["ItemID"]= 10903085,
+  ["ItemType"]= 3,
+  ["Localname"]= "新加坡地标",
+  ["LockTips"]= "UnlockTips10903085",
+  ["Name"]= "PersonalizeName10903043",
+  ["Order"]= 86,
+  ["ResID"]= {
+    3028
+  },
+  ["UnlockNeedItemID"]= {
+    10903085
+  }
+},
+[87] = {
+  ["ChannelID"]= {
+    1,
+    10
+  },
+  ["ID"]= 87,
+  ["ItemID"]= 10903086,
+  ["Localname"]= "老挝地标",
+  ["LockTips"]= "UnlockTips10903086",
+  ["Name"]= "PersonalizeName10903044",
+  ["Order"]= 87,
+  ["ResID"]= {
+    102901,
+    102902
+  },
+  ["UnlockNeedItemID"]= {
+    10903086
+  }
+},
+[88] = {
+  ["ChannelID"]= {
+    1,
+    10
+  },
+  ["ID"]= 88,
+  ["ItemID"]= 10903087,
+  ["ItemType"]= 2,
+  ["Localname"]= "老挝地标",
+  ["LockTips"]= "UnlockTips10903087",
+  ["Name"]= "PersonalizeName10903044",
+  ["Order"]= 88,
+  ["QuoteColor"]= "c9dbff",
+  ["ResID"]= {
+    2029
+  },
+  ["UnlockNeedItemID"]= {
+    10903087
+  }
+},
+[89] = {
+  ["ChannelID"]= {
+    1,
+    10
+  },
+  ["FontColor"]= {},
+  ["ID"]= 89,
+  ["ItemID"]= 10903088,
+  ["ItemType"]= 3,
+  ["Localname"]= "老挝地标",
+  ["LockTips"]= "UnlockTips10903088",
+  ["Name"]= "PersonalizeName10903044",
+  ["Order"]= 89,
+  ["ResID"]= {
+    3029
+  },
+  ["UnlockNeedItemID"]= {
+    10903088
+  }
+},
+[90] = {
+  ["ChannelID"]= {
+    1,
+    10
+  },
+  ["ID"]= 90,
+  ["ItemID"]= 10903089,
+  ["Localname"]= "缅甸地标",
+  ["LockTips"]= "UnlockTips10903089",
+  ["Name"]= "PersonalizeName10903045",
+  ["Order"]= 90,
+  ["ResID"]= {
+    103001,
+    103002
+  },
+  ["UnlockNeedItemID"]= {
+    10903089
+  }
+},
+[91] = {
+  ["ChannelID"]= {
+    1,
+    10
+  },
+  ["ID"]= 91,
+  ["ItemID"]= 10903090,
+  ["ItemType"]= 2,
+  ["Localname"]= "缅甸地标",
+  ["LockTips"]= "UnlockTips10903090",
+  ["Name"]= "PersonalizeName10903045",
+  ["Order"]= 91,
+  ["QuoteColor"]= "c9dbff",
+  ["ResID"]= {
+    2030
+  },
+  ["UnlockNeedItemID"]= {
+    10903090
+  }
+},
+[92] = {
+  ["ChannelID"]= {
+    1,
+    10
+  },
+  ["FontColor"]= {},
+  ["ID"]= 92,
+  ["ItemID"]= 10903091,
+  ["ItemType"]= 3,
+  ["Localname"]= "缅甸地标",
+  ["LockTips"]= "UnlockTips10903091",
+  ["Name"]= "PersonalizeName10903045",
+  ["Order"]= 92,
+  ["ResID"]= {
+    3030
+  },
+  ["UnlockNeedItemID"]= {
+    10903091
+  }
+},
+[93] = {
+  ["ChannelID"]= {
+    1,
+    10
+  },
+  ["ID"]= 93,
+  ["ItemID"]= 10903092,
+  ["Localname"]= "文莱地标",
+  ["LockTips"]= "UnlockTips10903092",
+  ["Name"]= "PersonalizeName10903046",
+  ["Order"]= 93,
+  ["ResID"]= {
+    103101,
+    103102
+  },
+  ["UnlockNeedItemID"]= {
+    10903092
+  }
+},
+[94] = {
+  ["ChannelID"]= {
+    1,
+    10
+  },
+  ["FontColor"]= {
+    62,
+    71,
+    85
+  },
+  ["ID"]= 94,
+  ["ItemID"]= 10903093,
+  ["ItemType"]= 2,
+  ["Localname"]= "文莱地标",
+  ["LockTips"]= "UnlockTips10903093",
+  ["Name"]= "PersonalizeName10903046",
+  ["Order"]= 94,
+  ["QuoteColor"]= "648dac",
+  ["ResID"]= {
+    2031
+  },
+  ["UnlockNeedItemID"]= {
+    10903093
+  }
+},
+[95] = {
+  ["ChannelID"]= {
+    1,
+    10
+  },
+  ["FontColor"]= {},
+  ["ID"]= 95,
+  ["ItemID"]= 10903094,
+  ["ItemType"]= 3,
+  ["Localname"]= "文莱地标",
+  ["LockTips"]= "UnlockTips10903094",
+  ["Name"]= "PersonalizeName10903046",
+  ["Order"]= 95,
+  ["ResID"]= {
+    3031
+  },
+  ["UnlockNeedItemID"]= {
+    10903094
+  }
+},
+[96] = {
+  ["ChannelID"]= {
+    1,
+    10
+  },
+  ["ID"]= 96,
+  ["ItemID"]= 10903095,
+  ["Localname"]= "柬埔寨地标",
+  ["LockTips"]= "UnlockTips10903095",
+  ["Name"]= "PersonalizeName10903047",
+  ["Order"]= 96,
+  ["ResID"]= {
+    103201,
+    103202
+  },
+  ["UnlockNeedItemID"]= {
+    10903095
+  }
+},
+[97] = {
+  ["ChannelID"]= {
+    1,
+    10
+  },
+  ["FontColor"]= {
+    62,
+    71,
+    85
+  },
+  ["ID"]= 97,
+  ["ItemID"]= 10903096,
+  ["ItemType"]= 2,
+  ["Localname"]= "柬埔寨地标",
+  ["LockTips"]= "UnlockTips10903096",
+  ["Name"]= "PersonalizeName10903047",
+  ["Order"]= 97,
+  ["QuoteColor"]= "648dac",
+  ["ResID"]= {
+    2032
+  },
+  ["UnlockNeedItemID"]= {
+    10903096
+  }
+},
+[98] = {
+  ["ChannelID"]= {
+    1,
+    10
+  },
+  ["FontColor"]= {},
+  ["ID"]= 98,
+  ["ItemID"]= 10903097,
+  ["ItemType"]= 3,
+  ["Localname"]= "柬埔寨地标",
+  ["LockTips"]= "UnlockTips10903097",
+  ["Name"]= "PersonalizeName10903047",
+  ["Order"]= 98,
+  ["ResID"]= {
+    3032
+  },
+  ["UnlockNeedItemID"]= {
+    10903097
+  }
+},
+[99] = {
+  ["ChannelID"]= {
+    1,
+    10
+  },
+  ["ID"]= 99,
+  ["ItemID"]= 10903098,
+  ["Localname"]= "越南地标",
+  ["LockTips"]= "UnlockTips10903098",
+  ["Name"]= "PersonalizeName10903048",
+  ["Order"]= 99,
+  ["ResID"]= {
+    103301,
+    103302
+  },
+  ["UnlockNeedItemID"]= {
+    10903098
+  }
+},
+[100] = {
+  ["ChannelID"]= {
+    1,
+    10
+  },
+  ["FontColor"]= {
+    62,
+    71,
+    85
+  },
+  ["ID"]= 100,
+  ["ItemID"]= 10903099,
+  ["ItemType"]= 2,
+  ["Localname"]= "越南地标",
+  ["LockTips"]= "UnlockTips10903099",
+  ["Name"]= "PersonalizeName10903048",
+  ["Order"]= 100,
+  ["QuoteColor"]= "648dac",
+  ["ResID"]= {
+    2033
+  },
+  ["UnlockNeedItemID"]= {
+    10903099
+  }
+},
+[101] = {
+  ["ChannelID"]= {
+    1,
+    10
+  },
+  ["FontColor"]= {},
+  ["ID"]= 101,
+  ["ItemID"]= 10903100,
+  ["ItemType"]= 3,
+  ["Localname"]= "越南地标",
+  ["LockTips"]= "UnlockTips10903100",
+  ["Name"]= "PersonalizeName10903048",
+  ["Order"]= 101,
+  ["ResID"]= {
+    3033
+  },
+  ["UnlockNeedItemID"]= {
+    10903100
+  }
+},
+[102] = {
+  ["ID"]= 102,
+  ["ItemID"]= 10903101,
+  ["Localname"]= "夏日风情",
+  ["LockTips"]= "UnlockTips10903101",
+  ["Name"]= "PersonalizeName10903049",
+  ["Order"]= 102,
+  ["ResID"]= {
+    103401,
+    103402
+  },
+  ["SourceType"]= 2
+},
+[103] = {
+  ["FontColor"]= {
+    62,
+    71,
+    85
+  },
+  ["ID"]= 103,
+  ["ItemID"]= 10903102,
+  ["ItemType"]= 2,
+  ["Localname"]= "夏日风情",
+  ["LockTips"]= "UnlockTips10903102",
+  ["Name"]= "PersonalizeName10903049",
+  ["Order"]= 103,
+  ["QuoteColor"]= "648dac",
+  ["ResID"]= {
+    2034
+  },
+  ["SourceType"]= 2,
+  ["UnlockNeedItemID"]= {
+    10903017
+  }
+},
+[104] = {
+  ["FontColor"]= {},
+  ["ID"]= 104,
+  ["ItemID"]= 10903103,
+  ["ItemType"]= 3,
+  ["Localname"]= "夏日风情",
+  ["LockTips"]= "UnlockTips10903103",
+  ["Name"]= "PersonalizeName10903049",
+  ["Order"]= 104,
+  ["ResID"]= {
+    3034
+  },
+  ["SourceType"]= 2,
+  ["UnlockNeedItemID"]= {
+    10903018
+  }
+},
+[105] = {
+  ["ChannelID"]= {
+    1,
+    9
+  },
+  ["ID"]= 105,
+  ["ItemID"]= 10903104,
+  ["Localname"]= "喧哗上等",
+  ["LockTips"]= "UnlockTips10903104",
+  ["Name"]= "PersonalizeName10903050",
+  ["Order"]= 105,
+  ["QuoteColor"]= "c9dbff",
+  ["ResID"]= {
+    103501,
+    103502
+  },
+  ["UnlockNeedItemID"]= {
+    10903104
+  }
+},
+[106] = {
+  ["ChannelID"]= {
+    1,
+    9
+  },
+  ["ID"]= 106,
+  ["ItemID"]= 10903105,
+  ["ItemType"]= 2,
+  ["Localname"]= "喧哗上等",
+  ["LockTips"]= "UnlockTips10903105",
+  ["Name"]= "PersonalizeName10903050",
+  ["Order"]= 106,
+  ["QuoteColor"]= "c9dbff",
+  ["ResID"]= {
+    2035
+  },
+  ["UnlockNeedItemID"]= {
+    10903105
+  }
+},
+[107] = {
+  ["ChannelID"]= {
+    1,
+    9
+  },
+  ["FontColor"]= {},
+  ["ID"]= 107,
+  ["ItemID"]= 10903106,
+  ["ItemType"]= 3,
+  ["Localname"]= "喧哗上等",
+  ["LockTips"]= "UnlockTips10903106",
+  ["Name"]= "PersonalizeName10903050",
+  ["Order"]= 107,
+  ["ResID"]= {
+    3035
+  },
+  ["UnlockNeedItemID"]= {
+    10903106
+  }
+},
+[108] = {
+  ["ChannelID"]= {
+    1,
+    10
+  },
+  ["ID"]= 108,
+  ["ItemID"]= 10903107,
+  ["Localname"]= "暴走机车",
+  ["LockTips"]= "UnlockTips10903107",
+  ["Name"]= "PersonalizeName10903051",
+  ["Order"]= 108,
+  ["QuoteColor"]= "c9dbff",
+  ["ResID"]= {
+    103601,
+    103602
+  },
+  ["UnlockNeedItemID"]= {
+    10903107
+  }
+},
+[109] = {
+  ["ChannelID"]= {
+    1,
+    10
+  },
+  ["ID"]= 109,
+  ["ItemID"]= 10903108,
+  ["ItemType"]= 2,
+  ["Localname"]= "暴走机车",
+  ["LockTips"]= "UnlockTips10903108",
+  ["Name"]= "PersonalizeName10903051",
+  ["Order"]= 109,
+  ["QuoteColor"]= "c9dbff",
+  ["ResID"]= {
+    2036
+  },
+  ["UnlockNeedItemID"]= {
+    10903108
+  }
+},
+[110] = {
+  ["ChannelID"]= {
+    1,
+    10
+  },
+  ["FontColor"]= {},
+  ["ID"]= 110,
+  ["ItemID"]= 10903109,
+  ["ItemType"]= 3,
+  ["Localname"]= "暴走机车",
+  ["LockTips"]= "UnlockTips10903109",
+  ["Name"]= "PersonalizeName10903051",
+  ["Order"]= 110,
+  ["ResID"]= {
+    3036
+  },
+  ["UnlockNeedItemID"]= {
+    10903109
+  }
+},
+[111] = {
+  ["ChannelID"]= {
+    1,
+    10
+  },
+  ["ID"]= 111,
+  ["ItemID"]= 10903111,
+  ["ItemType"]= 2,
+  ["Localname"]= "游戏人生",
+  ["LockTips"]= "UnlockTips10903111",
+  ["Name"]= "PersonalizeName10903052",
+  ["Order"]= 111,
+  ["QuoteColor"]= "c9dbff",
+  ["ResID"]= {
+    2037
+  },
+  ["UnlockItemTime"]= {
+    30
+  },
+  ["UnlockNeedItemID"]= {
+    10903111
+  }
+},
+[112] = {
+  ["ChannelID"]= {
+    1,
+    10
+  },
+  ["FontColor"]= {},
+  ["ID"]= 112,
+  ["ItemID"]= 10903112,
+  ["ItemType"]= 3,
+  ["Localname"]= "游戏人生",
+  ["LockTips"]= "UnlockTips10903112",
+  ["Name"]= "PersonalizeName10903052",
+  ["Order"]= 112,
+  ["ResID"]= {
+    3037
+  },
+  ["UnlockItemTime"]= {
+    30
+  },
+  ["UnlockNeedItemID"]= {
+    10903112
+  }
+},
+[113] = {
+  ["ChannelID"]= {
+    1,
+    10
+  },
+  ["ID"]= 113,
+  ["IsShow"]= 0,
+  ["ItemID"]= 10903113,
+  ["Localname"]= "偶像新星",
+  ["LockTips"]= "UnlockTips10903113",
+  ["Name"]= "PersonalizeName10903053",
+  ["Order"]= 113,
+  ["QuoteColor"]= "c9dbff",
+  ["ResID"]= {
+    103801,
+    103802
+  },
+  ["UnlockNeedItemID"]= {
+    10903113
+  }
+},
+[114] = {
+  ["ChannelID"]= {
+    1,
+    10
+  },
+  ["ID"]= 114,
+  ["IsShow"]= 0,
+  ["ItemID"]= 10903114,
+  ["ItemType"]= 2,
+  ["Localname"]= "偶像新星",
+  ["LockTips"]= "UnlockTips10903114",
+  ["Name"]= "PersonalizeName10903053",
+  ["Order"]= 114,
+  ["QuoteColor"]= "c9dbff",
+  ["ResID"]= {
+    2038
+  },
+  ["UnlockNeedItemID"]= {
+    10903114
+  }
+},
+[115] = {
+  ["ChannelID"]= {
+    1,
+    10
+  },
+  ["FontColor"]= {},
+  ["ID"]= 115,
+  ["IsShow"]= 0,
+  ["ItemID"]= 10903115,
+  ["ItemType"]= 3,
+  ["Localname"]= "偶像新星",
+  ["LockTips"]= "UnlockTips10903115",
+  ["Name"]= "PersonalizeName10903053",
+  ["Order"]= 115,
+  ["ResID"]= {
+    3038
+  },
+  ["UnlockNeedItemID"]= {
+    10903115
+  }
+}
+}
+local baseTable={
+  ["ChannelID"]= {
+    1,
+    9,
+    10
+  },
+  ["FontColor"]= {
+    246,
+    247,
+    249
+  },
+  ["ID"]= 1,
+  ["IsCouple"]= 0,
+  ["IsInitValue"]= 0,
+  ["IsShow"]= 1,
+  ["IsUnlock"]= 0,
+  ["ItemID"]= 0,
+  ["ItemType"]= 1,
+  ["Localname"]= "恶魔诡影",
+  ["LockTips"]= "UnlockTips10903001",
+  ["Name"]= "PersonalizeName10903000",
+  ["Order"]= 1,
+  ["QuoteColor"]= "",
+  ["ResID"]= {
+    100001,
+    100002
+  },
+  ["SourceType"]= 5,
+  ["UnlockItemTime"]= {
+    0
+  },
+  ["UnlockNeedItemID"]= {
+    10903016
+  },
+  ["UnlockNeedItemNum"]= {
+    1
+  },
+  ["UseCondition"]= 0
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

@@ -1,0 +1,2087 @@
+TextAsset Base
+	string m_Name = "data_school_MonsterCollection"
+	string m_Script = "local table= {
+[10001] = {
+  ["PetTaskManualScale"]= 0.6,
+  ["SequenceID"]= 1,
+  ["TaskId"]= {
+    1,
+    2,
+    11
+  }
+},
+[10002] = {
+  ["CollectionID"]= 10002,
+  ["CollectionMonsterID"]= 10002,
+  ["ManualScale"]= 0.6,
+  ["ManualYOffset"]= -0.2,
+  ["PetTaskManualScale"]= 0.4,
+  ["PetTaskManualYOffset"]= -0.2,
+  ["PicName"]= 10002,
+  ["SequenceID"]= 2
+},
+[10003] = {
+  ["CollectionID"]= 10003,
+  ["CollectionMonsterID"]= 10003,
+  ["PetTaskManualScale"]= 0.3,
+  ["PicName"]= 10003,
+  ["SequenceID"]= 3
+},
+[10004] = {
+  ["CollectionID"]= 10004,
+  ["CollectionMonsterID"]= 10004,
+  ["ManualScale"]= 1.3,
+  ["PetTaskManualScale"]= 0.6,
+  ["PicName"]= 10004,
+  ["SequenceID"]= 4
+},
+[10005] = {
+  ["CollectionID"]= 10005,
+  ["CollectionMonsterID"]= 10005,
+  ["PetTaskManualScale"]= 0.5,
+  ["PetTaskManualYOffset"]= -0.3,
+  ["PicName"]= 10005,
+  ["SequenceID"]= 13
+},
+[10006] = {
+  ["CollectionID"]= 10006,
+  ["CollectionMonsterID"]= 10006,
+  ["ManualYOffset"]= -0.3,
+  ["PetTaskManualScale"]= 0.9,
+  ["PetTaskManualYOffset"]= -0.4,
+  ["PicName"]= 10006,
+  ["SequenceID"]= 12
+},
+[10007] = {
+  ["CollectionID"]= 10007,
+  ["CollectionMonsterID"]= 10007,
+  ["PetTaskManualScale"]= 0.7,
+  ["PicName"]= 10007,
+  ["SequenceID"]= 10,
+  ["TaskId"]= {
+    1,
+    2,
+    11
+  }
+},
+[10008] = {
+  ["CollectionID"]= 10008,
+  ["CollectionMonsterID"]= 10008,
+  ["ManualScale"]= 1.3,
+  ["PetTaskManualScale"]= 1.2,
+  ["PetTaskManualYOffset"]= 0.2,
+  ["PicName"]= 10008,
+  ["SequenceID"]= 34,
+  ["TaskId"]= {
+    1,
+    2,
+    12
+  }
+},
+[10009] = {
+  ["CollectionID"]= 10009,
+  ["CollectionMonsterID"]= 10009,
+  ["ManualScale"]= 2.2,
+  ["PetTaskManualScale"]= 1.4,
+  ["PicName"]= 10009,
+  ["SequenceID"]= 15
+},
+[10010] = {
+  ["CollectionID"]= 10010,
+  ["CollectionMonsterID"]= 10010,
+  ["ManualYOffset"]= -0.5,
+  ["PetTaskManualScale"]= 0.7,
+  ["PicName"]= 10010,
+  ["SequenceID"]= 11,
+  ["TaskId"]= {
+    1,
+    2,
+    11
+  }
+},
+[10011] = {
+  ["CollectionID"]= 10011,
+  ["CollectionMonsterID"]= 10011,
+  ["ManualScale"]= 1.6,
+  ["PetTaskManualScale"]= 1.2,
+  ["PicName"]= 10011,
+  ["SequenceID"]= 6
+},
+[10012] = {
+  ["CollectionID"]= 10012,
+  ["CollectionMonsterID"]= 10012,
+  ["PetTaskManualScale"]= 0.6,
+  ["PicName"]= 10012,
+  ["SequenceID"]= 7,
+  ["TaskId"]= {
+    1,
+    2,
+    11
+  }
+},
+[10013] = {
+  ["CollectionID"]= 10013,
+  ["CollectionMonsterID"]= 10013,
+  ["PetTaskManualScale"]= 0.7,
+  ["PetTaskManualYOffset"]= -0.1,
+  ["PicName"]= 10013,
+  ["SequenceID"]= 5
+},
+[10014] = {
+  ["CollectionID"]= 10014,
+  ["CollectionMonsterID"]= 10014,
+  ["ManualScale"]= 1.2,
+  ["ManualYOffset"]= -0.4,
+  ["PetTaskManualScale"]= 0.8,
+  ["PetTaskManualYOffset"]= -0.1,
+  ["PicName"]= 10014,
+  ["SequenceID"]= 8,
+  ["TaskId"]= {
+    1,
+    2,
+    11
+  }
+},
+[10015] = {
+  ["CollectionID"]= 10015,
+  ["CollectionMonsterID"]= 10015,
+  ["ManualScale"]= 1.2,
+  ["PetTaskManualScale"]= 0.8,
+  ["PicName"]= 10015,
+  ["SequenceID"]= 16
+},
+[10016] = {
+  ["CollectionID"]= 10016,
+  ["CollectionMonsterID"]= 10016,
+  ["ManualScale"]= 2,
+  ["ManualYOffset"]= -0.3,
+  ["PicName"]= 10016,
+  ["SequenceID"]= 18
+},
+[10017] = {
+  ["CollectionID"]= 10017,
+  ["CollectionMonsterID"]= 10017,
+  ["ManualYOffset"]= 0.1,
+  ["PetTaskManualScale"]= 0.8,
+  ["PicName"]= 10017,
+  ["SequenceID"]= 54,
+  ["TaskId"]= {
+    1,
+    2,
+    20
+  }
+},
+[10018] = {
+  ["CollectionID"]= 10018,
+  ["CollectionMonsterID"]= 10018,
+  ["ManualScale"]= 1.4,
+  ["PicName"]= 10018,
+  ["SequenceID"]= 52,
+  ["TaskId"]= {
+    1,
+    2,
+    20
+  }
+},
+[10019] = {
+  ["CollectionID"]= 10019,
+  ["CollectionMonsterID"]= 10019,
+  ["ManualYOffset"]= -0.3,
+  ["PetTaskManualYOffset"]= -0.3,
+  ["PicName"]= 10019,
+  ["SequenceID"]= 56,
+  ["TaskId"]= {
+    1,
+    2,
+    13
+  }
+},
+[10020] = {
+  ["CollectionID"]= 10020,
+  ["CollectionMonsterID"]= 10020,
+  ["ManualScale"]= 0.5,
+  ["PetTaskManualScale"]= 0.5,
+  ["PicName"]= 10020,
+  ["SequenceID"]= 58,
+  ["TaskId"]= {
+    1,
+    2,
+    13
+  }
+},
+[10021] = {
+  ["CollectionID"]= 10021,
+  ["CollectionMonsterID"]= 10021,
+  ["ManualScale"]= 0.9,
+  ["PetTaskManualYOffset"]= -0.3,
+  ["PicName"]= 10021,
+  ["SequenceID"]= 60,
+  ["TaskId"]= {
+    1,
+    2,
+    6
+  }
+},
+[10022] = {
+  ["CollectionID"]= 10022,
+  ["CollectionMonsterID"]= 10022,
+  ["ManualYOffset"]= -0.4,
+  ["PetTaskManualScale"]= 0.7,
+  ["PetTaskManualYOffset"]= -0.1,
+  ["PicName"]= 10022,
+  ["SequenceID"]= 62,
+  ["TaskId"]= {
+    1,
+    2,
+    20
+  }
+},
+[10023] = {
+  ["CollectionID"]= 10023,
+  ["CollectionMonsterID"]= 10023,
+  ["ManualYOffset"]= -0.1,
+  ["PetTaskManualYOffset"]= -0.1,
+  ["PicName"]= 10023,
+  ["SequenceID"]= 66,
+  ["TaskId"]= {
+    1,
+    2,
+    13
+  }
+},
+[10024] = {
+  ["CollectionID"]= 10024,
+  ["CollectionMonsterID"]= 10024,
+  ["ManualScale"]= 0.7,
+  ["PetTaskManualScale"]= 0.6,
+  ["PetTaskManualYOffset"]= 0.2,
+  ["PicName"]= 10024,
+  ["SequenceID"]= 68,
+  ["TaskId"]= {
+    1,
+    2,
+    13
+  }
+},
+[10025] = {
+  ["CollectionID"]= 10025,
+  ["CollectionMonsterID"]= 10025,
+  ["PicName"]= 10025,
+  ["SequenceID"]= 75,
+  ["TaskId"]= {
+    1,
+    2,
+    14
+  }
+},
+[10027] = {
+  ["CollectionID"]= 10027,
+  ["CollectionMonsterID"]= 10027,
+  ["ManualScale"]= 1.2,
+  ["ManualYOffset"]= -0.3,
+  ["PetTaskManualYOffset"]= -0.2,
+  ["PicName"]= 10027,
+  ["SequenceID"]= 22
+},
+[10028] = {
+  ["CollectionID"]= 10028,
+  ["CollectionMonsterID"]= 10028,
+  ["ManualScale"]= 1.2,
+  ["PetTaskManualScale"]= 0.6,
+  ["PicName"]= 10028,
+  ["SequenceID"]= 24,
+  ["TaskId"]= {
+    1,
+    2,
+    18
+  }
+},
+[10029] = {
+  ["CollectionID"]= 10029,
+  ["CollectionMonsterID"]= 10029,
+  ["ManualScale"]= 0.9,
+  ["ManualYOffset"]= -0.3,
+  ["PetTaskManualScale"]= 0.9,
+  ["PicName"]= 10029,
+  ["SequenceID"]= 92,
+  ["TaskId"]= {
+    1,
+    2,
+    15
+  }
+},
+[10030] = {
+  ["CollectionID"]= 10030,
+  ["CollectionMonsterID"]= 10030,
+  ["ManualScale"]= 1.2,
+  ["ManualYOffset"]= -0.5,
+  ["PetTaskManualScale"]= 1.2,
+  ["PetTaskManualYOffset"]= -0.4,
+  ["PicName"]= 10030,
+  ["SequenceID"]= 33,
+  ["TaskId"]= {
+    1,
+    2,
+    5
+  }
+},
+[10031] = {
+  ["CollectionID"]= 10031,
+  ["CollectionMonsterID"]= 10031,
+  ["PicName"]= 10031,
+  ["SequenceID"]= 40,
+  ["TaskId"]= {
+    1,
+    2,
+    12
+  }
+},
+[10033] = {
+  ["CollectionID"]= 10033,
+  ["CollectionMonsterID"]= 10033,
+  ["ManualScale"]= 0.5,
+  ["PetTaskManualScale"]= 0.5,
+  ["PicName"]= 10033,
+  ["SequenceID"]= 83,
+  ["TaskId"]= {
+    1,
+    2,
+    13
+  }
+},
+[10034] = {
+  ["CollectionID"]= 10034,
+  ["CollectionMonsterID"]= 10034,
+  ["ManualScale"]= 0.7,
+  ["PetTaskManualScale"]= 0.6,
+  ["PicName"]= 10034,
+  ["SequenceID"]= 130,
+  ["TaskId"]= {
+    1,
+    2,
+    16
+  }
+},
+[10035] = {
+  ["CollectionID"]= 10035,
+  ["CollectionMonsterID"]= 10035,
+  ["ManualScale"]= 0.9,
+  ["PetTaskManualScale"]= 0.5,
+  ["PetTaskManualYOffset"]= -0.2,
+  ["PicName"]= 10035,
+  ["SequenceID"]= 132,
+  ["TaskId"]= {
+    1,
+    2,
+    23
+  }
+},
+[10036] = {
+  ["CollectionID"]= 10036,
+  ["CollectionMonsterID"]= 10036,
+  ["PicName"]= 10036,
+  ["SequenceID"]= 101,
+  ["TaskId"]= {
+    1,
+    2,
+    22
+  }
+},
+[10037] = {
+  ["CollectionID"]= 10037,
+  ["CollectionMonsterID"]= 10037,
+  ["PetTaskManualScale"]= 0.7,
+  ["PicName"]= 10037,
+  ["SequenceID"]= 108,
+  ["TaskId"]= {
+    1,
+    2,
+    15
+  }
+},
+[10038] = {
+  ["CollectionID"]= 10038,
+  ["CollectionMonsterID"]= 10038,
+  ["ManualScale"]= 0.8,
+  ["ManualYOffset"]= -0.3,
+  ["PetTaskManualScale"]= 0.8,
+  ["PetTaskManualYOffset"]= -0.3,
+  ["PicName"]= 10038,
+  ["SequenceID"]= 94,
+  ["TaskId"]= {
+    1,
+    2,
+    22
+  }
+},
+[10039] = {
+  ["CollectionID"]= 10039,
+  ["CollectionMonsterID"]= 10039,
+  ["PicName"]= 10039,
+  ["SequenceID"]= 55,
+  ["TaskId"]= {
+    1,
+    2,
+    20
+  }
+},
+[10040] = {
+  ["CollectionID"]= 10040,
+  ["CollectionMonsterID"]= 10040,
+  ["PetTaskManualScale"]= 0.8,
+  ["PicName"]= 10040,
+  ["SequenceID"]= 64,
+  ["TaskId"]= {
+    1,
+    2,
+    6
+  }
+},
+[10041] = {
+  ["CollectionID"]= 10041,
+  ["CollectionMonsterID"]= 10041,
+  ["ManualScale"]= 0.85,
+  ["PetTaskManualScale"]= 0.85,
+  ["PicName"]= 10041,
+  ["SequenceID"]= 104,
+  ["TaskId"]= {
+    1,
+    2,
+    8
+  }
+},
+[10042] = {
+  ["CollectionID"]= 10042,
+  ["CollectionMonsterID"]= 10042,
+  ["PicName"]= 10042,
+  ["SequenceID"]= 110,
+  ["TaskId"]= {
+    1,
+    2,
+    9
+  }
+},
+[10043] = {
+  ["CollectionID"]= 10043,
+  ["CollectionMonsterID"]= 10043,
+  ["ManualScale"]= 0.7,
+  ["ManualYOffset"]= -0.4,
+  ["PetTaskManualScale"]= 0.7,
+  ["PetTaskManualYOffset"]= -0.4,
+  ["PicName"]= 10043,
+  ["SequenceID"]= 105,
+  ["TaskId"]= {
+    1,
+    2,
+    22
+  }
+},
+[10044] = {
+  ["CollectionID"]= 10044,
+  ["CollectionMonsterID"]= 10044,
+  ["ManualYOffset"]= -1.2,
+  ["PetTaskManualScale"]= 0.7,
+  ["PetTaskManualYOffset"]= -0.4,
+  ["PicName"]= 10044,
+  ["SequenceID"]= 17
+},
+[10045] = {
+  ["CollectionID"]= 10045,
+  ["CollectionMonsterID"]= 10045,
+  ["PicName"]= 10045,
+  ["SequenceID"]= 96,
+  ["TaskId"]= {
+    1,
+    2,
+    11
+  }
+},
+[10046] = {
+  ["CollectionID"]= 10046,
+  ["CollectionMonsterID"]= 10046,
+  ["ManualScale"]= 1.3,
+  ["PetTaskManualScale"]= 1.1,
+  ["PetTaskManualYOffset"]= -0.2,
+  ["PicName"]= 10046,
+  ["SequenceID"]= 21
+},
+[10047] = {
+  ["CollectionID"]= 10047,
+  ["CollectionMonsterID"]= 10047,
+  ["PetTaskManualScale"]= 0.6,
+  ["PicName"]= 10047,
+  ["SequenceID"]= 23
+},
+[10048] = {
+  ["CollectionID"]= 10048,
+  ["CollectionMonsterID"]= 10048,
+  ["ManualScale"]= 2.2,
+  ["PetTaskManualScale"]= 1.4,
+  ["PicName"]= 10048,
+  ["SequenceID"]= 19,
+  ["TaskId"]= {
+    1,
+    2,
+    11
+  }
+},
+[10049] = {
+  ["CollectionID"]= 10049,
+  ["CollectionMonsterID"]= 10049,
+  ["ManualScale"]= 2.2,
+  ["PetTaskManualScale"]= 1.4,
+  ["PicName"]= 10049,
+  ["SequenceID"]= 25,
+  ["TaskId"]= {
+    1,
+    2,
+    11
+  }
+},
+[10050] = {
+  ["CollectionID"]= 10050,
+  ["CollectionMonsterID"]= 10050,
+  ["ManualScale"]= 0.8,
+  ["PetTaskManualScale"]= 0.8,
+  ["PicName"]= 10050,
+  ["SequenceID"]= 97,
+  ["TaskId"]= {
+    1,
+    2,
+    15
+  }
+},
+[10051] = {
+  ["CollectionID"]= 10051,
+  ["CollectionMonsterID"]= 10051,
+  ["PetTaskManualScale"]= 0.6,
+  ["PetTaskManualYOffset"]= 0.1,
+  ["PicName"]= 10051,
+  ["SequenceID"]= 14,
+  ["TaskId"]= {
+    1,
+    2,
+    11
+  }
+},
+[10052] = {
+  ["CollectionID"]= 10052,
+  ["CollectionMonsterID"]= 10052,
+  ["PetTaskManualScale"]= 0.6,
+  ["PicName"]= 10052,
+  ["SequenceID"]= 20,
+  ["TaskId"]= {
+    1,
+    2,
+    11
+  }
+},
+[10053] = {
+  ["CollectionID"]= 10053,
+  ["CollectionMonsterID"]= 10053,
+  ["ManualScale"]= 0.5,
+  ["PetTaskManualScale"]= 0.5,
+  ["PicName"]= 10053,
+  ["SequenceID"]= 93,
+  ["TaskId"]= {
+    1,
+    2,
+    15
+  }
+},
+[10054] = {
+  ["CollectionID"]= 10054,
+  ["CollectionMonsterID"]= 10054,
+  ["ManualScale"]= 1.5,
+  ["ManualYOffset"]= -1,
+  ["PetTaskManualScale"]= 1.5,
+  ["PetTaskManualYOffset"]= -1,
+  ["PicName"]= 10054,
+  ["SequenceID"]= 26
+},
+[10055] = {
+  ["CollectionID"]= 10055,
+  ["CollectionMonsterID"]= 10055,
+  ["ManualScale"]= 0.9,
+  ["PetTaskManualScale"]= 0.6,
+  ["PicName"]= 10055,
+  ["SequenceID"]= 31,
+  ["TaskId"]= {
+    1,
+    2,
+    5
+  }
+},
+[10056] = {
+  ["CollectionID"]= 10056,
+  ["CollectionMonsterID"]= 10056,
+  ["ManualYOffset"]= -0.3,
+  ["PetTaskManualScale"]= 0.9,
+  ["PetTaskManualYOffset"]= -0.4,
+  ["PicName"]= 10056,
+  ["SequenceID"]= 28
+},
+[10057] = {
+  ["CollectionID"]= 10057,
+  ["CollectionMonsterID"]= 10057,
+  ["ManualScale"]= 1.2,
+  ["PicName"]= 10057,
+  ["SequenceID"]= 30,
+  ["TaskId"]= {
+    1,
+    2,
+    5
+  }
+},
+[10058] = {
+  ["CollectionID"]= 10058,
+  ["CollectionMonsterID"]= 10058,
+  ["ManualScale"]= 1.2,
+  ["PicName"]= 10058,
+  ["SequenceID"]= 32,
+  ["TaskId"]= {
+    1,
+    2,
+    5
+  }
+},
+[10059] = {
+  ["CollectionID"]= 10059,
+  ["CollectionMonsterID"]= 10059,
+  ["ManualScale"]= 1.5,
+  ["PetTaskManualScale"]= 1.5,
+  ["PicName"]= 10059,
+  ["SequenceID"]= 37,
+  ["TaskId"]= {
+    1,
+    2,
+    5
+  }
+},
+[10060] = {
+  ["CollectionID"]= 10060,
+  ["CollectionMonsterID"]= 10060,
+  ["ManualScale"]= 1.5,
+  ["ManualYOffset"]= 0.3,
+  ["PetTaskManualScale"]= 1.5,
+  ["PicName"]= 10060,
+  ["SequenceID"]= 42,
+  ["TaskId"]= {
+    1,
+    2,
+    5
+  }
+},
+[10061] = {
+  ["CollectionID"]= 10061,
+  ["CollectionMonsterID"]= 10061,
+  ["ManualScale"]= 1.2,
+  ["ManualYOffset"]= -0.2,
+  ["PetTaskManualScale"]= 1.2,
+  ["PetTaskManualYOffset"]= -0.2,
+  ["PicName"]= 10061,
+  ["SequenceID"]= 47,
+  ["TaskId"]= {
+    1,
+    2,
+    12
+  }
+},
+[10063] = {
+  ["CollectionID"]= 10063,
+  ["CollectionMonsterID"]= 10063,
+  ["ManualScale"]= 1.2,
+  ["PetTaskManualScale"]= 0.8,
+  ["PicName"]= 10063,
+  ["SequenceID"]= 27,
+  ["TaskId"]= {
+    1,
+    2,
+    11
+  }
+},
+[10064] = {
+  ["CollectionID"]= 10064,
+  ["CollectionMonsterID"]= 10064,
+  ["ManualScale"]= 0.8,
+  ["ManualYOffset"]= -0.6,
+  ["PetTaskManualScale"]= 0.6,
+  ["PetTaskManualYOffset"]= -0.3,
+  ["PicName"]= 10064,
+  ["SequenceID"]= 49,
+  ["TaskId"]= {
+    1,
+    2,
+    6
+  }
+},
+[10065] = {
+  ["CollectionID"]= 10065,
+  ["CollectionMonsterID"]= 10065,
+  ["ManualScale"]= 1.3,
+  ["PetTaskManualScale"]= 1.3,
+  ["PicName"]= 10065,
+  ["SequenceID"]= 39,
+  ["TaskId"]= {
+    1,
+    2,
+    5
+  }
+},
+[10066] = {
+  ["CollectionID"]= 10066,
+  ["CollectionMonsterID"]= 10066,
+  ["ManualScale"]= 0.8,
+  ["PetTaskManualScale"]= 0.8,
+  ["PicName"]= 10066,
+  ["SequenceID"]= 41,
+  ["TaskId"]= {
+    1,
+    2,
+    5
+  }
+},
+[10068] = {
+  ["CollectionID"]= 10068,
+  ["CollectionMonsterID"]= 10068,
+  ["ManualScale"]= 0.7,
+  ["PetTaskManualScale"]= 0.7,
+  ["PicName"]= 10068,
+  ["SequenceID"]= 72,
+  ["TaskId"]= {
+    1,
+    2,
+    7
+  }
+},
+[10069] = {
+  ["CollectionID"]= 10069,
+  ["CollectionMonsterID"]= 10069,
+  ["ManualScale"]= 1.3,
+  ["PetTaskManualScale"]= 1.2,
+  ["PicName"]= 10069,
+  ["SequenceID"]= 74,
+  ["TaskId"]= {
+    1,
+    2,
+    7
+  }
+},
+[10071] = {
+  ["CollectionID"]= 10071,
+  ["CollectionMonsterID"]= 10071,
+  ["PicName"]= 10071,
+  ["SequenceID"]= 78,
+  ["TaskId"]= {
+    1,
+    2,
+    7
+  }
+},
+[10072] = {
+  ["CollectionID"]= 10072,
+  ["CollectionMonsterID"]= 10072,
+  ["PicName"]= 10072,
+  ["SequenceID"]= 80,
+  ["TaskId"]= {
+    1,
+    2,
+    14
+  }
+},
+[10073] = {
+  ["CollectionID"]= 10073,
+  ["CollectionMonsterID"]= 10073,
+  ["ManualYOffset"]= -1,
+  ["PetTaskManualYOffset"]= -1,
+  ["PicName"]= 10073,
+  ["SequenceID"]= 84,
+  ["TaskId"]= {
+    1,
+    2,
+    7
+  }
+},
+[10074] = {
+  ["CollectionID"]= 10074,
+  ["CollectionMonsterID"]= 10074,
+  ["ManualScale"]= 0.5,
+  ["ManualYOffset"]= 0.2,
+  ["PetTaskManualScale"]= 0.5,
+  ["PetTaskManualYOffset"]= 0.2,
+  ["PicName"]= 10074,
+  ["SequenceID"]= 86,
+  ["TaskId"]= {
+    1,
+    2,
+    21
+  }
+},
+[10075] = {
+  ["CollectionID"]= 10075,
+  ["CollectionMonsterID"]= 10075,
+  ["ManualScale"]= 1.1,
+  ["ManualYOffset"]= -0.4,
+  ["PetTaskManualYOffset"]= -0.4,
+  ["PicName"]= 10075,
+  ["SequenceID"]= 90,
+  ["TaskId"]= {
+    1,
+    2,
+    15
+  }
+},
+[10076] = {
+  ["CollectionID"]= 10076,
+  ["CollectionMonsterID"]= 10076,
+  ["PetTaskManualScale"]= 0.7,
+  ["PetTaskManualYOffset"]= -0.3,
+  ["PicName"]= 10076,
+  ["SequenceID"]= 88,
+  ["TaskId"]= {
+    1,
+    2,
+    7
+  }
+},
+[10078] = {
+  ["CollectionID"]= 10078,
+  ["CollectionMonsterID"]= 10078,
+  ["ManualScale"]= 0.7,
+  ["ManualYOffset"]= -0.2,
+  ["PetTaskManualYOffset"]= -0.2,
+  ["PicName"]= 10078,
+  ["SequenceID"]= 103,
+  ["TaskId"]= {
+    1,
+    2,
+    8
+  }
+},
+[10079] = {
+  ["CollectionID"]= 10079,
+  ["CollectionMonsterID"]= 10079,
+  ["ManualScale"]= 0.6,
+  ["ManualYOffset"]= -0.4,
+  ["PetTaskManualYOffset"]= -0.4,
+  ["PicName"]= 10079,
+  ["SequenceID"]= 107,
+  ["TaskId"]= {
+    1,
+    2,
+    8
+  }
+},
+[10080] = {
+  ["CollectionID"]= 10080,
+  ["CollectionMonsterID"]= 10080,
+  ["ManualScale"]= 0.7,
+  ["PetTaskManualScale"]= 0.7,
+  ["PicName"]= 10080,
+  ["SequenceID"]= 67,
+  ["TaskId"]= {
+    1,
+    2,
+    6
+  }
+},
+[10081] = {
+  ["CollectionID"]= 10081,
+  ["CollectionMonsterID"]= 10081,
+  ["ManualScale"]= 0.7,
+  ["PetTaskManualScale"]= 0.7,
+  ["PicName"]= 10081,
+  ["SequenceID"]= 69,
+  ["TaskId"]= {
+    1,
+    2,
+    7
+  }
+},
+[10082] = {
+  ["CollectionID"]= 10082,
+  ["CollectionMonsterID"]= 10082,
+  ["ManualScale"]= 0.7,
+  ["PetTaskManualScale"]= 0.7,
+  ["PicName"]= 10082,
+  ["SequenceID"]= 76,
+  ["TaskId"]= {
+    1,
+    2,
+    7
+  }
+},
+[10083] = {
+  ["CollectionID"]= 10083,
+  ["CollectionMonsterID"]= 10083,
+  ["ManualScale"]= 0.7,
+  ["PetTaskManualScale"]= 0.7,
+  ["PicName"]= 10083,
+  ["SequenceID"]= 77,
+  ["TaskId"]= {
+    1,
+    2,
+    7
+  }
+},
+[10084] = {
+  ["CollectionID"]= 10084,
+  ["CollectionMonsterID"]= 10084,
+  ["ManualYOffset"]= -1.2,
+  ["PetTaskManualScale"]= 0.7,
+  ["PetTaskManualYOffset"]= -0.4,
+  ["PicName"]= 10084,
+  ["SequenceID"]= 29
+},
+[10085] = {
+  ["CollectionID"]= 10085,
+  ["CollectionMonsterID"]= 10085,
+  ["PicName"]= 10085,
+  ["SequenceID"]= 45,
+  ["TaskId"]= {
+    1,
+    2,
+    5
+  }
+},
+[10086] = {
+  ["CollectionID"]= 10086,
+  ["CollectionMonsterID"]= 10086,
+  ["PicName"]= 10086,
+  ["SequenceID"]= 89,
+  ["TaskId"]= {
+    1,
+    2,
+    8
+  }
+},
+[10087] = {
+  ["CollectionID"]= 10087,
+  ["CollectionMonsterID"]= 10087,
+  ["ManualScale"]= 1.2,
+  ["ManualYOffset"]= -0.2,
+  ["PicName"]= 10087,
+  ["SequenceID"]= 44,
+  ["TaskId"]= {
+    1,
+    2,
+    12
+  }
+},
+[10088] = {
+  ["CollectionID"]= 10088,
+  ["CollectionMonsterID"]= 10088,
+  ["ManualScale"]= 1.25,
+  ["PicName"]= 10088,
+  ["SequenceID"]= 38,
+  ["TaskId"]= {
+    1,
+    2,
+    12
+  }
+},
+[10089] = {
+  ["CollectionID"]= 10089,
+  ["CollectionMonsterID"]= 10089,
+  ["PicName"]= 10089,
+  ["SequenceID"]= 100,
+  ["TaskId"]= {
+    1,
+    2,
+    15
+  }
+},
+[10090] = {
+  ["CollectionID"]= 10090,
+  ["CollectionMonsterID"]= 10090,
+  ["PicName"]= 10090,
+  ["SequenceID"]= 102,
+  ["TaskId"]= {
+    1,
+    2,
+    15
+  }
+},
+[10091] = {
+  ["CollectionID"]= 10091,
+  ["CollectionMonsterID"]= 10091,
+  ["PetTaskManualScale"]= 0.8,
+  ["PicName"]= 10091,
+  ["SequenceID"]= 106,
+  ["TaskId"]= {
+    1,
+    2,
+    15
+  }
+},
+[10092] = {
+  ["CollectionID"]= 10092,
+  ["CollectionMonsterID"]= 10092,
+  ["ManualScale"]= 0.5,
+  ["PetTaskManualScale"]= 0.6,
+  ["PicName"]= 10092,
+  ["SequenceID"]= 109,
+  ["TaskId"]= {
+    1,
+    2,
+    8
+  }
+},
+[10093] = {
+  ["CollectionID"]= 10093,
+  ["CollectionMonsterID"]= 10093,
+  ["PicName"]= 10093,
+  ["SequenceID"]= 43,
+  ["TaskId"]= {
+    1,
+    2,
+    5
+  }
+},
+[10094] = {
+  ["CollectionID"]= 10094,
+  ["CollectionMonsterID"]= 10094,
+  ["ManualYOffset"]= -0.2,
+  ["PetTaskManualYOffset"]= -0.2,
+  ["PicName"]= 10094,
+  ["SequenceID"]= 48,
+  ["TaskId"]= {
+    1,
+    2,
+    12
+  }
+},
+[10095] = {
+  ["CollectionID"]= 10095,
+  ["CollectionMonsterID"]= 10095,
+  ["PicName"]= 10095,
+  ["SequenceID"]= 50,
+  ["TaskId"]= {
+    1,
+    2,
+    20
+  }
+},
+[10097] = {
+  ["CollectionID"]= 10097,
+  ["CollectionMonsterID"]= 10097,
+  ["PicName"]= 10097,
+  ["SequenceID"]= 98,
+  ["TaskId"]= {
+    1,
+    2,
+    15
+  }
+},
+[10098] = {
+  ["CollectionID"]= 10098,
+  ["CollectionMonsterID"]= 10098,
+  ["PetTaskManualScale"]= 0.9,
+  ["PicName"]= 10098,
+  ["SequenceID"]= 70,
+  ["TaskId"]= {
+    1,
+    2,
+    14
+  }
+},
+[10099] = {
+  ["CollectionID"]= 10099,
+  ["CollectionMonsterID"]= 10099,
+  ["ManualScale"]= 1.1,
+  ["PetTaskManualScale"]= 1.1,
+  ["PicName"]= 10099,
+  ["SequenceID"]= 61,
+  ["TaskId"]= {
+    1,
+    2,
+    13
+  }
+},
+[10100] = {
+  ["CollectionID"]= 10100,
+  ["CollectionMonsterID"]= 10100,
+  ["PicName"]= 10100,
+  ["SequenceID"]= 73,
+  ["TaskId"]= {
+    1,
+    2,
+    14
+  }
+},
+[10101] = {
+  ["CollectionID"]= 10101,
+  ["CollectionMonsterID"]= 10101,
+  ["PicName"]= 10101,
+  ["SequenceID"]= 79,
+  ["TaskId"]= {
+    1,
+    2,
+    14
+  }
+},
+[10102] = {
+  ["CollectionID"]= 10102,
+  ["CollectionMonsterID"]= 10102,
+  ["PicName"]= 10102,
+  ["SequenceID"]= 121,
+  ["TaskId"]= {
+    1,
+    2,
+    16
+  }
+},
+[10103] = {
+  ["CollectionID"]= 10103,
+  ["CollectionMonsterID"]= 10103,
+  ["ManualScale"]= 1.1,
+  ["ManualYOffset"]= -0.5,
+  ["PetTaskManualScale"]= 0.8,
+  ["PetTaskManualYOffset"]= -0.2,
+  ["PicName"]= 10103,
+  ["SequenceID"]= 81,
+  ["TaskId"]= {
+    1,
+    2,
+    21
+  }
+},
+[10104] = {
+  ["CollectionID"]= 10104,
+  ["CollectionMonsterID"]= 10104,
+  ["ManualScale"]= 0.6,
+  ["ManualYOffset"]= -0.3,
+  ["PetTaskManualScale"]= 0.8,
+  ["PetTaskManualYOffset"]= -0.3,
+  ["PicName"]= 10104,
+  ["SequenceID"]= 85,
+  ["TaskId"]= {
+    1,
+    2,
+    21
+  }
+},
+[10105] = {
+  ["CollectionID"]= 10105,
+  ["CollectionMonsterID"]= 10105,
+  ["ManualScale"]= 0.6,
+  ["ManualYOffset"]= -0.3,
+  ["PetTaskManualScale"]= 0.6,
+  ["PetTaskManualYOffset"]= -0.3,
+  ["PicName"]= 10105,
+  ["SequenceID"]= 51,
+  ["TaskId"]= {
+    1,
+    2,
+    20
+  }
+},
+[10106] = {
+  ["CollectionID"]= 10106,
+  ["CollectionMonsterID"]= 10106,
+  ["ManualYOffset"]= -0.2,
+  ["PetTaskManualYOffset"]= -0.2,
+  ["PicName"]= 10106,
+  ["SequenceID"]= 53,
+  ["TaskId"]= {
+    1,
+    2,
+    13
+  }
+},
+[10107] = {
+  ["CollectionID"]= 10107,
+  ["CollectionMonsterID"]= 10107,
+  ["ManualScale"]= 0.6,
+  ["ManualYOffset"]= -0.2,
+  ["PetTaskManualScale"]= 0.6,
+  ["PetTaskManualYOffset"]= -0.2,
+  ["PicName"]= 10107,
+  ["SequenceID"]= 57,
+  ["TaskId"]= {
+    1,
+    2,
+    20
+  }
+},
+[10108] = {
+  ["CollectionID"]= 10108,
+  ["CollectionMonsterID"]= 10108,
+  ["ManualScale"]= 1.2,
+  ["PetTaskManualScale"]= 1.2,
+  ["PicName"]= 10108,
+  ["SequenceID"]= 71,
+  ["TaskId"]= {
+    1,
+    2,
+    21
+  }
+},
+[10109] = {
+  ["CollectionID"]= 10109,
+  ["CollectionMonsterID"]= 10109,
+  ["ManualScale"]= 1.2,
+  ["PicName"]= 10109,
+  ["SequenceID"]= 114,
+  ["TaskId"]= {
+    1,
+    2,
+    16
+  }
+},
+[10110] = {
+  ["CollectionID"]= 10110,
+  ["CollectionMonsterID"]= 10110,
+  ["ManualScale"]= 1.2,
+  ["PetTaskManualScale"]= 1.2,
+  ["PicName"]= 10110,
+  ["SequenceID"]= 118,
+  ["TaskId"]= {
+    1,
+    2,
+    16
+  }
+},
+[10111] = {
+  ["CollectionID"]= 10111,
+  ["CollectionMonsterID"]= 10111,
+  ["ManualScale"]= 1.3,
+  ["PicName"]= 10111,
+  ["SequenceID"]= 111,
+  ["TaskId"]= {
+    1,
+    2,
+    16
+  }
+},
+[10112] = {
+  ["CollectionID"]= 10112,
+  ["CollectionMonsterID"]= 10112,
+  ["ManualScale"]= 1.2,
+  ["PicName"]= 10112,
+  ["SequenceID"]= 122,
+  ["TaskId"]= {
+    1,
+    2,
+    16
+  }
+},
+[10113] = {
+  ["CollectionID"]= 10113,
+  ["CollectionMonsterID"]= 10113,
+  ["ManualScale"]= 1.3,
+  ["PicName"]= 10113,
+  ["SequenceID"]= 131,
+  ["TaskId"]= {
+    1,
+    2,
+    16
+  }
+},
+[10114] = {
+  ["CollectionID"]= 10114,
+  ["CollectionMonsterID"]= 10114,
+  ["PicName"]= 10114,
+  ["SequenceID"]= 115,
+  ["TaskId"]= {
+    1,
+    2,
+    10
+  }
+},
+[10115] = {
+  ["CollectionID"]= 10115,
+  ["CollectionMonsterID"]= 10115,
+  ["ManualScale"]= 1.2,
+  ["PicName"]= 10115,
+  ["SequenceID"]= 135,
+  ["TaskId"]= {
+    1,
+    2,
+    17
+  }
+},
+[10116] = {
+  ["CollectionID"]= 10116,
+  ["CollectionMonsterID"]= 10116,
+  ["ManualYOffset"]= -0.3,
+  ["PetTaskManualYOffset"]= -0.3,
+  ["PicName"]= 10116,
+  ["SequenceID"]= 87,
+  ["TaskId"]= {
+    1,
+    2,
+    14
+  }
+},
+[10117] = {
+  ["CollectionID"]= 10117,
+  ["CollectionMonsterID"]= 10117,
+  ["ManualScale"]= 0.9,
+  ["ManualYOffset"]= -0.4,
+  ["PetTaskManualScale"]= 0.9,
+  ["PetTaskManualYOffset"]= -0.4,
+  ["PicName"]= 10117,
+  ["SequenceID"]= 91,
+  ["TaskId"]= {
+    1,
+    2,
+    15
+  }
+},
+[10118] = {
+  ["CollectionID"]= 10118,
+  ["CollectionMonsterID"]= 10118,
+  ["ManualScale"]= 1.2,
+  ["ManualYOffset"]= -0.3,
+  ["PetTaskManualYOffset"]= -0.3,
+  ["PicName"]= 10118,
+  ["SequenceID"]= 82,
+  ["TaskId"]= {
+    1,
+    2,
+    21
+  }
+},
+[10119] = {
+  ["CollectionID"]= 10119,
+  ["CollectionMonsterID"]= 10119,
+  ["ManualScale"]= 0.9,
+  ["PicName"]= 10119,
+  ["SequenceID"]= 95,
+  ["TaskId"]= {
+    1,
+    2,
+    22
+  }
+},
+[10120] = {
+  ["CollectionID"]= 10120,
+  ["CollectionMonsterID"]= 10120,
+  ["PicName"]= 10120,
+  ["SequenceID"]= 120,
+  ["TaskId"]= {
+    1,
+    2,
+    23
+  }
+},
+[10121] = {
+  ["CollectionID"]= 10121,
+  ["CollectionMonsterID"]= 10121,
+  ["PicName"]= 10121,
+  ["SequenceID"]= 117,
+  ["TaskId"]= {
+    1,
+    2,
+    23
+  }
+},
+[10122] = {
+  ["CollectionID"]= 10122,
+  ["CollectionMonsterID"]= 10122,
+  ["PicName"]= 10122,
+  ["SequenceID"]= 123,
+  ["TaskId"]= {
+    1,
+    2,
+    23
+  }
+},
+[10123] = {
+  ["CollectionID"]= 10123,
+  ["CollectionMonsterID"]= 10123,
+  ["PicName"]= 10123,
+  ["SequenceID"]= 136,
+  ["TaskId"]= {
+    1,
+    2,
+    17
+  }
+},
+[10124] = {
+  ["CollectionID"]= 10124,
+  ["CollectionMonsterID"]= 10124,
+  ["PicName"]= 10124,
+  ["SequenceID"]= 137,
+  ["TaskId"]= {
+    1,
+    2,
+    17
+  }
+},
+[10125] = {
+  ["CollectionID"]= 10125,
+  ["CollectionMonsterID"]= 10125,
+  ["PetTaskManualScale"]= 0.9,
+  ["PetTaskManualYOffset"]= -0.3,
+  ["PicName"]= 10125,
+  ["SequenceID"]= 133,
+  ["TaskId"]= {
+    1,
+    2,
+    5
+  }
+},
+[10126] = {
+  ["CollectionID"]= 10126,
+  ["CollectionMonsterID"]= 10126,
+  ["PicName"]= 10126,
+  ["SequenceID"]= 138,
+  ["TaskId"]= {
+    1,
+    2,
+    17
+  }
+},
+[10127] = {
+  ["CollectionID"]= 10127,
+  ["CollectionMonsterID"]= 10127,
+  ["PicName"]= 10127,
+  ["SequenceID"]= 139,
+  ["TaskId"]= {
+    1,
+    2,
+    24
+  }
+},
+[10128] = {
+  ["CollectionID"]= 10128,
+  ["CollectionMonsterID"]= 10128,
+  ["ManualScale"]= 1.4,
+  ["PicName"]= 10128,
+  ["SequenceID"]= 113,
+  ["TaskId"]= {
+    1,
+    2,
+    16
+  }
+},
+[10129] = {
+  ["CollectionID"]= 10129,
+  ["CollectionMonsterID"]= 10129,
+  ["ManualScale"]= 1.4,
+  ["PicName"]= 10129,
+  ["SequenceID"]= 119,
+  ["TaskId"]= {
+    1,
+    2,
+    16
+  }
+},
+[10130] = {
+  ["CollectionID"]= 10130,
+  ["CollectionMonsterID"]= 10130,
+  ["PicName"]= 10130,
+  ["SequenceID"]= 140,
+  ["TaskId"]= {
+    1,
+    2,
+    10
+  }
+},
+[10131] = {
+  ["CollectionID"]= 10131,
+  ["CollectionMonsterID"]= 10131,
+  ["ManualScale"]= 1.4,
+  ["PicName"]= 10131,
+  ["SequenceID"]= 141,
+  ["TaskId"]= {
+    1,
+    2,
+    17
+  }
+},
+[10132] = {
+  ["CollectionID"]= 10132,
+  ["CollectionMonsterID"]= 10132,
+  ["PicName"]= 10132,
+  ["SequenceID"]= 125,
+  ["TaskId"]= {
+    1,
+    2,
+    9
+  }
+},
+[10133] = {
+  ["CollectionID"]= 10133,
+  ["CollectionMonsterID"]= 10133,
+  ["PicName"]= 10133,
+  ["SequenceID"]= 124,
+  ["TaskId"]= {
+    1,
+    2,
+    9
+  }
+},
+[10134] = {
+  ["CollectionID"]= 10134,
+  ["CollectionMonsterID"]= 10134,
+  ["PicName"]= 10134,
+  ["SequenceID"]= 126,
+  ["TaskId"]= {
+    1,
+    2,
+    10
+  }
+},
+[10135] = {
+  ["CollectionID"]= 10135,
+  ["CollectionMonsterID"]= 10135,
+  ["ManualScale"]= 0.8,
+  ["PicName"]= 10135,
+  ["SequenceID"]= 127,
+  ["TaskId"]= {
+    1,
+    2,
+    24
+  }
+},
+[10143] = {
+  ["CollectionID"]= 10143,
+  ["CollectionMonsterID"]= 10143,
+  ["ManualScale"]= 3,
+  ["PetTaskManualScale"]= 3,
+  ["PicName"]= 10143,
+  ["SequenceID"]= 63,
+  ["TaskId"]= {
+    1,
+    2,
+    6
+  }
+},
+[10145] = {
+  ["CollectionID"]= 10145,
+  ["CollectionMonsterID"]= 10145,
+  ["ManualScale"]= 1.3,
+  ["PicName"]= 10145,
+  ["SequenceID"]= 65,
+  ["TaskId"]= {
+    1,
+    2,
+    14
+  }
+},
+[10147] = {
+  ["CollectionID"]= 10147,
+  ["CollectionMonsterID"]= 10147,
+  ["ManualScale"]= 1.2,
+  ["PetTaskManualScale"]= 1.2,
+  ["PicName"]= 10147,
+  ["SequenceID"]= 36,
+  ["TaskId"]= {
+    1,
+    2,
+    5
+  }
+},
+[10148] = {
+  ["CollectionID"]= 10148,
+  ["CollectionMonsterID"]= 10148,
+  ["PicName"]= 10148,
+  ["SequenceID"]= 46,
+  ["TaskId"]= {
+    1,
+    2,
+    12
+  }
+},
+[10149] = {
+  ["CollectionID"]= 10149,
+  ["CollectionMonsterID"]= 10149,
+  ["ManualYOffset"]= -0.3,
+  ["PetTaskManualYOffset"]= -0.3,
+  ["PicName"]= 10149,
+  ["SequenceID"]= 35,
+  ["TaskId"]= {
+    1,
+    2,
+    12
+  }
+},
+[10150] = {
+  ["CollectionID"]= 10150,
+  ["CollectionMonsterID"]= 10150,
+  ["ManualScale"]= 0.8,
+  ["ManualYOffset"]= -0.3,
+  ["PetTaskManualScale"]= 0.6,
+  ["PicName"]= 10150,
+  ["SequenceID"]= 59,
+  ["TaskId"]= {
+    1,
+    2,
+    20
+  }
+},
+[10151] = {
+  ["CollectionID"]= 10151,
+  ["CollectionMonsterID"]= 10151,
+  ["PicName"]= 10151,
+  ["SequenceID"]= 134,
+  ["TaskId"]= {
+    1,
+    2,
+    9
+  }
+},
+[10152] = {
+  ["CollectionID"]= 10152,
+  ["CollectionMonsterID"]= 10152,
+  ["ManualScale"]= 1.6,
+  ["ManualYOffset"]= 0.4,
+  ["PetTaskManualScale"]= 1.8,
+  ["PicName"]= 10152,
+  ["SequenceID"]= 9
+},
+[10154] = {
+  ["CollectionID"]= 10154,
+  ["CollectionMonsterID"]= 10154,
+  ["ManualScale"]= 1.2,
+  ["ManualYOffset"]= -0.2,
+  ["PetTaskManualScale"]= 1.2,
+  ["PetTaskManualYOffset"]= -0.2,
+  ["PicName"]= 10154,
+  ["SequenceID"]= 99,
+  ["TaskId"]= {
+    1,
+    2,
+    22
+  }
+},
+[10155] = {
+  ["CollectionID"]= 10155,
+  ["CollectionMonsterID"]= 10155,
+  ["ManualYOffset"]= -0.3,
+  ["PetTaskManualYOffset"]= -0.6,
+  ["PicName"]= 10155,
+  ["SequenceID"]= 112,
+  ["TaskId"]= {
+    1,
+    2,
+    23
+  }
+},
+[10157] = {
+  ["CollectionID"]= 10157,
+  ["CollectionMonsterID"]= 10157,
+  ["IsSpecial"]= 1,
+  ["PicName"]= 10157,
+  ["SequenceID"]= 116,
+  ["TaskId"]= {
+    1,
+    2,
+    16
+  }
+},
+[10158] = {
+  ["CollectionID"]= 10158,
+  ["CollectionMonsterID"]= 10158,
+  ["PicName"]= 10158,
+  ["SequenceID"]= 142,
+  ["TaskId"]= {
+    1,
+    2,
+    9
+  }
+},
+[10159] = {
+  ["CollectionID"]= 10159,
+  ["CollectionMonsterID"]= 10159,
+  ["ManualScale"]= 0.6,
+  ["ManualYOffset"]= -0.4,
+  ["PicName"]= 10159,
+  ["SequenceID"]= 143,
+  ["TaskId"]= {
+    1,
+    2,
+    24
+  }
+},
+[10163] = {
+  ["CollectionID"]= 10163,
+  ["CollectionMonsterID"]= 10163,
+  ["ManualScale"]= 1.2,
+  ["PicName"]= 10163,
+  ["SequenceID"]= 128,
+  ["TaskId"]= {
+    1,
+    2,
+    17
+  }
+},
+[10164] = {
+  ["CollectionID"]= 10164,
+  ["CollectionMonsterID"]= 10164,
+  ["ManualScale"]= 1.3,
+  ["PicName"]= 10164,
+  ["SequenceID"]= 129,
+  ["TaskId"]= {
+    1,
+    2,
+    24
+  }
+},
+[30001] = {
+  ["CollectionID"]= 30001,
+  ["CollectionMonsterID"]= 30001,
+  ["ManualScale"]= 0.7,
+  ["ManualYOffset"]= -0.2,
+  ["PetTaskManualScale"]= 0.7,
+  ["PetTaskManualYOffset"]= -0.2,
+  ["PicName"]= 30001,
+  ["SequenceID"]= 166,
+  ["TaskId"]= {
+    1,
+    2,
+    26,
+    27,
+    28
+  }
+},
+[30002] = {
+  ["CollectionID"]= 30002,
+  ["CollectionMonsterID"]= 30002,
+  ["ManualScale"]= 0.32,
+  ["PetTaskManualScale"]= 0.4,
+  ["PicName"]= 30002,
+  ["SequenceID"]= 175,
+  ["TaskId"]= {
+    1,
+    2,
+    29,
+    30
+  }
+},
+[30003] = {
+  ["CollectionID"]= 30003,
+  ["CollectionMonsterID"]= 30003,
+  ["ManualScale"]= 0.45,
+  ["PetTaskManualScale"]= 0.45,
+  ["PicName"]= 30003,
+  ["SequenceID"]= 165,
+  ["TaskId"]= {
+    1,
+    2,
+    26,
+    27,
+    28
+  }
+},
+[30004] = {
+  ["CollectionID"]= 30004,
+  ["CollectionMonsterID"]= 30004,
+  ["ManualScale"]= 0.6,
+  ["ManualYOffset"]= -0.2,
+  ["PetTaskManualScale"]= 0.6,
+  ["PetTaskManualYOffset"]= -0.2,
+  ["PicName"]= 30004,
+  ["SequenceID"]= 176,
+  ["TaskId"]= {
+    1,
+    2,
+    31,
+    32
+  }
+},
+[30005] = {
+  ["CollectionID"]= 30005,
+  ["CollectionMonsterID"]= 30005,
+  ["ManualScale"]= 0.45,
+  ["ManualYOffset"]= -0.5,
+  ["PetTaskManualScale"]= 0.45,
+  ["PetTaskManualYOffset"]= -0.5,
+  ["PicName"]= 30005,
+  ["SequenceID"]= 179,
+  ["TaskId"]= {
+    1,
+    2,
+    35,
+    36
+  }
+},
+[30007] = {
+  ["CollectionID"]= 30007,
+  ["CollectionMonsterID"]= 30007,
+  ["ManualScale"]= 0.7,
+  ["ManualYOffset"]= -0.5,
+  ["PetTaskManualScale"]= 0.7,
+  ["PetTaskManualYOffset"]= -0.5,
+  ["PicName"]= 30007,
+  ["SequenceID"]= 167,
+  ["TaskId"]= {
+    1,
+    2,
+    25,
+    27,
+    28
+  }
+},
+[30008] = {
+  ["CollectionID"]= 30008,
+  ["CollectionMonsterID"]= 30008,
+  ["ManualScale"]= 0.4,
+  ["ManualYOffset"]= -0.3,
+  ["PetTaskManualScale"]= 0.4,
+  ["PetTaskManualYOffset"]= -0.3,
+  ["PicName"]= 30008,
+  ["SequenceID"]= 168,
+  ["TaskId"]= {
+    1,
+    2,
+    25,
+    27,
+    28
+  }
+},
+[30009] = {
+  ["CollectionID"]= 30009,
+  ["CollectionMonsterID"]= 30009,
+  ["ManualScale"]= 0.45,
+  ["PetTaskManualScale"]= 0.45,
+  ["PicName"]= 30009,
+  ["SequenceID"]= 171,
+  ["TaskId"]= {
+    1,
+    2,
+    25,
+    27,
+    28
+  }
+},
+[30010] = {
+  ["CollectionID"]= 30010,
+  ["CollectionMonsterID"]= 30010,
+  ["ManualYOffset"]= -0.3,
+  ["PetTaskManualYOffset"]= -0.3,
+  ["PicName"]= 30010,
+  ["SequenceID"]= 169,
+  ["TaskId"]= {
+    1,
+    2,
+    25,
+    27,
+    28
+  }
+},
+[30011] = {
+  ["CollectionID"]= 30011,
+  ["CollectionMonsterID"]= 30011,
+  ["ManualScale"]= 0.8,
+  ["ManualYOffset"]= -0.2,
+  ["PetTaskManualYOffset"]= -0.2,
+  ["PicName"]= 30011,
+  ["SequenceID"]= 178,
+  ["TaskId"]= {
+    1,
+    2,
+    37,
+    38
+  }
+},
+[30012] = {
+  ["CollectionID"]= 30012,
+  ["CollectionMonsterID"]= 30012,
+  ["ManualScale"]= 0.5,
+  ["ManualYOffset"]= -0.5,
+  ["PetTaskManualScale"]= 0.6,
+  ["PetTaskManualYOffset"]= -0.5,
+  ["PicName"]= 30012,
+  ["SequenceID"]= 172,
+  ["TaskId"]= {
+    1,
+    2,
+    25,
+    27,
+    28
+  }
+},
+[30013] = {
+  ["CollectionID"]= 30013,
+  ["CollectionMonsterID"]= 30013,
+  ["ManualScale"]= 0.8,
+  ["ManualYOffset"]= -0.3,
+  ["PetTaskManualScale"]= 0.8,
+  ["PetTaskManualYOffset"]= -0.3,
+  ["PicName"]= 30013,
+  ["SequenceID"]= 177,
+  ["TaskId"]= {
+    1,
+    2,
+    33,
+    34
+  }
+},
+[30015] = {
+  ["CollectionID"]= 30015,
+  ["CollectionMonsterID"]= 30015,
+  ["ManualScale"]= 0.45,
+  ["PetTaskManualScale"]= 0.45,
+  ["PicName"]= 30015,
+  ["SequenceID"]= 173,
+  ["TaskId"]= {
+    1,
+    2,
+    25,
+    27,
+    28
+  }
+},
+[30016] = {
+  ["CollectionID"]= 30016,
+  ["CollectionMonsterID"]= 30016,
+  ["IsSpecial"]= 1,
+  ["ManualScale"]= 0.8,
+  ["ManualYOffset"]= -0.5,
+  ["PetTaskManualScale"]= 0.8,
+  ["PetTaskManualYOffset"]= 1,
+  ["PicName"]= 30016,
+  ["SequenceID"]= 180,
+  ["TaskId"]= {
+    1,
+    2,
+    39,
+    40
+  }
+},
+[30017] = {
+  ["CollectionID"]= 30017,
+  ["CollectionMonsterID"]= 30017,
+  ["ManualScale"]= 0.8,
+  ["PetTaskManualScale"]= 0.45,
+  ["PicName"]= 30017,
+  ["SequenceID"]= 174,
+  ["TaskId"]= {
+    1,
+    2,
+    25,
+    27,
+    28
+  }
+},
+[30023] = {
+  ["CollectionID"]= 30023,
+  ["CollectionMonsterID"]= 30023,
+  ["ManualScale"]= 0.65,
+  ["PetTaskManualScale"]= 0.45,
+  ["PicName"]= 30023,
+  ["SequenceID"]= 170,
+  ["TaskId"]= {
+    1,
+    2,
+    25,
+    27,
+    28
+  }
+},
+[31001] = {
+  ["CollectionID"]= 31001,
+  ["CollectionMonsterID"]= 31001,
+  ["ManualYOffset"]= -0.2,
+  ["PetTaskManualYOffset"]= -0.2,
+  ["PicName"]= 31001,
+  ["SequenceID"]= 164,
+  ["TaskId"]= {
+    1,
+    2,
+    26,
+    27,
+    28
+  }
+},
+[31002] = {
+  ["CollectionID"]= 31002,
+  ["CollectionMonsterID"]= 31002,
+  ["ManualScale"]= 0.6,
+  ["PetTaskManualScale"]= 0.6,
+  ["PicName"]= 31002,
+  ["TaskId"]= {
+    1,
+    2,
+    26,
+    27,
+    28
+  }
+},
+[31004] = {
+  ["CollectionID"]= 31004,
+  ["CollectionMonsterID"]= 31004,
+  ["ManualYOffset"]= -0.6,
+  ["PetTaskManualYOffset"]= -0.6,
+  ["PicName"]= 31004,
+  ["SequenceID"]= 161,
+  ["TaskId"]= {
+    1,
+    2,
+    26,
+    27,
+    28
+  }
+},
+[31006] = {
+  ["CollectionID"]= 31006,
+  ["CollectionMonsterID"]= 31006,
+  ["PicName"]= 31006,
+  ["SequenceID"]= 160,
+  ["TaskId"]= {
+    1,
+    2,
+    26,
+    27,
+    28
+  }
+},
+[31008] = {
+  ["CollectionID"]= 31008,
+  ["CollectionMonsterID"]= 31008,
+  ["ManualYOffset"]= -0.4,
+  ["PetTaskManualYOffset"]= -0.4,
+  ["PicName"]= 31008,
+  ["TaskId"]= {
+    1,
+    2,
+    26,
+    27,
+    28
+  }
+},
+[31009] = {
+  ["CollectionID"]= 31009,
+  ["CollectionMonsterID"]= 31009,
+  ["IsSpecial"]= 1,
+  ["ManualScale"]= 0.6,
+  ["PetTaskManualScale"]= 0.6,
+  ["PicName"]= 31009,
+  ["SequenceID"]= 163,
+  ["TaskId"]= {
+    1,
+    2,
+    26,
+    27,
+    28
+  }
+}
+}
+local baseTable={
+  ["CollectionID"]= 10001,
+  ["CollectionMonsterID"]= 10001,
+  ["isShow"]= 1,
+  ["IsSpecial"]= 0,
+  ["ManualRotation"]= 345,
+  ["ManualScale"]= 1,
+  ["ManualYOffset"]= 0,
+  ["PetTaskManualScale"]= 1,
+  ["PetTaskManualYOffset"]= 0,
+  ["PhotoAdventureExp"]= 5,
+  ["PicName"]= 10001,
+  ["SequenceID"]= 162,
+  ["TaskId"]= {
+    1,
+    2,
+    4
+  },
+  ["UnlockAdventureExp"]= 5
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

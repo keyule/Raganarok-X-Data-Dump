@@ -1,0 +1,117 @@
+TextAsset Base
+	string m_Name = "data_guild_GuildBattlePassQuest"
+	string m_Script = "local table= {
+[1] = {
+  ["isShowName"]= 1,
+  ["times"]= 1
+},
+[2] = {
+  ["condition"]= "GuildQuestTips_2",
+  ["desc"]= "GuildQuestDesc_2",
+  ["Id"]= 2,
+  ["name"]= "GuildQuestName_2",
+  ["times"]= 20,
+  ["type"]= 2
+},
+[3] = {
+  ["condition"]= "GuildQuestTips_3",
+  ["desc"]= "GuildQuestDesc_3",
+  ["Id"]= 3,
+  ["isShowName"]= 1,
+  ["name"]= "GuildQuestName_3",
+  ["type"]= 3
+},
+[4] = {
+  ["condition"]= "GuildQuestTips_4",
+  ["desc"]= "GuildQuestDesc_4",
+  ["Id"]= 4,
+  ["name"]= "GuildQuestName_4",
+  ["reward"]= 10,
+  ["times"]= 160,
+  ["type"]= 4
+},
+[5] = {
+  ["condition"]= "GuildQuestTips_5",
+  ["desc"]= "GuildQuestDesc_5",
+  ["Id"]= 5,
+  ["name"]= "GuildQuestName_5",
+  ["reward"]= 10,
+  ["times"]= 30,
+  ["type"]= 5
+},
+[6] = {
+  ["condition"]= "GuildQuestTips_6",
+  ["desc"]= "GuildQuestDesc_6",
+  ["Id"]= 6,
+  ["name"]= "GuildQuestName_6",
+  ["reward"]= 10,
+  ["times"]= 5,
+  ["type"]= 6
+},
+[7] = {
+  ["condition"]= "GuildQuestTips_7",
+  ["desc"]= "GuildQuestDesc_7",
+  ["Id"]= 7,
+  ["name"]= "GuildQuestName_7",
+  ["reward"]= 10,
+  ["type"]= 7
+},
+[8] = {
+  ["condition"]= "GuildQuestTips_8",
+  ["desc"]= "GuildQuestDesc_8",
+  ["Id"]= 8,
+  ["isShowName"]= 1,
+  ["name"]= "GuildQuestName_8",
+  ["times"]= 1,
+  ["type"]= 8
+},
+[9] = {
+  ["condition"]= "GuildQuestTips_9",
+  ["desc"]= "GuildQuestDesc_9",
+  ["Id"]= 9,
+  ["name"]= "GuildQuestName_9",
+  ["times"]= 20,
+  ["type"]= 9
+},
+[10] = {
+  ["condition"]= "GuildQuestTips_10",
+  ["desc"]= "GuildQuestDesc_10",
+  ["Id"]= 10,
+  ["name"]= "GuildQuestName_10",
+  ["times"]= 10,
+  ["type"]= 10
+},
+[11] = {
+  ["condition"]= "GuildQuestTips_11",
+  ["desc"]= "GuildQuestDesc_11",
+  ["Id"]= 11,
+  ["name"]= "GuildQuestName_11",
+  ["reward"]= 10,
+  ["type"]= 11
+},
+[12] = {
+  ["condition"]= "GuildQuestTips_12",
+  ["desc"]= "GuildQuestDesc_12",
+  ["Id"]= 12,
+  ["name"]= "GuildQuestName_12",
+  ["reward"]= 10,
+  ["times"]= 5,
+  ["type"]= 12
+}
+}
+local baseTable={
+  ["condition"]= "GuildQuestTips_1",
+  ["desc"]= "GuildQuestDesc_1",
+  ["Id"]= 1,
+  ["isShowName"]= 0,
+  ["name"]= "GuildQuestName_1",
+  ["param"]= 0,
+  ["preTaskId"]= 0,
+  ["reward"]= 20,
+  ["times"]= 40,
+  ["type"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

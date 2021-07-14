@@ -1,0 +1,182 @@
+TextAsset Base
+	string m_Name = "data_guild_guild"
+	string m_Script = "local table= {
+[1] = {}
+}
+local baseTable={
+  ["changeIconCd"]= 259200,
+  ["changePositionEmail"]= 1002,
+  ["createCostCurrencyType"]= 1,
+  ["createCostCurrencyValue"]= 300000,
+  ["createCostPropAmount"]= 1,
+  ["createCostPropId"]= 10403009,
+  ["DefaultAnnoucement_1"]= "GuildDefaultAnnounce_1",
+  ["DefaultAnnoucement_2"]= "GuildDefaultAnnounce_2",
+  ["DefaultChangePositionMail"]= 1006,
+  ["DefaultGuildIcon"]= {
+    "Guild_Icon_1",
+    "Guild_Icon_2",
+    "Guild_Icon_3",
+    "Guild_Icon_4",
+    "Guild_Icon_5",
+    "Guild_Icon_6",
+    "Guild_Icon_7",
+    "Guild_Icon_8",
+    "Guild_Icon_9",
+    "Guild_Icon_10"
+  },
+  ["dismissCD"]= 43200,
+  ["dismissEmail"]= 1008,
+  ["durationOfDismiss"]= 172800,
+  ["giveServantLikeLimit"]= 3,
+  ["giveServantLikePerPoint"]= 10,
+  ["GuildBattlePassMail"]= 0,
+  ["GuildBattlePassNum"]= 0,
+  ["GuildBattlePassOpen"]= 1504178000,
+  ["GuildChangeNameItemCD"]= 259200,
+  ["GuildChangeNameItemClient"]= 1003,
+  ["GuildCreationNPC"]= 10101020,
+  ["GuildDefaultFund"]= 20000,
+  ["GuildImpeachmentMailForLeader"]= 1014,
+  ["GuildImpeachmentMailForMember"]= 1015,
+  ["GuildImpeachmentTimeForLeader"]= 604800,
+  ["GuildImpeachmentTimeForMember"]= 86400,
+  ["GuildLevelUnlockBattlePass"]= 2,
+  ["GuildLineInvitationChangeCd"]= 259200,
+  ["GuildLineInvitationLevelLimit"]= 2,
+  ["GuildOrderAward"]= {
+    {
+      ["EmperiumAward"]= 0,
+      ["GuildFund"]= 0,
+      ["GuildOrderValueSum"]= 50000,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 25,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    },
+    {
+      ["EmperiumAward"]= 0,
+      ["GuildFund"]= 0,
+      ["GuildOrderValueSum"]= 150000,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 50,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    },
+    {
+      ["EmperiumAward"]= 0,
+      ["GuildFund"]= 0,
+      ["GuildOrderValueSum"]= 250000,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 75,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    },
+    {
+      ["EmperiumAward"]= 0,
+      ["GuildFund"]= 0,
+      ["GuildOrderValueSum"]= 350000,
+      ["MemberAward"]= {
+        {
+          ["amount"]= 100,
+          ["staticId"]= 10204103,
+          ["type"]= 5
+        }
+      }
+    }
+  },
+  ["GuildSkillLabel"]= {
+    "GuildSkillLabel_1",
+    "GuildSkillLabel_2"
+  },
+  ["GuildTerritory"]= 6000,
+  ["GuildUpdateRemindMail"]= 1013,
+  ["id"]= 1,
+  ["JoinEmail"]= 1003,
+  ["kickMemberEmail"]= 1001,
+  ["KvmOpenLimit"]= 40,
+  ["MAX_GUILD_APPLY_TIME_STORE"]= 86400,
+  ["MaxAnnoucement_1"]= 20,
+  ["MaxAnnoucement_2"]= 100,
+  ["maxAnnouncementLength"]= 50,
+  ["MaxApplyListNum"]= 100,
+  ["maxEventAmount"]= 50,
+  ["maxLevel"]= 10,
+  ["MaxOrderAmount"]= 8,
+  ["MaxPrayAmount"]= 6,
+  ["MoneyIcon"]= 1001,
+  ["nameLength"]= {
+    4,
+    16
+  },
+  ["OrderAwardEmail"]= 1004,
+  ["OrderCoolDown"]= 600,
+  ["OrderDailyDouble"]= 0,
+  ["OrderMaxHelpAmount"]= 5,
+  ["OrderMaxHelpedAmount"]= 3,
+  ["personalAwardMail"]= 1012,
+  ["playerLevelLimit"]= 10,
+  ["positionNameLength"]= {
+    1,
+    8
+  },
+  ["PrayMaxLevel"]= {
+    ["1"]= 10,
+    ["10"]= 100,
+    ["2"]= 20,
+    ["3"]= 30,
+    ["4"]= 40,
+    ["5"]= 50,
+    ["6"]= 60,
+    ["7"]= 70,
+    ["8"]= 80,
+    ["9"]= 90
+  },
+  ["pvpMemberRankAwardMail"]= 2003,
+  ["pvpRankAwardMail"]= 0,
+  ["pvpRankSettleAnnouncement"]= 10,
+  ["RefreshTime"]= 5,
+  ["servantLastTime"]= 2592000,
+  ["SkillCancelCd"]= 86400,
+  ["unlockOrderCostCrystal"]= {
+    1000,
+    1000,
+    1000,
+    1000,
+    2000,
+    2000,
+    2000,
+    2000,
+    3000,
+    3000,
+    3000,
+    3000,
+    4000,
+    4000,
+    4000,
+    4000,
+    5000,
+    5000,
+    5000,
+    5000,
+    6000,
+    6000,
+    6000,
+    6000
+  },
+  ["warehouseAwardMailId"]= 1011,
+  ["weekOrderAwardEmail"]= 1005
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

@@ -1,0 +1,45 @@
+TextAsset Base
+	string m_Name = "data_Region"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["Des"]= "印尼",
+  ["Id"]= 2,
+  ["RegionKey"]= "ID",
+  ["RegionName"]= "RegionName2"
+},
+[3] = {
+  ["Des"]= "马来西亚",
+  ["Id"]= 3,
+  ["RegionKey"]= "MY",
+  ["RegionName"]= "RegionName3"
+},
+[4] = {
+  ["Des"]= "菲律宾",
+  ["Id"]= 4,
+  ["RegionKey"]= "PH",
+  ["RegionName"]= "RegionName4"
+},
+[5] = {
+  ["Des"]= "新加坡",
+  ["Id"]= 5,
+  ["RegionKey"]= "SG",
+  ["RegionName"]= "RegionName5"
+},
+[6] = {
+  ["Des"]= "越南",
+  ["Id"]= 6,
+  ["RegionKey"]= "VN",
+  ["RegionName"]= "RegionName6"
+}
+}
+local baseTable={
+  ["Des"]= "泰国",
+  ["Id"]= 1,
+  ["RegionKey"]= "TH",
+  ["RegionName"]= "RegionName1"
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

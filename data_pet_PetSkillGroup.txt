@@ -1,0 +1,60 @@
+TextAsset Base
+	string m_Name = "data_pet_PetSkillGroup"
+	string m_Script = "local table= {
+[1] = {
+  ["RandomWeight"]= 0
+},
+[2] = {
+  ["GroupId"]= 2,
+  ["ID"]= 2,
+  ["Skill"]= 1002
+},
+[3] = {
+  ["GroupId"]= 3,
+  ["ID"]= 3,
+  ["Skill"]= 1003
+},
+[4] = {
+  ["GroupId"]= 4,
+  ["ID"]= 4,
+  ["RandomWeight"]= 200,
+  ["Skill"]= 1004
+},
+[5] = {
+  ["GroupId"]= 5,
+  ["ID"]= 5,
+  ["RandomWeight"]= 400,
+  ["Skill"]= 1005
+},
+[6] = {
+  ["GroupId"]= 6,
+  ["ID"]= 6,
+  ["RandomWeight"]= 500,
+  ["Skill"]= 1006
+},
+[7] = {
+  ["GroupId"]= 7,
+  ["ID"]= 7,
+  ["RandomWeight"]= 150,
+  ["Skill"]= 1007
+}
+}
+local baseTable={
+  ["GroupId"]= 1,
+  ["ID"]= 1,
+  ["LibID"]= 1000,
+  ["RandomWeight"]= 100,
+  ["Skill"]= 1001,
+  ["SkillList"]= {
+    1,
+    2
+  },
+  ["Weight"]= {
+    1000,
+    1000
+  }
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

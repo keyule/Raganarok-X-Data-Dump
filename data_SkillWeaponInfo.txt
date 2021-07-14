@@ -1,0 +1,24 @@
+TextAsset Base
+	string m_Name = "data_SkillWeaponInfo"
+	string m_Script = "
+
+SwordSwordShield
+
+SwordWristerSwordShield
+
+
+AxeWristerSwordShield
+
+AxeSwordShield
+
+WandIkon
+WandLibram
+
+	AxeShieldSwordShield
+
+TowHandedAxeTwoHandedSword
+
+WandStaff
+
+
+WandLibramWand"

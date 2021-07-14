@@ -1,0 +1,167 @@
+TextAsset Base
+	string m_Name = "data_guild_guildPve"
+	string m_Script = "local table= {
+[1] = {}
+}
+local baseTable={
+  ["activeAfterJoined"]= 187200,
+  ["advanceEnterTime"]= 300,
+  ["battleTime"]= 1740,
+  ["bossBornPos"]= {
+    40.2,
+    -88
+  },
+  ["bossBornRotation"]= {
+    0.99999994,
+    5.96046448E-08
+  },
+  ["bossIdList"]= {
+    56001,
+    56002,
+    56003,
+    56004,
+    56005,
+    56006,
+    56007,
+    56008,
+    56009,
+    56010,
+    56011,
+    56012,
+    56013,
+    56014,
+    56015,
+    56016,
+    56001,
+    56002,
+    56003,
+    56004,
+    56005,
+    56006,
+    56007,
+    56008,
+    56009,
+    56010,
+    56011,
+    56012,
+    56013,
+    56014,
+    56015,
+    56016
+  },
+  ["bossLevel"]= {
+    41,
+    43,
+    45,
+    47,
+    49,
+    51,
+    53,
+    55,
+    57,
+    59,
+    61,
+    63,
+    65,
+    67,
+    69,
+    71,
+    73,
+    75,
+    77,
+    79,
+    81,
+    83,
+    85,
+    87,
+    89,
+    91,
+    93,
+    95,
+    97,
+    99,
+    101,
+    103
+  },
+  ["bossRefreshInterval"]= 10,
+  ["exitTime"]= 300,
+  ["guildLevelLimit"]= 2,
+  ["id"]= 1,
+  ["maxProgress"]= 100000,
+  ["needValue"]= {
+    60000
+  },
+  ["NpcId"]= 60001006,
+  ["openMail"]= 1016,
+  ["personalAwardFactorOfBattle"]= 0,
+  ["personalAwardMail"]= 1010,
+  ["preBattleAnnouncement"]= {
+    {
+      ["id"]= 5,
+      ["time"]= 300
+    },
+    {
+      ["id"]= 6,
+      ["time"]= 180
+    },
+    {
+      ["id"]= 7,
+      ["time"]= 60
+    },
+    {
+      ["id"]= 8,
+      ["time"]= 1
+    }
+  },
+  ["prepareTime"]= 60,
+  ["progressMailId"]= 1009,
+  ["sendMailProgress"]= 130000,
+  ["stageGuide"]= {
+    {
+      ["amountText"]= "",
+      ["itemList"]= {
+        10101001
+      },
+      ["itemText"]= "GuildPveStage1_2",
+      ["openText"]= "GuildPveStage1_1"
+    },
+    {
+      ["amountText"]= "",
+      ["itemList"]= {
+        10101002
+      },
+      ["itemText"]= "GuildPveStage2_2",
+      ["openText"]= ""
+    },
+    {
+      ["amountText"]= "GuildPveStage3_3",
+      ["itemList"]= {
+        10101003
+      },
+      ["itemText"]= "GuildPveStage3_2",
+      ["openText"]= ""
+    },
+    {
+      ["amountText"]= "GuildPveStage4_3",
+      ["itemList"]= {
+        10101004
+      },
+      ["itemText"]= "GuildPveStage4_2",
+      ["openText"]= ""
+    }
+  },
+  ["timeForSelected"]= {
+    "18:00",
+    "18:30",
+    "19:00",
+    "19:30",
+    "20:00",
+    "20:30",
+    "21:00",
+    "21:30"
+  }
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

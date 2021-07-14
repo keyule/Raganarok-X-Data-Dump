@@ -1,0 +1,35 @@
+TextAsset Base
+	string m_Name = "data_pet_PetStar"
+	string m_Script = "local table= {
+[1] = {},
+[2] = {
+  ["Quality"]= 2
+},
+[3] = {
+  ["Quality"]= 3
+},
+[4] = {
+  ["Quality"]= 4
+}
+}
+local baseTable={
+  ["PotentialitySum"]= {
+    10,
+    20,
+    30,
+    40,
+    50
+  },
+  ["Quality"]= 1,
+  ["StarNum"]= {
+    1,
+    2,
+    3,
+    4,
+    5
+  }
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

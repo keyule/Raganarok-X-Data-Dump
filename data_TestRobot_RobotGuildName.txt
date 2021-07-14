@@ -1,0 +1,252 @@
+TextAsset Base
+	string m_Name = "data_TestRobot_RobotGuildName"
+	string m_Script = "local table= {
+[1] = {
+  ["guildLogo"]= "Guild_Icon_7"
+},
+[4] = {
+  ["guildName"]= "等下重启服务器",
+  ["id"]= 2
+},
+[5] = {
+  ["guildLogo"]= "Guild_Icon_2",
+  ["guildName"]= "三点啦饮茶先啦",
+  ["id"]= 3
+},
+[6] = {
+  ["guildLogo"]= "Guild_Icon_4",
+  ["guildName"]= "不要冷冰冰",
+  ["id"]= 4
+},
+[8] = {
+  ["guildLogo"]= "Guild_Icon_5",
+  ["guildName"]= "等个配置热更新",
+  ["id"]= 5
+},
+[9] = {
+  ["guildLogo"]= "Guild_Icon_6",
+  ["guildName"]= "飞龙骑脸怎么赢",
+  ["id"]= 6
+},
+[10] = {
+  ["guildLogo"]= "Guild_Icon_8",
+  ["guildName"]= "慎重的泳者",
+  ["id"]= 7
+},
+[11] = {
+  ["guildLogo"]= "Guild_Icon_9",
+  ["guildName"]= "我们之中有内鬼",
+  ["id"]= 8
+},
+[12] = {
+  ["guildLogo"]= "Guild_Icon_3",
+  ["guildName"]= "明明会长先来的",
+  ["id"]= 9
+},
+[13] = {
+  ["guildName"]= "公会名有七个字",
+  ["id"]= 10
+},
+[14] = {
+  ["guildName"]= "一千减七算不来",
+  ["id"]= 11
+},
+[15] = {
+  ["guildLogo"]= "Guild_Icon_3",
+  ["guildName"]= "为什么那么熟练",
+  ["id"]= 12
+},
+[16] = {
+  ["guildLogo"]= "Guild_Icon_7",
+  ["guildName"]= "创业未半就跑路",
+  ["id"]= 13
+},
+[17] = {
+  ["guildLogo"]= "Guild_Icon_7",
+  ["guildName"]= "三面包夹芝士",
+  ["id"]= 14
+},
+[18] = {
+  ["guildLogo"]= "Guild_Icon_2",
+  ["guildName"]= "加时赛五百强",
+  ["id"]= 15
+},
+[19] = {
+  ["guildName"]= "我们都被针对了",
+  ["id"]= 16
+},
+[20] = {
+  ["guildLogo"]= "Guild_Icon_3",
+  ["guildName"]= "拾不到的朝花",
+  ["id"]= 17
+},
+[21] = {
+  ["guildLogo"]= "Guild_Icon_5",
+  ["guildName"]= "巴巴耶夫教会",
+  ["id"]= 18
+},
+[22] = {
+  ["guildLogo"]= "Guild_Icon_4",
+  ["guildName"]= "写好多好多惨字",
+  ["id"]= 19
+},
+[23] = {
+  ["guildLogo"]= "Guild_Icon_3",
+  ["guildName"]= "全员重伤倒地",
+  ["id"]= 20
+},
+[24] = {
+  ["guildLogo"]= "Guild_Icon_5",
+  ["guildName"]= "雨丝文艺社团",
+  ["id"]= 21
+},
+[25] = {
+  ["guildLogo"]= "Guild_Icon_4",
+  ["guildName"]= "琉璃圆舞曲",
+  ["id"]= 22
+},
+[26] = {
+  ["guildLogo"]= "Guild_Icon_3",
+  ["guildName"]= "竹林群英会",
+  ["id"]= 23
+},
+[27] = {
+  ["guildLogo"]= "Guild_Icon_4",
+  ["guildName"]= "喂公会成员吃饼",
+  ["id"]= 24
+},
+[28] = {
+  ["guildLogo"]= "Guild_Icon_3",
+  ["guildName"]= "全甲沙鹰我不听",
+  ["id"]= 25
+},
+[29] = {
+  ["guildLogo"]= "Guild_Icon_2",
+  ["guildName"]= "嘿哟阿达西",
+  ["id"]= 26
+},
+[30] = {
+  ["guildLogo"]= "Guild_Icon_7",
+  ["guildName"]= "一片珊瑚海",
+  ["id"]= 27
+},
+[31] = {
+  ["guildName"]= "这家是卖咸鱼的",
+  ["id"]= 28
+},
+[32] = {
+  ["guildLogo"]= "Guild_Icon_4",
+  ["guildName"]= "永夜岗哨",
+  ["id"]= 29
+},
+[33] = {
+  ["guildLogo"]= "Guild_Icon_2",
+  ["guildName"]= "青色天堂鸟",
+  ["id"]= 30
+},
+[34] = {
+  ["guildLogo"]= "Guild_Icon_7",
+  ["guildName"]= "霸体搞死你",
+  ["id"]= 31
+},
+[35] = {
+  ["guildName"]= "夜色海湾",
+  ["id"]= 32
+},
+[36] = {
+  ["guildLogo"]= "Guild_Icon_7",
+  ["guildName"]= "队友坑我千百遍",
+  ["id"]= 33
+},
+[37] = {
+  ["guildLogo"]= "Guild_Icon_2",
+  ["guildName"]= "布加拉提培训班",
+  ["id"]= 34
+},
+[38] = {
+  ["guildName"]= "躺在地上数星星",
+  ["id"]= 35
+},
+[39] = {
+  ["guildLogo"]= "Guild_Icon_3",
+  ["guildName"]= "守望者之林",
+  ["id"]= 36
+},
+[40] = {
+  ["guildLogo"]= "Guild_Icon_5",
+  ["guildName"]= "春暖花花幼儿园",
+  ["id"]= 37
+},
+[41] = {
+  ["guildLogo"]= "Guild_Icon_4",
+  ["guildName"]= "很神秘的组织",
+  ["id"]= 38
+},
+[42] = {
+  ["guildLogo"]= "Guild_Icon_3",
+  ["guildName"]= "茸茸甜甜圈店",
+  ["id"]= 39
+},
+[43] = {
+  ["guildLogo"]= "Guild_Icon_8",
+  ["guildName"]= "听雨阁",
+  ["id"]= 40
+},
+[44] = {
+  ["guildLogo"]= "Guild_Icon_8",
+  ["guildName"]= "和谁都五五开",
+  ["id"]= 41
+},
+[45] = {
+  ["guildLogo"]= "Guild_Icon_9",
+  ["guildName"]= "组队吃蟹黄堡",
+  ["id"]= 42
+},
+[46] = {
+  ["guildLogo"]= "Guild_Icon_5",
+  ["guildName"]= "一刀破伤风",
+  ["id"]= 43
+},
+[47] = {
+  ["guildLogo"]= "Guild_Icon_7",
+  ["guildName"]= "执笔一幅情画",
+  ["id"]= 44
+},
+[48] = {
+  ["guildName"]= "迪奥面包店",
+  ["id"]= 45
+},
+[49] = {
+  ["guildLogo"]= "Guild_Icon_7",
+  ["guildName"]= "谁给我留个id",
+  ["id"]= 46
+},
+[50] = {
+  ["guildLogo"]= "Guild_Icon_2",
+  ["guildName"]= "防忽悠联盟",
+  ["id"]= 47
+},
+[51] = {
+  ["guildName"]= "克魔岛海上军团",
+  ["id"]= 48
+},
+[52] = {
+  ["guildLogo"]= "Guild_Icon_3",
+  ["guildName"]= "云端上的梦都",
+  ["id"]= 49
+},
+[53] = {
+  ["guildLogo"]= "Guild_Icon_5",
+  ["guildName"]= "此公会名不合规",
+  ["id"]= 50
+}
+}
+local baseTable={
+  ["guildLogo"]= "Guild_Icon_1",
+  ["guildName"]= "头发一定是绿的",
+  ["id"]= 1
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"

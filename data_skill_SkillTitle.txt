@@ -1,0 +1,100 @@
+TextAsset Base
+	string m_Name = "data_skill_SkillTitle"
+	string m_Script = "local table= {
+[100] = {},
+[101] = {
+  ["Common"]= "Sword",
+  ["ID"]= 101,
+  ["Skill"]= "Sword"
+},
+[102] = {
+  ["Common"]= "Axe",
+  ["ID"]= 102,
+  ["Skill"]= "Axe"
+},
+[103] = {
+  ["Common"]= "Wand",
+  ["ID"]= 103,
+  ["Skill"]= "Wand"
+},
+[104] = {
+  ["Common"]= "BluntInstrument",
+  ["Effect"]= 0,
+  ["ID"]= 104,
+  ["Skill"]= "BluntInstrument"
+},
+[105] = {
+  ["ID"]= 105
+},
+[107] = {
+  ["Common"]= "Book",
+  ["Effect"]= 0,
+  ["ID"]= 107,
+  ["Skill"]= "Book"
+},
+[301] = {
+  ["Common"]= "TwoHandedSword",
+  ["ID"]= 301,
+  ["Skill"]= "TwoHandedSword"
+},
+[302] = {
+  ["Common"]= "TwoHandedAxe",
+  ["ID"]= 302,
+  ["Skill"]= "TwoHandedAxe"
+},
+[303] = {
+  ["Common"]= "TwoHandedSpear",
+  ["ID"]= 303,
+  ["Skill"]= "TwoHandedSpear"
+},
+[304] = {
+  ["Common"]= "KnuckleDusters",
+  ["ID"]= 304,
+  ["Skill"]= "KnuckleDusters"
+},
+[305] = {
+  ["Common"]= "Bow",
+  ["ID"]= 305,
+  ["Skill"]= "Bow"
+},
+[306] = {
+  ["Common"]= "Staff",
+  ["ID"]= 306,
+  ["Skill"]= "Staff"
+},
+[307] = {
+  ["Common"]= "MusicalInstruments",
+  ["ID"]= 307,
+  ["Skill"]= "MusicalInstruments"
+},
+[997] = {
+  ["Common"]= "Slingshot",
+  ["ID"]= 997,
+  ["Skill"]= "Slingshot"
+},
+[998] = {
+  ["Common"]= "Slingshot",
+  ["ID"]= 998,
+  ["Skill"]= "Slingshot"
+},
+[999] = {
+  ["Common"]= "Boxing",
+  ["ID"]= 999,
+  ["Skill"]= "Boxing"
+},
+[105105] = {
+  ["Common"]= "DualDagger",
+  ["ID"]= 105105,
+  ["Skill"]= "DualDagger"
+}
+}
+local baseTable={
+  ["Common"]= "Dagger",
+  ["Effect"]= "",
+  ["ID"]= 100,
+  ["Skill"]= "Dagger"
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;"
