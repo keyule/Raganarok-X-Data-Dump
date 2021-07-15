@@ -1,3 +1,6 @@
+Note: I realised there are multiple Poring Cards, I think thats the default value when the monster is not in the game yet or something
+
+
 | id      | isCardDrop | Name                     | staticID | English Name                     | probability | probabilityDenominator | DropRate |  Number to kill              |
 |---------|------------|--------------------------|----------|----------------------------------|-------------|------------------------|----------|------------------------------|
 | 1000107 | 1          |  "波利-卡片道具"         | 10102001 | Poring Card                      | 55          | 5000000                | 0.0011   |           90,909.09          |
