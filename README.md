@@ -20,3 +20,4 @@ Raganarok X: Next Generation Data Dump
 | data_tower_TowerLayer        | TOA (Shows EXP Gained/Monster/Drops)     |
 | data_question_question       | OX Quiz & Adventure Quiz                 |
 | data_PropCalculation         | Crit/Pen/Others Tables                   |
+| data_equip_refine            | Refine Stuff                             |
