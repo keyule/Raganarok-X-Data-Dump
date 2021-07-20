@@ -3,7 +3,7 @@ import re
 import csv
 
 
-with open('modified_data_drop_Drop.txt', "r", encoding = "utf8") as f:
+with open('data_monster_Monster', "r", encoding = "utf8") as f:
     alist = [line.rstrip() for line in f]
 
 
