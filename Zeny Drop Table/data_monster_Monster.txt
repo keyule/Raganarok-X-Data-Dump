@@ -1,6 +1,3 @@
-TextAsset Base
-	string m_Name = "data_monster_Monster"
-	string m_Script = "local table= {
 [10001] = {
   ["alertRange"]= 7,
   ["aniSpeed"]= 2,
