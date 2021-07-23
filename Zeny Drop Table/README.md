@@ -103,7 +103,7 @@ Sorted by level
 |Pasana                     |64   |Demi Human|Fire   |Large |382507 |321     |321    |129 |
 |Wolf                       |64   |Brute     |Earth  |Medium|255005 |268     |161    |86  |
 |Skeleton                   |65   |Undead    |Undead |Medium|271145 |220     |220    |86  |
-|Anubis                     |65   |Demi Human|Undead |Large |406717 |495     |165    |0   |
+|Anubis                     |65   |Demi Human|Undead |Large |406717 |495     |165    |129 |
 |Elder Willow               |66   |Plant     |Fire   |Large |431880 |339     |339    |129 |
 |Munak                      |66   |Undead    |Undead |Medium|287920 |226     |226    |86  |
 |Marc                       |67   |Fish      |Water  |Small |152673 |116     |116    |43  |
