@@ -1,5 +1,8 @@
 Note: I realised there are multiple Poring Cards, I think thats the default value when the monster is not in the game yet or something
 
+Added drop info to my monster table(unhide columnes from top right)  
+[My Monster Table](https://keyule.github.io/yarml/)  
+
 
 | id      | isCardDrop | Name                     | staticID | English Name                     | probability | probabilityDenominator | DropRate |  Number to kill              |
 |---------|------------|--------------------------|----------|----------------------------------|-------------|------------------------|----------|------------------------------|
